@@ -31,17 +31,33 @@ LOG = ROOT / "alinti_flood_tara_log.txt"
 DONE_FILE = ROOT / "alinti_flood_done.json"
 
 
+def _yil_tum(yil: str) -> bool:
+    return str(yil).strip().lower() in ("tum", "all", "*")
+
+
 def _paths_for_yil(yil: str) -> tuple[Path, Path]:
     if yil == "2026":
         return ROOT / "alinti_flood_tara_log.txt", ROOT / "alinti_flood_done.json"
+    if yil == "gecmis":
+        return ROOT / "alinti_flood_tara_gecmis.log", ROOT / "alinti_flood_done_gecmis.json"
+    if _yil_tum(yil):
+        return ROOT / "alinti_flood_tara_tum.log", ROOT / "alinti_flood_done_tum.json"
     return ROOT / f"alinti_flood_tara_{yil}.log", ROOT / f"alinti_flood_done_{yil}.json"
 
 
 def _log(msg: str) -> None:
+    import time as _time
+
     line = f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {msg}"
     print(line, flush=True)
     with LOG.open("a", encoding="utf-8") as f:
         f.write(line + "\n")
+    try:
+        hb = ROOT / "99_BOT_ARSIV" / "log" / "tara_heartbeat.txt"
+        hb.parent.mkdir(parents=True, exist_ok=True)
+        hb.write_text(str(_time.time()), encoding="utf-8")
+    except Exception:
+        pass
 
 
 def load_progress() -> tuple[set[str], dict[str, int]]:
@@ -70,8 +86,25 @@ def save_progress(done: set[str], attempts: dict[str, int]) -> None:
     )
 
 
+def collect_all_quotes(all_rows: dict[str, dict]) -> list[tuple[str, str | None]]:
+    """Tum yillardaki is_quote satirlari — alinti flood kuyrugu."""
+    jobs: list[tuple[str, str | None]] = []
+    seen: set[str] = set()
+    for tid, row in all_rows.items():
+        if not row.get("isQuote") or tid in seen:
+            continue
+        seen.add(tid)
+        qb = row.get("quotedBy") or row.get("quoted_by")
+        jobs.append((tid, str(qb) if qb else None))
+    return sorted(jobs, key=lambda x: int(x[0]) if x[0].isdigit() else 0, reverse=True)
+
+
 def collect_yil_quotes(all_rows: dict[str, dict], yil: str) -> list[tuple[str, str | None]]:
     """(quote_id, quoted_by) — yil kapsami."""
+    if _yil_tum(yil):
+        return collect_all_quotes(all_rows)
+    if yil == "gecmis":
+        yil = "2025"
     main_yil = {
         tid
         for tid, r in all_rows.items()
@@ -134,7 +167,7 @@ def crawl_quote_flood_deep(
     all_rows: dict[str, dict],
     *,
     max_scroll: int = 45,
-    skip_media: bool = True,
+    skip_media: bool = False,
 ) -> tuple[int, list[str], int]:
     """Status sayfasindan flood/thread parcalarini cek. (eklenen, yeni_alinti_id, konusma_sayisi)"""
     from tweet_tara import (
@@ -195,10 +228,11 @@ def crawl_quote_flood_deep(
         )
         conv = _safe_eval(page, CONVERSATION_EXTRACT_JS, quote_id, quote_id=quote_id) or []
         thread_root = _flood_root_from_rows(conv, quote_id)
+        dl_page = None if skip_media else page
         merge_rows(
             all_rows,
             _safe_eval(page, THREAD_EXTRACT_JS, thread_root, quote_id=quote_id) or [],
-            page=None,
+            dl_page,
         )
         # Konusmadaki tum tweetler (eko + baska hesap) — flood arsivi
         eko_batch = []
@@ -220,7 +254,7 @@ def crawl_quote_flood_deep(
                 "quoteOf": quote_id,
                 "threadRoot": thread_root,
                 "needsThread": False,
-                "media": [],
+                "media": raw.get("media") or [],
                 "role": "alinti-flood-eko" if is_eko else "alinti-flood",
                 "baglanti": f"alıntı flood (kök:{thread_root} alıntı:{quote_id})",
             }
@@ -229,9 +263,9 @@ def crawl_quote_flood_deep(
             else:
                 foreign_batch.append(row)
         if eko_batch:
-            merge_rows(all_rows, eko_batch, page=None)
+            merge_rows(all_rows, eko_batch, dl_page)
         if foreign_batch:
-            merge_rows(all_rows, foreign_batch, page=None)
+            merge_rows(all_rows, foreign_batch, dl_page)
         # Alinti satirini guncelle
         qparts = _safe_eval(page, QUOTE_STATUS_EXTRACT_JS, quote_id, quote_id=quote_id) or []
         for p in qparts:
@@ -240,7 +274,7 @@ def crawl_quote_flood_deep(
             if quoted_by:
                 p["quotedBy"] = quoted_by
             p["threadRoot"] = thread_root
-            merge_rows(all_rows, [p], page=None)
+            merge_rows(all_rows, [p], dl_page)
             nested = p.get("id")
             if nested and nested != quote_id:
                 new_quote_ids.append(str(nested))
@@ -266,22 +300,47 @@ def discover_quotes_on_main_status(
     *,
     limit: int = 500,
     max_scroll: int = 8,
+    offset: int = 0,
+    kesif_yillar: list[str] | None = None,
 ) -> list[str]:
     """Ana tweet status sayfalarinda gomulu alinti karti ara."""
     from tweet_tara import EXTRACT_JS, EXPAND_JS, RETRY_JS, goto_status, merge_rows, release_status_page
+    from tara_nav import recover_x_page, wait_status_ready
 
     main_ids = [
         tid
         for tid, r in all_rows.items()
-        if not r.get("isQuote") and (r.get("datetime") or "").startswith(YIL) and tid.isdigit()
+        if not r.get("isQuote")
+        and tid.isdigit()
+        and not (r.get("quoteOf") or r.get("quote_of"))
+        and (r.get("role") or "") not in ("alinti-flood", "alinti-flood-eko", "thread", "quote", "quote-deep")
     ]
+    years = kesif_yillar or ([] if _yil_tum(YIL) else [YIL if YIL != "gecmis" else "2025"])
+    if years:
+        main_ids = [
+            tid
+            for tid in main_ids
+            if any((all_rows[tid].get("datetime") or "").startswith(y) for y in years)
+        ]
     main_ids = sorted(main_ids, key=int, reverse=True)[:limit]
+    if offset > 0:
+        main_ids = main_ids[offset:]
     found: list[str] = []
-    _log(f"Keşif: {len(main_ids)} ana tweet status (alinti karti)...")
+    total = len(main_ids) + offset
+    _log(
+        f"Keşif: {len(main_ids)} ana tweet status (alinti karti)"
+        + (f" | atlanan: {offset}" if offset else "")
+        + "..."
+    )
     for i, tid in enumerate(main_ids, 1):
+        idx = offset + i
         try:
             goto_status(page, tid, fast=True)
-            page.wait_for_timeout(1200)
+            if not wait_status_ready(page, tid, max_sec=40.0, reload_at=12.0, recover_at=28.0):
+                _log(f"  >> Keşif splash — atlandi: {tid}")
+                recover_x_page(page)
+                continue
+            page.wait_for_timeout(800)
             page.evaluate(RETRY_JS)
             page.evaluate(EXPAND_JS)
             batch = page.evaluate(EXTRACT_JS) or []
@@ -304,10 +363,22 @@ def discover_quotes_on_main_status(
                         )
         except Exception as e:
             _log(f"  >> Keşif atlandi ({tid}): {e}")
+            if "closed" in str(e).lower():
+                _log("  >> Chrome kapandi — keşif durduruluyor.")
+                break
+            try:
+                recover_x_page(page)
+            except Exception:
+                pass
         finally:
             release_status_page(page)
-        if i % 25 == 0:
-            _log(f"  >> Keşif {i}/{len(main_ids)} | yeni alinti: {len(found)}")
+        if i % 12 == 0:
+            try:
+                recover_x_page(page)
+            except Exception:
+                pass
+        if idx % 25 == 0 or i == len(main_ids):
+            _log(f"  >> Keşif {idx}/{total} | yeni alinti: {len(found)}")
     return found
 
 
@@ -316,16 +387,32 @@ def main() -> int:
     from tara_lock import acquire, release
 
     parser = argparse.ArgumentParser(description="Alintilarin flood/thread tam taramasi")
-    parser.add_argument("--yil", default="2026", help="2025 veya 2026")
+    parser.add_argument(
+        "--yil",
+        default="2026",
+        help="2025, 2026, gecmis (2025 alintilarindan geriye) veya tum",
+    )
     parser.add_argument("--attach-port", type=int, default=9222)
     parser.add_argument("--max-scroll", type=int, default=45)
     parser.add_argument("--discover", type=int, default=0, help="N ana tweet status tara (0=kapali)")
-    parser.add_argument("--skip-media", action="store_true", default=True)
+    parser.add_argument("--discover-offset", type=int, default=0, help="Kesifte atlanacak ilk N tweet")
+    parser.add_argument(
+        "--kesif-yillar",
+        default="",
+        help="Kesifte taranacak yillar (orn. 2025,2026). Bos = --yil ile ayni",
+    )
+    parser.add_argument("--skip-media", action="store_true", help="Gorsel indirme kapali")
+    parser.add_argument("--with-media", action="store_true", help="Flood gorsellerini indir (varsayilan)")
     parser.add_argument("--no-pack", action="store_true")
     args = parser.parse_args()
 
     YIL = str(args.yil).strip()
     LOG, DONE_FILE = _paths_for_yil(YIL)
+    kesif_yillar = [y.strip() for y in args.kesif_yillar.split(",") if y.strip()]
+    if not kesif_yillar and YIL == "gecmis":
+        kesif_yillar = ["2025", "2026"]
+    skip_media = bool(args.skip_media) and not args.with_media
+    _log(f"Gorsel indirme: {'KAPALI' if skip_media else 'ACIK (flood parcalari dahil)'}")
 
     if not acquire(f"alinti_flood_{YIL}"):
         return 3
@@ -355,6 +442,14 @@ def main() -> int:
 
     queue: list[tuple[str, str | None]] = collect_yil_quotes(all_rows, YIL)
     done, attempts = load_progress()
+    if _yil_tum(YIL):
+        seed = ROOT / "alinti_flood_done.json"
+        if seed.is_file():
+            try:
+                prev = json.loads(seed.read_text(encoding="utf-8"))
+                done |= {str(x) for x in (prev.get("done") or []) if x}
+            except Exception:
+                pass
     total_added = 0
     pending = [j for j in queue if j[0] not in done]
     _log(
@@ -376,9 +471,13 @@ def main() -> int:
         bind_safe_page(page, PROFILE_URL_POSTS)
         close_foreign_tabs(context, page)
 
-        if args.discover > 0 and not done:
+        if args.discover > 0:
             extra = discover_quotes_on_main_status(
-                page, all_rows, limit=args.discover
+                page,
+                all_rows,
+                limit=args.discover,
+                offset=max(0, args.discover_offset),
+                kesif_yillar=kesif_yillar or None,
             )
             persist()
             for qid in extra:
@@ -398,7 +497,7 @@ def main() -> int:
                     quoted_by,
                     all_rows,
                     max_scroll=args.max_scroll,
-                    skip_media=args.skip_media,
+                    skip_media=skip_media,
                 )
             except Exception as e:
                 if "closed" in str(e).lower():
@@ -436,11 +535,20 @@ def main() -> int:
     persist()
     _log(f"BITTI | islenen alinti: {len(done)} | +{total_added} yeni/guncel kayit")
     subprocess_run = __import__("subprocess").run
+    if not skip_media:
+        _log("Eksik flood gorselleri kontrol...")
+        subprocess_run(
+            [sys.executable, str(KOD / "flood_medya_indir.py"), "--no-pack"],
+            cwd=ROOT,
+            check=False,
+        )
+        persist()
     kapsam = KOD / f"kapsam_{YIL}.py"
     if kapsam.is_file():
         subprocess_run([sys.executable, str(kapsam)], cwd=ROOT, check=False)
     if not args.no_pack:
         subprocess_run([sys.executable, str(KOD / "kapsam_durum.py")], cwd=ROOT, check=False)
+        subprocess_run([sys.executable, str(KOD / "claude_paket_olustur.py")], cwd=ROOT, check=False)
     release()
     return 0
 

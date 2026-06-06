@@ -182,6 +182,12 @@ def wipe_session() -> None:
 
 def _log(msg: str) -> None:
     print(msg, flush=True)
+    try:
+        hb = ROOT / "99_BOT_ARSIV" / "log" / "tara_heartbeat.txt"
+        hb.parent.mkdir(parents=True, exist_ok=True)
+        hb.write_text(str(time.time()), encoding="utf-8")
+    except Exception:
+        pass
 
 
 def wait_for_cdp_port(port: int, timeout_s: int = 90) -> bool:
@@ -1045,6 +1051,21 @@ CONVERSATION_EXTRACT_JS = f"""
   {LOCKED_DETECT_JS}
   const out = [];
   const seen = new Set();
+  const pickMedia = (root) => {{
+    if (!root) return [];
+    const urls = [];
+    const seenU = new Set();
+    for (const img of root.querySelectorAll('img[src]')) {{
+      let src = (img.src || '').trim();
+      if (!src || seenU.has(src)) continue;
+      if (!/twimg\\.com|pbs\\.twimg/i.test(src)) continue;
+      if (/profile_images|emoji|verified|twemoji|card_icon/i.test(src)) continue;
+      src = src.replace(/&name=\\w+$/, '&name=large');
+      seenU.add(src);
+      urls.push(src);
+    }}
+    return urls;
+  }};
   const pickAuthor = (article) => {{
     const nameBox = article.querySelector('[data-testid="User-Name"]');
     if (nameBox) {{
@@ -1098,6 +1119,7 @@ CONVERSATION_EXTRACT_JS = f"""
       inReplyToHandle,
       isEko: author === EKO,
       isQuote: false,
+      media: pickMedia(article),
       role: 'conversation'
     }});
   }}
@@ -1498,13 +1520,29 @@ def download_tweet_media(page, tweet_id: str, urls: list) -> list[str]:
             saved.append(str(path.relative_to(ROOT)).replace("\\", "/"))
             continue
         try:
-            resp = page.request.get(url, timeout=45_000)
-            if resp.ok and len(resp.body()) > 400:
-                path.write_bytes(resp.body())
+            body: bytes | None = None
+            if page is not None:
+                try:
+                    resp = page.request.get(url, timeout=45_000)
+                    if resp.ok and len(resp.body()) > 400:
+                        body = resp.body()
+                except Exception:
+                    body = None
+            if body is None:
+                import urllib.request
+
+                req = urllib.request.Request(
+                    url,
+                    headers={"User-Agent": "Mozilla/5.0 (compatible; ekonomikocu-bot/1.0)"},
+                )
+                with urllib.request.urlopen(req, timeout=45) as resp:
+                    body = resp.read()
+            if body and len(body) > 400:
+                path.write_bytes(body)
                 saved.append(str(path.relative_to(ROOT)).replace("\\", "/"))
                 _log(f"  >> Medya: {path.name} ({tweet_id})")
         except Exception as e:
-            _log(f"  >> Medya atlandi ({tweet_id} graf_{i:02d}): {e}")
+            _log(f"  >> Medya atlandi ({tweet_id} graf_{i:02d}): {type(e).__name__}")
     return saved
 
 
@@ -1709,6 +1747,8 @@ def run_period_profile_fallback(
 
 def goto_status(page, tweet_id: str, *, fast: bool = False) -> None:
     """Status sayfasi — SPA kesintilerine karsi deneme."""
+    from tara_nav import _url_has_splash_trap, recover_splash_via_profile
+
     url = status_url(tweet_id)
     page._eko_status_mode = True  # type: ignore[attr-defined]
     page._eko_status_url = url  # type: ignore[attr-defined]
@@ -1725,17 +1765,17 @@ def goto_status(page, tweet_id: str, *, fast: bool = False) -> None:
                 nav_quiet(page, 14.0)
                 page.wait_for_timeout(pause)
                 x_clear_error(page)
-                if page_stuck_loading(page) and attempt < tries - 1:
+                stuck = page_stuck_loading(page) or _url_has_splash_trap(page.url or "")
+                if stuck and attempt < tries - 1:
                     if attempt == 0:
                         page.wait_for_timeout(3000)
                         x_clear_error(page)
                         if page.locator('article[data-testid="tweet"]').count() >= 1:
                             return
-                    _log(f"  >> Status splash ({tweet_id}) — reload ({attempt + 1})")
-                    page.reload(wait_until=wait_until, timeout=timeout)
-                    nav_quiet(page, 8.0)
-                    page.wait_for_timeout(pause)
-                    x_clear_error(page)
+                    _log(f"  >> Status splash ({tweet_id}) — profil kurtarma ({attempt + 1})")
+                    if recover_splash_via_profile(page, tweet_id):
+                        return
+                    continue
                 if page.locator('article[data-testid="tweet"]').count() >= 1:
                     return
                 cur = page.url or ""
@@ -1744,6 +1784,8 @@ def goto_status(page, tweet_id: str, *, fast: bool = False) -> None:
             except Exception as e:
                 last_err = e
                 page.wait_for_timeout(1500)
+                if attempt < tries - 1 and recover_splash_via_profile(page, tweet_id):
+                    return
         if last_err:
             raise last_err
     finally:
@@ -2736,6 +2778,7 @@ def run_scrape(
         stale = 0
         recoveries = 0
         reloads = 0
+        zero_screen_streak = 0
         tried_replies = False
         tried_search = use_search_feed
         stagnation_oldest: datetime | None = None
@@ -2853,6 +2896,21 @@ def run_scrape(
 
             err_txt = " | X akis hatasi" if page_has_x_error(page) else ""
             tw = timeline_tweet_count(page)
+            if tw < 1:
+                zero_screen_streak += 1
+            else:
+                zero_screen_streak = 0
+            if zero_screen_streak >= 4 and recoveries < 15:
+                _log("  >> Ekranda 0 tweet — splash/akis kurtarma...")
+                recover_x_page(page)
+                if use_search_feed:
+                    safe_goto(page, active_search, reason="zero-ekran")
+                    page.wait_for_timeout(4000)
+                    x_clear_error(page)
+                zero_screen_streak = 0
+                recoveries += 1
+                stale = max(0, stale - 2)
+                continue
 
             _log(
                 f"Scroll {i + 1}/{max_scroll}: toplam {len(all_rows)} tweet "

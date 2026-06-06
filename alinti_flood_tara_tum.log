@@ -1,0 +1,623 @@
+[2026-06-06 21:57:14] BASLA | kuyruk: 48 alinti (tum kapsami) | atlanan (once): 47 | kalan: 1
+[2026-06-06 22:00:59]   >> Alinti flood: 2061499289873133821 (ana: 2061085287673975064)
+[2026-06-06 22:01:38]      +6 kayit | kok:2061499289873133821 | konusma:6
+[2026-06-06 22:01:44] BASLA | kuyruk: 48 alinti (tum kapsami) | atlanan (once): 47 | kalan: 1
+[2026-06-06 22:01:46] BITTI | islenen alinti: 48 | +6 yeni/guncel kayit
+[2026-06-06 22:06:12] BASLA | kuyruk: 48 alinti (tum kapsami) | atlanan (once): 48 | kalan: 0
+[2026-06-06 22:06:15] Chrome yok — CHROME_X.bat ac (9222)
+[2026-06-06 22:06:54] Keşif: 1200 ana tweet status (alinti karti)...
+[2026-06-06 22:07:19] BASLA | kuyruk: 48 alinti (tum kapsami) | atlanan (once): 48 | kalan: 0
+[2026-06-06 22:07:20] Keşif: 1200 ana tweet status (alinti karti)...
+[2026-06-06 22:07:27]   >> Keşif atlandi (2063289377623609540): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 22:07:32]   >> Keşif atlandi (2063289363799367797): Page.goto: Navigation to "https://x.com/i/status/2063289363799367797" is interrupted by another navigation to "https://x.com/i/status/2063289377623609540?failedScript="
+Call log:
+  - navigating to "https://x.com/i/status/2063289363799367797", waiting until "commit"
+
+[2026-06-06 22:07:33]   >> Keşif atlandi (2063307532567802283): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 22:08:08]   >> Keşif atlandi (2063284715029741900): Page.goto: net::ERR_ABORTED at https://x.com/i/status/2063284715029741900
+Call log:
+  - navigating to "https://x.com/i/status/2063284715029741900", waiting until "commit"
+
+[2026-06-06 22:08:25]   >> Keşif atlandi (2063279765096743323): Page.reload: net::ERR_ABORTED; maybe frame was detached?
+Call log:
+  - waiting for navigation until "commit"
+
+[2026-06-06 22:08:41]   >> Keşif atlandi (2063289363799367797): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 22:08:43]   >> Keşif atlandi (2063271349871608219): Page.goto: Navigation to "https://x.com/i/status/2063271349871608219" is interrupted by another navigation to "https://x.com/ekonomikocu"
+Call log:
+  - navigating to "https://x.com/i/status/2063271349871608219", waiting until "commit"
+
+[2026-06-06 22:08:51]   >> Keşif atlandi (2063267830879969661): Page.goto: Navigation to "https://x.com/i/status/2063267830879969661" is interrupted by another navigation to "https://x.com/i/status/2063288083550790059"
+Call log:
+  - navigating to "https://x.com/i/status/2063267830879969661", waiting until "commit"
+
+[2026-06-06 22:09:12]   >> Keşif atlandi (2063267627418394716): Page.goto: Navigation to "https://x.com/i/status/2063267627418394716" is interrupted by another navigation to "https://x.com/ekonomikocu"
+Call log:
+  - navigating to "https://x.com/i/status/2063267627418394716", waiting until "commit"
+
+[2026-06-06 22:09:25]   >> Keşif atlandi (2063284715029741900): Page.goto: net::ERR_ABORTED at https://x.com/i/status/2063284715029741900
+Call log:
+  - navigating to "https://x.com/i/status/2063284715029741900", waiting until "commit"
+
+[2026-06-06 22:09:42]   >> Keşif atlandi (2063279765096743323): Page.goto: net::ERR_ABORTED at https://x.com/i/status/2063279765096743323
+Call log:
+  - navigating to "https://x.com/i/status/2063279765096743323", waiting until "commit"
+
+[2026-06-06 22:09:51]   >> Keşif atlandi (2063271349871608219): Page.goto: Navigation to "https://x.com/i/status/2063271349871608219" is interrupted by another navigation to "https://x.com/ekonomikocu"
+Call log:
+  - navigating to "https://x.com/i/status/2063271349871608219", waiting until "commit"
+
+[2026-06-06 22:10:37]   >> Keşif atlandi (2063262561919754246): Page.goto: net::ERR_ABORTED at https://x.com/i/status/2063262561919754246
+Call log:
+  - navigating to "https://x.com/i/status/2063262561919754246", waiting until "commit"
+
+[2026-06-06 22:11:11]   >> Keşif atlandi (2063254492078903674): Page.wait_for_timeout: Connection closed while reading from the driver
+[2026-06-06 22:11:11]   >> Keşif atlandi (2063253230222528813): Page.wait_for_timeout: Connection closed while reading from the driver
+[2026-06-06 22:11:11]   >> Keşif atlandi (2063250939578863720): Page.wait_for_timeout: Connection closed while reading from the driver
+[2026-06-06 22:11:11]   >> Keşif atlandi (2063247243684049158): Page.wait_for_timeout: Connection closed while reading from the driver
+[2026-06-06 22:13:29] BASLA | kuyruk: 48 alinti (tum kapsami) | atlanan (once): 48 | kalan: 0
+[2026-06-06 22:13:30] Keşif: 400 ana tweet status (alinti karti)...
+[2026-06-06 22:15:02]   >> Keşif atlandi (2063207874218574271): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 22:15:09]   >> Keşif atlandi (2063196976242450808): Page.goto: Navigation to "https://x.com/i/status/2063196976242450808" is interrupted by another navigation to "https://x.com/i/status/2063207874218574271"
+Call log:
+  - navigating to "https://x.com/i/status/2063196976242450808", waiting until "commit"
+
+[2026-06-06 22:15:20]   >> Keşif atlandi (2063196488272863745): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 22:15:28]   >> Keşif atlandi (2063190195499925885): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 22:15:34]   >> Keşif atlandi (2063189298346688774): Page.goto: Navigation to "https://x.com/i/status/2063189298346688774" is interrupted by another navigation to "https://x.com/i/status/2063190195499925885"
+Call log:
+  - navigating to "https://x.com/i/status/2063189298346688774", waiting until "commit"
+
+[2026-06-06 22:16:10]   >> Keşif atlandi (2063039662009028927): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 22:16:16]   >> Keşif atlandi (2063038542419312705): Page.goto: Navigation to "https://x.com/i/status/2063038542419312705" is interrupted by another navigation to "https://x.com/i/status/2063039662009028927"
+Call log:
+  - navigating to "https://x.com/i/status/2063038542419312705", waiting until "commit"
+
+[2026-06-06 22:16:41]   >> Keşif atlandi (2063036776369815605): Page.goto: Navigation to "https://x.com/i/status/2063036776369815605" is interrupted by another navigation to "https://x.com/i/status/2063037223209947572"
+Call log:
+  - navigating to "https://x.com/i/status/2063036776369815605", waiting until "commit"
+
+[2026-06-06 22:16:53]   >> Keşif atlandi (2063035935239905705): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 22:17:03]   >> Keşif atlandi (2063035739663634934): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 22:17:10]   >> Keşif atlandi (2063035090125344836): Page.goto: Navigation to "https://x.com/i/status/2063035090125344836" is interrupted by another navigation to "https://x.com/i/status/2063035739663634934"
+Call log:
+  - navigating to "https://x.com/i/status/2063035090125344836", waiting until "commit"
+
+[2026-06-06 22:17:30]   >> Keşif atlandi (2063034269920800832): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 22:17:40]   >> Keşif atlandi (2063033907767808220): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 22:17:47]   >> Keşif atlandi (2063017474459648445): Page.goto: Navigation to "https://x.com/i/status/2063017474459648445" is interrupted by another navigation to "https://x.com/i/status/2063033907767808220"
+Call log:
+  - navigating to "https://x.com/i/status/2063017474459648445", waiting until "commit"
+
+[2026-06-06 22:17:47]   >> Keşif 25/400 | yeni alinti: 0
+[2026-06-06 22:17:59]   >> Keşif atlandi (2063015858482401583): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 22:18:06]   >> Keşif atlandi (2063015050097369364): Page.goto: Navigation to "https://x.com/i/status/2063015050097369364" is interrupted by another navigation to "https://x.com/i/status/2063015858482401583"
+Call log:
+  - navigating to "https://x.com/i/status/2063015050097369364", waiting until "commit"
+
+[2026-06-06 22:18:14]   >> Keşif atlandi (2063011356698202479): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 22:18:24]   >> Keşif atlandi (2063009459450864026): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 22:18:30]   >> Keşif atlandi (2063008260299305317): Page.goto: Navigation to "https://x.com/i/status/2063008260299305317" is interrupted by another navigation to "https://x.com/i/status/2063009459450864026"
+Call log:
+  - navigating to "https://x.com/i/status/2063008260299305317", waiting until "commit"
+
+[2026-06-06 22:18:38]   >> Keşif atlandi (2063007994032316735): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 22:18:44]   >> Keşif atlandi (2063007394876039534): Page.goto: Navigation to "https://x.com/i/status/2063007394876039534" is interrupted by another navigation to "https://x.com/i/status/2063007994032316735"
+Call log:
+  - navigating to "https://x.com/i/status/2063007394876039534", waiting until "commit"
+
+[2026-06-06 22:18:55]   >> Keşif atlandi (2063005642139345355): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 22:19:01]   >> Keşif atlandi (2063005214546784412): Page.goto: Navigation to "https://x.com/i/status/2063005214546784412" is interrupted by another navigation to "https://x.com/i/status/2063005642139345355"
+Call log:
+  - navigating to "https://x.com/i/status/2063005214546784412", waiting until "commit"
+
+[2026-06-06 22:19:11]   >> Keşif atlandi (2062927746901189039): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 22:19:30]   >> Keşif atlandi (2062924087580639642): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 22:19:36]   >> Keşif atlandi (2062923851302904074): Page.goto: Navigation to "https://x.com/i/status/2062923851302904074" is interrupted by another navigation to "https://x.com/i/status/2062924087580639642"
+Call log:
+  - navigating to "https://x.com/i/status/2062923851302904074", waiting until "commit"
+
+[2026-06-06 22:19:47]   >> Keşif atlandi (2062923272178524649): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 22:19:53]   >> Keşif atlandi (2062922895815254030): Page.goto: Navigation to "https://x.com/i/status/2062922895815254030" is interrupted by another navigation to "https://x.com/i/status/2062923272178524649"
+Call log:
+  - navigating to "https://x.com/i/status/2062922895815254030", waiting until "commit"
+
+[2026-06-06 22:20:12]   >> Keşif atlandi (2062916891530740030): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 22:20:18]   >> Keşif atlandi (2062913889952510097): Page.goto: Navigation to "https://x.com/i/status/2062913889952510097" is interrupted by another navigation to "https://x.com/i/status/2062916891530740030"
+Call log:
+  - navigating to "https://x.com/i/status/2062913889952510097", waiting until "commit"
+
+[2026-06-06 22:20:29]   >> Keşif atlandi (2062913347993878932): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 22:20:39]   >> Keşif atlandi (2062912369022349520): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 22:20:47]   >> Keşif atlandi (2062912105292927219): Page.goto: Navigation to "https://x.com/i/status/2062912105292927219" is interrupted by another navigation to "https://x.com/i/status/2062912369022349520"
+Call log:
+  - navigating to "https://x.com/i/status/2062912105292927219", waiting until "commit"
+
+[2026-06-06 22:20:55]   >> Keşif atlandi (2062905193931366745): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 22:21:02]   >> Keşif atlandi (2062904892625145994): Page.goto: Navigation to "https://x.com/i/status/2062904892625145994" is interrupted by another navigation to "https://x.com/i/status/2062905193931366745"
+Call log:
+  - navigating to "https://x.com/i/status/2062904892625145994", waiting until "commit"
+
+[2026-06-06 22:21:10]   >> Keşif atlandi (2062904466597171428): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 22:21:16]   >> Keşif atlandi (2062903667812941998): Page.goto: Navigation to "https://x.com/i/status/2062903667812941998" is interrupted by another navigation to "https://x.com/i/status/2062904466597171428"
+Call log:
+  - navigating to "https://x.com/i/status/2062903667812941998", waiting until "commit"
+
+[2026-06-06 22:21:16]   >> Keşif 50/400 | yeni alinti: 0
+[2026-06-06 22:22:11]   >> Keşif atlandi (2062833390970175812): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 22:22:16]   >> Keşif atlandi (2062832189390135625): Page.goto: Navigation to "https://x.com/i/status/2062832189390135625" is interrupted by another navigation to "https://x.com/i/status/2062833390970175812"
+Call log:
+  - navigating to "https://x.com/i/status/2062832189390135625", waiting until "commit"
+
+[2026-06-06 22:22:31]   >> Keşif atlandi (2062613791708160347): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 22:22:41]   >> Keşif atlandi (2062612611623985510): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 22:22:48]   >> Keşif atlandi (2062611731088592992): Page.goto: Navigation to "https://x.com/i/status/2062611731088592992" is interrupted by another navigation to "https://x.com/i/status/2062612611623985510"
+Call log:
+  - navigating to "https://x.com/i/status/2062611731088592992", waiting until "commit"
+
+[2026-06-06 22:23:50]   >> Keşif atlandi (2062605365892567185): Page.goto: Navigation to "https://x.com/i/status/2062605365892567185" is interrupted by another navigation to "https://x.com/i/status/2062605617374662666"
+Call log:
+  - navigating to "https://x.com/i/status/2062605365892567185", waiting until "commit"
+
+[2026-06-06 22:24:24]   >> Keşif atlandi (2062599087841477043): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 22:24:29]   >> Keşif atlandi (2062598147419906379): Page.goto: Navigation to "https://x.com/i/status/2062598147419906379" is interrupted by another navigation to "https://x.com/i/status/2062599087841477043"
+Call log:
+  - navigating to "https://x.com/i/status/2062598147419906379", waiting until "commit"
+
+[2026-06-06 22:24:46]   >> Keşif atlandi (2062597607717802204): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 22:24:51]   >> Keşif atlandi (2062597261658337309): Page.goto: Navigation to "https://x.com/i/status/2062597261658337309" is interrupted by another navigation to "https://x.com/i/status/2062597607717802204"
+Call log:
+  - navigating to "https://x.com/i/status/2062597261658337309", waiting until "commit"
+
+[2026-06-06 22:25:45]   >> Keşif 75/400 | yeni alinti: 0
+[2026-06-06 22:28:24]   >> Keşif atlandi (2062571183946494304): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 22:28:52]   >> Keşif atlandi (2062569442559545697): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 22:29:25]   >> Keşif atlandi (2062567968903684268): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 22:29:40]   >> Keşif atlandi (2062566793089020399): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 22:29:45]   >> Keşif atlandi (2062566560015716734): Page.goto: Navigation to "https://x.com/i/status/2062566560015716734" is interrupted by another navigation to "https://x.com/i/status/2062566793089020399"
+Call log:
+  - navigating to "https://x.com/i/status/2062566560015716734", waiting until "commit"
+
+[2026-06-06 22:30:04]   >> Keşif atlandi (2062565904563499299): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 22:30:10]   >> Keşif atlandi (2062565173634682933): Page.goto: Navigation to "https://x.com/i/status/2062565173634682933" is interrupted by another navigation to "https://x.com/i/status/2062565904563499299"
+Call log:
+  - navigating to "https://x.com/i/status/2062565173634682933", waiting until "commit"
+
+[2026-06-06 22:30:10]   >> Keşif 100/400 | yeni alinti: 0
+[2026-06-06 22:30:21]   >> Keşif atlandi (2062564630518509760): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 22:30:27]   >> Keşif atlandi (2062564007085539744): Page.goto: Navigation to "https://x.com/i/status/2062564007085539744" is interrupted by another navigation to "https://x.com/i/status/2062564630518509760"
+Call log:
+  - navigating to "https://x.com/i/status/2062564007085539744", waiting until "commit"
+
+[2026-06-06 22:30:50]   >> Keşif atlandi (2062540887503044724): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 22:30:57]   >> Keşif atlandi (2062540808817950746): Page.goto: Navigation to "https://x.com/i/status/2062540808817950746" is interrupted by another navigation to "https://x.com/i/status/2062540887503044724"
+Call log:
+  - navigating to "https://x.com/i/status/2062540808817950746", waiting until "commit"
+
+[2026-06-06 22:31:11]   >> Keşif atlandi (2062534733632811206): Page.goto: Navigation to "https://x.com/i/status/2062534733632811206" is interrupted by another navigation to "https://x.com/i/status/2062535174554845314"
+Call log:
+  - navigating to "https://x.com/i/status/2062534733632811206", waiting until "commit"
+
+[2026-06-06 22:34:08]   >> Keşif 125/400 | yeni alinti: 0
+[2026-06-06 22:37:40]   >> Keşif atlandi (2062507605004538048): Page.goto: Navigation to "https://x.com/i/status/2062507605004538048" is interrupted by another navigation to "https://x.com/i/status/2062509041348157768"
+Call log:
+  - navigating to "https://x.com/i/status/2062507605004538048", waiting until "commit"
+
+[2026-06-06 22:38:01]   >> Keşif 150/400 | yeni alinti: 0
+[2026-06-06 22:42:07]   >> Keşif atlandi (2062491054356525266): Page.goto: Navigation to "https://x.com/i/status/2062491054356525266" is interrupted by another navigation to "https://x.com/i/status/2062491401707733406"
+Call log:
+  - navigating to "https://x.com/i/status/2062491054356525266", waiting until "commit"
+
+[2026-06-06 22:43:07]   >> Keşif atlandi (2062488260916518918): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 22:43:16]   >> Keşif 175/400 | yeni alinti: 0
+[2026-06-06 22:43:40]   >> Keşif atlandi (2062487613790113830): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 22:43:50]   >> Keşif atlandi (2062487215389671817): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 22:43:59]   >> Keşif atlandi (2062486326415401451): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 22:44:16]   >> Keşif atlandi (2062485781201973254): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 22:44:22]   >> Keşif atlandi (2062485237913784559): Page.goto: Navigation to "https://x.com/i/status/2062485237913784559" is interrupted by another navigation to "https://x.com/i/status/2062485781201973254"
+Call log:
+  - navigating to "https://x.com/i/status/2062485237913784559", waiting until "commit"
+
+[2026-06-06 22:45:09]   >> Keşif atlandi (2062483597601149397): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 22:45:15]   >> Keşif atlandi (2062483554634772566): Page.goto: Navigation to "https://x.com/i/status/2062483554634772566" is interrupted by another navigation to "https://x.com/i/status/2062483597601149397"
+Call log:
+  - navigating to "https://x.com/i/status/2062483554634772566", waiting until "commit"
+
+[2026-06-06 22:45:37]   >> Keşif atlandi (2062483175872270747): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 22:45:43]   >> Keşif atlandi (2062482896460390476): Page.goto: Navigation to "https://x.com/i/status/2062482896460390476" is interrupted by another navigation to "https://x.com/i/status/2062483175872270747"
+Call log:
+  - navigating to "https://x.com/i/status/2062482896460390476", waiting until "commit"
+
+[2026-06-06 22:45:55]   >> Keşif atlandi (2062479921214017773): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 22:47:26]   >> Keşif 200/400 | yeni alinti: 0
+[2026-06-06 22:51:49]   >> Keşif 225/400 | yeni alinti: 0
+[2026-06-06 22:54:45]   >> Keşif atlandi (2062371860747333852): Page.goto: Navigation to "https://x.com/i/status/2062371860747333852" is interrupted by another navigation to "https://x.com/i/status/2062376126463295581"
+Call log:
+  - navigating to "https://x.com/i/status/2062371860747333852", waiting until "commit"
+
+[2026-06-06 22:56:12] BASLA | kuyruk: 48 alinti (tum kapsami) | atlanan (once): 48 | kalan: 0
+[2026-06-06 22:57:16] Keşif: 180 ana tweet status (alinti karti) | atlanan: 220...
+[2026-06-06 22:57:59] BASLA | kuyruk: 48 alinti (tum kapsami) | atlanan (once): 48 | kalan: 0
+[2026-06-06 22:58:01] Keşif: 180 ana tweet status (alinti karti) | atlanan: 220...
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062438604647940449): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062437772397302090): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062438604647940449): Page.evaluate: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062429734932271552): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062427287392260420): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062426258101645650): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif 225/400 | yeni alinti: 0
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062425678943854784): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062424534179889421): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062422226020732999): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062415672949322200): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062437772397302090): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062411134792069519): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062410389329965312): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062409467514298659): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062408037722169590): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062401410029760801): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062394526980055112): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062389008819232934): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062376296735219913): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062376126463295581): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062371860747333852): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062369364150542550): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062367583261647354): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062362897519714667): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062361110104432869): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062358836518797610): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062356293168345242): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062345841935831242): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062344210846548317): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062310271201210428): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062307053977141641): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062306774955225154): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif 250/400 | yeni alinti: 0
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062306633963757678): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062306009872265526): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062304984515961028): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062297394172076077): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062296062430159246): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062429734932271552): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062293750278197743): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062292381198659635): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062291956353442017): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062291339048255920): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062291189735256275): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062290874063536549): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062290335741440395): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062290060620304560): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062288926937653687): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062288222382682477): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062287310582841722): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062427287392260420): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062286329975546244): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062285785244541335): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062285518423863587): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062285104076976455): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062284439145587142): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062283975440183791): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062283418860208367): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062282699285446865): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062426258101645650): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062282261966311679): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif 275/400 | yeni alinti: 0
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062281732112425244): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062281681957220574): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062281264393081147): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062280096971366798): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif 225/400 | yeni alinti: 0
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062279400863727781): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062279042716316124): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062278392225919047): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062277918139560429): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062425678943854784): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062277671183159684): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062277605089288469): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062277442857812146): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062277161575133269): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062275384670920875): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062274857400746379): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062274373214449960): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062424534179889421): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062274263558615361): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062273666423967930): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062273276060078229): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062272845661548669): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062272760366141536): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062271918049276316): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062422226020732999): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062270516979790250): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062269761698910674): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062269702873784606): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062268862695870570): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif 300/400 | yeni alinti: 0
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062267672167919690): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062267169702838506): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062267117651534016): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062415672949322200): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062266131461857741): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062264464880132214): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062264203453358452): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062263538610024818): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062263119913562139): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062263107695612130): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062262870331580638): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062262773325689031): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062262608716083275): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062261669443653848): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062261294200217864): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062261245357506812): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062411134792069519): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062260489858515231): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062259965826318649): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062259595083391265): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062258693643620382): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062410389329965312): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062258451732889765): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062257493581955155): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062257182385565907): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062256962763370959): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062256286482247786): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062409467514298659): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062255449122943294): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif 325/400 | yeni alinti: 0
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062254610903900308): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062253560792834220): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062253417225925120): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062252769327690219): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062252542227275934): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062251307331690748): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062408037722169590): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062250982868750761): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062250229609414914): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062249755267178730): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062249277624037819): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062249170866503920): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062401410029760801): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062248724198306245): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062248392172908906): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062248061678620930): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062247112419524690): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062246620167561292): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062394526980055112): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062246441645432955): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062246167384031496): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062243798025978044): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062240696480747592): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062389008819232934): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062239892839580075): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062238527845208411): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062237001680605434): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062232920366944716): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062228892358951239): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062376296735219913): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif 350/400 | yeni alinti: 0
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062220274020368388): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062211573762932880): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062211206312550626): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062210355284087169): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062376126463295581): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062209474933232048): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062208845586309299): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062208228067303756): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062207326015144422): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062207258805612653): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062371860747333852): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062206698857628108): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062206578061664381): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062206229397565497): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062204285962633542): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062203763159384352): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062369364150542550): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062203055429288055): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062201246983823722): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062199717673546161): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062198980046430552): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062196770948436220): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062367583261647354): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062193528755610093): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062190016470696418): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062189150590152820): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062188544278331635): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062180117149892800): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062362897519714667): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062180101215940851): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif 375/400 | yeni alinti: 0
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062179691474071808): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062178632986988755): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062361110104432869): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062177645773701531): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062175501804773821): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062174914375770610): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062174540826898514): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062174292326969533): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062358836518797610): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:01]   >> Keşif atlandi (2062173057527988385): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062172817735450630): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062162759777702317): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062162027271860445): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062160331271503916): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062159988995297594): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062159719913926839): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062158522213662779): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062356293168345242): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062157916308717672): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062157419413655697): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062156931972603912): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062156392039960844): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062155713086890129): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062345841935831242): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062154223660277978): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062153936992190588): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062153538818408919): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062153141055816127): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062344210846548317): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062152396139102442): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif 400/400 | yeni alinti: 0
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062310271201210428): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062307053977141641): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062306774955225154): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif 250/400 | yeni alinti: 0
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062306633963757678): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062306009872265526): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062304984515961028): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062297394172076077): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062296062430159246): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062293750278197743): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062292381198659635): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062291956353442017): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062291339048255920): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062291189735256275): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062290874063536549): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062290335741440395): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062290060620304560): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062288926937653687): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062288222382682477): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062287310582841722): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062286329975546244): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062285785244541335): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062285518423863587): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062285104076976455): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062284439145587142): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062283975440183791): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062283418860208367): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062282699285446865): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062282261966311679): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif 275/400 | yeni alinti: 0
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062281732112425244): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062281681957220574): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062281264393081147): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062280096971366798): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062279400863727781): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062279042716316124): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:02]   >> Keşif atlandi (2062278392225919047): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062277918139560429): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062277671183159684): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062277605089288469): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062277442857812146): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062277161575133269): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062275384670920875): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062274857400746379): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062274373214449960): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062274263558615361): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062273666423967930): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062273276060078229): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062272845661548669): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062272760366141536): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062271918049276316): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062270516979790250): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062269761698910674): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062269702873784606): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062268862695870570): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif 300/400 | yeni alinti: 0
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062267672167919690): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062267169702838506): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062267117651534016): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062266131461857741): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062264464880132214): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062264203453358452): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062263538610024818): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062263119913562139): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062263107695612130): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062262870331580638): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062262773325689031): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062262608716083275): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062261669443653848): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062261294200217864): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062261245357506812): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062260489858515231): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062259965826318649): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062259595083391265): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062258693643620382): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062258451732889765): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062257493581955155): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062257182385565907): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:03]   >> Keşif atlandi (2062256962763370959): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062256286482247786): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062255449122943294): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif 325/400 | yeni alinti: 0
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062254610903900308): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062253560792834220): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062253417225925120): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062252769327690219): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062252542227275934): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062251307331690748): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062250982868750761): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062250229609414914): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062249755267178730): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062249277624037819): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062249170866503920): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062248724198306245): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062248392172908906): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062248061678620930): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062247112419524690): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062246620167561292): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062246441645432955): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062246167384031496): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062243798025978044): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062240696480747592): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062239892839580075): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062238527845208411): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062237001680605434): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062232920366944716): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062228892358951239): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif 350/400 | yeni alinti: 0
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062220274020368388): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062211573762932880): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062211206312550626): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062210355284087169): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062209474933232048): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062208845586309299): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062208228067303756): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062207326015144422): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062207258805612653): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062206698857628108): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062206578061664381): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062206229397565497): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062204285962633542): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062203763159384352): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062203055429288055): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:04]   >> Keşif atlandi (2062201246983823722): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062199717673546161): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062198980046430552): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062196770948436220): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062193528755610093): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062190016470696418): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062189150590152820): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062188544278331635): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062180117149892800): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062180101215940851): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif 375/400 | yeni alinti: 0
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062179691474071808): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062178632986988755): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062177645773701531): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062175501804773821): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062174914375770610): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062174540826898514): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062174292326969533): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062173057527988385): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062172817735450630): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062162759777702317): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062162027271860445): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062160331271503916): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062159988995297594): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062159719913926839): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062158522213662779): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062157916308717672): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062157419413655697): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062156931972603912): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062156392039960844): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062155713086890129): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062154223660277978): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062153936992190588): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062153538818408919): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062153141055816127): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif atlandi (2062152396139102442): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 22:58:05]   >> Keşif 400/400 | yeni alinti: 0
+[2026-06-06 22:58:09] Keşif bitti: +0 alinti ID
+[2026-06-06 22:58:13] Keşif bitti: +0 alinti ID
+[2026-06-06 22:58:16] BITTI | islenen alinti: 48 | +0 yeni/guncel kayit
+[2026-06-06 22:58:22] BITTI | islenen alinti: 48 | +0 yeni/guncel kayit
+[2026-06-06 22:59:36] BASLA | kuyruk: 48 alinti (tum kapsami) | atlanan (once): 48 | kalan: 0
+[2026-06-06 22:59:39] BITTI | islenen alinti: 48 | +0 yeni/guncel kayit

@@ -1,0 +1,145 @@
+
+=== TUM FLOOD TARAMA ===
+
+
+============================================================
+1/3 Sabitle + flood
+============================================================
+[2026-06-06 22:59:36] Sabitle tweet bulunamadi (profilde Pin yok veya DOM degisti)
+
+============================================================
+2/3 Alinti flood (tum yillar + keþif)
+============================================================
+[2026-06-06 22:59:36] BASLA | kuyruk: 48 alinti (tum kapsami) | atlanan (once): 48 | kalan: 0
+[2026-06-06 22:59:39] BITTI | islenen alinti: 48 | +0 yeni/guncel kayit
+
+============================================================
+3/3 #FLOOD thread parcalari
+============================================================
+Mevcut jsonl: 3459 tweet | alinTi tam: 45 | bekleyen alinti: 3
+Senin Chrome'una baglandi (port 9222).
+Profil acik — devam (ustte abone tweetleri normal).
+  >> Medya: graf_01.jpg (1770898482808643726)
+Scroll 1/5: toplam 3459 tweet (+0 yeni) | ekranda: 5 | alinti: 48 | en eski: 2019-10-31 23:04:04
+Scroll 2/5: toplam 3459 tweet (+0 yeni) | ekranda: 12 | alinti: 48 | en eski: 2019-10-31 23:04:04
+Scroll 3/5: toplam 3459 tweet (+0 yeni) | ekranda: 13 | alinti: 48 | en eski: 2019-10-31 23:04:04
+  >> DISKE YAZILDI: 3459 tweet -> cekilen_tweetler.jsonl
+Scroll 4/5: toplam 3459 tweet (+0 yeni) | ekranda: 14 | alinti: 48 | en eski: 2019-10-31 23:04:04
+  >> Kurtarma (durak #4)...
+  >> Sayfa basina donulmuyor — sadece asagi kaydiriliyor...
+Scroll 5/5: toplam 3459 tweet (+0 yeni) | ekranda: 15 | alinti: 48 | en eski: 2019-10-31 23:04:04
+  >> Kurtarma (durak #4)...
+  >> Sayfa basina donulmuyor — sadece asagi kaydiriliyor...
+Asama: #FLOOD thread parcalari...
+  >> #FLOOD thread: 2057787714632601727
+  >> Thread: 2057787714632601727
+Akis bekleniyor (1/8)...
+Akis hazir (8 tweet ekranda).
+  >> #FLOOD erisilemedi isaretlendi: 2057787714632601727
+  >> #FLOOD thread: 2025735219316203997
+  >> Thread: 2025735219316203997
+  >> #FLOOD thread: 2058590753354351085
+  >> Thread: 2058590753354351085
+  >> DISKE YAZILDI: 3459 tweet -> cekilen_tweetler.jsonl
+
+=== ASIL DOSYA: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\cekilen_tweetler.jsonl ===
+Toplam: 3459 | Ingilizce(kirli): 0
+Hafiza atlandi (--skip-hafiza). JSONL kaydedildi.
+# TARAMA 2026 (@ekonomikocu)
+
+**Guncelleme:** 2026-06-06T23:03:44
+
+## Ozet
+
+> **Genel tamamlanma: 100.0%**
+>
+> Hedef: **2026 yilindaki TUM tweetler** + **abone metinleri** + **alintilanan gecmis tweetler** + **#FLOOD parcalari** ? **%100**
+>
+> **Tamam mi?** HAYIR ? tarama devam
+
+| Alan | Tam | Eksik | % |
+|------|-----|-------|---|
+| Ana tweet (2026) | 3268 | 0 (+20 erisilemedi) | **100.0%** |
+| Alinti (2026 kapsami) | 47 | 0 | **100.0%** |
+| #FLOOD kok (2026) | 5 | 0 | **100.0%** |
+
+**En yeni kayit:** 2026-06-06
+
+## Aylik (2026)
+
+| Ay | Metinli | Bos | % |
+|----|---------|-----|---|
+| 2026-01 | 188 | 0 | 100.0% |
+| 2026-02 | 429 | 0 | 100.0% |
+| 2026-03 | 529 | 0 | 100.0% |
+| 2026-04 | 522 | 0 | 100.0% |
+| 2026-05 | 1451 | 0 | 100.0% |
+| 2026-06 | 149 | 0 | 100.0% |
+
+## Kural
+
+Yeni tweet atildiginda **TARA_2026_GUNCEL.bat** calistir (veya gunluk otomasyon).
+Eksik kalmamali: ana metin, abone, alinti, flood.
+
+---
+*Otomatik: kapsam_2026.py*
+
+# TARAMA DURUMU (@ekonomikocu)
+
+**Guncelleme:** 2026-06-06T23:03:44
+
+## Ozet (Ida'ya)
+
+> **2026-06-06 - 2025-01 sonuna kadar kesintisiz kayit VAR (alt aylarda bosluk/sorun olabilir)**
+>
+> Hedef: **2025-01-01**'e kadar tum tweet + alinti + #FLOOD
+>
+> **Tamam mi?** HAYIR — tarama devam etmeli
+
+| Metrik | Deger |
+|--------|-------|
+| En yeni kayit | **2026-06-06** |
+| En eski kayit (metinli) | **2019-10-31** |
+| Surekli tamam kadar | **2025-01-sonu** |
+| Ana tweet (metinli) | **3381** |
+| Abone (metinli) | **0** |
+| Bos / kilitli (eksik) | **0** |
+| Alinti eksik | **4** (+ bekleyen dosya: 5) |
+| #FLOOD kok / eksik tahmin | **5** / **0** |
+
+## Eksik aylar / sorunlu donemler
+
+- (yok)
+
+## Son 12 ay (metinli ana tweet)
+
+| Ay | Adet |
+|----|------|
+| 2026-06 | 149 |
+| 2026-05 | 1451 |
+| 2026-04 | 522 |
+| 2026-03 | 529 |
+| 2026-02 | 429 |
+| 2026-01 | 188 |
+| 2025-08 | 20 |
+| 2025-07 | 8 |
+| 2025-05 | 8 |
+| 2025-03 | 9 |
+| 2024-10 | 1 |
+| 2024-09 | 1 |
+
+## Bot is akisi (hedef)
+
+1. **Profil** — gunumuzden geriye kaydir (hedef: 2025-01-01)
+2. **Alinti** — alintilanan gecmis tweetlerin metni
+3. **#FLOOD** — thread parcalari
+4. **Abone** — kilitli/bos metinleri doldur
+5. Bu dosyayi guncelle: `python 99_BOT_ARSIV/kod/kapsam_durum.py`
+
+Tek komut: `python 99_BOT_ARSIV/kod/tara_tam.py`
+
+---
+*Otomatik: kapsam_durum.py*
+
+
+TUM FLOOD BITTI.

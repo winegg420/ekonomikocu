@@ -60,6 +60,9 @@ def is_eko_media_row(r: dict) -> bool:
         return False
     if not r.get("datetime"):
         return False
+    # Flood / alinti zinciri parcalari — metinde hashtag olmasa da Koç gorseli
+    if r.get("quote_of") or (r.get("kayit_tipi") or "") in ("flood-parça", "flood"):
+        return True
     if not KOC_TAG_RX.search(text):
         return False
     return True

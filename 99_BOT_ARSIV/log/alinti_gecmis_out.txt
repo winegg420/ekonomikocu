@@ -1,0 +1,436 @@
+
+=== OTOMATIK BASLA 2026-06-07 00:10:26 ===
+Traceback (most recent call last):
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tara_alinti_gecmis.py", line 117, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tara_alinti_gecmis.py", line 57, in main
+    print(
+    ~~~~~^
+        "\nALINTI GECMIS FLOOD — 2025 tohum \u2192 2019'a kadar\n"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        "Hedef: Koç'un gecmisten alintiladigi her tweetin flood/thread zinciri\n",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        flush=True,
+        ^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1254.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 35: character maps to <undefined>
+
+=== OTOMATIK BASLA 2026-06-07 00:11:21 ===
+
+ALINTI GECMIS FLOOD — 2025 tohum -> 2019'a kadar
+Hedef: Koç'un gecmisten alintiladigi her tweetin flood/thread zinciri
+
+
+============================================================
+2025 alinti tohumu 2025-01-01 .. 2025-01-08
+============================================================
+Mevcut jsonl: 3459 tweet | alinTi tam: 45 | bekleyen alinti: 3
+Senin Chrome'una baglandi (port 9222).
+Arama modu (tek sekme): https://x.com/search?q=from%3Aekonomikocu%20since%3A2025-01-01%20until%3A2025-01-08&src=typed_query&f=live
+Akis bekleniyor (1/25)...
+Akis bekleniyor (4/25)...
+Akis bekleniyor (8/25)...
+Akis bekleniyor (12/25)...
+Akis bekleniyor (16/25)...
+Akis bekleniyor (20/25)...
+Akis bekleniyor (24/25)...
+UYARI: Akis gecikiyor — ayni sekmede yenileniyor...
+Akis yenileniyor (tek sekme, sadece ekonomikocu)...
+Akis OK: https://x.com/search?q=from%3Aekonomikocu%20since%3A2025-01-01%20until
+Scroll 1/18: toplam 3459 tweet (+0 yeni) | ekranda: 4 | alinti: 48 | en eski: 2019-10-31 08:04:04
+Scroll 2/18: toplam 3459 tweet (+0 yeni) | ekranda: 2 | alinti: 48 | en eski: 2019-10-31 08:04:04
+  >> DISKE YAZILDI: 3459 tweet -> cekilen_tweetler.jsonl
+Traceback (most recent call last):
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tweet_tara.py", line 3325, in <module>
+    finish_quotes=not args.no_finish_quotes,
+                 ^^^^^^
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tweet_tara.py", line 3297, in main
+    
+    
+    ...<22 lines>...
+        purge_en_after=args.purge_en,
+        ^
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tweet_tara.py", line 3053, in run_scrape
+    page.wait_for_timeout(5000)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tweet_tara.py", line 712, in scroll_feed_deeper
+    page.evaluate(EXPAND_JS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\sync_api\_generated.py", line 9122, in evaluate
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.evaluate(expression=expression, arg=mapping.to_impl(arg))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_page.py", line 469, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_frame.py", line 323, in evaluate
+    await self._channel.send(
+    ...<6 lines>...
+    )
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.evaluate: Target page, context or browser has been closed
+
+============================================================
+2025 alinti tohumu 2025-01-08 .. 2025-01-15
+============================================================
+Mevcut jsonl: 3459 tweet | alinTi tam: 45 | bekleyen alinti: 3
+Chrome debug bekleniyor (10/90s)...
+
+=== OTOMATIK BASLA 2026-06-07 00:15:54 ===
+
+ALINTI GECMIS FLOOD — 2025 tohum -> 2019'a kadar
+Hedef: Koç'un gecmisten alintiladigi her tweetin flood/thread zinciri
+
+
+============================================================
+2025 alinti tohumu 2025-01-01 .. 2025-01-08
+============================================================
+Mevcut jsonl: 3459 tweet | alinTi tam: 45 | bekleyen alinti: 3
+Senin Chrome'una baglandi (port 9222).
+Arama modu (tek sekme): https://x.com/search?q=from%3Aekonomikocu%20since%3A2025-01-01%20until%3A2025-01-08&src=typed_query&f=live
+Akis bekleniyor (1/25)...
+Akis bekleniyor (4/25)...
+Akis bekleniyor (8/25)...
+Akis bekleniyor (12/25)...
+Akis bekleniyor (16/25)...
+Akis bekleniyor (20/25)...
+Akis bekleniyor (24/25)...
+UYARI: Akis gecikiyor — ayni sekmede yenileniyor...
+Akis yenileniyor (tek sekme, sadece ekonomikocu)...
+Akis OK: https://x.com/search?q=from%3Aekonomikocu%20since%3A2025-01-01%20until
+Scroll 1/18: toplam 3471 tweet (+12 yeni) | ekranda: 12 | alinti: 48 | en eski: 2019-10-31 02:04:04
+Scroll 2/18: toplam 3485 tweet (+14 yeni) | ekranda: 14 | alinti: 48 | en eski: 2019-10-31 02:04:04
+Scroll 3/18: toplam 3499 tweet (+14 yeni) | ekranda: 13 | alinti: 49 | en eski: 2019-10-31 02:04:04
+  >> DISKE YAZILDI: 3499 tweet -> cekilen_tweetler.jsonl
+Scroll 4/18: toplam 3513 tweet (+14 yeni) | ekranda: 13 | alinti: 50 | en eski: 2019-10-31 02:04:04
+Scroll 5/18: toplam 3517 tweet (+4 yeni) | ekranda: 4 | alinti: 50 | en eski: 2019-10-31 02:04:04
+
+=== OTOMATIK BASLA 2026-06-07 00:22:25 ===
+
+ALINTI GECMIS FLOOD — 2025 tohum -> 2019'a kadar
+Hedef: Koç'un gecmisten alintiladigi her tweetin flood/thread zinciri
+
+
+============================================================
+2025 alinti tohumu 2025-01-01 .. 2025-01-08
+============================================================
+Mevcut jsonl: 3499 tweet | alinTi tam: 45 | bekleyen alinti: 4
+Senin Chrome'una baglandi (port 9222).
+Arama modu (tek sekme): https://x.com/search?q=from%3Aekonomikocu%20since%3A2025-01-01%20until%3A2025-01-08&src=typed_query&f=live
+Scroll 1/18: toplam 3499 tweet (+0 yeni) | ekranda: 2 | alinti: 49 | en eski: 2019-10-30 23:04:04
+Scroll 2/18: toplam 3499 tweet (+0 yeni) | ekranda: 3 | alinti: 49 | en eski: 2019-10-30 23:04:04
+Scroll 3/18: toplam 3499 tweet (+0 yeni) | ekranda: 1 | alinti: 49 | en eski: 2019-10-30 23:04:04
+  >> DISKE YAZILDI: 3499 tweet -> cekilen_tweetler.jsonl
+Scroll 4/18: toplam 3499 tweet (+0 yeni) | ekranda: 0 | alinti: 49 | en eski: 2019-10-30 23:04:04
+  >> Kurtarma (durak #4)...
+Scroll 5/18: toplam 3499 tweet (+0 yeni) | ekranda: 1 | alinti: 49 | en eski: 2019-10-30 23:04:04
+  >> Kurtarma (durak #4)...
+Scroll 6/18: toplam 3499 tweet (+0 yeni) | ekranda: 0 | alinti: 49 | en eski: 2019-10-30 23:04:04
+  >> DISKE YAZILDI: 3499 tweet -> cekilen_tweetler.jsonl
+  >> Kurtarma (durak #4)...
+Scroll 7/18: toplam 3499 tweet (+0 yeni) | ekranda: 0 | alinti: 49 | en eski: 2019-10-30 23:04:04
+  >> Kurtarma (durak #4)...
+Scroll 8/18: toplam 3499 tweet (+0 yeni) | ekranda: 1 | alinti: 49 | en eski: 2019-10-30 23:04:04
+Donem aramasi bitti (hizli mod — sonraki haftaya gec).
+  >> DISKE YAZILDI: 3499 tweet -> cekilen_tweetler.jsonl
+
+=== ASIL DOSYA: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\cekilen_tweetler.jsonl ===
+Toplam: 3499 | Ingilizce(kirli): 0
+Hafiza: 3499 tweet | Ingilizce(kirli): 0 | Analiz bekliyor: 40
+OK: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\ekonomikocu_hafiza_v1.md
+Dil analizi atlandi: [Errno 2] No such file or directory: 'C:\\Users\\idagu\\OneDrive\\Masaüstü\\ekonomikocu\\99_BOT_ARSIV\\kod\\cekilen_tweetler.jsonl'
+
+============================================================
+2025 alinti tohumu 2025-01-08 .. 2025-01-15
+============================================================
+Mevcut jsonl: 3499 tweet | alinTi tam: 45 | bekleyen alinti: 4
+Senin Chrome'una baglandi (port 9222).
+Ekonomikocu sekmesi yok — profil aciliyor (tek sekme).
+Traceback (most recent call last):
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tweet_tara.py", line 3357, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tweet_tara.py", line 3329, in main
+    code = run_scrape(
+        login_only=args.login_only,
+    ...<20 lines>...
+        skip_media=args.skip_media,
+    )
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tweet_tara.py", line 2684, in run_scrape
+    safe_goto(page, PROFILE_URL_POSTS, reason="baslangic")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tara_nav.py", line 195, in safe_goto
+    page.goto(url, wait_until="commit", timeout=120_000)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tara_nav.py", line 298, in guarded_goto
+    return orig_goto(url, **kwargs)
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\sync_api\_generated.py", line 9612, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_page.py", line 557, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_frame.py", line 156, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.goto: Target page, context or browser has been closed
+
+============================================================
+2025 alinti tohumu 2025-01-15 .. 2025-01-22
+============================================================
+Mevcut jsonl: 3499 tweet | alinTi tam: 45 | bekleyen alinti: 4
+
+=== OTOMATIK BASLA 2026-06-07 00:32:13 ===
+
+ALINTI GECMIS FLOOD — 2025 tohum -> 2019'a kadar
+Hedef: Koç'un gecmisten alintiladigi her tweetin flood/thread zinciri
+
+
+============================================================
+2025 alinti tohumu 2025-01-01 .. 2025-01-08
+============================================================
+Mevcut jsonl: 3499 tweet | alinTi tam: 45 | bekleyen alinti: 4
+Senin Chrome'una baglandi (port 9222).
+Arama modu (tek sekme): https://x.com/search?q=from%3Aekonomikocu%20since%3A2025-01-01%20until%3A2025-01-08&src=typed_query&f=live
+Scroll 1/18: toplam 3499 tweet (+0 yeni) | ekranda: 1 | alinti: 49 | en eski: 2019-10-30 20:04:04
+Scroll 2/18: toplam 3499 tweet (+0 yeni) | ekranda: 1 | alinti: 49 | en eski: 2019-10-30 20:04:04
+Scroll 3/18: toplam 3499 tweet (+0 yeni) | ekranda: 0 | alinti: 49 | en eski: 2019-10-30 20:04:04
+  >> DISKE YAZILDI: 3499 tweet -> cekilen_tweetler.jsonl
+Scroll 4/18: toplam 3499 tweet (+0 yeni) | ekranda: 0 | alinti: 49 | en eski: 2019-10-30 20:04:04
+  >> Kurtarma (durak #4)...
+Scroll 5/18: toplam 3499 tweet (+0 yeni) | ekranda: 1 | alinti: 49 | en eski: 2019-10-30 20:04:04
+  >> Kurtarma (durak #4)...
+Scroll 6/18: toplam 3499 tweet (+0 yeni) | ekranda: 0 | alinti: 49 | en eski: 2019-10-30 20:04:04
+  >> DISKE YAZILDI: 3499 tweet -> cekilen_tweetler.jsonl
+  >> Kurtarma (durak #4)...
+Scroll 7/18: toplam 3499 tweet (+0 yeni) | ekranda: 0 | alinti: 49 | en eski: 2019-10-30 20:04:04
+  >> Kurtarma (durak #4)...
+Scroll 8/18: toplam 3499 tweet (+0 yeni) | ekranda: 1 | alinti: 49 | en eski: 2019-10-30 20:04:04
+Donem aramasi bitti (hizli mod — sonraki haftaya gec).
+  >> DISKE YAZILDI: 3499 tweet -> cekilen_tweetler.jsonl
+
+=== ASIL DOSYA: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\cekilen_tweetler.jsonl ===
+Toplam: 3499 | Ingilizce(kirli): 0
+Hafiza: 3499 tweet | Ingilizce(kirli): 0 | Analiz bekliyor: 0
+OK: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\ekonomikocu_hafiza_v1.md
+Dil analizi atlandi: [Errno 2] No such file or directory: 'C:\\Users\\idagu\\OneDrive\\Masaüstü\\ekonomikocu\\99_BOT_ARSIV\\kod\\cekilen_tweetler.jsonl'
+
+============================================================
+2025 alinti tohumu 2025-01-08 .. 2025-01-15
+============================================================
+Mevcut jsonl: 3499 tweet | alinTi tam: 45 | bekleyen alinti: 4
+Senin Chrome'una baglandi (port 9222).
+Ekonomikocu sekmesi yok — profil aciliyor (tek sekme).
+Traceback (most recent call last):
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tweet_tara.py", line 3357, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tweet_tara.py", line 3329, in main
+    code = run_scrape(
+        login_only=args.login_only,
+    ...<20 lines>...
+        skip_media=args.skip_media,
+    )
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tweet_tara.py", line 2684, in run_scrape
+    safe_goto(page, PROFILE_URL_POSTS, reason="baslangic")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tara_nav.py", line 195, in safe_goto
+    page.goto(url, wait_until="commit", timeout=120_000)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tara_nav.py", line 298, in guarded_goto
+    return orig_goto(url, **kwargs)
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\sync_api\_generated.py", line 9612, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_page.py", line 557, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_frame.py", line 156, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.goto: Target page, context or browser has been closed
+
+============================================================
+2025 alinti tohumu 2025-01-15 .. 2025-01-22
+============================================================
+Mevcut jsonl: 3499 tweet | alinTi tam: 45 | bekleyen alinti: 4
+Chrome debug bekleniyor (10/90s)...
+
+=== OTOMATIK BASLA 2026-06-07 00:42:00 ===
+
+ALINTI GECMIS FLOOD — 2025 tohum -> 2019'a kadar
+Hedef: Koç'un gecmisten alintiladigi her tweetin flood/thread zinciri
+
+
+============================================================
+2025 alinti tohumu 2025-01-01 .. 2025-01-08
+============================================================
+Mevcut jsonl: 3499 tweet | alinTi tam: 45 | bekleyen alinti: 4
+Senin Chrome'una baglandi (port 9222).
+Arama modu (tek sekme): https://x.com/search?q=from%3Aekonomikocu%20since%3A2025-01-01%20until%3A2025-01-08&src=typed_query&f=live
+Scroll 1/18: toplam 3499 tweet (+0 yeni) | ekranda: 4 | alinti: 49 | en eski: 2019-10-30 17:04:04
+Scroll 2/18: toplam 3499 tweet (+0 yeni) | ekranda: 0 | alinti: 49 | en eski: 2019-10-30 17:04:04
+Scroll 3/18: toplam 3499 tweet (+0 yeni) | ekranda: 0 | alinti: 49 | en eski: 2019-10-30 17:04:04
+  >> DISKE YAZILDI: 3499 tweet -> cekilen_tweetler.jsonl
+Scroll 4/18: toplam 3499 tweet (+0 yeni) | ekranda: 0 | alinti: 49 | en eski: 2019-10-30 17:04:04
+  >> Kurtarma (durak #4)...
+Scroll 5/18: toplam 3499 tweet (+0 yeni) | ekranda: 2 | alinti: 49 | en eski: 2019-10-30 17:04:04
+  >> Kurtarma (durak #4)...
+Scroll 6/18: toplam 3499 tweet (+0 yeni) | ekranda: 0 | alinti: 49 | en eski: 2019-10-30 17:04:04
+  >> DISKE YAZILDI: 3499 tweet -> cekilen_tweetler.jsonl
+  >> Kurtarma (durak #4)...
+Scroll 7/18: toplam 3499 tweet (+0 yeni) | ekranda: 0 | alinti: 49 | en eski: 2019-10-30 17:04:04
+  >> Kurtarma (durak #4)...
+Scroll 8/18: toplam 3499 tweet (+0 yeni) | ekranda: 2 | alinti: 49 | en eski: 2019-10-30 17:04:04
+Donem aramasi bitti (hizli mod — sonraki haftaya gec).
+  >> DISKE YAZILDI: 3499 tweet -> cekilen_tweetler.jsonl
+
+=== ASIL DOSYA: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\cekilen_tweetler.jsonl ===
+Toplam: 3499 | Ingilizce(kirli): 0
+Hafiza: 3499 tweet | Ingilizce(kirli): 0 | Analiz bekliyor: 0
+OK: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\ekonomikocu_hafiza_v1.md
+Dil analizi atlandi: [Errno 2] No such file or directory: 'C:\\Users\\idagu\\OneDrive\\Masaüstü\\ekonomikocu\\99_BOT_ARSIV\\kod\\cekilen_tweetler.jsonl'
+
+============================================================
+2025 alinti tohumu 2025-01-08 .. 2025-01-15
+============================================================
+Mevcut jsonl: 3499 tweet | alinTi tam: 45 | bekleyen alinti: 4
+Senin Chrome'una baglandi (port 9222).
+Ekonomikocu sekmesi yok — profil aciliyor (tek sekme).
+Traceback (most recent call last):
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tweet_tara.py", line 3357, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tweet_tara.py", line 3329, in main
+    code = run_scrape(
+        login_only=args.login_only,
+    ...<20 lines>...
+        skip_media=args.skip_media,
+    )
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tweet_tara.py", line 2684, in run_scrape
+    safe_goto(page, PROFILE_URL_POSTS, reason="baslangic")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tara_nav.py", line 195, in safe_goto
+    page.goto(url, wait_until="commit", timeout=120_000)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tara_nav.py", line 298, in guarded_goto
+    return orig_goto(url, **kwargs)
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\sync_api\_generated.py", line 9612, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_page.py", line 557, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_frame.py", line 156, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.goto: Target page, context or browser has been closed
+
+============================================================
+2025 alinti tohumu 2025-01-15 .. 2025-01-22
+============================================================
+Mevcut jsonl: 3499 tweet | alinTi tam: 45 | bekleyen alinti: 4
+
+=== OTOMATIK BASLA 2026-06-07 00:51:48 ===
+
+ALINTI GECMIS FLOOD — 2025 tohum -> 2019'a kadar
+Hedef: Koç'un gecmisten alintiladigi her tweetin flood/thread zinciri
+
+
+============================================================
+2025 alinti tohumu 2025-01-01 .. 2025-01-08
+============================================================
+Mevcut jsonl: 3499 tweet | alinTi tam: 45 | bekleyen alinti: 4
+Senin Chrome'una baglandi (port 9222).
+Arama modu (tek sekme): https://x.com/search?q=from%3Aekonomikocu%20since%3A2025-01-01%20until%3A2025-01-08&src=typed_query&f=live
+Scroll 1/18: toplam 3499 tweet (+0 yeni) | ekranda: 2 | alinti: 49 | en eski: 2019-10-30 14:04:04
+Scroll 2/18: toplam 3499 tweet (+0 yeni) | ekranda: 1 | alinti: 49 | en eski: 2019-10-30 14:04:04
+Scroll 3/18: toplam 3499 tweet (+0 yeni) | ekranda: 1 | alinti: 49 | en eski: 2019-10-30 14:04:04
+  >> DISKE YAZILDI: 3499 tweet -> cekilen_tweetler.jsonl
+Scroll 4/18: toplam 3499 tweet (+0 yeni) | ekranda: 2 | alinti: 49 | en eski: 2019-10-30 14:04:04
+  >> Kurtarma (durak #4)...
+Scroll 5/18: toplam 3499 tweet (+0 yeni) | ekranda: 0 | alinti: 49 | en eski: 2019-10-30 14:04:04
+  >> Kurtarma (durak #4)...
+Scroll 6/18: toplam 3499 tweet (+0 yeni) | ekranda: 0 | alinti: 49 | en eski: 2019-10-30 14:04:04
+  >> DISKE YAZILDI: 3499 tweet -> cekilen_tweetler.jsonl
+  >> Kurtarma (durak #4)...
+Scroll 7/18: toplam 3499 tweet (+0 yeni) | ekranda: 0 | alinti: 49 | en eski: 2019-10-30 14:04:04
+  >> Kurtarma (durak #4)...
+  >> Ekranda 0 tweet — splash/akis kurtarma...
+  >> X takildi (splash) — arama akisina donuluyor...
+  >> Kurtarma sonrasi ekranda: 7 tweet

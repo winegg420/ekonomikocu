@@ -1,0 +1,25 @@
+[2026-06-07 00:03:45] Supervisor: tara_2025_devam.py | log=tara_2025_devam_out.txt | stall=420s
+[2026-06-07 00:03:45] Baslatiliyor: tara_2025_devam.py (deneme 1)
+[2026-06-07 00:04:24] Supervisor: tara_2025_devam.py | log=tara_2025_devam_out.txt | stall=420s
+[2026-06-07 00:04:26] CDP yok — Chrome aciliyor...
+[2026-06-07 00:04:26] Chrome baslatildi (9222)
+[2026-06-07 00:04:27] Baslatiliyor: tara_2025_devam.py (deneme 1)
+[2026-06-07 00:10:26] Supervisor: tara_alinti_gecmis.py | log=alinti_gecmis_out.txt | stall=420s
+[2026-06-07 00:10:26] Baslatiliyor: tara_alinti_gecmis.py (deneme 1)
+[2026-06-07 00:11:11] Surec bitti (kod 1)
+[2026-06-07 00:11:11] Yeniden baslatiliyor (1/48)...
+[2026-06-07 00:11:21] Baslatiliyor: tara_alinti_gecmis.py (deneme 2)
+[2026-06-07 00:15:53] TAKILMA: CDP kapali — Chrome + surec yenileniyor
+[2026-06-07 00:15:53] Chrome baslatildi (9222)
+[2026-06-07 00:15:54] Baslatiliyor: tara_alinti_gecmis.py (deneme 3)
+[2026-06-07 00:22:25] Supervisor: tara_alinti_gecmis.py | log=alinti_gecmis_out.txt | stall=420s
+[2026-06-07 00:22:25] Baslatiliyor: tara_alinti_gecmis.py (deneme 1)
+[2026-06-07 00:32:12] TAKILMA: CDP kapali — Chrome + surec yenileniyor
+[2026-06-07 00:32:12] Chrome baslatildi (9222)
+[2026-06-07 00:32:13] Baslatiliyor: tara_alinti_gecmis.py (deneme 2)
+[2026-06-07 00:42:00] TAKILMA: CDP kapali — Chrome + surec yenileniyor
+[2026-06-07 00:42:00] Chrome baslatildi (9222)
+[2026-06-07 00:42:00] Baslatiliyor: tara_alinti_gecmis.py (deneme 3)
+[2026-06-07 00:51:48] TAKILMA: CDP kapali — Chrome + surec yenileniyor
+[2026-06-07 00:51:48] Chrome baslatildi (9222)
+[2026-06-07 00:51:48] Baslatiliyor: tara_alinti_gecmis.py (deneme 4)

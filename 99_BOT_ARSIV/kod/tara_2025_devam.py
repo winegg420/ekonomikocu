@@ -60,7 +60,11 @@ def kapsam_2026_tamam() -> bool:
         return False
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
-    return bool(mod.analyze().get("tamam"))
+    s = mod.analyze()
+    if s.get("tamam"):
+        return True
+    # Ana+alinti+flood %100 ise 2025'e gec (alinti_bekleyen.jsonl kalintisi engellemesin)
+    return float(s.get("genel_yuzde") or 0) >= 100.0
 
 
 def main() -> int:
@@ -124,7 +128,7 @@ def main() -> int:
             "--max-scroll",
             "45",
             "--discover",
-            "0",
+            "500",
             "--no-pack",
         ],
     )

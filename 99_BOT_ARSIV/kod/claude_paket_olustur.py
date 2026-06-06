@@ -600,6 +600,17 @@ def main() -> None:
     if not JSONL.is_file():
         raise SystemExit(f"Eksik: {JSONL}")
 
+    import subprocess
+    import sys
+
+    flood_medya = ARSIV / "kod" / "flood_medya_indir.py"
+    if flood_medya.is_file():
+        subprocess.run(
+            [sys.executable, str(flood_medya), "--no-pack"],
+            cwd=ROOT,
+            check=False,
+        )
+
     for old, new in (
         (ROOT / "05_CLAUDE_ANALIZ.md", F5),
         (ROOT / "08_AI_MENTOR_REHBERI.md", F8),

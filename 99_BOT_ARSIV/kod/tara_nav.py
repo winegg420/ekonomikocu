@@ -212,22 +212,69 @@ def release_status_page(page) -> None:
     page._eko_guard = False  # type: ignore[attr-defined]
 
 
-def recover_quote_status(page, tweet_id: str) -> None:
-    """Splash/hata — profile donme, ayni tweet status sayfasini yenile."""
-    from tweet_tara import status_url as _status_url, x_clear_error
+def _clean_status_url(tweet_id: str) -> str:
+    return f"https://x.com/i/status/{tweet_id}"
 
-    if _is_trap_url(page.url or ""):
-        _log(f"  >> Premium/tuzak sayfa — status'a donuluyor: {tweet_id}")
-    url = _status_url(tweet_id)
-    page._eko_status_mode = True  # type: ignore[attr-defined]
-    page._eko_status_url = url  # type: ignore[attr-defined]
-    _log(f"  >> Status yenileniyor (profil degil): {tweet_id}")
+
+def _url_has_splash_trap(url: str) -> bool:
+    u = (url or "").lower()
+    return "failedscript" in u or _is_trap_url(u)
+
+
+def recover_splash_via_profile(page, tweet_id: str) -> bool:
+    """Siyah X / failedScript — once profile, sonra temiz status URL."""
+    from tweet_tara import PROFILE_URL_POSTS, timeline_tweet_count, x_clear_error
+
+    url = _clean_status_url(tweet_id)
+    _log(f"  >> Splash kurtarma (profil -> status): {tweet_id}")
+    release_status_page(page)
     page._eko_guard = True  # type: ignore[attr-defined]
     try:
+        page.goto(PROFILE_URL_POSTS, wait_until="commit", timeout=60_000)
+        nav_quiet(page, 5.0)
+        page.wait_for_timeout(2500)
+        x_clear_error(page)
+        if timeline_tweet_count(page) < 1 or page_stuck_loading(page):
+            page.reload(wait_until="commit", timeout=45_000)
+            page.wait_for_timeout(2500)
+            x_clear_error(page)
+        page._eko_status_mode = True  # type: ignore[attr-defined]
+        page._eko_status_url = url  # type: ignore[attr-defined]
+        page.goto(url, wait_until="commit", timeout=60_000)
+        nav_quiet(page, 12.0)
+        page.wait_for_timeout(3000)
+        x_clear_error(page)
+        if page.locator('article[data-testid="tweet"]').count() >= 1:
+            return True
+        if not page_stuck_loading(page):
+            return True
+        return False
+    except Exception as e:
+        _log(f"  >> Splash kurtarma hatasi: {e}")
+        return False
+    finally:
+        page._eko_guard = False  # type: ignore[attr-defined]
+
+
+def recover_quote_status(page, tweet_id: str) -> None:
+    """Splash/hata — profil uzerinden temiz status."""
+    if _url_has_splash_trap(page.url or ""):
+        if recover_splash_via_profile(page, tweet_id):
+            return
+    url = _clean_status_url(tweet_id)
+    page._eko_status_mode = True  # type: ignore[attr-defined]
+    page._eko_status_url = url  # type: ignore[attr-defined]
+    _log(f"  >> Status yenileniyor: {tweet_id}")
+    page._eko_guard = True  # type: ignore[attr-defined]
+    try:
+        from tweet_tara import x_clear_error
+
         page.goto(url, wait_until="commit", timeout=60_000)
         nav_quiet(page, 10.0)
         page.wait_for_timeout(2500)
         x_clear_error(page)
+        if page_stuck_loading(page) or _url_has_splash_trap(page.url or ""):
+            recover_splash_via_profile(page, tweet_id)
     except Exception as e:
         _log(f"  >> Status yenileme hatasi: {e}")
     finally:
@@ -290,22 +337,25 @@ def bind_safe_page(page, home_url: str) -> None:
         if not passive:
             if "failedscript" in u.lower():
                 now = time.time()
-                debounce = 8.0 if getattr(page, "_eko_status_mode", False) else 5.0
+                debounce = 12.0 if getattr(page, "_eko_status_mode", False) else 6.0
                 if now - getattr(page, "_eko_nav_last", 0) < debounce:
                     return
                 page._eko_nav_last = now  # type: ignore[attr-defined]
-                st = getattr(page, "_eko_status_url", None)
-                if getattr(page, "_eko_status_mode", False) and st:
-                    dest = st
-                    _log("  >> Status failedScript — tweet sayfasi yenileniyor...")
-                else:
-                    dest = getattr(page, "_eko_home", None) or f"https://x.com/{PROFILE_HANDLE}"
-                    _log("  >> X failedScript — profile donuluyor...")
+                st = getattr(page, "_eko_status_url", None) or ""
+                tid_m = re.search(r"/status/(\d+)", st or u)
+                tid = tid_m.group(1) if tid_m else None
                 page._eko_guard = True  # type: ignore[attr-defined]
                 try:
-                    orig_goto(dest, wait_until="commit", timeout=90_000)
-                    nav_quiet(page, 6.0 if st else 3.0)
-                    page.wait_for_timeout(2500)
+                    if getattr(page, "_eko_status_mode", False) and tid:
+                        _log(f"  >> failedScript — profil uzerinden status: {tid}")
+                        recover_splash_via_profile(page, tid)
+                    else:
+                        dest = getattr(page, "_eko_home", None) or f"https://x.com/{PROFILE_HANDLE}"
+                        _log("  >> X failedScript — profile donuluyor...")
+                        release_status_page(page)
+                        orig_goto(dest, wait_until="commit", timeout=90_000)
+                        nav_quiet(page, 4.0)
+                        page.wait_for_timeout(2500)
                 except Exception:
                     pass
                 finally:
@@ -380,7 +430,7 @@ def bind_safe_page(page, home_url: str) -> None:
 def page_stuck_loading(page) -> bool:
     """Siyah X logosu — tweet/article yuklenmedi."""
     try:
-        if _is_trap_url(page.url or ""):
+        if _url_has_splash_trap(page.url or ""):
             return True
         if page.locator('article[data-testid="tweet"]').count() >= 1:
             return False
@@ -492,20 +542,8 @@ def wait_status_ready(
             continue
         if not recovered and elapsed >= recover_at:
             recovered = True
-            st = getattr(page, "_eko_status_url", None) or f"https://x.com/i/status/{tweet_id}"
-            _log(f"  >> Status splash ({tweet_id}) — tweet sayfasi tekrar...")
-            page._eko_guard = True  # type: ignore[attr-defined]
-            try:
-                page.goto(st, wait_until="commit", timeout=45_000)
-                nav_quiet(page, 8.0)
-                page.wait_for_timeout(3000)
-                x_clear_error(page)
-                if page.locator('article[data-testid="tweet"]').count() >= 1:
-                    return True
-            except Exception:
-                pass
-            finally:
-                page._eko_guard = False  # type: ignore[attr-defined]
+            if recover_splash_via_profile(page, tweet_id):
+                return True
             return False
         page.wait_for_timeout(1500)
     _log(f"  >> Status zaman asimi ({tweet_id}) — atlaniyor.")

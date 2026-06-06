@@ -1,0 +1,93 @@
+
+2026 %100 — 2025 taramasina geciliyor...
+
+
+============================================================
+2025 arama 2025-01-01 .. 2025-01-08
+============================================================
+Mevcut jsonl: 3459 tweet | alinTi tam: 45 | bekleyen alinti: 3
+Senin Chrome'una baglandi (port 9222).
+Arama modu (tek sekme): https://x.com/search?q=from%3Aekonomikocu%20since%3A2025-01-01%20until%3A2025-01-08&src=typed_query&f=live
+Scroll 1/50: toplam 3459 tweet (+0 yeni) | ekranda: 2 | alinti: 48 | en eski: 2019-10-31 14:04:04
+Scroll 2/50: toplam 3459 tweet (+0 yeni) | ekranda: 1 | alinti: 48 | en eski: 2019-10-31 14:04:04
+Scroll 3/50: toplam 3459 tweet (+0 yeni) | ekranda: 2 | alinti: 48 | en eski: 2019-10-31 14:04:04
+  >> DISKE YAZILDI: 3459 tweet -> cekilen_tweetler.jsonl
+
+=== OTOMATIK BASLA 2026-06-07 00:03:45 ===
+
+2026 %100 — 2025 taramasina geciliyor...
+
+
+============================================================
+2025 arama 2025-01-01 .. 2025-01-08
+============================================================
+Mevcut jsonl: 3459 tweet | alinTi tam: 45 | bekleyen alinti: 3
+Senin Chrome'una baglandi (port 9222).
+Ekonomikocu sekmesi yok — profil aciliyor (tek sekme).
+Traceback (most recent call last):
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tweet_tara.py", line 3325, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tweet_tara.py", line 3297, in main
+    code = run_scrape(
+        login_only=args.login_only,
+    ...<20 lines>...
+        skip_media=args.skip_media,
+    )
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tweet_tara.py", line 2652, in run_scrape
+    safe_goto(page, PROFILE_URL_POSTS, reason="baslangic")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tara_nav.py", line 195, in safe_goto
+    page.goto(url, wait_until="commit", timeout=120_000)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tara_nav.py", line 298, in guarded_goto
+    return orig_goto(url, **kwargs)
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\sync_api\_generated.py", line 9612, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_page.py", line 557, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_frame.py", line 156, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.goto: Target page, context or browser has been closed
+
+============================================================
+2025 arama 2025-01-08 .. 2025-01-15
+============================================================
+Mevcut jsonl: 3459 tweet | alinTi tam: 45 | bekleyen alinti: 3
+Chrome debug bekleniyor (10/90s)...
+Senin Chrome'una baglandi (port 9222).
+Arama modu (tek sekme): https://x.com/search?q=from%3Aekonomikocu%20since%3A2025-01-08%20until%3A2025-01-15&src=typed_query&f=live
+Scroll 1/50: toplam 3459 tweet (+0 yeni) | ekranda: 1 | alinti: 48 | en eski: 2019-10-31 11:04:04
+Scroll 2/50: toplam 3459 tweet (+0 yeni) | ekranda: 12 | alinti: 48 | en eski: 2019-10-31 11:04:04
+Scroll 3/50: toplam 3459 tweet (+0 yeni) | ekranda: 1 | alinti: 48 | en eski: 2019-10-31 11:04:04
+  >> DISKE YAZILDI: 3459 tweet -> cekilen_tweetler.jsonl
+Akis yenileniyor (tek sekme, sadece ekonomikocu)...
+Akis OK: https://x.com/search?q=from%3Aekonomikocu%20since%3A2025-01-08%20until
+Scroll 4/50: toplam 3459 tweet (+0 yeni) | ekranda: 5 | alinti: 48 | en eski: 2019-10-31 11:04:04
+Scroll 5/50: toplam 3459 tweet (+0 yeni) | ekranda: 8 | alinti: 48 | en eski: 2019-10-31 11:04:04
+Scroll 6/50: toplam 3459 tweet (+0 yeni) | ekranda: 0 | alinti: 48 | en eski: 2019-10-31 11:04:04
+  >> DISKE YAZILDI: 3459 tw  >> Kurtarma (durak #4)...
+Scroll 5/50: toplam 3459 tweet (+0 yeni) | ekranda: 0 | alinti: 48 | en eski: 2019-10-31 11:04:04
+4

@@ -1,14 +1,14 @@
 {
-  "guncelleme": "2026-06-06T21:32:52",
+  "guncelleme": "2026-06-07T00:06:06",
   "yil": "2026",
   "genel_yuzde": 100.0,
   "tamam": false,
   "en_yeni": "2026-06-06",
   "ana": {
-    "metinli": 3269,
+    "metinli": 3268,
     "bos_kilitli": 0,
     "erisilemedi": 20,
-    "toplam": 3289,
+    "toplam": 3288,
     "yuzde": 100.0
   },
   "alinti": {
@@ -21,7 +21,7 @@
   "flood": {
     "kok": 5,
     "eksik_parcali": 0,
-    "atlandi": 2,
+    "atlandi": 3,
     "yuzde": 100.0,
     "eksik_kok_id": []
   },
@@ -31,23 +31,23 @@
       "bos": 0
     },
     "2026-02": {
-      "metinli": 411,
+      "metinli": 446,
       "bos": 0
     },
     "2026-03": {
-      "metinli": 541,
+      "metinli": 514,
       "bos": 0
     },
     "2026-04": {
-      "metinli": 476,
+      "metinli": 529,
       "bos": 0
     },
     "2026-05": {
-      "metinli": 1510,
+      "metinli": 1446,
       "bos": 0
     },
     "2026-06": {
-      "metinli": 143,
+      "metinli": 145,
       "bos": 0
     }
   },
