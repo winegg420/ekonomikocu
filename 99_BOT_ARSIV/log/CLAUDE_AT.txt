@@ -1,0 +1,12 @@
+Claude'a AT — 6 dosya, bu sira:
+
+  1. 01_CLAUDE_BURADAN_BASLA.md
+  2. 08_AI_MENTOR_REHBERI.md     (ZORUNLU — mentor / alinti / seviye)
+  3. 02_ekonomikocu_hafiza_CLAUDE.md
+  4. 03_cekilen_tweetler_CLAUDE.jsonl
+  5. 04_CLAUDE_GRAFIKLER.zip
+  6. 05_CLAUDE_ANALIZ.md        (en son — analiz beyni)
+
+Gemini: 06 + 07 klasoru (05'ten sonra)
+
+Paket yenile: python claude_paket_olustur.py  (05'e dokunmaz)

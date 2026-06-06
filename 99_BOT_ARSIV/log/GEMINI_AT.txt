@@ -1,0 +1,17 @@
+YENİ SOHBET — DOSYA SIRASI
+============================
+
+CLAUDE (6 dosya):
+  1. 01_CLAUDE_BURADAN_BASLA.md
+  2. 08_AI_MENTOR_REHBERI.md   ← ZORUNLU (nasıl çalışıyoruz)
+  3. 02_ekonomikocu_hafiza_CLAUDE.md
+  4. 03_cekilen_tweetler_CLAUDE.jsonl
+  5. 04_CLAUDE_GRAFIKLER.zip
+  6. 05_CLAUDE_ANALIZ.md
+
+GEMINI (05'ten sonra):
+  7. 06_tweetler_GEMINI.md
+  8. 07_GRAFIKLER_GEMINI/
+
+Kısayol: 00_CLAUDE_ATMA_SIRASI.md
+Paket yenile: python claude_paket_olustur.py

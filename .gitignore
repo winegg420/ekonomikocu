@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+.venv/
+venv/
+
+# Cursor / IDE
+.cursor/
+.vscode/
+*.code-workspace
+
+# Chrome oturumu (gizli — asla commit etme)
+.x_session/
+**/.x_session/
+ekonomikocu_x_session/
+
+# Gecici zip build
+99_BOT_ARSIV/_claude_zip_build/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Cursor agent gecici
+assets/

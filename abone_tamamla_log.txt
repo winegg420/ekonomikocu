@@ -1,0 +1,99 @@
+[2026-06-06 00:18:00] BASLA | bos kilitli: 128 | Nisan+ metinli ana: 1904 | kilitli+metin: 0
+[2026-06-06 00:18:00] Chrome baglandi (port 9222)
+[2026-06-06 00:18:20] Profil hazir — abone tweet metinleri cekiliyor...
+[2026-06-06 00:24:09] Profil kaydirma bitti: +7 metin | kalan bos: 121 | Nisan+ metinli: 1916 | kilitli+metin: 0
+[2026-06-06 00:24:09] Tur 1/80 | kalan bos kilitli: 121
+[2026-06-06 00:56:02] Tur 1 bitti: +54 metin | kalan bos: 63 | Nisan+ metinli ana: 2011 | kilitli+metin: 0
+[2026-06-06 00:56:02] Tur 2/80 | kalan bos kilitli: 63
+[2026-06-06 09:14:34] BASLA | bos kilitli: 128 | Nisan+ metinli ana: 1917 | kilitli+metin: 0
+[2026-06-06 09:14:49] Chrome baglandi (port 9222)
+[2026-06-06 09:15:20] Profil hazir — abone tweet metinleri cekiliyor...
+[2026-06-06 09:21:53] Profil kaydirma bitti: +2 metin | kalan bos: 126 | Nisan+ metinli: 1923 | kilitli+metin: 0
+[2026-06-06 09:21:53] Tur 1/80 | kalan bos kilitli: 126
+[2026-06-06 09:33:49] Tur 1 bitti: +119 metin | kalan bos: 4 | Nisan+ metinli ana: 2042 | kilitli+metin: 0
+[2026-06-06 09:33:49] Tur 2/80 | kalan bos kilitli: 4
+[2026-06-06 09:35:54] Tur 2 bitti: +2 metin | kalan bos: 2 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 09:35:54] Tur 3/80 | kalan bos kilitli: 2
+[2026-06-06 09:38:20] Tur 3 bitti: +0 metin | kalan bos: 2 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 09:38:20] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 09:38:40] Tur 4/80 | kalan bos kilitli: 2
+[2026-06-06 09:40:41] Tur 4 bitti: +1 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 09:40:41] Tur 5/80 | kalan bos kilitli: 1
+[2026-06-06 09:42:50] Tur 5 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 09:42:50] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 09:43:15] Tur 6/80 | kalan bos kilitli: 1
+[2026-06-06 09:44:39] Tur 6 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 09:44:39] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 09:44:52] Tur 7/80 | kalan bos kilitli: 1
+[2026-06-06 09:46:20] Tur 7 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 09:46:20] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 09:46:32] Tur 8/80 | kalan bos kilitli: 1
+[2026-06-06 09:48:01] Tur 8 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 09:48:01] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 09:48:13] Tur 9/80 | kalan bos kilitli: 1
+[2026-06-06 09:49:42] Tur 9 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 09:49:42] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 09:49:54] Tur 10/80 | kalan bos kilitli: 1
+[2026-06-06 09:50:08] Tur 10 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 09:50:08] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 09:50:20] Tur 11/80 | kalan bos kilitli: 1
+[2026-06-06 09:51:48] Tur 11 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 09:51:48] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 09:52:01] Tur 12/80 | kalan bos kilitli: 1
+[2026-06-06 09:53:29] Tur 12 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 09:53:29] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 09:53:42] Tur 13/80 | kalan bos kilitli: 1
+[2026-06-06 09:55:10] Tur 13 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 09:55:10] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 09:55:22] Tur 14/80 | kalan bos kilitli: 1
+[2026-06-06 09:56:51] Tur 14 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 09:56:51] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 09:57:03] Tur 15/80 | kalan bos kilitli: 1
+[2026-06-06 09:58:24] Tur 15 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 09:58:24] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 09:58:58] Tur 16/80 | kalan bos kilitli: 1
+[2026-06-06 10:00:27] Tur 16 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 10:00:27] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 10:00:39] Tur 17/80 | kalan bos kilitli: 1
+[2026-06-06 10:02:07] Tur 17 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 10:02:07] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 10:02:20] Tur 18/80 | kalan bos kilitli: 1
+[2026-06-06 10:03:48] Tur 18 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 10:03:48] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 10:04:01] Tur 19/80 | kalan bos kilitli: 1
+[2026-06-06 10:05:29] Tur 19 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 10:05:29] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 10:05:41] Tur 20/80 | kalan bos kilitli: 1
+[2026-06-06 10:07:10] Tur 20 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 10:07:10] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 10:07:22] Tur 21/80 | kalan bos kilitli: 1
+[2026-06-06 10:08:54] Tur 21 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 10:08:54] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 10:09:06] Tur 22/80 | kalan bos kilitli: 1
+[2026-06-06 10:09:19] Tur 22 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 10:09:19] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 10:09:31] Tur 23/80 | kalan bos kilitli: 1
+[2026-06-06 10:10:59] Tur 23 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 10:10:59] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 10:11:12] Tur 24/80 | kalan bos kilitli: 1
+[2026-06-06 10:13:25] Tur 24 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 10:13:25] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 10:16:43] Tur 25/80 | kalan bos kilitli: 1
+[2026-06-06 10:18:02] Tur 25 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 10:18:02] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 10:19:03] Tur 26/80 | kalan bos kilitli: 1
+[2026-06-06 10:20:39] Tur 26 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 10:20:39] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 10:21:24] Tur 27/80 | kalan bos kilitli: 1
+[2026-06-06 10:22:58] Tur 27 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 10:22:58] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 10:23:43] Tur 28/80 | kalan bos kilitli: 1
+[2026-06-06 10:25:53] Tur 28 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 10:25:53] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 10:26:54] Tur 29/80 | kalan bos kilitli: 1
+[2026-06-06 10:28:29] BASLA | bos kilitli: 23 | Nisan+ metinli ana: 2023 | kilitli+metin: 0
+[2026-06-06 10:28:47] BASLA | bos kilitli: 23 | Nisan+ metinli ana: 2023 | kilitli+metin: 0
+[2026-06-06 10:28:47] Chrome baglandi (port 9222)
+[2026-06-06 10:29:38] Tur 29 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 2044 | kilitli+metin: 0
+[2026-06-06 10:29:38] Turda metin gelmedi — splash / takilma kontrolu...
+[2026-06-06 10:30:24] Tur 30/80 | kalan bos kilitli: 1

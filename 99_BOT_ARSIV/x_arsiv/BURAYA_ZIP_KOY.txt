@@ -1,0 +1,8 @@
+X'ten indirdigin arsiv .zip dosyasini bu klasore kopyala.
+
+Veya Indirilenler'de birak — script otomatik arar.
+
+
+
+Sonra ARSIV_YUKLE.bat calistir.
+

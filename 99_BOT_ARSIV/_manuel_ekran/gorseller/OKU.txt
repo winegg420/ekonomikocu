@@ -1,0 +1,11 @@
+Ekran goruntulerini buraya koy (dosya adlari gorsel_map.json ile ayni):
+
+  ethusd_haziran8.png      -> MANUEL-20250605-01
+  robotlar_seviye.png      -> MANUEL-20250522-02
+  seviye_22052025.png      -> MANUEL-20250522-01
+  btc130k_eth7600.png      -> MANUEL-20250525-01
+  btc_abd_24082024.png     -> MANUEL-20240824-01
+  zirveler_27052025.png    -> MANUEL-20250527-01
+
+Sonra: python manuel_ekran_ekle.py
+(Gorseller 04 zip ve 07 klasorune gider — ayri dosya atmana gerek yok.)

@@ -1,0 +1,18 @@
+ALINTI TAMAMLA = bu klasordeki "ALINTI_TAMAMLA" dosyasina cift tikla.
+
+
+
+Baska isim arama. "Batı" diye dosya yok.
+
+
+
+Sira:
+
+  1) CHROME_X  (cift tik)
+
+  2) ALINTI_TAMAMLA  (cift tik)
+
+
+
+Claude icin ayri: CLAUDE_AT.txt (alinti ile ilgisi yok).
+

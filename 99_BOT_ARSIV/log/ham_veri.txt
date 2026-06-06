@@ -1,0 +1,6 @@
+# X profilinden kopyaladığınız ham metni bu dosyaya yapıştırın.
+# Bu satırları silin, gerçek kopya-yapıştır içeriği buraya gelsin.
+#
+# İpucu: Tüm sayfayı CTRL+A yerine, 10–20 tweet görünürken
+# mouse ile seçip kopyalamak daha temiz sonuç verir.
+# Mümkünse her tweetin altındaki x.com/.../status/123... linki de kopyada kalsın.

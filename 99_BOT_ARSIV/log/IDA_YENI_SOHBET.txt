@@ -1,0 +1,9 @@
+Yeni Claude veya Gemini sayfası açınca:
+
+  01 → 08 (mentor) → 02 → 03 → 04 → 05
+  Gemini: sonra 06 + 07 klasörü
+
+08 = alıntı kuralları, seviye/vizyon, bot iş akışı.
+05 = Koç özeti (Claude'un yazdığı analiz beyni).
+
+python claude_paket_olustur.py  (veri güncellenince)
