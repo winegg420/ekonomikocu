@@ -8,6 +8,8 @@ from __future__ import annotations
 
 import json
 import re
+import subprocess
+import sys
 from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
@@ -27,6 +29,7 @@ def _project_root() -> Path:
 
 
 ROOT = _project_root()
+KOD = Path(__file__).resolve().parent
 JSONL = ROOT / "cekilen_tweetler.jsonl"
 KAPSAM_JSON = ROOT / "tara_kapsam.json"
 DURUM_MD = ROOT / "TARAMA_DURUMU.md"
@@ -246,6 +249,10 @@ def main() -> int:
         print(text)
     except UnicodeEncodeError:
         print(text.encode("ascii", errors="replace").decode("ascii"))
+    # 2026 ozet (ayri rapor)
+    k2026 = KOD / "kapsam_2026.py"
+    if k2026.is_file():
+        subprocess.run([sys.executable, str(k2026)], cwd=ROOT, check=False)
     return 0
 
 

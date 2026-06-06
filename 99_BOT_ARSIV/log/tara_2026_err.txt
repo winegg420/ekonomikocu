@@ -1,0 +1,42 @@
+C:\Users\idagu\AppData\Local\Programs\Python\Python314\python.exe: can't open file 'C:\\Users\\idagu\\OneDrive\\Masaüstü\\ekonomikocu\\analiz_devam.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\abone_tamamla.py", line 319, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\abone_tamamla.py", line 146, in main
+    safe_goto(page, PROFILE_URL_POSTS, reason="abone-baslangic")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tara_nav.py", line 151, in safe_goto
+    page.goto(url, wait_until="commit", timeout=120_000)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tara_nav.py", line 185, in guarded_goto
+    return orig_goto(url, **kwargs)
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\sync_api\_generated.py", line 9612, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_page.py", line 557, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_frame.py", line 156, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.goto: Target page, context or browser has been closed

@@ -66,9 +66,19 @@ def status_url(tweet_id: str) -> str:
 
 from alinti_common import (
     ERISILEMEDI,
-    reset_erisilemedi_rows,
     row_quote_needs_visit,
     save_pending_list,
+)
+from tara_ilerle import (
+    DEFAULT_MAX_ATTEMPTS,
+    bump_attempt,
+    clear_attempts,
+    count_thread_parts,
+    is_skipped,
+    mark_locked_unavailable,
+    mark_thread_unavailable,
+    note_thread_result,
+    should_give_up,
 )
 from tara_nav import (
     StallWatchdog,
@@ -77,7 +87,9 @@ from tara_nav import (
     load_bookmark,
     page_stuck_loading,
     period_key,
+    nav_quiet,
     recover_x_page,
+    release_status_page,
     safe_goto,
     save_bookmark,
     url_allowed,
@@ -1451,6 +1463,11 @@ def normalize_scraped_row(row: dict) -> dict:
 def row_needs_thread(row: dict) -> bool:
     if row.get("isQuote") or row.get("role") == "quote":
         return False
+    if row.get("threadSkip"):
+        return False
+    tid = str(row.get("id") or row.get("tweet_id") or "")
+    if tid and is_skipped(tid, "flood"):
+        return False
     if row.get("needsThread"):
         return True
     return bool(re.search(r"#FLOOD|/flood\b", row.get("text") or "", re.I))
@@ -1572,6 +1589,10 @@ def merge_rows(
                 row["datetime"] = prev.get("datetime")
             if not row.get("threadRoot"):
                 row["threadRoot"] = prev.get("threadRoot")
+            if raw.get("baglanti") or prev.get("baglanti"):
+                row["baglanti"] = raw.get("baglanti") or prev.get("baglanti")
+            if raw.get("quoteOf") or prev.get("quoteOf"):
+                row["quoteOf"] = raw.get("quoteOf") or prev.get("quoteOf")
             if prev.get("quoteStub") and not row.get("quoteStub") and (row.get("text") or "").strip():
                 row["quoteStub"] = False
             elif (row.get("text") or "").strip() and len((row.get("text") or "")) >= 80:
@@ -1693,27 +1714,36 @@ def goto_status(page, tweet_id: str, *, fast: bool = False) -> None:
     page._eko_status_url = url  # type: ignore[attr-defined]
     page._eko_guard = True  # type: ignore[attr-defined]
     last_err: Exception | None = None
-    wait_until = "domcontentloaded"
-    timeout = 60_000 if fast else 90_000
-    tries = 3
-    pause = 1000 if fast else 1500
+    wait_until = "commit"
+    timeout = 55_000 if fast else 75_000
+    tries = 2
+    pause = 1800 if fast else 2200
     try:
         for attempt in range(tries):
             try:
                 page.goto(url, wait_until=wait_until, timeout=timeout)
+                nav_quiet(page, 14.0)
                 page.wait_for_timeout(pause)
                 x_clear_error(page)
                 if page_stuck_loading(page) and attempt < tries - 1:
+                    if attempt == 0:
+                        page.wait_for_timeout(3000)
+                        x_clear_error(page)
+                        if page.locator('article[data-testid="tweet"]').count() >= 1:
+                            return
                     _log(f"  >> Status splash ({tweet_id}) — reload ({attempt + 1})")
                     page.reload(wait_until=wait_until, timeout=timeout)
+                    nav_quiet(page, 8.0)
                     page.wait_for_timeout(pause)
                     x_clear_error(page)
+                if page.locator('article[data-testid="tweet"]').count() >= 1:
+                    return
                 cur = page.url or ""
-                if tweet_id in cur or page.locator('article[data-testid="tweet"]').count() >= 1:
+                if tweet_id in cur and not page_stuck_loading(page):
                     return
             except Exception as e:
                 last_err = e
-                page.wait_for_timeout(1200)
+                page.wait_for_timeout(1500)
         if last_err:
             raise last_err
     finally:
@@ -1746,13 +1776,22 @@ def refill_locked_profile_scroll(
         return 0
     done = 0
     stale = 0
+    splash_hits = 0
     _log(f"Abone profil kaydirma: max {max_scroll} scroll (>= {since.date()})...")
     for i in range(max_scroll):
         if page_stuck_loading(page):
-            recover_x_page(page)
-            if not wait_for_profile_feed(page, tries=8):
-                _log("  >> Profil splash — kaydirma durdu.")
-                break
+            splash_hits += 1
+            if splash_hits >= 3:
+                recover_x_page(page)
+                splash_hits = 0
+                if not wait_for_profile_feed(page, tries=8):
+                    _log("  >> Profil splash — kaydirma durdu.")
+                    break
+            else:
+                page.wait_for_timeout(2500)
+                continue
+        else:
+            splash_hits = 0
         locked_before = _locked_empty_count(all_rows)
         page.evaluate(RETRY_JS)
         force_turkish_on_page(page)
@@ -1801,6 +1840,7 @@ def refill_locked_since(
     capture_conversation: bool = False,
     fast: bool = True,
     watchdog: StallWatchdog | None = None,
+    max_id_attempts: int = DEFAULT_MAX_ATTEMPTS,
 ) -> int:
     """Abone oturumunda kilitli/bos tweet metnini status sayfasindan kaydet."""
     if reply_rows is None:
@@ -1817,32 +1857,45 @@ def refill_locked_since(
         text = (row.get("text") or "").strip()
         if only_locked:
             if row.get("locked") and not text:
-                jobs.append(tid)
+                if not is_skipped(tid, "locked_empty"):
+                    jobs.append(tid)
         elif row.get("locked") or not text or text == ERISILEMEDI:
-            jobs.append(tid)
+            if not is_skipped(tid, "locked_empty"):
+                jobs.append(tid)
     jobs = sorted(set(jobs), key=int, reverse=True)[:limit]
     if not jobs:
         return 0
     back = return_url or PROFILE_URL_POSTS
     done = 0
+    skipped = 0
     _log(f"Abone tweet metni: {len(jobs)} adet (>= {since.date()})...")
     for i, tid in enumerate(jobs, 1):
+        if should_give_up(tid, max_id_attempts):
+            if mark_locked_unavailable(all_rows, tid):
+                skipped += 1
+                if save_cb and skipped % 5 == 0:
+                    save_cb(all_rows)
+            continue
         try:
             if watchdog.needs_recovery():
+                release_status_page(page)
                 watchdog.recover(page, back)
             goto_status(page, tid, fast=fast)
             if page_stuck_loading(page):
-                if not wait_status_ready(page, tid, max_sec=75.0):
+                if not wait_status_ready(page, tid, max_sec=60.0):
+                    release_status_page(page)
                     watchdog.note_activity()
                     continue
             else:
                 try:
-                    page.wait_for_selector('article[data-testid="tweet"]', timeout=6_000)
+                    page.wait_for_selector('article[data-testid="tweet"]', timeout=8_000)
                 except Exception:
-                    if page_stuck_loading(page) and not wait_status_ready(page, tid, max_sec=45.0):
+                    if page_stuck_loading(page) and not wait_status_ready(page, tid, max_sec=40.0):
+                        release_status_page(page)
                         watchdog.note_activity()
                         continue
-            page.wait_for_timeout(700 if fast else 900)
+            nav_quiet(page, 4.0)
+            page.wait_for_timeout(900 if fast else 1100)
             page.evaluate(RETRY_JS)
             if not fast or i % 5 == 1:
                 force_turkish_on_page(page)
@@ -1864,23 +1917,36 @@ def refill_locked_since(
                 row["abone_metin"] = True
                 row["kayit_tipi"] = "abone"
                 all_rows[tid] = row
+                clear_attempts(tid)
                 done += 1
                 if save_cb and (done % 15 == 0 or i == len(jobs)):
                     save_cb(all_rows)
                 if save_reply_cb and reply_rows and (done % 15 == 0 or i == len(jobs)):
                     save_reply_cb(reply_rows)
                 watchdog.ping()
+            else:
+                n_try = bump_attempt(tid)
+                if n_try >= max_id_attempts:
+                    if mark_locked_unavailable(all_rows, tid):
+                        skipped += 1
+                        _log(f"  >> Abone atlandi ({tid}) — {n_try} deneme")
+                        if save_cb:
+                            save_cb(all_rows)
             if i % 15 == 0:
-                _log(f"  >> Abone metin: {done}/{i} ({tid})")
+                _log(f"  >> Abone metin: {done}/{i} atlandi:{skipped} ({tid})")
             watchdog.ping()
         except Exception as e:
             _log(f"  >> Abone atlandi ({tid}): {e}")
             err = str(e).lower()
+            release_status_page(page)
             if page_stuck_loading(page) or "execution context was destroyed" in err:
-                watchdog.recover(page, back)
-            watchdog.ping()
-    page._eko_status_mode = False  # type: ignore[attr-defined]
-    page._eko_status_url = None  # type: ignore[attr-defined]
+                page.wait_for_timeout(2000)
+                if watchdog.needs_recovery():
+                    watchdog.recover(page, back)
+            watchdog.note_activity()
+        finally:
+            release_status_page(page)
+    release_status_page(page)
     if save_cb:
         save_cb(all_rows)
     if save_reply_cb and reply_rows:
@@ -2112,6 +2178,7 @@ def finish_threads_loop(
     *,
     limit: int = 200,
     return_url: str | None = None,
+    max_thread_attempts: int = DEFAULT_MAX_ATTEMPTS,
 ) -> None:
     """#FLOOD — ayni sekmede sadece ekonomikocu/status."""
     jobs = [
@@ -2123,12 +2190,23 @@ def finish_threads_loop(
         return
     back = return_url or PROFILE_URL_POSTS
     for root_id in jobs:
-        threads_done.add(root_id)
+        if is_skipped(root_id, "flood"):
+            threads_done.add(root_id)
+            continue
+        parts_before = count_thread_parts(all_rows, root_id)
         _log(f"  >> #FLOOD thread: {root_id}")
         try:
             crawl_thread(page, root_id, all_rows)
         except Exception as e:
             _log(f"  >> Thread atlandi ({root_id}): {e}")
+        if note_thread_result(
+            all_rows,
+            root_id,
+            parts_before,
+            max_attempts=max_thread_attempts,
+        ):
+            _log(f"  >> #FLOOD erisilemedi isaretlendi: {root_id}")
+        threads_done.add(root_id)
     try:
         page.goto(back, wait_until="domcontentloaded", timeout=90_000)
         page.wait_for_timeout(2000)
@@ -2348,10 +2426,6 @@ def run_quotes_pass(
     if not all_rows:
         print(f"Bos: {JSONL_OUT}")
         return 1
-
-    n_retry = reset_erisilemedi_rows(all_rows)
-    if n_retry:
-        print(f"[erisilemedi] yeniden denenecek: {n_retry}")
 
     quotes_done: set[str] = {tid for tid, r in all_rows.items() if r.get("isQuote") and not row_quote_needs_visit(r)}
     threads_done: set[str] = set()

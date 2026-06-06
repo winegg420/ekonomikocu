@@ -8,9 +8,19 @@ import re
 from datetime import datetime
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+def _project_root() -> Path:
+    here = Path(__file__).resolve().parent
+    up = here.parent.parent
+    if (up / "cekilen_tweetler.jsonl").is_file():
+        return up
+    return here
+
+
+ROOT = _project_root()
 JSONL = ROOT / "cekilen_tweetler.jsonl"
-PENDING = ROOT / "alinti_bekleyen.jsonl"
+PENDING = ROOT / "99_BOT_ARSIV/kod/alinti_bekleyen.jsonl"
+if not PENDING.is_file():
+    PENDING = ROOT / "alinti_bekleyen.jsonl"
 
 ERISILEMEDI = "[erişilemedi]"
 TRUNC_RE = re.compile(

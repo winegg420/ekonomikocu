@@ -1,10 +1,10 @@
 # TARAMA DURUMU (@ekonomikocu)
 
-**Guncelleme:** 2026-06-05T23:48:44
+**Guncelleme:** 2026-06-06T17:20:47
 
 ## Ozet (Ida'ya)
 
-> **2026-06-04 - 2026-06 sonuna kadar kesintisiz kayit VAR (alt aylarda bosluk/sorun olabilir)**
+> **2026-06-06 - 2025-01 sonuna kadar kesintisiz kayit VAR (alt aylarda bosluk/sorun olabilir)**
 >
 > Hedef: **2025-01-01**'e kadar tum tweet + alinti + #FLOOD
 >
@@ -12,35 +12,33 @@
 
 | Metrik | Deger |
 |--------|-------|
-| En yeni kayit | **2026-06-04** |
-| En eski kayit (metinli) | **2019-11-09** |
-| Surekli tamam kadar | **2026-06-sonu** |
-| Ana tweet (metinli) | **2781** |
-| Abone (metinli) | **1632** |
-| Bos / kilitli (eksik) | **124** |
-| Alinti eksik | **6** (+ bekleyen dosya: 3) |
-| #FLOOD kok / eksik tahmin | **5** / **3** |
+| En yeni kayit | **2026-06-06** |
+| En eski kayit (metinli) | **2019-11-03** |
+| Surekli tamam kadar | **2025-01-sonu** |
+| Ana tweet (metinli) | **3159** |
+| Abone (metinli) | **2062** |
+| Bos / kilitli (eksik) | **0** |
+| Alinti eksik | **5** (+ bekleyen dosya: 3) |
+| #FLOOD kok / eksik tahmin | **5** / **0** |
 
 ## Eksik aylar / sorunlu donemler
 
-- **2026-05**: 1512 metinli, 20 bos — 20 bos kilitli
-- **2026-04**: 86 metinli, 100 bos — 100 bos kilitli
-- **2026-03**: 493 metinli, 4 bos — 4 bos kilitli
+- (yok)
 
 ## Son 12 ay (metinli ana tweet)
 
 | Ay | Adet |
 |----|------|
-| 2026-06 | 146 |
-| 2026-05 | 1512 |
-| 2026-04 | 86 |
+| 2026-06 | 73 |
+| 2026-05 | 1544 |
+| 2026-04 | 398 |
 | 2026-03 | 493 |
-| 2026-02 | 390 |
-| 2026-01 | 84 |
-| 2025-08 | 3 |
+| 2026-02 | 409 |
+| 2026-01 | 166 |
+| 2025-08 | 9 |
 | 2025-05 | 10 |
 | 2025-03 | 3 |
-| 2024-11 | 1 |
+| 2024-10 | 1 |
 | 2024-09 | 1 |
 | 2024-08 | 3 |
 

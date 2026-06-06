@@ -1,0 +1,669 @@
+# TARAMA 2026 (@ekonomikocu)
+
+**Guncelleme:** 2026-06-06T16:02:39
+
+## Ozet
+
+> **Genel tamamlanma: 97.7%**
+>
+> Hedef: **2026 yilindaki TUM tweetler** + **abone metinleri** + **alintilanan gecmis tweetler** + **#FLOOD parcalari** ? **%100**
+>
+> **Tamam mi?** HAYIR ? tarama devam
+
+| Alan | Tam | Eksik | % |
+|------|-----|-------|---|
+| Ana tweet (2026) | 3080 | 0 (+20 erisilemedi) | **100.0%** |
+| Alinti (2026 kapsami) | 43 | 1 | **97.7%** |
+| #FLOOD kok (2026) | 5 | 0 | **100.0%** |
+
+**En yeni kayit:** 2026-06-05
+
+## Aylik (2026)
+
+| Ay | Metinli | Bos | % |
+|----|---------|-----|---|
+| 2026-01 | 157 | 0 | 100.0% |
+| 2026-02 | 401 | 0 | 100.0% |
+| 2026-03 | 491 | 0 | 100.0% |
+| 2026-04 | 404 | 0 | 100.0% |
+| 2026-05 | 1553 | 0 | 100.0% |
+| 2026-06 | 74 | 0 | 100.0% |
+
+## Kural
+
+Yeni tweet atildiginda **TARA_2026_GUNCEL.bat** calistir (veya gunluk otomasyon).
+Eksik kalmamali: ana metin, abone, alinti, flood.
+
+---
+*Otomatik: kapsam_2026.py*
+
+
+>>> 2026 TAMAMLAMA TURU 1/6
+
+============================================================
+TUR 1/6 — Onceki takilanlar (limit dolmus)
+============================================================
+Atlandi (bos kilitli): 0
+
+============================================================
+TUR 1/6 — Abone metin (2026 bos kilitli)
+============================================================
+[2026-06-06 16:02:39] BASLA | bos kilitli: 1 | Nisan+ metinli ana: 2051 | kilitli+metin: 0
+[2026-06-06 16:02:40] Chrome baglandi (port 9222)
+Akis bekleniyor (1/20)...
+Akis hazir (6 tweet ekranda).
+[2026-06-06 16:02:49] Profil hazir — abone tweet metinleri cekiliyor...
+Abone profil kaydirma: max 120 scroll (>= 2026-01-01)...
+  >> Tum abone tweetleri profil kaydirmada metin alindi.
+[2026-06-06 16:03:48] Profil kaydirma bitti: +1 metin | kalan bos: 0 | Nisan+ metinli: 2053 | kilitli+metin: 0
+[2026-06-06 16:03:48] Tum abone tweetleri metin olarak kaydedildi.
+[2026-06-06 16:03:56] Analiz + hafiza yaziliyor...
+Hafiza: 3232 tweet | Ingilizce(kirli): 9 | Analiz bekliyor: 3232
+UYARI: Chrome cevirisini KAPAT (x.com) ve tekrar tara.
+OK: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\ekonomikocu_hafiza_v1.md
+# TARAMA DURUMU (@ekonomikocu)
+
+**Guncelleme:** 2026-06-06T16:04:01
+
+## Ozet (Ida'ya)
+
+> **2026-06-06 - 2025-01 sonuna kadar kesintisiz kayit VAR (alt aylarda bosluk/sorun olabilir)**
+>
+> Hedef: **2025-01-01**'e kadar tum tweet + alinti + #FLOOD
+>
+> **Tamam mi?** HAYIR — tarama devam etmeli
+
+| Metrik | Deger |
+|--------|-------|
+| En yeni kayit | **2026-06-06** |
+| En eski kayit (metinli) | **2019-11-04** |
+| Surekli tamam kadar | **2025-01-sonu** |
+| Ana tweet (metinli) | **3159** |
+| Abone (metinli) | **2060** |
+| Bos / kilitli (eksik) | **0** |
+| Alinti eksik | **5** (+ bekleyen dosya: 3) |
+| #FLOOD kok / eksik tahmin | **5** / **0** |
+
+## Eksik aylar / sorunlu donemler
+
+- (yok)
+
+## Son 12 ay (metinli ana tweet)
+
+| Ay | Adet |
+|----|------|
+| 2026-06 | 78 |
+| 2026-05 | 1551 |
+| 2026-04 | 404 |
+| 2026-03 | 491 |
+| 2026-02 | 401 |
+| 2026-01 | 157 |
+| 2025-08 | 10 |
+| 2025-05 | 10 |
+| 2025-03 | 3 |
+| 2024-10 | 1 |
+| 2024-09 | 1 |
+| 2024-08 | 3 |
+
+## Bot is akisi (hedef)
+
+1. **Profil** — gunumuzden geriye kaydir (hedef: 2025-01-01)
+2. **Alinti** — alintilanan gecmis tweetlerin metni
+3. **#FLOOD** — thread parcalari
+4. **Abone** — kilitli/bos metinleri doldur
+5. Bu dosyayi guncelle: `python 99_BOT_ARSIV/kod/kapsam_durum.py`
+
+Tek komut: `python 99_BOT_ARSIV/kod/tara_tam.py`
+
+---
+*Otomatik: kapsam_durum.py*
+
+# TARAMA 2026 (@ekonomikocu)
+
+**Guncelleme:** 2026-06-06T16:04:01
+
+## Ozet
+
+> **Genel tamamlanma: 97.7%**
+>
+> Hedef: **2026 yilindaki TUM tweetler** + **abone metinleri** + **alintilanan gecmis tweetler** + **#FLOOD parcalari** ? **%100**
+>
+> **Tamam mi?** HAYIR ? tarama devam
+
+| Alan | Tam | Eksik | % |
+|------|-----|-------|---|
+| Ana tweet (2026) | 3082 | 0 (+20 erisilemedi) | **100.0%** |
+| Alinti (2026 kapsami) | 43 | 1 | **97.7%** |
+| #FLOOD kok (2026) | 5 | 0 | **100.0%** |
+
+**En yeni kayit:** 2026-06-06
+
+## Aylik (2026)
+
+| Ay | Metinli | Bos | % |
+|----|---------|-----|---|
+| 2026-01 | 157 | 0 | 100.0% |
+| 2026-02 | 401 | 0 | 100.0% |
+| 2026-03 | 491 | 0 | 100.0% |
+| 2026-04 | 404 | 0 | 100.0% |
+| 2026-05 | 1551 | 0 | 100.0% |
+| 2026-06 | 78 | 0 | 100.0% |
+
+## Kural
+
+Yeni tweet atildiginda **TARA_2026_GUNCEL.bat** calistir (veya gunluk otomasyon).
+Eksik kalmamali: ana metin, abone, alinti, flood.
+
+---
+*Otomatik: kapsam_2026.py*
+
+[2026-06-06 16:04:01] BITTI | bu oturumda +1 metin | kalan bos kilitli: 0 | Nisan+ metinli ana: 2053 | kilitli+metin: 0
+
+============================================================
+TUR 1/6 — #FLOOD thread parcalari
+============================================================
+Mevcut jsonl: 3232 tweet | alinTi tam: 42 | bekleyen alinti: 3
+Senin Chrome'una baglandi (port 9222).
+Profil acik — devam (ustte abone tweetleri normal).
+Scroll 1/2: toplam 3232 tweet (+0 yeni) | ekranda: 7 | alinti: 45 | en eski: 2019-11-04 14:04:04
+Scroll 2/2: toplam 3232 tweet (+0 yeni) | ekranda: 13 | alinti: 45 | en eski: 2019-11-04 14:04:04
+Asama: #FLOOD thread parcalari...
+  >> #FLOOD thread: 2057787714632601727
+  >> Thread: 2057787714632601727
+  >> #FLOOD thread: 2056317785668530182
+  >> Thread: 2056317785668530182
+  >> #FLOOD thread: 2025735219316203997
+  >> Thread: 2025735219316203997
+  >> #FLOOD thread: 2058590753354351085
+  >> Thread: 2058590753354351085
+  >> #FLOOD thread: 2026807180884656189
+  >> Thread: 2026807180884656189
+  >> DISKE YAZILDI: 3232 tweet -> cekilen_tweetler.jsonl
+
+=== ASIL DOSYA: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\cekilen_tweetler.jsonl ===
+Toplam: 3232 | Ingilizce(kirli): 0
+Hafiza atlandi (--skip-hafiza). JSONL kaydedildi.
+
+============================================================
+TUR 1/6 — Alintilar
+============================================================
+
+=== Alinti turu 1/4 ===
+Bekleyen alinti: 3
+Chrome CDP (port 9222)
+Asama 2 tur 1: 3 alinti bekliyor...
+  >> Alinti 2047343957630189944 — sadece ekonomikocu/status/2062540887503044724
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2046329630873747618 — sadece ekonomikocu/status/2045587086695391351
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2038986156075872628 — sadece ekonomikocu/status/2039050447420326027
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Bu turda ziyaret: 3 | kalan: 3
+  >> Ilerleme yok — kalanlar isaretleniyor.
+JSONL guncellendi: 3232 tweet
+Hafiza: 3232 tweet | Ingilizce(kirli): 0 | Analiz bekliyor: 2
+OK: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\ekonomikocu_hafiza_v1.md
+Dil analizi atlandi: [Errno 2] No such file or directory: 'C:\\Users\\idagu\\OneDrive\\Masaüstü\\ekonomikocu\\99_BOT_ARSIV\\kod\\cekilen_tweetler.jsonl'
+Dosya: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\cekilen_tweetler.jsonl
+Toplam satir: 3232 | alinti (is_quote): 45
+EKSIK: 3 alinti — tekrar: ALINTI_TAMAMLA.bat
+  2047343957630189944 <- ana 2062540887503044724 | metin kesik | metin=127 char
+  2046329630873747618 <- ana 2045587086695391351 | metin kesik | metin=454 char
+  2038986156075872628 <- ana 2039050447420326027 | metin kesik | metin=50 char
+Eksik kaldi — bir tur daha...
+
+=== Alinti turu 2/4 ===
+Bekleyen alinti: 3
+Chrome CDP (port 9222)
+Asama 2 tur 1: 3 alinti bekliyor...
+  >> Alinti 2047343957630189944 — sadece ekonomikocu/status/2062540887503044724
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2046329630873747618 — sadece ekonomikocu/status/2045587086695391351
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2038986156075872628 — sadece ekonomikocu/status/2039050447420326027
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Bu turda ziyaret: 3 | kalan: 3
+  >> Ilerleme yok — kalanlar isaretleniyor.
+JSONL guncellendi: 3232 tweet
+Hafiza: 3232 tweet | Ingilizce(kirli): 0 | Analiz bekliyor: 0
+OK: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\ekonomikocu_hafiza_v1.md
+Dil analizi atlandi: [Errno 2] No such file or directory: 'C:\\Users\\idagu\\OneDrive\\Masaüstü\\ekonomikocu\\99_BOT_ARSIV\\kod\\cekilen_tweetler.jsonl'
+Dosya: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\cekilen_tweetler.jsonl
+Toplam satir: 3232 | alinti (is_quote): 45
+EKSIK: 3 alinti — tekrar: ALINTI_TAMAMLA.bat
+  2047343957630189944 <- ana 2062540887503044724 | metin kesik | metin=127 char
+  2046329630873747618 <- ana 2045587086695391351 | metin kesik | metin=454 char
+  2038986156075872628 <- ana 2039050447420326027 | metin kesik | metin=50 char
+Eksik kaldi — bir tur daha...
+
+=== Alinti turu 3/4 ===
+Bekleyen alinti: 3
+Chrome CDP (port 9222)
+Asama 2 tur 1: 3 alinti bekliyor...
+  >> Alinti 2047343957630189944 — sadece ekonomikocu/status/2062540887503044724
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2046329630873747618 — sadece ekonomikocu/status/2045587086695391351
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2038986156075872628 — sadece ekonomikocu/status/2039050447420326027
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Bu turda ziyaret: 3 | kalan: 3
+  >> Ilerleme yok — kalanlar isaretleniyor.
+JSONL guncellendi: 3232 tweet
+Hafiza: 3232 tweet | Ingilizce(kirli): 0 | Analiz bekliyor: 0
+OK: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\ekonomikocu_hafiza_v1.md
+Dil analizi atlandi: [Errno 2] No such file or directory: 'C:\\Users\\idagu\\OneDrive\\Masaüstü\\ekonomikocu\\99_BOT_ARSIV\\kod\\cekilen_tweetler.jsonl'
+Dosya: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\cekilen_tweetler.jsonl
+Toplam satir: 3232 | alinti (is_quote): 45
+EKSIK: 3 alinti — tekrar: ALINTI_TAMAMLA.bat
+  2047343957630189944 <- ana 2062540887503044724 | metin kesik | metin=127 char
+  2046329630873747618 <- ana 2045587086695391351 | metin kesik | metin=454 char
+  2038986156075872628 <- ana 2039050447420326027 | metin kesik | metin=50 char
+Eksik kaldi — bir tur daha...
+
+=== Alinti turu 4/4 ===
+Bekleyen alinti: 3
+Chrome CDP (port 9222)
+Asama 2 tur 1: 3 alinti bekliyor...
+  >> Alinti 2047343957630189944 — sadece ekonomikocu/status/2062540887503044724
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2046329630873747618 — sadece ekonomikocu/status/2045587086695391351
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2038986156075872628 — sadece ekonomikocu/status/2039050447420326027
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Bu turda ziyaret: 3 | kalan: 3
+  >> Ilerleme yok — kalanlar isaretleniyor.
+JSONL guncellendi: 3232 tweet
+Hafiza: 3232 tweet | Ingilizce(kirli): 0 | Analiz bekliyor: 0
+OK: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\ekonomikocu_hafiza_v1.md
+Dil analizi atlandi: [Errno 2] No such file or directory: 'C:\\Users\\idagu\\OneDrive\\Masaüstü\\ekonomikocu\\99_BOT_ARSIV\\kod\\cekilen_tweetler.jsonl'
+Dosya: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\cekilen_tweetler.jsonl
+Toplam satir: 3232 | alinti (is_quote): 45
+EKSIK: 3 alinti — tekrar: ALINTI_TAMAMLA.bat
+  2047343957630189944 <- ana 2062540887503044724 | metin kesik | metin=127 char
+  2046329630873747618 <- ana 2045587086695391351 | metin kesik | metin=454 char
+  2038986156075872628 <- ana 2039050447420326027 | metin kesik | metin=50 char
+Eksik kaldi — bir tur daha...
+UYARI: max tur doldu; ALINTI_DOGRULA.bat ile kontrol et.
+Dosya: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\cekilen_tweetler.jsonl
+Toplam satir: 3232 | alinti (is_quote): 45
+EKSIK: 3 alinti — tekrar: ALINTI_TAMAMLA.bat
+  2047343957630189944 <- ana 2062540887503044724 | metin kesik | metin=127 char
+  2046329630873747618 <- ana 2045587086695391351 | metin kesik | metin=454 char
+  2038986156075872628 <- ana 2039050447420326027 | metin kesik | metin=50 char
+
+============================================================
+TUR 1/6 — #FLOOD 2. tur
+============================================================
+Mevcut jsonl: 3232 tweet | alinTi tam: 42 | bekleyen alinti: 3
+Senin Chrome'una baglandi (port 9222).
+Profil yuklenmiyor — arama akisina geciliyor...
+Scroll 1/1: toplam 3232 tweet (+0 yeni) | ekranda: 11 | alinti: 45 | en eski: 2019-11-03 23:04:04
+Asama: #FLOOD thread parcalari...
+  >> #FLOOD thread: 2057787714632601727
+  >> Thread: 2057787714632601727
+  >> #FLOOD thread: 2056317785668530182
+  >> Thread: 2056317785668530182
+  >> #FLOOD thread: 2025735219316203997
+  >> Thread: 2025735219316203997
+  >> #FLOOD thread: 2058590753354351085
+  >> Thread: 2058590753354351085
+  >> #FLOOD thread: 2026807180884656189
+  >> Thread: 2026807180884656189
+  >> DISKE YAZILDI: 3232 tweet -> cekilen_tweetler.jsonl
+
+=== ASIL DOSYA: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\cekilen_tweetler.jsonl ===
+Toplam: 3232 | Ingilizce(kirli): 0
+Hafiza atlandi (--skip-hafiza). JSONL kaydedildi.
+
+============================================================
+TUR 1/6 — #FLOOD takilanlari isaretle
+============================================================
+Atlandi (#FLOOD kok): 0
+
+============================================================
+TUR 1/6 — Haziran kesif
+============================================================
+Mevcut jsonl: 3232 tweet | alinTi tam: 43 | bekleyen alinti: 3
+Senin Chrome'una baglandi (port 9222).
+Arama modu (tek sekme): https://x.com/search?q=from%3Aekonomikocu%20since%3A2026-06-01%20until%3A2026-06-07&src=typed_query&f=live
+Scroll 1/35: toplam 3232 tweet (+0 yeni) | ekranda: 7 | alinti: 46 | en eski: 2019-11-03 20:04:04
+Scroll 2/35: toplam 3232 tweet (+0 yeni) | ekranda: 5 | alinti: 46 | en eski: 2019-11-03 20:04:04
+Scroll 3/35: toplam 3232 tweet (+0 yeni) | ekranda: 4 | alinti: 46 | en eski: 2019-11-03 20:04:04
+  >> DISKE YAZILDI: 3232 tweet -> cekilen_tweetler.jsonl
+Scroll 4/35: toplam 3232 tweet (+0 yeni) | ekranda: 2 | alinti: 46 | en eski: 2019-11-03 20:04:04
+  >> Kurtarma (durak #4)...
+Scroll 5/35: toplam 3232 tweet (+0 yeni) | ekranda: 1 | alinti: 46 | en eski: 2019-11-03 20:04:04
+  >> Kurtarma (durak #4)...
+Scroll 6/35: toplam 3232 tweet (+0 yeni) | ekranda: 0 | alinti: 46 | en eski: 2019-11-03 20:04:04
+  >> DISKE YAZILDI: 3232 tweet -> cekilen_tweetler.jsonl
+  >> Kurtarma (durak #4)...
+Scroll 7/35: toplam 3232 tweet (+0 yeni) | ekranda: 0 | alinti: 46 | en eski: 2019-11-03 20:04:04
+  >> Kurtarma (durak #4)...
+Scroll 8/35: toplam 3232 tweet (+0 yeni) | ekranda: 0 | alinti: 46 | en eski: 2019-11-03 20:04:04
+Donem aramasi bitti (hizli mod — sonraki haftaya gec).
+  >> DISKE YAZILDI: 3232 tweet -> cekilen_tweetler.jsonl
+
+=== ASIL DOSYA: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\cekilen_tweetler.jsonl ===
+Toplam: 3232 | Ingilizce(kirli): 0
+Hafiza: 3232 tweet | Ingilizce(kirli): 0 | Analiz bekliyor: 0
+OK: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\ekonomikocu_hafiza_v1.md
+Dil analizi atlandi: [Errno 2] No such file or directory: 'C:\\Users\\idagu\\OneDrive\\Masaüstü\\ekonomikocu\\99_BOT_ARSIV\\kod\\cekilen_tweetler.jsonl'
+abone_metin isaretlendi: 2014 | baglanti duzeltildi: 0
+Dosya: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\cekilen_tweetler.jsonl
+Toplam satir: 3232 | alinti (is_quote): 46
+EKSIK: 3 alinti — tekrar: ALINTI_TAMAMLA.bat
+  2047343957630189944 <- ana 2062540887503044724 | metin kesik | metin=127 char
+  2046329630873747618 <- ana 2045587086695391351 | metin kesik | metin=454 char
+  2038986156075872628 <- ana 2039050447420326027 | metin kesik | metin=50 char
+# TARAMA 2026 (@ekonomikocu)
+
+**Guncelleme:** 2026-06-06T16:18:31
+
+## Ozet
+
+> **Genel tamamlanma: 97.8%**
+>
+> Hedef: **2026 yilindaki TUM tweetler** + **abone metinleri** + **alintilanan gecmis tweetler** + **#FLOOD parcalari** ? **%100**
+>
+> **Tamam mi?** HAYIR ? tarama devam
+
+| Alan | Tam | Eksik | % |
+|------|-----|-------|---|
+| Ana tweet (2026) | 3082 | 0 (+20 erisilemedi) | **100.0%** |
+| Alinti (2026 kapsami) | 44 | 1 | **97.8%** |
+| #FLOOD kok (2026) | 5 | 0 | **100.0%** |
+
+**En yeni kayit:** 2026-06-05
+
+## Aylik (2026)
+
+| Ay | Metinli | Bos | % |
+|----|---------|-----|---|
+| 2026-01 | 166 | 0 | 100.0% |
+| 2026-02 | 409 | 0 | 100.0% |
+| 2026-03 | 493 | 0 | 100.0% |
+| 2026-04 | 398 | 0 | 100.0% |
+| 2026-05 | 1543 | 0 | 100.0% |
+| 2026-06 | 73 | 0 | 100.0% |
+
+## Kural
+
+Yeni tweet atildiginda **TARA_2026_GUNCEL.bat** calistir (veya gunluk otomasyon).
+Eksik kalmamali: ana metin, abone, alinti, flood.
+
+---
+*Otomatik: kapsam_2026.py*
+
+
+>>> 2026 TAMAMLAMA TURU 2/6
+
+============================================================
+TUR 2/6 — Onceki takilanlar (limit dolmus)
+============================================================
+Atlandi (bos kilitli): 0
+
+============================================================
+TUR 2/6 — Abone metin (2026 bos kilitli)
+============================================================
+[2026-06-06 16:18:31] BASLA | bos kilitli: 1 | Nisan+ metinli ana: 2034 | kilitli+metin: 0
+[2026-06-06 16:18:32] Chrome baglandi (port 9222)
+Ekonomikocu sekmesi yok — profil aciliyor (tek sekme).
+
+============================================================
+TUR 2/6 — #FLOOD thread parcalari
+============================================================
+Mevcut jsonl: 3232 tweet | alinTi tam: 43 | bekleyen alinti: 3
+Chrome debug bekleniyor (10/90s)...
+Chrome debug bekleniyor (20/90s)...
+Chrome debug bekleniyor (30/90s)...
+Chrome debug bekleniyor (40/90s)...
+Chrome debug bekleniyor (50/90s)...
+Chrome debug bekleniyor (60/90s)...
+Chrome debug bekleniyor (70/90s)...
+Chrome debug bekleniyor (80/90s)...
+Chrome debug port 9222 yok. Once CHROME_X.bat calistir; tweetler gorunene kadar bekle, sonra BASLAT_TARA.bat
+
+============================================================
+TUR 2/6 — Alintilar
+============================================================
+
+=== Alinti turu 1/4 ===
+Bekleyen alinti: 3
+Chrome debug bekleniyor (10/90s)...
+Chrome debug bekleniyor (20/90s)...
+Chrome debug bekleniyor (30/90s)...
+Chrome debug bekleniyor (40/90s)...
+Chrome debug bekleniyor (50/90s)...
+Chrome debug bekleniyor (60/90s)...
+Chrome debug bekleniyor (70/90s)...
+Chrome debug bekleniyor (80/90s)...
+CHROME_X.bat acik olmali.
+
+============================================================
+TUR 2/6 — #FLOOD 2. tur
+============================================================
+Mevcut jsonl: 3232 tweet | alinTi tam: 43 | bekleyen alinti: 3
+Chrome debug bekleniyor (10/90s)...
+Chrome debug bekleniyor (20/90s)...
+Chrome debug bekleniyor (30/90s)...
+Chrome debug bekleniyor (40/90s)...
+Chrome debug bekleniyor (50/90s)...
+Chrome debug bekleniyor (60/90s)...
+Chrome debug bekleniyor (70/90s)...
+Chrome debug bekleniyor (80/90s)...
+Chrome debug port 9222 yok. Once CHROME_X.bat calistir; tweetler gorunene kadar bekle, sonra BASLAT_TARA.bat
+
+============================================================
+TUR 2/6 — #FLOOD takilanlari isaretle
+============================================================
+Atlandi (#FLOOD kok): 0
+
+============================================================
+TUR 2/6 — Haziran kesif
+============================================================
+Mevcut jsonl: 3232 tweet | alinTi tam: 43 | bekleyen alinti: 3
+Chrome debug bekleniyor (10/90s)...
+Chrome debug bekleniyor (20/90s)...
+Chrome debug bekleniyor (30/90s)...
+Chrome debug bekleniyor (40/90s)...
+Chrome debug bekleniyor (50/90s)...
+Chrome debug bekleniyor (60/90s)...
+Chrome debug bekleniyor (70/90s)...
+Chrome debug bekleniyor (80/90s)...
+Chrome debug port 9222 yok. Once CHROME_X.bat calistir; tweetler gorunene kadar bekle, sonra BASLAT_TARA.bat
+abone_metin isaretlendi: 2014 | baglanti duzeltildi: 0
+Dosya: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\cekilen_tweetler.jsonl
+Toplam satir: 3232 | alinti (is_quote): 46
+EKSIK: 3 alinti — tekrar: ALINTI_TAMAMLA.bat
+  2047343957630189944 <- ana 2062540887503044724 | metin kesik | metin=127 char
+  2046329630873747618 <- ana 2045587086695391351 | metin kesik | metin=454 char
+  2038986156075872628 <- ana 2039050447420326027 | metin kesik | metin=50 char
+# TARAMA 2026 (@ekonomikocu)
+
+**Guncelleme:** 2026-06-06T16:36:37
+
+## Ozet
+
+> **Genel tamamlanma: 97.8%**
+>
+> Hedef: **2026 yilindaki TUM tweetler** + **abone metinleri** + **alintilanan gecmis tweetler** + **#FLOOD parcalari** ? **%100**
+>
+> **Tamam mi?** HAYIR ? tarama devam
+
+| Alan | Tam | Eksik | % |
+|------|-----|-------|---|
+| Ana tweet (2026) | 3082 | 0 (+20 erisilemedi) | **100.0%** |
+| Alinti (2026 kapsami) | 44 | 1 | **97.8%** |
+| #FLOOD kok (2026) | 5 | 0 | **100.0%** |
+
+**En yeni kayit:** 2026-06-05
+
+## Aylik (2026)
+
+| Ay | Metinli | Bos | % |
+|----|---------|-----|---|
+| 2026-01 | 166 | 0 | 100.0% |
+| 2026-02 | 409 | 0 | 100.0% |
+| 2026-03 | 493 | 0 | 100.0% |
+| 2026-04 | 398 | 0 | 100.0% |
+| 2026-05 | 1543 | 0 | 100.0% |
+| 2026-06 | 73 | 0 | 100.0% |
+
+## Kural
+
+Yeni tweet atildiginda **TARA_2026_GUNCEL.bat** calistir (veya gunluk otomasyon).
+Eksik kalmamali: ana metin, abone, alinti, flood.
+
+---
+*Otomatik: kapsam_2026.py*
+
+
+>>> 2026 TAMAMLAMA TURU 3/6
+
+============================================================
+TUR 3/6 — Onceki takilanlar (limit dolmus)
+============================================================
+Atlandi (bos kilitli): 0
+
+============================================================
+TUR 3/6 — Abone metin (2026 bos kilitli)
+============================================================
+[2026-06-06 16:36:37] BASLA | bos kilitli: 1 | Nisan+ metinli ana: 2034 | kilitli+metin: 0
+Chrome debug bekleniyor (10/90s)...
+Chrome debug bekleniyor (20/90s)...
+Chrome debug bekleniyor (30/90s)...
+Chrome debug bekleniyor (40/90s)...
+Chrome debug bekleniyor (50/90s)...
+Chrome debug bekleniyor (60/90s)...
+Chrome debug bekleniyor (70/90s)...
+Chrome debug bekleniyor (80/90s)...
+[2026-06-06 16:41:08] Chrome yok. CHROME_X.bat ac, abone oturumu gir, tekrar calistir.
+
+============================================================
+TUR 3/6 — #FLOOD thread parcalari
+============================================================
+Mevcut jsonl: 3232 tweet | alinTi tam: 43 | bekleyen alinti: 3
+Chrome debug bekleniyor (10/90s)...
+Chrome debug bekleniyor (20/90s)...
+Chrome debug bekleniyor (30/90s)...
+Chrome debug bekleniyor (40/90s)...
+Chrome debug bekleniyor (50/90s)...
+Chrome debug bekleniyor (60/90s)...
+Chrome debug bekleniyor (70/90s)...
+Chrome debug bekleniyor (80/90s)...
+Chrome debug port 9222 yok. Once CHROME_X.bat calistir; tweetler gorunene kadar bekle, sonra BASLAT_TARA.bat
+
+============================================================
+TUR 3/6 — Alintilar
+============================================================
+
+=== Alinti turu 1/4 ===
+Bekleyen alinti: 3
+Chrome debug bekleniyor (10/90s)...
+Chrome debug bekleniyor (20/90s)...
+Chrome debug bekleniyor (30/90s)...
+Chrome debug bekleniyor (40/90s)...
+Chrome debug bekleniyor (50/90s)...
+Chrome debug bekleniyor (60/90s)...
+Chrome debug bekleniyor (70/90s)...
+Chrome debug bekleniyor (80/90s)...
+CHROME_X.bat acik olmali.
+
+============================================================
+TUR 3/6 — #FLOOD 2. tur
+============================================================
+Mevcut jsonl: 3232 tweet | alinTi tam: 43 | bekleyen alinti: 3
+Chrome debug bekleniyor (10/90s)...
+Chrome debug bekleniyor (20/90s)...
+Chrome debug bekleniyor (30/90s)...
+Chrome debug bekleniyor (40/90s)...
+Chrome debug bekleniyor (50/90s)...
+Chrome debug bekleniyor (60/90s)...
+Chrome debug bekleniyor (70/90s)...
+Chrome debug bekleniyor (80/90s)...
+Chrome debug port 9222 yok. Once CHROME_X.bat calistir; tweetler gorunene kadar bekle, sonra BASLAT_TARA.bat
+
+============================================================
+TUR 3/6 — #FLOOD takilanlari isaretle
+============================================================
+Atlandi (#FLOOD kok): 0
+
+============================================================
+TUR 3/6 — Haziran kesif
+============================================================
+Mevcut jsonl: 3232 tweet | alinTi tam: 43 | bekleyen alinti: 3
+Chrome debug bekleniyor (10/90s)...
+Chrome debug bekleniyor (20/90s)...
+Chrome debug bekleniyor (30/90s)...
+Chrome debug bekleniyor (40/90s)...
+Chrome debug bekleniyor (50/90s)...
+Chrome debug bekleniyor (60/90s)...
+Chrome debug bekleniyor (70/90s)...
+Chrome debug bekleniyor (80/90s)...
+Chrome debug port 9222 yok. Once CHROME_X.bat calistir; tweetler gorunene kadar bekle, sonra BASLAT_TARA.bat
+abone_metin isaretlendi: 2014 | baglanti duzeltildi: 0
+Dosya: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\cekilen_tweetler.jsonl
+Toplam satir: 3232 | alinti (is_quote): 46
+EKSIK: 3 alinti — tekrar: ALINTI_TAMAMLA.bat
+  2047343957630189944 <- ana 2062540887503044724 | metin kesik | metin=127 char
+  2046329630873747618 <- ana 2045587086695391351 | metin kesik | metin=454 char
+  2038986156075872628 <- ana 2039050447420326027 | metin kesik | metin=50 char
+# TARAMA 2026 (@ekonomikocu)
+
+**Guncelleme:** 2026-06-06T16:59:14
+
+## Ozet
+
+> **Genel tamamlanma: 97.8%**
+>
+> Hedef: **2026 yilindaki TUM tweetler** + **abone metinleri** + **alintilanan gecmis tweetler** + **#FLOOD parcalari** ? **%100**
+>
+> **Tamam mi?** HAYIR ? tarama devam
+
+| Alan | Tam | Eksik | % |
+|------|-----|-------|---|
+| Ana tweet (2026) | 3082 | 0 (+20 erisilemedi) | **100.0%** |
+| Alinti (2026 kapsami) | 44 | 1 | **97.8%** |
+| #FLOOD kok (2026) | 5 | 0 | **100.0%** |
+
+**En yeni kayit:** 2026-06-05
+
+## Aylik (2026)
+
+| Ay | Metinli | Bos | % |
+|----|---------|-----|---|
+| 2026-01 | 166 | 0 | 100.0% |
+| 2026-02 | 409 | 0 | 100.0% |
+| 2026-03 | 493 | 0 | 100.0% |
+| 2026-04 | 398 | 0 | 100.0% |
+| 2026-05 | 1543 | 0 | 100.0% |
+| 2026-06 | 73 | 0 | 100.0% |
+
+## Kural
+
+Yeni tweet atildiginda **TARA_2026_GUNCEL.bat** calistir (veya gunluk otomasyon).
+Eksik kalmamali: ana metin, abone, alinti, flood.
+
+---
+*Otomatik: kapsam_2026.py*
+
+
+>>> 2026 TAMAMLAMA TURU 4/6
+
+============================================================
+TUR 4/6 — Onceki takilanlar (limit dolmus)
+============================================================
+Atlandi (bos kilitli): 0
+
+============================================================
+TUR 4/6 — Abone metin (2026 bos kilitli)
+============================================================
+[2026-06-06 16:59:14] BASLA | bos kilitli: 1 | Nisan+ metinli ana: 2034 | kilitli+metin: 0
+Chrome debug bekleniyor (10/90s)...
+Chrome debug bekleniyor (20/90s)...
+Chrome debug bekleniyor (30/90s)...
+Chrome debug bekleniyor (40/90s)...
+Chrome debug bekleniyor (50/90s)...
+Chrome debug bekleniyor (60/90s)...
+Chrome debug bekleniyor (70/90s)...
+Chrome debug bekleniyor (80/90s)...

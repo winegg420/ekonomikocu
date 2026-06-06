@@ -1,0 +1,463 @@
+[2026-06-06 18:01:17] BASLA | kuyruk: 46 alinti (2026 kapsami)
+[2026-06-06 18:01:17]   >> Alinti flood: 2062361652012445775 (ana: 2062367493348368770)
+[2026-06-06 18:01:38]   >> Hata (2062361652012445775): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 18:01:38]   >> Alinti flood: 2062093178426286535 (ana: 2062459383674474712)
+[2026-06-06 18:02:00]      +0 kayit | kok:2062093178426286535 | konusma:0
+[2026-06-06 18:02:00]   >> Alinti flood: 2062091139050578301 (ana: 2062092968752783862)
+[2026-06-06 18:11:45] BASLA | kuyruk: 46 alinti (2026 kapsami) | kalan: 46
+[2026-06-06 18:11:46] Keşif: 200 ana tweet status (alinti karti)...
+[2026-06-06 18:14:17]   >> Keşif 25/200 | yeni alinti: 0
+[2026-06-06 18:16:40]   >> Keşif 50/200 | yeni alinti: 0
+[2026-06-06 18:19:15]   >> Keşif 75/200 | yeni alinti: 0
+[2026-06-06 18:21:43]   >> Keşif 100/200 | yeni alinti: 0
+[2026-06-06 18:24:01]   >> Keşif 125/200 | yeni alinti: 0
+[2026-06-06 18:27:46]   >> Keşif 150/200 | yeni alinti: 0
+[2026-06-06 18:31:07]   >> Keşif 175/200 | yeni alinti: 0
+[2026-06-06 18:34:00]   >> Keşif 200/200 | yeni alinti: 0
+[2026-06-06 18:34:05] Keşif bitti: +0 alinti ID
+[2026-06-06 18:34:05]   >> Alinti flood: 2062361652012445775 (ana: 2062367493348368770)
+[2026-06-06 18:34:25]   >> Hata (2062361652012445775): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 18:34:25]   >> Bos sayfa — tekrar (1/3): 2062361652012445775
+[2026-06-06 18:34:25] Ilerleme: 0 alinti islendi | kuyruk: 46 | +0 kayit
+[2026-06-06 18:34:25]   >> Alinti flood: 2062093178426286535 (ana: 2062459383674474712)
+[2026-06-06 18:34:41]   >> Hata (2062093178426286535): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 18:34:41]   >> Bos sayfa — tekrar (1/3): 2062093178426286535
+[2026-06-06 18:34:41] Ilerleme: 0 alinti islendi | kuyruk: 46 | +0 kayit
+[2026-06-06 18:34:41]   >> Alinti flood: 2062091139050578301 (ana: 2062092968752783862)
+[2026-06-06 18:34:57]   >> Hata (2062091139050578301): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 18:34:57]   >> Bos sayfa — tekrar (1/3): 2062091139050578301
+[2026-06-06 18:34:57] Ilerleme: 0 alinti islendi | kuyruk: 46 | +0 kayit
+[2026-06-06 18:34:57]   >> Alinti flood: 2061878740389441717 (ana: 2062474985419997310)
+[2026-06-06 18:35:17]   >> Hata (2061878740389441717): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 18:35:17]   >> Bos sayfa — tekrar (1/3): 2061878740389441717
+[2026-06-06 18:35:17] Ilerleme: 0 alinti islendi | kuyruk: 46 | +0 kayit
+[2026-06-06 18:35:17]   >> Alinti flood: 2061821178583384070 (ana: 2062426381707821096)
+[2026-06-06 18:35:33]   >> Hata (2061821178583384070): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 18:35:33]   >> Bos sayfa — tekrar (1/3): 2061821178583384070
+[2026-06-06 18:35:33] Ilerleme: 0 alinti islendi | kuyruk: 46 | +0 kayit
+[2026-06-06 18:35:33]   >> Alinti flood: 2061783252390560234 (ana: 2061784198856249756)
+[2026-06-06 18:36:12]      +0 kayit | kok:2061783252390560234 | konusma:0
+[2026-06-06 18:36:12]   >> Bos sayfa — tekrar (1/3): 2061783252390560234
+[2026-06-06 18:36:12] Ilerleme: 0 alinti islendi | kuyruk: 46 | +0 kayit
+[2026-06-06 18:36:12]   >> Alinti flood: 2061734396860809343 (ana: 2061734756543320297)
+[2026-06-06 18:36:51]      +10 kayit | kok:2061734396860809343 | konusma:10
+[2026-06-06 18:36:56]   >> Alinti flood: 2060679477185626333 (ana: 2062590048646639930)
+[2026-06-06 18:37:31]      +6 kayit | kok:2060679477185626333 | konusma:6
+[2026-06-06 18:37:36]   >> Alinti flood: 2059022648227594674 (ana: 2059023579916685777)
+[2026-06-06 18:38:11]      +5 kayit | kok:2059022648227594674 | konusma:5
+[2026-06-06 18:38:16]   >> Alinti flood: 2058647081451987307 (ana: 2061158944152650075)
+[2026-06-06 18:38:55]      +6 kayit | kok:2058647081451987307 | konusma:6
+[2026-06-06 18:39:01]   >> Alinti flood: 2057367152655548766 (ana: 2057404196689723634)
+[2026-06-06 18:39:36]      +5 kayit | kok:2057367152655548766 | konusma:5
+[2026-06-06 18:39:41] Ilerleme: 5 alinti islendi | kuyruk: 41 | +32 kayit
+[2026-06-06 18:39:41]   >> Alinti flood: 2057041110304731536 (ana: 2062524318299357516)
+[2026-06-06 18:40:15]      +10 kayit | kok:2057041110304731536 | konusma:10
+[2026-06-06 18:40:21]   >> Alinti flood: 2056701190927188230 (ana: 2062535174554845314)
+[2026-06-06 18:41:00]      +8 kayit | kok:2056701190927188230 | konusma:8
+[2026-06-06 18:41:05]   >> Alinti flood: 2056072229369086177 (ana: 2056096735689146828)
+[2026-06-06 18:41:40]      +5 kayit | kok:2056072229369086177 | konusma:5
+[2026-06-06 18:41:45]   >> Alinti flood: 2054160053880422467 (ana: 2062453463812878422)
+[2026-06-06 18:42:24]      +7 kayit | kok:2054160053880422467 | konusma:7
+[2026-06-06 18:42:29]   >> Alinti flood: 2053123159948194047 (ana: 2053151069731963355)
+[2026-06-06 18:43:04]      +8 kayit | kok:2053123159948194047 | konusma:8
+[2026-06-06 18:43:09] Ilerleme: 10 alinti islendi | kuyruk: 36 | +70 kayit
+[2026-06-06 18:43:09]   >> Alinti flood: 2050907404582142320 (ana: 2062479142952616152)
+[2026-06-06 18:43:53]      +4 kayit | kok:2050907404582142320 | konusma:4
+[2026-06-06 18:43:55]   >> Alinti flood: 2049278237184860242 (ana: 2062356293168345242)
+[2026-06-06 18:44:37]      +3 kayit | kok:2049278237184860242 | konusma:3
+[2026-06-06 18:44:38]   >> Alinti flood: 2048709816999096349 (ana: 2061129198316421514)
+[2026-06-06 18:44:57] BASLA | kuyruk: 46 alinti (2026 kapsami) | atlanan (once): 12 | kalan: 34
+[2026-06-06 18:44:59]   >> Alinti flood: 2062361652012445775 (ana: 2062367493348368770)
+[2026-06-06 18:44:59]   >> Hata (2062361652012445775): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:44:59]   >> Bos sayfa — tekrar (2/3): 2062361652012445775
+[2026-06-06 18:44:59]   >> Alinti flood: 2062093178426286535 (ana: 2062459383674474712)
+[2026-06-06 18:44:59]   >> Hata (2062093178426286535): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:44:59]   >> Bos sayfa — tekrar (2/3): 2062093178426286535
+[2026-06-06 18:44:59]   >> Alinti flood: 2062091139050578301 (ana: 2062092968752783862)
+[2026-06-06 18:44:59]   >> Hata (2062091139050578301): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:44:59]   >> Bos sayfa — tekrar (2/3): 2062091139050578301
+[2026-06-06 18:44:59]   >> Alinti flood: 2061878740389441717 (ana: 2062474985419997310)
+[2026-06-06 18:44:59]   >> Hata (2061878740389441717): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:44:59]   >> Bos sayfa — tekrar (2/3): 2061878740389441717
+[2026-06-06 18:44:59]   >> Alinti flood: 2061821178583384070 (ana: 2062426381707821096)
+[2026-06-06 18:44:59]   >> Hata (2061821178583384070): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:44:59]   >> Bos sayfa — tekrar (2/3): 2061821178583384070
+[2026-06-06 18:44:59]   >> Alinti flood: 2061783252390560234 (ana: 2061784198856249756)
+[2026-06-06 18:44:59]   >> Hata (2061783252390560234): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:44:59]   >> Bos sayfa — tekrar (2/3): 2061783252390560234
+[2026-06-06 18:44:59]   >> Alinti flood: 2048709816999096349 (ana: 2061129198316421514)
+[2026-06-06 18:44:59]   >> Hata (2048709816999096349): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:44:59]   >> Bos sayfa — tekrar (1/3): 2048709816999096349
+[2026-06-06 18:44:59]   >> Alinti flood: 2047343957630189944 (ana: 2062540887503044724)
+[2026-06-06 18:44:59]   >> Hata (2047343957630189944): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:44:59]   >> Bos sayfa — tekrar (1/3): 2047343957630189944
+[2026-06-06 18:44:59]   >> Alinti flood: 2046329630873747618 (ana: 2045587086695391351)
+[2026-06-06 18:44:59]   >> Hata (2046329630873747618): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:44:59]   >> Bos sayfa — tekrar (1/3): 2046329630873747618
+[2026-06-06 18:44:59]   >> Alinti flood: 2045940601762242914 (ana: 2045954455288357156)
+[2026-06-06 18:44:59]   >> Hata (2045940601762242914): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:44:59]   >> Bos sayfa — tekrar (1/3): 2045940601762242914
+[2026-06-06 18:44:59]   >> Alinti flood: 2045860128201531837 (ana: 2050338489883906212)
+[2026-06-06 18:44:59]   >> Hata (2045860128201531837): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:44:59]   >> Bos sayfa — tekrar (1/3): 2045860128201531837
+[2026-06-06 18:44:59]   >> Alinti flood: 2045587086695391351 (ana: 2046329630873747618)
+[2026-06-06 18:44:59]   >> Hata (2045587086695391351): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:44:59]   >> Bos sayfa — tekrar (1/3): 2045587086695391351
+[2026-06-06 18:44:59]   >> Alinti flood: 2045137616064876775 (ana: 2050338131619045762)
+[2026-06-06 18:44:59]   >> Hata (2045137616064876775): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:44:59]   >> Bos sayfa — tekrar (1/3): 2045137616064876775
+[2026-06-06 18:44:59]   >> Alinti flood: 2042295059706474549 (ana: 2054891231927287939)
+[2026-06-06 18:44:59]   >> Hata (2042295059706474549): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:44:59]   >> Bos sayfa — tekrar (1/3): 2042295059706474549
+[2026-06-06 18:44:59]   >> Alinti flood: 2041821678246736075 (ana: 2053236548787699858)
+[2026-06-06 18:44:59]   >> Hata (2041821678246736075): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:44:59]   >> Bos sayfa — tekrar (1/3): 2041821678246736075
+[2026-06-06 18:44:59]   >> Alinti flood: 2039482783219785818 (ana: 2040911429574828223)
+[2026-06-06 18:44:59]   >> Hata (2039482783219785818): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:44:59]   >> Bos sayfa — tekrar (1/3): 2039482783219785818
+[2026-06-06 18:44:59]   >> Alinti flood: 2038986156075872628 (ana: 2039050447420326027)
+[2026-06-06 18:44:59]   >> Hata (2038986156075872628): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:44:59]   >> Bos sayfa — tekrar (1/3): 2038986156075872628
+[2026-06-06 18:44:59]   >> Alinti flood: 2038978575554982396 (ana: 2039006897102020705)
+[2026-06-06 18:44:59]   >> Hata (2038978575554982396): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:44:59]   >> Bos sayfa — tekrar (1/3): 2038978575554982396
+[2026-06-06 18:44:59]   >> Alinti flood: 2038939393747042666 (ana: 2039052597349204436)
+[2026-06-06 18:44:59]   >> Hata (2038939393747042666): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:44:59]   >> Bos sayfa — tekrar (1/3): 2038939393747042666
+[2026-06-06 18:44:59]   >> Alinti flood: 2038540980899516642 (ana: 2039096657459937720)
+[2026-06-06 18:44:59]   >> Hata (2038540980899516642): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:44:59]   >> Bos sayfa — tekrar (1/3): 2038540980899516642
+[2026-06-06 18:44:59]   >> Alinti flood: 2038540624740147254 (ana: 2039096427033383102)
+[2026-06-06 18:44:59]   >> Hata (2038540624740147254): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:44:59]   >> Bos sayfa — tekrar (1/3): 2038540624740147254
+[2026-06-06 18:44:59]   >> Alinti flood: 2037544068637405615 (ana: 2062548704364572982)
+[2026-06-06 18:44:59]   >> Hata (2037544068637405615): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:44:59]   >> Bos sayfa — tekrar (1/3): 2037544068637405615
+[2026-06-06 18:44:59]   >> Alinti flood: 2037528345336811550 (ana: 2037544068637405615)
+[2026-06-06 18:44:59]   >> Hata (2037528345336811550): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:44:59]   >> Bos sayfa — tekrar (1/3): 2037528345336811550
+[2026-06-06 18:44:59]   >> Alinti flood: 2034682128605073871 (ana: 2038392948862115920)
+[2026-06-06 18:45:00]   >> Hata (2034682128605073871): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (1/3): 2034682128605073871
+[2026-06-06 18:45:00]   >> Alinti flood: 2032967681096274318 (ana: 2032969065820496180)
+[2026-06-06 18:45:00]   >> Hata (2032967681096274318): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (1/3): 2032967681096274318
+[2026-06-06 18:45:00]   >> Alinti flood: 2029636652918849695 (ana: 2062260489858515231)
+[2026-06-06 18:45:00]   >> Hata (2029636652918849695): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (1/3): 2029636652918849695
+[2026-06-06 18:45:00]   >> Alinti flood: 2026414462635307519 (ana: 2026807180884656189)
+[2026-06-06 18:45:00]   >> Hata (2026414462635307519): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (1/3): 2026414462635307519
+[2026-06-06 18:45:00]   >> Alinti flood: 2016477799037517829 (ana: 2016584090019893422)
+[2026-06-06 18:45:00]   >> Hata (2016477799037517829): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (1/3): 2016477799037517829
+[2026-06-06 18:45:00]   >> Alinti flood: 1962290696309637623 (ana: 2057788142090895482)
+[2026-06-06 18:45:00]   >> Hata (1962290696309637623): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (1/3): 1962290696309637623
+[2026-06-06 18:45:00]   >> Alinti flood: 1960756838129131731 (ana: 2062450081781977489)
+[2026-06-06 18:45:00]   >> Hata (1960756838129131731): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (1/3): 1960756838129131731
+[2026-06-06 18:45:00]   >> Alinti flood: 1952312791064248720 (ana: 2037625057279701149)
+[2026-06-06 18:45:00]   >> Hata (1952312791064248720): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (1/3): 1952312791064248720
+[2026-06-06 18:45:00]   >> Alinti flood: 1940730876926775418 (ana: 2044747991458680936)
+[2026-06-06 18:45:00]   >> Hata (1940730876926775418): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (1/3): 1940730876926775418
+[2026-06-06 18:45:00]   >> Alinti flood: 1904825338175140115 (ana: 2062833390970175812)
+[2026-06-06 18:45:00]   >> Hata (1904825338175140115): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (1/3): 1904825338175140115
+[2026-06-06 18:45:00]   >> Alinti flood: 1770898482808643726 (ana: 2063250939578863720)
+[2026-06-06 18:45:00]   >> Hata (1770898482808643726): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (1/3): 1770898482808643726
+[2026-06-06 18:45:00]   >> Alinti flood: 2062361652012445775 (ana: 2062367493348368770)
+[2026-06-06 18:45:00]   >> Hata (2062361652012445775): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 2062093178426286535 (ana: 2062459383674474712)
+[2026-06-06 18:45:00]   >> Hata (2062093178426286535): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 2062091139050578301 (ana: 2062092968752783862)
+[2026-06-06 18:45:00]   >> Hata (2062091139050578301): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00] Ilerleme: 15 alinti islendi | kuyruk: 31 | +0 kayit
+[2026-06-06 18:45:00]   >> Alinti flood: 2061878740389441717 (ana: 2062474985419997310)
+[2026-06-06 18:45:00]   >> Hata (2061878740389441717): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 2061821178583384070 (ana: 2062426381707821096)
+[2026-06-06 18:45:00]   >> Hata (2061821178583384070): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 2061783252390560234 (ana: 2061784198856249756)
+[2026-06-06 18:45:00]   >> Hata (2061783252390560234): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 2048709816999096349 (ana: 2061129198316421514)
+[2026-06-06 18:45:00]   >> Hata (2048709816999096349): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 2048709816999096349
+[2026-06-06 18:45:00]   >> Alinti flood: 2047343957630189944 (ana: 2062540887503044724)
+[2026-06-06 18:45:00]   >> Hata (2047343957630189944): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 2047343957630189944
+[2026-06-06 18:45:00]   >> Alinti flood: 2046329630873747618 (ana: 2045587086695391351)
+[2026-06-06 18:45:00]   >> Hata (2046329630873747618): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 2046329630873747618
+[2026-06-06 18:45:00]   >> Alinti flood: 2045940601762242914 (ana: 2045954455288357156)
+[2026-06-06 18:45:00]   >> Hata (2045940601762242914): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 2045940601762242914
+[2026-06-06 18:45:00]   >> Alinti flood: 2045860128201531837 (ana: 2050338489883906212)
+[2026-06-06 18:45:00]   >> Hata (2045860128201531837): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 2045860128201531837
+[2026-06-06 18:45:00]   >> Alinti flood: 2045587086695391351 (ana: 2046329630873747618)
+[2026-06-06 18:45:00]   >> Hata (2045587086695391351): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 2045587086695391351
+[2026-06-06 18:45:00]   >> Alinti flood: 2045137616064876775 (ana: 2050338131619045762)
+[2026-06-06 18:45:00]   >> Hata (2045137616064876775): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 2045137616064876775
+[2026-06-06 18:45:00]   >> Alinti flood: 2042295059706474549 (ana: 2054891231927287939)
+[2026-06-06 18:45:00]   >> Hata (2042295059706474549): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 2042295059706474549
+[2026-06-06 18:45:00]   >> Alinti flood: 2041821678246736075 (ana: 2053236548787699858)
+[2026-06-06 18:45:00]   >> Hata (2041821678246736075): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 2041821678246736075
+[2026-06-06 18:45:00]   >> Alinti flood: 2039482783219785818 (ana: 2040911429574828223)
+[2026-06-06 18:45:00]   >> Hata (2039482783219785818): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 2039482783219785818
+[2026-06-06 18:45:00]   >> Alinti flood: 2038986156075872628 (ana: 2039050447420326027)
+[2026-06-06 18:45:00]   >> Hata (2038986156075872628): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 2038986156075872628
+[2026-06-06 18:45:00]   >> Alinti flood: 2038978575554982396 (ana: 2039006897102020705)
+[2026-06-06 18:45:00]   >> Hata (2038978575554982396): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 2038978575554982396
+[2026-06-06 18:45:00]   >> Alinti flood: 2038939393747042666 (ana: 2039052597349204436)
+[2026-06-06 18:45:00]   >> Hata (2038939393747042666): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 2038939393747042666
+[2026-06-06 18:45:00]   >> Alinti flood: 2038540980899516642 (ana: 2039096657459937720)
+[2026-06-06 18:45:00]   >> Hata (2038540980899516642): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 2038540980899516642
+[2026-06-06 18:45:00]   >> Alinti flood: 2038540624740147254 (ana: 2039096427033383102)
+[2026-06-06 18:45:00]   >> Hata (2038540624740147254): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 2038540624740147254
+[2026-06-06 18:45:00]   >> Alinti flood: 2037544068637405615 (ana: 2062548704364572982)
+[2026-06-06 18:45:00]   >> Hata (2037544068637405615): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 2037544068637405615
+[2026-06-06 18:45:00]   >> Alinti flood: 2037528345336811550 (ana: 2037544068637405615)
+[2026-06-06 18:45:00]   >> Hata (2037528345336811550): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 2037528345336811550
+[2026-06-06 18:45:00]   >> Alinti flood: 2034682128605073871 (ana: 2038392948862115920)
+[2026-06-06 18:45:00]   >> Hata (2034682128605073871): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 2034682128605073871
+[2026-06-06 18:45:00]   >> Alinti flood: 2032967681096274318 (ana: 2032969065820496180)
+[2026-06-06 18:45:00]   >> Hata (2032967681096274318): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 2032967681096274318
+[2026-06-06 18:45:00]   >> Alinti flood: 2029636652918849695 (ana: 2062260489858515231)
+[2026-06-06 18:45:00]   >> Hata (2029636652918849695): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 2029636652918849695
+[2026-06-06 18:45:00]   >> Alinti flood: 2026414462635307519 (ana: 2026807180884656189)
+[2026-06-06 18:45:00]   >> Hata (2026414462635307519): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 2026414462635307519
+[2026-06-06 18:45:00]   >> Alinti flood: 2016477799037517829 (ana: 2016584090019893422)
+[2026-06-06 18:45:00]   >> Hata (2016477799037517829): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 2016477799037517829
+[2026-06-06 18:45:00]   >> Alinti flood: 1962290696309637623 (ana: 2057788142090895482)
+[2026-06-06 18:45:00]   >> Hata (1962290696309637623): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 1962290696309637623
+[2026-06-06 18:45:00]   >> Alinti flood: 1960756838129131731 (ana: 2062450081781977489)
+[2026-06-06 18:45:00]   >> Hata (1960756838129131731): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 1960756838129131731
+[2026-06-06 18:45:00]   >> Alinti flood: 1952312791064248720 (ana: 2037625057279701149)
+[2026-06-06 18:45:00]   >> Hata (1952312791064248720): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 1952312791064248720
+[2026-06-06 18:45:00]   >> Alinti flood: 1940730876926775418 (ana: 2044747991458680936)
+[2026-06-06 18:45:00]   >> Hata (1940730876926775418): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 1940730876926775418
+[2026-06-06 18:45:00]   >> Alinti flood: 1904825338175140115 (ana: 2062833390970175812)
+[2026-06-06 18:45:00]   >> Hata (1904825338175140115): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 1904825338175140115
+[2026-06-06 18:45:00]   >> Alinti flood: 1770898482808643726 (ana: 2063250939578863720)
+[2026-06-06 18:45:00]   >> Hata (1770898482808643726): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Bos sayfa — tekrar (2/3): 1770898482808643726
+[2026-06-06 18:45:00]   >> Alinti flood: 2048709816999096349 (ana: 2061129198316421514)
+[2026-06-06 18:45:00]   >> Hata (2048709816999096349): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 2047343957630189944 (ana: 2062540887503044724)
+[2026-06-06 18:45:00]   >> Hata (2047343957630189944): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00] Ilerleme: 20 alinti islendi | kuyruk: 26 | +0 kayit
+[2026-06-06 18:45:00]   >> Alinti flood: 2046329630873747618 (ana: 2045587086695391351)
+[2026-06-06 18:45:00]   >> Hata (2046329630873747618): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 2045940601762242914 (ana: 2045954455288357156)
+[2026-06-06 18:45:00]   >> Hata (2045940601762242914): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 2045860128201531837 (ana: 2050338489883906212)
+[2026-06-06 18:45:00]   >> Hata (2045860128201531837): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 2045587086695391351 (ana: 2046329630873747618)
+[2026-06-06 18:45:00]   >> Hata (2045587086695391351): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 2045137616064876775 (ana: 2050338131619045762)
+[2026-06-06 18:45:00]   >> Hata (2045137616064876775): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00] Ilerleme: 25 alinti islendi | kuyruk: 21 | +0 kayit
+[2026-06-06 18:45:00]   >> Alinti flood: 2042295059706474549 (ana: 2054891231927287939)
+[2026-06-06 18:45:00]   >> Hata (2042295059706474549): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 2041821678246736075 (ana: 2053236548787699858)
+[2026-06-06 18:45:00]   >> Hata (2041821678246736075): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 2039482783219785818 (ana: 2040911429574828223)
+[2026-06-06 18:45:00]   >> Hata (2039482783219785818): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 2038986156075872628 (ana: 2039050447420326027)
+[2026-06-06 18:45:00]   >> Hata (2038986156075872628): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 2038978575554982396 (ana: 2039006897102020705)
+[2026-06-06 18:45:00]   >> Hata (2038978575554982396): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00] Ilerleme: 30 alinti islendi | kuyruk: 16 | +0 kayit
+[2026-06-06 18:45:00]   >> Alinti flood: 2038939393747042666 (ana: 2039052597349204436)
+[2026-06-06 18:45:00]   >> Hata (2038939393747042666): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 2038540980899516642 (ana: 2039096657459937720)
+[2026-06-06 18:45:00]   >> Hata (2038540980899516642): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 2038540624740147254 (ana: 2039096427033383102)
+[2026-06-06 18:45:00]   >> Hata (2038540624740147254): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 2037544068637405615 (ana: 2062548704364572982)
+[2026-06-06 18:45:00]   >> Hata (2037544068637405615): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 2037528345336811550 (ana: 2037544068637405615)
+[2026-06-06 18:45:00]   >> Hata (2037528345336811550): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00] Ilerleme: 35 alinti islendi | kuyruk: 11 | +0 kayit
+[2026-06-06 18:45:00]   >> Alinti flood: 2034682128605073871 (ana: 2038392948862115920)
+[2026-06-06 18:45:00]   >> Hata (2034682128605073871): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 2032967681096274318 (ana: 2032969065820496180)
+[2026-06-06 18:45:00]   >> Hata (2032967681096274318): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 2029636652918849695 (ana: 2062260489858515231)
+[2026-06-06 18:45:00]   >> Hata (2029636652918849695): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 2026414462635307519 (ana: 2026807180884656189)
+[2026-06-06 18:45:00]   >> Hata (2026414462635307519): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 2016477799037517829 (ana: 2016584090019893422)
+[2026-06-06 18:45:00]   >> Hata (2016477799037517829): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00] Ilerleme: 40 alinti islendi | kuyruk: 6 | +0 kayit
+[2026-06-06 18:45:00]   >> Alinti flood: 1962290696309637623 (ana: 2057788142090895482)
+[2026-06-06 18:45:00]   >> Hata (1962290696309637623): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 1960756838129131731 (ana: 2062450081781977489)
+[2026-06-06 18:45:00]   >> Hata (1960756838129131731): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 1952312791064248720 (ana: 2037625057279701149)
+[2026-06-06 18:45:00]   >> Hata (1952312791064248720): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 1940730876926775418 (ana: 2044747991458680936)
+[2026-06-06 18:45:00]   >> Hata (1940730876926775418): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00]   >> Alinti flood: 1904825338175140115 (ana: 2062833390970175812)
+[2026-06-06 18:45:00]   >> Hata (1904825338175140115): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:00] Ilerleme: 45 alinti islendi | kuyruk: 1 | +0 kayit
+[2026-06-06 18:45:00]   >> Alinti flood: 1770898482808643726 (ana: 2063250939578863720)
+[2026-06-06 18:45:00]   >> Hata (1770898482808643726): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 18:45:01] BITTI | islenen alinti: 46 | +0 yeni/guncel kayit
+[2026-06-06 19:00:27] BASLA | kuyruk: 46 alinti (2026 kapsami) | atlanan (once): 12 | kalan: 34
+[2026-06-06 19:00:27]   >> Alinti flood: 2062361652012445775 (ana: 2062367493348368770)
+[2026-06-06 19:00:51]   >> Hata (2062361652012445775): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 19:00:51]   >> Bos sayfa — tekrar (2/3): 2062361652012445775
+[2026-06-06 19:00:51]   >> Alinti flood: 2062093178426286535 (ana: 2062459383674474712)
+[2026-06-06 19:01:20]   >> Hata (2062093178426286535): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 19:01:20]   >> Bos sayfa — tekrar (2/3): 2062093178426286535
+[2026-06-06 19:01:20]   >> Alinti flood: 2062091139050578301 (ana: 2062092968752783862)
+[2026-06-06 19:01:47]   >> Hata (2062091139050578301): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 19:01:47]   >> Bos sayfa — tekrar (2/3): 2062091139050578301
+[2026-06-06 19:01:47]   >> Alinti flood: 2061878740389441717 (ana: 2062474985419997310)
+[2026-06-06 19:02:14]   >> Hata (2061878740389441717): Page.evaluate: Execution context was destroyed, most likely because of a navigation.
+[2026-06-06 19:02:14]   >> Bos sayfa — tekrar (2/3): 2061878740389441717
+[2026-06-06 19:02:14]   >> Alinti flood: 2061821178583384070 (ana: 2062426381707821096)
+[2026-06-06 19:02:41]   >> Hata (2061821178583384070): Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[2026-06-06 19:02:41]   >> Bos sayfa — tekrar (2/3): 2061821178583384070
+[2026-06-06 19:02:41]   >> Alinti flood: 2061783252390560234 (ana: 2061784198856249756)
+[2026-06-06 19:02:58] BASLA | kuyruk: 46 alinti (2026 kapsami) | atlanan (once): 12 | kalan: 34
+[2026-06-06 19:02:59]   >> Alinti flood: 2062361652012445775 (ana: 2062367493348368770)
+[2026-06-06 19:03:38]      +0 kayit | kok:2062361652012445775 | konusma:0
+[2026-06-06 19:03:38]   >> Vazgecildi (3 deneme): 2062361652012445775
+[2026-06-06 19:03:38]   >> Alinti flood: 2062093178426286535 (ana: 2062459383674474712)
+[2026-06-06 19:04:51]      +6 kayit | kok:2062093178426286535 | konusma:7
+[2026-06-06 19:04:56]   >> Alinti flood: 2062091139050578301 (ana: 2062092968752783862)
+[2026-06-06 19:05:50]      +1 kayit | kok:2062091139050578301 | konusma:2
+[2026-06-06 19:05:55] Ilerleme: 15 alinti islendi | kuyruk: 31 | +7 kayit
+[2026-06-06 19:05:55]   >> Alinti flood: 2061878740389441717 (ana: 2062474985419997310)
+[2026-06-06 19:07:24]      +9 kayit | kok:2061878740389441717 | konusma:9
+[2026-06-06 19:07:30]   >> Alinti flood: 2061821178583384070 (ana: 2062426381707821096)
+[2026-06-06 19:08:17]      +0 kayit | kok:2061821178583384070 | konusma:0
+[2026-06-06 19:08:17]   >> Vazgecildi (3 deneme): 2061821178583384070
+[2026-06-06 19:08:17]   >> Alinti flood: 2061783252390560234 (ana: 2061784198856249756)
+[2026-06-06 19:09:13]      +0 kayit | kok:2061783252390560234 | konusma:0
+[2026-06-06 19:09:13]   >> Bos sayfa — tekrar (2/3): 2061783252390560234
+[2026-06-06 19:09:13]   >> Alinti flood: 2048709816999096349 (ana: 2061129198316421514)
+[2026-06-06 19:10:01]      +7 kayit | kok:2048709816999096349 | konusma:7
+[2026-06-06 19:10:13]   >> Alinti flood: 2047343957630189944 (ana: 2062540887503044724)
+[2026-06-06 19:10:23] BASLA | kuyruk: 46 alinti (2026 kapsami) | atlanan (once): 18 | kalan: 28
+[2026-06-06 19:10:24]   >> Alinti flood: 2061783252390560234 (ana: 2061784198856249756)
+[2026-06-06 19:10:24]   >> Hata (2061783252390560234): Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-06-06 19:10:24] Chrome/sekme kapandi — durduruluyor. CHROME_X.bat acip TARA_ALINTI_FLOOD.bat tekrar calistir.
+[2026-06-06 19:10:25] BITTI | islenen alinti: 18 | +0 yeni/guncel kayit
+[2026-06-06 20:32:49] BASLA | kuyruk: 46 alinti (2026 kapsami) | atlanan (once): 16 | kalan: 30
+[2026-06-06 20:32:49]   >> Alinti flood: 2062361652012445775 (ana: 2062367493348368770)
+[2026-06-06 20:33:27]      +8 kayit | kok:2062361652012445775 | konusma:9
+[2026-06-06 20:33:29]   >> Alinti flood: 2061821178583384070 (ana: 2062426381707821096)
+[2026-06-06 20:35:10]      +6 kayit | kok:2061821178583384070 | konusma:6
+[2026-06-06 20:35:11]   >> Alinti flood: 2061783252390560234 (ana: 2061784198856249756)
+[2026-06-06 20:36:32]      +3 kayit | kok:2061783252390560234 | konusma:3
+[2026-06-06 20:36:40]   >> Alinti flood: 2047343957630189944 (ana: 2062540887503044724)
+[2026-06-06 20:37:48]      +17 kayit | kok:2047343957630189944 | konusma:18
+[2026-06-06 20:37:55] Ilerleme: 20 alinti islendi | kuyruk: 26 | +34 kayit
+[2026-06-06 20:37:55]   >> Alinti flood: 2046329630873747618 (ana: 2045587086695391351)
+[2026-06-06 20:38:41]      +6 kayit | kok:2046329630873747618 | konusma:9
+[2026-06-06 20:38:46]   >> Alinti flood: 2045940601762242914 (ana: 2045954455288357156)
+[2026-06-06 20:39:27]      +17 kayit | kok:2045940601762242914 | konusma:17
+[2026-06-06 20:39:33]   >> Alinti flood: 2045860128201531837 (ana: 2050338489883906212)
+[2026-06-06 20:40:19]      +2 kayit | kok:2045860128201531837 | konusma:4
+[2026-06-06 20:40:24]   >> Alinti flood: 2045587086695391351 (ana: 2046329630873747618)
+[2026-06-06 20:41:01]      +0 kayit | kok:2045587086695391351 | konusma:0
+[2026-06-06 20:41:01]   >> Bos sayfa — tekrar (1/3): 2045587086695391351
+[2026-06-06 20:41:02]   >> Alinti flood: 2045137616064876775 (ana: 2050338131619045762)
+[2026-06-06 20:41:46]      +0 kayit | kok:2045137616064876775 | konusma:4
+[2026-06-06 20:41:46]   >> Alinti flood: 2042295059706474549 (ana: 2054891231927287939)
+[2026-06-06 20:42:26]      +6 kayit | kok:2042295059706474549 | konusma:7
+[2026-06-06 20:42:31] Ilerleme: 25 alinti islendi | kuyruk: 21 | +65 kayit
+[2026-06-06 20:42:31]   >> Alinti flood: 2041821678246736075 (ana: 2053236548787699858)
+[2026-06-06 20:43:08]      +7 kayit | kok:2041821678246736075 | konusma:7
+[2026-06-06 20:43:14]   >> Alinti flood: 2039482783219785818 (ana: 2040911429574828223)
+[2026-06-06 20:43:57]      +6 kayit | kok:2039482783219785818 | konusma:7
+[2026-06-06 20:44:02]   >> Alinti flood: 2038986156075872628 (ana: 2039050447420326027)
+[2026-06-06 20:44:41]      +3 kayit | kok:2038986156075872628 | konusma:11
+[2026-06-06 20:44:47]   >> Alinti flood: 2038978575554982396 (ana: 2039006897102020705)
+[2026-06-06 20:45:24]      +1 kayit | kok:2038978575554982396 | konusma:6
+[2026-06-06 20:45:30]   >> Alinti flood: 2038939393747042666 (ana: 2039052597349204436)
+[2026-06-06 20:46:12]      +2 kayit | kok:2038939393747042666 | konusma:9
+[2026-06-06 20:46:17] Ilerleme: 30 alinti islendi | kuyruk: 16 | +84 kayit
+[2026-06-06 20:46:17]   >> Alinti flood: 2038540980899516642 (ana: 2039096657459937720)
+[2026-06-06 20:46:59]      +2 kayit | kok:2038540980899516642 | konusma:6
+[2026-06-06 20:47:05]   >> Alinti flood: 2038540624740147254 (ana: 2039096427033383102)
+[2026-06-06 20:47:42]      +1 kayit | kok:2038540624740147254 | konusma:5
+[2026-06-06 20:47:48]   >> Alinti flood: 2037544068637405615 (ana: 2062548704364572982)
+[2026-06-06 20:48:25]      +0 kayit | kok:2037544068637405615 | konusma:1
+[2026-06-06 20:48:25]   >> Alinti flood: 2037528345336811550 (ana: 2037544068637405615)
+[2026-06-06 20:49:05]      +0 kayit | kok:2037528345336811550 | konusma:1
+[2026-06-06 20:49:05]   >> Alinti flood: 2034682128605073871 (ana: 2038392948862115920)
+[2026-06-06 20:49:47]      +12 kayit | kok:2034682128605073871 | konusma:10
+[2026-06-06 20:49:52] Ilerleme: 35 alinti islendi | kuyruk: 11 | +99 kayit
+[2026-06-06 20:49:52]   >> Alinti flood: 2032967681096274318 (ana: 2032969065820496180)
+[2026-06-06 20:50:34]      +1 kayit | kok:2032967681096274318 | konusma:2
+[2026-06-06 20:50:40]   >> Alinti flood: 2029636652918849695 (ana: 2062260489858515231)
+[2026-06-06 20:51:18]      +7 kayit | kok:2029636652918849695 | konusma:8
+[2026-06-06 20:51:23]   >> Alinti flood: 2026414462635307519 (ana: 2026807180884656189)
+[2026-06-06 20:52:07]      +1 kayit | kok:2026414462635307519 | konusma:5
+[2026-06-06 20:52:12]   >> Alinti flood: 2016477799037517829 (ana: 2016584090019893422)
+[2026-06-06 20:52:59]      +15 kayit | kok:2016477799037517829 | konusma:15
+[2026-06-06 20:53:04]   >> Alinti flood: 1962290696309637623 (ana: 2057788142090895482)
+[2026-06-06 20:53:47]      +4 kayit | kok:1962290696309637623 | konusma:11
+[2026-06-06 20:53:53] Ilerleme: 40 alinti islendi | kuyruk: 6 | +127 kayit
+[2026-06-06 20:53:53]   >> Alinti flood: 1960756838129131731 (ana: 2062450081781977489)
+[2026-06-06 20:54:34]      +0 kayit | kok:1960756838129131731 | konusma:2
+[2026-06-06 20:54:34]   >> Alinti flood: 1952312791064248720 (ana: 2037625057279701149)
+[2026-06-06 20:55:16]      +7 kayit | kok:1952312791064248720 | konusma:7
+[2026-06-06 20:55:21]   >> Alinti flood: 1940730876926775418 (ana: 2044747991458680936)
+[2026-06-06 20:56:06]      +9 kayit | kok:1940730876926775418 | konusma:9
+[2026-06-06 20:56:11]   >> Alinti flood: 1904825338175140115 (ana: 2062833390970175812)
+[2026-06-06 20:56:54]      +6 kayit | kok:1904825338175140115 | konusma:7
+[2026-06-06 20:57:00]   >> Alinti flood: 1770898482808643726 (ana: 2063250939578863720)
+[2026-06-06 20:57:37]      +4 kayit | kok:1770898482808643726 | konusma:5
+[2026-06-06 20:57:42] Ilerleme: 45 alinti islendi | kuyruk: 1 | +153 kayit
+[2026-06-06 20:57:42]   >> Alinti flood: 2045587086695391351 (ana: 2046329630873747618)
+[2026-06-06 20:58:23]      +0 kayit | kok:2045587086695391351 | konusma:0
+[2026-06-06 20:58:23]   >> Bos sayfa — tekrar (2/3): 2045587086695391351
+[2026-06-06 20:58:23] Ilerleme: 45 alinti islendi | kuyruk: 1 | +153 kayit
+[2026-06-06 20:58:23]   >> Alinti flood: 2045587086695391351 (ana: 2046329630873747618)
+[2026-06-06 20:59:03]      +0 kayit | kok:2045587086695391351 | konusma:0
+[2026-06-06 20:59:03]   >> Vazgecildi (3 deneme): 2045587086695391351
+[2026-06-06 20:59:08] BITTI | islenen alinti: 46 | +153 yeni/guncel kayit
+[2026-06-06 21:10:32] BASLA | kuyruk: 47 alinti (2026 kapsami) | atlanan (once): 45 | kalan: 2
+[2026-06-06 21:10:33]   >> Alinti flood: 2045587086695391351 (ana: 2046329630873747618)
+[2026-06-06 21:11:16]      +0 kayit | kok:2045587086695391351 | konusma:0
+[2026-06-06 21:11:16]   >> Bos sayfa — tekrar (1/3): 2045587086695391351
+[2026-06-06 21:11:16] Ilerleme: 45 alinti islendi | kuyruk: 2 | +0 kayit
+[2026-06-06 21:11:16]   >> Alinti flood: 2034233658215665705 (ana: 2034685788462440538)
+[2026-06-06 21:11:52]      +6 kayit | kok:2034233658215665705 | konusma:7
+[2026-06-06 21:11:54]   >> Alinti flood: 2045587086695391351 (ana: 2046329630873747618)
+[2026-06-06 21:12:29]      +0 kayit | kok:2045587086695391351 | konusma:0
+[2026-06-06 21:12:29]   >> Bos sayfa — tekrar (2/3): 2045587086695391351
+[2026-06-06 21:12:29]   >> Alinti flood: 2045587086695391351 (ana: 2046329630873747618)
+[2026-06-06 21:13:09]      +0 kayit | kok:2045587086695391351 | konusma:0
+[2026-06-06 21:13:09]   >> Vazgecildi (3 deneme): 2045587086695391351
+[2026-06-06 21:13:10] BITTI | islenen alinti: 47 | +6 yeni/guncel kayit

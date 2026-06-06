@@ -52,20 +52,38 @@ def count_abone(rows: dict) -> tuple[int, int, int]:
 
 
 def main() -> int:
+    from tara_lock import acquire, release
+
+    if not acquire("abone_tamamla"):
+        return 3
+
     parser = argparse.ArgumentParser(description="Abone tweet metinlerini kaydet")
     parser.add_argument("--attach-port", type=int, default=9222)
     parser.add_argument("--since", type=str, default="2026-04-01")
     parser.add_argument("--per-round", type=int, default=300)
-    parser.add_argument("--max-rounds", type=int, default=50)
+    parser.add_argument("--max-rounds", type=int, default=20)
     parser.add_argument("--profile-scroll", type=int, default=450)
     parser.add_argument("--skip-profile", action="store_true")
     parser.add_argument("--no-pack", action="store_true")
     parser.add_argument("--stall-sec", type=int, default=180, help="Ilerleme yoksa kurtarma (sn)")
     parser.add_argument("--max-auto-restart", type=int, default=8)
+    parser.add_argument(
+        "--max-id-attempts",
+        type=int,
+        default=5,
+        help="Ayni tweet icin max deneme; sonra [erisilemedi] ve ilerle",
+    )
+    parser.add_argument(
+        "--max-stall-rounds",
+        type=int,
+        default=3,
+        help="Arka arkaya ilerleme yoksa kalanlari isaretle ve cik",
+    )
     args = parser.parse_args()
 
     from playwright.sync_api import sync_playwright
 
+    from tara_ilerle import give_up_locked_batch
     from tara_nav import StallWatchdog, bind_safe_page, page_stuck_loading, recover_x_page
     from tweet_tara import (
         click_posts_tab,
@@ -123,7 +141,9 @@ def main() -> int:
         page = pick_profile_page(context)
         bind_safe_page(page, PROFILE_URL_POSTS)
         close_foreign_tabs(context, page)
-        page.goto(PROFILE_URL_POSTS, wait_until="domcontentloaded", timeout=90_000)
+        from tara_nav import safe_goto
+
+        safe_goto(page, PROFILE_URL_POSTS, reason="abone-baslangic")
         page.wait_for_timeout(3000)
         x_clear_error(page)
         if not wait_for_profile_feed(page, tries=20):
@@ -135,6 +155,13 @@ def main() -> int:
         _log("Profil hazir — abone tweet metinleri cekiliyor...")
         watchdog.ping()
         should_restart = False
+        stall_rounds = 0
+        n_pre = give_up_locked_batch(
+            all_rows, since=args.since, max_attempts=args.max_id_attempts
+        )
+        if n_pre:
+            persist(all_rows)
+            _log(f"Onceki oturumlardan atlandi: {n_pre} bos kilitli")
         try:
             if not args.skip_profile and locked_empty > 0:
                 prof_done = refill_locked_profile_scroll(
@@ -178,6 +205,7 @@ def main() -> int:
                     capture_conversation=False,
                     fast=True,
                     watchdog=watchdog,
+                    max_id_attempts=args.max_id_attempts,
                 )
                 total_done += done
                 locked_after = sum(
@@ -191,6 +219,29 @@ def main() -> int:
                     f"Nisan+ metinli ana: {saved_now} | kilitli+metin: {lwt_now}"
                 )
                 if done == 0:
+                    stall_rounds += 1
+                else:
+                    stall_rounds = 0
+                if done == 0 and stall_rounds >= args.max_stall_rounds:
+                    n_skip = give_up_locked_batch(
+                        all_rows,
+                        since=args.since,
+                        max_attempts=args.max_id_attempts,
+                        force=True,
+                    )
+                    if n_skip:
+                        persist(all_rows)
+                    locked_left = sum(
+                        1
+                        for r in all_rows.values()
+                        if r.get("locked") and not (r.get("text") or "").strip()
+                    )
+                    _log(
+                        f"Ilerleme yok ({stall_rounds} tur) — "
+                        f"atlandi: {n_skip} | kalan bos: {locked_left} | devam ediliyor"
+                    )
+                    break
+                if done == 0 and (page_stuck_loading(page) or watchdog.needs_recovery()):
                     _log("Turda metin gelmedi — splash / takilma kontrolu...")
                     ok = watchdog.recover(page, PROFILE_URL_POSTS)
                     if not ok:
@@ -200,6 +251,8 @@ def main() -> int:
                             recover_x_page(page, PROFILE_URL_POSTS)
                         except Exception:
                             pass
+                elif done == 0:
+                    page.wait_for_timeout(4000)
                     if watchdog.failed_recoveries >= 2:
                         auto_restarts += 1
                         if auto_restarts <= args.max_auto_restart:
@@ -230,6 +283,8 @@ def main() -> int:
             f"--attach-port={args.attach_port}",
             f"--stall-sec={args.stall_sec}",
             f"--max-auto-restart={args.max_auto_restart}",
+            f"--max-id-attempts={args.max_id_attempts}",
+            f"--max-stall-rounds={args.max_stall_rounds}",
         ]
         if args.skip_profile:
             cmd.append("--skip-profile")
@@ -254,7 +309,10 @@ def main() -> int:
         f"BITTI | bu oturumda +{total_done} metin | kalan bos kilitli: {locked_end} | "
         f"Nisan+ metinli ana: {saved_end} | kilitli+metin: {lwt_end}"
     )
-    return 0 if total_done > 0 or locked_end < locked_empty else 1
+    try:
+        return 0 if total_done > 0 or locked_end < locked_empty else 1
+    finally:
+        release()
 
 
 if __name__ == "__main__":
