@@ -1,0 +1,52 @@
+ Volume in drive C is Windows
+ Volume Serial Number is 801D-B0B0
+
+ Directory of C:\Users\idagu\OneDrive\MasaÅstÅ\ekonomikocu
+
+09.06.2026  23:32    <DIR>          .
+09.06.2026  23:29    <DIR>          ..
+06.06.2026  10:30               369 .gitignore
+07.06.2026  01:01               738 00_OKU_YUKLEME_SIRASI.txt
+07.06.2026  01:01             1.563 01_BURADAN_BASLA.md
+07.06.2026  01:00             9.793 02_MENTOR_REHBERI.md
+07.06.2026  00:51         1.508.140 03_HAFIZA.md
+07.06.2026  01:00         2.359.748 04_TWEETLER.jsonl
+07.06.2026  00:51         2.413.425 04_TWEETLER_v2.jsonl
+07.06.2026  01:01        66.214.387 05_GRAFIKLER.zip
+06.06.2026  09:13            12.520 06_ANALIZ.md
+07.06.2026  01:00                 0 07_ABONE_TWEETLER.jsonl
+07.06.2026  00:51                 0 07_ABONE_TWEETLER_v2.jsonl
+07.06.2026  01:00         1.058.858 08_TWEETLER_GEMINI.md
+07.06.2026  01:00    <DIR>          09_GRAFIKLER_GEMINI
+07.06.2026  01:00               194 10_ABONE_TWEETLER_GEMINI.md
+07.06.2026  01:01    <DIR>          99_BOT_ARSIV
+06.06.2026  17:36            24.861 abone_tamamla_log.txt
+06.06.2026  21:13             2.320 alinti_flood_done.json
+06.06.2026  22:01             1.418 alinti_flood_done_tum.json
+06.06.2026  21:13            42.935 alinti_flood_tara_log.txt
+06.06.2026  22:59            72.759 alinti_flood_tara_tum.log
+07.06.2026  00:52           222.925 cagrilar.jsonl
+07.06.2026  00:57         2.395.677 cekilen_tweetler.jsonl
+06.06.2026  09:13               170 CLAUDE_AT_BURADAN.bat
+07.06.2026  00:51         1.508.140 ekonomikocu_hafiza_v1.md
+07.06.2026  00:41         1.506.357 ekonomikocu_hafiza_v1.md.bak
+06.06.2026  09:13               157 GEMINI_AT_BURADAN.bat
+07.06.2026  00:52           169.045 grafik_seviyeleri.jsonl
+07.06.2026  00:51               526 kaynak_raporu.md
+09.06.2026  23:32                 0 liste.txt
+07.06.2026  00:22    <DIR>          medya
+06.06.2026  22:59               254 pin_flood_tara_log.txt
+06.06.2026  10:30             1.405 README.md
+07.06.2026  00:51             1.634 SEMA.md
+06.06.2026  21:31               840 TARAMA_2025.md
+07.06.2026  00:06               995 TARAMA_2026.md
+07.06.2026  00:06             1.388 TARAMA_DURUMU.md
+06.06.2026  20:30             1.463 TARAMA_KURAL_2026.md
+06.06.2026  21:31               818 tara_2025.json
+07.06.2026  00:06               963 tara_2026.json
+07.06.2026  00:21             2.844 tara_bookmark.json
+06.06.2026  23:03             4.088 tara_deneme.json
+07.06.2026  00:06               922 tara_kapsam.json
+05.06.2026  11:34    <DIR>          __pycache__
+              39 File(s)     79.544.639 bytes
+               6 Dir(s)  263.938.809.856 bytes free

@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python 99_BOT_ARSIV/kod/*)",
+      "Bash(python 99_BOT_ARSIV/kod/* *)",
+      "Bash(cd \"C:\\Users\\idagu\\OneDrive\\Masaüstü\\ekonomikocu\" && python *)",
+      "Bash(curl -s http://127.0.0.1:9222*)",
+      "Bash(for i in $(seq *)",
+      "Bash(pkill *)",
+      "Bash(taskkill *)",
+      "PowerShell(Get-Process *)",
+      "PowerShell(Get-CimInstance *)",
+      "PowerShell(Test-Path *)",
+      "PowerShell(Start-Process *)",
+      "PowerShell(taskkill *)",
+      "PowerShell(try *)",
+      "PowerShell($*)",
+      "Skill(*)"
+    ]
+  }
+}
