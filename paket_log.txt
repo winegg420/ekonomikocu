@@ -1,0 +1,17 @@
+Indirilecek eksik gorsel yok.
+  Reklam/kirli atlandi: 26 satir (pakette yok)
+
+Claude'a AT — kok klasor, sirayla:
+  1. 01_BURADAN_BASLA.md
+  2. 02_MENTOR_REHBERI.md
+  3. 03_HAFIZA.md
+  4. 04_TWEETLER.jsonl
+  5. 05_GRAFIKLER.zip  (64.7 MB, 405 grafik)
+  6. 06_ANALIZ.md  (analiz — dokunulmadi)
+  --- Gemini (kok klasor) ---
+  7. 07_ABONE_TWEETLER.jsonl  (opsiyonel)
+  8. 08_TWEETLER_GEMINI.md
+  9. 09_GRAFIKLER_GEMINI/  (405 jpg)
+  10. 10_ABONE_TWEETLER_GEMINI.md
+  Yukleme kilavuzu: 00_OKU_YUKLEME_SIRASI.txt
+  Kok klasorde 00-10 alt alta (Explorer en ust)

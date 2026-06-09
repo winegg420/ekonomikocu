@@ -1,0 +1,19 @@
+Mevcut jsonl: 3564 tweet | alinTi tam: 49 | bekleyen alinti: 4
+Senin Chrome'una baglandi (port 9222).
+Profil acik — devam (ustte abone tweetleri normal).
+Scroll 1/80: toplam 3564 tweet (+0 yeni) | ekranda: 5 | alinti: 53 | en eski: 2019-10-28 23:04:04
+Scroll 2/80: toplam 3564 tweet (+0 yeni) | ekranda: 11 | alinti: 53 | en eski: 2019-10-28 23:04:04
+Scroll 3/80: toplam 3564 tweet (+0 yeni) | ekranda: 13 | alinti: 53 | en eski: 2019-10-28 23:04:04
+  >> DISKE YAZILDI: 3564 tweet -> cekilen_tweetler.jsonl
+Scroll 4/80: toplam 3564 tweet (+0 yeni) | ekranda: 12 | alinti: 53 | en eski: 2019-10-28 23:04:04
+  >> Kurtarma (durak #4)...
+  >> Sayfa basina donulmuyor — sadece asagi kaydiriliyor...
+  >> Medya: graf_01.jpg (2061131047182414111)
+Scroll 5/80: toplam 3566 tweet (+2 yeni) | ekranda: 13 | alinti: 53 | en eski: 2019-10-28 23:04:04
+Scroll 6/80: toplam 3566 tweet (+0 yeni) | ekranda: 15 | alinti: 53 | en eski: 2019-10-28 23:04:04
+  >> DISKE YAZILDI: 3566 tweet -> cekilen_tweetler.jsonl
+Scroll 7/80: toplam 3566 tweet (+0 yeni) | ekranda: 19 | alinti: 53 | en eski: 2019-10-28 23:04:04
+  >> Takilma (2026-05-23) — profil yenileniyor (eski tarih aramasina gidilmiyor)
+Scroll 8/80: toplam 3566 tweet (+0 yeni) | ekranda: 5 | alinti: 53 | en eski: 2019-10-28 23:04:04
+Scroll 9/80: toplam 3566 tweet (+0 yeni) | ekranda: 11 | alinti: 53 | en eski: 2019-10-28 23:04:04
+  >> DISKE YAZILDI: 3566 tweet -> cekilen_tweetler.jsonl

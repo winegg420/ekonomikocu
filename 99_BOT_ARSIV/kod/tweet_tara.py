@@ -3002,15 +3002,27 @@ def run_scrape(
                     stagnation_oldest = batch_oldest_scroll
                     stagnation_hits = 0
             if stagnation_hits >= 6 and batch_oldest_scroll and recoveries < 8:
-                if period_filter and use_search_feed:
+                if period_filter:
+                    # Donem aramasinda takildik — her zaman hedef arama URL'ine don
                     _log(
                         f"  >> Takilma ({batch_oldest_scroll.date()}) — "
                         f"donem aramasina donuluyor"
                     )
-                    safe_goto(page, active_search, reason="stagnation-mart")
+                    safe_goto(page, active_search, reason="stagnation-donem")
                     page.wait_for_timeout(5000)
                     x_clear_error(page)
                     page._eko_home = active_search  # type: ignore[attr-defined]
+                    use_search_feed = True
+                elif profile_only:
+                    # Profil modunda: eski tarih aramasina GITME, profilde kal
+                    _log(
+                        f"  >> Takilma ({batch_oldest_scroll.date()}) — "
+                        f"profil yenileniyor (eski tarih aramasina gidilmiyor)"
+                    )
+                    safe_goto(page, PROFILE_URL_POSTS, reason="stagnation-profil")
+                    page.wait_for_timeout(4000)
+                    click_posts_tab(page)
+                    x_clear_error(page)
                 else:
                     y, m = batch_oldest_scroll.year, batch_oldest_scroll.month
                     since_m = f"{y}-{m:02d}-01"
