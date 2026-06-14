@@ -12,9 +12,19 @@
 
 **Genel tamamlanma %100 olmadan tarama bitmis sayilmaz.**
 
-## Yeni tweet — hemen kayit
+## Yeni tweet — hemen kayit (SESSIZ / onerilen)
 
-Koç yeni tweet attiginda veya gun sonu:
+Koç yeni tweet attiginda veya gun sonu — **tek tik**:
+
+```
+99_BOT_ARSIV\calistir\TARA_GUNCEL.bat
+```
+
+Chrome'u **ekran disinda (sessiz)** acar — pencere onune gelmez, aramalari gormezsin —
+ve son taramadan bugune: ustten kesif → bu ay aramasi → abone → flood → alinti → rapor.
+Bir sey gormen gerekirse (giris/Retry): `CHROME_GOSTER.bat`.
+
+### Eski yontem (gorunur Chrome — yedek, sistem ayni)
 
 ```
 99_BOT_ARSIV\calistir\CHROME_X.bat   (Chrome acik, abone oturumu)

@@ -2516,7 +2516,7 @@ def run_quotes_pass(
             save_pending_list(all_rows)
             try:
                 if cdp_browser:
-                    cdp_browser.close()
+                    pass  # CDP: bagli Chrome'u KAPATMA — sonraki faz icin acik kalsin
                 else:
                     context.close()
             except Exception:
@@ -2701,7 +2701,7 @@ def run_scrape(
                 apply_to_hafiza(load_jsonl(JSONL_OUT), HAFIZA, dry_run)
             try:
                 if cdp_browser:
-                    cdp_browser.close()
+                    pass  # CDP: bagli Chrome'u KAPATMA — sonraki faz icin acik kalsin
                 else:
                     context.close()
             except Exception:
@@ -3157,7 +3157,7 @@ def run_scrape(
             persist_partial()
             try:
                 if attached_cdp and cdp_browser:
-                    cdp_browser.close()
+                    pass  # CDP: bagli Chrome'u KAPATMA — sonraki faz icin acik kalsin
                 else:
                     context.close()
             except Exception:

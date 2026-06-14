@@ -310,3 +310,7 @@
 [2026-06-06 17:20:47] BITTI | bu oturumda +1 metin | kalan bos kilitli: 0 | Nisan+ metinli ana: 2035 | kilitli+metin: 0
 [2026-06-06 17:36:38] BASLA | bos kilitli: 1 | Nisan+ metinli ana: 2015 | kilitli+metin: 0
 [2026-06-06 17:36:38] Chrome baglandi (port 9222)
+[2026-06-11 20:21:26] BASLA | bos kilitli: 1 | Nisan+ metinli ana: 2205 | kilitli+metin: 0
+[2026-06-11 20:25:57] Chrome yok. CHROME_X.bat ac, abone oturumu gir, tekrar calistir.
+[2026-06-14 11:00:57] BASLA | bos kilitli: 1 | Nisan+ metinli ana: 2235 | kilitli+metin: 0
+[2026-06-14 11:05:28] Chrome yok. CHROME_X.bat ac, abone oturumu gir, tekrar calistir.

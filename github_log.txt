@@ -1,0 +1,40 @@
++ git remote set-url origin https://github.com/winegg420/ekonomikocu.git
++ git add -A
+warning: in the working copy of '.claude/settings.json', LF will be replaced by CRLF the next time Git touches it
++ git diff --cached --quiet
++ git commit -m guncelleme 2026-06-10 01:11
+[main 8075dcf] guncelleme 2026-06-10 01:11
+ 37 files changed, 11860 insertions(+), 11798 deletions(-)
+ create mode 100644 09_GRAFIKLER_GEMINI.zip
+ delete mode 100644 09_GRAFIKLER_GEMINI/2051611978620149870_graf_01.jpg
+ delete mode 100644 09_GRAFIKLER_GEMINI/2051966344837443976_graf_01.jpg
+ delete mode 100644 09_GRAFIKLER_GEMINI/2052072733119275258_graf_01.jpg
+ delete mode 100644 09_GRAFIKLER_GEMINI/2056838618048610459_graf_01.jpg
+ delete mode 100644 09_GRAFIKLER_GEMINI/2057230264422588814_graf_01.jpg
+ delete mode 100644 09_GRAFIKLER_GEMINI/2057523826070520075_graf_01.jpg
+ delete mode 100644 09_GRAFIKLER_GEMINI/2059026992708591713_graf_01.jpg
+ delete mode 100644 09_GRAFIKLER_GEMINI/2059376480346308868_graf_01.jpg
+ delete mode 100644 09_GRAFIKLER_GEMINI/2060460366501486788_graf_01.jpg
+ delete mode 100644 09_GRAFIKLER_GEMINI/2061229095598313582_graf_01.jpg
+ delete mode 100644 09_GRAFIKLER_GEMINI/2061539013450731960_graf_01.jpg
+ delete mode 100644 09_GRAFIKLER_GEMINI/2061557678132842697_graf_01.jpg
+ delete mode 100644 09_GRAFIKLER_GEMINI/2061887554165600612_graf_01.jpg
+ delete mode 100644 09_GRAFIKLER_GEMINI/2061904365812654309_graf_01.jpg
+ delete mode 100644 09_GRAFIKLER_GEMINI/2061911797771260203_graf_01.jpg
+ delete mode 100644 09_GRAFIKLER_GEMINI/2062135599352438823_graf_01.jpg
+ delete mode 100644 09_GRAFIKLER_GEMINI/2062279042716316124_graf_01.jpg
+ delete mode 100644 09_GRAFIKLER_GEMINI/2062534688267276615_graf_01.jpg
+ delete mode 100644 09_GRAFIKLER_GEMINI/2062611328687030323_graf_01.jpg
+ create mode 100644 github_log.txt
+ create mode 100644 medya/2061131047182414111/graf_01.jpg
+ create mode 100644 paket_log.txt
+ create mode 100644 tara_log.txt
++ git push -u origin main
+remote: warning: See https://gh.io/lfs for more information.        
+remote: warning: File 09_GRAFIKLER_GEMINI.zip is 67.53 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: File 05_GRAFIKLER.zip is 64.74 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To https://github.com/winegg420/ekonomikocu.git
+   9c91f23..8075dcf  main -> main
+branch 'main' set up to track 'origin/main'.
+GitHub guncellendi: https://github.com/winegg420/ekonomikocu.git
