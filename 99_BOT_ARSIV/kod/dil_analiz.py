@@ -8,9 +8,7 @@ import re
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
-JSONL = ROOT / "cekilen_tweetler.jsonl"
-HAFIZA = ROOT / "ekonomikocu_hafiza_v1.md"
+from tweet_tara import JSONL_OUT as JSONL, HAFIZA
 MARKER = "## 4. KOÇ DİLİ VE SÖZLÜK (otomatik)"
 
 HASHTAG_RX = re.compile(r"#\w+", re.UNICODE)
