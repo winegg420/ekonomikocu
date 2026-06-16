@@ -1,0 +1,301 @@
+# TARAMA 2026 (@ekonomikocu)
+
+**Guncelleme:** 2026-06-16T09:39:00
+
+## Ozet
+
+> **Genel tamamlanma: 83.3%**
+>
+> Hedef: **2026 yilindaki TUM tweetler** + **abone metinleri** + **alintilanan gecmis tweetler** + **#FLOOD parcalari** ? **%100**
+>
+> **Tamam mi?** HAYIR ? tarama devam
+
+| Alan | Tam | Eksik | % |
+|------|-----|-------|---|
+| Ana tweet (2026) | 4046 | 0 (+18 erisilemedi) | **100.0%** |
+| Alinti (2026 kapsami) | 95 | 0 | **100.0%** |
+| #FLOOD kok (2026) | 5 | 1 | **83.3%** |
+
+**En yeni kayit:** 2026-06-15
+
+## Aylik (2026)
+
+| Ay | Metinli | Bos | % |
+|----|---------|-----|---|
+| 2026-01 | 204 | 0 | 100.0% |
+| 2026-02 | 472 | 0 | 100.0% |
+| 2026-03 | 482 | 0 | 100.0% |
+| 2026-04 | 622 | 0 | 100.0% |
+| 2026-05 | 1271 | 0 | 100.0% |
+| 2026-06 | 995 | 0 | 100.0% |
+
+## Kural
+
+Yeni tweet atildiginda **TARA_2026_GUNCEL.bat** calistir (veya gunluk otomasyon).
+Eksik kalmamali: ana metin, abone, alinti, flood.
+
+---
+*Otomatik: kapsam_2026.py*
+
+
+============================================================
+1/7 Yeni tweetler (profil ust)
+============================================================
+Mevcut jsonl: 4322 tweet | alinTi tam: 90 | bekleyen alinti: 7
+Senin Chrome'una baglandi (port 9222).
+Profil acik — devam (ustte abone tweetleri normal).
+  >> Medya: graf_02.jpg (2061785467801010348)
+  >> Medya: graf_02.jpg (2061784871203185135)
+  >> Medya: graf_02.jpg (2061771926188531748)
+Scroll 1/100: toplam 4322 tweet (+0 yeni) | ekranda: 23 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 2/100: toplam 4322 tweet (+0 yeni) | ekranda: 24 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 3/100: toplam 4323 tweet (+1 yeni) | ekranda: 19 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> DISKE YAZILDI: 4323 tweet -> cekilen_tweetler.jsonl
+Scroll 4/100: toplam 4323 tweet (+0 yeni) | ekranda: 19 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 5/100: toplam 4323 tweet (+0 yeni) | ekranda: 19 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 6/100: toplam 4323 tweet (+0 yeni) | ekranda: 6 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> DISKE YAZILDI: 4323 tweet -> cekilen_tweetler.jsonl
+  >> Medya: graf_02.jpg (2066499520024678503)
+  >> Medya: graf_02.jpg (2066495427017347479)
+  >> Medya: graf_02.jpg (2066493770187620439)
+  >> Medya: graf_02.jpg (2066493211435057438)
+  >> Medya: graf_02.jpg (2066478524517507103)
+Scroll 7/100: toplam 4323 tweet (+0 yeni) | ekranda: 10 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> Kurtarma (durak #4)...
+  >> Sayfa basina donulmuyor — sadece asagi kaydiriliyor...
+  >> Medya: graf_02.jpg (2066471560345522333)
+  >> Medya: graf_02.jpg (2066462656811208968)
+  >> Medya: graf_02.jpg (2066298568869040272)
+Scroll 8/100: toplam 4323 tweet (+0 yeni) | ekranda: 14 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> Kurtarma (durak #4)...
+  >> Sayfa basina donulmuyor — sadece asagi kaydiriliyor...
+Scroll 9/100: toplam 4323 tweet (+0 yeni) | ekranda: 13 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> DISKE YAZILDI: 4323 tweet -> cekilen_tweetler.jsonl
+  >> Kurtarma (durak #4)...
+  >> Sayfa basina donulmuyor — sadece asagi kaydiriliyor...
+  >> Medya: graf_02.jpg (2064285492334489931)
+Scroll 10/100: toplam 4323 tweet (+0 yeni) | ekranda: 13 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> Kurtarma (durak #4)...
+  >> Sayfa basina donulmuyor — sadece asagi kaydiriliyor...
+  >> Medya: graf_01.jpg (2052348371101217238)
+  >> Medya: graf_01.jpg (2052348806650282300)
+Scroll 11/100: toplam 4325 tweet (+2 yeni) | ekranda: 6 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 12/100: toplam 4325 tweet (+0 yeni) | ekranda: 6 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> DISKE YAZILDI: 4325 tweet -> cekilen_tweetler.jsonl
+Scroll 13/100: toplam 4325 tweet (+0 yeni) | ekranda: 6 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> Takilma (2026-05-07) — ay aramasi: 2026-05-01 .. 2026-06-01
+Scroll 14/100: toplam 4325 tweet (+0 yeni) | ekranda: 2 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 15/100: toplam 4325 tweet (+0 yeni) | ekranda: 13 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> DISKE YAZILDI: 4325 tweet -> cekilen_tweetler.jsonl
+  >> Medya: graf_02.jpg (2065352225942089763)
+  >> Medya: graf_02.jpg (2065350651496767892)
+Scroll 16/100: toplam 4325 tweet (+0 yeni) | ekranda: 14 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> Medya: graf_02.jpg (2065194379099156670)
+Scroll 17/100: toplam 4325 tweet (+0 yeni) | ekranda: 16 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> Kurtarma (durak #4)...
+  >> Sayfa basina donulmuyor — sadece asagi kaydiriliyor...
+Scroll 18/100: toplam 4325 tweet (+0 yeni) | ekranda: 12 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> DISKE YAZILDI: 4325 tweet -> cekilen_tweetler.jsonl
+  >> Kurtarma (durak #4)...
+  >> Sayfa basina donulmuyor — sadece asagi kaydiriliyor...
+Scroll 19/100: toplam 4325 tweet (+0 yeni) | ekranda: 1 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> Takilma (2026-05-17) — ay aramasi: 2026-05-01 .. 2026-06-01
+Scroll 20/100: toplam 4325 tweet (+0 yeni) | ekranda: 6 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 21/100: toplam 4325 tweet (+0 yeni) | ekranda: 11 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> DISKE YAZILDI: 4325 tweet -> cekilen_tweetler.jsonl
+Scroll 22/100: toplam 4325 tweet (+0 yeni) | ekranda: 14 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 23/100: toplam 4325 tweet (+0 yeni) | ekranda: 14 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> Kurtarma (durak #4)...
+  >> Sayfa basina donulmuyor — sadece asagi kaydiriliyor...
+Scroll 24/100: toplam 4325 tweet (+0 yeni) | ekranda: 15 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> DISKE YAZILDI: 4325 tweet -> cekilen_tweetler.jsonl
+  >> Kurtarma (durak #4)...
+  >> Sayfa basina donulmuyor — sadece asagi kaydiriliyor...
+  >> Medya: graf_02.jpg (2062567473832980533)
+  >> Medya: graf_02.jpg (2062565904563499299)
+  >> Medya: graf_02.jpg (2062564007085539744)
+  >> Medya: graf_02.jpg (2062515040691921040)
+Scroll 25/100: toplam 4325 tweet (+0 yeni) | ekranda: 11 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> Kurtarma (durak #4)...
+  >> Sayfa basina donulmuyor — sadece asagi kaydiriliyor...
+Scroll 26/100: toplam 4326 tweet (+1 yeni) | ekranda: 16 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 27/100: toplam 4327 tweet (+1 yeni) | ekranda: 16 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> DISKE YAZILDI: 4327 tweet -> cekilen_tweetler.jsonl
+Scroll 28/100: toplam 4329 tweet (+2 yeni) | ekranda: 17 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 29/100: toplam 4329 tweet (+0 yeni) | ekranda: 17 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 30/100: toplam 4329 tweet (+0 yeni) | ekranda: 16 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> DISKE YAZILDI: 4329 tweet -> cekilen_tweetler.jsonl
+Scroll 31/100: toplam 4329 tweet (+0 yeni) | ekranda: 17 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 32/100: toplam 4329 tweet (+0 yeni) | ekranda: 17 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> Kurtarma (durak #4)...
+  >> Sayfa basina donulmuyor — sadece asagi kaydiriliyor...
+Scroll 33/100: toplam 4329 tweet (+0 yeni) | ekranda: 6 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> DISKE YAZILDI: 4329 tweet -> cekilen_tweetler.jsonl
+Scroll 34/100: toplam 4329 tweet (+0 yeni) | ekranda: 6 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> Profil (Gonderiler) — yanitlar sekmesi yok...
+Scroll 35/100: toplam 4329 tweet (+0 yeni) | ekranda: 13 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 36/100: toplam 4329 tweet (+0 yeni) | ekranda: 14 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> DISKE YAZILDI: 4329 tweet -> cekilen_tweetler.jsonl
+Scroll 37/100: toplam 4329 tweet (+0 yeni) | ekranda: 14 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> Medya: graf_02.jpg (2065085722609004719)
+  >> Medya: graf_02.jpg (2065030472061620366)
+  >> Medya: graf_01.jpg (2065122598531305495)
+  >> Medya: graf_01.jpg (2065063582467797469)
+Scroll 38/100: toplam 4333 tweet (+4 yeni) | ekranda: 16 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 39/100: toplam 4335 tweet (+2 yeni) | ekranda: 17 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> DISKE YAZILDI: 4335 tweet -> cekilen_tweetler.jsonl
+  >> Medya: graf_01.jpg (2064285506217644261)
+Scroll 40/100: toplam 4335 tweet (+0 yeni) | ekranda: 16 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 41/100: toplam 4335 tweet (+0 yeni) | ekranda: 16 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 42/100: toplam 4335 tweet (+0 yeni) | ekranda: 18 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> DISKE YAZILDI: 4335 tweet -> cekilen_tweetler.jsonl
+Scroll 43/100: toplam 4337 tweet (+2 yeni) | ekranda: 8 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 44/100: toplam 4339 tweet (+2 yeni) | ekranda: 10 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 45/100: toplam 4339 tweet (+0 yeni) | ekranda: 8 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> DISKE YAZILDI: 4339 tweet -> cekilen_tweetler.jsonl
+Scroll 46/100: toplam 4339 tweet (+0 yeni) | ekranda: 8 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 47/100: toplam 4339 tweet (+0 yeni) | ekranda: 10 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 48/100: toplam 4339 tweet (+0 yeni) | ekranda: 8 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> DISKE YAZILDI: 4339 tweet -> cekilen_tweetler.jsonl
+Scroll 49/100: toplam 4339 tweet (+0 yeni) | ekranda: 8 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 50/100: toplam 4339 tweet (+0 yeni) | ekranda: 10 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 51/100: toplam 4339 tweet (+0 yeni) | ekranda: 8 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> DISKE YAZILDI: 4339 tweet -> cekilen_tweetler.jsonl
+Scroll 52/100: toplam 4339 tweet (+0 yeni) | ekranda: 8 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 53/100: toplam 4339 tweet (+0 yeni) | ekranda: 10 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 54/100: toplam 4339 tweet (+0 yeni) | ekranda: 8 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> DISKE YAZILDI: 4339 tweet -> cekilen_tweetler.jsonl
+Scroll 55/100: toplam 4339 tweet (+0 yeni) | ekranda: 8 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 56/100: toplam 4339 tweet (+0 yeni) | ekranda: 10 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 57/100: toplam 4339 tweet (+0 yeni) | ekranda: 8 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> DISKE YAZILDI: 4339 tweet -> cekilen_tweetler.jsonl
+Scroll 58/100: toplam 4339 tweet (+0 yeni) | ekranda: 8 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 59/100: toplam 4339 tweet (+0 yeni) | ekranda: 10 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> Medya: graf_02.jpg (2063598726862496072)
+Scroll 60/100: toplam 4339 tweet (+0 yeni) | ekranda: 11 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> DISKE YAZILDI: 4339 tweet -> cekilen_tweetler.jsonl
+Scroll 61/100: toplam 4339 tweet (+0 yeni) | ekranda: 10 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 62/100: toplam 4339 tweet (+0 yeni) | ekranda: 8 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Scroll 63/100: toplam 4339 tweet (+0 yeni) | ekranda: 10 | alinti: 97 | en eski: 2019-10-27 11:04:04
+  >> DISKE YAZILDI: 4339 tweet -> cekilen_tweetler.jsonl
+Scroll 64/100: toplam 4339 tweet (+0 yeni) | ekranda: 13 | alinti: 97 | en eski: 2019-10-27 11:04:04
+Daha fazla tweet yuklenmiyor (limit veya X takildi).
+  >> DISKE YAZILDI: 4339 tweet -> cekilen_tweetler.jsonl
+
+=== ASIL DOSYA: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\cekilen_tweetler.jsonl ===
+Toplam: 4338 | Ingilizce(kirli): 0
+Hafiza: 4338 tweet | Ingilizce(kirli): 0 | Analiz bekliyor: 16
+OK: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\ekonomikocu_hafiza_v1.md
+Koç dili guncellendi: 4305 public tweet
+
+============================================================
+2/7 Haftalik arama 2026-06-01 .. 2026-06-08
+============================================================
+Mevcut jsonl: 4338 tweet | alinTi tam: 90 | bekleyen alinti: 7
+Senin Chrome'una baglandi (port 9222).
+Arama modu (tek sekme): https://x.com/search?q=from%3Aekonomikocu%20since%3A2026-06-01%20until%3A2026-06-08&src=typed_query&f=live
+Scroll 1/40: toplam 4338 tweet (+0 yeni) | ekranda: 4 | alinti: 97 | en eski: 2019-10-27 08:04:04
+Scroll 2/40: toplam 4338 tweet (+0 yeni) | ekranda: 3 | alinti: 97 | en eski: 2019-10-27 08:04:04
+Scroll 3/40: toplam 4338 tweet (+0 yeni) | ekranda: 0 | alinti: 97 | en eski: 2019-10-27 08:04:04
+  >> DISKE YAZILDI: 4338 tweet -> cekilen_tweetler.jsonl
+Scroll 4/40: toplam 4338 tweet (+0 yeni) | ekranda: 0 | alinti: 97 | en eski: 2019-10-27 08:04:04
+  >> Kurtarma (durak #4)...
+Scroll 5/40: toplam 4338 tweet (+0 yeni) | ekranda: 0 | alinti: 97 | en eski: 2019-10-27 08:04:04
+  >> Kurtarma (durak #4)...
+  >> Ekranda 0 tweet — splash/akis kurtarma...
+  >> X takildi (splash) — arama akisina donuluyor...
+  >> Kurtarma sonrasi ekranda: 4 tweet
+Scroll 7/40: toplam 4338 tweet (+0 yeni) | ekranda: 0 | alinti: 97 | en eski: 2019-10-27 08:04:04
+Scroll 8/40: toplam 4338 tweet (+0 yeni) | ekranda: 0 | alinti: 97 | en eski: 2019-10-27 08:04:04
+Donem aramasi bitti (hizli mod — sonraki haftaya gec).
+  >> DISKE YAZILDI: 4338 tweet -> cekilen_tweetler.jsonl
+
+=== ASIL DOSYA: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\cekilen_tweetler.jsonl ===
+Toplam: 4338 | Ingilizce(kirli): 0
+Hafiza: 4338 tweet | Ingilizce(kirli): 0 | Analiz bekliyor: 0
+OK: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\ekonomikocu_hafiza_v1.md
+Koç dili guncellendi: 4305 public tweet
+
+============================================================
+2/7 Haftalik arama 2026-06-08 .. 2026-06-15
+============================================================
+Mevcut jsonl: 4338 tweet | alinTi tam: 90 | bekleyen alinti: 7
+Senin Chrome'una baglandi (port 9222).
+Ekonomikocu sekmesi yok — profil aciliyor (tek sekme).
+Traceback (most recent call last):
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tweet_tara.py", line 3369, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tweet_tara.py", line 3341, in main
+    code = run_scrape(
+        login_only=args.login_only,
+    ...<20 lines>...
+        skip_media=args.skip_media,
+    )
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tweet_tara.py", line 2684, in run_scrape
+    safe_goto(page, PROFILE_URL_POSTS, reason="baslangic")
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tara_nav.py", line 195, in safe_goto
+    page.goto(url, wait_until="commit", timeout=120_000)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\99_BOT_ARSIV\kod\tara_nav.py", line 298, in guarded_goto
+    return orig_goto(url, **kwargs)
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\sync_api\_generated.py", line 9612, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_page.py", line 557, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_frame.py", line 156, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\idagu\AppData\Local\Programs\Python\Python314\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.goto: Target page, context or browser has been closed
+
+============================================================
+2/7 Haftalik arama 2026-06-15 .. 2026-06-17
+============================================================
+Mevcut jsonl: 4338 tweet | alinTi tam: 90 | bekleyen alinti: 7
+Chrome debug bekleniyor (10/90s)...
+Chrome debug bekleniyor (20/90s)...
+Chrome debug bekleniyor (30/90s)...
+Chrome debug bekleniyor (40/90s)...
+Senin Chrome'una baglandi (port 9222).
+Arama modu (tek sekme): https://x.com/search?q=from%3Aekonomikocu%20since%3A2026-06-15%20until%3A2026-06-17&src=typed_query&f=live
+Scroll 1/40: toplam 4338 tweet (+0 yeni) | ekranda: 2 | alinti: 97 | en eski: 2019-10-27 05:04:04
+Scroll 2/40: toplam 4338 tweet (+0 yeni) | ekranda: 1 | alinti: 97 | en eski: 2019-10-27 05:04:04
+Scroll 3/40: toplam 4338 tweet (+0 yeni) | ekranda: 2 | alinti: 97 | en eski: 2019-10-27 05:04:04
+  >> DISKE YAZILDI: 4338 tweet -> cekilen_tweetler.jsonl
+Scroll 4/40: toplam 4338 tweet (+0 yeni) | ekranda: 1 | alinti: 97 | en eski: 2019-10-27 05:04:04
+  >> Kurtarma (durak #4)...
+Scroll 5/40: toplam 4338 tweet (+0 yeni) | ekranda: 0 | alinti: 97 | en eski: 2019-10-27 05:04:04
+  >> Kurtarma (durak #4)...
+Scroll 6/40: toplam 4338 tweet (+0 yeni) | ekranda: 4 | alinti: 97 | en eski: 2019-10-27 05:04:04
+  >> DISKE YAZILDI: 4338 tweet -> cekilen_tweetler.jsonl
+  >> Kurtarma (durak #4)...
+Scroll 7/40: toplam 4338 tweet (+0 yeni) | ekranda: 0 | alinti: 97 | en eski: 2019-10-27 05:04:04
+  >> Kurtarma (durak #4)...
+Scroll 8/40: toplam 4338 tweet (+0 yeni) | ekranda: 1 | alinti: 97 | en eski: 2019-10-27 05:04:04
+Donem aramasi bitti (hizli mod — sonraki haftaya gec).
+  >> DISKE YAZILDI: 4338 tweet -> cekilen_tweetler.jsonl
+
+=== ASIL DOSYA: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\cekilen_tweetler.jsonl ===
+Toplam: 4338 | Ingilizce(kirli): 0
