@@ -2385,6 +2385,14 @@ def save_jsonl(records: list[TweetRecord], path: Path) -> None:
             continue
         if rec.lang == "en" and not (prev.get("text") or "").strip():
             continue
+        # KORUMA: bir kez kaydedilen dolu metni ASLA bos/daha kisa surumle ezme.
+        # (Alintilanan kisi tweetini silebilir; abone oturumu tarama sirasinda
+        #  dususe abone/kilitli tweet bos doner. Eldeki dolu metin korunmali —
+        #  ekonomikocu'nun agzindan cikan her sey kalici kayda gecer.)
+        prev_text = (prev.get("text") or "").strip()
+        if prev_text and len((rec.text or "").strip()) < len(prev_text):
+            rec.text = prev.get("text") or rec.text
+            rec.locked = bool(prev.get("locked", False))
         from tip_icerik import apply_to_record
 
         apply_to_record(rec)
