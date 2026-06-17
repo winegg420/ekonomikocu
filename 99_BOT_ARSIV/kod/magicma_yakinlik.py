@@ -256,6 +256,22 @@ def oku_data(tv):
     return json.loads(tv.evaluate(JS))
 
 
+# Sembol arama kutusu (sayfa yenilemeden hizli gecis)
+_INP_SEL = ('input[placeholder*="Sembol"], input[placeholder*="Symbol"], '
+            'input[placeholder*="ISIN"], input[class*="search"]')
+
+
+def sembol_gecis(tv, sym):
+    """Grafik icinde sembolu degistir (sayfa yenilemeden -> ~4x hizli)."""
+    tv.keyboard.press("Escape")  # acik kalmis diyalog varsa kapat
+    time.sleep(0.12)
+    tv.click("#header-toolbar-symbol-search", timeout=8000)
+    inp = tv.wait_for_selector(_INP_SEL, timeout=5000)
+    inp.fill(sym)
+    time.sleep(0.45)
+    tv.keyboard.press("Enter")
+
+
 def parse_title(title):
     mm = re.search(r"^(.*?)\s+([\d.]+,\d+)", title or "")
     if mm:
@@ -303,23 +319,23 @@ def sembol_eslesir(tsym, ticker):
     return a == b or b in a or a in b
 
 
-def bekle_hesap(tv, ticker, timeout=30):
+def bekle_hesap(tv, ticker, timeout=20):
     """Sembol degisene + en az bir MagicMA seviye 0'dan cikana kadar bekle."""
     t0 = time.time()
     while time.time() - t0 < timeout:
         try:
             data = oku_data(tv)
         except Exception:
-            time.sleep(0.8); continue
+            time.sleep(0.4); continue
         tsym, fiyat = parse_title(data.get("title", ""))
         nonzero = [v for v in magicma_seviye_degerleri(data) if abs(v) > 1e-9]
         if sembol_eslesir(tsym, ticker) and fiyat and nonzero:
-            time.sleep(1.2)  # kisa oturma (degerler tam yerlessin)
+            time.sleep(0.6)  # kisa oturma (degerler tam yerlessin)
             try:
                 return oku_data(tv)
             except Exception:
                 return data
-        time.sleep(0.8)
+        time.sleep(0.35)
     return None
 
 
@@ -368,24 +384,48 @@ with sync_playwright() as p:
         sys.exit(0)
 
     if TARA_FLAG:
-        # ---- COKLU SEMBOL DONGUSU ----
+        # ---- COKLU SEMBOL DONGUSU (sayfa-ici hizli gecis) ----
         base = (tv.url or "").split("?")[0]
         kayitlar, okunamadi = [], []
         toplam = len(SEMBOLLER)
+
+        def url_ile_ac(sym):
+            tv.goto(f"{base}?symbol={quote(sym)}&interval={INTERVAL}",
+                    wait_until="domcontentloaded", timeout=45000)
+
+        # Ilk sembol: URL ile ac -> 4H (interval) kilitlenir, indikator yuklenir.
+        # Sonraki sembol gecisleri bu interval'i korur.
+        ilk_ok = False
         for i, sym in enumerate(SEMBOLLER, 1):
             ticker = sym.split(":")[-1].strip()
-            url = f"{base}?symbol={quote(sym)}&interval={INTERVAL}"
             print(f"[{i}/{toplam}] {sym} ...", flush=True)
             try:
-                tv.goto(url, wait_until="domcontentloaded", timeout=45000)
+                if not ilk_ok:
+                    url_ile_ac(sym)         # ilk basarili yukleme URL ile
+                else:
+                    sembol_gecis(tv, sym)   # gerisi sayfa-ici (~4x hizli)
             except Exception as e:
-                print(f"   okunamadi (acilmadi: {str(e)[:60]})"); okunamadi.append(sym); continue
-            data = bekle_hesap(tv, ticker, timeout=30)
+                # gecis patladiysa URL yedegi dene
+                try:
+                    url_ile_ac(sym)
+                except Exception:
+                    print(f"   okunamadi (acilmadi: {str(e)[:50]})"); okunamadi.append(sym); continue
+
+            data = bekle_hesap(tv, ticker, timeout=20)
+            if data is None:
+                # son care: URL ile bir kez daha dene
+                try:
+                    url_ile_ac(sym)
+                    data = bekle_hesap(tv, ticker, timeout=25)
+                except Exception:
+                    data = None
             if data is None:
                 print("   okunamadi (timeout / deger 0)"); okunamadi.append(sym); continue
+
             kayit = data_to_kayit(data, sym)
             if kayit is None:
                 print("   okunamadi (fiyat yok)"); okunamadi.append(sym); continue
+            ilk_ok = True
             kaydet_ham(kayit)  # kural: her sembol ham jsonl'e append
             kayitlar.append(kayit)
             en = min((abs(r["mesafe_yuzde"]) for r in kayit["seviyeler"]), default=None)

@@ -2363,9 +2363,19 @@ def load_jsonl(path: Path) -> list[TweetRecord]:
     if not path.exists():
         return []
     records = []
-    for line in path.read_text(encoding="utf-8").splitlines():
-        if line.strip():
+    bad: list[int] = []
+    for i, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+        if not line.strip():
+            continue
+        try:
             records.append(record_from_json_obj(json.loads(line)))
+        except Exception:
+            # DAYANIKLILIK: tek bozuk satir tum taramayi durdurmasin; atla ve bildir.
+            bad.append(i)
+    if bad:
+        ozet = ", ".join(f"#{i}" for i in bad[:10]) + (" ..." if len(bad) > 10 else "")
+        print(f"[load_jsonl] UYARI: {len(bad)} bozuk satir atlandi ({path.name}): {ozet}",
+              file=sys.stderr, flush=True)
     records.sort(key=lambda r: r.sort_key(), reverse=True)
     return records
 
@@ -2445,10 +2455,18 @@ def save_jsonl(records: list[TweetRecord], path: Path) -> None:
         key=lambda x: x.get("datetime") or "",
         reverse=True,
     )
-    path.write_text(
-        "\n".join(json.dumps(o, ensure_ascii=False) for o in ordered) + "\n",
-        encoding="utf-8",
-    )
+    # ATOMIK YAZIM: once gecici dosyaya yaz, sonra yer degistir (os.replace atomiktir).
+    # Yazim yarida kesilse bile (cokme/Ctrl+C/disk) ana arsiv asla bozulmaz/yarim kalmaz.
+    # Ayrica onceki saglam surum .bak'a alinir (geri donus noktasi).
+    payload = "\n".join(json.dumps(o, ensure_ascii=False) for o in ordered) + "\n"
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(payload, encoding="utf-8")
+    if path.exists():
+        try:
+            shutil.copy2(path, path.with_suffix(path.suffix + ".bak"))
+        except Exception:
+            pass
+    os.replace(tmp, path)
     try:
         from tip_icerik import write_vizyon_seviye
 
