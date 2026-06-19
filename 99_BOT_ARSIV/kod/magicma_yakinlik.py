@@ -95,15 +95,29 @@ SEMBOLLER = [
 
 
 def tr_sayi_parse(s):
-    """'64.802,0000000000' -> 64802.0 ; '∅'/bos -> None"""
+    """Sayi metnini float'a cevir. Hem TR (64.802,00) hem EN (64,802.00 / 68.48)
+    formatini destekler. TradingView'in dil/locale ayarina gore ',' veya '.'
+    ondalik olabilir; bu yuzden formatdan bagimsiz oku. '∅'/bos -> None."""
     if not s:
         return None
     s = s.strip()
     if s in ("∅", "—", "-", ""):
         return None
-    # binlik '.' kaldir, ondalik ',' -> '.'
-    s = s.replace(".", "").replace(",", ".")
-    s = re.sub(r"[^0-9.\-]", "", s)
+    s = re.sub(r"[^0-9.,\-]", "", s)
+    if not s:
+        return None
+    has_c, has_d = "," in s, "." in s
+    if has_c and has_d:
+        # iki ayirici da var: SONUNCUSU ondalik, digeri binliktir
+        if s.rfind(",") > s.rfind("."):      # TR: ',' ondalik
+            s = s.replace(".", "").replace(",", ".")
+        else:                                 # EN: '.' ondalik
+            s = s.replace(",", "")
+    elif has_c:
+        # sadece ',' : ondalik kabul (TR). 'binlik' tek ',' senaryosu indikator
+        # degerlerinde olusmaz (hep ondalik basamak var).
+        s = s.replace(",", ".")
+    # sadece '.' veya ayirici yok: oldugu gibi (nokta ondalik)
     try:
         return float(s)
     except ValueError:
@@ -273,7 +287,8 @@ def sembol_gecis(tv, sym):
 
 
 def parse_title(title):
-    mm = re.search(r"^(.*?)\s+([\d.]+,\d+)", title or "")
+    # Isim + ilk sayi blogu (TR '64.802,00' veya EN '68.4800000000' fark etmez)
+    mm = re.search(r"^(.*?)\s+([\d][\d.,]*)", title or "")
     if mm:
         return mm.group(1).strip(), tr_sayi_parse(mm.group(2))
     return None, None
