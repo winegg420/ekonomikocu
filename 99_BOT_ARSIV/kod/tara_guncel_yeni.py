@@ -16,6 +16,7 @@ Chrome: sessiz (CHROME_X_SESSIZ.bat, port 9222).
 """
 from __future__ import annotations
 
+import argparse
 import json
 import subprocess
 import sys
@@ -55,13 +56,31 @@ def stats() -> tuple[int, int, int, str | None]:
 
 
 def main() -> int:
+    ap = argparse.ArgumentParser(description="Guncel artimli tarama")
+    ap.add_argument("--days", type=int, default=None,
+                    help="Bugunden N gun geriye tara (artimli tamponu yok sayar)")
+    ap.add_argument("--stop-before", dest="stop_before", default=None,
+                    help="Tarama bu tarihe gelince dursun (orn: '11 Haz')")
+    ap.add_argument("--alinti-rounds", type=int, default=6,
+                    help="Alinti tamamlama tur sayisi")
+    ap.add_argument("--alinti-per", type=int, default=40,
+                    help="Alinti tamamlama tur basina adet")
+    args, _ = ap.parse_known_args()
+
     n0, q0, f0, newest = stats()
-    if newest:
-        base = datetime.fromisoformat(newest[:19])
+    if args.stop_before:
+        stop = None
+        stop_str = args.stop_before
+    elif args.days is not None:
+        stop = datetime.now() - timedelta(days=args.days)
+        stop_str = f"{stop.day} {TR_AY[stop.month]}"
     else:
-        base = datetime.now() - timedelta(days=7)
-    stop = base - timedelta(days=3)
-    stop_str = f"{stop.day} {TR_AY[stop.month]}"
+        if newest:
+            base = datetime.fromisoformat(newest[:19])
+        else:
+            base = datetime.now() - timedelta(days=7)
+        stop = base - timedelta(days=3)
+        stop_str = f"{stop.day} {TR_AY[stop.month]}"
 
     print(f"En yeni kayit: {newest}", flush=True)
     print(f"Stop-before (buraya gelince dur): {stop_str}", flush=True)
@@ -78,7 +97,8 @@ def main() -> int:
 
     # Yeni alintilarin gecmis metni (bounded)
     subprocess.run(
-        [PY, str(KOD / "alinti_tamamla.py"), "--max-rounds", "6", "--per-round", "40"],
+        [PY, str(KOD / "alinti_tamamla.py"),
+         "--max-rounds", str(args.alinti_rounds), "--per-round", str(args.alinti_per)],
         cwd=ROOT, check=False,
     )
     subprocess.run([PY, str(KOD / "alinti_dogrula.py")], cwd=ROOT, check=False)
