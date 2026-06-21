@@ -1,0 +1,122 @@
+[chrome] 9222 kapali — sessiz ABONE Chrome aciliyor...
+[chrome] canli (5s).
+
+========================================================
+1/5 Yeni tweet + flood + alinti (hizli API)
+========================================================
+HIZLI TARAMA | since=2026-06-17 | mevcut 4710 tweet
+Yakalanan JSON sayfa: 29 | toplam obje: 238 | pencere-ici: 200
+
+Islenen Koc tweet: 200 | YENI eklenen: 20 | toplam 4730
+
+========================================================
+2/5 Bekleyen alinti metinleri
+========================================================
+
+=== Alinti turu 1/2 ===
+Bekleyen alinti: 7
+Chrome CDP (port 9222)
+Asama 2 tur 1: 7 alinti bekliyor...
+  >> Alinti 2045587086695391351 — sadece ekonomikocu/status/2046329630873747618
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2046329630873747618 — sadece ekonomikocu/status/2045587086695391351
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2038986156075872628 — sadece ekonomikocu/status/2039050447420326027
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 1875548019430658062 — sadece ekonomikocu/status/1875571495164113292
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Bu turda ziyaret: 7 | kalan: 7
+  >> Ilerleme yok — kalanlar isaretleniyor.
+JSONL guncellendi: 4730 tweet
+Hafiza: 4730 tweet | Ingilizce(kirli): 0 | Analiz bekliyor: 20
+OK: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\ekonomikocu_hafiza_v1.md
+Koç dili guncellendi: 4697 public tweet
+UYARI: max tur doldu; ALINTI_DOGRULA.bat ile kontrol et.
+Dosya: C:\Users\idagu\OneDrive\Masaüstü\ekonomikocu\cekilen_tweetler.jsonl
+Toplam satir: 4730 | alinti (is_quote): 105
+EKSIK: 7 alinti — tekrar: ALINTI_TAMAMLA.bat
+  2065017533371936987 <- ana None | metin kesik | metin=163 char
+  2064023815873585325 <- ana None | metin kesik | metin=37 char
+  2064023475178598410 <- ana None | metin kesik | metin=46 char
+  2045587086695391351 <- ana 2046329630873747618 | metin kesik | metin=461 char
+  2046329630873747618 <- ana 2045587086695391351 | metin kesik | metin=454 char
+  2038986156075872628 <- ana 2039050447420326027 | metin kesik | metin=50 char
+  1875548019430658062 <- ana 1875571495164113292 | metin kesik | metin=802 char
+
+========================================================
+3/5 Abone tweetleri isaretle
+========================================================
+abone_metin isaretlendi: 3253 | baglanti duzeltildi: 0
+
+========================================================
+4/5 Paket yeniden uret (04/07)
+========================================================
+Indirilecek eksik gorsel yok.
+  Reklam/kirli atlandi: 26 satir (pakette yok)
+
+Claude'a AT — kok klasor, sirayla:
+  1. 01_BURADAN_BASLA.md
+  2. 02_MENTOR_REHBERI.md
+  3. 03_HAFIZA.md
+  4. 04_TWEETLER.jsonl
+  5. 05_GRAFIKLER.zip  (80.2 MB, 510 grafik)
+  6. 06_ANALIZ.md  (analiz — dokunulmadi)
+  --- Gemini (kok klasor) ---
+  7. 07_ABONE_TWEETLER.jsonl  (opsiyonel)
+  8. 08_TWEETLER_GEMINI.md
+  9. 09_GRAFIKLER_GEMINI/  (510 jpg)
+  10. 10_ABONE_TWEETLER_GEMINI.md
+  Yukleme kilavuzu: 00_OKU_YUKLEME_SIRASI.txt
+  Kok klasorde 00-10 alt alta (Explorer en ust)
+
+========================================================
+5/5 Kapsam raporu
+========================================================
+# TARAMA 2026 (@ekonomikocu)
+
+**Guncelleme:** 2026-06-21T20:34:16
+
+## Ozet
+
+> **Genel tamamlanma: 83.3%**
+>
+> Hedef: **2026 yilindaki TUM tweetler** + **abone metinleri** + **alintilanan gecmis tweetler** + **#FLOOD parcalari** ? **%100**
+>
+> **Tamam mi?** HAYIR ? tarama devam
+
+| Alan | Tam | Eksik | % |
+|------|-----|-------|---|
+| Ana tweet (2026) | 4448 | 0 (+18 erisilemedi) | **100.0%** |
+| Alinti (2026 kapsami) | 102 | 0 | **100.0%** |
+| #FLOOD kok (2026) | 5 | 1 | **83.3%** |
+
+**En yeni kayit:** 2026-06-20
+
+## Aylik (2026)
+
+| Ay | Metinli | Bos | % |
+|----|---------|-----|---|
+| 2026-01 | 214 | 0 | 100.0% |
+| 2026-02 | 493 | 0 | 100.0% |
+| 2026-03 | 488 | 0 | 100.0% |
+| 2026-04 | 620 | 0 | 100.0% |
+| 2026-05 | 1249 | 0 | 100.0% |
+| 2026-06 | 1384 | 0 | 100.0% |
+
+## Kural
+
+Yeni tweet atildiginda **TARA_2026_GUNCEL.bat** calistir (veya gunluk otomasyon).
+Eksik kalmamali: ana metin, abone, alinti, flood.
+
+---
+*Otomatik: kapsam_2026.py*
+
+
+########################################################
+# KAPSAM OZETI
+########################################################
+# Normal tweet :   4693  | en yeni: 2026-06-20T17:06:06
+# ABONE tweet  :   3319  | en yeni: 2026-06-20T17:06:06
+# Sure: 103s
+# OK: abone tweetler gunceli yakaladi.
+########################################################
