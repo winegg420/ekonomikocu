@@ -785,6 +785,7 @@ EXTRACT_JS = f"""
         inReplyToHandle,
         needsThread,
         media: pickMedia(article),
+        aboneOzel: !!article.querySelector('[data-testid="icon-subscriber"]'),
         role: 'main'
       }});
     }}
@@ -2366,6 +2367,7 @@ def scraped_to_records(rows: list[dict]) -> list[TweetRecord]:
             baglanti=row.get("baglanti") or "",
             media_urls=row.get("media") or [],
             media_files=row.get("mediaFiles") or [],
+            abone_ozel=bool(row.get("aboneOzel")),
         )
         from tip_icerik import apply_to_record
 
@@ -2465,6 +2467,9 @@ def save_jsonl(records: list[TweetRecord], path: Path) -> None:
                 prev.get("abone_donemi")
                 or (rec.dt and rec.dt.isoformat() >= "2026-04-01")
             ),
+            # GERCEK abonelere-ozel isareti (X icon-subscriber). Bir kez True olduysa
+            # korunur; tarihe gore degil, DOM'dan gelir. abone_donemi ile karistirma.
+            "abone_ozel": bool(prev.get("abone_ozel") or getattr(rec, "abone_ozel", False)),
         }
         if prev.get("kayit_tipi") == "abone" or prev.get("abone_metin"):
             existing[rec.tweet_id]["kayit_tipi"] = "abone"

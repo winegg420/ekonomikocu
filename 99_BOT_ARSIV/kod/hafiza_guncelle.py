@@ -146,6 +146,9 @@ class TweetRecord:
     baglanti: str = ""
     media_urls: list[str] = field(default_factory=list)
     media_files: list[str] = field(default_factory=list)
+    # X'in GERCEK abonelere-ozel isareti (data-testid="icon-subscriber").
+    # Tarihe gore TAHMIN degil; dogrudan DOM'dan gelir. abone_donemi ile karistirma.
+    abone_ozel: bool = False
 
     def sort_key(self) -> tuple:
         if self.dt:

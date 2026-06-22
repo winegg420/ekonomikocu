@@ -271,6 +271,7 @@ def record_from_json_obj(o: dict) -> TweetRecord:
         baglanti=o.get("baglanti") or "",
         media_urls=o.get("media_urls") or [],
         media_files=o.get("media_files") or [],
+        abone_ozel=bool(o.get("abone_ozel")),
     )
     return rec
 
@@ -299,6 +300,7 @@ def json_obj_from_record(rec: TweetRecord) -> dict:
         "baglanti": rec.baglanti,
         "media_urls": rec.media_urls,
         "media_files": rec.media_files,
+        "abone_ozel": bool(getattr(rec, "abone_ozel", False)),
     }
 
 
