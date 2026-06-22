@@ -20,6 +20,9 @@ ekonomikocu_x_session/
 # Gecici zip build
 99_BOT_ARSIV/_claude_zip_build/
 
+# Yerel log/yedek (taranan veri yedekleri, tarama loglari)
+log/
+
 # OS
 Thumbs.db
 Desktop.ini

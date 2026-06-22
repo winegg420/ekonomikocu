@@ -28,7 +28,7 @@ import subprocess
 import sys
 import time
 from urllib.parse import quote
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 def _project_root() -> Path:
@@ -1448,6 +1448,23 @@ def read_stop_from_hafiza(md: str) -> datetime | None:
     return None
 
 
+# Twitter/X snowflake epoch (2010-11-04). datetime'in TEK dogru kaynagi
+# tweet_id'dir; X arayuzundeki goreli/DOM etiketi ASLA kullanilmaz.
+SNOWFLAKE_EPOCH_MS = 1288834974657
+ISTANBUL_OFFSET_H = 3  # Europe/Istanbul sabit UTC+3 (2016'dan beri)
+
+
+def dt_from_snowflake(tweet_id) -> datetime | None:
+    """tweet_id snowflake'inden Istanbul yerel (UTC+3, naive, saniye) datetime."""
+    try:
+        i = int(tweet_id)
+    except (TypeError, ValueError):
+        return None
+    ms = (i >> 22) + SNOWFLAKE_EPOCH_MS
+    utc = datetime.fromtimestamp(ms / 1000, tz=timezone.utc).replace(tzinfo=None)
+    return (utc + timedelta(hours=ISTANBUL_OFFSET_H)).replace(microsecond=0)
+
+
 def dt_from_iso(iso: str | None) -> datetime | None:
     if not iso:
         return None
@@ -2310,7 +2327,9 @@ def scraped_to_records(rows: list[dict]) -> list[TweetRecord]:
             continue
         text = (row.get("text") or "").strip()
         locked = bool(row.get("locked"))
-        dt = dt_from_iso(row.get("datetime"))
+        # datetime'in TEK kaynagi tweet_id snowflake'i; DOM/goreli etiket
+        # (row["datetime"]) yalnizca snowflake hesaplanamayan ID'lerde yedek.
+        dt = dt_from_snowflake(tid) or dt_from_iso(row.get("datetime"))
         is_quote = bool(row.get("isQuote"))
         quoted_by = row.get("quotedBy")
         thread_root = row.get("threadRoot")
