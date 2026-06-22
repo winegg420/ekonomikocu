@@ -17,6 +17,9 @@ venv/
 **/.x_session/
 ekonomikocu_x_session/
 
+# Portfoy (GIZLI — asla commit etme; portfoy_ornek.json sahte veri olarak commit edilebilir)
+portfoy_ozel.json
+
 # Gecici zip build
 99_BOT_ARSIV/_claude_zip_build/
 

@@ -1,0 +1,17 @@
+{
+  "_aciklama": "SAHTE ornek veri — dokuman/test icin. Gercek portfoy portfoy_ozel.json'da tutulur (gitignore'lu, asla commit edilmez).",
+  "_sema": {
+    "sembol": "Urun kodu, orn. BTC / ETH / XAGUSD / GARAN",
+    "tip": "uzun-vade (ETH, kademeli BTC — gurultuyle trade edilmez) | taktik (BIST, gumus — aktif)",
+    "giris": "Ortalama giris fiyati (sayi)",
+    "miktar": "Adet/lot (sayi)",
+    "tarih": "Giris tarihi YYYY-MM-DD",
+    "not": "Serbest not"
+  },
+  "pozisyonlar": [
+    {"sembol": "ETH", "tip": "uzun-vade", "giris": 2400, "miktar": 5, "tarih": "2026-04-10", "not": "Uzun vade — trend kirilmadikca tutulur"},
+    {"sembol": "BTC", "tip": "uzun-vade", "giris": 62000, "miktar": 0.15, "tarih": "2026-06-12", "not": "Kademeli alim, yatay taban beklentisi"},
+    {"sembol": "XAGUSD", "tip": "taktik", "giris": 63.5, "miktar": 100, "tarih": "2026-06-18", "not": "Gumus SPIKE — 68$ gravitasyonel, taktik"},
+    {"sembol": "GARAN", "tip": "taktik", "giris": 142.0, "miktar": 500, "tarih": "2026-06-20", "not": "BIST taktik pozisyon"}
+  ]
+}
