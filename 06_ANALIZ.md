@@ -147,3 +147,29 @@
 ## L. GRAFİK OKUMA PROTOKOLÜ (kalıcı — her seviye sorusu)
 
 GRAFİK OKUMA ZORUNLULUĞU: Bir ürün için seviye/destek/direnç sorulduğunda yalnızca tweet metnine bakma. O ürünün grafiklerini tweet_id ile bul, görseli AÇ ve analistin elle çizdiği fiyat seviyelerini (yatay çizgiler, kanal rayları, "48 k" tarzı etiketler, oklar) oku. Metinsel seviye ile grafikteki çizili seviyeyi birleştirip sun. Platformun otomatik eksen rakamlarını analist çizimiyle karıştırma. Grafikte net okunmayan rakamı uydurma; "grafikte var ama net okunmuyor" de.
+
+## 2026-06-22 GÜNCELLEME — Koç kripto makro sentezi
+
+Mentor oturumunda çıkan BTC/kripto makro sentezi (kalıcı not).
+
+**1. Döngü-fraktal (yapı):**
+- Koç, 1 Eyl 2025 abone grafiğinde 2025 tepesini 2021 tepesinin **kopyası** olarak çizdi. Kırmızı oklar = 4 aşamalı tam döngü: **tepe → düşüş → uzun yatay taban/birikim → yukarı patlama**.
+- 126K → 60K düşüş ayağı **tuttu**. Şu an **YATAY TABAN / BİRİKİM** aşamasındayız.
+- Baz senaryoda yön **yukarı**, ama **KOŞULLU** (aşağıdaki tetikler gelmezse geçerli değil).
+
+**2. Yükseliş tetiği (3 koşul):**
+- DXY **110 → 95**, **faiz indirimi**, **Çin/emtia anlaşması**. Koç: "Önce anlaşmalar gelmeli."
+- Koşul yoksa: uzayan/derin yatay. DXY zorla yukarı giderse **veya EUR kırılırsa** piyasalar çöker → **60K altı risk**.
+
+**3. Zamanlama:**
+- Koç 4 yıllık döngü beklentisini (2029/2030) **REDDEDİYOR** (döngü öne çekilme tezi).
+- Pencereler: **Temmuz 2026** (NATO + kripto yasası, ilk tetik) · **Ağustos 3. hafta** (~20 Ağu; 11.06.2026 + 60 gün vade) · **Eylül 2026** (vadeler sıfırlanır, gerçek yön belli olur).
+- Baz senaryo: **H2-2026**; olmazsa **2027** (2029 DEĞİL).
+
+**4. Metaller kriptoyla birlikte DEĞİL, ROTASYONEL:**
+- "3 ay BTC, 3 ay altın, 3 ay gümüş." Şu an metaller güçlü / kripto baskılı.
+- **Altın** yapısal hedefli (kendi başına yükselir). **Gümüş TREND DEĞİL, SPIKE** → 68 dolar gravitasyonel (90'a spike attı, 63'e döndü).
+- Gümüşü kriptoyla birlikte trend yapar **varsayma**.
+
+**5. Davranış notu:**
+- Koç son floodlarda kendi **eski tweet SS'lerini alıntılayarak** geçmiş çağrılarının tuttuğunu ispatlıyor (yeni seviye değil, **doğrulama**).

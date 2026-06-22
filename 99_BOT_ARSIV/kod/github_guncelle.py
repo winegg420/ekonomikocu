@@ -41,7 +41,10 @@ def main() -> int:
         print("Degisiklik yok — push atlandi.")
         return 0
 
-    msg = f"guncelleme {datetime.now().strftime('%Y-%m-%d %H:%M')}"
+    # Opsiyonel: ilk arguman verilirse commit mesaji olarak kullanilir.
+    msg = sys.argv[1] if len(sys.argv) > 1 and sys.argv[1].strip() else (
+        f"guncelleme {datetime.now().strftime('%Y-%m-%d %H:%M')}"
+    )
     if run(["git", "commit", "-m", msg], ROOT) != 0:
         print("Commit basarisiz (belki degisiklik yok).")
         return 1
