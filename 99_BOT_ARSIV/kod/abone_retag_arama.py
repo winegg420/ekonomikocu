@@ -25,7 +25,7 @@ JSONL = "cekilen_tweetler.jsonl"
 CKPT = Path("log/arama_kumulatif.json")
 DONE = Path("log/arama_gunler.json")
 EKSIK_OUT = "log/eksik_abone.jsonl"
-BASLA = date(2026, 5, 22)
+BASLA = date(2026, 2, 1)    # abone donemi ~Subat'ta basliyor; geriye uzatildi
 BITIS = date(2026, 6, 23)   # until haric -> 22 Haz dahil
 PORT = 9222
 
