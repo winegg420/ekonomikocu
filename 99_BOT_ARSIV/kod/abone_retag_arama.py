@@ -116,11 +116,12 @@ def tara():
     with sync_playwright() as p:
         b = p.chromium.connect_over_cdp(f"http://127.0.0.1:{PORT}")
         pg = b.contexts[0].new_page()
-        g = BASLA
-        while g < BITIS:
+        # EN YENI GUNDEN GERIYE: throttle vurmadan once en guncel tweetler gelsin.
+        g = BITIS - timedelta(days=1)
+        while g >= BASLA:
             ds = g.isoformat()
             if ds in done:
-                g += timedelta(days=1)
+                g -= timedelta(days=1)
                 continue
             s = gun_tara(pg, g)
             if len(s) == 0:
@@ -129,7 +130,7 @@ def tara():
                 if sifir_ardisik >= 2:
                     print(">> Ust uste 2 bos gun = THROTTLE. Duruyorum, cooldown sonra devam.", flush=True)
                     break
-                g += timedelta(days=1)
+                g -= timedelta(days=1)
                 continue
             sifir_ardisik = 0
             ckpt.update(s)
@@ -139,7 +140,7 @@ def tara():
             ab = sum(1 for v in s.values() if v["abone"])
             print(f"{ds}: {len(s)} tweet | abone {ab} | kumulatif {len(ckpt)}", flush=True)
             pg.wait_for_timeout(2500)  # gunler arasi nazik bekleme
-            g += timedelta(days=1)
+            g -= timedelta(days=1)
         pg.close()
     kalan = [ (BASLA + timedelta(days=i)).isoformat()
               for i in range((BITIS-BASLA).days)
