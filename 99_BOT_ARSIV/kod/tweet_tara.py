@@ -2471,9 +2471,16 @@ def save_jsonl(records: list[TweetRecord], path: Path) -> None:
             # korunur; tarihe gore degil, DOM'dan gelir. abone_donemi ile karistirma.
             "abone_ozel": bool(prev.get("abone_ozel") or getattr(rec, "abone_ozel", False)),
         }
-        if prev.get("kayit_tipi") == "abone" or prev.get("abone_metin"):
+        # kayit_tipi/abone_metin SADECE gercek paywall sinyaline (abone_ozel =
+        # X icon-subscriber, DOM'dan) gore atanir; tarihe veya eski etikete gore DEGIL.
+        # abone_ozel yoksa kayit public'tir (eski sahte "abone" etiketi temizlenir).
+        if existing[rec.tweet_id].get("abone_ozel"):
             existing[rec.tweet_id]["kayit_tipi"] = "abone"
             existing[rec.tweet_id]["abone_metin"] = True
+        else:
+            existing[rec.tweet_id]["abone_metin"] = False
+            if existing[rec.tweet_id].get("kayit_tipi") == "abone":
+                existing[rec.tweet_id]["kayit_tipi"] = rec.tip or "yorum"
     ordered = sorted(
         existing.values(),
         key=lambda x: x.get("datetime") or "",

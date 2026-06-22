@@ -35,14 +35,11 @@ def main() -> int:
     for r in rows:
         if r.get("is_quote") or not _has_text(r):
             continue
-        dt = r.get("datetime") or ""
-        if dt < ABONE_SINCE:
+        # GERCEK paywall sinyali: abone_ozel (X icon-subscriber, DOM'dan gelir).
+        # TARIH BAZLI etiketleme YOK — abone_ozel olmayan kayit public sayilir.
+        if not r.get("abone_ozel"):
             continue
-        tip = (r.get("kayit_tipi") or "").lower()
-        bag = str(r.get("baglanti") or "") + " " + str(r.get("sonuc") or "")
-        was_kilitli = tip == "kilitli" or ABONE_RX.search(bag)
-        r["abone_donemi"] = True
-        if _has_text(r) and not r.get("locked"):
+        if not r.get("locked"):
             r["abone_metin"] = True
             r["kayit_tipi"] = "abone"
             n_abone += 1

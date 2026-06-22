@@ -82,6 +82,12 @@ def is_public_record(r: dict) -> bool:
     return _has_text(r)
 
 
+def is_abone_only(r: dict) -> bool:
+    """GERCEK abone-ozel isareti: abone_ozel (X icon-subscriber, DOM'dan).
+    Tarih/eski etikete DEGIL, yalnizca bu sinyale bakilir. Alintilar abone sayilmaz."""
+    return bool(r.get("abone_ozel")) and not r.get("is_quote")
+
+
 def _icerik_tip_list(r: dict) -> list:
     t = r.get("tip")
     if isinstance(t, list):
@@ -133,9 +139,7 @@ def stats() -> dict:
     abone_metin = [
         r
         for r in rows
-        if not r.get("is_quote")
-        and _has_text(r)
-        and (r.get("abone_metin") or r.get("kayit_tipi") == "abone")
+        if _has_text(r) and is_abone_only(r)
     ]
     return {
         "toplam": len(public),
@@ -447,11 +451,7 @@ def _rows_to_gemini_md(
         tips = ", ".join(_icerik_tip_list(r)) or "—"
         prods = ", ".join(r.get("products") or []) or "GENEL"
         mf = ", ".join(r.get("media_files") or []) or "—"
-        abone = (
-            "abone"
-            if r.get("abone_metin") or r.get("kayit_tipi") == "abone"
-            else "public"
-        )
+        abone = "abone" if is_abone_only(r) else "public"
         graf = f"09_GRAFIKLER_GEMINI/{tid}_graf_01.jpg" if mf != "—" else "—"
         text = (r.get("text") or "").strip()
         lines += [
@@ -636,18 +636,18 @@ def main() -> None:
     if spam_n:
         print(f"  Reklam/kirli atlandi: {spam_n} satir (pakette yok)")
 
+    # 04 = SADECE public (abone_ozel haric), 07 = SADECE abone_ozel. Ikisi ayrik;
+    # tweet_id cakismasi ~0 olmali (gercek abone-ozel set 04'te yer almaz).
+    pub_only_rows = [r for r in public_rows if not is_abone_only(r)]
+    abone_rows = [r for r in public_rows if is_abone_only(r)]
+
     F8.write_text(build_mentor_md(s, public_rows), encoding="utf-8")
     shutil.copy2(HAFIZA, F2)
     F3.write_text(
-        "\n".join(json.dumps(r, ensure_ascii=False) for r in public_rows)
-        + ("\n" if public_rows else ""),
+        "\n".join(json.dumps(r, ensure_ascii=False) for r in pub_only_rows)
+        + ("\n" if pub_only_rows else ""),
         encoding="utf-8",
     )
-    abone_rows = [
-        r
-        for r in public_rows
-        if r.get("abone_metin") or r.get("kayit_tipi") == "abone"
-    ]
     F7_ABONE.write_text(
         "\n".join(json.dumps(r, ensure_ascii=False) for r in abone_rows)
         + ("\n" if abone_rows else ""),
