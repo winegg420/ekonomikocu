@@ -314,3 +314,16 @@
 [2026-06-11 20:25:57] Chrome yok. CHROME_X.bat ac, abone oturumu gir, tekrar calistir.
 [2026-06-14 11:00:57] BASLA | bos kilitli: 1 | Nisan+ metinli ana: 2235 | kilitli+metin: 0
 [2026-06-14 11:05:28] Chrome yok. CHROME_X.bat ac, abone oturumu gir, tekrar calistir.
+[2026-06-22 23:36:35] BASLA | bos kilitli: 1 | Nisan+ metinli ana: 5002 | kilitli+metin: 0
+[2026-06-22 23:36:36] Chrome baglandi (port 9222)
+[2026-06-22 23:36:43] Profil hazir — abone tweet metinleri cekiliyor...
+[2026-06-22 23:40:43] Profil kaydirma bitti: +0 metin | kalan bos: 1 | Nisan+ metinli: 5014 | kilitli+metin: 0
+[2026-06-22 23:40:43] Tur 1/20 | kalan bos kilitli: 1
+[2026-06-22 23:41:03] Tur 1 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 5014 | kilitli+metin: 0
+[2026-06-22 23:41:07] Tur 2/20 | kalan bos kilitli: 1
+[2026-06-22 23:41:18] Tur 2 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 5014 | kilitli+metin: 0
+[2026-06-22 23:41:22] Tur 3/20 | kalan bos kilitli: 1
+[2026-06-22 23:41:32] Tur 3 bitti: +0 metin | kalan bos: 1 | Nisan+ metinli ana: 5014 | kilitli+metin: 0
+[2026-06-22 23:41:35] Ilerleme yok (3 tur) — atlandi: 1 | kalan bos: 0 | devam ediliyor
+[2026-06-22 23:41:37] Analiz + hafiza yaziliyor...
+[2026-06-22 23:41:53] BITTI | bu oturumda +0 metin | kalan bos kilitli: 0 | Nisan+ metinli ana: 5014 | kilitli+metin: 0
