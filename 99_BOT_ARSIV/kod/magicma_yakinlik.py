@@ -24,7 +24,7 @@ Kullanim:
 
 Onkosul: 9222'li Chrome acik + TradingView sekmesi (indikator yuklu, giris yapilmis).
 """
-import sys, os, json, re, datetime
+import sys, os, json, re, datetime, glob
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -43,9 +43,41 @@ TARA_FLAG = "--tara" in sys.argv
 ESIK_TEMAS, ESIK_YAKIN, ESIK_IZLE = 5.0, 10.0, 15.0
 INTERVAL = "240"  # 4 saatlik (kullanici: 4sa korunsun)
 
-# Coklu tarama sembol listesi (kullanici tanimi). "magicma taramasi yap" dendiginde
-# bu listenin TAMAMI her seferinde taranir. Tercih: Binance verisi (kripto).
-SEMBOLLER = [
+LISTE_DIR = os.path.join(_REPO_DIR, "magicma", "sembol_listesi")
+# Dosya okuma sirasi (kripto once; geri kalan alfabetik ek .txt'ler sona eklenir).
+_LISTE_SIRA = ["kripto.txt", "forex_emtia.txt", "endeks_faiz.txt",
+               "abd_hisse.txt", "bist.txt"]
+
+
+def sembolleri_yukle():
+    """magicma/sembol_listesi/*.txt dosyalarindan sembol listesini oku.
+    '#' yorum ve bos satir atlanir; sira korunur, tekrarlar elenir.
+    Dizin/dosya yoksa bos doner (cagiran gomulu yedege duser)."""
+    if not os.path.isdir(LISTE_DIR):
+        return []
+    dosyalar = [os.path.join(LISTE_DIR, d) for d in _LISTE_SIRA
+                if os.path.exists(os.path.join(LISTE_DIR, d))]
+    for p in sorted(glob.glob(os.path.join(LISTE_DIR, "*.txt"))):
+        if p not in dosyalar:
+            dosyalar.append(p)
+    out, gorulen = [], set()
+    for p in dosyalar:
+        try:
+            with open(p, encoding="utf-8") as f:
+                for line in f:
+                    s = line.strip()
+                    if not s or s.startswith("#") or s in gorulen:
+                        continue
+                    gorulen.add(s); out.append(s)
+        except Exception:
+            continue
+    return out
+
+
+# Coklu tarama sembol listesi. "magicma taramasi yap" dendiginde bu listenin
+# TAMAMI her seferinde taranir. Oncelik: sembol_listesi/*.txt dosyalari (duzenlenebilir,
+# kripto otomatik uretilir). Dosyalar yoksa asagidaki gomulu yedek kullanilir.
+_SEMBOLLER_YEDEK = [
     # --- Kripto (Binance) ---
     "BINANCE:BTCUSDT", "BINANCE:ETHUSDT", "BINANCE:ETHBTC", "BINANCE:SOLUSDT",
     "BINANCE:AVAXUSDT", "BINANCE:NEARUSDT", "BINANCE:ARBUSDT", "BINANCE:AAVEUSDT",
@@ -92,6 +124,8 @@ SEMBOLLER = [
     "BIST:ZOREN", "BIST:DAPGM", "BIST:GSRAY", "BIST:KLSER", "BIST:PASEU", "BIST:TUREX",
     "BIST:OBASE", "BIST:KOTON", "BIST:AVPGY", "BIST:PEKGY", "BIST:LMKDC",
 ]
+
+SEMBOLLER = sembolleri_yukle() or _SEMBOLLER_YEDEK
 
 
 def tr_sayi_parse(s):

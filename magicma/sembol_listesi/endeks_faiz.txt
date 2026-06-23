@@ -1,0 +1,9 @@
+# Endeks / faiz / volatilite (magicma_yakinlik.py gomulu listeden tasindi)
+# Her satir 1 sembol, TradingView formati BORSA:SEMBOL. '#' yorum, bos satir atlanir.
+SP:SPX
+NASDAQ:NDX
+DJ:DJI
+TVC:VIX
+TVC:US10Y
+BIST:XU100
+BIST:XU030

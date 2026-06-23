@@ -1,0 +1,38 @@
+# Forex + emtia/metal evreni (magicma_yakinlik.py gomulu listeden aynen tasindi)
+# Her satir 1 sembol, TradingView formati BORSA:SEMBOL. '#' yorum, bos satir atlanir.
+
+# --- Dolar endeksi ---
+TVC:DXY
+
+# --- FX: en populer pariteler ---
+FX:EURUSD
+FX:USDJPY
+FX:GBPUSD
+FX:USDCHF
+FX:AUDUSD
+FX:USDCAD
+FX:NZDUSD
+FX:EURGBP
+FX:EURJPY
+FX:GBPJPY
+FX:EURCHF
+FX:AUDJPY
+FX:EURAUD
+FX:EURCAD
+FX:GBPCHF
+FX:AUDNZD
+FX:NZDJPY
+FX:GBPCAD
+FX:CADJPY
+FX:CHFJPY
+OANDA:USDTRY
+
+# --- Emtia / metal ---
+OANDA:XAUUSD
+OANDA:XAGUSD
+OANDA:XPTUSD
+OANDA:XPDUSD
+FX_IDC:XAUTRY
+TVC:USOIL
+TVC:UKOIL
+COMEX:HG1!
