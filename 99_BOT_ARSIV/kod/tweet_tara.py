@@ -2840,6 +2840,7 @@ def run_scrape(
         tried_search = use_search_feed
         stagnation_oldest: datetime | None = None
         stagnation_hits = 0
+        session_oldest: datetime | None = None
         period_mode = bool(feed_url)
         period_fail = 0
         period_zero_streak = 0
@@ -2985,8 +2986,10 @@ def run_scrape(
                     d = dt_from_iso(raw.get("datetime"))
                     if d and (batch_oldest is None or d < batch_oldest):
                         batch_oldest = d
-                if batch_oldest and batch_oldest <= stop_before:
-                    print(f"Durduruldu (akista {batch_oldest.date()}): {stop_before}")
+                if batch_oldest and (session_oldest is None or batch_oldest < session_oldest):
+                    session_oldest = batch_oldest
+                if session_oldest and session_oldest <= stop_before:
+                    print(f"Durduruldu (bu oturumda gorulen en eski {session_oldest.date()}): {stop_before}")
                     break
 
             if feed_needs_recovery(page):
