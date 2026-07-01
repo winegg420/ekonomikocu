@@ -85,6 +85,7 @@ def main() -> int:
 
     from tara_ilerle import give_up_locked_batch
     from tara_nav import StallWatchdog, bind_safe_page, page_stuck_loading, recover_x_page
+    from tarayici_saglik import iyilestir, sayfa_canli
     from tweet_tara import (
         click_posts_tab,
         HAFIZA,
@@ -192,6 +193,11 @@ def main() -> int:
                     _log("Tum abone tweetleri metin olarak kaydedildi.")
                     break
                 _log(f"Tur {rnd}/{args.max_rounds} | kalan bos kilitli: {locked_now}")
+                if not sayfa_canli(page):
+                    page = iyilestir(page, home_url=PROFILE_URL_POSTS, etiket="abone")
+                    if page is None:
+                        _log("Baglanti kurtarilamadi — toplananlar kaydedilip cikiliyor.")
+                        break
                 if page_stuck_loading(page) or watchdog.needs_recovery():
                     watchdog.recover(page, PROFILE_URL_POSTS)
                 done = refill_locked_since(

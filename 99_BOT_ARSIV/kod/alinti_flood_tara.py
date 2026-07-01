@@ -364,8 +364,14 @@ def discover_quotes_on_main_status(
         except Exception as e:
             _log(f"  >> Keşif atlandi ({tid}): {e}")
             if "closed" in str(e).lower():
-                _log("  >> Chrome kapandi — keşif durduruluyor.")
-                break
+                from tarayici_saglik import iyilestir
+
+                npage = iyilestir(page, etiket="kesif")
+                if npage is None:
+                    _log("  >> Chrome kapandi — keşif durduruluyor.")
+                    break
+                page = npage
+                continue
             try:
                 recover_x_page(page)
             except Exception:
@@ -485,10 +491,23 @@ def main() -> int:
                     queue.append((qid, None))
             _log(f"Keşif bitti: +{len(extra)} alinti ID")
 
+        from tarayici_saglik import RateLimitBackoff, iyilestir, rate_limit_var, sayfa_canli
+
+        rl_backoff = RateLimitBackoff()
         while queue:
             quote_id, quoted_by = queue.pop(0)
             if quote_id in done:
                 continue
+            if not sayfa_canli(page):
+                page = iyilestir(page, home_url=PROFILE_URL_POSTS, etiket="alinti-flood")
+                if page is None:
+                    _log(
+                        f"Baglanti kurtarilamadi — durduruluyor. CHROME_X.bat acip "
+                        f"TARA_ALINTI_FLOOD_{YIL}.bat tekrar calistir."
+                    )
+                    queue.insert(0, (quote_id, quoted_by))
+                    break
+                page._eko_allow_foreign_status = True  # type: ignore[attr-defined]
             attempts[quote_id] = attempts.get(quote_id, 0) + 1
             try:
                 added, nested, conv_n = crawl_quote_flood_deep(
@@ -501,11 +520,18 @@ def main() -> int:
                 )
             except Exception as e:
                 if "closed" in str(e).lower():
-                    _log(
-                        f"Chrome/sekme kapandi — durduruluyor. CHROME_X.bat acip "
-                        f"TARA_ALINTI_FLOOD_{YIL}.bat tekrar calistir."
-                    )
-                    break
+                    npage = iyilestir(page, home_url=PROFILE_URL_POSTS, etiket="alinti-flood")
+                    if npage is None:
+                        _log(
+                            f"Chrome/sekme kapandi — durduruluyor. CHROME_X.bat acip "
+                            f"TARA_ALINTI_FLOOD_{YIL}.bat tekrar calistir."
+                        )
+                        break
+                    page = npage
+                    page._eko_allow_foreign_status = True  # type: ignore[attr-defined]
+                    attempts[quote_id] = attempts.get(quote_id, 1) - 1  # kopma denemesi sayilmasin
+                    queue.insert(0, (quote_id, quoted_by))  # KALDIGI ID'den devam
+                    continue
                 raise
             total_added += added
             if added:
@@ -521,6 +547,13 @@ def main() -> int:
                 queue.append((quote_id, quoted_by))
                 save_progress(done, attempts)
                 _log(f"  >> Bos sayfa — tekrar ({attempts[quote_id]}/3): {quote_id}")
+                try:
+                    if rate_limit_var(page):
+                        rl_backoff.bekle("alinti-flood")
+                    else:
+                        rl_backoff.sifirla()
+                except Exception:
+                    pass
             for nid in nested:
                 if nid not in done and (nid, quote_id) not in queue:
                     queue.append((nid, quote_id))

@@ -95,6 +95,14 @@ from tara_nav import (
     url_allowed,
     wait_status_ready,
 )
+from tarayici_saglik import (
+    RateLimitBackoff,
+    baglanti_hatasi,
+    icerik_bekle,
+    iyilestir,
+    rate_limit_var,
+    sayfa_canli,
+)
 
 JSONL_OUT = ROOT / "cekilen_tweetler.jsonl"
 YANITLAR_OUT = ROOT / "cekilen_yanitlar.jsonl"
@@ -318,7 +326,7 @@ def ensure_feed_page(
     feed = search_url or SEARCH_URL
     if not is_search_feed(page) or feed_needs_recovery(page):
         safe_goto(page, feed, reason="arama-akis")
-        page.wait_for_timeout(5000)
+        icerik_bekle(page, 5000)
         x_clear_error(page)
         page._eko_home = feed  # type: ignore[attr-defined]
 
@@ -351,7 +359,7 @@ def open_working_feed(
     for url in urls:
         try:
             safe_goto(page, url, reason="akis-yenile")
-            page.wait_for_timeout(5000)
+            icerik_bekle(page, 5000)
             click_posts_tab(page)
             x_clear_error(page)
             page.wait_for_timeout(2500)
@@ -379,7 +387,7 @@ def fix_x_crash(page, context=None) -> bool:
         return False
     try:
         page.reload(wait_until="commit", timeout=90_000)
-        page.wait_for_timeout(5000)
+        icerik_bekle(page, 5000)
         x_clear_error(page)
     except Exception:
         pass
@@ -1699,7 +1707,7 @@ def run_period_profile_fallback(
         f"(max {max_scroll} scroll)"
     )
     safe_goto(page, PROFILE_URL_POSTS, reason="donem-profil")
-    page.wait_for_timeout(4000)
+    icerik_bekle(page, 4000)
     click_posts_tab(page)
     x_clear_error(page)
     page.evaluate("window.scrollTo(0, 0)")
@@ -1928,6 +1936,7 @@ def refill_locked_since(
     back = return_url or PROFILE_URL_POSTS
     done = 0
     skipped = 0
+    rl_backoff = RateLimitBackoff()
     _log(f"Abone tweet metni: {len(jobs)} adet (>= {since.date()})...")
     for i, tid in enumerate(jobs, 1):
         if should_give_up(tid, max_id_attempts):
@@ -1978,6 +1987,7 @@ def refill_locked_since(
                 row["kayit_tipi"] = "abone"
                 all_rows[tid] = row
                 clear_attempts(tid)
+                rl_backoff.sifirla()
                 done += 1
                 if save_cb and (done % 15 == 0 or i == len(jobs)):
                     save_cb(all_rows)
@@ -1985,6 +1995,9 @@ def refill_locked_since(
                     save_reply_cb(reply_rows)
                 watchdog.ping()
             else:
+                if rate_limit_var(page):
+                    rl_backoff.bekle("abone-status")
+                    watchdog.note_activity()
                 n_try = bump_attempt(tid)
                 if n_try >= max_id_attempts:
                     if mark_locked_unavailable(all_rows, tid):
@@ -1998,6 +2011,14 @@ def refill_locked_since(
         except Exception as e:
             _log(f"  >> Abone atlandi ({tid}): {e}")
             err = str(e).lower()
+            if baglanti_hatasi(e) or not sayfa_canli(page):
+                npage = iyilestir(page, home_url=back, etiket="abone")
+                if npage is None:
+                    _log("  >> Kalan abone isleri sonraki oturuma birakildi (baglanti yok).")
+                    break
+                page = npage
+                watchdog.note_activity()
+                continue
             release_status_page(page)
             if page_stuck_loading(page) or "execution context was destroyed" in err:
                 page.wait_for_timeout(2000)
@@ -2079,6 +2100,8 @@ def crawl_thread(page, root_id: str, all_rows: dict[str, dict]) -> int:
         wait_for_profile_feed(page, tries=8)
         return n
     except Exception as e:
+        if baglanti_hatasi(e):
+            raise  # dongude yeniden baglanilacak — deneme sayilmasin
         _log(f"  >> Thread hata ({root_id}): {e}")
         try:
             ensure_profile_timeline(page)
@@ -2187,6 +2210,8 @@ def crawl_quote(
 
         return 0
     except Exception as e:
+        if baglanti_hatasi(e):
+            raise  # dongude yeniden baglanilacak — bos "erisilemedi" isaretlenmesin
         _log(f"  >> Alinti hata ({quote_id}): {e}")
         if return_to_feed:
             try:
@@ -2214,15 +2239,23 @@ def flush_quotes(
         if not row_quote_needs_visit(all_rows.get(qid, {"id": qid, "isQuote": True})):
             quotes_done.add(qid)
             continue
-        crawl_quote(
-            page,
-            qid,
-            qb,
-            all_rows,
-            threads_done,
-            return_to_feed=return_to_feed,
-            allow_foreign=allow_foreign,
-        )
+        try:
+            crawl_quote(
+                page,
+                qid,
+                qb,
+                all_rows,
+                threads_done,
+                return_to_feed=return_to_feed,
+                allow_foreign=allow_foreign,
+            )
+        except Exception as e:
+            if not baglanti_hatasi(e):
+                raise
+            page = iyilestir(page, home_url=PROFILE_URL_POSTS, etiket="alinti")
+            if page is None:
+                break  # bu ID quotes_done'a girmedi — sonraki calistirmada tekrar
+            continue
         visited += 1
         row = all_rows.get(qid, {})
         if not row_quote_needs_visit(row):
@@ -2253,12 +2286,27 @@ def finish_threads_loop(
         if is_skipped(root_id, "flood"):
             threads_done.add(root_id)
             continue
+        if not sayfa_canli(page):
+            page = iyilestir(page, home_url=back, etiket="flood")
+            if page is None:
+                _log("  >> #FLOOD: baglanti yok — kalanlar sonraki tura birakildi.")
+                return
         parts_before = count_thread_parts(all_rows, root_id)
         _log(f"  >> #FLOOD thread: {root_id}")
         try:
             crawl_thread(page, root_id, all_rows)
         except Exception as e:
-            _log(f"  >> Thread atlandi ({root_id}): {e}")
+            if baglanti_hatasi(e):
+                page = iyilestir(page, home_url=back, etiket="flood")
+                if page is None:
+                    _log("  >> #FLOOD: baglanti kurtarilamadi — kalanlar birakildi.")
+                    return
+                try:
+                    crawl_thread(page, root_id, all_rows)  # ayni ID tekrar
+                except Exception as e2:
+                    _log(f"  >> Thread atlandi ({root_id}): {e2}")
+            else:
+                _log(f"  >> Thread atlandi ({root_id}): {e}")
         if note_thread_result(
             all_rows,
             root_id,
@@ -2292,6 +2340,11 @@ def finish_quotes_loop(
         if not pending:
             _log("Alintilar tamam (bekleyen yok).")
             break
+        if not sayfa_canli(page):
+            page = iyilestir(page, home_url=back, etiket="alinti")
+            if page is None:
+                _log("Alinti: baglanti yok — kalanlar sonraki tura birakildi.")
+                return
         _log(f"Asama 2 tur {rnd}: {pending} alinti bekliyor...")
         n = flush_quotes(
             page,
@@ -2307,6 +2360,13 @@ def finish_quotes_loop(
         if pending_after == 0:
             break
         if pending_after >= pending:
+            if not sayfa_canli(page):
+                # Baglanti oldugu icin ilerleme yok — YANLIS "erisilemedi" isaretleme yapma
+                page = iyilestir(page, home_url=back, etiket="alinti")
+                if page is None:
+                    _log("Alinti: baglanti yok — isaretleme YAPILMADI, kalanlar korundu.")
+                    return
+                continue
             _log("  >> Ilerleme yok — kalanlar isaretleniyor.")
             for qid, qb in collect_quote_jobs(all_rows, [], quotes_done):
                 _finalize_quote_if_still_empty(page, qid, qb, all_rows)
@@ -2639,6 +2699,7 @@ def run_scrape(
     refill_locked_since_date: str | None = None,
     fast_period: bool = False,
     skip_media: bool = False,
+    bos_tur_limit: int = 25,
 ) -> int:
     # deep_links varsayilan kapali (status sayfasi X'i coker)
     try:
@@ -2781,7 +2842,7 @@ def run_scrape(
             label = feed_url or "from:ekonomikocu"
             _log(f"Arama modu (tek sekme): {label}")
             page.goto(active_search, wait_until="commit", timeout=120_000)
-            page.wait_for_timeout(6000)
+            icerik_bekle(page, 6000)
             x_clear_error(page)
             page._eko_home = active_search  # type: ignore[attr-defined]
             bind_safe_page(page, active_search)
@@ -2808,7 +2869,7 @@ def run_scrape(
             for nav_try in range(2):
                 try:
                     page.goto(PROFILE_URL_POSTS, wait_until="commit", timeout=120_000)
-                    page.wait_for_timeout(5000)
+                    icerik_bekle(page, 5000)
                     click_posts_tab(page)
                     x_clear_error(page)
                     if profile_feed_ready(page) and not page_shows_x_crash(page):
@@ -2835,6 +2896,7 @@ def run_scrape(
         stale = 0
         recoveries = 0
         reloads = 0
+        rl_backoff = RateLimitBackoff()
         zero_screen_streak = 0
         last_recover_tw: int | None = None
         stuck_recover_count = 0
@@ -2876,6 +2938,8 @@ def run_scrape(
             u = (page.url or "").lower()
             on_profile = PROFILE_HANDLE in u and "/status/" not in u
             print(f"  >> Kurtarma ({phase})...")
+            if rate_limit_var(page):
+                rl_backoff.bekle(f"kurtarma-{phase}")
             page.wait_for_timeout(recover_backoff_ms())
 
             # Ekrandaki tweet sayisi ust uste kurtarma denemelerinde hic degismiyorsa
@@ -2901,7 +2965,7 @@ def run_scrape(
                     active_search if use_search_feed else PROFILE_URL_POSTS,
                     reason=f"kurtarma-donmus-{phase}",
                 )
-                page.wait_for_timeout(4000)
+                icerik_bekle(page, 4000)
                 x_clear_error(page)
                 if not use_search_feed:
                     click_posts_tab(page)
@@ -2915,12 +2979,12 @@ def run_scrape(
                 scroll_feed_deeper(page, passes=10)
             elif use_search_feed:
                 safe_goto(page, active_search, reason=f"kurtarma-{phase}")
-                page.wait_for_timeout(4000)
+                icerik_bekle(page, 4000)
                 x_clear_error(page)
                 scroll_feed_deeper(page, passes=6)
             elif profile_only:
                 safe_goto(page, PROFILE_URL_POSTS, reason=f"kurtarma-{phase}")
-                page.wait_for_timeout(3000)
+                icerik_bekle(page, 3000)
                 click_posts_tab(page)
                 scroll_feed_deeper(page, passes=6)
             else:
@@ -2954,8 +3018,16 @@ def run_scrape(
             except Exception as e:
               err = str(e).lower()
               if "closed" in err:
-                _log("Tarayici kapatildi — toplananlar kaydediliyor.")
-                break
+                npage = iyilestir(
+                    page,
+                    home_url=active_search if use_search_feed else PROFILE_URL_POSTS,
+                    etiket="tarama",
+                )
+                if npage is None:
+                    _log("Tarayici kapatildi — toplananlar kaydediliyor.")
+                    break
+                page = npage
+                continue
               if "execution context was destroyed" in err or "navigation" in err:
                 _log("  >> Sayfa yenilendi — arama akisina donuluyor...")
                 page.wait_for_timeout(2000)
@@ -3108,7 +3180,7 @@ def run_scrape(
                         f"donem aramasina donuluyor"
                     )
                     safe_goto(page, active_search, reason="stagnation-donem")
-                    page.wait_for_timeout(5000)
+                    icerik_bekle(page, 5000)
                     x_clear_error(page)
                     page._eko_home = active_search  # type: ignore[attr-defined]
                     use_search_feed = True
@@ -3119,7 +3191,7 @@ def run_scrape(
                         f"profil yenileniyor (eski tarih aramasina gidilmiyor)"
                     )
                     safe_goto(page, PROFILE_URL_POSTS, reason="stagnation-profil")
-                    page.wait_for_timeout(4000)
+                    icerik_bekle(page, 4000)
                     click_posts_tab(page)
                     x_clear_error(page)
                 else:
@@ -3132,13 +3204,13 @@ def run_scrape(
                         f"ay aramasi: {since_m} .. {until_m}"
                     )
                     safe_goto(page, surl, reason="stagnation-ay")
-                    page.wait_for_timeout(5000)
+                    icerik_bekle(page, 5000)
                     x_clear_error(page)
                     for _si in range(12):
                         merge_rows(all_rows, page.evaluate(EXTRACT_JS), page=page)
                         scroll_feed_deeper(page, passes=2)
                     safe_goto(page, PROFILE_URL_POSTS, reason="stagnation-profil")
-                    page.wait_for_timeout(4000)
+                    icerik_bekle(page, 4000)
                     click_posts_tab(page)
                 stagnation_hits = 0
                 stale = 0
@@ -3153,14 +3225,14 @@ def run_scrape(
                     tried_replies = True
                     _log("  >> Profil (Gonderiler) — yanitlar sekmesi yok...")
                     safe_goto(page, PROFILE_URL_POSTS, reason="stale-profil")
-                    page.wait_for_timeout(5000)
+                    icerik_bekle(page, 5000)
                     click_posts_tab(page)
                     stale = max(0, stale - 2)
                 elif stale == 8 and not tried_search and not profile_only and feed_url:
                     tried_search = True
                     _log("  >> Arama: from:ekonomikocu (profil takilinca)...")
                     safe_goto(page, active_search, reason="stale-arama")
-                    page.wait_for_timeout(5000)
+                    icerik_bekle(page, 5000)
                     x_clear_error(page)
                     for _si in range(30):
                         force_turkish_on_page(page)
@@ -3171,20 +3243,21 @@ def run_scrape(
                     added = len(all_rows)
                     _log(f"  >> Arama bitti, toplam {added} tweet.")
                     safe_goto(page, PROFILE_URL_POSTS, reason="stale-don")
-                    page.wait_for_timeout(4000)
+                    icerik_bekle(page, 4000)
                     stale = 0
                 elif stale in (14, 18) and reloads < 1 and not attached_cdp:
                     print("  >> Sayfa yenileniyor...")
                     ensure_profile_timeline(page)
                     safe_goto(page, PROFILE_URL_POSTS, reason="stale-don")
-                    page.wait_for_timeout(5000)
+                    icerik_bekle(page, 5000)
                     reloads += 1
                     stale = 0
-                elif stale >= (12 if (fast_period and period_filter) else 35):
-                    print("Daha fazla tweet yuklenmiyor (limit veya X takildi).")
+                elif stale >= (12 if (fast_period and period_filter) else max(1, bos_tur_limit)):
+                    print(f"Daha fazla tweet yuklenmiyor ({stale} bos tur — limit {bos_tur_limit}).")
                     break
             else:
                 stale = 0
+                rl_backoff.sifirla()
 
             ensure_feed_page(
                 page,
@@ -3202,8 +3275,16 @@ def run_scrape(
                 )
             except Exception as e:
               if "closed" in str(e).lower():
-                _log("Tarayici kapatildi — toplananlar kaydediliyor.")
-                break
+                npage = iyilestir(
+                    page,
+                    home_url=active_search if use_search_feed else PROFILE_URL_POSTS,
+                    etiket="tarama",
+                )
+                if npage is None:
+                    _log("Tarayici kapatildi — toplananlar kaydediliyor.")
+                    break
+                page = npage
+                continue
               raise
             try:
                 page.wait_for_load_state("domcontentloaded", timeout=5000)
@@ -3400,6 +3481,12 @@ def main() -> int:
         default=None,
         help="Abonelik: bu tarihten (YYYY-MM-DD) itibaren kilitli/bos tweetleri status'tan yenile",
     )
+    parser.add_argument(
+        "--bos-tur-limit",
+        type=int,
+        default=25,
+        help="Ardisik bos scroll turu limiti — asilirsa tarama erken biter (varsayilan 25)",
+    )
     args = parser.parse_args()
 
     if args.fresh_profile:
@@ -3460,6 +3547,7 @@ def main() -> int:
         refill_locked_since_date=args.refill_locked_since,
         fast_period=args.fast_period,
         skip_media=args.skip_media,
+        bos_tur_limit=args.bos_tur_limit,
     )
     return code
 
