@@ -90,7 +90,7 @@ def main() -> int:
         PY, str(KOD / "tweet_tara.py"),
         "--attach-port", "9222", "--require-cdp",
         "--profile-only", "--stop-before", stop_str,
-        "--max-scroll", "120", "--pause", "3500",
+        "--max-scroll", "120", "--pause", "5000",
         "--finish-threads", "--skip-hafiza",
     ]
     subprocess.run(cmd, cwd=ROOT)

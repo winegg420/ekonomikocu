@@ -2836,6 +2836,8 @@ def run_scrape(
         recoveries = 0
         reloads = 0
         zero_screen_streak = 0
+        last_recover_tw: int | None = None
+        stuck_recover_count = 0
         tried_replies = False
         tried_search = use_search_feed
         stagnation_oldest: datetime | None = None
@@ -2864,13 +2866,49 @@ def run_scrape(
                 save_jsonl(scraped_to_records(list(all_rows.values())), JSONL_OUT)
                 _log(f"  >> DISKE YAZILDI: {len(all_rows)} tweet -> {JSONL_OUT.name}")
 
+        def recover_backoff_ms() -> int:
+            # Rate-limit'e sik carpildikca bekleme suresini kademeli artir (3sn -> 15sn tavan)
+            return min(3000 + recoveries * 1500, 15000)
+
         def feed_recover(phase: str) -> None:
-            nonlocal recoveries, stale
+            nonlocal recoveries, stale, last_recover_tw, stuck_recover_count
             tw = timeline_tweet_count(page)
             u = (page.url or "").lower()
             on_profile = PROFILE_HANDLE in u and "/status/" not in u
             print(f"  >> Kurtarma ({phase})...")
-            if on_profile and tw >= 2 and not page_shows_x_crash(page):
+            page.wait_for_timeout(recover_backoff_ms())
+
+            # Ekrandaki tweet sayisi ust uste kurtarma denemelerinde hic degismiyorsa
+            # (sayfa fiilen donmus demektir) sadece kaydirmak yetmez — gercek yenileme gerekir.
+            if last_recover_tw is not None and tw == last_recover_tw:
+                stuck_recover_count += 1
+            else:
+                stuck_recover_count = 0
+            last_recover_tw = tw
+
+            if stuck_recover_count >= 2:
+                _log(
+                    f"  >> Sayfa {stuck_recover_count + 1} denemedir ayni ({tw} tweet) — "
+                    f"gercek sayfa yenileme yapiliyor..."
+                )
+                try:
+                    page.reload(wait_until="commit", timeout=30_000)
+                except Exception:
+                    pass
+                page.wait_for_timeout(4000)
+                safe_goto(
+                    page,
+                    active_search if use_search_feed else PROFILE_URL_POSTS,
+                    reason=f"kurtarma-donmus-{phase}",
+                )
+                page.wait_for_timeout(4000)
+                x_clear_error(page)
+                if not use_search_feed:
+                    click_posts_tab(page)
+                scroll_feed_deeper(page, passes=6)
+                stuck_recover_count = 0
+                last_recover_tw = None
+            elif on_profile and tw >= 2 and not page_shows_x_crash(page):
                 _log("  >> Sayfa basina donulmuyor — sadece asagi kaydiriliyor...")
                 if feed_mostly_locked(page):
                     _log("  >> Ustte abone tweetleri — geciliyor...")
@@ -2960,6 +2998,7 @@ def run_scrape(
                 zero_screen_streak = 0
             if zero_screen_streak >= 4 and recoveries < 15:
                 _log("  >> Ekranda 0 tweet — splash/akis kurtarma...")
+                page.wait_for_timeout(recover_backoff_ms())
                 recover_x_page(page)
                 if use_search_feed:
                     safe_goto(page, active_search, reason="zero-ekran")
@@ -3141,7 +3180,7 @@ def run_scrape(
                     page.wait_for_timeout(5000)
                     reloads += 1
                     stale = 0
-                elif stale >= (12 if (fast_period and period_filter) else 20):
+                elif stale >= (12 if (fast_period and period_filter) else 35):
                     print("Daha fazla tweet yuklenmiyor (limit veya X takildi).")
                     break
             else:
