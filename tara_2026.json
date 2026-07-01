@@ -1,27 +1,27 @@
 {
-  "guncelleme": "2026-06-22T23:41:40",
+  "guncelleme": "2026-07-02T00:51:24",
   "yil": "2026",
   "genel_yuzde": 100.0,
   "tamam": false,
-  "en_yeni": "2026-06-22",
+  "en_yeni": "2026-07-01",
   "ana": {
-    "metinli": 5988,
+    "metinli": 6269,
     "bos_kilitli": 0,
     "erisilemedi": 18,
-    "toplam": 6006,
+    "toplam": 6287,
     "yuzde": 100.0
   },
   "alinti": {
-    "kapsam": 105,
-    "tam": 105,
+    "kapsam": 110,
+    "tam": 110,
     "eksik": 0,
     "yuzde": 100.0,
     "bekleyen_dosya": 7
   },
   "flood": {
-    "kok": 6,
+    "kok": 7,
     "eksik_parcali": 0,
-    "atlandi": 5,
+    "atlandi": 6,
     "yuzde": 100.0,
     "eksik_kok_id": []
   },
@@ -43,11 +43,15 @@
       "bos": 0
     },
     "2026-05": {
-      "metinli": 1389,
+      "metinli": 1391,
       "bos": 0
     },
     "2026-06": {
-      "metinli": 3275,
+      "metinli": 3528,
+      "bos": 0
+    },
+    "2026-07": {
+      "metinli": 26,
       "bos": 0
     }
   },

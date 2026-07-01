@@ -111,6 +111,12 @@ def main() -> int:
     print(f"  Yeni flood : +{f1 - f0}  (toplam {f1})", flush=True)
     print(f"  En yeni kayit: {newest2}", flush=True)
     print("=" * 50, flush=True)
+    # 5) Paketleme: ham veriden 04/07 + kapsam yeniden uretilir
+    for _script in ("claude_paket_olustur.py", "kapsam_durum.py"):
+        try:
+            subprocess.run([PY, str(KOD / _script)], cwd=str(ROOT), check=False)
+        except Exception as e:
+            print(f"[paket] {_script} hatasi: {e}", flush=True)
     return 0
 
 
