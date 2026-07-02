@@ -2,7 +2,7 @@
 
 Sadece abone donemi tweetleri (`kayit_tipi: abone`). Makro (Trump/Fed/ABD) + teknik yorumlari burada da birlestir — 02 kurallari gecerli.
 
-Toplam: **3272**
+Toplam: **3273**
 
 ## 30 Haz 14:50 | `2071924299267514421` | GENEL | yorum | abone
 
@@ -1077,6 +1077,21 @@ ister istemez bekler.
 Mumlar ileri geri oynar ama bekler.
 Tabi ki ara takvimler de var
 ama en önemlisi Ağustos 3. haftadır.
+
+- media: —
+- gemini_grafik: —
+
+## 23 Haz 01:46 | `2069190271791767740` | GENEL | tarih, tez | abone
+
+Adamlar Ağustos 3. haftaya kadar süre veriyorlar ?
+
+Siz sanıyor musunuz kafalarına göre o takvimi
+veriyorlar ?
+
+Öyle olsa biz nereden bileceğiz ?
+Tekniğe göre veriyorlar.
+
+Resmen zaman geçirmek istiyorlar.
 
 - media: —
 - gemini_grafik: —
