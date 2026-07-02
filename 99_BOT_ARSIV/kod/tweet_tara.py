@@ -104,6 +104,10 @@ from tarayici_saglik import (
     sayfa_canli,
 )
 
+# Akis yenileme yolunun (open_working_feed) rate-limit bekleyicisi.
+# Agir limitte kisa beklemeler ise yaramiyor: taban 60 sn, tavan 10 dk.
+_akis_backoff = RateLimitBackoff(taban_sn=60, tavan_sn=600)
+
 JSONL_OUT = ROOT / "cekilen_tweetler.jsonl"
 YANITLAR_OUT = ROOT / "cekilen_yanitlar.jsonl"
 HAFIZA = ROOT / "ekonomikocu_hafiza_v1.md"
@@ -279,7 +283,7 @@ def x_clear_error(page) -> None:
                     page.wait_for_timeout(1500)
                 except Exception:
                     pass
-        for txt in ("Retry", "Yeniden dene", "Try reloading", "Yeniden yükleyin"):
+        for txt in ("Retry", "Yeniden dene", "Try reloading", "Yeniden yükleyin", "Yeniden yüklemeyi dene"):
             loc = page.get_by_text(txt, exact=False)
             if loc.count() > 0:
                 try:
@@ -301,8 +305,10 @@ def page_shows_x_crash(page) -> bool:
         for txt in (
             "Something went wrong",
             "Bir şeyler ters gitti",
+            "Bir sorun oluştu",
             "Try reloading",
             "Yeniden yükleyin",
+            "Yeniden yüklemeyi dene",
         ):
             if scope.get_by_text(txt, exact=False).count() > 0:
                 return True
@@ -349,6 +355,12 @@ def open_working_feed(
             return page
         return page
     _log("Akis yenileniyor (tek sekme, sadece ekonomikocu)...")
+    # Hata/rate-limit sayfasindayken pespese yenileme limiti daha da azdirir:
+    # once bekle, sonra hata sayfasini temizlemeyi dene.
+    if rate_limit_var(page):
+        _akis_backoff.bekle("akis-yenile")
+        x_clear_error(page)
+        page.wait_for_timeout(2000)
     urls: list[str] = []
     if first_url and url_allowed(first_url):
         urls.append(first_url)
@@ -364,6 +376,10 @@ def open_working_feed(
             x_clear_error(page)
             page.wait_for_timeout(2500)
             if timeline_tweet_count(page) >= 1 and not page_shows_x_crash(page):
+                # Tek tweet'lik "OK" aldatici olabiliyor (sayfa hemen tekrar cokuyor);
+                # sayaci ancak akis gercekten dolunca sifirla.
+                if timeline_tweet_count(page) >= 5:
+                    _akis_backoff.sifirla()
                 _log(f"Akis OK: {url[:70]}")
                 try:
                     page.bring_to_front()
@@ -615,7 +631,7 @@ RETRY_JS = """
 
 RECOVER_CLICK_JS = """
 () => {
-  const rx = /^(retry|yeniden dene|try again|reload|yeniden yükleyin)$/i;
+  const rx = /^(retry|yeniden dene|try again|tekrar dene|reload|yeniden yükle|yeniden yükleyin)$/i;
   const nodes = document.querySelectorAll(
     'button, a, [role="button"], div[role="button"]'
   );
@@ -700,9 +716,21 @@ def feed_mostly_locked(page) -> bool:
         return False
 
 
+def _evaluate_sessiz(page, js: str) -> None:
+    """Kaydirma yardimcilarinda evaluate — navigasyon aninda context yikilirsa
+    (retry tiklamasi sayfayi yeniler) tum turu COKERTME, kisa bekle ve gec."""
+    try:
+        page.evaluate(js)
+    except Exception:
+        try:
+            page.wait_for_timeout(1500)
+        except Exception:
+            pass
+
+
 def aggressive_timeline_scroll(page) -> None:
     """Yavas insan kaydirma — X 'Something went wrong' azalir, daha cok tweet yuklenir."""
-    page.evaluate(SCROLL_JS)
+    _evaluate_sessiz(page, SCROLL_JS)
     for _ in range(3):
         try:
             page.mouse.wheel(0, 1100)
@@ -713,11 +741,11 @@ def aggressive_timeline_scroll(page) -> None:
 
 def scroll_feed_deeper(page, *, passes: int = 8) -> None:
     """Profil basina DONMEDEN asagi in (durak #3 dongusunu kirar)."""
-    page.evaluate(RETRY_JS)
+    _evaluate_sessiz(page, RETRY_JS)
     for _ in range(passes):
         aggressive_timeline_scroll(page)
         page.wait_for_timeout(2800)
-        page.evaluate(EXPAND_JS)
+        _evaluate_sessiz(page, EXPAND_JS)
     try:
         page.keyboard.press("PageDown")
         page.keyboard.press("PageDown")
@@ -1718,6 +1746,10 @@ def run_period_profile_fallback(
     stale = 0
     since_naive = since_dt.replace(tzinfo=None)
     until_naive = until_dt.replace(tzinfo=None)
+    # Ekran hic degismiyorsa (ayni batch) 200 scroll'u bosa yakma
+    same_batch = 0
+    last_sig: tuple | None = None
+    rl = RateLimitBackoff(taban_sn=60, tavan_sn=600)
     for i in range(max_scroll):
         if page_stuck_loading(page):
             recover_x_page(page)
@@ -1765,6 +1797,23 @@ def run_period_profile_fallback(
                 scroll_feed_deeper(page, passes=6)
         if stale >= 50 and total_in_period > 0:
             _log("  >> 50 scroll donemde yeni yok — sonraki adima geciliyor.")
+            break
+        # Ayni ekran tespiti: batch imzasi degismiyorsa once kurtar, sonra kes
+        sig = (batch_oldest, batch_newest, len(batch), in_period)
+        if sig == last_sig:
+            same_batch += 1
+        else:
+            same_batch = 0
+        last_sig = sig
+        if same_batch == 8:
+            _log("  >> Ekran 8 turdur ayni — kurtarma (backoff + yenile + derin kaydirma)...")
+            if rate_limit_var(page):
+                rl.bekle("donem-profil")
+            recover_x_page(page)
+            x_clear_error(page)
+            scroll_feed_deeper(page, passes=8)
+        elif same_batch >= 16:
+            _log("  >> Ekran 16 turdur ayni — pencere kesiliyor, sonraki adima geciliyor.")
             break
         aggressive_timeline_scroll(page)
         page.wait_for_timeout(2800)
@@ -2940,6 +2989,8 @@ def run_scrape(
             print(f"  >> Kurtarma ({phase})...")
             if rate_limit_var(page):
                 rl_backoff.bekle(f"kurtarma-{phase}")
+                x_clear_error(page)
+                page.wait_for_timeout(2000)
             page.wait_for_timeout(recover_backoff_ms())
 
             # Ekrandaki tweet sayisi ust uste kurtarma denemelerinde hic degismiyorsa

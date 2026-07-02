@@ -2,7 +2,7 @@
 
 Sadece abone donemi tweetleri (`kayit_tipi: abone`). Makro (Trump/Fed/ABD) + teknik yorumlari burada da birlestir — 02 kurallari gecerli.
 
-Toplam: **3268**
+Toplam: **3272**
 
 ## 30 Haz 14:50 | `2071924299267514421` | GENEL | yorum | abone
 
@@ -45,6 +45,17 @@ Tek bildikleri #bitcoin
 
 - media: medya/2071920365769494775/graf_01.jpg
 - gemini_grafik: 09_GRAFIKLER_GEMINI/2071920365769494775_graf_01.jpg
+
+## 30 Haz 14:26 | `2071918235386020130` | GENEL | vizyon | abone
+
+Ben gerçekleri masaya koymak zorundayım.
+Olayın farkında olmadan ne yaparsak yapalım
+üzülürüz.
+
+Aynı bakış açısında olmak zorundayız.
+
+- media: —
+- gemini_grafik: —
 
 ## 30 Haz 14:17 | `2071915955664384103` | GENEL | yorum | abone
 
@@ -798,6 +809,17 @@ O halde ?
 - media: —
 - gemini_grafik: —
 
+## 26 Haz 16:17 | `2070496796975964412` | GENEL | yorum | abone
+
+Son değerde zaten 4060 kafa atıyor.
+Önemini de herkes biliyor.
+
+Majör hatları takip edip ben zamanın geçmesini
+bekleyen taraftayım.
+
+- media: —
+- gemini_grafik: —
+
 ## 26 Haz 16:14 | `2070495828054024583` | GENEL | tarih, tez | abone
 
 Örnek; #XAUUSD 
@@ -1058,6 +1080,42 @@ ama en önemlisi Ağustos 3. haftadır.
 
 - media: —
 - gemini_grafik: —
+
+## 23 Haz 01:41 | `2069189143750492441` | GENEL | yorum | abone
+
+Biz kendimizi de parçalasak,
+
+"Böyle olacak, şöyle olacak" desek de,
+
+adamlar odaklandıkları dönemi açık açık yazıyor.
+
+Takvim veriyorlar.
+
+Hedef veriyorlar.
+
+Öncelik veriyorlar.
+
+İnsanlar ise hâlâ bugünü tartışıyor.
+
+Benim dikkat çekmeye çalıştığım nokta da bu.
+
+Bazen piyasada önemli olan ne olduğu değil,
+
+hangi zaman dilimine odaklanıldığıdır.
+
+Adamlar hedefledikleri dönemi açıkça söylerken,
+
+insanların hâlâ günübirlik dalgalanmalara takılması bana ilginç geliyor.
+
+- media: —
+- gemini_grafik: —
+
+## 23 Haz 01:39 | `2069188637556658413` | GENEL | yorum | abone
+
+Buyurun nereye odaklanmışlar ?
+
+- media: medya/2069188637556658413/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2069188637556658413_graf_01.jpg
 
 ## 23 Haz 01:35 | `2069187656441901455` | GENEL | yorum | abone
 

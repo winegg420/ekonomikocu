@@ -20,6 +20,7 @@ import argparse
 import json
 import subprocess
 import sys
+import time
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -65,6 +66,14 @@ def main() -> int:
                     help="Alinti tamamlama tur sayisi")
     ap.add_argument("--alinti-per", type=int, default=40,
                     help="Alinti tamamlama tur basina adet")
+    ap.add_argument("--since", default=None,
+                    help="Donem taramasi: YYYY-MM-DD baslangic (arama akisi, profil kaydirmasi yok)")
+    ap.add_argument("--until", default=None,
+                    help="Donem taramasi: YYYY-MM-DD bitis (X aramasi bu gunu HARIC tutar)")
+    ap.add_argument("--bolum-gun", type=int, default=4,
+                    help="Donem penceresi buyuklugu (gun) — rate limit yememek icin bol")
+    ap.add_argument("--soguma-sn", type=int, default=300,
+                    help="Pencereler arasi bekleme (sn) — X limitine nefes aldirir")
     args, _ = ap.parse_known_args()
 
     n0, q0, f0, newest = stats()
@@ -83,17 +92,50 @@ def main() -> int:
         stop_str = f"{stop.day} {TR_AY[stop.month]}"
 
     print(f"En yeni kayit: {newest}", flush=True)
-    print(f"Stop-before (buraya gelince dur): {stop_str}", flush=True)
+    if args.since and args.until:
+        print(f"DONEM MODU: {args.since} -> {args.until} "
+              f"({args.bolum_gun} gunluk pencereler, ara soguma {args.soguma_sn} sn)", flush=True)
+    else:
+        print(f"Stop-before (buraya gelince dur): {stop_str}", flush=True)
     print(f"Baslangic: {n0} tweet | {q0} alinti | {f0} flood-parca\n", flush=True)
 
-    cmd = [
-        PY, str(KOD / "tweet_tara.py"),
-        "--attach-port", "9222", "--require-cdp",
-        "--profile-only", "--stop-before", stop_str,
-        "--max-scroll", "120", "--pause", "5000",
-        "--finish-threads", "--skip-hafiza",
-    ]
-    subprocess.run(cmd, cwd=ROOT)
+    if args.since and args.until:
+        # DONEM MODU: from:ekonomikocu since:.. until:.. arama akisi.
+        # Profilin ustundeki zaten-kayitli haftalari kaydirma israfi yok;
+        # aralik kucuk pencerelere bolunur, aralarda soguma ile limit yenilmez.
+        s_dt = datetime.fromisoformat(args.since)
+        u_dt = datetime.fromisoformat(args.until)
+        pencereler: list[tuple[str, str]] = []
+        # En yeniden geriye dogru pencere olustur
+        p_end = u_dt
+        while p_end > s_dt:
+            p_start = max(s_dt, p_end - timedelta(days=args.bolum_gun))
+            pencereler.append((p_start.strftime("%Y-%m-%d"), p_end.strftime("%Y-%m-%d")))
+            p_end = p_start
+        for k, (ps, pu) in enumerate(pencereler, 1):
+            print(f"\n--- Pencere {k}/{len(pencereler)}: {ps} -> {pu} ---", flush=True)
+            cmd = [
+                PY, str(KOD / "tweet_tara.py"),
+                "--attach-port", "9222", "--require-cdp",
+                "--since-date", ps, "--until-date", pu,
+                "--max-scroll", "100", "--pause", "5000",
+                "--finish-threads", "--skip-hafiza", "--no-finish-quotes",
+            ]
+            subprocess.run(cmd, cwd=ROOT)
+            np, _, _, _ = stats()
+            print(f"--- Pencere {k} bitti | toplam {np} tweet ---", flush=True)
+            if k < len(pencereler):
+                print(f"Soguma: {args.soguma_sn} sn (X limitine nefes)...", flush=True)
+                time.sleep(args.soguma_sn)
+    else:
+        cmd = [
+            PY, str(KOD / "tweet_tara.py"),
+            "--attach-port", "9222", "--require-cdp",
+            "--profile-only", "--stop-before", stop_str,
+            "--max-scroll", "120", "--pause", "5000",
+            "--finish-threads", "--skip-hafiza",
+        ]
+        subprocess.run(cmd, cwd=ROOT)
 
     # Yeni alintilarin gecmis metni (bounded)
     subprocess.run(

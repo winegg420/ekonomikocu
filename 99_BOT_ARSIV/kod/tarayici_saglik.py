@@ -37,6 +37,15 @@ _RATE_LIMIT_IZLERI = (
     "limit aşıldı",
     "daha sonra tekrar dene",
     "try again later",
+    # X'in hata/crash sayfasi da fiilen rate-limit gostergesi
+    "bir sorun oluştu",
+    "bir sorun olustu",
+    "bir şeyler ters gitti",
+    "bir seyler ters gitti",
+    "something went wrong",
+    "yeniden yüklemeyi dene",
+    "yeniden yuklemeyi dene",
+    "try reloading",
 )
 
 # Taze Playwright surucusu (eskisi olduyse) — GC olmasin diye modul seviyesinde tut
