@@ -33,3 +33,6 @@ Desktop.ini
 
 # Cursor agent gecici
 assets/
+
+# Ortam degiskenleri (gizli — asla commit etme)
+.env
