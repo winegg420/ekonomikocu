@@ -1,3 +1,50 @@
+# ekonomikocu
+
+@ekonomikocu X (Twitter) hesabinin tweet arsivi, mentor analiz paketi ve
+tarama botlari. Playwright ile acik Chrome oturumundan tweet/grafik/abone
+verisi ceker; ham veriyi Claude/Gemini icin yukleme paketlerine (00–10)
+donusturur ve GitHub'a gonderir. MagicMA seviyelerinden islem adayi raporu
+uretir. Ayrintili genel bakis icin `README.md` ve `SEMA.md`.
+
+- Kod: `99_BOT_ARSIV/kod/` — tek tarama girisi `tara_guvenli.py`
+- Ham veri: `cekilen_tweetler.jsonl`, `ekonomikocu_hafiza_v1.md`, `medya/`
+- Yukleme seti: `00`–`10` kok dosyalari
+
+## KURULUM
+
+Gereken: Python 3.10+ ve Google Chrome. (Bu makinede `python` PATH'te yoksa
+`py -3` kullan.)
+
+```bash
+# 1) Sanal ortam (opsiyonel ama onerilir)
+python -m venv .venv && .venv\Scripts\activate
+
+# 2) Bagimliliklar
+pip install -r 99_BOT_ARSIV/requirements.txt
+
+# 3) Playwright tarayici surucusu
+python -m playwright install chromium
+
+# 4) Ortam degiskenleri
+copy .env.example .env   # sonra .env icini doldur (OPENAI_API_KEY opsiyonel)
+```
+
+Sik kullanilan komutlar:
+
+```bash
+# Guncel/artimli tarama (once @420cryptofarmer ile Chrome'da giris yapili olmali)
+python 99_BOT_ARSIV/kod/tara_guvenli.py
+
+# Abone tweet metinlerini doldur
+python 99_BOT_ARSIV/kod/tara_guvenli.py --abone
+
+# Claude/Gemini yukleme paketi uret (00–10)
+python 99_BOT_ARSIV/kod/claude_paket_olustur.py
+
+# GitHub'a gonder
+python 99_BOT_ARSIV/kod/github_guncelle.py
+```
+
 ## TARAMA KURALI
 - Tarama için ASLA tara_*.py / guncelle_*.py dosyalarını doğrudan çağırma.
 - Her zaman tek giriş: python 99_BOT_ARSIV/kod/tara_guvenli.py

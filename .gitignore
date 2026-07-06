@@ -17,6 +17,10 @@ venv/
 **/.x_session/
 ekonomikocu_x_session/
 
+# Ortam degiskenleri (GIZLI — asla commit etme; .env.example ornek olarak commit edilir)
+.env
+!.env.example
+
 # Portfoy (GIZLI — asla commit etme; portfoy_ornek.json sahte veri olarak commit edilebilir)
 portfoy_ozel.json
 
@@ -33,6 +37,3 @@ Desktop.ini
 
 # Cursor agent gecici
 assets/
-
-# Ortam degiskenleri (gizli — asla commit etme)
-.env
