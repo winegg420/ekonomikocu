@@ -2,7 +2,7 @@
 
 Sadece abone donemi tweetleri (`kayit_tipi: abone`). Makro (Trump/Fed/ABD) + teknik yorumlari burada da birlestir — 02 kurallari gecerli.
 
-Toplam: **3275**
+Toplam: **3277**
 
 ## 30 Haz 14:50 | `2071924299267514421` | GENEL | yorum | abone
 
@@ -145,6 +145,16 @@ ABD seçimi var deyip #bitcoin kanadına ETF verdiler
 
 - media: medya/2071909194110800133/graf_01.jpg
 - gemini_grafik: 09_GRAFIKLER_GEMINI/2071909194110800133_graf_01.jpg
+
+## 30 Haz 13:41 | `2071907059918885289` | GENEL | tez | abone
+
+Elin mahkum ZAMAN geçirmek zorundasın.
+Anlaşma yakalamak zorundasın..
+
+Barış yakalamak zorundasın.
+
+- media: —
+- gemini_grafik: —
 
 ## 30 Haz 13:39 | `2071906456945713478` | BTC, GUMUS_PETROL | vizyon, tez | abone
 
@@ -365,6 +375,16 @@ bekliyorum diyorlar.
 
 - media: —
 - gemini_grafik: —
+
+## 26 Haz 20:52 | `2070565945794232477` | GENEL | seviye | abone
+
+Resmen işlerini gördüler ve beklemeye geçtiler.
+
+#DOW 43760
+#xauusd 4376
+
+- media: medya/2070565945794232477/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2070565945794232477_graf_01.jpg
 
 ## 26 Haz 20:49 | `2070565182263144454` | GENEL | seviye | abone
 

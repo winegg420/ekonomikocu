@@ -164,6 +164,12 @@ def main() -> int:
             subprocess.run([PY, str(KOD / _script)], cwd=str(ROOT), check=False)
         except Exception as e:
             print(f"[paket] {_script} hatasi: {e}", flush=True)
+    # 7) GitHub push: hazir full paket her taramada otomatik gonderilir
+    try:
+        _msg = f"Tarama: guncel + siniflandirma + paket ({newest2}) [otomatik]"
+        subprocess.run([PY, str(KOD / "github_guncelle.py"), _msg], cwd=str(ROOT), check=False)
+    except Exception as e:
+        print(f"[push] github_guncelle.py hatasi: {e}", flush=True)
     return 0
 
 
