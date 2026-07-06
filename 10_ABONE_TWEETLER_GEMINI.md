@@ -2,7 +2,7 @@
 
 Sadece abone donemi tweetleri (`kayit_tipi: abone`). Makro (Trump/Fed/ABD) + teknik yorumlari burada da birlestir — 02 kurallari gecerli.
 
-Toplam: **3273**
+Toplam: **3275**
 
 ## 30 Haz 14:50 | `2071924299267514421` | GENEL | yorum | abone
 
@@ -910,6 +910,21 @@ Bu anlama da gelebilir.
 
 Yani sen bizim ülke kurumuzu eziyorsun.
 Bu bize #enflasyon olarak döner.
+
+- media: —
+- gemini_grafik: —
+
+## 25 Haz 01:45 | `2069914950210896066` | GENEL | tez | abone
+
+Ben diyorum Avrupa kalleş bir oluşum.
+
+- media: medya/2069914950210896066/graf_01.jpg, medya/2069914950210896066/graf_02.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2069914950210896066_graf_01.jpg
+
+## 25 Haz 01:43 | `2069914310860529796` | GENEL | yorum | abone
+
+#EUR düştükçe halk #kriptoya giriyor deyip
+engel olmuşlar.
 
 - media: —
 - gemini_grafik: —
