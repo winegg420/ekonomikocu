@@ -153,7 +153,12 @@ def main() -> int:
     print(f"  Yeni flood : +{f1 - f0}  (toplam {f1})", flush=True)
     print(f"  En yeni kayit: {newest2}", flush=True)
     print("=" * 50, flush=True)
-    # 5) Paketleme: ham veriden 04/07 + kapsam yeniden uretilir
+    # 5) Siniflandirma: ham taranan tweetler paketlemeden ONCE analyzed:true yapilir
+    try:
+        subprocess.run([PY, str(KOD / "analiz_devam.py")], cwd=str(ROOT), check=False)
+    except Exception as e:
+        print(f"[analiz] analiz_devam.py hatasi: {e}", flush=True)
+    # 6) Paketleme: ham veriden 04/07 + kapsam yeniden uretilir
     for _script in ("claude_paket_olustur.py", "kapsam_durum.py"):
         try:
             subprocess.run([PY, str(KOD / _script)], cwd=str(ROOT), check=False)
