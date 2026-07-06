@@ -50,7 +50,10 @@ def main() -> int:
         return 1
     code = run(["git", "push", "-u", "origin", "main"], ROOT)
     if code != 0:
-        run(["git", "push", "origin", "main"], ROOT)
+        code = run(["git", "push", "origin", "main"], ROOT)
+    if code != 0:
+        print("HATA: Push basarisiz oldu, GitHub guncellenmedi")
+        return 1
     print("GitHub guncellendi:", REMOTE)
     return 0
 
