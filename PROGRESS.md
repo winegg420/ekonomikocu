@@ -19,3 +19,42 @@ Proje hafizasi. Her oturumda ekleme yapilir, uzerine yazilmaz.
 **Not / karar:**
 - "Bir sorun olustu" sayfasi = agir rate-limit; tekrar taramadan once ~15 dk tam soguma gerekir.
 - Tarama tek giris kurali: sadece `tara_guvenli.py`. python PATH'te yok -> `py -3`.
+
+## 2026-07-08 — MagicMA taramasi + dayaniklilik altyapisi
+
+**Sorun:** `magicma_yakinlik.py --tara` calisirken ~45. sembolde CDP baglantisi
+kopunca (socket.send / Connection closed) Playwright ASILI KALIYOR, kendini
+oldurmuyor; kullanici PC'ye bakmazsa fark edilmiyordu.
+
+**Cozum (uretime hazir):**
+- `magicma_yakinlik.py`: calistirma blogu `if __name__ == "__main__":` altina
+  alindi (davranis birebir korunur) -> artik import edilebilir. Yedek: `.bak`.
+- Yeni `magicma_tara_dayanikli.py`: kopunca CDP'ye yeniden baglanip ayni
+  sembolden devam eder; her cagri zaman asimli (asili kalmaz); bugun taranmis
+  sembolleri atlar (resume, ham 'kaynak' alanindan). Bitince rapor .md uretir.
+- Scratchpad'de `magicma_supervisor.sh`: koşucu 6 dk ilerleme yazmazsa oldurup
+  resume ile yeniden baslatir; rapor uretilene kadar surdurur (maks 25 tur).
+
+**Karar:** Bundan sonra MagicMA taramasi supervisor + dayanikli kosucu ile
+yapilir; ham/rapor cikti formati ve kurallar magicma_yakinlik.py'den degismedi.
+
+**Tarama sonucu:** 422 sembol -> 403 basarili. 19 taranamayan analiz edildi:
+hicbiri YANLIS KOD DEGIL (hepsi gecerli TV sembolu). Basarisizlik sebebi:
+"Dogu Block" MagicMA seviye plotlari (Haftalik/Gunluk) ∅ (bos) donuyor ->
+yeterli haftalik/gunluk gecmis yok (yeni token / askidaki BIST / kisa gecmisli).
+
+**Alternatif borsa testi (ampirik, magicma_altkod.py):** 4 sembol icin ayni
+varligin uzun gecmisli borsasi MagicMA seviyesi uretiyor -> DUZELTILDI:
+- BINANCE:MEGAUSDT -> MEXC:MEGAUSDT
+- BINANCE:XAUTUSDT -> BYBIT:XAUTUSDT
+- BINANCE:LRCUSDT  -> BYBIT:LRCUSDT
+- NYSE:WMT         -> NASDAQ:WMT
+kripto.txt otomatik uretildigi icin `kripto_liste_guncelle.py`'ye REMAP tablosu
+eklendi (regenerate'te fix korunur). abd_hisse.txt elle guncellendi. 4'u de
+tarandi, ham+rapora girdi (bugun toplam 407 sembol, 272 rapora girdi).
+- REUSDT->RENDER onerisi REDDEDILDI (farkli varlik, RENDER zaten listede).
+
+**Gercekten veri olmayan 15 (kod dogru, hicbir borsada MagicMA seviyesi yok):**
+REUSDT, TONUSDT, UTKUSDT, OPGUSDT, MUBUSDT, CHIPUSDT (yeni/kisa gecmis token);
+KOZAA, KOZAL, IPEKE (askidaki BIST-TMSF); GENKM, ATATR, EKDMR, NETCD, BESTE,
+SVGYO (yeni/az islemli BIST). Veri olgunlasinca sonraki taramalarda okunacak.

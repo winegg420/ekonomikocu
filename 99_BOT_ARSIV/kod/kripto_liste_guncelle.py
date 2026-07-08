@@ -29,7 +29,20 @@ KALDIRAC = ("UP", "DOWN", "BULL", "BEAR")
 # Binance tokenlestirilmis hisseler / on-piyasa (kripto degil; exchangeInfo'da normal
 # SPOT gorundugu icin bayrakla ayrilamaz). Yeni cikanlar burada elle eklenebilir.
 HARIC_BASE = {"SPCXB", "SNDKB", "CRCLB", "FIGRB", "MSTRB", "COINB", "NVDAB", "OPENB"}
+# Hicbir borsada "Dogu Block" MagicMA seviyesi uretmeyen (kisa gecmisli) tabanlar;
+# hacim top-100'e girse de taramada bos dondukleri icin haric tutulur (2026-07-08).
+# Veri olgunlasinca bu setten cikarilabilir.
+MAGICMA_YOK = {"RE", "TON", "UTK", "OPG", "MUB", "CHIP"}
 MAKRO_BASLIK = ["CRYPTOCAP:TOTAL", "CRYPTOCAP:BTC.D"]
+
+# Binance'te kisa gecmis nedeniyle "Dogu Block" MagicMA seviye plotlari bos (∅) donen,
+# ayni varligin daha uzun gecmisli oldugu borsaya yonlendirilen semboller (2026-07-08
+# ampirik test). BINANCE:X hacim listesine girse de burada yeniden yazilir.
+REMAP = {
+    "BINANCE:MEGAUSDT": "MEXC:MEGAUSDT",
+    "BINANCE:XAUTUSDT": "BYBIT:XAUTUSDT",
+    "BINANCE:LRCUSDT":  "BYBIT:LRCUSDT",
+}
 
 
 def fetch_top_usdt(n: int = TOP_N) -> list[str]:
@@ -43,7 +56,7 @@ def fetch_top_usdt(n: int = TOP_N) -> list[str]:
         if not sym.endswith("USDT"):
             continue
         base = sym[: -len("USDT")]
-        if base in STABLE or base in HARIC_BASE or not base:
+        if base in STABLE or base in HARIC_BASE or base in MAGICMA_YOK or not base:
             continue
         # Sadece duz ASCII harf/rakam tabanlari (cince meme token'lar vs. elenir)
         if not (base.isascii() and base.isalnum() and any(c.isalpha() for c in base)):
@@ -73,7 +86,7 @@ def main() -> int:
     satirlar = ["# Kripto evreni — Binance 24s hacim TOP-100 (kripto_liste_guncelle.py uretir)",
                 "# CRYPTOCAP makro basliklari el ile sabit; gerisi otomatik."]
     satirlar += MAKRO_BASLIK
-    satirlar += [f"BINANCE:{b}USDT" for b in bazlar]
+    satirlar += [REMAP.get(f"BINANCE:{b}USDT", f"BINANCE:{b}USDT") for b in bazlar]
     KRIPTO_TXT.write_text("\n".join(satirlar) + "\n", encoding="utf-8")
     print(f"kripto.txt yazildi: {len(bazlar)} USDT paritesi + {len(MAKRO_BASLIK)} makro -> {KRIPTO_TXT}")
     return 0

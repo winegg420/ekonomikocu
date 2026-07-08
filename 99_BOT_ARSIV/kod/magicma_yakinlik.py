@@ -420,94 +420,95 @@ def rapor_md_uret(kayitlar, okunamadi):
     return "\n".join(L)
 
 
-with sync_playwright() as p:
-    try:
-        b = p.chromium.connect_over_cdp(f"http://127.0.0.1:{PORT}")
-    except Exception as e:
-        print(f"CDP baglanti hata (port {PORT}). Chrome acik mi? (CHROME_X.bat)\n{e}")
+if __name__ == "__main__":
+    with sync_playwright() as p:
+        try:
+            b = p.chromium.connect_over_cdp(f"http://127.0.0.1:{PORT}")
+        except Exception as e:
+            print(f"CDP baglanti hata (port {PORT}). Chrome acik mi? (CHROME_X.bat)\n{e}")
+            sys.exit(1)
+        pages = [pg for ctx in b.contexts for pg in ctx.pages]
+        tv = next((pg for pg in pages if "tradingview.com" in (pg.url or "")), None)
+        if not tv:
+            print("TradingView sekmesi acik degil.")
+            sys.exit(0)
+
+        if TARA_FLAG:
+            # ---- COKLU SEMBOL DONGUSU (sayfa-ici hizli gecis) ----
+            base = (tv.url or "").split("?")[0]
+            kayitlar, okunamadi = [], []
+            toplam = len(SEMBOLLER)
+
+            def url_ile_ac(sym):
+                tv.goto(f"{base}?symbol={quote(sym)}&interval={INTERVAL}",
+                        wait_until="domcontentloaded", timeout=45000)
+
+            # Ilk sembol: URL ile ac -> 4H (interval) kilitlenir, indikator yuklenir.
+            # Sonraki sembol gecisleri bu interval'i korur.
+            ilk_ok = False
+            for i, sym in enumerate(SEMBOLLER, 1):
+                ticker = sym.split(":")[-1].strip()
+                print(f"[{i}/{toplam}] {sym} ...", flush=True)
+                try:
+                    if not ilk_ok:
+                        url_ile_ac(sym)         # ilk basarili yukleme URL ile
+                    else:
+                        sembol_gecis(tv, sym)   # gerisi sayfa-ici (~4x hizli)
+                except Exception as e:
+                    # gecis patladiysa URL yedegi dene
+                    try:
+                        url_ile_ac(sym)
+                    except Exception:
+                        print(f"   okunamadi (acilmadi: {str(e)[:50]})"); okunamadi.append(sym); continue
+
+                data = bekle_hesap(tv, ticker, timeout=20)
+                if data is None:
+                    # son care: URL ile bir kez daha dene
+                    try:
+                        url_ile_ac(sym)
+                        data = bekle_hesap(tv, ticker, timeout=25)
+                    except Exception:
+                        data = None
+                if data is None:
+                    print("   okunamadi (timeout / deger 0)"); okunamadi.append(sym); continue
+
+                kayit = data_to_kayit(data, sym)
+                if kayit is None:
+                    print("   okunamadi (fiyat yok)"); okunamadi.append(sym); continue
+                ilk_ok = True
+                kaydet_ham(kayit)  # kural: her sembol ham jsonl'e append
+                kayitlar.append(kayit)
+                en = min((abs(r["mesafe_yuzde"]) for r in kayit["seviyeler"]), default=None)
+                dur = f"en yakin {tr_goster(en,1)}%" if en is not None else "seviye yok"
+                print(f"   OK {kayit['sembol']} {tr_goster(kayit['fiyat'])} ({dur})")
+
+            os.makedirs(RAPOR_DIR, exist_ok=True)
+            yol = os.path.join(RAPOR_DIR, f"magicma_rapor_{datetime.date.today().isoformat()}.md")
+            with open(yol, "w", encoding="utf-8") as f:
+                f.write(rapor_md_uret(kayitlar, okunamadi))
+            giren = sum(1 for k in kayitlar if k["rapora_girdi"])
+            print(f"\nBitti. {len(kayitlar)}/{toplam} okundu, {giren} rapora girdi, "
+                  f"{len(okunamadi)} okunamadi.\nRapor: {yol}")
+            sys.exit(0)
+
+        # ---- TEK SEMBOL (acik grafik) ----
+        data = oku_data(tv)
+
+    kayit = data_to_kayit(data, (data.get("sembol") or "?"))
+    if kayit is None:
+        print(f"Anlik fiyat okunamadi. title='{data.get('title')}'")
         sys.exit(1)
-    pages = [pg for ctx in b.contexts for pg in ctx.pages]
-    tv = next((pg for pg in pages if "tradingview.com" in (pg.url or "")), None)
-    if not tv:
-        print("TradingView sekmesi acik degil.")
+    kaydet_ham(kayit)  # kural 3: her zaman ham kayit
+
+    if JSON_FLAG:
+        print(json.dumps(kayit, ensure_ascii=False, indent=1))
         sys.exit(0)
 
-    if TARA_FLAG:
-        # ---- COKLU SEMBOL DONGUSU (sayfa-ici hizli gecis) ----
-        base = (tv.url or "").split("?")[0]
-        kayitlar, okunamadi = [], []
-        toplam = len(SEMBOLLER)
-
-        def url_ile_ac(sym):
-            tv.goto(f"{base}?symbol={quote(sym)}&interval={INTERVAL}",
-                    wait_until="domcontentloaded", timeout=45000)
-
-        # Ilk sembol: URL ile ac -> 4H (interval) kilitlenir, indikator yuklenir.
-        # Sonraki sembol gecisleri bu interval'i korur.
-        ilk_ok = False
-        for i, sym in enumerate(SEMBOLLER, 1):
-            ticker = sym.split(":")[-1].strip()
-            print(f"[{i}/{toplam}] {sym} ...", flush=True)
-            try:
-                if not ilk_ok:
-                    url_ile_ac(sym)         # ilk basarili yukleme URL ile
-                else:
-                    sembol_gecis(tv, sym)   # gerisi sayfa-ici (~4x hizli)
-            except Exception as e:
-                # gecis patladiysa URL yedegi dene
-                try:
-                    url_ile_ac(sym)
-                except Exception:
-                    print(f"   okunamadi (acilmadi: {str(e)[:50]})"); okunamadi.append(sym); continue
-
-            data = bekle_hesap(tv, ticker, timeout=20)
-            if data is None:
-                # son care: URL ile bir kez daha dene
-                try:
-                    url_ile_ac(sym)
-                    data = bekle_hesap(tv, ticker, timeout=25)
-                except Exception:
-                    data = None
-            if data is None:
-                print("   okunamadi (timeout / deger 0)"); okunamadi.append(sym); continue
-
-            kayit = data_to_kayit(data, sym)
-            if kayit is None:
-                print("   okunamadi (fiyat yok)"); okunamadi.append(sym); continue
-            ilk_ok = True
-            kaydet_ham(kayit)  # kural: her sembol ham jsonl'e append
-            kayitlar.append(kayit)
-            en = min((abs(r["mesafe_yuzde"]) for r in kayit["seviyeler"]), default=None)
-            dur = f"en yakin {tr_goster(en,1)}%" if en is not None else "seviye yok"
-            print(f"   OK {kayit['sembol']} {tr_goster(kayit['fiyat'])} ({dur})")
-
-        os.makedirs(RAPOR_DIR, exist_ok=True)
-        yol = os.path.join(RAPOR_DIR, f"magicma_rapor_{datetime.date.today().isoformat()}.md")
-        with open(yol, "w", encoding="utf-8") as f:
-            f.write(rapor_md_uret(kayitlar, okunamadi))
-        giren = sum(1 for k in kayitlar if k["rapora_girdi"])
-        print(f"\nBitti. {len(kayitlar)}/{toplam} okundu, {giren} rapora girdi, "
-              f"{len(okunamadi)} okunamadi.\nRapor: {yol}")
-        sys.exit(0)
-
-    # ---- TEK SEMBOL (acik grafik) ----
-    data = oku_data(tv)
-
-kayit = data_to_kayit(data, (data.get("sembol") or "?"))
-if kayit is None:
-    print(f"Anlik fiyat okunamadi. title='{data.get('title')}'")
-    sys.exit(1)
-kaydet_ham(kayit)  # kural 3: her zaman ham kayit
-
-if JSON_FLAG:
-    print(json.dumps(kayit, ensure_ascii=False, indent=1))
-    sys.exit(0)
-
-if not kayit["seviyeler"]:
-    print(f"{kayit['sembol']}: gecerli MagicMA seviyesi yok (hepsi 0 / bulunamadi).")
-elif not kayit["rapora_girdi"]:
-    en = min(abs(r["mesafe_yuzde"]) for r in kayit["seviyeler"])
-    print(f"{kayit['sembol']}: hicbir MagicMA seviyesine %15 kadar yakin degil "
-          f"(en yakin {tr_goster(en,1)}%). Rapora yazilmadi, ham kayit alindi.")
-else:
-    print(rapor_blok(kayit))
+    if not kayit["seviyeler"]:
+        print(f"{kayit['sembol']}: gecerli MagicMA seviyesi yok (hepsi 0 / bulunamadi).")
+    elif not kayit["rapora_girdi"]:
+        en = min(abs(r["mesafe_yuzde"]) for r in kayit["seviyeler"])
+        print(f"{kayit['sembol']}: hicbir MagicMA seviyesine %15 kadar yakin degil "
+              f"(en yakin {tr_goster(en,1)}%). Rapora yazilmadi, ham kayit alindi.")
+    else:
+        print(rapor_blok(kayit))
