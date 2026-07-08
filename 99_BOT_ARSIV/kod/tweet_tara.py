@@ -2953,6 +2953,7 @@ def run_scrape(
         tried_search = use_search_feed
         stagnation_oldest: datetime | None = None
         stagnation_hits = 0
+        rate_limit_streak = 0
         session_oldest: datetime | None = None
         period_mode = bool(feed_url)
         period_fail = 0
@@ -3138,6 +3139,24 @@ def run_scrape(
                 + (f" | en eski: {oldest_dt}" if oldest_dt else "")
                 + err_txt
             )
+            # KALICI RATE-LIMIT: ilerleme yokken "bir sorun olustu / yeniden yukle"
+            # sayfasi ust uste surerse sessizce donup durma; dur ve NET bildir.
+            if new_in_batch == 0 and rate_limit_var(page):
+                rate_limit_streak += 1
+                if rate_limit_streak >= 3:
+                    _log(
+                        f">>> RATE-LIMIT DURDU: X 'yeniden yukle / bir sorun olustu' sayfasi "
+                        f"{rate_limit_streak} scroll'dur suruyor, yeni tweet gelmiyor. "
+                        f"Tarama DURDURULDU — ~15 dk tam soguma gerek. "
+                        f"(arsivde {len(all_rows)} tweet, diske yazildi; kayip yok)"
+                    )
+                    persist_partial()
+                    save_pending_list(all_rows)
+                    break
+                _log(f"  >> Rate-limit izi ({rate_limit_streak}/3) — kurtarma denenecek...")
+            else:
+                rate_limit_streak = 0
+
             if (i + 1) % 3 == 0 and all_rows:
                 persist_partial()
                 save_pending_list(all_rows)

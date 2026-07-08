@@ -63,3 +63,22 @@ SVGYO (yeni/az islemli BIST). Veri olgunlasinca sonraki taramalarda okunacak.
 denenmesin): kripto.txt'ten 6 (kripto_liste_guncelle.py'ye MAGICMA_YOK={RE,TON,
 UTK,OPG,MUB,CHIP} hariç seti eklendi -> regenerate'te geri gelmez), bist.txt'ten
 9. Liste artik 407 sembol (kripto 96, bist 183). GitHub push: commit 7ee4c56.
+
+## 2026-07-08 — Tweet tarama (rate-limit) + botun rate-limit'i kendi farketmesi
+
+**Yapilan:**
+- `tara_guvenli.py` artimli tarama: hesap @420cryptofarmer dogrulandi, 6568 -> 6577
+  tweet (+9). Yeni: 2 tweet 7 Temmuz (en yeni 2026-07-07T20:09:32) + 7 gecmis bosluk.
+- Tarama 24-29 Haziran civarinda "yeniden yukle" (agir rate-limit) sayfasina takildi;
+  kullanici ekranda gordu, bot fark etmiyordu -> durduruldu (taskkill, veri kayipsiz).
+- Siniflandirma: analiz_devam.py (6577 tweet), paket 00-10 yeniden uretildi, push: ae01683.
+
+**Kok sorun + kalici cozum:**
+- Ana scroll dongusu (tweet_tara.py ~3140) rate-limit'i KONTROL ETMIYORDU; sadece
+  page_has_x_error ile sessizce kurtarma deneyip donup duruyordu. rate_limit_var()
+  zaten "bir sorun olustu / yeniden yukle"yi taniyordu ama dongude kullanilmiyordu.
+- Eklendi: `rate_limit_streak` — ilerleme yokken (new_in_batch==0) rate_limit_var True
+  ust uste 3 scroll sürerse ">>> RATE-LIMIT DURDU" yazip diske yazarak DURUYOR.
+  Artik bot rate-limit'i kendi farkediyor, sessizce churn etmiyor.
+
+**Karar:** Rate-limit'ten sonra ~15 dk soguma gerek.
