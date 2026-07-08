@@ -58,3 +58,8 @@ tarandi, ham+rapora girdi (bugun toplam 407 sembol, 272 rapora girdi).
 REUSDT, TONUSDT, UTKUSDT, OPGUSDT, MUBUSDT, CHIPUSDT (yeni/kisa gecmis token);
 KOZAA, KOZAL, IPEKE (askidaki BIST-TMSF); GENKM, ATATR, EKDMR, NETCD, BESTE,
 SVGYO (yeni/az islemli BIST). Veri olgunlasinca sonraki taramalarda okunacak.
+
+**15 veri-yok sembol listeden CIKARILDI** (kullanici istegi, sonraki taramada
+denenmesin): kripto.txt'ten 6 (kripto_liste_guncelle.py'ye MAGICMA_YOK={RE,TON,
+UTK,OPG,MUB,CHIP} hariç seti eklendi -> regenerate'te geri gelmez), bist.txt'ten
+9. Liste artik 407 sembol (kripto 96, bist 183). GitHub push: commit 7ee4c56.

@@ -2,7 +2,7 @@
 
 Sadece abone donemi tweetleri (`kayit_tipi: abone`). Makro (Trump/Fed/ABD) + teknik yorumlari burada da birlestir — 02 kurallari gecerli.
 
-Toplam: **3277**
+Toplam: **3282**
 
 ## 30 Haz 14:50 | `2071924299267514421` | GENEL | yorum | abone
 
@@ -145,6 +145,21 @@ ABD seçimi var deyip #bitcoin kanadına ETF verdiler
 
 - media: medya/2071909194110800133/graf_01.jpg
 - gemini_grafik: 09_GRAFIKLER_GEMINI/2071909194110800133_graf_01.jpg
+
+## 30 Haz 13:45 | `2071907955557965968` | BTC, GUMUS_PETROL | seviye | abone
+
+#bitcoin #XAUUSD 
+
+2023 2024 de #ALTIN genel #kriptoyu gerekirse
+ezmeliydi....
+
+Ama ABD seçimi var deyip #bitcoin ile 
+#ALTIN vb baskıladılar...
+
+Grafikler bozuldu.
+
+- media: medya/2071907955557965968/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2071907955557965968_graf_01.jpg
 
 ## 30 Haz 13:41 | `2071907059918885289` | GENEL | tez | abone
 
@@ -306,7 +321,11 @@ Diğer yandan bunu yalnızca para politikasıyla yaparsa, dünyanın farklı bö
 
 Küreselde para bittiği an, dünyanın dört bir yanında aynı ses yükseliyor;
 
-"FED para versin."
+"FED para versin." 
+https://
+x.com/hrglml/status/
+/hrglml/status/2071744148168684011
+…
 
 - media: —
 - gemini_grafik: —
@@ -588,6 +607,14 @@ tarafına zorluk çıkartıyor.
 - media: —
 - gemini_grafik: —
 
+## 26 Haz 17:51 | `2070520358021595548` | GENEL | yorum | abone
+
+Varlıkları izlerken dönen filmleri
+anlamadan olayları çözemezsiniz.
+
+- media: —
+- gemini_grafik: —
+
 ## 26 Haz 17:49 | `2070519904843760012` | GENEL | tarih | abone
 
 Seçimi atlattıktan sonra kapris yapmayacağının
@@ -756,6 +783,19 @@ Burasını #net AVRUPA bozdu.
 
 Ama büyü grafikler farklıdır.
 Sürekli uyarmak zorunda kalmayayım.
+
+- media: —
+- gemini_grafik: —
+
+## 26 Haz 16:54 | `2070506029066973405` | GUMUS_PETROL | tez | abone
+
+Seçim gündemi ve dünya sorunları arasında
+sıkışıp kaldılar.
+
+#petrolü yukarı verseler seçim geliyor
+#stresteler. 
+
+#zaman geçirip oyalanıyorlar.
 
 - media: —
 - gemini_grafik: —
@@ -933,6 +973,32 @@ Bu bize #enflasyon olarak döner.
 
 - media: —
 - gemini_grafik: —
+
+## 25 Haz 01:57 | `2069917945564668059` | GENEL | tez | abone
+
+Şimdi buradan #msj almalıyız.
+
+1- Zaman geçirilmesine yardımcı oluyorlar.
+
+2- Avrupa ABD ye #msj veriyor
+sen bizi sattın...
+
+Biz de sana buradan engel çıkartıyoruz.
+
+- media: —
+- gemini_grafik: —
+
+## 25 Haz 01:56 | `2069917646745694401` | BTC | vizyon, tez | abone
+
+#BTCEUR
+
+Haberi basmasalar #eur düştüğü için
+mumlar yukarı döner.
+
+Yani #BTC #EUR ezecek.
+
+- media: medya/2069917646745694401/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2069917646745694401_graf_01.jpg
 
 ## 25 Haz 01:45 | `2069914950210896066` | GENEL | tez | abone
 
