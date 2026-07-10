@@ -82,3 +82,24 @@ UTK,OPG,MUB,CHIP} hariç seti eklendi -> regenerate'te geri gelmez), bist.txt'te
   Artik bot rate-limit'i kendi farkediyor, sessizce churn etmiyor.
 
 **Karar:** Rate-limit'ten sonra ~15 dk soguma gerek.
+
+## 2026-07-10 — Artimli tarama (+21 tweet), rate-limit'te elle durduruldu
+
+**Yapilan:**
+- Chrome CDP (port 9222) kapaliydi -> `99_BOT_ARSIV/calistir/CHROME_X.bat` baslatildi,
+  hesap @420cryptofarmer dogrulandi (cikis kodu 4 alinmadi).
+- `tara_guvenli.py` artimli tarama: 6577 -> 6598 tweet (+21). Bot 19 scroll'da
+  2026-07-10T01:47:29'a (bugunun tweetleri dahil) kadar cekti, sonra 20 Haziran
+  civarinda rate-limit sayfasina girdi (ekranda 0 tweet, "rate-limit izi 1/3").
+- Kullanici istegiyle streak 3'e ulasmadan durduruldu. Son "DISKE YAZILDI: 6600"
+  sonrasi yeni kayit gelmedigi icin veri kaybi yok.
+- Siniflandirma: analiz_devam.py -> 6598 analiz, 851 izleniyor, 6559 public.
+- Paket 00-10 yeniden uretildi (637 grafik, 96.9 MB zip).
+
+**Gozlem:** Bot 3 kez "Takilma -> profil yenileniyor" (01 Tem, 22 Haz, 20 Haz) ve
+"Kurtarma (durak #4)" yapti; her seferinde birkac yeni tweet daha yakaladi. Yani
+self-heal calisiyor, ama X akisi eskiye inildikce rate-limit'e giriyor.
+
+**Not:** Tarama sirasinda 07-05, 07-06, 07-08 gunleri bos kaldi; 07-02/07-03 tek
+tweet. Bunlar gercekten bos olabilir ya da gap olabilir — soguma sonrasi
+kontrol edilmeli.

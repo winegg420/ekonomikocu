@@ -2,7 +2,33 @@
 
 Sadece abone donemi tweetleri (`kayit_tipi: abone`). Makro (Trump/Fed/ABD) + teknik yorumlari burada da birlestir — 02 kurallari gecerli.
 
-Toplam: **3282**
+Toplam: **3284**
+
+## 10 Tem 01:47 | `2075351161465360795` | GENEL | yorum | abone
+
+Geçen sene tekniği bozup 4 ay aşağıda tutmuşlar.
+
+- media: —
+- gemini_grafik: —
+
+## 10 Tem 01:46 | `2075350870389080547` | GENEL | yorum | abone
+
+Geçen sene bunu #H4 de uyguladılar.
+Aylarca tekniği bozup zorla mumları aşağıda
+tuttular.
+
+- media: medya/2075350870389080547/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2075350870389080547_graf_01.jpg
+
+## 10 Tem 00:36 | `2075333345567813961` | BTC | seviye | abone
+
+#BTCUSD 64.600 değerine değip duruldu.
+Önemini yazmıştım.
+
+Verdiğim rakamlar #kanun gibi davranıyor.
+
+- media: medya/2075333345567813961/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2075333345567813961_graf_01.jpg
 
 ## 30 Haz 14:50 | `2071924299267514421` | GENEL | yorum | abone
 
@@ -1303,7 +1329,11 @@ Benim verdiğim tarihlerle uyuşuyor.
 
 O yüzden her gecikmeyi başarısızlık,
 
-Her bekleyişi çıkmaz sokak olarak görmeyin.
+Her bekleyişi çıkmaz sokak olarak görmeyin. 
+https://
+x.com/HowitzerWH/sta
+/HowitzerWH/status/2069100752589484448
+…
 
 - media: medya/2069179225463238659/graf_01.jpg
 - gemini_grafik: 09_GRAFIKLER_GEMINI/2069179225463238659_graf_01.jpg
@@ -7166,22 +7196,6 @@ Bırakmadığın an herkesi yordurursun.
 
 - media: —
 - gemini_grafik: —
-
-## 18 Haz 12:41 | `2067543164529832272` | BTC, GUMUS_PETROL | vizyon, seviye, tez | abone
-
-#bitcoin..
-
-64600 e robot koydular ve yükseliş için 
-kesinlikle altında kalınmamalı.
-
-Özellikle gelecek hafta bu seviyenin önemi
-büyük...
-
-Burası net haber bekliyor.
-Gelmediği an nazlanacak..
-
-- media: medya/2067543164529832272/graf_01.jpg
-- gemini_grafik: 09_GRAFIKLER_GEMINI/2067543164529832272_graf_01.jpg
 
 ## 18 Haz 12:37 | `2067542209394528361` | GUMUS_PETROL | tez | abone
 
