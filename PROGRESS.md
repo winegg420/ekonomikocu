@@ -103,3 +103,25 @@ self-heal calisiyor, ama X akisi eskiye inildikce rate-limit'e giriyor.
 **Not:** Tarama sirasinda 07-05, 07-06, 07-08 gunleri bos kaldi; 07-02/07-03 tek
 tweet. Bunlar gercekten bos olabilir ya da gap olabilir — soguma sonrasi
 kontrol edilmeli.
+
+## 2026-07-11 — Guncel tarama + rate-limit kesintisi (bot durmama sorunu)
+
+- Chrome kapaliydi; CHROME_X.bat baslatilarak CDP 9222 acildi, tarama yeniden kosuldu.
+- `tara_guvenli.py` artimli tarama: jsonl 6598 -> 6603 satir (+5; log sayaci 6605 tekil goruyor).
+  En yeni tweet 2026-07-10T15:36:16 — profil ustunden tarandigi icin bugune ait
+  tweet olsaydi yakalanirdi; bugunden son taramaya kadar arsiv TAM.
+- Bot scroll 2'de tum yeni tweetleri almisti ama durmayip 120 scroll dongusune
+  devam etti, scroll 13'te rate-limit sayfasina ("Bir sorun olustu") girdi.
+  Kullanici fark etti, TaskStop ile durduruldu; veri kaybi yok.
+- Siniflandirma: analiz_devam.py -> 6603 analiz, 851 izleniyor, 6564 public.
+- Paket 00-10 yeniden uretildi (637 grafik, 96.9 MB zip), GitHub'a push edildi
+  (commit ed0d80b).
+
+**Kok neden (bot neden kendiliginden durmadi):** tweet_tara.py'daki stop-before
+kontrolu `session_oldest`i sadece BATCH'e giren (yani arsivde olmayan YENI)
+tweetlerden hesapliyor. Artimli taramada yeni tweetler hep guncel tarihli
+oldugundan session_oldest stop-before'un (7 Tem) altina hic inmiyor; eski
+tweetler zaten arsivde oldugu icin batch'e girmiyor. Sonuc: bot yakalayacak
+yeni tweet kalmayinca durmak yerine 120 scroll'u tuketiyor / rate-limit'e giriyor.
+**Onerilen duzeltme:** profil modunda "art arda N scroll 0 yeni tweet + ekrandaki
+gorunur en eski tarih <= stop-before" kosulunda temiz cikis eklemek.
