@@ -3,7 +3,69 @@
 Once Cloud dosyalari: 01-06 (+ opsiyonel 07). Sonra bu dosya, 09_GRAFIKLER_GEMINI klasoru, 10_ABONE_TWEETLER_GEMINI.md.
 ZORUNLU: 02_MENTOR_REHBERI.md — Makro sentez + kalici mentor kurallari (grafik, guncel fiyat, atif).
 
-Toplam: **6551**
+Toplam: **6556**
+
+## 10 Tem 15:36 | `2075559730269901264` | GUMUS_PETROL | vizyon | abone
+
+Sorunlar çözülemediğinde ne oluyor ?
+
+Enkaz, sürekli gelecek yıllara devrediliyor.
+
+Yani aslında #zaman kazanılmış oluyor.
+
+Bu nedenle yılı mümkün olduğunca dengeli yönetmeye çalışıyorlar.
+
+Eğer #dolar değer kaybedecekse bile, bunun mevcut yılın ikinci yarısına yayılmasını tercih ediyorlar.
+
+Böylece yıl, büyük bir kırılma yaşanmadan tamamlansın; "Bu yılı atlatalım, gelecek yıla sonra bakarız." anlayışıyla hareket ediyorlar.
+
+- media: —
+- gemini_grafik: —
+
+## 10 Tem 15:28 | `2075557656475906258` | GUMUS_PETROL | yorum | abone
+
+Anlatmak istediğim tam olarak şu;
+
+Bu adamlar TEK TİP TREND istiyor ve #doların zayıflamasını tercih ediyorlar.
+
+Ama asla sert şekilde DAYAK yemesini istemiyorlar.
+
+Çünkü amaç sadece zayıflama değil; kontrolü kaybetmemek.
+
+#USD değer kaybedecekse bile bunun bir anda değil, zamana yayılarak gerçekleşmesini istiyorlar.
+
+Yani piyasaların aynı anda çökmesini değil, yükün uzun bir döneme dağıtılmasını tercih ediyorlar.
+
+Kısacası; "ezileceksek bile kontrollü ezilelim" mantığıyla hareket ediyorlar.
+
+- media: —
+- gemini_grafik: —
+
+## 10 Tem 14:21 | `2075540792970469487` | GUMUS_PETROL | tez | abone
+
+Robot bulmaya çalışmadan önce insanlar #zaman analizini öğrenmelidir.
+
+Yıllardır aynı soruyu soruyorum; 
+
+Tek tip trend ne demek ?
+
+Sorular üzerinden ilerleyelim.
+
+1- Sen ABD ekonomisini yönetiyor olsan, #enflasyonu nasıl düşürürdün ?
+
+Benim cevabım basit;
+
+#DXY'yi yükseltirim.
+Piyasalarda sert bir düzeltme oluşturur, enflasyon duruluncaya kadar kimseye rahat nefes aldırmam.
+
+Çünkü güçlü #dolar; emtia, riskli varlıklar ve talep üzerinde baskı kurarak enflasyonu aşağı çekmenin klasik para politikası araçlarından biridir.
+
+Olayın çözümü aslında bu kadar basittir.
+
+Peki niçin yapılmıyor ?
+
+- media: —
+- gemini_grafik: —
 
 ## 10 Tem 01:47 | `2075351161465360795` | GENEL | yorum | abone
 
@@ -182,6 +244,42 @@ Petrol sakin
 
 Kısmen kripto nefes alıyor
 oyun dengede
+
+- media: —
+- gemini_grafik: —
+
+## 4 Tem 14:57 | `2073375614808064337` | GUMUS_PETROL | tez | public
+
+Petrol neden masaya geliyor ?
+
+Bunun sorgulanması lazım.
+
+Petrol gelmezse, Dxy gelmek zorunda kalır.
+
+Peki niçin gelmiyor ?
+
+O gelirse sağ sol düşüyor 
+süreç bitiyor.
+
+Piyasa Dxy çıktı düştük deyip ağlarsa, ABD yumuşak dile dönmek zorunda..
+
+Bu enflasyonu iyice azdırır.
+
+- media: —
+- gemini_grafik: —
+
+## 4 Tem 14:53 | `2073374749028131149` | GUMUS_PETROL | vizyon, tez | public
+
+Eğer Çin emtia şantajı yaparsa, ABD buna karşılık 
+ya petrolü, ya dolar endeksini kaldırmak zorunda kalıyor.
+
+Başka türlü bastıramıyor.
+
+Son üç aya bakın petrol çıktı 
+Altın gümüş düştü.
+
+Bir nevi petrol Dxy görevi 
+gördü..
 
 - media: —
 - gemini_grafik: —
@@ -80397,56 +80495,56 @@ Dünya asla #Ayı piyasası yaşamadı.
 - media: —
 - gemini_grafik: —
 
-## 7 May 00:00 | `MANUEL-20250605-01` | BTC, GENEL | seviye, tarih | public
+## 6 May 21:00 | `MANUEL-20250605-01` | BTC, GENEL | seviye, tarih | public
 
 #Ethusd yi anlatmaya bile gerek yok. 2460 üstü zaten pozitifti. Sabah 2776 ya kafa atmış ama geri çekilmiş.. BTC yi baskılıyorlar negatif etkileniyor. Buradaki seviyeler değişmeyecektir. Ama Haziran 8 e kadar 2570 2776 arası önemlidir.
 
 - media: —
 - gemini_grafik: —
 
-## 28 Nis 04:52 | `MANUEL-20250527-02` | GENEL, GUMUS_PETROL | tez | public
+## 28 Nis 01:52 | `MANUEL-20250527-02` | GENEL, GUMUS_PETROL | tez | public
 
 #Eth #gümüşü geçecek ama acele etmiyorlar. 'Zaman geçiriyorlar'
 
 - media: —
 - gemini_grafik: —
 
-## 26 Nis 08:03 | `MANUEL-20250525-04` | GENEL | yorum | public
+## 26 Nis 05:03 | `MANUEL-20250525-04` | GENEL | yorum | public
 
 Ara değerler var hesaplama şekilleri var ama detaya burada giremiyorum.
 
 - media: —
 - gemini_grafik: —
 
-## 26 Nis 08:02 | `MANUEL-20250525-03` | GENEL | yorum | public
+## 26 Nis 05:02 | `MANUEL-20250525-03` | GENEL | yorum | public
 
 Atar mı ? 😎😎😎😎😎😎
 
 - media: —
 - gemini_grafik: —
 
-## 26 Nis 08:01 | `MANUEL-20250525-02` | GENEL, GUMUS_PETROL | seviye, tez | public
+## 26 Nis 05:01 | `MANUEL-20250525-02` | GENEL, GUMUS_PETROL | seviye, tez | public
 
 Zaman geçirme böyle lanet bir şey işte.. Gerçek bir yükseliş olabilmesi için #Eth nin 7600 dolar civarına kafa atması gerekir.
 
 - media: —
 - gemini_grafik: —
 
-## 26 Nis 08:00 | `MANUEL-20250525-01` | BTC | vizyon, seviye, tez | public
+## 26 Nis 05:00 | `MANUEL-20250525-01` | BTC | vizyon, seviye, tez | public
 
 @ekonomikocu adlı kişiye yanıt olarak. Şu konjonktür de #BTC 130 K görsün anca iş yapar piyasalar. 120 125 bile kurtarmıyor. O bile bir sürecin devamı oluyor.
 
 - media: —
 - gemini_grafik: —
 
-## 22 Nis 19:45 | `MANUEL-20250522-03` | GENEL | yorum | public
+## 22 Nis 16:45 | `MANUEL-20250522-03` | GENEL | yorum | public
 
 Burayı trade ediyorlar çaktırmıyorlar.
 
 - media: —
 - gemini_grafik: —
 
-## 22 Nis 18:45 | `MANUEL-20250522-01` | GUMUS_PETROL | seviye, tez | public
+## 22 Nis 15:45 | `MANUEL-20250522-01` | GUMUS_PETROL | seviye, tez | public
 
 Aylıkta 3368 önemli. Günlükte 3306 altı kalış satış baskısına sokar. Haftalıkta 3276 altı kalışlar, satış baskısına anca sokar. belinin kırılması için de 3257 altında kalması gerekir.
 
@@ -81200,21 +81298,21 @@ Bu tarihteki hikmet nedir ?
 - media: —
 - gemini_grafik: —
 
-## 26 Tem 03:05 | `MANUEL-20240824-03` | BTC | yorum | public
+## 26 Tem 00:05 | `MANUEL-20240824-03` | BTC | yorum | public
 
 BTC bu işin fenomen, reklam ayağı gibi düşünün. Fenomenler şu malı alın dediklerinde nasıl insanlar varlıkları alıyorsa ABD nin fenomeni de BTC dir.
 
 - media: —
 - gemini_grafik: —
 
-## 26 Tem 03:02 | `MANUEL-20240824-02` | BTC | yorum | public
+## 26 Tem 00:02 | `MANUEL-20240824-02` | BTC | yorum | public
 
 Tamamı değil sadece BTC onlara hizmet ediyor.
 
 - media: —
 - gemini_grafik: —
 
-## 26 Tem 03:00 | `MANUEL-20240824-01` | BTC, GUMUS_PETROL | tez | public
+## 26 Tem 00:00 | `MANUEL-20240824-01` | BTC, GUMUS_PETROL | tez | public
 
 Özet; kriptolar ABD nin ihtiyaç dahilinde doları zayıflatmak için kurduğu bir sistemdir. BTC ABD ye çalışıyor.
 
@@ -81231,7 +81329,7 @@ Ama bu twite destek istiyorum.
 - media: —
 - gemini_grafik: —
 
-## 29 Haz 06:00 | `MANUEL-20240728-01` | GENEL, GUMUS_PETROL | vizyon, seviye | public
+## 29 Haz 03:00 | `MANUEL-20240728-01` | GENEL, GUMUS_PETROL | vizyon, seviye | public
 
 #GÜMÜŞ tarihi zirvesi 48 usd dir. #ETH tarihi zirvesi 4800 dür.
 

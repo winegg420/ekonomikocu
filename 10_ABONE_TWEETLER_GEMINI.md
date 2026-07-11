@@ -2,7 +2,69 @@
 
 Sadece abone donemi tweetleri (`kayit_tipi: abone`). Makro (Trump/Fed/ABD) + teknik yorumlari burada da birlestir — 02 kurallari gecerli.
 
-Toplam: **3284**
+Toplam: **3287**
+
+## 10 Tem 15:36 | `2075559730269901264` | GUMUS_PETROL | vizyon | abone
+
+Sorunlar çözülemediğinde ne oluyor ?
+
+Enkaz, sürekli gelecek yıllara devrediliyor.
+
+Yani aslında #zaman kazanılmış oluyor.
+
+Bu nedenle yılı mümkün olduğunca dengeli yönetmeye çalışıyorlar.
+
+Eğer #dolar değer kaybedecekse bile, bunun mevcut yılın ikinci yarısına yayılmasını tercih ediyorlar.
+
+Böylece yıl, büyük bir kırılma yaşanmadan tamamlansın; "Bu yılı atlatalım, gelecek yıla sonra bakarız." anlayışıyla hareket ediyorlar.
+
+- media: —
+- gemini_grafik: —
+
+## 10 Tem 15:28 | `2075557656475906258` | GUMUS_PETROL | yorum | abone
+
+Anlatmak istediğim tam olarak şu;
+
+Bu adamlar TEK TİP TREND istiyor ve #doların zayıflamasını tercih ediyorlar.
+
+Ama asla sert şekilde DAYAK yemesini istemiyorlar.
+
+Çünkü amaç sadece zayıflama değil; kontrolü kaybetmemek.
+
+#USD değer kaybedecekse bile bunun bir anda değil, zamana yayılarak gerçekleşmesini istiyorlar.
+
+Yani piyasaların aynı anda çökmesini değil, yükün uzun bir döneme dağıtılmasını tercih ediyorlar.
+
+Kısacası; "ezileceksek bile kontrollü ezilelim" mantığıyla hareket ediyorlar.
+
+- media: —
+- gemini_grafik: —
+
+## 10 Tem 14:21 | `2075540792970469487` | GUMUS_PETROL | tez | abone
+
+Robot bulmaya çalışmadan önce insanlar #zaman analizini öğrenmelidir.
+
+Yıllardır aynı soruyu soruyorum; 
+
+Tek tip trend ne demek ?
+
+Sorular üzerinden ilerleyelim.
+
+1- Sen ABD ekonomisini yönetiyor olsan, #enflasyonu nasıl düşürürdün ?
+
+Benim cevabım basit;
+
+#DXY'yi yükseltirim.
+Piyasalarda sert bir düzeltme oluşturur, enflasyon duruluncaya kadar kimseye rahat nefes aldırmam.
+
+Çünkü güçlü #dolar; emtia, riskli varlıklar ve talep üzerinde baskı kurarak enflasyonu aşağı çekmenin klasik para politikası araçlarından biridir.
+
+Olayın çözümü aslında bu kadar basittir.
+
+Peki niçin yapılmıyor ?
+
+- media: —
+- gemini_grafik: —
 
 ## 10 Tem 01:47 | `2075351161465360795` | GENEL | yorum | abone
 
