@@ -2955,6 +2955,7 @@ def run_scrape(
         stagnation_hits = 0
         rate_limit_streak = 0
         session_oldest: datetime | None = None
+        stop_hit_streak = 0
         period_mode = bool(feed_url)
         period_fail = 0
         period_zero_streak = 0
@@ -3170,8 +3171,21 @@ def run_scrape(
                 if batch_oldest and (session_oldest is None or batch_oldest < session_oldest):
                     session_oldest = batch_oldest
                 if session_oldest and session_oldest <= stop_before:
-                    print(f"Durduruldu (bu oturumda gorulen en eski {session_oldest.date()}): {stop_before}")
-                    break
+                    # Ekranda hedeften eski tweet var ama hala yeni tweet geliyorsa
+                    # (ustteki abone/karisik eski tarihler) erken durma; yeni akisi
+                    # kesilince temiz cik. Hedefin cok gerisine inildiyse hemen dur.
+                    if new_in_batch == 0:
+                        stop_hit_streak += 1
+                    else:
+                        stop_hit_streak = 0
+                    hard_past = batch_oldest and batch_oldest <= stop_before - timedelta(days=7)
+                    if stop_hit_streak >= 2 or hard_past:
+                        print(
+                            f"Durduruldu (bu oturumda gorulen en eski "
+                            f"{session_oldest.date()}, hedef {stop_before.date()}, "
+                            f"{stop_hit_streak} scroll'dur yeni tweet yok)"
+                        )
+                        break
 
             if feed_needs_recovery(page):
                 page = open_working_feed(
@@ -3588,7 +3602,14 @@ def main() -> int:
 
     stop_dt = None
     if args.stop_before:
-        stop_dt, _ = try_parse_date(args.stop_before + " 12:00 2026")
+        try:
+            stop_dt = datetime.fromisoformat(args.stop_before)
+        except ValueError:
+            stop_dt, _ = try_parse_date(f"{args.stop_before} {datetime.now().year}")
+        # "7 Tem 12:00 2026" gibi girdilerde 12'yi yil sanip MS 12 uretiyordu;
+        # sacma yil = parse hatasi, gecerli yila cek
+        if stop_dt and stop_dt.year < 2000:
+            stop_dt = stop_dt.replace(year=datetime.now().year)
 
     feed_url = None
     if args.since_date:

@@ -131,7 +131,8 @@ def main() -> int:
         cmd = [
             PY, str(KOD / "tweet_tara.py"),
             "--attach-port", "9222", "--require-cdp",
-            "--profile-only", "--stop-before", stop_str,
+            "--profile-only",
+            "--stop-before", (stop.strftime("%Y-%m-%d") if stop else stop_str),
             "--max-scroll", "120", "--pause", "5000",
             "--finish-threads", "--skip-hafiza",
         ]
