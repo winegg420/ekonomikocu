@@ -3,7 +3,7 @@
 Once Cloud dosyalari: 01-06 (+ opsiyonel 07). Sonra bu dosya, 09_GRAFIKLER_GEMINI klasoru, 10_ABONE_TWEETLER_GEMINI.md.
 ZORUNLU: 02_MENTOR_REHBERI.md — Makro sentez + kalici mentor kurallari (grafik, guncel fiyat, atif).
 
-Toplam: **6580**
+Toplam: **6589**
 
 ## 12 Tem 22:17 | `2076385596998627602` | BTC | yorum | abone
 
@@ -83,6 +83,57 @@ Ama kısa pozisyon alanlara diyor.
 - media: medya/2076314679727534370/graf_01.jpg
 - gemini_grafik: 09_GRAFIKLER_GEMINI/2076314679727534370_graf_01.jpg
 
+## 12 Tem 17:02 | `2076306286510035174` | GENEL | yorum | public
+
+Bunu idrak edecek yatırımcı sayısı çok az...
+
+Zaman mı geçirmek istiyorsun ? 
+
+Mevcut yılın son çeyreği yumuşa
+sağ sol çıksın... 
+
+Yeni yılın ilk 6 ayı sağı solu düşür !
+2028 e kadar kapris yap..
+
+- media: —
+- gemini_grafik: —
+
+## 12 Tem 17:00 | `2076305670823989256` | GENEL | vizyon, tez | public
+
+Yıl sonu yükseliş geleceğine, keşke tüm
+dünya çökse, süreç bitse !
+
+Daha iyi biliyor musunuz ?
+
+En azından süreç biter, FAİZ indirimleri gelir.
+
+Ama yıl sonu sağı solu kaldırır ve coştururlarsa,
+2027 6. aya kadar düşürürlerse, 2028 yılına
+kadar KAPRİS şansları doğuyor.
+
+- media: —
+- gemini_grafik: —
+
+## 12 Tem 16:06 | `2076292056125751392` | GENEL, GUMUS_PETROL | vizyon, seviye, tez | public
+
+3300 seviyesi değişmez.
+
+O rakam sabittir.
+
+#ETH 3300 USD üzerinde kalırsa, sadece para kazanırsınız. 
+
+Bu bir #kazançtır, ancak buna #boğa diyemeyiz.
+
+3300'ün altında kaldığı sürece ise, ya para kaybedersiniz 
+ya da ciddi anlamda #zaman kaybedersiniz.
+
+İstedikleri kadar ZAMAN geçirirler.
+
+Ömrünüzü tüketirler.
+
+- media: —
+- gemini_grafik: —
+
 ## 12 Tem 03:29 | `2076101531011571806` | GENEL | tez | public
 
 Babana söyle twet atsın, şöyle yazsın.
@@ -159,6 +210,13 @@ Nokta.
 
 - media: —
 - gemini_grafik: —
+
+## 12 Tem 02:03 | `2076080051838239065` | GENEL | yorum | public
+
+#ETH Kriterdir.
+
+- media: medya/2076080051838239065/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2076080051838239065_graf_01.jpg
 
 ## 12 Tem 01:04 | `2076065170099417470` | GENEL | yorum | public
 
@@ -247,6 +305,65 @@ Ne 124 ne de 127, nokta 126 K
 
 - media: medya/2076009998287851717/graf_01.jpg
 - gemini_grafik: 09_GRAFIKLER_GEMINI/2076009998287851717_graf_01.jpg
+
+## 11 Tem 21:19 | `2076008474761105917` | GENEL | yorum | public
+
+Songül abla ne demiş ?
+
+Gelmedin aylar oldu
+Böyle olur mu ?
+
+- media: —
+- gemini_grafik: —
+
+## 11 Tem 21:16 | `2076007842994110900` | BTC, GUMUS_PETROL | seviye | public
+
+60 K #BTC yarımcısını zenginle, fakir edecek 
+en büyük resmin pivotudur. 
+
+Bu bir trade bakış açısı değildir.
+
+60 K nın altında fakirleşirsin, ama; üstünde 
+zengin olursun.
+
+Böyle bir rakamdır. 
+
+Yıllar geçse de değişmeyecektir.
+İsterse 10 yıl geçsin, yine değişmeyecektir. 
+
+1
+
+- media: —
+- gemini_grafik: —
+
+## 11 Tem 20:50 | `2076001081750913524` | GENEL | yorum | public
+
+Sosyal medya kırıkların yeri.
+Yaz çiz gönder.
+
+Sorgu sual, kocaman bir SIFIR.
+
+- media: —
+- gemini_grafik: —
+
+## 11 Tem 20:47 | `2076000379561500899` | BTC | seviye, tarih | public
+
+Matematiksel izahını yap desen, yapamazlar.
+#BİTCOİN de koskoca 184 189 K da baba gibi 
+direnç var.
+
+Onu geçmek kolay mı ?
+
+- media: —
+- gemini_grafik: —
+
+## 11 Tem 20:44 | `2075999676914860039` | GENEL | yorum | public
+
+Adamlardaki twet atma rahatlığına hayranım.
+Boşa geçen zamanı hiç hesaba katmıyorlar.
+
+- media: medya/2075999676914860039/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2075999676914860039_graf_01.jpg
 
 ## 10 Tem 15:36 | `2075559730269901264` | GUMUS_PETROL | vizyon | abone
 
