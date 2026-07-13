@@ -2,7 +2,7 @@
 
 Sadece abone donemi tweetleri (`kayit_tipi: abone`). Makro (Trump/Fed/ABD) + teknik yorumlari burada da birlestir — 02 kurallari gecerli.
 
-Toplam: **3288**
+Toplam: **3294**
 
 ## 12 Tem 22:17 | `2076385596998627602` | BTC | yorum | abone
 
@@ -41100,3 +41100,97 @@ ettiler.
 
 - media: medya/2056499420837908827/graf_01.jpg
 - gemini_grafik: 09_GRAFIKLER_GEMINI/2056499420837908827_graf_01.jpg
+
+## 31 Mar 21:35 | `2039049001673085113` | GENEL | yorum | abone
+
+Bugün daha sohbetini yaptık.
+Grafiklerle gösterdim.
+
+- media: —
+- gemini_grafik: —
+
+## 31 Mar 21:24 | `2039046139622605064` | GUMUS_PETROL | seviye | abone
+
+6378 de nasıl #gap oluşturdular ?
+Altında kalsa, ne olurdu ?
+
+Pozitif haberleri neden basıyorlar ?
+Yarın bir gün piyasa aşağı dahi gelse,
+zaman kazanmış olmuyorlar mı ?
+
+- media: —
+- gemini_grafik: —
+
+## 31 Mar 21:22 | `2039045661342003675` | GENEL | seviye, tez | abone
+
+#SP500 
+
+Şu #GAP ler niçin geldi ? 
+
+Bu rakamlara yabancı mıyız ?
+
+6378
+
+- media: medya/2039045661342003675/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2039045661342003675_graf_01.jpg
+
+## 4 Oca 19:07 | `1875574864691544083` | BTC, GUMUS_PETROL | yorum | abone
+
+Kriptonun avantajı var.
+
+Kripto zaten kriz enstrümanıdır.
+Bakınız virüste nasıl çıktılar.
+
+Buna paralel kripto iyi senaryoya da hayır demez.
+
+Aslında tüm şartlar hazır.
+
+Lakin siyasi çıkarlar işi bozuyor. 
+Globalde birileri ALTIN alıyor ABD de inatla
+BTC yi peşine takıyor. 
+
+Süreç inatlaşa inatlaşa gidiyor. 
+Bu inatlaşmanın bitmesi lazım.
+
+- media: —
+- gemini_grafik: —
+
+## 4 Oca 19:05 | `1875574191614791911` | GUMUS_PETROL | yorum | abone
+
+Ben hep söylüyorum, bu dünyayı barış kurtarır.
+
+Al kendi borsandaki ve majör borsalardaki
+gazı biz silkelenmeye razıyız. 
+
+Akabinde savaşı yumuşatıcı söylemlerle gel
+piyasalara bir dengelenme çabası oluşsun.
+
+Bu tarz davranışlar petrolü vb ni dizginlesin
+emtianın talebini düşürsün. 
+
+Arkasından aç kriptoların önünü hane halkı
+biraz neşelensin.
+
+Ben artık böyle şeyler düşünmek istiyorum.
+Yeter artık kriz kriz !!!
+
+Kısaca ben artık olumluyu düşünmek istiyorum. 
+Kötü düşünmek istemiyorum.
+
+- media: —
+- gemini_grafik: —
+
+## 4 Oca 18:57 | `1875572305642070253` | GENEL | tez | abone
+
+Ya da ne olur ?
+
+Her yerleri zaman geçire geçire yukarı verirler
+piyasa da olanlar kazanç sağlarlar, ama; 
+RİSK için de bu gerçekleşir. 
+
+Kısaca sürekli bir tedirginlik olur. 
+Çünkü bu tarz bir ortam da, faizler de düşmüyor.
+Süreç sıkıntılıdır.
+
+- media: —
+- gemini_grafik: —

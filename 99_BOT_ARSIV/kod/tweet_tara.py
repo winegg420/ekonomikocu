@@ -3163,11 +3163,22 @@ def run_scrape(
                 save_pending_list(all_rows)
 
             if stop_before and batch:
+                # Sabitlenmis (pinned) tweet profilin en ustunde cikar ve
+                # yillar oncesine ait olabilir. Onu "en eski" saymak taramayi
+                # daha yeni tweetler alinmadan durduruyordu: bir batch icindeki
+                # tweetler kronolojik olarak birbirine yakindir, bu yuzden
+                # batch'in en yenisinden 90 gunden fazla eski olan aykiri
+                # kayitlari (pinned) durma hesabinin disinda birak.
+                batch_dts = [
+                    d
+                    for d in (dt_from_iso(raw.get("datetime")) for raw in batch)
+                    if d
+                ]
                 batch_oldest = None
-                for raw in batch:
-                    d = dt_from_iso(raw.get("datetime"))
-                    if d and (batch_oldest is None or d < batch_oldest):
-                        batch_oldest = d
+                if batch_dts:
+                    batch_newest = max(batch_dts)
+                    normal = [d for d in batch_dts if d > batch_newest - timedelta(days=90)]
+                    batch_oldest = min(normal) if normal else min(batch_dts)
                 if batch_oldest and (session_oldest is None or batch_oldest < session_oldest):
                     session_oldest = batch_oldest
                 if session_oldest and session_oldest <= stop_before:
@@ -3178,7 +3189,11 @@ def run_scrape(
                         stop_hit_streak += 1
                     else:
                         stop_hit_streak = 0
-                    hard_past = batch_oldest and batch_oldest <= stop_before - timedelta(days=7)
+                    hard_past = (
+                        new_in_batch == 0
+                        and batch_oldest
+                        and batch_oldest <= stop_before - timedelta(days=7)
+                    )
                     if stop_hit_streak >= 2 or hard_past:
                         print(
                             f"Durduruldu (bu oturumda gorulen en eski "
