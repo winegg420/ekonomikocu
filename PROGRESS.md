@@ -145,3 +145,34 @@ gorunur en eski tarih <= stop-before" kosulunda temiz cikis eklemek.
 - Test: ISO, "7 Tem", "11 Haz", "7 Tem 12:00", "1 Ara 2025" girdilerinin tumu
   dogru yila parse ediliyor; py_compile temiz. Diger eski cagiranlar
   (tara_tam, devam_gecmis, tamamla_* vb.) yeni parse ile uyumlu.
+
+## 2026-07-13 — Guncel tarama + pinned tweet stall duzeltmesi
+
+### Yapilan
+- 10 Tem 15:36'dan bugune guncel tarama. Arsiv 6603 -> 6636 tweet.
+- Yeni tweetler: 11 Tem (17 adet) + 12 Tem (16 adet).
+
+### Bulunan hata (kritik): pinned tweet taramayi erken durduruyordu
+- `tweet_tara.py` stop-before mantiginda `batch_oldest`, ekrandaki EN ESKI
+  tweeti baz aliyordu. Profilin en ustundeki sabitlenmis (pinned) 2019 tarihli
+  tweet ilk viewport'a dustugu icin `hard_past` (hedeften 7+ gun geride)
+  aninda tetikleniyor ve tarama 1. scroll'da, 5 yeni tweet alip 21 tweeti
+  ATLAYARAK duruyordu. Sessiz veri kaybi — log "BITTI" diyordu.
+- Duzeltme: bir batch icindeki tweetler kronolojik olarak birbirine yakin
+  oldugu icin, batch'in en yenisinden 90 GUNDEN fazla eski olan aykiri
+  kayitlar (pinned) durma hesabinin disinda birakildi. Ayrica `hard_past`
+  yalnizca `new_in_batch == 0` iken gecerli — yeni tweet akiyorsa durma.
+
+### Cikarim / dikkat
+- **Ayni anda iki tarama calistirma.** Duzeltmeyi test ederken onceki tarama
+  hala calisiyordu; iki surec ayni Chrome sekmesini ve ayni JSONL'i kullanip
+  birbirini bozdu ("ekranda 0 tweet", sayfa surekli reset, rate-limit gorunumu).
+  Tek surec kalinca scroll normale dondu ve +18 tweet geldi.
+- Scroll sirasinda birkac tweet yine atlanabiliyor (X sanallastirmasi).
+  Bu 9 tweet `gap_ekle.py` ile ID vererek status sayfasindan tek tek cekildi.
+- Tarama sonrasi bosluk dogrulamasi sart: profili ayrica gezip ID'leri arsivle
+  karsilastirmadan "bitti" deme. Log "+N yeni" dese bile atlama olabilir.
+
+### Sonuc
+- Bosluk dogrulamasi: 9 Tem sonrasi profildeki 32 tweetin tamami arsivde (EKSIK 0).
+- Paket 00-10 uretildi, GitHub'a push edildi (6d833c6).
