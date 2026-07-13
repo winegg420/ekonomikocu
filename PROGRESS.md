@@ -176,3 +176,19 @@ gorunur en eski tarih <= stop-before" kosulunda temiz cikis eklemek.
 ### Sonuc
 - Bosluk dogrulamasi: 9 Tem sonrasi profildeki 32 tweetin tamami arsivde (EKSIK 0).
 - Paket 00-10 uretildi, GitHub'a push edildi (6d833c6).
+
+## 2026-07-13 — MagicMA taramasi (407/407 tam)
+
+**Yapilan:**
+- CDP 9222 kapaliydi -> CHROME_X.bat ile debug Chrome acildi; TradingView grafik
+  sekmesi CDP /json/new ile acildi (kayitli duzen + "Dogu Block" indikatoru
+  yuklendi), tek sembol --json okumasiyla dogrulandi.
+- magicma_tara_dayanikli.py arka planda kosuldu: 407 sembol okundu, 0 okunamadi
+  (baglanti kopmasi olmadi). Rapor: magicma/magicma_rapor_2026-07-13.md
+  (290 sembol rapora girdi, |mesafe| <= %15).
+- Cizgiye yapisik (<= %0,25) 22 satir / 18 sembol; en yakinlar BIOEN (%0,00),
+  TURSG (%0,02), AUDNZD (%0,02), UUSDT (%0,02).
+
+**Not:** Ham jsonl'de listeden cikarilan 5 eski sembol (ETHBTC, IMXUSDT, ENSUSDT,
+CAKEUSDT, TONUSDT — Haziran kayitlari) duruyor; yapisik listeye girmediler. Aday
+listesi yalnizca bugunku (en yuksek ts) kayitlardan uretildi.
