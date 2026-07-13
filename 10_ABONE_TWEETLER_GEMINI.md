@@ -2,7 +2,18 @@
 
 Sadece abone donemi tweetleri (`kayit_tipi: abone`). Makro (Trump/Fed/ABD) + teknik yorumlari burada da birlestir — 02 kurallari gecerli.
 
-Toplam: **3287**
+Toplam: **3288**
+
+## 12 Tem 22:17 | `2076385596998627602` | BTC | yorum | abone
+
+Herkese selamlar.
+
+#BİTCOİN #H4 grafiği.
+
+Birazda ben size sorayım; bakınca ne görüyoruz ?
+
+- media: medya/2076385596998627602/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2076385596998627602_graf_01.jpg
 
 ## 10 Tem 15:36 | `2075559730269901264` | GUMUS_PETROL | vizyon | abone
 
