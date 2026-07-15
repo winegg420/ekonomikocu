@@ -2,7 +2,157 @@
 
 Sadece abone donemi tweetleri (`kayit_tipi: abone`). Makro (Trump/Fed/ABD) + teknik yorumlari burada da birlestir — 02 kurallari gecerli.
 
-Toplam: **3294**
+Toplam: **3303**
+
+## 15 Tem 00:24 | `2077142312686108688` | BTC | yorum | abone
+
+Eliyle seni zenginleştirmiyor.
+Gidiyor bir piyasa kurup yönetiyor.
+Kendisi de #bitcoin üzerinden kaymağını yiyor.
+
+- media: —
+- gemini_grafik: —
+
+## 15 Tem 00:19 | `2077140875969442095` | GUMUS_PETROL | vizyon, tez | abone
+
+#Kripto yatırımcısı bunları bilecek
+kör olmayacak.
+
+Biz aslında bir piyasa değiliz.
+
+ABD #DOLARI zayıflatmak istediği an,
+bizim üzerimizden bunu gerçekleştiriyor,
+ve böylece #faizler güçlü kalıyor
+düşemiyor. 
+
+ABD de tavize gebe kalmak zorunda kalmıyor.
+
+Biz olmasaydık ne olurdu ?
+Bu soru kanun gibi içinde yankılanacak.
+
+Cevap; kripto olmasaydı muhtemelen
+bu para #emtia tarafına giderdi veya
+ülke kurlarına giderdi.
+
+Bu da ABD nin işine gelmez.
+
+- media: —
+- gemini_grafik: —
+
+## 15 Tem 00:09 | `2077138479449030696` | GENEL | yorum | abone
+
+Kurmuşlar yan sanayi bir tezgah bunlar gerçekler.
+
+Para akışını yönetiyorlar.
+Halka direkt ulaşıyorlar.
+
+- media: —
+- gemini_grafik: —
+
+## 15 Tem 00:06 | `2077137809127702792` | GUMUS_PETROL | vizyon, seviye, tez | abone
+
+Ben 2021 de yazdım.
+#kripto bunlar için bulunmaz nimet.
+
+#doları koruyabiliyorlar.
+
+Doların ezilmesini engelliyorlar.
+Faizlerin düşmesini engelliyorlar.
+
+Doların ezilmesi deyince şu pencereden yazıyorum
+#kripto olmasın o para nereye gidecek ?
+
+Ülke kurlarına gidecek.
+#emtia kanadına gidecek.
+Neden gitsin derler ?
+
+2021 de kullandığım bir tabir var
+Adamlar için #Yan sanayi piyasa.
+
+- media: —
+- gemini_grafik: —
+
+## 14 Tem 23:29 | `2077128327471432069` | BTC, GUMUS_PETROL, GENEL | yorum | abone
+
+Onlar nerelere bakarlar ?
+
+#NASDAQ #SP500 #DOW #BTC #ALTIN
+Büyük göstergelere bakarlar.
+
+Riski iştahı bunlar üzerinden yönetirler.
+
+- media: —
+- gemini_grafik: —
+
+## 14 Tem 22:33 | `2077114164049248510` | GUMUS_PETROL | yorum | abone
+
+Risk zaten var, yok değil ki.
+Ama yaşatmıyorlar.
+
+Tam dünya riski yaşayacak, #usd yi
+#kripto da zayıflatıyorlar.
+
+Onun pili bitiyor, #ALTIN da zayıflatıyorlar.
+İlla bir şey buluyorlar, #barış diyorlar.
+Görüşme diyorlar. 
+
+Sürekli öteleniyor.
+
+- media: —
+- gemini_grafik: —
+
+## 14 Tem 22:28 | `2077112986485817552` | GUMUS_PETROL | tez | abone
+
+Umarım derdimi anlatabildim.
+
+Adamlar sağda solda #doları zayıflatıyor,
+o zaman millet #getiri var diye neşeleniyor.
+Piyasalar RİSK olsa da görmezden geliyor.
+
+Dünya riski yaşayamıyor.
+Risk bir gün gelir deyip biz pozisyon alıyoruz
+ama #zaman geçirdiği an golü yiyorsun.
+
+- media: —
+- gemini_grafik: —
+
+## 14 Tem 22:12 | `2077109061376462924` | GUMUS_PETROL | yorum | abone
+
+"Riskten kaçış" diye bir şey yok.
+
+Riski sevmeyen, mevduatını alır ve keyfine bakar.
+
+Büyük para zaten bunu yapıyor.
+
+Riskten kaçıyorum desen, parada kalsan
+süreç #enflasyon olarak ilerliyor.
+
+Parada eriyor.
+
+Malda kalıyorsun, malda eriyor.
+
+- media: —
+- gemini_grafik: —
+
+## 14 Tem 13:32 | `2076978160088879206` | GENEL | seviye, tez | abone
+
+#NASDAQ 
+
+Çok ilgilenmiyorum ama maksat muhabbet olsun deyip
+karaladım.
+
+Şu 27600 değerini asla unutmayın.
+Yönetim şekillerini görün.
+
+27600 barış deyip ÇİN deyip aşırdılar
+30600 yaptılar.
+
+Sonrası nedir ?
+
+3 aydır yana yana ver gitsin.
+
+- media: medya/2076978160088879206/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2076978160088879206_graf_01.jpg
 
 ## 12 Tem 22:17 | `2076385596998627602` | BTC | yorum | abone
 
