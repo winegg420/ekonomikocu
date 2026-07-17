@@ -231,3 +231,16 @@ listesi yalnizca bugunku (en yuksek ts) kayitlardan uretildi.
 **Dogrulama:** 4 dosya py_compile OK. parse_tweet birim testi: alinti icin 2 kayit (main + quoted, tam metin, quoted_by dolu) uretiyor. row_quote_needs_visit: jsonFull tam satir -> False (ziyaret yok), bos stub -> True.
 
 **Test edilmesi gereken:** Sonraki `tara_guvenli.py` tam akisinda alinti asamasi cok daha az sayfa aciyor mu (log'da "JSON'dan on-cikan alinti: N" ve "navigasyon k/20"); veri kaybi olmadan alinti metinleri doluyor mu.
+
+## 2026-07-17 — Rate-limit duzeltmesi sonrasi ilk tam tarama (dogrulama)
+
+**Yapilan:** `tara_guvenli.py` tam akis (Chrome debug 9222 acildi, hesap @420cryptofarmer dogrulandi).
+- Arsiv 6678 -> 6697 tweet (+19), en yeni kayit 2026-07-17T20:22:19. Siniflandirma tamam (analiz bekleyen 0). Paket 00-10 uretildi, 12 yeni grafik indi.
+- Otomatik commit + push: `9da6954` (32 dosya).
+
+**Duzeltme dogrulamasi (KANIT):**
+- Yeni tarama alintilari kaydirma sirasinda JSON'dan on-cikti (alinti 121->122) — **hic Asama 2 sayfa navigasyonu YAPILMADAN**. JSON on-cikarim calisiyor.
+- Tarama boyunca rate-limit / "Bir sorun olustu" duvarina carpilmadi.
+- Asama 2'de yalnizca onceden bilinen 10 inatci alinti kaldi (birbirini alintiliyor / ana tweeti eksik / X UI kisaltmasi). Her turda 10 ziyaret (nav_cap 20 altinda), ilerleme yok — beklenen davranis, regresyon degil.
+
+**Gozlem (ileride iyilestirilebilir):** tara_guvenli bu 10 kalici-kesik alintiyi 6 ayri ALINTI_TAMAMLA turunda tekrar deniyor (6x10=60 navigasyon). nav_cap tek finish_quotes_loop cagrisini sinirliyor ama 6 dis turu sinirlamiyor. Bu 10 alinti asla tamamlanamayacagi icin (allow_foreign kapali + X UI kisaltmasi), dis tur sayisi veya kalici-erisilemedi isaretlemesi ile bu 60 navigasyon tamamen elenebilir.
