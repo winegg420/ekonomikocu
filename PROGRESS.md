@@ -203,3 +203,15 @@ listesi yalnizca bugunku (en yuksek ts) kayitlardan uretildi.
 - github_guncelle.py: commit cd0e41a pushlandi.
 
 **Not:** Ana tarama ~3 dk surdu; uzun gorunmesinin sebebi alinti tamamlama turlariydi (5-6 tur, sinirli dongu, mudahale gerekmedi).
+
+## 2026-07-17 — Guncel tarama + paket + push (tam akis, sorunsuz)
+
+**Yapilan:**
+- Debug Chrome kapaliydi (exit 4); CHROME_X.bat baslatildi, port 9222 dogrulandi, tarama tekrarlandi.
+- `tara_guvenli.py` tam akis: arsiv 6650 -> 6678 tweet (+28), +1 alinti (121), en yeni kayit 2026-07-16T20:12:30.
+- Siniflandirma otomatik tamamlandi (analyzed olmayan: 0). Paket (00-10) uretildi, medya indi (8 yeni grafik).
+- GitHub push: commit 5791c61 (35 dosya).
+
+**Not:**
+- 10 alinti metni hala kesik/eksik (bazilari birbirini alintiliyor, max tur doldu). Gerekirse ALINTI_TAMAMLA.bat ile tekrar denenebilir; veri kaybi yok, sadece alinti metinleri kisaltilmis.
+- GitHub uyarisi: 05_GRAFIKLER.zip 98.85 MB (>50 MB onerilen). Simdilik push kabul ediliyor; buyumeye devam ederse LFS dusunulmeli.
