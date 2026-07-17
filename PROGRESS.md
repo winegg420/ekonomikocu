@@ -192,3 +192,14 @@ gorunur en eski tarih <= stop-before" kosulunda temiz cikis eklemek.
 **Not:** Ham jsonl'de listeden cikarilan 5 eski sembol (ETHBTC, IMXUSDT, ENSUSDT,
 CAKEUSDT, TONUSDT — Haziran kayitlari) duruyor; yapisik listeye girmediler. Aday
 listesi yalnizca bugunku (en yuksek ts) kayitlardan uretildi.
+
+## 2026-07-15 - Guncel tarama + full paket + push
+
+**Yapilan:**
+- CHROME_X.bat kapaliydi (exit 4); Claude baslatip CDP dogruladi, tarama tekrar basladi.
+- tara_guvenli.py: +14 yeni tweet (toplam 6650). En yeni kayit: 2026-07-15T00:24:53. Analiz bekleyen: 0.
+- 10 inatci alinti "metin kesik" kaldi (birbirini alintilayan eski tweetler, 2'sinin ana tweeti yok); 6 tur denendi, eksik isaretlendi. Gerekirse ALINTI_TAMAMLA.bat.
+- claude_paket_olustur.py + kapsam_durum.py: paket 00-10 guncel, 2026 kapsami %100.
+- github_guncelle.py: commit cd0e41a pushlandi.
+
+**Not:** Ana tarama ~3 dk surdu; uzun gorunmesinin sebebi alinti tamamlama turlariydi (5-6 tur, sinirli dongu, mudahale gerekmedi).
