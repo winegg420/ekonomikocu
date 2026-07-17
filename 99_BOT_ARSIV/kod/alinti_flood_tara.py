@@ -10,10 +10,20 @@ from __future__ import annotations
 
 import argparse
 import json
+import random
 import re
 import sys
 from datetime import datetime
 from pathlib import Path
+
+
+def _insan_bekle(page, lo: float = 3.0, hi: float = 8.0) -> None:
+    """Sabit bekleme (bot pateni) yerine rastgele insan-benzeri bekleme —
+    ardisik status navigasyonlarinda rate-limit tetiklemesini azaltir."""
+    try:
+        page.wait_for_timeout(int(random.uniform(lo, hi) * 1000))
+    except Exception:
+        pass
 
 
 def _root() -> Path:
@@ -197,14 +207,14 @@ def crawl_quote_flood_deep(
             try:
                 goto_status(page, quote_id, fast=False)
                 nav_quiet(page, 10.0)
-                page.wait_for_timeout(2500)
+                _insan_bekle(page)
                 if page_stuck_loading(page):
                     wait_status_ready(page, quote_id, max_sec=45.0)
                 break
             except Exception as e:
                 if attempt >= 3 or "destroyed" not in str(e).lower():
                     raise
-                page.wait_for_timeout(2000)
+                _insan_bekle(page)
                 recover_quote_status(page, quote_id)
         if page_stuck_loading(page):
             recover_quote_status(page, quote_id)

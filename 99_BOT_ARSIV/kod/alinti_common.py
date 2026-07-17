@@ -98,6 +98,9 @@ def row_quote_needs_visit(row: dict) -> bool:
     text = (row.get("text") or "").strip()
     if text == ERISILEMEDI:
         return False
+    # ADIM 1/2: alinti icerigi JSON gecisinde tam alindiysa sayfa ziyareti gereksiz.
+    if (row.get("jsonFull") or row.get("json_full")) and text and not quote_text_incomplete(text):
+        return False
     if row.get("quoteStub") or row.get("quote_stub"):
         return True
     if quote_text_incomplete(text):

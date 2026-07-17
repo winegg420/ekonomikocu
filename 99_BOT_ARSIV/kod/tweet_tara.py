@@ -22,6 +22,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import random
 import re
 import shutil
 import subprocess
@@ -2127,6 +2128,15 @@ def backfill_missing_media(
     return done
 
 
+def _insan_bekle(page, lo: float = 3.0, hi: float = 8.0) -> None:
+    """Sabit araliklarin (bot pateni) yerine rastgele insan-benzeri bekleme.
+    X'in rate-limit/bot tespitini tetikleyen duzenli navigasyon patenini kirar."""
+    try:
+        page.wait_for_timeout(int(random.uniform(lo, hi) * 1000))
+    except Exception:
+        pass
+
+
 def crawl_thread(page, root_id: str, all_rows: dict[str, dict]) -> int:
     """#FLOOD / thread kok tweet -> status sayfasindan tum parcalar."""
     _log(f"  >> Thread: {root_id}")
@@ -2134,7 +2144,7 @@ def crawl_thread(page, root_id: str, all_rows: dict[str, dict]) -> int:
         if page_stuck_loading(page):
             recover_x_page(page)
         safe_goto(page, status_url(root_id), reason="thread")
-        page.wait_for_timeout(2500)
+        _insan_bekle(page)
         if page_stuck_loading(page):
             recover_x_page(page)
             return 0
@@ -2142,7 +2152,7 @@ def crawl_thread(page, root_id: str, all_rows: dict[str, dict]) -> int:
         page.evaluate(EXPAND_JS)
         for _ in range(4):
             page.evaluate(SCROLL_JS)
-            page.wait_for_timeout(800)
+            page.wait_for_timeout(int(random.uniform(0.8, 1.6) * 1000))
         merge_rows(all_rows, page.evaluate(EXTRACT_JS), page=page)
         n = merge_rows(all_rows, page.evaluate(THREAD_EXTRACT_JS, root_id), page=page)
         ensure_profile_timeline(page)
@@ -2242,11 +2252,11 @@ def crawl_quote(
         if quoted_by:
             _log(f"  >> Alinti {quote_id} — sadece ekonomikocu/status/{quoted_by}")
             safe_goto(page, status_url(quoted_by), reason="alinti-ana")
-            page.wait_for_timeout(3500)
+            _insan_bekle(page)
             if page_stuck_loading(page):
                 recover_x_page(page)
                 safe_goto(page, status_url(quoted_by), reason="alinti-retry")
-                page.wait_for_timeout(3500)
+                _insan_bekle(page)
             row = _extract_quote_on_page(page, quote_id, quoted_by)
             if row:
                 merge_rows(all_rows, [row], page=page)
@@ -2335,6 +2345,18 @@ def finish_threads_loop(
         if is_skipped(root_id, "flood"):
             threads_done.add(root_id)
             continue
+        # ADIM 2: flood parcalari JSON gecisinde (tara_api) zaten toplandiysa
+        # sayfa navigasyonu yapma. Kok + en az 2 self-reply parcasi elde varsa
+        # zincir yakalanmis say; gereksiz status ziyaretini ATLA.
+        root_row = all_rows.get(root_id) or {}
+        if (
+            count_thread_parts(all_rows, root_id) >= 3
+            and (root_row.get("text") or "").strip()
+            and not root_row.get("locked")
+        ):
+            _log(f"  >> #FLOOD zaten JSON'dan toplanmis — atlandi: {root_id}")
+            threads_done.add(root_id)
+            continue
         if not sayfa_canli(page):
             page = iyilestir(page, home_url=back, etiket="flood")
             if page is None:
@@ -2379,12 +2401,23 @@ def finish_quotes_loop(
     *,
     max_rounds: int = 12,
     per_round: int = 35,
+    nav_cap: int = 20,
     allow_foreign: bool = False,
     return_url: str | None = None,
 ) -> None:
-    """Alintilar — ayni sekme, sadece ekonomikocu/status (baska hesap yok)."""
+    """Alintilar — ayni sekme, sadece ekonomikocu/status (baska hesap yok).
+
+    nav_cap: bu oturumda yapilacak alinti sayfa navigasyonu tavani. ADIM 1
+    sayesinde cogu alinti JSON'dan tamamlandigindan geriye kalan gercek
+    ziyaretler azdir; tavan (varsayilan 20) X'in rate-limit'ini tetikleyecek
+    ardisik navigasyon yigilmasini engeller. Tavana ulasilinca kalanlar
+    isaretlenmeden sonraki oturuma birakilir."""
     back = return_url or PROFILE_URL_POSTS
+    nav_used = 0
     for rnd in range(1, max_rounds + 1):
+        if nav_used >= nav_cap:
+            _log(f"Alinti navigasyon tavani ({nav_cap}) doldu — kalanlar sonraki oturuma birakildi.")
+            break
         pending = len(collect_quote_jobs(all_rows, [], quotes_done))
         if not pending:
             _log("Alintilar tamam (bekleyen yok).")
@@ -2394,16 +2427,17 @@ def finish_quotes_loop(
             if page is None:
                 _log("Alinti: baglanti yok — kalanlar sonraki tura birakildi.")
                 return
-        _log(f"Asama 2 tur {rnd}: {pending} alinti bekliyor...")
+        _log(f"Asama 2 tur {rnd}: {pending} alinti bekliyor... (navigasyon {nav_used}/{nav_cap})")
         n = flush_quotes(
             page,
             all_rows,
             quotes_done,
             threads_done,
-            limit=per_round,
+            limit=min(per_round, nav_cap - nav_used),
             return_to_feed=False,
             allow_foreign=allow_foreign,
         )
+        nav_used += n
         pending_after = len(collect_quote_jobs(all_rows, [], quotes_done))
         _log(f"  >> Bu turda ziyaret: {n} | kalan: {pending_after}")
         if pending_after == 0:
@@ -2416,6 +2450,12 @@ def finish_quotes_loop(
                     _log("Alinti: baglanti yok — isaretleme YAPILMADI, kalanlar korundu.")
                     return
                 continue
+            # Bu tur navigasyon tavani ile kisildiysa (hepsini deneyemedik),
+            # ziyaret edilmemis alintilari erken "erisilemedi" isaretleme —
+            # kalanlari sonraki oturuma birak.
+            if n < pending:
+                _log(f"  >> Tavan/limit nedeniyle {n}/{pending} denendi — kalanlar korundu.")
+                break
             _log("  >> Ilerleme yok — kalanlar isaretleniyor.")
             for qid, qb in collect_quote_jobs(all_rows, [], quotes_done):
                 _finalize_quote_if_still_empty(page, qid, qb, all_rows)

@@ -215,3 +215,19 @@ listesi yalnizca bugunku (en yuksek ts) kayitlardan uretildi.
 **Not:**
 - 10 alinti metni hala kesik/eksik (bazilari birbirini alintiliyor, max tur doldu). Gerekirse ALINTI_TAMAMLA.bat ile tekrar denenebilir; veri kaybi yok, sadece alinti metinleri kisaltilmis.
 - GitHub uyarisi: 05_GRAFIKLER.zip 98.85 MB (>50 MB onerilen). Simdilik push kabul ediliyor; buyumeye devam ederse LFS dusunulmeli.
+
+## 2026-07-17 — Rate-limit koken duzeltmesi (JSON on-cikarim + rastgele bekleme + navigasyon tavani)
+
+**Kok neden:** Alinti/flood asamasi (crawl_quote/crawl_thread) X rate-limit duvarina carpiyordu.
+1. `tara_api.parse_tweet()` alintinin TAM icerigini (metin+medya+tarih) JSON'dan zaten alabilirken sadece quoted_id kaydedip birakiyor; sonra crawl_quote ayni bilgi icin AYRI sayfa aciyor (gereksiz cift is).
+2. finish_quotes_loop/flush_quotes onlarca navigasyonu sabit 2.5-3.5sn araliklarla art arda yapiyor (rastgelesiz, bot pateni) -> bot tespiti/rate-limit.
+
+**Yapilan degisiklikler:**
+- **ADIM 1 — tara_api.py:** `parse_tweet()` artik liste donuyor; `quoted_status_result` bulununca nested result uzerinde kendini rekursif cagirip alintiyi TAM ikinci kayit olarak uretiyor (isQuote=True, quotedBy=parent, json_full). `main()` bu alinti kayitlarini (parent Koc tweet kaydedildiyse) jsonl'e yaziyor. Cogu alinti crawl_quote hic calismadan tamamlaniyor.
+- **ADIM 2 — alinti_common.py:** `row_quote_needs_visit()` jsonFull+tam metin varsa sayfa ziyaretini atliyor. tweet_tara.py `finish_threads_loop`: flood parcalari JSON'dan toplanmissa (kok + >=2 parca, metin dolu) crawl_thread navigasyonunu atliyor.
+- **ADIM 3 — tweet_tara.py:** crawl_quote/crawl_thread sabit `wait_for_timeout(2500/3500/800)` -> `_insan_bekle()` ile 3-8sn rastgele. `finish_quotes_loop` yeni `nav_cap=20` parametresi: oturum basina alinti navigasyon tavani; tavana ulasilinca kalanlar erken "erisilemedi" isaretlenmeden sonraki oturuma birakiliyor (ziyaret edilmeyen alintiyi yanlis isaretleme korumasi eklendi).
+- **Yayginlik kontrolu:** alinti_flood_tara.py'deki navigasyon-sonrasi sabit beklemeler de `_insan_bekle()` ile rastgeleye cevrildi. abone_tamamla.py incelendi — crawl navigasyon dongusu yok (sadece profil timeline'da kilitli metin dolduruyor), sabit beklemeleri kurtarma/idle backoff'u; degisiklik gerekmedi.
+
+**Dogrulama:** 4 dosya py_compile OK. parse_tweet birim testi: alinti icin 2 kayit (main + quoted, tam metin, quoted_by dolu) uretiyor. row_quote_needs_visit: jsonFull tam satir -> False (ziyaret yok), bos stub -> True.
+
+**Test edilmesi gereken:** Sonraki `tara_guvenli.py` tam akisinda alinti asamasi cok daha az sayfa aciyor mu (log'da "JSON'dan on-cikan alinti: N" ve "navigasyon k/20"); veri kaybi olmadan alinti metinleri doluyor mu.
