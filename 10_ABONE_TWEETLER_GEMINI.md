@@ -2,7 +2,132 @@
 
 Sadece abone donemi tweetleri (`kayit_tipi: abone`). Makro (Trump/Fed/ABD) + teknik yorumlari burada da birlestir — 02 kurallari gecerli.
 
-Toplam: **3322**
+Toplam: **3336**
+
+## 17 Tem 20:22 | `2078168433238200604` | GUMUS_PETROL | tez | abone
+
+Demem o ki;
+
+Aslında kritik seviyeler ve önemli bölgeler bellidir.
+Sadece adamlar zaman geçiriyorlar.
+
+Şu an yaptıkları baskı sadece #kriptoya özel değil.
+Her tarafa yaptılar.
+
+Bakınız #gümüş 54 #usd ye düştü.
+
+- media: —
+- gemini_grafik: —
+
+## 17 Tem 20:19 | `2078167811705159803` | GENEL | seviye, tarih | abone
+
+#ETHTRY 70 75 Liraya dikkat çektiğim de
+mal 100 bin lira üstündeydi..
+
+Şubat ayı...
+
+İki kere düşürdüler aldılar.
+
+- media: medya/2078167811705159803/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2078167811705159803_graf_01.jpg
+
+## 17 Tem 19:51 | `2078160588824252416` | GENEL | vizyon, seviye | abone
+
+#ETHUSD GÜNLÜK
+
+Aşağıdaki mavi trend çizgisi, destek...
+Değiyor değiyor sekiyor.
+
+Ama yukarı gidişe izin vermiyorlar.
+Kırmızı trendi çizgisi..
+
+O çizgide zaten 2570 = 5.7 öğretisine denk geliyor.
+Zaten 2026 şartımız neydi ? 
+
+2570 üstünde kalırsa para yapar.
+
+- media: medya/2078160588824252416/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2078160588824252416_graf_01.jpg
+
+## 17 Tem 19:35 | `2078156556630176228` | GUMUS_PETROL | tez | abone
+
+#goldgr 
+
+124.6 ya kadar olan her geri çekilme BASKIDIR.
+140.6 aşılmadan çıkmaz.
+
+Piyasa buralar da bunu trade eder.
+
+İki ileri bir geri oyalarlar ve #zaman geçirirler.
+
+Düştükçe al çıktıkça ver.
+Ama nedir ?
+
+#siyaseti takip eder.
+
+124.6 nın altında stop ederler ama
+başka yerleri de gözden çıkarmaları gerekir.
+
+Ben altın kanadının aşırı baskılanmasını
+doğru bulmuyorum.
+
+- media: medya/2078156556630176228/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2078156556630176228_graf_01.jpg
+
+## 17 Tem 19:19 | `2078152616240980387` | GENEL | yorum | abone
+
+Grafiğin son halidir.
+
+#NASDAQ
+
+- media: medya/2078152616240980387/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2078152616240980387_graf_01.jpg
+
+## 17 Tem 19:18 | `2078152492915822886` | GENEL | yorum | abone
+
+#NASDAQ Yeşil koyduğum yere temas etti.
+
+- media: medya/2078152492915822886/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2078152492915822886_graf_01.jpg
+
+## 17 Tem 13:09 | `2078059482962141288` | GUMUS_PETROL | tez | abone
+
+#gümüş 54 #dolara düştü.
+
+Nasıl düşürüldü ?
+
+#DXY güçlü bir çıkış mı yaşadı ?
+Hayır.
+
+Faiz mi arttı ? Hayır.
+
+#petrol ile sindirip, düşürdüler.
+
+ABD ya savaşacak, sindirecek.
+Ya da #DXY kaldıracak ama, tüm piyasalar düşecek
+ortaları yok..
+
+- media: —
+- gemini_grafik: —
+
+## 17 Tem 13:00 | `2078057128892231768` | GUMUS_PETROL | tez | abone
+
+Bundan başkası piyasaları kurtarmıyor.
+Bu piyasalar kurtulacaksa bile #zaman geçirmek
+zorundalar.
+
+Anlaşma kovalamak zorundalar.
+Enflasyonu bunun için üretiyorlar.
+
+- media: —
+- gemini_grafik: —
+
+## 17 Tem 12:26 | `2078048687670870292` | GENEL | yorum | abone
+
+Gerçekten "Ne oluyor?" diye sorup yaşananları anlamakta zorlananlara özel bir flood...
+
+- media: —
+- gemini_grafik: —
 
 ## 16 Tem 20:12 | `2077803574835155392` | GENEL | vizyon | abone
 
@@ -32,11 +157,29 @@ Kapalı piyasalarda bunlara dikkat edilmelidir.
 - media: —
 - gemini_grafik: —
 
+## 16 Tem 19:16 | `2077789451225366895` | GENEL | seviye | abone
+
+#ETHUSD Abonelere özel büyük resim.
+
+Anlatım 2024
+
+- media: —
+- gemini_grafik: —
+
 ## 16 Tem 19:14 | `2077788970277060813` | GENEL | seviye | abone
 
 Abonelere özel #ETH analizi...
 
 2024 yılı..
+
+- media: —
+- gemini_grafik: —
+
+## 16 Tem 19:12 | `2077788462539817159` | GENEL | yorum | abone
+
+Bu floodu okuduktan sonra hâlâ anlamadığı bir nokta kalan varsa, buyursun sorsun.
+
+Çünkü bu flood, abonelik tarafında anlatacaklarımın en temel başlangıç noktasıydı.
 
 - media: —
 - gemini_grafik: —
@@ -162,6 +305,27 @@ yedirmediler.
 - media: —
 - gemini_grafik: —
 
+## 14 Tem 22:56 | `2077119972954796227` | GENEL | vizyon | abone
+
+Yoksa risk yok değil hatta fazlasıyla var.
+Risk anında ise gösterdiğim varlıklar çakılır.
+
+Ama izin vermiyorlar.
+
+- media: —
+- gemini_grafik: —
+
+## 14 Tem 22:54 | `2077119592904712664` | GENEL | yorum | abone
+
+Bundan dolayı işler karıştı.
+
+Geri de yapamıyorlar.
+Gittiği yere kadar sürdürüyorlar.
+Olaya böyle bakmak lazım.
+
+- media: —
+- gemini_grafik: —
+
 ## 14 Tem 22:33 | `2077114164049248510` | GUMUS_PETROL | yorum | abone
 
 Risk zaten var, yok değil ki.
@@ -227,26 +391,6 @@ Malda kalıyorsun, malda eriyor.
 - media: —
 - gemini_grafik: —
 
-## 14 Tem 13:32 | `2076978160088879206` | GENEL | seviye, tez | abone
-
-#NASDAQ 
-
-Çok ilgilenmiyorum ama maksat muhabbet olsun deyip
-karaladım.
-
-Şu 27600 değerini asla unutmayın.
-Yönetim şekillerini görün.
-
-27600 barış deyip ÇİN deyip aşırdılar
-30600 yaptılar.
-
-Sonrası nedir ?
-
-3 aydır yana yana ver gitsin.
-
-- media: medya/2076978160088879206/graf_01.jpg
-- gemini_grafik: 09_GRAFIKLER_GEMINI/2076978160088879206_graf_01.jpg
-
 ## 13 Tem 16:25 | `2076659231504118272` | GENEL | yorum | abone
 
 Aşağı yukarı gidip gelen #piyasadan zarar gelmez.
@@ -293,6 +437,23 @@ Bundan sonraki tüm #kaprisler diğer ülkelerin
 dezavantajı olur.
 
 Umarım mantığı anladınız.
+
+- media: —
+- gemini_grafik: —
+
+## 13 Tem 15:32 | `2076646051813920970` | GENEL | vizyon | abone
+
+Daha nasıl basit anlatayım ?
+
+Bizden örnek olsun...
+
+Biz de #kur sert zıplasa ve geri çekilse,
+daha sonra eski gördüğü tepeye döndürürüz
+deyip kimse tehdit oluşturabilir mi ?
+
+Oluştursan ne olur ?
+
+En fazla ikili tepeye gidersin.
 
 - media: —
 - gemini_grafik: —
@@ -378,6 +539,28 @@ Peki #Eylül için hangi haberi masaya koydular ?
 
 - media: medya/2076631643293405496/graf_01.jpg
 - gemini_grafik: 09_GRAFIKLER_GEMINI/2076631643293405496_graf_01.jpg
+
+## 13 Tem 14:24 | `2076628854672703637` | GUMUS_PETROL | seviye | abone
+
+Bu şekilde gittikleri sürece, oyunu ABD kazanıyor.
+Neden deyip kısa bahsedeyim.
+
+Evet bugün ABD #altın tarafını baskılıyor,
+ama; #zaman boşa geçiyor.
+
+5600 gördü.
+
+Bol kepçe zaman boşa geçtikten sonra,
+yukarı gitmesi adamları #rahatsız etmeyecektir.
+
+Salla #dolar zayıflasın da nerede zayıflarsa
+zayıflasın kafasını yaşarlar.
+
+Ama bu neye sebebiyet verecektir ?
+Faizler düşemez...
+
+- media: —
+- gemini_grafik: —
 
 ## 13 Tem 14:00 | `2076622886337397171` | GUMUS_PETROL | seviye | abone
 
