@@ -2,7 +2,82 @@
 
 Sadece abone donemi tweetleri (`kayit_tipi: abone`). Makro (Trump/Fed/ABD) + teknik yorumlari burada da birlestir — 02 kurallari gecerli.
 
-Toplam: **3336**
+Toplam: **3351**
+
+## 20 Tem 01:14 | `2078966856359030929` | GENEL | vizyon, tez | abone
+
+Örnek; 
+ben size #sayısal değerler öğrettim.
+
+Ben istesem bizim ülkemiz için #kur tahmini
+yapamaz mıyım ?
+
+Bal gibi de yaparım.
+
+Ama analiz sana yaramazsa, beni yerden yere
+vurursun...
+
+Veya #borsa analizi yapamaz mıyım ?
+Bal gibi yaparım ama #analiz sana yaramazsa
+beni yerden yere vurursun.
+
+Veya başka varlıklar için bu görüşüm geçerlidir.
+
+Çünkü her analiz herkese uymuyor.
+
+Ama kişilerin düşüncesi de bana uymuyor.
+
+- media: —
+- gemini_grafik: —
+
+## 20 Tem 01:09 | `2078965528203329658` | GENEL | yorum | abone
+
+Al sat her zaman kazanç sağlamaz.
+O istikrar dönemlerinde olur.
+
+Bazen malı alır unutursun zamanının 
+gelmesini beklersin...
+
+- media: —
+- gemini_grafik: —
+
+## 20 Tem 00:51 | `2078961021923016982` | GUMUS_PETROL | vizyon | abone
+
+Kendisini tanımam. Hatta bana yorumları
+gıcık gelir. Bir analizci var.
+
+Bu kişi sadece #ALTIN analizi yapar.
+
+Gıcık olmama rağmen, ara sıra tweetleri önüme düşer,
+okurum...
+
+Bu adam, bana göre millete #ALTIN'da kazandırdı.
+
+Hatası ise sürekli aynı varlıkta ısrar etmesi...
+
+Çıkarken adama şak şak yapanlar,
+ilk fiyat geri geldiğinde adamı yerden yere
+vuruyorlar.
+
+Adama gıcık olduğumu yazmama rağmen
+içimden diyorum ki; adama haksızlık yapıyorlar.
+
+İnsanlar memnun olmuyor.
+
+- media: —
+- gemini_grafik: —
+
+## 20 Tem 00:02 | `2078948584079098088` | GENEL | vizyon | abone
+
+Ben bunları anlattım.
+
+Bir daha anlatsam da, yine hafızalardan silinip
+gidecektir.
+
+Hatta benzetmelerle anlattım.
+
+- media: —
+- gemini_grafik: —
 
 ## 17 Tem 20:22 | `2078168433238200604` | GUMUS_PETROL | tez | abone
 
@@ -31,6 +106,25 @@ mal 100 bin lira üstündeydi..
 - media: medya/2078167811705159803/graf_01.jpg
 - gemini_grafik: 09_GRAFIKLER_GEMINI/2078167811705159803_graf_01.jpg
 
+## 17 Tem 19:57 | `2078162077428936970` | GENEL | seviye | abone
+
+#ETHUSD 1936 ya kafa attı.
+Ben aslında bu seviyeyi görmemiştim.
+
+Birisi #ETH sordu bakarken son anda gördüm.
+
+- media: medya/2078162077428936970/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2078162077428936970_graf_01.jpg
+
+## 17 Tem 19:53 | `2078161231626617097` | GENEL | seviye, tarih | abone
+
+#ETHUSD Şubat analizimiz.
+
+2570 in önemi..
+
+- media: medya/2078161231626617097/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2078161231626617097_graf_01.jpg
+
 ## 17 Tem 19:51 | `2078160588824252416` | GENEL | vizyon, seviye | abone
 
 #ETHUSD GÜNLÜK
@@ -48,6 +142,25 @@ Zaten 2026 şartımız neydi ?
 
 - media: medya/2078160588824252416/graf_01.jpg
 - gemini_grafik: 09_GRAFIKLER_GEMINI/2078160588824252416_graf_01.jpg
+
+## 17 Tem 19:45 | `2078159052291371410` | GENEL | yorum | abone
+
+Geçen seneki robot seviyeler.
+
+- media: medya/2078159052291371410/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2078159052291371410_graf_01.jpg
+
+## 17 Tem 19:42 | `2078158363536363549` | GENEL | tez | abone
+
+Bu arada kısa bakanlar için;  
+4026 ya robot koydular altı baskıdır ama üstü kalırsa 
+yukarı verir.
+
+Geçen seneki roborları da unutmayın
+çünkü bir şey değişmedi.
+
+- media: —
+- gemini_grafik: —
 
 ## 17 Tem 19:35 | `2078156556630176228` | GUMUS_PETROL | tez | abone
 
@@ -73,6 +186,30 @@ doğru bulmuyorum.
 
 - media: medya/2078156556630176228/graf_01.jpg
 - gemini_grafik: 09_GRAFIKLER_GEMINI/2078156556630176228_graf_01.jpg
+
+## 17 Tem 19:30 | `2078155315250450735` | GENEL | yorum | abone
+
+Aynı flood ortalama #zaman
+
+- media: medya/2078155315250450735/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2078155315250450735_graf_01.jpg
+
+## 17 Tem 19:28 | `2078154934407614523` | BTC | yorum | abone
+
+#BİTCOİN AYLIK 
+
+Şu anlatımı da unutmayın.
+Habersiz bekletilir.
+
+- media: medya/2078154934407614523/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2078154934407614523_graf_01.jpg
+
+## 17 Tem 19:23 | `2078153646873722893` | BTC | yorum | abone
+
+#BİTCOİN
+
+- media: medya/2078153646873722893/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2078153646873722893_graf_01.jpg
 
 ## 17 Tem 19:19 | `2078152616240980387` | GENEL | yorum | abone
 
@@ -118,6 +255,35 @@ zorundalar.
 
 Anlaşma kovalamak zorundalar.
 Enflasyonu bunun için üretiyorlar.
+
+- media: —
+- gemini_grafik: —
+
+## 17 Tem 12:48 | `2078054224408055877` | GENEL, GUMUS_PETROL | seviye, tez | abone
+
+#DOW da 54 K yı aşmak kolay değildir.
+Vadeli de bu değer görüldü.
+
+#nasdaq sınırda...
+#sp500 7600 gördü, sınırda...
+
+Daha üstü için hikaye lazım.
+Olmayınca salmalar geliyor.
+
+Bu da tüm dünyaya etki ediyor.
+
+#DOW bazlı ilerleseler 57 60 K yapsalar
+#dow sanayi endeksidir.
+
+Sanayi = EMTİA demek..
+
+Yukarı vermen lazım ama, bu da enflasyonu
+patlatıyor. 
+
+Veya senin yenildiğine işarettir.
+
+#emtia kanadını baskıladıkları için
+orayı da frenliyorlar.
 
 - media: —
 - gemini_grafik: —
@@ -326,6 +492,19 @@ Olaya böyle bakmak lazım.
 - media: —
 - gemini_grafik: —
 
+## 14 Tem 22:35 | `2077114806914457727` | GENEL | yorum | abone
+
+Diyelim ki dünyada bir risk oluştu,
+piyasalar anlık olarak sağa sola savruldu...
+
+Ne olacak ki ?
+
+Günün sonunda yine merkez bankaları devreye girecek,
+piyasaları bir şekilde toparlamaya çalışacak.
+
+- media: —
+- gemini_grafik: —
+
 ## 14 Tem 22:33 | `2077114164049248510` | GUMUS_PETROL | yorum | abone
 
 Risk zaten var, yok değil ki.
@@ -458,6 +637,25 @@ En fazla ikili tepeye gidersin.
 - media: —
 - gemini_grafik: —
 
+## 13 Tem 15:15 | `2076641728757457263` | GUMUS_PETROL, GENEL | vizyon, seviye, tarih, tez | abone
+
+TRUMP başkan olduğunda #nasdaq #XAUUSD
+oranı 9.2 idi.
+
+Grafikte gösterdim.
+Sen o dönem #savaş çıkartsan, neye sebebiyet
+verirdin ? 
+
+#NASDAQ sert çakılır, ve #ALTIN zıplar.
+
+İşte bu nedenle 2025 Temmuz ayına kadar
+barış dediler.
+
+Kabul görmeyince #zaman geçirdiler.
+
+- media: medya/2076641728757457263/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2076641728757457263_graf_01.jpg
+
 ## 13 Tem 15:10 | `2076640436777623855` | GUMUS_PETROL | yorum | abone
 
 Zaman boşa geçtikçe, #savaş birçok ülkenin işine gelmeye başlayan bir sürece dönüşüyor.
@@ -561,6 +759,17 @@ Faizler düşemez...
 
 - media: —
 - gemini_grafik: —
+
+## 13 Tem 14:02 | `2076623257386500180` | GUMUS_PETROL | seviye | abone
+
+#XAUUSD bazında ise bu değer
+4376 dır.
+
+Önemini unutmadık değil mi ?
+Trendin altında tutup psikolojik yoruyorlar.
+
+- media: medya/2076623257386500180/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2076623257386500180_graf_01.jpg
 
 ## 13 Tem 14:00 | `2076622886337397171` | GUMUS_PETROL | seviye | abone
 
