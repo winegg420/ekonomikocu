@@ -244,3 +244,17 @@ listesi yalnizca bugunku (en yuksek ts) kayitlardan uretildi.
 - Asama 2'de yalnizca onceden bilinen 10 inatci alinti kaldi (birbirini alintiliyor / ana tweeti eksik / X UI kisaltmasi). Her turda 10 ziyaret (nav_cap 20 altinda), ilerleme yok — beklenen davranis, regresyon degil.
 
 **Gozlem (ileride iyilestirilebilir):** tara_guvenli bu 10 kalici-kesik alintiyi 6 ayri ALINTI_TAMAMLA turunda tekrar deniyor (6x10=60 navigasyon). nav_cap tek finish_quotes_loop cagrisini sinirliyor ama 6 dis turu sinirlamiyor. Bu 10 alinti asla tamamlanamayacagi icin (allow_foreign kapali + X UI kisaltmasi), dis tur sayisi veya kalici-erisilemedi isaretlemesi ile bu 60 navigasyon tamamen elenebilir.
+
+## 2026-07-20 — Guncel tarama + paket + push (05_GRAFIKLER.zip Git LFS'e tasindi)
+
+**Yapilan:** `tara_guvenli.py` tam akis (Chrome debug 9222 acildi, hesap @420cryptofarmer dogrulandi).
+- Arsiv 6697 -> 6718 tweet (+21), alinti 122 -> 126, en yeni kayit 2026-07-17T20:22:19 -> bugunku tweetler. Kaydirma hedefe (2026-07-14) ulasip durdu.
+- Alinti on-cikarim JSON'dan calisti (rate-limit yok). Aşama 2'de yalnizca bilinen 10 inatci alinti kaldi (birbirini alintiliyor / X UI kisaltmasi) — 6 dis tur denedi, cozulemedi (beklenen, regresyon degil).
+- Siniflandirma tamam (analiz bekleyen 0). Paket 00-10 uretildi; 05_GRAFIKLER.zip 101.09 MB / 664 grafik.
+
+**SORUN + COZUM (Git LFS):** Zip 101.09 MB olunca GitHub 100 MB HARD dosya sinirini asti, ilk push `pre-receive hook declined` ile reddedildi (commit 243a362 local kaldi). PROGRESS'te ongorulen esik gerceklesti.
+- Kullanici onayiyla **Git LFS'e gecildi** (git-lfs 3.7.1 zaten kurulu).
+- `git lfs install --local` + `git lfs track "05_GRAFIKLER.zip"` -> .gitattributes olustu. Zip `git rm --cached` + `git add` ile 134 byte LFS pointer'a cevrildi. Commit **gecmis yeniden yazilmadan** amend edildi (243a362 -> 2fe578a, henuz push edilmemisti, guvenli).
+- Push basarili: LFS 106 MB yuklendi, `27c64eb..2fe578a main -> main`. main...origin/main senkron.
+
+**Onemli not (ileri):** Bundan sonra her tarama ~106 MB'lik yeni bir zip surumunu LFS deposuna ekler. GitHub ucretsiz LFS 1 GB depo + 1 GB/ay bant genisligi; ~9-10 tarama sonra kota dolabilir (ucretli olabilir). Alternatif: her tarama oncesi eski LFS surumlerini temizleme veya zip'i git'ten tamamen cikarip medya/ ile yetinme. Simdilik LFS ile devam.
