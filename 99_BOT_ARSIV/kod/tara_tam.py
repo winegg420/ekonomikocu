@@ -120,7 +120,7 @@ def main() -> int:
         ],
     )
 
-    subprocess.run([PY, str(KOD / "abone_etiketle.py")], cwd=ROOT, check=False)
+    # abone_etiketle.py KASITLI OLARAK çağrılmıyor — proje kuralı (bkz. 01_BURADAN_BASLA.md), bu script asla tetiklenmemeli.
     subprocess.run([PY, str(KOD / "kapsam_durum.py")], cwd=ROOT, check=False)
     subprocess.run([PY, str(KOD / "claude_paket_olustur.py")], cwd=ROOT, check=False)
 
