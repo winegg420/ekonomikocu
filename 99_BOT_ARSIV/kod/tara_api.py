@@ -21,6 +21,8 @@ from pathlib import Path
 
 from playwright.sync_api import sync_playwright
 
+from tarayici_saglik import baglanti_hatasi, icerik_bekle, iyilestir, sayfa_canli
+
 import tweet_tara as tt
 
 ROOT = Path(__file__).resolve().parent.parent.parent
@@ -155,14 +157,27 @@ def main():
                             found[t["id"]] = t
 
         pg.on("response", on_resp)
-        pg.goto(f"https://x.com/{HANDLE}/with_replies", wait_until="commit", timeout=60000)
-        pg.wait_for_timeout(4000)
+        AKIS_URL = f"https://x.com/{HANDLE}/with_replies"
+        pg.goto(AKIS_URL, wait_until="commit", timeout=60000)
+        icerik_bekle(pg, 4000)
         # Durma: pencere icindeki (since+) Koc tweet sayisi 3 kaydirma artmazsa
         # bittik demektir. Sabit (pinned) eski tweet bu sayima girmez.
         prev, stagnant = -1, 0
         for i in range(args.max_scroll):
-            pg.mouse.wheel(0, 4000)
-            pg.wait_for_timeout(1500)
+            try:
+                pg.mouse.wheel(0, 4000)
+                pg.wait_for_timeout(1500)
+            except Exception as e:
+                if not (baglanti_hatasi(e) or not sayfa_canli(pg)):
+                    raise
+                npage = iyilestir(pg, home_url=AKIS_URL, etiket="tara-api")
+                if npage is None:
+                    break
+                pg = npage
+                pg.on("response", on_resp)  # taze sayfaya JSON dinleyicisini yeniden bagla
+                pg.goto(AKIS_URL, wait_until="commit", timeout=60000)
+                icerik_bekle(pg, 4000)
+                continue
             inwin = sum(1 for t in found.values()
                         if t["handle"] == HANDLE and t["datetime"] and t["datetime"][:10] >= since)
             if inwin == prev:

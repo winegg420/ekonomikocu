@@ -12,6 +12,7 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 import tweet_tara as tt
+from tarayici_saglik import baglanti_hatasi, icerik_bekle, iyilestir, sayfa_canli
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 JSONL = tt.JSONL_OUT
@@ -81,11 +82,25 @@ def main() -> int:
         ctx = b.contexts[0]
         pg = ctx.pages[0] if ctx.pages else ctx.new_page()
         for tid in IDS:
-            tt._log if False else None
-            pg.goto(f"https://x.com/ekonomikocu/status/{tid}",
-                    wait_until="commit", timeout=60000)
-            pg.wait_for_timeout(5000)
-            data = pg.evaluate(JS, tid)
+            url = f"https://x.com/ekonomikocu/status/{tid}"
+            try:
+                pg.goto(url, wait_until="commit", timeout=60000)
+                icerik_bekle(pg, 5000)
+                data = pg.evaluate(JS, tid)
+            except Exception as e:
+                if not (baglanti_hatasi(e) or not sayfa_canli(pg)):
+                    raise
+                npage = iyilestir(pg, home_url=url, etiket="gap-ekle")
+                if npage is None:
+                    break
+                pg = npage
+                try:
+                    pg.goto(url, wait_until="commit", timeout=60000)
+                    icerik_bekle(pg, 5000)
+                    data = pg.evaluate(JS, tid)
+                except Exception:
+                    print(f"[{tid}] baglanti sonrasi da okunamadi, atlandi")
+                    continue
             if not data or not (data.get("text") or "").strip():
                 print(f"[{tid}] metin bulunamadi, atlandi")
                 continue

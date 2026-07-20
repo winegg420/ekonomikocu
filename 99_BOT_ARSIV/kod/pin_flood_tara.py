@@ -104,6 +104,7 @@ def main() -> int:
         wait_for_cdp_port,
     )
     from tara_nav import bind_safe_page, safe_goto
+    from tarayici_saglik import icerik_bekle, iyilestir, sayfa_canli
 
     all_rows = load_existing_rows(JSONL_OUT)
     if not all_rows:
@@ -126,7 +127,13 @@ def main() -> int:
         close_foreign_tabs(context, page)
 
         safe_goto(page, PROFILE_URL_POSTS, reason="pin-profil")
-        page.wait_for_timeout(3500)
+        icerik_bekle(page, 3500)
+        if not sayfa_canli(page):
+            page = iyilestir(page, home_url=PROFILE_URL_POSTS, etiket="pin-flood")
+            if page is None:
+                _log("Baglanti kurtarilamadi — pin taramasi durdu.")
+                release()
+                return 2
         pinned = page.evaluate(PINNED_JS) or []
         if not pinned:
             _log("Sabitle tweet bulunamadi (profilde Pin yok veya DOM degisti)")

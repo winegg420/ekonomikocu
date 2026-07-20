@@ -37,6 +37,7 @@ def main() -> int:
     from playwright.sync_api import sync_playwright
 
     from tara_nav import bind_safe_page
+    from tarayici_saglik import baglanti_hatasi, icerik_bekle, iyilestir, sayfa_canli
     from tweet_tara import (
         EXTRACT_JS,
         EXPAND_JS,
@@ -97,19 +98,34 @@ def main() -> int:
 
         _log(f"Eko yanitlari (Yanitlar sekmesi) — max {args.max_scroll} scroll...")
         for i in range(args.max_scroll):
-            page.evaluate(RETRY_JS)
-            force_turkish_on_page(page)
-            page.evaluate(EXPAND_JS)
-            batch = page.evaluate(EXTRACT_JS)
-            merge_rows(all_rows, batch, page=None, period_since=since_dt)
-            merge_eko_profile_replies(all_replies, batch)
-            if (i + 1) % 10 == 0:
+            try:
+                page.evaluate(RETRY_JS)
+                force_turkish_on_page(page)
+                page.evaluate(EXPAND_JS)
+                batch = page.evaluate(EXTRACT_JS)
+                merge_rows(all_rows, batch, page=None, period_since=since_dt)
+                merge_eko_profile_replies(all_replies, batch)
+                if (i + 1) % 10 == 0:
+                    persist_replies()
+                    persist_tweets()
+                    eko_n = sum(1 for r in all_replies.values() if r.get("kayitTipi") == "eko_yanit")
+                    _log(f"  Scroll {i + 1}/{args.max_scroll} | eko_yanit: {eko_n} | soru: {len(all_replies) - eko_n}")
+                aggressive_timeline_scroll(page)
+                page.wait_for_timeout(2200)
+            except Exception as e:
+                if not (baglanti_hatasi(e) or not sayfa_canli(page)):
+                    raise
                 persist_replies()
                 persist_tweets()
-                eko_n = sum(1 for r in all_replies.values() if r.get("kayitTipi") == "eko_yanit")
-                _log(f"  Scroll {i + 1}/{args.max_scroll} | eko_yanit: {eko_n} | soru: {len(all_replies) - eko_n}")
-            aggressive_timeline_scroll(page)
-            page.wait_for_timeout(2200)
+                npage = iyilestir(page, home_url=PROFILE_URL, etiket="yanit")
+                if npage is None:
+                    break
+                page = npage
+                page.goto(PROFILE_URL, wait_until="domcontentloaded", timeout=90_000)
+                icerik_bekle(page, 3000)
+                x_clear_error(page)
+                click_replies_tab(page)
+                wait_for_profile_feed(page, tries=20)
 
         jobs = sorted(
             [
@@ -141,6 +157,11 @@ def main() -> int:
                     )
             except Exception as e:
                 _log(f"  Atlandi ({tid}): {e}")
+                if baglanti_hatasi(e) or not sayfa_canli(page):
+                    npage = iyilestir(page, home_url=PROFILE_URL, etiket="yanit-konusma")
+                    if npage is None:
+                        break
+                    page = npage
 
         persist_tweets()
         persist_replies()

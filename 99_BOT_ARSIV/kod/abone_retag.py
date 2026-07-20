@@ -11,6 +11,8 @@ import sys
 import time
 from playwright.sync_api import sync_playwright
 
+from tarayici_saglik import baglanti_hatasi, icerik_bekle, iyilestir, sayfa_canli
+
 PROFILE = "https://x.com/ekonomikocu"
 JSONL = "cekilen_tweetler.jsonl"
 DUR_TARIH = "2026-05-22"  # buraya (UTC) inince yeter
@@ -48,41 +50,52 @@ def main():
         b = p.chromium.connect_over_cdp("http://127.0.0.1:9222")
         page = b.contexts[0].new_page()
         page.goto(PROFILE, wait_until="domcontentloaded", timeout=60000)
-        page.wait_for_timeout(4000)
+        icerik_bekle(page, 4000)
         stagnant = 0
         for i in range(200):
-            rows = page.evaluate(PROBE)
-            before = len(seen)
-            for r in rows:
-                if r["id"]:
-                    seen[r["id"]] = bool(r["abone"])
-                    # Pinned (sabitlenmis) tweet eski tarihli olabilir; durdurma
-                    # olcusunde HARIC tut, yoksa 1. turda yanlis durur.
-                    if r["dt"] and not r.get("pinned") and (oldest is None or r["dt"] < oldest):
-                        oldest = r["dt"]
-            yeni = len(seen) - before
-            ab = sum(1 for v in seen.values() if v)
-            print(f"tur {i+1:>3}: gorulen={len(seen)} (+{yeni}) | abone_ozel={ab} | en_eski={oldest}", flush=True)
-            if oldest and oldest[:10] <= DUR_TARIH:
-                print(">> 22 May'a ulasildi, duruyor.", flush=True)
-                break
-            if yeni == 0:
-                stagnant += 1
-                # splash olabilir: Retry'a tikla
-                try:
-                    if page.evaluate(RETRY):
-                        print("  >> Retry tiklandi", flush=True)
-                        page.wait_for_timeout(3500)
-                except Exception:
-                    pass
-            else:
-                stagnant = 0
-            if stagnant >= 12:
-                print(">> 12 tur ilerleme yok (X duvari). Buraya kadar.", flush=True)
-                break
-            # NAZIK kaydirma: kucuk adim + uzun bekleme (splash'i tetiklememek icin)
-            page.mouse.wheel(0, 1600)
-            page.wait_for_timeout(2600)
+            try:
+                rows = page.evaluate(PROBE)
+                before = len(seen)
+                for r in rows:
+                    if r["id"]:
+                        seen[r["id"]] = bool(r["abone"])
+                        # Pinned (sabitlenmis) tweet eski tarihli olabilir; durdurma
+                        # olcusunde HARIC tut, yoksa 1. turda yanlis durur.
+                        if r["dt"] and not r.get("pinned") and (oldest is None or r["dt"] < oldest):
+                            oldest = r["dt"]
+                yeni = len(seen) - before
+                ab = sum(1 for v in seen.values() if v)
+                print(f"tur {i+1:>3}: gorulen={len(seen)} (+{yeni}) | abone_ozel={ab} | en_eski={oldest}", flush=True)
+                if oldest and oldest[:10] <= DUR_TARIH:
+                    print(">> 22 May'a ulasildi, duruyor.", flush=True)
+                    break
+                if yeni == 0:
+                    stagnant += 1
+                    # splash olabilir: Retry'a tikla
+                    try:
+                        if page.evaluate(RETRY):
+                            print("  >> Retry tiklandi", flush=True)
+                            page.wait_for_timeout(3500)
+                    except Exception:
+                        pass
+                else:
+                    stagnant = 0
+                if stagnant >= 12:
+                    print(">> 12 tur ilerleme yok (X duvari). Buraya kadar.", flush=True)
+                    break
+                # NAZIK kaydirma: kucuk adim + uzun bekleme (splash'i tetiklememek icin)
+                page.mouse.wheel(0, 1600)
+                page.wait_for_timeout(2600)
+            except Exception as e:
+                if not (baglanti_hatasi(e) or not sayfa_canli(page)):
+                    raise
+                npage = iyilestir(page, home_url=PROFILE, etiket="abone-retag")
+                if npage is None:
+                    print(">> Baglanti kurtarilamadi, buraya kadar.", flush=True)
+                    break
+                page = npage
+                page.goto(PROFILE, wait_until="domcontentloaded", timeout=60000)
+                icerik_bekle(page, 4000)
         page.close()
 
     # arsivi guncelle

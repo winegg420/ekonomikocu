@@ -21,6 +21,8 @@ from datetime import date, timedelta
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 
+from tarayici_saglik import baglanti_hatasi, icerik_bekle, iyilestir, sayfa_canli
+
 JSONL = "cekilen_tweetler.jsonl"
 CKPT = Path("log/arama_kumulatif.json")
 DONE = Path("log/arama_gunler.json")
@@ -59,7 +61,7 @@ def gun_tara(pg, gun: date) -> dict:
     q = f"from:ekonomikocu since:{gun.isoformat()} until:{(gun+timedelta(days=1)).isoformat()}"
     url = "https://x.com/search?q=" + urllib.parse.quote(q) + "&f=live"
     pg.goto(url, wait_until="domcontentloaded", timeout=60000)
-    pg.wait_for_timeout(6000)  # arama sonuclari yavas dolar
+    icerik_bekle(pg, 6000)  # arama sonuclari yavas dolar
     seen = {}
     stag = 0
     for _ in range(70):
@@ -123,7 +125,17 @@ def tara():
             if ds in done:
                 g -= timedelta(days=1)
                 continue
-            s = gun_tara(pg, g)
+            try:
+                s = gun_tara(pg, g)
+            except Exception as e:
+                if not (baglanti_hatasi(e) or not sayfa_canli(pg)):
+                    raise
+                npage = iyilestir(pg, home_url="https://x.com/ekonomikocu", etiket="abone-arama")
+                if npage is None:
+                    print(">> Baglanti kurtarilamadi, duruyorum.", flush=True)
+                    break
+                pg = npage
+                continue  # ayni gunu yeniden dene
             if len(s) == 0:
                 sifir_ardisik += 1
                 print(f"{ds}: 0 tweet (sifir #{sifir_ardisik})", flush=True)
