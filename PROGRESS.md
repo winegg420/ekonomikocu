@@ -258,3 +258,12 @@ listesi yalnizca bugunku (en yuksek ts) kayitlardan uretildi.
 - Push basarili: LFS 106 MB yuklendi, `27c64eb..2fe578a main -> main`. main...origin/main senkron.
 
 **Onemli not (ileri):** Bundan sonra her tarama ~106 MB'lik yeni bir zip surumunu LFS deposuna ekler. GitHub ucretsiz LFS 1 GB depo + 1 GB/ay bant genisligi; ~9-10 tarama sonra kota dolabilir (ucretli olabilir). Alternatif: her tarama oncesi eski LFS surumlerini temizleme veya zip'i git'ten tamamen cikarip medya/ ile yetinme. Simdilik LFS ile devam.
+
+## 2026-07-20 — MagicMA taramasi (dayanikli kosucu + gozetmen, kopmasiz)
+
+**Yapilan:** Kullanici TradingView chart layout'unu (chart/zOsq3cIW, MagicMA gostergeli) port 9222 debug Chrome'da acti. Gozetmen scratchpad'de yeniden olusturuldu (magicma_supervisor.sh: 6 dk ilerleme yoksa oldur + resume, maks 25 tur) ve arka planda kosucu (magicma_tara_dayanikli.py) ile calistirildi.
+- **407/407 sembol okundu, 0 okunamadi, HIC KOPMA olmadan** (gecmiste ~45. sembolde asili kaliyordu). 284 sembol rapora girdi (<=%15).
+- Rapor: magicma/magicma_rapor_2026-07-20.md
+- Isleme adayi (<=%0,25 cizgiye yapisik, CLAUDE.md kurali): **25 aday**. En yakinlar: UUSDT/CDNS/TSKB (%0,03), CHFJPY/XOM (%0,04), TOTAL/NZDUSD (%0,06). Cogunluk short adayi (fiyat cizgi altinda = direnc).
+
+**Not:** Gozetmen bu oturumun scratchpad'inde yeniden olusturuldu (oturuma ozel, onceki oturumdan tasinmadi). Onkosul: 9222'de MagicMA gostergeli TradingView chart sekmesi acik olmali (ana sayfa yetmez).
