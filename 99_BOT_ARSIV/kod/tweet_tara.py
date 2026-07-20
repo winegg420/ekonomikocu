@@ -1245,6 +1245,7 @@ def load_existing_rows(path: Path) -> dict[str, dict]:
             "quoteOf": o.get("quote_of"),
             "quoteStub": o.get("quote_stub", False),
             "threadRoot": o.get("thread_root"),
+            "kalici_erisilemedi": o.get("kalici_erisilemedi", False),
             "media": o.get("media_urls") or [],
             "mediaFiles": o.get("media_files") or [],
             "needsThread": False,

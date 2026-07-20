@@ -54,6 +54,7 @@ def row_from_jsonl(o: dict) -> dict:
         "quotedBy": o.get("quoted_by"),
         "quoteOf": o.get("quote_of"),
         "quoteStub": o.get("quote_stub", False),
+        "kalici_erisilemedi": o.get("kalici_erisilemedi", False),
     }
 
 
@@ -88,6 +89,8 @@ def reset_erisilemedi_rows(all_rows: dict[str, dict]) -> int:
 
 def row_quote_needs_visit(row: dict) -> bool:
     """Asama 2: status sayfasina gitmeli mi?"""
+    if row.get("kalici_erisilemedi"):
+        return False
     tid = row.get("id") or row.get("tweet_id")
     if not tid:
         return False
