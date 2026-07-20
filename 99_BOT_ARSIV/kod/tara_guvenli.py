@@ -30,10 +30,16 @@ def main() -> int:
     cmd = [PY, str(KOD / hedef)] + ekstra
     print(f"[tara_guvenli] calistiriliyor: {hedef} {' '.join(ekstra)}", flush=True)
     try:
-        return subprocess.run(cmd, cwd=str(ROOT)).returncode
+        rc = subprocess.run(cmd, cwd=str(ROOT)).returncode
     except Exception as e:
         print(f"Tarama hatasi: {e}", flush=True)
         return 1
+    # Push sonrasi opsiyonel LFS kota uyarisi — bilgi amacli, akisi BOZMAZ.
+    try:
+        subprocess.run([PY, str(KOD / "lfs_kota_kontrol.py")], cwd=str(ROOT), check=False)
+    except Exception as e:
+        print(f"[LFS] kota kontrolu atlandi: {e}", flush=True)
+    return rc
 
 if __name__ == "__main__":
     raise SystemExit(main())
