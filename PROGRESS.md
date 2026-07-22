@@ -267,3 +267,18 @@ listesi yalnizca bugunku (en yuksek ts) kayitlardan uretildi.
 - Isleme adayi (<=%0,25 cizgiye yapisik, CLAUDE.md kurali): **25 aday**. En yakinlar: UUSDT/CDNS/TSKB (%0,03), CHFJPY/XOM (%0,04), TOTAL/NZDUSD (%0,06). Cogunluk short adayi (fiyat cizgi altinda = direnc).
 
 **Not:** Gozetmen bu oturumun scratchpad'inde yeniden olusturuldu (oturuma ozel, onceki oturumdan tasinmadi). Onkosul: 9222'de MagicMA gostergeli TradingView chart sekmesi acik olmali (ana sayfa yetmez).
+
+## 2026-07-22 — Ekonomikocu güncel tarama + MagicMA tarama (tek oturum)
+
+### Ekonomikocu tarama
+- CHROME_X.bat ile 9222 debug Chrome açıldı (@420cryptofarmer giriş doğrulandı).
+- Güncel/artımlı tarama: 6718 → **6736 tweet** (+18). En yeni tweet 2026-07-20 21:35 (hesap o tarihten beri atmamış → "şu ana kadar" kapsandı).
+- tara_guvenli.py tüm akışı yürüttü: sınıflandırma + full paket (00–10) + commit `b1c01ec` + GitHub push (LFS 107 MB). Depo %21 (213 MB).
+- Yanlışlıkla repo köküne düşen scratch logları (scratch_tara_log/out) temizlendi + .gitignore'a eklendi.
+
+### MagicMA tarama
+- Aynı 9222 Chrome'da TradingView chart sekmesi (giriş yapılı, indikatör yüklü layout zOsq3cIW) CDP ile açıldı.
+- magicma_tara_dayanikli.py: **407 sembol, 406 okundu, 1 okunamadı**, kopma yok.
+- Okunamayan: **NASDAQ:WMT** → Walmart NYSE'de. Sembol listesi düzeltildi: `magicma/sembol_listesi/abd_hisse.txt` NASDAQ:WMT → **NYSE:WMT**. (Not: 07-08'de yanlışlıkla NASDAQ'a çevrilmiş; asıl doğru NYSE.)
+- Otomatik rapor: magicma/magicma_rapor_2026-07-22.md (≤%15, 280 giren).
+- İşlem adayı raporu (CLAUDE.md ≤%0,25 kuralı): magicma/magicma_islem_adaylari_2026-07-22.md — **15 aday**. En yakın: UUSDT/CIMSA (%0,01). Çoğunluk short (fiyat çizgi altında = direnç).
