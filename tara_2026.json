@@ -1,19 +1,19 @@
 {
-  "guncelleme": "2026-07-20T12:31:41",
+  "guncelleme": "2026-07-22T15:10:20",
   "yil": "2026",
   "genel_yuzde": 100.0,
   "tamam": false,
   "en_yeni": "2026-07-20",
   "ana": {
-    "metinli": 6443,
+    "metinli": 6460,
     "bos_kilitli": 0,
     "erisilemedi": 18,
-    "toplam": 6461,
+    "toplam": 6478,
     "yuzde": 100.0
   },
   "alinti": {
-    "kapsam": 122,
-    "tam": 122,
+    "kapsam": 123,
+    "tam": 123,
     "eksik": 0,
     "yuzde": 100.0,
     "bekleyen_dosya": 10
@@ -51,7 +51,7 @@
       "bos": 0
     },
     "2026-07": {
-      "metinli": 168,
+      "metinli": 185,
       "bos": 0
     }
   },

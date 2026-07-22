@@ -2,7 +2,67 @@
 
 Sadece abone donemi tweetleri (`kayit_tipi: abone`). Makro (Trump/Fed/ABD) + teknik yorumlari burada da birlestir — 02 kurallari gecerli.
 
-Toplam: **3351**
+Toplam: **3365**
+
+## 20 Tem 18:23 | `2079225657142169644` | GENEL | tez | abone
+
+Hep yazdım çizdim şu grafik size ders olsun.
+
+Çin tarafını bastırmak için 2 yol var.
+
+1- Faiz artışı
+2- Savaş
+
+Başka şansları da yoktur.
+
+- media: medya/2079225657142169644/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2079225657142169644_graf_01.jpg
+
+## 20 Tem 18:17 | `2079224102154379478` | GENEL | tez | abone
+
+Çin tarafının böyle bir kalleşlik yapma
+şansı var, unutmayın...
+
+ABD ye kalsa işleri geçen sene bitirirdi.
+
+- media: —
+- gemini_grafik: —
+
+## 20 Tem 17:35 | `2079213663542530450` | GENEL | tarih, tez | abone
+
+Bu sene de ÇİN #EYLÜL de bizi ziyaret edecek diyor.
+Fark yok...
+
+Geçen sene neyse bu sene de AYNI..
+
+- media: —
+- gemini_grafik: —
+
+## 20 Tem 17:34 | `2079213406771438023` | GENEL | tez | abone
+
+Bu geçen sene ÇİN ile görüşeceğim
+sözleri
+
+- media: —
+- gemini_grafik: —
+
+## 20 Tem 17:20 | `2079209864086049185` | GUMUS_PETROL, GENEL | yorum | abone
+
+Geçen sene #NASDAQ 
+şu grafikle altına atacağım son hali arasında 
+fark var mı ?
+
+- media: medya/2079209864086049185/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2079209864086049185_graf_01.jpg
+
+## 20 Tem 14:59 | `2079174299940786367` | GENEL | yorum | abone
+
+Robottayız 
+
+4026
+
+- media: medya/2079174299940786367/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2079174299940786367_graf_01.jpg
 
 ## 20 Tem 01:14 | `2078966856359030929` | GENEL | vizyon, tez | abone
 
@@ -63,6 +123,52 @@ Adama gıcık olduğumu yazmama rağmen
 içimden diyorum ki; adama haksızlık yapıyorlar.
 
 İnsanlar memnun olmuyor.
+
+- media: —
+- gemini_grafik: —
+
+## 20 Tem 00:47 | `2078959894007349504` | GENEL | yorum | abone
+
+Sana sormaz mesela; 
+analizin vadesi belli midir ?
+Varsayalım analizci, dedi ki; 1 ile 5 yıl..
+
+Dersin ki süre çok uzun bana yaramıyor.
+Bu olgunluk insanlarda yok.
+
+İnsanlar hız arıyor, hemen olsun istiyor.
+Piyasa böyle bir yer değildir.
+
+- media: —
+- gemini_grafik: —
+
+## 20 Tem 00:44 | `2078959242648653899` | GENEL | vizyon, tez | abone
+
+Türkiye de yatırımcıyı memnun etmek 
+çok zor.
+
+Büyük resim düşünür #analiz yaparsın,
+kısa vadecilerin hedefi olursun.
+
+Kısa vade analiz yaparsın uzun vadecilerin
+hedefi olursun.
+
+İlla seni alıp bir şekilde hırpalarlar.
+Fikrini düşünceni hırpalarlar.
+
+- media: —
+- gemini_grafik: —
+
+## 20 Tem 00:04 | `2078949085977948342` | GENEL | tez | abone
+
+Net bir şekilde söyleyeyim;
+
+Benim bakış açım, çoğu kişinin işine gelmez.
+
+İşine gelmediği için de beni anlasa bile,
+bilerek anlamak istemez.
+
+Görmezden gelir veya bu döngüden kaçmak ister.
 
 - media: —
 - gemini_grafik: —
@@ -203,6 +309,13 @@ Habersiz bekletilir.
 
 - media: medya/2078154934407614523/graf_01.jpg
 - gemini_grafik: 09_GRAFIKLER_GEMINI/2078154934407614523_graf_01.jpg
+
+## 17 Tem 19:25 | `2078154155521179771` | BTC | yorum | abone
+
+Grafiğin son halidir #bitcoin
+
+- media: medya/2078154155521179771/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2078154155521179771_graf_01.jpg
 
 ## 17 Tem 19:23 | `2078153646873722893` | BTC | yorum | abone
 
@@ -442,6 +555,36 @@ Riski iştahı bunlar üzerinden yönetirler.
 - media: —
 - gemini_grafik: —
 
+## 14 Tem 23:25 | `2077127360323711416` | GUMUS_PETROL | yorum | abone
+
+Yatırımcıya risk var aman köşe de kal desen,
+olmuyor.
+
+Yıllar geçiyor, #enflasyon devam ediyor.
+Ben işte 6 yıldır #eurjpy #gbpjpy hepsini
+gözlüyorum...
+
+Dünyada bir sürü de risk var ama, #piyasaya
+yansıtmıyorlar.
+
+Piyasaya bakınca risk yansımış mı ? 
+
+#coinlere yansıdı.
+
+Onları takan kim ? 
+Adamlar umursuyor mu ?
+
+- media: —
+- gemini_grafik: —
+
+## 14 Tem 23:21 | `2077126258127786259` | GENEL | tez | abone
+
+Küçük yatırımcıyı %10 kesmiyor ama
+ağalar için büyük para...
+
+- media: —
+- gemini_grafik: —
+
 ## 14 Tem 23:20 | `2077125991269277964` | BTC, GUMUS_PETROL | tez | abone
 
 Piyasada RİSK iştahı düşeceği an, ne yapıyorlar ?
@@ -467,6 +610,24 @@ para neden faizi alsın ?
 #BİTCOİN olmasın buralar hep çakılmıştı.
 Ben kesin ihya olmuştum ama olmadı
 yedirmediler.
+
+- media: —
+- gemini_grafik: —
+
+## 14 Tem 23:10 | `2077123609886114124` | BTC | yorum | abone
+
+Bazen insanlara garip geliyor ama şu grafik 6. yılında
+ne zaman düşse #bitcoin devreye girdi.
+
+- media: medya/2077123609886114124/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2077123609886114124_graf_01.jpg
+
+## 14 Tem 23:06 | `2077122529848701107` | GENEL | yorum | abone
+
+Ben şahsım adına risk yokmuş gibi zaten 
+davranmıyorum, #gbpjpy vs poz alıyorum...
+
+Ama yedirmiyor.
 
 - media: —
 - gemini_grafik: —
