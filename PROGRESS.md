@@ -282,3 +282,14 @@ listesi yalnizca bugunku (en yuksek ts) kayitlardan uretildi.
 - Okunamayan: **NASDAQ:WMT** → Walmart NYSE'de. Sembol listesi düzeltildi: `magicma/sembol_listesi/abd_hisse.txt` NASDAQ:WMT → **NYSE:WMT**. (Not: 07-08'de yanlışlıkla NASDAQ'a çevrilmiş; asıl doğru NYSE.)
 - Otomatik rapor: magicma/magicma_rapor_2026-07-22.md (≤%15, 280 giren).
 - İşlem adayı raporu (CLAUDE.md ≤%0,25 kuralı): magicma/magicma_islem_adaylari_2026-07-22.md — **15 aday**. En yakın: UUSDT/CIMSA (%0,01). Çoğunluk short (fiyat çizgi altında = direnç).
+
+## 2026-07-24 — Ekonomikocu guncel tarama (bugunden son taramaya)
+
+- 9222 debug Chrome CHROME_X.bat ile acildi; hesap dogrulandi (@420cryptofarmer).
+- `tara_guvenli.py` tam akis: **6736 -> 6746 tweet (+10)**. Kaydirma 2026-07-13'e kadar indi (hedef 17 Tem asildi), en yeni kayit **2026-07-23T21:43:52** — hesap 24 Tem'de tweet atmamis, "bugune kadar" kapsandi.
+- Alinti: +0 (toplam 127). Bilinen **10 inatci alinti** yine cozulemedi — 6 dis turun hepsi calisti, her turda "Ilerleme yok — kalanlar isaretleniyor". Beklenen davranis, regresyon degil.
+- Siniflandirma tamam (analiz bekleyen 0). Paket 00-10 uretildi: 05_GRAFIKLER.zip **101.9 MB / 668 grafik**. 7 yeni medya dosyasi indi.
+- Commit `cbda56b` + push basarili (LFS 107 MB yuklendi). main...origin/main senkron.
+- **LFS kotasi: 320 MB / 1024 MB (%31) — tahminen 6 tarama daha siginiyor.** Kota dolmadan zip'i git'ten cikarma / eski LFS surumlerini temizleme karari verilmeli.
+
+**Gozlem (tekrar):** 6 dis alinti turu hala calisiyor (6x10=60 gereksiz navigasyon, ~10 dk). 5a2b0b2'deki "kalici erisilemedi" isaretlemesi tur ici dongui kapatiyor ama dis tur sayisini sinirlamiyor. Dis turu 1'e dusurmek tarama suresini belirgin kisaltir.
