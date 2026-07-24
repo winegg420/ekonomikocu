@@ -2,7 +2,16 @@
 
 Sadece abone donemi tweetleri (`kayit_tipi: abone`). Makro (Trump/Fed/ABD) + teknik yorumlari burada da birlestir — 02 kurallari gecerli.
 
-Toplam: **3365**
+Toplam: **3371**
+
+## 23 Tem 21:43 | `2080363283173748821` | GENEL | yorum | abone
+
+#XAGUSDG 
+
+Bu bakışı unutmadık değil mi ?
+
+- media: medya/2080363283173748821/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2080363283173748821_graf_01.jpg
 
 ## 20 Tem 18:23 | `2079225657142169644` | GENEL | tez | abone
 
@@ -27,6 +36,21 @@ ABD ye kalsa işleri geçen sene bitirirdi.
 
 - media: —
 - gemini_grafik: —
+
+## 20 Tem 18:11 | `2079222662337855696` | GENEL | tez | abone
+
+Kripto bunların elinde OYUNCAK..
+Tavizden yırtmak için bir #ARAÇ
+
+- media: —
+- gemini_grafik: —
+
+## 20 Tem 18:09 | `2079222151769362480` | GENEL | tarih | abone
+
+13 Ağustos 2025
+
+- media: medya/2079222151769362480/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2079222151769362480_graf_01.jpg
 
 ## 20 Tem 17:35 | `2079213663542530450` | GENEL | tarih, tez | abone
 
@@ -268,6 +292,19 @@ Geçen seneki roborları da unutmayın
 - media: —
 - gemini_grafik: —
 
+## 17 Tem 19:40 | `2078157996073320930` | GENEL | tez | abone
+
+#XAUUSD grafiği de bu...
+
+Burada az çizgi koydum ama, hemen hemen aynıdır.
+3776 3840 kırılmadan alıcı gelir.
+
+He boyu uzar uzamaz, o tartışılır ama 
+daha aşağısı için ekstra baskı ister.
+
+- media: medya/2078157996073320930/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2078157996073320930_graf_01.jpg
+
 ## 17 Tem 19:35 | `2078156556630176228` | GUMUS_PETROL | tez | abone
 
 #goldgr 
@@ -397,6 +434,36 @@ Veya senin yenildiğine işarettir.
 
 #emtia kanadını baskıladıkları için
 orayı da frenliyorlar.
+
+- media: —
+- gemini_grafik: —
+
+## 17 Tem 12:38 | `2078051608684863893` | GENEL | yorum | abone
+
+Aslında balon patladıktan sonra ne olması
+gerekiyor ?
+
+Tüm dünyanın düşmesi gerekiyordu.
+Bunlar düşürmedi de #anlaşma kovaladılar.
+
+Büyük resim budur.
+
+- media: —
+- gemini_grafik: —
+
+## 17 Tem 12:30 | `2078049598141005836` | GENEL | seviye | abone
+
+Şu an dünya tamamen bunun stresini yaşıyor.
+2025 den önce birileri inatla borsaları #balon
+yapmıştır.
+
+#kripto ile yapmıştır.
+
+Bunu da #teknolojiyi öne sürerek yapmıştır.
+Biz de bunun geçmişte çok konuştuk.
+
+Trade bakışından bağımsız bu gerçekler de
+bilinsin.
 
 - media: —
 - gemini_grafik: —
