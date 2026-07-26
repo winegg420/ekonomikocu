@@ -2,7 +2,42 @@
 
 Sadece abone donemi tweetleri (`kayit_tipi: abone`). Makro (Trump/Fed/ABD) + teknik yorumlari burada da birlestir — 02 kurallari gecerli.
 
-Toplam: **3371**
+Toplam: **3375**
+
+## 24 Tem 22:58 | `2080744538210021450` | GENEL | vizyon, tez | abone
+
+Bir işe hatalı başlarsan devamı da öyle gider.
+Biden yönetimi hatalıdır.
+
+- media: —
+- gemini_grafik: —
+
+## 24 Tem 22:57 | `2080744150035542435` | BTC, GUMUS_PETROL | vizyon, tez | abone
+
+Biden, aptal mı diyeyim ?
+Bilemedim ama, #ETF verdi #bitcoini
+şişirdi...
+
+Genel #kripto ise #ucuz bırakıldı.
+#EUR dipte bırakıldı.
+#emtia ucuz bırakıldı.
+
+Böyle bir ortamda #dolar masaya nasıl gelecek ?
+
+Gelemedi işte...
+O gelemeyince #petrol geldi.
+Al sana nefret ABD ye doğdu.
+
+- media: —
+- gemini_grafik: —
+
+## 24 Tem 18:58 | `2080684063816388855` | GUMUS_PETROL | yorum | abone
+
+Adamların zihniyetini anlamanız açısından
+okuyunuz. #GOLDEUR #altın
+
+- media: medya/2080684063816388855/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2080684063816388855_graf_01.jpg
 
 ## 23 Tem 21:43 | `2080363283173748821` | GENEL | yorum | abone
 
@@ -121,6 +156,31 @@ O istikrar dönemlerinde olur.
 
 Bazen malı alır unutursun zamanının 
 gelmesini beklersin...
+
+- media: —
+- gemini_grafik: —
+
+## 20 Tem 01:03 | `2078963935953461348` | GENEL | vizyon | abone
+
+Ben "döner" yazdım ama bu,
+"Git yarın sabah al." demek değildir ki...
+
+Zaman analizi veya şartların analizini yapmadık ki.
+
+Sadece döngünün bir yerde toparlayıp,
+yeniden yukarı döneceğini söyledim.
+
+Ama bizim ülke de yatırımcı ne yapıyor ?
+Sen döner, dedin ya !
+
+Mala hemen giriyor..
+Ve esneme aşağı hala devam
+ediyorsa başlıyor, yaygarayı basmaya...
+
+Sana fatura kesmeye...
+
+Bu sefer insanlar bir birinden kaçıyor
+yüz göz olmak istemiyor.
 
 - media: —
 - gemini_grafik: —
