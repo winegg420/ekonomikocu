@@ -293,3 +293,15 @@ listesi yalnizca bugunku (en yuksek ts) kayitlardan uretildi.
 - **LFS kotasi: 320 MB / 1024 MB (%31) — tahminen 6 tarama daha siginiyor.** Kota dolmadan zip'i git'ten cikarma / eski LFS surumlerini temizleme karari verilmeli.
 
 **Gozlem (tekrar):** 6 dis alinti turu hala calisiyor (6x10=60 gereksiz navigasyon, ~10 dk). 5a2b0b2'deki "kalici erisilemedi" isaretlemesi tur ici dongui kapatiyor ama dis tur sayisini sinirlamiyor. Dis turu 1'e dusurmek tarama suresini belirgin kisaltir.
+
+## 2026-07-26 — Ekonomikocu guncel tarama (tam akis)
+
+- 9222 debug Chrome baslatildi (onceki oturum kapaliydi); hesap dogrulandi (@420cryptofarmer).
+- `tara_guvenli.py` tam akis: **6746 -> 6756 tweet (+10)**. Stop-before 20 Tem, en yeni kayit **2026-07-26T01:23:07** — 24-26 Tem araligi kapsandi.
+- Alinti: **+1** (127 -> 128). Bilinen **10 inatci alinti** yine cozulemedi (6 dis turun hepsi calisti). Beklenen davranis.
+- Flood: +0 (1856). Siniflandirma tamam: analiz 6756 | izleniyor 872 | alinti-onceden 49 | alinti-sonradan 1.
+- 5 yeni medya/grafik dosyasi indi. Paket 00-10 uretildi.
+- Commit `468c551` (25 dosya, +1214/-957) + push basarili. LFS 107 MB yuklendi. main...origin/main senkron.
+- **LFS kotasi: 427 MB / 1024 MB (%42) — tahminen 5 tarama daha siginiyor.** (07-24'te %31 idi; tarama basina ~106 MB.) Kota karari giderek aciliyor: 05_GRAFIKLER.zip'i git'ten cikarmak veya eski LFS surumlerini temizlemek gerekecek.
+
+**Gozlem (3. kez tekrar):** 6 dis alinti turu hala calisiyor, taramanin ~10 dk'sini yiyor. Dis tur sayisini 1'e dusurmek hala bekleyen iyilestirme.
