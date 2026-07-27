@@ -330,3 +330,23 @@ cevirme; borsa "dogrulugu" degil, TV'nin veri verdigi kod belirleyici.)
 **Yeni arac:** `99_BOT_ARSIV/kod/magicma_islem_adaylari.py` — islem adayi raporu
 artik elle degil scriptle uretiliyor (CLAUDE.md ≤%0,25 kurali, yakinliga sirali,
 yon etiketli). Kullanim: `py -3 99_BOT_ARSIV/kod/magicma_islem_adaylari.py [TARIH]`.
+
+## 2026-07-27 — Guncel tweet taramasi (+20 tweet)
+
+- `tara_guvenli.py` tam akis: hesap dogrulama OK (@420cryptofarmer) -> tarama ->
+  siniflandirma -> paket (00–10) -> GitHub push. Tek kosumda, mudahalesiz bitti.
+- **Yeni tweet: +20 (toplam 6776)** · yeni alinti +0 (128) · yeni flood +0 (1856).
+  En yeni kayit: 2026-07-27T01:56:55. Durma sebebi: 2 scroll yeni tweet yok.
+- 7 yeni medya + 4 Gemini grafigi indi. Paket: 05_GRAFIKLER.zip 102,9 MB / 674 grafik.
+- Commit `6d1fb5b` (31 dosya, +1602/-988), push OK, LFS 108 MB yuklendi.
+- **LFS kotasi: 535 MB / 1024 MB (%52) — ~4 tarama daha sigar.** (07-26'da %42 idi.)
+  Kota karari artik erteleneMEZ: 05_GRAFIKLER.zip'i git'ten cikarmak ya da eski
+  LFS surumlerini temizlemek onumuzdeki 1-2 taramada gerekecek.
+
+**Cozulmeyen (tekrar eden):** 10 alinti hala "metin kesik" — 6 dis alinti turu
+calisip hicbirini tamamlayamiyor (ayni 10 ID: 2076065170099417470,
+2071744148168684011, 2065017533371936987, 2064023815873585325,
+2064023475178598410, 2046329630873747618, 2045587086695391351,
+2038986156075872628, 1875571495164113292, 1875548019430658062). Ucu ana tweeti
+None; dordu karsilikli birbirini gosteriyor (dongu). Tur sayisini 1'e dusurmek
+~10 dk kazandirir — hala bekleyen iyilestirme.
