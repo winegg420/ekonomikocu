@@ -305,3 +305,28 @@ listesi yalnizca bugunku (en yuksek ts) kayitlardan uretildi.
 - **LFS kotasi: 427 MB / 1024 MB (%42) — tahminen 5 tarama daha siginiyor.** (07-24'te %31 idi; tarama basina ~106 MB.) Kota karari giderek aciliyor: 05_GRAFIKLER.zip'i git'ten cikarmak veya eski LFS surumlerini temizlemek gerekecek.
 
 **Gozlem (3. kez tekrar):** 6 dis alinti turu hala calisiyor, taramanin ~10 dk'sini yiyor. Dis tur sayisini 1'e dusurmek hala bekleyen iyilestirme.
+
+## 2026-07-27 — MagicMA taramasi (407/407 tam, WMT borsa kodu duzeltildi)
+
+**Yapilan:** Port 9222 Chrome kapaliydi; MagicMA gostergeli chart layout
+(`tradingview.com/chart/zOsq3cIW/`) ile ayni user-data-dir uzerinden yeniden
+acildi. Gozetmen (scratchpad `magicma_supervisor.sh`, 6 dk stall -> resume) +
+`magicma_tara_dayanikli.py` arka planda kosuldu.
+
+- Tarama tek turda bitti (~29 dk, 11:25–11:54), **kopma yok**: 406 okundu,
+  1 okunamadi (NYSE:WMT).
+- Otomatik rapor: `magicma/magicma_rapor_2026-07-27.md` (407 sembol, 286 giren).
+- Islem adayi raporu: `magicma/magicma_islem_adaylari_2026-07-27.md` — **14 aday**.
+  En yakin: TRXUSDT %-0,01 (short), EURCAD %-0,01 (short). Cogunluk long
+  (fiyat cizgi ustunde = destek) — 07-22'nin tersi.
+
+**WMT teshisi ve karar:** `NYSE:WMT` MagicMA plotlarini **∅ (bos)** donduruyor;
+ayni layout'ta `NASDAQ:WMT` degerleri okuyor (109,47). Yani bu hesap/layout icin
+calisan kod NASDAQ. 07-22'de "asil dogru NYSE" diye yapilan degisiklik taramayi
+bozmus -> `magicma/sembol_listesi/abd_hisse.txt` **NYSE:WMT -> NASDAQ:WMT** geri
+alindi, tekrar tarandi, ham + raporlar 407'ye guncellendi. (Bir daha NYSE'ye
+cevirme; borsa "dogrulugu" degil, TV'nin veri verdigi kod belirleyici.)
+
+**Yeni arac:** `99_BOT_ARSIV/kod/magicma_islem_adaylari.py` — islem adayi raporu
+artik elle degil scriptle uretiliyor (CLAUDE.md ≤%0,25 kurali, yakinliga sirali,
+yon etiketli). Kullanim: `py -3 99_BOT_ARSIV/kod/magicma_islem_adaylari.py [TARIH]`.
