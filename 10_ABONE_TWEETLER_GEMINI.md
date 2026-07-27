@@ -2,7 +2,31 @@
 
 Sadece abone donemi tweetleri (`kayit_tipi: abone`). Makro (Trump/Fed/ABD) + teknik yorumlari burada da birlestir — 02 kurallari gecerli.
 
-Toplam: **3375**
+Toplam: **3388**
+
+## 27 Tem 01:56 | `2081514127810285953` | GUMUS_PETROL | tarih, tez | abone
+
+#PETROL için, zaten Ağustos 3. gününe kadar
+zamanı var demiştim.
+
+Haftaları kurtara kurtara ilerliyorlar.
+
+Hafta başlarken pozitif haberleri bastılar.
+Bu haftada kısmen adamlara sorunsuz başladı.
+
+- media: medya/2081514127810285953/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2081514127810285953_graf_01.jpg
+
+## 27 Tem 01:51 | `2081512819170656762` | GUMUS_PETROL | yorum | abone
+
+#brent #petrol 
+
+94 #dolardan GAPLİ aşağı açtı.
+
+#barış gelmiş öyle diyorlar.
+
+- media: medya/2081512819170656762/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2081512819170656762_graf_01.jpg
 
 ## 24 Tem 22:58 | `2080744538210021450` | GENEL | vizyon, tez | abone
 
@@ -243,6 +267,40 @@ Fikrini düşünceni hırpalarlar.
 - media: —
 - gemini_grafik: —
 
+## 20 Tem 00:43 | `2078958860904390768` | GUMUS_PETROL | vizyon, seviye | abone
+
+Misal; adamın birisi sosyal medya şöyle
+paylaşımlar yapıyor.
+
+#Gramaltın 13 bin lira görecek.
+
+Adamı yerden yere vuruyorlar.
+Halbuki bu adam #yıllar içinde haklı çıkacak.
+
+Onun penceresi büyük resim.
+
+Ama #ALTIN 7800 görüyor düşüyor
+değil mi ? 
+
+O düşüşe yakalanan adamı eleştiriyor.
+Ama kimse şunu düşünmüyor
+adam zaman analizi yapmadı.
+
+- media: —
+- gemini_grafik: —
+
+## 20 Tem 00:39 | `2078957939864281203` | GENEL | yorum | abone
+
+İstiyorsanız bakışı bir daha hatırlayalım.
+Manipülasyon olmayacak şekilde kendi ülkemizden hatırlayalım.
+
+ABD üzerinden hatırlayalım.
+
+Veya başka ülkeler üzerinden.
+
+- media: —
+- gemini_grafik: —
+
 ## 20 Tem 00:04 | `2078949085977948342` | GENEL | tez | abone
 
 Net bir şekilde söyleyeyim;
@@ -295,6 +353,35 @@ mal 100 bin lira üstündeydi..
 
 - media: medya/2078167811705159803/graf_01.jpg
 - gemini_grafik: 09_GRAFIKLER_GEMINI/2078167811705159803_graf_01.jpg
+
+## 17 Tem 20:04 | `2078163938559070396` | BTC, GENEL | seviye | abone
+
+#ETHUSD 1846 yine önemlidir.
+Üstü dikleşir ama haber de lazım.
+
+Mavi trend 2060 /2157 den geçiyor
+onun üstüne atacak haber gelmiyorsa,
+böyle teknik ile ilerliyorsa, yoruluyor.
+
+#BTC de yüz vermiyor.
+
+1746 ise önemli olmaya devam eder.
+Farklı açılardan bakacağım.
+
+Şimdi tamamen üstün körü bakıyorum.
+
+- media: medya/2078163938559070396/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2078163938559070396_graf_01.jpg
+
+## 17 Tem 19:58 | `2078162395076170062` | GENEL | tarih | abone
+
+Yazım şeklimden son anda gördüğümü,
+şaşırdığımı da anlarsınız.
+
+14 Temmuz
+
+- media: medya/2078162395076170062/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2078162395076170062_graf_01.jpg
 
 ## 17 Tem 19:57 | `2078162077428936970` | GENEL | seviye | abone
 
@@ -465,6 +552,37 @@ zorundalar.
 
 Anlaşma kovalamak zorundalar.
 Enflasyonu bunun için üretiyorlar.
+
+- media: —
+- gemini_grafik: —
+
+## 17 Tem 12:54 | `2078055825789104249` | BTC, GENEL, GUMUS_PETROL | seviye, tez | abone
+
+FED e kalsa net patlatıyordu.
+Bunları bilin.
+
+Ben hep yazdım.
+
+Trump olmasın #bitcoin vs 24 K ya düşürülecekti.
+
+Grafik yukarıdadır, #NASDAQ emtia bazlı balondur.
+
+Şu an misal değildir.
+
+2024 de balondu ama...
+
+- media: —
+- gemini_grafik: —
+
+## 17 Tem 12:52 | `2078055248493412475` | GUMUS_PETROL | seviye, tez | abone
+
+Sonuç; 2025 başında ne konuştuk ?
+Trump koltuğa oturduğu gün daha #DXY kaldırıp
+#balonu patlatmalıydı.
+
+#dolar bazlı patlatmalıydı.
+
+Yapmadı.
 
 - media: —
 - gemini_grafik: —
@@ -759,6 +877,28 @@ Ama yedirmiyor.
 - media: —
 - gemini_grafik: —
 
+## 14 Tem 23:03 | `2077121737058046428` | GUMUS_PETROL | yorum | abone
+
+Eski dünyada yok.
+
+#kripto sizler kabul edin etmeyin,
+bunların işini kolaylaştırıyor.
+
+Bunlar #Kripto olmasın böyle rahat hareket mi
+edebilirler ? 
+
+Nereye ediyorlar ?
+
+#doları nerede zayıflatacaklar ?
+Diğer ülkelerin elini güçlendirmeleri lazım.
+
+#ALTIN da zayıflatırsın veya en fazla #paritelerde.
+
+Bu da diğer ülkelere yarıyor deyip zaten yapmazlar.
+
+- media: —
+- gemini_grafik: —
+
 ## 14 Tem 22:56 | `2077119972954796227` | GENEL | vizyon | abone
 
 Yoksa risk yok değil hatta fazlasıyla var.
@@ -779,6 +919,59 @@ Olaya böyle bakmak lazım.
 
 - media: —
 - gemini_grafik: —
+
+## 14 Tem 22:53 | `2077119301778063595` | BTC | seviye | abone
+
+Normalde hep söylüyorum, ne olmalıydı ?
+
+Virüs ile #bitcoin 60 70 K mı gördü ?
+Tamam onun artık savaş çıktı deyip
+aşağı düşmesi gerekiyordu.
+Düştü de 16 K geldi.
+
+Artık kaldırmamaları gerekiyordu.
+
+Riski piyasa yaşamalıydı.
+Yaşatmadılar #seçim vardı.
+
+- media: —
+- gemini_grafik: —
+
+## 14 Tem 22:50 | `2077118600196821229` | BTC | seviye | abone
+
+Son yıllardaki sıkıntı nedir ?
+2020 den sonra krizler çıkınca bunu dünyaya
+yaşatmadılar.
+
+#bitcoini trend şeklinde kullandılar.
+Böylece #faizler düşemedi.
+
+- media: —
+- gemini_grafik: —
+
+## 14 Tem 22:49 | `2077118214119588053` | BTC | seviye | abone
+
+#BİTCOİN devreye girdi.
+
+Her ne kadar millet 2017 2020 boğasını bilse de
+ilk boğa 2010 ile 2017 arasında yaşandı.
+
+1060 #USD görüldü.
+
+2017 ve 2020 boğalarını göstermeye lüzum yok
+zaten biliniyor.
+
+- media: medya/2077118214119588053/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2077118214119588053_graf_01.jpg
+
+## 14 Tem 22:41 | `2077116399042834855` | GENEL | yorum | abone
+
+Şu üç dipte siz yazın hangi varlık devreye girdi ?
+
+2010 2017 2020
+
+- media: medya/2077116399042834855/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2077116399042834855_graf_01.jpg
 
 ## 14 Tem 22:35 | `2077114806914457727` | GENEL | yorum | abone
 
