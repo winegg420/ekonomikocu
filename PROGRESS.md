@@ -350,3 +350,27 @@ calisip hicbirini tamamlayamiyor (ayni 10 ID: 2076065170099417470,
 2038986156075872628, 1875571495164113292, 1875548019430658062). Ucu ana tweeti
 None; dordu karsilikli birbirini gosteriyor (dongu). Tur sayisini 1'e dusurmek
 ~10 dk kazandirir — hala bekleyen iyilestirme.
+
+## 2026-07-28 — Guncel tweet taramasi (+13 tweet)
+
+- Baslangicta CDP 9222 kapaliydi -> `tara_guvenli.py` cikis kodu 4 verdi ("HESAP
+  OKUNAMADI, Chrome kapali"). `CHROME_X.bat` calistirilarak debug Chrome acildi;
+  kalici oturum profili sayesinde yeniden giris gerekmedi, hesap dogrulama OK
+  (@420cryptofarmer). **Cikaram:** kod 4 her zaman "yanlis hesap" demek degil;
+  Chrome kapali oldugunda da ayni kod donuyor — once CDP portunu kontrol et.
+- Tam akis tek kosumda bitti: tarama -> siniflandirma -> paket (00–10) -> push.
+- **Yeni tweet: +13 (toplam 6789)** · yeni alinti +0 (128) · yeni flood +0 (1856).
+  5 scroll, 2026-07-13'e kadar inildi, "1 scroll'dur yeni tweet yok" ile durdu.
+  En yeni kayit: 2026-07-28T02:48:08.
+- 3 yeni medya klasoru + Gemini grafikleri indi. Paket: 05_GRAFIKLER.zip
+  102,9 MB / 674 grafik. Kapsam 2026: ana metin/alinti/#FLOOD %100.
+- Commit `2fad20e` (23 dosya, +1212/-953), push OK, LFS 108 MB yuklendi.
+- **LFS kotasi: 643 MB / 1024 MB (%63) — tahmini 3 tarama daha sigar.**
+  (07-27'de %52 idi, tarama basina ~106 MB.) Kota karari artik acil: bir sonraki
+  taramadan once 05_GRAFIKLER.zip'i git'ten cikarmak ya da eski LFS surumlerini
+  temizlemek gerekiyor.
+
+**Cozulmeyen (tekrar eden):** Ayni 10 alinti hala "metin kesik" — bu turda da 6
+tur donup hicbiri tamamlanamadi ("Ilerleme yok, kalanlar isaretleniyor").
+Dordu karsilikli birbirini gosteriyor (dongu), ucunun ana tweeti None. Tur
+sayisini 1'e dusurmek ~10 dk kazandirir — hala bekleyen iyilestirme.
