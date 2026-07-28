@@ -2,7 +2,24 @@
 
 Sadece abone donemi tweetleri (`kayit_tipi: abone`). Makro (Trump/Fed/ABD) + teknik yorumlari burada da birlestir — 02 kurallari gecerli.
 
-Toplam: **3388**
+Toplam: **3390**
+
+## 27 Tem 18:40 | `2081766650269893035` | GENEL | yorum | abone
+
+Korksan kapatsan hepsi zarar yazardı.
+Beklersen kar yazarlar.
+
+- media: —
+- gemini_grafik: —
+
+## 27 Tem 18:33 | `2081764982350328318` | GENEL | yorum | abone
+
+Hepsi kar yazdı değil mi ?
+
+Dedim sana yazar.
+
+- media: —
+- gemini_grafik: —
 
 ## 27 Tem 01:56 | `2081514127810285953` | GUMUS_PETROL | tarih, tez | abone
 
