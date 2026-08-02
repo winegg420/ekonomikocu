@@ -27,6 +27,11 @@ portfoy_ozel.json
 # Gecici zip build
 99_BOT_ARSIV/_claude_zip_build/
 
+# Grafik paketi (2026-08-02: LFS kotasi %84'e ulasti, git takibinden cikarildi)
+# claude_paket_olustur.py bu dosyayi diskte uretmeye DEVAM eder — sadece commit'e
+# girmez. Claude/Gemini'ye yuklerken kok klasorden elle al.
+05_GRAFIKLER.zip
+
 # Yerel log/yedek (taranan veri yedekleri, tarama loglari)
 log/
 

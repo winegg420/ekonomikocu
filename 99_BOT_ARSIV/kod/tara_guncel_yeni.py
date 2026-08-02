@@ -62,8 +62,10 @@ def main() -> int:
                     help="Bugunden N gun geriye tara (artimli tamponu yok sayar)")
     ap.add_argument("--stop-before", dest="stop_before", default=None,
                     help="Tarama bu tarihe gelince dursun (orn: '11 Haz')")
-    ap.add_argument("--alinti-rounds", type=int, default=6,
-                    help="Alinti tamamlama tur sayisi")
+    ap.add_argument("--alinti-rounds", type=int, default=1,
+                    help="Alinti tamamlama tur sayisi (2026-08-02: 6->1; ayni 10 "
+                         "alinti 3 taramadir hicbir turda tamamlanamiyor, ek turlar "
+                         "~10 dk bosa harciyordu. Gerekirse --alinti-rounds N ile artir)")
     ap.add_argument("--alinti-per", type=int, default=40,
                     help="Alinti tamamlama tur basina adet")
     ap.add_argument("--since", default=None,

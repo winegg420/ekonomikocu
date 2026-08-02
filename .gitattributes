@@ -1,1 +1,4 @@
-05_GRAFIKLER.zip filter=lfs diff=lfs merge=lfs -text
+# 05_GRAFIKLER.zip ARTIK LFS'TE DEGIL (2026-08-02).
+# Her tarama ~106 MB yeni LFS surumu ekliyordu; 1 GB ucretsiz kota %84'e ulasti.
+# Zip artik .gitignore'da — diskte uretilmeye devam ediyor, commit'e girmiyor.
+# TEKRAR "git lfs track" ETME; kota yeniden dolar.
