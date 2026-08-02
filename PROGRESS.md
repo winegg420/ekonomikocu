@@ -411,3 +411,42 @@ purge gerek).
 (Koc sayfasindaki metin kullanildi)". Dordu karsilikli birbirini gosteriyor
 (1875571495164113292 <-> 1875548019430658062 dongusu), ucunun ana tweeti None.
 Tur sayisini 1'e dusurmek ~10 dk kazandirir — hala bekleyen iyilestirme.
+
+## 2026-08-02 (2) — LFS kotasi cozumu + alinti turu kisaltmasi
+
+**Yapilanlar (tek commit `4516daf`):**
+
+1. **05_GRAFIKLER.zip git takibinden cikarildi.**
+   - `git rm --cached 05_GRAFIKLER.zip` — dosya **diskte duruyor** (105 MB), silinmedi.
+   - `.gitignore`'a `05_GRAFIKLER.zip` eklendi.
+   - `git lfs untrack "05_GRAFIKLER.zip"` — `.gitattributes` bosaldi; icine
+     "TEKRAR git lfs track ETME" notu birakildi.
+   - `claude_paket_olustur.py` **degistirilmedi** — zip'i uretmeye devam ediyor,
+     sadece commit'e girmiyor. Claude/Gemini'ye yuklerken kok klasorden elle alinir.
+   - Dogrulama: `git lfs ls-files` (HEAD) **bos**; `git status` temiz (zip ignore'da).
+
+2. **Yerel LFS cache temizlendi.** `git lfs prune --verify-remote` →
+   8 obje silindi, 1 tutuldu. `.git/lfs` **821 MB → 5 KB** (~821 MB disk kazanci).
+
+3. **Alinti tur sayisi 6 → 1.** `tara_guncel_yeni.py:65` `--alinti-rounds`
+   varsayilani 1 oldu (gerekirse `--alinti-rounds N` ile artirilabilir).
+   Beklenen kazanc: her taramada ~10 dk.
+
+**GITHUB TARAFINDA KOTA DUSMEDI — bilerek yapilmadi:**
+Uzak LFS deposu hala **861 MB / 1024 MB (%84)**. `git rm --cached` + push yalnizca
+HEAD'i temizler; **gecmis commit'lerdeki 8 ayri zip surumu remote'ta duruyor**
+(`git lfs ls-files --all -s` → 106–109 MB x 8). `git lfs prune` sadece YEREL
+cache'i temizler, GitHub depolamasina dokunmaz. GitHub'in git uzerinden LFS objesi
+silme yolu **yok**.
+
+Kalan gercek secenekler (hepsi geri donusu zor, kullanici karari bekliyor):
+- **a)** GitHub Support'a LFS objelerinin silinmesi talebi (en guvenli).
+- **b)** Repo'yu silip yeniden olusturmak — LFS depolamasi sifirlanir; issue/star/
+  fork gecmisi kaybolur.
+- **c)** `git filter-repo` ile zip'i gecmisten cikarip force-push — pointer'lar
+  gider ama GitHub referanssiz LFS objelerini otomatik GC ETMEZ, kota yine dusmez.
+  Tek basina ise yaramaz; (a) ile birlikte anlamli.
+
+**Onemli olan:** kota artik **BUYUMUYOR**. Bundan sonraki taramalar LFS'e hicbir
+sey eklemeyecek, %84'te sabit kalacak. Acil mudahale gerekmiyor; (a)/(b) karari
+sakin sakin verilebilir.
