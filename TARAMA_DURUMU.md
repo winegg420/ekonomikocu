@@ -1,10 +1,10 @@
 # TARAMA DURUMU (@ekonomikocu)
 
-**Guncelleme:** 2026-07-28T09:00:24
+**Guncelleme:** 2026-08-02T14:20:14
 
 ## Ozet (Ida'ya)
 
-> **2026-07-28 - 2025-01 sonuna kadar kesintisiz kayit VAR (alt aylarda bosluk/sorun olabilir)**
+> **2026-08-02 - 2025-01 sonuna kadar kesintisiz kayit VAR (alt aylarda bosluk/sorun olabilir)**
 >
 > Hedef: **2025-01-01**'e kadar tum tweet + alinti + #FLOOD
 >
@@ -12,14 +12,14 @@
 
 | Metrik | Deger |
 |--------|-------|
-| En yeni kayit | **2026-07-28** |
+| En yeni kayit | **2026-08-02** |
 | En eski kayit (metinli) | **2019-11-28** |
 | Surekli tamam kadar | **2025-01-sonu** |
-| Ana tweet (metinli) | **6627** |
-| Abone (metinli) | **3390** |
+| Ana tweet (metinli) | **6667** |
+| Abone (metinli) | **3407** |
 | Bos / kilitli (eksik) | **0** |
 | Alinti eksik | **4** (+ bekleyen dosya: 10) |
-| #FLOOD kok / eksik tahmin | **7** / **1** |
+| #FLOOD kok / eksik tahmin | **8** / **1** |
 
 ## Eksik aylar / sorunlu donemler
 
@@ -29,7 +29,8 @@
 
 | Ay | Adet |
 |----|------|
-| 2026-07 | 237 |
+| 2026-08 | 12 |
+| 2026-07 | 265 |
 | 2026-06 | 3559 |
 | 2026-05 | 1391 |
 | 2026-04 | 330 |
@@ -40,7 +41,6 @@
 | 2025-09 | 12 |
 | 2025-08 | 8 |
 | 2025-07 | 8 |
-| 2025-06 | 1 |
 
 ## Bot is akisi (hedef)
 

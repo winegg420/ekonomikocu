@@ -2,7 +2,214 @@
 
 Sadece abone donemi tweetleri (`kayit_tipi: abone`). Makro (Trump/Fed/ABD) + teknik yorumlari burada da birlestir — 02 kurallari gecerli.
 
-Toplam: **3390**
+Toplam: **3407**
+
+## 2 Ağu 14:03 | `2083871363060633872` | GENEL, GUMUS_PETROL | yorum | abone
+
+İkisinin görevini anladık mı ?
+
+#gümüş SANAYİ #metallerinin öncü varlığıyken
+
+#ETHUSD teknoloji #coinlerinin öncüsüdür.
+
+- media: —
+- gemini_grafik: —
+
+## 2 Ağu 14:02 | `2083870968015970663` | GENEL, GUMUS_PETROL | yorum | abone
+
+İşte #sanayi de #gümüş nasıl öncüyse,
+bu görevi #kripto piyasasında #ETH görüyor.
+
+Bugün sen #ETH popülizmi yap
+
+bir çok #coin yükselişe geçer.
+
+Sallıyorum; #bnb #ada #xrp yükselmeye başlar.
+
+#GÜMÜŞ nasıl #çinko #bakır #alüminyum 
+tarafını hareketlendirdiyse...
+
+#ETH de #bnb #ada #xrp gibi varlıkları hareketlendirir.
+
+- media: —
+- gemini_grafik: —
+
+## 2 Ağu 13:45 | `2083866808574968041` | GENEL | yorum | abone
+
+Şu sohbeti öne çıkartıyorum.
+
+Burada bir şey anlatacağım.
+
+- media: —
+- gemini_grafik: —
+
+## 31 Tem 15:24 | `2083166954165030962` | GENEL | yorum | abone
+
+Adamlar şurada aylarca #durgunluk yapsalar
+milletin istese iflagını kurutur.
+
+- media: —
+- gemini_grafik: —
+
+## 31 Tem 15:23 | `2083166712535347624` | GENEL | vizyon | abone
+
+Daha geriye dönersek süreç 2024 de bitti.
+Bakma seçim var deyip sağa sola #gaz verdiler.
+
+- media: —
+- gemini_grafik: —
+
+## 31 Tem 14:54 | `2083159262633578744` | GUMUS_PETROL | tez | abone
+
+Normal #şartlarda olması gerekenler vardır,
+birde olmaması gerekenler.
+
+Sonuçta bunları onlar yaptı.
+
+Ama #halklar da bir noktada bunu kendileri istedi.
+
+#kripto yükseliyor, halklar şak şak yapıyor.
+#EMTİA çıkıyor, halklar şak şak yapıyor.
+#borsalar çıkıyor, halklar şak şak yapıyor.
+
+Bunların toplamı küresel #enflasyon demek
+değil midir ? 
+
+İstikrarsız bir ortam ve küreselde tüm
+para birimlerinin değer yitirmesi demek
+değil midir ?
+
+- media: —
+- gemini_grafik: —
+
+## 30 Tem 23:03 | `2082919981772165334` | GENEL | vizyon, tez | abone
+
+Başarı için şu şart.
+
+1- Zaman geçirildiğini kabul edeceksin.
+2- En uç noktalarda işleme gireceksin.
+
+Bekleye bekleye izleye izleye gideceksin.
+
+- media: —
+- gemini_grafik: —
+
+## 30 Tem 23:01 | `2082919560575918245` | GENEL | vizyon | abone
+
+Bir gün #piyasa senin istediğin yönde gidecek 
+dahi olsa belki de #kasanda paran kalmayacak....
+
+Çünkü sabırsızsan, al ver yaparak içeri giriyorsun.
+Döngünün farkında değilsen, kurtulma şansın yok.
+
+- media: —
+- gemini_grafik: —
+
+## 30 Tem 22:41 | `2082914380329504884` | GENEL | yorum | abone
+
+#JPYUSD 
+
+Bugün #BOJ kura müdahale etti diyorlar.
+
+Ben bunu demiyorum.
+
+Nerede müdahale etti diyorum ?
+
+- media: medya/2082914380329504884/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2082914380329504884_graf_01.jpg
+
+## 30 Tem 22:12 | `2082907229993177591` | GENEL | tarih | abone
+
+Haziran 15 ile EYLÜL 15 vadesini yiyorlar.
+Hacimsiz sağı solu bırakarak yiyorsunuz.
+
+- media: —
+- gemini_grafik: —
+
+## 30 Tem 22:10 | `2082906808960553382` | GENEL | tarih, tez | abone
+
+Kaç gün geçmiştir ? 
+
+Toplam yaklaşık 45 gün.
+
+ABD #borsalarında vadeler ne zaman başladı ?
+
+Haziran 15...
+
+Vadenin 45 gününü yediler.
+Al sana #zaman geçirme...
+
+- media: —
+- gemini_grafik: —
+
+## 30 Tem 20:50 | `2082886665622769868` | GENEL | tarih | abone
+
+Kardeşim, #ticaret savaşları başlayınca #kriptoyu oyun dışına ittiler.
+
+Bu da 2025 Temmuz'da oldu.
+
+O tarihten sonra ben de #kriptoya bakmayı bıraktım.
+
+- media: —
+- gemini_grafik: —
+
+## 30 Tem 14:38 | `2082792922164965564` | GENEL | yorum | abone
+
+#flood
+
+- media: —
+- gemini_grafik: —
+
+## 30 Tem 14:34 | `2082791948654432462` | GENEL | yorum | abone
+
+Şu yaşanmadı mı ?
+
+5060 a yanaştırıp düşürdüler.
+
+- media: medya/2082791948654432462/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2082791948654432462_graf_01.jpg
+
+## 30 Tem 14:33 | `2082791575860412617` | GENEL | yorum | abone
+
+Çok fazla detaylı bakmıyorum.
+
+Benimde gördüğüm çok şey var ama,
+o hareketi başlatacak dinamik yok.
+
+Örnek; geçen sene #ETHUSD 
+Nereye kadar yükselip düştü ?
+
+- media: —
+- gemini_grafik: —
+
+## 29 Tem 15:20 | `2082441248325968223` | GENEL | yorum | abone
+
+Nasıl kitliyorlar ?
+
+- media: medya/2082441248325968223/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2082441248325968223_graf_01.jpg
+
+## 29 Tem 01:40 | `2082234858173050990` | GUMUS_PETROL | tez | abone
+
+Sen Avrupa barış görüşmeleri olana kadar,
+#faiz indirip dünya #piyasalarını destekleseydin !
+
+Ve senin bu hamlenden sonra, #Avrupa barışa
+yanaşmasaydı...
+
+Üstüne ÇİN #EMTİA deseydi..
+
+Tüm #ihale bu iki ülkeye kalırdı.
+
+Dönüp derdin ki; biz #faiz indiriyoruz
+bunlar ne yapıyor ?
+
+Gördünüz mü ?
+
+Tüm dünyaya rezil ederdin.
+
+- media: —
+- gemini_grafik: —
 
 ## 27 Tem 18:40 | `2081766650269893035` | GENEL | yorum | abone
 
