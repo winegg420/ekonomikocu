@@ -374,3 +374,40 @@ None; dordu karsilikli birbirini gosteriyor (dongu). Tur sayisini 1'e dusurmek
 tur donup hicbiri tamamlanamadi ("Ilerleme yok, kalanlar isaretleniyor").
 Dordu karsilikli birbirini gosteriyor (dongu), ucunun ana tweeti None. Tur
 sayisini 1'e dusurmek ~10 dk kazandirir — hala bekleyen iyilestirme.
+
+## 2026-08-02 — Guncel tweet taramasi (+41 tweet)
+
+- CDP 9222 yine kapaliydi -> `CHROME_X.bat` ile debug Chrome acildi (Chrome 150),
+  kalici oturum profili sayesinde yeniden giris gerekmedi. Kod 4 refleksi dogru
+  calisti (once CDP kontrolu, sonra Chrome ac).
+- Tam akis tek kosumda bitti: tarama -> siniflandirma -> paket (00–10) -> push.
+- **Yeni tweet: +41 (toplam 6830)** · yeni alinti +1 (129) · yeni flood +7 (1863).
+  13 scroll, 2026-07-11'e kadar inildi, "1 scroll'dur yeni tweet yok" ile durdu.
+  En yeni kayit: 2026-08-02T14:03:44.
+- Siniflandirma paketlemeden once tamam: 6830/6830 `analyzed`, bekleyen 0
+  (tarama icinde otomatik calisti, ayrica `analiz_devam.py` cagirmaya gerek olmadi).
+- Paket: 05_GRAFIKLER.zip 104,1 MB / 682 grafik (+8 yeni Gemini grafigi).
+  Reklam/kirli 13 satir pakete alinmadi.
+- Commit `59d11ea` (tarama otomatik commit'i, ana paket burada) + `76255af`
+  (github_guncelle.py). Push OK.
+
+**YENI CIKARIM — cift zip israfi:** Tarama scripti bitiste kendi paketini uretip
+otomatik commit atiyor (`59d11ea`). Sonrasinda `claude_paket_olustur.py`'yi elle
+tekrar calistirinca 05_GRAFIKLER.zip yeniden uretildi ve **ikinci bir 104 MB LFS
+objesi** dogdu. Bu turda LFS'e 218 MB yuklendi (2 obje) — normalde ~106 MB olacakti.
+Bundan sonra: tarama bittiginde once `git log`'a bak, otomatik commit paketi zaten
+urettiyse `claude_paket_olustur.py`'yi TEKRAR CALISTIRMA, dogrudan
+`github_guncelle.py` ile kalanlari gonder.
+
+**LFS KOTASI KRITIK:** 07-28'de 643 MB / 1024 MB (%63) idi; bu turda +218 MB ile
+tahmini **~861 MB / 1024 MB (%84)**. Bir tarama daha (~106 MB) sigar, sonrasi kota
+asimi. Karar artik erteleneMEZ: bir sonraki taramadan ONCE ya 05_GRAFIKLER.zip
+git'ten cikarilmali (.gitignore + `git lfs untrack`) ya da eski LFS surumleri
+temizlenmeli (`git lfs prune --verify-remote` yeterli degil; GitHub tarafinda
+purge gerek).
+
+**Cozulmeyen (tekrar eden, 3. tur):** Ayni 10 alinti hala "metin kesik". Asama 2'de
+6 tur donuldu, hicbiri tamamlanamadi — hepsinde "Baska hesap sayfasi acilmadi
+(Koc sayfasindaki metin kullanildi)". Dordu karsilikli birbirini gosteriyor
+(1875571495164113292 <-> 1875548019430658062 dongusu), ucunun ana tweeti None.
+Tur sayisini 1'e dusurmek ~10 dk kazandirir — hala bekleyen iyilestirme.
