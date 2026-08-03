@@ -450,3 +450,49 @@ Kalan gercek secenekler (hepsi geri donusu zor, kullanici karari bekliyor):
 **Onemli olan:** kota artik **BUYUMUYOR**. Bundan sonraki taramalar LFS'e hicbir
 sey eklemeyecek, %84'te sabit kalacak. Acil mudahale gerekmiyor; (a)/(b) karari
 sakin sakin verilebilir.
+
+## 2026-08-03 — Tarama + yerel .git kaybi kurtarma
+
+**Tarama sonucu (tek giris `tara_guvenli.py`, exit 0):**
+- Chrome kapaliydi (CDP 9222 yok) → `CHROME_X.bat` ile acildi, yeniden giris gerekmedi.
+- Hesap dogrulama: @420cryptofarmer OK.
+- 8 scroll, hedef 2026-07-30'a inildi, **+15 yeni tweet** → toplam **6845**.
+- Yeni alinti +0 (129), yeni flood +0 (1863). En yeni kayit: **2026-08-03T01:23:35**.
+- Siniflandirma tamam (Analiz: 6845, izleniyor 887). Paket 00–10 uretildi,
+  reklam/kirli 13 satir pakete alinmadi.
+
+**SORUN: yerel `.git` klasoru yoktu.** Oturum basinda repo git deposu degildi
+(`.gitattributes`/`.gitignore` duruyor, `.git` yok). Uzak depo saglamdi
+(`origin/main` = 062825a). Sebep bilinmiyor — onceki oturumda LFS temizligi
+yapilmisti ama repo silinmemisti.
+
+Sonucu: `tara_guvenli.py` bitiste `github_guncelle.py` cagirdi, o da `.git`
+olmayinca **`git init` ile sifirdan repo kurup** her seyi tek root-commit
+(`51a3240`) olarak commit etti → push **rejected (fetch first)**, cunku uzak
+gecmisle akrabaligi yok.
+
+**Kurtarma (dosyalara dokunulmadan):**
+1. `git fetch --no-tags --filter=blob:none origin main` — blobsuz (partial clone)
+   fetch. Tam fetch 5 dk'da bitmedi; blobsuz ~2 dk. Eski surumlerin 100+ MB'lik
+   zip/gorsel bloblari indirilmedi.
+2. `git reset --soft origin/main` — HEAD uzak gecmise tasindi, index (calisma
+   agacinin tamami) korundu. Calisma agacina **hic dokunulmadi**.
+3. Silinen dosya var mi diye `git diff --cached --name-status --diff-filter=D`
+   kontrol edildi → **bos**. Sadece 7 ekleme (6 medya + 1 gemini grafik), 19
+   degisiklik.
+4. Commit `31641e8` + push → `062825a..31641e8 main -> main` **basarili**.
+
+**LFS:** `git lfs ls-files` bos, bu turda LFS'e **0 MB** yuklendi. Kota %84'te
+sabit kaldi — 08-02'deki untrack karari calisiyor.
+
+**Cikarimlar:**
+- `github_guncelle.py:30` `.git` yoksa sessizce `git init` yapiyor. Bu, gecmisi
+  olan bir repoda **yanlis davranis** — push'u kesin patlatir. Ileride
+  iyilestirme: `.git` yoksa `git init` yerine `git clone`/`fetch + reset --soft`
+  yolu, ya da en azindan uyarip durmak.
+- Repo artik **partial clone** (promisor remote, blob:none filtreli). Gunluk
+  tarama/commit/push icin sorunsuz; ancak eski commit'lere `checkout` yapilirsa
+  o an ag'dan blob cekilir. Tam gecmis istenirse:
+  `git fetch --refetch --no-filter origin main` (yuz MB'larca indirir).
+- Log yolu: taramanin stdout'u ayri bir dosyaya yonlendirilirse arka plan gorev
+  ciktisi bos gorunur; ilerleme icin dogrudan o log dosyasina bakilmali.
