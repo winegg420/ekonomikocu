@@ -2,7 +2,78 @@
 
 Sadece abone donemi tweetleri (`kayit_tipi: abone`). Makro (Trump/Fed/ABD) + teknik yorumlari burada da birlestir — 02 kurallari gecerli.
 
-Toplam: **3407**
+Toplam: **3416**
+
+## 3 Ağu 01:23 | `2084042454056030594` | GENEL | tarih | abone
+
+Sadece burada göze batan şu.
+Ağustos başına kadar 1846 üstü kalış pozitifti
+ama buna süre koymuşlar.
+
+Az önce bakarken gördüm.
+
+Ağustos 14. güne kadar 1846 üstü pozitif
+
+Altı zaman kaybı...
+
+Buna göre planları yapın.
+
+- media: —
+- gemini_grafik: —
+
+## 3 Ağu 01:21 | `2084041827598860390` | GENEL | vizyon, seviye | abone
+
+#ETHUSD 
+
+1 2 3 4 5..
+
+Tek çizgisi var.
+Tepki geliyor ama, yukarı gidecek #itici güç yok.
+Analizlik bir durumu yok.
+
+Yana yana veriyorlar..
+
+1846 da AYLIK robotu var.
+1746 ise haftalık robot.
+
+- media: medya/2084041827598860390/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2084041827598860390_graf_01.jpg
+
+## 3 Ağu 01:03 | `2084037410376003814` | GUMUS_PETROL | seviye | abone
+
+#ALTIN #GAPLİ yukarı açtı.
+
+Fiyat; 4079
+
+- media: —
+- gemini_grafik: —
+
+## 2 Ağu 15:18 | `2083890282337038661` | GENEL, GUMUS_PETROL | vizyon | abone
+
+Yani #kripto bitmedi.
+
+#gümüş 33 doların üzerine çıkınca, #sanayi #metalleri de hız kazandı.
+
+Bu da #dolar üzerindeki baskıyı artırdı.
+
+Bu nedenle ABD, #ETHUSD tarafında geri adım attı.
+
+Çünkü sanayi metallerindeki yükselişe bir de #kripto eklenseydi, bunun #enflasyon ve dolar üzerindeki baskıyı daha da artıracağını düşündü.
+
+Sonuç olarak #kripto tarafına giden likiditeyi kıstı.
+
+- media: —
+- gemini_grafik: —
+
+## 2 Ağu 15:04 | `2083886754679947310` | GENEL | yorum | abone
+
+Siz anladık bile demiyorsunuz.
+Fikri tartışamıyoruz.
+
+Tıkanıp kalıyoruz.
+
+- media: —
+- gemini_grafik: —
 
 ## 2 Ağu 14:03 | `2083871363060633872` | GENEL, GUMUS_PETROL | yorum | abone
 
@@ -30,6 +101,30 @@ Sallıyorum; #bnb #ada #xrp yükselmeye başlar.
 tarafını hareketlendirdiyse...
 
 #ETH de #bnb #ada #xrp gibi varlıkları hareketlendirir.
+
+- media: —
+- gemini_grafik: —
+
+## 2 Ağu 13:57 | `2083869895997989235` | GENEL, GUMUS_PETROL | yorum | abone
+
+Enflasyonu kim azdırır ?
+
+1- GÜMÜŞ
+2- ETHUSD 
+
+Bu ikisi #enflasyonu azdırır. 
+
+İşler #yolundan çıkar.
+
+Çünkü #gümüş SANAYİ #metallerinin öncüsüdür.
+O atağa kalktığı an, bir çok sanayi metali zıplar.
+
+Yani sadece kendisi yükselmez.
+Peşine bir çok metali takar. 
+
+Örnek; #çinko #alüminyum #bakır
+
+Yani #gümüş öncüdür.
 
 - media: —
 - gemini_grafik: —
@@ -189,6 +284,51 @@ Nasıl kitliyorlar ?
 - media: medya/2082441248325968223/graf_01.jpg
 - gemini_grafik: 09_GRAFIKLER_GEMINI/2082441248325968223_graf_01.jpg
 
+## 29 Tem 03:04 | `2082255923527971211` | GUMUS_PETROL | seviye, tarih, tez | abone
+
+FED çok büyük hata yaptı.
+
+2025 Temmuz ayına kadar
+şakır şakır faiz indirip,
+#kriptoyu öne çıkarmalıydı.
+
+O dönemde ÇİN,
+"#EMTİA" kartını rahat oynayamıyordu.
+
+Daha Avrupa'da #barış görüşmeleri başlamamıştı.
+
+Ortada bir #anlaşma olup olmayacağını
+kimse bilmiyordu.
+
+Bu yüzden beklemek zorundaydı.
+
+- media: —
+- gemini_grafik: —
+
+## 29 Tem 02:56 | `2082253805052166470` | GUMUS_PETROL | tez | abone
+
+Sen faiz indirmeyerek #kriptoyu zayıflattın.
+
+Çin yine "#emtia" dedi.
+
+Avrupa yine naz yaptı.
+
+#Kripto zayıflayınca #DXY masaya gelemedi.
+
+Onun yerine #petrol geldi.
+
+Sonunda da suçlanan ülke
+ABD oldu.
+
+Ve diğer ülkeler sana, dönüp dedi ki;
+sıkıyorsa #faiz deyin, #kripto ölür
+yapamazsınız.
+
+Sıkıyorsa #DXY kaldırın, yapamazsınız.
+
+- media: —
+- gemini_grafik: —
+
 ## 29 Tem 01:40 | `2082234858173050990` | GUMUS_PETROL | tez | abone
 
 Sen Avrupa barış görüşmeleri olana kadar,
@@ -210,6 +350,13 @@ Tüm dünyaya rezil ederdin.
 
 - media: —
 - gemini_grafik: —
+
+## 29 Tem 01:15 | `2082228475406983474` | GENEL | yorum | abone
+
+Buradaki mantığı anladık mı ?
+
+- media: medya/2082228475406983474/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2082228475406983474_graf_01.jpg
 
 ## 27 Tem 18:40 | `2081766650269893035` | GENEL | yorum | abone
 
