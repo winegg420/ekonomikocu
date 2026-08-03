@@ -496,3 +496,33 @@ sabit kaldi — 08-02'deki untrack karari calisiyor.
   `git fetch --refetch --no-filter origin main` (yuz MB'larca indirir).
 - Log yolu: taramanin stdout'u ayri bir dosyaya yonlendirilirse arka plan gorev
   ciktisi bos gorunur; ilerleme icin dogrudan o log dosyasina bakilmali.
+
+## 2026-08-03 (2) — .git korumasi + public veri aynasi
+
+**1. `github_guncelle.py` artik `git init` YAPMIYOR.**
+`.git` yoksa `HATA: .git bulunamadi - repo bozuk olabilir, elle kontrol et`
+yazip **exit 5** ile cikiyor (eski davranis: sessizce `git init` → root-commit →
+push rejected; bkz. 08-03 (1) kaydi). Test edildi: gitsiz klasorde exit 5.
+
+**2. Yeni public ayna repo: `winegg420/ekonomikocu-veri`.**
+Sadece 3 ham veri dosyasi, **LFS YOK** (duz blob, toplam ~7,7 MB):
+`04_TWEETLER.jsonl`, `07_ABONE_TWEETLER.jsonl`, `magicma_ham.jsonl`
+(sonuncusu ana repoda `99_BOT_ARSIV/kod/` altinda, aynada kokte duz isimle).
+
+**3. `veri_ayna_push.py` (yeni).** Ayna calisma klasoru ana repo DISINDA:
+`%LOCALAPPDATA%\ekonomikocu_veri_ayna` — boylece ana repoya hicbir sey sizmiyor.
+Her calistirmada 3 dosyayi kopyalar, degisiklik varsa commit+push, yoksa
+"Degisiklik yok" deyip cikar. Uzakta gecmis varsa `fetch + reset --soft` ile
+onun ustune oturur (ayna klasoru silinse bile yeniden kurulur).
+
+**4. `tara_guvenli.py` akisina eklendi** — tarama bittikten sonra, LFS kota
+kontrolunden once `veri_ayna_push.py` calisir. `check=False` + try/except ile
+sarili: ayna push'u patlasa bile **ana tarama akisi bozulmaz**.
+
+**Dogrulama (token'siz/anonim):** repo `private: false`, `visibility: public`,
+repo sayfasi HTTP 200, `raw.githubusercontent.com/.../magicma_ham.jsonl` HTTP 200,
+API contents 3 dosyayi gercek boyutlariyla listeliyor (LFS pointer degil).
+Ikinci calistirma "Degisiklik yok - push atlandi" verdi (idempotent).
+
+**Not:** ana repo ozel, ayna repo **public** — icinde tweet metinleri ve MagicMA
+seviyeleri var, ikisi de zaten aleni veri. Ayna repoya baska dosya eklenmemeli.

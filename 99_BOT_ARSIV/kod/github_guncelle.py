@@ -28,8 +28,8 @@ def run(cmd: list[str], cwd: Path) -> int:
 
 def main() -> int:
     if not (ROOT / ".git").is_dir():
-        run(["git", "init"], ROOT)
-        run(["git", "branch", "-M", "main"], ROOT)
+        print("HATA: .git bulunamadi - repo bozuk olabilir, elle kontrol et")
+        return 5
     r = subprocess.run(["git", "remote", "get-url", "origin"], cwd=ROOT, capture_output=True)
     if r.returncode != 0:
         run(["git", "remote", "add", "origin", REMOTE], ROOT)

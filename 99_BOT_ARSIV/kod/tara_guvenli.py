@@ -34,6 +34,11 @@ def main() -> int:
     except Exception as e:
         print(f"Tarama hatasi: {e}", flush=True)
         return 1
+    # Ham veri aynasi (public ekonomikocu-veri) — akisi BOZMAZ.
+    try:
+        subprocess.run([PY, str(KOD / "veri_ayna_push.py")], cwd=str(ROOT), check=False)
+    except Exception as e:
+        print(f"[ayna] push atlandi: {e}", flush=True)
     # Push sonrasi opsiyonel LFS kota uyarisi — bilgi amacli, akisi BOZMAZ.
     try:
         subprocess.run([PY, str(KOD / "lfs_kota_kontrol.py")], cwd=str(ROOT), check=False)
