@@ -526,3 +526,30 @@ Ikinci calistirma "Degisiklik yok - push atlandi" verdi (idempotent).
 
 **Not:** ana repo ozel, ayna repo **public** — icinde tweet metinleri ve MagicMA
 seviyeleri var, ikisi de zaten aleni veri. Ayna repoya baska dosya eklenmemeli.
+
+## 2026-08-03 (3) — MagicMA taramasi (407/407) + ayna push
+
+**Tarama:** Onceki tarama 27 Temmuz'du (7 gun bayat). Chrome 9222 aciken
+MagicMA gostergeli layout (`tr.tradingview.com/chart/zOsq3cIW/`) ayni
+user-data-dir'e yeni sekme olarak acildi. Gozetmen (scratchpad
+`magicma_supervisor.sh`, 6 dk stall -> resume) + `magicma_tara_dayanikli.py`.
+
+- **407/407 okundu, 0 okunamadi**, tek turda bitti, hic kopma yok (~55 dk).
+- Rapor: `magicma/magicma_rapor_2026-08-03.md` (407 sembol, **287 rapora girdi**).
+- Ham dosya: 4121 satir; 2026-08-03 icin 407 kayit. En yeni ts: **2026-08-03T11:13:05**.
+- 07-27'de duzeltilen `NASDAQ:WMT` bu turda da sorunsuz okundu (okunamayan yok).
+
+**Ayna push:** `veri_ayna_push.py` calistirildi -> `8ed9a42..fedba7a`.
+Ayna repodaki `magicma_ham.jsonl` **kokte** duruyor (ana repodaki
+`99_BOT_ARSIV/kod/` yolu korunmuyor, bilerek — DOSYALAR eslesmesi bunu yapiyor).
+Dogrulama: raw.githubusercontent'ten anonim indirildi, yerel dosyayla **birebir**
+ayni (4121 satir, en yeni ts 2026-08-03T11:13:05, bugun 407 kayit).
+
+**Kapsam dogrulamasi:** `veri_ayna_push.py:25-29` DOSYALAR listesi 3 dosyayi da
+iceriyor (`04_TWEETLER.jsonl`, `07_ABONE_TWEETLER.jsonl`, `magicma_ham.jsonl`);
+`tara_guvenli.py:39` her taramadan sonra bu scripti cagiriyor. Yani tweet
+taramasi da MagicMA taramasi da ayni ayna push'unu tetikliyor, 3 dosya birlikte
+guncelleniyor. Ek degisiklik gerekmedi.
+
+**Not:** Islem adayi raporu bu turda uretilmedi (istenmedi). Gerekirse:
+`py -3 99_BOT_ARSIV/kod/magicma_islem_adaylari.py 2026-08-03`.
