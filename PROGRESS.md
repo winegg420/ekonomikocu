@@ -554,3 +554,9 @@ guncelleniyor. Ek degisiklik gerekmedi.
 
 **Not:** Islem adayi raporu bu turda uretilmedi (istenmedi). Gerekirse:
 `py -3 99_BOT_ARSIV/kod/magicma_islem_adaylari.py 2026-08-03`.
+
+**Islem adayi raporu (2026-08-03):** `magicma/magicma_islem_adaylari_2026-08-03.md`
+— 407 sembolden **11 aday** (<= %0,25). En yakinlar: UUSDT %+0,01 (G-Ust ve G-Alt
+ikisi de, cizgiler ust uste), EURAUD %+0,01, CVKMD %+0,02 — hepsi long.
+Short adaylari: PETKM %-0,04 (H-2), SKBNK %-0,06 (H-1), ALARK %-0,10 (G-Alt).
+Dagilim **8 long / 3 short** — 07-27'deki (14 aday) cogunluk-long egilimi suruyor.
