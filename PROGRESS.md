@@ -534,7 +534,8 @@ MagicMA gostergeli layout (`tr.tradingview.com/chart/zOsq3cIW/`) ayni
 user-data-dir'e yeni sekme olarak acildi. Gozetmen (scratchpad
 `magicma_supervisor.sh`, 6 dk stall -> resume) + `magicma_tara_dayanikli.py`.
 
-- **407/407 okundu, 0 okunamadi**, tek turda bitti, hic kopma yok (~55 dk).
+- **407/407 okundu, 0 okunamadi**, tek turda bitti, hic kopma yok
+  (10:46:44 -> 11:13:05, **~26 dk**).
 - Rapor: `magicma/magicma_rapor_2026-08-03.md` (407 sembol, **287 rapora girdi**).
 - Ham dosya: 4121 satir; 2026-08-03 icin 407 kayit. En yeni ts: **2026-08-03T11:13:05**.
 - 07-27'de duzeltilen `NASDAQ:WMT` bu turda da sorunsuz okundu (okunamayan yok).
