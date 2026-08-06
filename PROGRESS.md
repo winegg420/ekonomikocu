@@ -560,3 +560,37 @@ guncelleniyor. Ek degisiklik gerekmedi.
 ikisi de, cizgiler ust uste), EURAUD %+0,01, CVKMD %+0,02 — hepsi long.
 Short adaylari: PETKM %-0,04 (H-2), SKBNK %-0,06 (H-1), ALARK %-0,10 (G-Alt).
 Dagilim **8 long / 3 short** — 07-27'deki (14 aday) cogunluk-long egilimi suruyor.
+
+---
+
+## 2026-08-06 — MagicMA taramasi + ekonomikocu taramasi (tam akis)
+
+**Baslangic durumu:** Chrome kapaliydi (CDP 9222 baglanamiyordu). Once
+`99_BOT_ARSIV/calistir/CHROME_X.bat` calistirildi; ardindan MagicMA layout
+sekmesi CDP `/json/new` PUT ile acildi (`https://tr.tradingview.com/chart/zOsq3cIW/`).
+Kalici profil sayesinde yeniden giris gerekmedi.
+
+**MagicMA:** supervisor (`magicma_supervisor.sh`) + `magicma_tara_dayanikli.py`
+ile **tur 1'de tek seferde bitti**: 407/407 sembol okundu, **0 okunamadi**,
+kopma/yeniden baglanma olmadi. Sure ~16 dk.
+- Rapor: `magicma/magicma_rapor_2026-08-06.md` (407 sembol, **290 rapora girdi**).
+- Islem adaylari: `magicma/magicma_islem_adaylari_2026-08-06.md` —
+  **23 aday** (<= %0,25), 08-03'teki 11 adayin iki katindan fazla.
+  En yakinlar: UUSDT %-0,02 (G-Alt + G-Ust ikisi de), IBM %-0,04, AAVEUSDT %-0,04,
+  JTOUSDT %+0,05, TABGD %+0,06, SISE %+0,06.
+  Dagilim **11 long / 12 short** — onceki turlardaki cogunluk-long egilimi
+  bu turda dengeye dondu (08-03: 8 long / 3 short).
+
+**ekonomikocu taramasi:** `tara_guvenli.py` tek girisiyle, tam akis sorunsuz:
+- Yeni tweet **+21** (toplam 6866), yeni alinti +0 (129), yeni flood +0 (1863).
+- Scroll 13/120'de durdu (bu oturumda en eski 2026-07-20, hedef 2026-07-31,
+  1 scroll boyunca yeni tweet yok) — normal artimli davranis.
+- Siniflandirma otomatik kosuldu: analiz 6866, izleniyor 890.
+- 2026 kapsam: alinti %100. Abone metinli: 3425.
+- 9 yeni grafik medyasi indirildi (`medya/` + `09_GRAFIKLER_GEMINI/`).
+- Push: ana repo `2db95cf..f20212a` (38 dosya), veri aynasi `fedba7a..0aeca25`.
+
+**Gozlem:** Commit mesajindaki `(2026-08-03T23:23:48)` damgasi commit zamani degil,
+`tara_guncel_yeni.py:172`'deki `newest2` — yani **en yeni tweetin** zamani.
+Hesabin son tweeti 08-03; 08-04..08-06 arasi yeni paylasim yok. Karistirmamak icin
+not edildi (hata degil).
