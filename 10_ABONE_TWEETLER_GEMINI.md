@@ -2,7 +2,7 @@
 
 Sadece abone donemi tweetleri (`kayit_tipi: abone`). Makro (Trump/Fed/ABD) + teknik yorumlari burada da birlestir — 02 kurallari gecerli.
 
-Toplam: **3416**
+Toplam: **3425**
 
 ## 3 Ağu 01:23 | `2084042454056030594` | GENEL | tarih | abone
 
@@ -38,6 +38,34 @@ Yana yana veriyorlar..
 
 - media: medya/2084041827598860390/graf_01.jpg
 - gemini_grafik: 09_GRAFIKLER_GEMINI/2084041827598860390_graf_01.jpg
+
+## 3 Ağu 01:10 | `2084039270226907377` | BTC | seviye, tarih | abone
+
+#btcusd 
+
+Burada robot 64.600 de..
+Haziran ayında koydular...
+
+Üstü #pozitif 
+Ama altı bekletirler.
+
+- media: medya/2084039270226907377/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2084039270226907377_graf_01.jpg
+
+## 3 Ağu 01:08 | `2084038681505997210` | GUMUS_PETROL | seviye | abone
+
+4079 değerinde #robot var.
+
+Bir #dolar üstü alış..
+Bir #dolar altı satış..
+
+Ama baskıda kurmuyorlar.
+Yukarıda vermiyorlar.
+
+Yana yana zamana oynuyorlar.
+
+- media: —
+- gemini_grafik: —
 
 ## 3 Ağu 01:03 | `2084037410376003814` | GUMUS_PETROL | seviye | abone
 
@@ -129,6 +157,21 @@ Yani #gümüş öncüdür.
 - media: —
 - gemini_grafik: —
 
+## 2 Ağu 13:53 | `2083868748851687513` | BTC, GENEL, GUMUS_PETROL | yorum | abone
+
+#BİTCOİN ile #ALTIN kanadını yarıştırdıklarını
+hep yazdım.
+
+Bunları ayrı kefeye koyuyoruz.
+Bunlar baş aktördür.
+
+Bunlar enflasyonu azdırmazlar.
+
+ABD sürekli #btc dedi ama #ETH adını çok zikretmedi.
+
+- media: —
+- gemini_grafik: —
+
 ## 2 Ağu 13:45 | `2083866808574968041` | GENEL | yorum | abone
 
 Şu sohbeti öne çıkartıyorum.
@@ -200,6 +243,40 @@ Döngünün farkında değilsen, kurtulma şansın yok.
 - media: —
 - gemini_grafik: —
 
+## 30 Tem 22:59 | `2082919088637039062` | GUMUS_PETROL | tez | abone
+
+#Piyasada para bitene kadar takılıyorlar.
+
+Eğer ki; 
+bu süreci #zaman geçirerek birisi
+yönetmesin...
+
+Sıfırlarlar.
+
+Doğru pozda olsan da fark etmiyor.
+Bu seferde #swaptan içeri sokuyorlar.
+
+Hiç bir şey olmasa reel yaşamda #enflasyona
+boğuyorlar....
+
+Bir şekilde zarar ettirmeye oynuyorlar.
+Zamanla dövüyorlar.
+
+- media: —
+- gemini_grafik: —
+
+## 30 Tem 22:56 | `2082918341845336381` | GENEL | yorum | abone
+
+Robot diyorum ama siz isterseniz #yazılım deyin.
+
+Kuruyorlar ve büyük #bankalara #piyasa yönünün
+tersine işlem aldırıyorlar...
+
+Milleti patlatıp işlerine bakıyorlar.
+
+- media: —
+- gemini_grafik: —
+
 ## 30 Tem 22:41 | `2082914380329504884` | GENEL | yorum | abone
 
 #JPYUSD 
@@ -247,6 +324,35 @@ O tarihten sonra ben de #kriptoya bakmayı bıraktım.
 
 - media: —
 - gemini_grafik: —
+
+## 30 Tem 14:50 | `2082795922975514732` | GUMUS_PETROL | tez | abone
+
+Bunların yönettiği savaşta ABD İRAN savaşı değildir.
+
+Avrupa savaşını bunlar yönetiyorlar.
+
+ABD İRAN savaşı tamamen #DOLAR'ın 
+itibarını koruma savaşıdır.
+
+Avrupa savaşını bahane edip, ÇİN veya dünya
+#altın #gümüş gibi varlıklarla #dolara savaş açtı
+düşüncesi ile burayı kaşıyorlar.
+
+#Petrolü azdırıp genel #emtia kanadını sindirtiyor
+ülkelere ayar veriyorlar.
+
+- media: —
+- gemini_grafik: —
+
+## 30 Tem 14:46 | `2082794915432452480` | GENEL | yorum | abone
+
+Geçen sene paylaşılan grafik...
+
+Çıksan da döndürürler dediğim noktaya
+çıkartıp döndürdüler.
+
+- media: medya/2082794915432452480/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2082794915432452480_graf_01.jpg
 
 ## 30 Tem 14:38 | `2082792922164965564` | GENEL | yorum | abone
 
@@ -347,6 +453,42 @@ bunlar ne yapıyor ?
 Gördünüz mü ?
 
 Tüm dünyaya rezil ederdin.
+
+- media: —
+- gemini_grafik: —
+
+## 29 Tem 01:27 | `2082231538658201941` | GUMUS_PETROL | tez | abone
+
+Ama FED ne yaptı ?
+İnatla faizler inemez dedi.
+
+#kriptoyu desteklemedi...
+
+Avrupa barış görüşmeleri negatif olunca
+ÇİN #EMTİA dedi..
+
+Avrupa #naza çekmeye başladı.
+
+Bu nazlara karşı #DXY masaya vursan
+#kripto ölür yapamazsın.
+
+- media: —
+- gemini_grafik: —
+
+## 29 Tem 01:24 | `2082230869230543166` | GUMUS_PETROL, GENEL | vizyon, seviye, tez | abone
+
+FED olarak #nasdaq 16 K ya düştüğünde,
+Avrupa barış görüşmelerine kadar faizleri indirip,
+genel #kriptoyu senin yukarı taşıman gerekiyordu.
+
+Bugün sana kimse #emtia kaprisi yapamazdı.
+
+Masaya direkt #DXY gelirdi #emtia baskılanırdı
+#kripto ölüyor korkusu yaşanmazdı.
+
+#DXY masaya gelince #petrol de düşerdi.
+
+#EUR çakılır kaprisler biterdi.
 
 - media: —
 - gemini_grafik: —
