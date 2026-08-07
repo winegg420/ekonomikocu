@@ -594,3 +594,38 @@ kopma/yeniden baglanma olmadi. Sure ~16 dk.
 `tara_guncel_yeni.py:172`'deki `newest2` — yani **en yeni tweetin** zamani.
 Hesabin son tweeti 08-03; 08-04..08-06 arasi yeni paylasim yok. Karistirmamak icin
 not edildi (hata degil).
+
+---
+
+## 2026-08-07 — ekonomikocu taramasi + MagicMA taramasi (tam akis)
+
+**Baslangic durumu:** Chrome yine kapaliydi (CDP 9222 yanit vermiyordu).
+`99_BOT_ARSIV/calistir/CHROME_X.bat` ile acildi, kalici profil sayesinde yeniden
+giris gerekmedi. Hesap dogrulamasi OK: aktif hesap @420cryptofarmer.
+
+**ekonomikocu taramasi:** `tara_guvenli.py` tek girisiyle, tam akis sorunsuz:
+- Yeni tweet **+37** (toplam **6903**). En yeni kayit girisi 2026-08-03T23:23:48.
+- Scroll, bu oturumda gorulen en eski 2026-07-13'te durdu (hedef 2026-07-31,
+  2 scroll boyunca yeni tweet yok) — normal artimli davranis.
+- Ara kurtarma turu (durak #4) devreye girdi, sayfa basina donmeden devam etti.
+- Siniflandirma: analiz **6903**, izleniyor **891**, alinti-onceden 50,
+  alinti-sonradan 1. 2026 alinti kapsami **%100** (126/126).
+- 4 yeni grafik medyasi indirildi (`medya/` + `09_GRAFIKLER_GEMINI/`).
+- Push: ana repo `737d348..d4d7749` (24 dosya), veri aynasi `0aeca25..2d0926f`.
+
+**MagicMA:** `magicma_tara_dayanikli.py` ile **tek turda bitti**: 407/407 sembol
+okundu, **0 okunamadi**, kopma/yeniden baglanma yok (~35 dk).
+Not: PROGRESS'te 08-06'da gecen `magicma_supervisor.sh` repoda yok (o oturumda
+gecici uretilmis); dayanikli script tek basina yeterli oldu.
+- Rapor: `magicma/magicma_rapor_2026-08-07.md` (407 sembol, **286 rapora girdi**).
+- Islem adaylari: `magicma/magicma_islem_adaylari_2026-08-07.md` —
+  **17 aday** (<= %0,25). En yakinlar: TSPOR %+0,00 (G-Ust, tam yapisik),
+  NXPI %-0,00 (H-1), XAUTRY %+0,02, UUSDT %-0,03 (G-Alt + G-Ust ikisi de).
+  Dagilim **5 long / 12 short** — 08-06'daki dengeden (11/12) belirgin sekilde
+  **short tarafina** kaydi.
+
+**Gozlem:** UUSDT ucuncu turdur ust uste iki cizgide birden aday cikiyor
+(G-Alt ve G-Ust cakisik) — stablecoin oldugu icin cizgiler surekli yapisik,
+gercek bir sinyal degil, filtrelenebilir bir yapisal gurultu.
+Bu turda FX cifti agirligi dikkat cekici: 17 adaydan 6'si forex (EURAUD, GBPUSD,
+EURGBP, NZDJPY x2, AUDUSD x2) ve hepsi ayni yonde toplanmiyor.
