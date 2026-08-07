@@ -2,7 +2,140 @@
 
 Sadece abone donemi tweetleri (`kayit_tipi: abone`). Makro (Trump/Fed/ABD) + teknik yorumlari burada da birlestir — 02 kurallari gecerli.
 
-Toplam: **3425**
+Toplam: **3435**
+
+## 6 Ağu 21:26 | `2085432256345112871` | GENEL | yorum | abone
+
+Yazarken bile sinirim bozuluyor.
+Böyle yönetim olur mu ?
+
+- media: —
+- gemini_grafik: —
+
+## 6 Ağu 21:25 | `2085431966552232431` | GENEL | tez | abone
+
+Kaçırmaman için işlemi açıp beklemen lazım.
+
+3 5 ay her neyse...
+
+Aynı yer de tutarsa keyfin kaçıyor,
+uğraşmak istemiyorsun.
+
+#swap var diyorsun veya komisyonu var
+her neyse..
+
+- media: —
+- gemini_grafik: —
+
+## 6 Ağu 20:30 | `2085418278894072023` | GENEL | yorum | abone
+
+Her zaman yazarım.
+Yatırımcıya #piyasa iki ihtimalli.
+
+Adamlarda 3 ihtimal var.
+Yatır geç diyorlar.
+
+- media: medya/2085418278894072023/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2085418278894072023_graf_01.jpg
+
+## 6 Ağu 20:25 | `2085416961601630314` | BTC | tarih | abone
+
+#bitcoin 
+
+Ocak ayından beri aynı yerde...
+
+- media: medya/2085416961601630314/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2085416961601630314_graf_01.jpg
+
+## 6 Ağu 20:11 | `2085413501942862066` | GENEL | yorum | abone
+
+Çok lüzumsuz dünya zaman kaybediyor.
+Ben kendi beynimde çok değişik senaryolar
+yaşıyorum.
+
+- media: —
+- gemini_grafik: —
+
+## 6 Ağu 19:48 | `2085407691434766696` | GENEL | tarih | abone
+
+Geçen sene Temmuz da ezseydi
+bugün kapris yapamazlardı.
+
+Ama o zamanda dünya piyasaları sert
+düşüyordu...
+
+Kanımca yapamadılar.
+
+- media: —
+- gemini_grafik: —
+
+## 6 Ağu 19:47 | `2085407350043689376` | GUMUS_PETROL | tez | abone
+
+Biden bunları eziyordu #EUR 1.01 idi..
+Tatlı tatlı enflasyonu yiyorlardı...
+
+TRUMP kıçlarını kaldırdı...
+
+#EUR 1.20 yaptı...
+
+- media: —
+- gemini_grafik: —
+
+## 6 Ağu 18:57 | `2085394755895062600` | GUMUS_PETROL | vizyon | abone
+
+#GBPUSD 
+
+1,38'in üzerinde kalsın...
+
+Üzerine de #pozitif bir haber gelsin;
+
+Yürür gider.
+
+Ama gitmek önemli değil...
+
+Gittiğinde #yukarıda kalabilmek önemlidir.
+
+Çünkü sen yukarı gittiğinde #dolar zayıflıyor.
+
+Bu da piyasaya da şöyle okunuyor;
+#dolar düştü cazip hâle geldi, 
+sağı solu sat #ucuz doları al..
+
+Bu sefer sağ sol sendeliyor ve ABD ye 
+para deyip ağlıyor.
+
+- media: —
+- gemini_grafik: —
+
+## 6 Ağu 18:43 | `2085391312925131230` | GUMUS_PETROL | yorum | abone
+
+Yani pozitif haber olmadan götürürsen
+millete satış fırsatı sunarsın.
+
+Ucuzdan #dolar alma fırsatı yaratırsın.
+Ama haberle beslersen renk değişir.
+
+- media: —
+- gemini_grafik: —
+
+## 6 Ağu 18:39 | `2085390228613951741` | GUMUS_PETROL | vizyon, tez | abone
+
+Kanımca şudur; 
+
+Enflasyonu dünyaya yedirmeden bunu yaparsan,
+#DXY çok ucuzlar.
+
+Ve dünya sağı solu satar, ucuz doları kapar.
+
+Bu sefer yatırımcıyı #dolardan soğutmak için,
+#faiz indirmen gerekir.
+
+O da işlerine gelmez #enflasyon iyice patlar.
+
+Bundan dolayı zaten Avrupa barışını istiyorlar.
+
+- media: —
+- gemini_grafik: —
 
 ## 3 Ağu 01:23 | `2084042454056030594` | GENEL | tarih | abone
 
