@@ -656,3 +656,9 @@ sabit tempo).
 Makro cift tarafinda hem G-Alt hem G-Ust ayni anda aday cikan semboller
 (GBPJPY, AUDUSD, NZDJPY, BTC.D, UUSDT) bantlarin daralmasina isaret ediyor.
 UUSDT dorduncu turdur cift-cizgi adayi — stablecoin yapisal gurultusu, filtrelenebilir.
+
+**Push:** Ana repo `f434d4b..8441457` (4 dosya: 2 rapor + magicma_ham.jsonl + PROGRESS).
+Veri aynasi push'u **BASARISIZ**: `winegg420/ekonomikocu-veri` icin
+`Repository not found`; anonim HTTP istegi de 404 dondu — repo silinmis/yeniden
+adlandirilmis. Ana repo ayni kimlikle sorunsuz push edildigi icin sorun yetki
+degil, repo yoklugu. Yeniden kurma karari kullaniciya birakildi.
