@@ -681,10 +681,13 @@ degil, repo yoklugu. Yeniden kurma karari kullaniciya birakildi.
 **Veri aynasi yine BASARISIZ:** `ekonomikocu-veri` reposu hala yok (404).
 Bu oturumda ikinci kez ayni hata — repo yeniden kurulana kadar her taramada tekrarlayacak.
 
-**LFS UYARISI:** Depo kullanimi **861 MB / 1024 MB (%84)** — script tahminine gore
-**yalnizca ~1 tarama daha** sigar (~106 MB/tarama, 05_GRAFIKLER.zip yuzunden).
-Kota dolmadan GitHub tarafinda eski `05_GRAFIKLER.zip` LFS surumlerinin
-temizlenmesi gerekiyor (script hicbir sey silmiyor, sadece uyariyor).
+**LFS uyarisi (YANLIS ALARM):** Script "861 MB / 1024 MB (%84), ~1 tarama daha
+sigar (~106 MB/tarama)" dedi — ama bu tahmin **eski**. Dogrulandi:
+`git lfs ls-files` bos, `05_GRAFIKLER.zip` `.gitignore:33`'te ve son commit'te yok.
+Yani 2026-08-02'deki untrack'ten beri **her tarama LFS'e 106 MB eklemiyor**;
+861 MB gecmis commit'lerde donmus duruyor ve **buyumuyor**. Uyari metnindeki
+"~1 tarama daha sigar" satiri `lfs_kota_kontrol.py`'nin guncellenmemis
+tahmin formulunden geliyor, gercek risk degil. Acil aksiyon gerekmez.
 
 **Gozlem:** Bu turda "en eski" damgasi tum scroll'larda sabit **2019-11-28 20:04:04**
 gorundu (onceki turlarda 2026-07-13 gibi guncel tarihlerdi). Sabit kalmasi
