@@ -629,3 +629,30 @@ gecici uretilmis); dayanikli script tek basina yeterli oldu.
 gercek bir sinyal degil, filtrelenebilir bir yapisal gurultu.
 Bu turda FX cifti agirligi dikkat cekici: 17 adaydan 6'si forex (EURAUD, GBPUSD,
 EURGBP, NZDJPY x2, AUDUSD x2) ve hepsi ayni yonde toplanmiyor.
+
+---
+
+## 2026-08-10 — MagicMA taramasi
+
+**Baslangic durumu:** Chrome kapaliydi (CDP 9222 yanit vermiyordu).
+`99_BOT_ARSIV/calistir/CHROME_X.bat` ile acildi. Ilk tarama denemesi
+"TradingView sekmesi bulunamadi" ile dustu — CHROME_X.bat sadece x.com aciyor,
+MagicMA layout sekmesini acmiyor. Layout CDP `/json/new` PUT ile acildi
+(`https://tr.tradingview.com/chart/zOsq3cIW/`), kalici profil sayesinde
+yeniden giris gerekmedi.
+
+**MagicMA:** `magicma_tara_dayanikli.py` ile **tek turda bitti**: 407/407 sembol
+okundu, **0 okunamadi**, kopma/yeniden baglanma yok (~15 dk, ~55 sembol/2dk
+sabit tempo).
+- Rapor: `magicma/magicma_rapor_2026-08-10.md` (407 sembol, **299 rapora girdi**).
+- Islem adaylari: `magicma/magicma_islem_adaylari_2026-08-10.md` —
+  **21 aday** (<= %0,25). En yakinlar: GBPJPY %-0,01 (G-Ust), UUSDT %-0,02
+  (G-Alt + G-Ust ikisi de), DXY %+0,11, COP %-0,12, TRGYO %+0,12.
+  Dagilim **10 long / 11 short** — 08-07'deki belirgin short agirligindan
+  (5/12) dengeye dondu.
+
+**Gozlem:** FX yogunlugu bu turda daha da arti: 21 adayin 8'i forex cifti
+(GBPJPY x2, AUDUSD x2, EURUSD, AUDJPY, EURGBP, NZDJPY x2) — 08-07'de 17'de 6'ydi.
+Makro cift tarafinda hem G-Alt hem G-Ust ayni anda aday cikan semboller
+(GBPJPY, AUDUSD, NZDJPY, BTC.D, UUSDT) bantlarin daralmasina isaret ediyor.
+UUSDT dorduncu turdur cift-cizgi adayi — stablecoin yapisal gurultusu, filtrelenebilir.
