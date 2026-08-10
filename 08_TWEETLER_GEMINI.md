@@ -3,7 +3,315 @@
 Once Cloud dosyalari: 01-06 (+ opsiyonel 07). Sonra bu dosya, 09_GRAFIKLER_GEMINI klasoru, 10_ABONE_TWEETLER_GEMINI.md.
 ZORUNLU: 02_MENTOR_REHBERI.md — Makro sentez + kalici mentor kurallari (grafik, guncel fiyat, atif).
 
-Toplam: **6856**
+Toplam: **6893**
+
+## 9 Ağu 23:59 | `2086558016602513826` | BTC | yorum | public
+
+ETF verilmemiş olsaydı ve #coinler
+BTC'nin önüne geçseydi,
+
+Nasıl geri döndürülecekti ?
+
+Ya #bitcoini düşüreceksin genel piyasa
+düşecekti..
+Ya da #DXY kaldıracaksın..
+
+- media: —
+- gemini_grafik: —
+
+## 9 Ağu 23:46 | `2086554626866708883` | BTC, GENEL | yorum | public
+
+Tüm #coinler azdı deyip elleri mahkum
+#BTC değerini de düşüreceklerdi...
+
+O düştükçe kanımca #nasdaq şelale...
+
+- media: —
+- gemini_grafik: —
+
+## 9 Ağu 23:07 | `2086545014264365242` | GENEL | yorum | public
+
+Adamlar isterse beni aylarca bekletebilir.
+
+Ben bu gerçeği neden inkar edeceğim ?
+
+- media: —
+- gemini_grafik: —
+
+## 9 Ağu 23:06 | `2086544750874656919` | GENEL | yorum | public
+
+Ben grafik paylaşırken ne diyorum ?
+
+O çizgi kırılmadan, sert yükseliş başlamaz.
+
+İlk etap #gerçeği masaya koyuyorum.
+Risk iştahımı törpülediğimi belli ediyorum.
+
+İşte yatırımcı davranışı bunu gerektirir.
+
+- media: —
+- gemini_grafik: —
+
+## 9 Ağu 22:55 | `2086541995447619919` | GENEL | yorum | public
+
+#XRPUSD 
+
+Mantık size örnek olsun.
+
+Trend aşağı bir kırılıyor #boğaya gidiyor.
+
+- media: medya/2086541995447619919/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2086541995447619919_graf_01.jpg
+
+## 9 Ağu 22:46 | `2086539539921723672` | GUMUS_PETROL | yorum | public
+
+Bir kaç tane ters ölçek grafik atayım.
+
+#ADA 
+
+Kesişim orada...
+
+O kesişimin altında mumlar kalmadan
+yükseliş başlamaz.
+
+- media: —
+- gemini_grafik: —
+
+## 9 Ağu 22:35 | `2086536887817187774` | GENEL | seviye, tez | public
+
+#ETHUSD de 3460 da TRUMP imzası var.
+
+- media: medya/2086536887817187774/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2086536887817187774_graf_01.jpg
+
+## 9 Ağu 22:33 | `2086536367249490289` | GENEL | seviye | public
+
+#ETHUSD
+
+Tersten grafiklere bakmakta psikoloji düzeltir.
+
+Alt çizgi 3460 bölgesine denk gelir.
+
+- media: medya/2086536367249490289/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2086536367249490289_graf_01.jpg
+
+## 9 Ağu 22:25 | `2086534366369394791` | GENEL | yorum | public
+
+OK...
+
+- media: medya/2086534366369394791/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2086534366369394791_graf_01.jpg
+
+## 9 Ağu 22:22 | `2086533576992981223` | GENEL | yorum | public
+
+#ETHUSD 
+
+Hatta size #grafiği ters çevirdim..
+Şu an durum daha iyi anlaşılır hale geldi.
+
+- media: medya/2086533576992981223/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2086533576992981223_graf_01.jpg
+
+## 9 Ağu 22:13 | `2086531355467214894` | GUMUS_PETROL | yorum | public
+
+Burada ise tam tersi...
+Çizgi altında mumları tutuyor.
+Hareketi başlatmıyorlar.
+
+Mumlar üstüne çıktığı an hareket başlar.
+
+- media: medya/2086531355467214894/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2086531355467214894_graf_01.jpg
+
+## 9 Ağu 22:11 | `2086530868172992961` | GUMUS_PETROL | yorum | public
+
+Orijinal görüntüsü...
+
+Çizgi üstüne alıyor AYLARI yiyorlar.
+Çizgi altına mum kaydığı an hareket başlıyor.
+
+- media: medya/2086530868172992961/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2086530868172992961_graf_01.jpg
+
+## 9 Ağu 22:08 | `2086530124493496377` | GENEL, GUMUS_PETROL | seviye | public
+
+#ETHUSD de tam tersini yapıyorlar dedik.
+
+Bu çizginin üstüne çıktığı an mumlar
+önü kısmen açılır.
+
+O çizgi de nereden geçiyor ?
+
+2060 dolar = 6 öğretisi
+2157 = 5.7 öğretisi.
+
+Yoksa bekletirler.
+
+- media: medya/2086530124493496377/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2086530124493496377_graf_01.jpg
+
+## 9 Ağu 22:06 | `2086529642970710123` | BTC | tarih, tez | public
+
+#btcusd de kripto haftası deyip mumları
+çizginin üstüne alıyorlar ve 3 4 ayı çöp 
+ediyorlar ya...
+
+Orası bir zaman geçirmedir.
+
+- media: medya/2086529642970710123/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2086529642970710123_graf_01.jpg
+
+## 9 Ağu 18:37 | `2086476964076855544` | BTC, GENEL | tez | public
+
+Yani geçen sene #bitcoin sağ omuz için
+aşağı gelmeliydi.
+
+Böylece YAZ ayı, sakin geçirilmeliydi.
+
+Bunlar bu yaz sakin geçsin deyip, #ETH sağ omzu
+bozuyorlar..
+
+:((((
+
+- media: —
+- gemini_grafik: —
+
+## 9 Ağu 18:35 | `2086476585658380761` | GENEL | tarih | public
+
+15 Ekim 2025 
+
+Yaz ayları sakin geçirilecekti diyorum.
+
+- media: medya/2086476585658380761/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2086476585658380761_graf_01.jpg
+
+## 9 Ağu 18:26 | `2086474179428098196` | GENEL | yorum | public
+
+Soruyorum.
+
+Tam tersini yapmıyorlar mı ?
+
+Ne fark var ? #ETHUSD
+
+- media: medya/2086474179428098196/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2086474179428098196_graf_01.jpg
+
+## 9 Ağu 18:25 | `2086473966902792406` | GENEL | yorum | public
+
+Elini vicdanına koy.
+Geçen sene düşen malı çizgi üstünde alıp
+aylarca yatırıyorsun...
+
+Zamana oynuyorsun.
+
+- media: —
+- gemini_grafik: —
+
+## 9 Ağu 18:22 | `2086473189425610954` | GENEL | yorum | public
+
+Yaşanmamışlıkları millet görmüyor,
+şahit olmuyor ya !
+
+Bana en büyük dert bu oluyor.
+
+- media: —
+- gemini_grafik: —
+
+## 9 Ağu 18:18 | `2086472203143450682` | GENEL | tarih | public
+
+Yaptıkları gerçekten içime dert oluyor.
+
+Geçen sene #Temmuz ayında
+“Sağlı sollu düşmeli” diyoruz.
+
+Adamlar #gazlıyorlar.
+
+Bu sene Temmuz geliyor;
+bu kez sağa sola baskı kuruyorlar.
+
+Aynı zaman dilimi,
+ama bambaşka bir oyun.
+
+Geçe sene coşmanın bedelini bu sene
+ödüyoruz.
+
+- media: —
+- gemini_grafik: —
+
+## 9 Ağu 18:00 | `2086467640717885548` | BTC | seviye | public
+
+Bunu anlamayan kaldı mı ? 
+
+2025 de ne yapıyorlar ?
+
+#BTCUSD de tarafını yukarı #çizgi üstüne zorla alıyorlar.
+
+Ben o dönem düşmeliydi sağ omuza gelmeliydi
+deyip kendimi yırttım.
+
+- media: medya/2086467640717885548/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2086467640717885548_graf_01.jpg
+
+## 8 Ağu 16:25 | `2086081277300474282` | GUMUS_PETROL | tez | public
+
+Trump #seçim döneminde iki vaatte bulunmuştu.
+
+1- Avrupa #barışını sağlayacağım, böylece #enflasyon
+durulacak, #enerji fiyatları çakılacak...
+
+2- Kriptoları coşturacağım.
+
+Avrupa #barışını sağlayamadı.
+
+Bu barış sağlanamayınca, ÇİN #EMTİA ile
+#doları hedef aldı...
+TRUMP delirdi.
+
+Hem #barış gelmiyor, #vaat çöp oldu.
+Barış gelmiyor diye, #emtia azdı.
+
+#EMTİA demek #enflasyon baskısı demekti
+#faiz indirmek imkansızdı.
+
+#EMTİA azarken #kripto savunamazsın
+ÇİN devleti yüz bulur iyice #emtia savunursa
+#dolar kepaze olabilirdi.
+
+- media: —
+- gemini_grafik: —
+
+## 7 Ağu 16:26 | `2085719161758425530` | GUMUS_PETROL | seviye, tarih, tez | public
+
+Sohbetini yapmıştık.
+Ağustos ayına kadar zamanı vardı.
+
+Baskılayıp yukarı verdiler.
+
+Kısa vade bakıyorsanız #XAUUSD bazında
+4336 altında kapanış görmeniz gerekir.
+
+- media: —
+- gemini_grafik: —
+
+## 7 Ağu 16:23 | `2085718447078482333` | GUMUS_PETROL | yorum | public
+
+#GOLDGR 
+
+Hareket nerede başladı ?
+Nereye uzadı ?
+
+- media: medya/2085718447078482333/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2085718447078482333_graf_01.jpg
+
+## 7 Ağu 14:53 | `2085695778580779227` | GUMUS_PETROL | tez | public
+
+Not; #gümüş çakılsın demiyorlar.
+Azdırılmasın diyorlar.
+
+Reel ekonomi için ederi neyse, o olsun.
+
+- media: —
+- gemini_grafik: —
 
 ## 7 Ağu 14:44 | `2085693534384845236` | GUMUS_PETROL | tez | public
 
@@ -48,6 +356,22 @@ bende #petrolü savunmam diyorlar.
 2- Dünya #dijital varlıklara geçecek ve
 reel ekonomileri ilgilendiren varlıklar
 rafa kalkacak.
+
+- media: —
+- gemini_grafik: —
+
+## 7 Ağu 13:58 | `2085681904804643044` | GENEL | yorum | public
+
+Sonradan, "Neden bu kadar zaman boşa geçirildi
+veya geçiriliyor ?'' düşüncesi oluşmasın diye bunları yazıyorum.
+
+- media: —
+- gemini_grafik: —
+
+## 7 Ağu 13:51 | `2085680132581154879` | GENEL | tez | public
+
+Dünya dijital varlıklara geçip, kendi ayağına
+sıkmayı bırakana kadar zaman geçirirler.
 
 - media: —
 - gemini_grafik: —
@@ -450,6 +774,97 @@ Sana iki grafik atacağım.
 - media: —
 - gemini_grafik: —
 
+## 4 Ağu 19:06 | `2084672348158902339` | GUMUS_PETROL | yorum | public
+
+Herkes #savaştan nemalanmaya çalışıyor.
+#Enflasyonu bahane edip ekonomilere
+nasıl para çekeriz telaşına düşüyor.
+
+- media: —
+- gemini_grafik: —
+
+## 4 Ağu 18:58 | `2084670237455106384` | GUMUS_PETROL | yorum | public
+
+Peki #doları neden savunmuyorlar ?
+
+#Savaşlar var.
+
+Piyasalar güçlü #dolar teması ile çökseydi,
+dünya #para deyip, AĞLAYACAKTI....
+
+Vermek istemiyorlar.
+
+Bunun yerine #zamana yayılan #dolar zayıf
+temasını sürdürüyorlar.
+
+- media: —
+- gemini_grafik: —
+
+## 4 Ağu 18:40 | `2084665803719266756` | GUMUS_PETROL | seviye, tarih, tez | public
+
+Şunu #net söyleyebilirim.
+TRUMP olmasaydı #çökertirlerdi.
+
+Hatta dünya bir kaç kez, çökme aşamasına geldi.
+Burada çok sohbetini yaptık.
+
+2024 son çeyrek #piyasalar çökmeliydi.
+2025 Temmuz #piyasalar çökmeliydi.
+
+Ama #doları zayıflattığı için bunlar yaşanmadı.
+
+- media: —
+- gemini_grafik: —
+
+## 4 Ağu 18:38 | `2084665220455174447` | GENEL | vizyon | public
+
+İnsanlar yıllardır bizden şunu duymayı bekliyor;
+
+"Sağlam bir çöküş gelecek."
+
+Ya da...
+
+"Sağlam bir patlama gelecek."
+
+Oysa piyasalar her #zaman bu kadar keskin senaryolarla ilerlemeyebiliyor.
+
+- media: —
+- gemini_grafik: —
+
+## 4 Ağu 17:37 | `2084649996675174409` | BTC | yorum | public
+
+#BTCUSD 
+
+Çok #detaycılık bazen #hata yapılmasına olanak sağlar.
+
+Bu grafik ne diyor ?
+
+Buyurun siz yorumlayın.
+
+- media: medya/2084649996675174409/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2084649996675174409_graf_01.jpg
+
+## 4 Ağu 17:34 | `2084649143125807465` | GENEL | vizyon | public
+
+Şunu anlatıyorum.
+
+Orada sana #bant yapar ve içinde mumları
+isterlerse, aylarca ileri geri oynatırlar.
+
+- media: —
+- gemini_grafik: —
+
+## 4 Ağu 17:23 | `2084646420225654863` | GENEL | yorum | public
+
+#NASDAQ mı ?
+
+Abicim; kısa hareketleri bırakın.
+
+Sizden ricam #ANA hatlara hakim olun.
+
+- media: —
+- gemini_grafik: —
+
 ## 3 Ağu 23:23 | `2084374698486305275` | GENEL | tez | public
 
 Yakışmadı...
@@ -483,6 +898,33 @@ Konu; İRAN
 #Savaş neden çıktı demiyoruz.
 
 Çıkma olasılığını hesaplıyoruz.
+
+- media: —
+- gemini_grafik: —
+
+## 3 Ağu 16:13 | `2084266354887057468` | BTC, GUMUS_PETROL | seviye, tarih | public
+
+9 Ekim 2025 
+
+#BİTCOİN #altın
+
+- media: medya/2084266354887057468/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2084266354887057468_graf_01.jpg
+
+## 3 Ağu 15:54 | `2084261647036608695` | GENEL | yorum | public
+
+Sizlere itibar edene kadar,
+yatırımcılar kendi ülkelerine yatırım yapsa,
+en azından para kendi ülkesinde kalırdı.
+
+- media: —
+- gemini_grafik: —
+
+## 3 Ağu 15:08 | `2084249981288869915` | GENEL | tez | public
+
+Bırakın bu işleri....
+
+Müdahale resmen #SEÇİM için geldi.
 
 - media: —
 - gemini_grafik: —
@@ -84369,56 +84811,56 @@ Dünya asla #Ayı piyasası yaşamadı.
 - media: —
 - gemini_grafik: —
 
-## 24 Nis 15:00 | `MANUEL-20250605-01` | BTC, GENEL | seviye, tarih | public
+## 24 Nis 09:00 | `MANUEL-20250605-01` | BTC, GENEL | seviye, tarih | public
 
 #Ethusd yi anlatmaya bile gerek yok. 2460 üstü zaten pozitifti. Sabah 2776 ya kafa atmış ama geri çekilmiş.. BTC yi baskılıyorlar negatif etkileniyor. Buradaki seviyeler değişmeyecektir. Ama Haziran 8 e kadar 2570 2776 arası önemlidir.
 
 - media: —
 - gemini_grafik: —
 
-## 15 Nis 19:52 | `MANUEL-20250527-02` | GENEL, GUMUS_PETROL | tez | public
+## 15 Nis 13:52 | `MANUEL-20250527-02` | GENEL, GUMUS_PETROL | tez | public
 
 #Eth #gümüşü geçecek ama acele etmiyorlar. 'Zaman geçiriyorlar'
 
 - media: —
 - gemini_grafik: —
 
-## 13 Nis 23:03 | `MANUEL-20250525-04` | GENEL | yorum | public
+## 13 Nis 17:03 | `MANUEL-20250525-04` | GENEL | yorum | public
 
 Ara değerler var hesaplama şekilleri var ama detaya burada giremiyorum.
 
 - media: —
 - gemini_grafik: —
 
-## 13 Nis 23:02 | `MANUEL-20250525-03` | GENEL | yorum | public
+## 13 Nis 17:02 | `MANUEL-20250525-03` | GENEL | yorum | public
 
 Atar mı ? 😎😎😎😎😎😎
 
 - media: —
 - gemini_grafik: —
 
-## 13 Nis 23:01 | `MANUEL-20250525-02` | GENEL, GUMUS_PETROL | seviye, tez | public
+## 13 Nis 17:01 | `MANUEL-20250525-02` | GENEL, GUMUS_PETROL | seviye, tez | public
 
 Zaman geçirme böyle lanet bir şey işte.. Gerçek bir yükseliş olabilmesi için #Eth nin 7600 dolar civarına kafa atması gerekir.
 
 - media: —
 - gemini_grafik: —
 
-## 13 Nis 23:00 | `MANUEL-20250525-01` | BTC | vizyon, seviye, tez | public
+## 13 Nis 17:00 | `MANUEL-20250525-01` | BTC | vizyon, seviye, tez | public
 
 @ekonomikocu adlı kişiye yanıt olarak. Şu konjonktür de #BTC 130 K görsün anca iş yapar piyasalar. 120 125 bile kurtarmıyor. O bile bir sürecin devamı oluyor.
 
 - media: —
 - gemini_grafik: —
 
-## 10 Nis 10:45 | `MANUEL-20250522-03` | GENEL | yorum | public
+## 10 Nis 04:45 | `MANUEL-20250522-03` | GENEL | yorum | public
 
 Burayı trade ediyorlar çaktırmıyorlar.
 
 - media: —
 - gemini_grafik: —
 
-## 10 Nis 09:45 | `MANUEL-20250522-01` | GUMUS_PETROL | seviye, tez | public
+## 10 Nis 03:45 | `MANUEL-20250522-01` | GUMUS_PETROL | seviye, tez | public
 
 Aylıkta 3368 önemli. Günlükte 3306 altı kalış satış baskısına sokar. Haftalıkta 3276 altı kalışlar, satış baskısına anca sokar. belinin kırılması için de 3257 altında kalması gerekir.
 
@@ -85206,21 +85648,21 @@ Bu tarihteki hikmet nedir ?
 - media: —
 - gemini_grafik: —
 
-## 13 Tem 18:05 | `MANUEL-20240824-03` | BTC | yorum | public
+## 13 Tem 12:05 | `MANUEL-20240824-03` | BTC | yorum | public
 
 BTC bu işin fenomen, reklam ayağı gibi düşünün. Fenomenler şu malı alın dediklerinde nasıl insanlar varlıkları alıyorsa ABD nin fenomeni de BTC dir.
 
 - media: —
 - gemini_grafik: —
 
-## 13 Tem 18:02 | `MANUEL-20240824-02` | BTC | yorum | public
+## 13 Tem 12:02 | `MANUEL-20240824-02` | BTC | yorum | public
 
 Tamamı değil sadece BTC onlara hizmet ediyor.
 
 - media: —
 - gemini_grafik: —
 
-## 13 Tem 18:00 | `MANUEL-20240824-01` | BTC, GUMUS_PETROL | tez | public
+## 13 Tem 12:00 | `MANUEL-20240824-01` | BTC, GUMUS_PETROL | tez | public
 
 Özet; kriptolar ABD nin ihtiyaç dahilinde doları zayıflatmak için kurduğu bir sistemdir. BTC ABD ye çalışıyor.
 
@@ -85264,7 +85706,7 @@ Kadın otururken motorlu bir adam geliyor teselli
 - media: —
 - gemini_grafik: —
 
-## 16 Haz 21:00 | `MANUEL-20240728-01` | GENEL, GUMUS_PETROL | vizyon, seviye | public
+## 16 Haz 15:00 | `MANUEL-20240728-01` | GENEL, GUMUS_PETROL | vizyon, seviye | public
 
 #GÜMÜŞ tarihi zirvesi 48 usd dir. #ETH tarihi zirvesi 4800 dür.
 
