@@ -173,3 +173,55 @@ Mentor oturumunda çıkan BTC/kripto makro sentezi (kalıcı not).
 
 **5. Davranış notu:**
 - Koç son floodlarda kendi **eski tweet SS'lerini alıntılayarak** geçmiş çağrılarının tuttuğunu ispatlıyor (yeni seviye değil, **doğrulama**).
+
+## 2026-08-10 GÜNCELLEME — Temmuz-Ağustos sentezi (7 haftalık boşluk kapatıldı)
+
+> Kaynak: 04_TWEETLER.jsonl, 2026-07-01 → 2026-08-09 arası, 152 kayıt (yorum hariç). Ham veri tarama 9 Ağustos'a kadar tam; bu bölüm o veriyi sentezliyor.
+
+**1. Ana tez sağlam — "zaman geçiriyorlar" temposu arttı, kırılma yok:**
+- Temmuz-Ağustos boyunca aynı çerçeve tekrar tekrar işlendi: Ocak-Mart Çin gümüş şantajı (3 ay) → Mart-Haziran ABD petrol şantajı (3 ay) → Haziran-Eylül içinde barış/vade bekleniyor.
+- 9 Ağustos: geçen yıl aynı dönemde ("kripto haftası") mumlar zorla çizgi üstüne alındı, 3-4 ay çöpe gitti — bu yıl da aynı desen tekrarlanıyor tespiti.
+
+**2. Temmuz 9-11 penceresi geçti — SONUÇSUZ, yeni hedef Ağustos 3. hafta:**
+- 10 Temmuz: *"Neyse Ağustos 3. haftaya kadar gelsinler bakalım..."* — Temmuz penceresinden somut bir kırılma/karar çıkmadı, tarih ötelendi.
+- Ağustos 3. hafta (bugün 10 Ağu, pencere hâlâ önümüzde) — **SONUÇ HENÜZ YOK, İZLENİYOR.**
+
+**3. BTC — yeni seviyeler eklendi (public, TUTMADI/TUTTU değil, referans niteliğinde):**
+- **82K** (1 Tem) — yukarı denendi, çevrildi. **84K** üstünde "robot" (direnç) olduğu belirtildi — 82K aşılamadı.
+- **114.250** — "Avrupa savaşının dengesi" olarak verilen teorik üst seviye (1 Tem); ABD-Çin dengesi 84K, Avrupa savaşı dengesi 114.250 diye ayrıştırıyor.
+- **126K** (Ekim 2025 zirvesi) tekrar tekrar "bu boğa değil, enflasyondur" diye hatırlatılıyor (1 Ağu) — Koç zirveyi baştan beri boğa sinyali saymamış, tutarlı.
+- **65.700** (14 Tem) altı baskı; **64.600** (18 Haziran referansı, 26 Tem tekrar anıldı); **63-68K** savaş/İran kanalı olarak 2024 paraleliyle anılıyor.
+- **60K** — "büyük resmin pivotu" (11 Tem): altında fakirleşme, üstünde zenginleşme çerçevesi — bu, 06_ANALIZ mevcut BTC 60K-altı-dip senaryosuyla uyumlu, güçleniyor.
+- 9 Ağustos: geçen yıl BTC "sağ omuz" için düşmesi gerekirken zorla yukarı tutulduğu, bu yıl aynı taktiğin ETH üzerinde uygulandığı iddiası (aşağıda ETH).
+
+**4. ETH — yeni kritik seviyeler (Temmuz-Ağustos yoğun):**
+- **3300** — "sabit rakam", üstünde kalmak kazançtır ama "boğa" demek için yeterli değil (12 Tem).
+- **6.000 kalıcı kapanış** şartı tekrarlandı (12 Tem) — mevcut 06'daki ETH 6000 boğa eşiğini teyit ediyor.
+- **1746** (10 Tem, 6 ay oyalanan seviye), **1850-1920** bandı (23 Temmuz-1 Ağustos, gram gümüş/ETH paritesi örnekleriyle), **1870** (3 Ağu).
+- **2060** = "6 öğretisi", **2157** = "5.7 öğretisi" (9 Ağu) — öğreti sistemine yeni ETH eşikleri.
+- **3460** — "alt çizgi" / ters grafik okumasında Trump imzası olan seviye (9 Ağu) — net anlamı belirsiz, izlenecek.
+- 9 Ağustos: Koç, BTC geçen yıl sağ omuz için aşağı çekilirken bu yıl **ETH'nin sağ omzunun zorla bozulduğunu** iddia ediyor — yani ETH üzerinde manipülatif baskı okuması yapıyor. Bu Ida'nın ETH duruşuyla (uzun vade 10K hedef, satmıyor) doğrudan çelişmiyor ama kısa vadede baskı beklentisini teyit ediyor.
+
+**5. Gümüş/Altın:**
+- Gümüş **60.17** (1 Tem), **61.90** (2 Tem), **60 dolar** (23 Tem) — mevcut 06'daki 68$ kritik taban tezinin ALTINDA fiyatlandı bu dönemde; yani gümüş kritik tabanın altına sarktı — bu 06'daki "68$ kritik floor" çerçevesiyle çelişkili/güncellenmesi gereken bir nokta, Ida'ya böyle aktarılmalı.
+- **XAUUSD 4336 altı kapanış** kısa vadeli düşüş şartı olarak verildi (7 Ağu) — mevcut 4376 taban seviyesinin biraz altında yeni bir referans.
+
+**6. Makro/Fed — yeni ve önemli:**
+- **6 Ağustos:** Fed Başkanı **Kevin Warsh** (yeni başkan) — enflasyon beklenenden yüksek gelirse **Eylül'de faiz artırabileceğini** söylüyor. Bu, Koç'un "faiz indirilmiyor, zaman geçiriliyor" tezini doğrudan destekleyen somut bir gelişme — dikkat: bu Koç'un kendi sözü değil, Koç'un aktardığı/yorumladığı bir haber, ayırt edilmeli.
+- Koç'un yorumu: Trump'ın faiz indirimini "dinletemediği", bunun yerine doları BTC/kripto üzerinden zayıflatmaya çalıştığı, bunun emtia ülkelerini tahrik ettiği tezi Temmuz-Ağustos boyunca sürekli tekrarlanıyor.
+- **NASDAQ:** 29.700 referansı teyit edildi + **30K gördü**; **DOW 54K gördü** (12 Tem) — DOW'un 06'daki 48.500 referansından daha da yükseldi, "kalıcı ralli yok" tezini zorlayan taraf güçlenmeye devam ediyor.
+
+**7. Karne güncellemesi (H tablosuna ek):**
+| Çağrı | Tarih | Sonuç |
+|---|---|---|
+| Temmuz 9-11 karar penceresi | işaret: 22 May/3 Haz | **SONUÇSUZ / ÖTELENDİ** — 10 Tem "Ağustos 3. haftaya kadar gelsinler" |
+| BTC 82K üstü / 84K direnç | 1 Tem | **TUTTU** (84K aşılamadı, geri çevrildi) |
+| DOW 48.500 referans | 29 Nis | **TUTTU AMA ZORLANDI** — 54K gördü (12 Tem), tez gerginliği arttı |
+| Gümüş 68$ kritik taban | önceki (Haziran) | **AŞAĞI KIRILDI** — Temmuz'da 60-62$ bandında işlem gördü |
+
+**8. Açık kalan / hâlâ izlenen:**
+- Ağustos 3. hafta penceresinin somut sonucu henüz yok — bir sonraki taramada (Ağustos 15-25 aralığı) özellikle bakılacak.
+- BTC 52K→40K aşağı hedefi (21 Mayıs) hâlâ gerçekleşmedi — Temmuz-Ağustos'ta BTC 60-84K bandında kaldı, bu hedef fiilen ıskalanmış görünüyor ama Koç bunu resmen "tutmadı" demedi — İZLENİYOR olarak kalsın.
+- ETH 3460 / Trump imzası seviyesinin tam anlamı net değil — grafik doğrulaması gerekiyor.
+
+---
