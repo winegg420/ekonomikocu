@@ -662,3 +662,32 @@ Veri aynasi push'u **BASARISIZ**: `winegg420/ekonomikocu-veri` icin
 `Repository not found`; anonim HTTP istegi de 404 dondu — repo silinmis/yeniden
 adlandirilmis. Ana repo ayni kimlikle sorunsuz push edildigi icin sorun yetki
 degil, repo yoklugu. Yeniden kurma karari kullaniciya birakildi.
+
+---
+
+## 2026-08-10 — ekonomikocu taramasi (tam akis)
+
+**ekonomikocu taramasi:** `tara_guvenli.py` tek girisiyle, tam akis sorunsuz:
+- Yeni tweet **+38** (toplam **6941**). En yeni kayit girisi 2026-08-09T23:59:32
+  (commit damgasi da bu — commit zamani degil, en yeni tweetin zamani).
+- Scroll 15/120'de durdu (2 scroll boyunca yeni tweet yok) — normal artimli davranis.
+  Ara kurtarma turu (durak #4) scroll 11'de devreye girdi, +7 tweet daha getirdi.
+- Siniflandirma: analiz **6940**, izleniyor **897**, alinti-onceden 50,
+  alinti-sonradan 1. 2026 alinti kapsami **%100** (126/126), #FLOOD kok %100 (8/8).
+  Abone (metinli): **3435**.
+- **15 yeni grafik medyasi** indirildi (`medya/` + `09_GRAFIKLER_GEMINI/`), toplam 699 grafik.
+- Push: ana repo `1670e26..9e3b000` (43 dosya).
+
+**Veri aynasi yine BASARISIZ:** `ekonomikocu-veri` reposu hala yok (404).
+Bu oturumda ikinci kez ayni hata — repo yeniden kurulana kadar her taramada tekrarlayacak.
+
+**LFS UYARISI:** Depo kullanimi **861 MB / 1024 MB (%84)** — script tahminine gore
+**yalnizca ~1 tarama daha** sigar (~106 MB/tarama, 05_GRAFIKLER.zip yuzunden).
+Kota dolmadan GitHub tarafinda eski `05_GRAFIKLER.zip` LFS surumlerinin
+temizlenmesi gerekiyor (script hicbir sey silmiyor, sadece uyariyor).
+
+**Gozlem:** Bu turda "en eski" damgasi tum scroll'larda sabit **2019-11-28 20:04:04**
+gorundu (onceki turlarda 2026-07-13 gibi guncel tarihlerdi). Sabit kalmasi
+zaman tunelinin tepesindeki **sabitlenmis (pinned) tweet** oldugunu gosteriyor —
+tarama derinligiyle ilgili bir sorun degil, artimli durma kurali yine
+"2 scroll boyunca yeni yok" ile calisti.
