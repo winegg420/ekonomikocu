@@ -694,3 +694,44 @@ gorundu (onceki turlarda 2026-07-13 gibi guncel tarihlerdi). Sabit kalmasi
 zaman tunelinin tepesindeki **sabitlenmis (pinned) tweet** oldugunu gosteriyor —
 tarama derinligiyle ilgili bir sorun degil, artimli durma kurali yine
 "2 scroll boyunca yeni yok" ile calisti.
+
+---
+
+## 2026-08-11 — ekonomikocu taramasi (tam akis)
+
+**Chrome kapali baslangic:** Ilk `tara_guvenli.py` denemesi CDP'ye baglanamadi
+(`ECONNREFUSED 127.0.0.1:9222`) — Chrome hic acik degildi. `CHROME_X.bat`
+calistirildi, port 9222 dogrulandi (Chrome/151.0.7922.77).
+
+**Ikinci deneme cikis 4 (soguk acilis):** Chrome acildiktan ~12 sn sonra
+`hesap_dogrula.py` handle okuyamadi ("HESAP OKUNAMADI"). Yanlis hesap degil —
+`hesap_dogrula.py:34-35` x.com/home'u acip yalnizca **2500 ms** bekliyor;
+soguk baslatilan Chrome'da sol menu (`AppTabBar_Profile_Link`) o surede
+render olmamis. **Cikarim:** CHROME_X.bat'tan sonra taramaya gecmeden once
+Chrome'un isinmasini bekle; ucuncu denemede ayni kod degismeden
+"OK — aktif hesap @420cryptofarmer" verdi. Cikis kodu 4'un ucuncu nedeni bu
+(digerleri: yanlis hesap, Chrome kapali).
+
+**Tarama sonucu:** Yeni tweet **+6** (toplam **6946**). Yeni alinti +0 (130),
+yeni flood +0 (1863). Scroll 8/120'de durdu — "bu oturumda gorulen en eski
+2026-07-29, hedef 2026-08-06, 1 scroll'dur yeni tweet yok".
+Ingilizce(kirli) 0, reklam/kirli atlanan 13 satir (pakette yok).
+Yeni medya: `2086088516832842152/graf_01.jpg` (+ Gemini kopyasi).
+
+**Bos scroll serisi yaniltici:** Scroll 3-6 boyunca **+0 yeni** geldi, ama
+scroll 7'de tekrar +3 tweet cikti. Durma kurali salt "2 bos scroll" degil;
+hedef tarihe ulasilmasi da sarta dahil. Bos seri gorunce taramayi erken
+oldurme — kendi durma mantigina birak.
+
+**Push:** Ana repo `52f2b55..1d8a646` (20 dosya, +1176/-980).
+
+**Veri aynasi yine BASARISIZ (ucuncu kez):** `ekonomikocu-veri` reposu 404
+(GitHub API ile dogrulandi; ana repo 200). Repo yeniden kurulana kadar her
+taramanin sonunda ayni hata tekrarlayacak — tarama sonucunu etkilemiyor.
+
+**Bilinen eksik:** 130 alintinin **10'u** hala metinsiz
+("EKSIK: 10 alinti — tekrar: ALINTI_TAMAMLA.bat"). Onceki turdan devreden
+kalinti, bu turda +0 alinti geldigi icin degismedi.
+
+**LFS:** Yine "%84 (861/1024 MB)" uyarisi — 2026-08-10 kaydindaki gibi
+**yanlis alarm**; rakam gecmis commit'lerde donmus, tarama basina buyumuyor.
