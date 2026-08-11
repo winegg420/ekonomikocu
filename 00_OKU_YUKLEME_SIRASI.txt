@@ -14,11 +14,11 @@ Claude Project: GitHub repo bagla veya clone. Yerel yukleme yedek.
 
 === GEMINI — 06'dan sonra ===
 8. 08_TWEETLER_GEMINI.md
-9. 09_GRAFIKLER_GEMINI/  (699 jpg)
+9. 09_GRAFIKLER_GEMINI/  (700 jpg)
 10. 10_ABONE_TWEETLER_GEMINI.md
 
-Guncelleme: 10.08.2026 11:22
-Public: 6906 | Abone metinli: 3435
+Guncelleme: 11.08.2026 13:44
+Public: 6912 | Abone metinli: 3435
 Abone bos kilitli: 0
 Paket yenile: python 99_BOT_ARSIV/kod/claude_paket_olustur.py
 GitHub gonder: python 99_BOT_ARSIV/kod/github_guncelle.py
