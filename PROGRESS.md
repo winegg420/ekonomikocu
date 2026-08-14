@@ -766,3 +766,53 @@ bu ayrımı zorunlu kıldı.
 **Not:** Paket scripti ÇALIŞTIRILMADI (104 MB zip + LFS israfı). Sadece
 py_compile + `basla_md`/`build_mentor_md` render testi yapıldı, çıktı doğru.
 İlk gerçek doğrulama bir sonraki taramada olacak.
+
+---
+
+## 2026-08-15 — 11 ve 06 karne yapısı + Berk Dinçtürk yeniden yapılandırma
+
+**11_DIS_KAYNAKLAR.md — KARNE alt-bölümleri.** Her kaynağın altına
+`Tarih | İddia | Sonuç` tablosu eklendi (7 kaynak). Emrah Altınocağı'na
+eklenmedi: bölüm falsifiye edilebilir seviye/hedef içermiyor, sadece haber
+aktarımı.
+
+**06_ANALIZ.md — birleşik KARNE.** Karne notları 3 ayrı yerde birikmişti
+(H tablosu ~105, J karne notu ~140, 2026-08-10 §7 ~214, artı §2/§8 metin
+notları). Hepsi tek `### KARNE — Koç` tablosunda toplandı. **Eski dağınık
+haller SİLİNMEDİ**, referans olarak duruyor — üst 227 satır byte-byte aynı.
+Çelişkide en güncel kayıt esas alındı (DOW: H "TUTTU" → §7 "TUTTU AMA
+ZORLANDI").
+
+**Karar — etiket seti 4'e sabitlendi:** TUTTU / TUTMADI / İZLENİYOR /
+SONUÇSUZ. Önce TUTARLI ve BELİRSİZ diye 2 kategori daha açmıştım, Ida
+kaldırttı. Gerekçe doğru: karne ne kadar az kategori içerirse o kadar
+okunabilir. Ölçülemeyen çerçeve sözleri (örn. BTC 126K "boğa değil
+enflasyon") tablodan atılmıyor ama **İZLENİYOR** işaretlenip parantezde
+"yorum, ölçülebilir hedef değil" deniyor ve **isabet oranına sayılmıyor**.
+Güncel: 17 kayıt — 7 TUTTU / 2 TUTMADI / 7 İZLENİYOR / 1 SONUÇSUZ.
+
+**Berk Dinçtürk bölümü yeniden yapılandırıldı.** Aynı çekirdek tezi 3 farklı
+programda tekrarlamış (Küresel Piyasalar 6 Ağu, CNBC 5 Ağu, Stablex 13 Ağu).
+Tekrarları ayrı iddia gibi loglamak karneyi şişiriyordu → **çekirdek tez bir
+kez**, her program sadece kendine özgü YENİ detaylarla alt başlıkta. Başlıktan
+"& FERHAT YÜKSELTÜRK" çıktı (Ferhat ayrı konuşmacı, Program 1 içinde duruyor).
+KARNE 4 → 7 iddia.
+
+**ÖZET tablosu güncellendi.** 5 → 8 madde. Petrolde Berk'in "yönetilebilir
+istikrarsızlık" tezi eklenince denge **2'ye 1 yatay lehine** döndü, Yeşilada
+azınlıkta kaldı. Yeni: Mekanizma okuması (Berk'in likidite + 1941-52
+çerçeveleri), Jeopolitik takvim, Somut hisse hedefi (FCX $85-90, NASA 52 —
+dosyadaki rakam verilen tek iki hisse).
+
+**Gözlem — tek kaynaklı iddia işareti:** Berk'in "asıl gösterge Fed bilançosu"
+çerçevesini başka hiçbir kaynak kullanmıyor. ÖZET'te açıkça "tek kaynaklı ve
+doğrulanmamış" diye etiketlendi ki konsensüs sanılmasın. Aynı hassasiyet
+1941-52 emsalinde de var: tarih Berk'te geçiyor, Yeşilada tarih vermeden
+"mali baskılama" diyor — Yeşilada'ya söylemediği tarih atfedilmedi.
+
+**Paket:** İki kez çalıştırıldı (exit 0). `write_upload_readme()` 00 dosyasını
+her seferinde sıfırdan ürettiği için 11. satır script'e gömülmeseydi ilk
+pakette silinecekti — F11_DIS koşullu satır olarak eklendi, doğrulandı.
+İkinci çalıştırmada sadece timestamp değişti (yeni tweet yok).
+`05_GRAFIKLER.zip` .gitignore'da → paket çalıştırmak LFS kotası harcamıyor,
+sadece disk/zaman.
