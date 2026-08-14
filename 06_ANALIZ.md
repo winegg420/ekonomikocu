@@ -257,7 +257,7 @@ Mentor oturumunda çıkan BTC/kripto makro sentezi (kalıcı not).
 | 1 Tem 2026 | BTC 82K üstü denenir / 84K direnç ("robot") | **TUTTU** (84K aşılamadı, geri çevrildi) |
 | 11 Tem 2026 | BTC 60K = "büyük resmin pivotu" | **İZLENİYOR** |
 | 12 Tem 2026 | ETH 6.000 kalıcı kapanış = boğa eşiği | **İZLENİYOR** |
-| 1 Ağu 2026 | BTC 126K zirvesi "boğa değil, enflasyon" | **İZLENİYOR** (yorum, ölçülebilir hedef değil — Koç'un zirveyi nasıl okuduğuna dair çerçeve notu; Ekim 2025'ten beri aynı) |
+| 1 Ağu 2026 | BTC 126K zirvesi "boğa değil, enflasyon" | **İZLENİYOR** (yorum, ölçülebilir hedef değil) |
 | 7 Ağu 2026 | XAUUSD 4336 altı kapanış = kısa vade düşüş şartı | **İZLENİYOR** |
 | 10 Tem 2026 | Ağustos 3. hafta = yeni karar penceresi | **İZLENİYOR** (pencere 15-25 Ağu; bugün 14 Ağu, sonuç yok) |
 | 9 Ağu 2026 | ETH 3460 "Trump imzası" / alt çizgi | **İZLENİYOR** (grafik doğrulaması bekliyor) |
