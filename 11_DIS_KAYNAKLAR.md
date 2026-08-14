@@ -188,12 +188,20 @@
 
 ## ÖZET — KAYNAKLAR ARASI YAKINSAMA/ÇELİŞKİ TABLOSU
 
-**Altın — geniş yakınsama (boğa):** Sellcoin, Berk Dinçtürk, Lafçı, Atılal, Şatıroğlu → hepsi yapısal boğa, $4.000-4.500 bandı taban/biriktirme bölgesi. Yeşilada tek farklı ses: kısa vade $4.500 sonra $4.000'e çekilme (yön olarak "düzeltme sonra devam" — çelişki değil, zamanlama farkı).
+**Altın — geniş yakınsama (boğa):** Sellcoin, Berk Dinçtürk, Lafçı, Atılal, Şatıroğlu → hepsi yapısal boğa, $4.000-4.500 bandı taban/biriktirme bölgesi. Yeşilada tek farklı ses: kısa vade $4.500 sonra $4.000'e çekilme (yön olarak "düzeltme sonra devam" — çelişki değil, zamanlama farkı). **Vade ayrımı:** kısa vadede hemen herkes 4.000-4.500 diyor; uzun vadede Berk $10.000 (2028) ve Şatıroğlu $5.000-7.000 ile en agresif uçta, diğerleri rakam vermiyor.
 
-**Gümüş — GERÇEK ÇELİŞKİ:** Koç $68 tabanın kırıldığını, spike/trend-değil dediğini söylerken; Sellcoin, Berk Dinçtürk, Şatıroğlu (62.5 stop ile) yapısal boğa/arz açığı tezinde. Koç azınlıkta.
+**Gümüş — GERÇEK ÇELİŞKİ:** Koç $68 tabanın kırıldığını, spike/trend-değil dediğini söylerken; Sellcoin, Berk Dinçtürk (3 haneli hedef), Şatıroğlu (62.5 stop ile) yapısal boğa/arz açığı tezinde. Koç azınlıkta.
 
-**Fed/faiz — İKİ KAMP:** Şahin (faiz artabilir/sıkılaştırma): Yeşilada. Güvercin (indirim bekliyor): Berk Dinçtürk & Ferhat, Şatıroğlu, Sellcoin (zayıf NFP sonrası). Konsensüs güvercin yönünde ağırlıklı ama Yeşilada'nın riski gözden kaçırılmamalı.
+**Fed/faiz — İKİ KAMP:** Şahin (faiz artabilir/sıkılaştırma): Yeşilada. Güvercin (indirim bekliyor): Berk Dinçtürk (3 programda tutarlı; en somut hali "bu yıl 1-2 indirim"), Ferhat Yükseltürk, Şatıroğlu, Sellcoin (zayıf NFP sonrası). Konsensüs güvercin yönünde ağırlıklı ama Yeşilada'nın riski gözden kaçırılmamalı.
 
-**Petrol:** Yeşilada 100-120 testi bekliyor (yukarı risk). Şatıroğlu bilinçli 80-100 bandı tezinde (yatay). Ferhat Yükseltürk kalıcı çözüm beklemiyor ama net yön vermiyor.
+**Likidite — tek ses (Berk, Program 3):** Asıl gösterge faiz değil **Fed'in bilanço büyüklüğü**; havuz yetersiz kaldığı için sektörler arası sert rotasyon/volatilite bekliyor. Başka hiçbir kaynak bu çerçeveyi kullanmıyor — doğrulanmamış, tek kaynaklı.
 
-**BTC:** Sellcoin 63.000-63.100 destek / 67.300 direnç / 72.600 hedef — Koç'un 60K pivot çerçevesiyle kabaca uyumlu.
+**Petrol:** Yeşilada 100-120 testi bekliyor (yukarı risk). Şatıroğlu bilinçli 80-100 bandı tezinde (yatay). **Berk aynı yatay tarafta:** "yönetilebilir istikrarsızlık" — petrol kontrolden çıkmaz. Ferhat Yükseltürk kalıcı çözüm beklemiyor ama net yön vermiyor. → 2'ye 1 yatay lehine, Yeşilada azınlıkta.
+
+**Tarihsel emsal — aynı mekanizma, zıt okuma:** 1941-52 tahvil faizi bastırma emsalini **Berk açıkça veriyor** ve "başaracaklar" diye **pozitif** okuyor. Yeşilada aynı mekanizmayı tarih vermeden **"mali baskılama"** adıyla ve **risk** olarak sunuyor (Program 3 notu ikisinin bu örneği bağımsız verdiğini söylüyor). Aynı mekanizmadan zıt sonuç — hangi tarafın haklı çıktığı izlenmeye değer.
+
+**Jeopolitik takvim:** Berk **24 Eylül Trump-Şi zirvesi** (kademeli mutabakat), Şatıroğlu **1 Eylül-9 Ekim düşüş + sonrası ralli** sezonsallığı. İkisi de Eylül'ü kırılma ayı görüyor ama gerekçeler bağımsız. Koç'un kendi penceresi (Ağustos 3. hafta) daha erken — 06_ANALIZ'e bak.
+
+**BTC:** Sellcoin 63.000-63.100 destek / 67.300 direnç / 72.600 hedef — Koç'un 60K pivot çerçevesiyle kabaca uyumlu. Berk BTC'ye seviye vermiyor.
+
+**Somut hisse hedefi (nadir):** Çoğu kaynak hisse için isim veriyor ama rakam vermiyor. İki istisna: Berk **Freeport-McMoRan 6 ay $85-90**, Şatıroğlu **NASA hedef 52**. Bunlar gradelenebilir — KARNE'de takipte.
