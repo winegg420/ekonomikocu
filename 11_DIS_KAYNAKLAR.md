@@ -19,6 +19,16 @@
 
 **Koç'la ilişki:** Kevin Warsh konusu Koç'ta da var (06_ANALIZ 2026-08-10 güncellemesi) — yakınsama. **Gümüşte ÇELİŞKİ:** Sellcoin $62'yi "kazanım/yeni destek" olarak okurken Koç $68 tabanının kırıldığını, bunun trend değil spike olduğunu söylüyor.
 
+### KARNE — Sellcoin
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 10 Ağu | NFP şoku sonrası Fed eylülde faiz artıramaz | İZLENİYOR |
+| 10 Ağu | Altın destek $4.100 kaybedilmez | İZLENİYOR |
+| 10 Ağu | Gram altın 6.200 TL altına inmez | İZLENİYOR |
+| 10 Ağu | Gümüş $62 yeni destek, trend başladı | İZLENİYOR |
+| 10 Ağu | BTC destek 63.000-63.100 korunur | İZLENİYOR |
+| 10 Ağu | BTC 67.300 kırılırsa hedef 72.600 | İZLENİYOR |
+
 ---
 
 ## ATILLA YEŞİLADA (FX TV, Perihan Tantuğ ile söyleşi)
@@ -32,6 +42,14 @@
 - **İyi senaryo (düşük olasılık, ara seçim sonrasına kadar gelmez):** Trump geri adım atar, petrol 2 ayda $60'a düşer, borsalarda ciddi çıkış.
 
 **Koç'la ilişki:** Fed şahin/enflasyon teması paralel ama gerekçe farklı (Koç: bilinçli oyalama/manipülasyon; Yeşilada: yapısal borç krizi). Altında kısa vadeli zirve-sonrası-düşüş yönü Koç'un 7 Ağu XAUUSD 4336-altı-kapanış çağrısıyla kabaca aynı yönde.
+
+### KARNE — Atilla Yeşilada
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 13 Ağu | Altın kısa vade $4.500 üstü, sonra $4.000'e çekilme | İZLENİYOR |
+| 13 Ağu | Brent 100-120 testi (kötü senaryo) | İZLENİYOR |
+| 13 Ağu | Fed 2027'ye kadar sıkılaştırma riski | İZLENİYOR |
+| 13 Ağu | TCMB 2026 faiz indiremez, yıl sonu %35-40+ | İZLENİYOR |
 
 ---
 
@@ -47,6 +65,14 @@
 - **Ferhat:** Petrol kalıcı çözüm beklemiyor, Hürmüz asıl mesele. Dolar/TL yıl sonu 55 spekülasyonlarına katılmıyor. Fed: zayıf istihdam + soğuyan işgücü maliyeti → faiz artırım ihtimali düşük, resesyona katılmıyor.
 
 **Koç'la ilişki:** Altın 4.000-4.500 bandı, Koç'un $4.376 taban / $4.800 direnç görüşüyle kabaca örtüşüyor. Fed görüşünde Yeşilada'nın tam tersi (güvercin vs şahin).
+
+### KARNE — Berk Dinçtürk & Ferhat Yükseltürk
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 6 Ağu | Altın $10.000 hedef (Trump dönemi sonuna kadar) | İZLENİYOR |
+| 6 Ağu | Gümüş 3 haneli hedef | İZLENİYOR |
+| 6 Ağu | Altın 4.500 direnç kırılırsa yeni yukarı hareket | İZLENİYOR |
+| 6 Ağu | Fed indirim bekliyor, resesyon yok | İZLENİYOR |
 
 ---
 
@@ -66,6 +92,17 @@
 
 **Koç'la ilişki:** Petrolde "kasıtlı bant içinde tutma" teması Koç'un "şantaj/oyalama" çerçevesiyle paralel ama farklı mekanizma — Koç'un sözü değil. Fed görüşü Berk Dinçtürk'ü destekliyor, Yeşilada'yı zayıflatıyor — konsensüs yok.
 
+### KARNE — Tunç Şatıroğlu
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| önceki | Altın kısa vade direnç 4.400-4.456 | İZLENİYOR |
+| önceki | Altın uzun vade hedef 5.000-7.000 | İZLENİYOR |
+| önceki | Gümüş 62.5 stop | İZLENİYOR |
+| bu hafta | Brent 80-100 bandında bilerek tutuluyor | İZLENİYOR |
+| bu hafta | Fed faiz indirir | İZLENİYOR |
+| bu hafta | Eylül 1-9 Ekim düşüş, sonra ara seçime kadar ralli | İZLENİYOR |
+| bu hafta | NASA hisse hedefi 52 | İZLENİYOR |
+
 ---
 
 ## EMRAH LAFÇI & ALİ PERŞEMBE
@@ -77,6 +114,12 @@
 - BIST zayıf.
 - Tesla/Meta çöküyor, Amazon/Microsoft uçuyor yorumu (bu kaynağa ait, Berk Dinçtürk'e değil — dikkat, karıştırılmıştı bir önceki oturumda, düzeltildi).
 
+### KARNE — Emrah Lafçı & Ali Perşembe
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| önceki | Altın taban $4.000 | İZLENİYOR |
+| önceki | Bitcoin'de temkinli duruş doğru çıkar | İZLENİYOR |
+
 ---
 
 ## BAKI ATILAL (A1 Kapital)
@@ -84,6 +127,11 @@
 ### Önceki oturum
 - Yen müdahalesi altın talebini artırıyor teması.
 - Seviyeler: 4.000 / 4.300 / 4.400-4.500.
+
+### KARNE — Baki Atılal
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| önceki | Altın seviyeleri 4000/4300/4400-4500 doğrulanır | İZLENİYOR |
 
 ---
 
@@ -103,6 +151,11 @@
 - VPS fon pump-and-dump uyarısı.
 - Önerilen TR fonları: AK3, TP2, HVS, GHS, YHS.
 - Ida'nın mevcut TP2 (İş Bankası nakit rezervi) pozisyonunu bağımsız doğruluyor.
+
+### KARNE — Foneria
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| önceki | TP2 önerisi (Ida zaten kullanıyor, bağımsız teyit) | TUTTU |
 
 ---
 
