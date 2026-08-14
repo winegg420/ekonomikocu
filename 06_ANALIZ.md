@@ -257,16 +257,19 @@ Mentor oturumunda çıkan BTC/kripto makro sentezi (kalıcı not).
 | 1 Tem 2026 | BTC 82K üstü denenir / 84K direnç ("robot") | **TUTTU** (84K aşılamadı, geri çevrildi) |
 | 11 Tem 2026 | BTC 60K = "büyük resmin pivotu" | **İZLENİYOR** |
 | 12 Tem 2026 | ETH 6.000 kalıcı kapanış = boğa eşiği | **İZLENİYOR** |
+| 1 Ağu 2026 | BTC 126K zirvesi "boğa değil, enflasyon" | **İZLENİYOR** (yorum, ölçülebilir hedef değil — Koç'un zirveyi nasıl okuduğuna dair çerçeve notu; Ekim 2025'ten beri aynı) |
 | 7 Ağu 2026 | XAUUSD 4336 altı kapanış = kısa vade düşüş şartı | **İZLENİYOR** |
 | 10 Tem 2026 | Ağustos 3. hafta = yeni karar penceresi | **İZLENİYOR** (pencere 15-25 Ağu; bugün 14 Ağu, sonuç yok) |
 | 9 Ağu 2026 | ETH 3460 "Trump imzası" / alt çizgi | **İZLENİYOR** (grafik doğrulaması bekliyor) |
 
 **Sonuç etiketi sadece 4 tane:** TUTTU / TUTMADI / İZLENİYOR / SONUÇSUZ. Ayrıntı
-parantez içinde. Gradelenebilir olmayan çerçeve sözleri (örn. 1 Ağu "BTC 126K zirvesi
-boğa değil, enflasyon") tabloya girmez — yerleri §3'te, tez tutarlılığı olarak durur.
+parantez içinde. Ölçülebilir hedef olmayan **çerçeve/yorum notları** da tabloda kalır
+(örn. 1 Ağu "BTC 126K zirvesi boğa değil, enflasyon") — **İZLENİYOR** işaretlenir ve
+parantezde "yorum, ölçülebilir hedef değil" denir. Bunlar tuttu/tutmadı diye
+gradelenmez; tez tutarlılığını izlemek için durur, isabet oranına sayılmaz.
 
-**Eğilim (birleşik tablodan — 16 kayıt):** 7 TUTTU / 2 TUTMADI / 6 İZLENİYOR /
-1 SONUÇSUZ.
+**Eğilim (birleşik tablodan — 17 kayıt):** 7 TUTTU / 2 TUTMADI / 7 İZLENİYOR /
+1 SONUÇSUZ. (İZLENİYOR'un 1'i çerçeve notu, gradelenebilir çağrı değil.)
 H tablosundaki tespit birleşik veriyle de ayakta: Koç **yön, zamanlama ve aşağı
 seviyelerde** isabetli; **yukarı hedeflerde** (BTC 80.600) fazla iyimser kalabiliyor.
 İki net TUTMADI'nın ikisi de yukarı/taban tezleri (BTC 80.600, gümüş 68$ tabanı).
