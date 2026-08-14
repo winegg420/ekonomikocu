@@ -16,6 +16,7 @@ Claude Project: GitHub repo bagla veya clone. Yerel yukleme yedek.
 8. 08_TWEETLER_GEMINI.md
 9. 09_GRAFIKLER_GEMINI/  (700 jpg)
 10. 10_ABONE_TWEETLER_GEMINI.md
+11. 11_DIS_KAYNAKLAR.md (Koç dışı analistler — Sellcoin, Berk Dinçtürk, Yeşilada, Şatıroğlu, Lafçı, Atılal, Altınocağı, Foneria vb.)
 
 Guncelleme: 11.08.2026 13:44
 Public: 6912 | Abone metinli: 3435
