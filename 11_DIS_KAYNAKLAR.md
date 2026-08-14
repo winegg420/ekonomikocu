@@ -194,11 +194,9 @@
 
 **Fed/faiz — İKİ KAMP:** Şahin (faiz artabilir/sıkılaştırma): Yeşilada. Güvercin (indirim bekliyor): Berk Dinçtürk (3 programda tutarlı; en somut hali "bu yıl 1-2 indirim"), Ferhat Yükseltürk, Şatıroğlu, Sellcoin (zayıf NFP sonrası). Konsensüs güvercin yönünde ağırlıklı ama Yeşilada'nın riski gözden kaçırılmamalı.
 
-**Likidite — tek ses (Berk, Program 3):** Asıl gösterge faiz değil **Fed'in bilanço büyüklüğü**; havuz yetersiz kaldığı için sektörler arası sert rotasyon/volatilite bekliyor. Başka hiçbir kaynak bu çerçeveyi kullanmıyor — doğrulanmamış, tek kaynaklı.
+**Mekanizma okuması — Berk'in iki çerçevesi:** **(1) Likidite:** Asıl gösterge faiz değil **Fed'in bilanço büyüklüğü**; havuz yetersiz kaldığı için sektörler arası sert rotasyon/volatilite bekliyor — bu çerçeveyi başka hiçbir kaynak kullanmıyor, **tek kaynaklı ve doğrulanmamış**. **(2) 1941-52 tahvil faizi bastırma emsali:** Berk açıkça veriyor ve "başaracaklar" diye **pozitif** okuyor; Yeşilada aynı mekanizmayı tarih vermeden **"mali baskılama"** adıyla ve **risk** olarak sunuyor (Program 3 notu ikisinin bağımsız verdiğini söylüyor). Aynı mekanizmadan zıt sonuç — hangisinin haklı çıktığı izlenmeye değer.
 
 **Petrol:** Yeşilada 100-120 testi bekliyor (yukarı risk). Şatıroğlu bilinçli 80-100 bandı tezinde (yatay). **Berk aynı yatay tarafta:** "yönetilebilir istikrarsızlık" — petrol kontrolden çıkmaz. Ferhat Yükseltürk kalıcı çözüm beklemiyor ama net yön vermiyor. → 2'ye 1 yatay lehine, Yeşilada azınlıkta.
-
-**Tarihsel emsal — aynı mekanizma, zıt okuma:** 1941-52 tahvil faizi bastırma emsalini **Berk açıkça veriyor** ve "başaracaklar" diye **pozitif** okuyor. Yeşilada aynı mekanizmayı tarih vermeden **"mali baskılama"** adıyla ve **risk** olarak sunuyor (Program 3 notu ikisinin bu örneği bağımsız verdiğini söylüyor). Aynı mekanizmadan zıt sonuç — hangi tarafın haklı çıktığı izlenmeye değer.
 
 **Jeopolitik takvim:** Berk **24 Eylül Trump-Şi zirvesi** (kademeli mutabakat), Şatıroğlu **1 Eylül-9 Ekim düşüş + sonrası ralli** sezonsallığı. İkisi de Eylül'ü kırılma ayı görüyor ama gerekçeler bağımsız. Koç'un kendi penceresi (Ağustos 3. hafta) daha erken — 06_ANALIZ'e bak.
 
