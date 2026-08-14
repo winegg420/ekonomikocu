@@ -735,3 +735,34 @@ kalinti, bu turda +0 alinti geldigi icin degismedi.
 
 **LFS:** Yine "%84 (861/1024 MB)" uyarisi — 2026-08-10 kaydindaki gibi
 **yanlis alarm**; rakam gecmis commit'lerde donmus, tarama basina buyumuyor.
+
+
+---
+
+## 2026-08-14 — 11_DIS_KAYNAKLAR.md (Koç dışı analistler) + pakete entegrasyon
+
+**Ne yapıldı:** Yeni kök dosya `11_DIS_KAYNAKLAR.md` oluşturuldu. İçerik:
+Ida'nın izlediği Koç DIŞI analistlerin (Sellcoin, Atilla Yeşilada, Berk
+Dinçtürk & Ferhat Yükseltürk, Tunç Şatıroğlu, Emrah Lafçı, Baki Atılal,
+Emrah Altınocağı, Foneria) tarih + seviye/hedef + Koç ile örtüşme/çelişki
+notu. Sonda kaynaklar arası yakınsama/çelişki tablosu.
+
+**Karar — neden ayrı dosya:** Bu görüşler `06_ANALIZ.md`'ye KARIŞTIRILMAZ.
+06 sadece Koç'un kendi çerçevesi. Yanlış atıf riski (bir önceki oturumda
+Tesla/Meta yorumu Berk Dinçtürk'e atfedilmişti, aslında Lafçı'ya aitti)
+bu ayrımı zorunlu kıldı.
+
+**Paket entegrasyonu (`claude_paket_olustur.py`):**
+- `F11_DIS` sabiti eklendi. 06 gibi **asla üzerine yazılmaz / silinmez** —
+  LEGACY listesinde değil, hiçbir write yolu yok.
+- `write_upload_readme()` 00 dosyasını her pakette sıfırdan ürettiği için
+  elle eklenen 11. satır ilk pakette silinecekti; fonksiyona `F11_DIS.is_file()`
+  koşullu satır eklendi. Başlık "00-10" → "00-11".
+- `basla_md()` (01) ve `build_mentor_md()` (02): 11'in tanıtımı + "hiçbir
+  görüş Koç'a atfedilmez, her alıntıda kaynak ismi söylenir" mentor kuralı.
+  İkisi de F11 yoksa hiçbir şey yazmıyor (geriye dönük güvenli).
+- `github_guncelle.py` `git add -A` kullanıyor → değişiklik gerekmedi.
+
+**Not:** Paket scripti ÇALIŞTIRILMADI (104 MB zip + LFS israfı). Sadece
+py_compile + `basla_md`/`build_mentor_md` render testi yapıldı, çıktı doğru.
+İlk gerçek doğrulama bir sonraki taramada olacak.

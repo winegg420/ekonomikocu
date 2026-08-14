@@ -36,12 +36,15 @@ F7_ABONE = ROOT / "07_ABONE_TWEETLER.jsonl"
 F8_GEMINI_TWEET = ROOT / "08_TWEETLER_GEMINI.md"
 DIR09_GEMINI_GRAF = ROOT / "09_GRAFIKLER_GEMINI"
 F10_ABONE_GEMINI = ROOT / "10_ABONE_TWEETLER_GEMINI.md"
+# 11 = Koc DISI analistler (elle yazilir; 06 gibi ASLA uzerine yazilmaz)
+F11_DIS = ROOT / "11_DIS_KAYNAKLAR.md"
 STAGING = ROOT / "99_BOT_ARSIV/_claude_zip_build"
 ARSIV = ROOT / "99_BOT_ARSIV"
 PROTOKOL_EK = ARSIV / "veri_yedek" / "MENTOR_PROTOKOL_EK.md"
 GITHUB_REPO = "https://github.com/winegg420/ekonomikocu"
 
-# 05_CLAUDE_ANALIZ.md ASLA silinmez / uzerine yazilmaz (Claude'in analiz beyni)
+# 05_CLAUDE_ANALIZ.md ve 11_DIS_KAYNAKLAR.md ASLA silinmez / uzerine yazilmaz
+# (06 = Koc'un analiz beyni, 11 = Koc disi analistler — ikisi de elle yazilir)
 LEGACY = (
     ROOT / "CLAUDE_PAKET.zip",
     ROOT / "05_ONEMLI_GRAFIKLER_CLAUDE.md",
@@ -187,6 +190,13 @@ Paket: `python claude_paket_olustur.py` · Güncel: {s["toplam"]} public | {date
 
 def basla_md(s: dict) -> str:
     g = s.get("graf_zip", 0)
+    dis = (
+        "\n**Koç dışı analistler:** `11_DIS_KAYNAKLAR.md` — Sellcoin, Berk Dinçtürk, "
+        "Yeşilada, Şatıroğlu, Lafçı, Atılal, Altınocağı, Foneria. **Bu dosyadaki hiçbir "
+        "görüş Koç'a atfedilmez**; Koç'un kendi çerçevesi `06_ANALIZ.md`'dedir.\n"
+        if F11_DIS.is_file()
+        else ""
+    )
     return f"""# CLAUDE — BURADAN BAŞLA
 
 **Kaynak (birincil):** [{GITHUB_REPO}]({GITHUB_REPO}) — dosyalari yerel yukleme yerine repodan cek. Claude Project: GitHub entegrasyonu veya repo clone.
@@ -194,7 +204,7 @@ def basla_md(s: dict) -> str:
 **Claude:** `01` → `02` (**makro sentez — ZORUNLU**) → `03` → `04` → `05` → `06` (+ opsiyonel `07`)
 
 **Gemini:** ayni `01-06`, sonra `08` → `09` klasor → `10`
-
+{dis}
 **Tarama:** `TARAMA_DURUMU.md` — su tarihe kadar kayit tamam (`python 99_BOT_ARSIV/kod/kapsam_durum.py`)
 
 `00_OKU_YUKLEME_SIRASI.txt` · Paket: `99_BOT_ARSIV/kod/claude_paket_olustur.py` · GitHub: `99_BOT_ARSIV/kod/github_guncelle.py`
@@ -237,6 +247,22 @@ def build_mentor_md(s: dict, public_rows: list[dict]) -> str:
     tips = _tip_counts(public_rows)
     tip_line = " · ".join(f"{k} {tips[k]}" for k in tips)
     protokol = _load_protokol_ek()
+    dis_satir = (
+        "\n| 7 | `11_DIS_KAYNAKLAR.md` | **Koç DIŞI** analistler (Sellcoin, Berk Dinçtürk, "
+        "Yeşilada, Şatıroğlu, Lafçı, Atılal, Altınocağı, Foneria) — opsiyonel |"
+        if F11_DIS.is_file()
+        else ""
+    )
+    dis_kural = (
+        "\n### Dış kaynaklar (`11_DIS_KAYNAKLAR.md`)\n\n"
+        "- Bu dosya **Koç'un değil**, Ida'nın izlediği diğer analistlerin sentezidir.\n"
+        "- Oradaki hiçbir görüşü Koç'a atfetme. Her alıntıda **kaynak ismini** söyle "
+        "(«Sellcoin şöyle diyor», «Koç ise…»).\n"
+        "- Kullanım amacı: Koç'un tezini **karşılaştırma / çelişki tespiti** için. "
+        "Koç ile ayrıştığı yerde ikisini de göster, birini diğerinin yerine koyma.\n"
+        if F11_DIS.is_file()
+        else ""
+    )
     protokol_block = ""
     if protokol:
         body = protokol.strip()
@@ -298,10 +324,10 @@ def build_mentor_md(s: dict, public_rows: list[dict]) -> str:
 | 3 | `03_HAFIZA.md` | İnsan okunur kanıt defteri |
 | 4 | `04_TWEETLER.jsonl` | Yapısal veri: `tweet_id`, `tip`, `products`… |
 | 5 | `05_GRAFIKLER.zip` | `tweet_id` ile eşleşen jpg + indeks |
-| 6 | `06_ANALIZ.md` | Koç özeti — **en son** |
+| 6 | `06_ANALIZ.md` | Koç özeti — **en son** |{dis_satir}
 
 Gemini (kok): `08_TWEETLER_GEMINI.md` → `09_GRAFIKLER_GEMINI/` → `10_ABONE_TWEETLER_GEMINI.md`
-
+{dis_kural}
 ---
 
 ## 3. Bot ne yapıyor?
@@ -563,7 +589,7 @@ def build_04_zip(graf_entries: list[dict]) -> int:
 def write_upload_readme(s: dict) -> None:
     g = s.get("graf_gemini", 0)
     lines = [
-        "YUKLEME SIRASI — ekonomikocu (00-10)",
+        "YUKLEME SIRASI — ekonomikocu (00-11)",
         "",
         f"GITHUB (birincil kaynak): {GITHUB_REPO}",
         "Claude Project: GitHub repo bagla veya clone. Yerel yukleme yedek.",
@@ -584,6 +610,13 @@ def write_upload_readme(s: dict) -> None:
         "8. 08_TWEETLER_GEMINI.md",
         f"9. 09_GRAFIKLER_GEMINI/  ({g} jpg)",
         "10. 10_ABONE_TWEETLER_GEMINI.md",
+    ]
+    if F11_DIS.is_file():
+        lines.append(
+            "11. 11_DIS_KAYNAKLAR.md (Koç dışı analistler — Sellcoin, Berk Dinçtürk, "
+            "Yeşilada, Şatıroğlu, Lafçı, Atılal, Altınocağı, Foneria vb.)"
+        )
+    lines += [
         "",
         f"Guncelleme: {datetime.now().strftime('%d.%m.%Y %H:%M')}",
         f"Public: {s.get('toplam', '—')} | Abone metinli: {s.get('abone_metin', '—')}",
@@ -679,8 +712,12 @@ def main() -> None:
     print(f"  8. {F8_GEMINI_TWEET.name}")
     print(f"  9. {DIR09_GEMINI_GRAF.name}/  ({s.get('graf_gemini', 0)} jpg)")
     print(f"  10. {F10_ABONE_GEMINI.name}")
+    if F11_DIS.is_file():
+        print(f"  11. {F11_DIS.name}  (Koc disi analistler — dokunulmadi)")
+    else:
+        print(f"  11. {F11_DIS.name}  *** YOK ***")
     print(f"  Yukleme kilavuzu: {F0.name}")
-    print("  Kok klasorde 00-10 alt alta (Explorer en ust)")
+    print("  Kok klasorde 00-11 alt alta (Explorer en ust)")
 
 
 if __name__ == "__main__":
