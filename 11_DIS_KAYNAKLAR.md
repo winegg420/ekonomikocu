@@ -53,26 +53,53 @@
 
 ---
 
-## BERK DİNÇTÜRK & FERHAT YÜKSELTÜRK (Küresel Piyasalar)
+## BERK DİNÇTÜRK (çeşitli programlar)
 
-### 2026-08-06
-- **Program anı fiyatları:** BIST100 13.798, BTC $64.376, ons altın $4.247,72, gram altın 6.494,31 TL, Brent $82,44, WTI $77,55.
-- **Altın/gümüş tez (Berk):** Trump dönemi sonuna kadar altın 5 haneli ($10.000), gümüş 3 haneli hedef. Gerekçe: ABD bütçe açığı, 320 trilyon$ küresel borç, tahvil faizi suni baskılanacak (1942-51 emsali).
-- **Gümüş arz açığı:** First Majestic arzı kısıyor, Çin sadece 44 şirkete ihracat izni verdi (dünya arzının %13'ü Çin'de). AI/elektrifikasyon talebi + arz kısıtı.
-- **Portföy önerisi:** Emtiaya (altın+gümüş+bakır) %20-25 ağırlık.
-- Altın 4.000-4.500 bandı uzun vade (1-1.5 yıl) biriktirme için hâlâ iyi; 4.500 direnç, kırılırsa yeni yukarı hareket.
-- **Hisse fikirleri:** Corning, MP Materials, Heckla Mining, Lockheed Martin, SpaceX teması, Cameco (uranyum).
-- **Ferhat:** Petrol kalıcı çözüm beklemiyor, Hürmüz asıl mesele. Dolar/TL yıl sonu 55 spekülasyonlarına katılmıyor. Fed: zayıf istihdam + soğuyan işgücü maliyeti → faiz artırım ihtimali düşük, resesyona katılmıyor.
+> Berk Dinçtürk aynı çekirdek tezi 3 farklı programda tekrarladı (Ağustos 2026 içinde). Tekrarları ayrı "yeni iddia" gibi loglamak yerine, çekirdek tez bir kez yazılıyor, her program sadece kendine özgü YENİ detaylarla ayrı alt başlıkta tutuluyor.
 
-**Koç'la ilişki:** Altın 4.000-4.500 bandı, Koç'un $4.376 taban / $4.800 direnç görüşüyle kabaca örtüşüyor. Fed görüşünde Yeşilada'nın tam tersi (güvercin vs şahin).
+### ÇEKİRDEK TEZ (3 programda da tutarlı, Ağustos 2026)
+- **Altın $10.000 hedefi** (Trump dönemi sonuna kadar / 2028) — "MTA süper döngüsü" tezini 2024'ten beri savunuyor.
+- **Gümüş 3 haneli hedef.**
+- **Fed güvercin:** İndirim bekliyor, resesyona katılmıyor, faiz artırımını düşük ihtimal görüyor.
+- **Favori hisseler (tekrar eden çekirdek):** Freeport-McMoRan (FCX), MP Materials, Credo. (Program bazlı ek isimler aşağıda.)
+- **Gerekçe:** Dünya borcu $320 trilyon, pozitif reel faiz verilemiyor, parasal enflasyona karşı korunma.
 
-### KARNE — Berk Dinçtürk & Ferhat Yükseltürk
+### Program 1 — Küresel Piyasalar (Ferhat Yükseltürk ile), 6 Ağustos 2026
+- Program anı fiyatları: BIST100 13.798, BTC $64.376, ons altın $4.247,72, gram altın 6.494,31 TL, Brent $82,44, WTI $77,55.
+- Gümüş arz açığı detayı: First Majestic arzı kısıyor, Çin sadece 44 şirkete ihracat izni verdi (dünya arzının %13'ü Çin'de).
+- Portföy önerisi: Emtiaya (altın+gümüş+bakır) %20-25 ağırlık.
+- Altın 4.000-4.500 bandı biriktirme, 4.500 direnç.
+- Ek hisse fikirleri: Corning, MP Materials, Heckla Mining, Lockheed Martin, SpaceX teması, Cameco.
+- Ferhat Yükseltürk (ayrı konuşmacı): Petrol kalıcı çözüm yok, Hürmüz asıl mesele. Dolar/TL 55 spekülasyonuna katılmıyor.
+
+### Program 2 — CNBC 4te Ekonomi (Ceyhun Emre Doğru ile), ~5 Ağustos 2026
+- Jeopolitik çerçeve: ABD-İran çatışması aslında ABD-Çin rekabetinin cephesi. "Yönetilebilir istikrarsızlık" tezi — petrol kontrolden çıkmaz.
+- Trump-Şi zirvesi 24 Eylül'e işaret, kademeli mutabakat bekliyor.
+- Bu yıl 1-2 faiz indirimi bekliyor. Bilanço küçültme teması 2027 H2'ye kayar diyor.
+- Zayıf dolar = ABD'nin bilinçli stratejisi (40 trilyon $ borcu değersizleştirmek).
+- Ek hisse fikirleri: Energy Fuels, Eaton, Credo. Güney Kore (SK Hynix, Samsung) hafıza çipi teması 2027 sonuna kadar güvenli. Brezilya teması geçerli, seçim öncesi volatilite riski var.
+
+### Program 3 — Stablex / Hikayenin Aslı (Meryem Kenan ile), ~13 Ağustos 2026
+- **Yeni çerçeve — Fed bilançosu:** Faiz değil, Fed'in bilanço büyüklüğü (likidite) asıl önemli gösterge diyor. Bilanço sınırlı büyürken bile SpaceX gibi trilyon dolarlık halka arzlar oluyor, para havuzu yetersiz kaldığı için sektörler arası sert rotasyon/volatilite artıyor.
+- **Freeport-McMoRan somut hedef: 6 ay vadede $85-90.**
+- Japon yeni müdahalesi / 1941-52 tahvil bastırma emsali (Yeşilada'nın da bağımsız verdiği aynı tarihsel örnek — ama Berk bunu "başaracaklar" diye pozitif okuyor, Yeşilada risk olarak sunuyor).
+- Çin'in altın alımını "Yuan-altın güven köprüsü" (Şangay Altın Borsası) stratejisi olarak detaylandırıyor.
+- **Yeni tema — Tesla:** Humanoid robot teması, 2027 Çin robotik ürünlerine gümrük tarifesi bekliyor, bunun Tesla'yı öne çıkaracağını düşünüyor.
+- **Yeni ülke temaları:** Güney Kore %70 yükseldi, artık daha az cazip; yeni alternatifler Brezilya, Arjantin, Kolombiya, Hindistan, **Türkiye** (jeopolitik yükseliş — Körfez sermayesi + Türk askeri gücü, 3 yıllık ufuk).
+- Yeni hisse fikirleri: Celestica (fiber optik/veri merkezi altyapısı).
+
+**Koç'la ilişki:** Altın 4.000-4.500 bandı Koç'un $4.376 taban görüşüyle kabaca örtüşüyor. Fed-güvercin görüşü Sellcoin'in NFP-sonrası okumasıyla da örtüşüyor, Yeşilada'nın şahin senaryosunun tam tersi.
+
+### KARNE — Berk Dinçtürk (üç program birleşik)
 | Tarih | İddia | Sonuç |
 |---|---|---|
-| 6 Ağu | Altın $10.000 hedef (Trump dönemi sonuna kadar) | İZLENİYOR |
-| 6 Ağu | Gümüş 3 haneli hedef | İZLENİYOR |
+| 5-13 Ağu (3 program, tutarlı) | Altın $10.000 hedefi (Trump dönemi sonu/2028) | İZLENİYOR |
+| 5-13 Ağu (3 program, tutarlı) | Gümüş 3 haneli hedef | İZLENİYOR |
+| 5-13 Ağu (3 program, tutarlı) | Fed güvercin, resesyon yok | İZLENİYOR |
 | 6 Ağu | Altın 4.500 direnç kırılırsa yeni yukarı hareket | İZLENİYOR |
-| 6 Ağu | Fed indirim bekliyor, resesyon yok | İZLENİYOR |
+| ~5 Ağu | Bu yıl 1-2 faiz indirimi | İZLENİYOR |
+| ~5 Ağu | Trump-Şi zirvesi 24 Eylül, kademeli mutabakat | İZLENİYOR |
+| ~13 Ağu | Freeport-McMoRan 6 ay vadede $85-90 | İZLENİYOR |
 
 ---
 
