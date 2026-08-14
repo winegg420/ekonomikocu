@@ -225,3 +225,51 @@ Mentor oturumunda çıkan BTC/kripto makro sentezi (kalıcı not).
 - ETH 3460 / Trump imzası seviyesinin tam anlamı net değil — grafik doğrulaması gerekiyor.
 
 ---
+
+
+## 2026-08-14 GÜNCELLEME — BİRLEŞİK KARNE (dağınık notlar tek tabloda)
+
+> **Amaç:** Karne kayıtları bugüne kadar 3 ayrı yerde birikmişti. Bu bölüm hepsini
+> `11_DIS_KAYNAKLAR.md` ile **aynı formatta** (Tarih | İddia | Sonuç) birleştirir.
+>
+> **Eski dağınık haller SİLİNMEDİ, referans olarak yerinde duruyor:**
+> - **H. GÜNCELLENMİŞ KARNE** tablosu (~satır 105)
+> - **J. EK ÜRÜN SEVİYELERİ** altındaki "Karne notu" satırı (~satır 140)
+> - **2026-08-10 GÜNCELLEME §7** "Karne güncellemesi" tablosu (~satır 214)
+> - **§2 / §8** içindeki serbest metin izleme notları (~satır 185, 222)
+>
+> Çelişki olduğunda **en güncel kayıt** esas alındı (örn. DOW: H'de "TUTTU",
+> §7'de "TUTTU AMA ZORLANDI" → birleşikte §7 hali yazıldı).
+
+### KARNE — Koç
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 20 Ağu 2025 | BTC tepe $124-128K | **TUTTU** (Ekim 2025'te $126K) |
+| 27 Nis 2026 | BTC 80.600 yukarı hedef ("10-12 May'a vakti var") | **TUTMADI** (gitmedi, aksine düştü) |
+| 29 Nis 2026 | DOW 48.500 referans: altı = gerçek zayıflık | **TUTTU AMA ZORLANDI** (altına inmedi ama 54K gördü, 12 Tem — "kalıcı ralli yok" tezini geriyor) |
+| 20 May 2026 | BTC 75K altı = short | **TUTTU** (65.5K'ya indi) |
+| 21 May 2026 | BTC 52K → 40K; ETH 850; SOL 25 | **İZLENİYOR** (Tem-Ağu boyunca BTC 60-84K bandında kaldı; fiilen ıskalanmış görünüyor, Koç resmen "tutmadı" demedi) |
+| 25-31 May 2026 | NASDAQ 29.700 altı = satış baskısı | **TUTTU** (referans teyit edildi, 30K gördü — §6) |
+| 22 May / 3 Haz 2026 | Temmuz 9-11 karar penceresi | **SONUÇSUZ / ÖTELENDİ** (10 Tem: "Ağustos 3. haftaya kadar gelsinler") |
+| Haziran 2026 | Gümüş 68$ kritik taban, altına almadan eli rahatlamaz | **AŞAĞI KIRILDI (= TUTMADI)** (Temmuz'da 60-62$ bandı) |
+| (J bölümü) | Altın 4376 = diri kalma tabanı | **TUTTU** (J karne notu: isabetli) |
+| (J bölümü) | Altın "5600 gördü, 1100$ düştü" düzeltme tarifi | **TUTTU** (sert düzeltmeyi doğru tarif etti) |
+| 1 Tem 2026 | BTC 82K üstü denenir / 84K direnç ("robot") | **TUTTU** (84K aşılamadı, geri çevrildi) |
+| 11 Tem 2026 | BTC 60K = "büyük resmin pivotu" | **İZLENİYOR** |
+| 12 Tem 2026 | ETH 6.000 kalıcı kapanış = boğa eşiği | **İZLENİYOR** |
+| 1 Ağu 2026 | BTC 126K zirvesi "boğa değil, enflasyon" | **TUTARLI** (baştan beri aynı okuma — gradelenebilir hedef değil, çerçeve) |
+| 7 Ağu 2026 | XAUUSD 4336 altı kapanış = kısa vade düşüş şartı | **İZLENİYOR** |
+| 10 Tem 2026 | Ağustos 3. hafta = yeni karar penceresi | **İZLENİYOR** (pencere 15-25 Ağu; bugün 14 Ağu, sonuç yok) |
+| 9 Ağu 2026 | ETH 3460 "Trump imzası" / alt çizgi | **BELİRSİZ** (anlamı net değil, grafik doğrulaması bekliyor) |
+
+**Eğilim (birleşik tablodan — 17 kayıt):** 7 TUTTU (biri "zorlandı") / 2 TUTMADI /
+5 İZLENİYOR / 1 BELİRSİZ / 1 SONUÇSUZ-ÖTELENDİ / 1 TUTARLI (çerçeve, gradelenemez).
+H tablosundaki tespit birleşik veriyle de ayakta: Koç **yön, zamanlama ve aşağı
+seviyelerde** isabetli; **yukarı hedeflerde** (BTC 80.600) fazla iyimser kalabiliyor.
+İki net TUTMADI'nın ikisi de yukarı/taban tezleri (BTC 80.600, gümüş 68$ tabanı).
+
+**Not:** Gümüş 68$ tabanının kırılması, `11_DIS_KAYNAKLAR.md`'deki dış kaynaklarla
+(Sellcoin, Berk Dinçtürk, Şatıroğlu) **gerçek çelişki** noktasıdır — onlar gümüşte
+yapısal boğa tezinde, Koç azınlıkta kalıyor. Karşılaştırma için 11'e bak.
+
+---
