@@ -845,3 +845,38 @@ Tarama akışı bundan etkilenmedi (try/except sarmalı çalışıyor).
 hesabıyla **~1 tarama daha sığıyor** (~106 MB/tarama). Bir sonraki taramadan
 önce GitHub tarafında eski `05_GRAFIKLER.zip` sürümlerinin temizlenmesi
 gerekecek; script hiçbir şey silmiyor, sadece uyarıyor.
+
+### 2026-08-15 (devam) — 11_DIS_KAYNAKLAR.md: 6 işlik toplu güncelleme
+
+**Adlandırma düzeltmesi.** "FONERIA (Erol Bey & Sinan)" aslında yanlış isimdi:
+kanal **Money Talks**, program "Üç Harfler", konuşmacı **Erol Polat**. Başlık
+`## EROL POLAT (Money Talks — Üç Harfler)` oldu, KARNE başlığı ve dosya
+girişindeki kaynak listesi de güncellendi. Bölümün başına bir satırlık
+"daha önce Foneria adıyla tutuluyordu" notu bırakıldı — dosyada "Foneria"
+kelimesinin geçtiği **tek yer burası**. Kasıtlı: eski adla arayan (Ida dahil)
+bulabilsin, sessizce kaybolmasın.
+
+**Dosya 205 → 344 satır.** Emrah Lafçı bölümüne 13-14 Ağustos girdisi + 3 KARNE
+satırı; Erol Polat bölümüne 16 Ağustos soru-cevap girdisi + 2 KARNE satırı;
+4 yepyeni kaynak bölümü (Cüneyt Paksoy, Ferhat Yükseltürk & Uraz Çay, Cihat E.
+Çiçek, Barış Soydan) ÖZET'ten hemen önce eklendi. Mevcut hiçbir satır silinmedi,
+KARNE tablolarına yalnızca satır eklendi.
+
+**Karar — "Ida'ya özel not" repoya girmedi.** İş 3 içeriğinde Erol Polat'ın TP2
+tavsiyesinin Ida'nın mevcut pozisyonuyla örtüştüğüne dair bir madde vardı ama
+başında "(repo'ya eklenmesin, sadece bilgi amaçlı)" yazıyordu — dosyaya
+yazılmadı. Kişisel pozisyon bilgisi kaynak arşivine karışmamalı.
+
+**Gözlem — ilk analist-analist çelişkisi.** Şimdiye kadar tüm çelişkiler
+"Koç'a karşı dış kaynak" eksenindeydi. Paksoy'un altında $10.000 hedefine
+mesafeli durması, iki dış kaynağın (Paksoy vs Berk Dinçtürk) birbiriyle
+doğrudan çeliştiği ilk kayıt. ÖZET'in Altın maddesine bu ayrımla işlendi.
+
+**Gözlem — çapraz doğrulama zinciri işlemeye başladı.** Ferhat Yükseltürk'ün
+13 Ağustos Tüpraş tezi, Barış Soydan'ın 15 Ağustos bilanço verisiyle (kâr YoY
++%300, hisse +%4,55) **TUTTU**'ya çevrildi — farklı kaynakların birbirini
+gradelemesi bu dosyada ilk kez oldu. Aynı şekilde TCMB "şahin başladı ılımlı
+bitirdi" okuması 4 bağımsız kaynağa, Fed güvercin kampı 5 kaynağa çıktı;
+ikisi de ÖZET'e ayrı madde olarak yazıldı.
+
+Commit: `7837383`, push edildi.
