@@ -816,3 +816,32 @@ pakette silinecekti — F11_DIS koşullu satır olarak eklendi, doğrulandı.
 İkinci çalıştırmada sadece timestamp değişti (yeni tweet yok).
 `05_GRAFIKLER.zip` .gitignore'da → paket çalıştırmak LFS kotası harcamıyor,
 sadece disk/zaman.
+
+---
+
+## 2026-08-15 — Tarama oturumu (ikinci)
+
+**Tarama sonucu: yeni tweet yok.** Arşiv 6946 kayıtta sabit, en yeni kayıt
+hâlâ `2026-08-09T23:59:32`. Bot hedef tarihe (2026-08-06) ulaşıp "1 scroll'dur
+yeni tweet yok" ile kendi kendini durdurdu — beklenen davranış. Alıntı (130),
+#FLOOD ve abone aşamaları sorunsuz geçti. Sınıflandırma tam: `analyzed:false`
+kalan kayıt **0**. Paket 00–10 yeniden üretilip `ffe59c3` ile otomatik commit
+edildi ve ana repoya push edildi.
+
+**İlk deneme çıkış kodu 4 verdi — sebep hesap değil, Chrome kapalıydı.**
+Log'da `CDP baglanamadi (port 9222): ECONNREFUSED`. `CHROME_X.bat` çalıştırılıp
+port doğrulandıktan (Chrome 151.0.7922.138) sonra tarama ilk denemede geçti,
+yeniden giriş gerekmedi — kalıcı oturum profili işini yaptı. Kod 4'ü körü
+körüne "yanlış hesap" saymamak yine doğru refleks çıktı.
+
+**Ayna repo hâlâ yok.** `veri_ayna_push.py` yine `Repository not found` ile
+düştü (`winegg420/ekonomikocu-veri`). 2026-08-10'dan beri aynı durum, yani
+geçici bir arıza değil — repo silinmiş/yeniden adlandırılmış. Ana repo push'u
+aynı kimlikle çalıştığı için sorun yetki değil. Public repo açmak dışarı
+açılan bir işlem olduğundan **kendi başıma yeniden kurmadım**; Ida'nın kararı.
+Tarama akışı bundan etkilenmedi (try/except sarmalı çalışıyor).
+
+**LFS kotası kritik eşiğe geldi: 861/1024 MB (%84).** Script'in kendi
+hesabıyla **~1 tarama daha sığıyor** (~106 MB/tarama). Bir sonraki taramadan
+önce GitHub tarafında eski `05_GRAFIKLER.zip` sürümlerinin temizlenmesi
+gerekecek; script hiçbir şey silmiyor, sadece uyarıyor.
