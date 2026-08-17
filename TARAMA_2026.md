@@ -1,6 +1,6 @@
 # TARAMA 2026 (@ekonomikocu)
 
-**Guncelleme:** 2026-08-15T12:35:44
+**Guncelleme:** 2026-08-17T12:15:50
 
 ## Ozet
 
