@@ -880,3 +880,36 @@ bitirdi" okuması 4 bağımsız kaynağa, Fed güvercin kampı 5 kaynağa çıkt
 ikisi de ÖZET'e ayrı madde olarak yazıldı.
 
 Commit: `7837383`, push edildi.
+
+---
+
+## 2026-08-17 — MagicMA + ekonomikocu tarama oturumu
+
+**MagicMA: 407/407 okundu, okunamayan 0.** Chrome kapalıydı (CDP 9222 yok),
+`CHROME_X.bat` ile açıldı, TV layout sekmesi (`chart/zOsq3cIW`) CDP `PUT
+/json/new` ile yüklendi, sonra `magicma_tara_dayanikli.py`. Kopma/asılma
+yaşanmadı, gözetmen gerekmedi. Rapor: `magicma/magicma_rapor_2026-08-17.md`
+(284 sembol ≤%15 ile rapora girdi) + `magicma_islem_adaylari_2026-08-17.md`
+(25 aday ≤%0,25).
+
+**Sembol kodu düzeltmesi: BINANCE:VICUSDT → MEXC:VICUSDT.** İlk koşumda tek
+okunamayan sembol buydu; ikinci denemede de timeout verdi, yani geçici arıza
+değil. Aday borsalar tek seferlik teşhis scriptiyle denendi (scratchpad,
+repoya girmedi): MEXC/GATEIO/BYBIT veri veriyor, BINANCE ve KUCOIN vermiyor.
+MEXC seçildi (`magicma/sembol_listesi/kripto.txt:71`), resume ile tarandı →
+407/407 tamamlandı. Karar gerekçesi yine "TV'nin veri verdiği kod" kuralı.
+
+**ekonomikocu taraması: yeni tweet yok.** Arşiv 6946 kayıtta sabit, en yeni
+kayıt hâlâ `2026-08-09T23:59:32`. Bot hedefe (2026-08-06) ulaşıp "1 scroll'dur
+yeni tweet yok" ile durdu. Profil akışı yüklenmedi, bot kendiliğinden arama
+akışına geçti — beklenen fallback. Sınıflandırma tam: `analyzed:false` = 0.
+Alıntı 130, #FLOOD ve abone aşamaları sorunsuz.
+
+**Tek push, iki iş.** `github_guncelle.py` `git add -A` kullandığı için tarama
+akışının otomatik commit'i MagicMA raporlarını ve VICUSDT düzeltmesini de
+kapsadı: `ddc801a` (21 dosya). Ayrı MagicMA push'una gerek kalmadı.
+
+**Ayna repo hâlâ yok** (`winegg420/ekonomikocu-veri` → Repository not found,
+2026-08-10'dan beri). Yine kendi başıma public repo açmadım. **LFS: 861/1024 MB
+(%84)**, script "~1 tarama daha sığar" diyor — bir sonraki taramadan önce eski
+`05_GRAFIKLER.zip` sürümlerinin GitHub tarafında temizlenmesi gerekiyor.
