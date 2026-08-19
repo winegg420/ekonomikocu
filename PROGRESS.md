@@ -1064,3 +1064,40 @@ duran çağrının ilk gerçekten gradelenebilir sonucu; (2) 18 Ağustos Japonya
 + okunmamış grafikleri (`medya/2089511036420309364/`, `medya/2089633894706393341/`); (3) ETH 1846
 çağrısı hâlâ İZLENİYOR, 10-19 Ağustos'ta ETH'ye tek kelime yok; (4) LFS temizliği artık ertelenemez
 — bir sonraki tarama kotayı doldurabilir.
+
+### 2026-08-19 (akşam, devam) — 11_DIS_KAYNAKLAR'a üç kaynak
+
+**Eklenenler:** Atilla Yeşilada (ikinci görünüm — yeni ## açmadım, mevcut bölümüne alt giriş +
+KARNE EK olarak girdi, dosyanın Sellcoin/Manukyan kalıbına uygun), Bora Özkent (yeni), Fiba Bank
+(yeni). Ayrıca gıda enflasyonu çapraz-kaynak notu 03_HAFIZA.md **ve** ekonomikocu_hafiza_v1.md'ye
+(ikisi birebir aynı dosya — sadece 03'e yazsam sonraki tarama üzerine yazardı). Commit `3135756`:
+**250 ekleme / 0 silme**, doğrulandı.
+
+**Fresh clone yapılmadı — gerekçe:** görev metni `/tmp/ekonomikocu`'ya klonlamayı söylüyordu, ama
+yerel repo remote ile birebir senkrondu (`a97a6ac` az önce push edilmişti). Klon üzerinde çalışıp
+push etsem yerel repo geride kalır, sonraki tarama çakışırdı. **Ayna repo push'u da yapılmadı** —
+20 Ağustos'ta kaldırıldı (404).
+
+**İçerikten çıkan üç yeni bağ:**
+1. **Gıda enflasyonu = dosyada yeni tema.** Yeşilada (Hürmüz+Karadeniz kapalı, tahıl/gübrenin 2/3'ü,
+   buğday %25 primli) ve Fiba/TCMB raporu (girdi düşse de gıda inmiyor) **birbirinden habersiz**,
+   gerekçeleri farklı, sonuç aynı. **Koç bu temayı takip etmiyor → çerçevesindeki boşluk.**
+2. **İlk "aynı veri / zıt teşhis" çelişkisi.** Tahvil faizi yükselişini Yeşilada *ABD'ye alıcı
+   bulunamıyor* (yapısal kriz), Özkent *küresel + kompozisyonel* (normal rotasyon) okuyor. Önceki
+   çelişkiler hedef üzerineydi (Berk-Paksoy), bu **mekanizma** üzerine. **Ayırt edici test
+   Yeşilada'nın kendi kriteri:** tahvil "işlem yapılamaz hale gelirse" o haklı, gelmezse Özkent.
+3. **Gümüş tablosu düzeltildi.** Önceki oturumda "66-67 bandına toparlandı, üç kaynak teyitli"
+   yazılmıştı; Fiba'nın daha güncel verisi **65$ → 63,27$ (-%3)**. Band korunamamış, gümüş Koç'un
+   Temmuz'daki 54-62$ aralığına **yaklaşıyor** — yani Koç'un aralığı ölü değil.
+
+**Operasyonel not (Ida için doğrudan):** Fiba'nın PPF açıklaması dosyaya aynen girdi — SPK/Maliye
+hamlesi **büyük kurumsal + yabancı** TL parasını hedefliyor, kaynağın kendi ifadesiyle bireysel
+yatırımcının *"herhangi bir alakası yok"*. **Bireysel PPF/TP2 pozisyonu için panik gerekmiyor.**
+
+**Ayrıca:** Yeşilada'nın 13 Ağustos'taki "altın 4.500 üstü" çağrısı henüz gerçekleşmedi (Fiba
+verisi: zirve 4.409$ → 4.364$) ve ikinci görünümünde kendisi de beklentiden geri çekiliyor.
+Petrol tezi 100-120 → **100-110, uçta 150$** olarak yukarı revize edildi.
+
+**Dosyada fark edilen, dokunulmayan tutarsızlık:** 11_DIS_KAYNAKLAR'da "EK — 2026-08-20 OTURUMU"
+bloğu var ve PROGRESS'te 20 Ağustos kaydı bulunuyor, oysa bugün 19 Ağustos. İleri tarihli kayıt
+mevcut içerikte; bozmamak için düzeltilmedi, sadece not edildi.
