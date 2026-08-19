@@ -556,16 +556,17 @@ biri doğrulanırsa diğerini otomatik doğrulamaz, ayrı izlenmeli.
   **giriş fırsatı** olarak görüyor. (Fiyat değil, prim/iskonto üzerinden pozisyon mantığı —
   dosyadaki diğer kaynaklarda olmayan bir yaklaşım.)
 
-**⚠️ TAHMİNİ BAĞLANTI — DOĞRULANMADI, transkript hatası olabilir:**
-- Transkriptte Basel kriterlerinin yumuşaması / Bessent-Miran bağlamında **"Bunun Watch'la da
-  ilgili olduğunu düşünüyorum"** ifadesi geçiyor.
-- **Olasılık:** "Watch" = **"Warsh"** (Fed Başkanı Kevin Warsh) yanlış transkripsiyonu olabilir.
-  Doğruysa, iki bağımsız kaynak aynı isme **farklı bağlamlarda** değinmiş olur: Koç
-  **kripto politikası** üzerinden (03_HAFIZA.md, "kripto severleri kurtarmak zorunda değiliz",
-  5-6 Ağustos), Manukyan **Basel/bankacılık regülasyonu** üzerinden.
-- **KESİN DEĞİL.** Sesli kayıttan teyit edilmeden çapraz doğrulama sayılmaz; karneye
-  **yazılmadı**. Bir sonraki oturumda videodan doğrulanacak — doğrulanırsa ÖZET'e "Warsh:
-  3. bağımsız değinme" olarak taşınır, doğrulanmazsa bu madde silinir.
+**✅ DOĞRULANDI (20 Ağustos 2026) — "Watch" / "Vorch" = Kevin Warsh:**
+> *Önceki kayıt (19 Ağu) bunu "TAHMİNİ BAĞLANTI, doğrulanmadı" olarak işaretlemişti. Aşağıdaki
+> ikinci Manukyan videosuyla teyit edildi — kayıt bu yüzden güncellendi, silinmedi.*
+- İlk videoda **"Watch"**, ikinci videoda (farklı program, haber paneli formatı) **"Vorch"**
+  olarak geçen isim aynı kişiye işaret ediyor: **Kevin Warsh** — ikinci videoda açıkça
+  **"Fed Başkanı"** diye tanımlanıyor. İki farklı transkripsiyon hatası, tek isim.
+- **Sonuç:** İki bağımsız kaynak aynı Fed başkanına **farklı bağlamlarda** değiniyor —
+  Koç **kripto politikası** üzerinden (03_HAFIZA.md: "kripto severleri kurtarmak zorunda değiliz",
+  5-6 Ağustos), Manukyan **Basel/bankacılık regülasyonu** (Bessent-Miran, Basel kriterlerinin
+  yumuşaması) ve **AI-kaynaklı verimlilik** argümanı üzerinden.
+- Artık tahmini bağlantı değil; karne satırı da buna göre güncellendi.
 
 ### KARNE EK — Şant Manukyan (gerekçe zinciri)
 | Tarih | İddia | Sonuç |
@@ -574,7 +575,112 @@ biri doğrulanırsa diğerini otomatik doğrulamaz, ayrı izlenmeli.
 | Ağu 2026 | 35 ülkeye AI kongresi ultimatomu gönderilecek | İZLENİYOR (henüz "gözüküyor" aşamasında) |
 | Ağu 2026 | Piyasa "korku duvarı" fazında, tepe deseni yok | İZLENİYOR |
 | Ağu 2026 | Robo strateji fonunda 7-8 kat NAV primi daralır | İZLENİYOR |
-| Ağu 2026 | (Şüpheli) Basel yumuşaması ↔ Warsh bağlantısı | **DOĞRULANMADI** — transkript hatası olabilir, teyit bekliyor |
+| Ağu 2026 | Basel yumuşaması ↔ Warsh bağlantısı | **DOĞRULANDI** (20 Ağu, ikinci videoda "Vorch" = Fed Başkanı Kevin Warsh) |
+
+### 20 Ağustos 2026 — ikinci görünüm (farklı program, haber paneli formatı)
+
+> Aynı analistin ikinci yayını. **Çerçevesi tekrarlandığı için artık "tek seferlik yorum" değil,
+> kalıcı tez sayılabilir** — transshipping raporu ve 35 ülke AI ultimatomu iki ayrı yayında da
+> aynı argümanın dayanağı olarak kullanıldı.
+
+**Petrol / jeopolitik:**
+- **Brent 89-90$.** Husiler Kızıldeniz'de **Suudi askeri gemisini** hedef aldı, Trump **Umman'ı**
+  tehdit ediyor.
+- **Tez:** Çatışma *"Rusya-Ukrayna'yı andıran bir yıpratma savaşına dönüştü"* — tek hamlede
+  bitmeyecek. Fiyat, arz (kısmi çözümler) ve talep (ABD yaz zirvesi bitti + Çin yavaşlıyor)
+  dengesiyle **"yüksek ama yaşanabilir"** seviyede kalıyor.
+
+**Fed / FOMC:**
+- FOMC tutanaklarının **şahin tonda** olmasını bekliyor, ama zayıf istihdam + enflasyon verisi
+  sonrası **"Eylül çıtası yükseldi"** diyor → faiz **artırım** ihtimali azaldı.
+- **Fed–ECB–BOJ ayrışması:** Warsh'ın **AI-kaynaklı verimlilik** argümanı (enflasyonun bir kısmı
+  AI capex kaynaklı) Avrupa'da karşılığı yok; **ECB daha enerji-hassas**; **BOJ** hükümet
+  baskısıyla **hızlanma** sinyali veriyor.
+
+**Altın (bu görünümde):**
+- Fiyat hareketi: **4.300$'dan 4.450-4.555$ bandına** yükseliş.
+- **Yeni çerçeve:** Altın *"hukuki metne veya tarafa ait olmayan nötr varlık"* olarak konumlanıyor —
+  bloklaşan dünyada bu **nötrlük** değerini artırıyor. (Bu, "sistemik güven çöküşü" tezinin
+  olumlu/yapıcı formülasyonu.)
+- **Çin'deki alım dürtüsü** "dolar krizi" değil, **iç ekonomik kaygı** kaynaklı diyor —
+  Berk Dinçtürk'ün "Yuan-altın güven köprüsü" stratejik okumasından **ayrışıyor**, Emrah
+  Altınocağı'nın "halkı koruma" okumasına ise **yakın duruyor.**
+
+**Gümüş / bakır — bu oturumun en somut yeni verisi:**
+- **Gram gümüş (TR): 101,89 TL** · **ons gümüş: 66$** · **bakır: 5,5 yılın en yüksek seviyesi.**
+- **KRİTİK DETAY — Çin-Batı gümüş fiyat farkı:** Çin'de gümüş, Batı'ya göre **7-8$ daha pahalı**
+  işlem görüyor. Normalde arbitraj bu farkı hızla kapatırdı; **fiziki mal artık serbestçe hareket
+  ettirilemediği için fark kapanmıyor.**
+  → Bu, "dünyanın ikiye bölünmesi" tezinin **ölçülebilir tek kanıtı** — dosyadaki hiçbir kaynakta
+  bunun muadili bir veri yok. **Takip edilmeye değer:** fark kapanırsa bloklaşma gevşiyor,
+  açılırsa sertleşiyor demektir.
+
+**Koç'la ilişki:** Gümüşte Koç Temmuz'da **54-62$ bandını** kaydetmişti; Manukyan'ın 66$'ı bunun
+üstünde (Ağustos toparlanması — Barış Soydan'ın 66,5'i ile tutarlı, ikisi birbirini destekliyor).
+Koç'un çerçevesinde gümüş **Çin'in kozu**; Manukyan'da ise **fiziki piyasanın bölünmesinin
+göstergesi** — aynı olguyu farklı okuyorlar, çelişki değil, katman farkı.
+
+### KARNE EK — Şant Manukyan (ikinci görünüm, 20 Ağu)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 20 Ağu 2026 | FOMC tutanakları şahin tonda olur ama Eylül artırım çıtası yükseldi | İZLENİYOR |
+| 20 Ağu 2026 | Petrol "yüksek ama yaşanabilir" bantta kalır (yıpratma savaşı) | İZLENİYOR |
+| 20 Ağu 2026 | Altın nötr varlık olarak bloklaşmadan kazanç sağlar | İZLENİYOR |
+| 20 Ağu 2026 | Çin-Batı gümüş farkı (7-8$) arbitrajla kapanmıyor | **TUTTU** (gözlenen fiyat farkı — olgu aktarımı, tahmin değil) |
+| 20 Ağu 2026 | BOJ hükümet baskısıyla hızlanır | İZLENİYOR (Japonya carry-trade notuyla birlikte oku) |
+
+---
+
+## TURHAN BOZKURT (YouTube, "Ailenizin Ekonomi Kanalı")
+
+### 17 Ağustos 2026
+
+**Piyasa verisi (kullanılabilir, doğrulanabilir):**
+- **Ons altın eşikleri (yukarı takip):** 4.456 → 4.473 → 4.504 → 4.612 → 4.750 → **5.161$**
+  (1-2 ay içi hedef) · **yıl sonu 5.300-5.750$** bandı.
+- **Kritik referans:** **4.400$ üzeri haftalık kapanış = güçlü sinyal.** Geri çekilmede **4.249**
+  ve **4.110**'a dikkat; dip bölge **3.900-4.100**.
+- **Gram altın (24 ayar):** ~**6.698-6.793 TL** (banka makasına göre) · **yıl sonu hedefi
+  10.000 TL/gram.**
+- **Altın/gümüş rasyosu: 67** — rasyo yükselirse altının daha güçleneceği yorumu.
+- **Ons gümüş: 67$ üstü kritik** — üstünde kalırsa *"57$ altı tehlikesi geride kaldı"*,
+  hedef **100$ üzeri** yeni ralliler.
+- **Gram gümüş (999 ayar, TR): 100 TL üzeri.**
+- **USD/TRY 47,89-47,94** · **DXY 99,75.**
+- **TCMB rezerv iddiası (7 Ağustos itibarıyla):** nakit döviz ~**71 milyar $**, altın ~**107
+  milyar $** değerinde, net döviz karşılama oranı ~**%52**. İddia: **80 ton altın satıldı +
+  60 ton Londra'da faiz karşılığı rehin verildi** — ⚠️ **kaynağın kendi iddiası, DOĞRULANMADI.**
+- **USD/TRY yıl sonu:** iyimser **52-55**, kötümser **60+**; "iki kademeli devalüasyon" iddiası —
+  ⚠️ **DOĞRULANMAMIŞ SPEKÜLASYON**, tahmin olarak bile temkinli okunmalı.
+- **BIST100 14.158** — kaynağın iddiası: *"gerçek seviye değil"*, endeksin **%87'si 32.000 büyük
+  yatırımcı** tarafından yönetiliyor, sığ likiditeli hisselerde manipülasyon var.
+  Örnek: **Vişne Madencilik** — bilanço hedeflerinin çok altında kalmış (doğrulanabilir rakamlarla
+  gösterilmiş, bu kısım olgusal).
+
+**⚠️ AYRI KATMAN — doğrulanmamış siyasi iddialar (piyasa verisinden ayrı tutulur):**
+> Aşağıdakiler **kaynağın kendi iddialarıdır, DOĞRULANMADI**. Karneye alınmadı, mentor
+> konuşmasında kullanılmaz; sadece kaynağın gündem çerçevesini göstermek için kayıtta.
+- Sabancı grubuna bağlı bir şirkete (**Ayakkabı Dünyası**) kayyım atanması ve bunun büyük sermaye
+  gruplarına **gözdağı** olduğu yorumu.
+- **Darphanenin altın takip QR kod sistemi** — iddia: yastık altı altına ileride **vergi/kısıtlama**
+  getirme hazırlığı.
+- **"Damat"** (Selçuk Bayraktar'a atıfla) bağlantılı **Tuna Portföy** fon şirketiyle ilgili
+  **MSCI/SPK gerilimi** iddiaları.
+
+**Koç'la ilişki:** **Koç'un sözü değil, ayrı kaynaktır.** Yıl sonu **10.000 TL/gram** ve ons
+**5.300-5.750$** hedefleri, Koç'un **4.376$ taban** çerçevesinden çok daha **agresif** — yön aynı
+(yukarı), **şiddet uyumsuz**. Doğrudan atıf yapılmaz, ayrı ve daha iddialı bir tahmin olarak
+işaretlenir. **Darphane QR kod / yastık altı altın** konusu Koç'un hiç değinmediği **tamamen yeni
+bir gündem maddesi** — dosyadaki başka kaynakta da yok, tek kaynaklı.
+
+### KARNE — Turhan Bozkurt
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 17 Ağu 2026 | Ons altın 4.400 haftalık kapanış üstü = güçlü sinyal, 5.161$ hedef (1-2 ay) | İZLENİYOR |
+| 17 Ağu 2026 | USD/TRY yıl sonu 52-55 (iyimser) / 60+ (kötümser) | İZLENİYOR |
+| 17 Ağu 2026 | Gümüş 67$ üstü kalırsa 57$ altı riski biter | İZLENİYOR |
+| 17 Ağu 2026 | Ons altın yıl sonu 5.300-5.750$, gram 10.000 TL | İZLENİYOR |
+| 17 Ağu 2026 | TCMB 80 ton altın sattı + 60 ton rehin verdi | **DOĞRULANMADI** (kaynağın kendi iddiası) |
 
 ---
 
@@ -651,3 +757,33 @@ dış kaynak sadece teyit/çelişki amacıyla kullanılır.**
 **petrolle aynı cümlede** etiketliyor; yani üç dış kaynakla **aynı olaya bakıyor, farklı
 çerçeveden okuyor**. Bu, yakınsamayı "3 bağımsız + 1 dolaylı"dan **"3 bağımsız + 1 doğrudan
 ama farklı çerçeveli"** hâline getirir. Koç tarafındaki detay: `06_ANALIZ.md` 2026-08-19 EK.
+
+---
+
+## EK — 2026-08-20 OTURUMU: yeni kaynak + doğrulanan bağlantı
+
+**Yeni kaynak: TURHAN BOZKURT** (Ailenizin Ekonomi Kanalı, 17 Ağustos). Dosyadaki **en agresif
+altın hedefleri** ondan geliyor: ons yıl sonu **5.300-5.750$**, gram **10.000 TL**, 1-2 ay içi
+**5.161$**. Bu, uzun vade dağılımının **üst ucunu** genişletiyor: Berk **10.000$ (2028)** →
+Bozkurt **5.300-5.750$ (yıl sonu, çok daha kısa vade)** → Şatıroğlu **5.000-7.000** → Paksoy
+**~6.000, ama 10.000 için erken** → Atılal **4.700 (temkinli)**. **Kısa vade konsensüs bandı
+(4.000-4.500) değişmedi; değişen, yıl sonu beklentisinin ne kadar dağıldığı.**
+⚠️ Bozkurt'ta **doğrulanmamış siyasi iddia katmanı** var (kayyım, Darphane QR, Tuna Portföy) —
+kendi bölümünde ayrı işaretlendi, **karneye ve mentor konuşmasına girmez.**
+
+**WARSH BAĞLANTISI DOĞRULANDI:** 19 Ağustos'ta "TAHMİNİ, transkript hatası olabilir" diye
+işaretlenen bağlantı, ikinci Manukyan videosuyla teyit edildi ("Watch" / "Vorch" = **Kevin Warsh**,
+ikinci videoda açıkça "Fed Başkanı"). Artık **Koç ve Manukyan aynı Fed başkanına farklı
+bağlamlardan** değinen iki bağımsız kaynak: Koç kripto politikası, Manukyan Basel/bankacılık
+regülasyonu + AI-verimlilik argümanı.
+
+**🔬 ÖLÇÜLEBİLİR BLOKLAŞMA KANITI (dosyada tek):** Manukyan'ın ikinci görünümündeki **Çin-Batı
+gümüş fiyat farkı: 7-8$** — arbitrajın kapatmadığı, çünkü fiziki mal serbest hareket edemiyor.
+Diğer tüm bloklaşma tezleri (Berk'in Yuan-altın köprüsü, Manukyan'ın transshipping/AI ultimatomu,
+Altınocağı'nın ICBC kısıtlaması) **anlatı** düzeyinde; bu **tek sayısal göstergedir.**
+**Takip kuralı: fark daralıyorsa bloklaşma gevşiyor, açılıyorsa sertleşiyor.**
+
+**GÜMÜŞ — tablo hafif değişti:** Manukyan **66$**, Barış Soydan **66,5$**, Bozkurt **67$ üstü
+kritik** diyor → Ağustos'ta gümüşün 66-67 bandına toparlandığı **üç bağımsız kaynakla** teyitli.
+Koç'un Temmuz kaydı (**54-62$**, trend çizgisi 57$) bu toparlanmadan **önceki** dönemi tarif
+ediyor — çelişki değil, **zaman farkı**. Koç'un 9 Ağustos sonrası gümüş için yeni rakamı yok.
