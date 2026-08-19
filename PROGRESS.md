@@ -1031,3 +1031,36 @@ Ham veri ana repoda duruyor, hiçbir veri kaybı yok.
 **Geri alınabilir:** `git log -- 99_BOT_ARSIV/kod/veri_ayna_push.py` ile script geçmişten
 çıkarılır; `tara_guvenli.py`'de kaldırılan çağrının yerine açıklayıcı NOT bırakıldı.
 Geri istenirse önce public repo yeniden açılmalı (dışarı açılan işlem → önce Ida'ya sorulacak).
+
+### 2026-08-19 (akşam) — ikinci tarama: pencere kapanmadı, karne düzeltildi
+
+**Tarama:** Chrome CDP yine kapalıydı → PowerShell `Start-Process` ile port 9222 açıldı
+(bat `start` ile açmak çalışmıyor, bu artık yerleşik refleks). Hesap doğrulaması ilk denemede
+OK (@420cryptofarmer) — soğuk açılış gecikmesi bu kez yaşanmadı. `tara_guvenli.py` exit 0.
+3 scroll'da durdu (1 scroll'dur yeni tweet yok → normal duruş). **6953 → 6955 kayıt.**
+Alıntı aşaması: 11 bekleyen, max tur doldu, hiçbiri çözülemedi — 8'i "sadece
+ekonomikocu/status/..." yani karşılıklı alıntı zinciri; bu bilinen kalıcı artık, veri kaybı değil.
+Paket otomatik üretildi + commit `fa4e8d6` push edildi. **LFS 861/1024 MB (%84), ~1 tarama yer kaldı.**
+
+**Asıl bulgu — aynı gün sabah yazdığım hükmü akşam gelen tweet çürüttü:**
+Sabah, 17 Ağustos'taki *"ZAMAN geçirmeye devam yani"* sözüne bakıp Ağustos 3. hafta penceresine
+karnede **SONUÇSUZ** yazmıştım. Bugün 16:55'te Koç: *"Panik yok.. Ağustos 3. hafta geldi.
+ABD #borsalarında vadelerin dolmasına az kaldı."* → pencere kapanmamış, **AÇIK**. 06_ANALIZ.md'ye
+tarihli düzeltme bloğu eklendi (üst içerik korundu).
+
+**Karar ve nedeni:** Pencerenin sonu artık takvimsel olarak sabitlendi — **21 Ağustos 2026 Cuma**
+(ABD aylık opsiyon vadesi = ayın üçüncü Cuması; Ağustos Cumaları 7/14/21/28, hesapla doğrulandı).
+Haziran'dan beri tekrarlanan soyut "Ağustos 3. hafta" ifadesi ilk kez **belirli bir mekanizmaya**
+bağlandı. 17 Ağustos'un 90 günlük makro vade sistemiyle karıştırılmayacak: 21 Ağustos = piyasa
+tekniği, 15 Eylül = makro. Sıralama böyle işlenecek.
+
+**Çıkarım (yöntem):** Pencere **içindeyken** süreli çağrıya sonuç yazmak erken. "Zaman geçiriyorlar"
+tonundaki bir söz, pencerenin kapanışı değil içindeki bekleme olabilir. Kural: **süreli çağrıya
+ancak vade takvimsel olarak dolduktan sonra sonuç yazılır** — o güne kadar AÇIK/İZLENİYOR.
+Bugün aynı gün içinde iki kez hüküm değiştirmek zorunda kalmamın sebebi buydu.
+
+**Sonraki oturumun açık işleri:** (1) **21 Ağustos vade günü ve sonrası** — Haziran'dan beri açık
+duran çağrının ilk gerçekten gradelenebilir sonucu; (2) 18 Ağustos Japonya floodunun cevap kısmı
++ okunmamış grafikleri (`medya/2089511036420309364/`, `medya/2089633894706393341/`); (3) ETH 1846
+çağrısı hâlâ İZLENİYOR, 10-19 Ağustos'ta ETH'ye tek kelime yok; (4) LFS temizliği artık ertelenemez
+— bir sonraki tarama kotayı doldurabilir.

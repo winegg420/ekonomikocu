@@ -533,3 +533,46 @@ yapısal boğa tezinde, Koç azınlıkta kalıyor. Karşılaştırma için 11'e 
 | 18 Ağu 2026 | Japonya/faiz gündeminin sebebi sorgulanıyor | **İZLENİYOR** (cevap verilmedi; dış kaynaklar carry-trade diyor → 11_DIS_KAYNAKLAR) |
 
 ---
+
+---
+
+## 2026-08-19 (akşam taraması) — "Ağustos 3. hafta" penceresi kapanmadı: DÜZELTME
+
+**Yeni kayıt (tek tweet, bugün 16:55 UTC, `2090075293054632118`, GENEL, asıl tahmin):**
+> *"Panik yok.. Ağustos 3. hafta geldi. ABD #borsalarında vadelerin dolmasına az kaldı."*
+
+**1. Bu, aynı gün sabah verdiğim SONUÇSUZ hükmünü geçersiz kılıyor.**
+Sabahki blokta 17 Ağustos'taki *"ZAMAN geçirmeye devam yani"* sözü, Ağustos 3. hafta
+penceresinin fiilî cevabı sayılmış ve karneye **SONUÇSUZ** yazılmıştı. Koç aynı hafta içinde
+pencereyi **kendisi açık ilan etti**: *"Ağustos 3. hafta geldi"*. Yani 17 Ağustos'taki söz
+pencerenin kapanışı değil, **içindeki bekleme** anlamındaydı. Karne satırı **SONUÇSUZ → AÇIK
+(vadesi dolmadı)** olarak düzeltiliyor.
+
+**2. Pencerenin sonu artık takvimsel olarak sabit: 21 Ağustos 2026 Cuma.**
+Bugün 19 Ağustos Çarşamba. *"ABD borsalarında vadelerin dolmasına az kaldı"* — ABD aylık
+opsiyon vadesi ayın **üçüncü Cuma**sıdır; Ağustos 2026'nın Cumaları 7/14/21/28 → **21 Ağustos**.
+İki iş günü kaldı. Koç ilk kez "Ağustos 3. hafta" ifadesini **belirli bir mekanizmaya**
+(ABD vade/opsiyon dolumu) bağladı; Haziran'dan beri tekrarlanan tarih artık soyut bir "karar
+haftası" değil, **opex günü**.
+
+**3. 17 Ağustos'taki 90 günlük vade sistemiyle tutarlı ama ondan ayrı.**
+90 günlük sistem (15 Ara → 15 Mar → 15 Haz → 15 Eyl) **makro** vade; buradaki "ABD borsalarında
+vadeler" **piyasa tekniği** (opsiyon/futures dolumu). İkisi çakışmıyor — Koç kısa vadede opex'i,
+orta vadede 15 Eylül'ü işaret ediyor. **Sıralama: 21 Ağustos (teknik) → 15 Eylül (makro).**
+
+**4. Ton: "Panik yok" — düşüş beklentisinin doğrulaması değil, sakinleştirme.**
+Koç'un vade öncesi tipik kalıbı: sert hareketi vade dolumunun *kendisine* değil, sonrasına
+atfetmek. 18 Ağustos Japonya/petrol sorusuyla birlikte okunduğunda, **vade dolumu öncesi
+oynaklığı "gürültü", sonrasını "yön" sayan** bir çerçeve kuruyor. Cevap kısmı hâlâ verilmedi.
+
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 10 Tem 2026 | Ağustos 3. hafta = karar penceresi | **AÇIK** (19 Ağu düzeltmesi; vade 21 Ağu Cuma) |
+| 19 Ağu 2026 | ABD vade dolumuna az kaldı, "panik yok" | **İZLENİYOR** (ölçüm: 21 Ağu kapanışı ve takip eden hafta) |
+| 17 Ağu 2026 | 90 günlük vade sistemi (15 Ara/Mar/Haz/Eyl) | **İZLENİYOR** (bir sonraki düğüm 15 Eylül) |
+| 3 Ağu 2026 | ETH 1846 / 14 Ağustos'a kadar üstü pozitif | **İZLENİYOR** (10-19 Ağu'da ETH'ye tek kelime yok, Koç kapatmadı) |
+
+**Bir sonraki taramada aranacak:** (a) 21 Ağustos vade günü ve sonrasına dair Koç'un kapanış
+yorumu — bu, Haziran'dan beri açık duran "Ağustos 3. hafta" çağrısının **ilk gradelenebilir
+sonucu** olacak; (b) 18 Ağustos Japonya floodunun cevap kısmı (grafikleri hâlâ okunmadı:
+`medya/2089511036420309364/`, `medya/2089633894706393341/`).
