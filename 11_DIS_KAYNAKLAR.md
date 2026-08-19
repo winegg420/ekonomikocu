@@ -519,6 +519,63 @@ biri doğrulanırsa diğerini otomatik doğrulamaz, ayrı izlenmeli.
 | Ağu 2026 | Gerçek altın rallisi başlamadı, tetik sistemik güven çöküşü | İZLENİYOR |
 | Ağu 2026 | Çin borsası doğrudan erişim lisansı önemli gelişme | İZLENİYOR |
 
+### Ağustos 2026 — aynı videonun ayrıntıları: gerekçe zinciri (sonradan eklendi)
+
+> Yukarıdaki girişte sadece **sonuç** yazılıydı ("gerçek ralli başlamadı, temkinli"). Manukyan'ın
+> bu sonuca hangi somut gelişmelerden vardığı eksikti — bu bölüm o gerekçe zincirini tamamlar.
+
+**1. Jeopolitik risk — Türkiye doğrudan isim olarak geçiyor (transshipping raporu):**
+> *"Bu hafta içinde iki gelişme okuduk. Birincisi transshipping üzerine Beyaz Saray bir rapor
+> yayınladı, Türkiye'nin de içinde olduğu bazı ülkeleri gruplandırdı, 'Çin'le beraber
+> çalışıyorsunuz' suçlamasında bulundu."*
+- Beyaz Saray'ın **transshipping** (gümrük/yeniden ihracat üzerinden Çin menşeli malın aklanması)
+  raporunda **Türkiye ismen** yer alıyor.
+- Manukyan bunu tek başına bir ticaret haberi olarak değil, **"her an herhangi bir varlığa el
+  konulabilir"** çerçevesinin kanıtı olarak kullanıyor → **altın tezinin gerekçesi budur.**
+- **Ida için doğrudan ilgili:** Türkiye'nin adının bu tür bir raporda geçmesi, TL varlık/BIST
+  tarafındaki yabancı algısı ve MSCI tartışmasıyla (Erol Polat, Lafçı/Yeşilada SPK dosyası)
+  aynı zemine oturuyor — ama **farklı bir kanaldan** geliyor, bağımsız sinyal sayılmalı.
+
+**2. 35 ülkeye AI ultimatomu (Kazakistan üzerinden):**
+> *"EI girişimlerinde Kazakistan'ın üzerinden, eğer Çin'in AI kongresine katılıyorsanız
+> Amerika'nınkine katılamayacaksınız diye 35 ülkeye ultimatom gönderilecek gibi gözüküyor."*
+- ABD'nin AI ekosisteminde **saf tutturma** hamlesi; Manukyan bunu ekonomik bloklaşmanın
+  hızlandığının işareti sayıyor.
+- **Tez bağlantısı:** İki gelişme birlikte → varlık dondurma/el koyma riskinin arttığı, bu yüzden
+  **"gerçek altın rallisinin tetikleyicisi sistemik güven çöküşü olacak"** diyor. Yani teze giden
+  yol **teknik değil, mülkiyet güvenliği** üzerinden kuruluyor. (Koç'un teknik/zaman çerçevesinden
+  ayrıldığı asıl nokta burası — yukarıdaki "Koç'la ilişki" notunu somutlaştırır.)
+
+**3. KOSPI = "boğa piyasaları nasıl biter" yol haritası:**
+- KOSPI'yi bir **roadmap** olarak kullanıyor: boğa piyasalarının bitiş deseni oradan okunur diyor.
+- Mevcut faz tespiti: **"korku duvarı" (wall of worry)** — yani henüz euforik/tepe fazı değil,
+  tırmanış sürüyor. Bu, "ralli başlamadı" tezinin **piyasa-psikolojisi ayağı**.
+
+**4. Robo strateji fonu — NAV primi detayı:**
+- Fonda **7-8 kat NAV primi** var; Manukyan bu primin **daralmasını bekliyor** ve daralmayı
+  **giriş fırsatı** olarak görüyor. (Fiyat değil, prim/iskonto üzerinden pozisyon mantığı —
+  dosyadaki diğer kaynaklarda olmayan bir yaklaşım.)
+
+**⚠️ TAHMİNİ BAĞLANTI — DOĞRULANMADI, transkript hatası olabilir:**
+- Transkriptte Basel kriterlerinin yumuşaması / Bessent-Miran bağlamında **"Bunun Watch'la da
+  ilgili olduğunu düşünüyorum"** ifadesi geçiyor.
+- **Olasılık:** "Watch" = **"Warsh"** (Fed Başkanı Kevin Warsh) yanlış transkripsiyonu olabilir.
+  Doğruysa, iki bağımsız kaynak aynı isme **farklı bağlamlarda** değinmiş olur: Koç
+  **kripto politikası** üzerinden (03_HAFIZA.md, "kripto severleri kurtarmak zorunda değiliz",
+  5-6 Ağustos), Manukyan **Basel/bankacılık regülasyonu** üzerinden.
+- **KESİN DEĞİL.** Sesli kayıttan teyit edilmeden çapraz doğrulama sayılmaz; karneye
+  **yazılmadı**. Bir sonraki oturumda videodan doğrulanacak — doğrulanırsa ÖZET'e "Warsh:
+  3. bağımsız değinme" olarak taşınır, doğrulanmazsa bu madde silinir.
+
+### KARNE EK — Şant Manukyan (gerekçe zinciri)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| Ağu 2026 | Beyaz Saray transshipping raporunda Türkiye ismen hedefte | **TUTTU** (rapor yayınlandı — olgu aktarımı, tahmin değil) |
+| Ağu 2026 | 35 ülkeye AI kongresi ultimatomu gönderilecek | İZLENİYOR (henüz "gözüküyor" aşamasında) |
+| Ağu 2026 | Piyasa "korku duvarı" fazında, tepe deseni yok | İZLENİYOR |
+| Ağu 2026 | Robo strateji fonunda 7-8 kat NAV primi daralır | İZLENİYOR |
+| Ağu 2026 | (Şüpheli) Basel yumuşaması ↔ Warsh bağlantısı | **DOĞRULANMADI** — transkript hatası olabilir, teyit bekliyor |
+
 ---
 
 ## ÖZET — KAYNAKLAR ARASI YAKINSAMA/ÇELİŞKİ TABLOSU
