@@ -7974,3 +7974,135 @@ Her tweet tek tek kaydedilir (özet/atlama YOK):
 
 ## CİHAZ
 - Bilgisayar = tarama (Chrome). Mobil = sadece danışma (bu dosya + web). Dosya "son güncelleme" 1 haftadan eskiyse Ida'ya "harita eski, taze tarama öner" de.
+
+
+---
+
+## Ağustos 2026 — Koç'un satır arası mesajları (derin okuma, 1-7 Ağustos kümesi)
+**Eklenme:** 19 Ağustos 2026 · **Kaynak:** 04_TWEETLER.jsonl + 07_ABONE_TWEETLER.jsonl (1-9 Ağustos)
+· Bu bölüm mentor oturumu sentezidir; üstteki eksiksiz kayıt satırları değiştirilmemiştir.
+
+**Tez 1 — Kripto popülizmi bitti, Çin gümüşe geçti:**
+1 Ağustos: *"Tüm dünyada kripto popülizmi bitti, bu sefer ÇİN GÜMÜŞ deyip ortalığı yıktı."* Yorum:
+BTC/ETH'nin enflasyon-emici/dikkat dağıtıcı rolü tükendi, Çin artık gümüş/kıymetli maden cephesinden
+baskı kuruyor. 7 Ağustos: *"gümüş yükseldiği sürece dünya ucuza petrol asla alamaz."*
+
+**Tez 2 — BTC/ETH'nin gram altın/gümüşe sentetik endeksleme iddiası:**
+1 Ağustos: *"2020'den önce 1 gram altın 33 dolardı. Buna eşdeğer bitcoin de 3300 dolar."* /
+*"1 kg gümüş 1850 dolarken, ETHUSD neden 1850 dolar? Bunları kim birbirine entegre ediyor?"*
+ETH'yi "taklit ürün" olarak tanımlıyor (1 Ağu: "Çin taklit ürünleriyle bilinir; ABD siz de bu işe mi
+el attınız, gümüş reel bir varlıktır, ETH diye taklit bir ürün mü çıkardınız?"). İddia: kripto
+fiyatları organik değil, gram metal rakamlarının bilinçli çarpımı. (23 Temmuz'daki gümüş-gram/ETH
+eşitlemeleri bu tezin hazırlığıdır: 60$/31.1 = 1.920 ≈ ETH 1920; 1 kg gümüş 87 bin TL = 1 ETH 87 bin TL.)
+
+**Tez 3 — Para politikası eleştirisi:**
+6 Ağustos: *"Geçen sene faiz indirseniz enflasyon bu kadar azmazdı. Faiz indirmek yerine doları
+BİTCOİN üstünden zayıflatıyorsunuz. Bu emtia ülkelerini tahrik ediyor."* Kök sorun (Avrupa savaşı)
+çözülmeden faizin sadece piyasayı öldüreceğini söylüyor ("olmaz tutmaz", "faiz sadece piyasayı öldürür,
+sorunları çözmez").
+
+**Meta-gözlem (2 Ağustos):** *"Zaman fiyattan hızlı ilerliyorsa... birileri yön aramıyor, zaman
+kazanıyordur. Bunu grafik değil takvim anlatır."* — Koç'un yöntem beyanı: takvim > grafik.
+
+**Fed referansı (5 Ağustos):** Yeni Fed başkanı **Kevin Warsh**'ın "kripto severleri kurtarmak zorunda
+değiliz" sözünü aktarıyor ve kripto'yu "orijinalde DOLAR tarafına savaş açan bir sistem" çerçevesiyle
+destekliyor. **DİKKAT: Warsh'ın sözü Koç'un sözü değil**, Koç'un aktardığı haberdir — ayrı tutulmalı.
+(6 Ağustos'ta ikinci Warsh haberi: "enflasyon beklenenden yüksek olursa Eylül'de faiz artırmaya hazır".)
+
+## BTC/ETH somut seviyeler [Koç] — birleştirilmiş, çelişki notlu
+
+**BTC:**
+- **Ocak 2026'dan beri ~57.800-64.600 bandında sıkışma** (6 Ağustos grafiği, günlük) —
+  8 Ağustos'taki sözlü teyidi: "2026 Ocak'ta 60 K bandındaydı, 8 ay geçti hâlâ 60 K."
+- **4H grafik (3 Ağustos):** Mayıs-Ağustos yükselen kanal, 21 Temmuz ~66.700'de red, şimdi
+  **60.900** ve **58.000** desteklerini test ediyor.
+- **"Hareketi başlatacak dinamik yok"** (30 Temmuz).
+- **64.600 = robot** (Haziran'da konuldu; 10 Tem "değip duruldu", 26 Tem ve 3 Ağu tekrar) —
+  üstü pozitif, altı bekletme.
+- **63-68 K = "savaş kanalı"** (13 Nisan 2024 paraleli, konu İran).
+- **65.700 altı baskı** (14 Temmuz).
+- **82 K'dan çevrildi / 84 K'da robot** (1 Temmuz) · **114.250 = "Avrupa savaşının dengesi"**
+  (1 Temmuz) · **184-189 K = uzun vade "baba gibi direnç"** (11 Temmuz).
+- **60.000 = "en büyük resmin pivotu"** (11 Temmuz): altında fakirleşme, üstünde zenginleşme.
+- Önceki oturumdan: **82.000/84.000 direnç**, **60.000 pivot**, **114.250 teorik uzun vade hedef**.
+- **126 K** (Ekim 2025 zirvesi) = "boğa değil, enflasyon" — 2 ve 5 Haziran 2025'te, yani zirveden
+  önce söylenmiş; tutarlılık lehine sayılır.
+
+**ETH:**
+- **1.746** = haftalık robot (3 Ağustos) — 10 Temmuz: "1746'da 6 ay oyalandı".
+- **1.846** = aylık robot direnci (3 Ağustos) · **süreli çağrı: "Ağustos'un 14. gününe kadar 1846
+  üstü pozitif, altı zaman kaybı"** — Koç'un nadiren verdiği tarihli seviye.
+- **1.870** (3 Ağustos) · **1.920 / 1.936** = test edilen seviyeler (23 ve 17 Temmuz).
+- **2.060 = "6 öğretisi" / 2.157 = "5.7 öğretisi"** (9 Ağustos) — "bu çizginin üstüne çıktığı an
+  önü açılır, yoksa bekletirler".
+- **2.570 = kritik eşik ("5.7 öğretisi", 17 Temmuz)** — *"2026 şartımız neydi? 2570 üstünde kalırsa
+  para yapar."* Şubat 2026 analizine geri referans.
+- **3.300** — *"O rakam sabittir. ETH 3300 USD üzerinde kalırsa sadece para kazanırsınız; ancak buna
+  BOĞA diyemeyiz."* **DÜZELTME/NET:** Önceki oturumda bu seviye "Ocak 2025'ten yeniden paylaşılmış
+  eski tweet, güncel hedef değil" diye işaretlenmişti. Ham veriye göre Koç bunu **12 Temmuz 2026'da
+  güncel olarak tekrarlamıştır** — yani "eski/geçersiz" değil. Ama **hedef de değil, eşiktir**;
+  Koç'un kendi cümlesiyle "kazanç eşiği, boğa değil". Hedef gibi sunulmamalı.
+- **3.460** = "Trump robot" / alt çizgi seviyesi (9 Ağustos) — **ters çevrilmiş grafik okumasıyla**
+  türetilmiş, "3460'ta TRUMP imzası var". Doğrulanmamış, grafik teyidi bekliyor.
+- **5.060** (30 Temmuz) — geçen sene yanaştırılıp düşürülen seviye (tarihsel referans, hedef değil).
+- **6.000** = gerçek boğa piyasası eşiği — "6 K üzeri kalıcı kapanış + haber akışı desteği şart"
+  (12 Temmuz 2026; Temmuz 2024'ten beri tekrarlanan görüş).
+- Önceki oturumdan ek: **1.379 yapısal destek**, **1.746 risk iştahı pivotu**.
+- **Gümüş ile paralel bastırılma iddiası (2 Ağustos, abone):** *"Gümüş 33 doların üzerine çıkınca
+  sanayi metalleri hız kazandı, dolar baskısı arttı; bu nedenle ABD ETHUSD tarafında geri adım attı,
+  kriptoya giden likiditeyi kıstı."* Çerçeve: **gümüş sanayi metallerinin öncüsü, ETH teknoloji
+  coinlerinin öncüsü** — ikisi birden azarsa enflasyon ikiye katlanır.
+- **ETHTRY:** 70-75 lira (Şubat işareti), 23 Temmuz'da 87-92 bin lira bandı.
+
+**ÇELİŞKİ ÇÖZÜMÜ — gümüş taban seviyesi (tarihe bakıldı, tahmin yok):**
+- Koç'un cümlesi **"ABD gümüşü 68 dolar ALTINA ALMADAN eli rahatlamıyor"** (24 May, 31 May, 3-5-8 Haz
+  2026). Yani **68 bir taban değil, ABD'nin aşağı kırmak isteyeceğini söylediği eşiktir.**
+  5-6 Haziran: *"Ben bilmiyor muyum 68 dolara düşecek? Hep yazdım, biliyorum."*
+- **8 Haziran 2026:** *"Gümüş 68 dolar altında kaldı, ABD'nin eli rahatladı. 64 dolar kırılmadan bu
+  durulur."* → Eşik o tarihte aşağı kırıldı ve bunu Koç **önceden** söylemişti.
+- **Temmuz 2026 (en güncel veri):** 1 Tem 57$ / 60.17$ · 2 Tem 61.90$ · **16 Tem: "trend çizgisi 57
+  dolar, 5.7 öğretisi ve altına aldılar"** · **17 Tem: 54 dolara düştü** · 23 Tem 60$.
+- **GEÇERLİ REFERANS (bugün kullanılacak olan):** gümüş **54-62$ bandı**, trend çizgisi **57$**,
+  gram gümüş kesişimleri **86 / 106 lira** (Eylül vadesi).
+- **GÜNCELLİĞİNİ YİTİRDİ:** "68$ kritik taban" ifadesi — **24 Mayıs – 8 Haziran 2026 arasında
+  geçerliydi**, 8 Haziran'da aşağı kırıldı. Bir daha "taban" olarak kullanılmamalı. (Aynı düzeltme
+  06_ANALIZ.md 2026-08-19 bölümünde karne satırlarıyla birlikte yapıldı.)
+
+## 2027 koşullu zaman çizelgesi [Koç]
+
+- **En iyimser:** Temmuz-Ağustos 2026 3. hafta (NATO zirvesi) çözüm getirirse süreç hızlanır.
+  (1 Temmuz'daki kendi temkini: *"Şu NATO görüşmesinden olumlu sonuç çıkmasın sen o zaman gör.
+  Kanımca 1 yıl daha zaman geçirecekler."*)
+- **Orta senaryo:** Çözülmezse **2027 Mart'a** sarkar (31 Mayıs, 18 Mayıs, 9 Haziran tweetlerinde
+  tekrarlanan).
+- **Kötü senaryo:** 2027 ortasına kadar çözülmezse (12 Temmuz): *"seni bir sonraki yılın! 2027 6. ayına
+  kadar düşürdüğü an naz-kapris başlıyor ve 2028'e kadar acı çektirme şansı doğuyor"*.
+- **Koç'un kendi tercihi:** Sahte yıl sonu rallisi yerine **gerçek çöküş** istiyor — çöküş gerçek faiz
+  indirimini zorunlu kılar, kozmetik pompalama sorunu öteler (12 Temmuz: *"Yıl sonu yükseliş geleceğine,
+  keşke tüm dünya çökse, süreç bitse! En azından süreç biter, FAİZ indirimleri gelir."*).
+- **Vade takvimi (1 ve 30 Temmuz):** Aralık 15 / Mart 15 = Çin gümüş şantajı · Mart 15 / Haziran 15 =
+  ABD petrol şantajı · **Haziran 15 / Eylül 15 = "barış" vadesi, Ağustos 3. haftaya kadar 60 gün süre**.
+  30 Temmuz: "bu vadenin 45 günü yendi".
+- **Eylül 2026:** Çin'in ABD'yi ziyareti masaya konuldu (13 ve 20 Temmuz) + gümüşte Eylül kesişimi
+  (86 lira) → Koç Eylül'ü "vadelerin sıfırlandığı" ay olarak izliyor.
+- **7 yıllık döngü teorisi (GBPJPY, 15-16 Haziran):** 2000→2007, 2020→2027 paraleli — net yön vermeden
+  "döngü sonu, dikkat" uyarısı.
+
+## Japonya Carry-Trade Riski — çapraz kaynak doğrulaması (Ağustos 2026)
+
+Üç bağımsız kaynak (**Erol Polat**, **Cihat E. Çiçek**, **Integral FX TV paneli**) Ağustos 2026'da
+bağımsız olarak Japon yeni carry-trade çözülmesini "yılın en büyük riski" olarak işaretledi.
+18 Ağustos'ta Japon borsası tek günde **18 trilyon yen (~120 milyar $)** kaybetti, çip/teknoloji
+sektörü ağırlıklı (**Murata -%7,90, Kioxia -%6,39, TEL -%4,79, Advantest -%4,13**). Bu üç kaynağın
+öngördüğü senaryoyla zamanlama örtüşüyor. Gerçekleşirse beklenen etki: **global risk-off + altın/gümüşe
+hızlı sermaye kaçışı** (GMSTR/OTJ pozisyonları için potansiyel pozitif, BTC/ETH gibi risk varlıkları
+için baskı).
+
+**Koç tarafı (ayrım net tutulsun — Koç "carry trade" demiyor):**
+- **30 Temmuz (abone):** *"#JPYUSD — bugün BOJ kura müdahale etti diyorlar. Ben bunu demiyorum,
+  nerede müdahale etti diyorum?"* → Japon yeni tarafındaki müdahaleyi çöküşten ~3 hafta önce
+  işaretlemiş oluyor, ama kendi çerçevesi robot/kesişim, carry-trade değil.
+- **14 Temmuz (abone):** *"Gerçek bir risk oluşsa para ne alır? ABD DOLARI alır, JPY alır, ALTIN alır."*
+  → Koç'un risk-off sıralaması bu üç kaynağın "altına kaçış" beklentisiyle **yön olarak uyumlu**.
+- Ayrıntı ve kaynak bazlı seviyeler: `11_DIS_KAYNAKLAR.md` (Erol Polat, Cihat E. Çiçek, Integral FX TV
+  bölümleri). **Bu kaynakların hiçbir görüşü Koç'a atfedilmez.**

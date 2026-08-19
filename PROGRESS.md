@@ -913,3 +913,69 @@ kapsadı: `ddc801a` (21 dosya). Ayrı MagicMA push'una gerek kalmadı.
 2026-08-10'dan beri). Yine kendi başıma public repo açmadım. **LFS: 861/1024 MB
 (%84)**, script "~1 tarama daha sığar" diyor — bir sonraki taramadan önce eski
 `05_GRAFIKLER.zip` sürümlerinin GitHub tarafında temizlenmesi gerekiyor.
+
+---
+
+## 2026-08-19 — Ağustos analiz oturumu: 7 haftalık boşluk + derin okuma + 12 dış kaynak
+
+**Boşluk aslında kapalıydı, eksik olan katman farklıydı.** Görev "06_ANALIZ Haziran
+sonunda donmuş, Temmuz-9 Ağustos hiç işlenmemiş" diyordu; dosyada zaten
+`2026-08-10 GÜNCELLEME — Temmuz-Ağustos sentezi` bölümü vardı. O bölüm **tematik**
+(tez/pencere/karne), eksik olan **ürün bazlı kronoloji**ydi. Bu yüzden mevcut bölüm
+silinmedi, üstüne `2026-08-19 GÜNCELLEME — TEMMUZ 1 → AĞUSTOS 9 KRONOLOJİK ÜRÜN
+DEFTERİ` eklendi: BTC / ETH / ALTIN / GÜMÜŞ / DXY-pariteler / NASDAQ-DOW / PETROL /
+JPY-BOJ / zaman-pencere başlıklarıyla, 403 tekilleştirilmiş kayıt (public + abone)
+taranarak. Temmuz'un tweet atılan **her günü** artık dosyada.
+
+**Kayıtta olmayan seviyeler çıktı.** BTC **184-189 K** uzun vade direnci (11 Tem),
+ETH **1846 aylık robot + "14 Ağustos'a kadar üstü pozitif" süreli çağrısı** (3 Ağu),
+altın **4026 → 4079 robot** ve **GOLDGR 124.6 / 140.6** öğreti çifti, gram gümüş
+**86 / 106 lira** Eylül kesişimleri, **faiz dengeleri Avrupa 3060 / ABD 4570**,
+Brent **94'ten gaplı aşağı** (27 Tem). Bunların hiçbiri önceki sentezde yoktu.
+
+**Gümüş çelişkisi çözüldü — ve karne yanlışı bulundu.** Dosyada "gümüş 68$ kritik
+taban → TUTMADI" yazıyordu. Ham veriye bakınca cümle şu: *"ABD gümüşü 68 dolar
+ALTINA ALMADAN eli rahatlamıyor"* (24 May–8 Haz). Yani 68 Koç'un savunduğu taban
+değil, **aşağı kırılmasını beklediği eşik**; 5-6 Haziran'da *"Ben bilmiyor muyum 68
+dolara düşecek? Hep yazdım"* diyor, 8 Haziran'da kırılıyor. → Bu satır **TUTMADI
+değil TUTTU**. Eski kayıtlar silinmedi (kural), düzeltme tarihli bölümde gerekçesiyle
+yazıldı. Yeni TUTMADI ise "64$ kırılmadan durulur" (17 Tem'de 54$ görüldü).
+**Güncel gümüş referansı: 54-62$ bandı, trend çizgisi 57$.** "68$ taban" ifadesi
+artık kullanılmayacak — bu ifade `11_DIS_KAYNAKLAR.md` ÖZET'inde de düzeltildi.
+
+**03_HAFIZA'ya iki kalıcı bölüm.** (1) "Ağustos 2026 — Koç'un satır arası mesajları"
+(kripto popülizmi bitti / sentetik endeksleme / para politikası eleştirisi + BTC-ETH
+birleşik seviye haritası), (2) "Japonya Carry-Trade Riski" çapraz doğrulama notu.
+**Kritik teknik detay:** `claude_paket_olustur.py:678` → `03_HAFIZA.md`,
+`ekonomikocu_hafiza_v1.md`'nin **kopyasıdır**. Sadece 03'e yazsaydım ilk paket
+üretiminde silinirdi; blok **her iki dosyaya da** eklendi, md5'leri eşit tutuldu.
+Bundan sonraki mentor eklemelerinde de kural bu.
+
+**ETH 3300 notu düzeltildi.** Önceki oturumda "Ocak 2025'ten yeniden paylaşılmış eski
+tweet, güncel hedef değil" diye işaretlenmişti; ham veride Koç bunu **12 Temmuz
+2026'da** güncel olarak tekrarlıyor. "Eski/geçersiz" değil ama **hedef de değil** —
+kendi cümlesiyle "kazanç eşiği, boğa değil". Böyle işaretlendi.
+
+**11_DIS_KAYNAKLAR: 12 kaynak elden geçti, mükerrer kayıt üretilmedi.** 2 yeni bölüm
+(**Integral FX TV**, **Şant Manukyan**), 8 mevcut kaynağa yeni tarihli giriş (Lafçı &
+Perşembe / Altınocağı / Baki Atılal / Şatıroğlu / Cihat E. Çiçek / Barış Soydan /
+Erol Polat / Sellcoin-27 Temmuz), **2'si zaten dosyadaydı** (Berk Dinçtürk & Ferhat
+Yükseltürk 6 Ağustos programı; Sellcoin NFP-sonrası 10 Ağustos videosu) — kopyalanmadı,
+ÖZET'te "zaten mevcut, doğrulandı" diye not düşüldü. Karne sistemi (a9c3fdc formatı)
+korundu, her yeni girişe kendi KARNE EK tablosu eklendi.
+
+**En güçlü yeni bulgu — Japonya carry-trade.** Erol Polat, Cihat E. Çiçek ve Integral
+FX TV **birbirinden bağımsız** olarak yen carry-trade çözülmesini "yılın en büyük
+riski" işaretlemiş; 18 Ağustos'ta Japon borsası tek günde 18 trilyon yen kaybetti.
+Koç "carry trade" demiyor ama **30 Temmuz'da BOJ müdahalesini** işaretlemiş — çöküşten
+~3 hafta önce. Dosyadaki en yüksek kaynak sayılı yakınsama (3 bağımsız + 1 dolaylı).
+
+**Yöntem notu (sonraki oturumlar için):** Görev metnindeki iddiaları (boşluk var /
+çelişki şu dosyada) doğrudan uygulamadan önce dosyaya bakmak iki hatayı önledi:
+boşluğun zaten kısmen kapalı olması ve gümüş çelişkisinin 03'te değil **06'da**
+olması. **Ham veri > görev metni > önceki özet** sırası korunacak.
+
+**Sonraki oturumun açık işleri:** (1) ETH 1846 / "14 Ağustos'a kadar" süreli çağrısı
+9 Ağustos sonrası veri gelince gradelenecek. (2) Barış Soydan'ın 66,5 gümüş fiyatı
+Koç'un 54-62 bandının üstünde — Ağustos toparlanması mı, farklı baz mı, kontrol
+edilecek. (3) Ağustos 3. hafta penceresinin sonucu (bugün 19 Ağustos, pencere içindeyiz).

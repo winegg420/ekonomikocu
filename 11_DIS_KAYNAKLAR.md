@@ -31,6 +31,24 @@
 
 ---
 
+
+### 2026-07-27 (10 Ağustos videosundan ÖNCEKİ yayın — 19 Ağu oturumunda geriye dönük eklendi)
+- **Altın:** **4.000 dip tamamlandı**, hedef **4.300**.
+- **Gümüş:** **$55 potansiyel dip** — ama gümüşü **zayıf** görüyor (10 Ağustos'taki "62 kazanıldı,
+  yeni destek" pozitifliğinden ÖNCEKİ, daha temkinli hali; **iki hafta içinde görüş değiştirmiş**).
+- **BTC:** **63.000 destek**, tetik **67.300 üstü**.
+
+**Kronoloji notu:** 27 Temmuz'da gümüşte temkinli/zayıf → 10 Ağustos'ta pozitif. Bu dönüş,
+Koç'un aynı dönemde (16-17 Temmuz, gümüş 57→54) yaptığı "aşağı aldılar" tespitinin ardından geldi;
+yani **Sellcoin dibi sonradan onayladı, Koç düşüşü önceden söyledi.** Karne için önemli ayrım.
+
+### KARNE EK — Sellcoin (27 Temmuz)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 27 Tem | Altın 4.000 dibi tamamlandı, hedef 4.300 | **TUTTU** (10-15 Ağu'da 4.300-4.425 bandı) |
+| 27 Tem | Gümüş $55 potansiyel dip, zayıf | **TUTTU** (17 Tem 54$ dibi; sonrasında toparladı) |
+| 27 Tem | BTC 63.000 destek, tetik 67.300 üstü | İZLENİYOR |
+
 ## ATILLA YEŞİLADA (FX TV, Perihan Tantuğ ile söyleşi)
 
 ### 2026-08-13 civarı
@@ -132,6 +150,33 @@
 
 ---
 
+
+### Ağustos 2026 — iki video (19 Ağu oturumunda eklendi)
+
+**Video 1 (altın/gümüş odaklı — önceki oturum notunun eksik kalan kısmı):**
+- Altın kısa vade **4.400-4.456**; **4.200 = kritik seviye** (bu detay önceki kayıtta yoktu).
+- Uzun vade **5.000 → 7.000** hedef zinciri.
+- Gümüş **stop 62,5**.
+
+**Video 2 (aynı hafta, ikinci yayın):**
+- **Altın direnç 4.423.**
+- **Gümüş 66 kırıldı** — yukarı yönlü kırılım olarak okuyor.
+- **ETH 1.950 = teyit seviyesi** (bu kaynağın nadir kripto seviyesi).
+- **XRP 1,05-1,13 = tepki hedefi.**
+
+**Koç'la ilişki:** Gümüş 66 kırılımı Koç'un Temmuz'daki 54-62 bandı ve "57 trend çizgisi altına
+aldılar" tespitinin tam tersi yönde — **gümüşte ikinci net çelişki noktası**. ETH 1.950 seviyesi
+ise Koç'un 1.936/2.060 bandına yakın (yöntem farklı, bölge benzer).
+
+### KARNE EK — Tunç Şatıroğlu (Ağustos 2026, iki video)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| Ağu 2026 | Altın 4.200 kritik seviye korunur | İZLENİYOR |
+| Ağu 2026 | Altın direnç 4.423 | İZLENİYOR |
+| Ağu 2026 | Gümüş 66 kırılımı yukarı yönlü | İZLENİYOR (Koç'la çelişik) |
+| Ağu 2026 | ETH 1.950 teyit seviyesi | İZLENİYOR |
+| Ağu 2026 | XRP tepki hedefi 1,05-1,13 | İZLENİYOR |
+
 ## EMRAH LAFÇI & ALİ PERŞEMBE
 
 ### Önceki oturum
@@ -160,6 +205,26 @@
 
 ---
 
+
+### Teknik Analiz 28 programı — Ağustos 2026 (19 Ağu oturumunda eklendi)
+- **Altın:** Hedef **$4.400**, stop **$4.125**. 6 ay içinde **$6.500** potansiyeli görüyor
+  (uzun vade, koşullu).
+- **Gümüş:** **63'ten 73-74** hedef, stop **58,87**.
+- **Platin:** **1.629,5'ten long**, hedef **1.830** — bu kaynağın verdiği tek platin işlem fikri.
+- **BTC:** Teyit yok, temkinli duruş sürüyor (önceki oturumdaki BTC temkini ile tutarlı).
+
+**Koç'la ilişki:** Altın/gümüşte yapısal boğa tarafında → Koç'un "emtia baskılanıyor, azdırılmasın"
+çerçevesinin karşı tarafında. Gümüş 63→73-74 hedefi, Koç'un Temmuz'da kaydettiği **54-62$ bandıyla
+doğrudan çelişiyor** (Koç aşağı, Lafçı yukarı).
+
+### KARNE EK — Emrah Lafçı & Ali Perşembe (Teknik Analiz 28)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| Ağu 2026 | Altın hedef $4.400, stop $4.125 | İZLENİYOR |
+| Ağu 2026 | Altın 6 ay içinde $6.500 potansiyeli | İZLENİYOR |
+| Ağu 2026 | Gümüş 63 → 73-74, stop 58,87 | İZLENİYOR |
+| Ağu 2026 | Platin 1.629,5 long → 1.830 | İZLENİYOR |
+
 ## BAKI ATILAL (A1 Kapital)
 
 ### Önceki oturum
@@ -173,6 +238,22 @@
 
 ---
 
+
+### Ağustos 2026 — güncel seviyeler (19 Ağu oturumunda eklendi)
+- **Altın:** **4.000 destek**, **4.300 direnç**. Yen müdahalesi ile altın talebi arasında bağlantı
+  kuruyor (önceki oturumdaki teması sürüyor — Japonya carry-trade notuyla birlikte okunmalı).
+- **Yıl sonu:** **4.700 potansiyeli**, ama açıkça **temkinli** — hedef değil "potansiyel" diyor.
+
+**Koç'la ilişki:** 4.000-4.300 bandı Koç'un XAUUSD 4.026 / 4.079 robot seviyeleriyle çakışıyor
+(farklı yöntem, aynı bölge) — nadir bir teknik yakınsama.
+
+### KARNE EK — Baki Atılal
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| Ağu 2026 | Altın 4.000 destek korunur | İZLENİYOR |
+| Ağu 2026 | Altın 4.300 direnç | İZLENİYOR |
+| Ağu 2026 | Yıl sonu 4.700 potansiyeli (temkinli) | İZLENİYOR |
+
 ## EMRAH ALTINOCAĞI
 
 ### Önceki oturum
@@ -182,6 +263,24 @@
 **Not:** Koç bu konuda hiçbir şey yazmadı — tamamen bağımsız bir haber akışı.
 
 ---
+
+
+### Ağustos 2026 — Çin kağıt altın kısıtlaması (detaylandırıldı, 19 Ağu)
+- **Olay:** Çin, **ICBC üzerinden bireysel kağıt altın** işlemlerine kısıtlama getirdi —
+  **%140 teminat** şartı (fiilen bireysel kaldıraçlı altın pozisyonunu imkânsızlaştırıyor).
+- **Ana tez:** Bunun sebebi "yuan altına bağlanacak" değil; **Güney Kore tarzı toplumsal/finansal
+  krizi önceden engelleme** — halkın kaldıraçlı emtia spekülasyonuyla batmasını istemiyorlar.
+- **Yuan-altın peg spekülasyonunu açıkça REDDEDİYOR** (Berk Dinçtürk'ün "Yuan-altın güven köprüsü /
+  Şangay Altın Borsası" çerçevesiyle **ters yönde** — iki kaynak aynı olaydan zıt sonuç çıkarıyor).
+- **Piyasa etkisi:** Sınırlı görüyor — ons altın fiyatına yön verecek bir hamle saymıyor.
+
+**Koç'la ilişki:** Koç bu konuda hiçbir şey yazmadı — tamamen bağımsız haber akışı.
+
+### KARNE — Emrah Altınocağı
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| Ağu 2026 | Çin ICBC kısıtlaması yuan-altın peg hazırlığı DEĞİL | İZLENİYOR |
+| Ağu 2026 | Kısıtlamanın ons altına etkisi sınırlı kalır | İZLENİYOR |
 
 ## EROL POLAT (Money Talks — Üç Harfler)
 
@@ -207,6 +306,26 @@
 - **AK3/TP2/HVS/GHS fonlarının kısa vadeli (1-3-6 ay) düşük performansı eleştirisine cevap:** "Kıstas her zaman kendi benchmark'ı (BIST100) ile kıyaslanmalı" — 3 yıllık bazda BIST100 %80 artarken bu fonlar %150-160 artmış, yani BIST100'ü yenmiş, bu iyi yönetim demek.
 
 ---
+
+
+### Ağustos 2026 — Japonya riski + MSCI uyarısı + TEFAS karşılaştırmaları (19 Ağu eklendi)
+> Not: Bu kaynak bir dönem "Foneria" adıyla tutulmuştu; doğru adlandırma yukarıdaki düzeltmede.
+- **Japonya carry-trade riski = "en büyük risk"** — gerçekleşirse **altın/gümüşe hızlı kaçış**
+  bekliyor. (Cihat E. Çiçek ve Integral FX TV ile **üçüncü bağımsız kaynak**.)
+- **MSCI uyarısı:** MSCI'ın **BIST'i gelişmekte olan piyasadan sınır (frontier) piyasaya düşürme
+  riski** — Lafçı/Yeşilada'nın SPK-manipülasyon dosyasıyla aynı zeminde, farklı açıdan.
+- **TEFAS fon karşılaştırmaları:** **PTO / SKO / MTD / NTI / KPC** fonlarını kıyaslıyor
+  (önceki oturumdaki AK3/TP2/HVS/GHS setinin üstüne yeni set).
+
+**Koç'la ilişki:** Koç Japonya/MSCI konularına girmiyor. Risk-off anında "altın alır" sıralaması
+(Koç, 14 Temmuz) ile Erol Polat'ın "altın/gümüşe kaçış" beklentisi **yön olarak örtüşüyor**.
+
+### KARNE EK — Erol Polat / Money Talks
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| Ağu 2026 | Japon carry-trade çözülmesi en büyük risk | İZLENİYOR (18 Ağu Japon borsası çöküşü ile kısmen teyit) |
+| Ağu 2026 | Carry-trade çözülürse altın/gümüşe hızlı kaçış | İZLENİYOR |
+| Ağu 2026 | MSCI BIST'i sınır piyasaya düşürebilir | İZLENİYOR |
 
 ## CÜNEYT PAKSOY (FX TV, "Tamamen Duygusal", Perihan Tantuğ ile)
 
@@ -299,6 +418,23 @@
 
 ---
 
+
+### 18 Ağustos 2026 — Japonya carry-trade çöküş tezi
+- **Ana tez:** Japon yeni carry-trade'inin çözülmesi — bunu piyasanın **en büyük riski** olarak
+  sunuyor. **Japon 30 yıllık tahvil faizi %4,05** (rekor bölge) verisini dayanak yapıyor.
+- **Güncel fiyatlar (kendi ifadesiyle):** Gram altın **6.745-6.800 TL**, dolar/TL **47,91**.
+- **Üslup uyarısı:** Aşırı karamsar/duygusal ton, **net seviye/hedef vermiyor** — bu giriş
+  gradelenebilir bir çağrı değil, tez kaydıdır.
+
+**Koç'la ilişki:** Koç carry-trade demiyor ama **30 Temmuz'da BOJ müdahalesini** işaretlemişti
+(06_ANALIZ 2026-08-19, JPY/BOJ bölümü). Yön olarak örtüşme var, mekanizma dili farklı.
+
+### KARNE EK — Cihat E. Çiçek
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 18 Ağu | Japon carry-trade çözülmesi en büyük risk | İZLENİYOR (18 Ağu Japon borsası çöküşü ile kısmen teyit) |
+| 18 Ağu | Japon 30Y tahvil %4,05 seviyesi kritik | İZLENİYOR |
+
 ## BARIŞ SOYDAN
 
 ### 15 Ağustos 2026
@@ -318,6 +454,70 @@
 | 15 Ağu | Fed Eylül'de faiz artırmaz (perakende+NFP zayıf) | İZLENİYOR (Sellcoin, Lafçı ile 3. bağımsız teyit) |
 | 15 Ağu | Bakır gümrük vergisi beklentisi fiyatı etkiliyor | İZLENİYOR |
 | 15 Ağu | Tüpraş kâr büyümesi güçlü | **TUTTU** (bilanço: kâr YoY +%300) |
+
+---
+
+
+### Ağustos 2026 — sonraki yayın (15 Ağustos girişinden SONRA; fiyatlar ilerlemiş, tam tarih net değil)
+- **Ons altın 4.425** (15 Ağu'daki 4.400'den yukarı), **ons gümüş 66,5** (15 Ağu'da 65,5).
+- **UBS hedefi: $5.000** — **2027 ilk yarısı** için. (Aktarılan kurum görüşü, kendi hedefi değil.)
+- **TCMB faiz indirimi kulisi** aktarılıyor (Paksoy/Lafçı/Ferhat Yükseltürk'ün "ılımlı bitirdi"
+  okumasıyla 5. bağımsız teyit).
+- **BIST 14.132**, direnç **14.250**.
+
+**Koç'la ilişki:** Doğrudan atıf yok. Ons gümüş 66,5 rakamı, Koç'un Temmuz'da kaydettiği 54-62
+bandının **üstünde** — ya gümüş Ağustos'ta toparlandı ya da iki kaynak farklı kontrat/bazı kullanıyor;
+**tek başına Koç'un verisini geçersiz kılmaz, ama sonraki taramada kontrol edilmeli.**
+
+### KARNE EK — Barış Soydan
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| Ağu 2026 (2. yayın) | UBS: altın $5.000, 2027 ilk yarı (aktarım) | İZLENİYOR |
+| Ağu 2026 (2. yayın) | BIST direnç 14.250 | İZLENİYOR |
+| Ağu 2026 (2. yayın) | TCMB faiz indirimine yakın (kulis) | İZLENİYOR |
+
+## INTEGRAL FX TV (Karagöz / Sağman / Perşembe paneli)
+
+### Ağustos 2026 — panel değerlendirmesi (19 Ağu oturumunda eklendi)
+- **TCMB:** **10 Eylül'de haftalık repo faizinin açılması** bekleniyor — Paksoy, Ferhat Yükseltürk,
+  Lafçı, Barış Soydan'dan sonra **5. bağımsız kaynak** aynı yönde; artık bu bir konsensüs.
+- **Altın:** **3.950-4.200 kırılımı teyit edildi** (yukarı yönlü). Kurum hedefleri aktarılıyor:
+  **UBS $5.000**, **Citibank $6.000**. (Aktarım — panelin kendi hedefi değil.)
+- **Japonya:** **BOJ'dan 1-2 faiz artırımı** bekliyorlar → yen carry-trade'i doğrudan tehdit eden
+  hamle. (Erol Polat ve Cihat E. Çiçek ile **üçüncü bağımsız Japonya uyarısı**.)
+
+**Koç'la ilişki:** Altında yukarı kırılım teyidi, Koç'un "4.026/4.079 robot, yukarıda vermiyorlar"
+okumasının tersi yönde. Japonya konusunda Koç'un 30 Temmuz BOJ notuyla dolaylı örtüşme var.
+
+### KARNE — Integral FX TV
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| Ağu 2026 | TCMB 10 Eylül'de haftalık repoya geçer | İZLENİYOR |
+| Ağu 2026 | Altın 3.950-4.200 kırılımı teyitli, yukarı | İZLENİYOR |
+| Ağu 2026 | BOJ 1-2 faiz artırımı yapar | İZLENİYOR |
+| Ağu 2026 | UBS $5.000 / Citibank $6.000 hedefleri (aktarım) | İZLENİYOR |
+
+---
+
+## ŞANT MANUKYAN (İş Yatırım)
+
+### Ağustos 2026 (19 Ağu oturumunda eklendi)
+- **Çin borsasına doğrudan erişim lisansı** haberini öne çıkarıyor (yabancı kurumsal erişimin
+  genişlemesi).
+- **Ana tez:** *"Gerçek altın rallisi henüz başlamadı; tetikleyici sistemik güven çöküşü olacak."*
+  Yani mevcut yükselişi asıl ralli saymıyor, tetiği **güven krizi**ne bağlıyor.
+- **BTC/ETH:** Net yön vermiyor, temkinli.
+
+**Koç'la ilişki:** **Yön olarak örtüşme, gerekçe olarak ayrışma.** Koç da "gerçek hareket
+başlamadı, koşullar gelmeden olmaz" diyor ama gerekçesi **teknik/jeopolitik zaman yönetimi**;
+Manukyan'ınki **sistemik güven çöküşü**. Aynı sonuca iki farklı yoldan varıyorlar — bu yüzden
+biri doğrulanırsa diğerini otomatik doğrulamaz, ayrı izlenmeli.
+
+### KARNE — Şant Manukyan
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| Ağu 2026 | Gerçek altın rallisi başlamadı, tetik sistemik güven çöküşü | İZLENİYOR |
+| Ağu 2026 | Çin borsası doğrudan erişim lisansı önemli gelişme | İZLENİYOR |
 
 ---
 
@@ -342,3 +542,48 @@
 **BTC:** Sellcoin 63.000-63.100 destek / 67.300 direnç / 72.600 hedef — Koç'un 60K pivot çerçevesiyle kabaca uyumlu. Berk BTC'ye seviye vermiyor.
 
 **Somut hisse hedefi (nadir):** Çoğu kaynak hisse için isim veriyor ama rakam vermiyor. İki istisna: Berk **Freeport-McMoRan 6 ay $85-90**, Şatıroğlu **NASA hedef 52**. Bunlar gradelenebilir — KARNE'de takipte.
+
+
+---
+
+## EK — 2026-08-19 OTURUMU: YENİ KAYNAKLAR VE GÜNCELLENEN YAKINSAMALAR
+
+> Bu oturumda 12 kaynak elden geçirildi: **2 tamamen yeni bölüm** (Integral FX TV, Şant Manukyan),
+> **8 mevcut kaynağa yeni tarihli giriş** (Lafçı/Perşembe, Altınocağı, Baki Atılal, Şatıroğlu,
+> Cihat E. Çiçek, Barış Soydan, Erol Polat, Sellcoin-27 Temmuz), **2 kayıt zaten mevcuttu ve
+> doğrulandı** (Berk Dinçtürk & Ferhat Yükseltürk 6 Ağustos programı; Sellcoin NFP-sonrası
+> 10 Ağustos videosu) — mükerrer kayıt oluşturulmadı.
+
+**🇯🇵 JAPONYA CARRY-TRADE — yeni ve en güçlü çapraz doğrulama:** Erol Polat, Cihat E. Çiçek ve
+Integral FX TV paneli **birbirinden bağımsız** olarak yen carry-trade çözülmesini "yılın en büyük
+riski" işaretledi. 18 Ağustos'ta Japon borsası tek günde **18 trilyon yen (~120 milyar $)** kaybetti
+(Murata -%7,90, Kioxia -%6,39, TEL -%4,79, Advantest -%4,13). Beklenen etki: **global risk-off +
+altın/gümüşe hızlı kaçış**. Koç bu terimi kullanmıyor ama **30 Temmuz'da BOJ müdahalesini**
+işaretlemişti → detay: `03_HAFIZA.md` Japonya risk notu + `06_ANALIZ.md` 2026-08-19 JPY/BOJ bölümü.
+**Bu, dosyadaki en yüksek kaynak sayılı (3 bağımsız + 1 dolaylı) yakınsamadır.**
+
+**GÜMÜŞ — çelişki tablosu güncellendi:** Koç'un pozisyonu 06_ANALIZ 2026-08-19 düzeltmesiyle
+netleşti: 68$ bir **taban değil, aşağı kırılması beklenen eşikti** ve kırıldı (8 Haz); Temmuz'da
+band **54-62$**, trend çizgisi **57$**. Dış kaynaklar hâlâ yukarı tarafta ve aralarında da ayrışma var:
+Lafçı **63 → 73-74**, Şatıroğlu **66 kırıldı (yukarı)**, Barış Soydan **66,5 spot**, Berk Dinçtürk
+**3 haneli hedef**, Sellcoin **27 Tem'de 55$ dip/zayıf → 10 Ağu'da 62$ pozitif (görüş değiştirdi)**.
+→ **Koç azınlıkta ama Temmuz dip çağrısında haklı çıkan taraftı; Sellcoin dibi sonradan onayladı.**
+
+**ALTIN — kurum hedefleri masaya girdi:** UBS **$5.000** (Barış Soydan ve Integral FX TV, ikisi de
+aktarım; Soydan vadeyi **2027 ilk yarısı** diye veriyor), Citibank **$6.000** (Integral FX TV aktarımı).
+Bunlar analist tezi değil **kurum hedefi aktarımıdır** — karnede ayrı tutuldu. Kaynakların kendi
+hedefleri: Berk **$10.000 (2028)**, Şatıroğlu **5.000→7.000**, Lafçı **6 ayda 6.500**, Paksoy
+**~6.000 makul, 10.000 için erken**, Cihat Çiçek **Ekim'de 4.660**, Atılal **yıl sonu 4.700 (temkinli)**.
+**Kısa vade konsensüs bandı: 4.000-4.500. Uzun vadede dağılım çok geniş — tek sayı sunma, aralık ver.**
+
+**TCMB — konsensüs tamamlandı (5 kaynak):** Paksoy, Ferhat Yükseltürk, Lafçı, Barış Soydan,
+Integral FX TV → "şahin başladı, ılımlı bitirdi" + **10 Eylül haftalık repo** beklentisi.
+
+**YENİ ÇELİŞKİ — Çin altın hamlesinin okunuşu:** Berk Dinçtürk aynı olayı "Yuan-altın güven köprüsü"
+diye **stratejik** okuyor; Emrah Altınocağı **peg tezini açıkça reddediyor**, olayı "halkı kaldıraçtan
+koruma" diye okuyor. İkinci doğrudan analist-analist çelişkisi (birincisi Paksoy vs Berk, altın $10.000).
+
+**KRİPTO — dış kaynaklarda hâlâ zayıf kapsama:** Net seviye veren sadece Sellcoin (BTC 63.000 destek /
+67.300 tetik / 72.600 hedef) ve Şatıroğlu (ETH 1.950 teyit, XRP 1,05-1,13). Lafçı ve Manukyan açıkça
+temkinli, Berk seviye vermiyor. → **Kripto seviyesi sorulduğunda ana kaynak Koç'tur (06_ANALIZ),
+dış kaynak sadece teyit/çelişki amacıyla kullanılır.**
