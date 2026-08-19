@@ -34,11 +34,9 @@ def main() -> int:
     except Exception as e:
         print(f"Tarama hatasi: {e}", flush=True)
         return 1
-    # Ham veri aynasi (public ekonomikocu-veri) — akisi BOZMAZ.
-    try:
-        subprocess.run([PY, str(KOD / "veri_ayna_push.py")], cwd=str(ROOT), check=False)
-    except Exception as e:
-        print(f"[ayna] push atlandi: {e}", flush=True)
+    # NOT (2026-08-20): Ham veri aynasi (public ekonomikocu-veri) KALDIRILDI.
+    # Uzak repo 2026-08-10'dan beri yoktu (404), her taramada hata basiyordu.
+    # Geri istenirse: git log -- 99_BOT_ARSIV/kod/veri_ayna_push.py
     # Push sonrasi opsiyonel LFS kota uyarisi — bilgi amacli, akisi BOZMAZ.
     try:
         subprocess.run([PY, str(KOD / "lfs_kota_kontrol.py")], cwd=str(ROOT), check=False)

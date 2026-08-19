@@ -1014,3 +1014,20 @@ kayıtlarında ETH'ye tek kelime yok, Koç sonucu kendisi de kapatmadı. **İZLE
 ("Repository not found") → `veri_ayna_push.py` başarısız, ana repo push'u etkilenmedi.
 **LFS 861/1024 MB (%84)** — script "~1 tarama daha sığar" diyor; eski `05_GRAFIKLER.zip`
 sürümlerinin GitHub tarafında temizlenmesi hâlâ bekliyor.
+
+### 2026-08-20 — Ham veri aynası kaldırıldı
+
+**Ne silindi:** `99_BOT_ARSIV/kod/veri_ayna_push.py` + `tara_guvenli.py` içindeki çağrısı +
+yerel çalışma klasörü `%LOCALAPPDATA%\ekonomikocu_veri_ayna` (19 MB).
+
+**Neden:** Ayna (public `winegg420/ekonomikocu-veri`) 3 Ağustos'ta, ana repoyu public yapmadan
+Gemini/dış araçların ham veriye raw URL ile erişebilmesi için kurulmuştu. Uzak repo **10 Ağustos'tan
+beri 404** — yani raw erişim yolu zaten ölüydü; script her taramanın sonunda "Repository not found"
+basıp duruyordu. Ida "gereksiz, sil" dedi.
+
+**Kayıp:** Sadece dışarıdan raw URL ile veri çekme imkânı — hâlihazırda çalışmıyordu.
+Ham veri ana repoda duruyor, hiçbir veri kaybı yok.
+
+**Geri alınabilir:** `git log -- 99_BOT_ARSIV/kod/veri_ayna_push.py` ile script geçmişten
+çıkarılır; `tara_guvenli.py`'de kaldırılan çağrının yerine açıklayıcı NOT bırakıldı.
+Geri istenirse önce public repo yeniden açılmalı (dışarı açılan işlem → önce Ida'ya sorulacak).
