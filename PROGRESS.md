@@ -979,3 +979,38 @@ olması. **Ham veri > görev metni > önceki özet** sırası korunacak.
 9 Ağustos sonrası veri gelince gradelenecek. (2) Barış Soydan'ın 66,5 gümüş fiyatı
 Koç'un 54-62 bandının üstünde — Ağustos toparlanması mı, farklı baz mı, kontrol
 edilecek. (3) Ağustos 3. hafta penceresinin sonucu (bugün 19 Ağustos, pencere içindeyiz).
+
+### 2026-08-19 — aynı oturumun tarama ayağı
+
+**Hesap 9 Ağustos'tan sonra ilk kez konuştu: +4 yeni tweet (17-18 Ağustos).** Chrome CDP kapalıydı,
+`CHROME_X.bat` (bat `start` ile açılmadı, PowerShell `Start-Process` ile açıldı, port 9222 doğrulandı),
+sonra `tara_guvenli.py`. Hesap doğrulaması OK (@420cryptofarmer), 3 scroll'da +6 kayıt
+(6946 → 6952), en yeni `2026-08-18T11:41:58`. Alıntı aşaması 11 → 10 bekleyene indi (tavan limiti
+nedeniyle 9/10 denendi, kalanlar korundu — normal). `analyzed` tam, paket üretildi, commit `5bda96f`
+push edildi.
+
+**Yeni veri, aynı gün yazılan analizle doğrudan kesişti — üç dosyaya ek yapıldı:**
+1. **17 Ağustos:** Koç 90 günlük vade sistemini **ilk kez tek tweette** formüle etti
+   (15 Aralık → 15 Mart → 15 Haziran → 15 Eylül). Daha önce parça parça vardı. **NASDAQ 30600**
+   artık "vade başı tepesi" olarak konumlanıyor ("aslında burada film bitti").
+2. **17 Ağustos:** *"ZAMAN geçirmeye devam yani."* → **Ağustos 3. hafta penceresinin fiilî cevabı
+   bu.** Pencere içindeyiz, kırılma yok → karnede **SONUÇSUZ** (Temmuz 9-11'den sonra üst üste ikinci).
+   Sıradaki doğal hedef 15 Eylül vade sonu.
+3. **18 Ağustos (iki tweet, ikisi grafikli):** *"Neden sürekli Japonya ve faizleri konuşuluyor?"*
+   — **Japon borsasının 18 trilyon yen kaybettiği günün ta kendisi.** Aynı gün yazdığım Japonya
+   carry-trade notu böylece Koç tarafından da beslendi. **Ama ayrım korundu:** Koç "carry trade"
+   demiyor, soruyu soruyor, cevabı vermiyor ve Japonya'yı **petrolle aynı cümlede** (GUMUS_PETROL)
+   etiketliyor → dış kaynaklarla aynı olaya farklı çerçeveden bakıyor. 11_DIS_KAYNAKLAR ÖZET'i
+   "3 bağımsız + 1 doğrudan ama farklı çerçeveli" olarak güncellendi.
+
+**Kapanmayan tek iş:** ETH 1846 / "Ağustos'un 14. gününe kadar" süreli çağrısı — 10-18 Ağustos
+kayıtlarında ETH'ye tek kelime yok, Koç sonucu kendisi de kapatmadı. **İZLENİYOR** kaldı.
+
+**Okunmamış kanıt:** 18 Ağustos Japonya floodunun grafikleri (`medya/2089511036420309364/`,
+`medya/2089633894706393341/`) ve 17 Ağustos grafiği henüz açılmadı. Bir sonraki oturumda floodun
+**cevap kısmı** aranacak — Koç sorusunu tipik olarak sonraki floodda cevaplıyor.
+
+**Bilinen sorunlar (değişmedi):** Ayna repo `winegg420/ekonomikocu-veri` hâlâ yok
+("Repository not found") → `veri_ayna_push.py` başarısız, ana repo push'u etkilenmedi.
+**LFS 861/1024 MB (%84)** — script "~1 tarama daha sığar" diyor; eski `05_GRAFIKLER.zip`
+sürümlerinin GitHub tarafında temizlenmesi hâlâ bekliyor.

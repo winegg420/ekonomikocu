@@ -8112,3 +8112,20 @@ için baskı).
   → Koç'un risk-off sıralaması bu üç kaynağın "altına kaçış" beklentisiyle **yön olarak uyumlu**.
 - Ayrıntı ve kaynak bazlı seviyeler: `11_DIS_KAYNAKLAR.md` (Erol Polat, Cihat E. Çiçek, Integral FX TV
   bölümleri). **Bu kaynakların hiçbir görüşü Koç'a atfedilmez.**
+
+**EK (19 Ağustos taraması — Koç tarafından gelen ilk doğrudan Japonya sinyali):**
+19 Ağustos taramasında hesabın 9 Ağustos'tan sonraki ilk kayıtları geldi. **18 Ağustos'ta,
+yani Japon borsasının 18 trilyon yen kaybettiği gün**, Koç iki kez (03:33 ve 11:41, ikisi de
+grafikli) şunu sordu: *"Neden sürekli #Japonya ile ilgili twitler düşüyor? Japonya'da faiz
+şöyle oldu böyle oldu… Peki neden son dönemde sürekli #Japonya ve faizleri konuşuluyor?
+Veya neden gündem sürekli #PETROL?"*
+- **Ayrım korunuyor:** Koç hâlâ "carry trade" demiyor, **soruyu soruyor, cevabı vermiyor** —
+  ve Japonya'yı **petrolle aynı cümlede**, emtia/enerji cephesinin parçası olarak etiketliyor
+  (kayıt ürünü: GUMUS_PETROL). Dış kaynakların (Erol Polat, Cihat E. Çiçek, Integral FX TV)
+  finansal-kaldıraç okumasıyla **aynı olayı farklı çerçeveden** ele alıyor.
+- 30 Temmuz BOJ müdahalesi notu + 18 Ağustos bu iki tweet → Koç'un Japonya ilgisi 3 haftadır
+  artıyor. **Bir sonraki taramada bu floodun devamı (cevap kısmı) aranacak.** Grafikler
+  `medya/2089511036420309364/` ve `medya/2089633894706393341/` altında, henüz okunmadı.
+- Aynı taramada gelen **17 Ağustos** kaydı, Koç'un 90 günlük vade sistemini ilk kez tek tweette
+  formüle ettiği kayıttır (15 Aralık/15 Mart/15 Haziran/15 Eylül) — detay: `06_ANALIZ.md`
+  2026-08-19 EK bölümü.

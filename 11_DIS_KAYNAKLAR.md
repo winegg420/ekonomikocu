@@ -587,3 +587,10 @@ koruma" diye okuyor. İkinci doğrudan analist-analist çelişkisi (birincisi Pa
 67.300 tetik / 72.600 hedef) ve Şatıroğlu (ETH 1.950 teyit, XRP 1,05-1,13). Lafçı ve Manukyan açıkça
 temkinli, Berk seviye vermiyor. → **Kripto seviyesi sorulduğunda ana kaynak Koç'tur (06_ANALIZ),
 dış kaynak sadece teyit/çelişki amacıyla kullanılır.**
+
+**GÜNCELLEME (19 Ağustos taraması, aynı gün):** Koç 9 Ağustos'tan sonra ilk kez konuştu ve
+**18 Ağustos'ta — Japon borsasının 18 trilyon yen kaybettiği gün — iki kez Japonya'yı sordu**
+("neden sürekli Japonya ve faizleri konuşuluyor?"). Hâlâ "carry trade" demiyor ve Japonya'yı
+**petrolle aynı cümlede** etiketliyor; yani üç dış kaynakla **aynı olaya bakıyor, farklı
+çerçeveden okuyor**. Bu, yakınsamayı "3 bağımsız + 1 dolaylı"dan **"3 bağımsız + 1 doğrudan
+ama farklı çerçeveli"** hâline getirir. Koç tarafındaki detay: `06_ANALIZ.md` 2026-08-19 EK.

@@ -482,3 +482,54 @@ yapısal boğa tezinde, Koç azınlıkta kalıyor. Karşılaştırma için 11'e 
 (hesap sessiz) ve **ETH 1846 / 14 Ağustos süreli çağrısının** kapatılması.
 
 ---
+
+## 2026-08-19 EK — 10-18 AĞUSTOS YENİ KAYITLAR (aynı gün taraması, 4 yeni tweet)
+
+> 19 Ağustos taramasında hesap **9 Ağustos'tan sonra ilk kez konuştu**: 17-18 Ağustos'ta
+> 4 yeni kayıt geldi (2089283491305345387, 2089315785013366957, 2089511036420309364,
+> 2089633894706393341). Üçü grafikli. Bu bölüm o dört kaydı işler.
+
+**1. 17 Ağustos — 90 günlük vade sistemi ilk kez açıkça formüle edildi (YENİ, çerçeve seviyesi):**
+> *"Ekonomilerde de vadeler vardır: 15 Aralık → 15 Mart · 15 Mart → 15 Haziran ·
+> 15 Haziran → 15 Eylül · 15 Eylül → 15 Aralık. Ekonomi ve piyasalar bu 90 günlük dönemler
+> üzerinden belirli vadelerle hareket eder."*
+- Daha önce bu takvim parça parça veriliyordu (1 ve 30 Temmuz); **ilk kez dört çeyreğin tamamı
+  tek tweette** sistem olarak yazıldı. Koç'un "zaman analizi" yönteminin omurgası bu.
+- Vade eşleştirmesi: **1. vade = Çin gümüş kaprisi · 2. vade = ABD petrol stresi ·
+  3. vade (15 Haziran-15 Eylül) = "dünyadan zaman çalınıyor".**
+- **NASDAQ 30600 = vade başı tepe** olarak işaretlendi: *"ABD-Çin görüşmesinin gazıyla ABD
+  borsaları yükseltildi, özellikle NASDAQ 30600 dedi. Aslında burada film bitti."*
+  → 14 Temmuz'daki "27600 → 30600 yaptılar" kaydıyla birebir tutarlı; 30600 artık sadece
+  seviye değil, **vade tepesi** olarak konumlandırılıyor.
+
+**2. 17 Ağustos — "ZAMAN geçirmeye devam yani." (grafikli):**
+- **Ağustos 3. hafta penceresinin fiilî cevabı budur.** Pencere (15-25 Ağustos) içindeyiz ve
+  Koç'tan çıkan yorum bir kırılma değil, **ötelemenin devamı**. Karne etiketi: **SONUÇSUZ**
+  (Temmuz 9-11 penceresiyle aynı sonuç — ikinci kez üst üste sonuçsuz kapanıyor).
+- Bir sonraki doğal hedef Koç'un kendi takvimine göre **15 Eylül vade sonu**.
+
+**3. 18 Ağustos — JAPONYA gündeme girdi (iki tweet, aynı metin, ikisi de grafikli):**
+> *"Neden sürekli #Japonya ile ilgili twitler düşüyor? Japonya'da faiz şöyle oldu böyle oldu…
+> Peki neden son dönemde sürekli #Japonya ve faizleri konuşuluyor? Veya neden gündem sürekli
+> #PETROL?"*
+- **Bu, 03_HAFIZA'daki Japonya carry-trade notunun doğrudan Koç tarafındaki karşılığıdır** ve
+  **aynı gün** (18 Ağustos) Japon borsasının 18 trilyon yen kaybettiği güne denk geliyor.
+- Koç yine **"carry trade" demiyor** — soruyu soruyor, cevabı (henüz) vermiyor; ürün olarak da
+  Japonya'yı **petrolle aynı cümlede** etiketliyor (kayıt ürünü: GUMUS_PETROL). Yani onun
+  çerçevesinde Japonya = emtia/enerji cephesinin bir parçası, ayrı bir finansal kriz teması değil.
+- **30 Temmuz'daki BOJ müdahalesi notuyla birlikte** Koç'un Japonya'ya ilgisi 3 haftadır artıyor.
+  Bir sonraki taramada bu floodun devamı (cevap kısmı) mutlaka aranmalı — grafikler
+  `medya/2089511036420309364/` ve `medya/2089633894706393341/` altında, henüz okunmadı.
+
+**4. Kapanmayan iş:** **ETH 1846 / "Ağustos'un 14. gününe kadar üstü pozitif"** süreli çağrısı
+(3 Ağustos) hâlâ gradelenemiyor — 10-18 Ağustos kayıtlarında ETH'ye tek kelime yok. Koç bu
+çağrının sonucunu kendisi de kapatmadı. **İZLENİYOR olarak kalıyor.**
+
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 10 Tem 2026 | Ağustos 3. hafta = karar penceresi | **SONUÇSUZ** (17 Ağu: "zaman geçirmeye devam yani") |
+| 17 Ağu 2026 | 90 günlük vade sistemi (15 Ara/Mar/Haz/Eyl) | **İZLENİYOR** (çerçeve, ölçülebilir hedef değil) |
+| 17 Ağu 2026 | NASDAQ 30600 = vade başı tepesi, "film bitti" | **İZLENİYOR** |
+| 18 Ağu 2026 | Japonya/faiz gündeminin sebebi sorgulanıyor | **İZLENİYOR** (cevap verilmedi; dış kaynaklar carry-trade diyor → 11_DIS_KAYNAKLAR) |
+
+---
