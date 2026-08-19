@@ -71,6 +71,59 @@ yani **Sellcoin dibi sonradan onayladı, Koç düşüşü önceden söyledi.** K
 
 ---
 
+### Ağustos 2026 — ikinci görünüm (FX TV; 13 Ağustos girişinden SONRAKİ yayın, tam tarih net değil)
+
+- **Tahvil — ana tez, gerekçe değişti:** ABD **30 yıllık** tahvil faizi **19 yılın zirvesinde**.
+  Sebebi **enflasyon veya petrol DEĞİL**: borçlanmaya **alıcı bulunamıyor**. Almanya bile
+  borçlanıyor (arz artıyor), **Rusya ve Çin ABD tahvili almıyor** (talep çekiliyor).
+  ➜ 13 Ağustos girişindeki "10 yıllık %4.69, %5 görürse kanallar tıkanır" uyarısının **daha uzun
+  vadeli ve daha yapısal hali**; aynı tez, farklı vade ve farklı gerekçe (fiyat değil **alıcı**).
+- **Kriz eşiği tanımı (yeni ve ölçülebilir):** Kriz göstergesi faizin **seviyesi** değil, tahvilin
+  **"işlem yapılamaz hale gelmesi"** — emsal olarak **Covid** ve **bölgesel banka krizi** dönemlerini
+  veriyor. **"Henüz o noktada değiliz"** diyor. Bu, dosyadaki diğer tahvil uyarılarından farklı:
+  seviye değil **likidite/işlem görebilirlik** kriteri.
+- **Altın — sınırlı yukarı:** Merkez bankalarını *"dünyanın en kurnaz tilki traderleri"* olarak
+  tanımlıyor; **yükselen malı almazlar**, dolayısıyla mevcut merkez bankası alımı **geç kalmış**
+  alımdır. **Altının en büyük düşmanı tahvil faizi** — faizler gerilemedikçe yukarı potansiyel
+  sınırlı. Dünya Altın Konseyi'nin kendi tahmini bile **yıllık ~%6**, yani mevduat/tahvil
+  getirisiyle **rekabet edemiyor**.
+- **Petrol — eskalasyon:** Şu an **91,5$**. Seçim sonrası (Cumhuriyetçiler kazanır ve Trump
+  "intikam alırsa") **100-110$**, **hatta 150$** görebilir. ➜ 13 Ağustos'taki **"100-120 testi"**
+  tezinin **yukarı revizesi**; üst sınır 120'den **150'ye** taşındı.
+- **Gıda — yeni tehdit başlığı:** Gıda enflasyonu ayrı bir tehdit olarak açılıyor. Buğday
+  **Chicago'da %25 primli**; **Hürmüz + Karadeniz** kapalı ve bu ikisi birlikte **dünya tahıl/gübre
+  ihracatının 2/3'ü**. ➜ 13 Ağustos'taki "buğday +%10, bir %10 daha" notunun **büyütülmüş** hali.
+- **Türkiye:** Yıl sonu **enflasyon %35'e kadar** olası *(dikkat: 13 Ağustos girişindeki "%35"
+  **politika faizi** içindi — bu ayrı bir metrik, karıştırılmamalı)*. **BIST 14.000 civarı güçlü
+  direnç**, ama **12.000'e düşse şaşırmaz**. **MSCI / Dow Jones / FTSE Russell endekslerinden
+  çıkarılma riski gerçek** → **~50 milyar $ pasif fon çıkışı** riski. **2027'de iyileşme
+  beklemiyor.** Seçim **2028 baharından önce yok** (kendi anket okumasına dayandırıyor).
+
+**Koç'la ilişki:** *"Altın, tahvil faizi düşmeden yükselmez"* tezi, Koç'un **DXY / Fed indirimi**
+koşuluyla **yön olarak örtüşüyor** — ikisi de faiz indirimini altın için **ön koşul** görüyor.
+Gerekçe yine farklı (Koç: bilinçli oyalama; Yeşilada: yapısal borç/alıcı sorunu).
+**MSCI endeks çıkarma riski**, Erol Polat'ın MSCI uyarısıyla **bağımsız olarak örtüşüyor**
+(bkz. Erol Polat / Money Talks, Ağustos 2026 girişi).
+
+### KARNE EK — Atilla Yeşilada (ikinci görünüm, Ağustos 2026)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| Ağu 2026 | BIST 14.000 güçlü direnç, 12.000'e düşüş riski | İZLENİYOR |
+| Ağu 2026 | Altın, tahvil faizi gerilemeden sınırlı yukarı | İZLENİYOR |
+| Ağu 2026 | Yıl sonu **enflasyon** %35'e kadar | İZLENİYOR |
+| Ağu 2026 | Petrol seçim sonrası 100-110$, uçta 150$ | İZLENİYOR (13 Ağu'daki 100-120 tezinin revizesi) |
+| Ağu 2026 | Tahvilde kriz eşiği = işlem yapılamaz hale gelme, "henüz değiliz" | İZLENİYOR |
+| Ağu 2026 | MSCI/DJ/FTSE endeks çıkarma → ~50 milyar $ pasif çıkış riski | İZLENİYOR |
+| Ağu 2026 | 2027'de iyileşme yok, seçim 2028 baharından önce yok | İZLENİYOR |
+
+**Not — 13 Ağustos karnesine dair gözlem:** *"Altın kısa vade $4.500 üstü, sonra $4.000'e çekilme"*
+çağrısının **ilk yarısı henüz gerçekleşmedi**: aynı hafta Fiba Bank kaydındaki altın zirvesi
+**4.409$** (sonra 4.364$) — **4.500 görülmedi**. Çağrı **İZLENİYOR** kalıyor, ancak ikinci
+görünümdeki *"tahvil faizi gerilemedikçe sınırlı yukarı"* ifadesi, Yeşilada'nın kendisinin de
+**4.500 beklentisinden geri çekildiğine** işaret ediyor.
+
+---
+
 ## BERK DİNÇTÜRK (çeşitli programlar)
 
 > Berk Dinçtürk aynı çekirdek tezi 3 farklı programda tekrarladı (Ağustos 2026 içinde). Tekrarları ayrı "yeni iddia" gibi loglamak yerine, çekirdek tez bir kez yazılıyor, her program sadece kendine özgü YENİ detaylarla ayrı alt başlıkta tutuluyor.
@@ -684,6 +737,103 @@ bir gündem maddesi** — dosyadaki başka kaynakta da yok, tek kaynaklı.
 
 ---
 
+## BORA ÖZKENT (YouTube — ABD Borsası & Teknoloji Yatırımları)
+
+### Ağustos 2026 — teknoloji/yarı iletken satışı günü (tam tarih net değil, "dünkü kapanış" anlatımı)
+
+- **Piyasa (anlatılan önceki gün kapanışı):** S&P **-%0,67**, Nasdaq **-%1,33**, Dow **-%0,22**,
+  **SMH (yarı iletken ETF) -%4,9**. Kendi portföyü — **donanım / bellek / çip ağırlıklı**, kendi
+  tarifiyle *"yüksek riskli, tek yöne odaklı"* — aynı gün **%5+** hasar almış.
+  **VIX %4,28 yükselip 15,84'e** çıkmış.
+- **Kendi tezi — düşüş geçici, üç sebep:**
+  1. **Temmuz rallisi sonrası kâr satışı.**
+  2. **VIX'in mekanik etkisi:** VIX 52 haftanın dibine inince **otomatik satış tetikleniyor** —
+     kendi kendini gerçekleştiren döngü.
+  3. **Fed tutanakları öncesi tedirginlik** (o günün gündemi).
+- **Tahvil faizi yükselişi KÜRESEL, ABD'ye özgü değil:** Brezilya, Güney Kore, Japonya, İngiltere
+  — hepsinde ABD'den **daha fazla** artış var. Kısmen **kompozisyon değişimi**: yatırımcılar ABD
+  devlet tahvili yerine **AI-altyapı kaynaklı şirket tahvillerine** kayıyor.
+  ➜ **Yeşilada'ya doğrudan karşı okuma:** Yeşilada aynı yükselişi *"ABD'ye alıcı bulunamıyor"*
+  diye **ABD'ye özgü yapısal kriz** sayıyor; Özkent **küresel ve kompozisyonel** diyor.
+  **İki bağımsız kaynak, aynı veri, zıt teşhis — izlenmeye değer.**
+- **AI / teknoloji:** OpenAI 2Ç ciro **6,7 milyar $ (+%18 çeyreklik)** ama **zarar derinleşiyor**;
+  *"sürdürülemez mi"* tartışması var, kendisi **"henüz erken"** diyor. **Buffett'ın Google
+  yatırımını** olumlu okuyor. **Musk'ın Cursor'u 60 milyar $'a alması** + **xAI/Grok toparlanması**.
+- **Çin robotik teması güçlü:** **Unitree Şangay'da halka arz, ilk gün +%600.**
+  ➜ Dosyadaki **"Çin fiziksel AI'da önde"** temasıyla örtüşüyor (bkz. Berk Dinçtürk, Manukyan).
+- **İlginç detay:** **Ukrayna tahvillerine savaş sürerken rekor talep (%150 değer artışı)** —
+  savaş sonrası toparlanma bahsi olarak okunuyor.
+
+**Koç'la ilişki:** **Doğrudan bağlantı yok.** ABD teknoloji / yarı iletken odaklı **bağımsız
+kaynak**; Koç'un makro-vade ve emtia çerçevesiyle kesişmiyor. Dosyaya **karşıt-veri değeri** için
+giriyor (tahvil teşhisi Yeşilada'yla çelişiyor).
+
+### KARNE — Bora Özkent
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| Ağu 2026 | SMH/teknoloji düşüşü geçici — kâr satışı + VIX mekaniği | İZLENİYOR |
+| Ağu 2026 | Çin robotik teması (Unitree vb.) güçlenmeye devam eder | İZLENİYOR |
+| Ağu 2026 | Tahvil faizi yükselişi küresel/kompozisyonel, ABD'ye özgü değil | İZLENİYOR (Yeşilada ile zıt) |
+| Ağu 2026 | OpenAI zarar tartışması için "henüz erken" | İZLENİYOR |
+
+---
+
+## FIBA BANK — "Parayı Ne Yapalım?" (haftalık bülten formatı)
+
+### Ağustos 2026 — haftalık değerlendirme (tam tarih net değil; petrol 93,63$ anına denk geliyor)
+
+**Piyasa verisi (video anındaki haftalık değişimler):**
+
+| Varlık | Hafta başı → sonu | Değişim | Kaynağın notu |
+|---|---|---|---|
+| Petrol | 90,98$ → **93,63$** | **+%2,91** | İran'ın Avrupa'daki ABD üslerini tehdidiyle gerilim tırmandı |
+| BTC | 63.406$ → **64.320$** | **+%1,44** | — |
+| Altın | 4.409$ → **4.364$** | **-%1** | 4.000'den 4.400'e **%10 rallinin ardından "normal"** |
+| Gümüş | 65$ → **63,27$** | **-%3** | **"normal geri çekilme"** |
+| EURUSD | 1,1525 → **1,1610** | **+%0,74** | Dolar zayıflığı kıymetli madenlere pozitif yansıyor |
+
+**⚠️ TÜRKİYE — PARA PİYASASI FONU (PPF) RİSKİ NETLEŞTİRİLDİ:**
+SPK'nın fonlara ilişkin **yeni tebliği geliyor** (hisse yoğunlaşma sorununu düzeltmeye yönelik).
+Maliye, PPF'lerdeki **BÜYÜK KURUMSAL ve YABANCI TL parasını "sıcak para" riski** olarak görüyor,
+bu parayı **uzun vadeli tahvillere yönlendirmek** istiyor — **olası ek vergi dahil**.
+
+> **KRİTİK AYRIM — kaynağın kendi net ifadesi:**
+> *"Mevcutta paralarını para piyasası fonlarında değerlendiren **BİREYSEL** yatırımcıların bu
+> konuyla **herhangi bir alakası yok**. Tedirgin olmayı gerektirecek durum yok."*
+>
+> ➜ **Bireysel PPF yatırımcısı (Ida'nın TP2 pozisyonu dahil) bu düzenlemenin hedefi DEĞİLDİR.**
+> Hedef: **büyük kurumsal + yabancı** TL parası. Bu ayrım, haberin başlığına bakıp panik yapmamak
+> için dosyadaki **en operasyonel not**tur.
+
+**Faiz:** 2 yıllık tahvil faizi **%41,60'tan 0,76 puan geriledi**. TCMB Başkanı'nın
+*"normalleşeceğiz"* açıklamasının **ERKEN FAİZ İNDİRİM SİNYALİ SANILMAMASI** gerektiği
+vurgulanıyor: **petrol 80$'a gelmeden** (şu an **93,63$**) politika faizini **fiili 40'tan 37'ye**
+çekmek kolay değil. ➜ **Petrol, TCMB faizinin ön koşulu** olarak kuruluyor — dosyada bu bağı
+bu netlikte kuran **tek kaynak**.
+
+**BIST:** Haftalık **BIST100 +%3,09**, **BIST30 +%4,03** — endeksi **tekil hisse hareketleri**
+çekiyor: **Tüpraş** (rafineri marjı) ve **Destek Factoring**.
+**⚠️ Destek Factoring için "ÖLÜ KEDİ ZIPLAMASI" uyarısı:** temel değerden kopuk yükseliş kalıcı
+değil, **tekrar düşme ihtimali yükselmeden yüksek**.
+
+**Gıda enflasyonu — yapısal risk, ÇAPRAZ DOĞRULAMA:** **TCMB'nin kendi enflasyon raporu** verisiyle
+destekleniyor — **girdi fiyatı düşse bile gıda fiyatı inmiyor**. **Bu, aynı hafta işlenen Atilla
+Yeşilada'nın "gıda fırtınası" uyarısıyla bağımsız olarak örtüşüyor: iki ayrı kaynak, iki ayrı
+gerekçe (Yeşilada arz/lojistik, Fiba fiyat yapışkanlığı), aynı risk → çapraz doğrulama değeri var.**
+
+**Koç'la ilişki:** **Doğrudan yok.** TCMB / regülasyon / BIST mikro odaklı; Koç'un makro-vade ve
+kripto çerçevesiyle kesişmiyor. Dosyaya **fiyat referansı** ve **PPF operasyonel notu** için giriyor.
+
+### KARNE — Fiba Bank
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| Ağu 2026 | PPF düzenlemesi bireyseli etkilemez, kurumsal/yabancı hedefleniyor | İZLENİYOR |
+| Ağu 2026 | Petrol 80$'a gelmeden TCMB politika faizi 37'ye inmez | İZLENİYOR |
+| Ağu 2026 | Destek Factoring ölü kedi zıplaması, geri düşüş riski yüksek | İZLENİYOR |
+| Ağu 2026 | Altın -%1 ve gümüş -%3 geri çekilmesi "normal", trend bozulmadı | İZLENİYOR |
+
+---
+
 ## ÖZET — KAYNAKLAR ARASI YAKINSAMA/ÇELİŞKİ TABLOSU
 
 **Altın — geniş yakınsama (boğa):** Sellcoin, Berk Dinçtürk, Lafçı, Atılal, Şatıroğlu → hepsi yapısal boğa, $4.000-4.500 bandı taban/biriktirme bölgesi. Yeşilada tek farklı ses: kısa vade $4.500 sonra $4.000'e çekilme (yön olarak "düzeltme sonra devam" — çelişki değil, zamanlama farkı). **Vade ayrımı:** kısa vadede hemen herkes 4.000-4.500 diyor; uzun vadede Berk $10.000 (2028) ve Şatıroğlu $5.000-7.000 ile en agresif uçta, diğerleri rakam vermiyor. **Paksoy, Berk'in $10.000 hedefine açıkça mesafeli — ilk doğrudan analist-analist çelişkisi (Koç'a karşı değil).**
@@ -787,3 +937,65 @@ Altınocağı'nın ICBC kısıtlaması) **anlatı** düzeyinde; bu **tek sayısa
 kritik** diyor → Ağustos'ta gümüşün 66-67 bandına toparlandığı **üç bağımsız kaynakla** teyitli.
 Koç'un Temmuz kaydı (**54-62$**, trend çizgisi 57$) bu toparlanmadan **önceki** dönemi tarif
 ediyor — çelişki değil, **zaman farkı**. Koç'un 9 Ağustos sonrası gümüş için yeni rakamı yok.
+
+---
+
+## EK — 2026-08-19 (akşam) OTURUMU: üç kaynak eklendi, iki yeni çatı
+
+Eklenenler: **Atilla Yeşilada** (ikinci görünüm — mevcut bölümüne alt giriş), **Bora Özkent**
+(yeni kaynak), **Fiba Bank / "Parayı Ne Yapalım?"** (yeni kaynak).
+**Hiçbiri Koç'un sözü değildir; hepsi ayrı kaynaktır** — dosyanın üst kuralı geçerli.
+
+**🆕 YENİ TEMA — GIDA ENFLASYONU (2 bağımsız kaynak, çapraz doğrulanmış):**
+Dosyada şimdiye kadar başlık olarak yoktu. **Yeşilada:** Hürmüz + Karadeniz kapalı, **dünya
+tahıl/gübre ihracatının 2/3'ü** kesintide, buğday **Chicago'da %25 primli**. **Fiba/TCMB:** TCMB'nin
+kendi enflasyon raporunda **girdi fiyatı düşse bile gıda fiyatı inmiyor**. İkisi **birbirinden
+habersiz**, gerekçeleri farklı (**arz/lojistik** vs **fiyat yapışkanlığı**), sonuç aynı.
+**Koç bu temayı takip etmiyor** — yani Koç'un çerçevesindeki bir **boşluk**, Ida'nın makro risk
+okumasına ayrıca eklenmeli. (Aynı not 03_HAFIZA.md ve ekonomikocu_hafiza_v1.md sonuna da işlendi.)
+
+**🆕 YENİ ÇELİŞKİ — TAHVİL FAİZİ YÜKSELİŞİNİN TEŞHİSİ (aynı veri, zıt sonuç):**
+| Kaynak | Teşhis | Sonucu |
+|---|---|---|
+| **Atilla Yeşilada** | ABD'ye **alıcı bulunamıyor** (Rusya/Çin almıyor, Almanya da borçlanıyor) | **ABD'ye özgü yapısal kriz**, 30 yıllık 19 yılın zirvesinde |
+| **Bora Özkent** | Yükseliş **küresel** (Brezilya, G.Kore, Japonya, İngiltere ABD'den fazla) + **kompozisyon değişimi** (devlet tahvilinden **AI-altyapı şirket tahviline** kayış) | **Normal rotasyon**, kriz değil |
+
+Bu, dosyadaki **ilk doğrudan "aynı veri / zıt teşhis"** karşıtlığıdır (Berk-Paksoy çelişkisi hedef
+üzerineydi, bu **mekanizma** üzerine). **Ayırt edici test — Yeşilada'nın kendi kriteri:** kriz
+göstergesi faizin seviyesi değil, tahvilin **"işlem yapılamaz hale gelmesi"**. O eşik görülürse
+Yeşilada, görülmezse Özkent haklı çıkar. **Takip edilecek somut ölçüt bu.**
+
+**💰 GÜMÜŞ — tablo yine değişti, düzeltme gerekiyor:**
+Bir önceki oturumda *"gümüş 66-67 bandına toparlandı, üç bağımsız kaynakla teyitli"*
+(Manukyan 66$, Barış Soydan 66,5$, Bozkurt 67$) yazılmıştı. **Fiba Bank daha güncel veri veriyor:
+65$ → 63,27$ (-%3)** ve bunu **"normal geri çekilme"** sayıyor. ➜ **66-67 bandı korunamamış,
+gümüş 63'lere geri çekilmiş.** Bu, Koç'un Temmuz'daki **54-62$** bandına **yaklaşan** bir hareket —
+yani Koç'un aralığı hâlâ ölü değil. **Koç'un 9 Ağustos sonrası gümüş için yeni rakamı yok**,
+karşılaştırma bu yüzden dolaylı kalıyor.
+
+**🥇 ALTIN — Yeşilada'nın 4.500 çağrısı henüz gerçekleşmedi:**
+13 Ağustos'ta *"kısa vade $4.500 üstü, sonra $4.000'e çekilme"* demişti. Fiba'nın aynı dönem
+verisi: **zirve 4.409$**, sonra **4.364$**. **4.500 görülmedi.** İkinci görünümünde Yeşilada'nın
+kendisi de *"tahvil faizi gerilemedikçe yukarı sınırlı"* diyerek **beklentiden geri çekiliyor.**
+Karne satırı İZLENİYOR kalıyor ama **gerçekleşmeme yönünde eğilim** kazandı.
+
+**🛢️ PETROL — üç rakam, tutarlı sıralama:** Yeşilada **91,5$** (kendi anı) → Fiba **90,98$ → 93,63$**
+(haftalık). Fiba'nın verisi daha ileri tarihli. **Yeşilada'nın 100-120 tezi → 100-110, uçta 150$**
+olarak **yukarı revize edildi.** Fiba ise petrolü **TCMB faizinin ön koşulu** yapıyor
+(**80$ altına inmeden indirim yok**) — yani petroldeki yükseliş, iki kaynakta **iki ayrı kanaldan**
+(küresel enflasyon / Türkiye faizi) risk üretiyor.
+
+**📉 MSCI ENDEKS ÇIKARMA RİSKİ — ikinci bağımsız kaynak:**
+Yeşilada **MSCI / Dow Jones / FTSE Russell** çıkarma riskini **gerçek** sayıyor, **~50 milyar $
+pasif fon çıkışı** riski veriyor. Bu, **Erol Polat / Money Talks**'un MSCI uyarısıyla **bağımsız
+olarak örtüşüyor** → tema artık **tek kaynaklı değil**.
+
+**🧾 OPERASYONEL NOT — PPF (bireysel vs kurumsal):** Fiba'nın en somut katkısı.
+SPK/Maliye'nin PPF hamlesi **büyük kurumsal ve yabancı TL parasını** hedefliyor; kaynağın kendi
+ifadesiyle **bireysel yatırımcının "herhangi bir alakası yok"**. Haber başlıklarına bakıp
+**bireysel PPF/TP2 pozisyonu için panik yapmaya gerek yok** — ayrım dosyada net kayıtlı.
+
+**Koç'la kesişim özeti:** Yeşilada'nın *"altın, faiz düşmeden yükselmez"* tezi Koç'un
+**DXY/Fed indirimi ön koşuluyla yön olarak örtüşüyor**. Özkent ve Fiba'nın **Koç'la doğrudan
+bağlantısı yok** — biri ABD teknoloji, diğeri TCMB/BIST mikro odaklı; dosyaya **karşıt-veri** ve
+**fiyat referansı** olarak giriyorlar.

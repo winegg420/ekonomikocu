@@ -8133,3 +8133,22 @@ Veya neden gündem sürekli #PETROL?"*
 - Aynı taramada gelen **17 Ağustos** kaydı, Koç'un 90 günlük vade sistemini ilk kez tek tweette
   formüle ettiği kayıttır (15 Aralık/15 Mart/15 Haziran/15 Eylül) — detay: `06_ANALIZ.md`
   2026-08-19 EK bölümü.
+
+---
+
+## Gıda Enflasyonu Riski — çapraz kaynak doğrulaması (Ağustos 2026)
+
+İki bağımsız kaynak (**Atilla Yeşilada**, **Fiba Bank / TCMB enflasyon raporu**) birbirinden
+habersiz olarak gıda enflasyonunun **yapısal bir risk** olduğunu vurguladı.
+
+- **Yeşilada (arz/lojistik gerekçesi):** **Hürmüz + Karadeniz kapalı**, bu ikisi birlikte **dünya
+  tahıl ve gübre ihracatının 2/3'ü**. Buğday **Chicago'da %25 primli**.
+- **Fiba Bank (fiyat yapışkanlığı gerekçesi):** **TCMB'nin kendi enflasyon raporu** — girdi fiyatı
+  (gübre/akaryakıt) **düşse bile gıda fiyatı inmiyor**.
+
+**Neden kayda değer:** Gerekçeler **farklı**, kaynaklar **bağımsız**, sonuç **aynı** → çapraz
+doğrulama değeri var. **Koç bu temayı takip etmiyor** — bu bir çelişki değil, Koç'un çerçevesindeki
+bir **boşluk**. Ida'nın makro risk okumasına **ayrı bir başlık** olarak eklenmeli.
+
+**Ayrım (korunacak):** Bu, **Koç'un sözü değildir**; iki dış kaynağın sentezidir. Ayrıntı ve karne
+satırları: `11_DIS_KAYNAKLAR.md` → Atilla Yeşilada (ikinci görünüm) ve Fiba Bank bölümleri.
