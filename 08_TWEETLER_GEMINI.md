@@ -3,7 +3,77 @@
 Once Cloud dosyalari: 01-06 (+ opsiyonel 07). Sonra bu dosya, 09_GRAFIKLER_GEMINI klasoru, 10_ABONE_TWEETLER_GEMINI.md.
 ZORUNLU: 02_MENTOR_REHBERI.md — Makro sentez + kalici mentor kurallari (grafik, guncel fiyat, atif).
 
-Toplam: **6899**
+Toplam: **6904**
+
+## 18 Ağu 11:41 | `2089633894706393341` | GUMUS_PETROL | tez | public
+
+Neden sürekli #Japonya ile ilgili twitler düşüyor ?
+
+Japonya’da faiz şöyle oldu, böyle oldu…
+
+Peki neden son dönemde sürekli #Japonya ve faizleri konuşuluyor ?
+
+Veya neden gündem sürekli #PETROL ?
+
+- media: medya/2089633894706393341/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2089633894706393341_graf_01.jpg
+
+## 18 Ağu 03:33 | `2089511036420309364` | GUMUS_PETROL | tez | public
+
+Neden sürekli #Japonya ile ilgili twitler düşüyor ?
+
+Japonya’da faiz şöyle oldu, böyle oldu…
+
+Peki neden son dönemde sürekli #Japonya ve faizleri konuşuluyor ?
+
+Veya neden gündem sürekli #PETROL ?
+
+- media: medya/2089511036420309364/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2089511036420309364_graf_01.jpg
+
+## 17 Ağu 14:37 | `2089315785013366957` | GENEL | tez | public
+
+ZAMAN geçirmeye devam yani.
+
+- media: medya/2089315785013366957/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2089315785013366957_graf_01.jpg
+
+## 17 Ağu 12:29 | `2089283491305345387` | GUMUS_PETROL, GENEL | vizyon, seviye, tarih, tez | public
+
+Ekonomilerde de vadeler vardır.
+
+15 Aralık → 15 Mart
+ 15 Mart → 15 Haziran
+ 15 Haziran → 15 Eylül
+ 15 Eylül → 15 Aralık
+Yani ekonomi ve piyasalar, bu 90 günlük dönemler üzerinden belirli vadelerle hareket eder.
+
+İlk vadeyi hatırlatmaya lüzum yok...
+
+Çin #gümüş dedi 90 gün bunun kaprisini çektik.
+İkinci vade ise ABD #PETROL dedi bunun #stresini
+çektik.
+
+Ama burada bir #film döndü.
+
+ABD / ÇİN görüşmesi...
+Bunun gazıyla ABD #borsaları yükseltildi,
+ve özellikle #NASDAQ 30600 dedi.
+
+Aslında burada film bitti.
+
+Yaz sezonu geldi ve #Haziran 15 ile #Eylül 15 
+vadesi başladı.
+
+Bu vadede dünyadan #zaman olarak çalınıyor.
+
+Bu vadenin başı, bir önceki vadenin sonu olduğu
+için piyasalar tepedeydi.
+
+Örnek; #nasdaq 30600 idi.
+
+- media: —
+- gemini_grafik: —
 
 ## 9 Ağu 23:59 | `2086558016602513826` | BTC | yorum | public
 
@@ -890,6 +960,19 @@ Sana iki grafik atacağım.
 
 - media: —
 - gemini_grafik: —
+
+## 5 Ağu 02:47 | `2084788409625690528` | GENEL | tez | public
+
+#XAUUSD / #NASDAQ
+
+Ters bakış açısı...
+
+Bu adamlar niçin #zaman geçiriyorlar ? 
+
+Şu grafiğe bakın durumu #net anlayın.
+
+- media: medya/2084788409625690528/graf_01.jpg
+- gemini_grafik: 09_GRAFIKLER_GEMINI/2084788409625690528_graf_01.jpg
 
 ## 4 Ağu 19:06 | `2084672348158902339` | GUMUS_PETROL | yorum | public
 
@@ -84928,56 +85011,56 @@ Dünya asla #Ayı piyasası yaşamadı.
 - media: —
 - gemini_grafik: —
 
-## 23 Nis 15:00 | `MANUEL-20250605-01` | BTC, GENEL | seviye, tarih | public
+## 23 Nis 09:00 | `MANUEL-20250605-01` | BTC, GENEL | seviye, tarih | public
 
 #Ethusd yi anlatmaya bile gerek yok. 2460 üstü zaten pozitifti. Sabah 2776 ya kafa atmış ama geri çekilmiş.. BTC yi baskılıyorlar negatif etkileniyor. Buradaki seviyeler değişmeyecektir. Ama Haziran 8 e kadar 2570 2776 arası önemlidir.
 
 - media: —
 - gemini_grafik: —
 
-## 14 Nis 19:52 | `MANUEL-20250527-02` | GENEL, GUMUS_PETROL | tez | public
+## 14 Nis 13:52 | `MANUEL-20250527-02` | GENEL, GUMUS_PETROL | tez | public
 
 #Eth #gümüşü geçecek ama acele etmiyorlar. 'Zaman geçiriyorlar'
 
 - media: —
 - gemini_grafik: —
 
-## 12 Nis 23:03 | `MANUEL-20250525-04` | GENEL | yorum | public
+## 12 Nis 17:03 | `MANUEL-20250525-04` | GENEL | yorum | public
 
 Ara değerler var hesaplama şekilleri var ama detaya burada giremiyorum.
 
 - media: —
 - gemini_grafik: —
 
-## 12 Nis 23:02 | `MANUEL-20250525-03` | GENEL | yorum | public
+## 12 Nis 17:02 | `MANUEL-20250525-03` | GENEL | yorum | public
 
 Atar mı ? 😎😎😎😎😎😎
 
 - media: —
 - gemini_grafik: —
 
-## 12 Nis 23:01 | `MANUEL-20250525-02` | GENEL, GUMUS_PETROL | seviye, tez | public
+## 12 Nis 17:01 | `MANUEL-20250525-02` | GENEL, GUMUS_PETROL | seviye, tez | public
 
 Zaman geçirme böyle lanet bir şey işte.. Gerçek bir yükseliş olabilmesi için #Eth nin 7600 dolar civarına kafa atması gerekir.
 
 - media: —
 - gemini_grafik: —
 
-## 12 Nis 23:00 | `MANUEL-20250525-01` | BTC | vizyon, seviye, tez | public
+## 12 Nis 17:00 | `MANUEL-20250525-01` | BTC | vizyon, seviye, tez | public
 
 @ekonomikocu adlı kişiye yanıt olarak. Şu konjonktür de #BTC 130 K görsün anca iş yapar piyasalar. 120 125 bile kurtarmıyor. O bile bir sürecin devamı oluyor.
 
 - media: —
 - gemini_grafik: —
 
-## 9 Nis 10:45 | `MANUEL-20250522-03` | GENEL | yorum | public
+## 9 Nis 04:45 | `MANUEL-20250522-03` | GENEL | yorum | public
 
 Burayı trade ediyorlar çaktırmıyorlar.
 
 - media: —
 - gemini_grafik: —
 
-## 9 Nis 09:45 | `MANUEL-20250522-01` | GUMUS_PETROL | seviye, tez | public
+## 9 Nis 03:45 | `MANUEL-20250522-01` | GUMUS_PETROL | seviye, tez | public
 
 Aylıkta 3368 önemli. Günlükte 3306 altı kalış satış baskısına sokar. Haftalıkta 3276 altı kalışlar, satış baskısına anca sokar. belinin kırılması için de 3257 altında kalması gerekir.
 
@@ -85765,21 +85848,21 @@ Bu tarihteki hikmet nedir ?
 - media: —
 - gemini_grafik: —
 
-## 12 Tem 18:05 | `MANUEL-20240824-03` | BTC | yorum | public
+## 12 Tem 12:05 | `MANUEL-20240824-03` | BTC | yorum | public
 
 BTC bu işin fenomen, reklam ayağı gibi düşünün. Fenomenler şu malı alın dediklerinde nasıl insanlar varlıkları alıyorsa ABD nin fenomeni de BTC dir.
 
 - media: —
 - gemini_grafik: —
 
-## 12 Tem 18:02 | `MANUEL-20240824-02` | BTC | yorum | public
+## 12 Tem 12:02 | `MANUEL-20240824-02` | BTC | yorum | public
 
 Tamamı değil sadece BTC onlara hizmet ediyor.
 
 - media: —
 - gemini_grafik: —
 
-## 12 Tem 18:00 | `MANUEL-20240824-01` | BTC, GUMUS_PETROL | tez | public
+## 12 Tem 12:00 | `MANUEL-20240824-01` | BTC, GUMUS_PETROL | tez | public
 
 Özet; kriptolar ABD nin ihtiyaç dahilinde doları zayıflatmak için kurduğu bir sistemdir. BTC ABD ye çalışıyor.
 
@@ -85823,7 +85906,7 @@ Kadın otururken motorlu bir adam geliyor teselli
 - media: —
 - gemini_grafik: —
 
-## 15 Haz 21:00 | `MANUEL-20240728-01` | GENEL, GUMUS_PETROL | vizyon, seviye | public
+## 15 Haz 15:00 | `MANUEL-20240728-01` | GENEL, GUMUS_PETROL | vizyon, seviye | public
 
 #GÜMÜŞ tarihi zirvesi 48 usd dir. #ETH tarihi zirvesi 4800 dür.
 
