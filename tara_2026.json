@@ -1,5 +1,5 @@
 {
-  "guncelleme": "2026-08-19T13:13:52",
+  "guncelleme": "2026-08-19T14:34:54",
   "yil": "2026",
   "genel_yuzde": 100.0,
   "tamam": false,
@@ -12,11 +12,11 @@
     "yuzde": 100.0
   },
   "alinti": {
-    "kapsam": 127,
-    "tam": 127,
+    "kapsam": 129,
+    "tam": 129,
     "eksik": 0,
     "yuzde": 100.0,
-    "bekleyen_dosya": 10
+    "bekleyen_dosya": 11
   },
   "flood": {
     "kok": 8,

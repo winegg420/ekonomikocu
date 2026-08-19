@@ -23034,7 +23034,7 @@ aşağı düşse işlerine gelmiyorsa fren olurlar.
 Bize düşen nedir ? 
 29700 altı short ama üstünde ittirirler.
 
-- media: medya/2064021106776826079/graf_01.jpg
+- media: medya/2064021106776826079/graf_01.jpg, medya/2064021106776826079/graf_02.jpg
 - gemini_grafik: 09_GRAFIKLER_GEMINI/2064021106776826079_graf_01.jpg
 
 ## 8 Haz 19:20 | `2064019781095686569` | GENEL | tez | abone

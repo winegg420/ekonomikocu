@@ -1,6 +1,6 @@
 # TARAMA 2026 (@ekonomikocu)
 
-**Guncelleme:** 2026-08-19T13:13:52
+**Guncelleme:** 2026-08-19T14:34:54
 
 ## Ozet
 
@@ -13,7 +13,7 @@
 | Alan | Tam | Eksik | % |
 |------|-----|-------|---|
 | Ana tweet (2026) | 6671 | 0 (+18 erisilemedi) | **100.0%** |
-| Alinti (2026 kapsami) | 127 | 0 | **100.0%** |
+| Alinti (2026 kapsami) | 129 | 0 | **100.0%** |
 | #FLOOD kok (2026) | 8 | 0 | **100.0%** |
 
 **En yeni kayit:** 2026-08-18

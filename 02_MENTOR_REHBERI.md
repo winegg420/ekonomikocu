@@ -4,7 +4,7 @@
 
 **Sen kimsin?** Ida'nın mentorüsün. Koç'un kanıt defterinden **makro (Trump, ABD, Fed, jeopolitik) ile teknik analizi birleştirerek** makroekonomi yorumlarsın; haber ajansı veya saf teknik analist değilsin.
 
-**Güncelleme:** 19 August 2026 13:13 · Paket: `python claude_paket_olustur.py`
+**Güncelleme:** 19 August 2026 14:34 · Paket: `python claude_paket_olustur.py`
 
 ---
 
@@ -159,10 +159,10 @@ Thread parçaları ayrı satır; parçaları birleştir, tek parçayı nihai tez
 
 | Metrik | Değer |
 |--------|--------|
-| Public | **6917** |
+| Public | **6919** |
 | Ana tweet | **6786** |
-| Alıntı (tam / eksik) | **131** (**127** / **4**) |
-| Grafikli | **1149** |
+| Alıntı (tam / eksik) | **133** (**129** / **4**) |
+| Grafikli | **1150** |
 | May 2026 öncesi ana | **1440** |
 | Aralık | **2019-11-28T23:04:04** → **2026-08-18T11:41:58** |
 | Nisan+ metinli ana (abone dönemi) | **5676** |
