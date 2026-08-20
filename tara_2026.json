@@ -1,14 +1,14 @@
 {
-  "guncelleme": "2026-08-20T23:57:42",
+  "guncelleme": "2026-08-21T00:04:12",
   "yil": "2026",
   "genel_yuzde": 100.0,
   "tamam": false,
   "en_yeni": "2026-08-19",
   "ana": {
-    "metinli": 6673,
+    "metinli": 6675,
     "bos_kilitli": 0,
     "erisilemedi": 18,
-    "toplam": 6691,
+    "toplam": 6693,
     "yuzde": 100.0
   },
   "alinti": {
@@ -47,7 +47,7 @@
       "bos": 0
     },
     "2026-06": {
-      "metinli": 3559,
+      "metinli": 3561,
       "bos": 0
     },
     "2026-07": {
