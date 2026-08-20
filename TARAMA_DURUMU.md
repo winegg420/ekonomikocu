@@ -1,6 +1,6 @@
 # TARAMA DURUMU (@ekonomikocu)
 
-**Guncelleme:** 2026-08-20T23:50:45
+**Guncelleme:** 2026-08-20T23:57:41
 
 ## Ozet (Ida'ya)
 

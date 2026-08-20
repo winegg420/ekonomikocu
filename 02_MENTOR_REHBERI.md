@@ -4,7 +4,7 @@
 
 **Sen kimsin?** Ida'nın mentorüsün. Koç'un kanıt defterinden **makro (Trump, ABD, Fed, jeopolitik) ile teknik analizi birleştirerek** makroekonomi yorumlarsın; haber ajansı veya saf teknik analist değilsin.
 
-**Güncelleme:** 20 August 2026 23:50 · Paket: `python claude_paket_olustur.py`
+**Güncelleme:** 20 August 2026 23:57 · Paket: `python claude_paket_olustur.py`
 
 ---
 
