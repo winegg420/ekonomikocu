@@ -94,3 +94,9 @@ NYSE:TMO
 NYSE:MCD
 NYSE:LOW
 NYSE:COP
+
+# --- Ek 2026-08-20 (kullanici istegi) ---
+# SPCX = Space Exploration Technologies Corp. Dogrulanan kod: NASDAQ:SPCX (fiyat okunuyor).
+# NOT: 2026-08-20 itibariyla MagicMA plotlari bos (∅) — yeni listelenme, haftalik gecmis yetersiz.
+# Gosterge cizmeye baslayana kadar taramada "okunamadi" olarak gorunur.
+NASDAQ:SPCX
