@@ -1101,3 +1101,45 @@ Petrol tezi 100-120 → **100-110, uçta 150$** olarak yukarı revize edildi.
 **Dosyada fark edilen, dokunulmayan tutarsızlık:** 11_DIS_KAYNAKLAR'da "EK — 2026-08-20 OTURUMU"
 bloğu var ve PROGRESS'te 20 Ağustos kaydı bulunuyor, oysa bugün 19 Ağustos. İleri tarihli kayıt
 mevcut içerikte; bozmamak için düzeltilmedi, sadece not edildi.
+
+---
+
+## 2026-08-20 — SPCX sembol eklendi + MagicMA taraması
+
+**1) 11_DIS_KAYNAKLAR.md — üç giriş eklendi (commit 6ad0411):**
+- **Yeni bölüm: KEMAL HİÇYILMAZ (cryptokemal)** — 20 Ağustos girişi + karne tablosu.
+- **BORA ÖZKENT** ve **SELLCOIN** bölümlerine 20 Ağustos alt başlıkları + karne satırları.
+- Diff tamamen ekleme (51 satır, 0 silme); mevcut içeriğe dokunulmadı.
+- **Çapraz-kaynak bulgusu:** Bessent'in Hazine tahvil geri alım hamlesi **üç bağımsız kaynakta**
+  (Kemal / Özkent / Sellcoin) teyitli. Ancak **short likidasyon rakamı ayrışıyor**:
+  $1.5-2 mia / $2.7 mia / $1 mia+. Aynı olay, farklı ölçüm — kaynak güvenilirliği için not.
+
+**2) NASDAQ:SPCX sembol listesine eklendi (`magicma/sembol_listesi/abd_hisse.txt`):**
+- Kullanıcı "SPCX ABD hissesi" istedi. Doğru TradingView kodu **taramadan ÖNCE test edilerek**
+  belirlendi (bkz. WMT/NASDAQ dersi: kod doğruluğunu borsa değil, TV'nin veri verdiği kod belirler).
+- TV sembol aramasında bulunan karşılıklar: **NASDAQ:SPCX** (Space Exploration Technologies Corp,
+  tip *stock*), TSX:SPCX (Kanada depo sertifikası), BYMA:SPCX (Arjantin CEDEAR),
+  SET:SPACEX01/03/06/… (Tayland DR), CRYPTO:SPACEXPUSD (pre-IPO türev).
+  ABD hissesi olarak doğru seçim **NASDAQ:SPCX**.
+- **Kritik bulgu:** NASDAQ:SPCX'te **fiyat okunuyor** (132,44$, −%5,16) ama **MagicMA plotlarının
+  tamamı ∅** — G-Üst, G-Alt, H-1, H-2 hiçbiri çizilmemiş. Sebep: yeni listelenme, göstergenin
+  haftalık hesabı için yeterli geçmiş yok. **Kod yanlış değil, gösterge veri üretmiyor.**
+  → Bu, "taranamayan" ayrımındaki **"veri yok"** kategorisi; kod düzeltmeyle çözülmez.
+- Yine de listeye eklendi (kullanıcı isteği), dosyaya açıklama yorumu yazıldı. Gösterge çizmeye
+  başlayana kadar her taramada "okunamadı" olarak görünecek ve ~25 sn timeout maliyeti getirecek.
+
+**3) MagicMA taraması (commit e26bd4d):**
+- `magicma_tara_dayanikli.py`, 408 sembol. **407 okundu, 1 okunamadı (yalnızca SPCX — beklenen).**
+- CDP kopması / takılma yaşanmadı, supervisor gerekmedi.
+- Rapor: `magicma/magicma_rapor_2026-08-20.md` (297 sembol rapora girdi).
+- İşlem adayları (CLAUDE.md kuralı, mesafe ≤ %0,25): **19 aday**,
+  `magicma/magicma_islem_adaylari_2026-08-20.md`.
+  En yapışık üçlü: **HD %+0,01 (long)**, **MDLZ %-0,02 (short)**, **PEPEUSDT %-0,03 (short)**.
+
+**Operasyonel not — Chrome/CDP:** Oturum başında 9222 kapalıydı (kullanıcının normal Chrome'u
+açıktı ama debug portsuz). Ayrı profille (`%LOCALAPPDATA%\ekonomikocu_x_session`) 9222 + TV
+layout (`tr.tradingview.com/chart/zOsq3cIW/`) başlatıldı; normal Chrome ile çakışma olmadı.
+
+**Çıkarım — yeni sembol ekleme prosedürü:** Sembolü listeye körlemesine ekleyip taramanın
+başarısızlığını beklemek yerine, **eklemeden önce TV sembol aramasıyla kodu doğrula + ham plot
+oku**. Bu oturumda bu sayede "kod mu yanlış, gösterge mi çizmiyor" ayrımı taramadan önce netleşti.
