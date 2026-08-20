@@ -8,6 +8,18 @@
 
 ## SELLCOIN
 
+### 2026-08-20
+- **Makro:** Bessent'in tahvil geri alım operasyonunu max $2 milyar'dan min $4 milyar'a çıkardığını somut rakamla veriyor — Kemal Hiçyılmaz ve Bora Özkent'in anlattığı olayın üçüncü bağımsız teyidi.
+- **Ters okuma:** Fed tutanakları şahindi ama piyasa yükseldi — "$40 trilyon borçlu bir ülke gerçekten agresif faiz artırabilir mi" sorusu, dolara değil altına güven.
+- **BTC teknik merdiven:** 67.000 kırıldı → 72.600 ilk direnç → 78.000 üstü hedef bölge.
+- **$1 milyar+ short likide oldu** (üçüncü bağımsız short squeeze rakamı).
+- **Altın:** $4.363 destek, $4.500 ilk hedef bölgesine ulaşıldı, kırılımı geçen hafta önceden çağırmış.
+- **Tether dominansı kırıldı** — risk-on sinyali, üçüncü teyit.
+- **Total3 (BTC/ETH hariç altcoin piyasası):** Bu hafta izlenecek eşik $686 milyar.
+- Portföyde %33 nakit, hâlâ alım yapıyor, kâr almadı.
+
+**Koç'la ilişki:** Gümüşte mevcut ÇELİŞKİ notu geçerliliğini koruyor (Sellcoin $62'yi destek okurken Koç $68 tabanının kırıldığını söylemişti) — şimdi Sellcoin $4.363/$4.500 altın hedefleriyle devam ediyor, gümüş güncellemesi bu videoda yok.
+
 ### 2026-08-10 (haftalık açılış videosu)
 - **Makro:** Temmuz NFP -23.000 (beklenti +85.000), işsizlik %4.2→%4.1. Kevin Warsh'ın (FT, 6 Ağu) "enflasyon yüksek kalırsa Eylül'de faiz artırabiliriz" açıklamasını hatırlatıyor, ama zayıf istihdamın Fed'in elini bağladığını söylüyor. Bu hafta çarşamba/perşembe ABD enflasyon + ÜFİ verileri kritik.
 - **Altın:** $4.300 üstü haftalık açılış, yükseliş kanalı yılbaşından beri sağlam. Destek $4.100. Gram altın 6.200 TL altına inmez öngörüsü. Trend başladı diyor.
@@ -28,6 +40,9 @@
 | 10 Ağu | Gümüş $62 yeni destek, trend başladı | İZLENİYOR |
 | 10 Ağu | BTC destek 63.000-63.100 korunur | İZLENİYOR |
 | 10 Ağu | BTC 67.300 kırılırsa hedef 72.600 | İZLENİYOR |
+| 20 Ağu | Bessent tahvil alımı 2B→4B artışı likiditeyi rahatlatır | İZLENİYOR |
+| 20 Ağu | BTC 72.600 direnç, 78.000 üstü hedef | İZLENİYOR |
+| 20 Ağu | Altın $4.363 destek tutar | İZLENİYOR |
 
 ---
 
@@ -768,6 +783,16 @@ bir gündem maddesi** — dosyadaki başka kaynakta da yok, tek kaynaklı.
 kaynak**; Koç'un makro-vade ve emtia çerçevesiyle kesişmiyor. Dosyaya **karşıt-veri değeri** için
 giriyor (tahvil teşhisi Yeşilada'yla çelişiyor).
 
+### 2026-08-20
+- **Makro:** Bessent'in tahvil geri alım hamlesi — Kemal Hiçyılmaz'ın anlattığıyla aynı olay, bağımsız ikinci kaynaktan teyit. 10Y faiz -6bp, 30Y düşüşte, dolar zayıfladı, altın $4.557'ye sıçradı, BTC gün içi +11%'e kadar gördü.
+- **BTC için iki ayrı sürücü:** (1) Hazine tahvil müdahalesi, (2) Trump'ın kripto CEO'larını (Coinbase, Robinhood) toplayıp regülasyonu hızlandıracağını söylemesi — ama Özkent şüpheci, "bu Kongre'de geçme ihtimalini zayıf görüyorum."
+- **$2.7 milyar short likide oldu.**
+- **AI hisseleri rallinin dışında kaldı** — SMH düştü, sadece Moderna/Tempus kanser aşısı haberiyle biyoteknoloji patladı. Çin'in AI modelinde ABD'yi yakaladığına dair Bloomberg makalesi AI hisselerine baskı yapıyor diyor.
+- **ABD borcu ilk kez $40 trilyonu geçti** — "seçim ekonomisi" olarak okuyor, tahvil programı seçimden hemen sonra bitiyor.
+- **26 Ağustos Çarşamba PCE enflasyonu** — "belirleyici" dediği bir sonraki kritik veri.
+
+**Koç'la ilişki:** Dolar zayıflaması (Koç'un DXY 110→95 tetikleyicisinin bir ayağı) teyitli. Fed indirimi hâlâ yok — bu Hazine hamlesi, Fed faiz kararı değil. Koç'un 3 koşullu tetikleyicisinin sadece 1 ayağı hareket ediyor.
+
 ### KARNE — Bora Özkent
 | Tarih | İddia | Sonuç |
 |---|---|---|
@@ -775,6 +800,8 @@ giriyor (tahvil teşhisi Yeşilada'yla çelişiyor).
 | Ağu 2026 | Çin robotik teması (Unitree vb.) güçlenmeye devam eder | İZLENİYOR |
 | Ağu 2026 | Tahvil faizi yükselişi küresel/kompozisyonel, ABD'ye özgü değil | İZLENİYOR (Yeşilada ile zıt) |
 | Ağu 2026 | OpenAI zarar tartışması için "henüz erken" | İZLENİYOR |
+| 20 Ağu | Bessent tahvil geri alımı likiditeyi rahatlatır, riskli varlıklara yarar | İZLENİYOR |
+| 20 Ağu | AI hisseleri yakında toparlanmaz, Micron 650$ görülmeden girilmez | İZLENİYOR |
 
 ---
 
@@ -999,3 +1026,27 @@ ifadesiyle **bireysel yatırımcının "herhangi bir alakası yok"**. Haber baş
 **DXY/Fed indirimi ön koşuluyla yön olarak örtüşüyor**. Özkent ve Fiba'nın **Koç'la doğrudan
 bağlantısı yok** — biri ABD teknoloji, diğeri TCMB/BIST mikro odaklı; dosyaya **karşıt-veri** ve
 **fiyat referansı** olarak giriyorlar.
+
+
+---
+
+## KEMAL HİÇYILMAZ (cryptokemal)
+
+### 2026-08-20
+- **Makro:** Hazine Bakanı Bessent, 10-30 yıl vadeli tahvil geri alım operasyonu büyüklüğünü ikiye katladığını açıkladı. Doğrudan parasal genişleme değil ("gizli QE" diyor) — Fed değil Hazine alıyor, amaç uzun vadeli faizi kıstırmak.
+- **27-29 Ağustos Jackson Hole sempozyumu**, yeni Fed Başkanı Kevin Warsh'ın ilk konuşması 28 Ağustos Cuma.
+- **FOMC tutanakları:** 9-3 oylama, 3 üye şahin ama piyasa bunu "bayat şahinlik" (zayıf istihdam verisi öncesi) olarak okudu.
+- **Hisseler:** Nasdaq/S&P hafif baskılı, yapay zeka teması "şişkin" görüyor. Micron 650$ görülmeden AI hisselerine girmiyor, 450-500$ daha cazip.
+- **Kripto rallisinin 3 ayağı:** (1) Hazine tahvil alımı, (2) Clarity Act oylamasının 15 Eylül'de başlayacağı haberi (Senatör Lummis), (3) $1.5-2 milyar'lık short likidasyonu.
+- **BTC:** 67.000$ kritik destekti, hacimli kırıldı → 80K sıradaki hedef. "Mega boğa döndü" demiyor, temkinli.
+- **Alış bölgeleri:** BTC 67.400-67.500, ETH $2.000, Solana hedef 115, Ripple destek 1.08-1.09, EtherFi 480.
+- **DXY 99.5/100.4 altı kapanış** = altın/gümüş için anahtar bölge.
+
+**Koç'la ilişki:** 15 Eylül tarihi Koç'un 90 günlük (15 Haziran→15 Eylül) döngü teziyle tam örtüşüyor — farklı gerekçe, aynı tarih, bağımsız yakınsama. DXY zayıflaması ortak ama Kemal somut sayı veriyor. AYRIŞMA: Kemal'in hedefi 80K ve temkinli "tek seferlik short squeeze" vurgusu var; Koç'un 84K "yılın pivotu" tezi kadar iddialı değil.
+
+### KARNE — Kemal Hiçyılmaz
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 20 Ağu | BTC 67.000 kırıldı, 80K hedef | İZLENİYOR |
+| 20 Ağu | Clarity Act 15 Eylül'de oylanır, onaylanma ihtimali yüksek | İZLENİYOR |
+| 20 Ağu | DXY 99.5/100.4 altı kapanış altın/gümüşe yarar | İZLENİYOR |
