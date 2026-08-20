@@ -576,3 +576,327 @@ oynaklığı "gürültü", sonrasını "yön" sayan** bir çerçeve kuruyor. Cev
 yorumu — bu, Haziran'dan beri açık duran "Ağustos 3. hafta" çağrısının **ilk gradelenebilir
 sonucu** olacak; (b) 18 Ağustos Japonya floodunun cevap kısmı (grafikleri hâlâ okunmadı:
 `medya/2089511036420309364/`, `medya/2089633894706393341/`).
+
+---
+
+## 2026-08-20 — SON 1 AY DERİN OKUMA (20 Tem → 20 Ağu, 216 kayıt tam okundu)
+
+> Bu bölüm, 20 Temmuz – 20 Ağustos 2026 arasındaki **tüm** kayıtların (128 yorum, 71 abone-özel,
+> 11 asıl tahmin, 3 alıntı-asıl, 2 flood-parça, 1 hatırlatma) baştan sona okunmasıyla üretildi.
+> Önceki bloklar tekil tweet/olay bazlıydı; burada **dönemin bütünü** ve daha önce hiçbir yerde
+> yazılmamış **yapısal ilişkiler** işleniyor.
+
+### 1. YENİ VE EN ÖNEMLİ BULGU — Koç'un ETH seviyeleri gümüş seviyelerinin birebir kg karşılığı
+
+Koç 2 Ağustos'ta ürün taksonomisini ilk kez açıkça formüle etti:
+
+> *"Enflasyonu kim azdırır? 1- GÜMÜŞ 2- ETHUSD … Gümüş SANAYİ metallerinin öncüsüdür …
+> İşte sanayide gümüş nasıl öncüyse, bu görevi kripto piyasasında ETH görüyor.
+> #gümüş → #çinko #bakır #alüminyum · #ETH → #bnb #ada #xrp"*
+> *"BİTCOİN ile ALTIN kanadını yarıştırdıklarını hep yazdım. Bunlar baş aktördür.
+> Bunlar enflasyonu azdırmazlar."*
+
+Yani Koç'un dört ana ürünü **iki kefeye** ayrılıyor:
+
+| Kefe | Ürünler | Rol |
+|---|---|---|
+| **Baş aktör** (enflasyon azdırmaz) | ALTIN, BİTCOİN | Dolar itibar savaşının aracı |
+| **Öncü** (enflasyon azdırır) | **GÜMÜŞ, ETHUSD** | Reel/teknoloji sepetini peşine takar |
+
+Bunu tekrar tekrar **sayısal eşitlikle** kurdu:
+- 23 Tem: *"#gümüş 60 dolar → 60/31.1 = 1.920 → bir gram gümüş 1920 → #Eth 1920"*
+- 23 Tem: *"1 kg #gümüş 87 bin lira, 1 #ETH 87 bin lira"* · *"#ETHUSD 1850 / #XAGUSDG 1.85"*
+- 1 Ağu: *"Bir kğ GÜMÜŞ 1850 dolarken, ETHUSD neden 1850 dolar? Bunları kim birbirine entegre ediyor?"*
+- 1 Ağu: *"ABD, Çin ile rekabet için ETH diye bir varlığı masaya getirip **taklit** bir ürün mü çıkardı?"*
+
+**Bizim çıkarımımız (Koç bunu hiçbir yerde yazmadı):** Koç'un verdiği **tüm ETH robot/çizgi
+seviyeleri, gümüş fiyatının kilogram karşılığıdır.** 1 kg = 32,1507 troy ons ile:
+
+| Koç'un ETH seviyesi | Kaynak | Gümüş karşılığı ($/ons) | Gümüş tarafındaki anlamı |
+|---|---|---|---|
+| **1746** | 3 Ağu, haftalık robot | **54,31** | Koç'un Temmuz'daki 54-62$ aralığının **alt sınırı** |
+| **1846** | 3 Ağu, aylık robot (14 Ağu'ya kadar süreli) | **57,42** | 54-62$ aralığının ortası |
+| 1920 | 23 Tem, açık eşitlik | 59,72 | Koç'un kendi verdiği eşleşme (60$) |
+| **2060** | 9 Ağu, "6 öğretisi" | **64,07** | — |
+| **2157** | 9 Ağu, "5.7 öğretisi" | **67,09** | Koç'un *"68$ tabanı kırıldı"* dediği bölge |
+| 3460 | 9 Ağu, ters ölçek "TRUMP imzası" | 107,62 | Uzun vade projeksiyon |
+
+Üç bağımsız doğrulama:
+1. **Koç'un kendi 54-62$ gümüş aralığı** (Temmuz) → ETH 1746-1993 bandına denk geliyor;
+   verdiği haftalık/aylık robotlar (1746/1846) tam bu bandın içinde.
+2. **68$ taban** (Koç'un kırıldığını söylediği seviye) → ETH 2186; verdiği en üst çizgi 2157.
+3. **Bugünkü çapraz kontrol:** 19 Ağustos Fiba verisi gümüş **63,27$** → ETH ≈ **2034**.
+   Aynı günlerde Kemal Hiçyılmaz'ın verdiği ETH alış bölgesi **$2.000** (11_DIS_KAYNAKLAR, 20 Ağu).
+   **Sapma %1,7.** Kural, iki bağımsız kaynakla teyitli.
+
+**Operasyonel sonuç (Ida için doğrudan):**
+`ETH hedefi ≈ gümüş ons fiyatı × 32,15` — ETH ve gümüş **aynı pozisyonun iki yüzü**.
+İkisinde birden pozisyon almak çeşitlendirme değil, **aynı riski ikiye katlamaktır.**
+Tersi de doğru: gümüş seviyesi biliniyorsa ETH seviyesi türetilebilir, bir ürünün seviyesi
+diğerini doğrular. Bu, elimizdeki en somut çapraz-doğrulama aracıdır.
+
+### 2. Koç'un ETH seviye hiyerarşisi netleştirildi (önceki kayıtlarda dağınıktı)
+
+3 Ağustos ile 9 Ağustos kayıtları ilk bakışta çelişkili görünüyor (1846/1746 vs 2060/2157).
+Çelişki yok — **iki farklı ölçek**:
+
+```
+3460  --- ters ölçek "TRUMP imzası" (uzun vade)
+2157  --- "5.7 öğretisi"   } KIRILMASI GEREKEN üst çizgiler
+2060  --- "6 öğretisi"     } (9 Ağu: "bu çizginin üstüne çıktığı an mumların önü kısmen açılır")
+-----  fiyat burada  -----
+1846  --- AYLIK robot  (3 Ağu: "Ağustos 14. güne kadar 1846 üstü pozitif, altı zaman kaybı")
+1746  --- HAFTALIK robot
+```
+
+**Net kural:** 2060 kırılmadan sert yükseliş yok; 1846 altı "zaman kaybı" bölgesi.
+Aradaki 1846-2060 bandı Koç'un tarifiyle *"tepki geliyor ama yukarı gidecek itici güç yok"* alanı.
+
+### 3. YENİ METODOLOJİ — ters ölçek grafik (9 Ağustos)
+
+> *"Hatta size grafiği ters çevirdim. Şu an durum daha iyi anlaşılır hale geldi."*
+> *"Tersten grafiklere bakmak psikolojiyi düzeltir."* (ETHUSD, ADA, XRPUSD için uyguladı)
+
+Altındaki mantık iki cümlede:
+- *"Çizgi üstüne alıyor, AYLARI yiyorlar. Çizgi altına mum kaydığı an hareket başlıyor."*
+- *"Burada ise tam tersi: çizgi altında mumları tutuyor, hareketi başlatmıyorlar."*
+
+**Bu, MagicMA çizgi mantığının birebir aynısıdır.** Koç'un "çizgi üstü = bekletme / çizgi altı =
+hareket" (veya tersi) okuması ile MagicMA G-Üst / G-Alt yön etiketlemesi aynı dili konuşuyor.
+Elimizdeki MagicMA taraması, Koç'un metodunun **408 ürüne ölçeklenmiş hâlidir** — bu köprü
+daha önce kurulmamıştı.
+
+### 4. Dönemin omurgası: FED suçlama zinciri (29 Temmuz, abone-özel)
+
+Koç bu dönemin en net **nedensellik zincirini** kurdu:
+
+```
+FED faiz indirmedi
+  -> kripto desteklenmedi / zayıfladı
+     -> DXY masaya gelemedi ("kripto ölür, yapamazsın")
+        -> onun yerine PETROL geldi
+           -> suçlanan ülke ABD oldu
+```
+
+Karşı-olgusalı da açık: *"2025 Temmuz'a kadar şakır şakır faiz indirip kriptoyu öne çıkarmalıydın.
+O dönem ÇİN emtia kartını rahat oynayamıyordu, Avrupa'da barış görüşmeleri başlamamıştı."*
+→ Koç'a göre kriz **kaçırılmış bir zamanlama penceresinin** sonucu, kaçınılmaz bir döngü değil.
+
+### 5. Kritik itiraf — kriptodan çekilme (30 Temmuz)
+
+> *"Ticaret savaşları başlayınca kriptoyu oyun dışına ittiler. Bu da 2025 Temmuz'da oldu.
+> O tarihten sonra ben de kriptoya bakmayı bıraktım."*
+
+İlk bakışta 2 Ağustos'taki ETH öncülük teziyle çelişiyor. **Çelişmiyor — ayrım şu:**
+bıraktığı şey **kriptoyu yatırım aracı olarak izlemek**; ETH'ye bakmayı sürdürmesinin sebebi
+onu **enflasyon ölçüm aleti** saymasıdır. Koç için ETH bir pozisyon değil, bir **termometre**.
+Bu ayrım, hesabın kripto çağrılarının neden azaldığını ve ETH'nin neden hep gümüşle birlikte
+anıldığını açıklıyor.
+
+### 6. Çöküş beklentisi değil, ÖTELEME beklentisi (4 Ağustos)
+
+> *"İnsanlar yıllardır bizden 'sağlam bir çöküş gelecek' ya da 'sağlam bir patlama gelecek'
+> duymayı bekliyor. Oysa piyasalar her zaman bu kadar keskin senaryolarla ilerlemeyebiliyor."*
+> *"TRUMP olmasaydı çökertirlerdi. 2024 son çeyrek piyasalar çökmeliydi. 2025 Temmuz piyasalar
+> çökmeliydi. Ama doları zayıflattığı için bunlar yaşanmadı."*
+
+**Netleştirme:** Koç'un tezi "çöküş geliyor" değil, **"çöküş sürekli erteleniyor, bedeli zaman
+ve enflasyon olarak ödeniyor"**. Hesabı "kıyamet tellalı" sayan okumalar yanlış.
+Çözüm olarak iki madde bırakıyor (7 Ağu): **1- Çin eninde sonunda R yapacak.
+2- Dünya dijital varlıklara geçecek, reel ekonomiyi ilgilendiren varlıklar rafa kalkacak.**
+
+### 7. Eylül yakınsaması — dört bağımsız yol, tek ay
+
+| Kaynak | Gerekçe | Tarih |
+|---|---|---|
+| Koç (17 Ağu) | 90 günlük vade sistemi: 15 Haziran → **15 Eylül** | 15 Eylül |
+| Koç (20 Tem, 8 Ağu) | *"Çin EYLÜL'de bizi ziyaret edecek… geçen sene neyse bu sene de aynı"* | Eylül |
+| Kemal Hiçyılmaz (20 Ağu) | Clarity Act oylaması **15 Eylül**'de başlıyor (Sen. Lummis) | 15 Eylül |
+| Warsh (6 Ağu, Koç'un aktardığı haber) | *"Enflasyon yüksek olursa **Eylül**'de faiz artırmaya hazır"* | Eylül |
+
+**Dört farklı mekanizma aynı aya işaret ediyor.** Koç'un takvimsel tezi ile piyasa takvimi
+bu kez birbirini doğruluyor — Haziran'dan beri ilk kez bu kadar net bir çakışma var.
+
+### 8. Ritim gözlemi — 7 günlük tam sessizlik
+
+9 Ağustos 23:59'dan 17 Ağustos 12:29'a kadar **tek kayıt yok** (7 gün 12 saat).
+Öncesinde 26 Temmuz – 9 Ağustos arası yoğun flood dönemi (günde 10-20 kayıt).
+Hesabın çalışma ritmi: **yoğun flood salvoları + uzun tam sessizlikler**. Sessizlik dönemi
+"veri kaybı" değil, hesabın doğal davranışı — tarama boşluğu sanılıp aranmamalı.
+(Bu, taramada "yeni tweet yok" çıktısının neden normal olabileceğini de açıklıyor.)
+
+### 9. KARNE — bu dönemin gradelenebilir çağrıları
+
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 3 Ağu | **ETH 1846 üstü 14 Ağustos'a kadar pozitif** | **TUTTU (dış kaynakla teyit)** — 20 Ağu'da ETH ~$2.000 (Kemal), 1846'nın üstünde. Koç'un koyduğu süre doldu ve seviye korundu. Hesabın **süreli + sayısal** çağrılarından ilk net TUTTU'su. |
+| 7 Ağu | XAUUSD kısa vadede **4336 altı kapanış** görmeli | **TUTMADI** — 19 Ağu Fiba verisi: zirve 4409 → 4364. 4336 altına kapanış gelmedi; Kemal (20 Ağu) DXY zayıflığıyla altına **yukarı** yön veriyor. Ters yönde gelişme. |
+| 27 Tem | Petrol için *"Ağustos 3. gününe kadar zamanı var"* | **ÖLÇÜLEMEZ** — brent 94$'dan gaplı aşağı açtı notu var, Ağustos başı takibi yok. Kapatılamıyor. |
+| 17 Ağu | NASDAQ 30600 = vade başı tepesi, *"film bitti"* | **İZLENİYOR** |
+| 19 Ağu | ABD vadelerinin dolmasına az kaldı, *"panik yok"* | **VADESİ DOLUYOR — 21 Ağustos Cuma** (opex). Yarın ölçülebilir. |
+| 20 Tem | Çin Eylül ziyareti *"geçen seneyle aynı oyun"* | **İZLENİYOR** (Eylül) |
+| 7 Ağu | *"Çin eninde sonunda R yapacak"* | **AÇIK UÇLU** — tarih yok, gradelenemez |
+
+**Karne notu:** Bu dönemdeki **11 "asıl tahmin"** kaydından yalnızca **2'si** dar ve
+gradelenebilirdi (ETH 1846/14 Ağu ve XAUUSD 4336). Biri tuttu, biri tutmadı. Geri kalan 9'u
+çerçeve/anlatı düzeyinde. **Oran değişmedi: hesabın gücü tahmin isabetinde değil, çerçevede.**
+
+### 10. Açık işler / bir sonraki taramada aranacak
+
+1. **21 Ağustos (yarın) opex kapanışı ve sonrası** — Haziran'dan beri açık duran "Ağustos 3. hafta"
+   çağrısının ilk gerçek sonucu. Koç'un 22-24 Ağustos yorumları kritik.
+2. **18 Ağustos Japonya sorusunun cevabı** hâlâ verilmedi (30 Tem BOJ notundan beri 3 haftadır
+   açık). Dış kaynaklar carry-trade diyor, Koç bu terimi hiç kullanmadı.
+3. **Gümüş-ETH kuralının canlı takibi:** gümüş 54$'a inerse ETH ≈ 1736 (Koç'un haftalık robotu);
+   68$'a çıkarsa ETH ≈ 2186. Kuralın kırıldığı gün, Koç'un tezinin de kırıldığı gündür.
+4. **Okunmamış grafikler:** `medya/2089511036420309364/`, `medya/2089633894706393341/` (Japonya
+   floodu) — üçüncü oturumdur açılmadı.
+
+### 11. "ÖĞRETİ" SİSTEMİ ÇÖZÜLDÜ — sayı dizisi, ürün ve ölçek bağımsız
+
+19-20 Ağustos akışı, Koç'un yıllardır *"size sayısal değerler öğrettim"* (20 Tem) dediği sistemin
+ne olduğunu ilk kez **beş ayrı üründe aynı anda** görünür kıldı:
+
+| Ürün | Seviye | Koç'un adlandırması | Tarih |
+|---|---|---|---|
+| NASDAQ | 29200 | **"9.2 öğretisi"** | 19 Ağu |
+| BTCUSD | 57.000 | **"5.7 öğretisi"** (*"nereden döndü? 57 K"*) | 20 Ağu |
+| BTCTRY | 3060 | **"6 öğretisi"** (*"3060 = 6 öğretisi"*) | 20 Ağu (30 Tem alıntısı) |
+| GBPTRY | 65,7 | **"5.7 öğretisi"** (*"bugün 65.7 liraya değdi"*) | 20 Ağu |
+| ETHUSD | 2060 / 2157 | **"6 öğretisi" / "5.7 öğretisi"** | 9 Ağu |
+
+**Çözüm:** "Öğreti" bir fiyat değil, bir **rakam dizisidir** — 5.7, 6, 9.2 gibi. Aynı dizi
+farklı üründe farklı ölçekte belirir (57 K · 65,7 · 2157 hepsi "5.7"; 3060 · 2060 · 60 K
+hepsi "6"). Koç bu diziyi ürünün mevcut basamak düzenine oturtup seviye üretiyor.
+Bu yüzden *"ben size sayısal değerler öğrettim, istesem kur/borsa analizi de yaparım"*
+(20 Tem) diyebiliyor — sistem üründen bağımsız.
+
+**Neden önemli:** Bugüne kadar bu seviyeler ürün ürün, tekil not olarak kaydediliyordu.
+Artık **türetilebilir**: yeni bir üründe Koç'un vereceği kritik seviye, o ürünün fiyat
+düzeyine 5.7 / 6 / 9.2 dizilerinin oturtulmasıyla önceden tahmin edilebilir.
+BTC'nin 60 K'sı (*"yarımcısını zengin, fakir edecek en büyük resmin pivotudur"*, 21 Mart 2024,
+20 Ağustos'ta yeniden öne çıkarıldı) bu sistemin en eski ve en dayanıklı örneğidir.
+
+### 12. "AĞUSTOS 3. HAFTA" ÇAĞRISI KAPANDI — Koç kendi kapattı, TUTTU
+
+Haziran'dan beri açık duran, 19 Ağustos oturumunda *"AÇIK (vadesi dolmadı)"* olarak
+düzeltilen çağrı, **20 Ağustos'ta Koç tarafından kapatıldı**:
+
+> *"Kripto bu sene; 7 Nisan'da çıktı. Bu çıkış 10 Mayıs gününe kadar sürdü. 6-7 Haziran'a
+> kadar düştü. **Ağustos 3. hafta tepki geldi.** Bu dört tarihin de önceden atılmış twitini
+> bulurum."* (20 Ağu 08:32)
+> *"ALTIN 4000 dolar altındaydı, yine Ağustos 3. hafta deyip anlattım."* (19 Ağu 21:11)
+> *"Babana bir sorsana? Ağustos 3. haftaya kadar neden varlıkları baskıladı, zaman geçirdi?"* (20 Ağu 21:04)
+
+Abone tarafından bağımsız teyit: *"abi tebrik ederim, tarih analizin yine şak diye konuştu"*
+(20 Ağu 05:44).
+
+**Karne kararı: TUTTU.** Gerekçe — çağrı tarih penceresi olarak verilmişti (Haziran'da
+"Ağustos 3. hafta"), pencere içinde beklenen hareket (kripto tepkisi, BTC'nin 57 K'dan dönüp
+73-74 K bandına gelmesi, ETH'nin bir günde ~%20 yükselmesi) gerçekleşti ve Koç ölçümü
+kendisi kapattı. Bu, arşivdeki **en uzun vadeli (2+ ay) ve tutmuş** tarih çağrısıdır.
+
+Yeni tarih hedefi hemen konuldu: *"Sana tarihli analiz yapmadım mı? **25 Ağustos'a kadar**
+takip et demedim mi?"* (19 Ağu 22:20).
+
+### 13. GÜMÜŞ–ETH KURALINDA AYRIŞMA SİNYALİ (bölüm 1'in canlı testi)
+
+Bölüm 1'deki `ETH ≈ gümüş($/ons) × 32,15` kuralı 20 Temmuz – 19 Ağustos arasında %1-2 sapmayla
+çalışıyordu. **20 Ağustos'ta bu bağ gerildi:**
+- Gümüş 19 Ağustos'ta 63,27$ (Fiba) → kural ETH ≈ 2034 der.
+- 20 Ağustos'ta ETH bir günde ~%20 yükseldi (abone gözlemi), Koç *"ETHTRY 110.600 değdi,
+  buranın 120 binleri aşması lazım"* ve *"2570 üstünde kalmadan tam canlanma gelmez"* diyor.
+  → ETH artık 2300-2570 bandında konuşuluyor; kuralın öngördüğü 2034'ün belirgin üstünde.
+
+**Yorum — ve bu ayrışma Koç'un kendi tezini doğruluyor:** aynı gün yazdığı
+*"ABD bu yıl borsalarını önden gazlıyor, kriptoyu baskılıyor. Şimdi borsası düşerken kriptoyu
+yukarı alıyor. Orijinalde burada **parçalı yönetim** var. Resmen bir takvim yönetilmiştir"*
+(20 Ağu 11:26) cümlesi, gümüş-ETH bağının neden koptuğunu açıklıyor: ETH bu kez **gümüşün
+kripto türevi olarak değil, borsa düşerken devreye sokulan ayrı bir kaldıraç olarak** kullanıldı.
+
+**Operasyonel kural (netleştirilmiş):** Gümüş-ETH eşitliği **rejim göstergesidir**.
+Eşitlik korunuyorsa "tek cephe" rejimi (Çin emtia ↔ ABD kripto simetrisi) sürüyor;
+eşitlik kopuyorsa **parçalı/rotasyonlu yönetim** rejimine geçilmiştir. Sapmanın kendisi sinyaldir.
+→ Bir sonraki taramada gümüş ve ETH'nin kesin kapanışları alınıp sapma yüzdesi ölçülmeli.
+
+### 14. 19-20 AĞUSTOS ÜRÜN DEFTERİ (yeni seviyeler)
+
+| Ürün | Seviye | Koç'un ifadesi | Tarih |
+|---|---|---|---|
+| **NASDAQ** | 29200 | *"9.2 öğretisi… vade sonu geliyor, satışçılar bastırıyor"* | 19 Ağu |
+| **NASDAQ** | 29360 | *"Bu bölgeye robot koydular. Vadeli değeridir."* | 20 Ağu |
+| **NASDAQ** | 29700 | *"Ay kapanışını görmek lazım. 29700 altı mı, üstü mü?"* | 20 Ağu |
+| **NASDAQ** | 30600 / 27600 | *"30600 kaç kez red yedi… 27600 üstü pozitif dedim, kaç kez sekti?"* | 19 Ağu |
+| **BTCUSD** | 57.000 | *"nereden döndü? 57 K = 5.7 öğretisi"* | 20 Ağu |
+| **BTCUSD** | 60.000 | *"en büyük resmin pivotu… 10 yıl geçse değişmez"* (2024'ten beri) | 20 Ağu |
+| **BTCUSD** | 73.600 | *"73600'de robot var"* | 20 Ağu |
+| **BTCTRY** | 3060 / 2606 | *"3060 = 6 öğretisi… teknik alım 2606'da gelmiştir"* | 20 Ağu |
+| **ETHUSD** | 2570 | *"2570 üstünde kalmadan tam canlanma da gelmez"* | 19 Ağu |
+| **ETHTRY** | 110.600 → 120.000 | *"110.600 değdi, buranın 120 binleri aşması lazım"* | 19 Ağu |
+| **GBPTRY** | 65,70 | *"bugün 65.7 liraya değdi — 5.7 öğretisi"* | 20 Ağu |
+| **GBPUSD** | 1,3840 | *"tam güçlenme için GBP'de 1.3840 aşılmalı, ancak o zaman tetiklenir"* | 20 Ağu |
+| **USDCAD** | 1,43 → 1,37 | *"Cad düşer dedim, 1.43 civarıydı, 1.37 geldi"* — **TUTTU** | 20 Ağu |
+| **XAUUSD** | çizgi | *"Tam çizgide bugün müdahale geldi… sağda solda doları zayıflattılar"* | 20 Ağu |
+
+**Karneye giren yeni sonuç:** USDCAD 1,43 → 1,37 çağrısı **TUTTU** (Koç'un kendi beyanı,
+seviye ve yön net). Bu dönemin ikinci gradelenebilir isabeti.
+
+### 15. YENİ TEMA — ürün değil, ENSTRÜMAN çeşitliliği vurgusu
+
+20 Ağustos'ta Koç ilk kez bu kadar açık biçimde takipçileri **kriptodan uzaklaştırıp
+parite/majör tarafa** yönlendirdi:
+
+> *"Nasdaq yoruyor. Ben yaz ayı geldi deyip **paritelere döndüm**. Bazen insan geri durmasını bilmeli."*
+> *"Grafik portföyümde **coinler yok** kardeşim. Sadece birkaç majör var."*
+> *"Kripto işi bozuyor… Biz **reel piyasalarda** işimize bakarız."*
+> *"İnsanlar bazı varlıklara alışıyor, ondan vazgeçemiyor. Halbuki **enstrüman dolu**."*
+> *"Son dönemde Bitcoin 10 K kazandırdı. **Cad de hemen hemen aynısını kazandırdı.**"*
+
+30 Temmuz'daki *"2025 Temmuz'dan sonra kriptoya bakmayı bıraktım"* itirafının (bölüm 5)
+operasyonel karşılığı budur: Koç fiilen **FX/parite ağırlıklı** çalışıyor.
+Kripto seviyelerini vermeye devam ediyor ama kendi portföyünde tutmuyor.
+→ Hesabı kripto sinyali için takip etmek, hesabın kendi pratiğine aykırı.
+
+### 16. Yönetim tezinin en net formülasyonu (19-20 Ağustos)
+
+> *"Bu adamlar **para yönetmiyor, takvim yönetiyorlar.**"* (19 Ağu 21:37)
+> *"Doları savunsalar piyasalar sallanır. Piyasayı savunsalar dolar sallanır.
+> **Zaman geçirmekten başkası kurtarmıyor.**"* (19 Ağu 21:40)
+> *"Kur zamana yayılıp 50'ye yanaşınca panik yaşanmıyor. Hasar zamana yayılıyor.
+> Ama bir kerede kura değer kaybettirirsen tüm dengeler sarsılır. **Zaman geçirmenin en büyük
+> faydası budur: şoku dağıtırsın.**"* (19 Ağu 23:13)
+> *"Durgunluk + enflasyon iç içe girdi… Çin borsası 2017'de 15 K, 2026'da 14 K."* (20 Ağu 00:26)
+
+**Netleştirme:** "Zaman geçirme" Koç'un sözlüğünde bir suçlama değil, bir **politika aracı**
+tanımıdır: şoku zamana yayarak dağıtmak. Üç yıldır tekrarlanan tema bu oturumda ilk kez
+*niçin* yapıldığıyla birlikte açıklandı — ve Koç bunu (eleştirse de) **rasyonel** buluyor.
+
+### 17. Hesabın ölçüm iddiası ve kendi tanımı
+
+> *"Herkes rakam kovalarken **tarih kovalayan** tek kişiyim sanırım."* (20 Ağu 10:33)
+> *"Ben otururum, tarihi belirlerim. Varlıktaki bandı belirlerim. Trend yönümü bilirim.
+> Keyfim varsa alır satarım, yoksa oturur izlerim."* (19 Ağu 21:16)
+> *"**Ben trade işine girmem.** Saatlik grafiklerde psikolojimi bozmam."* (19 Ağu 21:11)
+> *"**Takvim analizini bilmeyen benimle anlaşamaz.**"* (19 Ağu 20:31)
+
+Bu, hesabın karnesinin neden "tarih penceresi" bazında tutulması gerektiğinin gerekçesidir:
+Koç kendini fiyat tahmincisi değil **tarih tahmincisi** olarak konumluyor. Karne metodolojimiz
+buna göre kalmalı — dar fiyat hedefi araması, hesabın iddia etmediği bir şeyi ölçmek olur.
+
+### 18. VERİ NOTU — bu bölümün kaynağı ve taramanın sınırı
+
+Bu oturumda tarama **altı tur** çalıştırıldı. Bulgu: `tara_guncel_yeni.py`, CDP'ye bağlı
+Chrome'daki açık sekme profil akışı değilse `from:ekonomikocu` **arama akışına** düşüyor;
+X araması ise **abone-özel (Aboneler) tweetleri indekslemiyor**. İlk dört tur bu yüzden
+"yeni tweet yok" verdi.
+
+**Çözüm (kalıcı, sonraki taramalarda uygulanmalı):** taramadan önce CDP Chrome'undaki sekme
+`https://x.com/ekonomikocu/with_replies` adresine getirilip en az 5 article yüklenene kadar
+beklenmeli. Bu yapıldığında script *"Profil acik — devam"* dalına giriyor ve abone/yanıt
+akışını tarıyor — 5. ve 6. turda **+36 kayıt** bu şekilde geldi.
+
+**Bilinen eksik:** 20 Ağustos gün içi (yerel 08:00–22:00) abone akışı, altı turda da arşive
+alınamadı. O aralıktaki içerik (bölüm 11-15'teki BTC 57 K / 73.600, BTCTRY 3060, GBPTRY 65,7,
+USDCAD 1,37, XAUUSD müdahale, ETH 2570 kayıtları) **doğrudan `with_replies` okumasıyla**
+elde edildi ve analizde kullanıldı; ham arşivde henüz yok. Sonraki taramada bu aralık
+özellikle aranmalı.

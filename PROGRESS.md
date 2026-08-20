@@ -1143,3 +1143,44 @@ layout (`tr.tradingview.com/chart/zOsq3cIW/`) başlatıldı; normal Chrome ile �
 **Çıkarım — yeni sembol ekleme prosedürü:** Sembolü listeye körlemesine ekleyip taramanın
 başarısızlığını beklemek yerine, **eklemeden önce TV sembol aramasıyla kodu doğrula + ham plot
 oku**. Bu oturumda bu sayede "kod mu yanlış, gösterge mi çizmiyor" ayrımı taramadan önce netleşti.
+
+---
+
+## 2026-08-20/21 — Son 1 ay derin okuma + tarama kök-neden düzeltmesi
+
+**1) Tarama: altı tur, kök neden bulundu ve çözüldü.**
+- Oturum başında CDP portu (9222) kapalıydı → `CHROME_X.bat` ile açıldı, hesap OK (@420cryptofarmer).
+- **1-4. tur "yeni tweet yok" verdi.** Sebep sanılan gibi Chrome soğukluğu değil:
+  `tweet_tara.py:2944` — CDP'deki açık sekme profil akışı değilse (ya da sayfada <5 article varsa)
+  script `from:ekonomikocu` **arama akışına** düşüyor. X araması ise **abone-özel tweetleri
+  indekslemiyor** → Koç'un son 2 günkü tüm akışı görünmez kalıyor.
+- **Çözüm:** taramadan önce CDP Chrome'unun sekmesi `x.com/ekonomikocu/with_replies` adresine
+  getirilip ≥5 article yüklenene kadar beklenirse script *"Profil acik — devam"* dalına giriyor.
+  5. ve 6. turda böyle yapıldı → **+36 kayıt** (6955 → 6991), otomatik commit'ler 3f4946c, 5adf0c8.
+- **Not:** `x.com/ekonomikocu` (Posts) sekmesi yetmiyor — X orada yalnızca 4 article render ediyor,
+  eşiğin (5) altında kalıyor. **with_replies şart.**
+- **Kalan eksik:** 20 Ağustos gün içi (08:00-22:00) abone akışı altı turda da arşive girmedi.
+  İçeriği `with_replies`ten doğrudan okunup analize alındı, ham arşivde yok.
+
+**2) Analiz: 20 Tem – 20 Ağu, 216 kayıt + 19-21 Ağu akışı tam okundu → 06_ANALIZ.md'ye
+18 bölümlük blok eklendi (578 → 902 satır, üstteki içeriğe dokunulmadı).**
+
+En önemli üç çıkarım:
+- **"Öğreti" sistemi çözüldü.** 5.7 / 6 / 9.2 birer **rakam dizisi**; ürün ve ölçekten bağımsız.
+  Aynı gün beş üründe teyitli: NASDAQ 29200 = 9.2 · BTCUSD 57K = 5.7 · BTCTRY 3060 = 6 ·
+  GBPTRY 65,7 = 5.7 · ETHUSD 2060 = 6 / 2157 = 5.7. Artık **türetilebilir** — yeni bir ürün için
+  Koç'un vereceği seviye önceden hesaplanabilir.
+- **ETH ≈ gümüş($/ons) × 32,15.** Koç'un tüm ETH seviyeleri gümüşün kilogram karşılığı
+  (1746 = 54,3$ · 2060 = 64,1$ · 2157 = 67,1$). Temmuz-19 Ağustos arası %1-2 sapmayla çalıştı.
+  **20 Ağustos'ta ayrıştı** (ETH ~%20 fırladı, gümüş takip etmedi) — bu ayrışma Koç'un aynı gün
+  yazdığı "parçalı yönetim" tezinin kanıtı. Kural artık **rejim göstergesi** olarak kullanılıyor.
+- **"Ağustos 3. hafta" çağrısı TUTTU ve Koç kendi kapattı** (20 Ağu: *"Ağustos 3. hafta tepki
+  geldi"*). 19 Ağustos oturumunda AÇIK'a çevrilen satır artık TUTTU. Arşivdeki en uzun vadeli
+  (2+ ay) isabetli tarih çağrısı. Yeni hedef: **25 Ağustos**.
+
+Diğer: ters ölçek grafik metodu ↔ MagicMA çizgi mantığı köprüsü kuruldu · Koç'un fiilen
+FX/paritelere döndüğü tespit edildi (*"grafik portföyümde coinler yok"*) · USDCAD 1,43→1,37
+çağrısı TUTTU · karne oranı değişmedi: 11 "asıl tahmin"in yalnızca 2'si gradelenebilir.
+
+**Operasyonel not (Ida için):** ETH ve gümüş **aynı pozisyonun iki yüzü** — ikisinde birden
+pozisyon çeşitlendirme değil, riski ikiye katlamaktır.
