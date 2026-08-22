@@ -1184,3 +1184,31 @@ FX/paritelere döndüğü tespit edildi (*"grafik portföyümde coinler yok"*) �
 
 **Operasyonel not (Ida için):** ETH ve gümüş **aynı pozisyonun iki yüzü** — ikisinde birden
 pozisyon çeşitlendirme değil, riski ikiye katlamaktır.
+
+---
+
+## 2026-08-22 — Tarama + push (tek turda temiz)
+
+**Sonuç: 6991 → 7009 kayıt (+18), commit `fc35b48` GitHub'a gitti.**
+
+- Oturum başında CDP portu (9222) yine kapalıydı. Chrome doğrudan
+  `x.com/ekonomikocu/with_replies` ile açıldı → hesap doğrulama OK (@420cryptofarmer),
+  tarama **ilk turda** "Profil acik — devam" dalına girdi. **Tek tur yetti.**
+  (20/21 Ağustos'ta 6 tur harcanmıştı — kural artık kesin: with_replies ile aç, tur kaybı yok.)
+- Yeni kayıtlar: 21 Ağustos 00:01-00:15 (6 kayıt) + 22 Ağustos 15:25-19:12 (12 kayıt).
+- Aşama 2 (alıntı doldurma): 11 alıntı çözülemedi ("İlerleme yok — kalanlar işaretleniyor").
+  Kaynak tweetler erişilemez durumda; mevcut arşiv metinleri korundu, veri kaybı yok.
+- Sınıflandırma + paket (00–10) + push otomatik akışta çalıştı, elle müdahale gerekmedi.
+
+**Açık kalan iki nokta:**
+1. **20 Ağustos gün içi (08:00-22:00) boşluğu hâlâ kapanmadı.** Arşivde 20 Ağu 03:53'ten
+   sonra doğrudan 21 Ağu 00:01'e atlıyor. O gün X üzerinden okunup analize alınmıştı ama
+   ham arşive bu turda da girmedi — muhtemelen kalıcı (X o aralığı artık sunmuyor).
+2. **LFS kotası %84 (861/1024 MB) — yalnızca ~1 tarama daha sığıyor (~106 MB/tarama).**
+   Sonraki taramadan ÖNCE GitHub tarafında eski `05_GRAFIKLER.zip` sürümlerinin
+   temizlenmesi gerekiyor, yoksa push kotaya takılacak.
+
+**İçerik notu:** 22 Ağustos akışı PROGRESS'teki "25 Ağustos" hedefini besliyor —
+Koç "Ağustos 3. haftaya kadar karışık seyir ile gelindi" diyerek kendi çağrısını teyit etti,
+5.7 öğretisini NASDAQ 4570 üzerinde tekrar kullandı ve tezi ALTIN/kripto ↔ borsa
+ayrışmasına ("yukarı gittikçe short oynarsak kazanç") çevirdi.
