@@ -1216,3 +1216,52 @@ pozisyon çeşitlendirme değil, riski ikiye katlamaktır.
 Koç "Ağustos 3. haftaya kadar karışık seyir ile gelindi" diyerek kendi çağrısını teyit etti,
 5.7 öğretisini NASDAQ 4570 üzerinde tekrar kullandı ve tezi ALTIN/kripto ↔ borsa
 ayrışmasına ("yukarı gittikçe short oynarsak kazanç") çevirdi.
+
+---
+
+## 2026-08-22 (ikinci oturum) — Analiz edilmemiş son 1 ay okundu
+
+**Sonuç: 06_ANALIZ.md'ye 11 bölümlük yeni blok eklendi (902 → 1227 satır,
+üstteki içerik doğrulanarak korundu).**
+
+**Yöntem notu (bundan sonra hep böyle yapılmalı):** "analiz edilmemiş" kaydı
+`analyzed` alanından bulmak İMKANSIZ — o alan taramada herkeste `True` oluyor.
+Doğru yöntem: son analiz commit'indeki (`10045e0`) jsonl ile bugünküyü
+**tweet_id karşılaştırması**. Fark = 18 kayıt. Buna 21 Ağustos bloğu ve
+06_ANALIZ bölüm 10'da "okunmamış" işaretli görseller eklendi → 23 kayıt, 11 görsel.
+
+**En büyük üç bulgu — üçü de SADECE görsellerin içindeydi, düz metinde yoktu:**
+
+1. **Öğreti sistemi tam çözüldü.** Tek bir merdiven: **57 – 60 – 68 – 76 – 84 – 92 –
+   106 – 125** (+ 88/89 müdahale taşması, 180 altın istisnası). Kaynak: 19 Haziran
+   floodu ("106 üstünde kalamayan düşer, önce 92 sonra 84 gelir… ortalama 3 ay sürüyor" /
+   "BTC 84 K kırılıyor 76'dan sekiyor, 76 kırılırsa 68 ve 60 geliyor"). Eşleştirme
+   kuralı: ondalık noktayı yok say, basamak dizisini oku (US10Y 4,577 → 57;
+   DE10Y 3,061 → 60; NASDAQ 29200 → 92). 13 Temmuz MSGYO grafiği tek karede
+   dört basamağı birden gösteriyor — "Tüm öğretileri burada gördüm".
+   Çekirdek dalga boyu **8 birim** (60-68-76-84-92) — bu bizim çıkarımımız.
+
+2. **Takvim sistemi de mekanik.** 90 günlük vade ızgarası (15 Ara / 15 Mar / 15 Haz /
+   15 Eyl) + 60 günlük iç blok. 20 Haziran: *"Şu an Haziran'ın 3. haftasındayız,
+   60 gün daha geçti mi Ağustos'un 3. haftası."* Yani ünlü "Ağustos 3. hafta"
+   çağrısı kehanet değil **toplama işlemi**. Sıradaki: 15 Eylül → ~19-23 Ekim.
+
+3. **4570 = US10Y.** 13 Temmuz'daki ekran görüntüsünde `US10Y 4,577 / DE10Y 3,061`
+   yan yana. Yani 22 Ağustos'un açılış cümlesi ("4570 üstü = 5.7 öğretisi") aslında
+   **ABD 10 yıllık faizi 57 basamağını yukarı kırdı** demek. Tez: piyasa Eylül'de FED
+   indirimi beklerken Koç "indiremezler" diyor. 15 Eylül'de gradelenebilir.
+
+**Karne değişti:** "Ağustos 3. hafta" penceresinde kapanan DÖRT çağrı (7/8/11/15
+Haziran) da TUTTU — hepsi tarihli ve seviyeli. Önceki "11 tahminin 2'si gradelenebilir"
+tablosu artık **6 gradelenebilir / 6 tuttu**. Kanıtlar Koç'un kendi seçtiği ekran
+görüntüleri (seçilim yanlılığı var) ama görüntülenme sayıları ve tarihler görselde
+okunabiliyor — sonradan yazılmış değiller.
+
+**Kapatılan açık iş:** Japonya grafikleri (3 oturumdur açılmamıştı) okundu —
+ikisi de aynı görsel, JP10Y %2,954, ~30 yılın zirvesi. Koç sorusunu sordu ama
+cevabını hâlâ vermedi, "carry trade" terimini bir kez bile kullanmadı.
+
+**Ida için operasyonel:** Koç'un 22 Ağustos duruşu **trade, pozisyon değil** —
+"pozda zaten ısrar edemeyiz", "yukarı gittikçe short oynarsak kazanç". Buna karşılık
+aynı gün paylaştığı XAUUSD/NASDAQ aylık grafiği 5-10 yıllık altın lehine kurulum
+gösteriyor. **İki pencere karıştırılmamalı** — biri 3 haftalık, diğeri on yıllık.

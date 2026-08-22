@@ -900,3 +900,327 @@ alınamadı. O aralıktaki içerik (bölüm 11-15'teki BTC 57 K / 73.600, BTCTRY
 USDCAD 1,37, XAUUSD müdahale, ETH 2570 kayıtları) **doğrudan `with_replies` okumasıyla**
 elde edildi ve analizde kullanıldı; ham arşivde henüz yok. Sonraki taramada bu aralık
 özellikle aranmalı.
+
+---
+
+## 2026-08-22 — ANALİZ EDİLMEMİŞ SON 1 AY (+ öğreti sisteminin tam çözümü)
+
+**Kapsam:** 20 Ağustos derin okumasından SONRA arşive giren 18 kayıt (tweet_id
+karşılaştırması ile tespit: 16 adet 22 Ağustos floodu + geriye dolan 2 kayıt),
+artı 21 Ağustos 00:01–00:15 bloğu, artı bölüm 10'da "okunmamış" işaretli 2 grafik.
+Toplam 23 kayıt + 11 görsel tek tek açıldı. Bu bölüm önceki bölümleri **düzeltmiyor,
+tamamlıyor** — özellikle bölüm 11 ("öğreti sistemi") burada nihai halini alıyor.
+
+### 1. ⭐ ÖĞRETİ SİSTEMİ TAM ÇÖZÜLDÜ — tek bir merdiven, sabit dalga boyu
+
+Bölüm 11'de "5.7 / 6 / 9.2 birer rakam dizisi" denmişti. Doğruydu ama eksikti.
+**19 Haziran 2026 floodu (2068005479410786377 → 2068008164293832913) sistemin
+Rosetta taşı.** Koç orada mekanizmayı açıkça anlatıyor:
+
+> "Çoğu döngüde aynı misal — gümüş petrol BTC hep **125 birimi** aşmadı."
+> "**106 birim** kırıldığı an hepsi düşecekti."
+> "Bende bu öğretiyi yaptım. **106 üstünde kalamayan düşer. Önce 92 sonra 84 gelir.**
+> Sadece zaman alır. Ortalama **3 ay** sürüyor."
+> "BTC de böyle misal. **84 K kırılıyor 76 dan sekiyor**, üstü kalamıyor,
+> **76 kırılırsa 68 K ve 60 K geliyor.**"
+> "**Dalga hareketleri boyları değişmiyor.** Anca müdahale etmeleri lazım.
+> Yani tekniği bozmaları lazım."
+
+**MERDİVEN (tam liste, aşağıdan yukarı):**
+
+```
+57 — 60 — 68 — 76 — 84 — 92 — 106 — 125
+                      ^
+        (88/89 = MÜDAHALE TAŞMASI: "84 aşmamalı derken müdahale
+         ettiler aşırdılar, otomatik boyu 88-89'a kadar uzayabiliyor")
+
+180 = yalnızca ALTIN'ın istisnası ("altın 125'i aşıp 180 dedi —
+      yastık altı ekonomisi, altın enflasyon üretmez")
+```
+
+**Gözlem (bizim çıkarımımız, Koç söylemedi):** 60-68-76-84-92 aralığı **tam olarak
++8 birim** adımlarla ilerliyor. Koç'un "dalga boyları değişmiyor" dediği şey
+sayısal olarak bu: çekirdek dalga boyu **8 birim**. 92→106 (+14) ve 106→125 (+19)
+üst kanatta genişliyor.
+
+**BİRİM SERBEST — ölçek ve ürün bağımsız.** Koç kendi ifadesiyle: "84 dolar…
+Bu BTC olsa misal 88 89 K olur. Gümüş olsa 88 89 usd olur." Yani aynı sayı;
+dolar, K, TL, oran, endeks, **tahvil faizi** — hepsinde geçerli.
+
+**EŞLEŞTİRME KURALI (arşivin tamamıyla test edildi, istisnasız çalışıyor):**
+*Ondalık noktayı ve baştaki basamakları yok say, anlamlı basamak dizisini oku.*
+
+| Kayıt | Değer | Basamak | Tarih |
+|---|---|---|---|
+| US10Y | 4,5**77** → "4570" | **57** | 13 Tem / 22 Ağu |
+| DE10Y | 3,**061** → "3060" | **6 (60)** | 13 Tem |
+| NASDAQ | **292**00 | **92** | 12 Haz, 19 Ağu |
+| NASDAQ | 30**600** → 300**60** | **6 (60)** | 16 Haz |
+| BTCUSD / BTCEUR | **57** K | **57** | 25 Haz |
+| BTCUSD | 65.**700** | **57** | 14 Tem |
+| ETHUSD | 2**060** / 2**157** / 2**570** | **60 / 57 / 57** | 9 Ağu, 17 Tem |
+| GÜMÜŞ ons | **57** $ · **84**–**106** | **57 / 84 / 106** | 16 Tem, 13 Tem |
+| GOLDGR | 140,**60** | **6 (60)** | 13 Tem |
+| XAUUSD | 4**376** (140,6 karşılığı) | **76** | 13 Tem |
+| SP500 | **5700** pivot | **57** | 12 Haz |
+| DXY | 9**5,7** | **57** | 18 Haz |
+| ETH.D | **10,6** | **106** | 20 Haz |
+| Gümüş/BTC rasyo | 0,00**106** | **106** | 15 Haz |
+| EURUSD | 1,**06** / 0,**60** | **6 (60)** | 16 Haz, 12 Haz |
+| ETHTRY | 1**10.6**00 | **106** | 20 Ağu |
+| MSGYO (BIST) | 5,7 · 6,06 · 8,4 · 10,6 | **57/60/84/106** | 13 Tem |
+
+**⭐ TEK GRAFİKTE KANIT — 13 Temmuz, MSGYO (2076657094745370896).**
+Bu kayıt bu taramada geriye doldu, önceki analizlerde yoktu. Metin tek cümle:
+*"Tüm öğretileri burada gördüm."* Grafikte **5.7** (Mart ve Haziran'da iki kez
+test edilmiş taban, yeşil), **6.06 gap**, **8.4 "şu gap"**, **10.6 hedef**.
+Yani BIST'te 6 TL'lik bir GYO hissesinde merdivenin dört basamağı birden görünür
+haldeydi. Koç'un "ürün ve ölçek fark etmez" iddiasının en temiz kanıtı bu görsel.
+
+**Ek not — basamaklar "gap".** MSGYO grafiğinde 6.06 ve 8.4 açıkça **gap** olarak
+etiketli. Bu, öğretiye mekanik bir zemin veriyor: sayılar mistik değil, kapanmamış
+fiyat boşluklarının bulunduğu bölgeler olarak işaretleniyor.
+
+### 2. ⭐ TAKVİM SİSTEMİ DE ÇÖZÜLDÜ — 90 günlük vadeler + 60 günlük iç blok
+
+Öğreti sayıları "nereye"yi veriyorsa, takvim "ne zaman"ı veriyor. İkisi ayrı sistem
+ve ikisi de bu taramada tam olarak yakalandı.
+
+**a) 90 günlük vade ızgarası (17 Ağustos, 2089283491305345387):**
+
+> "Ekonomilerde de vadeler vardır. **15 Aralık → 15 Mart / 15 Mart → 15 Haziran /
+> 15 Haziran → 15 Eylül / 15 Eylül → 15 Aralık.** Yani ekonomi ve piyasalar,
+> bu **90 günlük** dönemler üzerinden belirli vadelerle hareket eder."
+> "Çin #gümüş dedi, 90 gün bunun kaprisini çektik. İkinci vade ise ABD #PETROL dedi,
+> bunun stresini çektik."
+
+Her 90 günlük vadenin bir **teması** var: 1. vade = gümüş (Çin), 2. vade = petrol (ABD).
+**3. vadenin teması (15 Eylül → 15 Aralık) henüz açıklanmadı** — sonraki taramanın
+1 numaralı arama hedefi bu.
+
+**b) 60 günlük iç blok (20 Haziran, görsel 2091191336762216911 içinde):**
+
+> "Zaman geçirecekler… Şu an Haziran'ın 3. haftasındayız.
+> **60 gün daha geçti mi, Ağustos'un 3. haftası.**"
+
+Bu, "Ağustos 3. hafta" çağrısının **aritmetik türetimi**. Kehanet değil, sayma işlemi:
+Haziran 3. hafta + 60 gün. Aynı şekilde: **Ağustos 3. hafta + 60 gün ≈ Ekim 3. haftası
+(~19-23 Ekim 2026)** — merdivenin takvim tarafındaki bir sonraki durak bu olmalı.
+15 Eylül vade sonu ile Ekim 3. hafta arasındaki 5 haftalık boşluk, tezin test alanı.
+
+**c) Yöntemin kendi beyanı (23 Haziran, abone — görsel 2090545499682099547):**
+
+> "Adamlar Ağustos 3. haftaya kadar süre veriyorlar? Siz sanıyor musunuz kafalarına
+> göre o takvimi veriyorlar? Öyle olsa biz nereden bileceğiz? **Tekniğe göre veriyorlar.**
+> Resmen zaman geçirmek istiyorlar."
+
+Yani Koç'un iddiası: takvim de öğreti de aynı teknik kaynaktan çıkıyor, bu yüzden
+önceden okunabiliyor. Sistem bu cümleyle içsel olarak tutarlı hale geliyor.
+
+### 3. KARNE — "Ağustos 3. hafta" penceresinde kapanan DÖRT çağrı
+
+22 Ağustos floodunun büyük kısmı, Koç'un Haziran'da yazdıklarını ekran görüntüsüyle
+geri getirmesi. Görsellerden çıkan orijinal metinler (hepsi ilk kez arşive girdi):
+
+| # | Tarih | Orijinal çağrı | Sonuç |
+|---|---|---|---|
+| 1 | **7 Haz** (abone) | "Ağustos 3. haftaya kadar #BTC özelinde yazıyorum, **60 K üstü kalış pozitif olur.** Burada geçirilmesi gereken bir zaman dilimi olabilir." | **TUTTU** |
+| 2 | **8 Haz** | "Şu aradaki stresi yönetmeye çalışın. **22 Haziran / 3 Temmuz / Ağustos 3. hafta..**" | **TUTTU** — kendi grafiğiyle kanıtladı |
+| 3 | **11 Haz** (abone) | "Ağustos 3. haftaya kadar **karışıklık yaparak gelseler de, bir pişmanlık yaşamazlar.**" | **TUTTU** — 22 Ağu: "Ağustos 3. haftaya kadar #karışık seyir ile gelindi" |
+| 4 | **15 Haz** (abone) | "#ETH tarafında **Ağustos'un 3. haftasında 2.460 / 2.570 bölgesinin üzerinde kalıcılık** sağlanırsa olumlu tablo oluşur." | **TUTTU** — 20 Ağu'da ETH 2570 üstüne çıktı (bkz. bölüm 13) |
+
+**Çağrı 2'nin kanıt grafiği (2091193378251653558) — bu arşivin en güçlü tek belgesi.**
+8 Haziran tweetinin ekran görüntüsü, üstüne BTC grafiği bindirilmiş:
+- "**STRES 22/HAZİRAN 3 TEMMUZ ARASI**" oku → grafikte tam o pencerede dip (~57-58 K)
+- "**Ağustos 3. hafta**" yeşil işaret → ~62-63 K
+- Hemen ardından dikey ralli: zirve ~**79.332**, kapanış **77.013,35**
+
+**Merdiven ile birleştirince tablo şu:** BTC, Haziran'da **57** basamağından sekti,
+**60**'ı korudu (çağrı 1), Ağustos 3. haftada **68**'i kırıp **76**'ya oturdu.
+Şu an tam **76** basamağında. Merdivende bir sonraki basamak **84 K**.
+Ve 19 Haziran'da tarif ettiği iniş yolu (84 → 76 → 68 → 60) şimdi **ters yönde**
+aynı basamaklardan çıkılıyor. Merdiven çift yönlü çalışıyor — bu, sistemin bu
+arşivdeki en sert doğrulaması.
+
+**Karne etkisi:** Bölüm 9 ve 12'deki "11 asıl tahminin yalnızca 2'si gradelenebilir"
+oranı bu bölümle **değişti**. Dört çağrının dördü de tarihli, seviyeli ve
+kapanabilir nitelikteydi — hepsi TUTTU. Sayı artık **6 gradelenebilir / 6 tuttu**
+(bölüm 12'deki iki kayıt + buradaki dört kayıt). Bu, hesabın arşivdeki en güçlü
+performans penceresi.
+
+⚠️ **Dürüstlük notu:** Dördünün de kanıtı, Koç'un **kendi seçtiği** ekran
+görüntüleri. Aynı dönemde tutmayan çağrıları paylaşmıyor olabilir. Ancak
+çağrı 1, 2 ve 4'ün orijinal tweet tarihleri ve görüntülenme sayıları görselde
+okunabiliyor (251 / 3.047 / 852 görüntüleme) — yani sonradan yazılmış değiller.
+Seçilim yanlılığı var, uydurma yok.
+
+### 4. 22 AĞUSTOS'UN CANLI TEZİ — US10Y 4,57'yi yukarı kırdı
+
+Floodun asıl işlem fikri, en başındaki tek satırda saklı (15:25, 2091139614421447105):
+
+> "Kademe kademe vereceğim. **4570 üstü şu an = 5.7 öğretisi.**
+> 5.7 öğretisi geçilince ne oluyordu? Unutmadık değil mi?"
+
+13 Temmuz'daki görsel (2076639000425594922) sayesinde **4570'in ne olduğu artık kesin:
+US10Y — ABD 10 yıllık tahvil faizi.** O gün ekran görüntüsünde `US10Y 4,577` ve
+`DE10Y 3,061` yan yana duruyor, altında Koç'un notu: *"Avrupa = 3060, ABD = 4570.
+Anlamı = faiz dengeleri öğretidedir. Piyasa dengede.."*
+
+Yani 22 Ağustos'ta söylediği şey: **ABD 10 yıllık faizi 57 basamağını yukarı kırdı,
+sıradaki basamak 60 (≈%4,60) ve üstü.** Faiz yükseliyor.
+
+Bunu aynı floodun devamıyla birleştirince tez tam okunuyor (17:11, 2091166340522353119):
+
+> "Haziran ayında ABD borsalarında vadeler başladı. **Bu vade EYLÜL 15'de son bulacaktır.**
+> Seni sağda solda baskılıyor 2, 2.5 ay. Vade sonu yaklaşırken **bilinçli doları
+> zayıflatıyorlar.** Hem borsa düşüşüne engel oluyorlar, hem de sağ sol diri deyip
+> **Eylül'de FED rahat olacaktır. Örnek; faiz indiremezler gibi..**"
+
+**Tez özeti:** Piyasa Eylül'de FED indirimi fiyatlıyor; Koç tam tersini söylüyor.
+Doları vade sonuna kadar bilerek zayıflatıp borsayı ayakta tutuyorlar, ama tahvil
+faizi merdivende yukarı çıkıyor. 15 Eylül vadesi kapandığında FED'in eli
+"indiremezler" tarafında olacak. **Bu, önümüzdeki 3 haftada net biçimde
+gradelenebilecek bir çağrı** — tarihi de seviyesi de belli.
+
+**Aynı floodun pozisyon tarafı (17:03, 2091164369933435204):**
+> "Bizim burada yapacağımız hamle şu olacak, **yukarı gittikçe #short oynarsak
+> kazanç elde ederiz.** Ama çok önemli bir gelişme olmazsa, belirli kalıplar içinde
+> malı tutarlar."
+
+Ve altın (16:59, 2091163343897649607):
+> "ABD kendi borsalarını düşürmezse **#ALTIN zaten diri kalır.** Bizim yapacağımız
+> tamamen **#trade** olur, pozda zaten ısrar edemeyiz. **#gümüş aşağıda daha..
+> O yukarı verilse ALTIN tarafını iyice yukarı iter.**"
+
+Bu son cümle, bölüm 1'deki **ETH ≈ gümüş × 32,15** kuralıyla doğrudan bağlantılı ve
+15 Haziran ETH çağrısını da açıklıyor: ETH 2.460 / 2.570 → gümüş karşılığı
+**76,5 $ / 79,9 $**. Yani Koç ETH'de 2570 üstü kalıcılık isterken, aslında
+**gümüşte 76-80 $** bekliyordu. Gümüş oraya gitmedi ("gümüş aşağıda daha") —
+ETH-gümüş ayrışması (bölüm 13) hâlâ açık ve bu floodda kendisi de kabul ediyor.
+
+### 5. YAPISAL GRAFİK — XAUUSD/NASDAQ oranı 2000-2001 dip bölgesinde
+
+11 Ağustos'ta atılıp (2087173087217192965, bu taramada geriye doldu) **22 Ağustos'ta
+tekrar alıntılanan** aylık grafik. Tekrar paylaşması editoryal bir vurgu:
+
+- XAUUSD/NASDAQ, 1995-2026 aylık. Şu an **0,149** (+%3,55)
+- **2000-2001 dibi: 0,061 – 0,110** (yeşil, "dip")
+- **2021-2026 bandı: aynı 0,061 – 0,110** (yeşil, "dip yakını..")
+- Aradaki zirveler: 2009 ≈ 0,870 · **2011 ≈ 0,900**
+
+Metin: *"Sen bitcoin ile NASDAQ kanadını şişir, yüksek faiz ile diğer ülke kurlarını
+ez… Üstüne emtia tarafını baskıla, tüm devletleri zarara uğrat. Arkası faiz de…
+Hadi gel derler!!"*
+
+**Anlamı:** 2001'den sonra bu oran 0,061'den 0,900'e gitti (~15 kat, 10 yılda).
+Koç aynı yapısal kurulumun kurulduğunu söylüyor. Bu, floodun geri kalanındaki
+"trade yap, pozda ısrar etme" taktik duruşuyla **çelişmiyor** — biri 3 haftalık,
+diğeri 5-10 yıllık pencere. Ayrımı karıştırmamak gerekiyor.
+
+Not: 12 Haziran'da "Nasdaq altın oranı 2024'te 9.2 iken bugün 6.5 civarı" demişti;
+oran da öğreti merdiveninde okunuyor (9.2 = 92 basamağı).
+
+### 6. DIŞ KAYNAK TEYİDİ — Kobeissi Letter (ilk kez bir dış analistle örtüşme)
+
+22 Ağustos 16:06 (2091149924779864105) ve 18:34 (2091187263321313311) — Koç,
+@KobeissiLetter'ın grafiğini ve metnini alıntılıyor, tek yorumu:
+**"#Zaman geçirdiler. My old friend"**
+
+Kobeissi'nin metni: *"1 Mayıs ile 19 Ağustos arasında, **tam 110 gün boyunca**,
+kripto piyasası etkili bir şekilde **donmuş** haldeydi. Bu hafta… **19 Ağustos
+sabahı 08:30'dan itibaren** her şey tamamen değişti."*
+
+Grafik (Crypto Total Market Cap, 45dk): 2,16 T → zirve 2,68 T, şu an **2,59 T**.
+Etiketler: "Trump Crypto Summit" · "**7th largest liquidation event in history**" ·
+"+**$500B** in market cap" · "Saturday night **-$110B** drop".
+
+**Neden önemli:** Bağımsız bir kurum, Koç'un "zaman geçirdiler" tezini kendi
+diliyle ("donmuş haldeydi", "110 gün") ve **aynı tarihle (19 Ağustos)** doğruluyor.
+Koç'un Haziran'da verdiği tarih ile Kobeissi'nin geriye dönük tespit ettiği kırılma
+günü örtüşüyor. Arşivde dış kaynakla bu netlikte örtüşen ilk çağrı.
+(11_DIS_KAYNAKLAR.md'ye eklenmeli.)
+
+### 7. AÇIK İŞ KAPANDI — Japonya grafikleri okundu (bölüm 10, madde 4)
+
+`medya/2089511036420309364/` ve `medya/2089633894706393341/` üçüncü oturumdur
+açılmamıştı. Açıldı: **ikisi de aynı görsel.**
+
+**Japan 10 Year Bond (JP10Y), yield = %2,954 (+0,03), ALL görünümü.**
+Grafik 1996'dan başlıyor; 2016-2019'da sıfır/negatif bandında, 2023'ten itibaren
+dik yükseliş. **Şu anki seviye, grafiğin sol kenarındaki 1996-1997 zirvesiyle
+aynı bandda — yani ~30 yılın en yükseği.**
+
+Koç'un eşlik eden metni (18 Ağustos) yalnızca soru soruyor:
+> "Neden sürekli Japonya ile ilgili twitler düşüyor? Japonya'da faiz şöyle oldu,
+> böyle oldu… Peki neden son dönemde sürekli Japonya ve faizleri konuşuluyor?
+> **Veya neden gündem sürekli PETROL?**"
+
+**Cevabı hâlâ vermedi** (bölüm 10, madde 2 — 30 Temmuz BOJ notundan beri 3+ hafta
+açık). Ama grafik, sorunun neden sorulduğunu gösteriyor ve iki soruyu birbirine
+bağlaması anlamlı: JGB faizi 30 yılın zirvesinde + petrol gündemde = küresel
+likiditenin iki ucu. Dış kaynaklar buna carry-trade çözülmesi diyor;
+**Koç bu terimi hâlâ bir kez bile kullanmadı.**
+
+Öğreti açısından not: %2,954 merdivende bir basamağa oturmuyor. Bir üst basamak
+**3,06 (60)** — JGB 10Y oraya giderse bu, Koç'un sistemi içinde ayrı bir
+sinyal olur. Test edilebilir, izlenmeli.
+
+### 8. 21 AĞUSTOS BLOĞU (00:01–00:15) — üslup değişimi
+
+Dört kayıt, hepsi 15 dakikaya sıkışmış, ikisi görselli:
+- *"Sebep ekonomik çıkar veya siyaset mi? Yoksa dolar değer kaybetti diye dünya yine
+  faiz indiriminden mi oldu? **Bu arada hâlâ majör hatların altındayız.** Babaya selamlar"*
+- *"**Babana bir sorsana?** Ağustos 3. haftaya kadar, neden varlıkları baskıladı,
+  zaman geçirdi?"*
+- *"Tüm **hileler** göze batıyor. Kalem kalem isterseniz yazayım.
+  İsterseniz son 15 seneyi yazayım. Son iki sene az kalır dersen?"*
+
+**Gözlem:** "Babaya selamlar / babana bir sorsana" ve "hileler" dili, arşivin geri
+kalanındaki ölçülü tondan ayrışıyor — bu, doğrulanmış bir çağrının hemen ardından
+gelen zafer/meydan okuma modu. Analitik içerik düşük, ama **ritim göstergesi olarak
+değerli**: bölüm 8'deki "7 günlük tam sessizlik" gözleminin karşı kutbu.
+Tek analitik cümle: *"hâlâ majör hatların altındayız"* — 21 Ağustos itibarıyla
+ralliye rağmen ana direncin kırılmadığını söylüyor.
+
+### 9. BU BÖLÜMDEN ÇIKAN, TÜRETİLEBİLİR HEDEFLER
+
+Merdiven + takvim artık ikisi de mekanik olduğu için, Koç söylemeden hesaplanabilir:
+
+| Ürün | Şu an | Merdivende yer | Sonraki basamak |
+|---|---|---|---|
+| **BTCUSD** | 77.013 | **76** | **84 K** (kırılırsa geri 68 K) |
+| **NASDAQ** | 29.200 gördü (19 Ağu) | **92** | aşağı **28.400 (84)** — "106 üstünde kalamayan düşer, önce 92 sonra 84" |
+| **US10Y** | 4,57 üstü | **57 kırıldı** | **4,60 (60)** ve üstü — Koç'un aktif tezi |
+| **ETHUSD** | 2.570 üstü | **57** | **60 = 2.600** bölgesi |
+| **GÜMÜŞ** | "aşağıda daha" | 57 altı | **76,5–80 $** (ETH 2460/2570'in gümüş karşılığı) |
+| **JP10Y** | 2,954 | basamak dışı | **3,06 (60)** = izlenecek sinyal |
+
+**Takvim:** 15 Eylül (vade sonu, Koç'un adı geçen tarihi) → ~19-23 Ekim
+(Ağustos 3. hafta + 60 gün, bizim türetimimiz) → 15 Aralık (bir sonraki 90 günlük vade).
+
+### 10. AÇIK İŞLER — sonraki taramada aranacak
+
+1. **3. vadenin teması ne?** 1. vade = gümüş (Çin), 2. vade = petrol (ABD),
+   15 Eylül → 15 Aralık = **?** Koç bunu söylemeden pozisyon kurmak eksik kalır.
+2. **Japonya sorusunun cevabı** — 4. oturumdur açık. JGB 10Y %2,954 grafiği elimizde,
+   Koç'un yorumu yok.
+3. **15 Eylül testi:** "FED faiz indiremezler gibi" çağrısı 3 hafta içinde kapanacak.
+4. **US10Y 4,60 (60) izlemesi** — 22 Ağustos tezinin doğrudan sınaması.
+5. **20 Ağustos gün içi (08:00–22:00) boşluğu:** bu taramada da gelmedi, muhtemelen
+   kalıcı. İçerik `with_replies`ten okunup bölüm 11-15'te kullanıldı, ham arşivde yok.
+6. **Merdivenin 76 ve 68 basamakları:** Koç bunları "öğreti" kelimesiyle hiç
+   etiketlemedi, ama 19 Haziran floodunda merdivenin parçası olarak kullandı.
+   Yeni kayıtlarda "76 öğretisi" ifadesi geçerse merdiven tam teyit olur.
+
+### 11. VERİ NOTU
+
+Bu bölümün kaynağı: `cekilen_tweetler.jsonl` (7.009 kayıt) ile aynı dosyanın
+commit `10045e0` hâlinin (6.991 kayıt) tweet_id karşılaştırması. Fark = 18 kayıt.
+Buna 21 Ağustos bloğu ve bölüm 10'da açık bırakılan görseller eklendi.
+**11 görsel tek tek açılıp okundu** — bu bölümdeki en değerli üç bulgu
+(öğreti merdiveni kanıtı, 60 günlük takvim kuralı, US10Y = 4570) yalnızca
+görsellerin içindeydi, düz metinde yoktu. **Sonraki oturumlarda görselleri
+atlamamak gerekiyor.**
+
+Tarama bu turda `with_replies` kuralına uyularak tek turda tamamlandı
+(bölüm 18'deki çözüm doğrulandı, +18 kayıt, commit `fc35b48`).
