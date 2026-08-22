@@ -1204,9 +1204,13 @@ pozisyon çeşitlendirme değil, riski ikiye katlamaktır.
 1. **20 Ağustos gün içi (08:00-22:00) boşluğu hâlâ kapanmadı.** Arşivde 20 Ağu 03:53'ten
    sonra doğrudan 21 Ağu 00:01'e atlıyor. O gün X üzerinden okunup analize alınmıştı ama
    ham arşive bu turda da girmedi — muhtemelen kalıcı (X o aralığı artık sunmuyor).
-2. **LFS kotası %84 (861/1024 MB) — yalnızca ~1 tarama daha sığıyor (~106 MB/tarama).**
-   Sonraki taramadan ÖNCE GitHub tarafında eski `05_GRAFIKLER.zip` sürümlerinin
-   temizlenmesi gerekiyor, yoksa push kotaya takılacak.
+2. **LFS kota uyarısı (%84, 861/1024 MB) yanıltıcı — PANİK YOK.** `lfs_kota_kontrol.py`
+   hâlâ "her tarama ~106 MB ekler, ~1 tarama daha sığar" varsayımıyla konuşuyor; oysa
+   `05_GRAFIKLER.zip` 2026-08-02'de (commit `4516daf`) git takibinden çıkarıldı, artık
+   LFS'e hiçbir şey eklenmiyor. Kota %84'te **donmuş** durumda (eski 8 zip sürümü GitHub
+   tarafında duruyor, git üzerinden silinemiyor). Bu uyarı her taramada tekrar çıkacak,
+   görmezden gelinebilir. Yapılacak iş: uygun bir zamanda `lfs_kota_kontrol.py`'nin
+   "kaç tarama sığar" tahminini güncelleyip bu ölü uyarıyı susturmak.
 
 **İçerik notu:** 22 Ağustos akışı PROGRESS'teki "25 Ağustos" hedefini besliyor —
 Koç "Ağustos 3. haftaya kadar karışık seyir ile gelindi" diyerek kendi çağrısını teyit etti,
