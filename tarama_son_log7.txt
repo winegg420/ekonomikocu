@@ -1,0 +1,95 @@
+[19:21:03] OK — aktif hesap @420cryptofarmer. Tarama serbest.
+[tara_guvenli] calistiriliyor: tara_guncel_yeni.py 
+En yeni kayit: 2026-08-21T00:15:03
+Stop-before (buraya gelince dur): 18 Aðu
+Baslangic: 6991 tweet | 133 alinti | 1863 flood-parca
+
+Mevcut jsonl: 6991 tweet | alinTi tam: 122 | bekleyen alinti: 11
+Senin Chrome'una baglandi (port 9222).
+Profil acik — devam (ustte abone tweetleri normal).
+  >> Medya: graf_01.jpg (2091187263321313311)
+  >> Medya: graf_01.jpg (2091190517757337715)
+  >> Medya: graf_01.jpg (2091191336762216911)
+Scroll 1/120: toplam 6996 tweet (+5 yeni) | ekranda: 5 | alinti: 134 | en eski: 2019-11-28 20:04:04
+  >> Medya: graf_01.jpg (2091192097587990814)
+  >> Medya: graf_01.jpg (2091193378251653558)
+  >> Medya: graf_01.jpg (2091194295768256711)
+Scroll 2/120: toplam 7002 tweet (+6 yeni) | ekranda: 12 | alinti: 134 | en eski: 2019-11-28 20:04:04
+Scroll 3/120: toplam 7002 tweet (+0 yeni) | ekranda: 12 | alinti: 134 | en eski: 2019-11-28 20:04:04
+  >> DISKE YAZILDI: 7002 tweet -> cekilen_tweetler.jsonl
+Scroll 4/120: toplam 7010 tweet (+8 yeni) | ekranda: 7 | alinti: 135 | en eski: 2019-11-28 20:04:04
+Scroll 5/120: toplam 7011 tweet (+1 yeni) | ekranda: 11 | alinti: 135 | en eski: 2019-11-28 20:04:04
+Scroll 6/120: toplam 7012 tweet (+1 yeni) | ekranda: 13 | alinti: 135 | en eski: 2019-11-28 20:04:04
+  >> DISKE YAZILDI: 7012 tweet -> cekilen_tweetler.jsonl
+  >> Medya: graf_01.jpg (2076657094745370896)
+Scroll 7/120: toplam 7013 tweet (+1 yeni) | ekranda: 9 | alinti: 135 | en eski: 2019-11-28 20:04:04
+Scroll 8/120: toplam 7014 tweet (+1 yeni) | ekranda: 13 | alinti: 135 | en eski: 2019-11-28 20:04:04
+  >> Medya: graf_01.jpg (2066298821655539826)
+Scroll 9/120: toplam 7014 tweet (+0 yeni) | ekranda: 11 | alinti: 135 | en eski: 2019-11-28 20:04:04
+  >> DISKE YAZILDI: 7014 tweet -> cekilen_tweetler.jsonl
+Durduruldu (bu oturumda gorulen en eski 2026-06-11, hedef 2026-08-18, 1 scroll'dur yeni tweet yok)
+Asama: #FLOOD thread parcalari...
+  >> #FLOOD zaten JSON'dan toplanmis — atlandi: 2082792922164965564
+Asama 2: alintilar (tek sekme, ekonomikocu/status)...
+Asama 2 tur 1: 12 alinti bekliyor... (navigasyon 0/20)
+  >> Alinti 2076065170099417470 — sadece ekonomikocu/status/2076084781654188345
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2071744148168684011 — sadece ekonomikocu/status/2071895381311369285
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2070540087239250088 — sadece ekonomikocu/status/2070626864171819077
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2046329630873747618 — sadece ekonomikocu/status/2045587086695391351
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2045587086695391351 — sadece ekonomikocu/status/2046329630873747618
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2038986156075872628 — sadece ekonomikocu/status/2039050447420326027
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 1875571495164113292 — sadece ekonomikocu/status/1875548019430658062
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 1875548019430658062 — sadece ekonomikocu/status/1875571495164113292
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2087173087217192965 — sadece ekonomikocu/status/2091164894095679761
+  >> Medya: graf_01.jpg (2087173087217192965)
+  >> Bu turda ziyaret: 12 | kalan: 11
+Asama 2 tur 2: 11 alinti bekliyor... (navigasyon 12/20)
+  >> Alinti 2076065170099417470 — sadece ekonomikocu/status/2076084781654188345
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2071744148168684011 — sadece ekonomikocu/status/2071895381311369285
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2070540087239250088 — sadece ekonomikocu/status/2070626864171819077
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2046329630873747618 — sadece ekonomikocu/status/2045587086695391351
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2045587086695391351 — sadece ekonomikocu/status/2046329630873747618
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Bu turda ziyaret: 8 | kalan: 11
+  >> Tavan/limit nedeniyle 8/11 denendi — kalanlar korundu.
+Asama: eksik grafikler (medya/)...
+  >> DISKE YAZILDI: 7014 tweet -> cekilen_tweetler.jsonl
+
+=== ASIL DOSYA: C:\Users\ida\Desktop\ekonomikocu\cekilen_tweetler.jsonl ===
+Toplam: 7009 | Ingilizce(kirli): 0
+Hafiza atlandi (--skip-hafiza). JSONL kaydedildi.
+
+=== Alinti turu 1/1 ===
+Bekleyen alinti: 11
+Chrome CDP (port 9222)
+Asama 2 tur 1: 11 alinti bekliyor... (navigasyon 0/20)
+  >> Alinti 2076065170099417470 — sadece ekonomikocu/status/2076084781654188345
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2071744148168684011 — sadece ekonomikocu/status/2071895381311369285
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2070540087239250088 — sadece ekonomikocu/status/2070626864171819077
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2046329630873747618 — sadece ekonomikocu/status/2045587086695391351
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2045587086695391351 — sadece ekonomikocu/status/2046329630873747618
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2038986156075872628 — sadece ekonomikocu/status/2039050447420326027
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 1875571495164113292 — sadece ekonomikocu/status/1875548019430658062
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 1875548019430658062 — sadece ekonomikocu/status/1875571495164113292
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Bu turda ziyaret: 11 | kalan: 11
+  >> Ilerleme yok — kalanlar isaretleniyor.
