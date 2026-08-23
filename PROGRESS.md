@@ -1299,3 +1299,40 @@ gösteriyor. **İki pencere karıştırılmamalı** — biri 3 haftalık, diğer
   ve push edildi — commit `4071410`. 05_GRAFIKLER.zip commit'te YOK (untracked
   kalmaya devam ediyor), yeni LFS objesi doğmadı.
 - LFS uyarısı yine %84 (861/1024 MB) — kota donmuş durumda, artış yok.
+
+## 2026-08-23 — Manuel sabit coin listesi + LFS eşik düzeltmesi
+
+### 1) `kripto_liste_guncelle.py` — MANUEL_SABIT portföy coinleri
+- Sorun: script her çalıştığında Binance 24s hacim TOP-100'ü çekip `kripto.txt`'i
+  komple yeniden yazıyordu; top-100'e girmeyen portföy coinleri her seferinde siliniyordu.
+- Çözüm: `MANUEL_SABIT` tuple'ı eklendi (20 taban, Ida'nın CoinGecko portföyü,
+  23 Ağustos 2026). Bu tabanlar top-100'e girmese de listede kalır.
+- Borsa tespiti `borsa_bul()` ile: önce **Binance** (zaten çekilmiş 24h cevabından,
+  ek API çağrısı yok — `fetch_top_usdt` artık tüm USDT tabanlarını da bir sete yazıyor),
+  yoksa **Bybit** (`v5/market/tickers`), yoksa **MEXC** (`v3/ticker/price`).
+  Bulunan borsa çalışma anında `REMAP`'e yazılıyor. Hiçbirinde yoksa sessizce atlanır,
+  log satırı basılır (try/except pattern korundu).
+- İlk çalıştırma sonucu: 115 parite + 2 makro = 120 satır.
+  - Zaten TOP-100'de olanlar (tekrar eklenmedi): **ENS, CAKE, CRV**
+  - Binance'te bulunup eklenenler: IMX, ATOM, STRK, ZK, MINA, DYDX, PIXEL, XTZ
+  - **BYBIT'e remap:** POPCAT, MOCA, GRASS
+  - **MEXC'e remap:** NST, NOS, GME, AIDOGE
+  - **Hiçbir borsada USDT paritesi yok → atlandı: SSTR, AKT.** (Bybit "Not supported
+    symbols", MEXC "invalid symbol" döndü; ikisi de spot USDT paritesi vermiyor.
+    AKT = Akash, SSTR = SatoshiSync — TradingView'da farklı bir borsa/kod gerekebilir.)
+
+### 2) `lfs_kota_kontrol.py` — yanlış alarm düzeltildi
+- Gerçek durum: 05_GRAFIKLER.zip 2026-08-02'de LFS'ten çıkarıldı, kullanım 861 MB'da
+  donmuş, tarama başına artış YOK. Script ise hâlâ 106 MB/tarama büyüme varsayıp
+  "%84 dolu, ~1 tarama sığar" alarmı basıyordu.
+- `TARAMA_MB` 106 → **0** (0 = büyüme yok), `ESIK_ORAN` 0.70 → **0.95**.
+  `TARAMA_MB > 0` ise eski tahmin/uyarı metni aynen geri gelir (büyüme yeniden başlarsa
+  tek satır değişiklikle çalışır). Sıfıra bölme koruması eklendi.
+- Yeni çıktı: `[LFS] Depo kullanimi: 861 MB / 1024 MB (%84) | 163 MB bos |
+  kullanim SABIT` — uyarı bloğu basılmıyor.
+
+### 3) Push kuyruğu — YAPILAMADI
+- Prompt'ta belirtilen `ekonomikocu_git` klasörü ve `6ff1c3c` / `06bb658` commit'leri
+  BU MAKİNEDE YOK. `C:\Users\ida\Desktop\ekonomikocu` origin/main ile birebir senkron
+  (0 ahead / 0 behind), reflog'da da bu commit'ler geçmiyor. O iki commit başka bir
+  ortamda (muhtemelen bulut oturumu) duruyor; oradan push edilmeleri gerekiyor.
