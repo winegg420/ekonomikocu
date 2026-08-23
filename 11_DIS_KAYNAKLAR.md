@@ -187,6 +187,67 @@ görünümdeki *"tahvil faizi gerilemedikçe sınırlı yukarı"* ifadesi, Yeşi
 | ~5 Ağu | Trump-Şi zirvesi 24 Eylül, kademeli mutabakat | İZLENİYOR |
 | ~13 Ağu | Freeport-McMoRan 6 ay vadede $85-90 | İZLENİYOR |
 
+### Program 4 — Küresel Piyasalar (BloombergHT, Hande Demirel ile), 20 Ağustos 2026
+
+**Program anı fiyatları:** BIST100 14.396 (-%0,43) · USDTRY yatay (+) · EURUSD 1,1674 · Dow -%1,25
+S&P -%0,73 · Nasdaq -%1,01 · **US10Y %4,69** · US5Y %4,38 · US2Y %4,18 · ons altın $4.520,93
+(+%0,12) · ons gümüş $67,96 (+%1,48) · **BTC $72.352 (+%4,83, Trump açıklamaları etkili)** ·
+Brent $93,7 (+%2,35) · WTI $87,8 (+%2,33).
+
+- ⭐ **Hazine geri alım hamlesi ve US10Y tolerans seviyesi — Koç'un merdiveniyle doğrudan test
+  edilebilir:** Bessent'ın (bir gün önce, 19 Ağu) uzun vadeli tahvil geri alım programını
+  **ikiye katladığı** açıklamasını yorumluyor: *"10 yıllık tahvil faizleri %4,75'e dayandığında
+  Amerikan hazinesi devreye girecek"* — yani **Bessent'ın tolerans tavanı ~%4,75.** Gerekçe:
+  yüksek uzun vadeli faiz şirket borçlanma maliyetini artırıyor, Çin'le teknoloji/sanayi
+  rekabetini yavaşlatma riski taşıyor.
+- **[Claude çapraz kontrol]** Bu, 06_ANALIZ'daki öğreti merdiveniyle birebir örtüşüyor: US10Y
+  13 Temmuz'da **4,577 = "57" basamağı**idi. Program anında (20 Ağu) **4,69** — yani 57'yi
+  çoktan geçmiş, **68 basamağına (%4,68) değmiş durumda.** Dinçtürk'ün bağımsız verdiği **%4,75
+  tavan**, Koç'un merdiveninde 68 (4,68) ile bir sonraki adım arasına düşüyor — **iki bağımsız
+  kaynak aynı bölgeyi kritik eşik olarak işaretliyor**, farklı gerekçelerle (Koç: manipülatif
+  "zaman geçirme" / Dinçtürk: Hazine'nin somut savunma hattı). Koç'un "Eylül 15 vade sonuna
+  kadar faiz merdivende yukarı çıkar" tezi, Dinçtürk'ün "%4,75'te devreye girerler" çıkışıyla
+  **doğrudan çelişebilir** — eğer Hazine gerçekten 4,75'te müdahale ederse Koç'un yukarı
+  kırılım tezi orada tıkanır. Sonraki taramada US10Y canlı seviyesiyle test edilmeli.
+- **Dolar tezi:** Reed Capital / Franklin Templeton alıntılarıyla — ABD bilinçli olarak reel
+  faizi düşük tutup **daha zayıf dolara** izin veriyor; **en büyük kaybeden dolar.** [Bu, Koç'un
+  DXY 110→95 boğa şartıyla ve 22 Ağustos "doları bilerek zayıflatıyorlar" taktik-baskı teziyle
+  **yönü aynı** — üçüncü bağımsız kaynak.]
+- **Petrol/jeopolitik:** İran, Hürmüz'ü kaldıraç olarak kullanıyor ama Körfez ülkeleri (BAE
+  Fujairah, Suudi East-West) alternatif boru hatlarıyla Hürmüz'ün önemini azaltıyor → **İran
+  uzun vadede zarar görür**, Amerika-Çin Eylül'de Washington'da görüşecek, kademeli uzlaşma
+  bekleniyor. **Türkiye "orta koridor"da yükselen jeopolitik güç** olarak öne çıkarılıyor.
+- **Emtia/maden hisseleri:** Freeport $71 (6 ayda $85 hedefi teyit), Hecla Mining Haziran'dan
+  beri +%30, $30 hedef. **"Trump dönemi sonuna kadar gümüş 3 haneli, altın 5 haneli"** (çekirdek
+  tez tekrarı — gümüş için 3 haneli ilk kez net telaffuz). PSLV, SLV'ye tercih ediliyor.
+- **Altın gerekçesi genişletildi:** Dünya borcu **$320 trilyon** + merkez bankası
+  çeşitlendirmesi — **Çin Temmuz'da 20 ton altın aldı (3 yılın en yükseği)**, **Güney Kore 13
+  yıl sonra ilk kez altın aldı.**
+- **Kripto çerçevesi:** Makine-makine ödemeleri (agentic AI ticareti) blockchain gerektiriyor
+  tezi; stablecoin'lerin arkasında ABD tahvili var. **CLARITY Act Eylül'de bekleniyor.** Portföy
+  ağırlığı öneriyor ama düşük: **%3'ü geçmiyor.**
+- **Kısa vadeli piyasa görünümü:** Jackson Hole, yeni Fed Başkanı Kevin Warsh'ın konuşması —
+  S&P'de 7700 civarı opsiyon yığılması, 1-2 hafta oynaklık bekliyor ama çöküş beklemiyor.
+- **Türkiye hisseleri:** Sabancı Holding, Türk Hava Yolları, Tüpraş — 2-3 yıl vadeli öneriliyor.
+  Banka pozisyonlarını kapattığını söylüyor.
+- **Hisse bazlı notlar:** Intel alım bölgesi $70-75 (şu an $91, yüksek); SoFi $20-21'e gelirse;
+  IBM/Tesla kuantum-robotik temasıyla olumlu; SpaceX 5 yıl vadeli olumlu.
+
+**Koç'la ilişki [Claude]:** Bu programın en değerli katkısı **US10Y %4,75 tolerans tavanı** —
+Koç'un soyut "merdiven basamağı" okumasına somut, kurumsal bir üst sınır veriyor. DXY zayıflaması
+teması üçüncü kez bağımsız kaynaktan geliyor (Soydan + Kemal Hiçyılmaz + şimdi Dinçtürk).
+
+### KARNE EK — Berk Dinçtürk (Program 4)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 20 Ağu | US10Y %4,75'e değerse Hazine devreye girer (geri alım tavanı) | İZLENİYOR — Koç'un 68 basamağı testiyle birlikte takip edilecek |
+| 20 Ağu | Dolar bilinçli zayıflatılıyor, en büyük kaybeden dolar | İZLENİYOR |
+| 20 Ağu | Freeport 6 ayda $85-90 (tekrar teyit) | İZLENİYOR |
+| 20 Ağu | Hecla Mining hedef $30 | İZLENİYOR |
+| 20 Ağu | Gümüş Trump dönemi sonuna kadar 3 haneli | İZLENİYOR |
+| 20 Ağu | CLARITY Act Eylül'de çıkar | İZLENİYOR |
+| 20 Ağu | Jackson Hole sonrası 1-2 hafta oynaklık, çöküş yok | İZLENİYOR |
+
 ---
 
 ## TUNÇ ŞATIROĞLU
@@ -543,6 +604,49 @@ bandının **üstünde** — ya gümüş Ağustos'ta toparlandı ya da iki kayna
 | Ağu 2026 (2. yayın) | UBS: altın $5.000, 2027 ilk yarı (aktarım) | İZLENİYOR |
 | Ağu 2026 (2. yayın) | BIST direnç 14.250 | İZLENİYOR |
 | Ağu 2026 (2. yayın) | TCMB faiz indirimine yakın (kulis) | İZLENİYOR |
+
+### 22 Ağustos 2026 (cumartesi yayını — "Bitcoin rallisi | Global tahvil şoku | Nasdaq'da düşüş")
+- **"Debasement trade" geri döndü tezi:** ABD borcu geçen hafta **40 trilyon dolara** ulaştı →
+  Amerikan tahvillerine sert satış (10Y faizi yükseldi, 2Y-10Y spread kapandı) → **DXY düştü** →
+  yatırımcılar korunma için altına ve kısmen BTC'ye kaydı.
+- **Geçen hafta:** BTC **+%20'den fazla** (son 3 yılın en sert haftalık yükselişi), altın da
+  yükseldi, buna karşılık **NASDAQ haftayı ~-%2 kapattı** — tahvil faizi yükselince (a) şirket
+  değerlemesi baskılanıyor, (b) borçla büyüyen yapay zeka yatırımı yapan tekno şirketlerin
+  borçlanma maliyeti artıyor.
+- **Ray Dalio (LinkedIn, geçen hafta):** ABD borcu "kontrol edilemez", portföyün **%10-15'i
+  altın** + bir miktar **BTC** öneriyor.
+- **Bu haftanın iki kritik olayı (23-28 Ağu penceresi):** (1) **Çarşamba — Nvidia bilançosu**
+  (yapay zeka rallisinin sağlama testi), (2) **Cuma — Fed Başkanı Jackson Hole konuşması**
+  (piyasa Eylül/Ekim'de artırım beklemiyor; şahin sürpriz ihtimali düşük ama gelirse DXY'ye
+  kısa vadeli destek, BTC/altına fren olabilir).
+- **Kripto zirvesi:** Trump, Beyaz Saray'daki kripto zirvesinde (geçen hafta perşembe) tıkanan
+  kripto yasasının çıkarılması için çağrıda bulundu — kasım seçimleri öncesi vaat tazelemesi
+  olarak okunuyor; BTC'deki %20 rallinin bir parçası olarak gösteriliyor.
+- **Kurumsal görüş ayrışması:** UBS ve Lombard Odier "henüz erken, hisse pozisyonlarını
+  bozmuyoruz" derken, **Michael Hartnett (BofA)** ayı pozisyonunda — 30Y tahvil faizinde
+  **%5 kırmızı çizgi**, üzerinde uzun kalırsa tekno hisseleri için olumsuz diyor.
+
+**Koç'la ilişki [Claude çapraz kontrol]:**
+- Koç'un 3 boğa şartından biri "DXY 110→95 gerçek zayıflama" idi — Soydan'ın tespit ettiği DXY
+  düşüşü bu yönde, ama Koç'un eşiği çok daha derin (95); şu anki düşüş henüz o bandın uzağında
+  olabilir, sonraki taramada DXY canlı seviyesiyle test edilmeli.
+- **Çelişki:** Koç 22 Ağustos'ta "Eylül 15 vade sonuna kadar doları BİLEREK zayıflatıyorlar,
+  sonra FED indiremez" diyor (taktik/kasıtlı oyalama tezi). Soydan aynı DXY zayıflamasını
+  **yapısal** (borç sarmalı, gerçek kaçış) okuyor, kasıt atfetmiyor. Aynı fiyat hareketine iki
+  farklı sebep isnat ediliyor — biri "manipülatif baskı", diğeri "yapısal çöküş sinyali". İkisi
+  de aynı anda doğru olamaz, izlenmeli.
+- **Zaman örtüşmesi:** Kobeissi Letter'ın **19 Ağustos 08:30** kripto kırılma tarihi, Soydan'ın
+  anlattığı Trump kripto zirvesi (aynı hafta perşembe) ile örtüşüyor — üç bağımsız kaynak
+  (Koç, Kobeissi, Soydan) aynı haftaya işaret ediyor.
+
+### KARNE EK 2 — Barış Soydan
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 22 Ağu | Debasement trade: DXY zayıflaması BTC+altını besliyor, NASDAQ'ı baskılıyor | İZLENİYOR |
+| 22 Ağu | ABD borcu 40 trilyon $'a ulaştı | İZLENİYOR (rakamsal doğrulama sonraki taramada) |
+| 22 Ağu | Nvidia bilançosu (23-28 Ağu penceresi) yapay zeka rallisinin sağlaması olacak | İZLENİYOR |
+| 22 Ağu | Fed Jackson Hole'da şahin sürpriz ihtimali düşük | İZLENİYOR |
+| 22 Ağu | Michael Hartnett: 30Y tahvil faizi %5 üstü tekno için kırmızı çizgi | İZLENİYOR |
 
 ## INTEGRAL FX TV (Karagöz / Sağman / Perşembe paneli)
 
