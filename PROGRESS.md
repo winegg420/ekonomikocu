@@ -1388,3 +1388,41 @@ gösteriyor. **İki pencere karıştırılmamalı** — biri 3 haftalık, diğer
   dusen tarafta QAI -%61,7, TAC -%32,9, LCX -%25,5.
 - Uzerine yazma davranisi yine dogrulandi: onceki 129 sembollu liste tamamen yenisiyle
   degisti, birikme yok.
+
+## 2026-08-23 (oturum 3, devam) — Bubbles coinlerine MagicMA taramasi
+
+### Yapilan
+- Sabah 10:49'daki tarama sadece **sabit listelerdi (407 sembol)**; CryptoBubbles'tan gelen
+  133 hareketlinin **114'u hic taranmamisti**. Bu oturumda taranди.
+- CDP 9222 kapaliydi. Yine PowerShell `Start-Process` + ayni profil
+  (`%LOCALAPPDATA%\ekonomikocu_x_session`) + `https://tr.tradingview.com/chart/zOsq3cIW/`
+  ile acildi (CHROME_X_SESSIZ.bat yerine; 2026-08-23 sabahki cozumun aynisi calisti).
+- `magicma_tara_dayanikli.py` resume: 1. kosum 150 sembol → **130 okundu / 20 okunamadi**.
+  Liste tazelendikten sonra 2. kosum 34 sembol → 12 yeni okundu.
+- Gunun toplami: **549 sembol, 365 rapora girdi** (`magicma/magicma_rapor_2026-08-23.md`),
+  **19 islem adayi ≤%0,25** (`magicma/magicma_islem_adaylari_2026-08-23.md`).
+- Bubbles kaynakli islem adaylari: **XVGUSDT** (G-Ust, %-0,15 short), **INJUSDT**
+  (G-Ust, %-0,20 short), **APEXUSDT** (G-Alt, %-0,24 short), **XPLUSDT**
+  (G-Alt, %+0,25 long). Kalan 15 satir sabit listelerden geliyor (ASTER, NEAR, EURCAD...).
+
+### Okunamayanlar — teshis edildi, karar verildi
+- Toplam 22 okunamayan. Alternatif borsa kodlari **canli TV'de tek tek denendi**
+  (scratchpad teshis scripti, repoya girmedi):
+  - **GRAM: DUZELTILDI.** `BINANCE:GRAMUSDT` timeout, `MEXC:GRAMUSDT` okundu (1,51).
+    - `magicma/sembol_listesi/kripto.txt:45` BINANCE → **MEXC** olarak degistirildi.
+    - `gunun_hareketlileri_guncelle.py`'ye **`ELLE_BORSA` override tablosu** eklendi
+      (otomatik secilen borsa veri vermezse elle dogrulanmis borsa oncelikli). Ilk
+      satir: `GRAM: mexc`. Kural: canli test edilmeden bu tabloya satir eklenmez.
+  - **ANSEM, NES, GRVT, ALIGN, KII, KAIO: hicbir alternatifte veri YOK.** Denenen
+    borsalar: KUCOIN/GATEIO/OKX/BITGET/MEXC/BYBIT — hepsi "veri YOK". TV bu coinleri
+    hic tasimıyor. Liste DEGISTIRILMEDI.
+  - **POD, HMM, STONK, STONKBROKER, TENDIES, JIMOTHY, CHONKETHA, PONS, DRV, DRB:**
+    cryptobubbles'ta sadece `mexc` + `weex` var, weex TV'de yok → yapilacak bir sey yok.
+  - **QQQB, SPYB (Binance tokenize hisse), NFP, AIDOGE, NASDAQ:SPCX:** yine veri yok.
+    SPCX 3. kez ust uste okunamadi — delist/veri kesintisi teyitli sayilabilir.
+
+### Cikarim: BORSA_SIRA daraltilmasina GEREK YOK
+- Onceki oturumda "MEXC agirligi risk" diye isaretlenmisti. Olculdu: **58 MEXC sembolun
+  45'i sorunsuz okundu (%78)**; basarisiz 13'un tamami TV'de hicbir borsada olmayan
+  mikro-cap memecoin. Yani sorun MEXC on ekinde degil, **coinin TV'de hic olmamasinda**.
+  `BORSA_SIRA` oldugu gibi birakildi.

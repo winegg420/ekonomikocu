@@ -46,6 +46,14 @@ BORSA_SIRA = [
 ]
 
 
+# TradingView'de otomatik secilen borsa veri vermeyen coinler icin ELLE dogrulanmis
+# borsa. Kural: "TV'nin veri verdigi kod" — canli test edilmeden buraya satir eklenmez.
+#   GRAM: 2026-08-23 taramasinda BINANCE:GRAMUSDT timeout verdi, MEXC:GRAMUSDT okundu.
+ELLE_BORSA = {
+    "GRAM": "mexc",
+}
+
+
 def veri_cek(url: str = KAYNAK) -> list | None:
     """Tek JSON GET; her turlu hata None doner (script kirilmasin)."""
     try:
@@ -78,6 +86,12 @@ def sembol_uret(coin: dict) -> tuple[str, str] | None:
     borsalar = coin.get("symbols") or {}
     if not isinstance(borsalar, dict):
         return None
+    # Elle dogrulanmis borsa varsa once o denenir; paritesi yoksa normal siraya dusulur.
+    zorla = ELLE_BORSA.get((coin.get("symbol") or "").upper())
+    if zorla:
+        t = parite_normalize(borsalar.get(zorla))
+        if t:
+            return f"{zorla.upper()}:{t}", zorla.upper()
     for anahtar, on_ek in BORSA_SIRA:
         t = parite_normalize(borsalar.get(anahtar))
         if t:

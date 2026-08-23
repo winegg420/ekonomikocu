@@ -1,7 +1,7 @@
 # MagicMA Yakınlık Raporu — 2026-08-23
 
 - Zaman dilimi: **4 saat (4H)**
-- Taranan: 407 · Rapora giren (≤%15): 308 · Okunamayan: 1
+- Taranan: 549 · Rapora giren (≤%15): 365 · Okunamayan: 22
 - Eşik: TEMAS ≤%5 · YAKIN ≤%10 · İZLEME ≤%15
 
 ## ASTERUSDT — fiyat 0,64
@@ -84,6 +84,13 @@
 | TEMAS | Magicma Günlük Üst Çizgi | 93,46 | +0,1% | fiyat ustunde (DESTEK) |
 | TEMAS | Magicma Günlük Alt Çizgi | 91,48 | +2,3% | fiyat ustunde (DESTEK) |
 
+## XVGUSDT — fiyat 0,00
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| TEMAS | Magicma Günlük Üst Çizgi | 0,00 | -0,2% | fiyat altinda (DIRENC) |
+| YAKIN | Magicma Günlük Alt Çizgi | 0,00 | -5,4% | fiyat altinda (DIRENC) |
+
 ## ADI — fiyat 373,09
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
@@ -104,6 +111,13 @@
 |---|---|---|---:|---|
 | TEMAS | Magicma Günlük Alt Çizgi | 1.873,00 | +0,2% | fiyat ustunde (DESTEK) |
 | TEMAS | Magicma Günlük Üst Çizgi | 1.842,64 | +1,9% | fiyat ustunde (DESTEK) |
+
+## APEXUSDT — fiyat 0,27
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| TEMAS | Magicma Günlük Alt Çizgi | 0,27 | -0,2% | fiyat altinda (DIRENC) |
+| TEMAS | Magicma Günlük Üst Çizgi | 0,27 | +0,3% | fiyat ustunde (DESTEK) |
 
 ## USDCAD — fiyat 1,38
 
@@ -344,6 +358,13 @@
 | TEMAS | Magicma Günlük Üst Çizgi | 83,23 | -0,8% | fiyat altinda (DIRENC) |
 | TEMAS | Magicma Günlük Alt Çizgi | 81,97 | +0,8% | fiyat ustunde (DESTEK) |
 
+## BLUAIUSDT — fiyat 0,01
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| TEMAS | Magicma Günlük Alt Çizgi | 0,01 | -0,8% | fiyat altinda (DIRENC) |
+| TEMAS | Magicma Günlük Üst Çizgi | 0,01 | -3,6% | fiyat altinda (DIRENC) |
+
 ## EURUSD — fiyat 1,17
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
@@ -454,6 +475,13 @@
 |---|---|---|---:|---|
 | TEMAS | Magicma Günlük Alt Çizgi | 111,75 | -1,2% | fiyat altinda (DIRENC) |
 | TEMAS | Magicma Günlük Üst Çizgi | 112,01 | -1,4% | fiyat altinda (DIRENC) |
+
+## EURIUSDT — fiyat 1,17
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| TEMAS | Magicma Günlük Alt Çizgi | 1,16 | +1,2% | fiyat ustunde (DESTEK) |
+| TEMAS | Magicma Günlük Üst Çizgi | 1,16 | +1,4% | fiyat ustunde (DESTEK) |
 
 ## CAT — fiyat 827,90
 
@@ -593,6 +621,13 @@
 | YAKIN | Magicma Haftalık -2 | 155,47 | -6,9% | fiyat altinda (DIRENC) |
 | YAKIN | Magicma Haftalık -1 | 158,82 | -8,9% | fiyat altinda (DIRENC) |
 
+## ONTUSDT — fiyat 0,05
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| TEMAS | Magicma Günlük Üst Çizgi | 0,05 | -1,5% | fiyat altinda (DIRENC) |
+| YAKIN | Magicma Günlük Alt Çizgi | 0,05 | -6,9% | fiyat altinda (DIRENC) |
+
 ## DOFRB — fiyat 134,90
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
@@ -670,6 +705,13 @@
 |---|---|---|---:|---|
 | TEMAS | Magicma Günlük Üst Çizgi | 0,56 | +1,7% | fiyat ustunde (DESTEK) |
 | YAKIN | Magicma Günlük Alt Çizgi | 0,54 | +6,1% | fiyat ustunde (DESTEK) |
+
+## YBUSDT — fiyat 0,09
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| TEMAS | Magicma Günlük Alt Çizgi | 0,09 | +1,7% | fiyat ustunde (DESTEK) |
+| TEMAS | Magicma Günlük Üst Çizgi | 0,09 | +4,9% | fiyat ustunde (DESTEK) |
 
 ## AEFES — fiyat 19,24
 
@@ -808,6 +850,13 @@
 | YAKIN | Magicma Günlük Alt Çizgi | 17,90 | +9,9% | fiyat ustunde (DESTEK) |
 | IZLEME | Magicma Günlük Üst Çizgi | 17,82 | +10,4% | fiyat ustunde (DESTEK) |
 
+## SN64USDT — fiyat 18,12
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| TEMAS | Magicma Günlük Alt Çizgi | 17,69 | +2,4% | fiyat ustunde (DESTEK) |
+| TEMAS | Magicma Günlük Üst Çizgi | 17,32 | +4,6% | fiyat ustunde (DESTEK) |
+
 ## AVPGY — fiyat 52,40
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
@@ -831,6 +880,13 @@
 | TEMAS | Magicma Haftalık -1 | 452,44 | -4,7% | fiyat altinda (DIRENC) |
 | YAKIN | Magicma Günlük Üst Çizgi | 408,81 | +5,5% | fiyat ustunde (DESTEK) |
 | YAKIN | Magicma Günlük Alt Çizgi | 407,19 | +5,9% | fiyat ustunde (DESTEK) |
+
+## SCUSDT — fiyat 0,00
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| TEMAS | Magicma Günlük Üst Çizgi | 0,00 | -2,5% | fiyat altinda (DIRENC) |
+| YAKIN | Magicma Günlük Alt Çizgi | 0,00 | -5,8% | fiyat altinda (DIRENC) |
 
 ## LOGO — fiyat 137,40
 
@@ -916,6 +972,13 @@
 | TEMAS | Magicma Günlük Alt Çizgi | 136,01 | -4,5% | fiyat altinda (DIRENC) |
 | YAKIN | Magicma Haftalık -1 | 120,52 | +7,8% | fiyat ustunde (DESTEK) |
 
+## NOSUSDT — fiyat 0,27
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| TEMAS | Magicma Günlük Alt Çizgi | 0,28 | -2,8% | fiyat altinda (DIRENC) |
+| TEMAS | Magicma Günlük Üst Çizgi | 0,29 | -4,6% | fiyat altinda (DIRENC) |
+
 ## NXPI — fiyat 225,56
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
@@ -931,6 +994,13 @@
 |---|---|---|---:|---|
 | TEMAS | Magicma Günlük Üst Çizgi | 490,07 | -2,9% | fiyat altinda (DIRENC) |
 | TEMAS | Magicma Günlük Alt Çizgi | 493,64 | -3,6% | fiyat altinda (DIRENC) |
+
+## STARUSDT — fiyat 0,12
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| TEMAS | Magicma Günlük Alt Çizgi | 0,12 | -2,9% | fiyat altinda (DIRENC) |
+| YAKIN | Magicma Günlük Üst Çizgi | 0,13 | -6,9% | fiyat altinda (DIRENC) |
 
 ## PEP — fiyat 143,48
 
@@ -968,6 +1038,13 @@
 |---|---|---|---:|---|
 | TEMAS | Magicma Günlük Alt Çizgi | 332,16 | -3,1% | fiyat altinda (DIRENC) |
 | TEMAS | Magicma Günlük Üst Çizgi | 332,72 | -3,2% | fiyat altinda (DIRENC) |
+
+## OPUSDT — fiyat 0,11
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| TEMAS | Magicma Günlük Alt Çizgi | 0,11 | +3,1% | fiyat ustunde (DESTEK) |
+| TEMAS | Magicma Günlük Üst Çizgi | 0,11 | +4,2% | fiyat ustunde (DESTEK) |
 
 ## WLFIUSDT — fiyat 0,06
 
@@ -1046,6 +1123,13 @@
 | TEMAS | Magicma Günlük Alt Çizgi | 0,11 | +3,5% | fiyat ustunde (DESTEK) |
 | TEMAS | Magicma Günlük Üst Çizgi | 0,11 | +3,7% | fiyat ustunde (DESTEK) |
 
+## APRUSDT — fiyat 0,19
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| TEMAS | Magicma Günlük Alt Çizgi | 0,20 | -3,5% | fiyat altinda (DIRENC) |
+| TEMAS | Magicma Günlük Üst Çizgi | 0,20 | -4,0% | fiyat altinda (DIRENC) |
+
 ## YKBNK — fiyat 35,10
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
@@ -1091,6 +1175,13 @@
 | TEMAS | Magicma Günlük Alt Çizgi | 20,83 | -3,8% | fiyat altinda (DIRENC) |
 | TEMAS | Magicma Günlük Üst Çizgi | 20,92 | -4,2% | fiyat altinda (DIRENC) |
 
+## LYXUSDT — fiyat 0,23
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| TEMAS | Magicma Günlük Üst Çizgi | 0,23 | -3,8% | fiyat altinda (DIRENC) |
+| TEMAS | Magicma Günlük Alt Çizgi | 0,24 | -4,0% | fiyat altinda (DIRENC) |
+
 ## AKBNK — fiyat 69,70
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
@@ -1118,12 +1209,33 @@
 |---|---|---|---:|---|
 | TEMAS | Magicma Haftalık -2 | 2.487,51 | -3,9% | fiyat altinda (DIRENC) |
 
+## NSTUSDT — fiyat 1,31
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| TEMAS | Magicma Günlük Alt Çizgi | 1,26 | +4,0% | fiyat ustunde (DESTEK) |
+| YAKIN | Magicma Günlük Üst Çizgi | 1,25 | +5,0% | fiyat ustunde (DESTEK) |
+
 ## DOGEUSDT — fiyat 0,09
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
 |---|---|---|---:|---|
 | TEMAS | Magicma Günlük Alt Çizgi | 0,09 | +4,0% | fiyat ustunde (DESTEK) |
 | YAKIN | Magicma Günlük Üst Çizgi | 0,09 | +5,2% | fiyat ustunde (DESTEK) |
+
+## RPLUSDT — fiyat 1,73
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| TEMAS | Magicma Günlük Alt Çizgi | 1,66 | +4,1% | fiyat ustunde (DESTEK) |
+| YAKIN | Magicma Günlük Üst Çizgi | 1,64 | +5,4% | fiyat ustunde (DESTEK) |
+
+## ETCUSDT — fiyat 7,95
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| TEMAS | Magicma Günlük Alt Çizgi | 7,64 | +4,1% | fiyat ustunde (DESTEK) |
+| YAKIN | Magicma Günlük Üst Çizgi | 7,55 | +5,3% | fiyat ustunde (DESTEK) |
 
 ## EKGYO — fiyat 19,45
 
@@ -1192,6 +1304,13 @@
 | TEMAS | Magicma Haftalık -1 | 43,67 | +4,5% | fiyat ustunde (DESTEK) |
 | YAKIN | Magicma Günlük Üst Çizgi | 50,17 | -9,0% | fiyat altinda (DIRENC) |
 | YAKIN | Magicma Günlük Alt Çizgi | 50,43 | -9,5% | fiyat altinda (DIRENC) |
+
+## EGLDUSDT — fiyat 3,49
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| TEMAS | Magicma Günlük Alt Çizgi | 3,34 | +4,6% | fiyat ustunde (DESTEK) |
+| YAKIN | Magicma Günlük Üst Çizgi | 3,26 | +7,1% | fiyat ustunde (DESTEK) |
 
 ## ALFAS — fiyat 42,24
 
@@ -1265,6 +1384,13 @@
 | TEMAS | Magicma Günlük Üst Çizgi | 26,62 | -4,9% | fiyat altinda (DIRENC) |
 | YAKIN | Magicma Günlük Alt Çizgi | 26,84 | -5,8% | fiyat altinda (DIRENC) |
 
+## OGUSDT — fiyat 2,92
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| TEMAS | Magicma Günlük Alt Çizgi | 2,78 | +5,0% | fiyat ustunde (DESTEK) |
+| YAKIN | Magicma Günlük Üst Çizgi | 2,76 | +5,8% | fiyat ustunde (DESTEK) |
+
 ## EREGL — fiyat 38,14
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
@@ -1285,6 +1411,13 @@
 |---|---|---|---:|---|
 | YAKIN | Magicma Günlük Üst Çizgi | 0,01 | +5,1% | fiyat ustunde (DESTEK) |
 | YAKIN | Magicma Günlük Alt Çizgi | 0,01 | +6,6% | fiyat ustunde (DESTEK) |
+
+## HSKUSDT — fiyat 0,10
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| YAKIN | Magicma Günlük Üst Çizgi | 0,11 | -5,1% | fiyat altinda (DIRENC) |
+| YAKIN | Magicma Günlük Alt Çizgi | 0,11 | -9,3% | fiyat altinda (DIRENC) |
 
 ## GOODY — fiyat 2,63
 
@@ -1337,6 +1470,34 @@
 | YAKIN | Magicma Günlük Üst Çizgi | 15.881,36 | +5,3% | fiyat ustunde (DESTEK) |
 | YAKIN | Magicma Günlük Alt Çizgi | 15.831,50 | +5,6% | fiyat ustunde (DESTEK) |
 
+## CCDUSDT — fiyat 0,00
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| YAKIN | Magicma Günlük Üst Çizgi | 0,00 | -5,4% | fiyat altinda (DIRENC) |
+| YAKIN | Magicma Günlük Alt Çizgi | 0,00 | -6,6% | fiyat altinda (DIRENC) |
+
+## FLOKIUSDT — fiyat 0,00
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| YAKIN | Magicma Günlük Alt Çizgi | 0,00 | +5,5% | fiyat ustunde (DESTEK) |
+| YAKIN | Magicma Günlük Üst Çizgi | 0,00 | +7,4% | fiyat ustunde (DESTEK) |
+
+## SNEKUSDT — fiyat 0,00
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| YAKIN | Magicma Günlük Alt Çizgi | 0,00 | +5,5% | fiyat ustunde (DESTEK) |
+| YAKIN | Magicma Günlük Üst Çizgi | 0,00 | +7,7% | fiyat ustunde (DESTEK) |
+
+## UAIUSDT — fiyat 0,28
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| YAKIN | Magicma Günlük Alt Çizgi | 0,30 | -5,6% | fiyat altinda (DIRENC) |
+| YAKIN | Magicma Günlük Üst Çizgi | 0,31 | -7,0% | fiyat altinda (DIRENC) |
+
 ## SISE — fiyat 39,90
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
@@ -1354,6 +1515,13 @@
 | YAKIN | Magicma Günlük Alt Çizgi | 2,82 | -6,4% | fiyat altinda (DIRENC) |
 | YAKIN | Magicma Haftalık -1 | 2,44 | +8,1% | fiyat ustunde (DESTEK) |
 | IZLEME | Magicma Haftalık -2 | 2,35 | +12,2% | fiyat ustunde (DESTEK) |
+
+## LAVAUSDT — fiyat 0,02
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| YAKIN | Magicma Günlük Üst Çizgi | 0,02 | -5,8% | fiyat altinda (DIRENC) |
+| IZLEME | Magicma Günlük Alt Çizgi | 0,02 | -10,4% | fiyat altinda (DIRENC) |
 
 ## AMAT — fiyat 492,32
 
@@ -1383,6 +1551,13 @@
 | YAKIN | Magicma Günlük Üst Çizgi | 7.252,80 | +5,8% | fiyat ustunde (DESTEK) |
 | YAKIN | Magicma Günlük Alt Çizgi | 7.217,15 | +6,3% | fiyat ustunde (DESTEK) |
 
+## COTIUSDT — fiyat 0,01
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| YAKIN | Magicma Günlük Alt Çizgi | 0,01 | +5,8% | fiyat ustunde (DESTEK) |
+| YAKIN | Magicma Günlük Üst Çizgi | 0,01 | +8,9% | fiyat ustunde (DESTEK) |
+
 ## SBUX — fiyat 107,08
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
@@ -1409,6 +1584,13 @@
 | YAKIN | Magicma Haftalık -1 | 88,06 | -9,6% | fiyat altinda (DIRENC) |
 | IZLEME | Magicma Haftalık -2 | 72,01 | +10,5% | fiyat ustunde (DESTEK) |
 
+## ATOMUSDT — fiyat 1,61
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| YAKIN | Magicma Günlük Üst Çizgi | 1,71 | -6,0% | fiyat altinda (DIRENC) |
+| YAKIN | Magicma Günlük Alt Çizgi | 1,72 | -6,4% | fiyat altinda (DIRENC) |
+
 ## DJI — fiyat 53.277,01
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
@@ -1422,6 +1604,13 @@
 |---|---|---|---:|---|
 | YAKIN | Magicma Günlük Alt Çizgi | 0,78 | +6,0% | fiyat ustunde (DESTEK) |
 | YAKIN | Magicma Günlük Üst Çizgi | 0,78 | +7,0% | fiyat ustunde (DESTEK) |
+
+## XCNUSDT — fiyat 0,00
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| YAKIN | Magicma Günlük Üst Çizgi | 0,00 | -6,0% | fiyat altinda (DIRENC) |
+| YAKIN | Magicma Günlük Alt Çizgi | 0,00 | -7,5% | fiyat altinda (DIRENC) |
 
 ## TTKOM — fiyat 54,85
 
@@ -1448,6 +1637,13 @@
 | YAKIN | Magicma Günlük Alt Çizgi | 359,64 | +8,5% | fiyat ustunde (DESTEK) |
 | YAKIN | Magicma Haftalık -1 | 430,76 | -9,4% | fiyat altinda (DIRENC) |
 | IZLEME | Magicma Haftalık -2 | 454,73 | -14,2% | fiyat altinda (DIRENC) |
+
+## LOCUSUSDT — fiyat 0,01
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| YAKIN | Magicma Günlük Alt Çizgi | 0,01 | +6,2% | fiyat ustunde (DESTEK) |
+| YAKIN | Magicma Günlük Üst Çizgi | 0,01 | +8,1% | fiyat ustunde (DESTEK) |
 
 ## ALARK — fiyat 106,30
 
@@ -1506,6 +1702,13 @@
 | YAKIN | Magicma Günlük Alt Çizgi | 11,96 | -8,0% | fiyat altinda (DIRENC) |
 | IZLEME | Magicma Haftalık -2 | 9,74 | +13,1% | fiyat ustunde (DESTEK) |
 
+## CELOUSDT — fiyat 0,08
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| YAKIN | Magicma Günlük Alt Çizgi | 0,07 | +6,6% | fiyat ustunde (DESTEK) |
+| YAKIN | Magicma Günlük Üst Çizgi | 0,07 | +8,3% | fiyat ustunde (DESTEK) |
+
 ## GE — fiyat 348,37
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
@@ -1544,6 +1747,13 @@
 | YAKIN | Magicma Günlük Üst Çizgi | 289,77 | +6,8% | fiyat ustunde (DESTEK) |
 | YAKIN | Magicma Günlük Alt Çizgi | 287,55 | +7,6% | fiyat ustunde (DESTEK) |
 
+## GRAMUSDT — fiyat 1,51
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| YAKIN | Magicma Günlük Alt Çizgi | 1,62 | -6,8% | fiyat altinda (DIRENC) |
+| YAKIN | Magicma Günlük Üst Çizgi | 1,65 | -8,3% | fiyat altinda (DIRENC) |
+
 ## PFE — fiyat 28,07
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
@@ -1552,6 +1762,20 @@
 | YAKIN | Magicma Günlük Alt Çizgi | 26,23 | +7,0% | fiyat ustunde (DESTEK) |
 | YAKIN | Magicma Haftalık -2 | 30,21 | -7,1% | fiyat altinda (DIRENC) |
 | YAKIN | Magicma Günlük Üst Çizgi | 26,12 | +7,5% | fiyat ustunde (DESTEK) |
+
+## SN75USDT — fiyat 4,17
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| YAKIN | Magicma Günlük Üst Çizgi | 4,49 | -7,0% | fiyat altinda (DIRENC) |
+| IZLEME | Magicma Günlük Alt Çizgi | 4,66 | -10,5% | fiyat altinda (DIRENC) |
+
+## EWTUSDT — fiyat 0,29
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| YAKIN | Magicma Günlük Üst Çizgi | 0,31 | -7,0% | fiyat altinda (DIRENC) |
+| IZLEME | Magicma Günlük Alt Çizgi | 0,33 | -10,5% | fiyat altinda (DIRENC) |
 
 ## LRCX — fiyat 314,00
 
@@ -1607,6 +1831,13 @@
 | YAKIN | Magicma Günlük Alt Çizgi | 205.990,49 | +7,4% | fiyat ustunde (DESTEK) |
 | YAKIN | Magicma Günlük Üst Çizgi | 204.029,34 | +8,4% | fiyat ustunde (DESTEK) |
 
+## ASMUSDT — fiyat 0,06
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| YAKIN | Magicma Günlük Üst Çizgi | 0,07 | -7,4% | fiyat altinda (DIRENC) |
+| YAKIN | Magicma Günlük Alt Çizgi | 0,07 | -9,5% | fiyat altinda (DIRENC) |
+
 ## BERA — fiyat 14,30
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
@@ -1658,6 +1889,20 @@
 |---|---|---|---:|---|
 | YAKIN | Magicma Günlük Alt Çizgi | 0,15 | -8,0% | fiyat altinda (DIRENC) |
 | IZLEME | Magicma Günlük Üst Çizgi | 0,15 | -10,3% | fiyat altinda (DIRENC) |
+
+## BOBAUSDT — fiyat 0,02
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| YAKIN | Magicma Günlük Üst Çizgi | 0,02 | -8,1% | fiyat altinda (DIRENC) |
+| YAKIN | Magicma Günlük Alt Çizgi | 0,02 | -8,5% | fiyat altinda (DIRENC) |
+
+## IMXUSDT — fiyat 0,13
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| YAKIN | Magicma Günlük Üst Çizgi | 0,14 | -8,1% | fiyat altinda (DIRENC) |
+| YAKIN | Magicma Günlük Alt Çizgi | 0,14 | -9,3% | fiyat altinda (DIRENC) |
 
 ## META — fiyat 549,90
 
@@ -1766,6 +2011,13 @@
 | IZLEME | Magicma Günlük Üst Çizgi | 427,95 | -11,5% | fiyat altinda (DIRENC) |
 | IZLEME | Magicma Günlük Alt Çizgi | 434,61 | -12,8% | fiyat altinda (DIRENC) |
 
+## ERGUSDT — fiyat 0,27
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| YAKIN | Magicma Günlük Alt Çizgi | 0,25 | +9,1% | fiyat ustunde (DESTEK) |
+| IZLEME | Magicma Günlük Üst Çizgi | 0,24 | +12,3% | fiyat ustunde (DESTEK) |
+
 ## ESCOM — fiyat 5,92
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
@@ -1831,6 +2083,13 @@
 | YAKIN | Magicma Günlük Alt Çizgi | 441,16 | -9,8% | fiyat altinda (DIRENC) |
 | YAKIN | Magicma Günlük Üst Çizgi | 442,00 | -10,0% | fiyat altinda (DIRENC) |
 
+## PIXELUSDT — fiyat 0,01
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| YAKIN | Magicma Günlük Üst Çizgi | 0,01 | -9,9% | fiyat altinda (DIRENC) |
+| IZLEME | Magicma Günlük Alt Çizgi | 0,01 | -12,6% | fiyat altinda (DIRENC) |
+
 ## LULU — fiyat 121,07
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
@@ -1863,6 +2122,13 @@
 | Etiket | Seviye | Değer | Mesafe | Yön |
 |---|---|---|---:|---|
 | IZLEME | Magicma Haftalık -2 | 12,56 | -10,0% | fiyat altinda (DIRENC) |
+
+## CREPEUSDT — fiyat 0,00
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| IZLEME | Magicma Günlük Üst Çizgi | 0,00 | -10,2% | fiyat altinda (DIRENC) |
+| IZLEME | Magicma Günlük Alt Çizgi | 0,00 | -11,4% | fiyat altinda (DIRENC) |
 
 ## CVKMD — fiyat 16,22
 
@@ -1941,6 +2207,13 @@
 | IZLEME | Magicma Günlük Üst Çizgi | 28,06 | -10,5% | fiyat altinda (DIRENC) |
 | IZLEME | Magicma Günlük Alt Çizgi | 29,14 | -13,8% | fiyat altinda (DIRENC) |
 
+## ELFUSDT — fiyat 0,07
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| IZLEME | Magicma Günlük Alt Çizgi | 0,07 | +10,5% | fiyat ustunde (DESTEK) |
+| IZLEME | Magicma Günlük Üst Çizgi | 0,07 | +12,7% | fiyat ustunde (DESTEK) |
+
 ## SOKM — fiyat 59,00
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
@@ -1953,6 +2226,20 @@
 | Etiket | Seviye | Değer | Mesafe | Yön |
 |---|---|---|---:|---|
 | IZLEME | Magicma Haftalık -1 | 436,93 | +10,6% | fiyat ustunde (DESTEK) |
+
+## EULUSDT — fiyat 1,34
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| IZLEME | Magicma Günlük Alt Çizgi | 1,21 | +10,8% | fiyat ustunde (DESTEK) |
+| IZLEME | Magicma Günlük Üst Çizgi | 1,20 | +11,8% | fiyat ustunde (DESTEK) |
+
+## SPKUSDT — fiyat 0,02
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| IZLEME | Magicma Günlük Üst Çizgi | 0,02 | -10,8% | fiyat altinda (DIRENC) |
+| IZLEME | Magicma Günlük Alt Çizgi | 0,02 | -12,6% | fiyat altinda (DIRENC) |
 
 ## BLK — fiyat 1.156,55
 
@@ -1980,6 +2267,13 @@
 |---|---|---|---:|---|
 | IZLEME | Magicma Günlük Üst Çizgi | 42,95 | +11,3% | fiyat ustunde (DESTEK) |
 | IZLEME | Magicma Günlük Alt Çizgi | 42,82 | +11,6% | fiyat ustunde (DESTEK) |
+
+## COMPUSDT — fiyat 21,13
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| IZLEME | Magicma Günlük Alt Çizgi | 18,98 | +11,3% | fiyat ustunde (DESTEK) |
+| IZLEME | Magicma Günlük Üst Çizgi | 18,54 | +13,9% | fiyat ustunde (DESTEK) |
 
 ## JNJ — fiyat 270,24
 
@@ -2029,6 +2323,13 @@
 | IZLEME | Magicma Günlük Üst Çizgi | 53,66 | -11,7% | fiyat altinda (DIRENC) |
 | IZLEME | Magicma Günlük Alt Çizgi | 54,27 | -12,7% | fiyat altinda (DIRENC) |
 
+## JSTUSDT — fiyat 0,10
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| IZLEME | Magicma Günlük Üst Çizgi | 0,09 | +11,7% | fiyat ustunde (DESTEK) |
+| IZLEME | Magicma Günlük Alt Çizgi | 0,09 | +13,9% | fiyat ustunde (DESTEK) |
+
 ## OTKAR — fiyat 316,50
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
@@ -2036,12 +2337,33 @@
 | IZLEME | Magicma Günlük Üst Çizgi | 358,55 | -11,7% | fiyat altinda (DIRENC) |
 | IZLEME | Magicma Günlük Alt Çizgi | 366,06 | -13,5% | fiyat altinda (DIRENC) |
 
+## POPCATUSDT — fiyat 0,06
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| IZLEME | Magicma Günlük Alt Çizgi | 0,05 | +11,7% | fiyat ustunde (DESTEK) |
+| IZLEME | Magicma Günlük Üst Çizgi | 0,05 | +13,5% | fiyat ustunde (DESTEK) |
+
+## SQDUSDT — fiyat 0,03
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| IZLEME | Magicma Günlük Alt Çizgi | 0,04 | -11,7% | fiyat altinda (DIRENC) |
+| IZLEME | Magicma Günlük Üst Çizgi | 0,04 | -12,5% | fiyat altinda (DIRENC) |
+
 ## KCHOL — fiyat 222,40
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
 |---|---|---|---:|---|
 | IZLEME | Magicma Günlük Alt Çizgi | 199,02 | +11,7% | fiyat ustunde (DESTEK) |
 | IZLEME | Magicma Günlük Üst Çizgi | 197,38 | +12,7% | fiyat ustunde (DESTEK) |
+
+## VIRTUALUSDT — fiyat 0,72
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| IZLEME | Magicma Günlük Alt Çizgi | 0,65 | +11,8% | fiyat ustunde (DESTEK) |
+| IZLEME | Magicma Günlük Üst Çizgi | 0,64 | +12,7% | fiyat ustunde (DESTEK) |
 
 ## TRENJ — fiyat 107,80
 
@@ -2142,6 +2464,20 @@
 | IZLEME | Magicma Günlük Üst Çizgi | 0,01 | -12,4% | fiyat altinda (DIRENC) |
 | IZLEME | Magicma Günlük Alt Çizgi | 0,01 | -14,6% | fiyat altinda (DIRENC) |
 
+## REKTCOINUSDT — fiyat 0,00
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| IZLEME | Magicma Günlük Alt Çizgi | 0,00 | +12,6% | fiyat ustunde (DESTEK) |
+| IZLEME | Magicma Günlük Üst Çizgi | 0,00 | +14,8% | fiyat ustunde (DESTEK) |
+
+## BKNUSDT — fiyat 0,07
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| IZLEME | Magicma Günlük Üst Çizgi | 0,08 | -12,6% | fiyat altinda (DIRENC) |
+| IZLEME | Magicma Günlük Alt Çizgi | 0,08 | -14,6% | fiyat altinda (DIRENC) |
+
 ## SERNT — fiyat 7,69
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
@@ -2149,12 +2485,25 @@
 | IZLEME | Magicma Günlük Alt Çizgi | 8,80 | -12,7% | fiyat altinda (DIRENC) |
 | IZLEME | Magicma Günlük Üst Çizgi | 8,84 | -13,0% | fiyat altinda (DIRENC) |
 
+## XTZUSDT — fiyat 0,23
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| IZLEME | Magicma Günlük Üst Çizgi | 0,27 | -12,7% | fiyat altinda (DIRENC) |
+
 ## ADBE — fiyat 275,30
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
 |---|---|---|---:|---|
 | IZLEME | Magicma Günlük Alt Çizgi | 244,19 | +12,7% | fiyat ustunde (DESTEK) |
 | IZLEME | Magicma Günlük Üst Çizgi | 242,57 | +13,5% | fiyat ustunde (DESTEK) |
+
+## AOUSDT — fiyat 2,54
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| IZLEME | Magicma Günlük Alt Çizgi | 2,25 | +12,9% | fiyat ustunde (DESTEK) |
+| IZLEME | Magicma Günlük Üst Çizgi | 2,21 | +14,8% | fiyat ustunde (DESTEK) |
 
 ## LUMIAUSDT — fiyat 0,09
 
@@ -2198,6 +2547,20 @@
 | IZLEME | Magicma Günlük Üst Çizgi | 119,22 | +13,1% | fiyat ustunde (DESTEK) |
 | IZLEME | Magicma Günlük Alt Çizgi | 118,38 | +13,9% | fiyat ustunde (DESTEK) |
 
+## GRASSUSDT — fiyat 0,33
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| IZLEME | Magicma Günlük Alt Çizgi | 0,38 | -13,3% | fiyat altinda (DIRENC) |
+| IZLEME | Magicma Günlük Üst Çizgi | 0,38 | -13,8% | fiyat altinda (DIRENC) |
+
+## TRACUSDT — fiyat 0,36
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| IZLEME | Magicma Günlük Üst Çizgi | 0,32 | +13,3% | fiyat ustunde (DESTEK) |
+| IZLEME | Magicma Günlük Alt Çizgi | 0,32 | +14,1% | fiyat ustunde (DESTEK) |
+
 ## TUKAS — fiyat 2,01
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
@@ -2209,6 +2572,12 @@
 | Etiket | Seviye | Değer | Mesafe | Yön |
 |---|---|---|---:|---|
 | IZLEME | Magicma Günlük Üst Çizgi | 0,00 | -13,3% | fiyat altinda (DIRENC) |
+
+## BLESSUSDT — fiyat 0,01
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| IZLEME | Magicma Günlük Alt Çizgi | 0,01 | +13,5% | fiyat ustunde (DESTEK) |
 
 ## DYDXUSDT — fiyat 0,12
 
@@ -2224,12 +2593,24 @@
 | IZLEME | Magicma Haftalık -2 | 17,56 | -13,8% | fiyat altinda (DIRENC) |
 | IZLEME | Magicma Haftalık -1 | 17,62 | -14,1% | fiyat altinda (DIRENC) |
 
+## ZENUSDT — fiyat 5,72
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| IZLEME | Magicma Günlük Alt Çizgi | 5,03 | +13,9% | fiyat ustunde (DESTEK) |
+
 ## SEIUSDT — fiyat 0,05
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
 |---|---|---|---:|---|
 | IZLEME | Magicma Günlük Üst Çizgi | 0,05 | -13,9% | fiyat altinda (DIRENC) |
 | IZLEME | Magicma Günlük Alt Çizgi | 0,05 | -14,5% | fiyat altinda (DIRENC) |
+
+## USELESSUSDT — fiyat 0,07
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| IZLEME | Magicma Günlük Üst Çizgi | 0,06 | +13,9% | fiyat ustunde (DESTEK) |
 
 ## IZENR — fiyat 8,42
 
@@ -2257,6 +2638,12 @@
 | Etiket | Seviye | Değer | Mesafe | Yön |
 |---|---|---|---:|---|
 | IZLEME | Magicma Günlük Üst Çizgi | 16,50 | +14,2% | fiyat ustunde (DESTEK) |
+
+## ENSUSDT — fiyat 5,89
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| IZLEME | Magicma Günlük Alt Çizgi | 5,16 | +14,2% | fiyat ustunde (DESTEK) |
 
 ## RENDERUSDT — fiyat 1,41
 
@@ -2295,6 +2682,12 @@
 |---|---|---|---:|---|
 | IZLEME | Magicma Günlük Üst Çizgi | 0,01 | -14,9% | fiyat altinda (DIRENC) |
 
+## MOCAUSDT — fiyat 0,01
+
+| Etiket | Seviye | Değer | Mesafe | Yön |
+|---|---|---|---:|---|
+| IZLEME | Magicma Günlük Üst Çizgi | 0,01 | -15,0% | fiyat altinda (DIRENC) |
+
 ## SOLUSDT — fiyat 92,44
 
 | Etiket | Seviye | Değer | Mesafe | Yön |
@@ -2303,4 +2696,4 @@
 
 ## Okunamayanlar
 
-NASDAQ:SPCX
+BINANCE:GRAMUSDT, BINANCE:QQQBUSDT, BINANCE:NFPUSDT, BINANCE:SPYBUSDT, MEXC:AIDOGEUSDT, NASDAQ:SPCX, MEXC:STONKUSDT, MEXC:HMMUSDT, MEXC:PODUSDT, MEXC:ALIGNUSDT, BYBIT:GRVTUSDT, MEXC:STONKBROKERUSDT, MEXC:ANSEMUSDT, BYBIT:KIIUSDT, MEXC:PONSUSDT, MEXC:KAIOUSDT, MEXC:JIMOTHYUSDT, MEXC:DRVUSDT, MEXC:CHONKETHAUSDT, MEXC:DRBUSDT, MEXC:TENDIESUSDT, MEXC:NESUSDT
