@@ -1265,3 +1265,20 @@ cevabını hâlâ vermedi, "carry trade" terimini bir kez bile kullanmadı.
 "pozda zaten ısrar edemeyiz", "yukarı gittikçe short oynarsak kazanç". Buna karşılık
 aynı gün paylaştığı XAUUSD/NASDAQ aylık grafiği 5-10 yıllık altın lehine kurulum
 gösteriyor. **İki pencere karıştırılmamalı** — biri 3 haftalık, diğeri on yıllık.
+
+## 2026-08-23 — MagicMA taraması
+
+- CDP 9222 kapalıydı; `CHROME_X_SESSIZ.bat` cmd üzerinden başlatılamadı
+  (süreç açılmadı). Çözüm: PowerShell `Start-Process` ile aynı profil
+  (`%LOCALAPPDATA%\ekonomikocu_x_session`) + `--remote-debugging-port=9222`
+  ve doğrudan `https://tr.tradingview.com/chart/zOsq3cIW/` açıldı. CDP geldi.
+- `magicma_tara_dayanikli.py` ile tarama: **407/408 okundu, kopma yok**
+  (~16 dk). Rapor: `magicma/magicma_rapor_2026-08-23.md` (308 sembol ≤%15).
+- İşlem adayları (≤%0,25): **17 satır** —
+  `magicma/magicma_islem_adaylari_2026-08-23.md`. En yakınlar: ASTERUSDT
+  (G-Üst, short), NEARUSDT (G-Üst, long), EURCAD (G-Alt/Üst, long).
+- **Taranamayan: NASDAQ:SPCX** — iki ayrı denemede de "timeout / deger 0".
+  Listede notu "doğrulanan kod" diyor ama artık veri gelmiyor (delist/veri
+  kesilmiş olabilir). Doğru alternatif kod bilinmediği için sembol listesi
+  DEĞİŞTİRİLMEDİ; kullanıcı kararı bekleniyor.
+- Push: commit `b1d2436`.
