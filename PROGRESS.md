@@ -1370,3 +1370,21 @@ gösteriyor. **İki pencere karıştırılmamalı** — biri 3 haftalık, diğer
 ### 3) Push
 - `1f2ea0d` (gunun_hareketlileri script + ilk liste), `f4fafab` (11_DIS_KAYNAKLAR) ve
   guncel liste + bu PROGRESS kaydi tek pushta `origin main`'e gonderildi.
+
+## 2026-08-23 (oturum 3) — CryptoBubbles taramasi tazelendi
+
+- `py -3 99_BOT_ARSIV/kod/gunun_hareketlileri_guncelle.py` calistirildi (17:17).
+- Sonuc: 1000 coin tarandi, |day| >= %5 esigini **150** coin gecti, USDT paritesi
+  bulunan **133** sembol yazildi (dosya 135 satir, 2 satiri baslik).
+- Borsa dagilimi: MEXC=58, BINANCE=51, BYBIT=20, GATEIO=3, KUCOIN=1.
+  Onceki calistirmaya gore (MEXC 62) MEXC agirligi hafif azaldi ama hala en buyuk
+  paya sahip — MagicMA taramasinda "Okunamayanlar" bolumu bu yuzden izlenmeli.
+- USDT paritesi olmayip atlananlar (17): TON, HEX, PLSX, PLS, KNTQ, NEET, PTGC, INC,
+  PUMPCADE, CLASH, THOR, LFI, MCOIN, DEXT, PURPE, LCX, QAI.
+  Not: **TON** bu listede olmamali — buyuk cap bir coin, cryptobubbles `symbols`
+  alaninda oncelik listemizdeki borsalarin hicbirini vermemis. Manuel sabit listeye
+  BINANCE:TONUSDT olarak eklenmesi degerlendirilebilir.
+- Gunun ucu: DENT +%127,7 (tek basina siradisi), TUT +%43,6, ALON +%32,0, STONK +%31,8;
+  dusen tarafta QAI -%61,7, TAC -%32,9, LCX -%25,5.
+- Uzerine yazma davranisi yine dogrulandi: onceki 129 sembollu liste tamamen yenisiyle
+  degisti, birikme yok.
