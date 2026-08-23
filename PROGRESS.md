@@ -1336,3 +1336,37 @@ gösteriyor. **İki pencere karıştırılmamalı** — biri 3 haftalık, diğer
   BU MAKİNEDE YOK. `C:\Users\ida\Desktop\ekonomikocu` origin/main ile birebir senkron
   (0 ahead / 0 behind), reflog'da da bu commit'ler geçmiyor. O iki commit başka bir
   ortamda (muhtemelen bulut oturumu) duruyor; oradan push edilmeleri gerekiyor.
+
+---
+
+## 2026-08-23 (oturum 2) — 11_DIS_KAYNAKLAR iki yeni kaynak + gunun hareketlileri
+
+### 1) `11_DIS_KAYNAKLAR.md` — eksik iki blok yeniden yazildi
+- Onceki oturumda "baska ortamda duruyor" denen `6ff1c3c` / `06bb658` commit'leri hala
+  bu makinede yok; icerik grep ile kontrol edildi (`22 Ağustos 2026 (cumartesi` ve
+  `Program 4 — Küresel Piyasalar` yok), bu yuzden **iceriik elle yeniden eklendi**.
+- **Barış Soydan → 22 Ağustos 2026 (cumartesi yayını)** + `KARNE EK 2 — Barış Soydan`
+  (5 satir). Bolumun sonuna, `## INTEGRAL FX TV` basligindan hemen once eklendi.
+- **Berk Dinçtürk → Program 4 (BloombergHT, 20 Ağustos 2026)** + `KARNE EK — Berk
+  Dinçtürk (Program 4)` (7 satir). Program listesinin sonuna, `## TUNÇ ŞATIROĞLU`
+  ayracindan once eklendi.
+- Toplam +104 satir, **0 silme** (mevcut icerik hic bozulmadi).
+- Icerikteki en kritik yeni veri: **US10Y %4,75 = Hazine geri alim tolerans tavani**
+  (Dincturk/Bessent) — Koc'un merdiveninde 68 (4,68) basamaginin hemen ustu. Iki
+  bagimsiz kaynak ayni bolgeyi kritik esik isaretliyor; sonraki taramada US10Y canli
+  seviyesiyle test edilmeli.
+
+### 2) `gunun_hareketlileri_guncelle.py` — kendi-testleri
+- **Test 1 (uzerine yazma) — GECTI.** 15:10 calistirmasi 123 sembol, 15:21 calistirmasi
+  129 sembol uretti. Dosya basligi damgasi degisti, hash degisti, satir sayisi 125→131.
+  **11 sembol listeden dustu** (TRUMP, ALICE, MUBARAK, SPX, NYM, GAME2, ARW, ELF, LAB,
+  MELANIA, REDO), 17 yenisi girdi → birikme yok, gercekten uzerine yaziliyor.
+- **Test 2 (MEXC/GATEIO/KUCOIN oneklerinin TradingView'de MagicMA seviyesi uretmesi) —
+  TEST EDILEMEDI.** CDP portu (127.0.0.1:9222) kapali, Chrome debug oturumu yok.
+  **Ilk canli MagicMA taramasinda gozlemlenmeli:** rapordaki "Okunamayanlar" bolumu
+  kabarikse borsa oncelik sirasi (BORSA_SIRA) daraltilmali — su anki dagilimda
+  semboller agirlikli MEXC (62) uzerinden geliyor.
+
+### 3) Push
+- `1f2ea0d` (gunun_hareketlileri script + ilk liste), `f4fafab` (11_DIS_KAYNAKLAR) ve
+  guncel liste + bu PROGRESS kaydi tek pushta `origin main`'e gonderildi.
