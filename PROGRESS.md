@@ -1282,3 +1282,20 @@ gösteriyor. **İki pencere karıştırılmamalı** — biri 3 haftalık, diğer
   kesilmiş olabilir). Doğru alternatif kod bilinmediği için sembol listesi
   DEĞİŞTİRİLMEDİ; kullanıcı kararı bekleniyor.
 - Push: commit `b1d2436`.
+
+## 2026-08-23 — X taraması (son 1-2 gün)
+
+- Ön hazırlık: CDP sekmesi `x.com/ekonomikocu/with_replies`'e alındı (10 article),
+  TradingView sekmesi kapatıldı. Log doğrulaması: **"Profil acik — devam"** —
+  arama akışına düşülmedi, abone akışı tarandı.
+- Hesap kontrolü OK (@420cryptofarmer). `tara_guvenli.py` artımlı tarama:
+  **7009 → 7017 (+8 kayıt)**, en yeni kayıt 2026-08-22T22:02:58.
+  Yeni kayıtların tamamı 22 Ağustos 20:31–22:02 aralığı; **23 Ağustos'ta
+  (bugün) hesapta yeni tweet yok.**
+- 22 Ağustos toplamı 23 kayıt; ana tema: ABD'nin borsa/kripto üzerinden
+  "zaman geçirme" stratejisi, ETF eleştirisi, ALTIN baskılama, OBO bozulması,
+  "fiyat yükseliyor ama yıllar boşa geçiyor" vurgusu.
+- Sınıflandırma tam: 7017/7017 `analyzed:true`. Paket (00–10) otomatik üretildi
+  ve push edildi — commit `4071410`. 05_GRAFIKLER.zip commit'te YOK (untracked
+  kalmaya devam ediyor), yeni LFS objesi doğmadı.
+- LFS uyarısı yine %84 (861/1024 MB) — kota donmuş durumda, artış yok.
