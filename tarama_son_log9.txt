@@ -193,3 +193,203 @@ GUNCEL TARAMA BITTI
   Yeni flood : +0  (toplam 1863)
   En yeni kayit: 2026-08-24T23:48:11
 ==================================================
+Koç dili guncellendi: 7110 public tweet
+Analiz: 7148 | izleniyor: 942 | alinti-onceden: 63 | alinti-sonradan: 1
+Guncellendi: ekonomikocu_hafiza_v1.md, cekilen_tweetler.jsonl
+Indirilecek eksik gorsel yok.
+  Reklam/kirli atlandi: 13 satir (pakette yok)
+
+Claude'a AT — kok klasor, sirayla:
+  1. 01_BURADAN_BASLA.md
+  2. 02_MENTOR_REHBERI.md
+  3. 03_HAFIZA.md
+  4. 04_TWEETLER.jsonl
+  5. 05_GRAFIKLER.zip  (112.0 MB, 735 grafik)
+  6. 06_ANALIZ.md  (analiz — dokunulmadi)
+  --- Gemini (kok klasor) ---
+  7. 07_ABONE_TWEETLER.jsonl  (opsiyonel)
+  8. 08_TWEETLER_GEMINI.md
+  9. 09_GRAFIKLER_GEMINI/  (735 jpg)
+  10. 10_ABONE_TWEETLER_GEMINI.md
+  11. 11_DIS_KAYNAKLAR.md  (Koc disi analistler — dokunulmadi)
+  Yukleme kilavuzu: 00_OKU_YUKLEME_SIRASI.txt
+  Kok klasorde 00-11 alt alta (Explorer en ust)
+# TARAMA 2026 (@ekonomikocu)
+
+**Guncelleme:** 2026-08-25T00:01:02
+
+## Ozet
+
+> **Genel tamamlanma: 100.0%**
+>
+> Hedef: **2026 yilindaki TUM tweetler** + **abone metinleri** + **alintilanan gecmis tweetler** + **#FLOOD parcalari** ? **%100**
+>
+> **Tamam mi?** HAYIR ? tarama devam
+
+| Alan | Tam | Eksik | % |
+|------|-----|-------|---|
+| Ana tweet (2026) | 6855 | 0 (+18 erisilemedi) | **100.0%** |
+| Alinti (2026 kapsami) | 140 | 0 | **100.0%** |
+| #FLOOD kok (2026) | 8 | 0 | **100.0%** |
+
+**En yeni kayit:** 2026-08-24
+
+## Aylik (2026)
+
+| Ay | Metinli | Bos | % |
+|----|---------|-----|---|
+| 2026-01 | 70 | 0 | 100.0% |
+| 2026-02 | 420 | 0 | 100.0% |
+| 2026-03 | 505 | 0 | 100.0% |
+| 2026-04 | 330 | 0 | 100.0% |
+| 2026-05 | 1391 | 0 | 100.0% |
+| 2026-06 | 3559 | 0 | 100.0% |
+| 2026-07 | 281 | 0 | 100.0% |
+| 2026-08 | 299 | 0 | 100.0% |
+
+## Kural
+
+Yeni tweet atildiginda **TARA_2026_GUNCEL.bat** calistir (veya gunluk otomasyon).
+Eksik kalmamali: ana metin, abone, alinti, flood.
+
+---
+*Otomatik: kapsam_2026.py*
+
+# TARAMA DURUMU (@ekonomikocu)
+
+**Guncelleme:** 2026-08-25T00:01:02
+
+## Ozet (Ida'ya)
+
+> **2026-08-24 - 2025-01 sonuna kadar kesintisiz kayit VAR (alt aylarda bosluk/sorun olabilir)**
+>
+> Hedef: **2025-01-01**'e kadar tum tweet + alinti + #FLOOD
+>
+> **Tamam mi?** HAYIR — tarama devam etmeli
+
+| Metrik | Deger |
+|--------|-------|
+| En yeni kayit | **2026-08-24** |
+| En eski kayit (metinli) | **2019-11-28** |
+| Surekli tamam kadar | **2025-01-sonu** |
+| Ana tweet (metinli) | **6970** |
+| Abone (metinli) | **3434** |
+| Bos / kilitli (eksik) | **0** |
+| Alinti eksik | **4** (+ bekleyen dosya: 12) |
+| #FLOOD kok / eksik tahmin | **8** / **1** |
+
+## Eksik aylar / sorunlu donemler
+
+- (yok)
+
+## Son 12 ay (metinli ana tweet)
+
+| Ay | Adet |
+|----|------|
+| 2026-08 | 299 |
+| 2026-07 | 281 |
+| 2026-06 | 3559 |
+| 2026-05 | 1391 |
+| 2026-04 | 330 |
+| 2026-03 | 505 |
+| 2026-02 | 420 |
+| 2026-01 | 70 |
+| 2025-11 | 1 |
+| 2025-09 | 12 |
+| 2025-08 | 8 |
+| 2025-07 | 8 |
+
+## Bot is akisi (hedef)
+
+1. **Profil** — gunumuzden geriye kaydir (hedef: 2025-01-01)
+2. **Alinti** — alintilanan gecmis tweetlerin metni
+3. **#FLOOD** — thread parcalari
+4. **Abone** — kilitli/bos metinleri doldur
+5. Bu dosyayi guncelle: `python 99_BOT_ARSIV/kod/kapsam_durum.py`
+
+Tek komut: `python 99_BOT_ARSIV/kod/tara_tam.py`
+
+---
+*Otomatik: kapsam_durum.py*
+
++ git remote set-url origin https://github.com/winegg420/ekonomikocu.git
++ git add -A
+warning: in the working copy of '09_GRAFIKLER_GEMINI/2071336123582894247_graf_01.jpg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '09_GRAFIKLER_GEMINI/2089315785013366957_graf_01.jpg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '99_BOT_ARSIV/kod/tweet_tara.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tarama_son_log8.txt', LF will be replaced by CRLF the next time Git touches it
++ git diff --cached --quiet
++ git commit -m Tarama: guncel + siniflandirma + paket (2026-08-24T23:48:11) [otomatik]
+[main 3d63305] Tarama: guncel + siniflandirma + paket (2026-08-24T23:48:11) [otomatik]
+ 85 files changed, 3644 insertions(+), 1077 deletions(-)
+ create mode 100644 09_GRAFIKLER_GEMINI/1864658150214779386_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/1924941677141057910_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2076399110748266805_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2077481208552849453_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2090115255946924519_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2090181711195754920_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2090385551232766398_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2090389761487761640_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2090519751705448662_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2090581540199620726_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2090901704841515062_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2090902360126029868_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2091143534774505513_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2091144119535943706_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2091147404435210540_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2091151598655353051_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2091152806954578364_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2091205582770581790_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2091845057523450091_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2091852225941275086_graf_01.jpg
+ create mode 100644 medya/1864657169456496969/graf_01.jpg
+ create mode 100644 medya/1864658150214779386/graf_01.jpg
+ create mode 100644 medya/1924941677141057910/graf_01.jpg
+ create mode 100644 medya/2076399110748266805/graf_01.jpg
+ create mode 100644 medya/2077481208552849453/graf_01.jpg
+ create mode 100644 medya/2090030079963177148/graf_01.jpg
+ create mode 100644 medya/2090057287935111211/graf_01.jpg
+ create mode 100644 medya/2090069600398389434/graf_01.jpg
+ create mode 100644 medya/2090073963107946503/graf_01.jpg
+ create mode 100644 medya/2090115255946924519/graf_01.jpg
+ create mode 100644 medya/2090121935963263123/graf_01.jpg
+ create mode 100644 medya/2090128531401359598/graf_01.jpg
+ create mode 100644 medya/2090174955165974770/graf_01.jpg
+ create mode 100644 medya/2090175731108090289/graf_01.jpg
+ create mode 100644 medya/2090181711195754920/graf_01.jpg
+ create mode 100644 medya/2090182185949000031/graf_01.jpg
+ create mode 100644 medya/2090183559268982912/graf_01.jpg
+ create mode 100644 medya/2090349204333867110/graf_01.jpg
+ create mode 100644 medya/2090385551232766398/graf_01.jpg
+ create mode 100644 medya/2090385669885407736/graf_01.jpg
+ create mode 100644 medya/2090389761487761640/graf_01.jpg
+ create mode 100644 medya/2090519751705448662/graf_01.jpg
+ create mode 100644 medya/2090581402538418205/graf_01.jpg
+ create mode 100644 medya/2090581540199620726/graf_01.jpg
+ create mode 100644 medya/2090901295917936672/graf_01.jpg
+ create mode 100644 medya/2090901704841515062/graf_01.jpg
+ create mode 100644 medya/2090902360126029868/graf_01.jpg
+ create mode 100644 medya/2090905547725836521/graf_01.jpg
+ create mode 100644 medya/2091141670230237362/graf_01.jpg
+ create mode 100644 medya/2091143534774505513/graf_01.jpg
+ create mode 100644 medya/2091144119535943706/graf_01.jpg
+ create mode 100644 medya/2091147404435210540/graf_01.jpg
+ create mode 100644 medya/2091147514242019802/graf_01.jpg
+ create mode 100644 medya/2091148402197217627/graf_01.jpg
+ create mode 100644 medya/2091151598655353051/graf_01.jpg
+ create mode 100644 medya/2091152806954578364/graf_01.jpg
+ create mode 100644 medya/2091205582770581790/graf_01.jpg
+ create mode 100644 medya/2091206959429038492/graf_01.jpg
+ create mode 100644 medya/2091845057523450091/graf_01.jpg
+ create mode 100644 medya/2091845825412383127/graf_01.jpg
+ create mode 100644 medya/2091849127101415761/graf_01.jpg
+ create mode 100644 medya/2091852225941275086/graf_01.jpg
+ create mode 100644 medya/2091987334870843809/graf_01.jpg
+ create mode 100644 tarama_son_log9.txt
++ git push -u origin main
+To https://github.com/winegg420/ekonomikocu.git
+   4f60faf..3d63305  main -> main
+branch 'main' set up to track 'origin/main'.
+GitHub guncellendi: https://github.com/winegg420/ekonomikocu.git
+[LFS] Depo kullanimi: 861 MB / 1024 MB (%84) | 163 MB bos | kullanim SABIT (2026-08-02'den beri tarama LFS'e yeni surum eklemiyor)
+EXIT=0

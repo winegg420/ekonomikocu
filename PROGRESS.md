@@ -1518,3 +1518,52 @@ Emrah Altınocağı (değerleme metodolojisi).
 
 **Karne:** 15 sınanabilir iddia İZLENİYOR olarak eklendi. Acemoğlu girişi fiyat/seviye
 içermediği için karneye alınmadı.
+
+---
+
+## 2026-08-25 — Tarama + analiz: öğreti kartı ve "merdiven usulü" çözüldü
+
+**Yapılan:** `tara_guvenli.py` ile güncel tarama (7.017 → **7.153 kayıt, +136**),
+40+ yeni grafik indi, paket (00-10) üretildi, GitHub'a push edildi (`3d63305`).
+Ardından 135 yeni kaydın tamamı ve 15 görsel okunarak `06_ANALIZ.md`'ye
+**2026-08-25** tarihli bölüm eklendi (+245 satır, 1226 → 1471).
+
+**Kritik hata ve düzeltmesi (tarama):** İlk üç koşum "yeni tweet yok" verdi ve
+otomatik commit attı — yani **başarılı görünüp veri getirmedi**. İki ayrı sebep vardı:
+
+1. Chrome CDP portu kapalıydı → `CHROME_X.bat` ile açıldı.
+2. `tweet_tara.py` profil akışı yüklenmeden `timeline_tweet_count(page) < 5`
+   kontrolünü yapıp `from:ekonomikocu` **arama akışına** düşüyordu. X araması
+   abone-özel tweetleri indekslemediği için 19-24 Ağustos arası **altı gün** hiç
+   gelmedi.
+
+**Kod değişikliği (minimal):** `tweet_tara.py` içinde fallback kararından ÖNCE mevcut
+`wait_for_profile_feed(page)` yardımcısı + ≥5 article için kısa bekleme eklendi.
+Sonuç: log artık `Profil acik — devam` diyor. Sekme yine de elle `with_replies`e
+alınmalı — Posts sekmesi ~4 article render ediyor, eşiğin altında kalıyor.
+
+**Analizin üç ana bulgusu (üçü de yalnızca görsellerin içindeydi):**
+
+1. **Öğretinin kendi kartı** (22 Ağu, `2091141670230237362`): *"Yeni sayımız 5.7'dir
+   ve dünyanın pivotudur. Her varlıkta geçerlidir."* Merdiven **5.7 — 6 — 9.2 — 106**.
+   Kural: 5.7 üstünde kalış = düşemez; 6'yı kesiş = yükseliş; 6 kırılıp 5.7 altında
+   **kapanış** = düşmek zorunda. → 68/76/84 basamakları **ara duraklar**, tetik değil.
+   Bu, önceki bölümün türetimini çürütmüyor, **mertebesini ayırıyor**.
+2. **Ürün karşılıkları:** BTC 57K/60K/92K/106K, ETH 2.570 (5.7) → 3.060 (6),
+   NASDAQ 29.200 = 9.2. 7 Haziran'daki *"BTC 60 K üstü kalış pozitif"* cümlesi kartla
+   birebir aynı sayıyı kullanıyor — sistem geriye dönük tutarlı.
+3. **"Merdiven usulü" ≠ öğreti merdiveni.** Öğreti merdiveni = fiyat basamağı;
+   merdiven usulü = zaman geçirme tekniği ve **kadansı sayısal**:
+   2 ay hareket + 4 ay yatay = 6 ay/basamak, iki basamak = 1 yıl ("bir sene çöp olur").
+
+**Düzeltme:** 2026-08-22 bölümündeki "ETHUSD 2.570 üstü" satırı yanlıştı. 22 Ağustos
+günlük grafiğinde ETH **2.425**, yani tetiğin **altında**; 2.731,70 hedefi için Koç'un
+kendi notu *"Ulaşamadı…"*.
+
+**Yeni takvim çıpaları:** 28 Ağustos (FED başkanı konuşması), **2 Eylül** (ALTIN,
+4640 robot), 15 Eylül (vade sonu), **24 Eylül** (Çin devleti ABD ziyareti — 3. vadenin
+teması sorusuna ilk somut cevap).
+
+**Çıkarım/gözlem:** "Tarama başarılı göründü ama veri gelmedi" senaryosu bu projede
+tekrar eden bir tuzak. Doğrulama refleksi: tarama bitince **arşivin en yeni kaydının
+tarihi bugüne yakın mı** diye bak; değilse profil akışını elle kontrol et.

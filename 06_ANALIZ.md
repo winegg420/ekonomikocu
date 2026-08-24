@@ -1224,3 +1224,248 @@ atlamamak gerekiyor.**
 
 Tarama bu turda `with_replies` kuralına uyularak tek turda tamamlandı
 (bölüm 18'deki çözüm doğrulandı, +18 kayıt, commit `fc35b48`).
+
+---
+
+## 2026-08-25 — ÖĞRETİNİN KENDİ KARTI + "MERDİVEN USULÜ" (19-24 Ağustos, 135 yeni kayıt)
+
+**Kapsam:** `77364e7` (7.009 kayıt) ile bugünkü arşivin tweet_id karşılaştırması =
+**135 yeni kayıt** (19 Ağu 45, 20 Ağu 13, 21 Ağu 23, 22 Ağu 23, 24 Ağu 25, geriye
+dolan 6). Görseller tek tek açıldı; bu bölümdeki **en değerli üç bulgunun üçü de
+yalnızca görselin içindeydi** — düz metinde yoktu.
+
+**Tarama notu:** Bu turda ilk üç koşum "yeni tweet yok" verdi. Sebep, arama akışına
+düşülmesiydi; sekme `with_replies`e alınıp `tweet_tara.py`ye profil-akışı bekleme
+adımı eklenince +136 kayıt geldi. Yani **19-24 Ağustos arası altı gün arşivde hiç
+yoktu.**
+
+### 1. ⭐ ÖĞRETİ ARTIK TÜRETİM DEĞİL — KOÇ'UN KENDİ YAZILI KARTI ELİMİZDE
+
+22 Ağustos 15:33'te (`2091141670230237362`) öğretinin tanımını **kendi kartıyla**
+paylaştı. Bölüm 11 ve 2026-08-22 bölümü bunu türetmişti; artık kaynak birinci elden:
+
+> **"Yeni sayımız 5.7'dir ve dünyanın pivotudur. Her varlıkta geçerlidir."**
+>
+> `5.7 ——— 6 ——— 9.2 ——— 106`
+>
+> **"Bir varlık 5.7'nin üstünde kalıyorsa düşemez ve 6'yı yukarı keser, yükselişe
+> devam eder. Eğer ki 6 aşağı kırılıyor ve 5.7 altında kapanış geliyorsa varlık
+> düşmek zorunda kalır veya çıkış için acele etmez."**
+
+**Bu, önceki bölümü çürütmüyor — mertebesini ayırıyor.** Elimizde iki farklı liste var
+ve karıştırılırsa yanlış hedef çıkar:
+
+| | Kaynak | İçerik | İşlevi |
+|---|---|---|---|
+| **Ana çıpalar** | 22 Ağu kartı | **5.7 — 6 — 9.2 — 106** | Pivot + tetik + üst basamaklar. Karar burada verilir. |
+| **Ara basamaklar** | 19 Haz floodu | 68 — 76 — 84 (+ 88/89 taşma, 125 tavan) | Yalnızca **düşerken** uğranan duraklar. Tetik değil. |
+
+Kritik kural: **karar 5.7 ile 6 arasında verilir.** 5.7 üstünde kalış = düşemez;
+6'yı kesiş = yükseliş devam; 6 kırılıp 5.7 altında **kapanış** = düşmek zorunda.
+"Kapanış" kelimesi önemli — fitille dokunuş sayılmıyor.
+
+### 2. ⭐ ÜRÜN BAZINDA SAYISAL KARŞILIKLAR (görsellerden birinci elden)
+
+Öğretinin "birim serbest" olduğunu biliyorduk; bu turda **hangi ürün hangi rakama
+oturuyor** sorusunun cevabı da geldi:
+
+| Ürün | 5.7 (pivot) | 6 (tetik) | 9.2 | 106 | Kaynak |
+|---|---|---|---|---|---|
+| **BTCUSD** | **57 K** | **60 K** | **92 K** | **106 K** | 22 Ağu görsel `2091143534774505513` — *"5.7'nin majör BTC kanalına uyarlanmış hali 57 K'dır"* |
+| **ETHUSD** | **2.570** | **3.060** | — | — | 21 Ağu haftalık görsel `2090901704841515062` (3060 ve 1379 çizgileri etiketli) |
+| **NASDAQ** | — | — | **29.200** | — | 19 Ağu: *"NASDAQ 29200'e düştü... 9.2 öğretisi"* |
+| **ETHTRY** | — | — | — | — | 22 Ağu: **120.600** "kafa attı" (Mayıs seviyesi) |
+
+**BTC 60 K'nın bağımsız teyidi:** 7 Haziran 2026 tweetinin ekran görüntüsü
+(`2090183559268982912`) bu turda yeniden paylaşıldı:
+*"Ağustos 3. haftaya kadar #BTC özelinde yazıyorum, **60 K üstü kalış pozitif olur.**
+Burada geçirilmesi gereken bir zaman dilimi olabilir."*
+Yani kart (60 = tetik) ile üç ay öncesinin pozisyon cümlesi **birebir aynı sayıyı**
+kullanıyor. Sistem geriye dönük tutarlı.
+
+**ETH için türetilebilir hedef:** 2.570 (5.7) geçilirse kartın kuralı gereği hedef
+**3.060 (6)**. Koç 22 Ağustos'ta bunu sayı vermeden söyledi:
+*"2570 geçerse tetiklenir. **Altı sandıcıdır.**"*
+
+### 3. ⚠️ DÜZELTME — ETH 22 Ağustos'ta 2.570'in ALTINDAYDI
+
+2026-08-22 bölümündeki tabloda "ETHUSD 2.570 üstü → 57 kırıldı" yazıyordu.
+22 Ağustos 16:12'de paylaşılan ETHUSD **günlük** grafiği (`2091151598655353051`)
+fiyatı **2.425,23** gösteriyor ve mavi hedef çizgisi **2.731,70** için Koç'un notu:
+**"Ulaşamadı…"**
+
+Doğrusu: ETH 22 Ağustos itibarıyla **2.570 tetiğinin altında**, yani kartın diliyle
+"çıkış için acele etmez" bölgesinde. Koç'un aynı gece söylediği
+*"Bu fiyatlar bir yükseliş değildir… seni sadece Haziran değerine çekti"* ve
+*"Biz olmamız gereken değerdeyiz şu an"* cümleleri bununla tutarlı.
+**Önceki tablonun ETH satırı bu bölümle düzeltilmiştir.**
+
+### 4. ⭐ "MERDİVEN USULÜ" — ÖĞRETİ MERDİVENİYLE AYNI ŞEY DEĞİL
+
+24 Ağustos'ta yeni bir kavram girdi ve adı benzediği için karışmaya çok açık:
+
+- **Öğreti merdiveni** = *fiyat basamakları* (5.7-6-9.2-106). Varlığın nerede
+  olduğunu söyler.
+- **Merdiven usulü** = *zaman geçirme tekniği*. Sürecin nasıl yönetildiğini söyler.
+
+> *"Piyasalar düşmesin deyip **merdiven usulü** yükseltirsin."*
+> *"Bir kerede indirmez de düşerken de merdiven yaparlar. O da bir zaman geçirmeye girer."*
+
+Ve şematik görsel (`2091849127101415761`) **kadansı sayısallaştırıyor:**
+
+```
+YÜKSELTİRKEN            DÜŞÜRÜRKEN
+2 ay yükselt            2 ay düşür
+4 ay yatay              4 ay yatay
+2 ay yükselt            2 ay düşür
+4 ay yatay              4 ay yatay
+→ "Bir sene çöp olur."  → "Bir sene çöp oldu."
+```
+
+**Çıkarım (bizim, Koç bu cümleyi kurmadı):** bir basamak = **2 ay hareket + 4 ay yatay
+= 6 ay**; iki basamak = bir yıl. Bu, önceki bölümdeki **90 günlük vade** ve
+**60 günlük takvim** kurallarıyla çelişmiyor, onları çerçeveliyor: 4 aylık yatay
+dilim, 90-100 günlük "çalınan zaman"ın tam olarak sığdığı yer.
+BTC H4 örneği (`2091845057523450091`, "Merdiven misali") tekniği canlı gösteriyor:
+zaman geçir (~87 K) → yukarı al → zaman geçir (~97 K) → yukarı al → zaman geçir (~106 K).
+
+### 5. ZAMAN HIRSIZLIĞI TEZİ SAYISALLAŞTI
+
+19 Ağustos gecesi tez ilk kez aritmetikle kuruldu:
+
+> *"Yıl zaten 365 gündür. Hafta sonları ve özel günleri çıkarsak **250 işlem günü**
+> var. **90 gün çaldın! Geriye kaldı 160 gün.** Farklı dönemlerde yine çalıyorlar.
+> **100 gün** anca yönetiyorlar… 100 gün toplam 3 ay demektir. Öbür tarafta adam
+> **365 gün mevduatta** zaten malı götürüyor."*
+
+Bu, Koç'un neden "rakam değil süreç" dediğinin tam gerekçesi:
+*"Benim derdim rakamlarla değil, zamanın boşa harcanmasıyla."*
+24 Ağustos'ta aynı tez fiyatla ölçüldü: **"NASDAQ Haziran ayında bu değerlerdeydi,
+hâlâ aynıdır… geçen zamana bakıyorsun 2,5 ay"** ve
+*"Bitmiş bir filmi 2, 2,5 yıldır boşuna sürdürüyorlar."*
+
+### 6. OBO DENGELEME MEKANİZMASI — iki grafik, tek hamle
+
+21 Ağustos 02:27'de art arda iki grafik attı ve mekanizmayı açıkladı:
+
+- `2090581402538418205` — **NASDAQ H4: tepede OBO** (sol omuz ~30.100, baş ~30.750,
+  sağ omuz oluşuyor; boyun ~29.400-29.600).
+- `2090581540199620726` — **BTCUSD günlük: aşağıda ters OBO** (grafikte fiyat 63.807).
+
+> *"Aşağıdaki OBO yukarı gider, yukarıdaki OBO aşağı gelir. Nasdaq OBO aşağı gelirken
+> BTCUSD OBO yukarı patlıyor, nasdaq düşüşü frenleniyor. Yani **dengeliyorlar**."*
+
+Bu, "kripto ile nasdaq düşüşünü frenletiyorlar" tezinin teknik ispatı olarak sunuldu.
+21 Ağustos 02:23'teki tam açıklama: *"Nisan'da ÇİN görüşmesi ayağına NASDAQ tepeye
+alınıyor ama kripto baskılanıyor. Aylarca nasdaq tepede yatırılıyor. Tam vade sonu
+geliyor, nasdaq düşecek… hafif salarken kriptoyu kaldırıyorlar. Birazda ALTIN kanadını
+yukarı ver, nasdaq ALTIN bazlı ucuz görünsün."*
+
+**Not:** Bu iki görsel Haziran başı ekran görüntüsüdür (eksen 4-8 Haziran'da bitiyor),
+güncel fiyat değildir. Koç zaten *"Ben bunu da anlatmıştım"* diyerek geçmişe atıf yapıyor.
+
+### 7. ABD'NİN "KAZAN KAZAN" FORMÜLÜ — mekanizmanın en açık tarifi
+
+24 Ağustos 14:45 (`2091854315040162076`), arşivdeki en derli toplu formül:
+
+> *"Borsalarını ayrı kefeye koyuyorlar. Dünyanın geri kalanına emtia-kripto bırakıyorlar.
+> Kendi borsalarını şişiriyorlar, emtia-kripto baskılıyorlar. Borsalar zorlanınca
+> dünyanın geri kalanına istediğini ver — emtia kripto el ele diriliyor. Millet de böyle
+> şeyleri seviyor, kazanıyor. **ABD de faiz indirmek zorunda kalmıyor. Kazan kazan durumu.**"*
+
+Tamamlayıcı cümle (24 Ağu 15:45): *"Bizleri gazlamasalar dolar dayak yemez. Dolar dayak
+yemediği için enflasyon soğur, faiz indirmek zorunda kalırlar."* — Yani **kripto/emtia
+rallisi, faiz indirimini geciktiren bir araç** olarak konumlanıyor. "Yükseliş neden
+sevinilecek şey değil" sorusunun cevabı burada.
+
+24 Ağustos 15:14'te aynı mekanizmanın Ağustos 3. haftaya kadarki uygulaması:
+*"ALTIN'ı zorla 4.000 doların altında, ETH'yi 2.000 doların altında, BTC'yi 60 K'da
+baskılıyorlar. Vade sonu yanaşırken borsalar düşüyor deyip doları zayıflatıyorlar."*
+
+### 8. YENİ TAKVİM ÇIPALARI
+
+| Tarih | Ne | Kaynak |
+|---|---|---|
+| **28 Ağustos (Cuma)** | *"Cuma günü nasılsa FED başkanı konuşması var"* | 24 Ağu 15:14 |
+| **2 Eylül** | **ALTIN**: *"Eylül 2. güne kadar zamanı var. **4640 robot** koydular. Altı satış baskısı, üstü bekletirler."* | 24 Ağu 23:36 |
+| **15 Eylül** | 90 günlük vade sonu (önceki bölümden) | — |
+| **24 Eylül** | ⭐ *"Eylül 24'te ÇİN devleti ABD'yi ziyaret edecek dediler. Grafiklere bakıyorum, **o dönemi yine önemsiyor**."* | 22 Ağu 22:02 |
+
+**24 Eylül, bölüm 10'un 1. maddesine (3. vadenin teması) ilk somut cevap.** 1. vade =
+gümüş (Çin), 2. vade = petrol (ABD) idi; 3. vadenin çıpası yine **Çin-ABD masası**.
+22 Ağustos 00:23'te aynı olayın piyasa sonucunu da yazmıştı:
+*"Gümüşü de aşağıda tutuyorlar. Xi Jinping ABD'yi ziyaret edecek. Aşağıdan bahane ile
+onu da kaldırsalar al başına iş…"* → **izlenecek: 24 Eylül öncesi gümüş kaldırılırsa.**
+
+### 9. PİYASA İÇİ GÖSTERGELER (görsellerden)
+
+- **OTHERS.D** (`2090905547725836521`): **%7,30** — Haziran'da 8,79 idi.
+  *"Mavi üstüne çıkacak ki tam canlanma gelsin."* Tetik bandı grafikte **~%8,5-9**.
+  Koç'un teşhisi: *"Sadece majörler yürümüş, coinler değer yitirmiş."*
+  → **Ağustos rallisi altcoin rallisi DEĞİL.**
+- **NASDAQ/XAUUSD oranı** (`2091852225941275086`): şu an **6,3**; taban çizgisi **4,6**
+  (2018-2020 ve 2026 başında tutmuş). 2026 başındaki 4,6 sıçramasının etiketi:
+  *"Çin ile anlaştık + İran barışı gazı"*. Koç'un 24 Ağustos notu: **"Şimdi tam tersi"**
+  — yani borsayı altın bazlı düşürme evresi.
+- **NASDAQ H4** (`2091987334870843809`, 24 Ağu): **29.027,70**. Yükselen kanalın alt
+  bandında, Haziran değeriyle aynı. 9.2 basamağının (29.200) **altında**.
+- **ALTIN günlük** (`2090519751705448662`, 20 Ağu): **4.525,95**, Ocak 2026 zirvesinden
+  (~5.548) inen ana direnç çizgisine tam dokunup müdahale gördü. 24 Ağustos'ta robot
+  seviyesi **4.640** olarak verildi → çizgi kırılmış durumda.
+- **NASDAQ uzun vade** (`2091845825412383127`): *"Gün gelecek bu **18 K** bölgesine
+  düşecektir."* Bu sayı öğreti merdiveninde bir basamağa oturmuyor; **yapısal hedef**
+  olarak ayrı tutulmalı, merdivenle karıştırılmamalı.
+
+### 10. ÖNCEKİ BÖLÜMÜN AÇIK İŞLERİ — durum
+
+| # | Açık iş | Durum |
+|---|---|---|
+| 1 | 3. vadenin teması | **Kısmen kapandı** — 24 Eylül Çin-ABD ziyareti (bölüm 8) |
+| 2 | Japonya sorusunun cevabı | **Hâlâ açık** (5. oturum). Bu turda JGB'ye hiç değinmedi; yalnızca DXY sepeti içinde *"JPY değer kaybediyor ama EUR değerleniyor, orada dahi ayrımcılık yapıyorlar"* (22 Ağu 00:39) |
+| 3 | 15 Eylül testi | Açık, 3 hafta kaldı |
+| 4 | US10Y 4,60 izlemesi | **Teyit** — 21 Ağu: *"Dengesi zaten **4570** bunun. ABD borsalarına göre konuşuyorum."* Tez korunuyor |
+| 5 | 20 Ağustos gün içi boşluğu | **KAPANDI** — bu taramada 13 kayıt geldi |
+| 6 | "76 öğretisi" ifadesi aranacaktı | **Cevaplandı, beklendiği gibi değil:** kart 76'yı içermiyor. 76/68/84 ara basamak, tetik değil (bölüm 1) |
+
+### 11. KARNE — bu turda kapanan / güncellenen
+
+| İddia | Tarih | Durum |
+|---|---|---|
+| *"Ağustos 3. hafta"* piyasa dönüm noktası | Haziran'dan beri | ✅ **GERÇEKLEŞTİ** — Koç'un kendi teyidi (19 Ağu 23:49): *"Bu sene kripto iki kere tepki verdi. Birisi NİSAN 7'dir. Birisi Ağustos 3. haftadır."* |
+| Nisan 7 kripto dönüşü | Aylar öncesinden | ✅ **GERÇEKLEŞTİ** (aynı kayıt + `2090181711195754920` görseli) |
+| BTC "60 K üstü kalış pozitif" (Ağustos 3. haftaya kadar) | 7 Haz 2026 | ⏳ Pencere kapandı; **sonucun ölçülmesi için güncel BTC kapanışı gerekiyor** (bu taramada güncel BTC fiyatı gelmedi) |
+| ETH 2.570 tetiği | 22 Ağu | ⏳ **İZLENİYOR** — 22 Ağu'da 2.425, tetiğin altında |
+| ALTIN 4.640 robot / 2 Eylül | 24 Ağu | ⏳ **İZLENİYOR** — sınanabilir, tarihli, seviyeli |
+| NASDAQ 9.2 (29.200) kırılımı | 19 Ağu | ⏳ 24 Ağu'da 29.027 — **basamağın altında**, kart gereği "acele etmez" bölgesi |
+| NASDAQ 18 K uzun vade | 24 Ağu | ⏳ İZLENİYOR (vadesiz) |
+| ETH sağ omuz 7 mum = 49 gün | 21 Ağu | Gözlem; OBO sağ kanadında 7 haftalık mum = 49 gün zaman kaybı |
+
+### 12. YENİ AÇIK İŞLER — sonraki taramada aranacak
+
+1. **24 Eylül öncesi gümüş.** Koç *"aşağıdan bahane ile onu da kaldırsalar al başına iş"*
+   dedi. Gümüş kaldırılırsa 3. vade teması kesinleşir.
+2. **ETH 2.570 kapanışı.** Kart "kapanış" diyor — fitil değil. Geçerse hedef 3.060.
+3. **Merdiven usulünün 2/4 ay kadansı arşive geriye dönük test edilmeli.** BTC 2025
+   Mart-Mayıs örneği uyuyor; NASDAQ 2026 ve ETH 2026 üzerinde de sınanmalı. Uyarsa
+   Koç'un takvim tarihleri **hesaplanabilir** hâle gelir.
+4. **Japonya sorusu** — 5 oturumdur açık; artık bilinçli bir sessizlik olarak
+   değerlendirilmeli.
+5. **BTC'nin güncel yeri.** Bu turda BTC'nin bugünkü fiyatı hiç geçmedi; 57/60 K
+   çıpalarına göre nerede olduğu bir sonraki taramada mutlaka tespit edilmeli.
+6. **"8 yapsan ne olur? 9 yapsan ne olur? Sen işin sonuna bakacaksın"** (24 Ağu 15:04)
+   — büyük ihtimalle 88/89 müdahale taşmasına atıf, ama bağlam eksik. Doğrulanmalı.
+
+### 13. VERİ NOTU
+
+Kaynak: `cekilen_tweetler.jsonl` (7.153 kayıt) ile commit `77364e7` hâlinin (7.009 kayıt)
+tweet_id karşılaştırması. Fark = 135 kayıt; ayrıca 8 yeni alıntı metni çözüldü.
+Açılan görseller: `2091141670230237362` (öğreti kartı), `2091143534774505513` (BTC 5.7),
+`2091849127101415761` (merdiven usulü şeması), `2091845057523450091` (BTC merdiven misali),
+`2090901704841515062` (ETH haftalık 3060/1379), `2091151598655353051` (ETH günlük 2425/2731,70),
+`2090581402538418205` + `2090581540199620726` (OBO dengeleme), `2090519751705448662` (ALTIN çizgi),
+`2091845825412383127` (NASDAQ 18 K), `2091987334870843809` (NASDAQ 29.027),
+`2091852225941275086` (NASDAQ/XAUUSD 6,3-4,6), `2090905547725836521` (OTHERS.D 7,30),
+`2090183559268982912` (7 Haziran 60 K tweeti), `2077482234706075743` / `2091238572833517715` (ETH OBO).
+
+**Bu bölümün üç ana bulgusu — öğreti kartı, ürün karşılıkları, merdiven usulü kadansı —
+istisnasız görsellerin içindeydi.** Görselleri atlamama kuralı bir kez daha doğrulandı.
