@@ -1,0 +1,2 @@
+C:\Users\ida\AppData\Local\Programs\Python\Python313\python.exe: can't open file 'C:\\Users\\ida\\Desktop\\ekonomikocu\\99_BOT_ARSIV\\calistir\\99_BOT_ARSIV\\kod\\tara_guvenli.py': [Errno 2] No such file or directory
+EXIT=2
