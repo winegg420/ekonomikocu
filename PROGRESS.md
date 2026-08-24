@@ -1426,3 +1426,29 @@ gösteriyor. **İki pencere karıştırılmamalı** — biri 3 haftalık, diğer
   45'i sorunsuz okundu (%78)**; basarisiz 13'un tamami TV'de hicbir borsada olmayan
   mikro-cap memecoin. Yani sorun MEXC on ekinde degil, **coinin TV'de hic olmamasinda**.
   `BORSA_SIRA` oldugu gibi birakildi.
+
+## 2026-08-24 — MagicMA taraması (ABD hisseleri hariç)
+
+### Yapılan
+- Kullanıcı isteği: "abd hariç magicma taraması". `magicma/sembol_listesi/abd_hisse.txt`
+  (92 sembol) tarama süresince `.bak` yapılıp devre dışı bırakıldı, tarama sonrası
+  geri alındı. `NASDAQ:NDX` endeks olduğu için listede bırakıldı (hisse değil).
+  Taranan liste: **442 sembol** (kripto + forex/emtia + endeks/faiz + BIST + günün hareketlileri).
+- CDP 9222 yine kapalıydı; PowerShell `Start-Process` + aynı profil
+  (`%LOCALAPPDATA%\ekonomikocu_x_session`) + `https://tr.tradingview.com/chart/zOsq3cIW/`
+  ile açıldı (2026-08-23'teki çözümün aynısı; CHROME_X.bat hâlâ kullanılmadı).
+- `magicma_tara_dayanikli.py` tek koşumda tamamladı: **422 okundu / 20 okunamadı**,
+  bağlantı kopması yok (~25 dk). Rapor: `magicma/magicma_rapor_2026-08-24.md`
+  (422 sembol, 248 tanesi ≤%15 ile rapora girdi).
+- İşlem adayları (≤%0,25): **18 satır** — `magicma/magicma_islem_adaylari_2026-08-24.md`.
+  En yakınlar: CADJPY (G-Üst %-0,00 short), OPUSDT (G-Üst %-0,02 short),
+  YKBNK (G-Üst %-0,03 short), ENJSA (G-Alt %-0,04 short), USDCAD (H-1 %-0,05 short).
+  CADJPY hem G-Üst hem G-Alt'a yapışık (115,05 sıkışma noktası).
+
+### Okunamayanlar (20)
+Tamamı günün hareketlileri listesinden gelen düşük likiditeli MEXC/BYBIT coinleri
+ve Binance'in yeni endeks ürünleri: NFPUSDT, QQQBUSDT, SPYBUSDT, GRVTUSDT, KIIUSDT,
+AIDOGEUSDT, ALIGNUSDT, ANSEMUSDT, CHONKETHAUSDT, DRBUSDT, DRVUSDT, HMMUSDT,
+JIMOTHYUSDT, KAIOUSDT, NESUSDT, PODUSDT, PONSUSDT, STONKBROKERUSDT, STONKUSDT,
+TENDIESUSDT. Sembol listesi DEĞİŞTİRİLMEDİ — bunlar sabit liste değil, günlük
+hareketliler; yarın listeden düşecekler. Doğrulanmış alternatif kod aranmadı.
