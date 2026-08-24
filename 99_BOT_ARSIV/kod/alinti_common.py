@@ -6,9 +6,15 @@ from __future__ import annotations
 import json
 import re
 from datetime import datetime
+import os as _os
 from pathlib import Path
 
 def _project_root() -> Path:
+    # Ikinci hesap taramasi icin ayri veri koku (orn: EKO_VERI_KOK=<repo>/iriscibre).
+    # Degisken yoksa davranis birebir eskisi gibi kalir.
+    _ort = _os.environ.get("EKO_VERI_KOK")
+    if _ort:
+        return Path(_ort).resolve()
     here = Path(__file__).resolve().parent
     up = here.parent.parent
     if (up / "cekilen_tweetler.jsonl").is_file():

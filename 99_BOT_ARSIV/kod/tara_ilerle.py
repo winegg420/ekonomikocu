@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import json
 from datetime import datetime
+import os as _os
 from pathlib import Path
 
 ERISILEMEDI = "[erişilemedi]"
@@ -17,6 +18,11 @@ DEFAULT_MAX_ATTEMPTS = 5
 
 
 def _project_root() -> Path:
+    # Ikinci hesap taramasi icin ayri veri koku (orn: EKO_VERI_KOK=<repo>/iriscibre).
+    # Degisken yoksa davranis birebir eskisi gibi kalir.
+    _ort = _os.environ.get("EKO_VERI_KOK")
+    if _ort:
+        return Path(_ort).resolve()
     here = Path(__file__).resolve().parent
     up = here.parent.parent
     if (up / "cekilen_tweetler.jsonl").is_file():

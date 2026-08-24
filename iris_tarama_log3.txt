@@ -1,0 +1,26 @@
+[00:26:47] OK — aktif hesap @420cryptofarmer. Tarama serbest.
+[tara_guvenli] hesap=@iriscibre | calistiriliyor: tara_guncel_yeni.py --days 7
+Hesap: @iriscibre | veri koku: C:\Users\ida\Desktop\ekonomikocu\iriscibre
+[iriscibre] profil akisi | max-scroll = 35 (7 gun icin ust sinir)
+En yeni kayit: 2026-08-24T23:03:15
+Stop-before (buraya gelince dur): 18 Aðu
+Baslangic: 213 tweet | 27 alinti | 0 flood-parca
+
+Mevcut jsonl: 213 tweet | alinTi tam: 23 | bekleyen alinti: 4
+Senin Chrome'una baglandi (port 9222).
+Profil acik — devam (ustte abone tweetleri normal).
+Scroll 1/35: toplam 213 tweet (+0 yeni) | ekranda: 17 | alinti: 27 | en eski: 2025-06-19 14:34:27
+Scroll 2/35: toplam 214 tweet (+1 yeni) | ekranda: 27 | alinti: 27 | en eski: 2025-06-19 14:34:27
+Scroll 3/35: toplam 214 tweet (+0 yeni) | ekranda: 30 | alinti: 27 | en eski: 2025-06-19 14:34:27
+  >> DISKE YAZILDI: 214 tweet -> cekilen_tweetler.jsonl
+Scroll 4/35: toplam 214 tweet (+0 yeni) | ekranda: 19 | alinti: 27 | en eski: 2025-06-19 14:34:27
+Durduruldu (bu oturumda gorulen en eski 2026-08-04, hedef 2026-08-18, 2 scroll'dur yeni tweet yok)
+Asama: #FLOOD thread parcalari...
+Asama 2: alintilar (tek sekme, ekonomikocu/status)...
+Asama 2 tur 1: 4 alinti bekliyor... (navigasyon 0/20)
+  >> Alinti 2091210001461215379 — sadece ekonomikocu/status/2091232471148900553
+  >> Medya: graf_01.jpg (2091210001461215379)
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2089415789300379738 — sadece ekonomikocu/status/2090679535284916463
+  >> Medya: graf_01.jpg (2089415789300379738)
+  >> Alinti 2088521195964526825 — sadece ekonomikocu/status/2088528647233634646

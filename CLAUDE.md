@@ -66,3 +66,18 @@ python 99_BOT_ARSIV/kod/github_guncelle.py
   - Fiyat çizginin ÜSTÜNDE = DESTEK = "long adayı"
 - Satır formatı: SEMBOL | fiyat | çizgi adı (G-Alt/G-Üst/H-1/H-2) | çizgi değeri | mesafe % | short adayı / long adayı
 - Seviyeler en son taramadan alınır (magicma_ham.jsonl içinde her sembol için en yüksek ts).
+
+## IKINCI HESAP: @iriscibre ("iris cibre tara")
+- "iris cibre tara" dendiginde taranacak profil **@iriscibre** (Iris Cibre).
+- Tek giris yine ayni: `py -3 99_BOT_ARSIV/kod/tara_guvenli.py --hesap iriscibre --days 7`
+  - `--hesap` TARANACAK profili secer; X'e giris yapan hesabi DEGISTIRMEZ
+    (giris hala @420cryptofarmer olmali, cikis kodu 4 kurali aynen gecerli).
+- Veri tamamen ayri klasorde: `iriscibre/` (cekilen_tweetler.jsonl, medya/,
+  iriscibre_hafiza_v1.md, tara_bookmark.json, alinti_bekleyen.jsonl).
+  ekonomikocu arsivi ile ASLA karismaz.
+- Bu hesapta 00-10 yukleme paketi URETILMEZ (mentor paketine ozgu). Ham arsiv +
+  medya toplanir ve push edilir.
+- **Arama akisi bu hesapta kullanilmaz**: X aramasi yanitlari indekslemiyor,
+  @iriscibre icerigi neredeyse tamamen yanit. Profil `with_replies` akisi sart.
+- Yuksek hacimli oldugu icin `stop-before` kendiliginden tetiklenmez; `--days N`
+  verildiginde scroll ust siniri otomatik `max(20, N*5)` olur.

@@ -30,9 +30,15 @@ import sys
 import time
 from urllib.parse import quote
 from datetime import datetime, timezone, timedelta
+import os as _os
 from pathlib import Path
 
 def _project_root() -> Path:
+    # Ikinci hesap taramasi icin ayri veri koku (orn: EKO_VERI_KOK=<repo>/iriscibre).
+    # Degisken yoksa davranis birebir eskisi gibi kalir.
+    _ort = _os.environ.get("EKO_VERI_KOK")
+    if _ort:
+        return Path(_ort).resolve()
     here = Path(__file__).resolve().parent
     if (here / "cekilen_tweetler.jsonl").is_file():
         return here
@@ -46,7 +52,8 @@ ROOT = _project_root()
 LEGACY_SESSION = ROOT / ".x_session"
 SESSION_DIR = Path(os.environ.get("LOCALAPPDATA", str(ROOT))) / "ekonomikocu_x_session"
 CDP_DEFAULT_PORT = 9222
-PROFILE_HANDLE = "ekonomikocu"
+# Taranacak hesap. Ikinci hesap icin EKO_HANDLE ile degistirilir (orn: iriscibre).
+PROFILE_HANDLE = _os.environ.get("EKO_HANDLE", "ekonomikocu").lstrip("@").lower()
 PROFILE_URL = f"https://x.com/{PROFILE_HANDLE}/with_replies"
 PROFILE_URL_POSTS = f"https://x.com/{PROFILE_HANDLE}"
 SEARCH_URL = f"https://x.com/search?q=from%3A{PROFILE_HANDLE}&src=typed_query&f=live"
@@ -111,7 +118,7 @@ _akis_backoff = RateLimitBackoff(taban_sn=60, tavan_sn=600)
 
 JSONL_OUT = ROOT / "cekilen_tweetler.jsonl"
 YANITLAR_OUT = ROOT / "cekilen_yanitlar.jsonl"
-HAFIZA = ROOT / "ekonomikocu_hafiza_v1.md"
+HAFIZA = ROOT / f"{PROFILE_HANDLE}_hafiza_v1.md"  # ekonomikocu icin ayni dosya adi
 MEDYA_DIR = ROOT / "medya"
 
 # hafiza_guncelle ile aynı güncelleme mantığı
@@ -443,7 +450,7 @@ def pick_profile_page(context) -> object:
     x_tab = None
     for pg in context.pages:
         u = (pg.url or "").lower()
-        if "ekonomikocu" not in u:
+        if PROFILE_HANDLE not in u:
             if "x.com" in u or "twitter.com" in u:
                 x_tab = x_tab or pg
             continue
@@ -459,7 +466,7 @@ def pick_profile_page(context) -> object:
             best = pg
     if best:
         return best
-    if profile_status and "ekonomikocu" in (profile_status.url or "").lower():
+    if profile_status and PROFILE_HANDLE in (profile_status.url or "").lower():
         return profile_status
     _log("Ekonomikocu sekmesi yok — profil aciliyor (tek sekme).")
     close_foreign_tabs(context, None)
@@ -513,7 +520,7 @@ def ensure_profile_timeline(page) -> None:
         safe_goto(page, PROFILE_URL_POSTS, reason="status-don")
         page.wait_for_timeout(3500)
         return
-    if "ekonomikocu" not in url:
+    if PROFILE_HANDLE not in url:
         safe_goto(page, PROFILE_URL_POSTS, reason="yabanci-don")
         page.wait_for_timeout(3500)
 
@@ -783,8 +790,8 @@ EXTRACT_JS = f"""
   const isEkoArticle = (article) => {{
     for (const a of article.querySelectorAll('a[href]')) {{
       const h = (a.getAttribute('href') || '');
-      if (/\\/ekonomikocu(\\/|$|\\?)/i.test(h)) return true;
-      if (/x\\.com\\/ekonomikocu|twitter\\.com\\/ekonomikocu/i.test(h)) return true;
+      if (/\\/{PROFILE_HANDLE}(\\/|$|\\?)/i.test(h)) return true;
+      if (/x\\.com\\/{PROFILE_HANDLE}|twitter\\.com\\/{PROFILE_HANDLE}/i.test(h)) return true;
     }}
     return false;
   }};
@@ -2888,7 +2895,7 @@ def run_scrape(
             page.bring_to_front()
         except Exception:
             pass
-        if "about:blank" in (page.url or "") or "ekonomikocu" not in (page.url or "").lower():
+        if "about:blank" in (page.url or "") or PROFILE_HANDLE not in (page.url or "").lower():
             safe_goto(page, PROFILE_URL_POSTS, reason="baslangic")
 
         since_dt = (
@@ -2932,7 +2939,7 @@ def run_scrape(
             attached_cdp
             and not feed_url
             and not profile_period_only
-            and "ekonomikocu" in (page.url or "").lower()
+            and PROFILE_HANDLE in (page.url or "").lower()
             and not page_shows_x_crash(page)
             and timeline_tweet_count(page) < 5
         ):
@@ -2964,7 +2971,7 @@ def run_scrape(
         ):
             _log("Profil yuklenmiyor — arama akisina geciliyor...")
             page = open_working_feed(context, page, feed_url=active_search)
-        elif profile_feed_ready(page) and "ekonomikocu" in (page.url or "").lower():
+        elif profile_feed_ready(page) and PROFILE_HANDLE in (page.url or "").lower():
             _log("Profil acik — devam (ustte abone tweetleri normal).")
             click_posts_tab(page)
             x_clear_error(page)

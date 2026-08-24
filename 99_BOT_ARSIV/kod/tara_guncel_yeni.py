@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import subprocess
 import sys
 import time
@@ -27,7 +28,10 @@ from pathlib import Path
 KOD = Path(__file__).resolve().parent
 ROOT = KOD.parent.parent
 PY = sys.executable
-JSONL = ROOT / "cekilen_tweetler.jsonl"
+HANDLE = os.environ.get("EKO_HANDLE", "ekonomikocu").lstrip("@").lower()
+# Ikinci hesap ayri klasore yazar; ekonomikocu icin kok dizin aynen kalir.
+VERI_KOK = ROOT if HANDLE == "ekonomikocu" else (ROOT / HANDLE)
+JSONL = VERI_KOK / "cekilen_tweetler.jsonl"
 
 TR_AY = {1: "Oca", 2: "Şub", 3: "Mar", 4: "Nis", 5: "May", 6: "Haz",
          7: "Tem", 8: "Ağu", 9: "Eyl", 10: "Eki", 11: "Kas", 12: "Ara"}
@@ -58,6 +62,10 @@ def stats() -> tuple[int, int, int, str | None]:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Guncel artimli tarama")
+    ap.add_argument("--max-scroll", dest="max_scroll", type=int, default=120,
+                    help="Profil kaydirma ust siniri (varsayilan 120)")
+    ap.add_argument("--handle", default=None,
+                    help="Taranacak hesap (varsayilan: ekonomikocu). Ornek: --handle iriscibre")
     ap.add_argument("--days", type=int, default=None,
                     help="Bugunden N gun geriye tara (artimli tamponu yok sayar)")
     ap.add_argument("--stop-before", dest="stop_before", default=None,
@@ -77,6 +85,30 @@ def main() -> int:
     ap.add_argument("--soguma-sn", type=int, default=300,
                     help="Pencereler arasi bekleme (sn) — X limitine nefes aldirir")
     args, _ = ap.parse_known_args()
+
+    global HANDLE, VERI_KOK, JSONL
+    if args.handle:
+        HANDLE = args.handle.lstrip("@").lower()
+    VERI_KOK = ROOT if HANDLE == "ekonomikocu" else (ROOT / HANDLE)
+    JSONL = VERI_KOK / "cekilen_tweetler.jsonl"
+    VERI_KOK.mkdir(parents=True, exist_ok=True)
+    if not JSONL.exists():
+        JSONL.touch()
+    # Alt sureclerin (tweet_tara, alinti_*) ayni hesap/koku gormesi icin
+    os.environ["EKO_HANDLE"] = HANDLE
+    os.environ["EKO_VERI_KOK"] = str(VERI_KOK)
+    print(f"Hesap: @{HANDLE} | veri koku: {VERI_KOK}", flush=True)
+
+    # Yuksek hacimli hesaplarda profil kaydirmasi kendiliginden durmuyor: her
+    # scroll'da yeni kayit geldigi icin "1 scroll'dur yeni yok" kosulu hic olusmuyor,
+    # stop-before devreye girmiyor ve tarama aylarca geriye sarkiyor.
+    # NOT: Arama akisi (from:<handle> since/until) BU HESAPLARDA COZUM DEGIL —
+    # X aramasi YANITLARI indekslemiyor, yanit agirlikli hesaplarda bos donuyor.
+    # Cozum: profil akisinda kalip scroll sayisini istenen gun sayisina baglamak.
+    if HANDLE != "ekonomikocu" and args.days is not None:
+        args.max_scroll = max(20, args.days * 5)
+        print(f"[{HANDLE}] profil akisi | max-scroll = {args.max_scroll} "
+              f"({args.days} gun icin ust sinir)", flush=True)
 
     n0, q0, f0, newest = stats()
     if args.stop_before:
@@ -135,7 +167,7 @@ def main() -> int:
             "--attach-port", "9222", "--require-cdp",
             "--profile-only",
             "--stop-before", (stop.strftime("%Y-%m-%d") if stop else stop_str),
-            "--max-scroll", "120", "--pause", "5000",
+            "--max-scroll", str(args.max_scroll), "--pause", "5000",
             "--finish-threads", "--skip-hafiza",
         ]
         subprocess.run(cmd, cwd=ROOT)
@@ -156,20 +188,26 @@ def main() -> int:
     print(f"  Yeni flood : +{f1 - f0}  (toplam {f1})", flush=True)
     print(f"  En yeni kayit: {newest2}", flush=True)
     print("=" * 50, flush=True)
-    # 5) Siniflandirma: ham taranan tweetler paketlemeden ONCE analyzed:true yapilir
-    try:
-        subprocess.run([PY, str(KOD / "analiz_devam.py")], cwd=str(ROOT), check=False)
-    except Exception as e:
-        print(f"[analiz] analiz_devam.py hatasi: {e}", flush=True)
-    # 6) Paketleme: ham veriden 04/07 + kapsam yeniden uretilir
-    for _script in ("claude_paket_olustur.py", "kapsam_durum.py"):
+    # 5-6) Siniflandirma + paketleme SADECE ekonomikocu icin. Bu adimlar mentor
+    # paketine (00-10) ozgu; ikinci hesapta ham arsiv + medya yeterli.
+    if HANDLE == "ekonomikocu":
         try:
-            subprocess.run([PY, str(KOD / _script)], cwd=str(ROOT), check=False)
+            subprocess.run([PY, str(KOD / "analiz_devam.py")], cwd=str(ROOT), check=False)
         except Exception as e:
-            print(f"[paket] {_script} hatasi: {e}", flush=True)
-    # 7) GitHub push: hazir full paket her taramada otomatik gonderilir
+            print(f"[analiz] analiz_devam.py hatasi: {e}", flush=True)
+        for _script in ("claude_paket_olustur.py", "kapsam_durum.py"):
+            try:
+                subprocess.run([PY, str(KOD / _script)], cwd=str(ROOT), check=False)
+            except Exception as e:
+                print(f"[paket] {_script} hatasi: {e}", flush=True)
+    else:
+        print(f"[paket] @{HANDLE}: siniflandirma/paket adimlari atlandi (ham arsiv modu)", flush=True)
+    # 7) GitHub push: her taramada otomatik gonderilir
     try:
-        _msg = f"Tarama: guncel + siniflandirma + paket ({newest2}) [otomatik]"
+        if HANDLE == "ekonomikocu":
+            _msg = f"Tarama: guncel + siniflandirma + paket ({newest2}) [otomatik]"
+        else:
+            _msg = f"@{HANDLE} tarama: +{n1 - n0} kayit (son: {newest2}) [otomatik]"
         subprocess.run([PY, str(KOD / "github_guncelle.py"), _msg], cwd=str(ROOT), check=False)
     except Exception as e:
         print(f"[push] github_guncelle.py hatasi: {e}", flush=True)

@@ -2,11 +2,15 @@
 # -*- coding: utf-8 -*-
 """Guvenli tarama girisi: ONCE hesap dogrula, gecerse tara.
 Kullanim:
-  python tara_guvenli.py          # artimli guncel tarama (son taramadan bugune)
-  python tara_guvenli.py --abone  # abone tweet metinlerini doldur
-Hesap @420cryptofarmer degilse HICBIR tarama calismaz."""
+  python tara_guvenli.py                    # ekonomikocu artimli guncel tarama
+  python tara_guvenli.py --abone            # abone tweet metinlerini doldur
+  python tara_guvenli.py --hesap iriscibre  # ikinci hesap (ayri klasore yazar)
+  python tara_guvenli.py --hesap iriscibre --days 7   # son 7 gun
+
+Giris yapilmis X hesabi @420cryptofarmer degilse HICBIR tarama calismaz.
+--hesap TARANACAK profili secer; giris yapan hesabi degistirmez."""
 from __future__ import annotations
-import argparse, subprocess, sys
+import argparse, os, subprocess, sys
 from pathlib import Path
 
 KOD = Path(__file__).resolve().parent
@@ -16,8 +20,14 @@ PY = sys.executable
 def main() -> int:
     ap = argparse.ArgumentParser(description="Hesap dogrulamali tarama")
     ap.add_argument("--abone", action="store_true", help="abone_tamamla.py calistir")
+    ap.add_argument("--hesap", default="ekonomikocu",
+                    help="Taranacak profil (varsayilan: ekonomikocu). Ornek: --hesap iriscibre")
     ap.add_argument("--port", type=int, default=9222)
     args, ekstra = ap.parse_known_args()
+    hesap = (args.hesap or "ekonomikocu").lstrip("@").lower()
+    if args.abone and hesap != "ekonomikocu":
+        print("--abone sadece ekonomikocu icin gecerli (abone akisi ona ozgu).", flush=True)
+        return 2
     sys.path.insert(0, str(KOD))
     try:
         from hesap_dogrula import dogrula
@@ -28,7 +38,13 @@ def main() -> int:
         return 4  # yanlis/eksik hesap — tarama yok
     hedef = "abone_tamamla.py" if args.abone else "tara_guncel_yeni.py"
     cmd = [PY, str(KOD / hedef)] + ekstra
-    print(f"[tara_guvenli] calistiriliyor: {hedef} {' '.join(ekstra)}", flush=True)
+    if not args.abone:
+        cmd += ["--handle", hesap]
+    # Alt sureclerin tamami ayni hesabi gorsun (tweet_tara, alinti_* modul yuklenirken okur)
+    os.environ["EKO_HANDLE"] = hesap
+    if hesap != "ekonomikocu":
+        os.environ["EKO_VERI_KOK"] = str(ROOT / hesap)
+    print(f"[tara_guvenli] hesap=@{hesap} | calistiriliyor: {hedef} {' '.join(ekstra)}", flush=True)
     try:
         rc = subprocess.run(cmd, cwd=str(ROOT)).returncode
     except Exception as e:

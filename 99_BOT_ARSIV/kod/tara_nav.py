@@ -7,10 +7,16 @@ import json
 import re
 import time
 from datetime import datetime
+import os as _os
 from pathlib import Path
 from urllib.parse import unquote
 
 def _project_root() -> Path:
+    # Ikinci hesap taramasi icin ayri veri koku (orn: EKO_VERI_KOK=<repo>/iriscibre).
+    # Degisken yoksa davranis birebir eskisi gibi kalir.
+    _ort = _os.environ.get("EKO_VERI_KOK")
+    if _ort:
+        return Path(_ort).resolve()
     here = Path(__file__).resolve().parent
     if (here / "cekilen_tweetler.jsonl").is_file():
         return here
@@ -22,7 +28,8 @@ def _project_root() -> Path:
 
 ROOT = _project_root()
 BOOKMARK_PATH = ROOT / "tara_bookmark.json"
-PROFILE_HANDLE = "ekonomikocu"
+# Taranacak hesap. Ikinci hesap icin EKO_HANDLE ile degistirilir (orn: iriscibre).
+PROFILE_HANDLE = _os.environ.get("EKO_HANDLE", "ekonomikocu").lstrip("@").lower()
 
 _HANDLE_RX = re.compile(
     r"https?://(?:www\.)?(?:x|twitter)\.com/(?!search|i/|home|explore|notifications|messages|settings)([A-Za-z0-9_]+)",

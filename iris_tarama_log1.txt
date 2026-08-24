@@ -1,0 +1,139 @@
+[00:20:00] OK — aktif hesap @420cryptofarmer. Tarama serbest.
+[tara_guvenli] hesap=@iriscibre | calistiriliyor: tara_guncel_yeni.py --days 7
+Hesap: @iriscibre | veri koku: C:\Users\ida\Desktop\ekonomikocu\iriscibre
+En yeni kayit: None
+Stop-before (buraya gelince dur): 18 Aðu
+Baslangic: 0 tweet | 0 alinti | 0 flood-parca
+
+Senin Chrome'una baglandi (port 9222).
+Profil acik — devam (ustte abone tweetleri normal).
+Scroll 1/120: toplam 9 tweet (+9 yeni) | ekranda: 17 | alinti: 0 | en eski: 2026-08-24 17:39:33
+  >> Medya: graf_01.jpg (2091767125220241619)
+  >> Medya: graf_01.jpg (2091623752060833889)
+Scroll 2/120: toplam 27 tweet (+18 yeni) | ekranda: 27 | alinti: 2 | en eski: 2026-08-04 16:19:51
+  >> Medya: graf_01.jpg (2091506804899332452)
+Scroll 3/120: toplam 43 tweet (+16 yeni) | ekranda: 30 | alinti: 2 | en eski: 2026-08-04 16:19:51
+  >> DISKE YAZILDI: 43 tweet -> cekilen_tweetler.jsonl
+Scroll 4/120: toplam 46 tweet (+3 yeni) | ekranda: 32 | alinti: 2 | en eski: 2026-08-04 16:19:51
+Scroll 5/120: toplam 46 tweet (+0 yeni) | ekranda: 32 | alinti: 2 | en eski: 2026-08-04 16:19:51
+  >> Medya: graf_01.jpg (2091241097318051951)
+  >> Medya: graf_01.jpg (2091236507549843607)
+  >> Medya: graf_01.jpg (2091234522104766571)
+  >> Medya: graf_01.jpg (2091234315808166120)
+Scroll 6/120: toplam 59 tweet (+13 yeni) | ekranda: 22 | alinti: 2 | en eski: 2026-08-04 16:19:51
+  >> DISKE YAZILDI: 59 tweet -> cekilen_tweetler.jsonl
+  >> Medya: graf_01.jpg (2091232471148900553)
+Scroll 7/120: toplam 75 tweet (+16 yeni) | ekranda: 29 | alinti: 3 | en eski: 2026-08-04 16:19:51
+Scroll 8/120: toplam 79 tweet (+4 yeni) | ekranda: 32 | alinti: 3 | en eski: 2026-08-04 16:19:51
+  >> Takilma (2026-08-21) — profil yenileniyor (eski tarih aramasina gidilmiyor)
+  >> Medya: graf_01.jpg (2091948130304741567)
+  >> Medya: graf_01.jpg (2091823952599343113)
+Scroll 9/120: toplam 82 tweet (+3 yeni) | ekranda: 3 | alinti: 3 | en eski: 2026-08-04 16:19:51
+  >> DISKE YAZILDI: 82 tweet -> cekilen_tweetler.jsonl
+  >> Medya: graf_01.jpg (2090709057774453090)
+  >> Medya: graf_01.jpg (2090692504827908590)
+  >> Medya: graf_02.jpg (2090692504827908590)
+  >> Medya: graf_03.jpg (2090692504827908590)
+  >> Medya: graf_01.jpg (2090679535284916463)
+  >> Medya: graf_01.jpg (2090512613952086196)
+  >> Medya: graf_01.jpg (2090428418487640570)
+  >> Medya: graf_01.jpg (2090418575752167922)
+  >> Medya: graf_02.jpg (2090418575752167922)
+  >> Medya: graf_01.jpg (2090416334467211718)
+Scroll 10/120: toplam 94 tweet (+12 yeni) | ekranda: 9 | alinti: 6 | en eski: 2026-08-04 16:19:51
+  >> Medya: graf_01.jpg (2089408610044457122)
+  >> Medya: graf_01.jpg (2089397095467737543)
+  >> Medya: graf_01.jpg (2089305962779672650)
+  >> Medya: graf_01.jpg (2088952610011099564)
+  >> Medya: graf_01.jpg (2088943461068103826)
+  >> Medya: graf_01.jpg (2088528647233634646)
+  >> Medya: graf_02.jpg (2088528647233634646)
+  >> Medya: graf_01.jpg (2088356066828382546)
+Scroll 11/120: toplam 104 tweet (+10 yeni) | ekranda: 9 | alinti: 7 | en eski: 2026-08-04 16:19:51
+  >> Medya: graf_01.jpg (2087876545520021970)
+  >> Medya: graf_01.jpg (2087821313238843408)
+  >> Medya: graf_01.jpg (2087812267152707741)
+  >> Medya: graf_01.jpg (2087653137574416450)
+  >> Medya: graf_01.jpg (2087514656885624871)
+  >> Medya: graf_01.jpg (2087482493641359685)
+Scroll 12/120: toplam 113 tweet (+9 yeni) | ekranda: 9 | alinti: 8 | en eski: 2026-08-04 16:19:51
+  >> DISKE YAZILDI: 113 tweet -> cekilen_tweetler.jsonl
+  >> Medya: graf_01.jpg (2086787404870873241)
+  >> Medya: graf_01.jpg (2086724147040628931)
+  >> Medya: graf_01.jpg (2086425401719439862)
+  >> Medya: graf_01.jpg (2086414573884645823)
+  >> Medya: graf_01.jpg (2086040938686631950)
+Scroll 13/120: toplam 123 tweet (+10 yeni) | ekranda: 9 | alinti: 9 | en eski: 2026-08-04 16:19:51
+  >> Medya: graf_01.jpg (2085341642177851868)
+  >> Medya: graf_01.jpg (2085116335638417555)
+  >> Medya: graf_01.jpg (2084928238287991051)
+  >> Medya: graf_02.jpg (2084928238287991051)
+  >> Medya: graf_01.jpg (2084898399623467189)
+  >> Medya: graf_02.jpg (2084898399623467189)
+  >> Medya: graf_01.jpg (2084753305486684176)
+Scroll 14/120: toplam 136 tweet (+13 yeni) | ekranda: 11 | alinti: 11 | en eski: 2026-08-04 15:26:31
+  >> Medya: graf_01.jpg (2083203468546683063)
+  >> Medya: graf_01.jpg (2083152287220789301)
+  >> Medya: graf_01.jpg (2083136142442922244)
+  >> Medya: graf_01.jpg (2083103127536812188)
+  >> Medya: graf_01.jpg (2082923914326675911)
+  >> Medya: graf_02.jpg (2082923914326675911)
+  >> Medya: graf_01.jpg (2082873025133691181)
+Scroll 15/120: toplam 147 tweet (+11 yeni) | ekranda: 8 | alinti: 14 | en eski: 2025-06-19 14:34:27
+  >> DISKE YAZILDI: 147 tweet -> cekilen_tweetler.jsonl
+  >> Medya: graf_01.jpg (2082557282366455819)
+  >> Medya: graf_01.jpg (2082531738232733967)
+  >> Medya: graf_01.jpg (2082508140017299824)
+  >> Medya: graf_01.jpg (2082500010348875785)
+  >> Medya: graf_01.jpg (2082327457990873153)
+  >> Medya: graf_01.jpg (2082214836839100573)
+  >> Medya: graf_01.jpg (2082000659201581301)
+  >> Medya: graf_02.jpg (2082000659201581301)
+Scroll 16/120: toplam 159 tweet (+12 yeni) | ekranda: 10 | alinti: 16 | en eski: 2025-06-19 14:34:27
+  >> Medya: graf_01.jpg (2081075382363496942)
+  >> Medya: graf_01.jpg (2081052437205373141)
+  >> Medya: graf_01.jpg (2080773713948283219)
+  >> Medya: graf_01.jpg (2080642431414845440)
+  >> Medya: graf_01.jpg (2080627668270129527)
+  >> Medya: graf_01.jpg (2080596474837053904)
+Scroll 17/120: toplam 169 tweet (+10 yeni) | ekranda: 9 | alinti: 17 | en eski: 2025-06-19 14:34:27
+  >> Medya: graf_01.jpg (2079451559859999111)
+  >> Medya: graf_02.jpg (2079451559859999111)
+  >> Medya: graf_01.jpg (2079275697064100241)
+  >> Medya: graf_02.jpg (2079275697064100241)
+  >> Medya: graf_01.jpg (2078926413428666774)
+  >> Medya: graf_01.jpg (2078919514281115703)
+  >> Medya: graf_01.jpg (2078877334527267044)
+  >> Medya: graf_01.jpg (2078777620188344498)
+  >> Medya: graf_01.jpg (2078569478649184454)
+Scroll 18/120: toplam 179 tweet (+10 yeni) | ekranda: 9 | alinti: 19 | en eski: 2025-06-19 14:34:27
+  >> DISKE YAZILDI: 179 tweet -> cekilen_tweetler.jsonl
+  >> Medya: graf_01.jpg (2078035407862669438)
+  >> Medya: graf_01.jpg (2078022318199091510)
+  >> Medya: graf_01.jpg (2077708938795978870)
+  >> Medya: graf_01.jpg (2077676818715246734)
+  >> Medya: graf_01.jpg (2077290106285613201)
+  >> Medya: graf_01.jpg (2077069543583760631)
+  >> Medya: graf_02.jpg (2077069543583760631)
+Scroll 19/120: toplam 192 tweet (+13 yeni) | ekranda: 11 | alinti: 21 | en eski: 2025-06-19 14:34:27
+  >> Medya: graf_01.jpg (2075887023135576304)
+  >> Medya: graf_02.jpg (2075887023135576304)
+  >> Medya: graf_01.jpg (2075556143926067511)
+  >> Medya: graf_01.jpg (2075529361810186666)
+  >> Medya: graf_01.jpg (2075514988018516101)
+  >> Medya: graf_02.jpg (2075514988018516101)
+  >> Medya: graf_01.jpg (2075498976929804724)
+  >> Medya: graf_01.jpg (2075344903073038408)
+Scroll 20/120: toplam 203 tweet (+11 yeni) | ekranda: 9 | alinti: 23 | en eski: 2025-06-19 14:34:27
+  >> Medya: graf_01.jpg (2074608749965164654)
+  >> Medya: graf_01.jpg (2074603012228620657)
+  >> Medya: graf_01.jpg (2074501175689331057)
+  >> Medya: graf_02.jpg (2074501175689331057)
+  >> Medya: graf_01.jpg (2074433842274869422)
+  >> Medya: graf_01.jpg (2074376095672025349)
+  >> Medya: graf_02.jpg (2074376095672025349)
+  >> Medya: graf_01.jpg (2074209126960279879)
+  >> Medya: graf_01.jpg (2074187099964584094)
+Scroll 21/120: toplam 216 tweet (+13 yeni) | ekranda: 9 | alinti: 27 | en eski: 2025-06-19 14:34:27
+  >> DISKE YAZILDI: 216 tweet -> cekilen_tweetler.jsonl
+  >> Takilma (2026-03-03) — profil yenileniyor (eski tarih aramasina gidilmiyor)
