@@ -10,16 +10,18 @@ import os as _os
 from pathlib import Path
 
 def _project_root() -> Path:
-    # Ikinci hesap taramasi icin ayri veri koku (orn: EKO_VERI_KOK=<repo>/iriscibre).
-    # Degisken yoksa davranis birebir eskisi gibi kalir.
-    _ort = _os.environ.get("EKO_VERI_KOK")
-    if _ort:
-        return Path(_ort).resolve()
-    here = Path(__file__).resolve().parent
-    up = here.parent.parent
-    if (up / "cekilen_tweetler.jsonl").is_file():
-        return up
-    return here
+    """Aktif hesabin veri koku — kural tek yerde: hesap_kok.veri_koku().
+
+    EKO_HANDLE yoksa/ekonomikocu ise depo koku (eski davranis birebir korunur);
+    baska hesapta depo koku/<handle>. Karisma engeli hesap_kok icinde.
+    """
+    try:
+        from hesap_kok import veri_koku
+    except ImportError:  # dogrudan/izole import edilen ozel durumlar
+        import sys as _sys
+        _sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from hesap_kok import veri_koku
+    return veri_koku()
 
 
 ROOT = _project_root()

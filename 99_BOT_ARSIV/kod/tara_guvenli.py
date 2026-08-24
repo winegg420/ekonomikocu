@@ -40,10 +40,11 @@ def main() -> int:
     cmd = [PY, str(KOD / hedef)] + ekstra
     if not args.abone:
         cmd += ["--handle", hesap]
-    # Alt sureclerin tamami ayni hesabi gorsun (tweet_tara, alinti_* modul yuklenirken okur)
+    # Alt sureclerin tamami ayni hesabi gorsun. SADECE handle ayarlanir; veri koku
+    # hesap_kok.veri_koku() tarafindan turetilir — iki ayri ayar tutulmaz ki biri
+    # unutulup ikinci hesap ekonomikocu arsivine yazmasin.
     os.environ["EKO_HANDLE"] = hesap
-    if hesap != "ekonomikocu":
-        os.environ["EKO_VERI_KOK"] = str(ROOT / hesap)
+    os.environ.pop("EKO_VERI_KOK", None)
     print(f"[tara_guvenli] hesap=@{hesap} | calistiriliyor: {hedef} {' '.join(ekstra)}", flush=True)
     try:
         rc = subprocess.run(cmd, cwd=str(ROOT)).returncode

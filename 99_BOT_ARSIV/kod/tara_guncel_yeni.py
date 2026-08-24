@@ -28,9 +28,11 @@ from pathlib import Path
 KOD = Path(__file__).resolve().parent
 ROOT = KOD.parent.parent
 PY = sys.executable
-HANDLE = os.environ.get("EKO_HANDLE", "ekonomikocu").lstrip("@").lower()
-# Ikinci hesap ayri klasore yazar; ekonomikocu icin kok dizin aynen kalir.
-VERI_KOK = ROOT if HANDLE == "ekonomikocu" else (ROOT / HANDLE)
+sys.path.insert(0, str(KOD))
+from hesap_kok import aktif_handle, veri_koku  # noqa: E402
+
+HANDLE = aktif_handle()
+VERI_KOK = veri_koku()          # ekonomikocu -> depo koku, digerleri -> depo/<handle>
 JSONL = VERI_KOK / "cekilen_tweetler.jsonl"
 
 TR_AY = {1: "Oca", 2: "Şub", 3: "Mar", 4: "Nis", 5: "May", 6: "Haz",
@@ -89,14 +91,15 @@ def main() -> int:
     global HANDLE, VERI_KOK, JSONL
     if args.handle:
         HANDLE = args.handle.lstrip("@").lower()
-    VERI_KOK = ROOT if HANDLE == "ekonomikocu" else (ROOT / HANDLE)
+    # Alt sureclerin (tweet_tara, alinti_*) ayni hesabi gormesi icin — kok
+    # hesap_kok tarafindan turetilir, elle ikinci bir ayar tutulmaz.
+    os.environ["EKO_HANDLE"] = HANDLE
+    os.environ.pop("EKO_VERI_KOK", None)
+    VERI_KOK = veri_koku()      # karisma engeli burada da devrede
     JSONL = VERI_KOK / "cekilen_tweetler.jsonl"
     VERI_KOK.mkdir(parents=True, exist_ok=True)
     if not JSONL.exists():
         JSONL.touch()
-    # Alt sureclerin (tweet_tara, alinti_*) ayni hesap/koku gormesi icin
-    os.environ["EKO_HANDLE"] = HANDLE
-    os.environ["EKO_VERI_KOK"] = str(VERI_KOK)
     print(f"Hesap: @{HANDLE} | veri koku: {VERI_KOK}", flush=True)
 
     # Yuksek hacimli ikinci hesaplarda profil kaydirmasi kendiliginden DURMUYOR:

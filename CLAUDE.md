@@ -67,14 +67,32 @@ python 99_BOT_ARSIV/kod/github_guncelle.py
 - Satır formatı: SEMBOL | fiyat | çizgi adı (G-Alt/G-Üst/H-1/H-2) | çizgi değeri | mesafe % | short adayı / long adayı
 - Seviyeler en son taramadan alınır (magicma_ham.jsonl içinde her sembol için en yüksek ts).
 
-## IKINCI HESAP: @iriscibre ("iris cibre tara")
+## COK HESAPLI TARAMA — HESAPLAR BIRBIRINE KARISMAZ
+
+Bu depo birden fazla X hesabini tarar. **Hicbir hesabin verisi digerine karismaz**;
+bu bir konvansiyon degil, kodla zorlanan bir kural.
+
+- Tek giris ayni: `py -3 99_BOT_ARSIV/kod/tara_guvenli.py --hesap <handle> --days N`
+- `--hesap` yalnizca TARANACAK profili secer; X'e giris yapan hesabi DEGISTIRMEZ
+  (giris hala @420cryptofarmer olmali, cikis kodu 4 kurali aynen gecerli).
+- Veri koku kurali tek yerde: `99_BOT_ARSIV/kod/hesap_kok.py`
+  - `ekonomikocu` -> depo koku (eski davranis, hic degismedi)
+  - baska her hesap -> `<depo>/<handle>/` (jsonl, medya/, `<handle>_hafiza_v1.md`,
+    tara_bookmark.json, alinti_bekleyen.jsonl, tara_deneme.json)
+- **Karisma engelleri (RuntimeError ile durdurur):**
+  1. Ikincil hesap depo kokune (ekonomikocu arsivine) YAZAMAZ.
+  2. Her ikincil klasorde `_HESAP.txt` isaret dosyasi var; baska hesap o klasore
+     yazmaya kalkarsa durur.
+  3. Veri koku DAIMA handle'dan turetilir — ayarlanacak ikinci bir degisken yok,
+     dolayisiyla "handle verildi ama kok unutuldu" hatasi imkansiz.
+- **Denetim:** `py -3 99_BOT_ARSIV/kod/hesap_denetle.py` — tum hesaplarda tweet_id
+  ve medya cakismasini kontrol eder. Cikis 0 = temiz. Yeni hesap ekledikten sonra
+  bir kez calistir.
+- Yeni hesap eklemek icin kod degisikligi GEREKMEZ: `--hesap <yeni>` yeter.
+
+### @iriscibre ("iris cibre tara")
 - "iris cibre tara" dendiginde taranacak profil **@iriscibre** (Iris Cibre).
-- Tek giris yine ayni: `py -3 99_BOT_ARSIV/kod/tara_guvenli.py --hesap iriscibre --days 7`
-  - `--hesap` TARANACAK profili secer; X'e giris yapan hesabi DEGISTIRMEZ
-    (giris hala @420cryptofarmer olmali, cikis kodu 4 kurali aynen gecerli).
-- Veri tamamen ayri klasorde: `iriscibre/` (cekilen_tweetler.jsonl, medya/,
-  iriscibre_hafiza_v1.md, tara_bookmark.json, alinti_bekleyen.jsonl).
-  ekonomikocu arsivi ile ASLA karismaz.
+- Komut: `py -3 99_BOT_ARSIV/kod/tara_guvenli.py --hesap iriscibre --days 7`
 - Bu hesapta 00-10 yukleme paketi URETILMEZ (mentor paketine ozgu). Ham arsiv +
   medya toplanir ve push edilir.
 - Yuksek hacimli oldugu icin profil kaydirmasinda `stop-before` tetiklenmez

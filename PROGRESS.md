@@ -1617,3 +1617,54 @@ bookmark dosyaları. ekonomikocu arşivi (7.148 kayıt) hiç etkilenmedi. Push: 
 3. Gece boyunca süren taramaların ardından X bu oturumu ağır sınırladı; 18-19 Ağustos
    boşluğunu doldurma denemesi bu yüzden yarım kaldı. Sonraki `--hesap iriscibre`
    koşumu artımlı olarak o boşluğu kapatır.
+
+---
+
+## 2026-08-25 — Hesap izolasyonu kodla zorlandı (karışma engelleri)
+
+**İstek:** "ekonomikocuyla karışmasın hiçbir bilgisi irisin. başka hesaplarında
+twitterlarını taramaya ekleyeceğiz daha sonra. onlar da karışmayacak birbirine."
+
+**Denetim (önce):** Mevcut veride sıfır çakışma — 7.148 ekonomikocu / 223 iris
+kaydında ortak tweet_id yok, 1.331 / 91 medya klasöründe ortak yok.
+
+**Bulunan açık:** İzolasyon iki ayrı ortam değişkenine (`EKO_HANDLE` +
+`EKO_VERI_KOK`) dayanıyordu. Handle verilip kök unutulursa ikinci hesabın
+tweetleri ekonomikocu arşivine yazardı. Bu, tam olarak istenmeyen senaryoydu.
+
+**Çözüm — `99_BOT_ARSIV/kod/hesap_kok.py` (yeni, tek doğruluk kaynağı):**
+Veri kökü **daima handle'dan türetilir**; ayarlanacak ikinci bir değişken yok.
+- `ekonomikocu` (veya değişken yok) → depo kökü (eski davranış birebir korundu)
+- başka her hesap → `<depo>/<handle>/`
+
+`tweet_tara.py`, `tara_nav.py`, `alinti_common.py`, `tara_ilerle.py` kendi
+`_project_root()` fonksiyonlarını bu modüle devretti. `tara_guvenli.py` ve
+`tara_guncel_yeni.py` artık sadece `EKO_HANDLE` ayarlıyor, `EKO_VERI_KOK`'u
+temizliyor.
+
+**Üç karışma engeli (RuntimeError ile durdurur):**
+1. İkincil hesap depo köküne (ekonomikocu arşivine) yazamaz.
+2. Her ikincil klasörde `_HESAP.txt` işaret dosyası; başka hesap o klasöre yazamaz.
+3. ekonomikocu depo kökünden başka yere yazamaz.
+
+**Test edilen dört senaryo — dördü de beklendiği gibi:**
+| Senaryo | Sonuç |
+|---|---|
+| Varsayılan (ekonomikocu) | Tüm yollar kök dizinde, regresyon yok |
+| Sadece `EKO_HANDLE=iriscibre` | `iriscibre/` altına düştü — **açık kapandı** |
+| iris → ekonomikocu köküne zorlama | RuntimeError ile ENGELLENDİ |
+| Başka hesap → iris klasörüne zorlama | `_HESAP.txt` ile ENGELLENDİ |
+| Üçüncü hesap (`ornekhesap`) | Otomatik `ornekhesap/` altına ayrıştı |
+
+**Yeni denetim aracı:** `py -3 99_BOT_ARSIV/kod/hesap_denetle.py` — bütün
+hesaplarda tweet_id çakışması, medya klasörü çakışması ve yabancı profil
+bağlantısı arar. Çıkış 0 = temiz. Yeni hesap ekledikten sonra bir kez çalıştır.
+Bu oturumdaki sonuç: **TEMİZ**.
+
+**Yeni hesap eklemek artık kod değişikliği gerektirmiyor** — `--hesap <handle>`
+yeterli; klasör ve işaret dosyası otomatik oluşuyor.
+
+**Not:** Refactor sonrası iris doğrulama taraması başlatıldı; handle/kök/mod
+satırları doğru geldi ama X gece boyunca süren taramalar yüzünden oturumu ağır
+sınırladığı için arama akışı dolmadı (`ekranda: 2`). Kodla ilgisi yok. Tam
+regresyon için ekonomikocu taraması bir kez çalıştırılmalı.
