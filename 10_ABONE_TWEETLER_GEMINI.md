@@ -2,7 +2,15 @@
 
 Sadece abone donemi tweetleri (`kayit_tipi: abone`). Makro (Trump/Fed/ABD) + teknik yorumlari burada da birlestir — 02 kurallari gecerli.
 
-Toplam: **3435**
+Toplam: **3434**
+
+## 19 Ağu 19:37 | `2090115838149832969` | GENEL | tarih, tez | abone
+
+Koç peki buradan sonra Eylül 15 i görseler yeterli midir ? Sene sonuna kadar iyimser gitmek yanlış olur doğru mudur? Barış gelmediği senaryo için diyorum. Barış gelirse her yer yeşil zaten biliyoruz 
+@ekonomikocu
+
+- media: —
+- gemini_grafik: —
 
 ## 6 Ağu 21:26 | `2085432256345112871` | GENEL | yorum | abone
 
@@ -23163,32 +23171,6 @@ formasyona sokuyoruz.
 
 Çok ekstra olmazsa yanlamayı dşünüyoruz
 yani mumları yana yana verebiliriz.
-
-- media: —
-- gemini_grafik: —
-
-## 8 Haz 18:45 | `2064010875447455833` | BTC, GUMUS_PETROL | tez | abone
-
-#BİTCOİN 
-
-Kendi piyasasını korurken, sana burada tersini
-aşağıda yapıyor. 
-
-Çünkü #emtia kanadını bastırması gerekiyor.
-
-- media: —
-- gemini_grafik: —
-
-## 8 Haz 18:43 | `2064010493975523555` | GENEL | tarih | abone
-
-#NASDAQ 
-
-Sadece sallıyorum...
-
-Sana şurada formasyon yapsa kafadan 10 gün yerler.
-Doğru mu ? 
-
-Bu şekilde piyasasını korumaya alıyor.
 
 - media: —
 - gemini_grafik: —

@@ -2926,6 +2926,23 @@ def run_scrape(
             context.close()
             return 0
 
+        # Profil akisi soguk Chrome'da gec doluyor; erken "yuklenmiyor" karari
+        # verilmesin diye mevcut bekleme yardimcisi burada bir kez calisir.
+        if (
+            attached_cdp
+            and not feed_url
+            and not profile_period_only
+            and "ekonomikocu" in (page.url or "").lower()
+            and not page_shows_x_crash(page)
+            and timeline_tweet_count(page) < 5
+        ):
+            wait_for_profile_feed(page)
+            for _ in range(10):
+                if timeline_tweet_count(page) >= 5:
+                    break
+                x_clear_error(page)
+                page.wait_for_timeout(2000)
+
         active_search = feed_url or SEARCH_URL
         use_search_feed = bool(feed_url) and not profile_period_only and not profile_only
         if use_search_feed:
