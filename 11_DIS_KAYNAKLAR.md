@@ -1154,3 +1154,232 @@ bağlantısı yok** — biri ABD teknoloji, diğeri TCMB/BIST mikro odaklı; dos
 | 20 Ağu | BTC 67.000 kırıldı, 80K hedef | İZLENİYOR |
 | 20 Ağu | Clarity Act 15 Eylül'de oylanır, onaylanma ihtimali yüksek | İZLENİYOR |
 | 20 Ağu | DXY 99.5/100.4 altı kapanış altın/gümüşe yarar | İZLENİYOR |
+
+---
+
+## EK — 2026-08-24 OTURUMU: 7 VİDEO DERLEMESİ
+
+> Ida'nın izlediği 7 video tek pakette derlendi. **Hiçbiri Koç kaynağı değildir.**
+> Üç yeni kaynak dosyaya ilk kez giriyor: **Onur Duygu**, **Daron Acemoğlu**, **Doruk İşmen**.
+> Diğer üçü mevcut kaynakların (Erol Polat, Emrah Lafçı, Emrah Altınocağı) yeni yayınları.
+
+### 1) EROL POLAT — Foneria TV, TEFAS fon soru-cevap
+
+*(Mevcut "EROL POLAT (Money Talks)" bölümünden AYRI program — Foneria TV soru-cevap formatı.)*
+
+- **Para piyasası fonu (PPF) riski:** "Batmaz" — ağırlık ters repoda; sadece içindeki
+  devlet/özel sektör tahvili değer kaybederse **geçici eksi** görülebilir.
+- **Aktif yönetim testi:** Fon ana endeksinden (örn. BIST 30) **pozitif ayrışıyor mu?**
+- **AFT (yarı iletken):** Dağılım değişmiş, artık ETF de taşıyor → daha aktif yönetim.
+- **SAS (Sabancı) / YAS (Koç holding fonları):** Faiz düşüp yabancı dönerse
+  derinliği olan holding/banka kağıtlarına yönelir tezi.
+- **15-20 yıllık emeklilik portföyü:** %40 TP2 (sabit getiri) belirsizlik nedeniyle makul;
+  **Avrupa payı zayıf halka.**
+- **Altın:** "Altınsız portföy olmaz." Döviz **nakit** taşımak enflasyona karşı erir.
+  Uyarı: *"Her düşüş alım fırsatı değildir."*
+- **URA (uranyum/nükleer):** Çok oynak (Oca 2026 +%30, Kas 2025 -%13/14) ama AI'nın
+  enerji ihtiyacı teması geçerli.
+- **GBV (Bitcoin teknolojileri fonu):** Kişisel olarak ısınmadığını söylüyor.
+
+### 2) EMRAH LAFÇI — Integral Forex TV "Strateji Masası", 21 Ağustos 2026 çekimi
+
+- **Ana tez:** *"Asıl risk yatırım yapmamak."* Altın artık klasik güvenli liman değil,
+  **dolara/finansal sisteme güvensizliğin alternatifi.**
+- **Altının gerçek destekçisi:** ABD/dünya borç yükü + **2022'de Rusya varlıklarının
+  dondurulması** → merkez bankası alımları (Rusya, Çin, Türkiye, Polonya) hızlandı.
+- **AI:** Güç birkaç şirkette yoğunlaşmış (Nvidia, TSMC, ASML, Samsung/SK Hynix/Micron)
+  — "K tipi ekonomi". Çin ucuz alternatif üretirse yatırım değersizleşebilir.
+  **2000 dot-com balonuna benzemiyor** çünkü bilançolar gerçek.
+- **Seçim:** 2028 Nisan'dan önce seçim beklemiyor → "seçim ekonomisi" senaryosu yok.
+- **FAİZ (net sayı):** Politika faizi **37**, işlek faiz **40**.
+  *"40'tan 37'ye gelir ama 37'nin ALTINA İNMEZ."*
+  **Tek istisna:** Brent kalıcı **80 $ altına** inerse indirim ihtimali artar (şu an **93 $**).
+- **BIST:** Ucuz değil — **%45-50 bileşik risksiz getiri** varken BIST bunu aşmalı.
+  Seçici hisse: TÜPRAŞ, ASTOR, ASELSAN.
+- **Kendi portföyü:** TL ağırlık (faiz/PPF/mevduat/katılım) + küçük BIST + yabancı para
+  cinsinden **altın + teknoloji**. Nakit payını sert düşüşte kademeli alım için tutuyor.
+- **Psikoloji:** *"Maç antrenmanda kazanılır"* — gün içi ekrana bakmamak iyi yatırımcı göstergesi.
+
+### 3) ONUR DUYGU (Font Turkey kurucusu) — ForInvest / Yatırım İpuçları — **YENİ KAYNAK**
+
+**SPK fon düzenlemesi (taslak) — bu derlemedeki en somut aksiyon konusu:**
+- **PPF:** BIST para piyasasındaki **teminatsız borç verme** Takasbank teminat yapısına
+  bağlanacak; pay repo tek kağıt yerine **çoklu kağıda** dağıtılacak; tahvil zorunluluğu
+  serbest para piyasası fonlarına da gelebilir.
+- **Serbest fonlar:** Tek/az sayıda hisseye yoğunlaşma sınırlanacak, **grup şirketinin
+  kendi hissesine** yatırımı kısıtlanacak.
+- **Gizli risk somutlandı:** Bazı PPF'ler **%48-49** getiriyor (politika 37 / işlek 40 iken)
+  → fazla getiri **gizli risk** demek. Geçen Kasım bir portföy yönetim şirketinin
+  **2 PPF'inde ~20 gün ödenmeme** yaşandı.
+- **Sonuç öngörüsü:** Düzenleme sonrası PPF getirileri **41-42'ye törpülenir.**
+- **Borsa etkisi:** Serbest fon yoğunlaşması kısıtlanırsa para küçük/yan kağıtlardan
+  **BIST 30/100'ün büyük kağıtlarına** kayar — etkisi şimdiden görülüyor.
+
+**Makro:** Ağustos = **"pivot ay"**. Negatif: ABD-İran/Hürmüz, petrol 90 $ üzeri,
+İngiltere/Japonya/Avrupa enflasyonu yükseliyor → faiz artış riski.
+Pozitif: altın-gümüş bu hafta **petrolle bağını kopardı**, enflasyon koruması olarak alınıyor.
+Fed'den faiz **artırımı** beklemiyor.
+
+**Altın (çift yönlü tavsiye):** Yıl sonuna kadar **yeni alım için HAYIR**
+(~4400-4500'den 4800 hedefi = %10-20 potansiyel, sınırlı);
+**uzun vadeli biriktirme için EVET** — merkez bankası alımları (Çin **21 ay kesintisiz**)
++ ETF girişleri sürüyor. Portföyde **%10-15 altın/gümüş** (bakır/platin/paladyum sepetli fonlar dahil).
+
+**Fon tavsiyeleri:** Yeni başlayan PPF ile başlasın; riskli fonlarda (5-6-7 risk) geçmiş getiri
+tekrar etmez (çip fonları Nis-Haz **+%50**, Temmuz **-%15**); en az **3-6 ay** sabır;
+fon işlemleri **13:30'dan önce**. Dengeli portföy: **%40-50 PPF, %10-15 altın/gümüş,**
+kalanı yerli/yabancı hisse (teknoloji+çip+sağlık+enerji+siber güvenlik).
+**Arbitraj fonları:** Spot-vadeli farkı, faiz üstü + sıfır stopaj, nitelikli yatırımcı şartı,
+bazı günler eksi yazar — **faiz düşüşünde öne çıkar.**
+**Serbest döviz fonları:** Döviz mevduatına alternatif, stopaj **%17,5 vs %25** avantajı.
+
+### 4) EMRAH ALTINOCAĞI — "Pahalı mı? Ya Metre Yanlışsa" (değerleme metodolojisi)
+
+**Tez:** Ucuz/pahalı geçmiş fiyata göre değil **paydaya** (neyle ölçtüğüne) göre belirlenir;
+para sürekli değer kaybeden bir "metre" olduğu için nominal artış tek başına pahalılık değil.
+
+| Metot | Şu an | Eşik / tarihsel | Okuma |
+|---|---|---|---|
+| Buffett göstergesi (PD/GSYİH) | **%240** | aşırı pahalı = %200 | PAHALI |
+| F/K (S&P) | **29** | ucuz 12 / pahalı 25 | PAHALI (ama 2009 dipte F/K 79 idi → kusurlu) |
+| CAPE | **41-42,5** | 150 yıl ort. 17, dot-com zirve 44 | PAHALI |
+| Risk primi (borsa - tahvil) | **-1,28** | 1982'de -1,65 iken tarihi DİP çıktı | yanıltıcı |
+| S&P / altın | 2000 zirvesinin **1/3'ü** | — | **UCUZ** |
+
+**Kendi tezi:** Piyasalar bugünü değil **gelecekteki para arzını** fiyatlar.
+ABD **40 trilyon $** borç, bu yılki faiz ödemesi **1 trilyon $**'ı geçiyor, küresel devlet borcu
+**~110 trilyon $**, geçen haftaki **10/30 yıllık tahvil ihalelerinde son 20 yılın rekor faizleri**
+görüldü → para arzı artışı artık "mecburiyet". Sonuç: borsa/altın/gayrimenkul birkaç yıllık
+ufukta **hâlâ ucuz** — ama kısa vadede 2022 S&P gibi sert düşüş olabilir.
+
+### 5) PROF. DR. DARON ACEMOĞLU — Bloomberg HT (yeni kitap) — **YENİ KAYNAK**
+
+Finansal değil, makro-politik/sosyolojik. Fiyat/seviye içermez, karneye girmez.
+- **Tez:** Liberal demokrasi krizde. II. DS sonrası ~40 yıl hem hızlı büyüme hem
+  **azalan** eşitsizlik dönemiydi; bugün tam tersi.
+- **Algoritma eleştirisi:** Akışlar en kışkırtıcı içeriği öne çıkarıyor çünkü etkileşim = para
+  → "zehirli etkileşim ekosistemi". Çözüm **algoritmanın düzenlenmesi**, bireysel ifade
+  özgürlüğüne dokunulmadan.
+- **AI:** *"İşçi yanlısı AI"* — AI çalışanı yerinden etmek yerine üretken kılmalı.
+  Büyük teknoloji firmaları bu yönde gitmiyor; asıl endişesi bu.
+
+### 6) DORUK İŞMEN — "Ethereum 250 bin dolar olabilir mi?" (Etherealize raporu yorumu) — **YENİ KAYNAK**
+
+**Raporun tezi (Etherealize — Vivek Raman + Danny Ryan; EF/kurumsal köprü misyonlu, YANLI kaynak):**
+- Buffett'ın altın eleştirisi ("kıt ama üretmiyor") BTC için de geçerli;
+  **ETH staking** bu ikilemi kırıyor: hem para hem üretken varlık.
+- **250.000 $ hesabı:** Altın + BTC toplam parasal primi **~31 trilyon $** / **121 milyon ETH**.
+  Fiyat hedefi DEĞİL — "ETH ikisinin TÜM primini yutarsa" teorik tavanı.
+- Net issuance yıllık **~%0,8** (protokolde %1,5 tavanlı, algoritmik).
+- Menger'in 6 para kriteri + sansüre dayanıklılık: 7 kriterde ETH önde, sadece
+  **köklü tarih**te geride (altın 3000 yıl, BTC 17, ETH 10, PoS 2022'den beri).
+- **DeFi/RWA:** 2025'te Ethereum'da **18,8 trilyon $** stablecoin hareketi
+  (Visa'nın yıllık hacminden fazla) → içsel değer tabanı. Karşıt: BTC'nin "saf parasal prim"
+  sorunu — inanç kaybolursa sıfıra gidebilir.
+- **Gümüş analojisi:** 1870'lerde altın standardına geçiş gümüşün parasal primini sildi;
+  tez: bu kez hem altın hem BTC yerini "üretken paraya" bırakabilir.
+
+**Doruk'un kendi eleştirisi:** Kaynak yanlı (Ethereum lobiciliği misyonuyla kurulmuş);
+250.000 $ aşırı (tarihte hiçbir varlık başkasının primini tamamen yutmadı);
+**Lindy etkisi** hafife alınmış — kurumsal yatırımcı onlarca yıl bekleyebilir;
+"sıfır karşı taraf riski" iddiası pratikte zayıf (çoğu kişi Lido/Coinbase/Binance üzerinden
+stake ediyor); EF'nin liderlik/iletişim/hazine yönetimi zayıf.
+
+**Kişisel sonucu:** Çerçeve doğru ama rakam değil — gerçekçi 5-10 yıllık senaryo
+**~62.500-125.000 $** (bugünkü ~2.400 $'dan **25-50 kat**). Raporun asıl değeri ETH'nin
+Wall Street'e anlatılma biçimini değiştirmesi (Larry Fink "tokenizasyonun otoyolu",
+BlackRock'ın Ethereum üzerine kurduğu fon, ETH ETF'lerinde staking izni).
+**Açık risk:** Bitcoin'in **2030 sonrası güvenlik bütçesi** sorunu çözülmedi.
+
+### 7) DORUK İŞMEN — "Neden izinsiz altyapı hep kazanır" (video 6'nın yapısal ayağı)
+
+- **Tarihsel paralel 1:** 1995'te Bill Gates dahil sektör "özel kurumsal ağlar açık interneti
+  yenecek" diyordu — yanıldılar.
+- **Tarihsel paralel 2:** Unix (kapalı) vs Linux (açık) → Linux kazandı.
+  Eric Raymond, *Katedral ve Pazar Yeri* (1997): dağıtık model iletişim maliyetini aşıyor.
+- **Ethereum örnekleri:** ERC-20, ERC-721/NFT, Uniswap — hepsi **izinsiz**, merkezi onaysız.
+  Vitalik'in **"credible neutrality"**: şeffaf kural, eşit uygulama, değiştirilmesi zor, açık katılım.
+- **Konsorsiyum zinciri mezarlığı:** We.Trade (2022 iflas), Marco Polo (1 yıl sonra tasfiye),
+  Contour (birkaç ay), Avustralya Borsası'nın **6 yıl / ~250 milyon AUD** projesi (2022 iptal).
+  Ethereum 10+ yıldır hiç çökmedi.
+- **Regülasyon itirazına cevap:** Hesap verebilirlik **uygulama katmanında** —
+  ERC-3643 (KYC/transfer kısıtı token seviyesinde), ZK kriptografi (kurumsal gizlilik).
+- **Asıl tez — egemenlik (sovereignty):** 2015-2022 arası **7 yıl PoW** ile sahipliğin geniş
+  kitleye dağılması taklit edilemez. Kanıt: Coinbase ve Robinhood kendi L1'i yerine
+  **Ethereum L2** kurdu; BlackRock ve JPMorgan tokenize fonlarını **Ethereum'da** başlattı.
+- **Token Terminal 2026 Ç1 (ilk 5 zincir içinde Ethereum payı):**
+  DeFi kredileri **%79**, stablecoin **%62**, tokenize fonlar **%73**, tokenize RWA **%84**.
+- **Sonuç:** Kazanan strateji izinsiz altyapıyla rekabet değil **üstüne inşa** (Netscape modeli).
+
+---
+
+### KOÇ'LA İLİŞKİ — 2026-08-24 derlemesi
+
+**YAKINSAMA 1 — US10Y / tahvil faizi (güçlü, bağımsız):**
+Koç'un 22 Ağustos aktif tezi **US10Y 4,57 kırıldı → 4,60 (60 basamağı)**.
+Altınocağı bağımsız olarak *"geçen haftaki 10 ve 30 yıllık ihalelerde son 20 yılın rekor
+faizleri"* diyor. Farklı gerekçe (borç/para arzı mecburiyeti vs merdiven), **aynı yön**.
+Kemal Hiçyılmaz'ın 20 Ağustos "Bessent tahvil geri alımı 2B→4B" notu da **aynı olayın**
+diğer yüzü: uzun vade faizini baskılama çabası. Üç kaynak, tek eksen.
+
+**YAKINSAMA 2 — Petrol, ikinci vadenin teması:**
+Koç'un vade sistemi: 1. vade = gümüş (Çin), 2. vade = **petrol (ABD)**.
+Lafçı Brent **93 $** diyor ve *"kalıcı 80 altına inerse TCMB indirim ihtimali artar"*;
+Onur Duygu **90 $ üzerini** Ağustos "pivot ay"ının negatif ayağı sayıyor.
+İkisi de petrolü **merkezî değişken** yapıyor — Koç'un vade temasıyla örtüşüyor.
+
+**AYRIŞMA 1 — Altında zamanlama:**
+Onur Duygu *"yıl sonuna kadar yeni alım için hayır"* (potansiyel %10-20 ile sınırlı) diyor.
+Koç'un çerçevesinde altın **DXY/Fed indirimi ön koşuluna** bağlı, ama Koç'ta böyle bir
+"yıl sonuna kadar bekle" kısıtı yok. Lafçı ise altını **yapısal** (borç + Rusya varlıkları)
+okuyor, zamanlama vermiyor. Üç ayrı zaman ufku — karıştırılmamalı.
+
+**AYRIŞMA 2 — ETH büyüklük mertebesi (Ida için kritik):**
+- **Koç (merdiven):** ETH 2.570 üstü → **57 basamağı → 60 = ~2.600 bölgesi.** Kısa vade, teknik.
+- **Ida'nın hedefi:** **~10.000 $.**
+- **Doruk İşmen'in gerçekçi senaryosu:** **62.500-125.000 $** (5-10 yıl).
+- **Etherealize raporu:** 250.000 $ (teorik tavan, fiyat hedefi değil).
+
+**Bunlar aynı şeyi ölçmüyor:** Koç günlük/haftalık basamak, Ida orta vade, Doruk 5-10 yıllık
+parasal prim tezi. Doruk'un rakamı Ida'nın hedefinden **6-12 kat agresif** —
+karşılaştırma yapılırken vade farkı mutlaka söylenmeli, yoksa "Doruk daha iyimser" yanlış olur.
+
+**AKSİYON BAĞLANTISI — SPK düzenlemesi (Koç dışı ama Ida'nın portföyünü doğrudan ilgilendirir):**
+Erol Polat ve Onur Duygu bağımsız olarak aynı düzenlemeye işaret ediyor.
+Somut sonuç: **PPF getirileri 48-49 → 41-42.** Ida'nın TL tarafında PPF/TP2 ağırlığı varsa
+bu bir **getiri düşüşüdür**, batma riski değil (Erol Polat'ın ayrımı). Yan etki: serbest fon
+yoğunlaşma kısıtı → para **BIST 30/100'ün büyük kağıtlarına** kayar.
+
+**ÇATI GÖZLEM — "para arzı mecburiyeti" üç kaynakta birden:**
+Altınocağı (40 trilyon $ ABD borcu, ~110 trilyon $ küresel), Lafçı (borç + Rusya varlıkları →
+merkez bankası altın alımı), Doruk (parasal prim tezi) — üçü **aynı yapısal argümanın**
+farklı varlık sınıflarına uygulanmış hâli: borç sürdürülemez → para arzı artar →
+sert varlıklar (altın/BTC/ETH/hisse) uzun vadede ucuz. Koç bu terimi kullanmıyor
+ama "hâlâ majör hatların altındayız" duruşu **kısa vadede** bu tezle çelişmiyor —
+sadece zaman ufku farklı.
+
+### KARNE — 2026-08-24 derlemesi (sınanabilir iddialar)
+
+| Kaynak | Tarih | İddia | Sonuç |
+|---|---|---|---|
+| Emrah Lafçı | 21 Ağu | Politika faizi 37'nin ALTINA inmez | İZLENİYOR |
+| Emrah Lafçı | 21 Ağu | Brent kalıcı 80 $ altına inerse indirim ihtimali artar | İZLENİYOR |
+| Emrah Lafçı | 21 Ağu | 2028 Nisan'dan önce seçim yok | İZLENİYOR |
+| Emrah Lafçı | 21 Ağu | AI rallisi dot-com balonu değil (bilançolar gerçek) | İZLENİYOR |
+| Onur Duygu | 24 Ağu | SPK sonrası PPF getirileri 41-42'ye iner | İZLENİYOR |
+| Onur Duygu | 24 Ağu | Para küçük kağıtlardan BIST 30/100'e kayar | İZLENİYOR |
+| Onur Duygu | 24 Ağu | Fed faiz ARTIRMAZ | İZLENİYOR |
+| Onur Duygu | 24 Ağu | Altın yıl sonuna kadar en fazla ~4800 (%10-20), yeni alım cazip değil | İZLENİYOR |
+| E. Altınocağı | 24 Ağu | Para arzı artışı mecburiyet → borsa/altın/GYO birkaç yılda ucuz | İZLENİYOR |
+| E. Altınocağı | 24 Ağu | Kısa vadede 2022 benzeri sert düşüş olabilir | İZLENİYOR |
+| Doruk İşmen | 24 Ağu | ETH 5-10 yılda 62.500-125.000 $ (25-50x) | İZLENİYOR |
+| Doruk İşmen | 24 Ağu | 250.000 $ senaryosu gerçekleşmez (aşırı) | İZLENİYOR |
+| Doruk İşmen | 24 Ağu | Kurumlar kendi L1'i yerine Ethereum'a inşa etmeye devam eder | İZLENİYOR |
+| Doruk İşmen | 24 Ağu | BTC 2030 sonrası güvenlik bütçesi sorunu çözülmezse risk | İZLENİYOR |
+| Erol Polat | 24 Ağu | Faiz düşüp yabancı dönerse SAS/YAS tipi holding fonları öne çıkar | İZLENİYOR |
+
+**Not:** Daron Acemoğlu girişi fiyat/seviye içermediği için karneye alınmadı.
+
+**Çapraz not:** Video 2 (Lafçı) ile Video 5 (Acemoğlu) bağlantılı — Lafçı, Acemoğlu'nun
+kitabını okuduğunu belirtiyor. Video 6 ve 7 aynı yazarın (Doruk İşmen) fiyat ve
+yapısal/tarihsel ayakları.

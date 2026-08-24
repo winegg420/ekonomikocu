@@ -1481,3 +1481,40 @@ CASHCATUSDT, CHONKETHAUSDT, DRBUSDT, DRVUSDT, HMMUSDT, JIMOTHYUSDT, KAIOUSDT,
 NESUSDT, PONSUSDT, QUIDUSDT, STONKBROKERUSDT, STONKUSDT, TENDIESUSDT.
 Tamamı günlük hareketliler listesinden; sabit listede değiller, yarın düşecekler.
 Sembol listesi DEĞİŞTİRİLMEDİ.
+
+---
+
+## 2026-08-24 — 7 video derlemesi 11_DIS_KAYNAKLAR.md'ye işlendi
+
+**Yapılan:** Ida'nın izlediği 7 finans/piyasa videosunun derlenmiş özeti dosyaya
+tarihli blok olarak eklendi (`## EK — 2026-08-24 OTURUMU: 7 VİDEO DERLEMESİ`,
++229 satır, 1156 → 1385).
+
+**Karar ve nedeni:** İçerik 06_ANALIZ.md'ye DEĞİL 11_DIS_KAYNAKLAR.md'ye yazıldı.
+Gerekçe: 7 videonun hiçbiri Koç kaynağı değil; 06_ANALIZ.md yalnızca Koç'un kendi
+çerçevesini tutuyor (11_DIS_KAYNAKLAR.md başlığındaki kural). Karıştırılırsa
+mentor paketinin atıf bütünlüğü bozulur.
+
+**Yeni kaynaklar (dosyaya ilk giriş):** Onur Duygu (Font Turkey / ForInvest),
+Daron Acemoğlu (Bloomberg HT), Doruk İşmen (YouTube, 2 video).
+**Mevcut kaynakların yeni yayınları:** Erol Polat (bu kez Foneria TV — Money Talks'tan
+ayrı program, o yüzden ayrı giriş), Emrah Lafçı (Integral Forex, 21 Ağu çekimi),
+Emrah Altınocağı (değerleme metodolojisi).
+
+**Çıkarımlar:**
+- **US10Y yakınsaması:** Altınocağı'nın "10/30 yıllık ihalelerde 20 yılın rekor faizleri"
+  notu, Koç'un 22 Ağustos US10Y 4,57→4,60 tezinin bağımsız üçüncü teyidi
+  (Kemal Hiçyılmaz'ın Bessent tahvil geri alımı notuyla birlikte).
+- **Petrol:** Lafçı (Brent 93 $, "80 altı = TCMB indirimi") ve Onur Duygu ("90 üstü
+  negatif") petrolü merkezî değişken yapıyor — Koç'un 2. vade = petrol temasıyla örtüşüyor.
+- **ETH mertebe farkı:** Koç ~2.600 (teknik basamak), Ida ~10.000 $, Doruk 62.500-125.000 $
+  (5-10 yıl), Etherealize 250.000 $ (teorik tavan). Aynı şeyi ölçmüyorlar; karşılaştırmada
+  vade farkı belirtilmezse yanlış sonuç çıkar. Dosyaya bu uyarı yazıldı.
+- **Aksiyon konusu:** SPK fon düzenlemesi taslağı → PPF getirileri 48-49'dan 41-42'ye
+  törpülenecek (Erol Polat + Onur Duygu bağımsız teyit). Ida'nın TL tarafını doğrudan
+  ilgilendiriyor; batma riski değil, getiri düşüşü.
+- **Çatı gözlem:** Altınocağı + Lafçı + Doruk aynı "para arzı mecburiyeti" argümanının
+  üç farklı varlık sınıfına uygulanmış hâli.
+
+**Karne:** 15 sınanabilir iddia İZLENİYOR olarak eklendi. Acemoğlu girişi fiyat/seviye
+içermediği için karneye alınmadı.
