@@ -1452,3 +1452,32 @@ AIDOGEUSDT, ALIGNUSDT, ANSEMUSDT, CHONKETHAUSDT, DRBUSDT, DRVUSDT, HMMUSDT,
 JIMOTHYUSDT, KAIOUSDT, NESUSDT, PODUSDT, PONSUSDT, STONKBROKERUSDT, STONKUSDT,
 TENDIESUSDT. Sembol listesi DEĞİŞTİRİLMEDİ — bunlar sabit liste değil, günlük
 hareketliler; yarın listeden düşecekler. Doğrulanmış alternatif kod aranmadı.
+
+## 2026-08-24 (devam) — Bubbles tazelendi, ikinci koşum
+
+### Yapılan
+- **Hata yakalandı:** Sabahki tarama bubbles'ı TAZELEMEDEN yapılmıştı; kullanılan
+  `gunun_hareketlileri.txt` 23 Ağustos 17:40 üretimiydi. Kullanıcı uyardı.
+- `gunun_hareketlileri_guncelle.py` çalıştırıldı: cryptobubbles 1000 coin tarandı,
+  |günlük| ≥ %5 eşiğini geçen 159, USDT paritesi bulunan **144 sembol** yazıldı
+  (MEXC=66, BINANCE=43, BYBIT=25, GATEIO=9, KUCOIN=1). USDT paritesi olmayan 15
+  coin atlandı (PLS, PROS, KNTQ, NEET, BMX, HFUN, PUMPCADE, CLASH, MCOIN, QAI,
+  BEAR, LFI, BSU, TITANX, KEYCAT).
+- İkinci koşum (resume, ABD hisseleri yine hariç): 93 sembol → **72 okundu / 21
+  okunamadı**. Günün toplamı: **494 sembol, 280 rapora girdi**.
+- İşlem adayları: **19 satır** (sabahki 18 + yeni **MNTUSDT** G-Üst %-0,04 short).
+  Bubbles'tan gelen tek yeni aday MNTUSDT; listenin 5. sırasına girdi.
+
+### Karar: kalıcı kural kaydedildi
+Kullanıcı: *"magicma taraması dediğimde bubbles sitesini de taramalısın; ya da
+sadece bubbles tara derim."* Hafızaya alındı
+(`feedback_magicma_bubbles_dahil.md`). Bundan sonra MagicMA taraması istendiğinde
+adım 1 = bubbles tazeleme, ayrıca sorulmaz. Kapsam daraltması ("abd hariç" gibi)
+bubbles'ı kapsam dışı bırakmaz.
+
+### Okunamayanlar (21)
+AEROUSDT, NFPUSDT, QQQBUSDT, REUSDT, SPYBUSDT, GRVTUSDT, KIIUSDT, AIDOGEUSDT,
+CASHCATUSDT, CHONKETHAUSDT, DRBUSDT, DRVUSDT, HMMUSDT, JIMOTHYUSDT, KAIOUSDT,
+NESUSDT, PONSUSDT, QUIDUSDT, STONKBROKERUSDT, STONKUSDT, TENDIESUSDT.
+Tamamı günlük hareketliler listesinden; sabit listede değiller, yarın düşecekler.
+Sembol listesi DEĞİŞTİRİLMEDİ.

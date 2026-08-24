@@ -2,7 +2,7 @@
 
 - Zaman dilimi: **4 saat (4H)**
 - Kriter: çizgiye yapışık ürünler (**mesafe ≤ %0,25**), en yakın en üstte
-- Taranan sembol: 422 · İşlem adayı: 18
+- Taranan sembol: 494 · İşlem adayı: 19
 - Fiyat çizginin ALTINDA = DİRENÇ = short adayı · ÜSTÜNDE = DESTEK = long adayı
 
 | Sembol | Fiyat | Çizgi | Değer | Mesafe | Aday |
@@ -11,6 +11,7 @@
 | OPUSDT | 0,108400 | G-Üst | 0,108424 | %-0.02 | short adayı |
 | YKBNK | 36,4000 | G-Üst | 36,4126 | %-0.03 | short adayı |
 | ENJSA | 111,70 | G-Alt | 111,75 | %-0.04 | short adayı |
+| MNTUSDT | 0,521800 | G-Üst | 0,522033 | %-0.04 | short adayı |
 | USDCAD | 1,3839 | H-1 | 1,3846 | %-0.05 | short adayı |
 | CADJPY | 115,05 | G-Alt | 114,95 | %+0.08 | long adayı |
 | UUSDT | 0,999500 | G-Alt | 1,000422 | %-0.09 | short adayı |
