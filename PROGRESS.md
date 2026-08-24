@@ -1567,3 +1567,53 @@ teması sorusuna ilk somut cevap).
 **Çıkarım/gözlem:** "Tarama başarılı göründü ama veri gelmedi" senaryosu bu projede
 tekrar eden bir tuzak. Doğrulama refleksi: tarama bitince **arşivin en yeni kaydının
 tarihi bugüne yakın mı** diye bak; değilse profil akışını elle kontrol et.
+
+---
+
+## 2026-08-25 — İkinci hesap altyapısı: @iriscibre eklendi
+
+**İstek:** "iris cibre tara" dendiğinde https://x.com/iriscibre taransın. Kapsam:
+kullanıcı kararıyla **son 1 hafta** ("gerisi lazım değil şimdilik").
+
+**Sorun:** Tarama altyapısı tek hesaba sabitti — `tweet_tara.py` içinde
+`PROFILE_HANDLE = "ekonomikocu"` ve tüm çıktı yolları (`cekilen_tweetler.jsonl`,
+`medya/`, hafıza, `tara_bookmark.json`, `alinti_bekleyen.jsonl`) kök dizine
+yazıyordu. Yardımcı modüller de kendi `_project_root()`'larıyla aynı köke bakıyordu.
+
+**Çözüm (minimal, geriye dönük uyumlu):** İki ortam değişkeni eklendi —
+`EKO_HANDLE` (taranacak profil) ve `EKO_VERI_KOK` (veri kökü). Dört modülün
+(`tweet_tara`, `tara_nav`, `alinti_common`, `tara_ilerle`) `_project_root()`
+fonksiyonu önce bu değişkene bakıyor; yoksa **davranış birebir eskisi gibi**.
+`tweet_tara.py` içindeki 8 sabit "ekonomikocu" referansı (sekme seçimi, akış
+kontrolleri, `EXTRACT_JS` içindeki hesap regexi) `PROFILE_HANDLE`'a çevrildi.
+Hafıza dosyası adı `f"{PROFILE_HANDLE}_hafiza_v1.md"` oldu — ekonomikocu için
+aynı isim çıkıyor, dosya değişmedi. Regresyon testi yapıldı: ekonomikocu yolları
+ve handle aynı.
+
+**Yeni komut:** `py -3 99_BOT_ARSIV/kod/tara_guvenli.py --hesap iriscibre --days 7`
+- `--hesap` yalnızca TARANACAK profili seçer; X'e giriş yapan hesabı değiştirmez
+  (giriş hâlâ @420cryptofarmer, çıkış kodu 4 kuralı aynen geçerli).
+- `--abone` ikinci hesapta reddediliyor (abone akışı ekonomikocu'ya özgü).
+- 00-10 yükleme paketi ikinci hesapta **üretilmiyor** (mentor paketine özgü,
+  LFS kotasını da yerdi). Log'a "ham arşiv modu" basıyor.
+
+**Sonuç:** `iriscibre/` altında **223 kayıt, 87 görselli tweet**, ayrı hafıza ve
+bookmark dosyaları. ekonomikocu arşivi (7.148 kayıt) hiç etkilenmedi. Push: `eeb11ee`.
+
+**Gün kapsamı:** 20 Ağu 8 / 21 Ağu 11 / 22 Ağu 29 / 23 Ağu 29 / 24 Ağu 15.
+**18-19 Ağustos boş kaldı** — X'in with_replies akışı o iki günü atladı.
+
+**Çıkarımlar (bu hesaba özgü, ekonomikocu'dan farklı):**
+1. **`stop-before` yüksek hacimli hesapta tetiklenmiyor.** Her scroll'da 10-15 yeni
+   kayıt geldiği için "1 scroll'dur yeni yok" koşulu hiç oluşmuyor; 7 gün istenmişken
+   tarama Temmuz ortasına kadar sarktı. Çözüm: `--days N` verilince otomatik
+   tarih sınırlı arama moduna (`from:iriscibre since:.. until:..`) geçiliyor.
+2. **Arama sonuç akışı geç doluyor — ilk 2-3 scroll "ekranda 3-4 / +0 yeni" gösterir.**
+   Bu boş olduğu anlamına GELMEZ. Bu oturumda tam bu yüzden erken durduruldu ve
+   "X araması yanıtları indekslemiyor" diye **yanlış bir sonuç çıkarıldı**; ayrı
+   bir kontrolde aynı sorgunun 16 sonuç (yanıtlar dahil) döndürdüğü görüldü.
+   ekonomikocu'daki "arama abone tweetlerini görmez" kısıtı burada YOK — hesap
+   herkese açık.
+3. Gece boyunca süren taramaların ardından X bu oturumu ağır sınırladı; 18-19 Ağustos
+   boşluğunu doldurma denemesi bu yüzden yarım kaldı. Sonraki `--hesap iriscibre`
+   koşumu artımlı olarak o boşluğu kapatır.

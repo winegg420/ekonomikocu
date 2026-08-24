@@ -1,0 +1,15 @@
+[00:30:56] OK — aktif hesap @420cryptofarmer. Tarama serbest.
+[tara_guvenli] hesap=@iriscibre | calistiriliyor: tara_guncel_yeni.py --days 7 --bolum-gun 3 --soguma-sn 90
+Hesap: @iriscibre | veri koku: C:\Users\ida\Desktop\ekonomikocu\iriscibre
+[iriscibre] --days -> tarih sinirli arama modu: 2026-08-18 -> 2026-08-26
+En yeni kayit: 2026-08-24T23:03:15
+DONEM MODU: 2026-08-18 -> 2026-08-26 (3 gunluk pencereler, ara soguma 90 sn)
+Baslangic: 223 tweet | 27 alinti | 12 flood-parca
+
+
+--- Pencere 1/3: 2026-08-23 -> 2026-08-26 ---
+Mevcut jsonl: 223 tweet | alinTi tam: 25 | bekleyen alinti: 2
+Senin Chrome'una baglandi (port 9222).
+Arama modu (tek sekme): https://x.com/search?q=from%3Airiscibre%20since%3A2026-08-23%20until%3A2026-08-26&src=typed_query&f=live
+Scroll 1/100: toplam 223 tweet (+0 yeni) | ekranda: 2 | alinti: 27 | en eski: 2025-06-19 14:34:27
+Scroll 2/100: toplam 223 tweet (+0 yeni) | ekranda: 3 | alinti: 27 | en eski: 2025-06-19 14:34:27

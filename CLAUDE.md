@@ -77,7 +77,10 @@ python 99_BOT_ARSIV/kod/github_guncelle.py
   ekonomikocu arsivi ile ASLA karismaz.
 - Bu hesapta 00-10 yukleme paketi URETILMEZ (mentor paketine ozgu). Ham arsiv +
   medya toplanir ve push edilir.
-- **Arama akisi bu hesapta kullanilmaz**: X aramasi yanitlari indekslemiyor,
-  @iriscibre icerigi neredeyse tamamen yanit. Profil `with_replies` akisi sart.
-- Yuksek hacimli oldugu icin `stop-before` kendiliginden tetiklenmez; `--days N`
-  verildiginde scroll ust siniri otomatik `max(20, N*5)` olur.
+- Yuksek hacimli oldugu icin profil kaydirmasinda `stop-before` tetiklenmez
+  (her scroll'da yeni kayit gelir, "yeni yok" kosulu olusmaz) ve tarama aylarca
+  geriye sarkar. Bu yuzden `--days N` verildiginde otomatik **tarih sinirli arama
+  moduna** gecer: `from:iriscibre since:.. until:..`.
+- Arama akisi yanitlari DA dondurur (ekonomikocu'daki abone-ozel kisitlamasi
+  burada yok, hesap herkese acik). Ancak sonuc akisi gec dolar: ilk 2-3 scroll
+  "ekranda 3-4" gorunur, **erken durdurma**.

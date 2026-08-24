@@ -99,16 +99,19 @@ def main() -> int:
     os.environ["EKO_VERI_KOK"] = str(VERI_KOK)
     print(f"Hesap: @{HANDLE} | veri koku: {VERI_KOK}", flush=True)
 
-    # Yuksek hacimli hesaplarda profil kaydirmasi kendiliginden durmuyor: her
-    # scroll'da yeni kayit geldigi icin "1 scroll'dur yeni yok" kosulu hic olusmuyor,
-    # stop-before devreye girmiyor ve tarama aylarca geriye sarkiyor.
-    # NOT: Arama akisi (from:<handle> since/until) BU HESAPLARDA COZUM DEGIL —
-    # X aramasi YANITLARI indekslemiyor, yanit agirlikli hesaplarda bos donuyor.
-    # Cozum: profil akisinda kalip scroll sayisini istenen gun sayisina baglamak.
-    if HANDLE != "ekonomikocu" and args.days is not None:
-        args.max_scroll = max(20, args.days * 5)
-        print(f"[{HANDLE}] profil akisi | max-scroll = {args.max_scroll} "
-              f"({args.days} gun icin ust sinir)", flush=True)
+    # Yuksek hacimli ikinci hesaplarda profil kaydirmasi kendiliginden DURMUYOR:
+    # her scroll'da yeni kayit geldigi icin "1 scroll'dur yeni yok" kosulu hic
+    # olusmuyor, stop-before devreye girmiyor ve tarama aylarca geriye sarkiyor.
+    # Cozum: --days verilmisse tarih sinirli ARAMA akisina cevir
+    # (from:<handle> since:.. until:..). Arama yanitlari da dondurur; sonuc akisi
+    # gec doldugu icin ilk birkac scroll bos gorunebilir, erken durdurma.
+    if HANDLE != "ekonomikocu" and args.days is not None and not args.since:
+        _bas = datetime.now() - timedelta(days=args.days)
+        args.since = _bas.strftime("%Y-%m-%d")
+        args.until = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")
+        args.days = None
+        print(f"[{HANDLE}] --days -> tarih sinirli arama modu: "
+              f"{args.since} -> {args.until}", flush=True)
 
     n0, q0, f0, newest = stats()
     if args.stop_before:

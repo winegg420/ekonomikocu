@@ -24,3 +24,205 @@ Asama 2 tur 1: 4 alinti bekliyor... (navigasyon 0/20)
   >> Alinti 2089415789300379738 — sadece ekonomikocu/status/2090679535284916463
   >> Medya: graf_01.jpg (2089415789300379738)
   >> Alinti 2088521195964526825 — sadece ekonomikocu/status/2088528647233634646
+  >> Medya: graf_01.jpg (2088521195964526825)
+  >> Medya: graf_02.jpg (2088521195964526825)
+  >> Alinti 2083144434225426819 — sadece ekonomikocu/status/2083145243600335329
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Bu turda ziyaret: 4 | kalan: 2
+Asama 2 tur 2: 2 alinti bekliyor... (navigasyon 4/20)
+  >> Alinti 2091210001461215379 — sadece ekonomikocu/status/2091232471148900553
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2083144434225426819 — sadece ekonomikocu/status/2083145243600335329
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Bu turda ziyaret: 2 | kalan: 2
+  >> Ilerleme yok — kalanlar isaretleniyor.
+Asama: eksik grafikler (medya/)...
+Medya geri indirme: 3 tweet...
+  >> DISKE YAZILDI: 223 tweet -> cekilen_tweetler.jsonl
+
+=== ASIL DOSYA: C:\Users\ida\Desktop\ekonomikocu\iriscibre\cekilen_tweetler.jsonl ===
+Toplam: 223 | Ingilizce(kirli): 0
+Hafiza atlandi (--skip-hafiza). JSONL kaydedildi.
+
+=== Alinti turu 1/1 ===
+Bekleyen alinti: 2
+Chrome CDP (port 9222)
+Asama 2 tur 1: 2 alinti bekliyor... (navigasyon 0/20)
+  >> Alinti 2091210001461215379 — sadece ekonomikocu/status/2091232471148900553
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2083144434225426819 — sadece ekonomikocu/status/2083145243600335329
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Bu turda ziyaret: 2 | kalan: 2
+  >> Ilerleme yok — kalanlar isaretleniyor.
+JSONL guncellendi: 223 tweet
+Traceback (most recent call last):
+  File "C:\Users\ida\Desktop\ekonomikocu\99_BOT_ARSIV\kod\alinti_tamamla.py", line 48, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "C:\Users\ida\Desktop\ekonomikocu\99_BOT_ARSIV\kod\alinti_tamamla.py", line 28, in main
+    code = run_quotes_pass(
+        attach_port=args.attach_port,
+    ...<2 lines>...
+        skip_hafiza=args.skip_hafiza,
+    )
+  File "C:\Users\ida\Desktop\ekonomikocu\99_BOT_ARSIV\kod\tweet_tara.py", line 2742, in run_quotes_pass
+    apply_to_hafiza(records, HAFIZA, False)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ida\Desktop\ekonomikocu\99_BOT_ARSIV\kod\tweet_tara.py", line 2755, in apply_to_hafiza
+    md = hafiza.read_text(encoding="utf-8")
+  File "C:\Users\ida\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py", line 546, in read_text
+    return PathBase.read_text(self, encoding, errors, newline)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ida\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py", line 632, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ida\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py", line 537, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\ida\\Desktop\\ekonomikocu\\iriscibre\\iriscibre_hafiza_v1.md'
+Dosya: C:\Users\ida\Desktop\ekonomikocu\iriscibre\cekilen_tweetler.jsonl
+Toplam satir: 223 | alinti (is_quote): 27
+EKSIK: 2 alinti — tekrar: ALINTI_TAMAMLA.bat
+  2091210001461215379 <- ana 2091232471148900553 | metin kesik | metin=195 char
+  2083144434225426819 <- ana 2083145243600335329 | metin kesik | metin=421 char
+
+==================================================
+GUNCEL TARAMA BITTI
+  Yeni tweet : +10  (toplam 223)
+  Yeni alinti: +0  (toplam 27)
+  Yeni flood : +12  (toplam 12)
+  En yeni kayit: 2026-08-24T23:03:15
+==================================================
+[paket] @iriscibre: siniflandirma/paket adimlari atlandi (ham arsiv modu)
++ git remote set-url origin https://github.com/winegg420/ekonomikocu.git
++ git add -A
+warning: in the working copy of '99_BOT_ARSIV/kod/alinti_common.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '99_BOT_ARSIV/kod/tara_guncel_yeni.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '99_BOT_ARSIV/kod/tara_guvenli.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '99_BOT_ARSIV/kod/tara_ilerle.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '99_BOT_ARSIV/kod/tara_nav.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '99_BOT_ARSIV/kod/tweet_tara.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CLAUDE.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'iriscibre/medya/2081075382363496942/graf_01.jpg', LF will be replaced by CRLF the next time Git touches it
++ git diff --cached --quiet
++ git commit -m @iriscibre tarama: +10 kayit (son: 2026-08-24T23:03:15) [otomatik]
+[main eeb11ee] @iriscibre tarama: +10 kayit (son: 2026-08-24T23:03:15) [otomatik]
+ 119 files changed, 805 insertions(+), 1831 deletions(-)
+ create mode 100644 iris_tarama_log1.txt
+ create mode 100644 iris_tarama_log2.txt
+ create mode 100644 iris_tarama_log3.txt
+ create mode 100644 iriscibre/alinti_bekleyen.jsonl
+ create mode 100644 iriscibre/cekilen_tweetler.jsonl
+ create mode 100644 iriscibre/cekilen_tweetler.jsonl.bak
+ create mode 100644 iriscibre/medya/2074187099964584094/graf_01.jpg
+ create mode 100644 iriscibre/medya/2074209126960279879/graf_01.jpg
+ create mode 100644 iriscibre/medya/2074376095672025349/graf_01.jpg
+ create mode 100644 iriscibre/medya/2074376095672025349/graf_02.jpg
+ create mode 100644 iriscibre/medya/2074433842274869422/graf_01.jpg
+ create mode 100644 iriscibre/medya/2074501175689331057/graf_01.jpg
+ create mode 100644 iriscibre/medya/2074501175689331057/graf_02.jpg
+ create mode 100644 iriscibre/medya/2074603012228620657/graf_01.jpg
+ create mode 100644 iriscibre/medya/2074608749965164654/graf_01.jpg
+ create mode 100644 iriscibre/medya/2075344903073038408/graf_01.jpg
+ create mode 100644 iriscibre/medya/2075498976929804724/graf_01.jpg
+ create mode 100644 iriscibre/medya/2075514988018516101/graf_01.jpg
+ create mode 100644 iriscibre/medya/2075514988018516101/graf_02.jpg
+ create mode 100644 iriscibre/medya/2075529361810186666/graf_01.jpg
+ create mode 100644 iriscibre/medya/2075556143926067511/graf_01.jpg
+ create mode 100644 iriscibre/medya/2075887023135576304/graf_01.jpg
+ create mode 100644 iriscibre/medya/2075887023135576304/graf_02.jpg
+ create mode 100644 iriscibre/medya/2077069543583760631/graf_01.jpg
+ create mode 100644 iriscibre/medya/2077069543583760631/graf_02.jpg
+ create mode 100644 iriscibre/medya/2077290106285613201/graf_01.jpg
+ create mode 100644 iriscibre/medya/2077676818715246734/graf_01.jpg
+ create mode 100644 iriscibre/medya/2077708938795978870/graf_01.jpg
+ create mode 100644 iriscibre/medya/2078022318199091510/graf_01.jpg
+ create mode 100644 iriscibre/medya/2078035407862669438/graf_01.jpg
+ create mode 100644 iriscibre/medya/2078569478649184454/graf_01.jpg
+ create mode 100644 iriscibre/medya/2078777620188344498/graf_01.jpg
+ create mode 100644 iriscibre/medya/2078877334527267044/graf_01.jpg
+ create mode 100644 iriscibre/medya/2078919514281115703/graf_01.jpg
+ create mode 100644 iriscibre/medya/2078926413428666774/graf_01.jpg
+ create mode 100644 iriscibre/medya/2079275697064100241/graf_01.jpg
+ create mode 100644 iriscibre/medya/2079275697064100241/graf_02.jpg
+ create mode 100644 iriscibre/medya/2079451559859999111/graf_01.jpg
+ create mode 100644 iriscibre/medya/2079451559859999111/graf_02.jpg
+ create mode 100644 iriscibre/medya/2080596474837053904/graf_01.jpg
+ create mode 100644 iriscibre/medya/2080627668270129527/graf_01.jpg
+ create mode 100644 iriscibre/medya/2080642431414845440/graf_01.jpg
+ create mode 100644 iriscibre/medya/2080773713948283219/graf_01.jpg
+ create mode 100644 iriscibre/medya/2081052437205373141/graf_01.jpg
+ create mode 100644 iriscibre/medya/2081075382363496942/graf_01.jpg
+ create mode 100644 iriscibre/medya/2082000659201581301/graf_01.jpg
+ create mode 100644 iriscibre/medya/2082000659201581301/graf_02.jpg
+ create mode 100644 iriscibre/medya/2082214836839100573/graf_01.jpg
+ create mode 100644 iriscibre/medya/2082327457990873153/graf_01.jpg
+ create mode 100644 iriscibre/medya/2082500010348875785/graf_01.jpg
+ create mode 100644 iriscibre/medya/2082508140017299824/graf_01.jpg
+ create mode 100644 iriscibre/medya/2082531738232733967/graf_01.jpg
+ create mode 100644 iriscibre/medya/2082557282366455819/graf_01.jpg
+ create mode 100644 iriscibre/medya/2082873025133691181/graf_01.jpg
+ create mode 100644 iriscibre/medya/2082923914326675911/graf_01.jpg
+ create mode 100644 iriscibre/medya/2082923914326675911/graf_02.jpg
+ create mode 100644 iriscibre/medya/2083103127536812188/graf_01.jpg
+ create mode 100644 iriscibre/medya/2083136142442922244/graf_01.jpg
+ create mode 100644 iriscibre/medya/2083152287220789301/graf_01.jpg
+ create mode 100644 iriscibre/medya/2083203468546683063/graf_01.jpg
+ create mode 100644 iriscibre/medya/2084753305486684176/graf_01.jpg
+ create mode 100644 iriscibre/medya/2084898399623467189/graf_01.jpg
+ create mode 100644 iriscibre/medya/2084898399623467189/graf_02.jpg
+ create mode 100644 iriscibre/medya/2084928238287991051/graf_01.jpg
+ create mode 100644 iriscibre/medya/2084928238287991051/graf_02.jpg
+ create mode 100644 iriscibre/medya/2085116335638417555/graf_01.jpg
+ create mode 100644 iriscibre/medya/2085341642177851868/graf_01.jpg
+ create mode 100644 iriscibre/medya/2086040938686631950/graf_01.jpg
+ create mode 100644 iriscibre/medya/2086414573884645823/graf_01.jpg
+ create mode 100644 iriscibre/medya/2086425401719439862/graf_01.jpg
+ create mode 100644 iriscibre/medya/2086724147040628931/graf_01.jpg
+ create mode 100644 iriscibre/medya/2086787404870873241/graf_01.jpg
+ create mode 100644 iriscibre/medya/2087482493641359685/graf_01.jpg
+ create mode 100644 iriscibre/medya/2087514656885624871/graf_01.jpg
+ create mode 100644 iriscibre/medya/2087653137574416450/graf_01.jpg
+ create mode 100644 iriscibre/medya/2087812267152707741/graf_01.jpg
+ create mode 100644 iriscibre/medya/2087821313238843408/graf_01.jpg
+ create mode 100644 iriscibre/medya/2087876545520021970/graf_01.jpg
+ create mode 100644 iriscibre/medya/2088356066828382546/graf_01.jpg
+ create mode 100644 iriscibre/medya/2088521195964526825/graf_01.jpg
+ create mode 100644 iriscibre/medya/2088521195964526825/graf_02.jpg
+ create mode 100644 iriscibre/medya/2088528647233634646/graf_01.jpg
+ create mode 100644 iriscibre/medya/2088528647233634646/graf_02.jpg
+ create mode 100644 iriscibre/medya/2088943461068103826/graf_01.jpg
+ create mode 100644 iriscibre/medya/2088952610011099564/graf_01.jpg
+ create mode 100644 iriscibre/medya/2089305962779672650/graf_01.jpg
+ create mode 100644 iriscibre/medya/2089397095467737543/graf_01.jpg
+ create mode 100644 iriscibre/medya/2089408610044457122/graf_01.jpg
+ create mode 100644 iriscibre/medya/2089415789300379738/graf_01.jpg
+ create mode 100644 iriscibre/medya/2090416334467211718/graf_01.jpg
+ create mode 100644 iriscibre/medya/2090418575752167922/graf_01.jpg
+ create mode 100644 iriscibre/medya/2090418575752167922/graf_02.jpg
+ create mode 100644 iriscibre/medya/2090428418487640570/graf_01.jpg
+ create mode 100644 iriscibre/medya/2090512613952086196/graf_01.jpg
+ create mode 100644 iriscibre/medya/2090679535284916463/graf_01.jpg
+ create mode 100644 iriscibre/medya/2090692504827908590/graf_01.jpg
+ create mode 100644 iriscibre/medya/2090692504827908590/graf_02.jpg
+ create mode 100644 iriscibre/medya/2090692504827908590/graf_03.jpg
+ create mode 100644 iriscibre/medya/2090709057774453090/graf_01.jpg
+ create mode 100644 iriscibre/medya/2091210001461215379/graf_01.jpg
+ create mode 100644 iriscibre/medya/2091232471148900553/graf_01.jpg
+ create mode 100644 iriscibre/medya/2091234315808166120/graf_01.jpg
+ create mode 100644 iriscibre/medya/2091234522104766571/graf_01.jpg
+ create mode 100644 iriscibre/medya/2091236507549843607/graf_01.jpg
+ create mode 100644 iriscibre/medya/2091241097318051951/graf_01.jpg
+ create mode 100644 iriscibre/medya/2091506804899332452/graf_01.jpg
+ create mode 100644 iriscibre/medya/2091623752060833889/graf_01.jpg
+ create mode 100644 iriscibre/medya/2091767125220241619/graf_01.jpg
+ create mode 100644 iriscibre/medya/2091823952599343113/graf_01.jpg
+ create mode 100644 iriscibre/medya/2091948130304741567/graf_01.jpg
+ create mode 100644 iriscibre/tara_bookmark.json
++ git push -u origin main
+To https://github.com/winegg420/ekonomikocu.git
+   79271ae..eeb11ee  main -> main
+branch 'main' set up to track 'origin/main'.
+GitHub guncellendi: https://github.com/winegg420/ekonomikocu.git
+[LFS] Depo kullanimi: 861 MB / 1024 MB (%84) | 163 MB bos | kullanim SABIT (2026-08-02'den beri tarama LFS'e yeni surum eklemiyor)
+EXIT=0
