@@ -1668,3 +1668,60 @@ yeterli; klasör ve işaret dosyası otomatik oluşuyor.
 satırları doğru geldi ama X gece boyunca süren taramalar yüzünden oturumu ağır
 sınırladığı için arama akışı dolmadı (`ekranda: 2`). Kodla ilgisi yok. Tam
 regresyon için ekonomikocu taraması bir kez çalıştırılmalı.
+
+## 2026-08-25 — MagicMA taraması (bubbles dahil, tam liste)
+
+### Yapılan
+- **Adım 1 — bubbles tazelendi:** `gunun_hareketlileri_guncelle.py` → 1000 coin tarandı,
+  202'si %5 eşiğini geçti, **172 sembol** yazıldı (MEXC=87, BINANCE=49, BYBIT=26,
+  GATEIO=10; 30 coin USDT paritesi yok diye atlandı).
+- **Taranan toplam: 580 sembol** (kripto + forex/emtia + endeks/faiz + ABD hisse +
+  BIST + günün hareketlileri). Sonuç: **560 okundu / 20 okunamadı**.
+- Rapor: `magicma/magicma_rapor_2026-08-25.md` (560 sembol, 359 tanesi ≤%15 ile girdi).
+- İşlem adayları (≤%0,25): **25 satır** — `magicma/magicma_islem_adaylari_2026-08-25.md`.
+  En yakınlar: CADJPY (G-Alt %+0,00 long), ARKMUSDT (G-Üst %-0,01 short),
+  PG (G-Üst %-0,02 short), SUIUSDT (G-Üst %+0,03 long), USDCAD (G-Alt %-0,05 short).
+
+### Chrome çöktü — gözetmen döngüsü yeniden yazıldı
+- CDP 9222 kapalıydı; PowerShell `Start-Process` + `%LOCALAPPDATA%\ekonomikocu_x_session`
+  + `https://tr.tradingview.com/chart/zOsq3cIW/` ile açıldı.
+- **43. sembolde (PORTALUSDT) Chrome süreci komple öldü** — dayanıklı koşucu 12 deneme
+  boyunca CDP bekledi, bulamayınca kısmi raporla durdu (42 sembol). Koşucu tek başına
+  bu senaryoyu kurtaramıyor: *Chrome'u kendisi açmıyor*.
+- Bu yüzden gözetmen scripti yeniden yazıldı (scratchpad, repoya girmedi):
+  CDP yoksa **yalnızca `ekonomikocu_x_session` profiline ait** chrome.exe süreçlerini
+  öldürüp (kullanıcının diğer Chrome pencerelerine dokunmadan, WMI CommandLine filtresi)
+  Chrome'u yeniden açar, 20 sn grafik yüklenmesi bekler, koşucuyu resume ile sürdürür.
+  İki tur üst üste ilerleme yoksa durur (sonsuz döngü guard'ı).
+- **Sonuç: 1 turda toparlandı** — gözetmen Chrome'u yeniden açtı, koşucu 42→559'a
+  çıktı (o koşumda 517 okundu / 21 okunamadı), kopma olmadı.
+- **Çıkarım:** Bu gözetmen mantığı kalıcı olmalı. 2026-08-07 notundaki "koşucu tek
+  başına yeterli" varsayımı yalnızca *bağlantı kopması* için geçerli; *süreç ölümü*
+  için Chrome'u yeniden açan bir dış katman şart.
+
+### Okunamayanlar — teşhis ve düzeltme
+- 21 okunamayan sembol canlı TV'de tek tek denendi (scratchpad teşhis scripti).
+- **AERO: DÜZELTİLDİ.** `BINANCE:AEROUSDT` veri vermedi; COINBASE/MEXC/BYBIT/GATEIO/
+  OKX/KUCOIN USDT pariteleri **yok**, ama **`COINBASE:AEROUSD` okundu** (0,54363).
+  - AERO `gunun_hareketlileri.txt`'te — o dosya her taramada üzerine yazıldığı için
+    txt düzeltmesi kalıcı değil. Bu yüzden `gunun_hareketlileri_guncelle.py`'ye
+    **`ELLE_SEMBOL` tablosu** eklendi: coin → TAM TradingView sembolü, `BORSA_SIRA`
+    ve `ELLE_BORSA`'dan da önce denenir. USDT paritesi hiç olmayan coinler için tek
+    çözüm bu (mevcut `ELLE_BORSA` sadece USDT paritesi olan borsaları seçebiliyor).
+    İlk satır: `AERO: COINBASE:AEROUSD`. Kural aynı: canlı test edilmeden satır eklenmez.
+  - Bugünkü `gunun_hareketlileri.txt` de elle düzeltildi ve AERO bu taramaya dahil edildi
+    (560. sembol).
+- **SLX, DGAI, CASHCAT, BASECAT: hiçbir alternatifte veri YOK.** Denenen borsalar
+  BYBIT/MEXC/GATEIO/BITGET/KUCOIN — hepsi "veri YOK". Liste değiştirilmedi.
+- Kalan 15 okunamayan **daha önce (2026-08-23) teşhis edilmiş, TV'de hiç veri olmayan**
+  sembollerin aynısı: QQQB, NFP, SPYB, AIDOGE (kripto.txt), SPCX (abd_hisse.txt),
+  JIMOTHY, NES, PONS, TENDIES, HMM, CHONKETHA, DRV, DRB, STONK, ANSEM, GRVT
+  (bubbles kaynaklı). Yeni bir aksiyon gerekmiyor.
+- **SPCX 4. kez üst üste okunamadı** — abd_hisse.txt'ten çıkarılması artık gündeme
+  alınabilir (kullanıcı kararı bekliyor).
+
+### Gözlem: tarama hızı sabit değil
+- İlk 42 sembolde her sembolde `Page.click Timeout 8000ms` → yeniden bağlanma → ~5/dk.
+- Chrome yeniden açıldıktan sonra timeout'lar kayboldu, hız **~25/dk**'ya çıktı.
+- Yani yavaşlık sembol sayısından değil, **yorulmuş/yarı ölü Chrome oturumundan**
+  kaynaklanıyor. Tarama belirgin yavaşladıysa Chrome'u yeniden başlatmak doğru refleks.

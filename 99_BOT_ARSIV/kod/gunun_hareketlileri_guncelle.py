@@ -53,6 +53,15 @@ ELLE_BORSA = {
     "GRAM": "mexc",
 }
 
+# Hicbir borsada USDT paritesi olmayan ama TV'de BASKA bir parite/borsa ile veri
+# veren coinler icin TAM TradingView sembolu. BORSA_SIRA'dan da once denenir.
+# Kural: ELLE_BORSA ile ayni — canli test edilmeden buraya satir eklenmez.
+#   AERO: 2026-08-25 taramasinda BINANCE:AEROUSDT veri vermedi; COINBASE/MEXC/BYBIT/
+#         GATEIO/OKX/KUCOIN USDT pariteleri de yok, COINBASE:AEROUSD okundu (0,54363).
+ELLE_SEMBOL = {
+    "AERO": "COINBASE:AEROUSD",
+}
+
 
 def veri_cek(url: str = KAYNAK) -> list | None:
     """Tek JSON GET; her turlu hata None doner (script kirilmasin)."""
@@ -86,6 +95,10 @@ def sembol_uret(coin: dict) -> tuple[str, str] | None:
     borsalar = coin.get("symbols") or {}
     if not isinstance(borsalar, dict):
         return None
+    # Elle dogrulanmis TAM sembol varsa (USDT paritesi olmayan coinler) once o kullanilir.
+    tam = ELLE_SEMBOL.get((coin.get("symbol") or "").upper())
+    if tam:
+        return tam, tam.split(":")[0]
     # Elle dogrulanmis borsa varsa once o denenir; paritesi yoksa normal siraya dusulur.
     zorla = ELLE_BORSA.get((coin.get("symbol") or "").upper())
     if zorla:
