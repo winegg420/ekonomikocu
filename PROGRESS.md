@@ -1725,3 +1725,21 @@ regresyon için ekonomikocu taraması bir kez çalıştırılmalı.
 - Chrome yeniden açıldıktan sonra timeout'lar kayboldu, hız **~25/dk**'ya çıktı.
 - Yani yavaşlık sembol sayısından değil, **yorulmuş/yarı ölü Chrome oturumundan**
   kaynaklanıyor. Tarama belirgin yavaşladıysa Chrome'u yeniden başlatmak doğru refleks.
+
+### 2026-08-25 (ek) — SPCX teşhisi: kod doğru, gösterge çizmiyor
+- Kullanıcı layout linkini verdi, SPCX canlı açılıp **ham plot değerleri** okundu:
+  `NASDAQ:SPCX` title = `SPCX 135,0000 ▼ −1.44%` → **fiyat geliyor, kod DOĞRU**;
+  ama `Magicma Günlük Üst/Alt Çizgi` ve `Haftalık -1/-2` dördü de **`∅` (na)**.
+- Sebep: **SPCX = SpaceX**, yeni listelenmiş; Günlük/Haftalık MagicMA çizgileri için
+  yeterli geçmiş mum yok. TV arama servisi 12 venue döndürüyor (NASDAQ, TSX, BYMA,
+  SIX, BX, NEO, BOATS, VIE, BINANCE:SPCXUSDT.P, Orca/Uniswap DEX) —
+  **`BINANCE:SPCXUSDT.P` (137,18), SIX, VIE, BX, TSX, NEO, BYMA hepsi denendi,
+  hepsinde plotlar ∅.** Venue değiştirmek çözmüyor.
+- **Karar: abd_hisse.txt'ten ÇIKARILMADI.** Geçmiş biriktikçe çizgiler oluşacak ve
+  sembol kendiliğinden taranır hale gelecek. (Önceki "çıkaralım mı" önerisi geri alındı.)
+- **Yeni teşhis kategorisi:** "okunamadı" tek bir şey değil. Ham plot dökümü ikiye ayırır:
+  1. **fiyat yok** → sembol TV'de gerçekten yok / kod yanlış → kodu düzelt.
+  2. **fiyat var + MagicMA plotları `∅`** → kod doğru, enstrüman yeni, gösterge henüz
+     çizmiyor → dokunma, zamanla düzelir.
+  GRVT de 2. gruptaydı (tarama sonunda grafikte 0,2059 fiyat vardı, plotlar boştu).
+  Teşhis scripti: sembolü aç, `magicma_yakinlik.oku_data(tv)` ile title + plots dök.
