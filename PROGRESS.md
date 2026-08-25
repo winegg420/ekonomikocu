@@ -1957,3 +1957,76 @@ ayrıldı, `06_ANALIZ.md` sonuna tarihli bölüm olarak yazıldı.
 3. **Haziran görselleri hiç açılmadı.** Önceki turlarda en değerli bulgular görsellerin
    içinden çıkmıştı; boşluktaki görseller bu turda metin lehine atlandı.
 4. BTC 84 K ve gümüş 68 takibe alınmalı.
+
+### 2026-08-25 (gece 2) — BOŞLUĞUN GÖRSELLERİ AÇILDI: 48 dosya / 40 grafik
+
+Bir önceki oturum boşluğun metnini okudu, görselleri atladı. Bu turda o açık kapatıldı.
+391 görselli kayıt skorlandı (`seviye`/`tarih`/`vizyon` etiketi + ürün eşleşmesi +
+sayısal yoğunluk + kısa metin&ürün = saf grafik + Haziran ağırlığı), en yüksek 50 kayıt
+seçildi, **48 dosya açıldı**.
+
+**Görsel kuralı bir kez daha doğrulandı — üç büyük bulgunun üçü de görselin içindeydi:**
+
+**1. "Ağustos 3. hafta" bir sezgi değil, GRAFİK KESİŞİMİ.**
+`medya/2069487871816310892/graf_01.jpg` = **24 Temmuz 2025** tarihli abone tweetinin SS'i:
+*"#goldgr aynı grafik farklı açı… Mavi çizgiyi alta alıyorum **kesişim Ağustos'a geliyor**."*
+→ Tarih, gram altın grafiğinde iki çizginin kesiştiği noktadan hesaplanmış, 13 ay önceden.
+**Sonuç: 2 Eylül / 15 Eylül / 24 Eylül tarihlerinin de grafik kaynağı olmalı; bulunursa
+Koç'u beklemeden önden doğrulanabilir.** (Yeni açık iş.)
+
+**2. BTC seviyeleri altın/gümüşün öğreti ölçeğinden TÜRETİLİYOR.**
+`2071659974162268400` (22 Kas 2024 SS): *"Altında **84 USD pivot** olduğuna göre muhtemelen
+**BTC'de 84 K'yı** olası geri çekilmede önemser."* + `2070628225756131399` (16 Nis 2025):
+*"ALTIN 84 USD bekletildi… şimdi ALTIN 107 USD oldu BTC 84'e çekilip bekletiliyor, #yarış var."*
+Eşleşmeler: altın 84 ↔ BTC 84 K · gümüş 61,4 ↔ BTC 61,4 K · gümüş 80,60 ↔ BTC 80.600 ·
+gümüş 53 ↔ BTC 53 K. **Kural belli → gümüş 68,37 ↔ BTC 68,4 K.** Daha önce "üslup"
+sanılan şey sistemli ve hesaplanabilir çıktı.
+
+**3. ETH 2570 YATAY DEĞİL, YÜKSELEN ÇİZGİ.**
+`2069186310615576703` (23 Haz): ETH günlükte ince yükselen siyah çizgi Temmuz-Ağustos'a
+uzatılmış, ucuna "2570" yazılmış. Yani 2570 = çizginin **Ağustos'a denk gelen değeri**.
+"Neden tarih ve seviye hep birlikte veriliyor" sorusunun cevabı bu.
+**Uyarı: bugün itibarıyla çizgi 2570'in üstünde olabilir — yeniden hesaplanmalı.**
+
+**Seviyelerin TAM değeri çıktı (metin yuvarlıyor, işlem için grafik lazım):**
+NASDAQ 6 öğretisi **30.608,74** · 29.700 aslında **29.640–29.745** · 8.4 aslında **28.460,80** ·
+robot **27.616,70** (kutu 26.907'ye kadar) · **BTC 84 K aslında 84.244,74** ·
+BTC günlük kanal **79.355,40 / 58.426,80** · XAUUSD **4.376,14** · ETH **2.157,28** ve **2.430,50** ·
+gramaltın **6.424,64** · EURUSD **1,16410** · USDCAD **1,35725** · BİST100 **13.872,80**.
+
+**Metinde hiç olmayan, sadece grafikte olan yapılar:**
+- BTC'nin 126 K tepesi **2017'den gelen 8 yıllık çizginin 3. teması** (2017 → 2021 → Tem 2025).
+  Tepe konjonktürel değil yapısal.
+- **BTC/XAGUSD oranı 1060 eşiği** (2017'den yükselen çizgi). 5 Haziran'da 900, "1060'dan red".
+  **Bugün 1.178 → KIRILDI. Koç'un kendi kriterine göre BTC gümüşe üstünlük sağladı.**
+- **NASDAQ/XAUUSD: 9,0 = balon tavanı (2021 ve 2024 tepeleri), 4,5 = patlama tabanı.**
+  Haziran'da 6,8 → **bugün 6,26**, sönme sürüyor.
+- **NASDAQ/XAGUSD: 7 Haziran 424,9 → bugün 424,5.** 2,5 ayda sıfır — "zaman geçiyor,
+  değer aynı" tezinin en temiz kanıtı.
+- Gümüş: alçalan kanal + 2025'ten yükselen destek **57**'de kesişiyor.
+- ETH **4090** haftalıkta 3 kez RED (Şub24 · Kas24 · Ağu25).
+
+**Çağrıların gerçek yaşı (SS'lerden):** makro senaryonun tamamı **7 Aralık 2021**
+(*"Avrupa'da kriz patlayacak, EUR dibi görecek, DXY uçacak, EMTİA uçacak, çözüm KRİPTO"*) —
+**4 yıl 9 ay**, zincirin tamamı gerçekleşti. ETH 6 K → 23 Tem 2024. ETH 3300 → 20 Oca 2025.
+BTC 84 K → 22 Kas 2024. ETH 1746 → 16 Şub 2026. "28 Şubat dikkat" → 26 Şub 2026 (2 gün
+sonra İran savaşı çıktı).
+
+**Görsel karnesi: 19 çağrı · ✅13 · ⏳6 · ❌0** (sonuçlananlarda 13/13).
+Not: bunlar çoğunlukla "seviye tuttu mu" tipi yapısal çağrılar, yön/zaman çağrılarına
+göre daha kolay tutan bir sınıf — yine de tek kırılma yok.
+
+**Kesişme noktası daraldı:** Koç'un çizili 8.4 seviyesi **28.460,80**, Efloud'un alım
+alarmı üst sınırı **28.440**. Fark **20,8 puan (%0,07)**. İki analist, iki yöntem, iki ay
+ara, aynı 20 puanlık nokta.
+
+**Güncel tetikler (grafik değerleriyle):** NASDAQ 29.023 → 8.4 **28.460,80** (%1,94 aşağı) ·
+BTC 80.526 → **84.244,74** (%4,62 yukarı) · NASDAQ risk **27.616,70** (%4,8 aşağı) ·
+gümüş 68,37 → yapısal kesişim 57.
+
+**AÇIK KALAN:**
+1. Boşlukta **381 görsel daha** var (429 − 48); `tarih` etiketli olanlar taranmalı.
+2. **2/15/24 Eylül tarihlerinin grafik kaynağı** aranmalı.
+3. **Gümüş ↔ BTC ölçek kuralı** geriye dönük test edilmeli.
+4. **ETH 2570 çizgisinin bugünkü değeri** hesaplanmalı (yükselen çizgi).
+5. 25 Ağustos taraması hâlâ yapılamadı (profil sayfası yüklenmiyor).

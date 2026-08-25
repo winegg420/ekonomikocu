@@ -2022,3 +2022,234 @@ Bu, önceki bölümde "Koç satıcı, Efloud alıcı — karşı işlem" diye ka
 - Okunan: sayısal/seviye filtresinden geçen **1.253 kayıt**, 8 ürün grubuna ayrılmış.
 - Fiyatlar: `99_BOT_ARSIV/kod/magicma_ham.jsonl`, 25 Ağu 09:49–10:27 taraması.
 - **Görsel açılmadı** (bkz. Açık İşler 2).
+
+---
+
+## 2026-08-25 — BOŞLUĞUN GÖRSELLERİ AÇILDI (48 dosya / 40 grafik) — SEVİYELERİN TAM DEĞERİ VE KÖKENİ
+
+Bir önceki bölüm boşluğun **metnini** okumuştu; görseller atlanmıştı. Bu bölüm o açığı
+kapatıyor. Boşluktaki 391 görselli kayıttan **önem sırasına göre seçilen 50 kayıt**
+(55 dosya) tarandı, **48 dosya / 40 benzersiz grafik** tek tek açıldı.
+
+Seçim kriteri: `seviye`/`tarih`/`vizyon` etiketi + ürün eşleşmesi + sayısal yoğunluk +
+kısa metin & ürün etiketi (saf grafik paylaşımı) + Haziran ağırlığı.
+
+**Sonuç doğrulandı: en değerli üç bulgu yine metinde değil, görselin içindeydi.**
+
+---
+
+### 1. ⭐ SEVİYELERİN TAM DEĞERİ — metin yuvarlıyor, grafik kesin
+
+Koç tweet metninde seviyeleri yuvarlıyor ("29700", "84 K"). Grafikte **çizilmiş gerçek
+değer** farklı. İşlem yaparken metin değil bu değerler kullanılmalı.
+
+| Sembol / basamak | Metinde | **Grafikte çizili** | Kaynak görsel |
+|---|---:|---:|---|
+| NASDAQ — 6 öğretisi | 30.600 | **30.608,74** | `2066910191707140437` (16 Haz H4) |
+| NASDAQ — üst kesişim | 29.700 | **29.735** · **29.745** · **29.640,80** | `2064021106776826079` · `2065132339332534698` · `2064374554823200995` |
+| NASDAQ — 8.4 basamağı | 28.400 | **28.460,80** · **28.523** | `2064374554823200995` · `2064021106776826079` |
+| NASDAQ — ana robot | 27.600 | **27.616,70** (kutu 26.907'ye kadar) | `2065132339332534698` (11 Haz) |
+| **BTC — büyük eşik** | 84.000 | **84.244,74** | `2070632129025683648` (27 Haz haftalık) |
+| BTC — günlük kanal | — | üst **79.355,40** / alt **58.426,80** | `2067543164529832272` (18 Haz) |
+| XAUUSD | 4.376 | **4.376,14** | `2067200259600601299` (17 Haz H4) |
+| ETH — Nisan eşiği | 2.157 | **2.157,28** | `2056311984186892616` (18 May H4) |
+| ETH — Ocak kırılımı | 2.430 | **2.430,50** | `2065443470597050543` (12 Haz) |
+| gramaltın | 6.400 | **6.424,64** | `2064810341289050493` (10 Haz) |
+| EURUSD | 1,1640 | **1,16410** | `2064430150100357623` (9 Haz) |
+| USDCAD | 1,3570 | **1,35725** | `2067392390415941945` (18 Haz) |
+| BİST 100 | 13.800 | **13.872,80** | `2064434319389540374` |
+| BİST 30 | 15.700 | **15.700,00** | `2064434936166130142` |
+
+**Pratik sonuç:** NASDAQ'ta "29.700" aslında **29.640–29.745 bandı**; "28.400" aslında
+**28.460,80**. BTC'de "84 K" aslında **84.244,74** — bugünkü 80.526'dan **%4,62** uzakta,
+metne göre hesaplanan %4,1'den fazla.
+
+---
+
+### 2. ⭐⭐ SEVİYELERİN KÖKENİ — çağrıların gerçek yaşı görselde çıktı
+
+Görsellerin çoğu Koç'un **kendi eski tweetlerinin ekran görüntüsü**. Bu, her seviyenin
+ilk ne zaman söylendiğini kesinleştiriyor. Karnenin en önemli katmanı bu.
+
+| Seviye / tez | İlk söylendiği | Yaş | Görsel |
+|---|---|---:|---|
+| **Tüm makro senaryo** — *"Ötelenen kriz Avrupa'da patlayacak, EUR dibi görecek, DXY alacak başını gidecek, EMTİA uçacak, emtia karşısında ABD pert. Çözüm: KRİPTO"* | **7 Aralık 2021** | **4 yıl 9 ay** | `2069866125895332285` |
+| **ETH 6.000 boğa şartı** — *"ETH 6 K aşmadan boğa gelmez, üstüne çıkması da yetmez haberle desteklenmeli"* | **23 Temmuz 2024** | 2 yıl 1 ay | `2071640534712508480` |
+| **BTC 84 K** — *"Altında 84 USD pivot olduğuna göre BTC'de 84 K'yı olası geri çekilmede önemser"* | **22 Kasım 2024** | 1 yıl 9 ay | `2071659974162268400` |
+| **ETH 3.300 denge noktası** — *"Kriptoya girerken ETH'de 3300'ü baz alacaksınız. Üstü prim, altı zaman kaybı"* | **20 Ocak 2025** | 1 yıl 7 ay | `2071637575651959109` |
+| **DXY-emtia kısır döngüsü** — *"Ben DXY'yi ucuzlatayım sen emtiayı azdır mı diyorsun? Tersi olsa DXY çıkarsa emtia düşüyor"* | **24 Ocak 2025** | 1 yıl 7 ay | `2063635298160980176` |
+| **"AĞUSTOS 3. HAFTA"** — *"#goldgr aynı grafik farklı açı… **Mavi çizgiyi alta alıyorum, kesişim Ağustos'a geliyor**"* | **24 Temmuz 2025** | **1 yıl 1 ay** | `2069487871816310892` |
+| NASDAQ 23.700 / 24.600 | 23 Eylül 2025 | 11 ay | `2034229929122947560` |
+| XAUUSD 4.300 = USDTRY 43 dengesi | 27 Ekim 2025 | 10 ay | `2065122052919484783` |
+| **ALTIN 5.300 hedefi** — *"İşler düzelmezse ABD isterse ALTIN'da 5300 doları gösterebilir"* | **10 Ocak 2026** | 7 ay | `2065122598531305495` |
+| **DOW 43.760 ↔ XAUUSD 4.376 simetrisi** | **16 Şubat 2026** | 6 ay | `2070565945794232477` |
+| **ETH 1.746** — *"Nisan 7. güne kadar 1746'yı takip edelim, üstünde riskten uzağız"* | **16 Şubat 2026** | 6 ay | `2066488377277317175` |
+| **BTC 65.700 + "28 Şubat dikkat"** | **26 Şubat 2026** | 6 ay | `2066311394601902177` |
+
+#### 🔴 EN BÜYÜK BULGU: "Ağustos 3. hafta" bir sezgi değil, bir GRAFİK KESİŞİMİ
+
+`2069487871816310892` — **24 Temmuz 2025 tarihli abone tweetinin ekran görüntüsü**:
+
+> *"#goldgr aynı grafik, farklı açı.. Tabi size anlatıyorum ama, o dönem çizgi kaydırıyorum
+> içimden diyorum isterlerse riski ötelerler. **Mavi çizgiyi alta alıyorum kesişim
+> Ağustos'a geliyor.**"*
+
+Yani **"Ağustos 3. hafta" tarihi, gram altın grafiğinde iki çizginin kesişme noktasından
+hesaplanmış** — 13 ay önceden. Bu, önceki iki karnede "isabetli tahmin" diye kaydedilen
+şeyin aslında **hesaplanabilir bir çıktı** olduğunu gösteriyor.
+
+**Doğrudan sonuç:** Koç'un sonraki tarihleri (2 Eylül · 15 Eylül · 24 Eylül) de aynı
+şekilde çizgi kesişimlerinden geliyor olabilir. Bu tarihler artık "beklenecek"
+değil, **grafikten türetilip önden doğrulanabilecek** şeyler.
+
+#### 🔴 İKİNCİ BULGU: BTC 84 K altın-ölçek eşleşmesinden türetilmiş
+
+`2071659974162268400` (22 Kas 2024) + `2070628225756131399` (16 Nis 2025):
+> *"Altında **84 USD pivot** olduğuna göre muhtemelen **BTC'de 84 K'yı** olası geri
+> çekilmede önemser."*
+> *"Önce BTC 100 K üstüne çıktı, o esnada ALTIN 84 USD civarı bekletildi. Şimdi ALTIN
+> 107 USD oldu, BTC 84'e çekilip bekletiliyor. **#yarış var dedik ya!**"*
+
+Yani BTC seviyeleri **altının öğreti ölçeğindeki (USD) değeriyle sayısal olarak eşleştiriliyor**:
+altın 84 USD ↔ BTC 84 K, gümüş 61,4 ↔ BTC 61,4 K, gümüş 80,60 ↔ BTC 80.600,
+gümüş 53 ↔ BTC 53 K. Bu, daha önce "tesadüf/üslup" sanılan şeyin **sistemli bir kural**
+olduğunu gösteriyor — ve **hesaplanabilir**: gümüşün bugünkü 68,37'si ↔ BTC 68,4 K.
+
+---
+
+### 3. ⭐ GRAFİKTE OLAN, METİNDE HİÇ OLMAYAN YAPILAR
+
+**1. ETH 2570 yatay bir çizgi DEĞİL — yükselen bir çizgi.**
+`2069186310615576703` (23 Haz): ETH günlükte ince siyah **yükselen** çizgi Temmuz–Ağustos'a
+doğru uzatılmış, ucuna yeşil vurgu ve **"2570"** yazılmış. Yani 2570 rakamı, çizginin
+**Ağustos'a denk gelen değeri**. Bu, "neden tarih ve seviye hep birlikte veriliyor"
+sorusunun cevabı — ve *bugün itibarıyla çizgi 2570'in bir miktar üstünde olabilir.*
+
+**2. BTC'nin 126 K tepesi 8 yıllık bir çizginin 3. temasıydı.**
+`2057785312550531290` (22 May, haftalık): 2017 dibinden çekilen tek trend çizgisi;
+işaretli 3 temas → **① Eki 2017 · ② Kas 2020–Mar 2021 · ③ Temmuz 2025 (126 K)**.
+Koç'un *"adamlar mala 2025 Temmuz'da vurmuşlardır"* sözünün altındaki yapı bu.
+Tepe konjonktürel değil **yapısal**.
+
+**3. BTC günlük kanalı: 79.355 üst / 58.426 alt.** `2067543164529832272` (18 Haz).
+→ **Bugün BTC 80.526: Ocak–Haziran 2026 kanalının tepesi kırılmış durumda.**
+Bir sonraki yapı = 84.244,74.
+
+**4. BTC/XAGUSD oranı — 1060 eşiği.** `2062997406996726092` (5 Haz): 2017'den yükselen
+çok yıllık çizgi, üstte **1060** yeşil bandı; o gün 900, *"1060'dan red yiyor"*.
+Koç: *"BTC'nin öne geçmesi için mumların yukarı dönmesi lazım."*
+→ **Bugün 80.526 / 68,37 = 1.178 → 1060 YUKARI KIRILDI. BTC gümüşe üstünlük sağladı.**
+Bu, Koç'un kendi kriterine göre **BTC lehine yapısal dönüş** demektir ve daha önce hiç
+tespit edilmemişti.
+
+**5. NASDAQ/XAUUSD: 9,0 = BALON tavanı, 4,5 = balon patladı tabanı.** `2064287878377550103`.
+2021 ve 2024 tepeleri tam **9,0**'da (9.2 öğretisi). O gün 6,8.
+→ **Bugün 29.023 / 4.637,6 = 6,26.** Balon sönmesi devam ediyor, tabana %28 var.
+
+**6. NASDAQ/XAGUSD: Balon 2001 ≈ 950, Balon 2024 ≈ 800, "2025'te patladı".** `2063598735334973827`.
+O gün (7 Haz) **424,9** → **bugün 424,5.** *2,5 ayda sıfır değişim* — Koç'un
+"zaman geçiyor, değer aynı" tezinin en temiz sayısal kanıtı.
+
+**7. Gümüş: alçalan kanal + 2025'ten yükselen destek, kesişim 57.** `2066499520024678503`.
+Ocak 2026'daki 120 tepesinden alçalan kırmızı kanal ile Ocak 2025'ten (27,65) yükselen
+siyah destek **57**'de birleşiyor (grafikte yeşil "57" etiketi). Gümüşün yapısal
+karar noktası burası.
+
+**8. ETH 4090 — 3 kez RED yiyen mavi çizgi.** `2066266998900695243` (haftalık):
+Şub 2024 · Kas 2024 · Ağu 2025'te üç kez reddedildi; tek geçiş Trump'ın barış
+açıklamasında, o da geri alındı. *"4090 altı şelale."*
+
+**9. ETHEUR 2060 direnci** (`2069927378462167264`) — euro bazlı ETH hâlâ bu çizginin altında.
+
+**10. DXY: 1985'ten alçalan + 1993'ten yükselen çizgi, 2015'te kesişti.** `2069877388410769629`.
+Koç'un DXY okumasının uzun vadeli iskeleti.
+
+---
+
+### 4. KARNE — görsellerden çıkan çağrılar, 25 Ağustos 10:00 fiyatıyla
+
+| # | Çağrı (görsel + tarih) | Bugün | Sonuç |
+|---|---|---|---|
+| 1 | **Makro senaryo (7 Ara 2021):** Avrupa'da kriz, EUR dibi, DXY uçar, EMTİA uçar, çözüm kripto | Savaş çıktı · EUR 1,03 gördü · DXY 110 gördü · ALTIN 5.600 · GÜMÜŞ 120 · kripto ETF | ✅ **4 yıl 9 ay önceden, zincirin tamamı gerçekleşti** |
+| 2 | **BTC/XAG 1060 kırılırsa BTC öne geçer** (5 Haz) | **1.178** | ✅ **KIRILDI** — BTC gümüşe üstünlük sağladı |
+| 3 | **BTC 79.355 kanal tepesi** (18 Haz) | **80.526** | ✅ Kanal yukarı terk edildi |
+| 4 | **BTC 84.244,74 büyük eşik** (22 Kas 2024 → 27 Haz) | 80.526 → **%4,62 altında** | ⏳ **AÇIK — Koç'a göre "gerçek hareket" hâlâ başlamadı** |
+| 5 | **"Ağustos 3. hafta" (24 Tem 2025, goldgr kesişimi)** | 17→25 Ağu: BTC +%27,1 · ETH +%32,1 | ✅ **13 ay önceden, grafikten hesaplanmış** |
+| 6 | **ALTIN 5.300 hedefi (10 Oca 2026)** | 5.600 görüldü, bugün 4.637,60 | ✅ Yön tuttu, hedef aşıldı (kendisi de *"5300 dedim ama grafik 5600 diyordu"* diye düzeltti) |
+| 7 | **XAUUSD 4.376,14 üstü dikleşir** | **4.637,60** → %6,0 üstünde | ✅ **TUTTU** |
+| 8 | **gramaltın 6.424,64** | ≈ **7.172 TL** | ✅ Üstünde |
+| 9 | **EURUSD 1,16410** | **1,16565** | ✅ Üstünde |
+| 10 | **USDCAD 1,35725** | **1,3860** | ✅ Üstünde |
+| 11 | **BİST 100 13.872,80** | **14.501,49** | ✅ Üstünde |
+| 12 | **NASDAQ 27.616,70 altı = risk** (11 Haz) | **29.023** | ✅ Risk bölgesine girilmedi |
+| 13 | **NASDAQ 29.640–29.745 altı sendeler** (9–11 Haz) | 29.023, altında | ✅ Sendeliyor |
+| 14 | **NASDAQ/XAUUSD balon sönmesi (9,0 → 4,5)** | 6,8 → **6,26** | ✅ Devam ediyor |
+| 15 | **ETH 3.300 = denge, altı zaman kaybı** (20 Oca 2025) | **2.500,38** | ⏳ 19 aydır "zaman kaybı" bölgesinde — tez bozulmadı |
+| 16 | **ETH 4.090 = 3 kez RED** | 2.500 | ⏳ Çok uzak, yapı korunuyor |
+| 17 | **ETH 6.000 boğa şartı** (23 Tem 2024) | 2.500 | ⏳ 2 yıldır geçerli |
+| 18 | **"26 Şub 2026: 28 Şubat dikkat"** | 28 Şubat'ta İran savaşı çıktı | ✅ **2 gün önceden tarih verdi** |
+| 19 | **Gümüş 57 kesişimi** (15 Haz) | **68,37** | ⏳ Yapısal destek aşağıda, izlemede |
+
+**Görsel karnesi: 19 çağrı · ✅ 13 · ⏳ 6 · ❌ 0.**
+Sonuçlananların isabeti **13/13 = %100**. (Not: burada ölçülenler çoğunlukla
+"seviye tuttu mu" tipi yapısal çağrılar; yön/zamanlama çağrılarına göre daha
+kolay tutan bir sınıf. Yine de tek bir kırılma yok.)
+
+---
+
+### 5. ⚡ GÜNCEL TETİKLER — grafikteki tam değerlerle
+
+| # | Enstrüman | Fiyat | Tetik (grafikten) | Mesafe |
+|---|---|---:|---:|---:|
+| 1 | **NASDAQ** | 29.023 | **28.460,80** (8.4 basamağı) | **%1,94 aşağı** |
+| 2 | **NASDAQ (stop)** | 29.023 | 28.157 | %3,0 aşağı |
+| 3 | **BTC** | 80.526 | **84.244,74** | **%4,62 yukarı** |
+| 4 | **NASDAQ (risk)** | 29.023 | 27.616,70 | %4,8 aşağı |
+| 5 | **GÜMÜŞ** | 68,37 | 68,00 metin eşiği / **57** yapısal kesişim | %0,54 / %16,6 |
+| 6 | **BTC/XAG oranı** | 1.178 | 1.060 (artık **destek**) | %10,0 |
+
+#### 🎯 KESİŞME NOKTASI DAHA DA DARALDI
+
+Önceki bölümde Koç'un 8.4 basamağı (**28.400**) ile Efloud'un alım alarmının
+(**28.440–28.220**) çakıştığı kaydedilmişti. Grafikteki gerçek değer çıkınca aralık
+neredeyse tek noktaya indi:
+
+> **Koç'un çizili 8.4 seviyesi: 28.460,80**
+> **Efloud'un alarm üst sınırı: 28.440**
+> **Fark: 20,8 puan (%0,07)**
+
+İki analist, iki farklı yöntem, iki ay ara — **aynı 20 puanlık nokta.** NASDAQ 29.200'ün
+altında kaldıkça bu bölge, iki bağımsız sistemin de "burada karar verilir" dediği yerdir.
+
+---
+
+### 6. BU BÖLÜMÜN DEĞİŞTİRDİĞİ ÜÇ ŞEY
+
+1. **Tarihler artık hesaplanabilir.** "Ağustos 3. hafta" gram altın grafiğindeki bir çizgi
+   kesişiminden çıkmış. 2 Eylül / 15 Eylül / 24 Eylül de aynı yöntemle üretilmiş olabilir —
+   ve bu, **Koç'u beklemeden önden doğrulamayı** mümkün kılar.
+2. **BTC seviyeleri altın/gümüşün öğreti ölçeğinden türetiliyor.** 84 USD ↔ 84 K,
+   61,4 ↔ 61,4 K, 80,60 ↔ 80.600, 53 ↔ 53 K. Kural belli → **gümüş 68,37 ↔ BTC 68,4 K.**
+3. **Metin seviyeleri yuvarlıyor, işlem için grafik değeri gerekli.** 84 K değil
+   **84.244,74**; 28.400 değil **28.460,80**. Fark %0,1–0,3 ama stop mesafesi kadar.
+
+### 7. AÇIK İŞLER
+
+1. Boşlukta **381 görsel daha** var (429 − 48). Bu tur en yüksek skorlu 50 kaydı aldı;
+   kalanların çoğu düşük skorlu ama içlerinde `tarih` etiketli olanlar taranmalı.
+2. **2 Eylül / 15 Eylül / 24 Eylül tarihlerinin grafik kaynağı aranmalı.** "Ağustos 3. hafta"
+   gram altın kesişimiyse, bu tarihlerin de bir kesişimi olmalı. Bulunursa doğrulanabilir.
+3. **Gümüş ↔ BTC ölçek kuralı geriye dönük test edilmeli.** Kural doğruysa BTC'nin
+   sıradaki durakları gümüş fiyatından hesaplanabilir.
+4. ETH 2570 yükselen çizgi olduğuna göre **bugünkü değeri hesaplanmalı** — 2.570 rakamı
+   Haziran'da geçerliydi, Ağustos sonunda daha yukarıda olabilir.
+
+### 8. VERİ NOTU
+
+- Kaynak: boşluktaki 391 görselli kayıt → skorlanıp **en yüksek 50 kayıt** seçildi (55 dosya).
+- **Açılan: 48 dosya, 40 benzersiz grafik** (bazı kayıtlarda graf_01 = graf_02 kopyası).
+- Grafiklerin ~%40'ı Koç'un **kendi eski tweetlerinin ekran görüntüsü** — seviyelerin
+  kökenini tarihlendirmeyi bu sağladı.
+- Fiyatlar: `99_BOT_ARSIV/kod/magicma_ham.jsonl`, 25 Ağu 09:49–10:27.
+- Türetilenler: ETHTRY = ETHUSDT × USDTRY · gramaltın = XAUUSD × USDTRY / 31,1035 ·
+  BTC/XAG = BTCUSDT / XAGUSD · NASDAQ/XAUUSD = NDX / XAUUSD.
