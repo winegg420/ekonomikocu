@@ -1889,3 +1889,71 @@ kurulu; eksik 56 tweette ek iddia olabilir. Toplama yöntemi sorunu çözülmedi
 **AÇIK KALAN (yeni):** @ekonomikocu'nun 25 Ağustos tweetleri hiç taranmadı; arşivdeki son
 kayıt 24 Ağu 23:48. Bir sonraki turda önce tarama, sonra bu karnenin ⏳ satırlarının
 güncellenmesi gerekiyor.
+
+### 2026-08-25 (gece) — ANALİZ BOŞLUĞU DENETİMİ: 3.352 kayıt hiç okunmamış çıktı
+
+**Soru:** "Geçmişte analiz edilmemiş tweet kaldı mı?"
+**Cevap: EVET, hem de arşivin yarısına yakını.**
+
+**Denetim yöntemi (saklanmalı, tekrar kullanılacak):**
+`analyzed` alanı işe yaramaz — 7.148 kaydın **tamamı `True`**. Doğru yöntem:
+1. Baz analiz commit'ini bul (`git log --diff-filter=A -- 04_TWEETLER.jsonl` → `284a7f7`).
+2. `git show 284a7f7:04_TWEETLER.jsonl` ile o setin tweet_id'lerini çıkar.
+3. Bugünkü arşivle diff al.
+4. **Ayrıca 06_ANALIZ.md'deki her bölümün kapsam iddiasını tek tek oku** — bölüm
+   başlıkları yanıltıcı, asıl kapsam bölüm içindeki "Kaynak: ... → ..." satırında.
+
+**Bulgu:** 06_ANALIZ'ın tüm tarihli bölümleri **1 Temmuz'dan geriye gitmiyor**
+(2026-08-10 → "07-01→08-09", 08-19 → "Tem 1→Ağu 9", 08-20 → "20 Tem→20 Ağu",
+08-25 → "19-24 Ağu"). Baz analiz ise 5 Haziran'da 1.206 kayıtla yapılmış.
+**5–22 Haziran arasında geriye dönük toplu doldurma yapılmış** (arşiv 1.206 → 6.243),
+ve o yığın hiçbir zaman okunmamış.
+
+Hiç okunmamış: **3.352 kayıt** (Ocak 13 · Şubat 12 · Mart 39 · Nisan 56 · Mayıs 265 ·
+**Haziran 2.967**). Bunun **2.514'ü abone-özel**. 06_ANALIZ'ın "G" bölümü abone
+arşivinin sadece 997/3.434'ünü görmüş → **2.437 abone tweeti okunmamış.**
+
+**Neden önemli:** Abone katmanı public'ten **çok daha sayısal**. Boşlukta stop'lu alım
+tavsiyeleri bile var (ör. "ETH 1379 stoplu alan alsın", "NASDAQ 28.157'de stop").
+
+**Yapılan:** Sayısal/seviye filtresinden geçen **1.253 kayıt** okundu, 8 ürün grubuna
+ayrıldı, `06_ANALIZ.md` sonuna tarihli bölüm olarak yazıldı.
+
+**Çıkan en değerli üç şey:**
+1. **Öğreti merdiveninin KURALI bulundu** (9 Haz, `2064383798918160781`):
+   *"6 öğretisi altında kalan 9.2'ye düşer; baskı artarsa 9.2 kırılıyorsa 8.4 gelir."*
+   NASDAQ uygulaması: **30600 / 29200 / 28400**. Artık basamaklar **önden hesaplanabilir**,
+   Koç'un söylemesini beklemeye gerek yok.
+2. **Karne %92** (12/13). Üstelik bu, ilk karnedeki %90 ile bağımsız bir dönemde
+   neredeyse aynı çıktı → isabet şansa değil yönteme bağlı.
+   En çarpıcısı: **15 Haziran'da** *"ETH Ağustos'un 3. haftasında 2.460/2.570 bölgesinin
+   üzerinde kalıcılık"* demiş — 25 Ağustos'ta ETH **2.500,38**, bandın tam içinde.
+3. **Koç ile Efloud'un sayısal buluşma noktası:** Koç 9 Haziran'da NASDAQ merdiveninin
+   sonraki durağını **28.400** (8.4) demiş; Efloud 19 Ağustos'ta bambaşka bir yöntemle
+   alım alarmını **28.440–28.220** aralığına kurmuş. **28.400 o aralığın tam ortası.**
+   Yönleri zıt (Koç düşüş hedefi, Efloud alım bölgesi) ama seviye aynı.
+
+**Yeni canlı tetikler (25 Ağu 10:00):**
+- **GÜMÜŞ 68,37 / eşik 68,00 → %0,54.** Koç 3 aydır aynı seviyeyi konuşuyor:
+  "68 altına almadan sıkışıklar". Bu tetik hiçbir önceki analizde yoktu.
+- **USDJPY 159,363 / 159,20 (9.2) → %0,10.** MagicMA bugün de short adayı işaretledi → çift teyit.
+- **BTC 80.526 / 84.000 → %4,1.** Koç 3 kez yazmış: "84 K aşılmadan gerçek hareket
+  başlamaz." Ağustos rallisi bu eşiği aşamadı → Koç'a göre bu yükseliş henüz "gerçek" değil.
+- **NASDAQ 29.023 → sıradaki basamak 28.400**, stop referansı 28.157, yapısal risk 27.600.
+
+**TARAMA — 25 Ağustos GELMEDİ (dürüst rapor):**
+- Chrome kapalıydı; `CHROME_X.bat` `start` ile açılmadı. **Çözüm:** PowerShell'den
+  `Start-Process chrome --remote-debugging-port=9222 --user-data-dir=$env:LOCALAPPDATA\ekonomikocu_x_session`
+  ile açıp portu bekle (`Test-NetConnection 127.0.0.1 -Port 9222`). Port ~10 sn'de açılıyor.
+- Hesap doğrulandı (@420cryptofarmer), tarama çalıştı ama **"Profil yuklenmiyor →
+  arama akisina geciliyor"** dedi, arama akışı "ekranda: 0" verdi. Sonuç: +2 kayıt,
+  **en yeni kayıt hâlâ 2026-08-24T23:48:11.**
+- Yani exit 0 ve commit atılabilir olmasına rağmen **25 Ağustos taranamadı.** Bu,
+  "sessiz boş tarama" tuzağının bir örneği daha.
+
+**AÇIK KALAN:**
+1. 25 Ağustos taraması hâlâ yapılamadı — profil sayfası yüklenmiyor.
+2. Boşluğun kalan 2.099 kaydı (sayısal filtreye takılmayanlar) okunmadı.
+3. **Haziran görselleri hiç açılmadı.** Önceki turlarda en değerli bulgular görsellerin
+   içinden çıkmıştı; boşluktaki görseller bu turda metin lehine atlandı.
+4. BTC 84 K ve gümüş 68 takibe alınmalı.
