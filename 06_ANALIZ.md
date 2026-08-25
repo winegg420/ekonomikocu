@@ -1632,3 +1632,182 @@ Bu 7 videonun hiçbiri Koç kaynağı değildir. Her biri ayrı, bağımsız bir
 - Yarın (26 Ağustos) ABD PCE verisinin kritik olduğu hem Video 15 (Şatıroğlu) hem Video 14'te (Lafçı) aynı şekilde vurgulanıyor.
 - ABD borç/tahvil gerilimi teması artık BEŞ bağımsız kaynakta işleniyor: Video 4 (Integral, 40 trilyon $ + AI-capex), Video 13 (Sellcoin, Hazine tahvil alımı 2→4 milyar $), Video 14 (Lafçı, aynı 40 trilyon $ + borç/GSYH %123,9→%139 projeksiyonu), Video 15 (Şatıroğlu, Bessent'in tahvil müdahalesi + %4,50 altı 10Y tezi).
 - **Dikkat — kaynak içi tutarsızlık:** Şatıroğlu'nun kendi Video 8 → Video 15 arasındaki güncellemesinde bile BTC zarar-kes 75.350$'dan 76.500$'a, XRP 1,0$'dan 1,40$'a çekilmiş — aynı analistin "sabit" dediği seviyeler bile hızla revize ediliyor, mentor oturumlarında bu seviyeler statik kabul edilmemeli.
+
+---
+
+## 2026-08-25 — KARNE TURU: SÖYLENENLER vs BUGÜNKÜ FİYAT + AÇIK İŞLEM FIRSATLARI
+
+**Yöntem:** Bu bölüm yeni tweet analizi DEĞİL. 17–25 Ağustos arasında @ekonomikocu ve
+@Efloud'un verdiği **sayısal, sınanabilir** iddialar toplandı ve **25 Ağustos 10:00
+fiyatlarıyla** (kaynak: `99_BOT_ARSIV/kod/magicma_ham.jsonl`, TradingView 4H taraması)
+tek tek puanlandı. Yorum yok — rakam var.
+
+### 0. FİYAT ÇİZELGESİ (aynı kaynaktan, aynı taramalardan)
+
+| Tarih | BTC | ETH | NASDAQ (NDX) | ALTIN (XAUUSD) |
+|---|---:|---:|---:|---:|
+| 17 Ağu 11:44 | 63.379 | 1.892,94 | 30.046 | 4.395,75 |
+| 20 Ağu 18:11 | 72.204 | 2.292,36 | 29.319 | 4.535,70 |
+| 23 Ağu 10:49 | 76.072 | 2.389,31 | 29.309 | 4.602,99 |
+| 24 Ağu 11:01 | 77.296 | 2.453,94 | 29.309 | 4.638,70 |
+| **25 Ağu 10:00** | **80.526** | **2.500,38** | **29.023** | **4.637,60** |
+| **17→25 Ağu** | **+%27,1** | **+%32,1** | **−%3,4** | **+%5,5** |
+
+Diğerleri (25 Ağu 10:00): DXY 99,07 · USDTRY 48,10 · SPX 7.652,86 · XU100 14.501,49 ·
+XAGUSD 68,37 · GBPUSD 1,36365 · UKOIL 89,64 · ETHBTC 0,031050 · ETHTRY ≈ 120.268.
+
+---
+
+### 1. @ekonomikocu KARNESİ
+
+| # | İddia (tarih) | Sınama | Sonuç |
+|---|---|---|---|
+| 1 | **"Ağustos 3. hafta" dönüm noktasıdır** — Haziran'dan beri, aylar öncesinden | 17→25 Ağu: BTC +%27,1 · ETH +%32,1 · ALTIN +%5,5 · NASDAQ −%3,4 · DXY zayıf | ✅ **BİLDİ — turun en büyük isabeti.** Sadece yön değil **kompozisyon** da tuttu: kripto+emtia yukarı, ABD borsası aşağı, dolar zayıflatıldı |
+| 2 | **"Savaş değeri 67.800; üstünde fiyat kalırsa piyasa yükselir"** (19 Ağu 14:20) | O gün BTC ~63–65 K. 20 Ağu'da 72.204 ile seviye kazanıldı → 25 Ağu 80.526 | ✅ **BİLDİ** (seviyeden +%18,8). *Not: sembol tweette yazılı değil; bağlam ve fiyat BTC'yi işaret ediyor* |
+| 3 | **"64.600'de kısa robot var"** (19 Ağu) | BTC 64.600'ü yukarı geçti, geri gelmedi | ✅ Robot bölgesi yukarı terk edildi |
+| 4 | **"Ağustos 3. haftaya kadar ETH'yi 2.000 altında, BTC'yi 60 K'da baskıladılar"** (24 Ağu, geriye dönük) | ETH 8 Tem–17 Ağu boyunca 1.732–1.966 bandında; BTC 62–65 K | ✅ **DOĞRU** — arşiv birebir doğruluyor |
+| 5 | **"...ALTIN tarafını 4.000 dolar altında baskıladılar"** (24 Ağu, aynı tweet) | ALTIN 4.000'i **3 Ağustos'tan önce** geçti (6 Ağu 4.265 · 17 Ağu 4.396) | ⚠️ **KISMEN YANLIŞ** — altın baskısı Ağustos 3. haftadan ~2 hafta önce çözülmüştü |
+| 6 | **"ETH 2.570 üstünde kalmadan tam canlanma gelmez, altı sandıcıdır"** (20 + 22 Ağu) | ETH 2.500,38 → tetiğin **%2,71 altında** | ⏳ **HENÜZ TETİKLENMEDİ** — iddia ayakta, sınanıyor |
+| 7 | **"ETHTRY 120.600'ü aşması lazım"** (20 + 22 Ağu) | ETHTRY ≈ **120.268** → **%0,28 altında** | ⏳ **TAM ÇİZGİDE** — bugünün en kritik yerli tetiği |
+| 8 | **"NASDAQ 29.200'e düştü — 9.2 öğretisi, satışçılar bastırıyor"** (19 Ağu) | NDX **29.023** → basamağın **%0,61 altında**, 6 gündür altında | ✅ **BİLDİ** — hem seviye hem yön tuttu (29.319 → 29.023) |
+| 9 | **"NASDAQ Haziran değerinde, değişen bir şey yok"** (24 Ağu) | 21 Haz 30.406 → 25 Ağu 29.023: Haziran'ın **altında** | ✅ **BİLDİ ve fazlası** — aynı değil, geri gelmiş |
+| 10 | **"NASDAQ 40.600 için SP500'ün 10.600 olması gerekir → küresel satış hayırlı olsun"** (22 Ağu) | SPX 7.652,86. Gereken +2.950 puan (+%38,6) | ✅ **Matematik tutarlı** — 40.600 beklentisini doğru reddetti |
+| 11 | **"GBP'de 1.3840 aşılmalı, anca o zaman tetiklenir"** (20 Ağu) | GBPUSD **1,36365** → **%1,47 altında** | ⏳ **TETİKLENMEDİ** — "tam güçlenme yok" tespiti geçerli |
+| 12 | **"Kur 50 liraya merdiven dayadı"** (19 Ağu) | USDTRY 48,10 | ✅ Doğru tasvir |
+| 13 | **"2017'de 15 K olan borsa, 2026 gelmiş hâlâ 14 K"** (20 Ağu) | XU100 **14.501** | ✅ **BİRE BİR DOĞRU** |
+| 14 | **"OTHERS.D Haziran'da 8,79 idi bugün 7,30 — coinler değer yitirdi, majörler yürüdü"** (21 Ağu) | Yükseliş BTC/ETH öncülüğünde geldi; altcoin geride | ✅ Yapısal tespit doğru |
+| 15 | **"ALTIN: Eylül 2. güne kadar zamanı var. 4640 robot koydular. Altı satış baskısı, üstü bekletirler"** (24 Ağu 23:36) | XAUUSD **4.637,60** → robotun **%0,052 altında**. 24 Ağu'da 4.638,70 ile değdi, geçemedi | 🔥 **CANLI — turun en keskin çağrısı.** Robot çalışıyor: iki taramadır 4.640'a değip geri düşüyor |
+| 16 | **"NASDAQ gün gelecek 18 K bölgesine düşecektir"** (24 Ağu) | Tarih verilmemiş | ⏳ Ölçülemez |
+
+**@ekonomikocu karne özeti — 16 sınanabilir iddia:**
+✅ Bildi **9** · ⚠️ Kısmen yanıldı **1** · ⏳ Açık/izlemede **5** · Ölçülemez **1**
+→ **Sonuçlananların isabeti: 9/10 = %90**
+
+**Yanıldığı tek yer (madde 5)** tesadüf değil: yöntemi **takvim odaklı**. Takvim tarihi
+(Ağustos 3. hafta) doğru çıkarken, "o tarihe kadar her varlık aynı anda baskılanır"
+varsayımı tutmadı. **Altın erken kaçtı.** Karne kuralı: tarihine güven, varlık bazında
+eşzamanlılık varsayımına güvenme.
+
+---
+
+### 2. @Efloud KARNESİ
+
+| # | İddia (tarih) | Sınama | Sonuç |
+|---|---|---|---|
+| 1 | **"19 Ağu'da ~80 günlük yaz konsolidasyonu momentumlu mumla yukarı terk edildi, yön bullish"** (21 Ağu) | BTC 63.379 → 80.526 | ✅ **BİLDİ** |
+| 2 | **"$72K bölgesi kaybedilmedikçe spot pozisyonlarımı koruyacağım"** (21 Ağu) | Dip temas 72.204 (20 Ağu); altı görülmedi | ✅ **Seviye tuttu** — spot korumak doğru karardı |
+| 3 | **"Belki bir $78.500 denemesi sonrası dinlenme fazı"** (21 Ağu) | BTC 80.526 — hedef **aşıldı** | ✅ **BİLDİ ve aştı** |
+| 4 | **"Vadeli işlemlerimi $65.000 seviyesinden kapatmış bulunuyorum"** (21 Ağu) | BTC şu an 80.526 | ❌ **ERKEN ÇIKTI** — +%23,9 masada kaldı (kendi beyanı) |
+| 5 | **NASDAQ: "28.440–28.220 arasına alarm kuruyorum"** (19 Ağu) | NDX 29.023 — bölgeye **%2,0 var** | ⏳ Gelmedi; alarm geçerli |
+| 6 | **SP500: "7.375 bölgesini alarmlıyorum"** (19 Ağu) | SPX 7.652,86 — **%3,6 uzak** | ⏳ Gelmedi |
+| 7 | **NQ yeşil kutu denemesi stoplandı** (19 Ağu, kendi itirafı) | Kendi beyanı | ❌ **ZARAR — açıkça yazdı** (şeffaflık puanı) |
+| 8 | **GOLD: "beklediğim yerlerden birine ulaştı, kısmi realizasyon; 4.430 destek, 4.250 kaybedilmezse sorun yok"** (24 Ağu) | XAU 4.637,60 — destek bölgelerinin **%4,7 üstünde**, test bile edilmedi | ✅ Hedef bildi · ⚠️ realizasyon erken |
+| 9 | **OP: "direnci kırmamış, ret almış; 0,122 kırılımı pozitif emare olur"** (22 Ağu) | OP **0,1069** — hâlâ 0,122'nin **%12,4 altında** | ✅ **BİLDİ** — ret devam ediyor |
+| 10 | **SUI: "0,77 destek gibi, tutamazsa 0,68'e odaklanın"** (22 Ağu) | SUI **0,8161** — destek üstünde | ✅ Destek tuttu |
+| 11 | **LTC: "kırmızı çizgiden %20 artışla %50 kâr aldım; 56,5 gelirse tamamen kapatırım"** (24 Ağu) | LTC **51,95** — 56,5'e **%8,8 var** | ✅ Realizasyon isabetli · ⏳ tam çıkış gelmedi |
+| 12 | **EIGEN: "$0,2 kaybedilmedikçe sıkıntı yok"** (24 Ağu) | EIGEN **0,2205** — geçersizliğin sadece **%2,5 üstünde** | ⚠️ **RİSKLİ BÖLGE** |
+| 13 | **AVAX: "$6,7–7 bölgesi yeni ekleme yeri"** (21 Ağu) | AVAX **7,581** — bölgenin **%8,3 üstünde** | ⏳ Gelmedi |
+| 14 | **SOL: "$75'lerden alımım var; $82'ye düşerse ekleme"** (21 Ağu) | SOL **101,00** | ✅ **+%34,7 kârda**; ekleme fırsatı gelmedi |
+| 15 | **MON: "0,033 majör direnç; kâr tatmin ediyorsa parça parça realize edin"** (25 Ağu) | MON **0,02983** — direncin **%9,6 altında** | ✅ Direnç doğru, realizasyon tavsiyesi isabetli |
+| 16 | **CRV: "kırmızı kutuyu kazanırsa 0,41; kazanamaz/deviasyon yaparsa 0,27–0,28, derin 0,24"** (25 Ağu, bugün) | CRV **0,3305** — 0,34'ün **%2,8 altında** | 🔥 **CANLI KARAR NOKTASI** |
+| 17 | **"ETHBTC 0,03'e geri çekilince spot BTC'lerimle altcoin alacağım"** (21 Ağu) | ETHBTC **0,031050** — tetiğe **%3,4** | ⏳ Yaklaşıyor |
+
+**@Efloud karne özeti — 17 sınanabilir iddia:**
+✅ Bildi **9** · ❌ Yanıldı/erken çıktı **2** · ⚠️ Riskli/kısmen **2** · ⏳ Açık **4**
+→ **Sonuçlananların isabeti: 9/11 = %82**
+
+**İki hatası da aynı türden:** seviye tespiti doğru, **çıkış zamanlaması erken.**
+65 K'da vadeli kapattı (BTC 80,5 K oldu); altında hedefe varır varmaz realize etti
+(altın yükselmeye devam etti). → **Efloud'un seviyeleri alınmalı, çıkışları taklit edilmemeli.**
+
+---
+
+### 3. İKİ KAYNAK KARŞILAŞTIRMASI
+
+| | @ekonomikocu | @Efloud |
+|---|---|---|
+| Yöntem | **Takvim + öğreti basamağı** (9.2 · 5.7 · 6) | **Yatay seviye + S/R flip + range** |
+| Vade | Aylar–yıllar | Günler–haftalar |
+| İsabet (bu tur) | **%90** (9/10) | **%82** (9/11) |
+| Güçlü yanı | Dönüm **tarihini** aylar önceden verdi | Seviyeleri **rakamla** verdi, pozisyonunu açıkladı |
+| Zayıf yanı | Varlık bazında ayrışmayı ıskaladı | **Erken çıkış** — kârı masada bıraktı |
+| Kaldıraç | Konuşmuyor | 3x + grid bot |
+| Hata itirafı | Nadiren sayısal | **Açıkça yazıyor** (stop, zarar) |
+
+**Kritik yakınsama:** Koç **"Ağustos 3. hafta"** dedi, Efloud **"19 Ağustos'ta konsolidasyon
+yukarı terk edildi"** dedi. **Aynı gün, iki bağımsız yöntem, aynı sonuç.** Bu, ikisinin de
+karşılıklı doğrulanmasıdır — bu turun en değerli bulgusu.
+
+**Kritik ayrışma:** NASDAQ. Koç **düşüş** bekliyor (29.200 altı, uzun vade 18 K).
+Efloud **28.440–28.220'ye alarm** kurdu ama düşerse **alım** düşünüyor.
+Aynı yönde beklenti, **karşı işlem**: Koç satıcı, Efloud alıcı.
+
+---
+
+### 4. ⚡ ŞU AN İŞLEM FIRSATLARI — çizgiye yapışık olanlar (25 Ağu 10:00)
+
+Yakınlık sırasına göre. **≤%1 = karar bugün · %1–4 = alarm kur.**
+
+| # | Enstrüman | Fiyat | Tetik | Mesafe | Kaynak | Kurgu |
+|---|---|---:|---:|---:|---|---|
+| 1 | **ALTIN (XAUUSD)** | 4.637,60 | **4.640** robot | **%0,05** | Koç 24 Ağu | Robotun **altı = satış baskısı**, üstü = bekletirler. İki taramadır değip düşüyor. **Vade: 2 Eylül.** 4.640 üstünde kapanış → yukarı teyit; kapanmazsa aşağıda 4.535 (20 Ağu değeri) |
+| 2 | **ETHTRY** | ≈120.268 | **120.600** | **%0,28** | Koç 20+22 Ağu | "Buranın 120 binleri aşması lazım." **Yerli yatırımcı için ETH kararı burada** |
+| 3 | **NASDAQ (NDX)** | 29.023 | **29.200** (9.2) | **%0,61** | Koç 19 Ağu | Fiyat basamağın **altında** → Koç'a göre satışçı bölgesi. 29.200 geri alınmadıkça long yok. Efloud'un alım alarmı 28.440 (%2,0 aşağıda) |
+| 4 | **ETH/USD** | 2.500,38 | **2.570** | **%2,71** | Koç 20+22 Ağu | **Kapanış** istiyor, fitil değil. Geçerse hedef **3.060** (21 Ağu haftalık grafik). Altı = "sandıcı" |
+| 5 | **CRV** | 0,3305 | **0,34** kırmızı kutu | **%2,79** | Efloud bugün | Kazanırsa **0,41**. Kazanamaz/deviasyon → **0,27–0,28**, derin **0,24** |
+| 6 | **ETHBTC** | 0,031050 | **0,030** | **%3,4** | Efloud 21 Ağu | Efloud'un **altcoin alım tetiği** — altcoin rotasyonunun habercisi |
+| 7 | **EIGEN** | 0,2205 | **0,20** geçersizlik | **%2,5** | Efloud 24 Ağu | **Ters risk**: yakın olan taraf zarar tarafı. 0,20 altı = kurgu iptal |
+| 8 | **GBPUSD** | 1,36365 | **1,3840** | **%1,47** | Koç 20 Ağu | "Anca o zaman tetiklenir." Şu an güçlenme onayı YOK |
+| 9 | **LTC** | 51,95 | **56,50** çıkış | **%8,8** | Efloud 24 Ağu | Efloud'un tam çıkış yeri. Kırmızı çizgi kaybı → 47–48 |
+| 10 | **MON** | 0,02983 | **0,033** direnç | **%9,6** | Efloud bugün | Direnç uzak; parça parça realizasyon öneriliyor |
+
+**MagicMA 4H çizgisine yapışık ürünler (≤%0,25 · bugünkü tarama · 560 sembol):**
+CADJPY 114,97 (G-Alt, long) · ARKMUSDT 0,1167 (G-Üst, short) · PG 146,60 (short) ·
+**SUIUSDT 0,8161 (G-Üst %+0,03, long)** ← Efloud'un 0,77 desteğiyle **çakışıyor: çift teyit** ·
+USDJPY 159,36 (short) · EURGBP 0,85478 (long) · GOOG 344,59 (long) · KASUSDT 0,03031 (short).
+Tam liste: `magicma/magicma_islem_adaylari_2026-08-25.md`
+
+---
+
+### 5. PİYASA BEKLENTİSİ — iki kaynağın ortak resmi
+
+**Şu an neredeyiz:** Ağustos 3. hafta tetiği **çalıştı ve bitti**. Kripto + emtia yükseldi,
+NASDAQ Haziran değerine geri çekildi, dolar bilinçli zayıflatıldı. **İlk bacak tamam.**
+
+**Sıradaki takvim çıpaları (Koç):**
+- **2 Eylül** — ALTIN 4.640 robotunun vadesi
+- **15 Eylül** — Haziran'da başlayan ABD vade döneminin sonu
+- **24 Eylül** — ÇİN'in ABD ziyareti ("grafiklere bakıyorum o dönemi yine önemsiyor")
+
+**Koç'un beklentisi:** Vade sonuna kadar dolar zayıf tutulur; borsa düşüşü kripto+emtia ile
+frenlenir; FED Eylül'de rahat eder. Uzun vadede NASDAQ 18 K. Kripto/emtia yükselişi
+"gerçek yükseliş değil, Haziran değerine dönüş" — bu yüzden **pozisyon değil trade**
+diyor ("pozda zaten ısrar edemeyiz").
+
+**Efloud'un beklentisi:** Yön bullish. **Short değil, pullback'lerde long.** BTC'de bir
+düzeltme daha gelirse altcoin'ler aynı HTF desteklerine geri döner — asıl alım orada.
+
+**Ortak sonuç — ikisinin kesiştiği tek cümle:**
+> Yukarı yön açık ama **peşinden koşulmaz**; geri çekilme beklenir, seviyede girilir.
+
+**Bugüne pratik çevirisi:** BTC 80,5 K'da (8 günde +%27), ETH tetiğin %2,7 altında,
+altın robota yapışık. **Hiçbiri "şimdi al" bölgesinde değil.** Üç tetikten biri
+(ALTIN 4.640 / ETH 2.570 / ETHTRY 120.600) çalışana kadar beklemek, iki kaynağın da
+söylediği şeydir.
+
+**⚠️ Ida için not:** Efloud 3x kaldıraç + grid bot kullanıyor, Koç kaldıraçtan hiç
+bahsetmiyor. Yukarıdaki seviyeler **spot/kaldıraçsız** okunmalı; Efloud'un pozisyon
+kurulumu birebir taklit edilmemeli — kendi karnesindeki iki hatasının ikisi de
+zamanlama hatasıydı.
+
+### 6. VERİ NOTU / KAPSAM
+
+- **Tweet kapsamı:** @ekonomikocu 17–24 Ağu **188 kayıt** — arşivin tamamı analiz edilmiş
+  durumda; 25 Ağustos tweetleri **henüz taranmadı**. @Efloud 19–25 Ağu **37 kayıt**.
+- **⚠️ @Efloud arşivi hâlâ eksik:** X'te bu pencerede 93 tweet görüldü, arşivde 37 var (%40).
+  Efloud karnesi **eldeki 37 kayıt üzerine** kuruludur; eksik 56 tweette ek iddia olabilir
+  (bkz. PROGRESS 2026-08-25 ek — toplama işi hâlâ açık).
+- **Fiyat kaynağı:** `magicma_ham.jsonl`, TradingView 4H taraması, 25 Ağu 09:49–10:27.
+  Anlık fotoğraftır; tetikler saat içinde çalışmış olabilir.
+- **Bu turda yeni görsel açılmadı** — bölüm bir fiyat doğrulamasıdır, tweet analizi değil.
+  Görsel gerektiren açık işler önceki bölümlerde duruyor.

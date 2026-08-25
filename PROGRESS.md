@@ -1832,3 +1832,60 @@ güvenilir. 15 dk'dan fazla sapma = yanlış article'dan okunmuş demektir.
 2. Toplanan kayıtların görselleri indirildikten sonra **tek tek okunup**
    `efloud/efloud_analiz_2026-08-25.md` güncellenmeli.
 3. Raporun "6. VERİ KALİTESİ" bölümündeki kapsam iddiası düzeltilmeli.
+
+### 2026-08-25 (akşam) — KARNE TURU: iddialar bugünkü fiyatla puanlandı
+
+**Ne yapıldı:** Yeni tarama yapılmadı (arşivdeki her iki hesabın tweetleri zaten analiz
+edilmişti). Bunun yerine 17–25 Ağustos arasında verilen **sayısal, sınanabilir** iddialar
+toplandı ve 25 Ağustos 10:00 fiyatlarıyla tek tek puanlandı. Sonuç `06_ANALIZ.md` sonuna
+tarihli bölüm olarak eklendi.
+
+**Fiyat kaynağı kararı (önemli, tekrar kullanılacak):** Karne için ayrı bir fiyat API'sine
+gerek yok — `99_BOT_ARSIV/kod/magicma_ham.jsonl` her sembol için `ts` damgalı fiyat
+tutuyor. Sembol başına en yüksek `ts` alınırsa **güncel fiyat**, geçmiş `ts`'ler alınırsa
+**zaman serisi** çıkıyor. BTC/ETH/NDX/XAUUSD için 8 Temmuz'dan bugüne haftalık nokta
+serisi bu dosyadan üretildi ve iddiaların yapıldığı gündeki fiyatı doğrulamak için
+kullanıldı. Bu, "o gün fiyat neredeydi?" sorusunun tek güvenilir yerel cevabı.
+
+**Karne sonuçları:**
+- **@ekonomikocu:** 16 sınanabilir iddia · ✅9 ⚠️1 ⏳5 · sonuçlananların isabeti **%90**.
+  En büyük isabet: "Ağustos 3. hafta" — 17→25 Ağu BTC +%27,1, ETH +%32,1, ALTIN +%5,5,
+  NASDAQ −%3,4. Sadece yön değil kompozisyon da tuttu.
+  Tek hatası: "ALTIN'ı 4.000 altında baskıladılar" — altın 4.000'i 3 Ağustos'tan ÖNCE geçti.
+  **Çıkarım:** takvim tarihi güvenilir, "o tarihe kadar tüm varlıklar eşzamanlı baskılanır"
+  varsayımı güvenilir değil.
+- **@Efloud:** 17 sınanabilir iddia · ✅9 ❌2 ⚠️2 ⏳4 · isabet **%82**.
+  İki hatası da aynı tür: **erken çıkış.** 65 K'da vadeli kapattı (BTC 80,5 K oldu),
+  altında hedefe varır varmaz realize etti (altın yükselmeye devam etti).
+  **Çıkarım: seviyeleri al, çıkışlarını taklit etme.**
+
+**En değerli bulgu — karşılıklı doğrulama:** Koç "Ağustos 3. hafta" dedi, Efloud
+"19 Ağustos'ta 80 günlük konsolidasyon yukarı terk edildi" dedi. Aynı gün, iki bağımsız
+yöntem (takvim vs yatay seviye), aynı sonuç.
+
+**En keskin ayrışma:** NASDAQ. Koç düşüş bekliyor ve satıcı; Efloud da düşüş bekliyor ama
+28.440–28.220'de **alıcı**. Aynı beklenti, karşı işlem.
+
+**Canlı işlem tetikleri (25 Ağu 10:00 itibarıyla, yakınlık sırasına göre):**
+1. ALTIN 4.637,60 / robot 4.640 → **%0,05** (vade 2 Eylül) — iki taramadır değip düşüyor
+2. ETHTRY ≈120.268 / 120.600 → **%0,28**
+3. NASDAQ 29.023 / 29.200 (9.2) → **%0,61**, basamağın altında
+4. ETH 2.500,38 / 2.570 → %2,71 (geçerse hedef 3.060)
+5. CRV 0,3305 / 0,34 → %2,79 (kazanırsa 0,41; olmazsa 0,27–0,28)
+6. ETHBTC 0,031050 / 0,030 → %3,4 (Efloud'un altcoin rotasyon tetiği)
+7. EIGEN 0,2205 / 0,20 → %2,5 **ters risk** (yakın olan taraf zarar tarafı)
+- Çift teyit: **SUIUSDT 0,8161** hem MagicMA G-Üst çizgisine %0,03 yapışık (long adayı)
+  hem Efloud'un 0,77 desteğinin üstünde.
+
+**Ortak piyasa beklentisi:** Yukarı yön açık ama peşinden koşulmaz; geri çekilme beklenir,
+seviyede girilir. Üç tetikten biri (ALTIN 4.640 / ETH 2.570 / ETHTRY 120.600) çalışana
+kadar bekleme, iki kaynağın da söylediği şey. Sonraki takvim çıpaları: **2 Eylül**
+(altın robot vadesi), **15 Eylül** (ABD vade sonu), **24 Eylül** (ÇİN–ABD ziyareti).
+
+**AÇIK KALAN (değişmedi):** @Efloud arşivi hâlâ 37/93. Bu karne eldeki 37 kayıt üzerine
+kurulu; eksik 56 tweette ek iddia olabilir. Toplama yöntemi sorunu çözülmedi
+(bkz. bir önceki bölüm — status sayfasında doğru article seçimi).
+
+**AÇIK KALAN (yeni):** @ekonomikocu'nun 25 Ağustos tweetleri hiç taranmadı; arşivdeki son
+kayıt 24 Ağu 23:48. Bir sonraki turda önce tarama, sonra bu karnenin ⏳ satırlarının
+güncellenmesi gerekiyor.
