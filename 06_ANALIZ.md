@@ -1602,3 +1602,33 @@ Bu 7 videonun hiçbiri Koç kaynağı değildir. Her biri ayrı, bağımsız bir
 **Çelişen (analistler arası görüş ayrılığı — karıştırılmamalı):**
 - 10 Eylül PPK'da gerçek indirim olur mu: Bozkurt "evet, devam eder" / Aslanoğlu "hayır, Ekim'e kadar oturur" / Integral panel "beklemiyoruz ama 100 bp gelirse şaşırtmaz".
 - TL'nin kısa vadeli yönü: Bozkurt "hızlı devalüasyon riski, 60-65 TL yıl sonu" / Bloomberg-Tufan Cömert "Goldman'ın görüşüne katılmıyorum, TCMB duruşu sıkı kalmaya devam ediyor" / Sellcoin "avantajlı konum ama hızlı değer kaybı değil" (üçüncü, ölçülü görüş).
+
+## 2026-08-25 EK 2 — DIŞ ANALİST GÜNDEMİ (Video 14-15, Koç'un sözü DEĞİL)
+
+> **ATIF UYARISI:** Bu bölümdeki hiçbir seviye/görüş Ekonomikocu'na ("Koç") ait değildir. 2 yeni bağımsız YouTube videosu + 1 çapraz teyit notu içerir (25 Ağustos 2026 dönemi izlendi). "2026-08-25 EK" bölümündeki 13 videonun devamıdır, numaralandırma oradan sürüyor.
+
+#### 14. Emrah Lafçı — "Faizler Düştü! Yatırımları Değiştirme Zamanı mı?" | Parayı Ne Yapalım Bölüm 71 (Fibabanka sponsorlu program)
+- TCMB Pazar akşamı (23 Ağustos) haftalık repo ihalelerine dönüş duyurdu; ortalama fonlama maliyeti **%37**'ye geldi (düşük hacim, sembolik ihale). **TLREF 21 Ağustos %39-40 → 24 Ağustos %36,93** — hemen tepki verdi. Yorumu: "biraz erken atılmış bir adım" (Ağustos enflasyonu henüz gelmedi, Eylül PPK'sı zaten vardı).
+- Kararın arkasındaki veri tezi: TCMB gerçek kişilerin döviz talebini izliyor; 24 Nisan'dan itibaren 17 haftada **3,17 milyar $ dövizden TL'ye dönüş** olmuş, TL mevduat payı %160 üzerine çıkmış — döviz talebi sönümlenince faiz indirmekte sakınca görülmemiş.
+- Somut hesaplama: para piyasası fonu %37 varsayımıyla 32 günlük net getiri ≈ %2,72 (buna denk mevduat ≈ %38); 91 günlük net getiri ≈ %7,97 (buna denk mevduat ≈ %39). **3 aylık vadelide %39 üstü (40-43) bulan kaçırmasın** diyor — TCMB 3 ay içinde tekrar indirebilir riski var.
+- Para piyasası fonlarına yeni vergi: kurumsallara (yerli+yabancı) %10 stopaj — bireysel yatırımcıyı etkilemiyor; yerli kurumsal geçici vergiden mahsuplaştırabiliyor (net etkisi yok), yabancı kurumsal için gerçek yeni yük.
+- 1 haftalık performans: **Altın +%6,92, Gümüş +%7,34, Bitcoin +%22,61, Petrol -%2,54**, TR 2Y tahvil -0,86 puan (%40,11).
+- ABD borç tezi: toplam borç **~40 trilyon $** (2008 öncesi 9 trilyon, 2016'da 20 trilyon), borç/GSYH şu an **%123,9, projeksiyon %139**. 10Y tahvil faizi belirli seviyeye gelince hükümet zorlanıyor → kısa vadeli bono satıp uzun vadeli tahvil alma operasyonları ("mambo jumbo") → suni/sürdürülemez etki → dolar varlıklarından çıkış → altın/gümüş/BTC'ye teveccüh.
+- Altın S1 marjı 2 hafta önce %5'lere düşmüştü, şimdi %10'a çıktı (tarihsel ortalama ~%15) — gram altın yerine Altın S1 tercih edilebilir diyor. **Video anı altın spot: 4.635$.**
+- BIST: son 1 hafta BIST100 +%2,61, BIST30 +%4,37 (büyük kağıtlar öne çıkıyor); TCMB kararı sonrası bankalar/GYO'larda ciddi getiri.
+- Takvim: yarın (Çarşamba) ABD PCE verisi; Cuma Jackson Hole'da Fed başkanı konuşacak ama büyük etki beklenmiyor.
+
+#### 15. Tunç Şatıroğlu (Kanal Finans) — "Yeni Zirve Yolda mı? Amerikan Borsasında Dip Sinyalleri" (Investing.com sponsorlu, Video 8/EK'in takip videosu)
+- BIST: **14.300** kritik takip seviyesi (Video 8 ile aynı) — altında 2 saat kalırsa yükseliş trendi biter, satış fırsatı; 14.600 kırılırsa yukarı devam.
+- Kripto zarar-kes GÜNCELLEMESİ (Video 8'e göre): **BTC 76.500$** (önceki 75.350$), **ETH 2.370$** (değişmedi), **XRP 1,40$** (önceki 1,0$) — yükselişin devamı bekleniyor. Yarın (26 Ağustos) ABD PCE verisi kritik.
+- Amerikan borsası: S&P500/Nasdaq/SMH aylık bazda yeşil, haftanın 2. yarısındaki satışların (7-8 günlük düzeltme) dibe gelmiş olabileceğini, yeni zirve potansiyeli olduğunu düşünüyor.
+- Uzay/yüksek beta hisseleri — yeni alım seviyeleri: SMH 570$ (önceki 572$), NASA 25$, SpaceX zarar-kes 131,87$ (kırılmadı, devam), Rocket Lab zarar-kes kırıldı → 75$ geçilmeden alım yok, AST SpaceMobile kırıldı → 65,82$ geçilmeden alım yok, Intuitive Machines kırıldı → 17,92$ geçilmeden alım yok, DRAM ETF sata dönmüş → 58$ üstü gerekli, yazılım (IGV) 101$ desteği duruyor, devam edilebilir.
+- Makro tez: ABD 10Y tahvil faizi / Hazine Bakanı Bessent'in piyasaya müdahalesi tartışması — müdahaleyi doğru bulmuyor ama Bessent'in seçime kadar (~2-2,5 ay) idare etmeye çalıştığını, short pozisyon alanları "yakabileceğini" düşünüyor. **ABD 10Y tahvil faizi %4,50 altına inebilir → özellikle Ekim ortasından itibaren güçlü ralli (borsa+değerli metal+kripto) bekliyor.** Fed'in faiz artıracağına inanmıyor.
+- İran meselesi: çözümün zor olduğunu, Trump'ın görüşmeyeceğini, en az 1 ay daha süreceğini düşünüyor — ama bunun ralliyi ortadan kaldırmayıp sadece geciktirdiği görüşünde.
+- Altın/Gümüş: yeni bir görüş yok, önceki (Video 8) seviyeler geçerli.
+
+### Çapraz teyit notu (Video 14-15 + önceki bulgular)
+- TCMB'nin faizi ~%37'ye indirdiği (24 Ağustos, TLREF ~%36,93-37) hem Video 14'te (Lafçı) hem de proje dışı ama takip edilen bağımsız X hesabı **Iris Cibre**'nin aynı günkü tweetlerinde (depo ihalesi ortalama %37,09) birebir teyitli — iki bağımsız kaynak aynı rakamı doğruluyor.
+- Yarın (26 Ağustos) ABD PCE verisinin kritik olduğu hem Video 15 (Şatıroğlu) hem Video 14'te (Lafçı) aynı şekilde vurgulanıyor.
+- ABD borç/tahvil gerilimi teması artık BEŞ bağımsız kaynakta işleniyor: Video 4 (Integral, 40 trilyon $ + AI-capex), Video 13 (Sellcoin, Hazine tahvil alımı 2→4 milyar $), Video 14 (Lafçı, aynı 40 trilyon $ + borç/GSYH %123,9→%139 projeksiyonu), Video 15 (Şatıroğlu, Bessent'in tahvil müdahalesi + %4,50 altı 10Y tezi).
+- **Dikkat — kaynak içi tutarsızlık:** Şatıroğlu'nun kendi Video 8 → Video 15 arasındaki güncellemesinde bile BTC zarar-kes 75.350$'dan 76.500$'a, XRP 1,0$'dan 1,40$'a çekilmiş — aynı analistin "sabit" dediği seviyeler bile hızla revize ediliyor, mentor oturumlarında bu seviyeler statik kabul edilmemeli.
