@@ -4,9 +4,10 @@
 > Tamamı **@Efloud** hesabının 19–25 Ağustos 2026 arası paylaşımlarından, **grafiklerin
 > tek tek açılıp okunmasıyla** çıkarılmıştır. Yatırım tavsiyesi değildir.
 >
-> Kaynak: `efloud/cekilen_tweetler.jsonl` (37 kayıt) + `efloud/medya/` (27 görsel).
-> Görsellerin 7'si grafik değil (OKX PnL kartı / emir detayı / portföy ekranı) —
-> analiz dışı bırakıldı, aşağıda "pozisyon kanıtı" olarak ayrıca not edildi.
+> Kaynak: `efloud/cekilen_tweetler.jsonl` (37 kayıt) + `efloud/medya/` (**32 görsel**).
+> Görsellerin 20'si TradingView grafiği, 12'si grafik değil (OKX PnL kartı / emir detayı /
+> portföy ekranı / uygulama ekranı / kitap önsözü) — analiz dışı bırakıldı ama taşıdıkları
+> bilgi aşağıda "pozisyon kanıtı" ve "ek bulgular" başlıklarında ayrıca not edildi.
 
 ---
 
@@ -118,3 +119,48 @@ alınabilir ama pozisyon kurulumu birebir taklit edilmemeli.
   indirilmedi; analiz tweet'e iliştirilmiş görseller üzerinden yapıldı.
 - BTC HTF paylaşımındaki grafiğin bir kısmı **17 Ağustos tarihli** (alıntılanan eski analiz),
   21 Ağustos grafiğiyle birlikte okundu — seviyeler örtüşüyor.
+
+---
+
+## 7. EK BULGULAR (grafik olmayan görsellerden)
+
+### 7.1 Piyasa anlık görüntüsü — 24 Ağustos 08:13 (OKX uygulaması)
+
+Efloud'un "Günaydınlar, bu hafta altcoin ayrışmalarına odaklanacağım" tweetine
+iliştirdiği ekran görüntüsü. **Bu, kurguların hangi fiyat zemininde kurulduğunu
+sabitlediği için önemli:**
+
+| Parite | Fiyat (24 Ağu 08:13) | Günlük |
+|---|---|---|
+| BTCUSDT Perp | **77.143,8** | -%1,49 |
+| ETHUSDT Perp | **2.434,32** | -%3,24 |
+| XRPUSDT Perp | 1,4478 | -%0,43 |
+| SOLUSDT Perp | 93,13 | -%0,61 |
+| **ETH/BTC** | **0,03156** | -%1,68 |
+
+**Kritik bağlantı:** AVAX güncellemesinde (21 Ağu) Efloud şunu yazmıştı — *"BTC'nin biraz
+düzeltme yaşadığı, ETHBTC'nin de bahsettiğim **0,03 civarlarına** düştüğü durumda AVAX
+dahil altcoin'lerde bir nebze düzeltme görülebilir; böyle bir hadise yaşanırsa **$6,7–$7**
+bölgesi yeni ekleme yapabileceğim kısımlardan olacaktır."*
+
+24 Ağustos'ta **ETHBTC 0,03156** — yani tetik seviyesi olan 0,03'e **%0,5 uzaklıkta**.
+Bu, rapordaki tüm altcoin "düzeltmede alım" kurgularının **aynı anda tetiklenebileceği**
+tek bir makro şart olduğu anlamına geliyor. **Takip edilmesi gereken tek sayı: ETHBTC 0,03.**
+
+### 7.2 Efloud kitap yazıyor — "PRICE ACTION" serisi
+
+25 Ağustos'ta Cilt 1'in önsözünü paylaştı (3 cilt hazır, editörlere gidecek, yıl sonuna
+doğru önerebileceğini söylüyor). Serinin yol haritası:
+
+- **Cilt 1:** Price action felsefesi, piyasa okuryazarlığı, oyuncular, altyapı, zamanlama.
+- **Cilt 2:** Teknik analiz ve grafik formasyonları — "grafiği kendi elinle çizme" katı.
+- **Cilt 3:** Price action konseptleri (order block, market yapısı, likidite temizliği,
+  dengesizlik bölgeleri).
+- **Sonraki ciltler:** Trading psikolojisi, işlem günlüğü, risk-ödül, sistemleşme.
+
+Önsözdeki tez: *"Piyasada kalıcı başarı, ezberlenmiş kurallardan değil, fiyatın
+arkasındaki niyeti okuyabilmekten geçer."*
+
+**Neden not edildi:** Yukarıdaki grafiklerde kullandığı kavramlar (order block, S/R flip,
+imbalance, EQ/RH/RL, mLTF confirmation) bu serinin terminolojisi. Grafiklerini doğru
+okumak için sözlüğü burada.
