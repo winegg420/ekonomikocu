@@ -8369,3 +8369,136 @@ bir **boşluk**. Ida'nın makro risk okumasına **ayrı bir başlık** olarak ek
 
 **Ayrım (korunacak):** Bu, **Koç'un sözü değildir**; iki dış kaynağın sentezidir. Ayrıntı ve karne
 satırları: `11_DIS_KAYNAKLAR.md` → Atilla Yeşilada (ikinci görünüm) ve Fiba Bank bölümleri.
+
+## 2026-08-25 EK — DIŞ ANALİST GÜNDEMİ (13 video özeti, Koç'un sözü DEĞİL)
+
+> **ATIF UYARISI:** Bu bölümdeki HİÇBİR seviye/görüş Ekonomikocu'na ("Koç") ait değildir. 13 farklı bağımsız YouTube videosundan derlenmiştir — 7'si 24 Ağustos 2026'da izlenen finans videoları (A bölümü), 6'sı 24-25 Ağustos 2026'da izlenen ek videolar (B bölümü). Mentor oturumlarında bu seviyeler asla Koç'a atfedilmemeli; her alt başlıkta kaynak analist adı açıkça yazılıdır.
+
+### A. 24 Ağustos 2026 — Piyasa Gündemi (7 Video Özeti)
+
+Bu 7 videonun hiçbiri Koç kaynağı değildir. Her biri ayrı, bağımsız bir analist/yorumcudur. Görüşler birbiriyle çelişebilir, hiçbiri "doğru cevap" değildir — çoklu perspektif olarak okunmalıdır. Hiçbiri yatırım tavsiyesi değildir.
+
+#### 1. Erol Polat (Foneria TV) — TEFAS Fon Soru-Cevap
+- Para piyasası fonları batmaz, sadece içindeki enstrüman değer kaybederse geçici eksi olabilir; ağırlık ters repoda olduğu için risk düşük.
+- Aktif yönetim testi: fonun ana endeksten (BIST 30) pozitif ayrışıp ayrışmadığına bakılır.
+- AFT fonu (yarı iletken ağırlıklı) dağılımını değiştirmiş, artık ETF de taşıyor.
+- SAS (Sabancı) / YAS (Koç holding, "Koç" burada @ekonomikocu değil Koç Holding) fonları: faiz düşüp yabancı geri dönerse derinliği olan holding/banka hisselerine yönelir teziyle bağlanmış.
+- 15-20 yıllık emeklilik portföyünde %40 TP2 (sabit getiri) makul bulundu; Avrupa payı zayıf halka.
+- "Altınsız portföy olmaz", döviz nakit taşımak enflasyona karşı erir, "her düşüş alım fırsatı değildir" uyarısı.
+- URA (nükleer/uranyum) fonu çok oynak ama AI'nın enerji ihtiyacı teması geçerli görülüyor.
+
+#### 2. Emrah Lafçı (Integral Forex TV) — Strateji Masası (21 Ağustos çekimi)
+- Ana tez: "Asıl risk yatırım yapmamak." Altın klasik "güvenli liman" değil, dolara/finansal sisteme güvensizliğin alternatifi.
+- Altının destekleyicisi: ABD borç yükü + 2022 Rusya varlık dondurma hikayesi → Rusya, Çin, Türkiye, Polonya merkez bankası altın alımları hızlandı.
+- AI/teknoloji: Nvidia, TSMC, ASML, Samsung/SK Hynix/Micron'da güç yoğunlaşması ("K tipi ekonomi") — hem fırsat hem risk. Şu anki rallinin 2000 dot-com balonuna benzemediğini düşünüyor (bilançolar gerçek temel gösteriyor).
+- Türkiye/seçim: 2028 Nisan'dan önce seçim beklemiyor.
+- Faiz: Politika faizi 37, işlek faiz 40. "40'tan 37'ye gelir ama altına inmez" — istisna: Brent kalıcı 80$ altına inerse indirim ihtimali artar (şu an 93$).
+- BIST ucuz değil (%45-50 bileşik risksiz getiri var); seçici hisse (TÜPRAŞ, ASTOR, ASELSAN) öneriyor.
+- Kendi portföyü: TL ağırlık (faiz/para piyasası/mevduat/katılım), küçük BIST payı, döviz cinsi altın+teknoloji.
+
+#### 3. Onur Duygu (ForInvest) — SPK Fon Düzenlemesi
+- Düzenleme taslağı: para piyasası fonlarında teminatsız borç verme Takasbank teminatına bağlanacak; serbest fonlarda tek hisseye yoğunlaşma sınırlanacak.
+- Risk: bazı para piyasası fonları %48-49 getiriyor (politika faizi 37 iken) — gizli risk alarak sağlanıyor. Geçen Kasım bir PYŞ'nin 2 fonunda ~20 gün ödenmeme yaşanmış. Düzenleme sonrası getiriler ~41-42'ye "törpülenecek".
+- Borsa etkisi: para küçük/yan kağıtlardan BIST 30/100'ün büyük kağıtlarına kayabilir.
+- Makro: Ağustos'u "pivot ay" görüyor. Negatif: ABD-İran/Hürmüz, petrol 90$ üzeri, İngiltere/Japonya/Avrupa enflasyonu yükseliyor. Pozitif: altın-gümüş petrolle bağını koparıp hızlı yükseldi.
+- Altın: yıl sonuna kadar yeni alım için "hayır" (~4400-4500'den 4800 hedefi, %10-20), uzun vadeli biriktirme için "evet". Portföyde %10-15 altın/gümüş öneriyor.
+- Genel: yeni başlayana para piyasası fonuyla başlaması, en az 3-6 ay sabır, fon işlemlerini 13:30'dan önce yapma tavsiyesi. Dengeli portföy: %40-50 para piyasası, %10-15 altın/gümüş, kalan hisse.
+
+#### 4. Emrah Altınocağı — Değerleme Metodolojisi
+- Temel tez: ucuz/pahalı geçmiş fiyata göre değil "payda"ya (neyle ölçtüğüne) göre değişir.
+- S&P değerleme okumaları: Buffett göstergesi %240 (eşik %200, pahalı); F/K 29 (pahalı); CAPE 41-42,5 (pahalı, 150 yıllık ortalama 17); risk primi -1,28 (aşırı pahalı ama gösterge yanıltıcı olabiliyor); altına bölündüğünde S&P 2000 zirvesinin üçte birinde — bu ölçüye göre ucuz.
+- Kendi tezi: piyasalar geleceğin para arzını fiyatlar. ABD 40 trilyon $ borç, bu yılki faiz ödemesi 1 trilyon $'ı geçti, küresel devlet borcu ~110 trilyon $ → para arzı artışı "mecburiyet" → borsa/altın/gayrimenkul birkaç yıllık ufukta hâlâ ucuz, ama kısa vadede sert düşüşler olabilir.
+
+#### 5. Prof. Dr. Daron Acemoğlu (Bloomberg HT) — Liberal Demokrasi ve Teknoloji
+- Finansal değil, makro-politik/sosyolojik içerik. Tez: liberal demokrasi krizde, gelir dağılımı 80'lerden beri bozuluyor.
+- Sosyal medya/algoritma eleştirisi: en kışkırtıcı içerik öne çıkıyor çünkü etkileşim=para.
+- "İşçi yanlısı AI" kavramı: AI çalışanları yerinden etmek yerine üretken kılmalı; şu anki büyük teknoloji firmalarının bu yönde gitmediğini düşünüyor.
+
+#### 6. Doruk İşmen — "Ethereum 250 Bin Dolar Olabilir Mi?" (Etherealize raporu yorumu)
+- Raporun tezi (yanlı kaynak — EF/kurumsal yatırımcı köprüsü misyonuyla kurulmuş): altın+Bitcoin'in toplam "parasal primi" ~31 trilyon $ / 121 milyon ETH = 250.000$ (fiyat hedefi değil, teorik tavan).
+- Net issuance ~%0,8/yıl. Menger'in 6 para kriteri + sansüre dayanıklılık: ETH 7'sinde altın/BTC'yi geçiyor iddiası, sadece "köklü tarih"te geride.
+- DeFi/RWA argümanı: 2025'te ETH'de 18,8 trilyon $ stablecoin hareketi.
+- **Doruk'un kendi eleştirisi:** kaynak yanlı, 250.000$ aşırı senaryo, Lindy etkisi hafife alınıyor, "sıfır karşı taraf riski" iddiası zayıf (çoğu kullanıcı Lido/Coinbase/Binance üzerinden stake ediyor), EF liderlik/hazine yönetimi zayıf.
+- **Kendi sonucu:** gerçekçi 5-10 yıllık senaryo ~62.500-125.000$ (bugünkü ~2.400$'dan 25-50 kat). BTC'nin 2030 sonrası güvenlik bütçesi sorununu çözülmemiş risk olarak not ediyor.
+
+#### 7. Doruk İşmen — "Neden İzinsiz Altyapı Hep Kazanır" (Ethereum'un Asıl Hikayesi)
+- Ana argüman: açık/izinsiz altyapı uzun vadede kapalı/kurumsal alternatifleri hep yener (1995 özel kurumsal ağlar vs internet; Unix vs Linux paralelleri).
+- Konsorsiyum blok zinciri "mezarlığı": We.Trade, Marco Polo, Contour, Avustralya Borsası projesi — hepsi kapandı. Ethereum 10+ yıldır çökmedi.
+- Asıl tez — "egemenlik": Coinbase/Robinhood kendi L1'leri yerine Ethereum üzerine L2 kurdu; BlackRock/JPMorgan tokenize fonlarını Ethereum'da başlattı. Token Terminal 2026 Ç1: Ethereum'da DeFi kredilerinin %79'u, stablecoinlerin %62'si, tokenize fonların %73'ü, tokenize RWA'ların %84'ü.
+- Sonuç: kazanan strateji izinsiz altyapıyla rekabet etmek değil üstüne inşa etmek.
+
+**ÇAPRAZ BAĞLANTILAR (7 video):** Video 1&3: SPK Fon Rehberi her ikisinde de geçiyor. Video 2&5: Lafçı, Acemoğlu'nun kitabını okuduğunu belirtiyor. Video 6&7: aynı yazar (Doruk İşmen), fiyat (6) ve yapısal/tarihsel (7) ayaklar. **Video 6-7 vs Ida'nın duruşu:** Ida'nın ETH hedefi ~10.000$; Doruk'un gerçekçi senaryosu ~62.500-125.000$ — çok daha agresif, karşılaştırılırken bu fark netleştirilmeli.
+
+---
+
+### B. 24-25 Ağustos 2026 — Ek Dış Analist Video Notları (6 video)
+
+#### 8. Tunç Şatıroğlu (Kanal Finans) — "Altın ve Gümüşte Son Uyarı"
+- Jeopolitik: Scott Bessent bugün İran'a yaptırımları artıracağını açıklayacak; ticarete devam eden ülkelere (Türkiye dahil) yaptırım riski. BAE İran'la tüm ticareti kesti. Hürmüz "kapalı" dense de AIS kapatılarak savaş öncesi seviyenin %25'i kadar tanker geçiyor; Brent %1,8 düşüşte.
+- Risk senaryosu: İran seçimlere yakın (Eylül-Ekim) büyük saldırı riski — gerçekleşirse petrol sıçraması, Türkiye için kötü.
+- BIST: "yükselişler satış fırsatı" tezi. Süper trend seviyesi **14.300** — altında 2-3 saat kalırsa yükseliş bitmiş sayılır.
+- Kripto (4H zarar-kes): **BTC 75.350$**, **ETH 2.370$**, **XRP 1,0$**. Yön yukarı, "devam/alınabilir".
+- Altın: aşırı alım bölgesi (Williams %R), **4.750 direnç**. Zarar-kes yok, "tutun". **Yarın (26 Ağustos) SON alım fırsatı — sonrasında yeni alım önermeyecek**, ay sonuna kadar yükseliş, sonraki hafta düzeltme bekliyor.
+- Gümüş: aynı yön, aynı "yarın son alım" notu.
+- ABD borsaları: Nasdaq/S&P500 hareketli ortalama altında, yeni alım yok, aşırı satımda toparlanma "beklenebilir" (net tavsiye değil).
+- Uzay/teknoloji (yeni alım YOK, sadece mevcut pozisyon zarar-kes): SMH 572 üzeri geçmeden alım yok; IGV zarar-kes 101 üzerinde (tek istisna, alınabilir); DRAM ETF 5.550 altına indi, satışa döndü; SpaceX zarar-kesin üzerinde, alınabilir (halka arz 135$, hedef 250-300$); Rocket Lab satışa dönmüş; ASD satışa dönmüş; Intuitive Machines zarar-kes altında. Küçük oyunculara (Firefly, Intuitive Machines, Planetary) %100+ potansiyel, büyükler (Rocket Lab, ASD) tavan bulmuş olabilir.
+
+#### 9. Turhan Bozkurt (Ailenizin Ekonomi Kanalı) — "Dolar öyle bir artacak ki! Altında bunu konuşuyorlar" (24 Ağustos)
+- Akaryakıt: hafta sonu motorine ~3 TL, benzine 2,74 TL zam (İstanbul Avrupa yakası benzin 74,28 TL, motorin 83 TL). 1 Eylül'den itibaren ÖTV indirim kuralı kalkıyor → ek 2 TL üzeri zam, motorin 100 TL eşiğine yıl sonundan önce gelebilir.
+- TCMB: politika faizi %40→%37 (300 bp), haftalık repoya dönüş. Mevduatta anında -300 bp. Beklenti: Eylül'de +100-150 bp, Ekim'de yine, Aralık'ta yine — **yıl sonu %33-34 altına inmeyecek**.
+- **Tez: saraydan (Erdoğan→Cevdet Yılmaz) "doların önünü açın" talimatı — hedef kur 53-55, hatta 55-60 TL bandı, "kademeli devalüasyonun ilk dalgası".** Reel sektör döviz açığı Haziran'da -206 milyar $'a ulaşmış.
+- Dolar/TL: döviz mevduatı (TDH) 14 Ağu 2026'da 257 milyar $'ı geçti (2023: 208 milyar, 2025: 233 milyar). **Video anı kurlar: Dolar 48 TL üzeri, Euro 56,17 TL, Sterlin 65,62 TL, İsviçre Frangı 60 TL eşiği, DXY 98,85.** Beklenti: yıl sonu dolar **60-65 TL**; ötelenirse "bir gecede 100-150 TL" riski.
+- BIST: **BIST100 14.528**, 14.500 üzeri "kırılgan", 13.900 "ince buz tabakası". "Yükselişler kâr satışı" — bu yıl nominal %30 üzeri çıkışa izin verilmeyecek, en iyimser 15.000-16.000. Zorlu Grubu/Vestel Elektronik örneği: 2026 ilk 6 ay hasılat %48 düşüş, net zarar -9,74 milyar TL, grup borcu ~200 milyar TL'ye yaklaşmış.
+- Konut kredisi: şu an önermiyor, ~35 ay (~3 yıl) beklemekte fayda var.
+- Altın: Warren Buffett vasiyeti referansı (nakdin %90'ı S&P500, %10'u kısa vadeli tahvil). **4 büyük banka 2026 sonu hedefi: Wells Fargo 5.400-5.600$, Morgan Stanley 5.000$, UBS 5.000$, Goldman Sachs 4.900$.** Video anı spot **4.672$**, dirençler 4.685/4.707/4.730/4.754/4.812/4.890/4.925/4.955$, destekler 4.520/4.440. **Gram altın 7.250 TL**, çeyrek 12.100 TL. Banka makasları: Ziraat 143 TL (en düşük) — Garanti BBVA 260 TL (en yüksek). Yastık altı vergi riski eleştirisi. Thomas Kaplan (Electrum Group) alıntısı: çok uzun vadede altın onsu 30.000-50.000$.
+- Gümüş: video anı **69,38$**, 63$ dip tahkim ediliyor, 71$ kırılırsa 77-81$'a hızlı ralli. Esas rallinin 2027'ye saklandığı görüşü. Gram gümüş 107 TL, altın/gümüş rasyosu 67.
+
+#### 10. Prof. Dr. Erhan Aslanoğlu (Mesele Ekonomi/Semih Soruyor) — "Faiz İndirimleri Başladı!" — spesifik fiyat seviyesi YOK, sadece makro
+- TCMB kararını esasen **kur yönetimi hamlesi** olarak yorumluyor (TL'nin aşırı değerlenmesi/rekabet kaybı şikayetlerine yanıt). "Erken davranıldı" — enflasyon mücadelesinden bir ölçüde vazgeçip büyüme lehine tercih diyor.
+- **Kritik veri: hanehalkı 12 ay sonrası enflasyon beklentisi %45 → politika faizi %37 iken ≈ -%8 reel faiz.** Negatif reel faiz → insanlar tüketime/borsaya/kriptoya/altına yönelir (servet etkisi), enflasyonu besler.
+- **10 Eylül PPK beklentisi — Bozkurt'tan (madde 9) FARKLI:** Aslanoğlu %37'de bir süre "oturma" bekliyor, asıl indirimin Ekim'de geleceğini düşünüyor.
+- Jeopolitik: İran petrol ihracatının %90-95'i Çin'e gidiyor — ABD yaptırımının Çin'i kapsayıp kapsamayacağı kritik. Türkiye ekonomisinin ana sürükleyicisinin kendi iç dinamikleri olduğunu vurguluyor.
+
+#### 11. Melis Hazal Karagöz / Murat Sağman / Ali Perşembe (Integral Forex TV) — "Baskı Arttı, 'Örtülü Faiz İndirimi' Geldi" (24 Ağustos, saat 12)
+- TCMB adımını "örtülü faiz indirimi" (1 Mart'taki örtülü artışın tersi) olarak okuyorlar. Video anı TL repo faizi ~38-38,5, birkaç gün içinde 37'ye inecek. Zamanlama "baskı"ya (reel sektör/sanayi sesleri) bağlanıyor.
+- Reel sektörün kendi 12-ay enflasyon beklentisi: **%32-33** (OVP'nin %15 varsayımına "böyle bir şey olmaz" tepkisi).
+- BIST: %1 yukarı ama sadece bankacılık (~%4) ve GYO (~%3) yükseliyor (NIM genişleme beklentisi); genele yayılması için 3 Eylül enflasyonu ve 10 Eylül PPK izlenmeli.
+- ABD borç: hazine borcu **40 trilyon $** (10 yılda 2 katına çıktı), faiz ödemeleri vergi gelirinin **%20'sine** çıktı (tarihte sadece 1910 ve 1940'ta görülmüş). AI-capex 2026 ilk 7 ayda **~220 milyar $** (geçen yıl aynı dönem ~12,5 milyar $ — ~18 kat artış), büyük ölçüde tahvil ihracıyla finanse. Amazon 25 milyar $ tahvil ihracı, hazine tahvillerinin 50-60 bp üzerinde borçlandı.
+- **Altın yıl sonu hedefi: 4.900-5.000$ bandı** (Perşembe ayrıca 4.800$ ara hedef de söylüyor). Volatilite uyarısı: yükselişe katılamamış kurumsal kesimin düzeltme beklediği, stop çalıştırma riski var.
+- Gümüş potansiyel hedef: **74-75$**.
+
+#### 12. Bloomberg HT "Küresel Piyasalar" (Aysun Karayel, Tufan Cömert, Çağlar Kuzlukoğlu, Ceren Dilekçi) — 24 Ağustos 2026, canlı fiyatlarla
+- **24 Ağustos kapanış/an fiyatları:** BIST100 **14.501**; EUR/USD **1,1163**; Dow +%0,29, S&P500 -%0,79, Nasdaq -%0,76; ABD 10Y **%4,69**, 5Y %4,40, 2Y %4,23; **Altın 4.638$** (+%0,78); **Gümüş 68,54$** (-%0,64); **Bitcoin 78.943$** (+~%2, aynı gün web kontrolümdeki ~78.922$ ile örtüşüyor); Brent **92,9$**, WTI **85,2$**; VİOP30 **16.841**.
+- Avrupa doğalgaz: kış öncesi stok doluluğu %62 (2009'dan beri en düşük), vadeli kontrat 69 €/MWh'a çıktı. Goldman Sachs: Aralık'ta 100 €/MWh üzeri gerekebilir.
+- Tufan Cömert (TCMB): kararın iletişim/şeffaflık eksikliğini eleştiriyor; en makul gerekçe olarak reel sektörün finansal sıkıntılarına (konkordato, kredi limitleri) önden tedbir ihtimalini görüyor ama "kafam karışık" diyor. **Goldman'ın "TL'de hızlı değer kaybı riski arttı" görüşüne katılmıyor** — bu, Bozkurt'un (madde 9) agresif devalüasyon teziyle DOĞRUDAN ÇELİŞİYOR.
+- **TCMB resmi anket (24 Ağustos, Ağustos verisi):** 12 ay enflasyon beklentisi — piyasa %23,69 (geriledi), reel sektör **%32,80** (yükseldi), hane halkı **%45,58** (yükseldi — Aslanoğlu'nun madde 10'daki %45 rakamıyla birebir örtüşüyor). **12 ay sonrası dolar beklentisi: 54,47 TL** (Bozkurt'un 53-60 TL bandıyla örtüşüyor). "Altın alırım" diyenler %41,3 (1. sırada).
+- **Reel sektör net döviz açığı (Haziran, TCMB resmi): 205,76 milyar $** — Bozkurt'un -206 milyar $ rakamıyla neredeyse birebir aynı, çapraz teyitli.
+- Aysun Karayel: Nvidia (Çarşamba) ve Jackson Hole (Cuma) haftanın kritik olayları; Nvidia/Marvell Technology "top pick"; DRAM çip fiyatları %15+ arttı.
+- **Aysun Karayel'in altın hedefi: en yakın kritik seviye 4.650$ — üzerinde çoklu gün kapanışı olursa 4.865$'e yol açık; "dolar zayıflığı" teması benimsenirse 4.900$ hızlı aşılabilir → net yıl sonu beklentisi ~4.900$.** (Madde 9 ve 11'deki 4.900-5.600$ bandıyla üçüncü bağımsız kaynak olarak örtüşüyor.)
+- ABD 10 yıllık tahvil faizinin %5'e doğru yükseleceği görüşü; Türk şirketi Eurobond kuponlarının %9-10'a çıkabileceği riski.
+
+#### 13. Sellcoin (11_DIS_KAYNAKLAR.md'de listeli analist — kendi "Otoline" indikatörü, OKExTR sponsorlu) — 24 Ağustos 2026
+- Tez: geçen hafta ABD teknoloji/yarı iletken hisselerinden çıkan para altın/gümüş/kriptoya kaydı ("19 yılın en büyük servet göçü"). 1 haftalık: Altın 3 ay zirvesi, **BTC +%23**, **XRP +%40-50**.
+- Bağladığı sebep: ABD borcu 40 trilyon $'ı aştı, Hazine tahvil geri alımını **2 milyar $'dan 4 milyar $'a çıkardı** — Fed (sabit/artış eğilimi) ile Hazine (faiz düşürücü) arasında çelişki. ABD 30Y tahvil faizi 2007'den beri en yüksek.
+- Bu haftanın 3 gündemi: bugün İran yaptırımı, Çarşamba AI bilançosu (Nvidia), Cuma Fed Başkanı ("Kevin Wars/Warsh") açıklaması.
+- Walmart bilançosu (geçen Perşembe): rakamlar iyi ama hisse %9 düştü (2020'den beri en yavaş büyüme) — tüketici uyarı sinyali.
+- TCMB haftalık repo dönüşünü "likidite ayar sinyali" okuyor, faizde %2,5-3 puan daha aşağı zemin görüyor. TL'nin "avantajlı konuma" geçtiğini düşünüyor (hızlı değer kaybı değil, ölçülü bir görüş — Bozkurt'tan daha yumuşak).
+- Altın: **4.363$ aşıldı, 4.757$ direnç bölgesine doğru hareket.** Gram altın: 6.600 TL aşıldı, **7.700 TL'ye kadar yol açık**. (Not: bir noktada "altında 69 dolar direnci" deniyor, bu muhtemelen gümüşle karışmış, net değil.)
+- Gümüş: 69$ aşılırsa **75-80$'a hızlı hareket**. Gram gümüş direnç 110 TL.
+- Kripto (kaldıraçsız bağlamda konuşuyor): **BTC** lokal tepe 82.000$ → aşılırsa **90.000$ ve üstü**, destek 74.000-74.500$. **ETH** 2.400$ üzerine tırmandı, **2.500$'dan 3.500$'a** hareket bekliyor. **XRP** 1,70$'a tırmandı, sonraki eşik **1,80$**. **LINK** trend kırılımı sonrası **15$ bölgesi**. SOL diğerlerine göre geride. Not: XRP/SOL/LINK Ida'nın portföyünde yok (o sadece BTC/ETH tutuyor, spot, kaldıraçsız) — bilgi amaçlı.
+
+---
+
+### C. YAKINSAMA / ÇELİŞKİ NOTLARI (13 videonun tamamı için)
+
+**Yakınsayan (birden fazla bağımsız kaynaktan teyitli):**
+- Altın yıl sonu hedefi ~4.900-5.000$ bandında ÜÇ ayrı kaynak: Bozkurt'un banka anketi (4.900-5.600$), Integral panel (4.900-5.000$), Bloomberg/Aysun Karayel (~4.900$). Sellcoin de aynı yükseliş yönünü teyit ediyor (4.757$ kısa vadeli direnç).
+- Reel sektör döviz açığı: Bozkurt -206 milyar $ ≈ TCMB resmi -205,76 milyar $ (Haziran 2026).
+- 12 ay dolar beklentisi: Bozkurt'un 53-60 TL bandı ≈ TCMB resmi anket 54,47 TL.
+- Hane halkı enflasyon beklentisi %45: Aslanoğlu ve TCMB resmi anket (%45,58) birebir örtüşüyor.
+- ABD borç/tahvil gerilimi teması: Integral (40 trilyon $, AI-capex) ve Sellcoin (Hazine'nin tahvil alımını 2→4 milyar $'a çıkarması) aynı hikayenin farklı taraflarına değiniyor.
+- Bessent'in İran yaptırım açıklaması: Şatıroğlu, Integral, Bloomberg, Sellcoin — hepsi aynı gün (24 Ağustos akşamı) beklenen bu açıklamaya değiniyor.
+
+**Çelişen (analistler arası görüş ayrılığı — karıştırılmamalı):**
+- 10 Eylül PPK'da gerçek indirim olur mu: Bozkurt "evet, devam eder" / Aslanoğlu "hayır, Ekim'e kadar oturur" / Integral panel "beklemiyoruz ama 100 bp gelirse şaşırtmaz".
+- TL'nin kısa vadeli yönü: Bozkurt "hızlı devalüasyon riski, 60-65 TL yıl sonu" / Bloomberg-Tufan Cömert "Goldman'ın görüşüne katılmıyorum, TCMB duruşu sıkı kalmaya devam ediyor" / Sellcoin "avantajlı konum ama hızlı değer kaybı değil" (üçüncü, ölçülü görüş).
