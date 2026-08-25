@@ -1790,3 +1790,45 @@ regresyon için ekonomikocu taraması bir kez çalıştırılmalı.
   (giriş 44,25), BTC spot +%21,73, BTC ve SOL grid botları.
 - **Yöntem farkı notu:** Efloud 3x kaldıraç + grid bot kullanıyor; Ida spot/kaldıraçsız
   BTC-ETH tutuyor. Seviyeler alınabilir, pozisyon kurulumu birebir taklit edilmemeli.
+
+### 2026-08-25 (ek) — @Efloud arşivi EKSİK: 93 olması gerekirken 37. Yarım kalan iş.
+
+**Bulgu:** Tarama bittikten sonra X araması ile bağımsız doğrulama yapıldı
+(`from:efloud since:2026-08-18 until:2026-08-26`, 35 scroll):
+- X'te görülen efloud tweet id: **104**
+- jsonl'de olan: **37**
+- Eksik 67'nin sınıflandırması (tweet_id snowflake'inden tarih türetilerek):
+  - **56 = pencere içi GERÇEK EKSİK**
+  - 11 = pencere öncesi (Efloud'un kendi alıntıladığı eski analizler, normal)
+  - 0 = taramadan sonra atılmış
+- Yani `efloud/cekilen_tweetler.jsonl` **%40 dolu**; `efloud_analiz_2026-08-25.md`
+  raporu bu eksik veri üzerine kurulu. **Rapordaki "Kapsam: istenen pencere tam
+  karşılandı" satırı YANLIŞ.**
+
+**Sebep:** Arama akışı tarayıcıda sürekli çöküyor (`/explore` tuzağı + rate-limit
+backoff). Tarayıcı "ekranda: 0-5" görüp doyuma ulaştığını sanıyor.
+
+**Denenen çözüm ve NEDEN BAŞARISIZ OLDU (tekrar denenmesin):**
+Eksik 56 tweet status sayfalarından toplanmaya çalışıldı (`/tmp/efloud_eksik_topla.py`).
+- 1. deneme: `pg.query_selector('article')` ile ilk article alındı → **46 kaydın
+  tarihi/metni/görseli YANLIŞ tweet'e ait çıktı.** Status sayfasında ilk article
+  çoğu zaman alıntılanan/üst tweet oluyor.
+- 2. deneme: "kendi permalink'ini içeren article'ı seç" + snowflake tarih doğrulaması
+  eklendi. **Düzeltme dosyaya yazılmadı** (script içinde doğrulama bloğu yok, 0 red
+  verdi) ve aynı 46 hatalı kayıt tekrar üretildi.
+- **Her iki denemede de kayıtlar `git checkout` + `git clean` ile geri alındı.**
+  Arşiv commit'teki temiz hâlinde: **37 tweet / 32 görsel, tarih sapması 0.**
+
+**Doğrulama yöntemi (çalışıyor, saklanmalı):** Tweet id'si snowflake'tir:
+`((id >> 22) + 1288834974657)` → ms epoch UTC. Kayıttaki `datetime` alanı **UTC+3**.
+Eski 37 kaydın tamamı bu kontrolden geçiyor (0 sapma) → tarayıcının kendi kayıtları
+güvenilir. 15 dk'dan fazla sapma = yanlış article'dan okunmuş demektir.
+
+**YARIM KALAN İŞ (sonraki oturum):**
+1. Eksik 56 tweet'i topla. Status sayfasında **doğru article'ı** seçmenin güvenilir
+   yolu bulunmalı — odaklanılan tweet'in permalink linki sayfada olmayabilir.
+   Alternatif: `article` listesinde `[data-testid="tweetText"]` içeren VE
+   `time` elementi snowflake ile uyuşan article'ı seç; uyuşmuyorsa kaydı REDDET.
+2. Toplanan kayıtların görselleri indirildikten sonra **tek tek okunup**
+   `efloud/efloud_analiz_2026-08-25.md` güncellenmeli.
+3. Raporun "6. VERİ KALİTESİ" bölümündeki kapsam iddiası düzeltilmeli.
