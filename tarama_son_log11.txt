@@ -1,0 +1,63 @@
+[23:28:01] OK — aktif hesap @420cryptofarmer. Tarama serbest.
+[tara_guvenli] hesap=@ekonomikocu | calistiriliyor: tara_guncel_yeni.py 
+Hesap: @ekonomikocu | veri koku: C:\Users\ida\Desktop\ekonomikocu
+En yeni kayit: 2026-08-24T23:48:11
+Stop-before (buraya gelince dur): 21 Aðu
+Baslangic: 7150 tweet | 144 alinti | 1863 flood-parca
+
+Mevcut jsonl: 7150 tweet | alinTi tam: 132 | bekleyen alinti: 12
+Senin Chrome'una baglandi (port 9222).
+Profil yuklenmiyor — arama akisina geciliyor...
+Scroll 1/120: toplam 7150 tweet (+0 yeni) | ekranda: 3 | alinti: 144 | en eski: 2019-11-28 20:04:04
+Scroll 2/120: toplam 7150 tweet (+0 yeni) | ekranda: 13 | alinti: 144 | en eski: 2019-11-28 20:04:04
+Durduruldu (bu oturumda gorulen en eski 2026-07-30, hedef 2026-08-21, 1 scroll'dur yeni tweet yok)
+Asama: #FLOOD thread parcalari...
+  >> #FLOOD zaten JSON'dan toplanmis — atlandi: 2082792922164965564
+  >> goto engellendi: https://x.com/home
+Asama 2: alintilar (tek sekme, ekonomikocu/status)...
+Asama 2 tur 1: 12 alinti bekliyor... (navigasyon 0/20)
+  >> Alinti 2077481208552849453 — sadece ekonomikocu/status/2090901704841515062
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2076065170099417470 — sadece ekonomikocu/status/2076084781654188345
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2071744148168684011 — sadece ekonomikocu/status/2071895381311369285
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2070540087239250088 — sadece ekonomikocu/status/2070626864171819077
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2046329630873747618 — sadece ekonomikocu/status/2045587086695391351
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2045587086695391351 — sadece ekonomikocu/status/2046329630873747618
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2038986156075872628 — sadece ekonomikocu/status/2039050447420326027
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 1875571495164113292 — sadece ekonomikocu/status/1875548019430658062
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 1875548019430658062 — sadece ekonomikocu/status/1875571495164113292
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Bu turda ziyaret: 12 | kalan: 12
+  >> Ilerleme yok — kalanlar isaretleniyor.
+  >> goto engellendi: https://x.com/home
+Asama: eksik grafikler (medya/)...
+  >> DISKE YAZILDI: 7150 tweet -> cekilen_tweetler.jsonl
+
+=== ASIL DOSYA: C:\Users\ida\Desktop\ekonomikocu\cekilen_tweetler.jsonl ===
+Toplam: 7150 | Ingilizce(kirli): 0
+Hafiza atlandi (--skip-hafiza). JSONL kaydedildi.
+
+=== Alinti turu 1/1 ===
+Bekleyen alinti: 12
+Chrome CDP (port 9222)
+Asama 2 tur 1: 12 alinti bekliyor... (navigasyon 0/20)
+  >> Alinti 2077481208552849453 — sadece ekonomikocu/status/2090901704841515062
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2076065170099417470 — sadece ekonomikocu/status/2076084781654188345
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2071744148168684011 — sadece ekonomikocu/status/2071895381311369285
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2070540087239250088 — sadece ekonomikocu/status/2070626864171819077
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2046329630873747618 — sadece ekonomikocu/status/2045587086695391351
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2045587086695391351 — sadece ekonomikocu/status/2046329630873747618
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2038986156075872628 — sadece ekonomikocu/status/2039050447420326027
