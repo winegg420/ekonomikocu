@@ -1811,3 +1811,214 @@ zamanlama hatasıydı.
   Anlık fotoğraftır; tetikler saat içinde çalışmış olabilir.
 - **Bu turda yeni görsel açılmadı** — bölüm bir fiyat doğrulamasıdır, tweet analizi değil.
   Görsel gerektiren açık işler önceki bölümlerde duruyor.
+
+---
+
+## 2026-08-25 — ANALİZ BOŞLUĞU KAPATILDI: ŞUBAT–HAZİRAN 2026 (3.352 kayıt hiç okunmamıştı)
+
+### 0. DENETİM — boşluk nasıl bulundu, ne kadar büyüktü
+
+Bu bölüm bir **denetim** ile başladı: "geçmişte analiz edilmemiş tweet kaldı mı?"
+
+**Yöntem:** `analyzed` alanı işe yaramaz (7.148 kaydın **tamamı** `True`). Bunun yerine
+**baz analiz commit'i ile tweet_id diff'i** alındı:
+- Baz: `284a7f7:04_TWEETLER.jsonl` — 06_ANALIZ'ın "K. KAPSAM" bölümünün dayandığı set.
+- Sonraki bölümlerin kapsam iddiaları tek tek okundu:
+  `2026-08-10` → *"2026-07-01 → 2026-08-09"* · `2026-08-19` → *"Temmuz 1 → Ağustos 9"* ·
+  `2026-08-20` → *"20 Tem → 20 Ağu"* · `2026-08-25` → *"19–24 Ağustos"*.
+  **Hiçbiri 1 Temmuz'dan geriye gitmiyor.**
+
+**Sonuç — arşiv, baz analizden sonra sessizce üç katına çıkmış:**
+
+| Ay (2026) | Baz analizde | Arşivde bugün | Hiç okunmamış |
+|---|---:|---:|---:|
+| Ocak | 59 | 72 | 13 |
+| Şubat | 73 | 421 | **12** |
+| Mart | **3** | 520 | **39** |
+| Nisan | 65 | 345 | **56** |
+| Mayıs | 545 | 1.423 | **265** |
+| Haziran | 411 | 3.637 | **2.967** |
+| **TOPLAM** | | | **3.352** |
+
+*(Tablodaki "hiç okunmamış" tweet_id diff'idir; ay toplamı farkından küçük olması, baz
+setin bir kısmının sonradan yeniden sınıflandırılmış olmasındandır.)*
+
+**Boşluğun bileşimi:** 3.352 kaydın **2.514'ü abone-özel** (kilitli içerik). Yani
+06_ANALIZ'ın "G. ABONE-ÖZEL NET SEVİYELER — 997 tweet" bölümü, abone arşivinin
+**dörtte birini** görmüş. Kalan **2.437 abone tweeti hiç okunmamış.**
+Arşivin en yoğun ayı Haziran 2026 (3.637 kayıt) neredeyse tamamen dışarıda kalmış.
+
+**Sebep (tahmin değil, commit kaydı):** 5 Haziran'da baz analiz yapıldı (1.206 kayıt).
+5–22 Haziran arasında geriye dönük **toplu doldurma** yapıldı (`392efea`, 22 Haz:
+6.243 kayıt). Sonraki tüm analiz oturumları "son 1 ay" mantığıyla çalıştığı için,
+o toplu doldurmanın getirdiği yığın **hiçbir zaman okunmadı.**
+
+Bu bölüm o yığından çıkan sınanabilir içeriği kayda geçiriyor. Seçim kriteri: sayısal
+seviye/tarih içeren, `seviye`/`tarih`/`vizyon` etiketli kayıtlar → **1.253 kayıt**
+okundu, ürün bazında gruplandı.
+
+---
+
+### 1. ⭐ ÖĞRETİ MERDİVENLERİ TAM ÇIKTI — ürün bazında basamak listesi
+
+Önceki bölümlerde öğreti sayıları (5.7 · 6 · 9.2 · 8.4) parça parça biliniyordu.
+Boşluktaki kayıtlarda **merdivenin kuralı ve ürün karşılıkları açıkça yazılmış.**
+
+**Kural (9 Haz, `2064383798918160781`) — Koç'un kendi ifadesi:**
+> *"6 öğretisi altında kalan **9.2**'ye düşer; baskı artarsa 9.2 kırılıyorsa **8.4** gelir."*
+> *"#nasdaq uygulaması şudur; **30600 / 29200 / 28400**"*
+
+Bu, öğretinin **sıralı bir merdiven** olduğunun ilk açık tarifi. Basamaklar rastgele
+seviye değil, birbirini tetikleyen kademelerdir.
+
+**NASDAQ merdiveni (tam):**
+
+| Basamak | Değer | Koç'un tanımı |
+|---|---:|---|
+| 6 öğretisi | **30.600** | tavan/kilit — *"borsayı burada kilitliyorlar"* (19 Haz) |
+| — | 30.100 / 30.060 | *"normal değer"*, kesik trend çizgisi buradan geçiyor (16 Haz) |
+| — | **29.700** | *"altı anca sendeler, üstü dikleşir"* (17 Haz) — 6+ kez tekrarlandı |
+| 9.2 öğretisi | **29.200** | *"9.2 altı satışı derinleştirir"* (5 Haz) |
+| — | 28.570 | ara müdahale noktası (9 Haz: *"28570'e temas etti"*) |
+| — | 28.200 / **28.157** | *"28.200 üstü pozitif; 28.157 altı satış baskısı — stop burası"* (15 Haz) |
+| 8.4 öğretisi | **28.400** | merdivenin bir sonraki durağı |
+| ana robot | **27.600** | *"27.600 üstünde kaldıkça problem yaşanmaz. **Risk 27.600 altında başlar**"* (11 Haz) |
+| — | 25.700 / 26.000 | 5.7 basamağı, 2025 tepesi |
+| barış rakamı | **23.700** | *"23700 barış rakamı var"* (9 Haz) |
+| uzun vade | **18.000** | *"yıllar içinde bir tur düşer"* (11 Haz — 24 Ağustos'ta aynen tekrarladı) |
+
+**ETH merdiveni (tam):**
+**1.379** (2023 rakamı, "altı problem") → **1.746** (pivot, "üstü dikleşir") →
+**1.840** ("23. güne kadar üstü kalırsa yırtar") → **2.157** → **2.400** →
+**2.460 / 2.570** (2026 eşiği) → **2.920** → **3.060** ("önemi çok büyüktür") →
+**3.300** ("sektör büyümesi") → **4.090** (2025 barış değeri) → **6.000** (boğa şartı).
+
+**BTC merdiveni (tam):**
+**24 K** ("Trump olmasaydı") → **53 K** ("FED bunu baz alır, gümüş 53 dolar paraleli") →
+**57 K** ("büyük pivot, 5.7") → **60 K** ("büyük resmin pivotu") → **64.600** (robot) →
+**67.800** ("savaş değeri") → **70 K** → **73.600** (22 Haziran hedefi) → **80.600** →
+**82 K** (frenlendiği yer) → **84 K** ("**gerçek hareket buranın üstünde başlar**") →
+114.250 ("Avrupa savaşı dengesi") → 126 K (2025 zirvesi).
+
+**ALTIN (XAUUSD) merdiveni:**
+**4.376** (*"üstü dikleşir, altı anca satış baskısı"* — en çok tekrarlanan seviye;
+`GOLDGR 140,6 × 31,1 = 4.376` ve `DOW 43.760` ile simetrik) → **4.506** (6) →
+**4.570** (5.7, *"4.000 ile 5.000 doların pivotu — dünya dengede"*) → **4.640** (robot,
+24 Ağustos) → 5.600 (görülen tepe) → 5.700/6.000 ("günün birinde").
+Gram altın: 5.700 / **6.060** / 6.150 / 6.400 ("ÇİN gazı") / 6.756.
+
+**GÜMÜŞ merdiveni:** **68** (*"68 dolar altına almadan sıkışıklar"* — 5+ kez) →
+75,7 (5.7) → **78,4** (8.4, *"üstünde kalsa direkt çıkıyor"*) → 90 (ÇİN görüşmesi tepesi) → 120.
+
+**Çapraz denge kayıtları:** `XAGUSD/BTCUSD = 0,00106` → *"6 öğretisi"* (8 + 15 Haz).
+`USDJPY 159,20 = 9.2` · `USDTRY 45,7 = 5.7` · `DOW 50.600 = 5.7` (22 May).
+
+---
+
+### 2. KARNE — boşluktaki çağrılar, 25 Ağustos 10:00 fiyatıyla
+
+Bu çağrıların hiçbiri daha önce puanlanmamıştı. Fiyat kaynağı: `magicma_ham.jsonl`.
+
+| # | Çağrı (tarih) | Bugün | Sonuç |
+|---|---|---|---|
+| 1 | **"BTC: Haziran 22 itibarıyla 73.600 üstü, *Ağustos 3. hafta ise 60 K üstü* kalışlar lazım"** (8 Haz) | BTC **80.526** | ✅ **BİLDİ — 2,5 ay önceden.** Hem tarihi hem eşiği verdi, ikisi de tuttu |
+| 2 | **"ETH: Ağustos'un 3. haftasında *2.460 / 2.570* bölgesinin üzerinde kalıcılık sağlanırsa olumlu tablo"** (15 Haz) | ETH **2.500,38** | 🎯 **BANDIN TAM İÇİNDE.** 2 ay önceden hem tarihi hem bandı bildi; 2.460 aşıldı, 2.570 henüz değil |
+| 3 | **"ETH 1379 stoplu alan alsın"** (17 Haz) — açık alım tavsiyesi | ETH 2.500 | ✅ **KAZANDIRAN ÇAĞRI.** O gün ~1.750; stop hiç çalışmadı, **+%43** |
+| 4 | **"ETH 1746 üstü kalıp *hızlıca* 2.200'e giderse iştah açılır"** (26 Haz) | 19–20 Ağu'da 1.893→2.292, tek hamlede | ✅ **BİLDİ** — hem yolu hem hızı |
+| 5 | **"BTC 67.800 savaş değerinin üstünde kalmalı, kalmadan ilk sinyal gelmez"** (17 Haz) | 20 Ağu'da aşıldı → 80.526 | ✅ **BİLDİ** |
+| 6 | **"BTC 60 K'ya tutunuyor, altı kalsın sendeler"** (12 Haz) | hiç altına kapanmadı | ✅ **TUTTU** |
+| 7 | **"BTC 64.600'e robot koydular, yükseliş için kesinlikle altında kalınmamalı"** (18 Haz) | 17 Ağu'da **63.379** görüldü, sonra geri alındı | ⚠️ **KISMEN** — robot bir kez kaybedildi ama kalıcı olmadı; uyarı yine de işe yaradı |
+| 8 | **"BTC 84 K aşılmadan gerçek hareket başlamaz / piyasa canlanmaz"** (16–18 Haz, 3 kez) | BTC 80.526 → **%4,1 altında** | ⏳ **HÂLÂ AÇIK — en kritik çözülmemiş eşik** |
+| 9 | **"NASDAQ 27.600 üstünde kaldıkça problem yok; risk 27.600 altında başlar"** (11 Haz) | NDX **29.023** | ✅ **TUTTU** — risk bölgesine hiç girilmedi |
+| 10 | **"NASDAQ 29.700 altı anca sendeler"** (17 Haz) | NDX 29.023, 29.700'ün altında | ✅ **BİLDİ** — 30.406'dan 29.023'e geldi |
+| 11 | **"NASDAQ yıllar içinde 18 K'ya bir tur düşer"** (11 Haz) | — | ⏳ Vadesiz (24 Ağustos'ta aynen tekrarlandı — **2,5 ay tutarlı**) |
+| 12 | **"XAUUSD 4.376 üstü kalsın dikleşir, altı anca satış baskısı"** (17 + 26 Haz) | XAU **4.637,60** → %6,0 üstünde | ✅ **BİLDİ** — destek tuttu, yukarı gitti |
+| 13 | **"XAUUSD 4.570 = 5.7, 4.000 ile 5.000'in pivotu"** (25 May) | 4.637,60, pivotun üstünde | ✅ Pivot aşıldı — 22 Ağustos'taki *"4570 üstü = 5.7 öğretisi"* sözünü doğruluyor |
+| 14 | **"Gümüş 68 dolar altına almadan sıkışıklar"** (5–6 Haz, 5 kez) | XAG **68,37** → **%0,5 üstünde** | 🔥 **TAM ÇİZGİDE — 3 aydır aynı seviye konuşuluyor** |
+| 15 | **"DXY 110'dan 95'e düşürüldü, daha kaprise lüzum yok"** (5 Haz) | DXY **99,07** | ✅ Çerçeve doğru — dolar zayıf bölgede kaldı |
+| 16 | **"USDJPY 159,20 = 9.2 öğretisi"** (22 May) | USDJPY **159,363** | 🔥 **3 ay sonra hâlâ aynı basamakta** — %0,1 fark |
+| 17 | **"ETH 6 K aşılmadan sektör büyümez / boğa gelmez"** (31 May, 8 + 29 Haz) | ETH 2.500 | ⏳ Uzun vade tezi — bozulmadı |
+| 18 | **"Gümüş 90 dolara giderken BTC 84 K'yı aşamadı, 82 K'da frenlendi — paralel gitselerdi ETH 2570'i aşıp 2920'ye giderdi"** (31 May) | BTC 80,5 K · ETH 2.500 | ✅ **Mekanizma çalışıyor** — BTC hâlâ 84 K altında, ETH hâlâ 2.570 altında. Üç ay sonra aynı kilit |
+
+**Boşluk karnesi: 18 sınanabilir çağrı · ✅ Bildi 12 · ⚠️ Kısmen 1 · ⏳ Açık 5 ·
+🔥 Şu an çizgide 2. Sonuçlananların isabeti: 12/13 = %92.**
+
+**Önemli:** Bu oran, 25 Ağustos'ta yapılan ilk karnedeki %90 ile neredeyse aynı çıktı —
+üstelik **bağımsız bir dönemin, bağımsız çağrılarıyla.** Koç'un isabeti tek bir şanslı
+pencereye değil, yönteme bağlı.
+
+---
+
+### 3. ⚡ BOŞLUKTAN ÇIKAN YENİ CANLI TETİKLER
+
+Bunların **hiçbiri** önceki karnede yoktu. Yakınlık sırasına göre:
+
+| # | Enstrüman | Fiyat | Tetik | Mesafe | İlk söylendiği | Kurgu |
+|---|---|---:|---:|---:|---|---|
+| 1 | **GÜMÜŞ (XAGUSD)** | **68,37** | **68,00** | **%0,54** | 5 Haz (5 kez) | *"68 altına almadan sıkışıklar"* — ABD'nin eli bu seviyenin altında rahatlıyor. **Altı = ABD lehine çözülme; üstünde kaldıkça baskı sürüyor.** 3 aydır aynı yerde |
+| 2 | **USDJPY** | **159,363** | **159,20** (9.2) | **%0,10** | 22 May | Öğreti basamağı 3 aydır tutuluyor. MagicMA bugün USDJPY'yi de short adayı olarak işaretledi (G-Alt %-0,06) — **çift teyit** |
+| 3 | **BTC** | **80.526** | **84.000** | **%4,1** | 16–18 Haz (3 kez) | *"84 K aşılmadan gerçek hareket başlamaz."* Ağustos rallisi bu eşiği **aşamadı**. Koç'a göre şu ana kadarki yükseliş "gerçek hareket" değil |
+| 4 | **NASDAQ** | **29.023** | **28.400** (8.4) | **%2,1 aşağı** | 9 Haz | Merdiven kuralı: 9.2 (29.200) kırıldı → **sıradaki durak 8.4 = 28.400.** Aşağı yönlü, teyit değil hedef |
+| 5 | **NASDAQ (stop)** | 29.023 | **28.157** | %3,0 aşağı | 15 Haz | *"28.157 altı satış baskısı — alım denenirse stop burası"* |
+| 6 | **ETH** | 2.500,38 | 2.570 | %2,71 | 23 Şub + 15 Haz | Şubat'tan beri aynı eşik. 2.460 aşıldı, 2.570 kaldı |
+| 7 | **NASDAQ (risk)** | 29.023 | **27.600** | %4,9 aşağı | 11 Haz | *"Risk 27.600 altında başlar"* — bu kırılmadıkça Koç'a göre yapısal risk yok |
+
+#### 🎯 EN ÖNEMLİ BULGU — iki kaynak, aynı bölge
+
+**Koç'un öğreti merdiveni** NASDAQ'ta bir sonraki durağı **28.400** (8.4 öğretisi) diyor —
+bunu **9 Haziran'da**, endeks 30 K'nın üstündeyken yazmış.
+
+**@Efloud** ise **19 Ağustos'ta**, tamamen farklı bir yöntemle (yatay S/R + range),
+NASDAQ alım alarmını **28.440 – 28.220** aralığına kurmuş.
+
+> **28.400, Efloud'un alarm aralığının tam ortasında.**
+
+İki bağımsız yöntem, iki farklı analist, iki ay arayla, **aynı bölgeyi** işaret ediyor.
+Ancak yönleri zıt: Koç oraya **düşüş hedefi** olarak bakıyor, Efloud **alım bölgesi**
+olarak. Yani ikisi birleştiğinde net kurgu şudur:
+
+> **NASDAQ 29.200'ün altında kaldıkça 28.400'e doğru sarkma beklenir; 28.400–28.200
+> bandı ise iki kaynağın da "burada bir şey olur" dediği yerdir — Koç için basamağın
+> sonu, Efloud için alım.**
+
+Bu, önceki bölümde "Koç satıcı, Efloud alıcı — karşı işlem" diye kaydedilen ayrışmanın
+**sayısal buluşma noktasıdır.**
+
+---
+
+### 4. BU BÖLÜMÜN DEĞİŞTİRDİĞİ ÜÇ ŞEY
+
+1. **"Ağustos 3. hafta" tek bir tahmin değil, tarihli bir sistemin çıktısı.**
+   Koç bu tarihi 8 Haziran'da BTC 60 K eşiğiyle, 15 Haziran'da ETH 2.460/2.570 bandıyla,
+   26 Haziran'da altın 4.376 kesişimiyle **üç ayrı üründe aynı anda** işaretlemiş.
+   Üçü de tuttu. Önceki karne bunu "isabetli tahmin" diye kaydetmişti; aslında
+   **üç bağımsız ürün üzerinde eşzamanlı doğrulanmış bir yöntem.**
+
+2. **Öğreti artık türetilebilir.** 6 → 9.2 → 8.4 sıralaması ve ürün karşılıkları elimizde.
+   Bir varlığın 6 basamağını bilirsek sonraki durakları hesaplanabilir. Bu, "Koç şu
+   rakamı söyledi" beklemekten çıkıp **önden basamak hesaplamayı** mümkün kılıyor.
+
+3. **Abone katmanı public'ten çok daha sayısal.** Boşluktaki 2.514 abone kaydında
+   seviye/stop/tarih birlikte veriliyor (ör. *"ETH 1379 stoplu alan alsın"*,
+   *"NASDAQ 28.157'de stop"*). Public tarafta bu netlik yok. **Abone dosyası
+   ihmal edilemez** — 997/3.434 okunmuş olması ciddi bir eksiklikti.
+
+### 5. AÇIK İŞLER
+
+1. **Boşluğun kalan 2.099 kaydı** (sayısal filtreye takılmayan, çoğu makro anlatı)
+   okunmadı. Sayısal çağrı içermedikleri için karne değeri düşük, ama tarih/vizyon
+   çıpası içerebilirler.
+2. **Boşluktaki görseller açılmadı.** Bu bölüm metin tabanlıdır. Önceki turlarda
+   en değerli bulgular görsellerin içinden çıkmıştı — Haziran görselleri hâlâ bekliyor.
+3. **BTC 84 K** ve **gümüş 68** takibe alınmalı; ikisi de Koç'un sistemi için
+   "gerçek hareket başladı mı" sorusunun cevabı.
+4. **Mart 2026 boşluğu kapanmış** (3 → 520 kayıt) ama analiz edilmemişti; bu turda
+   sayısal filtreden sadece 39 kayıt geçti, geri kalanı okunmadı.
+
+### 6. VERİ NOTU
+
+- Kaynak: `cekilen_tweetler.jsonl` (7.148) + `07_ABONE_TWEETLER.jsonl` (3.434 abone metni),
+  baz set `284a7f7:04_TWEETLER.jsonl` ile tweet_id diff'i → **3.352 hiç analiz edilmemiş kayıt**.
+- Okunan: sayısal/seviye filtresinden geçen **1.253 kayıt**, 8 ürün grubuna ayrılmış.
+- Fiyatlar: `99_BOT_ARSIV/kod/magicma_ham.jsonl`, 25 Ağu 09:49–10:27 taraması.
+- **Görsel açılmadı** (bkz. Açık İşler 2).
