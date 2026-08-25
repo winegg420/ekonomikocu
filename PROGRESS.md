@@ -1743,3 +1743,50 @@ regresyon için ekonomikocu taraması bir kez çalıştırılmalı.
      çizmiyor → dokunma, zamanla düzelir.
   GRVT de 2. gruptaydı (tarama sonunda grafikte 0,2059 fiyat vardı, plotlar boştu).
   Teşhis scripti: sembolü aç, `magicma_yakinlik.oku_data(tv)` ile title + plots dök.
+
+## 2026-08-25 (oturum 2) — Üçüncü hesap: @Efloud taraması + grafik analizi
+
+### Yapılan
+- Kullanıcı isteği: @Efloud'un **son 1 haftası** taransın, **grafikler/analizler** okunup
+  destek-direnç ve işlem fırsatı çıkarılsın.
+- `--hesap Efloud --days 7` → tarih sınırlı arama modu, iki pencere (18–22, 22–26).
+  Sonuç: **37 tweet, 19 Ağu 09:49 → 25 Ağu 11:43** (istenen pencere tam kapsandı).
+- Medya: kayıtlarda 18 tweet'te `media_urls` vardı ama tarayıcı sadece 2'sini indirmişti;
+  kalanlar ayrı bir indirici ile çekildi → **27 görsel** (`efloud/medya/<tweet_id>/graf_NN.jpg`).
+- **27 görselin tamamı tek tek açıldı.** 20'si TradingView grafiği, 7'si grafik değil
+  (OKX PnL kartı / emir detayı / portföy ekranı) — ikinciler "pozisyon kanıtı" olarak raporlandı.
+- Rapor: `efloud/efloud_analiz_2026-08-25.md` — 16 sembol için destek/direnç/geçersizlik
+  tablosu, en yakın 6 işlem adayı, Efloud'un açık pozisyonları, yöntem kalıpları.
+- `hesap_denetle.py`: **TEMİZ** — efloud/ekonomikocu/iriscibre üçlüsünde tweet_id ve
+  medya çakışması yok.
+
+### Üç ayrı tuzak bulundu ve çözüldü
+1. **Chrome tek sekmeyle ölüyor.** `tweet_tara.py:471` → `close_foreign_tabs(context, None)`
+   URL'si "izinli" olmayan (`/home`, `/explore`) sekmeleri kapatıyor. Chrome'da TEK sekme
+   varsa ve o sekme /home'a kaymışsa **son sekme kapanınca Chrome komple çıkıyor**.
+   Çözüm (kod değişikliği değil, işletim kuralı): Chrome'u **iki sekmeyle** aç —
+   `about:blank` (url_allowed→True, asla kapatılmaz) + profil sekmesi.
+2. **`/explore` tuzağı — `tara_nav.py:404`.** URL'de `/explore` varsa koruma
+   **hiçbir şey yapmadan `return` ediyor**; X arama URL'sini bir kez /explore'a çevirince
+   tarayıcı 100 scroll boyunca keşfet akışını kaydırıyor, "ekranda: 3-4" görünüp
+   "toplam 0 tweet" kalıyor. Dışarıdan sekmeyi arama URL'sine geri iten düzeltici yazıldı.
+3. **Abone duvarı → Stripe.** `EXPAND_JS` kilitli tweetlerde "Abone ol" butonuna tıklıyor.
+   ekonomikocu'da doğru (abone olunmuş, tıklayınca içerik AÇILIYOR); @Efloud'da abone
+   olunmadığı için X **Stripe ödeme sayfasına** gidiyor, koruma geri çekiyor, rate-limit
+   backoff büyüyor (60→120 sn). İlk koşumda **30 kez** oldu, tarama zehirlendi.
+   - **Kod düzeltmesi (8 satır, minimal):** `PROFILE_HANDLE != "ekonomikocu"` ise
+     `EXPAND_JS` içindeki `rxUnlock` tıklaması pasifleştiriliyor; "daha fazla göster"
+     genişletmesi aynen çalışıyor. İki yönlü test edildi: efloud'da kapalı, ekonomikocu'da
+     açık (regresyon yok). Sonraki koşumda stripe sayacı **0**.
+
+### Efloud analizinin özeti (Koç'un sözü DEĞİL)
+- 19 Ağustos'ta ~80 günlük yaz konsolidasyonu yukarı terk edildi → yön bullish.
+- 22 Ağustos düzeltmesinde çoğu parite HTF desteklerine uğrayıp reaksiyon aldı.
+- Duruş: short değil, **pullback'lerde long**. BTC'de bir düzeltme daha beklerse
+  altcoin'ler aynı bölgelere geri çekilebilir.
+- En yakın karar noktaları: **CRV 0,34 direncine yapışık** (kazanırsa 0,4149, reddederse
+  0,27–0,28), BCH 307,9, MON 0,033 (kâr realizasyonu öneriyor), EIGEN 0,245 S/R flip.
+- Açık pozisyonları görsel kanıtlı: AVAX 3x long +%76 (giriş 6,012), LTC 3x long +%53,76
+  (giriş 44,25), BTC spot +%21,73, BTC ve SOL grid botları.
+- **Yöntem farkı notu:** Efloud 3x kaldıraç + grid bot kullanıyor; Ida spot/kaldıraçsız
+  BTC-ETH tutuyor. Seviyeler alınabilir, pozisyon kurulumu birebir taklit edilmemeli.

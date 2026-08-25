@@ -627,6 +627,18 @@ EXPAND_JS = """
 }
 """
 
+# Abonelik duvari tiklamasi SADECE ekonomikocu taramasinda anlamli: o hesaba abone
+# olundugu icin "Abonelere ozel" butonuna tiklamak icerigi ACAR. Baska hesaplarda
+# (ornek @Efloud) abone olunmadigindan ayni tiklama X'i Stripe odeme sayfasina
+# goturuyor; koruma her seferinde geri cekiyor ama tarama bosa tur yakiyor.
+# Bu yuzden ikincil hesaplarda yalnizca kilit-acma tiklamasi devre disi birakilir;
+# "daha fazla goster" genisletmesi aynen calismaya devam eder.
+if PROFILE_HANDLE != "ekonomikocu":
+    EXPAND_JS = EXPAND_JS.replace(
+        "if (rxUnlock.test(t)) {", "if (false && rxUnlock.test(t)) {"
+    )
+
+
 RETRY_JS = """
 () => {
   const rx = /^\\s*(retry|yeniden dene|try again|tekrar dene)\\s*$/i;
