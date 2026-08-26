@@ -2030,3 +2030,10 @@ gümüş 68,37 → yapısal kesişim 57.
 3. **Gümüş ↔ BTC ölçek kuralı** geriye dönük test edilmeli.
 4. **ETH 2570 çizgisinin bugünkü değeri** hesaplanmalı (yükselen çizgi).
 5. 25 Ağustos taraması hâlâ yapılamadı (profil sayfası yüklenmiyor).
+
+## 2026-08-26 — CLAUDE.md: Hızlı fiyat kontrolü bölümü
+- CLAUDE.md sonuna "HIZLI FİYAT KONTROLÜ (MagicMA çizgilerini yeniden taramadan)" bölümü eklendi (append; üstteki içerik değişmedi).
+- Karar: Mentor oturumu çizgileri yeniden taramaz; son `magicma/magicma_islem_adaylari_TARIH.md` listesi + güncel fiyat karşılaştırılır.
+- Neden: Mentor sandbox'ı ham API'lere (binance, yahoo) erişemiyor (proxy 403) ve push yetkisi yok; sadece web fetch ile fiyat alabiliyor.
+- Doğrulanmış kaynaklar: BIST → infoyatirim.com, kripto → coingecko.com, ABD hissesi → Yahoo (gecikmeli olabilir), forex → güvenilir kaynak henüz yok.
+- Push: commit 5388dbe.
