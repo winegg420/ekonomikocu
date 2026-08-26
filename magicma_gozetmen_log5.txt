@@ -1,0 +1,69 @@
+[gozetmen 20:18:00] Baslangic: bugun taranmis 151 sembol
+[gozetmen 20:18:01] Tur 1: kosucu baslatiliyor...
+Toplam 594 sembol. Bugun taranmis: 151. Kalan: 443.
+[1/443] BINANCE:QQQBUSDT ...
+   okunamadi (timeout / deger 0)
+[2/443] BINANCE:NFPUSDT ...
+   ! baglanti/oturum hatasi (Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+ ) -> yeniden baglaniliyor (deneme 1/3)
+   okunamadi (timeout / deger 0)
+[3/443] MEXC:AIDOGEUSDT ...
+   ! baglanti/oturum hatasi (Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+ ) -> yeniden baglaniliyor (deneme 1/3)
+   okunamadi (timeout / deger 0)
+[4/443] NASDAQ:NVDA ...
+   ! baglanti/oturum hatasi (Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+ ) -> yeniden baglaniliyor (deneme 1/3)
+   okunamadi (timeout / deger 0)
+[5/443] NASDAQ:AAPL ...
+   okunamadi (timeout / deger 0)
+[6/443] NASDAQ:MSFT ...
+   ! baglanti/oturum hatasi (Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+ ) -> yeniden baglaniliyor (deneme 1/3)
+   okunamadi (timeout / deger 0)
+[7/443] NASDAQ:AMZN ...
+   okunamadi (timeout / deger 0)
+[8/443] NASDAQ:GOOGL ...
+   ! baglanti/oturum hatasi (Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+ ) -> yeniden baglaniliyor (deneme 1/3)
+[gozetmen 20:23:01] Kosucu 5 dk turunu doldurdu � TV kontrolu icin donuluyor.
+[gozetmen 20:23:01] Tur 1 bitti: bugun taranmis 151 sembol (+0)
+[gozetmen 20:23:27] Chrome yenilendi.
+[gozetmen 20:23:28] TV sayfasi bos (innerText=41) — yeniden yukleniyor.
+[gozetmen 20:24:01] TV yeniden yuklendi (innerText=752).
+[gozetmen 20:24:01] Tur 2: kosucu baslatiliyor...
+Toplam 594 sembol. Bugun taranmis: 151. Kalan: 443.
+[1/443] BINANCE:QQQBUSDT ...
+   okunamadi (timeout / deger 0)
+[2/443] BINANCE:NFPUSDT ...
+   okunamadi (timeout / deger 0)
+[3/443] MEXC:AIDOGEUSDT ...
+   ! baglanti/oturum hatasi (Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+ ) -> yeniden baglaniliyor (deneme 1/3)
+   okunamadi (timeout / deger 0)
+[4/443] NASDAQ:NVDA ...
+   ! baglanti/oturum hatasi (Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+ ) -> yeniden baglaniliyor (deneme 1/3)
+   okunamadi (timeout / deger 0)
+[5/443] NASDAQ:AAPL ...
+   ! baglanti/oturum hatasi (Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+ ) -> yeniden baglaniliyor (deneme 1/3)
+   okunamadi (timeout / deger 0)
+[6/443] NASDAQ:MSFT ...
+   ! baglanti/oturum hatasi (Page.wait_for_selector: Timeout 5000ms exceeded.
+Call log:
+ ) -> yeniden baglaniliyor (deneme 1/3)
+   ! baglanti/oturum hatasi (Page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigatin) -> yeniden baglaniliyor (deneme 2/3)
+[gozetmen 20:29:01] Kosucu 5 dk turunu doldurdu — TV kontrolu icin donuluyor.
+[gozetmen 20:29:01] Tur 2 bitti: bugun taranmis 151 sembol (+0)
+[gozetmen 20:29:01] 2 tur ust uste ilerleme yok — duruluyor.

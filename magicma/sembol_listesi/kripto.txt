@@ -69,13 +69,15 @@ BYBIT:XAUTUSDT
 BINANCE:TSTUSDT
 BINANCE:KAITOUSDT
 BINANCE:NEIROUSDT
-BINANCE:QQQBUSDT
+# devre disi 2026-08-26: TradingView'de hic veri vermedi (tum taramalarda 'okunamadi'). Kod dogrulanirsa yorumu kaldir.
+# BINANCE:QQQBUSDT
 BINANCE:OPUSDT
 BINANCE:ORDIUSDT
 BINANCE:MUBARAKUSDT
 BINANCE:JSTUSDT
 BINANCE:VIRTUALUSDT
-BINANCE:NFPUSDT
+# devre disi 2026-08-26: TradingView'de hic veri vermedi (tum taramalarda 'okunamadi'). Kod dogrulanirsa yorumu kaldir.
+# BINANCE:NFPUSDT
 BINANCE:RENDERUSDT
 BINANCE:EULUSDT
 BINANCE:OGUSDT
@@ -116,5 +118,6 @@ BINANCE:MINAUSDT
 BINANCE:DYDXUSDT
 BINANCE:PIXELUSDT
 MEXC:GMEUSDT
-MEXC:AIDOGEUSDT
+# devre disi 2026-08-26: TradingView'de hic veri vermedi (tum taramalarda 'okunamadi'). Kod dogrulanirsa yorumu kaldir.
+# MEXC:AIDOGEUSDT
 BINANCE:XTZUSDT
