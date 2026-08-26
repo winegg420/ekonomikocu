@@ -18,8 +18,8 @@ Claude Project: GitHub repo bagla veya clone. Yerel yukleme yedek.
 10. 10_ABONE_TWEETLER_GEMINI.md
 11. 11_DIS_KAYNAKLAR.md (Koç dışı analistler — Sellcoin, Berk Dinçtürk, Yeşilada, Şatıroğlu, Lafçı, Atılal, Altınocağı, Foneria vb.)
 
-Guncelleme: 26.08.2026 17:36
-Public: 7192 | Abone metinli: 3434
+Guncelleme: 26.08.2026 17:41
+Public: 7194 | Abone metinli: 3434
 Abone bos kilitli: 0
 Paket yenile: python 99_BOT_ARSIV/kod/claude_paket_olustur.py
 GitHub gonder: python 99_BOT_ARSIV/kod/github_guncelle.py

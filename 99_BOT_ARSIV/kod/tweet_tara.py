@@ -3290,7 +3290,12 @@ def run_scrape(
                         and batch_oldest
                         and batch_oldest <= stop_before - timedelta(days=7)
                     )
-                    if stop_hit_streak >= 2 or hard_past:
+                    # EN AZ 4 SCROLL: X akisi ilk saniyelerde yalnizca 4-5
+                    # article render ediyor; ustteki EN YENI tweetler heniz
+                    # gelmemis olabiliyor. Bu sirada ekrana dusen tek bir eski
+                    # tarihli kayit hard_past'i tetikleyip taramayi 1 scroll'da
+                    # bitiriyordu (26 Agustos 2026: gunun 8 tweeti kacti).
+                    if (stop_hit_streak >= 2 or hard_past) and i >= 3:
                         print(
                             f"Durduruldu (bu oturumda gorulen en eski "
                             f"{session_oldest.date()}, hedef {stop_before.date()}, "

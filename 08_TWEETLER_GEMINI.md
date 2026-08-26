@@ -3,7 +3,24 @@
 Once Cloud dosyalari: 01-06 (+ opsiyonel 07). Sonra bu dosya, 09_GRAFIKLER_GEMINI klasoru, 10_ABONE_TWEETLER_GEMINI.md.
 ZORUNLU: 02_MENTOR_REHBERI.md — Makro sentez + kalici mentor kurallari (grafik, guncel fiyat, atif).
 
-Toplam: **7179**
+Toplam: **7181**
+
+## 26 Ağu 17:31 | `2092621039243047068` | GENEL | yorum | public
+
+Neyse siliyorum.
+Twet atıp kendimi yormayayım.
+
+- media: —
+- gemini_grafik: —
+
+## 26 Ağu 17:29 | `2092620455072989192` | GUMUS_PETROL | seviye | public
+
+83 bin #dolar değil o....
+
+84 BİN #DOLAR
+
+- media: —
+- gemini_grafik: —
 
 ## 26 Ağu 17:21 | `2092618556370223248` | GENEL | yorum | public
 
@@ -88477,56 +88494,56 @@ kontrol hep sende kalsın.
 - media: medya/1924941677141057910/graf_01.jpg
 - gemini_grafik: 09_GRAFIKLER_GEMINI/1924941677141057910_graf_01.jpg
 
-## 18 Nis 21:00 | `MANUEL-20250605-01` | BTC, GENEL | seviye, tarih | public
+## 18 Nis 15:00 | `MANUEL-20250605-01` | BTC, GENEL | seviye, tarih | public
 
 #Ethusd yi anlatmaya bile gerek yok. 2460 üstü zaten pozitifti. Sabah 2776 ya kafa atmış ama geri çekilmiş.. BTC yi baskılıyorlar negatif etkileniyor. Buradaki seviyeler değişmeyecektir. Ama Haziran 8 e kadar 2570 2776 arası önemlidir.
 
 - media: —
 - gemini_grafik: —
 
-## 10 Nis 01:52 | `MANUEL-20250527-02` | GENEL, GUMUS_PETROL | tez | public
+## 9 Nis 19:52 | `MANUEL-20250527-02` | GENEL, GUMUS_PETROL | tez | public
 
 #Eth #gümüşü geçecek ama acele etmiyorlar. 'Zaman geçiriyorlar'
 
 - media: —
 - gemini_grafik: —
 
-## 8 Nis 05:03 | `MANUEL-20250525-04` | GENEL | yorum | public
+## 7 Nis 23:03 | `MANUEL-20250525-04` | GENEL | yorum | public
 
 Ara değerler var hesaplama şekilleri var ama detaya burada giremiyorum.
 
 - media: —
 - gemini_grafik: —
 
-## 8 Nis 05:02 | `MANUEL-20250525-03` | GENEL | yorum | public
+## 7 Nis 23:02 | `MANUEL-20250525-03` | GENEL | yorum | public
 
 Atar mı ? 😎😎😎😎😎😎
 
 - media: —
 - gemini_grafik: —
 
-## 8 Nis 05:01 | `MANUEL-20250525-02` | GENEL, GUMUS_PETROL | seviye, tez | public
+## 7 Nis 23:01 | `MANUEL-20250525-02` | GENEL, GUMUS_PETROL | seviye, tez | public
 
 Zaman geçirme böyle lanet bir şey işte.. Gerçek bir yükseliş olabilmesi için #Eth nin 7600 dolar civarına kafa atması gerekir.
 
 - media: —
 - gemini_grafik: —
 
-## 8 Nis 05:00 | `MANUEL-20250525-01` | BTC | vizyon, seviye, tez | public
+## 7 Nis 23:00 | `MANUEL-20250525-01` | BTC | vizyon, seviye, tez | public
 
 @ekonomikocu adlı kişiye yanıt olarak. Şu konjonktür de #BTC 130 K görsün anca iş yapar piyasalar. 120 125 bile kurtarmıyor. O bile bir sürecin devamı oluyor.
 
 - media: —
 - gemini_grafik: —
 
-## 4 Nis 16:45 | `MANUEL-20250522-03` | GENEL | yorum | public
+## 4 Nis 10:45 | `MANUEL-20250522-03` | GENEL | yorum | public
 
 Burayı trade ediyorlar çaktırmıyorlar.
 
 - media: —
 - gemini_grafik: —
 
-## 4 Nis 15:45 | `MANUEL-20250522-01` | GUMUS_PETROL | seviye, tez | public
+## 4 Nis 09:45 | `MANUEL-20250522-01` | GUMUS_PETROL | seviye, tez | public
 
 Aylıkta 3368 önemli. Günlükte 3306 altı kalış satış baskısına sokar. Haftalıkta 3276 altı kalışlar, satış baskısına anca sokar. belinin kırılması için de 3257 altında kalması gerekir.
 
@@ -89343,21 +89360,21 @@ Ama bu twite destek istiyorum.
 - media: —
 - gemini_grafik: —
 
-## 8 Tem 00:05 | `MANUEL-20240824-03` | BTC | yorum | public
+## 7 Tem 18:05 | `MANUEL-20240824-03` | BTC | yorum | public
 
 BTC bu işin fenomen, reklam ayağı gibi düşünün. Fenomenler şu malı alın dediklerinde nasıl insanlar varlıkları alıyorsa ABD nin fenomeni de BTC dir.
 
 - media: —
 - gemini_grafik: —
 
-## 8 Tem 00:02 | `MANUEL-20240824-02` | BTC | yorum | public
+## 7 Tem 18:02 | `MANUEL-20240824-02` | BTC | yorum | public
 
 Tamamı değil sadece BTC onlara hizmet ediyor.
 
 - media: —
 - gemini_grafik: —
 
-## 8 Tem 00:00 | `MANUEL-20240824-01` | BTC, GUMUS_PETROL | tez | public
+## 7 Tem 18:00 | `MANUEL-20240824-01` | BTC, GUMUS_PETROL | tez | public
 
 Özet; kriptolar ABD nin ihtiyaç dahilinde doları zayıflatmak için kurduğu bir sistemdir. BTC ABD ye çalışıyor.
 
@@ -89391,7 +89408,7 @@ Kadın otururken motorlu bir adam geliyor teselli
 - media: —
 - gemini_grafik: —
 
-## 11 Haz 03:00 | `MANUEL-20240728-01` | GENEL, GUMUS_PETROL | vizyon, seviye | public
+## 10 Haz 21:00 | `MANUEL-20240728-01` | GENEL, GUMUS_PETROL | vizyon, seviye | public
 
 #GÜMÜŞ tarihi zirvesi 48 usd dir. #ETH tarihi zirvesi 4800 dür.
 
