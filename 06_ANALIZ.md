@@ -2253,3 +2253,154 @@ altında kaldıkça bu bölge, iki bağımsız sistemin de "burada karar verilir
 - Fiyatlar: `99_BOT_ARSIV/kod/magicma_ham.jsonl`, 25 Ağu 09:49–10:27.
 - Türetilenler: ETHTRY = ETHUSDT × USDTRY · gramaltın = XAUUSD × USDTRY / 31,1035 ·
   BTC/XAG = BTCUSDT / XAGUSD · NASDAQ/XAUUSD = NDX / XAUUSD.
+
+---
+
+## 2026-08-26 — "KIVRIM" ÖĞRETİSİ ÇÖZÜLDÜ + 25-26 AĞUSTOS (95 analiz edilmemiş kayıt)
+
+> Kaynak: `cekilen_tweetler.jsonl`, son analiz commit'i `839325c` (7.150 kayıt) → bugün 7.248.
+> **95 kayıt** hiç okunmamıştı; 22'sinin görseli tek tek açıldı. Kapsam: ağırlık
+> **25-26 Ağustos 2026**, ayrıca alıntı çözümüyle geriye dolan 5 Mart / 20 Temmuz /
+> 11-22 Ağustos kayıtları. Bugünün (26 Ağustos) 20 kaydı taramada kaçmıştı, hedefli
+> çekimle kurtarıldı — bu bölümde tam.
+
+### A. YENİ ÖĞRETİ KATMANI: "KIVRIM" (metinde hiç tanımı yok, sadece grafiklerde)
+
+Ağustos'ta Koç'un dilinde tekrar eden **"kıvrım"** kelimesi bugüne kadar üslup
+sanılıyordu. Grafikler açılınca teknik bir tanım olduğu çıktı:
+
+**KIVRIM = üssel hareketli ortalamanın YATAYLAŞTIĞI (düzleştiği) bölüm.**
+Ortalamanın yatay kaldığı fiyat seviyesi, sonradan destek/direnç olarak çalışıyor.
+
+Kuralı kendisi tek cümleyle veriyor (`2090930598260953579`, 22 Ağu 01:34):
+> *"Ortalama 21 günlük ve üssel olmak zorunda."*
+
+Grafiklerdeki uygulaması (hepsi ölçülmüş değerler):
+
+| Ürün | Kıvrım seviyesi | Grafikteki tam değer | Durum |
+|---|---|---|---|
+| NASDAQ (günlük) | 29.700 | **29.716,29** | Fiyat 29.303 → **ALTINDA = direnç** |
+| NASDAQ (günlük) | 30.600 | **30.685,19** | Yıl tepesi, kırılmadı |
+| NASDAQ (günlük) | 22.600 | **22.684,21** | Mart 2026 dibi, destek |
+| BTC (günlük) | 78 K | ~78.000 | Mayıs 2026 kıvrımı |
+| BTC (günlük) | 67.800 | ~67.800 | Mart 2026 kıvrımı, "savaş değeri" |
+| BTC (günlük) | 84 K | **84.242,31** | Nisan 2025 dip çizgisi |
+| ALTIN (günlük) | 4.280 | ~4.280 | *"müdahale etmeselerdi oraya düşmek zorundaydı"* |
+| ALTIN (günlük) | 4.059,99 | **4.059,99** | *"KIVRIM DESTEK OLMUŞTUR"* — mavi çizgi |
+| ALTIN (haftalık) | ~4.800 | 80 haftalık ort. | *"bu kıvrımın üstüne PARK edemesin, mum düşer"* |
+
+**En kritik cümle (`2090929240225014102`, 22 Ağu 01:29):**
+> *"NASDAQ kıvrımı 29700 de idi. Piyasa gitmiyor, kıvrım aşağı alçaldı."*
+
+Yani kıvrım **sabit bir yatay değil, zamanla kayan bir seviye**. Fiyat ilerlemezse
+ortalama aşağı iner ve seviye düşer. Bu, "zaman geçiyor değer aynı" tezinin teknik
+karşılığı: kıvrımın alçalması = piyasanın yürümediğinin ölçüsü.
+
+**Altın günlük grafiğinde (`2090925724827844698`) bugün için doğrudan uyarı var:
+fiyatın ÜSTÜNDE kıvrım yok → "destek yok".** Yani altın yukarı kaçarsa geri
+çekilirken tutunacak ortalama bulamıyor.
+
+### B. NASDAQ'IN VADE TAKVİMİ — mekanizma tam olarak yazıldı
+
+`2089283494073553117` (17 Ağu) görseli, "tarih veriyor ama neden" sorusunu kapatıyor.
+4 saatlik NASDAQ grafiğinin üstüne kendi el yazısıyla mekanizmayı çizmiş:
+
+1. **"ABD/ÇİN görüşmesi var deyip Mart 15 / Haziran 15 vadesine kadar yükselt."**
+2. **"Haziran 15 / Eylül 15 vadesinin ilk ayı düşür."**
+3. **"Vade sonu yaklaşırken Haziran değerine geri döndür."**
+
+Sonuç cümlesi (metinde): *"Takvim Ağustos'u gösteriyor ama fiyat hâlâ Haziran 15
+değerlerinde. Zaman ilerliyor, fiyat ilerlemiyor."*
+
+**Bu takvim ileriye dönük tetik veriyor: sıradaki düğüm 15 Eylül vade sonu.**
+30.600 (30.685,19) üstü kalıcı kapanış olmadıkça yukarı yön "köpük" sayılıyor;
+`2092188472576512198` (25 Ağu): *"29200 üstü dikleşir, altı anca strese girerler.
+**Aylık kapanış buranın altındaysa salarlar.**"* → **Ağustos aylık kapanışı 29.200
+kritik eşik.**
+
+### C. 25 AĞUSTOS: TARİHLİ ÇAĞRI KAPANDI (petrol 89.60)
+
+19 Ağustos'ta abone sorusuna verdiği cevap (`2092185672312357241` ekran görüntüsü):
+*"Sana tarihli analiz yapmadım mı? **25 Ağustos'a kadar takip et** demedim mi?"*
+17 Ağustos'ta da yazmıştı: *"89.60 da robot var, Ağustos 25. güne kadar izle."*
+
+25 Ağustos günü paylaştığı BRENT M30 grafiği (`2092185142265602169`): fiyat 89.60
+çizgisine değdi ve **oradan reddedildi** (grafikte 87.94'e iniyor). **Tarih + seviye
+birlikte tuttu.** Bu, "tarih verdiğimde 2. kez sorma" sertliğinin arkasındaki
+gerekçeyi de açıklıyor.
+
+Altın için sıradaki tarih penceresi (`2092189625422889020`, 25 Ağu):
+> *"ALTIN'da aslında **27. gün** önemli de, **Eylül 2**'ye kadar da opsiyonu var.
+> **4640** bölgesine robot koydular."*
+
+### D. ALTIN / GÜMÜŞ ORANI BOZULDU — sayısal kural
+
+`2092192056185606203` (25 Ağu) normal denklemi veriyor:
+> *"gümüş 70 dolarsa goldgr 140 dolar olur."*
+
+Bugünkü gerçek: **gümüş ~68, GOLDGR ~150.** Yani **~10 dolar fazla şişirilmiş**
+(`2092191262476575192`, `2092200980423000269` grafiği). Yorumu: *"Altın fazla
+götürüyorlar, yastık altına sarıyorlar"* — Jackson Hole öncesi kasıtlı.
+
+GOLDGR grafiğinde (`2092227619743760885`) **84 dolar** mavi yatay çizgi olarak
+işaretli; oradan bugünkü 149'a kadar olan hareketin *"durduk yere olmadığı"*,
+Trump'ın BTC'yi düşürmeme inadına bağlandığı yazılmış. **84 eşleşmesi yine çıktı:
+GOLDGR 84 ↔ BTC 84.242,31** — daha önce kurala bağlanan gümüş/BTC ölçek eşlemesinin
+altın ayağı.
+
+### E. 26 AĞUSTOS — DOLARIN NEDEN SAVUNULMADIĞININ ZİNCİRİ (bugünün ana teması)
+
+Bugün 20 kayıtlık kesintisiz bir tez zinciri var. Özeti:
+
+1. **Savaş Avrupa'da, fatura dolarda.** Emtia yükselir → dolar dayak yer → ABD
+   enflasyonu patlar → ABD faiz demek zorunda kalır (`2092565725160329612`).
+2. **ABD faiz diyemez, piyasalar çöker.** O yüzden "zaman geçirme" tek seçenek
+   (`2090192105301811680`).
+3. **Biden'ın ETF hamlesi stratejikmiş** (`2092569491678908756`): *"bitcoin kanadına
+   ETF vermeseydi bugün ABD savaşamazdı. Çünkü ÇİN emtia derken ABD BİTCOİN diyemezdi…
+   ETF verip bitcoin'i piyasadan kopardı."* — **Kripto, emtia enflasyonuna karşı
+   kurulmuş bir tahliye kanalı olarak konumlanıyor.**
+4. **ABD doları savunmuyor çünkü savunursa dünya batıyor** (`2092615229335077111`,
+   `2092616008892575753`): *"Kaldır doları, faizi savun. Tüm dünyadaki dolarlar bir
+   anda ABD'ye döner, dünyada dolar kıtlığı oluşur… Dolar bulmak için elindeki
+   varlıkları satacaksın."*
+5. **Kanıt olarak Bessent'i gösteriyor** (`2092616344646590887`): *"Adam doğrudan
+   diyor ki: piyasa düşer vs demiyor. **Küresel finans sistemi uçar.**"*
+6. **Borç tablosu** (`2092614029004992789`): ÇİN ~23 trilyon, Avrupa ~18 trilyon.
+   *"EUR ABD sayesinde güçlüdür; ABD EUR'yu ezse Avrupa'nın borcu katlanırdı."*
+
+**Yeni tarihli/seviyeli çağrı — BTCJPY:**
+`2092561150420435418` + `2092561593259135382` (26 Ağu 13:33-13:35):
+> **"#BTCJPY 10.600" … "#BTCJPY ŞUBAT"**
+
+Gerekçesi hemen öncesinde (`2092560931356082394`): *"Faizlerde sorun yaşıyorlar…
+**JPY, ABD faizlerine en duyarlı varlıktır.**"* → **Takip edilecek: BTCJPY 10.600,
+hedef pencere Şubat.**
+
+### F. GRAFİKTEN ÇIKAN, METİNDE OLMAYAN YAPILAR
+
+- **NASDAQ haftalık** (`2092272045421658134`): 2020 dibinden gelen siyah yükselen
+  çizgi şu an ~30.500-31.800 bandında; **26 K** kesikli çizgi orta destek; en alt
+  yeşil bant **18-19 K** = *"18 K'ya düşürsen piyasa sana para deyip ağlar"* dediği
+  yer. Yani 18 K teorik değil, çizili bir hedef.
+- **S&P 500 günlük** (`2092374092506619928`): 2020 dibinden iki paralel yükselen
+  çizgi. Fiyat **7.677** üst çizgide, kırmızı temas işaretli → **direnç**.
+  Alt çizgi ~6.000. Üst çizgi 2027 sonunda ~8.800'e çıkıyor.
+- **NASDAQ/XAUUSD yıllık** (`2090573093810962575`): 2013'ten yükselen siyah çizgi
+  2026'da **7,5**'ten reddedildi. İki yatay kırmızı: **~6,3** ve **~4,5**.
+  Bugün **6,5 (-%7,18)** → **6,3 desteğinin hemen üstünde.** Kırılırsa 4,5 hedefe girer.
+- **BRENT günlük** (`2092280363728916659`): Haziran 2024 tepesinden alçalan çizgi
+  ~68,4'e inmiş, fiyat **83,93** ile yukarı kırmış. 18 Haz–10 Tem 2025 penceresi
+  *"burada dünya patlıyordu"* diye kutulanmış — 2025 İsrail-İran mumu referans alınıyor.
+- **ALTIN günlük** (`2090932770935648658`): Ocak 2026 tepesi 5.612'den alçalan çizgi
+  bugün ~4.570; fiyat **4.602,92** ile üstüne çıkmış. Ana destek bandı **4.056,57**.
+
+### G. AÇIK İŞLER (sonraki oturumda)
+
+1. **BTCJPY 10.600 / Şubat** çağrısı takip listesine alınmalı — geçmiş BTCJPY
+   tweetleriyle çapraz kontrol edilmeli.
+2. **Ağustos aylık kapanış 29.200 (NASDAQ)** — ay sonunda sonuçlanacak, karneye işlenmeli.
+3. **ALTIN 27. gün / Eylül 2 penceresi + 4640 robot** — sonuç izlenecek.
+4. **Kıvrım değerleri kayan seviye**: NASDAQ 29.716,29, ALTIN 4.059,99, BTC 78 K
+   bugünkü değerleriyle yeniden ölçülmeli (ortalama her gün kayıyor).
+5. Boşluktaki **381 görsel** hâlâ açılmadı (429 − 48).

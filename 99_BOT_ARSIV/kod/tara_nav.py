@@ -384,12 +384,12 @@ def bind_safe_page(page, home_url: str) -> None:
                     page._eko_guard = False  # type: ignore[attr-defined]
                 return
         elif _is_x_home(u) or "/home" in u.lower():
+            now = time.time()
+            if now - getattr(page, "_eko_nav_last", 0) < 3.0:
+                return
             if getattr(page, "_eko_status_mode", False):
                 st = getattr(page, "_eko_status_url", None)
                 if st:
-                    now = time.time()
-                    if now - getattr(page, "_eko_nav_last", 0) < 3.0:
-                        return
                     page._eko_nav_last = now  # type: ignore[attr-defined]
                     _log("  >> Ana sayfa — tweet status'a donuluyor...")
                     page._eko_guard = True  # type: ignore[attr-defined]
@@ -400,6 +400,24 @@ def bind_safe_page(page, home_url: str) -> None:
                         pass
                     finally:
                         page._eko_guard = False  # type: ignore[attr-defined]
+                return
+            # Status modunda DEGILIZ: X akisi kendiliginden /home'a dusurdu.
+            # Pasif modda geri alinmadigi icin tarama "ekranda: 0" ile bos
+            # donuyordu (26 Agustos 2026, iriscibre arama akisi). 3 sn'lik
+            # nav_last kisitiyle donguye girmeden akisa geri it.
+            dest = getattr(page, "_eko_home", None)
+            if not dest or not url_allowed(dest):
+                dest = f"https://x.com/{PROFILE_HANDLE}"
+            page._eko_nav_last = now  # type: ignore[attr-defined]
+            _log(f"  >> Ana sayfa — akisa donuluyor: {dest[:70]}")
+            page._eko_guard = True  # type: ignore[attr-defined]
+            try:
+                orig_goto(dest, wait_until="commit", timeout=60_000)
+                nav_quiet(page, 6.0)
+            except Exception:
+                pass
+            finally:
+                page._eko_guard = False  # type: ignore[attr-defined]
             return
         elif "failedscript" in u.lower():
             return

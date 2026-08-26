@@ -30,6 +30,13 @@ IDS = [
     "2075999676914860039",
 ]
 
+# Komut satirindan ID verilirse yukaridaki sabit liste yerine onlar taranir:
+#   py -3 gap_ekle.py 2092606674917883904 2092607243401281928 ...
+import sys as _sys
+_arg_ids = [a.strip() for a in _sys.argv[1:] if a.strip().isdigit()]
+if _arg_ids:
+    IDS = _arg_ids
+
 JS = r"""
 (wantId) => {
   const arts = Array.from(document.querySelectorAll('article'));
@@ -86,6 +93,12 @@ def main() -> int:
             try:
                 pg.goto(url, wait_until="commit", timeout=60000)
                 icerik_bekle(pg, 5000)
+                # 5 sn cogu zaman yetmiyor (26 Agustos 2026: 20 tweetin 20'si
+                # "metin bulunamadi" ile atlandi). Tweet metni gelene kadar bekle.
+                try:
+                    pg.wait_for_selector("div[data-testid='tweetText']", timeout=20000)
+                except Exception:
+                    pass
                 data = pg.evaluate(JS, tid)
             except Exception as e:
                 if not (baglanti_hatasi(e) or not sayfa_canli(pg)):
@@ -97,6 +110,10 @@ def main() -> int:
                 try:
                     pg.goto(url, wait_until="commit", timeout=60000)
                     icerik_bekle(pg, 5000)
+                    try:
+                        pg.wait_for_selector("div[data-testid='tweetText']", timeout=20000)
+                    except Exception:
+                        pass
                     data = pg.evaluate(JS, tid)
                 except Exception:
                     print(f"[{tid}] baglanti sonrasi da okunamadi, atlandi")

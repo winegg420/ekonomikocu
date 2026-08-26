@@ -2037,3 +2037,51 @@ gümüş 68,37 → yapısal kesişim 57.
 - Neden: Mentor sandbox'ı ham API'lere (binance, yahoo) erişemiyor (proxy 403) ve push yetkisi yok; sadece web fetch ile fiyat alabiliyor.
 - Doğrulanmış kaynaklar: BIST → infoyatirim.com, kripto → coingecko.com, ABD hissesi → Yahoo (gecikmeli olabilir), forex → güvenilir kaynak henüz yok.
 - Push: commit 5388dbe.
+
+## 2026-08-26 (akşam) — Tarama sağlık denetimi: 6 arıza bulundu ve düzeltildi
+
+**Tetik:** "tweet tarama sağlıklı mı, ekonomikocu/efloud/iris için; değiştirilmesi
+gereken varsa değiştir" — kusursuz, takılmayan tarama istendi.
+
+**Bulunan ve düzeltilen arızalar (hepsi kodda kalıcı):**
+1. **CDP 9222 kapalıydı** — Chrome tarama profiliyle hiç açık değildi, tarama
+   başlayamazdı. `CHROME_X.bat` git-bash'ten `cmd //c` ile çalışmıyor; PowerShell
+   `Start-Process` ile açıldı.
+2. **Tek sekmeli Chrome ölümü** — `close_foreign_tabs(context, None)` son sekmeyi de
+   kapatınca Chrome komple çıkıyordu. Artık **son sekme asla kapatılmıyor**,
+   `about:blank`'e çekiliyor (`tara_nav.py`). Ayrıca iki .bat da `about:blank` +
+   profil ile **iki sekme** açıyor.
+3. **`/explore` tuzağı** — pasif nav modunda X keşfet'e savurunca geri alınmıyordu;
+   `tara_nav.py` düzeltildi. Aynı oturumda çalıştığı logda görüldü
+   (`>> Geri alindi (explore)`).
+4. **`/home` düşüşü** — X arama akışını `x.com/home`'a düşürdüğünde pasif modda geri
+   itilmiyordu; tarama "ekranda: 0" ile sonsuz dönüyordu (iriscibre). 3 sn kısıtlı
+   geri itme eklendi.
+5. **Soğuk Chrome'da yanlış "çıkış 4"** — `hesap_dogrula.py` sol menü için sadece
+   2,5 sn bekliyordu; 20 sn selektör beklemesine çevrildi.
+6. **Günün tweetleri kaçıyordu (en kritik).** Tarama "Gönderiler" sekmesini zorluyor;
+   Koç'un başka hesaplara verdiği yanıtlar orada GÖRÜNMÜYOR. Ayrıca `hard_past`
+   koşulu tek bir eski tarihli kayıtla taramayı 1. scroll'da bitiriyordu.
+   → `EKO_AKIS=yanit` ortam değişkeni ile `with_replies` akışı (`PROFIL_AKIS_URL` +
+   `click_akis_tab`, varsayılan davranış değişmedi) + durdurmaya **"en az 4 scroll"**
+   şartı eklendi.
+7. **`gap_ekle.py`** artık komut satırından ID alıyor ve tweet metni için 20 sn
+   bekliyor (5 sn yetmiyordu: 20 tweetin 20'si "metin bulunamadi" ile atlanmıştı).
+
+**Veri sonucu:** ekonomikocu 7.225 → **7.248**. Bugünün (26 Ağustos) taramada kaçan
+**20 tweet'i** hedefli `gap_ekle.py` ile kurtarıldı, sınıflandırıldı.
+
+**Alınan ders — X rate limit:** Üst üste 4 tarama koşumu ağır rate limit tetikledi
+(`RATE-LIMIT backoff 60→120→240→480 sn`, ardından sayfa hiç yüklenmedi). ~18 dk tam
+soğuma gerekti. **Kural: art arda tarama koşturma; "ekranda: 0" + backoff görülür
+görülmez DURDUR, X'e ara ver, X gerektirmeyen işe geç.**
+
+**Çakışma uyarısı (yeni):** MagicMA taraması çalışırken X taraması ÇALIŞTIRILAMAZ —
+`close_foreign_tabs(context, page)` tarama sayfası dışındaki tüm sekmeleri kapatır ve
+TradingView layout sekmesini öldürür. İkisi sıralı yapılmalı.
+
+**Analiz:** `06_ANALIZ.md` sonuna 2026-08-26 bölümü eklendi (95 analiz edilmemiş
+kayıt + 22 görsel). Ana bulgu: **"kıvrım" = 21 günlük ÜSSEL ortalamanın yataylaştığı
+seviye** — Koç'un adını koymadığı bir öğreti katmanı; NASDAQ 29.716,29 / ALTIN
+4.059,99 / BTC 78 K değerleriyle ölçüldü. Ayrıca NASDAQ vade takvimi (Mart 15 /
+Haziran 15 / Eylül 15) ve yeni tarihli çağrı **BTCJPY 10.600 — Şubat**.
