@@ -2085,3 +2085,63 @@ kayıt + 22 görsel). Ana bulgu: **"kıvrım" = 21 günlük ÜSSEL ortalamanın 
 seviye** — Koç'un adını koymadığı bir öğreti katmanı; NASDAQ 29.716,29 / ALTIN
 4.059,99 / BTC 78 K değerleriyle ölçüldü. Ayrıca NASDAQ vade takvimi (Mart 15 /
 Haziran 15 / Eylül 15) ve yeni tarihli çağrı **BTCJPY 10.600 — Şubat**.
+
+## 2026-08-26 (gece) — Yarım kalan işlerin tamamlanması
+
+**Tetik:** "son oturumda yarım kaldığın işleri tamamla" → ardından "raporu üret ve
+pushla, sonra twitter taraması, analiz edilmemişleri ve görselleri analiz et".
+
+### 1. MagicMA taraması (yarım kalmıştı: 151/594)
+- Chrome tarama profili kapalıydı (CDP 9222 yok) → PowerShell `Start-Process` ile
+  iki sekmeli (about:blank + TV layout) açıldı, TV'nin gerçekten yüklendiği doğrulandı.
+- Tarama resume ile sürdürüldü: **572/594 okundu**, rapor + işlem adayları üretildi
+  (`magicma_rapor_2026-08-26.md`, `magicma_islem_adaylari_2026-08-26.md` — 31 aday, ≤%0,25).
+- **Arıza bulundu ve düzeltildi:** gözetmen koşucuyu her 5 dk'da öldürüp yeniden
+  başlatıyordu; koşucu her açılışta listenin başındaki ~12 ölü sembolü 3'er deneme ile
+  yeniden deniyordu → 5 dakikanın 4'ü ölü sembollere gidiyor, tur başına 3 sembol
+  ilerleniyordu. Tur süresi `TUR_SN` ile ayarlanabilir yapıldı (varsayılan 1500 sn).
+  Sonuç: 5 dk'da 3 sembol → 8 dk'da 41 sembol.
+- `magicma_gozetmen.py` geçici scratchpad'den `99_BOT_ARSIV/kod/` altına alındı
+  (oturum kapansa kaybolacaktı).
+- Hiçbir taramada veri vermeyen 3 kripto kodu (QQQBUSDT, NFPUSDT, AIDOGEUSDT) yorum
+  satırına alındı; taranamayan 22 sembol `magicma/taranamayan_semboller.md`'ye yazıldı.
+  18'i bubbles'tan gelen "günün hareketlileri" listesinde olduğu için elle düzeltilmedi
+  (o liste her taramada yeniden üretiliyor).
+
+### 2. X taramaları
+- **@ekonomikocu:** `EKO_AKIS=yanit` ile tarandı; profil yüklenmeyince arama akışına
+  düştü (beklenen kurtarma yolu). 7.248 → 7.249, 26 Ağustos 20:17 tweeti eklendi,
+  otomatik commit + push yapıldı. **23 Ağustos boşluğu gerçek** — tarama arama akışında
+  12 Temmuz'a kadar geriye gitti, o aralıkta yeni kayıt yok.
+- **@iriscibre:** `--days 4` ile tarandı, 223 → 273 kayıt (+50). Pencere 2 için soğumada.
+
+### 3. Görsel arşivi analizi (yeni iş kolu)
+- **Karar:** 1.574 görselin tek oturumda bitmesi mümkün değil; kesintiye dayanıklı bir
+  defter kuruldu — `gorsel_analiz.jsonl` + `99_BOT_ARSIV/kod/gorsel_defter.py`
+  (`durum` / `sirada N`). Aynı görsel iki kez analiz edilmez, iş kaldığı yerden sürer.
+- **Neden gerekliydi:** `ekonomikocu_hafiza_v1.md`'deki 1.238 görsel satırının hepsinde
+  analiz yerine şablon metin vardı (`GRAFİK ANALİZ: çizilen hatlar…`) — yani görseller
+  fiilen hiç okunmamıştı.
+- **88 görsel analiz edildi** (3-26 Ağustos 2026). Çıkan üç öğreti katmanı ve tüm
+  bulgular `06_ANALIZ.md` sonuna 2026-08-26 (gece) bölümü olarak yazıldı:
+  **5.7 pivot öğretisi** (dizi 5.7/6/9.2/106, BTC'de ×10.000, USDTRY↔XAUUSD'de ×100),
+  **merdiven zaman modeli** (2 ay hareket + 4 ay yatay, fraktal),
+  **kıvrım öğretisi** (ortalamanın yataylaştığı seviye = gelecekteki destek),
+  **vade takvimi** (15 Mart / 15 Haziran / 15 Eylül), **20 yıllık döngü** (XAUUSD/NASDAQ
+  1999-2003 ↔ 2021-2023, GBPJPY 1999-2000 ↔ 2019-2020).
+- **Kalan: 1.486 görsel.** Aynı defterle devam edilecek.
+
+### 4. Medya indirmede ikon/SVG arızası (yeni bulundu)
+- 1.574 görselin 4'ü aslında grafik değil: X arayüz ikonu/emoji SVG'si `.jpg` olarak
+  kaydedilmiş (İran bayrağı emojisi ×2, "parody-mask" ikonu ×2). İlgili tweetlerde
+  zaten grafik yoktu → veri kaybı yok.
+- Kalıcı düzeltme: `tweet_tara.download_tweet_media` artık gövdenin gerçekten
+  JPEG/PNG/GIF/WebP olduğunu doğruluyor (`_raster_mi`); `grafik_filtre`'ye
+  `abs.twimg.com/responsive-web/` ve `.svg` kalıpları eklendi.
+
+### Öğrenilen
+- Gözetmen tipi "öldür-yeniden başlat" döngülerinde, koşucu **listenin başından**
+  başlıyorsa kısa tur süresi ilerlemeyi öldürür. Tur süresi, baştaki başarısız
+  öğelerin toplam süresinden belirgin şekilde uzun olmalı.
+- Uzun süren üretim işleri (1.500+ görsel) için tek oturumluk plan yerine **defter +
+  resume** altyapısı kurmak şart; iş her kesintide sıfırlanmaz.

@@ -261,3 +261,20 @@ Tek komut: `python 99_BOT_ARSIV/kod/tara_tam.py`
 
 + git remote set-url origin https://github.com/winegg420/ekonomikocu.git
 + git add -A
+warning: in the working copy of '09_GRAFIKLER_GEMINI/2071336123582894247_graf_01.jpg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '09_GRAFIKLER_GEMINI/2089315785013366957_graf_01.jpg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '09_GRAFIKLER_GEMINI/2089315785013366957_graf_02.jpg', LF will be replaced by CRLF the next time Git touches it
++ git diff --cached --quiet
++ git commit -m Tarama: guncel + siniflandirma + paket (2026-08-26T20:17:29) [otomatik]
+[main 21db6a5] Tarama: guncel + siniflandirma + paket (2026-08-26T20:17:29) [otomatik]
+ 22 files changed, 5717 insertions(+), 3318 deletions(-)
+ create mode 100644 09_GRAFIKLER_GEMINI/2092662731279098256_graf_01.jpg
+ create mode 100644 gorsel_analiz.jsonl
+ create mode 100644 medya/2092662731279098256/graf_01.jpg
+ create mode 100644 tarama_eko_2608_aksam.log
++ git push -u origin main
+To https://github.com/winegg420/ekonomikocu.git
+   1ca0fd1..21db6a5  main -> main
+branch 'main' set up to track 'origin/main'.
+GitHub guncellendi: https://github.com/winegg420/ekonomikocu.git
+[LFS] Depo kullanimi: 861 MB / 1024 MB (%84) | 163 MB bos | kullanim SABIT (2026-08-02'den beri tarama LFS'e yeni surum eklemiyor)

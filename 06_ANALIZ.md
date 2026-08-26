@@ -2404,3 +2404,110 @@ hedef pencere Şubat.**
 4. **Kıvrım değerleri kayan seviye**: NASDAQ 29.716,29, ALTIN 4.059,99, BTC 78 K
    bugünkü değerleriyle yeniden ölçülmeli (ortalama her gün kayıyor).
 5. Boşluktaki **381 görsel** hâlâ açılmadı (429 − 48).
+
+---
+
+## 2026-08-26 (gece) — GÖRSEL ARŞİVİ ANALİZİ: öğreti katmanı ortaya çıktı
+
+**Kapsam:** Görsel analizi için kalıcı, kesintiye dayanıklı bir defter kuruldu
+(`gorsel_analiz.jsonl` + `99_BOT_ARSIV/kod/gorsel_defter.py`). Toplam **1.574 görsel**
+(ekonomikocu 1.438 · iriscibre 104 · efloud 32) sıraya alındı, **ilk 88'i** (yeniden
+eskiye, 3 Ağu – 26 Ağu 2026) analiz edildi. Defter aynı görseli iki kez analiz etmez;
+iş kaldığı yerden sürdürülebilir.
+
+**Önemli tespit:** `ekonomikocu_hafiza_v1.md` içindeki 1.238 görsel satırının hepsinde
+analiz yerine şablon metin vardı (`GRAFİK ANALİZ: çizilen hatlar, destek/direnç…`).
+Yani bugüne kadar görsel içeriği fiilen hiç okunmamıştı. Aşağıdakilerin tamamı
+metinlerde yok, yalnızca grafiklerin içinde.
+
+### 1. "5.7 öğretisi" — sayılar fiyat değil, ölçeklenen pivotlar
+
+22 Ağustos'ta iki şema hâlinde açıkça yazılmış:
+
+> *"Yeni sayımız 5.7'dir ve DÜNYANIN PİVOTUDUR. Her varlıkta geçerlidir."*
+> Dizi: **5.7 — 6 — 9.2 — 106**
+> Kural 1: Bir varlık **5.7'nin üstünde kalıyorsa düşemez**, 6'yı yukarı keser, yükselişe devam eder.
+> Kural 2: **6 aşağı kırılır ve 5.7 altında kapanış gelirse** varlık düşmek zorunda kalır.
+
+BTC uyarlaması (ikinci şema): **57 K — 60 K — 92 K — 106 K**, yani ×10.000.
+
+Bu, arşivde yıllardır "üslup" sanılan eşleşmelerin (altın 84 ↔ BTC 84 K, gümüş 61,4 ↔
+BTC 61,4 K) resmi açıklamasıdır. Aynı kuralın 2 yıl önceki hâli de bulundu
+(9 Tem 2024, 43,5 B görüntüleme): *"USDTRY 19 / 20 / 23-24 = XAUUSD 1900 / 2000 /
+2300-2400 gibi düşünün. İşte ABD'nin USDTRY'si XAUUSD'dir."* — bu sefer ×100.
+
+### 2. "Merdiven" — zaman modeli (2 + 4)
+
+24 Ağustos'taki şema, takvim çağrılarının aritmetiğini veriyor:
+
+> **Yükseltirken:** 2 ay yükselt → 4 ay yatay → 2 ay yükselt → 4 ay yatay = *"bir sene çöp olur"*
+> **Düşürürken:** aynısının aynadaki hâli.
+
+Model fraktal: NASDAQ **haftalık** grafikte ay ay (Nis-2025 22.500→26.500, 7 ay yatay,
+Oca-2026 26.500→30.500, sonra yatay), BTC **4 saatlik** grafikte gün gün aynı ritimde
+işliyor ("zaman geçir → yukarı al → zaman geçir"). 20 Haziran'daki tweet aritmetiği
+açıkça yazıyor: *"Haziran'ın 3. haftasındayız. 60 gün daha geçti mi, Ağustos'un 3. haftası."*
+
+### 3. "Kıvrım" — ortalamanın yataylaştığı seviye, gelecekteki destektir
+
+ALTIN günlükte en açık anlatımı var: Ekim-2025'te ortalamanın yataylaştığı **4.059,99**
+bolgesi, Haziran-Temmuz 2026'da fiyatı durduran destek olmuş ("KIVRIM DESTEK OLMUŞTUR").
+Ölçülen kıvrımlar: ALTIN **4.059,99** (ikincisi 4.280) · NASDAQ **29.716,29 / 29.708,09** ·
+BTC **78 K** (üst, "Çin görüşmesi değeri") ve **67.800** (alt, "savaş değeri") ·
+ALTIN haftalık **~4.755-4.900**. Yardımcı kural: *"Burada malı yatıramazsın, yatalık yok"*
+— ortalamanın dik düştüğü bölgede pozisyon taşınmaz; işlem yeri yataylaşan yerdir.
+
+### 4. Takvim çağrılarının kanıtı: "Ağustos 3. hafta"
+
+Aynı takvim **üç ayrı tarihte** verilmiş — 8 Haziran (2.801 görüntüleme), 11 Haziran
+(1.533) ve 20 Haziran — ve içerik hep aynı: **22 Haziran / 3 Temmuz / Ağustos 3. hafta**.
+Grafik doğrulaması BTC günlükte işaretli: 22 Haz–3 Tem "stres" dibi (~58.000),
+Ağustos 3. hafta dönüşü (~62.500) ve ardından dikey sıçrama 77.583.
+
+Metodoloji beyanı da bulundu (23 Haziran): *"Siz sanıyor musunuz kafalarına göre o
+takvimi veriyorlar? Öyle olsa biz nereden bileceğiz? **Tekniğe göre veriyorlar.**"*
+
+Tutmuş diğer tarihler: **18 Mayıs** (ETH tepesi 2.283) ve **7-8 Haziran** (ETH dibi
+1.501,45) — ikisi de 16 Mayıs'ta verilmiş. **7 Nisan** (ETH dibi ~1.410) — 16 Şubat'ta
+verilmiş. **25 Ağustos** (petrol; 89,60'tan red) — 20 Ağustos'ta verilmiş.
+**6-7 Haziran** (kripto düşüşü) — 31 Mayıs'ta verilmiş.
+
+### 5. Vade takvimi: 15 Mart / 15 Haziran / 15 Eylül
+
+NASDAQ 4 saatlikte üç aşamalı olarak yazılmış: *"ABD/ÇİN görüşmesi var deyip **Mart 15 /
+Haziran 15 vadesine kadar yükselt**"* (28.000→30.600) → *"**Haziran 15 / Eylül 15
+vadesinin ilk ayı düşür**"* (30.600→27.150) → *"**Vade sonu yaklaşırken Haziran değerine
+geri döndür**"* (27.150→30.200). Fiyat hareketinin iskeleti üç aylık vade takvimi.
+
+### 6. Formasyon bozma — "tam tersini yapıyorlar"
+
+İki panel yan yana konmuş: **2025 Temmuz / BTC** — *"Kripto haftası deyip ÇİZGİ ÜSTÜNE AL,
+mal çakılmasın"* (omuz için düşmesi gerekirken 4-5 ay yukarıda tutulmuş) ve
+**2026 Temmuz / ETH** — *"ÇİZGİ ALTINA AL, mal çıkmasın"* (omuz için çıkması gerekirken
+altında tutulmuş). Aynı oyun bir yıl arayla ters yönde. Tetik kuralları da simetrik:
+BTC'de **çizgi altına sarkma** hareketi başlatıyor (107.236,42 — 14-30 Eki 2025),
+ETH'de **çizgi üstüne çıkış** (1.962,24).
+
+### 7. Oran grafikleri: 20 yıllık döngü
+
+**XAUUSD/NASDAQ** aylıkta iki dip bölgesi işaretlenmiş: 1999-2003 ve 2021-2023, arası
+**tam 20 yıl**; not: *"2021 2022 2023 ALTIN çıkmalıydı"* — döngünün gereği ertelenmiş.
+Yataylar 0,110 ve 0,061; güncel 0,146. Tersi olan **NASDAQ/XAUUSD** oranında taban **4,6**
+(2013, 2016, 2018-2020 ve 2026'da test edildi), tavan **9,0**, güncel 6,3-6,5.
+**GBPJPY aylık** aynı 20 yıllık döngünün somut örneği: 1999-2000 dibi ve 2019-2020 dibi.
+
+### 8. Seviye çağrılarının kaynakları (metin + grafik eşleşti)
+
+| Varlık | Seviye | Kaynak |
+|---|---|---|
+| ETH | **2.460 / 2.570 bandı** üstünde *kalıcılık* (Ağustos 3. hafta) | 15 Haz 2026 tweeti — "2570" çağrısının kaynağı |
+| ETH | 1.746 USD (7 Nisan'a kadar) · 3.460 "Trump robotu" · 3.060 hedef · 1.379 taban | 16 Şub / 8 Kas 2025 / haftalık kanal |
+| ETHTRY | **120.603** — "gerçek hareket burada başlar" | 5 May 2026; Ağustos'ta fitil değdi, kapanış yok |
+| BTC | 84.242,31 · 57.073,99 (5.7) · 107.236,42 · 60 K "üstü kalış pozitif" | günlük grafikler + 7 Haz 2026 |
+| NASDAQ | 40.861,7 hedef · 30.600 vade tepesi · 29.716 kıvrım · 26.360/22.808 destek · **18 K kanal tabanı** | aylık + haftalık + günlük |
+| ALTIN | 4.059,99 kıvrım/destek · 4.280 ikinci kıvrım · gr: 130,6 → 140,6 (10'luk adım) · 84 USD pivot | günlük + 4H |
+| BRENT | **89,60** (önce destek, 25 Ağu'da direnç) | 30 dakikalık |
+| OTHERS.D | %12 tavan / %5 taban, yükselen çizgi ~%7,5-8 = altcoin sezonu şartı | aylık oran |
+
+**Sıradaki iş:** kalan **1.486 görsel** aynı defterle, yeniden eskiye doğru analiz
+edilmeye devam edilecek.
