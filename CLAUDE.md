@@ -102,3 +102,17 @@ bu bir konvansiyon degil, kodla zorlanan bir kural.
 - Arama akisi yanitlari DA dondurur (ekonomikocu'daki abone-ozel kisitlamasi
   burada yok, hesap herkese acik). Ancak sonuc akisi gec dolar: ilk 2-3 scroll
   "ekranda 3-4" gorunur, **erken durdurma**.
+
+## HIZLI FİYAT KONTROLÜ (MagicMA çizgilerini yeniden taramadan)
+
+MagicMA seviyeleri (4H/haftalık indikatör çizgileri) sık değişmez. Mentor oturumlarında "işlem fırsatı var mı" sorulduğunda çizgileri yeniden taramaya (TradingView/Chrome CDP 9222 üzerinden `magicma_yakinlik.py --tara`) gerek YOK — sadece `magicma/magicma_islem_adaylari_TARIH.md` dosyasındaki son çizgi listesi + o anki güncel fiyat karşılaştırılır.
+
+**Önemli kısıt:** Mentor oturumları (claude.ai Project/Cowork) ayrı bir bulut sandbox'ta çalışır; bu sandbox'ın ağ erişimi kısıtlıdır (api.binance.com, query1.finance.yahoo.com gibi ham API'lere doğrudan curl/requests ile erişemiyor — proxy 403 döndürüyor) ve bu depoya git push yetkisi yoktur. O yüzden mentor oturumu güncel fiyatları sadece web arama/fetch araçlarıyla (tarayıcı benzeri) çekebiliyor, ham API ile değil.
+
+Bu nedenle mentor oturumunun hızlı ve güvenilir çalışabilmesi için doğrulanmış kaynak kalıpları:
+- **BIST hisseleri:** `https://infoyatirim.com/borsa/{kod-küçük-harf}-hisse` (örn. OYAKC → `https://infoyatirim.com/borsa/oyakc-hisse`) — hızlı, net tarihli, güvenilir.
+- **Kripto:** `https://www.coingecko.com/en/coins/{slug}` (örn. ARKMUSDT → arkham, SUIUSDT → sui, KASUSDT → kaspa) — hızlı, güvenilir.
+- **ABD hisseleri:** Yahoo Finance (`https://finance.yahoo.com/quote/{TICKER}/`) kullanılabilir ama bazen tutarsız/gecikmeli veri dönebiliyor; piyasa kapalıyken (NY saatiyle 09:30-16:00 dışı) canlı teyit anlamsız.
+- **Forex çaprazları (USDCAD, CADJPY, USDJPY, EURGBP, GBPCHF, EURCHF vb.):** Henüz hem hızlı hem <%0,3 hassasiyette güvenilir bir kaynak bulunamadı (XE ve TradingEconomics'te bayat/cache'li zaman damgaları görüldü). Eğer ileride bu depoda/local makinede (sandbox kısıtı olmadan) çalışacak bir script yazılırsa, ücretsiz/anahtar gerektirmeyen bir forex API'si (örn. Frankfurter, exchangerate.host) düşünülebilir — ama bunu sandbox'tan çalıştıramayız, sadece local makineden (Claude Code / Ida'nın kendi bilgisayarı) çalıştırılabilir.
+
+**Kripto için not (opsiyonel, ileride faydalı olabilir):** MagicMA taramasındaki kripto sembolleri zaten Binance ticker formatında (ARKMUSDT, SUIUSDT, KASUSDT vb.). Local makineden (mentor sandbox'ından değil) `https://api.binance.com/api/v3/ticker/price?symbol=ARKMUSDT` gibi bir çağrıyla anlık/kesin fiyat alınabilir — CoinGecko'dan bile daha kesin. İstersen bunun için basit bir yardımcı script (`magicma/fiyat_kontrol.py`) yazılabilir; mentor oturumu bunu çalıştıramaz ama sen (Ida) local'de saniyeler içinde çalıştırıp çıktısını mentor'a yapıştırabilirsin.
