@@ -7,7 +7,10 @@ import re
 from pathlib import Path
 
 IRRELEVANT_URL_RX = re.compile(
-    r"abs\.twimg\.com/finance|/finance/v1/stock/|profile_images|emoji|card_img",
+    r"abs\.twimg\.com/finance|/finance/v1/stock/|profile_images|emoji|card_img"
+    # X arayuz varliklari: bayrak emojisi, parody-mask vb. SVG ikonlar
+    # (2026-08-26: bunlar .jpg olarak kaydedilip grafik saniliyordu)
+    r"|abs\.twimg\.com/responsive-web/|\.svg(\?|$)",
     re.I,
 )
 

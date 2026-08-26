@@ -1589,6 +1589,20 @@ def row_needs_thread(row: dict) -> bool:
     return bool(re.search(r"#FLOOD|/flood\b", row.get("text") or "", re.I))
 
 
+def _raster_mi(body: bytes) -> bool:
+    """Govde gercekten JPEG/PNG/GIF/WebP mi? X bazen grafik yerine arayuz
+    ikonu/emoji SVG'si donduruyor ve bu .jpg olarak kaydedilince gorsel
+    analizinde okunamiyor (2026-08-26'da 4 dosya boyle bulundu)."""
+    if not body or len(body) < 12:
+        return False
+    return (
+        body[:2] == bytes([0xFF, 0xD8])                       # JPEG
+        or body[:8] == bytes([0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A])  # PNG
+        or body[:6] in (b"GIF87a", b"GIF89a")                 # GIF
+        or (body[:4] == b"RIFF" and body[8:12] == b"WEBP")    # WebP
+    )
+
+
 def download_tweet_media(page, tweet_id: str, urls: list) -> list[str]:
     """Her grafik/foto -> medya/{tweet_id}/graf_01.jpg"""
     if not urls or not tweet_id:
@@ -1631,6 +1645,9 @@ def download_tweet_media(page, tweet_id: str, urls: list) -> list[str]:
                 )
                 with urllib.request.urlopen(req, timeout=45) as resp:
                     body = resp.read()
+            if body and len(body) > 400 and not _raster_mi(body):
+                _log(f"  >> Medya atlandi ({tweet_id} graf_{i:02d}): gorsel degil (ikon/SVG)")
+                continue
             if body and len(body) > 400:
                 path.write_bytes(body)
                 saved.append(str(path.relative_to(ROOT)).replace("\\", "/"))
