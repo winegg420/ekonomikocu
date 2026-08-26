@@ -442,6 +442,25 @@ def click_replies_tab(page) -> None:
         pass
 
 
+# --- Guncel tarama akis sekmesi -------------------------------------------
+# X'te "Gonderiler" sekmesi, hesabin BASKA hesaplara verdigi yanitlari
+# GOSTERMEZ; bunlar yalnizca "Yanitlar" (with_replies) akisinda cikar.
+# Sekme Gonderiler'e sabitlenince o tweetler hic taranmiyordu (26 Agustos
+# 2026: 8 tweet canlida vardi, arsivde yoktu, tarama "+0 yeni" dedi).
+# EKO_AKIS=yanit -> with_replies akisi kullanilir. Bos birakilirsa eski
+# davranis (Gonderiler) aynen korunur.
+AKIS_YANIT = _os.environ.get("EKO_AKIS", "").strip().lower() == "yanit"
+PROFIL_AKIS_URL = PROFILE_URL if AKIS_YANIT else PROFILE_URL_POSTS
+
+
+def click_akis_tab(page) -> None:
+    """Guncel tarama icin dogru profil sekmesini sec."""
+    if AKIS_YANIT:
+        click_replies_tab(page)
+    else:
+        click_posts_tab(page)
+
+
 def pick_profile_page(context) -> object:
     """CDP: en cok tweet olan ekonomikocu sekmesini sec."""
     best = None
@@ -2901,14 +2920,14 @@ def run_scrape(
         page = pick_profile_page(context)
         close_foreign_tabs(context, page)
         active_search = feed_url or SEARCH_URL
-        feed_home = active_search if feed_url else PROFILE_URL_POSTS
+        feed_home = active_search if feed_url else PROFIL_AKIS_URL
         bind_safe_page(page, feed_home)
         try:
             page.bring_to_front()
         except Exception:
             pass
         if "about:blank" in (page.url or "") or PROFILE_HANDLE not in (page.url or "").lower():
-            safe_goto(page, PROFILE_URL_POSTS, reason="baslangic")
+            safe_goto(page, PROFIL_AKIS_URL, reason="baslangic")
 
         since_dt = (
             datetime.fromisoformat(since_date + "T00:00:00") if since_date else None
@@ -2985,18 +3004,18 @@ def run_scrape(
             page = open_working_feed(context, page, feed_url=active_search)
         elif profile_feed_ready(page) and PROFILE_HANDLE in (page.url or "").lower():
             _log("Profil acik — devam (ustte abone tweetleri normal).")
-            click_posts_tab(page)
+            click_akis_tab(page)
             x_clear_error(page)
             page.wait_for_timeout(2000)
         elif page_shows_x_crash(page) or not profile_feed_ready(page):
             page = open_working_feed(context, page, feed_url=active_search)
         else:
-            _log(f"Profil aciliyor: {PROFILE_URL_POSTS}")
+            _log(f"Profil aciliyor: {PROFIL_AKIS_URL}")
             for nav_try in range(2):
                 try:
-                    page.goto(PROFILE_URL_POSTS, wait_until="commit", timeout=120_000)
+                    page.goto(PROFIL_AKIS_URL, wait_until="commit", timeout=120_000)
                     icerik_bekle(page, 5000)
-                    click_posts_tab(page)
+                    click_akis_tab(page)
                     x_clear_error(page)
                     if profile_feed_ready(page) and not page_shows_x_crash(page):
                         break
@@ -3092,13 +3111,13 @@ def run_scrape(
                 page.wait_for_timeout(4000)
                 safe_goto(
                     page,
-                    active_search if use_search_feed else PROFILE_URL_POSTS,
+                    active_search if use_search_feed else PROFIL_AKIS_URL,
                     reason=f"kurtarma-donmus-{phase}",
                 )
                 icerik_bekle(page, 4000)
                 x_clear_error(page)
                 if not use_search_feed:
-                    click_posts_tab(page)
+                    click_akis_tab(page)
                 scroll_feed_deeper(page, passes=6)
                 stuck_recover_count = 0
                 last_recover_tw = None
@@ -3113,9 +3132,9 @@ def run_scrape(
                 x_clear_error(page)
                 scroll_feed_deeper(page, passes=6)
             elif profile_only:
-                safe_goto(page, PROFILE_URL_POSTS, reason=f"kurtarma-{phase}")
+                safe_goto(page, PROFIL_AKIS_URL, reason=f"kurtarma-{phase}")
                 icerik_bekle(page, 3000)
-                click_posts_tab(page)
+                click_akis_tab(page)
                 scroll_feed_deeper(page, passes=6)
             else:
                 ensure_profile_timeline(page)
@@ -3136,7 +3155,7 @@ def run_scrape(
                 page = open_working_feed(
                     context,
                     page,
-                    first_url=PROFILE_URL_POSTS if profile_only else None,
+                    first_url=PROFIL_AKIS_URL if profile_only else None,
                     feed_url=active_search if feed_url else None,
                 )
                 use_search_feed = is_search_feed(page) and not profile_only
@@ -3150,7 +3169,7 @@ def run_scrape(
               if "closed" in err:
                 npage = iyilestir(
                     page,
-                    home_url=active_search if use_search_feed else PROFILE_URL_POSTS,
+                    home_url=active_search if use_search_feed else PROFIL_AKIS_URL,
                     etiket="tarama",
                 )
                 if npage is None:
@@ -3283,7 +3302,7 @@ def run_scrape(
                 page = open_working_feed(
                     context,
                     page,
-                    first_url=PROFILE_URL_POSTS if profile_only else None,
+                    first_url=PROFIL_AKIS_URL if profile_only else None,
                     feed_url=active_search if (period_mode and feed_url) else None,
                 )
                 use_search_feed = is_search_feed(page) and not profile_only
@@ -3325,7 +3344,7 @@ def run_scrape(
                 )
                 save_bookmark(
                     pkey,
-                    feed_url=PROFILE_URL_POSTS,
+                    feed_url=PROFIL_AKIS_URL,
                     scroll_index=i + 1,
                     extra={"mode": "profile_fallback"},
                 )
@@ -3366,9 +3385,9 @@ def run_scrape(
                         f"  >> Takilma ({batch_oldest_scroll.date()}) — "
                         f"profil yenileniyor (eski tarih aramasina gidilmiyor)"
                     )
-                    safe_goto(page, PROFILE_URL_POSTS, reason="stagnation-profil")
+                    safe_goto(page, PROFIL_AKIS_URL, reason="stagnation-profil")
                     icerik_bekle(page, 4000)
-                    click_posts_tab(page)
+                    click_akis_tab(page)
                     x_clear_error(page)
                 else:
                     y, m = batch_oldest_scroll.year, batch_oldest_scroll.month
@@ -3385,9 +3404,9 @@ def run_scrape(
                     for _si in range(12):
                         merge_rows(all_rows, page.evaluate(EXTRACT_JS), page=page)
                         scroll_feed_deeper(page, passes=2)
-                    safe_goto(page, PROFILE_URL_POSTS, reason="stagnation-profil")
+                    safe_goto(page, PROFIL_AKIS_URL, reason="stagnation-profil")
                     icerik_bekle(page, 4000)
-                    click_posts_tab(page)
+                    click_akis_tab(page)
                 stagnation_hits = 0
                 stale = 0
                 recoveries += 1
@@ -3400,9 +3419,9 @@ def run_scrape(
                 elif stale == 5 and not tried_replies:
                     tried_replies = True
                     _log("  >> Profil (Gonderiler) — yanitlar sekmesi yok...")
-                    safe_goto(page, PROFILE_URL_POSTS, reason="stale-profil")
+                    safe_goto(page, PROFIL_AKIS_URL, reason="stale-profil")
                     icerik_bekle(page, 5000)
-                    click_posts_tab(page)
+                    click_akis_tab(page)
                     stale = max(0, stale - 2)
                 elif stale == 8 and not tried_search and not profile_only and feed_url:
                     tried_search = True
@@ -3418,13 +3437,13 @@ def run_scrape(
                         page.wait_for_timeout(2200)
                     added = len(all_rows)
                     _log(f"  >> Arama bitti, toplam {added} tweet.")
-                    safe_goto(page, PROFILE_URL_POSTS, reason="stale-don")
+                    safe_goto(page, PROFIL_AKIS_URL, reason="stale-don")
                     icerik_bekle(page, 4000)
                     stale = 0
                 elif stale in (14, 18) and reloads < 1 and not attached_cdp:
                     print("  >> Sayfa yenileniyor...")
                     ensure_profile_timeline(page)
-                    safe_goto(page, PROFILE_URL_POSTS, reason="stale-don")
+                    safe_goto(page, PROFIL_AKIS_URL, reason="stale-don")
                     icerik_bekle(page, 5000)
                     reloads += 1
                     stale = 0
@@ -3453,7 +3472,7 @@ def run_scrape(
               if "closed" in str(e).lower():
                 npage = iyilestir(
                     page,
-                    home_url=active_search if use_search_feed else PROFILE_URL_POSTS,
+                    home_url=active_search if use_search_feed else PROFIL_AKIS_URL,
                     etiket="tarama",
                 )
                 if npage is None:

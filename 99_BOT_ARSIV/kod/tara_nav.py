@@ -230,7 +230,7 @@ def _url_has_splash_trap(url: str) -> bool:
 
 def recover_splash_via_profile(page, tweet_id: str) -> bool:
     """Siyah X / failedScript — once profile, sonra temiz status URL."""
-    from tweet_tara import PROFILE_URL_POSTS, timeline_tweet_count, x_clear_error
+    from tweet_tara import PROFIL_AKIS_URL as PROFILE_URL_POSTS, timeline_tweet_count, x_clear_error
 
     url = _clean_status_url(tweet_id)
     _log(f"  >> Splash kurtarma (profil -> status): {tweet_id}")
@@ -560,8 +560,8 @@ def wait_status_ready(
 def recover_x_page(page, home: str | None = None) -> None:
     """Takili /status veya splash -> ekonomikocu profil."""
     from tweet_tara import (
-        PROFILE_URL_POSTS,
-        click_posts_tab,
+        PROFIL_AKIS_URL as PROFILE_URL_POSTS,
+        click_akis_tab,
         timeline_tweet_count,
         wait_for_profile_feed,
         x_clear_error,
@@ -585,7 +585,7 @@ def recover_x_page(page, home: str | None = None) -> None:
             page.wait_for_timeout(4000)
             x_clear_error(page)
             if "/search" not in (url or "").lower():
-                click_posts_tab(page)
+                click_akis_tab(page)
                 page.wait_for_timeout(2500)
                 x_clear_error(page)
             page._eko_home = url  # type: ignore[attr-defined]
@@ -612,7 +612,7 @@ def recover_x_page(page, home: str | None = None) -> None:
                 page.reload(wait_until="commit", timeout=60_000)
                 page.wait_for_timeout(3000)
                 x_clear_error(page)
-                click_posts_tab(page)
+                click_akis_tab(page)
                 page.wait_for_timeout(2000)
                 x_clear_error(page)
                 page._eko_home = prof  # type: ignore[attr-defined]
