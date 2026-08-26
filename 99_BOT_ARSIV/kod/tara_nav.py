@@ -401,7 +401,7 @@ def bind_safe_page(page, home_url: str) -> None:
                     finally:
                         page._eko_guard = False  # type: ignore[attr-defined]
             return
-        elif "failedscript" in u.lower() or "/explore" in u.lower():
+        elif "failedscript" in u.lower():
             return
         if url_allowed(u) or status_nav_allowed(page, u):
             if f"/{PROFILE_HANDLE}" in u.lower() and "/explore" not in u.lower():
@@ -630,12 +630,30 @@ def recover_x_page(page, home: str | None = None) -> None:
 
 
 def close_foreign_tabs(context, keep_page) -> None:
-    """Fazla sekmeleri kapat; keep_page=None ise yalnizca yabanci URL sekmeleri."""
+    """Fazla sekmeleri kapat; keep_page=None ise yalnizca yabanci URL sekmeleri.
+
+    SON SEKME ASLA KAPATILMAZ: Chrome'da tek sekme kalmissa onu da kapatmak
+    tarayiciyi komple sonlandirir (CDP kopar, tarama yarida kalir). Bu durumda
+    sekme kapatilmak yerine about:blank'e cekilir."""
     for pg in list(context.pages):
         if keep_page is not None and pg is keep_page:
             continue
         u = pg.url or ""
         if keep_page is None and url_allowed(u):
+            continue
+        acik = [q for q in context.pages if not q.is_closed()]
+        if len(acik) <= 1:
+            try:
+                pg._eko_guard = True  # type: ignore[attr-defined]
+                pg.goto("about:blank", wait_until="commit", timeout=15_000)
+            except Exception:
+                pass
+            finally:
+                try:
+                    pg._eko_guard = False  # type: ignore[attr-defined]
+                except Exception:
+                    pass
+            _log("  >> Son sekme kapatilmadi (Chrome olmesin) — about:blank'e cekildi.")
             continue
         try:
             pg.close()

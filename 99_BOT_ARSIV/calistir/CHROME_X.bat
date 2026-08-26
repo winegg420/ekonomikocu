@@ -50,7 +50,7 @@ if not defined CHROME (
 
 echo Chrome: %CHROME%
 
-start "Chrome Ekonomikocu" "%CHROME%" --remote-debugging-port=9222 --user-data-dir="%SESS%" --lang=tr-TR --disable-features=Translate,TranslateUI https://x.com/ekonomikocu
+start "Chrome Ekonomikocu" "%CHROME%" --remote-debugging-port=9222 --user-data-dir="%SESS%" --lang=tr-TR --disable-features=Translate,TranslateUI about:blank https://x.com/ekonomikocu
 
 exit /b 0
 

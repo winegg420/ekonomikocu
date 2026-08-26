@@ -37,6 +37,17 @@ def aktif_hesap(port: int = 9222, timeout_ms: int = 15000):
                 _log(f"x.com acilamadi: {e}")
                 return None
             handle = None
+            # Soguk acilan Chrome'da sol menu 2,5 sn'de render olmuyordu ve
+            # "HESAP OKUNAMADI" (cikis 4) yanlis alarmi veriyordu. Selektoru
+            # bekle: 20 sn'ye kadar, 1 sn araliklarla.
+            try:
+                page.wait_for_selector(
+                    'a[data-testid="AppTabBar_Profile_Link"],'
+                    '[data-testid="SideNav_AccountSwitcher_Button"]',
+                    timeout=20_000,
+                )
+            except Exception:
+                _log("Sol menu 20 sn'de gelmedi — yine de okumaya calisiliyor.")
             try:  # 1) Sol menu profil linki: href = /<handle>
                 el = page.query_selector('a[data-testid="AppTabBar_Profile_Link"]')
                 if el:

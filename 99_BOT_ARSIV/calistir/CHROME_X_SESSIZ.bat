@@ -18,5 +18,5 @@ if not defined CHROME (
 echo Sessiz Chrome aciliyor (ekran disinda, kismasiz)...
 REM Anti-throttle: ekran disindaki pencerede X feed'i yine de yuklensin diye
 REM arka plan/occluded kisma kapatildi.
-start "Chrome Ekonomikocu Sessiz" "%CHROME%" --remote-debugging-port=9222 --user-data-dir="%SESS%" --lang=tr-TR --disable-features=Translate,TranslateUI,CalculateNativeWinOcclusion --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-renderer-backgrounding --window-position=-32000,-32000 --window-size=1400,1000 https://x.com/ekonomikocu
+start "Chrome Ekonomikocu Sessiz" "%CHROME%" --remote-debugging-port=9222 --user-data-dir="%SESS%" --lang=tr-TR --disable-features=Translate,TranslateUI,CalculateNativeWinOcclusion --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-renderer-backgrounding --window-position=-32000,-32000 --window-size=1400,1000 about:blank https://x.com/ekonomikocu
 exit /b 0
