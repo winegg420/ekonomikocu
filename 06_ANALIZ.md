@@ -2511,3 +2511,36 @@ Yataylar 0,110 ve 0,061; güncel 0,146. Tersi olan **NASDAQ/XAUUSD** oranında t
 
 **Sıradaki iş:** kalan **1.486 görsel** aynı defterle, yeniden eskiye doğru analiz
 edilmeye devam edilecek.
+
+---
+
+## 2026-08-26/27 EK 3 — DIŞ ANALİST GÜNDEMİ (Video 16-18, Koç'un sözü DEĞİL)
+
+> **ATIF UYARISI:** Bu bölümdeki hiçbir seviye/görüş Ekonomikocu'na ("Koç") ait değildir. 3 yeni bağımsız YouTube videosu içerir. "EK 2" bölümündeki 15 videonun devamıdır, numaralandırma oradan sürüyor.
+
+#### 16. Erkan Öz & Meryem Kenan (Dikkat Boğa Çıkabilir) — "Küresel Finans Sistemi Çöküyor mu? Bitcoin İçin Tarihi Kırılma!"
+- İran/Hürmüz Boğazı: ABD askeri tehditten ekonomik yaptırımlara geçti (Bessent). Yorum: Kasım ara seçimine kadar taktik geri çekilme, **seçim sonrası çok daha sert askeri müdahale riski** var. Hürmüz kontrolü İran'a geçerse (yılda ~100 milyar $ ücretlendirme senaryosu) ABD'nin süper güç pozisyonu ve petrodolar sistemi (1971 sonrası dolar-petrol-Körfez güvenlik denklemi) çöker.
+- ABD Hazine tahvil alım programı: basındaki "1 trilyon $" rakamı abartılı — gerçek rakam Hazine'nin genel hesabı (TGA, ~960 milyar $), sadece tahvil alımı için değil. Bessent'in açıklamaları muğlak, net bir "yield curve control" ilanı yok. **Druckenmiller (Bessent'in eski çalışma arkadaşı/akıl hocası) programı "hata" olarak eleştirdi** (Bloomberg) — enflasyonist, asıl yapılması gereken bütçe açığını düşürmek.
+- Borç/GSYH: ABD %100+ (rakam değil oran önemli, Maastricht kriteri %60). Bütçe açığı 2024'ün ilk 10 ayındaki 1,5 trilyon $'dan şu an 1,8 trilyon $'a çıktı — Trump'ın "harcamaları keseceğim" vaadi tutmadı.
+- Cuma Jackson Hole'da bir Fed yetkilisinin (isim net değil) konuşması kritik — QE'ye tarihsel olarak soğuk baktığı aktarılıyor.
+- **Bitcoin**: son 1 haftada %23-30 yükseldi, **81.000$ test etti**. Ana katalizör Trump'ın "Bitcoin alım programını değerlendirebiliriz" söylemi (tahvil programından bile etkili). Teknik seviyeler: **200 günlük ortalama ~69-70K$** (aşağı risk/retest), **365 günlük ortalama ~83K$** (yukarı kırılırsa güçlü yükseliş teyidi). Döngü teorisi: 2027-2029 döngüsel yükseliş dönemi bekleniyor.
+
+#### 17. Barış Soydan — "Fonlara sıkı markaj | Altın neden durdu? | Borsayı Tera+BofA sırtladı"
+- TCMB faiz indirimi sonrası: HSBC 10 Eylül'de bir indirim daha bekliyor, **Bank of America Ekim'de 100 bp indirim + faizin %36'ya inmesini** bekliyor. TLREF %40'tan %37'ye indi, para piyasası fonu (PPF) getirileri düşüyor. İstisnai yüksek getirili PPF'lerin (Teraportföy, Pusula — aylık ~%4) "pay repo" sırrına Borsa İstanbul sınırlama getirdi (ayda bir yenileme zorunlu). Yabancı kurumsal yatırımcıya PPF'lerde ilk kez **%10 stopaj** geliyor (önceden sıfırdı).
+- Tahvil fonları öne çıkıyor: Yapı Kredi Portföy uzun vadeli borçlanma aracı fonu aylık %5,5. 2 yıllık gösterge tahvil faizi Haziran'dan beri ilk kez **%40 altına indi (%39,61)**. Ama uzun vadeli tahviller kısa vadeli kadar tepki vermiyor — seçim dönemi belirsizliği ("ayı çıkar, taş düşer" riski, Mart/İmamoğlu emsalleri) yabancı güvenini sınırlıyor.
+- Altın/gümüş/BTC bugün ~%1 düştü — sebep ABD PCE (yıllık %3,7, %3,6 bekleniyordu), Fed faiz artırım ihtimali %36'dan %40'a çıktı. "Haftanın 2 engeli": bugünkü PCE (1.) + Cuma Jackson Hole (2.). Uzun vadeli altın hedefleri: **TD Securities 5.350$ (orta vade)**, **Morgan Stanley/Bloomberg 5.000$ (2027)**.
+- Petrol 89$'a yükseldi (düşmesi bekleniyordu). Tüpraş çeyreklik kârı %300+ arttı, tanker şirketleri de güçlü kazandı.
+- BIST bugün güçlü: kapanış 14.610 (+%0,95), Halkbank haberi (ABD davası düştü) + tahvil alımı + Türkiye CDS Şubat'tan beri en düşükte (217 bp) itici oldu. Net alım: **Tera Yatırım 5,7 milyar TL, Bank of America 4+ milyar TL**; net satış: İş Yatırım, AK Yatırım. **BIST100 destek 14.530/14.350, direnç 14.730/14.875.**
+
+#### 18. Tunç Şatıroğlu (Kanal Finans) — "PCE Sonrası Piyasalarda Keyifsiz Bir Gün" (Video 8/EK'in takip videosu)
+- ABD PCE: çekirdek beklenti gibi geldi (Fed artırmaz), ama manşet yıllık %3,7 (%3,6 bekleniyordu) — Video 17 ile birebir örtüşüyor.
+- BIST takip seviyesi **14.400'ün altı** (önceki 14.300'den güncellendi — "basamak basamak" ilerliyor).
+- Kripto zarar-kes güncellemesi: **BTC 76.440** (önceki 76.500), **ETH 2.370** (değişmedi). XRP satışa dönmüş görünüyor, 4 saatlikte **1,38 altı** kesin satış sinyali, 1,10'a gelirse "tuzak" (yalancı sinyal) olabilir.
+- ABD borsası seçim-yılı mevsimsellik analizi: en iyi senaryo "bölünmüş kongre" (Cumhuriyetçi başkan+senato, Demokrat meclis). **Eylül ayı riskli** işaretleniyor (kesin değil, olası rüzgar değişimi).
+- Uzay hisseleri listesinin çoğu satışa döndü: SMH, DRAM ETF, NASA, RocketLab (75,45'te), AST SpaceMobile, Intuitive Machines — hepsinde yeni alım önerilmiyor. IGV (yazılım) 101 üzerinde kaldığı sürece hâlâ "al" durumunda. SpaceX satışa dönmedi, olumlu gelişmeler var (Louisiana yatırımı).
+
+### Çapraz teyit notu (Video 16-18 + önceki bulgular)
+- ABD borç/tahvil gerilimi teması artık **YEDİ bağımsız kaynakta** işleniyor (Video 4, 6, 7, 8, 13, 14, 15 + şimdi 16-17).
+- ABD PCE verisinin bugün beklenenden hafif yüksek geldiği (yıllık %3,7) Video 17 ve 18'de birebir aynı rakamla teyitli.
+- Cuma Jackson Hole/Fed konuşmasının kritik olduğu teması Video 15, 16, 17'de ortak.
+- Şatıroğlu'nun (Video 8→18) seviyeleri sürekli güncelleniyor: BIST 14.300→14.400, BTC zarar-kes 76.500→76.440 — "sabit" seviye olarak görülmemeli, en son video baz alınmalı.
