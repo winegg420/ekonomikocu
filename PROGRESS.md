@@ -2145,3 +2145,46 @@ pushla, sonra twitter taraması, analiz edilmemişleri ve görselleri analiz et"
   öğelerin toplam süresinden belirgin şekilde uzun olmalı.
 - Uzun süren üretim işleri (1.500+ görsel) için tek oturumluk plan yerine **defter +
   resume** altyapısı kurmak şart; iş her kesintide sıfırlanmaz.
+
+## 2026-08-27 — magicma/fiyat_kontrol.py (toplu canlı fiyat kontrolü)
+
+### Yapılan
+- Yeni script `magicma/fiyat_kontrol.py`: en son MagicMA taramasındaki çizgileri
+  alıp yüzlerce sembolün **güncel** fiyatıyla karşılaştırıyor, eşik (varsayılan
+  %0,3) içindekileri yakınlığa göre sıralı listeliyor. Çıktı konsola +
+  `magicma/fiyat_kontrol_son.md`'ye (mentor oturumuna doğrudan yapıştırılabilir).
+- Ölçülen kapsama: **747 sembolün 744'ü, ~30 saniyede.** Kapsanamayan 3:
+  CRYPTOCAP:TOTAL, CRYPTOCAP:BTC.D (ücretsiz canlı kaynak yok) ve BIST:ALTIN
+  (Yahoo'da karşılığı yok).
+- CLAUDE.md "HIZLI FİYAT KONTROLÜ" bölümünün sonuna güncelleme + gerçek kaynak
+  notu eklendi (üstteki içerik değiştirilmedi).
+
+### Alınan kararlar ve nedeni
+- **BIST için infoyatirim.com bırakıldı → Yahoo Finance `.IS`.** infoyatirim.com
+  python-requests bağlantısını TLS el sıkışmasında resetliyor (WinError 10054);
+  PowerShell `Invoke-WebRequest` geçiyor ama python geçmiyor, yani script içinden
+  kullanılamıyor. Doğrulama: MPARK.IS = 437,25, tarama fiyatıyla birebir aynı.
+  (infoyatirim mentor oturumu için, tarayıcı/WebFetch ile hâlâ geçerli.)
+- **Seviye kaynağı markdown rapor değil `99_BOT_ARSIV/kod/magicma_ham.jsonl`.**
+  Markdown rapor değerleri 2 ondalığa yuvarlıyor; AUDNZD'nin 1,1946 olan çizgisi
+  raporda "1,19" görünüyor ve %0,3 eşiği forexte tamamen anlamsızlaşıyor. Ham
+  dosyada tam hassasiyet var + `kaynak` alanı borsa bilgisini veriyor. Markdown
+  yolu `--rapordan` bayrağıyla yedek olarak duruyor (kapsama 314/354).
+- **Forex'te Yahoo `=X` birincil, Frankfurter/ECB yedek.** Frankfurter günlük ECB
+  referans kuru döndürüyor — CLAUDE.md'de zaten şikâyet edilen "bayat zaman
+  damgası" sorununun aynısı. Yahoo gün içi veriyor.
+- **Kripto tek borsa değil:** Binance + MEXC + Gate.io + Bybit + OKX + KuCoin
+  toplu ticker uçları (her biri TEK istek, paralel). Sembolün kendi borsası
+  (`kaynak`) önce denenir. "Günün hareketlileri" listesi ağırlıklı MEXC/Gate
+  olduğu için tek Binance ile 434 kripto sembolünün çoğu boşta kalıyordu.
+- **Değerli metaller api.gold-api.com'dan** (ücretsiz, anahtarsız, anlık spot);
+  Yahoo'da XAUUSD=X/XAGUSD=X yok. Vadeli (GC=F) kullanılmadı, baz farkı %0,25
+  eşiğinde yanlış sinyal üretirdi. XAUTRY = XAUUSD × USDTRY olarak hesaplanıyor.
+
+### Çıkarımlar
+- Yahoo v8 chart ucu (`query1.finance.yahoo.com/v8/finance/chart/{kod}`) anahtarsız
+  ve BIST/ABD/endeks/forex/emtia hepsini tek kalıpla veriyor; v7 `quote` toplu ucu
+  ise crumb istiyor (401). Yani "toplu" istek yok, ama 16 iş parçacığıyla 306
+  sembol ~20 sn.
+- Bir sitenin PowerShell'den açılması python'dan da açılacağı anlamına gelmiyor —
+  Cloudflare/TLS parmak izi filtreleri python-requests'i ayırt ediyor.
