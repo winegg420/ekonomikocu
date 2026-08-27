@@ -2295,3 +2295,34 @@ pushla, sonra twitter taraması, analiz edilmemişleri ve görselleri analiz et"
   2023 DXY+faiz baskısı → 2024 BTC ETF. Analiz 06_ANALIZ.md sonuna eklendi.
 - 13 alıntı hâlâ eksik (metin kesik) — ALINTI_TAMAMLA.bat ile tamamlanabilir, tavan/limit
   nedeniyle bu turda 6/13 denendi.
+
+## 2026-08-28 — Görsel defteri TUR 7 (ekonomikocu) + defter kayıt boşluğu kapatıldı
+
+- 53 görsel açıldı: hiç işlenmemiş 11 tanesi (15 Tem + 22–27 Ağu 2026) ve 27 Haz – 2 Tem
+  penceresindeki 42 tanesi. Defter 202 → **336** kayıt.
+- **Bulunan hata:** TUR 4/5/6 oturumlarında analiz 06_ANALIZ.md'ye yazılmış ama
+  `gorsel_analiz.jsonl`'e işlenmemişti; bu yüzden `gorsel_defter.py sirada` aynı görselleri
+  tekrar öneriyordu. 42 görsel tekil analizle, 19–26 Haz arası 81 görsel ilgili bölüme
+  işaretle kapatıldı. **Kural: kaydet() çağrılmadan tur bitmiş sayılmaz.**
+- 06_ANALIZ.md sonuna "GÖRSEL DEFTERİ TUR 7" bölümü eklendi (A–E, 17 madde + canlı seviye
+  tablosu).
+
+### Bu turun kritik bulguları
+1. **ETH 2570'in kaynağı: yıllık +100 USD merdiveni.** 21 Kas 2025 abone tweeti:
+   "2024 = 2360, 2025 = 2460, 2026 da 2570 önemli olur." Teknik seviye değil, takvim kuralı;
+   2027 karşılığı ~2670.
+2. **Üç oran omurgası netleşti:** NASDAQ/XAUUSD 6,3 → **2,7** (2028-29), BTC/ETH 31,99 →
+   **19**, XAUUSD/BTCUSD 0,068 → **0,024** tabanı. Koç'un tezleri fiyattan çok oran üzerinden.
+3. **"Kripto = faiz indirimini geciktirme aracı"** (6 Mar 2024, birinci elden): "dünya dik
+   dursun, faiz indirimleri geciktirilsin."
+4. **84 zinciri kapandı:** 22 Kas 2024 pivot notu → GOLDgr 84,28 kama boynu → BTC 84.477
+   kama boynu → "8 ay geçerlidir" (26 Mar 2025) → Ocak 2026'da gerçekleşti.
+5. **Karne düzeltmesi:** NASDAQ 30600 + DOW 54-57 K çağrısının ilk tarihi **9 Şubat 2026**
+   (28 Mart değil). Ayrıca ALTIN 5300'de kendi hata payı itirafı var.
+6. **NASDAQ notasyonu:** seviyeler çift yazılıyor (30600/30599, 29700/29699 ...); yeşil üst
+   tetik, kırmızı bir alt değer.
+
+### Sırada
+- Kalan 1.102 ekonomikocu görseli, 26 Haz 2026'dan geriye devam (en eski 27 Haz 2020).
+- iriscibre 115, efloud 32 görsel hiç açılmadı.
+- Öğreti merdiveni ölçekleme tablosu hâlâ çıkarılmadı (hangi ürün hangi ondalıkla).

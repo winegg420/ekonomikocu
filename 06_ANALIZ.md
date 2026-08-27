@@ -3258,3 +3258,130 @@ karne kuralının birinci elden kaynağı.
   mülkiyetinde, haritaları açık kaynak — sabotaja açık."*
 - Ted Pillows (@TedPillows) BTC 2021-döngüsü benzetmesi.
 - euronews 28 Şub 2026 İran hava saldırısı başlığı; TrumpTruthOnX Hürmüz açıklaması.
+
+## 2026-08-28 — GÖRSEL DEFTERİ TUR 7 (53 görsel: 27 Haz → 27 Ağu 2026) + defter kayıt boşluğu kapatıldı
+
+> Kaynak: `gorsel_analiz.jsonl` (defter 202 → 336). Bu turda açılan pencere iki parçalı:
+> (a) **hiç işlenmemiş 11 görsel** — 15 Tem ve 22–27 Ağu 2026;
+> (b) 27 Haz – 2 Tem penceresindeki 42 görsel — bunlar TUR 4 metninde işlenmişti ama
+> deftere yazılmamıştı, şimdi tek tek analiz metniyle kaydedildi.
+> Ayrıca 19–26 Haz arası **81 görsel** TUR 5/6 bölümlerine işaretlenerek defter boşluğu kapandı.
+
+### A. YENİ BULGULAR (daha önce hiç açılmamış 11 görsel)
+
+**1) ETH 2570'in kaynağı bulundu: yıllık +100 USD merdiveni.**
+21 Kas 2025 abone tweeti (SS): *"Her sene 100 usd koyuyor üstüne.. **2024 yılı 2360 idi,
+2025 yılı 2460 idi, 2026 da 2570 önemli olur.**"*
+→ Önceki turlarda "2570 kazanç eşiği" diye geçen sayı **teknik bir seviye değil, takvim
+tabanlı bir merdiven**. Aynı kural uzatılırsa **2027 karşılığı ~2670**.
+ETH basamak dizisinin tam hali artık: 1746/1846 → 1936 (robot) → **2360-2460-2570 (yıl
+merdiveni)** → 3060 (DE10Y) → 3300 (gerçek eder) → 6000 (boğa şartı).
+
+**2) NASDAQ/XAUUSD rasyosu: 6,3 → hedef 2,7.**
+Aylık oran grafiği. 2013'ten gelen yükselen ana trend 2025-2026'da iki kez reddedilmiş;
+altta **2,7** seviyesinde uzun yatay bant 2024-2029 boyunca uzatılmış, mavi ok: *"Rasyo
+buraya düşerdi."* → NASDAQ'ın altına karşı **~%57 değer kaybı** senaryosu, vadesi 2028-29.
+Bu, XAUUSD/BTCUSD (0,024) ve XAUUSD/ETHUSD (2,559 → 3,2) ile birlikte **üçüncü oran
+omurgası**; Koç'un tezleri fiyattan çok oran üzerinden kurgulanıyor.
+
+**3) BTC/ETH oranı: 31,99 → hedef ~19.**
+2025 tepesi ~56'dan gelen alçalan direnç ile 2025 dibinden gelen yükselen destek 2026
+sonunda kesişiyor. 2022 dibinden gelen ana trend **~19**'da yeşil bantla işaretli:
+*"ETH şu aşağıdaki boşluğu doldursa iş olur. İzin vermiyorlar."*
+→ "ETH 3300 / 6 K" hedeflerinin **oran karşılığı**: BTCETH 19.
+
+**4) ETHTRY iki ayrı seviye seti, ikisi de canlı.**
+- 1H uzun vade: 2021 dibinden gelen tek trend çizgisi, fiyat 90.489 TL — *"92 bin lirada
+  destekte duruşu"*. Aynı görsel **15 Tem ve 26 Ağu'da iki kez** paylaşıldı → merkezî.
+- Günlük: **120.603 TL** yatayına Ağustos'ta "ulaştı"; ortadaki OBO için *"Obo bilinçli
+  bozuldu."* (Bu, "OBO'ları bilerek bozuyorlar" tezinin TRY tarafındaki örneği.)
+
+**5) "Kripto = faiz indirimini geciktirme aracı" — birinci elden kaynak (6 Mar 2024).**
+*"2022'de savaş çıkıyor. 2023'te ABD kriptolara sürekli sallıyor, önlerini açmıyor; DXY +
+faizin gücüne karşı gelecek her şeyi masadan itiyor. 2024'e geliyoruz, ABD kriptoların
+önünü açıyor. Neden? Çünkü dünya faiz indirimini fiyatlamaya başladı. Yani dünya piyasaları
+düştüğü an faiz indirimi masaya gelir. **ABD de kriptolara onay veriyor: dünya dik dursun,
+faiz indirimleri geciktirilsin.**"*
+→ 27 Ara 2025'teki *"anca bir olay olacak korkusuyla faizler çakılacak"* ile aynı mekanizma;
+kripto burada **piyasayı ayakta tutan tampon** olarak tanımlanıyor.
+
+**6) Altının saklanması Rusya için değildi (8 Mar 2022).**
+*"#GRAM 500 lirayken 1080 demiştim, bize özgü diye uyarmıştım; kur yukarı gitti ve 1080 o
+dönem geldi. **Ons içinse majör bir ülkenin problemi için saklıyorlar** dedim. Ama bana göre
+bu iş için hâlâ erken ve bu ülke **RUSYA olmamalıydı**, araya girdiler."*
+→ Altın yükselişinin planlı ve **başka bir ülke krizine** ayrılmış olduğu tezi; Rusya'nın
+takvimi öne çektiği iddiası. GRAM 1080 çağrısı ayrıca **tutmuş bir karne kaydı**.
+
+**7) ETHUSD'de 5 Nisan 2021 kırılımı grafikle işaretlendi** (simetrik üçgen, ~1900 yeşil
+balon). 27 Ağu zincirindeki *"ABD savaşın çıkacağını anladığı anda kriptoları devreye aldı"*
+iddiasının grafik dayanağı. Yanındaki 5 Nis 2021 tweeti: *"IMF uyarmış dünya 2013 gibi
+olabilir... Rusya Ukrayna'sından tut, **haber akışları bile kopya**."*
+
+**8) "Bir yıl zaman geçirdiler" (24 Tem).** *"Geçen sene DXY kaldırmadı da bu sene Temmuz'da
+kaldırdı. Hâlâ anlaşamadılar, bence YALAN konuşuyorlar."* → DXY'nin Temmuz'da kaldırılması
+"anlaşma yok" kanıtı sayılıyor; süre uzatma öğretisinin (9 Eki 2023) 2026 halkası.
+
+### B. TUR 4 penceresinin tekil kayıtları (42 görsel) — pekişen/düzelen noktalar
+
+9. **84 zinciri artık dört ayrı kaynakla kapalı:**
+   22 Kas 2024 (*"altında 84 USD pivot olduğuna göre BTC'de 84 K'yı önemser"*) → GOLDgr
+   günlükte 84,28 kama boynu (30 Ara 2024 kırılımı, sonrasında 140'a dikey) → BTC günlükte
+   **84.477 kama boynu** (7 Nis 2025 kırılımı) → 26 Mar 2025 *"84 altı dayak, üstü prim,
+   **8 ay boyunca geçerlidir**"* → BTC haftalıkta Ocak 2026'da 84 K çakılıp altına inildi.
+   **Sayı önce altında doğdu, sonra BTC'ye taşındı; süre formülü tuttu.**
+10. **"Yarış/sıra" kuralı (16 Nis 2025):** *"Önce BTC 100 K üstüne çıktı, o esnada ALTIN 84
+    USD civarı bekletildi. Şimdi ALTIN 107 USD oldu, **BTC 84'e çekilip bekletiliyor**.
+    #yarış var dedik ya!"* → İki ürün aynı sayıyı **sırayla** kullanıyor: biri beklerken
+    diğeri koşuyor. Ondalık kaydırma öğretisinin zaman boyutu.
+11. **NASDAQ notasyonu çözüldü:** H4'te seviyeler **çift yazılıyor** — 30600/30599,
+    29700/29699, 28200/28060, 27600/27599. Yeşil = üst tetik, kırmızı = bir alt değer.
+    22 May 2026 abone kuralı: *"29400 üstündeyse dokunma; Pazartesiden itibaren 29700
+    üstündeyse dokunma. Bunların altı satış, **üstü diri kalır**."*
+12. **26 K yatayı iki ayrı barış haberinde çalıştı** (NASDAQ günlük): *"ABD-İRAN barışı 2025"*
+    (Haz 2025) ve *"ABD-İRAN barışı 2026"* (Nis 2026) aynı çizgide etiketli.
+    → Haber-seviye eşleşmesinin en temiz kanıtı.
+13. **Karne düzeltmesi:** NASDAQ 30600 + DOW 54-57 K çağrısının **ilk tarihi 9 Şubat 2026**
+    (arşivdeki 28 Mart kaydından ~7 hafta önce). Ayrıca ALTIN çağrısında kendi hata payı
+    itirafı (10 Oca 2026): *"5300 yazdım ama 5600 gördü; aslında grafik 5600 diyordu, ben
+    başka bir varlıkla kıyasladım."* → **Oran/kıyas yöntemi tekil grafikten sapma üretiyor.**
+14. **Gümüş pozisyonu açıkça yazılı (24 May 2026, abone):** *"Ben gümüş satış deniyorum.
+    Burada kazanacaksam BTC nasıl ayrışıp yukarı gidecek? Ya da BTC yukarı gidecekse ben
+    gümüşte dayak yiyeceğim."* + *"Gümüşe endeksleme yapılmış gibi bir yapı var; 73-74 USD
+    bandında tepki üretiyor, BTC de bunu yapıyor — kısır döngü."*
+    → Arşivdeki **en net pozisyon itiraflarından biri**; gümüş-BTC "aynı el" tezi.
+15. **1-2 Tem 2026 gümüş serisi (canlı ekranlar):** 57,04 destek (H1'de yeşil bant, tuttu) →
+    59,04 → 60,17 → **61,96**. ABD-ÇİN görüşmesinde gümüş **90 USD**, BTC **82 K** aynı anda
+    tavan yapıp döndürülmüş. *"84 K'ya yanaştırılmadı; çünkü üstü kaldığı an yükselir."*
+16. **GBPJPY 2027 simetrisinin üçüncü paylaşımında yeni ayrıntı:** kırmızı hareketli ortalama
+    **"Faiz" diye etiketli** (iki dip penceresinde de). → GBPJPY eğrisi Koç'un modelinde
+    doğrudan **faiz eğrisi** yerine geçiyor; *"7 yılınız nasıl çalınacak"* ifadesiyle
+    2020-2027 aralığı "kayıp dönem" olarak tanımlanıyor (13 Haz 2021: *"1-5 yıllık periyotta
+    iyiye giden bir şey görmüyorum"* → "Kayıp 5 yıl").
+17. **XAUUSD/BTCUSD oranı dört ardışık görselde** işlendi (0,024 taban = "ALTIN UCUZ",
+    0,068 güncel, 2023 tepesi 0,11, bozulma nedeni "Bitcoin ETF + ABD seçimi", 2027 için
+    dip-sonra-yükseliş projeksiyonu). Arşivdeki en yoğun tekrar → **omurga sayılmalı.**
+
+### C. Defter sağlığı (bu turda düzeltildi)
+- `gorsel_analiz.jsonl` 202 → **336** kayıt. TUR 4/5/6 oturumlarında analiz **06_ANALIZ.md'ye
+  yazılmış ama deftere işlenmemişti**; bu yüzden `gorsel_defter.py sirada` aynı görselleri
+  tekrar öneriyordu. 42 görsel tekil analizle, 81 görsel ilgili bölüme işaretle kapatıldı.
+- **Kural:** her tur sonunda `gorsel_defter.kaydet()` çağrılmadan tur bitmiş sayılmaz.
+- Bekleyen: **1.102 ekonomikocu** (26 Haz 2026 → 27 Haz 2020) + 115 iriscibre + 32 efloud.
+
+### D. Canlı takip listesi (28 Ağu 2026 itibarıyla izlenecek)
+| Ürün | Seviye | Kaynak |
+|---|---|---|
+| ETHUSD | **2570** (2026 yıl merdiveni), 3060, 3300, 6000 | 21 Kas 2025 abone |
+| ETHTRY | **90.600–92.000 TL** (uzun trend), 120.603 TL (yatay) | 15 Tem / 22 Ağu |
+| NASDAQ | **29700/29699** (dokunma eşiği), 30600, 28200/28060, 27600, 26 K | 22 May 2026 |
+| BTCUSD | **84 K** (8 ay kuralı doldu), 82 K, 70 K | 26 Mar 2025 |
+| XAGUSD | **57 USD** destek, 73-74 bandı, 90 USD tavan | 1 Tem 2026 |
+| NASDAQ/XAUUSD | 6,3 → **2,7** | 25 Ağu 2026 |
+| BTC/ETH | 31,99 → **19** | 25 Ağu 2026 |
+| XAUUSD/BTCUSD | 0,068 → **0,024** tabanı | 30 Haz 2026 |
+
+### E. Dış kaynak (Koç'un sözü DEĞİL — 11_DIS_KAYNAKLAR kapsamı)
+- **StrategyTracker.com**, 28 Haz 2026: Strategy **847.363 BTC**, ort. maliyet **75.653 USD**,
+  rezerv 50,88 milyar USD, **-%20,63** (-13,2 milyar USD), 113 alım olayı.
+- **CNBC Squawk Box** karesi (Oca 2021): EURUSD 1,2343 / USDJPY 102,83 / GBPUSD 1,3625,
+  "TECH TAKES A TUMBLE — INVESTORS EYE GEORGIA RACES".
