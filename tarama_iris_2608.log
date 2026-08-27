@@ -375,3 +375,14 @@ GUNCEL TARAMA BITTI
 ==================================================
 [paket] @iriscibre: siniflandirma/paket adimlari atlandi (ham arsiv modu)
 + git remote set-url origin https://github.com/winegg420/ekonomikocu.git
++ git add -A
++ git diff --cached --quiet
++ git commit -m @iriscibre tarama: +54 kayit (son: 2026-08-26T14:31:54) [otomatik]
+[main 541c749] @iriscibre tarama: +54 kayit (son: 2026-08-26T14:31:54) [otomatik]
+ 6 files changed, 196 insertions(+), 4 deletions(-)
++ git push -u origin main
+To https://github.com/winegg420/ekonomikocu.git
+   b92bb6b..541c749  main -> main
+branch 'main' set up to track 'origin/main'.
+GitHub guncellendi: https://github.com/winegg420/ekonomikocu.git
+[LFS] Depo kullanimi: 861 MB / 1024 MB (%84) | 163 MB bos | kullanim SABIT (2026-08-02'den beri tarama LFS'e yeni surum eklemiyor)
