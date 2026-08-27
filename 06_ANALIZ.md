@@ -2761,3 +2761,201 @@ masaya sürülen araç** olarak tarif ediliyor.
    hiç analiz edilmedi (bu hesaplar için 06_ANALIZ'de hiç bölüm yok).
 4. **ETH 2570 ve NASDAQ 29.716** — ikisi de %2'nin altında mesafede. Bir sonraki mentor
    oturumunda ilk bakılacak iki seviye bunlar.
+
+---
+
+## 2026-08-27 — GÖRSEL DEFTERİ TUR 3 (50 görsel: 4 Tem → 17 Tem 2026)
+
+> **Kaynak:** `gorsel_analiz.jsonl`, ekonomikocu, yeniden eskiye. Tur 2'nin bıraktığı
+> yerden **4 Temmuz – 17 Temmuz 2026** arasındaki **50 görselin tamamı** açıldı.
+> Defter: 152 → **202 analizli**, kalan **1.372** (ekonomikocu 1.225 · iriscibre 115 ·
+> efloud 32). Fiyat karşılaştırmaları 27 Ağustos 2026 canlı verisiyle.
+
+### 1. ⭐⭐⭐ SEVİYELERİN SAYISAL KÖKENİ: 3060 ve 4570 TAHVİL FAİZİDİR
+
+Bu turun — muhtemelen tüm defterin — en değerli tek görseli `2076639000425594922`.
+Kırpılmış bir fiyat terminali ekran görüntüsü; içinde üç satır var:
+
+```
+JPYUSD   0,006168
+DE10Y    3,061   +0,022  %0,73     ← Almanya 10 yıllık tahvil faizi
+US10Y    4,577   +0,016  %0,35     ← ABD 10 yıllık tahvil faizi
+```
+
+Tweet metni: *"Majör ülkelerin **#FAİZ dengelerine** bakalım. **Avrupa = 3060, ABD = 4570.**
+Anlamı = faiz dengeleri..."*
+
+Bu, arşivde yıllardır dolaşan iki sayının kaynağını kapatıyor:
+
+| Seviye | Nerede geçiyor | **Gerçek kaynağı** |
+|---|---|---|
+| **3060** | ETHUSD haftalık üst kanal çizgisi; *"3060 altı negatiftir"* | **Almanya 10Y faizi = 3,061** |
+| **4570** | Altın seviyesi (önceki turda "US10Y" olduğu tahmin edilmişti) | **ABD 10Y faizi = 4,577** — teyitlendi |
+
+Önceki bir turda "4570 = US10Y" tahmini yapılmıştı; bu görsel onu **birinci elden
+kanıtlıyor** ve yanına 3060'ı ekliyor. Yöntem şu: majör tahvil faizi ondalık kaydırılıp
+(3,061 → 3060 / 4,577 → 4570) doğrudan ürün seviyesi olarak kullanılıyor.
+
+**Bugün US10Y 4,664** — 4570 hâlâ canlı bir referans, %2 üstünde.
+
+### 2. ⭐⭐⭐ "2027" HEDEFİNİN TEKNİK KAYNAĞI: GBPJPY SİMETRİSİ
+
+Arşivde 2027 tarihi sık geçiyordu ama dayanağı yoktu. `2077453460878864761` ve
+`2077072943859765659` (GBPJPY aylık, 1995-2026) bunu çözüyor — iki kırmızı kutu, iki ok:
+
+| Dip penceresi | → | Zirve |
+|---|---|---|
+| **1 Haziran 1999 – 1 Ekim 2000** (~150) | → | **2007** (~250) |
+| **1 Haziran 2019 – 1 Ekim 2020** (~124) | → | **2027** (?) |
+
+Yani 2027, GBPJPY'nin bir önceki dip→zirve süresinin birebir kopyalanmasıyla çıkıyor.
+Dikkat çekici ayrıntı: **her iki dip penceresi de Haziran–Ekim aralığı** — 60/90 günlük
+takvim sisteminin uzun vadeli karşılığı.
+
+GBPJPY neden? `2077123609886114124` ve `2077116399042834855` cevabı veriyor:
+*"Bu grafik 6. yılında ne zaman düşse **#bitcoin devreye girdi**"* — 2010, 2017 ve 2020
+GBPJPY diplerinin üçünde de BTC'nin devreye girdiği, 2023-24 atağının *"BTC ETF süreci"*,
+2025 sonunun *"kripto haftası"* olduğu işaretlenmiş. GBPJPY (yen carry trade) burada
+küresel likiditenin göstergesi, BTC ise onu kurtarmak için kullanılan araç.
+
+### 3. ⭐⭐⭐ ETH'NİN "EDERİ" 3300 — tüm kripto değerlemesinin kriteri
+
+`2076080051838239065` (20 Oca 2025, üç tweetlik zincir):
+
+> *"Benim gözümde **ETH'nin ederi 3300 zaten.** Coinlere de ona göre değer biçiyorum.
+> Üstü ekstraya giriyor kazanç olarak."*
+> *"Ben **BTC'yi baz almam** piyasaya girerken."*
+> *"Yani siz kriptoya girerken ETH'de **3300'ü baz alacaksınız. Bunun üstü prim, altı
+> zaman kaybı veya kayıptır.** Buna göre yönetim yaparsanız kafanız rahat olur."*
+
+Tweet başlığı: **"#ETH Kriterdir."**
+
+Bu, Tur 2'de bulunan ETH 2570 eşiğinin üstündeki katmanı açıklıyor. Basamak sırası artık
+tam: **1846 → 1936 (robot) → 2570 (kazanç eşiği) → 3060 (Almanya faizi/kanal) →
+3300 (gerçek eder)**. Bugün ETH 2.535 — 2570'in hemen altında, 3300'ün %23 altında.
+
+### 4. ⭐⭐ ÖĞRETİ MERDİVENİ BİR BIST HİSSESİNDE
+
+`2076657094745370896` — MSGYO (Mistral GYO) 4 saatlik, metin: *"Tüm öğretileri burada
+gördüm."* Grafikte dört basamak işaretli:
+
+**10,6 · 8,4 (gap) · 6,06 (gap) · 5,7**
+
+Bu, öğreti merdiveninin (57-60-68-76-84-92-106-125) **ondalık kaydırılmış hali**:
+5,7 → 57 · 6,06 → 60 · 8,4 → 84 · 10,6 → 106. Yani aynı basamak dizisi hisse fiyatına
+ölçeklenerek uygulanıyor. Aynı gün `2077803287907078625`'te gümüş için de yazıyor:
+*"#GÜMÜŞ trendi çizgisi **57 dolar. 5.7 öğretisi** ve altına aldılar."*
+Ve `2076622886337397171`'de altın için: *"**140.60 = 6 öğretisi**..."*
+
+Merdivenin ürün bazında ölçeklenmesi ilk kez bu kadar açık görülüyor.
+
+### 5. ⭐⭐ 27600 = "FİLM BURADA YAPILDI"
+
+`2078152492915822886` / `2076978160088879206` (NASDAQ H4) — 27600 robotunun **neden**
+o seviyede olduğunu açıklıyor. Nisan 2026 konsolidasyonunu işaretleyip yanına yazmış:
+
+> *"**FİLM burada yapıldı.. Sakın unutma... 27600...**"*
+> *"Nisan ayı... **Hürmüz açıldı + barış + ÇİN görüşmesi**.."*
+> *"Daha sonrası **YATAY ve zamana oynama**..."*
+
+Yani 27600 teknik bir seviye değil, **üç haberin aynı anda verildiği sahnenin fiyatı**.
+Sonrasında yatay seyir = zaman geçirme. Bu, robot kavramını haber takvimine bağlıyor.
+
+Aynı grafikte kırmızı düşen trend (26 Mayıs tepesinden) tam 27.602 mavi yatayına iniyor —
+çift teyit.
+
+### 6. ⭐⭐ 60/90 GÜN SAYACININ İLERİYE DÖNÜK KULLANIMI
+
+`2073456618029666682` (30 Nisan 2026) sistemin **tahmin aracı** olarak çalıştığı en net
+örnek:
+
+> *"Çin'den sonra ABD **PETROL** dedi. Dünya şu an bunu izliyor. **Henüz 60 gün oldu.
+> Ortalama aşağı yukarı 90 gün izletseler 30 günü kaldı.** Bende zaten **#Temmuz**'dan
+> önce bir şey beklemiyorum demiştim."*
+
+30 Nisan + 30 gün = Haziran başı; "Temmuz'dan önce bir şey yok" tahmini **tuttu** —
+Temmuz'da ETH/kripto hareketi geldi.
+
+Eşlik eden kayıt `2073456505861353770` mekanizmayı adlandırıyor:
+*"ÇİN #gümüş dedi ve dünya **en az 3 ay** bunu izledi. Gümüş aşağı gümüş yukarı, doğru
+muyum? **Algı bu tarafa kaydı.**"* — bir ürün seçilip 3 ay gündemde tutuluyor, diğerleri
+unutuluyor.
+
+Ve `2076300056123027663` (el çizimi "Yıl analizi" şeması) yıl içi şablonu veriyor:
+**2026 Ocak coştur → yıl ortası düşürmek zorunda kal → 2026 Aralık yine kaldır.**
+Not: *"Acı çektirmeyen zaman yönetimi... Yılı böyle mi kullanıyorlar?"*
+
+### 7. ⭐ "ALTIN = GERGİNLİK, SAVAŞ, KAOS"
+
+`2076088530669818034` (19 Haz 2025) — arşivi okumanın anahtarı olabilecek kavram eşitliği:
+
+> *"Tabi ben ALTIN diyorum ama **ALTIN = gerginlik, savaş, kaos demektir.** Ocak ayı
+> attığım flood içinde Temmuz'a kadar altın kanadını çözdüler çözdüler derken aslında
+> **savaşı çözdüler** çözdüler demem lazımdı. Ben biraz hızlı yazdığım için Altın dedim."*
+
+Arşivde "altın" geçen çağrıların bir kısmı fiyat değil **jeopolitik gerginlik** öngörüsü.
+Bunu bilmeden okumak yanlış karneye yol açar.
+
+### 8. NASDAQ/XAUUSD oranı — ikinci oran grafiği
+
+`2076641728757457263`: NASDAQ'ın altın cinsinden fiyatı (2007-2026).
+*"TRUMP başkan olduğunda #nasdaq #XAUUSD oranı **9.2** idi."*
+
+| Dönem | Oran |
+|---|---|
+| 2025 (Trump başlangıcı) | **9,2** |
+| 2026 dibi | 4,7 |
+| 14 Tem 2026 | 7,3 |
+| **27 Ağu 2026** | **6,36** ↓ |
+
+Tur 2'deki NASDAQ/gümüş oranıyla aynı yöntem. İkisi de aynı şeyi söylüyor: **NASDAQ dolar
+cinsinden zirveye yakın ama sert varlıklar cinsinden düşüyor.**
+
+### 9. Bu turun karnesi — 27 Ağustos 2026 fiyatlarıyla
+
+| # | Çağrı (görsel + tarih) | Bugün | Sonuç |
+|---|---|---|---|
+| 1 | **NASDAQ 30 K + DOW 54 K zemini hazırlanacak** (28 Mar 2026) | 12 Tem'de ikisi de görüldü | ✅ **TUTTU** — kendi teyidi: *"NASDAQ 30 K gördü. DOW 54 k gördü."* |
+| 2 | **BTC 126 K, "ne 124 ne 127, nokta 126"** (2 Haz 2025) | 125.000 görüldü | ✅ **TUTTU** (`2075343080035676337` ekran kanıtı) |
+| 3 | "Temmuz'dan önce bir şey beklemiyorum" (30 Nis 2026) | Temmuz'da hareket geldi | ✅ **TUTTU** |
+| 4 | BTC 64.600 robot, *"verdiğim rakamlar kanun gibi davranıyor"* | 79.877 | ✅ değdi, sonra aşıldı |
+| 5 | NASDAQ 27600 "film seviyesi" | 29.224 | ✅ üstünde tutuldu |
+| 6 | BTC 65.700 *"altı baskı yiyor"* (14 Tem) | 79.877 | ✅ yukarı kırıldı |
+| 7 | Gümüş 57 $ trend çizgisi, *"altına aldılar"* | **68,53 $** | ✅ trend geri alındı |
+| 8 | ETHTRY 75.769 *"yıl başı seviyesi"* | 122.050 | ✅ çok üstünde |
+| 9 | **XAGTRYG Eylül'de 86 lira kesişimi** (13 Tem) | **106,05 TL** | 🔴 **CANLI** — fiyat üst trende (106) geldi, alt kesişim (86) uzak kaldı |
+| 10 | **ETH 3300 "gerçek eder"** (20 Oca 2025) | **2.535** | 🔴 **CANLI** — %23 altında |
+| 11 | **XAUUSD 4376 direnci** (13 Tem) | **4.597** | ✅ aşıldı |
+| 12 | **US10Y 4570 dengesi** | **4,664** | ⏳ %2 üstünde, izlemede |
+| 13 | GBPJPY 2027 zirve simetrisi | — | ⏳ uzun vade |
+
+**Dikkat çeken:** 13 Temmuz'da gümüş gram için verilen **106 lira üst trend** hedefi
+bugün tam olarak fiyatın kendisi (106,05 TL). Aynı grafikteki Eylül/86 lira kesişimi ise
+artık aşağıda kaldı — yani fiyat üst banda gitti, alt banda değil.
+
+### 10. Tekrarlar ve arşiv notu
+
+Bu turdaki 50 görselin **11'i tekrar** (aynı SS/grafik farklı günlerde yeniden paylaşılmış):
+GBPJPY 2027 simetrisi ×2, NASDAQ 27600 ×2, BTC H4 65700 ×2, altın robot listesi ×2,
+2 Haz 2025 enflasyon farkı ×3, karikatür ×2, Cornomorsk haberi ×2, gemi yanaştırma ×2.
+Defter dosya bazında tekil tuttuğu için sorun çıkmıyor; analiz metnine *"X ile aynı"* notu
+düşüldü. **Tekrar sıklığı bir sinyal:** Koç bir kaydı ne kadar çok yeniden paylaşıyorsa
+o kadar merkezî sayıyor — bu turda en çok tekrarlanan üç şey enflasyon farkı kuralı,
+27600 ve altın robot listesi.
+
+Ayrıca 3 görsel piyasa içeriği taşımıyor (iki kişisel fotoğraf — inek/yeşil vadi,
+"NATO zirvesini uzaktan izliyorum" notuyla — ve bir Binance uygulama ikonu).
+`2073329509495963919`'daki ETH 8.330 $ ekranı **gerçek fiyat değil**, temsili/kurgu bir
+görüntü (o tarihte ETH ~1.800 idi); metin zaten *"Sadece rakamlar değişecek, insanlar
+aynı"* diyor.
+
+### 11. Açık işler / sonraki turda aranacak
+
+1. **Kalan 1.225 ekonomikocu görseli** — sıradaki tur 4 Temmuz'dan geriye devam.
+2. **Faiz-seviye eşleşmesi genişletilmeli:** 3060=DE10Y, 4570=US10Y bulundu. Japonya
+   (JP10Y), İngiltere (UK10Y) için de benzer eşleşme var mı — arşivde başka faiz ekranı
+   SS'i aranmalı.
+3. **Öğreti merdiveni ölçekleme kuralı yazılmalı:** 5,7/6,06/8,4/10,6 (MSGYO), 57 (gümüş),
+   140,6 (altın gram) — hangi ürün hangi ondalık kaydırmayla okunuyor, tablo çıkarılmalı.
+4. **ETH 3300 ve XAGTRYG 106** — Tur 2'nin canlı tetiklerine (ETH 2570, NASDAQ 29.716)
+   eklendi. Mentor oturumunda bu dört seviye birlikte izlenmeli.

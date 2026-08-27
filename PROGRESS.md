@@ -2234,3 +2234,53 @@ pushla, sonra twitter taraması, analiz edilmemişleri ve görselleri analiz et"
   kayitlarinda yeni robot kaydi aranmali.
 - iriscibre (115 gorsel + 54 hic analiz edilmemis metin kaydi) ve efloud (32 gorsel)
   hic acilmadi; bu hesaplar icin 06_ANALIZ'de hic bolum yok.
+
+
+## 2026-08-27 (2) — Gorsel defteri Tur 3 (ekonomikocu)
+
+- 4 Tem - 17 Tem 2026 arasi **50 gorsel** acildi. Defter 152 -> 202, kalan 1.372
+  (ekonomikocu 1.225 / iriscibre 115 / efloud 32).
+- 06_ANALIZ.md'ye "GORSEL DEFTERI TUR 3" bolumu eklendi (11 alt baslik).
+
+### Bu turun uc kritik bulgusu
+1. **3060 ve 4570 TAHVIL FAIZIDIR.**  bir fiyat terminali SS'i:
+   DE10Y 3,061 / US10Y 4,577. Metin: "Avrupa = 3060, ABD = 4570". Yani ETH'nin 3060
+   kanal cizgisi Almanya 10 yillik faizi, altinin 4570'i ABD 10 yillik faizi.
+   Onceki turda "4570 = US10Y" TAHMIN edilmisti — bu birinci elden kanit + 3060 eklendi.
+   Yontem: majör tahvil faizi ondalik kaydirilip dogrudan urun seviyesi yapiliyor.
+2. **2027 hedefinin kaynagi GBPJPY simetrisi.** 1 Haz 1999-1 Eki 2000 dibi -> 2007 tepe;
+   1 Haz 2019-1 Eki 2020 dibi -> 2027. Iki dip penceresi de HAZIRAN-EKIM (takvim
+   sisteminin uzun vadeli hali). GBPJPY = yen carry = kuresel likidite gostergesi;
+   her dibinde BTC devreye giriyor (2010/2017/2020).
+3. **ETH kriteri 3300.** 20 Oca 2025: "ETH'nin ederi 3300 zaten, coinlere ona gore
+   deger biciyorum. BTC'yi baz almam. Ustu prim, alti zaman kaybi." Basamak dizisi tam:
+   1846 -> 1936 robot -> 2570 kazanc esigi -> 3060 (DE10Y) -> 3300 (gercek eder).
+
+### Cikarim / kural
+- **Ogreti merdiveni urun bazinda ondalik kaydirarak olcekleniyor.** MSGYO'da 5,7/6,06/
+  8,4/10,6; gumuste 57 dolar ("5.7 ogretisi"); altin gramda 140,6 ("6 ogretisi").
+  Ayni dizi (57-60-68-76-84-92-106-125) her urune farkli ondalikla uygulaniyor.
+- **"ALTIN = gerginlik, savas, kaos demektir"** (19 Haz 2025, kendi agziyla). Arsivde
+  "altin" gecen cagrilarin bir kismi fiyat degil JEOPOLITIK ongoru. Karne cikarirken
+  bunu ayirt et yoksa yanlis puanlarsin.
+- **27600 teknik seviye degil, sahne fiyati:** "FILM burada yapildi, Nisan: Hurmuz
+  acildi + baris + CIN gorusmesi". Robot kavrami haber takvimine bagli.
+- **Tekrar sikligi bir sinyal.** 50 gorselin 11'i tekrar paylasim. En cok tekrarlananlar:
+  enflasyon farki kurali (x3), 27600 (x2), altin robot listesi (x2). Cok tekrarlanan =
+  merkezî sayilan.
+- Tur 3'te 3 gorsel piyasa icerigi tasimiyor (2 kisisel fotograf + 1 Binance ikonu).
+  Bir gorsel .png uzantili (2076100195947827609) — defter .png de sayiyor, dosya adini
+  varsayma.
+
+### Canli tetikler (27 Agu 2026)
+- ETHUSD 2.535 vs **2570** kazanc esigi (%1,4 alti) ve vs **3300** gercek eder (%23 alti)
+- NASDAQ 29.224 vs **29.716** OBO boyun cizgisi (%1,7 alti)
+- XAGTRYG 106,05 TL vs **106 lira** ust yesil trend — TAM USTUNDE
+- US10Y 4,664 vs **4570** dengesi (%2 ustu)
+- Karne: 8 tuttu/asildi, 2 canli, 3 izlemede. En carpici: 28 Mar 2026'da verilen
+  "NASDAQ 30K + DOW 54K" cagrisi 12 Tem'de ikisi birden gerceklesti.
+
+### Sirada
+- Kalan 1.225 ekonomikocu gorseli, 4 Temmuz'dan geriye devam.
+- Faiz-seviye eslesmesi genisletilmeli: JP10Y / UK10Y icin de faiz ekrani SS'i ara.
+- Ogreti merdiveni olcekleme tablosu cikarilmali (hangi urun hangi ondalikla).
