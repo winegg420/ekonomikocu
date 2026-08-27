@@ -21,6 +21,11 @@ yok, dogrudan API'lere erisebilir:
     (AUDNZD -> AUDNZD=X), endeksler icin el ile eslesme (SPX -> ^GSPC vb).
   - Degerli metal (XAUUSD/XAGUSD/XPTUSD/XPDUSD/XAUTRY): api.gold-api.com
     (ucretsiz, anahtarsiz, anlik spot). Yahoo'da bu spot semboller YOK.
+    DIKKAT: bu uc bazen saatlerce eski fiyat donduruyor (olculdu: platin 15 sa,
+    gumus 17 sa). Bu yuzden yanittaki `updatedAt` okunur; METAL_MAX_YAS_DK
+    (varsayilan 15 dk) esiginden yasli fiyat BAYAT sayilir, sonuca ALINMAZ ve
+    hem konsolda hem fiyat_kontrol_son.md'de tek satirlik [METAL] ozetinde
+    kac sembolun atlandigi bildirilir.
   - Forex yedegi: Frankfurter (ECB, ucretsiz/anahtarsiz) TEK istekte EUR bazli
     tum kurlar -> capraz parite matematikle hesaplanir. Yahoo bir pariteyi
     donduremezse devreye girer. DIKKAT: ECB gunluk referans kuru, gun ici degil.
@@ -411,36 +416,90 @@ def yahoo_fiyatlari_cek(kod_haritasi, max_worker=16):
     return fiyatlar
 
 
-def metal_fiyatlari_cek(metal_haritasi, usdtry=None):
-    """api.gold-api.com - anahtarsiz, anlik spot. XAUTRY = XAUUSD * USDTRY."""
+METAL_MAX_YAS_DK = 15   # gold-api.com bazen saatlerce eski veri donduruyor;
+                        # bu esikten yasli fiyat "bayat" sayilir ve KULLANILMAZ.
+_METAL_TS_ALANLARI = ("updatedAt", "updated_at", "timestamp", "time", "date")
+
+
+def _zaman_ayristir(deger):
+    """gold-api.com zaman damgasini timezone-aware datetime'a cevirir.
+    ISO 8601 (Z sonekli) veya epoch saniye/milisaniye kabul eder. Cozemezse None."""
+    if deger is None:
+        return None
+    try:
+        if isinstance(deger, (int, float)):
+            sn = float(deger)
+            if sn > 1e11:          # milisaniye
+                sn /= 1000.0
+            return datetime.fromtimestamp(sn, tz=timezone.utc)
+        metin = str(deger).strip()
+        if not metin:
+            return None
+        if metin.isdigit():
+            return _zaman_ayristir(int(metin))
+        dt = datetime.fromisoformat(metin.replace("Z", "+00:00"))
+        return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+    except (ValueError, OverflowError, OSError):
+        return None
+
+
+def metal_fiyatlari_cek(metal_haritasi, usdtry=None, max_yas_dk=METAL_MAX_YAS_DK):
+    """api.gold-api.com - anahtarsiz spot. XAUTRY = XAUUSD * USDTRY.
+
+    Yanittaki `updatedAt` zaman damgasi okunur; fiyat `max_yas_dk` dakikadan
+    eskiyse BAYAT sayilir ve sonuc sozlugune ALINMAZ (yanlis "yakin aday"
+    sinyali uretmesin diye). Zaman damgasi hic yoksa/cozulemezse fiyat kabul
+    edilir ama yasi bilinmiyor olarak isaretlenir.
+
+    Doner: (fiyatlar, bayatlar) — bayatlar: {sembol: yas_dakika}
+    """
     if not metal_haritasi:
-        return {}
+        return {}, {}
     kodlar = {k for k in metal_haritasi.values() if k != "XAU_TRY"}
     if "XAU_TRY" in metal_haritasi.values():
         kodlar.add("XAU")
 
-    ham = {}
+    ham = {}          # kod -> fiyat
+    yas_dk = {}       # kod -> yas (dakika) veya None (bilinmiyor)
 
     def _cek(kod):
         try:
             veri = _json_cek(f"https://api.gold-api.com/price/{kod}", timeout=12)
-            return kod, float(veri["price"])
+            fiyat = float(veri["price"])
+            ts = None
+            for alan in _METAL_TS_ALANLARI:
+                if alan in veri:
+                    ts = _zaman_ayristir(veri[alan])
+                    if ts:
+                        break
+            yas = None
+            if ts:
+                yas = (datetime.now(timezone.utc) - ts).total_seconds() / 60.0
+            return kod, fiyat, yas
         except Exception:
-            return kod, None
+            return kod, None, None
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, len(kodlar))) as ex:
-        for kod, fiyat in ex.map(_cek, sorted(kodlar)):
+        for kod, fiyat, yas in ex.map(_cek, sorted(kodlar)):
             if fiyat:
                 ham[kod] = fiyat
+                yas_dk[kod] = yas
 
-    fiyatlar = {}
+    fiyatlar, bayatlar = {}, {}
     for sembol, kod in metal_haritasi.items():
+        temel = "XAU" if kod == "XAU_TRY" else kod
+        if not ham.get(temel):
+            continue
+        yas = yas_dk.get(temel)
+        if yas is not None and yas > max_yas_dk:
+            bayatlar[sembol] = yas
+            continue
         if kod == "XAU_TRY":
-            if ham.get("XAU") and usdtry:
+            if usdtry:
                 fiyatlar[sembol] = ham["XAU"] * usdtry
-        elif ham.get(kod):
+        else:
             fiyatlar[sembol] = ham[kod]
-    return fiyatlar
+    return fiyatlar, bayatlar
 
 
 def forex_fiyatlari_cek(semboller):
@@ -500,7 +559,7 @@ def main():
     basla = datetime.now(timezone.utc)
     kripto_fiyat, kripto_kaynak = kripto_fiyatlari_cek(kripto)
     yahoo_fiyat = yahoo_fiyatlari_cek(yahoo)
-    metal_fiyat = metal_fiyatlari_cek(metal, usdtry=yahoo_fiyat.get("USDTRY"))
+    metal_fiyat, metal_bayat = metal_fiyatlari_cek(metal, usdtry=yahoo_fiyat.get("USDTRY"))
 
     eksik_forex = {s for s in forex_yedek if s not in yahoo_fiyat}
     forex_fiyat, forex_tarih = forex_fiyatlari_cek(eksik_forex)
@@ -520,6 +579,18 @@ def main():
     if forex_fiyat:
         print(f"[NOT] {len(forex_fiyat)} parite Yahoo'dan gelmedi, Frankfurter/ECB "
               f"{forex_tarih} gunluk referans kuru kullanildi (gun ici degil).")
+
+    if metal_bayat:
+        bayat_ozet = (
+            f"{len(metal_bayat)} metal sembolu BAYAT VERI oldugu icin atlandi "
+            f"(gold-api.com {METAL_MAX_YAS_DK} dk esigi): "
+            + ", ".join(f"{sem} ~{yas / 60:.1f} saat eski"
+                        for sem, yas in sorted(metal_bayat.items())))
+    else:
+        bayat_ozet = (f"Bayat metal verisi yok — atlanan metal sembolu: 0 "
+                      f"(esik {METAL_MAX_YAS_DK} dk).")
+    if metal or metal_bayat:
+        print(f"[METAL] {bayat_ozet}")
 
     sonuclar = []
     for sembol, veri in seviyeler.items():
@@ -556,7 +627,10 @@ def main():
                 f"{len(tum_fiyatlar)}/{len(seviyeler)} ({sure:.1f} sn)\n")
         f.write("- Canli fiyat kaynaklari: Binance/MEXC/Gate/Bybit/OKX/KuCoin (kripto), "
                 "Yahoo Finance (BIST `.IS` / ABD / endeks / forex `=X`), "
-                "api.gold-api.com (metal), Frankfurter-ECB (forex yedegi)\n\n")
+                "api.gold-api.com (metal), Frankfurter-ECB (forex yedegi)\n")
+        if metal or metal_bayat:
+            f.write(f"- METAL: {bayat_ozet}\n")
+        f.write("\n")
         if satirlar_cikti:
             f.write("```\n" + "\n".join(satirlar_cikti) + "\n```\n")
         else:
