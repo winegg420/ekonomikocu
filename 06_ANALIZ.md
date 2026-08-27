@@ -3014,3 +3014,165 @@ bastırılıyor, seçim yılında (2024) ETF ile açılıp faiz indirimini gecik
   Karne çıkarırken altın çağrılarını jeopolitik/fiyat diye ayırma kuralı burada da geçerli.
 - **Zincirin bittiği yer 2024.** 2025–2026 halkası henüz yazılmadı; devamı gelirse
   (muhtemelen "şimdi neredeyiz" halkası) bugünkü 6 tweetin üstüne eklenecek — takip et.
+
+## 2026-08-27 — GÖRSEL DEFTERİ TUR 4 (40 görsel: 27 Haz → 2 Tem 2026)
+
+Kalan 1.094 görsel `gorsel_kalan.jsonl`'e sıralandı (2 Tem 2026 → 27 Haz 2020, en yeniden
+eskiye). Bu tur 27 Haz – 2 Tem 2026 penceresi.
+
+### Yeni/keskinleşen bulgular
+1. **XAUUSD/BTCUSD oranı, öğretinin ana omurgası (4 görsel arka arkaya).** Yatay taban
+   **0,024 = "ALTIN UCUZ"** bölgesi; 2021 ve 2025'te iki kez oraya yapışmış. Anlatı:
+   *2022'de savaş çıkınca ALTIN BTC'yi ezmeliydi → ezemedi; "Bitcoin ETF + ABD seçimi
+   yüzüne trend bozuldu" (2023 sonu–2024 başı).* Oran bugün **0,068**; üstüne
+   "2027 ALTIN mı çıkacak?" diye mavi bir dip-sonra-yükseliş projeksiyonu çizmiş.
+   → **Kural: Koç'un "altın/kripto" tartışması fiyat değil ORAN üzerinden yürüyor.**
+   Karne çıkarırken XAUUSD/BTCUSD 0,024 tabanı ve trend çizgisi ayrı bir seviye seti.
+2. **BTC 84 K'nın tam kaynağı bulundu.** 22 Kas 2024: *"Altında 84 USD pivot olduğuna göre
+   muhtemelen BTC'de 84 K'yı olası geri çekilmede önemser."* → **84 K, BTC'nin kendi
+   teknik seviyesi değil; GRAM/ons ALTIN'daki 84 USD pivotunun kriptoya kopyalanmış hali.**
+   26 Mar 2025: *"84 altı net dayak, üstü net prim, **8 ay boyunca geçerlidir**"* →
+   26 Mart + 8 ay = **Ocak 2026**; BTC haftalıkta gerçekten Ocak 2026'da 84 K'yı çakıp
+   altına düşmüş. Bu, arşivdeki **"tarih + süre" formülünün tutmuş en net örneği**.
+3. **GOLDgr grafiğinde 84 USD çizgisi birebir gösteriliyor** (kama kırılımı, 30 Ara 2024)
+   — yani 84 rakamı önce altında oluşmuş, sonra BTC'ye taşınmış. "Ondalık kaydırma"
+   öğretisinin (57/60/84/106…) canlı kanıtı.
+4. **NASDAQ seviye merdiveni netleşti (H4):** 30600/30599 – **29700/29699** – 28200/28060 –
+   27600/27599. "29400 üstündeyse dokunma, Pazartesiden itibaren **29700 üstündeyse
+   dokunma; altı satış, üstü diri kalır**" (22 May 2026). Günlükte ayrıca **26 K** çizgisi
+   "ABD-İRAN barışı 2025 / 2026" etiketleriyle işaretli — aynı yatay, iki ayrı barış
+   haberinde çalışmış.
+5. **Nasdaq 30600 + Dow 54-57 K çağrısı 9 Şub 2026 tarihli.** (Arşivdeki 28 Mar 2026
+   "NASDAQ 30K + DOW 54K" kaydından ~7 hafta ÖNCE.) Karnede bu çağrının ilk tarihi
+   9 Şubat olarak düzeltilmeli.
+6. **ALTIN 5300 çağrısının itirafı (10 Oca 2026):** *"5300 yazdım ama 5600 gördü. Aslında
+   grafik 5600 diyordu; ben başka bir varlıkla kıyasladım, ortalama 5300 dedim."*
+   → Kendi hata payını açıkça yazıyor; **kıyas yöntemi (oran) tekil grafikten sapma
+   üretebiliyor.** Karne notu: 5300 çağrısı "tuttu ama eksik hedefli" sayılmalı.
+7. **Gümüş–petrol–kripto denge kuralı.** 1 Şub 2026: *"petrolün 60 dolar olduğu yerde gümüş
+   120 dolar olamaz; ya gümüş petrole yanaşır ya petrol gümüşe... Buradan ne anlam çıkar?
+   Yeni bir savaş."* 24 May 2026: *"gümüşe endeksleme yapılmış gibi bir yapı var; gümüş
+   73-74 bandında tepki üretiyor, #btc de bunu yapıyor... kısır döngü."*
+   → **Gümüş ile BTC aynı elden yönetiliyor tezi**; "gümüşte kazanacaksam BTC paralel
+   inmek zorunda" cümlesi doğrudan pozisyon mantığı.
+8. **Bu turun canlı seviye çekirdeği (1-2 Tem 2026 tarihli ekranlar):** XAGUSD **57 USD**
+   (yeşil destek, "5.7 öğretisi"), 59,04 → 60,17 → **61,96**; ABD-ÇİN görüşmesinde gümüş
+   **90 USD**'yi, BTC **82 K**'yı görüp döndürülmüş. *"84 K'ya yanaştırılmadı çünkü üstü
+   kaldığı an yükselir; büyük resimde 84 K'da robot var."*
+9. **Makro çerçeve tweetleri (alıntılanan eski kayıtlar):**
+   - 3 May 2025: *"2020/21 virüsle MB'ler para saçtı, 2022/23 savaş+enflasyonla saçtılar.
+     Şimdi para saçacak kimse kalmadı... Geriye ne kaldı? **Yastık altındaki altınlar.**"*
+   - 27 Ara 2025: *"Kripto yükselerek emtiayı tahrik etti, fitili **Trump** ateşledi...
+     Anca bir olay olacak korkusuyla faizler çakılacak."*
+   - 24 Oca 2025: *"Sen DXY'yi düşürerek Çin'i mi tahrik ediyorsun?"* → **bugünkü (27 Ağu)
+     'kriptoyu Çin'le savaşmak için kullanıyorlar' tezinin 7 ay önceki hali.**
+   - 13 Tem 2021: *"Kripto dünyada tutmazsa hayırlı olan birliğin dağılmasıdır: 1) kriptoyu
+     dünyaya monte edeceksin 2) Avrupa Birliği dağılsın 3) ABD kendini bağımsız krize
+     sürükler."* — üç senaryo hâlâ açık; 2026 anlatısı 1. maddenin tıkanması üzerine kurulu.
+   - 16 Eki 2021: *"Bu dünya fazla adaletsizliği bir yere kadar çeker. **Savaş çıkar.**"*
+   - 9 Eki 2023: *"Nereye kadar diye bir şey yoktur; adam isterse bunu 2024 2025 2026'ya
+     bile sarkıtır."* → **süre uzatma öğretisi**, bugünkü "zaman geçirdiler" temasının kökü.
+   - 13 Haz 2021: *"1-5 yıllık periyotta iyiye giden bir şey görmüyorum."* → "Kayıp 5 yıl".
+10. **GBPJPY aylık 2027 simetrisi tekrar paylaşıldı** (1 Haz 1999-1 Eki 2000 dibi → 2007
+    tepe; 1 Haz 2019-1 Eki 2020 dibi → **2027**). Tur 3'teki bulguyla birebir aynı; bu
+    görsel arşivde en çok tekrarlanan kurgu — **merkezî sayılmalı.**
+11. **Dış kaynak (Koç'un sözü DEĞİL):** StrategyTracker ekranı — 28 Haz 2026 itibarıyla
+    Strategy'nin **847.363 BTC**, ortalama maliyet **75.653 USD**, **-%20,63** (-13,2 milyar
+    USD) zararda. Koç bunu "1 Temmuz'daki Avrupa-Binance hamlesi NATO görüşmeleri öncesinde
+    bilinçli masaya kondu" yorumuyla paylaşmış. **11_DIS_KAYNAKLAR.md kapsamına girer.**
+
+### Teknik not (arşiv sağlığı)
+- `medya/2071336123582894247/graf_01.jpg` **bozuk**: içerik JPEG değil, X'in SVG ikonu
+  indirilmiş. Kalan 1.094 dosyanın tamamı imza kontrolünden geçirildi: **bozuk olan tek
+  dosya bu** (diğer 1.093'ü geçerli JPEG/PNG). Yeniden indirilmesi yeterli.
+
+## 2026-08-27 — GÖRSEL DEFTERİ TUR 5 (40 görsel: 23 Haz → 27 Haz 2026)
+
+### 1) "84" zincirinin son halkası: ondalık kaydırma ürünler arası kanıtlandı
+- **16 Nis 2025:** *"Önce BTC 100 K üstüne çıktı, o esnada ALTIN 84 USD civarı bekletildi.
+  Şimdi ALTIN 107 USD oldu, BTC 84'e çekilip bekletiliyor. **#yarış** var dedik ya!"*
+  → İki ürün aynı sayıyı **sırayla** kullanıyor: biri 84'te beklerken diğeri koşuyor.
+- **16 Şub 2026:** *"#DOW'da robot **43760** diye #ALTIN da oradan rokete mi bağlanmak
+  zorunda? #DOW 43760 / #xauusd **4376**"* → **DOW ile ons altın aynı sayı, bir ondalık
+  kaydırma.** Bu, "öğreti merdiveni ondalık kaydırılarak ölçekleniyor" kuralının
+  endeks-emtia arası ilk net örneği.
+- BTC günlükte **"Kama 84 k"** (Oca–Nis 2025 düşen kama, kırılım 84 K'da) + haftalıkta
+  "Mart 2025 + 8 ay = Ocak 2026'da 84 K çakış" → aynı sayı hem kama hedefi hem takvim çıpası.
+- **BTCEUR 57 K** (= "5.7 öğretisi"), **XAGUSD 57 USD**, **GOLDgr 107,8** → aynı dizi
+  (57-60-84-107) farklı ürün ve farklı ondalıkla tekrar ediyor.
+
+### 2) Ağustos 3. hafta: bu turun en operasyonel çıpası
+- **XAUUSD günlük simetrik üçgen apeksi = 4376/4375, kesişim "Ağustos 3. hafta"** olarak
+  işaretli (26 Haz 2026). *"Değer bellidir 4376... Piyasalar NATO görüşmesi..."*
+- **23 Haz 2026:** *"Bu sene verilen süre yine **Ağustos 3. hafta**. 60 gün.
+  Haziran 3. hafta + 60 gün = Ağustos."* Dayanağı: 24 TV, 21 Haz — *"TRUMP: 60 GÜNLÜK
+  OPSİYON VAR; ABD ve İran masaya oturdu, 60 gün içinde nihai anlaşma."*
+- **11 Haz 2026:** *"Ağustos 3. haftaya kadar karışıklık yaparak gelseler de bir pişmanlık
+  yaşamazlar. Ama yeni FED başkanı konuşacak ve 22 Haziran–3 Temmuz arasını dünya
+  atlatmalı."*
+- Geçen yılın aynası: **24 Tem 2025** — *"Birilerine 1 ay süre tanıdılar = Trump tarifeleri
+  öteledi"*, *"#goldgr aynı grafik farklı açı... mavi çizgiyi alta alıyorum, **kesişim
+  Ağustosa geliyor**"*, *"Temmuz ayı altın sakattı"*.
+  → **Kural: haber takviminden gelen "60 gün / 1 ay süre" ifadeleri doğrudan grafik
+  kesişim tarihine çevriliyor.** Karne çıkarırken tarih çağrılarının kaynağı burası.
+- Bugün (27 Ağu 2026) itibarıyla Ağustos 3. hafta **geçti**; XAUUSD 4376 kesişimi ve
+  "60 gün" opsiyonunun sonucu karneye ayrı satır olarak işlenmeli.
+
+### 3) 2026 takvim kuralı (1 Şub 2026, iki tweet)
+- *"ABD için **2026 Temmuz sonrası seçim süreci** başlar; o son 6 ayı önemserlerse
+  önemserler. İlk 6 ay 'Çin ve diğer ülkelerin olsun' gözüyle ilerlerler."*
+- *"Sorunları çözemedik, **2025 Temmuz itibarıyla fiilen kapandık**... Kafalarında bence
+  **2026 Temmuz'a kadar bir yılı boş geçmek** var."*
+  → Bugünkü "zaman geçiriyorlar / kayıp 5 yıl" temasının sayısal iskeleti: **Tem 2025 →
+  Tem 2026 = bilinçli boş yıl.**
+
+### 4) Kriptonun icat gerekçesi (7 Ara 2021 — arşivin kök tweeti)
+*"Ötelenen krizde muhtemelen Avrupa'da patlayacaktı. Avrupa patladığı an EUR dibi görecek,
+DXY başını alıp gidecekti... **EMTİA uçacaktı. Emtia karşısında ABD pert.** O zaman bize bir
+çözüm lazım: ortak sorun, ortak korku, ortak coşku — **KRİPTO!**"*
++ 24 Haz 2026 kendi özeti: *"Kripto olmasaydı, Avrupa'daki savaş nedeniyle para emtiaya çok
+daha erken ve güçlü akacaktı; bunu gören ABD dengeyi korumak için DXY'yi..."*
+→ **Bugün (27 Ağu) attığı 6 tweetlik zincirin tezi 2021'de yazılmış.** Zincir yeni değil,
+5 yıllık bir tezin özeti.
+
+### 5) Avrupa kanadı ayrı bir cephe olarak açıldı (25 Haz 2026)
+- **BTCEUR**: mavi trend, *"haberi basmasalar mum trend üstünde kalıyordu"*; **57 K** kritik.
+- **ETHEUR**: **2060** ana trend — *"ne zaman 2060 üstü kalsa pozitif; bunu arşive ekleyin"*.
+- *"Ben diyorum Avrupa kalleş bir oluşum"* + Lagarde görseli + AB bayraklı BTC görseli.
+- 26 Haz: *"#BİTCOİN günlük... **burasını net AVRUPA bozdu**, BTCEUR üzerinden yazışmasını
+  yaptım. **60 K önemli**, altı strese sebep olur."*
+→ **Yeni kural: dolar bazlı grafik bozulduğunda Koç aynı ürünün EUR bazına bakıyor**;
+"haber etkisi"ni ayıklama yöntemi bu.
+
+### 6) Enflasyon = savaşın örtülü adı (üç ayrı tarih, aynı cümle)
+- 27 Haz 2024: *"Olay enflasyon diye basite indiriliyor... enflasyonun ana nedeni SAVAŞ.
+  Adam sana 'faiz indirimi savaş var' diyemiyor."*
+- 18 Mar 2025: *"**Enflasyon savaşın örtülü adıdır.** Sana enflasyon düşmüyor derken aslında
+  savaş bitmiyor demek istiyor."*
+- 16 Tem 2025: *"Her şey pivota geldi, artık karar vermeleri gerekiyor. Doları hâlâ
+  zayıflatmak istiyorsan bu neresi olacak? Altın ✓ Kripto ✓ Pariteler ✓"*
+→ Arşivde "enflasyon" geçen tüm kayıtlar **jeopolitik** etiketiyle de okunmalı.
+
+### 7) Diğer seviye/çağrı notları
+- **PETROL (Brent haftalık):** 76,65 ve 59,82 yatayları; *"seçim yaklaşıyor, petrolü
+  baskılıyorlar, sıkı duruş mesajını kısmen DXY üzerinden veriyorlar"*. 15 Mar tarihli eski
+  çağrı: *"Petrol 53 dolara kadar düşecektir, sadece zaman alacak."*
+- **ETHUSD:** 1746 üstü kalmadıkça iştah yok; günlükte siyah trend ~1500'lere sarkıyor,
+  fiyat 1559. Ayrıca **2 May 2023 tüyosu**: *"2023 boyunca ETH'de **1379** referans alın;
+  üstündeyse her hareket silkelemeye girer, altında kapanışlar panik yaratır."*
+- **DXY:** 2015-2017 benzetmesi — *"DXY desteğe oturdu, ABD krizden çıktım faiz deyip
+  ortalığı yıkıyordu; ALTIN 1000, GÜMÜŞ 13 dolar"*; bugünkü DXY 101,6 aynı kesişim
+  bölgesinde.
+- **GÜMÜŞ:** 24 Haz'da 59,20-59,34; *"Çin bunu sen gazladın, uyuma yatırımcıya sahip çık"*.
+  5 Şub 2026: *"gümüşün 120 dolar görmesi ne demek? Petrol 60 dolar → **savaş çıkar**."*
+- **NASDAQ günlük:** tek mavi trend çizgisi var, fiyat bu çizginin üstüne **sadece bir kez**
+  (2025 ABD-Çin görüşmesiyle) çıkmış; 30342 seviyesinde tekrar çizgiye dokunuyor.
+
+### 8) Dış kaynak (Koç'un sözü DEĞİL) — 11_DIS_KAYNAKLAR.md'ye
+- **H.R. 3633 "Digital Asset Market Clarity Act"** Senato değişiklik metni (119. Kongre,
+  2. oturum, Mr. Scott/South Carolina) — SEC/CFTC dijital emtia düzenlemesi + **FED'in
+  bireye doğrudan ürün sunmasının ve CBDC'nin para politikasında kullanımının yasaklanması**.
+  Koç bunu "2025 Temmuz kripto haftası" bağlamında paylaşmış.
+- 24 TV (21 Haz 2026): Trump 60 günlük opsiyon / ABD-İran müzakeresi.
+- CNBC Squawk Box arşiv karesi (EUR/USD 1,2343 – USD/JPY 102,83 – GBP/USD 1,3625,
+  "Tech takes a tumble, investors eye Georgia races" = Ocak 2021).
