@@ -2544,3 +2544,220 @@ edilmeye devam edilecek.
 - ABD PCE verisinin bugün beklenenden hafif yüksek geldiği (yıllık %3,7) Video 17 ve 18'de birebir aynı rakamla teyitli.
 - Cuma Jackson Hole/Fed konuşmasının kritik olduğu teması Video 15, 16, 17'de ortak.
 - Şatıroğlu'nun (Video 8→18) seviyeleri sürekli güncelleniyor: BIST 14.300→14.400, BTC zarar-kes 76.500→76.440 — "sabit" seviye olarak görülmemeli, en son video baz alınmalı.
+
+---
+
+## 2026-08-27 — GÖRSEL DEFTERİ TUR 2 (50 görsel: 17 Tem → 3 Ağu 2026)
+
+> **Kaynak:** `gorsel_analiz.jsonl` defteri, ekonomikocu hesabı, yeniden eskiye sıra.
+> Bu tur **17 Temmuz 2026 – 3 Ağustos 2026** aralığındaki **50 görselin tamamı** tek tek
+> açıldı (Tur 1'in bıraktığı yerden). Defter: 102 → **152 analizli**, kalan **1.422**
+> (ekonomikocu 1.275 · iriscibre 115 · efloud 32).
+> Fiyat karşılaştırmaları 27 Ağustos 2026 canlı verisiyle yapıldı.
+
+### 1. ⭐⭐⭐ ROBOT SİSTEMİ — ilk kez tam liste çıktı
+
+Önceki turlarda "robot" kavramı geçiyordu ama **sayısal dökümü hiç görülmemişti**.
+Bu turda hem tam liste hem de tanımı çıktı — ve **hepsi yalnızca görselin içindeydi**.
+
+| Ürün | Robot seviyeleri | Kaynak görsel / tarih |
+|---|---|---|
+| **XAUUSD** | **3776 · 3997 · 4060 (DENGE) · 4120 · 4217** | `2078159052291371410` — 23 Kas 2025 |
+| **XAUUSD** | **4026** ("Robottayız 4026") | `2079174299940786367` — 20 Tem 2026 |
+| **BTCUSD** | **64.600** | `2081385494919688468` — 18 Haz |
+| **ETHUSD** | **1936** (1936,32 / 1918,60 çift çizgi) | `2078162395076170062` + `2078162077428936970` — 14 Tem 2026 |
+| **NASDAQ** | **27600** | `2082441248325968223` — 13 Tem 2026 |
+
+**Robot'un tanımı (23 Kas 2025 kaydından birebir):**
+> "3776'da robot var. 3997'de robot var. **4060 DENGEDİR.** 4120'de robot var. 4217'de
+> robot var. Bazen hareketli ortalamalar önemlidir, orası da yataya sarıyor. **Ciddi haber
+> gelene kadar denge 4060'tır.** Bu kanalda trade et geç demek istiyorlar."
+
+**İşleyiş kuralı (NASDAQ kaydından):**
+> "Fiyat nereye giderse gitsin, **o robota o mal dönecektir.**"
+
+Yani robot = algoritmik emir yığınının oturduğu seviye; "denge" = ciddi haber gelene
+kadar fiyatın çekildiği merkez. Bu, önceki turlarda bulunan "öğreti merdiveni"nden
+**ayrı ve tamamlayıcı** bir sistem: merdiven yapıyı, robot ise gün içi mıknatısı tarif ediyor.
+
+**Bugünkü durum:** BTC 79.756 · ETH 2.529 · NASDAQ 29.224 · XAUUSD 4.600 →
+**listedeki bütün robotlar yukarı aşılmış durumda.** Altın için 4217 en üst robottu,
+bugün 4600; yani 23 Kas 2025 çerçevesi tamamen geride kaldı — yeni robot listesi gerekiyor.
+
+### 2. ⭐⭐⭐ 63–68 K "SAVAŞ KANALI"NIN KÖKENİ ÇÖZÜLDÜ
+
+`2082421444659585474` (19 Mar 2024 tweeti + içinde 29 Şub 2024 grafiği) bu turun en
+değerli tek görseli. Arşivde yıllardır tekrarlanan "63 K / 68 K" rakamlarının **nereden
+geldiği** ilk kez grafikte görülüyor:
+
+- Grafikte **Şubat 2022 / "Rusya Ukrayna"** etiketli bölge "Savaşın ilk çıktığı bölge"
+  olarak işaretli.
+- O noktadan çıkan **kesikli yükselen trend** 2024 Mart'ında **67.800 ≈ 68 K** direncine
+  denk geliyor.
+- Metin: *"Savaş trendi 63 K'dan geçiyor, biraz mumu yukarıdan alırsan o trend 68 K'ya
+  denk geliyor. Bir haftadır 68'de tuttular, FED'i beklerken 63'e indirdiler. **Yani FED
+  soruyorlar: savaşın izini dünya sildi mi?**"*
+
+Yani 63/68 K keyfi bir bant değil — **savaşın başladığı mumdan çizilen trendin iki farklı
+tutturma noktası**. "Savaş kanalı" adı 13 Nis 2024'te konulmuş (`2082422063306789352`,
+`2081389481433641064` — aynı SS iki kez paylaşılmış, #İran bağlamıyla).
+
+### 3. ⭐⭐ ORAN GRAFİKLERİ — dolar dışı ölçüm yöntemi
+
+Bu turda **üç ayrı oran grafiği** çıktı. Bu, arşivde daha önce sistematik olarak
+görülmemiş bir ölçüm katmanı: ürünü dolara değil **başka bir ürüne** oranlıyor.
+
+| Oran | O günkü değer | Kritik seviye | **27 Ağu 2026** |
+|---|---|---|---|
+| **NASDAQ / XAGUSD** (`2082183352262562277`) | 486,7 | **936,4 = dot-com zirvesi** | **425,8** ↓ |
+| **XAUUSD / BTCUSD** (`2079225657142169644`) | 0,068 | **0,024 = "ALTIN UCUZ"**, 0,11 = "Bitcoin ucuz" | **0,0577** ↓ |
+| **GOLDEUR** (`2080684063816388855`, `2080679562447380550`) | 3580,52 | 3754 kırılmış trend · 3382,55 destek | — |
+
+**NASDAQ/gümüş oranı** tezi: *"Balon bu sefer erken patladı, aslında daha pay vardı.
+Niçin erken patladı? Bu döngü daha çok su kaldırır."* 2021-2023'te ~800-1050 bandına
+"Burada pay vardı" notu düşülmüş — yani NASDAQ gümüşe göre daha da pahalılanabilirdi
+ama pahalılanmadı. Bugün oran 425,8'e inmiş: **NASDAQ dolar cinsinden zirveye yakınken
+gümüş cinsinden zirvenin yarısından az.**
+
+**Altın/BTC oranı** en aksiyon değeri yüksek olanı — grafikte **2027 için altın rotasyonu
+senaryosu elle çizilmiş**: kırmızı düşüş + mavi U dönüşü, üstünde *"Diyelim ki ABD
+#BİTCOİN dedi ve ALTIN tarafını ezdi, grafik böyle oldu"* ve **"2027 ALTIN mı çıkacak?"**
+Tarihsel etiketler: *"Savaş çıktı ALTIN BİTCOİN'i ezdi"* (2022), *"Çin emtia dedi
+BİTCOİN tarafını ezdi"* (2025). Bugün oran 0,0577 → 0,068'den düşmüş, yani **senaryonun
+ilk yarısı (BTC'nin altını ezmesi) fiilen gerçekleşiyor.**
+
+### 4. ⭐⭐ "92" EŞLEŞMESİ — gümüş gram ile ETH aynı sayıda
+
+23 Temmuz 2026'da **aynı dakikalarda** paylaşılan iki grafik (`2080213815828922566`
+gümüş gram TL 1sa · `2080214015012204585` ETHTRY 1sa) aynı sayıyı işaret ediyor:
+
+- **XAGTRYG: 92,19 lira** — 23 Haz, 8 Tem, 23 Tem'de üç kez reddedilmiş direnç, hedef 95
+- **ETHTRY: 92.144 lira** — Haziran başından beri üç kez reddedilmiş direnç, hedef 95.000
+
+Bu tesadüf değil: 15 Nisan kaydında (`2084374698486305275`) aynı endeksleme USD tarafında
+kurulmuş — *"gümüş gram 1.95'e düşmüş yukarı sekmiştir, o dönemde ETH de misal 1950 idi"*
+ve *"Eğer enflasyon varsa zorlanıyorlarsa **ETH'yi buna endeksliyorlar**."*
+
+**Karne — ikisi de kırıldı:** bugün gümüş gram **106,22 TL**, ETHTRY **121.743**.
+92 direnci Temmuz sonunda ikisinde birden aşılmış; hedef olarak verilen 95 seviyesi de
+geçilmiş. **Endeksleme tezi tuttu.** USD tarafında da paralel: gümüş gram 2,207 $,
+ETHUSD 2.529 — oran hâlâ ~1:1146 (Nisan'da 1:1000).
+
+### 5. ⭐⭐ ETH 2570'İN KÖKENİ VE BUGÜNKÜ DURUMU
+
+Önceki turda "ETH 2570 yükselen çizgi" bulunmuştu ama **çizginin nereden çizildiği** yoktu.
+`2078160588824252416` (ETHUSD günlük) bunu kapatıyor:
+
+- **Kırmızı yükselen trend 30 Ocak 2026 dibinden (1750)** çiziliyor; ileri uzatımı
+  **2570** mavi etiketli banda ulaşıyor. Yani 2570 sabit bir yatay değil, **tarihe bağlı
+  hareketli bir hedef**.
+- Aynı grafikte **koyu yeşil düşen trend** (Mayıs 2025 tepesinden) ~1450-1500'e iniyor —
+  asıl dip desteği. Not: *"Bu trendin üstüne çıkmadan zaten nefes aldırmazlar."*
+- Pozisyon mantığı `2078161231626617097` (11 Şub 2026): *"Aşağıdan mal toplarken ben
+  **2570 geçmeden kazanç elde edemem.** Ama uygun alır orayı yukarı kırdığımda kazanç
+  elde edeceğim."*
+
+**Bugün ETHUSD 2.529 — 2570'in %1,6 altında.** Bu, arşivdeki en olgunlaşmış eşiklerden
+biri ve **şu anda tam üstünde duruyor.** Aradaki basamaklar sırayla alındı:
+1846 (`2078163938559070396`) → 1936 robot (`2078162077428936970`) → şimdi 2570.
+Bir üst hedef bandı aynı grafikte: **2060/2157** (aşıldı) ve haftalıkta **3060 altı
+negatif / 4090 ilk atak** (`2082794915432452480`).
+
+### 6. ⭐ NASDAQ — ortalamada OBO ve 29.700 boyun çizgisi
+
+`2078976574091649435` (16 Tem 2026, günlük): **hareketli ortalama üzerinde oluşan
+omuz-baş-omuz** işaretlenmiş, boyun çizgisi **29.716,29** ("Seviye kaç? 29700").
+Zirve bölgesi 30.685/30.969 ("30600"), dip 22.684 ("22600").
+
+**Bugün NASDAQ 29.224 — boyun çizgisinin %1,7 altında.** ETH 2570 ile birlikte bu turun
+**iki canlı tetiğinden biri.** Bir yıl önceki hali (`2079209864086049185`) 22.070,90
+seviyesinin direnç→destek dönüşümünü gösteriyor; o seviye bugün çok geride.
+
+### 7. ⭐ BRENT — tarihli çağrının karnesi
+
+`2081514127810285953` (21 Tem 2026): *"**Ağustos 3. günü kadar** 92 94 usd altı satış
+ama üstü kasarlar."* Grafik (`2081512819170656762`) rakamları veriyor:
+**94** = Aralık 2025 dibinden gelen siyah yükselen trend · **106** = siyah trendin kırmızı
+düşen trendle Eylül 2026'daki kesişimi · **78-82** ve **69-70** alt destekler.
+
+**Karne: ✅ TUTTU.** Brent 3 Ağustos'a kadar 92-94'ü aşamadı; bugün **86,19**.
+"Altı satış" tarafı doğrulandı. 106 kesişimi Eylül'de — hâlâ izlenecek.
+
+### 8. ALTIN — 140,6 direnci aşıldı, çerçeve yenilenmeli
+
+`2078156556630176228` (GOLDGR = **altın gram USD**, gram-TL değil): *"124.6'ya kadar olan
+her geri çekilme **BASKIDIR**. **140.6 aşılmadan çıkmaz.**"* O gün 129,18.
+`2078157996073320930` (XAUUSD günlük): 3776/3840 çift teyit desteği, zirve 5611.
+
+**Bugün altın gram 147,9 $ (4.600 $/ons) — 140,6 aşılmış.** "Aşılmadan çıkmaz" koşulu
+sağlandı ve çıkış geldi. Bu, altın için 2025 sonu–2026 ortası çerçevesinin
+**tamamlandığı** anlamına geliyor; 3776-4217 robot listesi ve 124,6-140,6 bandı artık
+geçmiş veri.
+
+### 9. Makro çerçeve — arşivin en eski kaydına kadar inen zincir
+
+Bu turdaki SS'ler 2021-2025 arası kendi tweetlerinin yeniden paylaşımı; **tezin yaşını**
+belgeliyorlar:
+
+| Tarih | Kayıt | Öz |
+|---|---|---|
+| 13 Haz 2021 | `2083505954952249347` | "1-5 yıllık periyotta iyiye giden bir şey görmüyorum" → 2021'de kurulan 5 yıllık negatif periyot |
+| 19 Eki 2021 | `2083539510004998162` | Kripto = ana piyasadan likidite emen "yan sanayi" |
+| 21 Ara 2021 | `2083505478399635494` | "Dünyaya **level atlatacaklar**" — seviye atlatma kavramının ilk kaydı |
+| 4 Mar 2022 | `2083552818045083696`, `2081143232851824888` | "Önce rakibi zayıflat, sonra dip gören rakip üzerine pozitif hikaye yaz" |
+| 22 Tem 2022 | `2081127723846558165` | ABD, EUR'yu güçlü tutmak için USD'yi dizginledi |
+| 9 Eki 2023 | `2081888299128406371` | "**2026 senesine kadar** işin içinden çıkamayız" + analiz başlangıcı **2020** |
+| 21 Şub 2024 | `2084015275611942995` | ETF onayları = likidite sıkışması / zaman kazanma |
+| 4 Nis 2025 | `2084014451854901744` | "**2024'ü unutun, baz yıl 2023**" — yöntem kuralı |
+| 2 Haz 2025 | `2083507852144935172` | **Enflasyon farkı kuralı** (aşağıda) |
+| 13 Ağu 2025 | `2079222151769362480` | **15 Haziran–15 Eylül 90 günlük vade** penceresinin açık anlatımı |
+
+**Enflasyon farkı kuralı** (2 Haz 2025) yöntem açısından en önemlisi:
+> "Zaman boşa geçtikçe seviyeler değişiyor. Geçen sene Temmuz'da 100 K geçilseydi bu boğa
+> olarak okunurdu. Ama yeni yıla sarkınca 100 K kurtarmıyor — **o enflasyon farkı oluyor.**
+> Diyelim BTC 126 K gördü: bu yine boğa olmuyor, enflasyon farkı oluyor."
+
+Bu, bugünkü BTC 79,7 K'yı okumak için doğrudan kullanılabilir: nominal seviye değil,
+**seviyenin hangi takvimde geçildiği** belirleyici.
+
+`2079222151769362480` ise 60/90 günlük takvim sistemini örnekle veriyor: Haziran'da savaş
+(İsrail-İran) → "Haziran 15 – Eylül 15 arası 90 günlük vadeyi negatif geçirselerdi çok
+fena tavize gebe kalacaklardı" → Temmuz "kripto haftası", Ağustos "Putin + ETH'yi
+gazladılar". **Tavizden yırtma** mekaniğinin en net anlatımı.
+
+### 10. DXY'nin rolü — şematik
+
+`2082228475406983474` grafik değil, **el çizimi şema**: kripto ↑ ve emtia ↑ oklarının
+yanında *"Barış görüşmeleri olumsuz oldu ÇİN EMTİA dedi! Sorun yok, **masaya DXY getir**
+çünkü kripto yukarıda"* ve *"kripto petrol emtia EUR el ele düşsünler."*
+DXY burada bir gösterge değil, **kripto+emtia yükselişini aynı anda soğutmak için
+masaya sürülen araç** olarak tarif ediliyor.
+
+### 11. Bu turun karnesi — 27 Ağustos 2026 fiyatlarıyla
+
+| # | Çağrı (görsel + tarih) | Bugün | Sonuç |
+|---|---|---|---|
+| 1 | Brent: 3 Ağustos'a kadar 92-94 üstü kasılmaz (21 Tem) | 86,19 | ✅ **TUTTU** |
+| 2 | XAGTRYG 92,19 direnç → hedef 95 (23 Tem) | 106,22 | ✅ **TUTTU** (aşıldı) |
+| 3 | ETHTRY 92.144 direnç → hedef 95.000 (23 Tem) | 121.743 | ✅ **TUTTU** (aşıldı) |
+| 4 | GOLDGR "140.6 aşılmadan çıkmaz" (17 Tem) | 147,9 $/gr | ✅ **TUTTU** (aşıldı, çıkış geldi) |
+| 5 | ETH 1846 "yine önemlidir" (17 Tem) | 2.529 | ✅ aşıldı |
+| 6 | ETH 1936 robot, "altında tutuyorlar" (14 Tem) | 2.529 | ✅ aşıldı |
+| 7 | BTC 65.700 trend kesişimi (17 Tem) | 79.756 | ✅ aşıldı |
+| 8 | NASDAQ 27600 robot, "mal 2000 puan üstünde" (13 Tem) | 29.224 | ✅ hâlâ ~1.600 puan üstünde |
+| 9 | **ETH 2570 kazanç eşiği** (11 Şub) | **2.529** | 🔴 **CANLI — %1,6 altında** |
+| 10 | **NASDAQ OBO boyun 29.716** (16 Tem) | **29.224** | 🔴 **CANLI — %1,7 altında** |
+| 11 | Altın/BTC oranı 2027 altın rotasyonu (20 Tem) | 0,0577 (0,068'den) | ⏳ ilk yarı işliyor |
+| 12 | Brent 106 trend kesişimi (Eylül 2026) | 86,19 | ⏳ izlemede |
+
+### 12. Açık işler / sonraki turda aranacak
+
+1. **Kalan 1.275 ekonomikocu görseli** — bu tur 17 Tem'e kadar indi, sıradaki tur
+   Temmuz ortasından geriye devam edecek.
+2. **Robot listesi güncellenmeli:** 23 Kas 2025'teki altın robotları (3776-4217) ve
+   BTC 64.600 / ETH 1936 / NASDAQ 27600'ün hepsi aşıldı. Daha yeni bir robot kaydı
+   arşivde var mı — Ağustos 2026 kayıtlarında aranmalı.
+3. **iriscibre 115 + efloud 32 görsel** hiç açılmadı; iriscibre'nin 54 metin kaydı da
+   hiç analiz edilmedi (bu hesaplar için 06_ANALIZ'de hiç bölüm yok).
+4. **ETH 2570 ve NASDAQ 29.716** — ikisi de %2'nin altında mesafede. Bir sonraki mentor
+   oturumunda ilk bakılacak iki seviye bunlar.

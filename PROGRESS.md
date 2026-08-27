@@ -2188,3 +2188,49 @@ pushla, sonra twitter taraması, analiz edilmemişleri ve görselleri analiz et"
   sembol ~20 sn.
 - Bir sitenin PowerShell'den açılması python'dan da açılacağı anlamına gelmiyor —
   Cloudflare/TLS parmak izi filtreleri python-requests'i ayırt ediyor.
+
+
+## 2026-08-27 — Gorsel defteri Tur 2 (ekonomikocu)
+
+- `magicma/fiyat_kontrol.py`: gold-api.com metal fiyatlarina `updatedAt` tazelik
+  kontrolu eklendi (METAL_MAX_YAS_DK=15). Bayat veri sonuc listesine ALINMIYOR,
+  konsol + fiyat_kontrol_son.md'ye tek satir [METAL] ozeti yaziliyor.
+  Sebep: gold-api bazen 15-17 saat eski fiyat donduruyordu, yanlis yakin aday uretiyordu.
+- `99_BOT_ARSIV/kod/lfs_kota_kontrol.py`: kontrol edildi, zaten dogru (TARAMA_MB=0,
+  esik %95, gereksiz uyari cikmiyor). Degisiklik yapilmadi.
+- Gorsel analizi Tur 2: 17 Tem - 3 Agu 2026 arasi **50 gorsel** tek tek acildi.
+  Defter 102 -> 152 analizli, kalan 1.422 (ekonomikocu 1.275 / iriscibre 115 / efloud 32).
+- 06_ANALIZ.md'ye "2026-08-27 GORSEL DEFTERI TUR 2" bolumu eklendi (12 alt baslik).
+
+### Bu turun en degerli uc bulgusu (ucu de YALNIZCA gorselin icindeydi)
+1. **Robot sistemi ilk kez tam liste halinde:** XAUUSD 3776/3997/4060(DENGE)/4120/4217,
+   BTC 64.600, ETH 1936, NASDAQ 27600. Tanim: "ciddi haber gelene kadar denge X'tir",
+   "fiyat nereye giderse gitsin o robota o mal donecektir".
+2. **63-68 K savas kanalinin kokeni:** Subat 2022 Rusya-Ukrayna mumundan cizilen
+   yukselen trend; 63 K alt tutus, 67.800/68 K ust tutus. Keyfi bant degilmis.
+3. **Oran grafikleri katmani:** NASDAQ/XAGUSD (dot-com zirvesi 936,4), XAUUSD/BTCUSD
+   (0,024 = ALTIN UCUZ, elle cizilmis "2027 ALTIN mi cikacak?" senaryosu), GOLDEUR.
+   Urunu dolara degil baska urune oranlama yontemi arsivde ilk kez sistematik gorundu.
+
+### Cikarim / kural
+- **GOLDGR = altin gram USD**, gram-TL DEGIL (4015/31.1035 = 129,1 ile dogrulandi).
+  XAGUSDG de ayni sekilde gumus gram USD. Bunlari TL sanip cevirmek buyuk hata olur.
+- Tur 1'de bulunan "ETH 2570" seviyesinin KOKENI bu turda cikti: 30 Ocak 2026 dibinden
+  (1750) cizilen yukselen trendin bugunku degeri. Yani sabit yatay degil, tarihe bagli
+  hareketli hedef — zaman gectikce yukari kayar.
+- Ayni gorsel iki kez paylasilabiliyor (GOLDEUR 18 dk arayla, 63-68K SS'i iki kez).
+  Defter dosya bazinda tekil tuttugu icin sorun cikmiyor ama analiz metninde
+  "X ile ayni" notu birakildi.
+
+### Canli tetikler (27 Agu 2026 fiyatiyla)
+- **ETHUSD 2.529 vs 2570 kazanc esigi** — %1,6 alti.
+- **NASDAQ 29.224 vs 29.716 OBO boyun cizgisi** — %1,7 alti.
+- Karne: 8 cagri tuttu/asildi, 2 canli, 2 izlemede. Brent 92-94 alti cagrisi (3 Agu
+  vadeli) tam tutmus: bugun 86,19.
+
+### Sirada
+- Kalan 1.275 ekonomikocu gorseli, Temmuz ortasindan geriye devam.
+- Robot listesi guncellenmeli: listedeki butun robotlar asildi, Agustos 2026
+  kayitlarinda yeni robot kaydi aranmali.
+- iriscibre (115 gorsel + 54 hic analiz edilmemis metin kaydi) ve efloud (32 gorsel)
+  hic acilmadi; bu hesaplar icin 06_ANALIZ'de hic bolum yok.
