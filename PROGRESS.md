@@ -2243,7 +2243,7 @@ pushla, sonra twitter taraması, analiz edilmemişleri ve görselleri analiz et"
 - 06_ANALIZ.md'ye "GORSEL DEFTERI TUR 3" bolumu eklendi (11 alt baslik).
 
 ### Bu turun uc kritik bulgusu
-1. **3060 ve 4570 TAHVIL FAIZIDIR.**  bir fiyat terminali SS'i:
+1. **3060 ve 4570 TAHVIL FAIZIDIR.** Gorsel 2076639000425594922 bir fiyat terminali SS'i:
    DE10Y 3,061 / US10Y 4,577. Metin: "Avrupa = 3060, ABD = 4570". Yani ETH'nin 3060
    kanal cizgisi Almanya 10 yillik faizi, altinin 4570'i ABD 10 yillik faizi.
    Onceki turda "4570 = US10Y" TAHMIN edilmisti — bu birinci elden kanit + 3060 eklendi.
