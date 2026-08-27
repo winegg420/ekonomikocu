@@ -2959,3 +2959,58 @@ aynı"* diyor.
    140,6 (altın gram) — hangi ürün hangi ondalık kaydırmayla okunuyor, tablo çıkarılmalı.
 4. **ETH 3300 ve XAGTRYG 106** — Tur 2'nin canlı tetiklerine (ETH 2570, NASDAQ 29.716)
    eklendi. Mentor oturumunda bu dört seviye birlikte izlenmeli.
+
+## 2026-08-27 (akşam) — BUGÜNÜN AKIŞI: 6 tweetlik "2021→2024 senaryo zinciri"
+
+Tarama: `EKO_AKIS=yanit` ile with_replies akışı, +46 yeni kayıt (toplam 7295).
+Bugün (27 Ağu 2026) atılan 6 tweet, 16:01–16:19 arası tek bir zincir; 4'ü görselli
+(3 eski tweet ekran görüntüsü + 1 ETHUSD günlük grafik).
+
+### Zincirin iskeleti (kendi sırasıyla)
+1. **16:01** — "Rusya Ukrayna savaşı 2022'de patlak verdi. **5 Nisan 2021**..."
+   Görsel: kendi 5 Nis 2021 tweeti — *"İMF uyarmış dünya 2013 gibi olabilir. Zaten
+   ona gidiyorlar, konular bile aynı... Rusya Ukrayna'sından tut, haber akışları bile kopya."*
+   → Savaşı **10 ay önceden**, "2013 senaryosunun kopyası" olarak işaretlemiş.
+2. **16:05** — "ABD savaşın çıkacağını anladığı anda **kriptoları devreye aldı** ve bir yıl
+   savaşı örtbas etti. 5 Nisan 2021'de **#ETH devreye alındı**."
+   Görsel: ETHUSD günlük — Şub–Mar 2021 sıkışma üçgeni, **5 Nisan 2021'de üçgen kırılımı**
+   yeşil daire ile işaretli; sonrası 4.300+ zirve.
+3. **16:08** — "Yıl 2022 oldu ve savaş patlak verdi. #ALTIN yukarı gitmeye başladı. Rusya
+   araya girdi. **Ama #ALTIN bu sebeple yükselmemeliydi.** 8 Mart 2022."
+   Görsel: kendi 8 Mar 2022 tweeti — *"#GRAM 500 liradayken 1080 demiştim... ons içinse
+   majör bir ülkenin problemi için saklıyorlar dedim. Bu iş için hâlâ erken ve bu ülke
+   **RUSYA olmamalıydı**. Araya girdiler."*
+4. **16:11** — 2023: "ABD yüksek faiz politikasıyla doları güçlü tuttu. Güçlü dolar +
+   yüksek finansman maliyeti **emtiada baskı** yarattı; aynı dönemde savaşın risk ortamında
+   **kripto da riskli varlık olarak sert satıldı**. Bir yıl böyle geçirildi mi?"
+5. **16:16** — 2024: "ABD'de seçim vardı, halka para dağıtılması gerekiyordu. Borsalar
+   yükselmeliydi ama dünya bu para bolluğunu yaşamamalıydı. Çözüm: **#BITCOIN kanadına ETF
+   verildi**, para sadece majörlere gitsin istendi. Onu baz alan kriptolar ne kadar
+   yükselirse şansına."
+6. **16:19** — "6 MART 2024" + görsel: kendi 6 Mar 2024 tweeti — *"2022'de savaş çıkıyor.
+   2023'te ABD kriptolara sürekli sallıyor, önlerini açmıyor. #DXY + faizin gücüne karşı
+   gelecek her şeyi masadan itiyor. 2024'te ABD kriptoların önünü açıyor. Neden? Çünkü dünya
+   faiz indirimini fiyatlamaya başladı. Piyasalar düştüğü an faiz indirimi masaya gelir. ABD
+   kriptolara onay veriyor ki **dünya dik dursun, faiz indirimleri geciktirilsin**."*
+
+### Tez (tek cümle)
+**Kripto bir varlık sınıfı değil, ABD'nin likidite/algı yönetim aracı olarak kullanılıyor:**
+savaş öncesi (2021) devreye alınıp savaşı örtüyor, savaş sırasında (2023) DXY+faizle
+bastırılıyor, seçim yılında (2024) ETF ile açılıp faiz indirimini geciktiriyor.
+
+### Çıkarımlar / kurallar
+- **Zincir tamamen geriye dönük kanıt sunumu** — bugün yeni bir seviye/fiyat çağrısı YOK.
+  Kayıtlarda `tip` alanı "seviye/tarih/tez" görünüyor ama sayısal hedef içermiyor; karne
+  çıkarırken bu 6 kaydı **çağrı sayma**.
+- **Kendi eski tweetiyle doğrulama yöntemi tekrar ediyor.** 5 Nis 2021, 8 Mar 2022,
+  6 Mar 2024 — üçü de kendi arşivinden ekran görüntüsü. Bu, arşivdeki "tarih takvimi"
+  öğretisinin sunum kalıbı: iddia + tarih damgası + kendi ekran görüntüsü.
+- **5 Nisan 2021 yeni bir çapa tarih.** Daha önce arşivde öne çıkan Haziran–Ekim dip
+  penceresi (GBPJPY simetrisi) vardı; buna **ETH üçgen kırılımı = savaş hazırlığı** okuması
+  eklendi. Aynı mantık: teknik kırılım ≠ teknik, **sahne kurulumu**.
+- **"ALTIN = gerginlik/savaş/kaos" kuralı burada tersine işletiliyor:** altın savaş yüzünden
+  yükseldi denilmesine itiraz ediyor ("bu sebeple yükselmemeliydi"), yükselişin asıl
+  sebebinin *saklanan majör ülke problemi* olduğunu söylüyor — Rusya'yı "araya giren" sayıyor.
+  Karne çıkarırken altın çağrılarını jeopolitik/fiyat diye ayırma kuralı burada da geçerli.
+- **Zincirin bittiği yer 2024.** 2025–2026 halkası henüz yazılmadı; devamı gelirse
+  (muhtemelen "şimdi neredeyiz" halkası) bugünkü 6 tweetin üstüne eklenecek — takip et.

@@ -2284,3 +2284,14 @@ pushla, sonra twitter taraması, analiz edilmemişleri ve görselleri analiz et"
 - Kalan 1.225 ekonomikocu gorseli, 4 Temmuz'dan geriye devam.
 - Faiz-seviye eslesmesi genisletilmeli: JP10Y / UK10Y icin de faiz ekrani SS'i ara.
 - Ogreti merdiveni olcekleme tablosu cikarilmali (hangi urun hangi ondalikla).
+
+## 2026-08-27 (akşam) — ekonomikocu güncel tarama + analiz
+- Chrome kapalıydı (CDP 9222 yok) → profil `%LOCALAPPDATA%\ekonomikocu_x_session` ile
+  yeniden açıldı, port geldi. Not: CHROME_X.bat'ı PowerShell'den `cmd /c` ile çağırmak
+  `%` genişletmesini bozuyor; doğrudan Start-Process + user-data-dir çalıştı.
+- Tarama: `EKO_AKIS=yanit py -3 99_BOT_ARSIV/kod/tara_guvenli.py` → +46 yeni tweet
+  (toplam 7295), en yeni kayıt 2026-08-27T16:19:26. Paket + push otomatik (df1636b).
+- Bugün 6 tweet (16:01–16:19), tek zincir: 2021 ETH kırılımı → 2022 savaş/altın →
+  2023 DXY+faiz baskısı → 2024 BTC ETF. Analiz 06_ANALIZ.md sonuna eklendi.
+- 13 alıntı hâlâ eksik (metin kesik) — ALINTI_TAMAMLA.bat ile tamamlanabilir, tavan/limit
+  nedeniyle bu turda 6/13 denendi.
