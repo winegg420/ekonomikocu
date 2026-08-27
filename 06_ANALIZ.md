@@ -3176,3 +3176,85 @@ daha erken ve güçlü akacaktı; bunu gören ABD dengeyi korumak için DXY'yi..
 - 24 TV (21 Haz 2026): Trump 60 günlük opsiyon / ABD-İran müzakeresi.
 - CNBC Squawk Box arşiv karesi (EUR/USD 1,2343 – USD/JPY 102,83 – GBP/USD 1,3625,
   "Tech takes a tumble, investors eye Georgia races" = Ocak 2021).
+
+## 2026-08-27 — GÖRSEL DEFTERİ TUR 6 (40 görsel: 19 Haz → 23 Haz 2026)
+
+### 1) "Ağustos 3. hafta" çıpası DIŞ KAYNAKLA doğrulandı
+- **America News (@AmericaPartyX):** *"SON DAKİKA: ABD, İranlı petrole yaptırımları
+  **21 AĞUSTOS'A KADAR** askıya aldığını açıkladı."* → Koç'un "Ağustos 3. hafta" tarihi
+  tahmin değil, **haber akışından okunan resmî bir takvim**.
+- Koç aynı tarihi üç ayrı gün tekrar etmiş: 8 Haz 2026 *"22 Haziran / Temmuz 3 / Ağustos 3.
+  hafta — şu aradaki stresi yönetmeye çalışın"*, 11 Haz *"#engel ol @realDonaldTrump"* ve
+  *"Ses bir iki üç, kontrol: 22 Haziran 3 Temmuz Ağustos 3. hafta"*.
+- Geçen yılın aynası: *"Geçen sene de diğer ülkelere Ağustos üçüncü haftaya kadar süre
+  verdin, Temmuz ayını **kripto haftası** deyip geçiştirdin."*
+→ **Kural: Koç'un tarih çağrıları = resmî süre/opsiyon bitişleri (60 gün, 1 ay, yaptırım
+askıya alma) + grafik kesişimi.** Karnede "tarih tuttu" derken kaynağın haber olduğunu not et.
+
+### 2) Bu turun en net ISABET'i: "28 Şubat dikkat"
+- **26 Şub 2026 (tweet):** *"6 Mart gününe kadar vaktin var unutma. #BTC 65700, üstü tuttun
+  tuttun. **Ara da bir de 28 Şubat dikkat.**"*
+- **28 Şub 2026 (euronews):** *"Orta Doğu'da kriz: ABD ve İsrail'den İran'a kapsamlı hava
+  saldırısı."*
+→ **İki gün önceden verilmiş, tutmuş bir tarih uyarısı.** Karneye "isabet" olarak girmeli.
+- Devamı: 17 Nis 2026 Trump Truth paylaşımı — *"HORMUZ BOĞAZI TAMAMEN AÇIK..."*; Koç'un
+  6 Nis notu: *"#PETROL Nisan 16-17 önemli diyor, dün #ETH de o döneme işaret ediyordu."*
+  → Nisan 16-17 çağrısı da tutmuş (Hürmüz açıldı, 17 Nisan).
+
+### 3) Sayı öğretisi para birimi/oran fark etmeksizin işliyor
+- **BTC.D (dominance %) = 57**, **ETH.D = 10.6** — aynı "57 / 106" dizisi bu kez **yüzde**
+  cinsinden. *"Zorla 10.6 altında tutuyorlar"* / *"Şu kesişimler önemli"*.
+- **BTCEUR 57 K**, **XAGUSD 57 USD**, **BTC 84 K / GOLD 84 USD**, **DOW 43760 / XAU 4376**.
+→ **Bu artık tesadüf sayılamaz: Koç aynı sayı dizisini ürün, para birimi ve hatta yüzde
+oranlarında arıyor.** Mentor tarafında "seviye" ararken önce diziye bakılmalı:
+**57 – 60 – 65,7 – 68 – 76 – 84 – 92 – 106 – 125.**
+
+### 4) Yeni seviyeler (bu turda geçen)
+- **BTC 64.600** *"robot koydular, yükseliş için kesinlikle altında kalınmamalı"* (18 Haz
+  2026; o gün fiyat 64.664 = tam üstünde). **BTC 65.700** (26 Şub 2026).
+- **ETHUSD 2570** — düşen kırmızı trend + siyah destek kesişiminden sonra hedef bölge;
+  *"2570 üstüne çıkacak pozitif haberi bulacak ki hareketlensin, yoksa bekler."*
+  **1746** (15 dk grafik pivotu, iki kez tam dokunuş). **4090** (haftalık; Tem 2025'te
+  aşılmış, "barışmıyorlar diye geri durdun").
+- **XAUUSD 4141,95** (22 Haz 2026 ekran) — 4376 kesişiminin altında.
+- **USDCAD haftalık 1,3957** yatayı, fiyat 1,4159: *"mumlar yukarı gittiğinde piyasa negatif,
+  aşağı döndüklerinde sağ sol neşelendi"* → **USDCAD = risk barometresi** olarak kullanılıyor.
+- **EURUSD haftalık 1,0900** yatayı; 2025 başı için *"EUR burada... adamları batıracaklar"*.
+- **DXY aylık**: 1985'ten gelen düşen kanal + 2011'den gelen yükselen kanal iç içe; fiyat
+  101,0 tam kesişimde. 2015-2017 benzetmesiyle aynı bölge.
+
+### 5) "Zaman geçirme" temasının belgeleri
+- 1 Eyl 2025: *"Çıplak halidir haftalık grafiğin, bu görüntü midemi bulandırdı; soldaki tepe
+  yapıp ortalamanın altına sarkıyor"* (BTC haftalık çift tepe) + *"Hiç olmadığı kadar
+  **kriptonun kollanmaya ihtiyacı olan** dönemlere giriyoruz."*
+- 9 Ara 2025: Ted Pillows'un "BTC 2021 döngüsünü taklit ediyor, 100-105 K'ya ralli" tezine
+  cevap: ***"O grafik öyle değil, Trump o grafiği bozdu."***
+- 18 Haz 2025: *"Putin olsun Avrupa olsun aylardır savaşı bitirin diyor, dinleniyor mu?
+  Hayır... Temmuz ayına kadar dünyanın vakti var; olmuyorsa olmuyor tarafına geçer."*
+- *"Yabancı hesaplarla aramdaki ZAMAN farkı: onlar Aralık'ta uyandı, ben Eylül. 4 ay."*
+→ **Koç kendi zamanlama üstünlüğünü "4 ay erken" diye ölçüyor**; bu, karne çıkarırken
+"erken çağrı" toleransı için kendi verdiği ölçü.
+
+### 6) Altın tanımının düzeltmesi (19 Haz 2025, kendi ağzından)
+*"**Altın = gerginlik, savaş, kaos demektir.** Ocak ayı attığım floodda 'Temmuz'a kadar altın
+kanadını çözdüler çözdüler' derken aslında **'savaşı çözdüler'** demem lazımdı; hızlı
+yazdığım için Altın dedim."*
+→ Arşivdeki "altın" kelimesinin bir kısmı **doğrudan savaş/barış** anlamında. Bu kayıt,
+karne kuralının birinci elden kaynağı.
+
+### 7) Yatırımcı davranışı (nadir, doğrudan pozisyon itirafları)
+- 5 Tem 2023: *"Bu savaş devam ederken kimse USD satamaz, almam asla; enflasyon var, düştükçe
+  mal alırım. Savaşı bitirdiğin an enflasyon duracağı için **çaktırmadan malı satar düşen DXY
+  alırım.**"*
+- 29 May 2024: *"Savaş çıktığı gün **1'in altından EUR, 1.03'ten GBP aldım**; şu an hepsi
+  kârda."*
+- OTHERS.D/USDTRY grafiği: *"Savaşla düşsün nizami 2022 → böyle yapacaktın 2024'te!
+  **BTC = ETF**"* → altcoin dominansının 2024'te ETF ile kırıldığı tezi.
+
+### 8) Dış kaynak (Koç'un sözü DEĞİL)
+- Gusholder Haber (6 Nis 2026): *"İran, ABD'yi Basra Körfezi'ndeki denizaltı internet
+  kablolarını kesmekle tehdit etti."* + Koç'un 4 May 2025 tarihli bilgi notu: *"Dünya internet
+  trafiğinin ~%95'i denizaltı fiber kablolar üzerinden; çoğu Google/Meta/Microsoft
+  mülkiyetinde, haritaları açık kaynak — sabotaja açık."*
+- Ted Pillows (@TedPillows) BTC 2021-döngüsü benzetmesi.
+- euronews 28 Şub 2026 İran hava saldırısı başlığı; TrumpTruthOnX Hürmüz açıklaması.
