@@ -2473,3 +2473,46 @@ pushla, sonra twitter taraması, analiz edilmemişleri ve görselleri analiz et"
 - `schtasks /query`: Daily 00:00, "Repeat: Every 0 Hour(s), 15 Minute(s)",
   "Duration: 24 Hour(s)" — 7/24 dogrulandi.
 - `.env` hala `.gitignore`'da ve hicbir commit'te yok.
+
+## 2026-08-28 (4) — Telegram spam onleme: biriktirme kuyrugu + 10 dk
+
+**Sikayet:** "bot 1 dk arayla mesaj atiyor, biriktirsin tek mesajda atsin,
+10 dk'da bir tarasin."
+
+**Teshis (logdan):** 1 dakikalik araligin buyuk kismi BENIM elle test
+calistirmalarimdan geliyordu (14:14:04 elle, 14:15:30 zamanlanmis = 86 sn).
+Ama sikayet hakli: sistemde arka arkaya mesaj gitmesini engelleyen HICBIR
+mekanizma yoktu — elle calistirma, kacirilan tetikleme telafisi veya ileride
+araligin kisaltilmasi ayni sorunu tekrar uretirdi.
+
+**Yapilan (3 katmanli koruma):**
+1. Tarama araligi 15 dk -> **10 dk** (Task Scheduler yeniden kaydedildi).
+2. **Mesaj asla parcalanmaz:** `parcala()` kaldirildi; `telegram_gonder()` tek
+   mesaj atar, metin sinirdan uzunsa kesilir ve "+N aday daha" yazilir.
+3. **Bildirim kuyrugu:** durum dosyasina `bekleyen`, `bekleyen_cikanlar` ve
+   `son_mesaj` alanlari eklendi. Son mesajdan bu yana `--mesaj-araligi`
+   (varsayilan 10) dakika gecmediyse yeni adaylar KUYRUGA alinir, mesaj
+   gonderilmez; sure dolunca kuyruktakilerin hepsi TEK mesajda gider.
+   Kuyrukta bekleyen adayin yanina "(HH:MM'de görüldü)" yazilir.
+
+**Kararlar / nedenleri:**
+- **Kuyruk yalnizca basarili gonderimde bosaltilir**, `son_mesaj` da yalnizca o
+  zaman guncellenir. Boylece Telegram erisilemezse bildirim KAYBOLMAZ, sonraki
+  turda ayni adaylarla tekrar denenir. (Eski "basarisizsa kayitlari durumdan
+  cikar" hilesine gerek kalmadi, kod sadelesti.)
+- **`--kuru` kuyrugu BOSALTMAZ:** kuru mod bir onizleme; gercek bildirimi
+  yutmamali.
+- **"Listeden cikti" listesi de kuyruklanir** (`bekleyen_cikanlar`), yoksa
+  mesaj ertelendiginde o bilgi kaybolurdu.
+- Gorev zaman siniri 10 dk -> 9 dk yapildi ki bir tur bitmeden digeri
+  baslamasin (zaten `MultipleInstances IgnoreNew`).
+
+**Dogrulanan:**
+- Izole birim testi (ag yok, sahte fiyat+Telegram): 5 arka arkaya calistirmada
+  **tek mesaj** gitti, kalanlar kuyruga alindi; `son_mesaj` 11 dk geriye
+  alininca kuyruk TEK mesajda gonderildi ve kuyruk 0'a dustu.
+- **Gercek ortam:** durumdan bir kayit silinip calistirildi -> "Telegram'a TEK
+  mesajda 1 aday gonderildi". Hemen ardindan baska bir kayit silinip tekrar
+  calistirildi -> "1 aday kuyrukta BEKLETILIYOR — son mesajdan bu yana 0.5 dk
+  gecti, 10.0 dk dolmadi." Mesaj GITMEDI.
+- `schtasks /query`: "Repeat: Every 0 Hour(s), 10 Minute(s)", Duration 24 saat.

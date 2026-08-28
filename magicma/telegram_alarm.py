@@ -9,20 +9,30 @@ Telegram'a bildirim olarak gonderir.
 Tasarim kararlari:
   - Fiyat cekme mantigi TEKRAR YAZILMAZ; fiyat_kontrol.adaylari_hesapla()
     import edilir.
-  - Durum dosyasi: magicma/alarm_son_durum.json. Anahtar = "SEMBOL|CIZGI_ADI".
+  - Durum dosyasi: magicma/alarm_son_durum.json. Anahtar = "SEMBOL|BANT_ADI".
   - ILK calistirmada durum dosyasi yoksa hicbir bildirim gonderilmez (her sey
     "yeni" gorunur, spam olur); sadece durum kaydedilir.
   - Yeni temas YOKSA hicbir mesaj gonderilmez (sessiz kalir).
-  - Listeden cikanlar tek satirlik, daha sessiz bir bolumde ozetlenir ve
-    yalnizca zaten gonderilecek bir mesaj varsa eklenir.
-  - Her sey try/except icinde: fiyat cekme veya Telegram API basarisiz olursa
-    script konsola log yazip sessizce cikar (bir sonraki turda tekrar dener).
+  - Piyasasi kapali sembol (BIST/ABD) hic taranmaz; kapandigi icin listeden
+    dusen kayit "listeden cikti" diye BILDIRILMEZ, sessizce duser.
+
+TEK MESAJ / BIRIKTIRME (spam onleme, uc katman):
+  1. Tarama araligi 10 dk (Task Scheduler).
+  2. Bir turda bulunan TUM adaylar TEK mesajda gider — mesaj asla parcalanmaz;
+     sinira sigmazsa kesilir ve "+N aday daha" yazilir.
+  3. Iki mesaj arasi EN AZ `--mesaj-araligi` dakika (varsayilan 10). Bu sure
+     dolmadan bulunan adaylar durum dosyasindaki KUYRUGA alinir ve bir sonraki
+     mesajda hep birlikte gonderilir; kuyrukta bekleyenin yaninda kac
+     saat/dakikada gorulduğu yazar. Elle calistirma + zamanlanmis calistirma
+     ust uste gelse bile arka arkaya iki bildirim dusmez.
+  Kuyruk yalnizca mesaj BASARIYLA gidince bosaltilir — bildirim kaybolmaz.
 
 Kullanim:
     py -3 magicma/telegram_alarm.py
     py -3 magicma/telegram_alarm.py --esik 0.4
-    py -3 magicma/telegram_alarm.py --kuru      # Telegram'a gondermeden, ekrana yaz
-    py -3 magicma/telegram_alarm.py --zorla     # ilk calistirma olsa bile gonder
+    py -3 magicma/telegram_alarm.py --kuru             # gondermeden ekrana yaz
+    py -3 magicma/telegram_alarm.py --zorla            # ilk calistirmada da gonder
+    py -3 magicma/telegram_alarm.py --mesaj-araligi 0  # bekletme yok (test)
 
 Gizli bilgi: TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID repo kokundeki .env
 dosyasindan okunur (.gitignore'da, ASLA commit edilmez).
@@ -114,26 +124,47 @@ def telegram_bilgileri():
 # --------------------------------------------------------------------------
 
 def durum_oku(yol=DURUM_YOL):
-    """Doner: (kayitlar_sozlugu, ilk_calistirma_mi)"""
+    """Doner: (kayitlar, bekleyen, son_mesaj, ilk_calistirma_mi)
+
+    kayitlar          : {anahtar: kayit} — histerezis listesi
+    bekleyen          : [kayit, ...] — bildirilmeyi bekleyen yeni temaslar
+    bekleyen_cikanlar : [sembol, ...] — bildirilmeyi bekleyen "listeden cikti"
+    son_mesaj         : en son Telegram mesajinin gonderildigi an veya None
+    """
     if not os.path.exists(yol):
-        return {}, True
+        return {}, [], [], None, True
     try:
         with open(yol, encoding="utf-8") as f:
             veri = json.load(f)
         kayitlar = veri.get("kayitlar", {})
         if not isinstance(kayitlar, dict):
             raise ValueError("kayitlar sozluk degil")
-        return kayitlar, False
+        bekleyen = veri.get("bekleyen") or []
+        if not isinstance(bekleyen, list):
+            bekleyen = []
+        bekleyen_cikanlar = veri.get("bekleyen_cikanlar") or []
+        if not isinstance(bekleyen_cikanlar, list):
+            bekleyen_cikanlar = []
+        son_mesaj = None
+        if veri.get("son_mesaj"):
+            try:
+                son_mesaj = datetime.fromisoformat(veri["son_mesaj"])
+            except ValueError:
+                son_mesaj = None
+        return kayitlar, bekleyen, bekleyen_cikanlar, son_mesaj, False
     except (OSError, ValueError) as e:
         log(f"[UYARI] {yol} okunamadi ({type(e).__name__}: {e}); ilk calistirma sayiliyor.")
-        return {}, True
+        return {}, [], [], None, True
 
 
-def durum_yaz(kayitlar, esik, yol=DURUM_YOL):
+def durum_yaz(kayitlar, esik, bekleyen=None, son_mesaj=None, cikanlar=None, yol=DURUM_YOL):
     gecici = yol + ".tmp"
     veri = {
         "guncelleme": datetime.now().isoformat(timespec="seconds"),
         "esik": esik,
+        "son_mesaj": son_mesaj.isoformat(timespec="seconds") if son_mesaj else None,
+        "bekleyen": bekleyen or [],
+        "bekleyen_cikanlar": sorted(set(cikanlar or [])),
         "kayitlar": kayitlar,
     }
     try:
@@ -197,28 +228,44 @@ def satir_bicimle(kayit):
     return "\n".join(satirlar)
 
 
-def mesaj_olustur(yeniler, cikanlar):
-    zaman = datetime.now().strftime("%d.%m.%Y %H:%M")
-    parcalar = [f"YENİ MagicMA TEMAS ({zaman})"]
-    parcalar += [satir_bicimle(k) for k in yeniler]
+def mesaj_olustur(bekleyen, cikanlar, simdi=None):
+    """Kuyruktaki TUM adaylari TEK mesajda toplar.
+
+    Telegram sinirini asarsa mesaj parcalanmaz — kesilir ve kac adayin
+    gosterilemedigi sona yazilir (amac: her turda en fazla bir bildirim).
+    Onceki turlardan devrolmus adaylarin yaninda ne zaman gorulduklerini yazar.
+    """
+    simdi = simdi or datetime.now()
+    bas = "\U0001F514 " + _md_kacir(f"YENİ MagicMA TEMAS ({simdi:%d.%m.%Y %H:%M})")
+    son = ""
     if cikanlar:
-        parcalar.append("\U0001F4E4 Listeden çıktı: " + ", ".join(cikanlar))
-    return "\U0001F514 " + _md_kacir("\n\n".join(parcalar))
+        son = "\n\n" + _md_kacir("\U0001F4E4 Listeden çıktı: " + ", ".join(cikanlar))
 
+    bloklar = []
+    for kayit in bekleyen:
+        blok = satir_bicimle(kayit)
+        gorulme = kayit.get("gorulme")
+        if gorulme:
+            try:
+                g = datetime.fromisoformat(gorulme)
+                if (simdi - g).total_seconds() >= 60:
+                    blok += f"\n    ({g:%H:%M}'de görüldü)"
+            except ValueError:
+                pass
+        bloklar.append(_md_kacir(blok))
 
-def parcala(metin, sinir=TELEGRAM_MAX):
-    """Telegram karakter sinirini asmasin diye satir sinirinda boler."""
-    if len(metin) <= sinir:
-        return [metin]
-    parcalar, tampon = [], ""
-    for satir in metin.split("\n"):
-        if len(tampon) + len(satir) + 1 > sinir and tampon:
-            parcalar.append(tampon)
-            tampon = ""
-        tampon = f"{tampon}\n{satir}" if tampon else satir
-    if tampon:
-        parcalar.append(tampon)
-    return parcalar
+    govde, atlanan = [], 0
+    for sira, blok in enumerate(bloklar):
+        deneme = len(bas) + len("\n\n".join(govde + [blok])) + len(son) + 64
+        if deneme > TELEGRAM_MAX and govde:
+            atlanan = len(bloklar) - sira
+            break
+        govde.append(blok)
+
+    metin = bas + ("\n\n" + "\n\n".join(govde) if govde else "")
+    if atlanan:
+        metin += f"\n\n… ve {atlanan} aday daha (mesaja sığmadı)"
+    return metin + son
 
 
 # --------------------------------------------------------------------------
@@ -226,30 +273,27 @@ def parcala(metin, sinir=TELEGRAM_MAX):
 # --------------------------------------------------------------------------
 
 def telegram_gonder(token, chat_id, metin):
-    """Mesaji gonderir. Markdown ayristirma hatasinda duz metin olarak tekrar dener.
-    Doner: True/False (basari)."""
+    """TEK mesaj gonderir. Markdown ayristirma hatasinda duz metne duser.
+
+    Bilerek parcalamaz: amac "her turda EN FAZLA BIR bildirim". Metin sinirdan
+    uzunsa kesilir ve kac aday gosterilemedigi sona yazilir — arka arkaya
+    birden fazla mesaj dusmesindense tek mesajda ozet tercih edilir.
+    """
     url = f"https://api.telegram.org/bot{token}/sendMessage"
-    tamam = True
-    for parca in parcala(metin):
-        gonderildi = False
-        for parse_mode in ("Markdown", None):
-            govde = {"chat_id": chat_id, "text": parca,
-                     "disable_web_page_preview": True}
-            if parse_mode:
-                govde["parse_mode"] = parse_mode
-            try:
-                r = requests.post(url, data=govde, timeout=20)
-                if r.status_code == 200 and r.json().get("ok"):
-                    gonderildi = True
-                    break
-                log(f"[UYARI] Telegram yaniti ({parse_mode or 'duz'}): "
-                    f"{r.status_code} {r.text[:200]}")
-            except Exception as e:
-                log(f"[UYARI] Telegram istegi basarisiz ({parse_mode or 'duz'}): "
-                    f"{type(e).__name__}: {e}")
-        if not gonderildi:
-            tamam = False
-    return tamam
+    for parse_mode in ("Markdown", None):
+        govde = {"chat_id": chat_id, "text": metin, "disable_web_page_preview": True}
+        if parse_mode:
+            govde["parse_mode"] = parse_mode
+        try:
+            r = requests.post(url, data=govde, timeout=20)
+            if r.status_code == 200 and r.json().get("ok"):
+                return True
+            log(f"[UYARI] Telegram yaniti ({parse_mode or 'duz'}): "
+                f"{r.status_code} {r.text[:200]}")
+        except Exception as e:
+            log(f"[UYARI] Telegram istegi basarisiz ({parse_mode or 'duz'}): "
+                f"{type(e).__name__}: {e}")
+    return False
 
 
 # --------------------------------------------------------------------------
@@ -299,6 +343,10 @@ def main():
                     help="durum dosyasi yoksa bile mesaj gonder (ilk calistirma sessizligini atla)")
     ap.add_argument("--piyasa-saatini-yoksay", action="store_true",
                     help="BIST/ABD piyasa saati filtresini kapat (kapali piyasayi da tara)")
+    ap.add_argument("--mesaj-araligi", type=float, default=10.0,
+                    help="iki Telegram mesaji arasindaki EN AZ dakika (varsayilan 10). "
+                         "Bu sure dolmadan bulunan adaylar kuyruga alinir ve sonraki "
+                         "mesajda TEK seferde gonderilir. 0 = bekletme yok.")
     args = ap.parse_args()
 
     cikis_esik = args.cikis_esik if args.cikis_esik is not None else args.esik * 2
@@ -322,9 +370,10 @@ def main():
     genis = sonuclari_kayda_cevir(v["sonuclar"])                       # |mesafe| <= cikis_esik
     temas = {a: k for a, k in genis.items() if abs(k["mesafe"]) <= args.esik}
 
-    onceki, ilk_calistirma = durum_oku()
+    onceki, bekleyen, bekleyen_cikanlar, son_mesaj, ilk_calistirma = durum_oku()
     log(f"Giris esigi %{args.esik}: {len(temas)} kayit · "
-        f"cikis esigi %{cikis_esik}: {len(genis)} kayit (onceki durum: {len(onceki)}).")
+        f"cikis esigi %{cikis_esik}: {len(genis)} kayit (onceki durum: {len(onceki)}"
+        + (f", kuyrukta bekleyen: {len(bekleyen)}" if bekleyen else "") + ").")
 
     if ilk_calistirma and not args.zorla:
         durum_yaz(temas, args.esik)
@@ -352,38 +401,61 @@ def main():
     piyasa_dusenleri = [a for a in cikan_anahtarlar if _sembol(a) in kapali_semboller]
     gercek_cikanlar = [a for a in cikan_anahtarlar if _sembol(a) not in kapali_semboller]
 
-    # En yakin en ustte
-    yeniler = sorted((temas[a] for a in yeni_anahtarlar), key=lambda k: abs(k["mesafe"]))
-    cikanlar = sorted({_sembol(a) for a in gercek_cikanlar})
+    simdi = datetime.now()
 
-    log(f"Yeni temas: {len(yeniler)} · listede kalan: {len(kalan_anahtarlar)} · "
+    # --- Yeni temaslari BILDIRIM KUYRUGUNA ekle (mesaj hemen gitmeyebilir) ----
+    # Amac: art arda mesaj dusmesin. Kuyruk durum dosyasinda saklanir; mesaj
+    # gonderilene kadar hicbir aday kaybolmaz.
+    kuyruktakiler = {b.get("anahtar") for b in bekleyen}
+    for anahtar in sorted(yeni_anahtarlar, key=lambda a: abs(temas[a]["mesafe"])):
+        if anahtar in kuyruktakiler:
+            continue
+        kayit = dict(temas[anahtar])
+        kayit["anahtar"] = anahtar
+        kayit["gorulme"] = simdi.isoformat(timespec="seconds")
+        bekleyen.append(kayit)
+
+    cikanlar = sorted(set(bekleyen_cikanlar) | {_sembol(a) for a in gercek_cikanlar})
+
+    log(f"Yeni temas: {len(yeni_anahtarlar)} · listede kalan: {len(kalan_anahtarlar)} · "
         f"listeden cikan: {len(gercek_cikanlar)}"
         + (f" · piyasa kapandigi icin sessizce dusen: {len(piyasa_dusenleri)}"
            if piyasa_dusenleri else ""))
 
-    if not yeniler:
-        durum_yaz(yeni_durum, args.esik)
+    if not bekleyen:
+        durum_yaz(yeni_durum, args.esik, [], son_mesaj)
         log("Yeni temas yok — mesaj gonderilmedi (sessiz).")
         return 0
 
-    metin = mesaj_olustur(yeniler, cikanlar)
+    # En yakin en ustte
+    bekleyen.sort(key=lambda k: abs(k.get("mesafe", 0)))
+    metin = mesaj_olustur(bekleyen, cikanlar, simdi)
 
     if args.kuru:
         print("\n--- GONDERILECEK MESAJ (kuru mod) ---")
         print(metin)
         print("--- son ---\n")
-        durum_yaz(yeni_durum, args.esik)
+        durum_yaz(yeni_durum, args.esik, bekleyen, son_mesaj)   # kuyruk BOSALTILMAZ
+        return 0
+
+    # --- Mesaj araligi: son mesajdan bu yana yeterli sure gecti mi? ----------
+    gecen_dk = (simdi - son_mesaj).total_seconds() / 60 if son_mesaj else None
+    if gecen_dk is not None and gecen_dk < args.mesaj_araligi:
+        durum_yaz(yeni_durum, args.esik, bekleyen, son_mesaj, cikanlar=cikanlar)
+        log(f"{len(bekleyen)} aday kuyrukta BEKLETILIYOR — son mesajdan bu yana "
+            f"{gecen_dk:.1f} dk gecti, {args.mesaj_araligi} dk dolmadi. "
+            f"~{args.mesaj_araligi - gecen_dk:.0f} dk sonra hepsi TEK mesajda gidecek.")
         return 0
 
     if telegram_gonder(token, chat_id, metin):
-        log(f"Telegram'a {len(yeniler)} yeni temas gonderildi.")
-        durum_yaz(yeni_durum, args.esik)
+        log(f"Telegram'a TEK mesajda {len(bekleyen)} aday gonderildi.")
+        durum_yaz(yeni_durum, args.esik, [], simdi)              # kuyruk bosaltilir
         return 0
 
-    # Gonderim basarisiz: YENI kayitlar durumda birakilmaz ki bir sonraki turda
-    # tekrar denensin (bildirim kaybolmasin). Kalanlar guncellenir.
-    log("[HATA] Telegram gonderimi basarisiz — yeni temaslar bir sonraki tura birakildi.")
-    durum_yaz({a: genis[a] for a in kalan_anahtarlar}, args.esik)
+    # Gonderim basarisiz: kuyruk DOKUNULMADAN birakilir, son_mesaj guncellenmez;
+    # bir sonraki tur ayni adaylarla tekrar dener (bildirim kaybolmaz).
+    log("[HATA] Telegram gonderimi basarisiz — kuyruk korundu, sonraki turda tekrar denenecek.")
+    durum_yaz(yeni_durum, args.esik, bekleyen, son_mesaj, cikanlar=cikanlar)
     return 1
 
 

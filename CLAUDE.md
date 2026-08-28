@@ -145,7 +145,16 @@ saat boyunca 15 dakikada bir calistirir (pyw.exe ile penceresiz).
   Boylece esik sinirinda salinan sembol her turda yeniden bildirilmez.
 - Ilk calistirmada (durum dosyasi yoksa) bildirim GONDERILMEZ. Yeni temas
   yoksa mesaj gonderilmez.
+- **Tarama araligi 10 dk** (Task Scheduler, 7/24).
+- **Mesajlar arasi EN AZ 10 dk** (`--mesaj-araligi`, varsayilan 10). Bu sure
+  dolmadan bulunan adaylar durum dosyasindaki KUYRUGA alinir, sonraki mesajda
+  hepsi TEK seferde gider; kuyrukta bekleyenin yaninda gorulme saati yazar.
+  Elle calistirma + zamanlanmis calistirma ust uste gelse bile arka arkaya iki
+  bildirim dusmez. Kuyruk yalnizca mesaj BASARIYLA gidince bosaltilir.
+- **Mesaj asla parcalanmaz:** bir turun tum adaylari tek mesajda; sinira
+  sigmazsa kesilir ve "+N aday daha" yazilir.
 - Elle deneme: `py -3 magicma/telegram_alarm.py --kuru` (gondermeden ekrana yazar).
+  Bekletmeyi kapatmak icin `--mesaj-araligi 0`.
 - **`fiyat_kontrol.py`'yi degistirirken `adaylari_hesapla()` imzasini bozma** —
   alarm scripti bunu import ediyor.
 
