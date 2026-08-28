@@ -3385,3 +3385,55 @@ kaldırdı. Hâlâ anlaşamadılar, bence YALAN konuşuyorlar."* → DXY'nin Tem
   rezerv 50,88 milyar USD, **-%20,63** (-13,2 milyar USD), 113 alım olayı.
 - **CNBC Squawk Box** karesi (Oca 2021): EURUSD 1,2343 / USDJPY 102,83 / GBPUSD 1,3625,
   "TECH TAKES A TUMBLE — INVESTORS EYE GEORGIA RACES".
+
+---
+
+## 28 Ağustos 2026 — Günlük tarama sentezi (22 kayıt, yanıt akışı)
+
+Kaynak: 28 Ağu 2026 taraması (00:41–15:57 arası 22 kayıt, 5 grafik). Not: bugünkü
+akış profil "Gönderiler" sekmesinde görünmüyordu, `EKO_AKIS=yanit` ile çekildi.
+
+### A. XAUUSD — 4570 pivotu doğrulandı, aylık trend 4840
+- **4570**, 13 Tem 2026 abone paylaşımında "olması gereken ALTIN değeri, net 4570,
+  burası bence büyük pivot" diye önceden verilmişti. Bugün o tweet ekran görüntüsüyle
+  hatırlatıldı → **kendi tahminine geri dönüş (hatırlatma tipi)**.
+- 27 Ağu: 4640'tan 70 dolar düşüş, düşülen yer **4570 = "5,7 öğretisi"**.
+- 28 Ağu gece bir tur daha 4570'e indi, **tekrar sektirdiler** (H1 grafikte 4570,39
+  çizgisinden üç ayrı tepki: 21 Ağu, 27 Ağu, 28 Ağu). Fiyat 4604 civarı.
+- **Aylık grafikte trend 4840'tan geçiyor — "8,4 öğretisi"**. 2008'den gelen uzun
+  trend çizgisi; 2012 dokunuşu (kırmızı) ve 2009-2010 dokunuşları (yeşil) işaretli.
+- Çıkarım: 4570 kısa vade **destek/pivot**, 4840 aylık **trend direnci**. Aradaki
+  bant şu an oyun alanı.
+
+### B. Hareketli ortalama öğretisi — "ortalama düşmeden fiyatın düşmesi anlam ifade etmez"
+- Serbest piyasada ortalamalar mumu takip eder, iner çıkar (NASDAQ 2022-2023 grafiği
+  bunun örneği: kırmızı ortalama fiyatla birlikte inip çıkıyor).
+- 2024-2026'da ise **fiyat düşse de ortalama eşlik etmiyor**: NASDAQ günlükte
+  ortalama **yatay 5 ay**, sonra **yatay 7 ay**, en son **yine 5 ay** yatay.
+  "3 YILDIR NASDAQ, ortalamalar oynamıyor bile."
+- Sonuç kuralı: **bir haberle mumu ortalamaya geri döndürüyorlar**; ortalama
+  kırılmadıkça düşüş sayılmaz. Bu, Koç'un düşüş teyidi için kullandığı filtre.
+- **DAX aylık:** 13 aydır aynı yerde yatıyor, 13 ay sonra bir el yukarı sürüyor.
+  Eleştirisi: 13 ay sabit kalıp %10 gitmenin anlamı yok — faizde o para zaten
+  13 ayda kazanılmıştı. (Zaman maliyeti / reel getiri argümanı.)
+
+### C. Makro tez — "10 yılı bir yıl gibi yönetiyorlar"
+- Eskiden bir yıllık yönetim döngüsü vardı: sorun çıkar, çözülür, piyasa iner çıkar,
+  biter. **Şimdi 2020-2030 arasına "bir yıl" gibi bakılıyor**; çoğu dönem zaman
+  geçiriliyor. "Zaman geçire geçire ömrünüzü yerler."
+- Dolar tezi (00:41–01:05 serisi): Dolar rezerv para olduğu için **bilerek
+  ezdiriliyor**; amaç güçsüzlük değil, dünyanın FED'den para istememesi.
+  "Aman kardeş, sen güçlü görün ben zayıf göreyim — ama bana para deyip ağlama"
+  (örnek: EUR). Faiz denirse tüm dünya çöker; dolar zayıflatılarak emtia/kripto
+  üzerinden dünya soğutuluyor.
+- ÇİN'in "emtia" diyebilmesi ABD'nin izin vermesiyle; Trump kripto derken ÇİN
+  emtia diyor — karşılıklı tahrik.
+
+### D. Takip listesine eklenen/güncellenen seviyeler
+| Ürün | Seviye | Not |
+|---|---|---|
+| XAUUSD | **4570** pivot (3 kez test, 3 kez sektirildi) | 13 Tem 2026 abone tahmini doğrulandı |
+| XAUUSD | **4840** aylık trend | "8,4 öğretisi" |
+| XAUUSD | 4640 → 4570 = 70 dolar düşüş | "5,7 öğretisi" |
+| NASDAQ | Günlük ortalama 3 yıldır yatay (5+7+5 ay) | Düşüş teyidi ortalama kırılmasına bağlı |
+| DAX | 13 aylık sıkışma bandı, aylık | Yukarı çıkış 13 ay sonra geldi |
