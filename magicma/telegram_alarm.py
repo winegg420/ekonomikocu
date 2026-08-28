@@ -297,6 +297,8 @@ def main():
     ap.add_argument("--kuru", action="store_true", help="Telegram'a gonderme, sadece ekrana yaz")
     ap.add_argument("--zorla", action="store_true",
                     help="durum dosyasi yoksa bile mesaj gonder (ilk calistirma sessizligini atla)")
+    ap.add_argument("--piyasa-saatini-yoksay", action="store_true",
+                    help="BIST/ABD piyasa saati filtresini kapat (kapali piyasayi da tara)")
     args = ap.parse_args()
 
     cikis_esik = args.cikis_esik if args.cikis_esik is not None else args.esik * 2
@@ -307,8 +309,10 @@ def main():
 
     try:
         # Genis bandi (cikis esigi) hesaplat; giris esigi bunun icinden suzulur.
+        # piyasa_filtresi: BIST/ABD kapaliyken o sembollerin fiyati hic cekilmez.
         v = fiyat_kontrol.adaylari_hesapla(
-            tarih=args.tarih, esik=cikis_esik, max_yas=args.max_yas, log=log)
+            tarih=args.tarih, esik=cikis_esik, max_yas=args.max_yas, log=log,
+            piyasa_filtresi=not args.piyasa_saatini_yoksay)
     except SystemExit:
         raise
     except Exception as e:
@@ -337,12 +341,25 @@ def main():
     yeni_durum = {a: genis[a] for a in kalan_anahtarlar}
     yeni_durum.update({a: temas[a] for a in yeni_anahtarlar})
 
+    # Piyasasi kapandigi icin listeden dusenler SESSIZCE dusurulur: bunlarin
+    # "listeden cikti" diye bildirilmesi gercek bir sinyal degil, kafa karistirir.
+    # (Durum dosyasindan zaten dusuyorlar, cunku `genis` icinde yoklar.)
+    kapali_semboller = v.get("kapali_semboller") or set()
+
+    def _sembol(anahtar):
+        return onceki[anahtar].get("sembol", anahtar.split("|")[0])
+
+    piyasa_dusenleri = [a for a in cikan_anahtarlar if _sembol(a) in kapali_semboller]
+    gercek_cikanlar = [a for a in cikan_anahtarlar if _sembol(a) not in kapali_semboller]
+
     # En yakin en ustte
     yeniler = sorted((temas[a] for a in yeni_anahtarlar), key=lambda k: abs(k["mesafe"]))
-    cikanlar = sorted({onceki[a].get("sembol", a.split("|")[0]) for a in cikan_anahtarlar})
+    cikanlar = sorted({_sembol(a) for a in gercek_cikanlar})
 
     log(f"Yeni temas: {len(yeniler)} · listede kalan: {len(kalan_anahtarlar)} · "
-        f"listeden cikan: {len(cikan_anahtarlar)}")
+        f"listeden cikan: {len(gercek_cikanlar)}"
+        + (f" · piyasa kapandigi icin sessizce dusen: {len(piyasa_dusenleri)}"
+           if piyasa_dusenleri else ""))
 
     if not yeniler:
         durum_yaz(yeni_durum, args.esik)

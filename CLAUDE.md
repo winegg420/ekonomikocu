@@ -183,3 +183,33 @@ SHORT digerine gore LONG uretiyordu (kendi icinde celiskili).
 > `magicma_islem_adaylari_TARIH.md` raporlarini ona gore uretiyor. Tarama aninin
 > fiyatiyla calistigi icin band-ici yon tespiti ayri bir tasarim gerektiriyor;
 > bilerek degistirilmedi.
+
+## PIYASA SAATI FILTRESI (2026-08-28)
+
+`magicma/piyasa_saati.py` — her varlik sinifi yalnizca KENDI acik oldugu saatte
+taranir. Filtre **script icinde**, Task Scheduler seviyesinde DEGIL; gorev artik
+**7/24, her 15 dakikada bir** calisir.
+
+- `bist.txt` -> hafta ici **09:40-18:10 TSI**, hafta sonu kapali.
+- `abd_hisse.txt` -> hafta ici **09:30-16:00 New York saati**. TSI karsiligi DST
+  ile kayar (yaz 16:30-23:00, kis 17:30-00:00). **Tarih hardcode EDILMEZ**,
+  `zoneinfo` ile New York yerel saatine cevrilip karsilastirilir.
+- `kripto.txt`, `forex_emtia.txt`, `endeks_faiz.txt`, `gunun_hareketlileri.txt`
+  -> **filtre yok, 7/24**. (Forex gercekte hafta sonu kapali ama bu surumde
+  bilerek filtrelenmiyor. Resmi tatil takvimi de yok — bilinen sinirlamalar.)
+- Bir sembol hem filtreli hem serbest listede varsa **serbest kazanir**
+  (orn. XU100 `endeks_faiz.txt`'te -> filtrelenmez).
+
+Kapali sembollerin fiyati **hic cekilmez** (gereksiz API cagrisi yok).
+Piyasa kapandigi icin listeden dusen sembol "LISTEDEN CIKTI" diye
+**bildirilmez**, sessizce durum dosyasindan duser — gercek bir sinyal degil.
+
+**`tzdata` bagimliligi:** Windows'ta sistem saat dilimi veritabani yoktur,
+`zoneinfo` icin `tzdata` paketi gerekir (requirements.txt'e eklendi). Paket
+yoksa modul cokmez: Turkiye sabit UTC+3, ABD icin 2007'den beri gecerli DST
+KURALI (Mart'in 2. Pazari - Kasim'in 1. Pazari) uygulanir. Iki yol da ayni
+sonucu veriyor (22/22 senaryoda dogrulandi).
+
+Filtreyi kapatmak icin: `telegram_alarm.py --piyasa-saatini-yoksay`.
+`fiyat_kontrol.py`'de filtre **varsayilan KAPALI** (mentor icin kapali
+piyasanin son kapanis fiyati hala ise yariyor); acmak icin `--piyasa-saati`.

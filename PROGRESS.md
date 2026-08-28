@@ -2422,3 +2422,54 @@ pushla, sonra twitter taraması, analiz edilmemişleri ve görselleri analiz et"
   dusen tek sembol ALTIN (BIST:ALTIN'in saatlik seri kaynagi yok).
 - `--kuru` ile mesaj formati gozden gecirildi; durum sifirlanip sessiz ilk
   calistirma yapildi.
+
+## 2026-08-28 (3) — Piyasa saati filtresi + .env.example
+
+**Yapilan:**
+- `.env.example`'a `TELEGRAM_BOT_TOKEN=` / `TELEGRAM_CHAT_ID=` satirlari
+  (bos deger + chat ID'yi nasil ogrenecegini anlatan yorum) eklendi.
+- Yeni modul **`magicma/piyasa_saati.py`**: BIST hafta ici 09:40-18:10 TSI,
+  ABD hafta ici 09:30-16:00 New York saati (`zoneinfo` ile, DST kendiliginden).
+  Diger tum listeler 7/24 (filtre yok).
+- `fiyat_kontrol.py`: `sembol_dosya_haritasi()` + `piyasa_filtresi_uygula()`
+  eklendi; `adaylari_hesapla()` artik `piyasa_filtresi` ve `simdi`
+  parametrelerini aliyor, `kapali_semboller` dondurüyor. CLI'ya
+  `--piyasa-saati` bayragi eklendi (varsayilan KAPALI).
+- `telegram_alarm.py`: filtre **varsayilan ACIK**; `--piyasa-saatini-yoksay`
+  ile kapatilabilir. Piyasa kapandigi icin dusen kayitlar "listeden cikti"
+  olarak bildirilmiyor, sessizce durum dosyasindan dusuyor.
+- `requirements.txt`: `tzdata` (zoneinfo icin) ve `requests` (zaten
+  kullaniliyordu ama listede yoktu) eklendi.
+- Task Scheduler gorevi **7/24, her 15 dk** olarak yeniden kaydedildi
+  (gunluk 00:00 tetikleyici + 24 saat boyunca 15 dk tekrar).
+
+**Kararlar / nedenleri:**
+- **`tzdata` gerekti:** Windows'ta sistem tz veritabani YOK, `ZoneInfo(
+  'America/New_York')` `ZoneInfoNotFoundError` veriyordu. Paket kuruldu ve
+  requirements'a eklendi. Ayrica paket yoksa cokmemesi icin yedek yol yazildi
+  (Turkiye sabit UTC+3, ABD icin DST KURALI — tarih degil kural).
+- **Filtre `fiyat_kontrol.py`'de varsayilan KAPALI:** mentor oturumu icin
+  calistirilan CLI'da kapali piyasanin son kapanis fiyati hala anlamli.
+  Filtre yalnizca periyodik alarm icin acik.
+- **Serbest listeler filtreli listeleri ezer:** sembol hem `bist.txt` hem
+  `endeks_faiz.txt`'te olursa filtrelenmemeli (XU100 ornegi).
+- **Bilinmeyen dosya -> ACIK (fail-open):** yeni bir liste dosyasi eklenince
+  sembolleri sessizce kaybolmasin.
+
+**Dogrulanan:**
+- `piyasa_saati` birim testi: **22/22 senaryo gecti** — BIST acilis/kapanis
+  sinirlari (09:39/09:40, 18:10/18:11), hafta sonu, ABD yaz (16:30-23:00) ve
+  kis (17:30-00:00) sinirlari, ve DST gecis gunleri (2026-03-06 hala EST,
+  2026-03-09 EDT; 2026-10-30 hala EDT, 2026-11-02 EST) — yani kural gercekten
+  hesaplaniyor, tarih yazilmamis. tzdata devre disi birakilinca yedek yol da
+  **22/22 ayni sonucu** verdi.
+- Canli calistirma (Cuma 14:12 TSI): "BIST: ACIK · ABD: KAPALI · atlanan:
+  ABD 91 sembol", cekilen sembol 747 -> 656.
+- Senaryo taramasi: Cmt 12:00 -> 473 sembol (274 atlandi), Cuma 17:00 ->
+  747 (0 atlandi), Cuma 22:00 -> 564 (BIST 183 atlandi).
+- Alarm gercek calistirmasi: durumda 4 ABD hissesi vardi (ADI, INTC, TXN,
+  UBER); tam 4'u "piyasa kapandigi icin sessizce dusen" sayildi, "listeden
+  cikan" olarak bildirilmedi.
+- `schtasks /query`: Daily 00:00, "Repeat: Every 0 Hour(s), 15 Minute(s)",
+  "Duration: 24 Hour(s)" — 7/24 dogrulandi.
+- `.env` hala `.gitignore`'da ve hicbir commit'te yok.

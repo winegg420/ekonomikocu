@@ -73,6 +73,7 @@ except ImportError:
     sys.exit(1)
 
 import bant_yon
+import piyasa_saati
 
 REPO_KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAPOR_KLASOR = os.path.join(REPO_KOK, "magicma")
@@ -262,6 +263,56 @@ def _borsa(kaynak, sembol, listeler):
     if sembol in listeler["abd"]:
         return "NASDAQ"
     return ""
+
+
+# Piyasa saati filtresine tabi listeler ile "her zaman acik" listeler.
+# Serbest listeler SONRA islenir ki bir sembol iki listede birden varsa
+# filtresiz olan kazansin (orn. XU100 endeks_faiz.txt'te -> filtrelenmez).
+FILTRELI_LISTELER = ("bist.txt", "abd_hisse.txt")
+SERBEST_LISTELER = ("kripto.txt", "forex_emtia.txt", "endeks_faiz.txt",
+                    "gunun_hareketlileri.txt")
+
+
+def sembol_dosya_haritasi():
+    """{sembol: geldigi_liste_dosyasi} — piyasa saati filtresi icin."""
+    harita = {}
+    for dosya in FILTRELI_LISTELER:
+        for sembol in sembol_listesi_oku(dosya):
+            harita[sembol] = dosya
+    for dosya in SERBEST_LISTELER:
+        for sembol in sembol_listesi_oku(dosya):
+            harita[sembol] = dosya
+    return harita
+
+
+def piyasa_filtresi_uygula(seviyeler, simdi=None, log=print):
+    """Piyasasi KAPALI olan sembolleri seviye haritasindan cikarir.
+
+    Doner: (acik_seviyeler, kapali_semboller)
+    Kapali sembollerin fiyati hic cekilmez — gereksiz API cagrisi yapilmaz.
+    """
+    harita = sembol_dosya_haritasi()
+    acik, kapali = {}, set()
+    kapali_sayac = {}
+
+    for sembol, veri in seviyeler.items():
+        dosya = harita.get(sembol, "")
+        if piyasa_saati.piyasa_acik_mi(dosya, simdi):
+            acik[sembol] = veri
+        else:
+            kapali.add(sembol)
+            ad = piyasa_saati.piyasa_adi(dosya) or "?"
+            kapali_sayac[ad] = kapali_sayac.get(ad, 0) + 1
+
+    an = simdi or piyasa_saati.simdi_tsi()
+    durum = piyasa_saati.durum_ozeti(an)
+    log("[PIYASA] " + an.strftime("%d.%m.%Y %H:%M TSI") + " · "
+        + " · ".join(f"{ad}: {'ACIK' if acikmi else 'KAPALI'}"
+                     for ad, acikmi in durum.items())
+        + (" · atlanan: " + ", ".join(f"{ad} {adet} sembol"
+                                      for ad, adet in sorted(kapali_sayac.items()))
+           if kapali_sayac else " · atlanan sembol yok"))
+    return acik, kapali
 
 
 def siniflandir(seviye_haritasi):
@@ -586,15 +637,22 @@ def forex_fiyatlari_cek(semboller):
 
 # --------------------------------------------------------------------------
 
-def adaylari_hesapla(tarih=None, esik=0.3, rapordan=False, max_yas=10, log=print):
+def adaylari_hesapla(tarih=None, esik=0.3, rapordan=False, max_yas=10, log=print,
+                     piyasa_filtresi=False, simdi=None):
     """Seviyeleri okur, canli fiyatlari ceker, esik icindeki adaylari dondurur.
 
-    main() ve magicma/telegram_alarm.py ayni mantigi paylassin diye ayrildi;
-    davranis main()'in eski hali ile birebir aynidir.
+    main() ve magicma/telegram_alarm.py ayni mantigi paylassin diye ayrildi.
+
+    piyasa_filtresi : True ise piyasasi KAPALI olan sembollerin (BIST/ABD)
+        fiyati hic cekilmez. Varsayilan False — mentor icin calistirilan CLI'da
+        kapali piyasanin son kapanis fiyati hala ise yariyor; filtre yalnizca
+        periyodik alarm icin anlamli (telegram_alarm.py True gonderir).
+    simdi : test icin TSI datetime (piyasa_filtresi ile birlikte kullanilir).
 
     Doner: sonuclarin ve yardimci meta bilgilerin bulundugu sozluk.
       sonuclar: [(mutlak_mesafe, sembol, canli, cizgi_adi, cizgi_degeri,
-                  mesafe, yon, fiyat_kaynagi), ...] — mesafeye gore sirali.
+                  mesafe, yon, fiyat_kaynagi, bant), ...] — mesafeye gore sirali.
+      kapali_semboller: piyasa filtresiyle atlanan sembol kumesi.
     """
     if rapordan:
         tarih = tarih or en_son_tarih()
@@ -606,6 +664,16 @@ def adaylari_hesapla(tarih=None, esik=0.3, rapordan=False, max_yas=10, log=print
         seviye_kaynagi = "magicma_ham.jsonl"
 
     log(f"Seviye kaynagi: {seviye_kaynagi} · en yeni tarama: {tarih} · sembol: {len(seviyeler)}")
+
+    kapali_semboller = set()
+    if piyasa_filtresi:
+        seviyeler, kapali_semboller = piyasa_filtresi_uygula(seviyeler, simdi=simdi, log=log)
+        if not seviyeler:
+            log("[PIYASA] Acik piyasada sembol kalmadi — fiyat cekilmiyor.")
+            return {"sonuclar": [], "seviyeler": {}, "tum_fiyatlar": {}, "tarih": tarih,
+                    "seviye_kaynagi": seviye_kaynagi, "sure": 0.0, "metal": {},
+                    "metal_bayat": {}, "bayat_ozet": "", "esik": esik,
+                    "kapali_semboller": kapali_semboller}
 
     kripto, yahoo, metal, forex_yedek, kapsanmayan = siniflandir(seviyeler)
     log(f"Kripto: {len(kripto)} · Yahoo (BIST/ABD/endeks/forex): {len(yahoo)} · "
@@ -723,6 +791,7 @@ def adaylari_hesapla(tarih=None, esik=0.3, rapordan=False, max_yas=10, log=print
         "metal_bayat": metal_bayat,
         "bayat_ozet": bayat_ozet,
         "esik": esik,
+        "kapali_semboller": kapali_semboller,
     }
 
 
@@ -735,10 +804,13 @@ def main():
     ap.add_argument("--max-yas", type=int, default=10,
                     help="ham jsonl'de en yeni taramaya gore kac gun geriye kadar seviye kabul edilsin (0=sinirsiz)")
     ap.add_argument("--eksikler", action="store_true", help="canli fiyati bulunamayan sembolleri de listele")
+    ap.add_argument("--piyasa-saati", action="store_true",
+                    help="piyasasi KAPALI olan sembolleri (BIST/ABD) atla — telegram_alarm.py hep boyle calisir")
     args = ap.parse_args()
 
     v = adaylari_hesapla(tarih=args.tarih, esik=args.esik, rapordan=args.rapordan,
-                         max_yas=args.max_yas, log=print)
+                         max_yas=args.max_yas, log=print,
+                         piyasa_filtresi=args.piyasa_saati)
     sonuclar = v["sonuclar"]
     seviyeler = v["seviyeler"]
     tum_fiyatlar = v["tum_fiyatlar"]
