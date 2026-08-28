@@ -385,6 +385,71 @@ doğrudan çelişiyor** (Koç aşağı, Lafçı yukarı).
 | Ağu 2026 | Gümüş 63 → 73-74, stop 58,87 | İZLENİYOR |
 | Ağu 2026 | Platin 1.629,5 long → 1.830 | İZLENİYOR |
 
+### Teknik Analiz 32 — Jackson Hole günü sabahı (Ali Perşembe ile)
+**TR piyasası:**
+- TCMB'nin "prematüre" faiz indirimi tartışması sürüyor; OVP (Orta Vadeli Program) yakında
+  açıklanacak ama geçmiş yıllardaki gibi ulaşılamaz hedef koyup sonra revize etme paterni
+  bekleniyor — temkinli.
+- ASELSAN/Tüpraş/Astor gibi "her zaman giden" 3 büyük hisse dışında, faiz indirimiyle
+  bankacılık/holding/GYO sektörleri bir günlük sıçrama yaptı.
+- ⭐ **Ali Perşembe'nin uyarısı: "Motorda yeterli yakıt yok"** — iyimserlik devam edecek
+  (faiz indirimi + enflasyon düşüşü beklentisi) ama dışarıdan yeni likidite gelmiyor,
+  tüm para carry trade'e bağlanmış durumda, "kendi yağımızla kavruluyoruz".
+- ⭐ **BIST haftalık sıkışma formasyonu yukarı kırılırsa hedef 16.500-17.000** — Integral FX
+  TV / Erhan Aslanoğlu'nun bağımsız verdiği 16-17.000 bandı tahminiyle **birebir örtüşüyor**.
+
+**ABD:**
+- Nvidia bilançosu "artık şapkadan tavşan değil, ayı çıkardı" — Jensen Huang'ın büyüme
+  vurgusu yapay zeka/tek sektörüne pozitif yansıdı ama diğer sektörlere yayılmadı.
+- ⭐ **Bessent'in "operational twist" tahvil stratejisi ile Fed arasında çelişki:** Fed
+  (yeni başkan, "Warsh" olarak geçiyor) bilanço küçültmek isterken, Hazine (Bessent) uzun
+  vadeli kağıtları geri alıp kısa vadeden borçlanarak fiilen tam tersini yapıyor — bu,
+  kısa vadeli faizleri yukarı, uzun vadelileri aşağı itebilir.
+- Yeni Fed başkanının "tahvil piyasası zaten görevimizi yapıyor, ben niye faiz artırayım"
+  demiş olması Fed bağımsızlığı hakkında soru işaretleri yaratıyor — Besent+Trump+Fed
+  üçlüsünün faizlerin yükselmemesi için elinden geleni yapacağı görüşü.
+- ⭐ **Eylül toplantısında faiz ARTIRIM ihtimali ~%35, Aralık'ta ~%40 üstü** — bu, Erhan
+  Aslanoğlu'nun (Integral FX TV) "Fed seçim sonrası faiz artırır" görüşüyle **aynı yönde
+  üçüncü bağımsız kaynak** (ilk ikisi: Aslanoğlu + genel piyasa fiyatlaması).
+- Intel ve AMD "şahane alım bölgesinde" (bu harekete inanılıyorsa), aşağıda yakın stop.
+  Sağlık sektörü/Moderna dikkat çekici hareket yaptı.
+
+**Kripto (BTC):**
+- Clarity Act beklentisiyle 67.265 direnç kırıldı, 80.465'e kadar gitti, Salı günü kâr
+  alındı — şu an yeni pozisyon yok.
+- ⭐ **Portföye yeniden kripto yüklemek için hedef seviye: 69.170** (net, "ütopik" olarak
+  nitelenmiş — gelirse alım yapılacak, gelmeyebilir de).
+
+**Altın:**
+- 4.200 kırılımıyla düşüş trendinin bittiği teyit edildi, uzun pozisyona girildi, çoğu
+  stop oldu — şu an pozisyon yok. Yukarı hedef 4.775'ti, tam oraya gelmeden döndü.
+  Son 2 günlük düşüş henüz trend değişimini teyit etmiyor, yeniden yukarı hareket mümkün.
+  Portföy ağırlığını artırmak için 4 ayrı alım seviyesi belirlenmiş (video görselinde,
+  sayısal değer net okunamıyor — grafik erişimi olursa netleştirilebilir).
+
+**Gümüş:** 7.380 hedefti, oraya gitmeden durdu — ne yukarı ne aşağı teyit yok, nötr.
+
+**Platin:** Öncü gösterge olarak takip ediliyor, şu an zayıf görünüyor. Alım seviyeleri:
+**1.770 ve 1.710**.
+
+**Petrol:** $70'ten $90-95'e çıkıp şimdi $90 altına döndü — Çin'in ithalat kısıntısı ve
+Körfez ülkelerinin Hürmüz'e alternatif rotalara yönelmesiyle baskı hafifliyor.
+
+**[Claude çapraz kontrol]:** BIST 16.500-17.000 hedefi Integral FX TV ile bağımsız
+örtüşüyor — iki kaynak aynı sayıya farklı yöntemlerle (biri teknik formasyon, diğeri
+USDTRY çarpanı) ulaşmış, güçlü bir teyit. Fed faiz artırım ihtimali teması da üçüncü
+bağımsız kaynaktan geliyor — Koç'un "faiz indirimi geliyor" tezine karşı biriken
+ayrışma sinyali artık 2 kaynağa çıktı (Aslanoğlu + bu program), izlenmeli.
+
+### KARNE EK — Emrah Lafçı & Ali Perşembe (Teknik Analiz 32)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| Jackson Hole günü | BTC 69.170'e gelirse yeniden alım | İZLENİYOR |
+| Jackson Hole günü | Altın 4.200 üstü düşüş trendi bitti, ama son 2 gün henüz teyit değil | İZLENİYOR |
+| Jackson Hole günü | BIST yukarı kırılırsa 16.500-17.000 | İZLENİYOR (Aslanoğlu ile örtüşüyor) |
+| Jackson Hole günü | Eylül'de Fed faiz artırım ihtimali ~%35 | İZLENİYOR |
+| Jackson Hole günü | Platin alım seviyeleri 1.770 / 1.710 | İZLENİYOR |
+
 ## BAKI ATILAL (A1 Kapital)
 
 ### Önceki oturum
@@ -535,6 +600,95 @@ kırılma" tarihiyle birebir örtüşüyor — **4. bağımsız kaynak** aynı p
 | 13-14 Ağu | BIST 14.500-14.600 kırılırsa 15.500, yıl sonu 17.000-17.500 | İZLENİYOR |
 
 **⚠️ DOĞRUDAN ÇELİŞKİ — Berk Dinçtürk'e karşı:** Paksoy, Berk'in üç ayrı programda tekrarladığı $10.000 altın hedefine açıkça mesafeli. Dış kaynaklar arasında ilk gözlemlenen doğrudan analist-analist çelişkisi (Koç'a karşı değil).
+
+### "Altın Yeni Bir Trende mi Girdi?" — Jackson Hole haftası
+**ABD Hazine/Fed geriliminde temel tez:**
+- ⭐ **ABD Hazinesi'nin (Bessent) uzun vadeli tahvil geri alım operasyonunun amacı faizleri
+  düşürmek değil, yükselmesini ENGELLEMEK** — Paksoy'un yorumu. Mekanizma: Hazine tahvil
+  alırken oluşan likiditeyi Fed'in enflasyon yaratmadan "sterilize etmesi" gerekiyor —
+  bu ikisi arasında gerilim var (Hazine genişletici, Fed daraltıcı olmak zorunda).
+- **Bütçe açığı bu yıl şimdiden geçen senenin toplamını geçti** — $1,8 trilyon+ ek borçlanma,
+  yıl sonuna kadar daha da artacak.
+- ⭐ **US10Y %5 üzeri "alarm seviyesi"** — 2008 krizi öncesi görülen seviyelerle
+  karşılaştırılıyor ("5. alarmzil çalacağı yer... şu an arka planda orkestra müziği çalıyor" —
+  Titanic göndermesi). Bu, Erhan Aslanoğlu'nun (Integral FX TV, önceki bölüm) ve Berk
+  Dinçtürk'ün (%4,75 tavan) verdiği eşiklerle **üçlü kesişim** oluşturuyor.
+- Jackson Hole'dan majör bir yönlendirme beklenmiyor (yeni Fed başkanı sözlü yönlendirme
+  kullanmıyor), ama ABD Hazinesi'nin operasyonuna dair bir referans verip vermeyeceği
+  izleniyor.
+
+**Japonya/Yen — ayrı risk bombası:**
+- Japonya enflasyon beklentisi zirvede, BOJ yeniden faiz artırımı gündemde.
+- Yen ABD tahvil operasyonlarına en duyarlı para birimi — Japonya tahvil satamıyorsa
+  (ABD baskısıyla), müdahale için faiz artırımına mecbur kalabilir, bu da carry trade
+  çözülmesi riski taşıyor ("yeni bir bomba" olarak nitelendiriliyor).
+- **Yuan, yılbaşında öngördükleri gibi güçlendi** — merkez bankalarının rezervde altın+dolar
+  dışında yuan da tutması gerektiği tezi doğrulandı (kendi karnelerine göre).
+
+**Altın:**
+- ⭐ **Paradigma değişimi tezi:** Normalde altın-tahvil faizi ters korele olması beklenirken,
+  şu an ABD tahvil faizi yüksek kalmasına rağmen altın yükselebiliyor — bu, güvenli liman
+  hikayesinin ötesine geçip "tahvil piyasasındaki potansiyel kriz" fiyatlaması olarak
+  okunuyor.
+- **Teknik seviyeler:** 4.300-4.500 altına inmedikçe yukarı potansiyel korunuyor. 4.650
+  üzerinde 4.800'e geçilirse **hemen 5.000 hedefi** açılıyor. 5.000$ üzerinde kalıcılık
+  için henüz erken ama teknik hedef bu.
+- Trend desteği aşağıda 3.800-4.000 bandı "kalınlaştı, keskinleşti" — cevap 1-2 hafta
+  içinde (Jackson Hole → Fed) netleşecek deniyor.
+
+**Bitcoin:**
+- 75.000 üzerinde kalındıkça (bir daha altına inilmedikçe) yukarı potansiyel korunuyor,
+  **84-85K üzerinde 90K'lara** gitme ihtimali var.
+- **Stop önerisi: 75.000 altı** (orta vadeli pozisyonlar için).
+- Boğa piyasasının sinyali: "boğa piyasaları kısa, ayı piyasaları uzun sürer" çerçevesi.
+
+**BIST — çok net, sayısal hedef merdiveni:**
+- ⭐ **14.000-14.500 asla kırılmamalı** — kırılırsa acil uyarı gerektiren bir durum.
+- **15.000 üzeri = yeni zirveler için teknik onay var** (ortalamalar, indikatörler yukarı
+  yönlü).
+- **17.000-18.500-20.000-22.000 bandı** — bankacılık endeksinin 16.500-17.000 direncini
+  kırmasıyla açılacak hedef merdiveni. **Bu, Emrah Lafçı & Ali Perşembe'nin (Teknik Analiz
+  32) verdiği 16.500-17.000 hedefiyle VE Erhan Aslanoğlu'nun 16-17.000 bandıyla ÜÇLÜ
+  KESİŞİM** — üç bağımsız kaynak aynı sayıyı işaretliyor.
+- Bankacılık endeksi kritik: tarihsel olarak BIST rekorlarının neredeyse tamamı bankacılık
+  endeksi öncülüğünde kırılmış.
+- TCMB'nin sürpriz haftalık repo ihalesi dönüşü "örtülü faiz indirimi" olarak okunuyor —
+  Integral FX TV'nin diğer bölümündeki (Erhan Aslanoğlu) tespitle aynı olay, farklı
+  yorumcudan teyit.
+- USDTRY yıl sonu: 52-55 bandına doğru "bebek adımlarıyla" hızlanma bekleniyor (şu an
+  48-49 civarı).
+
+**Petrol/DXY/S&P — "ütopya senaryosu" (ideal koşullar tablosu, Paksoy'un kendi tanımı):**
+| Enstrüman | Ütopya seviyesi (bu seviyede %100 hisseye geçilir) |
+|---|---|
+| Petrol | 75-80$ altı |
+| DXY | ~95-100 bandı |
+| US10Y | %4,5 altı, 4'lere doğru |
+| Altın | 6.000$ (piyasa coşarsa) |
+| S&P 500 | 7.000-7.500 pivot (sert düzeltme senaryosunda) |
+| BIST | 18.000 |
+
+**Jeopolitik risk — Putin:**
+- Putin'in "sıkıldığı", Ukrayna'ya sert bir ikincil müdahale ihtimalinin arttığı görüşü —
+  gerçekleşirse petrol yükselir, buğday/tarım emtiaları düşmez, enflasyon düşüşü zorlaşır,
+  bu da altın için pozitif ama risk iştahı için negatif.
+
+**[Claude çapraz kontrol]:** BIST 16.500-17.000 hedefi artık **üç bağımsız kaynaktan**
+geliyor (Emrah Lafçı & Ali Perşembe + Erhan Aslanoğlu + Cüneyt Paksoy) — güçlü bir
+konsensüs oluşuyor. US10Y %5 alarm seviyesi de üçüncü kez farklı kaynaktan teyit ediliyor
+(Dinçtürk %4,75 tavan + Aslanoğlu %5 tehlike + şimdi Paksoy %5 alarm). Altın paradigma
+değişimi tezi (tahvil faiziyle ters korelasyonun bozulması), Barış Soydan'ın "debasement
+trade" temasıyla aynı yönde ama farklı mekanizma vurguluyor (biri dolar zayıflığı, diğeri
+tahvil-piyasası-güvensizliği).
+
+### KARNE EK — Cüneyt Paksoy (Jackson Hole haftası, Nvidia sonrası)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| JH haftası | Altın 4.650 üstü 4.800'e geçerse hemen 5.000 hedefi açılır | İZLENİYOR |
+| JH haftası | BTC 75K altına inmedikçe 84-90K potansiyeli korunur | İZLENİYOR |
+| JH haftası | BIST 14.000-14.500 asla kırılmamalı | İZLENİYOR |
+| JH haftası | Bankacılık endeksi 16.500-17.000 kırarsa 18.500-22.000 yolu açılır | İZLENİYOR (3 kaynak ortak) |
+| JH haftası | ABD Hazine operasyonu amacı faiz düşürmek değil yükselmeyi engellemek | İZLENİYOR |
 
 ---
 
