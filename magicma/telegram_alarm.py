@@ -56,6 +56,7 @@ except ImportError:
     sys.exit(1)
 
 import fiyat_kontrol
+import magicma_karne
 
 REPO_KOK = fiyat_kontrol.REPO_KOK
 ENV_YOL = os.path.join(REPO_KOK, ".env")
@@ -348,6 +349,8 @@ def main():
                     help="(artik etkisiz — liste her mesajda tam gonderiliyor)")
     ap.add_argument("--piyasa-saatini-yoksay", action="store_true",
                     help="BIST/ABD piyasa saati filtresini kapat (kapali piyasayi da tara)")
+    ap.add_argument("--karne-yok", action="store_true",
+                    help="sinyal karnesi kancasini kapat (kayit acma/degerlendirme yapilmaz)")
     ap.add_argument("--mesaj-araligi", type=float, default=10.0,
                     help="iki Telegram mesaji arasindaki EN AZ dakika (varsayilan 10). "
                          "Bu sure dolmadan bulunan adaylar kuyruga alinir ve sonraki "
@@ -400,6 +403,46 @@ def main():
         kayit["ilk_gorulme"] = simdi_iso
         kayit["yeni"] = True
         yeni_durum[anahtar] = kayit
+
+    # --- KARNE KANCASI ------------------------------------------------------
+    # Her YENI TEMAS bir iddiadir; karneye "acik" kayit olarak dusulur ve
+    # sonraki turlarda gercekten tutup tutmadigi olculur (magicma_karne.py).
+    # Alarm mantigini etkilemez: hata olsa bile bildirim akisi surer.
+    if not args.karne_yok:
+        try:
+            eklenen = magicma_karne.yeni_sinyalleri_kaydet(
+                [temas[a] for a in yeni_anahtarlar])
+            if eklenen:
+                log(f"[KARNE] {eklenen} yeni sinyal karneye 'acik' olarak eklendi.")
+        except Exception as e:
+            log(f"[KARNE][UYARI] yeni sinyaller kaydedilemedi: {type(e).__name__}: {e}")
+
+        # Acik kayitlari, bu turda zaten cekilmis fiyatlarla degerlendir
+        # (ikinci kez fiyat cekilmez). Sadece gercekten durumu degisen kayit
+        # varsa rapor yeniden yazilir — gereksiz dosya yazmayi onler.
+        try:
+            degisen = magicma_karne.acik_sinyalleri_degerlendir(
+                fiyatlar=v.get("tum_fiyatlar") or {}, log=log)
+            if degisen:
+                magicma_karne.karne_raporu_uret(log=log)
+                log(f"[KARNE] {len(degisen)} sinyal kapandi, KARNE_RAPOR.md guncellendi.")
+        except Exception as e:
+            log(f"[KARNE][UYARI] degerlendirme basarisiz: {type(e).__name__}: {e}")
+
+        # Haftalik ozet: Pazartesi, gunun ilk calistirmasinda (son ozetten
+        # 24 saatten fazla gectiyse) Telegram'a ayri bir mesaj olarak gider.
+        try:
+            if magicma_karne.haftalik_ozet_zamani_mi():
+                ozet = magicma_karne.haftalik_ozet_metni()
+                if args.kuru:
+                    log("[KARNE] (kuru) Haftalik ozet gonderilecekti:\n" + ozet)
+                elif telegram_gonder(token, chat_id, ozet):
+                    magicma_karne.ozet_durum_yaz()
+                    log("[KARNE] Haftalik karne ozeti Telegram'a gonderildi.")
+                else:
+                    log("[KARNE][UYARI] Haftalik ozet gonderilemedi; sonraki turda denenecek.")
+        except Exception as e:
+            log(f"[KARNE][UYARI] haftalik ozet basarisiz: {type(e).__name__}: {e}")
 
     # Piyasasi kapandigi icin listeden dusenler SESSIZCE dusurulur: bunlarin
     # "listeden cikti" diye bildirilmesi gercek bir sinyal degil, kafa karistirir.

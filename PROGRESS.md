@@ -2612,3 +2612,35 @@ gorulme saati parantez icinde yaziliyor (fiyat o ana ait oldugu icin).
       🔔 YENİ MagicMA TEMAS (28.08.2026 15:56)
       AVPGY  LONG  55,2000
       📤 Listeden çıktı: VEREMUSDT
+
+## 2026-08-28 — MagicMA Sinyal Karnesi (otomatik başarı/başarısızlık takibi)
+
+**Yapılan:** Botun kendi Telegram sinyalleri için karne sistemi kuruldu.
+- Yeni: `magicma/magicma_karne.py` — kayıt açma, değerlendirme, rapor, haftalık özet.
+- Yeni veri: `magicma/karne_kayitlari.json` (commit edilir), `magicma/KARNE_RAPOR.md`.
+- Yerel durum: `magicma/karne_son_ozet.json` (.gitignore'a eklendi).
+- `magicma/telegram_alarm.py`: yeni temas tespitinden sonra kanca eklendi
+  (kayıt aç → açıkları değerlendir → değişiklik varsa raporu yaz → Pazartesi özeti).
+  `--karne-yok` bayrağı ile kapatılabilir.
+
+**Kararlar ve nedenleri:**
+- Değerlendirme, alarmın O TURDA zaten çektiği `tum_fiyatlar` sözlüğüyle yapılıyor;
+  ikinci kez fiyat çekilmiyor (10 dk'da bir çalışan görevde gereksiz API yükü olmasın).
+- Rapor yalnızca gerçekten durum değişikliği olduğunda yeniden yazılıyor (gereksiz
+  dosya yazma / commit gürültüsü yok).
+- Aynı sembol+çizgi için açık kayıt varken ikincisi açılmıyor: histerezis eşiğinde
+  salınan sembol karneyi şişirmesin diye.
+- `sonuc_yuzde` yönlü kazanç olarak saklanıyor (short'ta fiyat düşüşü pozitif) —
+  ham fark yerine bu, kategori/yön karşılaştırmasını doğrudan anlamlı kılıyor.
+- Kategori, sembolün geldiği `sembol_listesi/*.txt` dosyasından bulunuyor; hiçbir
+  listede olmayan USDT paritesi kriptoya sayılıyor (`gunun_hareketlileri.txt` her
+  taramada baştan üretildiği için dünkü coin listeden düşebiliyor — ölçüldü:
+  SN64USDT, SYRUPUSDT, STEEMUSDT).
+- Tüm kanca çağrıları try/except içinde: karne hatası bildirim akışını asla kesmiyor.
+
+**Test edildi:** 6 sentetik kayıtla 4 sonuç durumunun tamamı (long/short × başarılı/
+başarısız), zaman aşımı ve "açık kalması gereken" senaryosu doğrulandı (6/6 doğru).
+Gerçek alarm turu `--kuru` ile çalıştırıldı, 18 gerçek sinyal karneye düştü.
+Haftalık özet 31.08.2026 Pazartesi simüle edilerek metin doğrulandı; aynı gün ikinci
+gönderim ve Pazar denemesi doğru şekilde engellendi. **Telegram'a gerçek özet mesajı
+HENÜZ gönderilmedi** (ilk gerçek gönderim 31.08.2026 Pazartesi olacak).

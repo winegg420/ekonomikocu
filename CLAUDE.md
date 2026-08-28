@@ -180,6 +180,34 @@ Ayni sembol iki banda birden yakinsa mesajda **tek satir** gorunur
 - **`fiyat_kontrol.py`'yi degistirirken `adaylari_hesapla()` imzasini bozma** —
   alarm scripti bunu import ediyor.
 
+## MAGICMA SINYAL KARNESI (2026-08-28)
+
+`magicma/magicma_karne.py` — botun kendi bildirimleri icin basari/basarisizlik
+takibi. Her YENI TEMAS bir iddiadir; karneye "acik" kayit dusulur ve sonraki
+turlarda gercekten tutup tutmadigi olculur.
+
+- Kayitlar: `magicma/karne_kayitlari.json` (commit edilir — gecmis degerli).
+- Rapor: `magicma/KARNE_RAPOR.md` (her degisiklikte bastan yazilir).
+- Haftalik ozet damgasi: `magicma/karne_son_ozet.json` (**gitignore**).
+- Esikler dosya basinda: `BASARI_ESIK_YUZDE=0.5`, `GECERSIZ_ESIK_YUZDE=0.3`,
+  `ZAMAN_ASIMI_SAAT=48`.
+- **Kurallar:** LONG (destek testi) -> giris fiyatinin %0,5 ustu = basarili,
+  cizginin %0,3 alti = basarisiz. SHORT ayna mantik. 48 saatte karar cikmazsa
+  `zaman_asimi` ("kararsiz kaldi" — bu da bir istatistik).
+- `sonuc_yuzde` YONLU kazanctir (long: yukari, short: asagi pozitif).
+- **telegram_alarm.py entegrasyonu:** yeni temas tespitinden hemen sonra
+  `yeni_sinyalleri_kaydet()`, ardindan `acik_sinyalleri_degerlendir()` **o turda
+  zaten cekilmis fiyat sozluguyle** (ikinci kez fiyat cekilmez). Rapor yalnizca
+  gercekten durumu degisen kayit varsa yeniden yazilir.
+- Ayni sembol+cizgi icin ACIK kayit varken ikincisi ACILMAZ (histerezis
+  salinimi karneyi sisirmesin).
+- Haftalik ozet: Pazartesi, son ozetten 24 saatten fazla gectiyse Telegram'a
+  AYRI bir mesaj olarak gider (`--mesaj-araligi` bekletmesinden bagimsiz).
+- Kancayi kapatmak icin: `telegram_alarm.py --karne-yok`.
+- Elle: `py -3 magicma/magicma_karne.py` (degerlendir + rapor),
+  `--sadece-rapor`, `--haftalik` (ozet metnini gonderMEDEN yazar).
+- Karne kodu alarm akisini ASLA bozmaz: tum kanca cagrilari try/except icinde.
+
 ## MAGICMA BAND YON KURALI (2026-08-28 — eski geometrik kurali gecersiz kilar)
 
 MagicMA cizgileri bagimsiz seviye DEGIL, **bandin iki siniri**:
