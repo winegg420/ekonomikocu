@@ -2573,3 +2573,42 @@ gidiyordu.
 degildi, TradingView oturumu gerekiyor. Sure kazanci bu yuzden OLCULMEDI,
 yalnizca hesaplandi: eski evrende 18 olu sembol x ~20 sn (raporun kendi
 belgeledigi rakam) ~= 6 dk/kosum. Ilk gercek taramada dogrulanmali.
+
+## 2026-08-28 (6) — 20 dk gecikme hatasi + sade mesaj formati
+
+**Sikayet:** "Telegram'a bazen 10 dk sonra degil 20 dk sonra bildirim geliyor";
+"yukaridan indi falan yazmasin, long/short ve fiyat yazsin".
+
+**1) 20 dk gecikmesinin sebebi (logdan teshis, tahmin degil):**
+Gorev 10 dk'da bir BASLIYOR ama tarama ~25-35 sn suruyor ve suresi her turda
+birkac saniye oynuyor. Mesaj tarama BITTIKTEN sonra gonderildigi icin bir
+sonraki turun mesaj-araligi kontrolu, onceki gonderimden bazen 9,9 dk sonraya
+dusuyordu. 10,0 dk esigi 5 saniyeyle kacirilinca kuyruk BIR TUR DAHA bekliyor
+ve bildirim 20 dk sonra ulasiyordu. Logdan iki ornek:
+    15:10:31 gonderim -> 15:20:26 kontrol = 9.9 dk -> BLOKE -> 15:30:38 gonderim
+    15:30:38 gonderim -> 15:40:30 kontrol = 9.9 dk -> BLOKE -> 15:50:34 gonderim
+Bu bir sinir yarisi (yazi-tura): tarama 1 sn kisa surerse gecer, 1 sn uzun
+surerse 10 dk daha bekler.
+
+**Cozum:** `ARALIK_TOLERANS_DK = 2.0`. Efektif alt sinir 10 -> 8 dk. Zamanlanmis
+turlar (9,9 dk) artik her zaman geciyor; elle art arda calistirma (0-8 dk)
+hala bloke ediliyor, yani spam korumasi bozulmadi.
+
+**2) Mesaj formati sadelesti.** `satir_bicimle()` artik 3 satir yerine TEK satir
+uretiyor: `SEMBOL  LONG/SHORT  fiyat`. Band araligi, gerekce metni
+("banda YUKARIDAN indi — band destek") ve cizgi adlari mesajdan cikarildi.
+Bu bilgiler yon hesabinda kullanilmaya DEVAM ediyor ve durum dosyasi ile logda
+duruyor — sadece bildirimde gorunmuyor. Kuyrukta bekleyen adayin yanina
+gorulme saati parantez icinde yaziliyor (fiyat o ana ait oldugu icin).
+
+**Dogrulanan:**
+- Format testi: uretilen mesajda "yukarıdan/aşağıdan/band destek/band direnç/
+  İÇİNDE/Günlük band/en yakın sınıra/Çizgi" ifadelerinin HICBIRI yok; LONG,
+  SHORT ve fiyatlar var. `yon` alani olmayan ESKI durum kayitlarinda yon
+  mesafe isaretinden dogru turetiliyor (mesafe<0 -> SHORT).
+- Tolerans tablosu: 9.50 / 9.90 / 9.98 dk -> eskiden BLOKE, simdi GONDER;
+  0.2 / 0.5 / 5.0 / 7.7 dk -> her iki halde de BLOKE.
+- Gercek veriyle kuru calistirma:
+      🔔 YENİ MagicMA TEMAS (28.08.2026 15:56)
+      AVPGY  LONG  55,2000
+      📤 Listeden çıktı: VEREMUSDT

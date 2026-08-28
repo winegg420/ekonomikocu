@@ -61,6 +61,15 @@ LOG_YOL = os.path.join(REPO_KOK, "magicma", "telegram_alarm_log.txt")
 LOG_MAX_BAYT = 512 * 1024    # log buyuyunce son yarisi tutulur
 TELEGRAM_MAX = 3900          # Telegram siniri 4096; guvenli pay birakiliyor
 
+# Mesaj araligi kontrolu icin PAY. Neden gerekli: gorev 10 dk'da bir baslar ama
+# tarama ~25-35 sn surer ve suresi her turda birkac saniye oynar. Mesaj tarama
+# BITTIKTEN sonra gonderildigi icin, bir sonraki turun kontrol ani bazen bir
+# onceki gonderimden 9,9 dk sonraya dusuyordu; 10 dk esigi 5 saniyeyle kacinca
+# bildirim BIR TUR DAHA bekliyor ve kullaniciya 20 dk sonra ulasiyordu
+# (olculdu: 15:10:31 gonderim -> 15:20:26 kontrol = 9.9 dk -> bloke -> 15:30).
+# Bu pay o sinir yarisini ortadan kaldirir; elle art arda calistirma yine bloke.
+ARALIK_TOLERANS_DK = 2.0
+
 
 def log(mesaj):
     """Konsola ve magicma/telegram_alarm_log.txt'ye yazar.
@@ -200,32 +209,17 @@ def _md_kacir(metin):
 
 
 def satir_bicimle(kayit):
-    """Bir aday icin 3 satirlik blok.
+    """Bir aday icin TEK satir: SEMBOL · LONG/SHORT · fiyat.
 
-    Cizgi ADLARI ("Alt/Üst Çizgi") gosterilmez — olculdu, sembollerin yalnizca
-    %39'unda "Alt" gercekten alttaki deger; yaniltici. Bunun yerine bandin
-    sayisal araligi ve fiyatin banda gore konumu yazilir.
+    Bilerek sade: band araligi, "banda yukaridan indi" gibi gerekce metinleri
+    ve cizgi adlari mesaja YAZILMAZ (kullanici istegi). Bu bilgiler yon
+    hesabinda kullanilmaya devam eder ve durum dosyasi/logda saklanir; sadece
+    bildirimde gosterilmez.
     """
     yon = kayit.get("yon")
     if yon not in ("long", "short"):                      # eski durum dosyasi yedegi
         yon = "short" if kayit.get("mesafe", 0) < 0 else "long"
-    etiket = "LONG adayı" if yon == "long" else "SHORT adayı"
-
-    alt, ust = kayit.get("bant_alt"), kayit.get("bant_ust")
-    bant_adi = kayit.get("bant_adi", kayit.get("cizgi_adi", "?"))
-    if alt is not None and ust is not None and alt != ust:
-        bant_metni = f"{bant_adi} band  {_tr(alt)} – {_tr(ust)}"
-    else:
-        bant_metni = f"{bant_adi}  {_tr(kayit.get('cizgi'))}"
-
-    satirlar = [
-        f"{kayit['sembol']}  {_tr(kayit['fiyat'])}  →  {etiket}",
-        f"    {bant_metni}  ·  en yakın sınıra %{_tr(kayit['mesafe'], 2)}",
-    ]
-    gerekce = kayit.get("gerekce")
-    if gerekce:
-        satirlar.append(f"    {gerekce}")
-    return "\n".join(satirlar)
+    return f"{kayit['sembol']}  {'LONG' if yon == 'long' else 'SHORT'}  {_tr(kayit['fiyat'])}"
 
 
 def mesaj_olustur(bekleyen, cikanlar, simdi=None):
@@ -244,27 +238,28 @@ def mesaj_olustur(bekleyen, cikanlar, simdi=None):
     bloklar = []
     for kayit in bekleyen:
         blok = satir_bicimle(kayit)
+        # Onceki turdan devrolmus aday: fiyat o ana ait, saatini yaz.
         gorulme = kayit.get("gorulme")
         if gorulme:
             try:
                 g = datetime.fromisoformat(gorulme)
                 if (simdi - g).total_seconds() >= 60:
-                    blok += f"\n    ({g:%H:%M}'de görüldü)"
+                    blok += f"  ({g:%H:%M})"
             except ValueError:
                 pass
         bloklar.append(_md_kacir(blok))
 
     govde, atlanan = [], 0
     for sira, blok in enumerate(bloklar):
-        deneme = len(bas) + len("\n\n".join(govde + [blok])) + len(son) + 64
+        deneme = len(bas) + len("\n".join(govde + [blok])) + len(son) + 64
         if deneme > TELEGRAM_MAX and govde:
             atlanan = len(bloklar) - sira
             break
         govde.append(blok)
 
-    metin = bas + ("\n\n" + "\n\n".join(govde) if govde else "")
+    metin = bas + ("\n\n" + "\n".join(govde) if govde else "")
     if atlanan:
-        metin += f"\n\n… ve {atlanan} aday daha (mesaja sığmadı)"
+        metin += f"\n… ve {atlanan} aday daha (mesaja sığmadı)"
     return metin + son
 
 
@@ -440,11 +435,13 @@ def main():
 
     # --- Mesaj araligi: son mesajdan bu yana yeterli sure gecti mi? ----------
     gecen_dk = (simdi - son_mesaj).total_seconds() / 60 if son_mesaj else None
-    if gecen_dk is not None and gecen_dk < args.mesaj_araligi:
+    alt_sinir = max(0.0, args.mesaj_araligi - ARALIK_TOLERANS_DK)
+    if gecen_dk is not None and gecen_dk < alt_sinir:
         durum_yaz(yeni_durum, args.esik, bekleyen, son_mesaj, cikanlar=cikanlar)
         log(f"{len(bekleyen)} aday kuyrukta BEKLETILIYOR — son mesajdan bu yana "
-            f"{gecen_dk:.1f} dk gecti, {args.mesaj_araligi} dk dolmadi. "
-            f"~{args.mesaj_araligi - gecen_dk:.0f} dk sonra hepsi TEK mesajda gidecek.")
+            f"{gecen_dk:.1f} dk gecti, gereken {alt_sinir:.1f} dk "
+            f"({args.mesaj_araligi} dk - {ARALIK_TOLERANS_DK:.0f} dk tarama payi). "
+            f"~{alt_sinir - gecen_dk:.0f} dk sonra hepsi TEK mesajda gidecek.")
         return 0
 
     if telegram_gonder(token, chat_id, metin):

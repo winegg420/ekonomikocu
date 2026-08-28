@@ -149,6 +149,19 @@ saat boyunca 15 dakikada bir calistirir (pyw.exe ile penceresiz).
 - **Mesajlar arasi EN AZ 10 dk** (`--mesaj-araligi`, varsayilan 10). Bu sure
   dolmadan bulunan adaylar durum dosyasindaki KUYRUGA alinir, sonraki mesajda
   hepsi TEK seferde gider; kuyrukta bekleyenin yaninda gorulme saati yazar.
+- **`ARALIK_TOLERANS_DK = 2` (sinir yarisi duzeltmesi):** gorev 10 dk'da bir
+  baslar ama tarama ~25-35 sn surer ve suresi oynar; mesaj tarama BITTIKTEN
+  sonra gittigi icin bir sonraki turun kontrol ani bazen onceki gonderimden
+  9,9 dk sonraya dusuyor, 10 dk esigi 5 saniyeyle kacinca bildirim BIR TUR
+  DAHA bekliyor ve kullaniciya **20 dk** sonra ulasiyordu (olculdu: 15:10:31
+  gonderim -> 15:20:26 kontrol = 9.9 dk -> bloke -> 15:30). Bu pay o yarisi
+  bitirir; elle art arda calistirma (0-8 dk) yine bloke edilir.
+- **Mesaj formati SADE:** her aday TEK satir — `SEMBOL  LONG/SHORT  fiyat`.
+  Band araligi, "banda yukaridan indi" gibi gerekce metinleri ve cizgi adlari
+  mesaja YAZILMAZ (kullanici istegi). Bu bilgiler yon hesabinda kullanilmaya
+  devam eder, durum dosyasinda ve logda saklanir — sadece bildirimde gorunmez.
+  Onceki turdan devreden adayin yaninda gorulme saati parantez icinde yazar
+  (fiyat o ana ait oldugu icin).
   Elle calistirma + zamanlanmis calistirma ust uste gelse bile arka arkaya iki
   bildirim dusmez. Kuyruk yalnizca mesaj BASARIYLA gidince bosaltilir.
 - **Mesaj asla parcalanmaz:** bir turun tum adaylari tek mesajda; sinira
