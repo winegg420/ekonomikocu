@@ -530,31 +530,30 @@ def forex_fiyatlari_cek(semboller):
 
 # --------------------------------------------------------------------------
 
-def main():
-    ap = argparse.ArgumentParser(description="MagicMA cizgilerine guncel fiyat mesafesi")
-    ap.add_argument("--tarih", default=None, help="sadece bu gunun taramasini kullan (YYYY-AA-GG)")
-    ap.add_argument("--esik", type=float, default=0.3, help="mesafe esigi yuzde (varsayilan 0.3)")
-    ap.add_argument("--rapordan", action="store_true",
-                    help="seviyeleri ham jsonl yerine markdown rapordan oku (2 ondalik, daha kaba)")
-    ap.add_argument("--max-yas", type=int, default=10,
-                    help="ham jsonl'de en yeni taramaya gore kac gun geriye kadar seviye kabul edilsin (0=sinirsiz)")
-    ap.add_argument("--eksikler", action="store_true", help="canli fiyati bulunamayan sembolleri de listele")
-    args = ap.parse_args()
+def adaylari_hesapla(tarih=None, esik=0.3, rapordan=False, max_yas=10, log=print):
+    """Seviyeleri okur, canli fiyatlari ceker, esik icindeki adaylari dondurur.
 
-    if args.rapordan:
-        tarih = args.tarih or en_son_tarih()
+    main() ve magicma/telegram_alarm.py ayni mantigi paylassin diye ayrildi;
+    davranis main()'in eski hali ile birebir aynidir.
+
+    Doner: sonuclarin ve yardimci meta bilgilerin bulundugu sozluk.
+      sonuclar: [(mutlak_mesafe, sembol, canli, cizgi_adi, cizgi_degeri,
+                  mesafe, yon, fiyat_kaynagi), ...] — mesafeye gore sirali.
+    """
+    if rapordan:
+        tarih = tarih or en_son_tarih()
         seviyeler = raporu_oku(tarih)
         seviye_kaynagi = f"magicma_rapor_{tarih}.md"
     else:
-        seviyeler = ham_oku(args.tarih, args.max_yas)
+        seviyeler = ham_oku(tarih, max_yas)
         tarih = max(v["ts"] for v in seviyeler.values())[:10]
         seviye_kaynagi = "magicma_ham.jsonl"
 
-    print(f"Seviye kaynagi: {seviye_kaynagi} · en yeni tarama: {tarih} · sembol: {len(seviyeler)}")
+    log(f"Seviye kaynagi: {seviye_kaynagi} · en yeni tarama: {tarih} · sembol: {len(seviyeler)}")
 
     kripto, yahoo, metal, forex_yedek, kapsanmayan = siniflandir(seviyeler)
-    print(f"Kripto: {len(kripto)} · Yahoo (BIST/ABD/endeks/forex): {len(yahoo)} · "
-          f"Metal: {len(metal)} · Kaynaksiz: {len(kapsanmayan)}")
+    log(f"Kripto: {len(kripto)} · Yahoo (BIST/ABD/endeks/forex): {len(yahoo)} · "
+        f"Metal: {len(metal)} · Kaynaksiz: {len(kapsanmayan)}")
 
     basla = datetime.now(timezone.utc)
     kripto_fiyat, kripto_kaynak = kripto_fiyatlari_cek(kripto)
@@ -575,10 +574,10 @@ def main():
         tum_fiyatlar[sembol], fiyat_kaynagi[sembol] = fiyat, kripto_kaynak.get(sembol, "KRIPTO")
 
     sure = (datetime.now(timezone.utc) - basla).total_seconds()
-    print(f"Canli fiyat cekilebilen: {len(tum_fiyatlar)} / {len(seviyeler)}  ({sure:.1f} sn)")
+    log(f"Canli fiyat cekilebilen: {len(tum_fiyatlar)} / {len(seviyeler)}  ({sure:.1f} sn)")
     if forex_fiyat:
-        print(f"[NOT] {len(forex_fiyat)} parite Yahoo'dan gelmedi, Frankfurter/ECB "
-              f"{forex_tarih} gunluk referans kuru kullanildi (gun ici degil).")
+        log(f"[NOT] {len(forex_fiyat)} parite Yahoo'dan gelmedi, Frankfurter/ECB "
+            f"{forex_tarih} gunluk referans kuru kullanildi (gun ici degil).")
 
     if metal_bayat:
         bayat_ozet = (
@@ -590,7 +589,7 @@ def main():
         bayat_ozet = (f"Bayat metal verisi yok — atlanan metal sembolu: 0 "
                       f"(esik {METAL_MAX_YAS_DK} dk).")
     if metal or metal_bayat:
-        print(f"[METAL] {bayat_ozet}")
+        log(f"[METAL] {bayat_ozet}")
 
     sonuclar = []
     for sembol, veri in seviyeler.items():
@@ -599,12 +598,43 @@ def main():
             continue
         for ad, deger in veri["seviyeler"]:
             mesafe = (canli - deger) / deger * 100
-            if abs(mesafe) <= args.esik:
+            if abs(mesafe) <= esik:
                 yon = "long adayi (destek)" if canli > deger else "short adayi (direnc)"
                 sonuclar.append((abs(mesafe), sembol, canli, ad, deger, mesafe, yon,
                                  fiyat_kaynagi.get(sembol, "?")))
 
     sonuclar.sort(key=lambda x: x[0])
+
+    return {
+        "sonuclar": sonuclar,
+        "seviyeler": seviyeler,
+        "tum_fiyatlar": tum_fiyatlar,
+        "tarih": tarih,
+        "seviye_kaynagi": seviye_kaynagi,
+        "sure": sure,
+        "metal": metal,
+        "metal_bayat": metal_bayat,
+        "bayat_ozet": bayat_ozet,
+        "esik": esik,
+    }
+
+
+def main():
+    ap = argparse.ArgumentParser(description="MagicMA cizgilerine guncel fiyat mesafesi")
+    ap.add_argument("--tarih", default=None, help="sadece bu gunun taramasini kullan (YYYY-AA-GG)")
+    ap.add_argument("--esik", type=float, default=0.3, help="mesafe esigi yuzde (varsayilan 0.3)")
+    ap.add_argument("--rapordan", action="store_true",
+                    help="seviyeleri ham jsonl yerine markdown rapordan oku (2 ondalik, daha kaba)")
+    ap.add_argument("--max-yas", type=int, default=10,
+                    help="ham jsonl'de en yeni taramaya gore kac gun geriye kadar seviye kabul edilsin (0=sinirsiz)")
+    ap.add_argument("--eksikler", action="store_true", help="canli fiyati bulunamayan sembolleri de listele")
+    args = ap.parse_args()
+
+    v = adaylari_hesapla(tarih=args.tarih, esik=args.esik, rapordan=args.rapordan,
+                         max_yas=args.max_yas, log=print)
+    sonuclar = v["sonuclar"]
+    seviyeler = v["seviyeler"]
+    tum_fiyatlar = v["tum_fiyatlar"]
 
     print(f"\n=== ESIK: %{args.esik} ICINDE {len(sonuclar)} ADAY (guncel fiyatla) ===\n")
     satirlar_cikti = []
@@ -622,14 +652,14 @@ def main():
     cikti_yolu = os.path.join(RAPOR_KLASOR, "fiyat_kontrol_son.md")
     with open(cikti_yolu, "w", encoding="utf-8") as f:
         f.write(f"# Fiyat Kontrol Sonucu — {datetime.now(timezone.utc).isoformat(timespec='seconds')}\n\n")
-        f.write(f"- Seviye kaynagi: `{seviye_kaynagi}` · en yeni tarama: {tarih}\n")
+        f.write(f"- Seviye kaynagi: `{v['seviye_kaynagi']}` · en yeni tarama: {v['tarih']}\n")
         f.write(f"- Esik: %{args.esik} · canli fiyat cekilebilen: "
-                f"{len(tum_fiyatlar)}/{len(seviyeler)} ({sure:.1f} sn)\n")
+                f"{len(tum_fiyatlar)}/{len(seviyeler)} ({v['sure']:.1f} sn)\n")
         f.write("- Canli fiyat kaynaklari: Binance/MEXC/Gate/Bybit/OKX/KuCoin (kripto), "
                 "Yahoo Finance (BIST `.IS` / ABD / endeks / forex `=X`), "
                 "api.gold-api.com (metal), Frankfurter-ECB (forex yedegi)\n")
-        if metal or metal_bayat:
-            f.write(f"- METAL: {bayat_ozet}\n")
+        if v["metal"] or v["metal_bayat"]:
+            f.write(f"- METAL: {v['bayat_ozet']}\n")
         f.write("\n")
         if satirlar_cikti:
             f.write("```\n" + "\n".join(satirlar_cikti) + "\n```\n")

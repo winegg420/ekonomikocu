@@ -44,3 +44,7 @@ Desktop.ini
 assets/
 scratch_tara_log.txt
 scratch_tara_out.log
+
+# Telegram alarm yerel durumu/logu (her 15 dk degisir, commit gurultusu)
+magicma/alarm_son_durum.json
+magicma/telegram_alarm_log.txt

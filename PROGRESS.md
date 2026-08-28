@@ -2326,3 +2326,45 @@ pushla, sonra twitter taraması, analiz edilmemişleri ve görselleri analiz et"
 - Kalan 1.102 ekonomikocu görseli, 26 Haz 2026'dan geriye devam (en eski 27 Haz 2020).
 - iriscibre 115, efloud 32 görsel hiç açılmadı.
 - Öğreti merdiveni ölçekleme tablosu hâlâ çıkarılmadı (hangi ürün hangi ondalıkla).
+
+## 2026-08-28 — Telegram MagicMA Alarm Sistemi
+
+**Yapilan:**
+- `magicma/fiyat_kontrol.py` minimal refactor: fiyat cekme + mesafe hesabi
+  `adaylari_hesapla()` fonksiyonuna ayrildi. `main()` yalnizca ekrana/markdown'a
+  yazmakla kaldi; CLI davranisi ve cikti formati aynen korundu (dogrulandi).
+- Yeni `magicma/telegram_alarm.py`: `adaylari_hesapla()`'yi import eder (kod
+  tekrari yok), esik %0,25 icindeki sembol/cizgi ciftlerini
+  `magicma/alarm_son_durum.json` ile karsilastirir, YENI girenleri Telegram
+  Bot API ile bildirir. Yeni temas yoksa hicbir mesaj gonderilmez.
+- `.env` (repo koku) icinde TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID. `.gitignore`
+  zaten `.env` iceriyordu; `magicma/alarm_son_durum.json` ve
+  `magicma/telegram_alarm_log.txt` de eklendi (her 15 dk degistigi icin).
+- Windows Task Scheduler gorevi: "MagicMA Telegram Alarm", her gun 09:00'dan
+  itibaren 15 saat boyunca 15 dakikada bir, `pyw.exe` ile penceresiz.
+
+**Kararlar / nedenleri:**
+- **Histerezis eklendi (giris %0,25 / cikis %0,50).** Ilk testte 2 dakika
+  arayla 4 "yeni temas" cikti — esik sinirinda salinan semboller her turda
+  yeniden bildiriliyordu. Artik bir kayit listeye %0,25'e girince alinir ama
+  listeden ancak %0,50'nin OTESINE gecince duser. `--cikis-esik` ile ayarlanir.
+- **Telegram gonderimi basarisiz olursa yeni kayitlar durum dosyasina
+  YAZILMAZ**, bir sonraki turda tekrar denenir — bildirim kaybolmasin diye.
+- **Gorev `pyw.exe` ile calisiyor** (py.exe degil): 15 dakikada bir ~25 sn
+  konsol penceresi acilmasin diye. Ciktinin kaybolmamasi icin `log()` ayni
+  anda `magicma/telegram_alarm_log.txt`'ye de yazar (512 KB'ta kirpilir).
+- **"En yuksek ayricaliklarla calistir" ISARETLENMEDI** — yonetici olmadan
+  Register-ScheduledTask "Erisim engellendi" veriyor. Script yonetici yetkisi
+  gerektirmiyor (sadece HTTP istegi + dosya yazma), bu yuzden normal
+  kullanici seviyesinde kaydedildi. Yine de istenirse gorev Task Scheduler
+  GUI'sinden yonetici olarak acilip isaretlenebilir.
+- Uyandirma (WakeToRun), pilde calisma ve "kacirilan tetiklemeyi calistir"
+  (StartWhenAvailable) acik.
+
+**Dogrulanan:**
+- Ilk calistirma bildirim gondermedi, sadece durum dosyasi olustu (26 kayit).
+- Durumdan kayit silinip tekrar calistirildiginda Telegram API `ok:true` dondu.
+- Zamanlanmis gorev elle tetiklendi: LastTaskResult 0, log dosyasina yazdi,
+  mesaj gonderildi — yani penceresiz yol da calisiyor.
+- `git check-ignore` ile `.env`in ignore edildigi teyit edildi; `git status`ta
+  gorunmuyor.

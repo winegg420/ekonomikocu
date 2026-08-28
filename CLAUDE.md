@@ -128,3 +128,23 @@ Ayrıca forex için tekil doğrulama gerekirse (mentor oturumundan) XE yerine `h
 - **Değerli metal (XAUUSD/XAGUSD/XPTUSD/XPDUSD/XAUTRY):** api.gold-api.com (ücretsiz, anahtarsız, anlık spot) — Yahoo'da bu spot semboller yok.
 - **Seviyeler markdown rapordan DEĞİL, `99_BOT_ARSIV/kod/magicma_ham.jsonl`'den** (her sembol için en yüksek ts) okunuyor; markdown rapor 2 ondalığa yuvarladığı için forexte %0,3 eşiği anlamsızlaşıyordu (AUDNZD 1,1946 → "1,19"). Rapordan okumak için `--rapordan` bayrağı var.
 - Ölçülen kapsama: 747 sembolün 744'ü, ~30 saniyede.
+
+## TELEGRAM MAGICMA ALARMI
+
+`magicma/telegram_alarm.py` — `fiyat_kontrol.adaylari_hesapla()`'yi kullanarak
+MagicMA cizgisine YENI temas eden sembolleri Telegram'a bildirir. Windows Task
+Scheduler gorevi **"MagicMA Telegram Alarm"** her gun 09:00'dan itibaren 15
+saat boyunca 15 dakikada bir calistirir (pyw.exe ile penceresiz).
+
+- Gizli bilgi: repo kokundeki `.env` (`TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`).
+  **.gitignore'da — asla commit edilmez.**
+- Durum: `magicma/alarm_son_durum.json` (anahtar `SEMBOL|CIZGI_ADI`), log:
+  `magicma/telegram_alarm_log.txt`. Ikisi de gitignore'da.
+- **Histerezis:** giris esigi %0,25, cikis esigi %0,50 (`--cikis-esik`). Bir
+  kayit %0,25'e girince bildirilir; listeden ancak %0,50'yi asinca duser.
+  Boylece esik sinirinda salinan sembol her turda yeniden bildirilmez.
+- Ilk calistirmada (durum dosyasi yoksa) bildirim GONDERILMEZ. Yeni temas
+  yoksa mesaj gonderilmez.
+- Elle deneme: `py -3 magicma/telegram_alarm.py --kuru` (gondermeden ekrana yazar).
+- **`fiyat_kontrol.py`'yi degistirirken `adaylari_hesapla()` imzasini bozma** —
+  alarm scripti bunu import ediyor.
