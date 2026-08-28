@@ -2644,3 +2644,41 @@ Gerçek alarm turu `--kuru` ile çalıştırıldı, 18 gerçek sinyal karneye d�
 Haftalık özet 31.08.2026 Pazartesi simüle edilerek metin doğrulandı; aynı gün ikinci
 gönderim ve Pazar denemesi doğru şekilde engellendi. **Telegram'a gerçek özet mesajı
 HENÜZ gönderilmedi** (ilk gerçek gönderim 31.08.2026 Pazartesi olacak).
+
+## 2026-08-28 (2) — Çakışan seviye (confluence) vurgusu
+
+**Yapılan:** Aynı sembolde birbirine ≤%0,15 yakın iki+ MagicMA çizgisi artık
+"çakışan seviye" olarak tespit ediliyor, Telegram'da özel formatla ve en üstte
+gösteriliyor, karnede ayrı ölçülüyor.
+- `fiyat_kontrol.py`: `CONFLUENCE_ESIK_YUZDE = 0.15`, `confluence_isaretle()`,
+  `adaylari_hesapla(confluence_esik=...)`.
+- `telegram_alarm.py`: çakışan grup tek kayda düşüyor (`SEMBOL|CONFLUENCE|grup`),
+  3 satırlık vurgulu blok, öncelikli sıralama.
+- `magicma_karne.py`: `confluence` / `confluence_tip` / `confluence_sayisi` /
+  `confluence_cizgiler` alanları + rapora "bantlar arası vs dar band vs tekil"
+  kırılımı.
+
+**Önemli bulgu / karar — İKİ TİP AYRIMI:**
+İlk uygulamada tanım birebir uygulandığında gerçek taramadaki 4 çakışmanın
+DÖRDÜ DE (DXY, EURUSD, CADJPY, UUSDT) aynı bandın alt+üst kenarı çıktı — yani
+"band dar", iki bağımsız gösterge aynı yeri işaretlemiyor. Oysa amaç
+"birden fazla bağımsız hesaplama aynı bölgeyi işaretliyor" idi. Bu yüzden tip
+ayrımı eklendi: `bantlar_arasi` (Günlük + Haftalık = gerçek bağımsız teyit) ve
+`dar_band` (tek band, teyit değil). İkisi de bildiriliyor ama ayrı etiketle ve
+karnede AYRI ölçülüyor — hipotezi ancak böyle test edebiliriz.
+
+**Düzeltilen hata:** Sembol çakışan gruba girip çıkınca durum anahtarı
+`SEMBOL|BAND` <-> `SEMBOL|CONFLUENCE|grup` arasında değiştiği için aynı semboller
+mesajda hem "🆕" hem "📤 Listeden çıktı" görünüyordu. `hala_listede` kontrolü eklendi.
+
+**Tasarım kararları:**
+- İşaret, sonuç tuple'ının `bant` sözlüğüne anahtar eklenerek yapılıyor; tuple'ın
+  şekli değişmiyor, mevcut çağıranlar (fiyat_kontrol.main, telegram_alarm) bozulmuyor.
+- Grup ilk üyeye göre genişliyor — zincirleme kayma (%0,14+%0,14=%0,28) engellendi.
+- Karne kaydı, sinyalin AÇILDIĞI andaki tipi saklıyor; sonradan gruba katılırsa
+  değişmiyor (hipotez testi için giriş anındaki durum daha temiz).
+
+**Test edildi:** 13 sentetik adayla gruplama (13/13), tip ayrımı (6/6), zincirleme
+kayma ve eşik dışı senaryoları, mesaj formatı, kanca→karne zinciri (3/3 doğru tip),
+eski format kayıtlarla geriye dönük uyumluluk, karne raporu üçlü kırılımı.
+Gerçek taramada 4 çakışma bulundu (hepsi dar band; bugün bantlar-arası çakışma yok).

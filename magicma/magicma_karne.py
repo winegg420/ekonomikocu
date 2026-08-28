@@ -138,16 +138,28 @@ def _cizgi_kisa(ad):
     return f"{gun}-{uc}"
 
 
-def sinyal_kaydi_olustur(sembol, cizgi_adi, cizgi_degeri, yon, giris_fiyati, an=None):
+def sinyal_kaydi_olustur(sembol, cizgi_adi, cizgi_degeri, yon, giris_fiyati, an=None,
+                         confluence=False, confluence_cizgiler=None, confluence_sayisi=1,
+                         confluence_tip=None):
+    """Tek sinyal kaydi. confluence* alanlari cakisan seviye grubu icin doldurulur.
+
+    Cakisan grupta cizgi_adi/cizgi_degeri, gruba EN YAKIN cizgiden gelir —
+    degerlendirme (gecersiz esigi) boylece degismeden calisir.
+    """
     an = an or simdi()
     zaman = an.isoformat(timespec="seconds")
     return {
-        "id": f"{sembol}_{zaman}_{_cizgi_kisa(cizgi_adi)}",
+        "id": f"{sembol}_{zaman}_{_cizgi_kisa(cizgi_adi)}"
+              + (f"_CONF{confluence_sayisi}" if confluence else ""),
         "sembol": sembol,
         "kategori": kategori_bul(sembol),
         "cizgi_adi": cizgi_adi,
         "cizgi_degeri": cizgi_degeri,
         "yon": yon,
+        "confluence": bool(confluence),
+        "confluence_tip": confluence_tip or ("bantlar_arasi" if confluence else "tekil"),
+        "confluence_sayisi": int(confluence_sayisi or 1),
+        "confluence_cizgiler": list(confluence_cizgiler or [cizgi_adi]),
         "giris_fiyati": giris_fiyati,
         "giris_zamani": zaman,
         "durum": "acik",
@@ -182,7 +194,12 @@ def yeni_sinyalleri_kaydet(temaslar, an=None, yol=KAYIT_YOL):
                 continue
             if (sembol, cizgi_adi) in acik_imzalar:
                 continue
-            kayitlar.append(sinyal_kaydi_olustur(sembol, cizgi_adi, cizgi, yon, fiyat, an))
+            kayitlar.append(sinyal_kaydi_olustur(
+                sembol, cizgi_adi, cizgi, yon, fiyat, an,
+                confluence=t.get("confluence", False),
+                confluence_cizgiler=t.get("confluence_cizgiler"),
+                confluence_sayisi=t.get("confluence_sayisi", 1),
+                confluence_tip=t.get("confluence_tip")))
             acik_imzalar.add((sembol, cizgi_adi))
             eklenen += 1
         if eklenen:
@@ -326,11 +343,28 @@ def istatistik_hesapla(kayitlar=None, yol=KAYIT_YOL):
     for k in kapanan:
         yonler.setdefault(k.get("yon", "?"), []).append(k)
 
+    # Confluence kirilimi — hipotez testi: cakisan seviye gercekten daha guclu
+    # bir sinyal mi? Eski kayitlarda `confluence` alani YOK; .get() ile tekil
+    # sayilirlar (geriye donuk uyumluluk).
+    # UC AYRI TIP olculur, cunku "iki cizgi ayni yerde" iki farkli sey olabilir:
+    #   bantlar_arasi = Gunluk + Haftalik ayni bolgede (BAGIMSIZ teyit)
+    #   dar_band      = tek bandin alt+ust kenari yakin (tek olcum, teyit degil)
+    # Ikisini tek potada toplamak hipotezi olcemez hale getirirdi.
+    cakisan = [k for k in kapanan if k.get("confluence")]
+    tekil = [k for k in kapanan if not k.get("confluence")]
+    bantlar_arasi = [k for k in cakisan if k.get("confluence_tip") == "bantlar_arasi"]
+    dar_band = [k for k in cakisan if k.get("confluence_tip") == "dar_band"]
+
     return {
         "acik": sum(1 for k in kayitlar if k.get("durum") == "acik"),
+        "acik_confluence": sum(1 for k in kayitlar
+                               if k.get("durum") == "acik" and k.get("confluence")),
         "genel": _say(kapanan),
         "kategori": {ad: _say(liste) for ad, liste in sorted(kategoriler.items())},
         "yon": {ad: _say(liste) for ad, liste in sorted(yonler.items())},
+        "confluence": {"cakisan": _say(cakisan), "tekil": _say(tekil),
+                       "bantlar_arasi": _say(bantlar_arasi),
+                       "dar_band": _say(dar_band)},
         "son_kapananlar": sorted(
             kapanan, key=lambda k: k.get("sonuc_zamani") or "", reverse=True)[:20],
     }
@@ -345,7 +379,8 @@ def karne_raporu_uret(yol=KAYIT_YOL, rapor_yol=RAPOR_YOL, log=print):
     s = []
     s.append("# MagicMA Sinyal Karnesi\n")
     s.append(f"_Guncelleme: {an:%d.%m.%Y %H:%M} TSI_\n")
-    s.append(f"Esikler: basari %{BASARI_ESIK_YUZDE} · gecersiz %{GECERSIZ_ESIK_YUZDE} "
+    s.append(f"Esikler: basari {_tr_yuzde(BASARI_ESIK_YUZDE)} · "
+             f"gecersiz {_tr_yuzde(GECERSIZ_ESIK_YUZDE)} "
              f"· zaman asimi {ZAMAN_ASIMI_SAAT} saat\n")
     s.append("## Genel\n")
     s.append(f"- Acik (devam eden) sinyal: **{ist['acik']}**")
@@ -370,6 +405,39 @@ def karne_raporu_uret(yol=KAYIT_YOL, rapor_yol=RAPOR_YOL, log=print):
         s.append("_Henuz kapanan sinyal yok._")
     s.append("")
 
+    # --- Hipotez testi: cakisan seviye (confluence) daha mi guclu? ----------
+    c = ist["confluence"]
+    s.append("## Cakisan seviye (confluence) vs tekil\n")
+    s.append(f"_Cakisma tanimi: ayni sembolde temas eden iki+ cizginin degerleri "
+             f"birbirine {_tr_yuzde(fiyat_kontrol.CONFLUENCE_ESIK_YUZDE, 2)} yakin._\n")
+    s.append(f"- Acik cakisan sinyal: **{ist['acik_confluence']}** / {ist['acik']}\n")
+    s.append("_Iki tip ayri olculur: **bantlar arasi** = Gunluk + Haftalik gibi "
+             "FARKLI bantlar ayni bolgeyi isaretliyor (bagimsiz teyit); "
+             "**dar band** = tek bandin alt+ust kenari birbirine yakin "
+             "(cizgiler cakisiyor ama bagimsiz teyit degil)._\n")
+    if c["cakisan"]["toplam"] or c["tekil"]["toplam"]:
+        s.append("| Sinyal tipi | Kapanan | Basarili | Basarisiz | Zaman asimi | Basari orani |")
+        s.append("|---|---:|---:|---:|---:|---:|")
+        for etiket, d in (("🔥 Cakisan — bantlar arasi", c["bantlar_arasi"]),
+                          ("🔥 Cakisan — dar band", c["dar_band"]),
+                          ("Tekil", c["tekil"])):
+            s.append(f"| {etiket} | {d['toplam']} | {d['basarili']} | {d['basarisiz']} | "
+                     f"{d['zaman_asimi']} | {_tr_yuzde(_oran(d['basarili'], d['toplam']))} |")
+        if c["bantlar_arasi"]["toplam"] and c["tekil"]["toplam"]:
+            fark = (_oran(c["bantlar_arasi"]["basarili"], c["bantlar_arasi"]["toplam"])
+                    - _oran(c["tekil"]["basarili"], c["tekil"]["toplam"]))
+            s.append("")
+            s.append(f"**Bantlar arasi - tekil farki: "
+                     f"{('%+.1f' % fark).replace('.', ',')} puan** "
+                     f"(cakisan lehine pozitif). Ornek sayisi azken bu farka guvenme.")
+        else:
+            s.append("")
+            s.append("_Karsilastirma icin hem bantlar-arasi hem tekil kapanan "
+                     "sinyal gerekiyor._")
+    else:
+        s.append("_Henuz kapanan sinyal yok._")
+    s.append("")
+
     s.append("## Yon bazinda\n")
     if ist["yon"]:
         s.append("| Yon | Kapanan | Basarili | Basarisiz | Zaman asimi | Basari orani |")
@@ -383,14 +451,20 @@ def karne_raporu_uret(yol=KAYIT_YOL, rapor_yol=RAPOR_YOL, log=print):
 
     s.append("## Son 20 kapanan sinyal\n")
     if ist["son_kapananlar"]:
-        s.append("| Kapanis | Sembol | Kategori | Yon | Sonuc | Giris | Cikis | Yonlu % |")
-        s.append("|---|---|---|---|---|---:|---:|---:|")
+        s.append("| Kapanis | Sembol | Kategori | Tip | Yon | Sonuc | Giris | Cikis | Yonlu % |")
+        s.append("|---|---|---|---|---|---|---:|---:|---:|")
         isaret = {"basarili": "✅ basarili", "basarisiz": "❌ basarisiz",
                   "zaman_asimi": "⏱ zaman asimi"}
         for k in ist["son_kapananlar"]:
             zam = (k.get("sonuc_zamani") or "")[:16].replace("T", " ")
             yuz = k.get("sonuc_yuzde")
-            s.append(f"| {zam} | {k.get('sembol')} | {k.get('kategori')} | "
+            if k.get("confluence"):
+                kisa = {"bantlar_arasi": "bant-arasi", "dar_band": "dar-band"}.get(
+                    k.get("confluence_tip"), "cakisan")
+                tip = f"🔥 {kisa} x{k.get('confluence_sayisi', 2)}"
+            else:
+                tip = "tekil"
+            s.append(f"| {zam} | {k.get('sembol')} | {k.get('kategori')} | {tip} | "
                      f"{(k.get('yon') or '').upper()} | {isaret.get(k['durum'], k['durum'])} | "
                      f"{k.get('giris_fiyati')} | {k.get('sonuc_fiyati')} | "
                      f"{('%.2f' % yuz).replace('.', ',') if yuz is not None else '-'} |")
@@ -466,6 +540,16 @@ def haftalik_ozet_metni(an=None, yol=KAYIT_YOL):
             s.append(" · ".join(
                 f"{ad.capitalize()}: {_tr_yuzde(_oran(d['basarili'], d['toplam']), 0)}"
                 for ad, d in ist["yon"].items()))
+        c = ist["confluence"]
+        if c["cakisan"]["toplam"]:
+            s.append("")
+            for etiket, d in (("🔥 Bantlar arası", c["bantlar_arasi"]),
+                              ("🔥 Dar band", c["dar_band"]),
+                              ("Tekil", c["tekil"])):
+                if d["toplam"]:
+                    s.append(f"{etiket}: "
+                             f"{_tr_yuzde(_oran(d['basarili'], d['toplam']), 0)} "
+                             f"({d['basarili']}/{d['toplam']})")
     else:
         s.append("Henüz kapanan sinyal yok.")
     s += ["", f"Açık (devam eden) sinyal: {ist['acik']}"]

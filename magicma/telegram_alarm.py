@@ -212,6 +212,25 @@ def _md_kacir(metin):
     return metin
 
 
+def _cizgi_gosterim(ad):
+    """'Magicma Günlük Üst Çizgi' -> 'Günlük Üst'; 'Magicma Haftalık -1' -> 'Haftalık-1'.
+
+    Yalnizca CONFLUENCE satirlarinda kullanilir — tekil bildirimlerde cizgi adi
+    gosterilmemeye devam eder (2026-08-28 sade format kurali).
+    """
+    a = (ad or "").replace("Magicma", "").replace("magicma", "").strip()
+    a = a.replace("Çizgi", "").replace("Cizgi", "").strip()
+    a = a.replace("Haftalık -", "Haftalık-").replace("Haftalik -", "Haftalik-")
+    return a or (ad or "?")
+
+
+def _yon_metni(kayit):
+    yon = kayit.get("yon")
+    if yon not in ("long", "short"):                      # eski durum dosyasi yedegi
+        yon = "short" if kayit.get("mesafe", 0) < 0 else "long"
+    return "LONG" if yon == "long" else "SHORT"
+
+
 def satir_bicimle(kayit):
     """Bir aday icin TEK satir: SEMBOL · LONG/SHORT · fiyat.
 
@@ -219,11 +238,41 @@ def satir_bicimle(kayit):
     ve cizgi adlari mesaja YAZILMAZ (kullanici istegi). Bu bilgiler yon
     hesabinda kullanilmaya devam eder ve durum dosyasi/logda saklanir; sadece
     bildirimde gosterilmez.
+
+    ISTISNA: cakisan seviye (confluence) kaydi cok satirli ozel bicimde gider —
+    orada cizgiler bilerek gosterilir, cunku sinyalin gucu tam olarak
+    "birden fazla cizginin ayni yerde olmasi"ndan geliyor.
     """
-    yon = kayit.get("yon")
-    if yon not in ("long", "short"):                      # eski durum dosyasi yedegi
-        yon = "short" if kayit.get("mesafe", 0) < 0 else "long"
-    return f"{kayit['sembol']}  {'LONG' if yon == 'long' else 'SHORT'}  {_tr(kayit['fiyat'])}"
+    if kayit.get("confluence"):
+        return confluence_bicimle(kayit)
+    return f"{kayit['sembol']}  {_yon_metni(kayit)}  {_tr(kayit['fiyat'])}"
+
+
+def confluence_bicimle(kayit):
+    """Cakisan seviye grubu icin 3 satirlik vurgulu blok.
+
+        🔥 ÇAKIŞAN SEVİYE — GARAN
+        132,90 → Günlük Üst 132,94 + Haftalık-1 132,88 (2 çizgi çakışıyor)
+        %-0,03 / %+0,015 mesafe · SHORT adayı
+
+    Baslik, cakismanin TIPINE gore degisir:
+      bantlar_arasi -> "🔥 ÇAKIŞAN SEVİYE" (Gunluk + Haftalik gibi FARKLI
+          bantlar ayni bolgeyi isaretliyor — bagimsiz teyit, aranan sinyal bu)
+      dar_band      -> "🔥 DAR BAND" (tek bandin alt+ust kenari cok yakin;
+          cizgiler cakisiyor ama bagimsiz teyit degil, tek olcum)
+    """
+    uyeler = kayit.get("confluence_uyeler") or []
+    fiyat = kayit["fiyat"]
+    cizgiler = " + ".join(f"{_cizgi_gosterim(u['ad'])} {_tr(u['deger'])}" for u in uyeler)
+    mesafeler = " / ".join(f"%{u['mesafe']:+.3f}".replace(".", ",") for u in uyeler)
+    adet = kayit.get("confluence_sayisi") or len(uyeler)
+    if kayit.get("confluence_tip") == "dar_band":
+        bas, kuyruk = "\U0001F525 DAR BAND — ", f"({adet} çizgi çakışıyor · tek band)"
+    else:
+        bas, kuyruk = "\U0001F525 ÇAKIŞAN SEVİYE — ", f"({adet} çizgi çakışıyor)"
+    return (bas + kayit["sembol"] + "\n"
+            + f"{_tr(fiyat)} → {cizgiler} {kuyruk}\n"
+            + f"{mesafeler} mesafe · {_yon_metni(kayit)} adayı")
 
 
 def mesaj_olustur(bekleyen, cikanlar, simdi=None):
@@ -245,8 +294,12 @@ def mesaj_olustur(bekleyen, cikanlar, simdi=None):
     # Ayni sembol hem Gunluk hem Haftalik banda yakin olabilir; liste artik her
     # mesajda tam gonderildigi icin bu ayni satirin iki kez gorunmesi demek.
     # Sembol+yon basina EN YAKIN kayit tutulur (bekleyen zaten mesafeye sirali).
+    # Cakisan seviyeler (confluence) EN USTE alinir: birden fazla bagimsiz
+    # cizgi ayni bolgeyi isaretliyor, tekil temastan daha guclu bir sinyal
+    # olmasi bekleniyor. `bekleyen` main()'de zaten confluence-once sirali
+    # geliyor; burada blok tipine gore ayrilip aralarina bosluk konur.
     gorulen = set()
-    bloklar = []
+    conf_bloklar, tekil_bloklar = [], []
     for kayit in bekleyen:
         imza = (kayit.get("sembol"), kayit.get("yon"))
         if imza in gorulen:
@@ -255,20 +308,31 @@ def mesaj_olustur(bekleyen, cikanlar, simdi=None):
         blok = satir_bicimle(kayit)
         if kayit.get("yeni"):
             blok = "\U0001F195 " + blok
-        bloklar.append(_md_kacir(blok))
+        (conf_bloklar if kayit.get("confluence") else tekil_bloklar).append(_md_kacir(blok))
 
+    toplam = len(conf_bloklar) + len(tekil_bloklar)
     bas = "\U0001F4CA " + _md_kacir(
-        f"MagicMA İŞLEM FIRSATLARI ({simdi:%d.%m.%Y %H:%M}) · {len(bloklar)} aday")
+        f"MagicMA İŞLEM FIRSATLARI ({simdi:%d.%m.%Y %H:%M}) · {toplam} aday"
+        + (f" · {len(conf_bloklar)} çakışan seviye" if conf_bloklar else ""))
 
-    govde, atlanan = [], 0
-    for sira, blok in enumerate(bloklar):
-        deneme = len(bas) + len("\n".join(govde + [blok])) + len(son) + 64
-        if deneme > TELEGRAM_MAX and govde:
-            atlanan = len(bloklar) - sira
+    # Confluence bloklari cok satirli oldugu icin aralarina bos satir konur;
+    # tekil adaylar eskisi gibi alt alta tek satir.
+    parcalar = ([(b, "\n\n") for b in conf_bloklar]
+                + [(b, "\n") for b in tekil_bloklar])
+
+    govde, atlanan = "", 0
+    for sira, (blok, ayirac) in enumerate(parcalar):
+        eklenecek = (ayirac if govde else "") + blok
+        if len(bas) + len(govde) + len(eklenecek) + len(son) + 64 > TELEGRAM_MAX and govde:
+            atlanan = len(parcalar) - sira
             break
-        govde.append(blok)
+        govde += eklenecek
+    # Confluence bolumu ile tekil liste arasina ayirici bos satir.
+    if conf_bloklar and tekil_bloklar and not atlanan:
+        ilk_tekil = tekil_bloklar[0]
+        govde = govde.replace("\n" + ilk_tekil, "\n\n" + ilk_tekil, 1)
 
-    metin = bas + ("\n\n" + "\n".join(govde) if govde else "")
+    metin = bas + ("\n\n" + govde if govde else "")
     if atlanan:
         metin += f"\n… ve {atlanan} aday daha (mesaja sığmadı)"
     return metin + son
@@ -311,9 +375,44 @@ def sonuclari_kayda_cevir(sonuclar):
     da ayni anda yaklasilabiliyor ve bu tek bir olay — iki ayri bildirim degil.
     Ayni banttan birden fazla aday gelirse EN YAKIN olani tutulur (sonuclar
     zaten mesafeye gore sirali geldigi icin ilk gelen en yakindir).
+
+    Cakisan seviye (confluence) grubu ISTISNA: grubun tum cizgileri TEK kayda
+    duser (anahtar SEMBOL|CONFLUENCE|grup), cunku bu tek bir olay — "su bolge
+    birden fazla cizgiyle isaretli". Grup dagilirsa (bir cizgi esikten cikarsa)
+    anahtar degisir ve kalan cizgi yeni bir tekil kayit gibi 🆕 isaretlenir;
+    sinyalin karakteri gercekten degistigi icin bu istenen davranistir.
     """
     kayitlar = {}
     for _, sembol, canli, ad, deger, mesafe, _yon, kaynak, bant in sonuclar:
+        if bant.get("confluence"):
+            anahtar = f"{sembol}|CONFLUENCE|{bant.get('confluence_grup')}"
+            uyeler = bant.get("confluence_uyeler") or []
+            if anahtar in kayitlar:
+                continue
+            # Grubu, cizgisine EN YAKIN uyesi temsil eder (mesafe/cizgi ondan).
+            en_yakin = uyeler[0] if uyeler else {"ad": ad, "deger": deger, "mesafe": mesafe}
+            kayitlar[anahtar] = {
+                "sembol": sembol,
+                "bant_adi": bant["ad"],
+                "bant_alt": bant["alt"],
+                "bant_ust": bant["ust"],
+                "konum": bant["konum"],
+                "yon": bant["yon"],
+                "gerekce": bant["gerekce"],
+                "cizgi_adi": en_yakin["ad"],
+                "cizgi": en_yakin["deger"],
+                "fiyat": canli,
+                "mesafe": en_yakin["mesafe"],
+                "kaynak": kaynak,
+                "confluence": True,
+                "confluence_tip": bant.get("confluence_tip", "bantlar_arasi"),
+                "confluence_sayisi": bant.get("confluence_sayisi", len(uyeler)),
+                "confluence_cizgiler": bant.get("confluence_cizgiler", []),
+                "confluence_bantlar": bant.get("confluence_bantlar", []),
+                "confluence_uyeler": uyeler,
+            }
+            continue
+
         anahtar = f"{sembol}|{bant['ad']}"
         if anahtar in kayitlar:
             continue
@@ -330,6 +429,8 @@ def sonuclari_kayda_cevir(sonuclar):
             "fiyat": canli,
             "mesafe": mesafe,
             "kaynak": kaynak,
+            "confluence": False,
+            "confluence_tip": "tekil",
         }
     return kayitlar
 
@@ -368,7 +469,8 @@ def main():
         # piyasa_filtresi: BIST/ABD kapaliyken o sembollerin fiyati hic cekilmez.
         v = fiyat_kontrol.adaylari_hesapla(
             tarih=args.tarih, esik=cikis_esik, max_yas=args.max_yas, log=log,
-            piyasa_filtresi=not args.piyasa_saatini_yoksay)
+            piyasa_filtresi=not args.piyasa_saatini_yoksay,
+            confluence_esik=args.esik)   # cakisma yalnizca TEMAS eden cizgiler arasinda
     except SystemExit:
         raise
     except Exception as e:
@@ -453,7 +555,15 @@ def main():
         return onceki[anahtar].get("sembol", anahtar.split("|")[0])
 
     piyasa_dusenleri = [a for a in cikan_anahtarlar if _sembol(a) in kapali_semboller]
-    gercek_cikanlar = [a for a in cikan_anahtarlar if _sembol(a) not in kapali_semboller]
+
+    # Anahtar DEGISTIGI icin dusenler "listeden cikti" SAYILMAZ: bir sembol
+    # cakisan seviye grubuna girip cikinca anahtari SEMBOL|BAND <->
+    # SEMBOL|CONFLUENCE|grup arasinda degisiyor. Sembol hala listedeyse bu bir
+    # cikis degil, yalnizca ayni sinyalin baska bir anahtarla temsili.
+    hala_listede = {k.get("sembol") for k in yeni_durum.values()}
+    gercek_cikanlar = [a for a in cikan_anahtarlar
+                       if _sembol(a) not in kapali_semboller
+                       and _sembol(a) not in hala_listede]
 
     simdi = datetime.fromisoformat(simdi_iso)
 
@@ -480,8 +590,11 @@ def main():
         log("Yakin aday yok — mesaj gonderilmedi (sessiz).")
         return 0
 
-    # En yakin en ustte
-    bekleyen.sort(key=lambda k: abs(k.get("mesafe", 0)))
+    # Siralama: once BANTLAR ARASI cakisma (bagimsiz teyit — en guclu), sonra
+    # dar band cakismasi, sonra tekiller; her grup kendi icinde en yakin ustte.
+    _oncelik = {"bantlar_arasi": 0, "dar_band": 1}
+    bekleyen.sort(key=lambda k: (_oncelik.get(k.get("confluence_tip"), 2),
+                                 abs(k.get("mesafe", 0))))
     metin = mesaj_olustur(bekleyen, cikanlar, simdi)
 
     if args.kuru:

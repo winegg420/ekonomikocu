@@ -208,6 +208,45 @@ turlarda gercekten tutup tutmadigi olculur.
   `--sadece-rapor`, `--haftalik` (ozet metnini gonderMEDEN yazar).
 - Karne kodu alarm akisini ASLA bozmaz: tum kanca cagrilari try/except icinde.
 
+## CAKISAN SEVIYE — CONFLUENCE (2026-08-28)
+
+Ayni sembolde TEMAS eden (giris esigi icindeki) iki+ MagicMA cizgisinin
+DEGERLERI birbirine `CONFLUENCE_ESIK_YUZDE` (%0,15, `fiyat_kontrol.py` basi)
+kadar yakinsa, bunlar tek bir "cakisan seviye grubu" sayilir.
+
+- Tespit: `fiyat_kontrol.confluence_isaretle()`. Isaret, sonuc tuple'inin
+  9. ogesi olan `bant` sozlugune ANAHTAR EKLENEREK yapilir — **tuple'in sekli
+  degismez**, mevcut cagiranlar bozulmaz.
+- Grup, ilk uyeye gore genisler (zincirleme kayma engellenir: A-B %0,14 ve
+  B-C %0,14 ise A-C %0,28 olurdu, bu tek grup SAYILMAZ).
+- `adaylari_hesapla(confluence_esik=...)` — cakisma yalnizca bu MESAFE
+  icindeki cizgiler arasinda aranir. telegram_alarm genis bandi (cikis esigi)
+  hesaplattigi icin buraya GIRIS esigini (%0,25) gonderir.
+
+**IKI TIP AYRI OLCULUR (olculdu: gercek taramada cakisanlarin cogu ayni bandin
+iki kenari cikiyor, bu bagimsiz teyit DEGIL):**
+- `bantlar_arasi` — Gunluk + Haftalik gibi FARKLI bantlardan cizgiler ayni
+  bolgede. Birbirinden bagimsiz iki hesaplama ayni yeri isaretliyor; aranan
+  guclu sinyal budur. Mesajda **🔥 ÇAKIŞAN SEVİYE**.
+- `dar_band` — tek bandin alt+ust kenari birbirine yakin, yani band dar.
+  Cizgiler cakisiyor ama bagimsiz teyit degil. Mesajda **🔥 DAR BAND**.
+
+**Bildirim:** cakisan grup TEK kayda duser (anahtar `SEMBOL|CONFLUENCE|grup`),
+uc satirli vurgulu blok halinde ve mesajin EN USTUNDE gider (once bantlar
+arasi, sonra dar band, sonra tekiller). Tekil bildirimler eskisi gibi tek
+satir ve cizgi adi ICERMEZ; cizgi adlari **yalnizca** cakisan blokta gosterilir
+(sinyalin gucu tam olarak cizgilerin ayni yerde olmasindan geliyor).
+
+**"Listeden cikti" tuzagi:** sembol cakisan gruba girip cikinca anahtari
+`SEMBOL|BAND` <-> `SEMBOL|CONFLUENCE|grup` arasinda degisir. Sembol hala
+listedeyse bu bir cikis DEGILDIR — `hala_listede` kontrolu bunu filtreler.
+
+**Karne:** kayitta `confluence`, `confluence_tip`, `confluence_sayisi`,
+`confluence_cizgiler` alanlari tutulur; `KARNE_RAPOR.md`'de bantlar-arasi /
+dar-band / tekil basari oranlari AYRI gosterilir (hipotez testi). Kayit,
+sinyalin ACILDIGI andaki tipi saklar — sonradan gruba katilirsa degismez.
+Eski kayitlarda alan yoksa `.get()` ile tekil sayilir (geriye donuk uyumlu).
+
 ## MAGICMA BAND YON KURALI (2026-08-28 — eski geometrik kurali gecersiz kilar)
 
 MagicMA cizgileri bagimsiz seviye DEGIL, **bandin iki siniri**:

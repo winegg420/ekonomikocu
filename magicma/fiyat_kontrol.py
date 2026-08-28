@@ -75,6 +75,13 @@ except ImportError:
 import bant_yon
 import piyasa_saati
 
+# CONFLUENCE (cakisan seviye): ayni sembolde esik icindeki iki (veya daha fazla)
+# MagicMA cizgisinin DEGERLERI birbirine bu yuzdeden yakinsa, bunlar tek bir
+# "cakisan seviye grubu" sayilir. Birden fazla bagimsiz hesaplama ayni bolgeyi
+# isaretliyor demektir; hipotez: tekil temastan daha guclu bir sinyal.
+# (Hipotezi olcmek icin karne raporunda confluence/tekil kirilimi tutulur.)
+CONFLUENCE_ESIK_YUZDE = 0.15
+
 REPO_KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAPOR_KLASOR = os.path.join(REPO_KOK, "magicma")
 HAM_YOL = os.path.join(REPO_KOK, "99_BOT_ARSIV", "kod", "magicma_ham.jsonl")
@@ -637,8 +644,105 @@ def forex_fiyatlari_cek(semboller):
 
 # --------------------------------------------------------------------------
 
+def confluence_isaretle(sonuclar, mesafe_esik=None, grup_esik=CONFLUENCE_ESIK_YUZDE):
+    """Ayni sembolde birbirine yakin cizgileri "cakisan seviye" olarak isaretler.
+
+    sonuclar : adaylari_hesapla()'nin urettigi tuple listesi. Isaretleme, her
+        tuple'in 9. ogesi olan `bant` sozlugune ANAHTAR EKLEYEREK yapilir —
+        tuple'in sekli DEGISMEZ, mevcut cagiranlar (fiyat_kontrol.main,
+        telegram_alarm) bozulmaz.
+
+    mesafe_esik : confluence yalnizca bu mesafe icindeki cizgiler arasinda
+        aranir. None ise tum sonuclar dikkate alinir. telegram_alarm genis
+        bandi (cikis esigi) hesaplattigi icin buraya GIRIS esigini (%0,25)
+        gonderir — tanim geregi confluence "temas eden" cizgiler arasindadir.
+
+    grup_esik : iki cizgi DEGERI arasindaki fark bu yuzdeden kucukse ayni
+        gruptalar. Grup, ilk uyeye gore genisletilir (zincirleme kayma olmasin:
+        A-B %0,14, B-C %0,14 ise A-C %0,28 olurdu; bu istenmez).
+
+    Eklenen anahtarlar (her zaman eklenir, tekil adaylarda confluence=False):
+        confluence (bool), confluence_sayisi (int),
+        confluence_cizgiler (list[str]), confluence_grup (str|None),
+        confluence_uyeler (list[{ad, deger, mesafe}])
+    Doner: bulunan grup sayisi.
+    """
+    # 1) Once HERKESI tekil olarak isaretle (geriye donuk uyumluluk).
+    for kayit in sonuclar:
+        bant = kayit[8]
+        bant["confluence"] = False
+        bant["confluence_tip"] = "tekil"
+        bant["confluence_sayisi"] = 1
+        bant["confluence_cizgiler"] = [kayit[3]]
+        bant["confluence_bantlar"] = [bant.get("ad", "?")]
+        bant["confluence_grup"] = None
+        bant["confluence_uyeler"] = [{"ad": kayit[3], "deger": kayit[4],
+                                      "mesafe": kayit[5], "bant": bant.get("ad", "?")}]
+
+    # 2) Sembol bazinda, esik icindeki cizgileri degere gore grupla.
+    sembol_cizgileri = {}
+    for kayit in sonuclar:
+        _, sembol, _canli, ad, deger, mesafe = kayit[0], kayit[1], kayit[2], kayit[3], kayit[4], kayit[5]
+        if mesafe_esik is not None and abs(mesafe) > mesafe_esik:
+            continue
+        sembol_cizgileri.setdefault(sembol, {})[ad] = (deger, mesafe, kayit)
+
+    grup_sayisi = 0
+    for sembol, cizgiler in sembol_cizgileri.items():
+        if len(cizgiler) < 2:
+            continue
+        sirali = sorted(cizgiler.items(), key=lambda x: x[1][0])   # degere gore
+        gruplar, aktif = [], []
+        for ad, (deger, mesafe, kayit) in sirali:
+            if aktif:
+                taban = aktif[0][1]
+                try:
+                    fark = abs(deger - taban) / taban * 100 if taban else 0.0
+                except ZeroDivisionError:
+                    fark = 0.0
+                if fark > grup_esik:
+                    gruplar.append(aktif)
+                    aktif = []
+            aktif.append((ad, deger, mesafe, kayit))
+        if aktif:
+            gruplar.append(aktif)
+
+        for sira, grup in enumerate(gruplar, 1):
+            if len(grup) < 2:
+                continue
+            grup_sayisi += 1
+            grup_id = f"{sembol}#{sira}"
+            adlar = [g[0] for g in grup]
+            uyeler = [{"ad": g[0], "deger": g[1], "mesafe": g[2],
+                       "bant": g[3][8].get("ad", "?")} for g in grup]
+            uyeler.sort(key=lambda u: abs(u["mesafe"]))       # en yakin uye basta
+
+            # TIP AYRIMI (olculdu: gercek taramada cakisan gruplarin cogu ayni
+            # bandin iki kenari cikiyor). Iki durum ayni sey DEGIL:
+            #   bantlar_arasi : Gunluk + Haftalik gibi FARKLI bantlardan cizgiler
+            #       ayni bolgede — birbirinden bagimsiz iki hesaplama ayni yeri
+            #       isaretliyor. Asil aranan guclu sinyal budur.
+            #   dar_band      : tek bandin alt+ust kenari birbirine cok yakin —
+            #       yani band dar. Bagimsiz teyit degil, tek bir olcum.
+            # Ikisi de confluence sayilir (tanim geregi) ama ayri etiketlenir ve
+            # karnede AYRI olculur; hipotezi ancak boyle test edebiliriz.
+            bant_adlari = sorted({u["bant"] for u in uyeler})
+            tip = "bantlar_arasi" if len(bant_adlari) > 1 else "dar_band"
+
+            for _ad, _deger, _mesafe, kayit in grup:
+                bant = kayit[8]
+                bant["confluence"] = True
+                bant["confluence_tip"] = tip
+                bant["confluence_sayisi"] = len(grup)
+                bant["confluence_cizgiler"] = adlar
+                bant["confluence_bantlar"] = bant_adlari
+                bant["confluence_grup"] = grup_id
+                bant["confluence_uyeler"] = uyeler
+    return grup_sayisi
+
+
 def adaylari_hesapla(tarih=None, esik=0.3, rapordan=False, max_yas=10, log=print,
-                     piyasa_filtresi=False, simdi=None):
+                     piyasa_filtresi=False, simdi=None, confluence_esik=None):
     """Seviyeleri okur, canli fiyatlari ceker, esik icindeki adaylari dondurur.
 
     main() ve magicma/telegram_alarm.py ayni mantigi paylassin diye ayrildi.
@@ -648,6 +752,9 @@ def adaylari_hesapla(tarih=None, esik=0.3, rapordan=False, max_yas=10, log=print
         kapali piyasanin son kapanis fiyati hala ise yariyor; filtre yalnizca
         periyodik alarm icin anlamli (telegram_alarm.py True gonderir).
     simdi : test icin TSI datetime (piyasa_filtresi ile birlikte kullanilir).
+    confluence_esik : confluence (cakisan seviye) yalnizca bu MESAFE icindeki
+        cizgiler arasinda aranir. None ise `esik` kullanilir. telegram_alarm
+        genis bandi hesaplattigi icin buraya GIRIS esigini (%0,25) gonderir.
 
     Doner: sonuclarin ve yardimci meta bilgilerin bulundugu sozluk.
       sonuclar: [(mutlak_mesafe, sembol, canli, cizgi_adi, cizgi_degeri,
@@ -673,7 +780,8 @@ def adaylari_hesapla(tarih=None, esik=0.3, rapordan=False, max_yas=10, log=print
             return {"sonuclar": [], "seviyeler": {}, "tum_fiyatlar": {}, "tarih": tarih,
                     "seviye_kaynagi": seviye_kaynagi, "sure": 0.0, "metal": {},
                     "metal_bayat": {}, "bayat_ozet": "", "esik": esik,
-                    "kapali_semboller": kapali_semboller}
+                    "kapali_semboller": kapali_semboller,
+                    "confluence_grup_sayisi": 0}
 
     kripto, yahoo, metal, forex_yedek, kapsanmayan = siniflandir(seviyeler)
     log(f"Kripto: {len(kripto)} · Yahoo (BIST/ABD/endeks/forex): {len(yahoo)} · "
@@ -780,8 +888,23 @@ def adaylari_hesapla(tarih=None, esik=0.3, rapordan=False, max_yas=10, log=print
 
     sonuclar.sort(key=lambda x: x[0])
 
+    # Cakisan seviyeler (confluence): ayni sembolde birbirine cok yakin iki+
+    # cizgi tek bir guclu bolge demektir; isaret `bant` sozluguna eklenir.
+    conf_grup = confluence_isaretle(
+        sonuclar, mesafe_esik=confluence_esik if confluence_esik is not None else esik)
+    if conf_grup:
+        arasi = sorted({s[1] for s in sonuclar
+                        if s[8].get("confluence_tip") == "bantlar_arasi"})
+        dar = sorted({s[1] for s in sonuclar
+                      if s[8].get("confluence_tip") == "dar_band"})
+        log(f"[CONFLUENCE] {conf_grup} cakisan seviye grubu "
+            f"(cizgi araligi <= %{CONFLUENCE_ESIK_YUZDE}) · "
+            f"bantlar arasi: {', '.join(arasi) or '-'} · "
+            f"dar band: {', '.join(dar) or '-'}")
+
     return {
         "sonuclar": sonuclar,
+        "confluence_grup_sayisi": conf_grup,
         "seviyeler": seviyeler,
         "tum_fiyatlar": tum_fiyatlar,
         "tarih": tarih,
@@ -818,8 +941,10 @@ def main():
     print(f"\n=== ESIK: %{args.esik} ICINDE {len(sonuclar)} ADAY (guncel fiyatla) ===\n")
     satirlar_cikti = []
     for _, sembol, canli, ad, deger, mesafe, yon, kaynak, bant in sonuclar:
+        conf = (f"  [CAKISAN x{bant['confluence_sayisi']}]"
+                if bant.get("confluence") else "")
         satir = (f"{sembol:14s} canli={canli:>14.6g}  {ad:24s} cizgi={deger:>14.6g}  "
-                 f"mesafe=%{mesafe:+.2f}  {yon:52s} [{kaynak}]")
+                 f"mesafe=%{mesafe:+.2f}  {yon:52s} [{kaynak}]{conf}")
         print(satir)
         satirlar_cikti.append(satir)
 

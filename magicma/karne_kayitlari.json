@@ -264,5 +264,83 @@
   "sonuc_fiyati": null,
   "sonuc_zamani": null,
   "sonuc_yuzde": null
+ },
+ {
+  "id": "CARDSUSDT_2026-08-28T23:39:01+03:00_G-Ust",
+  "sembol": "CARDSUSDT",
+  "kategori": "kripto",
+  "cizgi_adi": "Magicma Günlük Üst Çizgi",
+  "cizgi_degeri": 0.1719952066,
+  "yon": "long",
+  "confluence": false,
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Üst Çizgi"
+  ],
+  "giris_fiyati": 0.17197,
+  "giris_zamani": "2026-08-28T23:39:01+03:00",
+  "durum": "acik",
+  "sonuc_fiyati": null,
+  "sonuc_zamani": null,
+  "sonuc_yuzde": null
+ },
+ {
+  "id": "BONEUSDT_2026-08-28T23:39:01+03:00_G-Ust",
+  "sembol": "BONEUSDT",
+  "kategori": "kripto",
+  "cizgi_adi": "Magicma Günlük Üst Çizgi",
+  "cizgi_degeri": 0.0487991736,
+  "yon": "short",
+  "confluence": false,
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Üst Çizgi"
+  ],
+  "giris_fiyati": 0.04889,
+  "giris_zamani": "2026-08-28T23:39:01+03:00",
+  "durum": "acik",
+  "sonuc_fiyati": null,
+  "sonuc_zamani": null,
+  "sonuc_yuzde": null
+ },
+ {
+  "id": "STEEMUSDT_2026-08-28T23:43:00+03:00_G-Ust",
+  "sembol": "STEEMUSDT",
+  "kategori": "kripto",
+  "cizgi_adi": "Magicma Günlük Üst Çizgi",
+  "cizgi_degeri": 0.0453184298,
+  "yon": "short",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Üst Çizgi"
+  ],
+  "giris_fiyati": 0.04526,
+  "giris_zamani": "2026-08-28T23:43:00+03:00",
+  "durum": "acik",
+  "sonuc_fiyati": null,
+  "sonuc_zamani": null,
+  "sonuc_yuzde": null
+ },
+ {
+  "id": "NEARUSDT_2026-08-28T23:43:00+03:00_G-Alt",
+  "sembol": "NEARUSDT",
+  "kategori": "kripto",
+  "cizgi_adi": "Magicma Günlük Alt Çizgi",
+  "cizgi_degeri": 1.8210597015,
+  "yon": "short",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Alt Çizgi"
+  ],
+  "giris_fiyati": 1.825,
+  "giris_zamani": "2026-08-28T23:43:00+03:00",
+  "durum": "acik",
+  "sonuc_fiyati": null,
+  "sonuc_zamani": null,
+  "sonuc_yuzde": null
  }
 ]
