@@ -132,23 +132,33 @@ Ayrıca forex için tekil doğrulama gerekirse (mentor oturumundan) XE yerine `h
 ## TELEGRAM MAGICMA ALARMI
 
 `magicma/telegram_alarm.py` — `fiyat_kontrol.adaylari_hesapla()`'yi kullanarak
-MagicMA cizgisine YENI temas eden sembolleri Telegram'a bildirir. Windows Task
-Scheduler gorevi **"MagicMA Telegram Alarm"** her gun 09:00'dan itibaren 15
-saat boyunca 15 dakikada bir calistirir (pyw.exe ile penceresiz).
+MagicMA cizgisine yakin sembolleri Telegram'a bildirir. Windows Task
+Scheduler gorevi **"MagicMA Telegram Alarm"** 7/24 her 15 dakikada bir
+calistirir (pyw.exe ile penceresiz).
+
+**TAM LISTE KURALI (2026-08-28, kullanici istegi — eski "sadece yeni temas"
+davranisini gecersiz kilar):** her mesajda o anda hala yakin olan **TUM**
+adaylar bastan listelenir; daha once bildirilmis olanlar da tekrar yazilir.
+Amac: her bildirimde guncel islem firsatlarinin tamamini tek listede gormek.
+O turda listeye YENI giren adayin basina 🆕 konur. Bildirim kuyrugu (birikip
+sonraki mesaja devretme) BIRAKILDI — liste zaten her turda bastan kuruluyor,
+mesaj gidemezse bir sonraki turun listesi daha guncelini tasir.
+Ayni sembol iki banda birden yakinsa mesajda **tek satir** gorunur
+(sembol+yon basina en yakin kayit).
 
 - Gizli bilgi: repo kokundeki `.env` (`TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`).
   **.gitignore'da — asla commit edilmez.**
 - Durum: `magicma/alarm_son_durum.json` (anahtar `SEMBOL|CIZGI_ADI`), log:
   `magicma/telegram_alarm_log.txt`. Ikisi de gitignore'da.
 - **Histerezis:** giris esigi %0,25, cikis esigi %0,50 (`--cikis-esik`). Bir
-  kayit %0,25'e girince bildirilir; listeden ancak %0,50'yi asinca duser.
-  Boylece esik sinirinda salinan sembol her turda yeniden bildirilmez.
-- Ilk calistirmada (durum dosyasi yoksa) bildirim GONDERILMEZ. Yeni temas
-  yoksa mesaj gonderilmez.
+  kayit %0,25'e girince listeye alinir; listeden ancak %0,50'yi asinca duser.
+  Boylece esik sinirinda salinan sembol listeye girip cikip durmaz.
+- Yakin aday hic yoksa mesaj gonderilmez (sessiz). Ilk calistirma sessizligi
+  KALDIRILDI (`--zorla` artik etkisiz), cunku liste zaten her mesajda tam.
 - **Tarama araligi 10 dk** (Task Scheduler, 7/24).
-- **Mesajlar arasi EN AZ 10 dk** (`--mesaj-araligi`, varsayilan 10). Bu sure
-  dolmadan bulunan adaylar durum dosyasindaki KUYRUGA alinir, sonraki mesajda
-  hepsi TEK seferde gider; kuyrukta bekleyenin yaninda gorulme saati yazar.
+- **Mesajlar arasi EN AZ 10 dk** (`--mesaj-araligi`, varsayilan 10). Sure
+  dolmadiysa o tur sessiz gecer; aday BIRIKMEZ, sonraki tur guncel listeyi
+  gonderir.
 - **`ARALIK_TOLERANS_DK = 2` (sinir yarisi duzeltmesi):** gorev 10 dk'da bir
   baslar ama tarama ~25-35 sn surer ve suresi oynar; mesaj tarama BITTIKTEN
   sonra gittigi icin bir sonraki turun kontrol ani bazen onceki gonderimden
@@ -160,10 +170,9 @@ saat boyunca 15 dakikada bir calistirir (pyw.exe ile penceresiz).
   Band araligi, "banda yukaridan indi" gibi gerekce metinleri ve cizgi adlari
   mesaja YAZILMAZ (kullanici istegi). Bu bilgiler yon hesabinda kullanilmaya
   devam eder, durum dosyasinda ve logda saklanir — sadece bildirimde gorunmez.
-  Onceki turdan devreden adayin yaninda gorulme saati parantez icinde yazar
-  (fiyat o ana ait oldugu icin).
+  Basligta tarih/saat ve aday sayisi yazar; o turda yeni girenlerin basinda 🆕.
   Elle calistirma + zamanlanmis calistirma ust uste gelse bile arka arkaya iki
-  bildirim dusmez. Kuyruk yalnizca mesaj BASARIYLA gidince bosaltilir.
+  bildirim dusmez (`--mesaj-araligi`).
 - **Mesaj asla parcalanmaz:** bir turun tum adaylari tek mesajda; sinira
   sigmazsa kesilir ve "+N aday daha" yazilir.
 - Elle deneme: `py -3 magicma/telegram_alarm.py --kuru` (gondermeden ekrana yazar).

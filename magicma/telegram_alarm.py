@@ -2,36 +2,39 @@
 magicma/telegram_alarm.py
 
 Amac: magicma/fiyat_kontrol.py'nin hesapladigi "cizgiye yapisik" listeyi
-(varsayilan esik %0,25 — CLAUDE.md MAGICMA RAPOR FORMAT KURALI) her calismada
-bir onceki durumla karsilastirip, listeye YENI GIREN sembol/cizgi ciftlerini
-Telegram'a bildirim olarak gonderir.
+(varsayilan giris esigi %0,25 — CLAUDE.md MAGICMA RAPOR FORMAT KURALI) her
+calismada Telegram'a bildirir.
+
+DAVRANIS DEGISIKLIGI (2026-08-28, kullanici istegi):
+  Bildirim artik SADECE yeni temaslari degil, O ANDA hala cizgiye yakin olan
+  TUM adaylari her mesajda bastan listeler. Amac: her bildirimde guncel islem
+  firsatlarinin tamamini tek listede gormek. Bu turda listeye YENI giren
+  adaylarin basina 🆕 konur; digerleri de tekrar listelenir.
 
 Tasarim kararlari:
   - Fiyat cekme mantigi TEKRAR YAZILMAZ; fiyat_kontrol.adaylari_hesapla()
     import edilir.
   - Durum dosyasi: magicma/alarm_son_durum.json. Anahtar = "SEMBOL|BANT_ADI".
-  - ILK calistirmada durum dosyasi yoksa hicbir bildirim gonderilmez (her sey
-    "yeni" gorunur, spam olur); sadece durum kaydedilir.
-  - Yeni temas YOKSA hicbir mesaj gonderilmez (sessiz kalir).
+    Durum artik "kimi bildirdim" icin degil, HISTEREZIS ve "yeni mi" isareti
+    icin tutulur.
+  - Histerezis: bir kayit giris esigine (%0,25) girince listeye alinir ve ancak
+    cikis esigini (varsayilan giris x2) asinca listeden duser.
+  - Yakin aday YOKSA hicbir mesaj gonderilmez (sessiz kalir).
   - Piyasasi kapali sembol (BIST/ABD) hic taranmaz; kapandigi icin listeden
     dusen kayit "listeden cikti" diye BILDIRILMEZ, sessizce duser.
 
-TEK MESAJ / BIRIKTIRME (spam onleme, uc katman):
+TEK MESAJ (spam onleme):
   1. Tarama araligi 10 dk (Task Scheduler).
-  2. Bir turda bulunan TUM adaylar TEK mesajda gider — mesaj asla parcalanmaz;
+  2. Bir turun TUM adaylari TEK mesajda gider — mesaj asla parcalanmaz;
      sinira sigmazsa kesilir ve "+N aday daha" yazilir.
-  3. Iki mesaj arasi EN AZ `--mesaj-araligi` dakika (varsayilan 10). Bu sure
-     dolmadan bulunan adaylar durum dosyasindaki KUYRUGA alinir ve bir sonraki
-     mesajda hep birlikte gonderilir; kuyrukta bekleyenin yaninda kac
-     saat/dakikada gorulduğu yazar. Elle calistirma + zamanlanmis calistirma
-     ust uste gelse bile arka arkaya iki bildirim dusmez.
-  Kuyruk yalnizca mesaj BASARIYLA gidince bosaltilir — bildirim kaybolmaz.
+  3. Iki mesaj arasi EN AZ `--mesaj-araligi` dakika (varsayilan 10). Sure
+     dolmadiysa o tur sessiz gecer; kuyruk BIRIKMEZ, cunku bir sonraki turun
+     listesi zaten daha guncelini tasir.
 
 Kullanim:
     py -3 magicma/telegram_alarm.py
     py -3 magicma/telegram_alarm.py --esik 0.4
     py -3 magicma/telegram_alarm.py --kuru             # gondermeden ekrana yaz
-    py -3 magicma/telegram_alarm.py --zorla            # ilk calistirmada da gonder
     py -3 magicma/telegram_alarm.py --mesaj-araligi 0  # bekletme yok (test)
 
 Gizli bilgi: TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID repo kokundeki .env
@@ -223,31 +226,38 @@ def satir_bicimle(kayit):
 
 
 def mesaj_olustur(bekleyen, cikanlar, simdi=None):
-    """Kuyruktaki TUM adaylari TEK mesajda toplar.
+    """O ANDA cizgiye yapisik TUM adaylari TEK mesajda toplar.
+
+    Kullanici istegi (2026-08-28): bildirim yalnizca YENI temaslari degil,
+    hala yakin olan tum urunleri her mesajda bastan listeler — boylece her
+    bildirimde guncel islem firsatlarinin tamami gorunur. Bu turda listeye
+    YENI giren adaylarin basina 🆕 konur.
 
     Telegram sinirini asarsa mesaj parcalanmaz — kesilir ve kac adayin
     gosterilemedigi sona yazilir (amac: her turda en fazla bir bildirim).
-    Onceki turlardan devrolmus adaylarin yaninda ne zaman gorulduklerini yazar.
     """
     simdi = simdi or datetime.now()
-    bas = "\U0001F514 " + _md_kacir(f"YENİ MagicMA TEMAS ({simdi:%d.%m.%Y %H:%M})")
     son = ""
     if cikanlar:
         son = "\n\n" + _md_kacir("\U0001F4E4 Listeden çıktı: " + ", ".join(cikanlar))
 
+    # Ayni sembol hem Gunluk hem Haftalik banda yakin olabilir; liste artik her
+    # mesajda tam gonderildigi icin bu ayni satirin iki kez gorunmesi demek.
+    # Sembol+yon basina EN YAKIN kayit tutulur (bekleyen zaten mesafeye sirali).
+    gorulen = set()
     bloklar = []
     for kayit in bekleyen:
+        imza = (kayit.get("sembol"), kayit.get("yon"))
+        if imza in gorulen:
+            continue
+        gorulen.add(imza)
         blok = satir_bicimle(kayit)
-        # Onceki turdan devrolmus aday: fiyat o ana ait, saatini yaz.
-        gorulme = kayit.get("gorulme")
-        if gorulme:
-            try:
-                g = datetime.fromisoformat(gorulme)
-                if (simdi - g).total_seconds() >= 60:
-                    blok += f"  ({g:%H:%M})"
-            except ValueError:
-                pass
+        if kayit.get("yeni"):
+            blok = "\U0001F195 " + blok
         bloklar.append(_md_kacir(blok))
+
+    bas = "\U0001F4CA " + _md_kacir(
+        f"MagicMA İŞLEM FIRSATLARI ({simdi:%d.%m.%Y %H:%M}) · {len(bloklar)} aday")
 
     govde, atlanan = [], 0
     for sira, blok in enumerate(bloklar):
@@ -335,7 +345,7 @@ def main():
     ap.add_argument("--max-yas", type=int, default=10, help="seviye yas siniri (gun)")
     ap.add_argument("--kuru", action="store_true", help="Telegram'a gonderme, sadece ekrana yaz")
     ap.add_argument("--zorla", action="store_true",
-                    help="durum dosyasi yoksa bile mesaj gonder (ilk calistirma sessizligini atla)")
+                    help="(artik etkisiz — liste her mesajda tam gonderiliyor)")
     ap.add_argument("--piyasa-saatini-yoksay", action="store_true",
                     help="BIST/ABD piyasa saati filtresini kapat (kapali piyasayi da tara)")
     ap.add_argument("--mesaj-araligi", type=float, default=10.0,
@@ -365,25 +375,31 @@ def main():
     genis = sonuclari_kayda_cevir(v["sonuclar"])                       # |mesafe| <= cikis_esik
     temas = {a: k for a, k in genis.items() if abs(k["mesafe"]) <= args.esik}
 
-    onceki, bekleyen, bekleyen_cikanlar, son_mesaj, ilk_calistirma = durum_oku()
+    onceki, _eski_kuyruk, bekleyen_cikanlar, son_mesaj, _ilk = durum_oku()
     log(f"Giris esigi %{args.esik}: {len(temas)} kayit · "
         f"cikis esigi %{cikis_esik}: {len(genis)} kayit (onceki durum: {len(onceki)}"
-        + (f", kuyrukta bekleyen: {len(bekleyen)}" if bekleyen else "") + ").")
+        + ").")
 
-    if ilk_calistirma and not args.zorla:
-        durum_yaz(temas, args.esik)
-        log(f"ILK CALISTIRMA: bildirim gonderilmedi, durum kaydedildi -> {DURUM_YOL}")
-        return 0
+    simdi_iso = datetime.now().isoformat(timespec="seconds")
 
     # Histerezis: onceden listede olan kayit, cikis esigi icinde kaldigi surece
-    # listede kalir (yeniden bildirilmez). Yeni bildirim yalnizca GIRIS esigine
-    # ilk kez giren kayitlar icin uretilir.
+    # listede kalir. Bildirime ise (2026-08-28 kullanici istegi) listenin
+    # TAMAMI girer — yeni girenler 🆕 ile isaretlenir, digerleri de her
+    # mesajda tekrar listelenir.
     yeni_anahtarlar = [a for a in temas if a not in onceki]
     kalan_anahtarlar = [a for a in onceki if a in genis]
     cikan_anahtarlar = [a for a in onceki if a not in genis]
 
-    yeni_durum = {a: genis[a] for a in kalan_anahtarlar}
-    yeni_durum.update({a: temas[a] for a in yeni_anahtarlar})
+    yeni_durum = {}
+    for anahtar in kalan_anahtarlar:
+        kayit = dict(genis[anahtar])
+        kayit["ilk_gorulme"] = onceki[anahtar].get("ilk_gorulme") or simdi_iso
+        yeni_durum[anahtar] = kayit
+    for anahtar in yeni_anahtarlar:
+        kayit = dict(temas[anahtar])
+        kayit["ilk_gorulme"] = simdi_iso
+        kayit["yeni"] = True
+        yeni_durum[anahtar] = kayit
 
     # Piyasasi kapandigi icin listeden dusenler SESSIZCE dusurulur: bunlarin
     # "listeden cikti" diye bildirilmesi gercek bir sinyal degil, kafa karistirir.
@@ -396,18 +412,17 @@ def main():
     piyasa_dusenleri = [a for a in cikan_anahtarlar if _sembol(a) in kapali_semboller]
     gercek_cikanlar = [a for a in cikan_anahtarlar if _sembol(a) not in kapali_semboller]
 
-    simdi = datetime.now()
+    simdi = datetime.fromisoformat(simdi_iso)
 
-    # --- Yeni temaslari BILDIRIM KUYRUGUNA ekle (mesaj hemen gitmeyebilir) ----
-    # Amac: art arda mesaj dusmesin. Kuyruk durum dosyasinda saklanir; mesaj
-    # gonderilene kadar hicbir aday kaybolmaz.
-    kuyruktakiler = {b.get("anahtar") for b in bekleyen}
-    for anahtar in sorted(yeni_anahtarlar, key=lambda a: abs(temas[a]["mesafe"])):
-        if anahtar in kuyruktakiler:
-            continue
-        kayit = dict(temas[anahtar])
+    # --- Bildirilecek liste = O ANDA yakin olan TUM adaylar --------------------
+    # Eski davranis (yalnizca yeni temaslar) 2026-08-28'de birakildi: kullanici
+    # her mesajda guncel islem firsatlarinin tamamini gormek istiyor. Bu yuzden
+    # kuyruk birikmez, her turda bastan kurulur; mesaj gidemezse bir sonraki
+    # turun listesi zaten daha guncelini tasir.
+    bekleyen = []
+    for anahtar, kayit in yeni_durum.items():
+        kayit = dict(kayit)
         kayit["anahtar"] = anahtar
-        kayit["gorulme"] = simdi.isoformat(timespec="seconds")
         bekleyen.append(kayit)
 
     cikanlar = sorted(set(bekleyen_cikanlar) | {_sembol(a) for a in gercek_cikanlar})
@@ -419,7 +434,7 @@ def main():
 
     if not bekleyen:
         durum_yaz(yeni_durum, args.esik, [], son_mesaj)
-        log("Yeni temas yok — mesaj gonderilmedi (sessiz).")
+        log("Yakin aday yok — mesaj gonderilmedi (sessiz).")
         return 0
 
     # En yakin en ustte
@@ -427,32 +442,39 @@ def main():
     metin = mesaj_olustur(bekleyen, cikanlar, simdi)
 
     if args.kuru:
-        print("\n--- GONDERILECEK MESAJ (kuru mod) ---")
-        print(metin)
-        print("--- son ---\n")
-        durum_yaz(yeni_durum, args.esik, bekleyen, son_mesaj)   # kuyruk BOSALTILMAZ
+        # Windows konsolu cp1252 olabilir; emoji yuzunden cokmesin.
+        def _yaz(x):
+            try:
+                print(x)
+            except UnicodeEncodeError:
+                print(x.encode("ascii", "replace").decode("ascii"))
+
+        _yaz("\n--- GONDERILECEK MESAJ (kuru mod) ---")
+        _yaz(metin)
+        _yaz("--- son ---\n")
+        durum_yaz(yeni_durum, args.esik, [], son_mesaj)
         return 0
 
     # --- Mesaj araligi: son mesajdan bu yana yeterli sure gecti mi? ----------
     gecen_dk = (simdi - son_mesaj).total_seconds() / 60 if son_mesaj else None
     alt_sinir = max(0.0, args.mesaj_araligi - ARALIK_TOLERANS_DK)
     if gecen_dk is not None and gecen_dk < alt_sinir:
-        durum_yaz(yeni_durum, args.esik, bekleyen, son_mesaj, cikanlar=cikanlar)
-        log(f"{len(bekleyen)} aday kuyrukta BEKLETILIYOR — son mesajdan bu yana "
+        durum_yaz(yeni_durum, args.esik, [], son_mesaj, cikanlar=cikanlar)
+        log(f"{len(bekleyen)} aday BEKLETILIYOR — son mesajdan bu yana "
             f"{gecen_dk:.1f} dk gecti, gereken {alt_sinir:.1f} dk "
             f"({args.mesaj_araligi} dk - {ARALIK_TOLERANS_DK:.0f} dk tarama payi). "
             f"~{alt_sinir - gecen_dk:.0f} dk sonra hepsi TEK mesajda gidecek.")
         return 0
 
     if telegram_gonder(token, chat_id, metin):
-        log(f"Telegram'a TEK mesajda {len(bekleyen)} aday gonderildi.")
+        log(f"Telegram'a TEK mesajda {len(bekleyen)} guncel aday gonderildi.")
         durum_yaz(yeni_durum, args.esik, [], simdi)              # kuyruk bosaltilir
         return 0
 
     # Gonderim basarisiz: kuyruk DOKUNULMADAN birakilir, son_mesaj guncellenmez;
     # bir sonraki tur ayni adaylarla tekrar dener (bildirim kaybolmaz).
-    log("[HATA] Telegram gonderimi basarisiz — kuyruk korundu, sonraki turda tekrar denenecek.")
-    durum_yaz(yeni_durum, args.esik, bekleyen, son_mesaj, cikanlar=cikanlar)
+    log("[HATA] Telegram gonderimi basarisiz — sonraki turda guncel listeyle tekrar denenecek.")
+    durum_yaz(yeni_durum, args.esik, [], son_mesaj, cikanlar=cikanlar)
     return 1
 
 
