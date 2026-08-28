@@ -53,10 +53,10 @@
   "yon": "long",
   "giris_fiyati": 17.67,
   "giris_zamani": "2026-08-28T23:17:50+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarili",
+  "sonuc_fiyati": 17.76,
+  "sonuc_zamani": "2026-08-29T00:37:44+03:00",
+  "sonuc_yuzde": 0.509
  },
  {
   "id": "EURUSD_2026-08-28T23:17:50+03:00_G-Alt",
@@ -123,10 +123,10 @@
   "yon": "short",
   "giris_fiyati": 0.1771,
   "giris_zamani": "2026-08-28T23:17:50+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarisiz",
+  "sonuc_fiyati": 0.1776,
+  "sonuc_zamani": "2026-08-29T00:30:12+03:00",
+  "sonuc_yuzde": -0.282
  },
  {
   "id": "EURIUSDT_2026-08-28T23:17:50+03:00_G-Alt",
@@ -473,10 +473,10 @@
   ],
   "giris_fiyati": 1.093,
   "giris_zamani": "2026-08-28T23:58:04+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarili",
+  "sonuc_fiyati": 1.101,
+  "sonuc_zamani": "2026-08-29T00:30:12+03:00",
+  "sonuc_yuzde": 0.732
  },
  {
   "id": "GOATUSDT_2026-08-29T00:20:13+03:00_G-Alt",
@@ -517,6 +517,116 @@
   ],
   "giris_fiyati": 0.20108,
   "giris_zamani": "2026-08-29T00:20:13+03:00",
+  "durum": "acik",
+  "sonuc_fiyati": null,
+  "sonuc_zamani": null,
+  "sonuc_yuzde": null
+ },
+ {
+  "id": "LAVAUSDT_2026-08-29T00:30:12+03:00_G-Alt",
+  "sembol": "LAVAUSDT",
+  "kategori": "gunun_hareketlileri",
+  "cizgi_adi": "Magicma Günlük Alt Çizgi",
+  "cizgi_degeri": 0.0198294776,
+  "yon": "long",
+  "kaynak_turu": "teknik",
+  "kaynak": "BYBIT",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Alt Çizgi"
+  ],
+  "giris_fiyati": 0.01985,
+  "giris_zamani": "2026-08-29T00:30:12+03:00",
+  "durum": "acik",
+  "sonuc_fiyati": null,
+  "sonuc_zamani": null,
+  "sonuc_yuzde": null
+ },
+ {
+  "id": "AVLUSDT_2026-08-29T00:30:12+03:00_G-Alt",
+  "sembol": "AVLUSDT",
+  "kategori": "gunun_hareketlileri",
+  "cizgi_adi": "Magicma Günlük Alt Çizgi",
+  "cizgi_degeri": 0.0252773881,
+  "yon": "long",
+  "kaynak_turu": "teknik",
+  "kaynak": "BYBIT",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Alt Çizgi"
+  ],
+  "giris_fiyati": 0.02531,
+  "giris_zamani": "2026-08-29T00:30:12+03:00",
+  "durum": "basarili",
+  "sonuc_fiyati": 0.02552,
+  "sonuc_zamani": "2026-08-29T00:40:14+03:00",
+  "sonuc_yuzde": 0.83
+ },
+ {
+  "id": "AGIUSDT_2026-08-29T00:30:12+03:00_G-Alt",
+  "sembol": "AGIUSDT",
+  "kategori": "kripto",
+  "cizgi_adi": "Magicma Günlük Alt Çizgi",
+  "cizgi_degeri": 0.0060944478,
+  "yon": "long",
+  "kaynak_turu": "teknik",
+  "kaynak": "BYBIT",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Alt Çizgi"
+  ],
+  "giris_fiyati": 0.006085,
+  "giris_zamani": "2026-08-29T00:30:12+03:00",
+  "durum": "acik",
+  "sonuc_fiyati": null,
+  "sonuc_zamani": null,
+  "sonuc_yuzde": null
+ },
+ {
+  "id": "YBUSDT_2026-08-29T00:40:14+03:00_G-Alt",
+  "sembol": "YBUSDT",
+  "kategori": "kripto",
+  "cizgi_adi": "Magicma Günlük Alt Çizgi",
+  "cizgi_degeri": 0.0927097015,
+  "yon": "long",
+  "kaynak_turu": "teknik",
+  "kaynak": "BINANCE",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Alt Çizgi"
+  ],
+  "giris_fiyati": 0.0928,
+  "giris_zamani": "2026-08-29T00:40:14+03:00",
+  "durum": "acik",
+  "sonuc_fiyati": null,
+  "sonuc_zamani": null,
+  "sonuc_yuzde": null
+ },
+ {
+  "id": "REDUSDT_2026-08-29T00:40:14+03:00_G-Ust",
+  "sembol": "REDUSDT",
+  "kategori": "gunun_hareketlileri",
+  "cizgi_adi": "Magicma Günlük Üst Çizgi",
+  "cizgi_degeri": 0.1088652893,
+  "yon": "short",
+  "kaynak_turu": "teknik",
+  "kaynak": "BINANCE",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Üst Çizgi"
+  ],
+  "giris_fiyati": 0.1086,
+  "giris_zamani": "2026-08-29T00:40:14+03:00",
   "durum": "acik",
   "sonuc_fiyati": null,
   "sonuc_zamani": null,

@@ -14,6 +14,9 @@ Telegram'a işlem fırsatı bildiren sistemi barındırır.
 | `onemli_seviye.py` | Koç + dış analist seviyelerini karşılaştırır, **mega-confluence** tespit eder. |
 | `onemli_seviyeler.json` | **Elle bakımlı** seviye kütüphanesi (aşağıya bak). |
 | `magicma_karne.py` | Botun kendi sinyallerinin tutup tutmadığını ölçer, `KARNE_RAPOR.md` üretir. |
+| `gunluk_ozet.py` | Her sabah 08:20-08:40 arası tek "Günlük Özet" mesajı. |
+| `koc_tetigi.py` | Koç'un 3 koşullu boğa tetiğini izler, koşul sayısı değişince bildirir. |
+| `koc_tetigi_durum.json` | **Elle bakımlı** Çin-ABD anlaşma bayrağı (aşağıya bak). |
 
 ## Sinyal kategorileri (karıştırılmamalı)
 
@@ -81,6 +84,25 @@ py -3 magicma/onemli_seviye.py --dogrula   # sadece kütüphane doğrulaması
 py -3 magicma/onemli_seviye.py             # canlı fiyatlarla aday + mega listesi
 ```
 
+## ⚠️ `koc_tetigi_durum.json` da ELLE bakımlı
+
+Koç'un boğa tetiğinin 3. koşulu (Çin/ABD emtia-ticaret anlaşması) ikili bir
+olay; sürekli taranamaz. Bu yüzden bir bayrak olarak tutulur:
+
+```json
+{"cin_abd_anlasma": false, "son_guncelleme": "2026-08-29", "dayanak": ""}
+```
+
+**`koc_tetigi.py` bu dosyayı ASLA kendisi değiştirmez — sadece okur.**
+`11_DIS_KAYNAKLAR.md`'ye böyle bir anlaşmayı **doğrulayan** bir kaynak
+eklendiğinde `cin_abd_anlasma` elle `true` yapılır ve `dayanak` alanına kaynak
+yazılır. Bu, yeni kaynağı ekleyen oturumun görevidir.
+
+Diğer iki koşulun otomasyon seviyesi farklıdır ve mesajda böyle sunulur:
+**DXY** tam otomatik (canlı fiyat), **faiz** ise canlı değil — ücretsiz bir
+FedWatch ucu olmadığı için `11_DIS_KAYNAKLAR.md`'de en son geçen faiz ifadesi
+vekil olarak kullanılır ve mesajda kaynak adı + tarihiyle etiketlenir.
+
 ## Sık kullanılan komutlar
 
 ```bash
@@ -88,7 +110,15 @@ py -3 magicma/fiyat_kontrol.py              # mentor için tam yakınlık raporu
 py -3 magicma/telegram_alarm.py --kuru      # göndermeden mesajı ekrana yaz
 py -3 magicma/magicma_karne.py              # açık sinyalleri değerlendir + rapor
 py -3 magicma/magicma_karne.py --haftalik   # haftalık özet metni (göndermez)
+py -3 magicma/gunluk_ozet.py --kuru         # günlük özeti göndermeden yaz
+py -3 magicma/gunluk_ozet.py --zorla        # pencereyi/tekrar korumasını atlayıp gönder
+py -3 magicma/koc_tetigi.py --kuru          # boğa tetiği durumunu göndermeden yaz
+py -3 magicma/onemli_seviye.py --dogrula    # seviye kütüphanesini doğrula
 ```
+
+**Zamanlama:** Windows Task Scheduler'daki tek görev **"MagicMA Telegram Alarm"**
+7/24 her 10 dakikada `telegram_alarm.py` çalıştırır. Günlük özet, Koç tetiği ve
+haftalık karne özeti bu görevin akışına bağlıdır — ayrı görev açılmadı.
 
 Kapatma bayrakları: `--karne-yok`, `--onemli-seviye-yok`,
 `--piyasa-saatini-yoksay`, `--mesaj-araligi 0`.

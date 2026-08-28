@@ -208,6 +208,50 @@ turlarda gercekten tutup tutmadigi olculur.
   `--sadece-rapor`, `--haftalik` (ozet metnini gonderMEDEN yazar).
 - Karne kodu alarm akisini ASLA bozmaz: tum kanca cagrilari try/except icinde.
 
+## GUNLUK OZET + KOC'UN BOGA TETIGI (2026-08-29)
+
+Ikisi de `telegram_alarm.py` akisina bagli — **ayri Task Scheduler gorevi YOK**
+(mevcut gorev zaten 7/24 her 10 dk calisiyor). Ikisi de `--karne-yok`
+bayragindan BAGIMSIZ calisir.
+
+### Gunluk ozet — `magicma/gunluk_ozet.py`
+- Her sabah **08:20-08:40 TSI** penceresinde gunde BIR kez tek mesaj: acik
+  adaylar (long/short), son 7 gun karne yuzdesi, gunun en sert hareketlileri,
+  Koc takvimi, confluence/mega listesi.
+- Yeni hesaplama yok, mevcut dosyalardan sentezleme.
+- **Koc takvimi (60 gunluk ic blok):** referans **20 Agustos 2026** (06_ANALIZ'da
+  belgelenen ve Koc tarafindan kapatilan "Agustos 3. hafta" cagrisi), blok
+  **60 gun**. Sonraki durak: 19 Ekim 2026. Saf tarih matematigi.
+- **Gunun hareketlileri:** havuz `gunun_hareketlileri.txt`ten (gunde bir uretilir,
+  sirasi BAYAT olabilir), yuzdeler cryptobubbles'tan CANLI cekilip liste yeniden
+  siralanir. Canli veri yoksa dosya sirasi korunur, yuzde yerine "—".
+- Tekrar gonderme korumasi: `magicma/gunluk_ozet_son_gonderim.json` (gitignore).
+- Elle: `py -3 magicma/gunluk_ozet.py --kuru` · `--zorla` (pencereyi atla).
+
+### Koc'un boga tetigi — `magicma/koc_tetigi.py`
+06_ANALIZ.md "2. Yukselis tetigi (3 kosul)": DXY 110->95 · faiz indirimi ·
+Cin/emtia anlasmasi. Aktif kosul SAYISI degisince bildirir, degismezse SESSIZ.
+
+**Uc kosulun otomasyon seviyesi FARKLI — mesajda da boyle sunulur:**
+1. **DXY — tam otomatik.** `(110 - guncel) / (110 - 95) * 100`,
+   `DXY_ESIK_YUZDE = 80`. (Bugun %68,8 -> pasif.)
+2. **Faiz — CANLI DEGIL.** Ucretsiz FedWatch ucu yok; vekil olarak
+   `11_DIS_KAYNAKLAR.md`de EN SON gecen faiz ifadesi okunur. Mesajda kaynak adi
+   ve tarihiyle etiketlenir, gercek zamanliymis gibi SUNULMAZ.
+   - **OLUMSUZLAMA sart:** "Fed faiz ARTIRMAZ" cumlesi icinde "faiz artır"
+     gecer; duz eslestirme yonu TERS okur (olculdu). Ayni konumda eslesen
+     kaliplardan EN UZUNU kazanir.
+   - **TCMB/TR faizi ATLANIR** — Koc'un kosulu Fed faizi ("Politika faizi 37'nin
+     ALTINA inmez" satiri tetigi yanlis yone cekiyordu).
+   - **KARNE tablolarinda kaynak, satirin KENDI ilk sutunundan** alinir; basliktan
+     alinirsa yanlis kisiye atfedilir (Onur Duygu -> Doruk Ismen hatasi olculdu).
+3. **Cin/ABD — ELLE bayrak.** `magicma/koc_tetigi_durum.json` (commit edilir).
+   **Script bunu ASLA kendisi degistirmez, sadece okur.** 11_DIS_KAYNAKLAR.md'ye
+   anlasmayi DOGRULAYAN kaynak eklendiginde `cin_abd_anlasma: true` yapilir ve
+   `dayanak` alanina kaynak yazilir — **bu, yeni kaynak ekleyen oturumun gorevi.**
+- Son durum: `magicma/koc_tetigi_son_durum.json` (gitignore).
+- Elle: `py -3 magicma/koc_tetigi.py --kuru` · `--zorla`.
+
 ## ONEMLI SEVIYELER + MEGA-CONFLUENCE (2026-08-28)
 
 Alarm motorunun **ikinci seviye kaynagi**: Koc'un ve dis analistlerin verdigi

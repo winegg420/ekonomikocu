@@ -2728,3 +2728,52 @@ ayrım %0,19. Kurgu senaryosu (BTCUSDT MagicMA 83.900 + Koç 84K pivotu, ayrım
 Karne kaynak-türü kırılımı 3/3 doğru, eski format kayıtlar "teknik" sayıldı.
 Mega yükseltmesi ve ters yönde düşmeme davranışı ayrıca doğrulandı.
 Önceki iki işin (karne, confluence) tüm testleri regresyonsuz geçiyor.
+
+## 2026-08-29 — Günlük Özet + Koç'un Boğa Tetiği
+
+**Yapılan:** İki yeni bildirim katmanı, ikisi de mevcut `telegram_alarm.py`
+akışına bağlandı — **ayrı Task Scheduler görevi açılmadı** (mevcut görev zaten
+7/24 her 10 dk çalışıyor, en az değişiklik bu). İkisi de `--karne-yok`'tan bağımsız.
+
+- Yeni: `magicma/gunluk_ozet.py` — her sabah 08:20-08:40 penceresinde günde BİR
+  kez tek özet mesajı. Tekrar gönderme koruması ayrı durum dosyasında
+  (`gunluk_ozet_son_gonderim.json`, gitignore).
+- Yeni: `magicma/koc_tetigi.py` + `koc_tetigi_durum.json` — 3 koşullu boğa tetiği,
+  aktif koşul SAYISI değişince bildirir, değişmezse sessiz.
+
+**Kararlar ve nedenleri:**
+- **Koç takvimi referansı 20 Ağustos 2026:** 06_ANALIZ.md'de belgelenen ve Koç'un
+  kendi kapattığı ("TUTTU") "Ağustos 3. hafta" çağrısı. +60 gün → 19 Ekim 2026.
+  Referans geçmişte kalırsa 60'ar gün ileri sarılıyor.
+- **Günün hareketlileri yeniden sıralanıyor:** `gunun_hareketlileri.txt` günde bir
+  üretiliyor, sırası bayat olabiliyor (ölçüldü: dosyanın 1. sırasındaki PUFF %22,6
+  iken 2. sıradaki MDT %44,7 idi). Havuz dosyadan, yüzdeler cryptobubbles'tan
+  canlı; liste canlı yüzdeye göre yeniden sıralanıyor. Canlı veri yoksa dosya
+  sırası korunuyor.
+- **Koç tetiğinde üç koşulun otomasyon seviyesi farklı, mesajda da öyle sunuluyor:**
+  DXY tam otomatik; faiz CANLI DEĞİL (kaynak adı + tarihle etiketleniyor);
+  Çin-ABD elle bayrak, script onu asla kendisi değiştirmiyor.
+
+**Faiz tespitinde bulunan ve düzeltilen 3 gerçek hata:**
+1. **Olumsuzlama:** "Fed faiz ARTIRMAZ" cümlesi içinde "faiz artır" geçtiği için
+   düz eşleştirme yönü TERS okuyordu (şahin sanıyordu). Olumsuz çekimler ayrı
+   kalıp olarak ters kutuya yazıldı; aynı konumda eşleşen kalıplardan en uzunu
+   kazanıyor.
+2. **Kaynak atfı:** KARNE tabloları kaynağı kendi satırlarının ilk sütununda
+   taşıyor; başlıktan alınca Onur Duygu'nun cümlesi Doruk İşmen'e atfediliyordu.
+   Tablo satırları artık hücrelerden çözülüyor.
+3. **TCMB/Fed karışması:** Koç'un koşulu Fed faizi ama "Politika faizi 37'nin
+   ALTINA inmez" (TCMB) satırı tetiği yanlış yöne çekiyordu. TR faizi satırları
+   atlanıyor.
+
+**Test edildi:** 60-günlük takvim matematiği 7 senaryo + ardışık dönüm noktalarının
+hep 60 gün arayla geldiği; gönderim penceresi ve aynı gün ikinci gönderim koruması
+6 senaryo; DXY ilerleme matematiği 9 senaryo (eşik sınırı dahil); faiz yönü
+olumsuzlama dahil 10 cümle; tablo satırı çözümleme 4 biçim; durum değişikliği
+tetiklemesi 5 turluk simülasyon (Çin-ABD bayrağı elle true/false yapılarak).
+Toplam 23/23 doğru, sonrasında regresyon yok.
+
+**GERÇEK GÖNDERİM YAPILDI (29.08.2026 00:37-00:38):** Günlük özet ve Koç tetiği
+(1/3) mesajları Telegram'a gerçekten gönderildi, API 200 OK döndü. Ida'nın
+telefonunda göründüğünü teyit etmesi bekleniyor. Ardından ikinci çalıştırmalarda
+ikisinin de doğru şekilde SESSİZ kaldığı doğrulandı.

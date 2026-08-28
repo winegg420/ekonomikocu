@@ -58,6 +58,8 @@ except ImportError:
 import fiyat_kontrol
 import magicma_karne
 import onemli_seviye
+import gunluk_ozet
+import koc_tetigi
 
 REPO_KOK = fiyat_kontrol.REPO_KOK
 ENV_YOL = os.path.join(REPO_KOK, ".env")
@@ -679,6 +681,47 @@ def main():
                     log("[KARNE][UYARI] Haftalik ozet gonderilemedi; sonraki turda denenecek.")
         except Exception as e:
             log(f"[KARNE][UYARI] haftalik ozet basarisiz: {type(e).__name__}: {e}")
+
+    # --- GUNLUK OZET (sabah 08:20-08:40 penceresinde gunde BIR kez) ----------
+    # Ayri bir Task Scheduler gorevi ACILMADI: bu gorev zaten 7/24 her 10 dk
+    # calisiyor, pencereye mutlaka denk geliyor. Tekrar gonderme korumasi
+    # gunluk_ozet.py'nin kendi durum dosyasinda (haftalik ozet pattern'i).
+    # Karneden bagimsiz: --karne-yok bunu KAPATMAZ.
+    try:
+        if args.kuru:
+            pass                                      # kuru turda ozet gonderilmez
+        elif gunluk_ozet.gonderim_zamani_mi():
+            ozet = gunluk_ozet.ozet_metni(log=log)
+            if telegram_gonder(token, chat_id, ozet):
+                gunluk_ozet.son_gonderim_yaz()
+                log("[OZET] Gunluk ozet Telegram'a gonderildi.")
+            else:
+                log("[OZET][UYARI] Gunluk ozet gonderilemedi; pencere icindeki "
+                    "sonraki turda tekrar denenecek.")
+    except Exception as e:
+        log(f"[OZET][UYARI] gunluk ozet atlandi: {type(e).__name__}: {e}")
+
+    # --- KOC'UN BOGA TETIGI -------------------------------------------------
+    # Aktif kosul SAYISI degistiyse bildir, degismediyse sessiz kal (spam yok).
+    # Fiyatlar bu turda zaten cekildi; ikinci fiyat cagrisi YAPILMAZ.
+    try:
+        aktif_sayi, tetik_metni, tetik_ozet = koc_tetigi.degerlendir(
+            fiyatlar=v.get("tum_fiyatlar") or {}, log=log)
+        onceki_tetik = koc_tetigi.son_durum_oku()
+        onceki_sayi = onceki_tetik.get("aktif_sayi") if onceki_tetik else None
+        if onceki_sayi != aktif_sayi:
+            if args.kuru:
+                log(f"[TETIK] (kuru) {onceki_sayi} -> {aktif_sayi}/3, gonderilecekti.")
+            elif telegram_gonder(token, chat_id, tetik_metni):
+                log(f"[TETIK] Bildirim gonderildi ({onceki_sayi} -> {aktif_sayi}/3).")
+                koc_tetigi.son_durum_yaz(aktif_sayi, tetik_ozet)
+            else:
+                log("[TETIK][UYARI] gonderilemedi; durum GUNCELLENMEDI, "
+                    "sonraki turda tekrar denenecek.")
+        else:
+            koc_tetigi.son_durum_yaz(aktif_sayi, tetik_ozet)
+    except Exception as e:
+        log(f"[TETIK][UYARI] tetik kontrolu atlandi: {type(e).__name__}: {e}")
 
     # Piyasasi kapandigi icin listeden dusenler SESSIZCE dusurulur: bunlarin
     # "listeden cikti" diye bildirilmesi gercek bir sinyal degil, kafa karistirir.
