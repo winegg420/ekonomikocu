@@ -218,10 +218,10 @@
   "yon": "short",
   "giris_fiyati": 4.922,
   "giris_zamani": "2026-08-28T23:17:50+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarisiz",
+  "sonuc_fiyati": 4.928,
+  "sonuc_zamani": "2026-08-28T23:30:13+03:00",
+  "sonuc_yuzde": -0.122
  },
  {
   "id": "STEEMUSDT_2026-08-28T23:17:50+03:00_G-Ust",
@@ -232,10 +232,10 @@
   "yon": "short",
   "giris_fiyati": 0.04543,
   "giris_zamani": "2026-08-28T23:17:50+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarisiz",
+  "sonuc_fiyati": 0.04547,
+  "sonuc_zamani": "2026-08-28T23:30:13+03:00",
+  "sonuc_yuzde": -0.088
  },
  {
   "id": "EURCAD_2026-08-28T23:17:50+03:00_G-Ust",
@@ -246,6 +246,20 @@
   "yon": "long",
   "giris_fiyati": 1.6108,
   "giris_zamani": "2026-08-28T23:17:50+03:00",
+  "durum": "acik",
+  "sonuc_fiyati": null,
+  "sonuc_zamani": null,
+  "sonuc_yuzde": null
+ },
+ {
+  "id": "ETCUSDT_2026-08-28T23:30:13+03:00_G-Ust",
+  "sembol": "ETCUSDT",
+  "kategori": "kripto",
+  "cizgi_adi": "Magicma Günlük Üst Çizgi",
+  "cizgi_degeri": 7.5295041322,
+  "yon": "short",
+  "giris_fiyati": 7.52,
+  "giris_zamani": "2026-08-28T23:30:13+03:00",
   "durum": "acik",
   "sonuc_fiyati": null,
   "sonuc_zamani": null,
