@@ -148,3 +148,38 @@ saat boyunca 15 dakikada bir calistirir (pyw.exe ile penceresiz).
 - Elle deneme: `py -3 magicma/telegram_alarm.py --kuru` (gondermeden ekrana yazar).
 - **`fiyat_kontrol.py`'yi degistirirken `adaylari_hesapla()` imzasini bozma** —
   alarm scripti bunu import ediyor.
+
+## MAGICMA BAND YON KURALI (2026-08-28 — eski geometrik kurali gecersiz kilar)
+
+MagicMA cizgileri bagimsiz seviye DEGIL, **bandin iki siniri**:
+- `Magicma Günlük Alt Çizgi` + `Magicma Günlük Üst Çizgi` -> **Günlük band**
+- `Magicma Haftalık -1` + `Magicma Haftalık -2` -> **Haftalık band**
+
+**Cizgi ADLARI guvenilir degil:** olculdu, 744 sembolun yalnizca 289'unda (%39)
+"Alt Çizgi" gercekten "Üst Çizgi"den kucuk. Band sinirlari ADA gore degil
+**DEGERE gore (min/max)** kurulur. Bu yuzden mesajlarda cizgi adi gosterilmez,
+bandin sayisal araligi gosterilir.
+
+**Yon kurali** (`magicma/bant_yon.py`):
+- Fiyat bandin **USTUNDE** -> band destek -> **LONG adayi**
+- Fiyat bandin **ALTINDA** -> band direnc -> **SHORT adayi**
+- Fiyat bandin **ICINDE** -> banda hangi taraftan girildigi belirler:
+  yukaridan indiyse LONG, asagidan ciktiysa SHORT.
+
+Band ici gelis yonu **gercek saatlik kapanis serisiyle** bulunur: seri sondan
+basa taranir, fiyatin bandi en son hangi taraftan terk ettigine bakilir.
+Kaynak, fiyati veren borsanin kendi kline ucu (Binance `1h`, **MEXC `60m`** —
+MEXC'te `1h` 400 doner —, Gate/Bybit/OKX/KuCoin adaptorleri) veya Yahoo
+`range=1mo&interval=1h`. Seri alinamazsa TradingView toplu high/low
+(bugun -> bu hafta -> bu ay) yedegi; o da net degilse band ici konum tahmini
+kullanilir ve gerekce metnine **TAHMİN** yazilir.
+
+**Eski kural neden birakildi:** cizgileri tek tek "fiyat altinda = direnc"
+diye etiketlemek, fiyat bandin icindeyken ayni sembol icin bir cizgiye gore
+SHORT digerine gore LONG uretiyordu (kendi icinde celiskili).
+
+> **ACIK KALAN:** `99_BOT_ARSIV/kod/magicma_islem_adaylari.py` (satir 86-87, 99)
+> HALA eski cizgi-bazli geometrik kurali kullaniyor ve
+> `magicma_islem_adaylari_TARIH.md` raporlarini ona gore uretiyor. Tarama aninin
+> fiyatiyla calistigi icin band-ici yon tespiti ayri bir tasarim gerektiriyor;
+> bilerek degistirilmedi.

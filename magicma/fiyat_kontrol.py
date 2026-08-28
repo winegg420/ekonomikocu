@@ -26,6 +26,10 @@ yok, dogrudan API'lere erisebilir:
     (varsayilan 15 dk) esiginden yasli fiyat BAYAT sayilir, sonuca ALINMAZ ve
     hem konsolda hem fiyat_kontrol_son.md'de tek satirlik [METAL] ozetinde
     kac sembolun atlandigi bildirilir.
+  - Son care yedek: TradingView scanner ucu (anahtarsiz, TEK POST). Yahoo /
+    borsa uclarinin donduremedigi sembolleri kendi TradingView ticker'i ile
+    (BIST:ALTIN = Darphane Altin Sertifikasi, CRYPTOCAP:TOTAL, CRYPTOCAP:BTC.D)
+    doldurur. BIST'te 15 dk gecikmeli, ama MagicMA taramasi da ayni kaynak.
   - Forex yedegi: Frankfurter (ECB, ucretsiz/anahtarsiz) TEK istekte EUR bazli
     tum kurlar -> capraz parite matematikle hesaplanir. Yahoo bir pariteyi
     donduremezse devreye girer. DIKKAT: ECB gunluk referans kuru, gun ici degil.
@@ -67,6 +71,8 @@ try:
 except ImportError:
     print("Once 'pip install requests' calistir.")
     sys.exit(1)
+
+import bant_yon
 
 REPO_KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAPOR_KLASOR = os.path.join(REPO_KOK, "magicma")
@@ -502,6 +508,56 @@ def metal_fiyatlari_cek(metal_haritasi, usdtry=None, max_yas_dk=METAL_MAX_YAS_DK
     return fiyatlar, bayatlar
 
 
+TV_SCANNER_URL = "https://scanner.tradingview.com/global/scan"
+TV_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    "Content-Type": "application/json",
+    "Origin": "https://tr.tradingview.com",
+    "Referer": "https://tr.tradingview.com/",
+}
+
+
+def tradingview_fiyatlari_cek(ticker_haritasi, parca=200, log=print):
+    """TradingView scanner ucu (anahtarsiz, TEK POST) — SON CARE yedek kaynak.
+
+    Yahoo / borsa uclarinin donduremedigi semboller icin kullanilir. Girdi
+    dogrudan magicma_ham.jsonl'deki `kaynak` alani oldugu icin (BIST:ALTIN,
+    CRYPTOCAP:TOTAL ...) taramanin kendi sembolu ile birebir ayni seye bakar,
+    kod cevirisi gerekmez.
+
+    Kapsadigi bilinen bosluklar:
+      - BIST:ALTIN (Darphane Altin Sertifikasi) — Yahoo'da ALTIN.IS veri yok.
+      - CRYPTOCAP:TOTAL / CRYPTOCAP:BTC.D — hicbir borsa ucunda yok.
+    BIST icin veri 15 dk gecikmeli (delayed_streaming_900); MagicMA taramasi
+    da ayni TradingView verisini kullandigi icin tutarli.
+
+    ticker_haritasi: {sembol: "BORSA:TICKER"}
+    """
+    if not ticker_haritasi:
+        return {}
+    ters = {}
+    for sembol, ticker in ticker_haritasi.items():
+        ters.setdefault(str(ticker).upper(), sembol)
+
+    fiyatlar = {}
+    tickerlar = sorted(ters)
+    for i in range(0, len(tickerlar), parca):
+        dilim = tickerlar[i:i + parca]
+        try:
+            r = requests.post(TV_SCANNER_URL, headers=TV_HEADERS, timeout=20,
+                              json={"symbols": {"tickers": dilim}, "columns": ["close"]})
+            r.raise_for_status()
+            for satir in r.json().get("data") or []:
+                sembol = ters.get(str(satir.get("s", "")).upper())
+                degerler = satir.get("d") or []
+                if sembol and degerler and degerler[0]:
+                    fiyatlar[sembol] = float(degerler[0])
+        except Exception as e:
+            log(f"[UYARI] TradingView scanner fiyati cekilemedi: {type(e).__name__}: {e}")
+    return fiyatlar
+
+
 def forex_fiyatlari_cek(semboller):
     """Frankfurter (ECB, ucretsiz) TEK istekte EUR bazli tum kurlari ceker,
     istenen capraz paritelere donusturur. Metal/petrol/DXY burada YOK.
@@ -573,6 +629,16 @@ def adaylari_hesapla(tarih=None, esik=0.3, rapordan=False, max_yas=10, log=print
     for sembol, fiyat in kripto_fiyat.items():
         tum_fiyatlar[sembol], fiyat_kaynagi[sembol] = fiyat, kripto_kaynak.get(sembol, "KRIPTO")
 
+    # Son care: kalan bosluklari TradingView scanner ucundan doldur (tek POST).
+    tv_haritasi = {s: seviyeler[s].get("kaynak", "") for s in seviyeler if s not in tum_fiyatlar}
+    tv_haritasi = {s: k for s, k in tv_haritasi.items() if k and ":" in k}
+    tv_fiyat = tradingview_fiyatlari_cek(tv_haritasi, log=log)
+    for sembol, fiyat in tv_fiyat.items():
+        tum_fiyatlar[sembol], fiyat_kaynagi[sembol] = fiyat, "TRADINGVIEW"
+    if tv_fiyat:
+        log(f"[TV] Yahoo/borsa uclarinin donduremedigi {len(tv_fiyat)} sembol "
+            f"TradingView scanner ucundan alindi: {', '.join(sorted(tv_fiyat))}")
+
     sure = (datetime.now(timezone.utc) - basla).total_seconds()
     log(f"Canli fiyat cekilebilen: {len(tum_fiyatlar)} / {len(seviyeler)}  ({sure:.1f} sn)")
     if forex_fiyat:
@@ -591,17 +657,58 @@ def adaylari_hesapla(tarih=None, esik=0.3, rapordan=False, max_yas=10, log=print
     if metal or metal_bayat:
         log(f"[METAL] {bayat_ozet}")
 
-    sonuclar = []
+    # --- Adaylari bul, sonra yonu BANT mantigiyla belirle -------------------
+    # Cizgiler tek basina seviye degil, bir bandin iki siniri (bkz. bant_yon.py).
+    # Once esige giren (sembol, cizgi) ciftleri toplanir; bunlardan fiyati
+    # bandin ICINDE olanlar icin TEK POST ile gecmis (high/low) cekilir ki
+    # banda yukaridan mi asagidan mi girildigi bilinsin.
+    adaylar = []
+    bant_onbellek = {}
+    iceridekiler = {}
+
     for sembol, veri in seviyeler.items():
         canli = tum_fiyatlar.get(sembol)
         if not canli:
             continue
+        bantlar = bant_yon.bantlari_kur(veri["seviyeler"])
+        bant_onbellek[sembol] = bantlar
         for ad, deger in veri["seviyeler"]:
             mesafe = (canli - deger) / deger * 100
-            if abs(mesafe) <= esik:
-                yon = "long adayi (destek)" if canli > deger else "short adayi (direnc)"
-                sonuclar.append((abs(mesafe), sembol, canli, ad, deger, mesafe, yon,
-                                 fiyat_kaynagi.get(sembol, "?")))
+            if abs(mesafe) > esik:
+                continue
+            bant = bant_yon.bant_bul(bantlar, ad) or {"ad": ad, "alt": deger,
+                                                      "ust": deger, "cizgiler": {ad: deger}}
+            adaylar.append((sembol, canli, ad, deger, mesafe, bant))
+            if bant_yon.konum_belirle(canli, bant) == "icinde":
+                iceridekiler[sembol] = veri.get("kaynak", "")
+
+    # Bant icindekiler icin saatlik seri (gercek gelis yonu) + TV high/low yedegi
+    seri_istekleri, tv_istekleri = {}, {}
+    for sembol, kaynak in iceridekiler.items():
+        if sembol in kripto:
+            seri_istekleri[sembol] = {"borsa": kripto_kaynak.get(sembol, kripto[sembol]),
+                                      "ticker": sembol}
+        elif sembol in yahoo:
+            seri_istekleri[sembol] = {"yahoo": yahoo[sembol]}
+        if kaynak and ":" in kaynak:
+            tv_istekleri[sembol] = kaynak
+
+    seriler = bant_yon.seri_cek(seri_istekleri, log=log)
+    gecmisler = bant_yon.tv_gecmis_cek(tv_istekleri, log=log)
+    if iceridekiler:
+        log(f"[BANT] {len(iceridekiler)} aday sembolun fiyati bandin ICINDE; "
+            f"gelis yonu icin {len(seriler)} sembolde saatlik seri, "
+            f"{len(gecmisler)} sembolde TV high/low alindi.")
+
+    sonuclar = []
+    for sembol, canli, ad, deger, mesafe, bant in adaylar:
+        yon, konum, gerekce = bant_yon.yon_belirle(canli, bant, seri=seriler.get(sembol),
+                                                   gecmis=gecmisler.get(sembol))
+        sonuclar.append((abs(mesafe), sembol, canli, ad, deger, mesafe,
+                         f"{bant_yon.yon_etiketi(yon)} ({gerekce})",
+                         fiyat_kaynagi.get(sembol, "?"),
+                         {"ad": bant["ad"], "alt": bant["alt"], "ust": bant["ust"],
+                          "konum": konum, "yon": yon, "gerekce": gerekce}))
 
     sonuclar.sort(key=lambda x: x[0])
 
@@ -638,9 +745,9 @@ def main():
 
     print(f"\n=== ESIK: %{args.esik} ICINDE {len(sonuclar)} ADAY (guncel fiyatla) ===\n")
     satirlar_cikti = []
-    for _, sembol, canli, ad, deger, mesafe, yon, kaynak in sonuclar:
+    for _, sembol, canli, ad, deger, mesafe, yon, kaynak, bant in sonuclar:
         satir = (f"{sembol:14s} canli={canli:>14.6g}  {ad:24s} cizgi={deger:>14.6g}  "
-                 f"mesafe=%{mesafe:+.2f}  {yon:20s} [{kaynak}]")
+                 f"mesafe=%{mesafe:+.2f}  {yon:52s} [{kaynak}]")
         print(satir)
         satirlar_cikti.append(satir)
 
@@ -657,7 +764,8 @@ def main():
                 f"{len(tum_fiyatlar)}/{len(seviyeler)} ({v['sure']:.1f} sn)\n")
         f.write("- Canli fiyat kaynaklari: Binance/MEXC/Gate/Bybit/OKX/KuCoin (kripto), "
                 "Yahoo Finance (BIST `.IS` / ABD / endeks / forex `=X`), "
-                "api.gold-api.com (metal), Frankfurter-ECB (forex yedegi)\n")
+                "api.gold-api.com (metal), Frankfurter-ECB (forex yedegi), "
+                "TradingView scanner (kalan bosluklar: BIST:ALTIN, CRYPTOCAP:*)\n")
         if v["metal"] or v["metal_bayat"]:
             f.write(f"- METAL: {v['bayat_ozet']}\n")
         f.write("\n")

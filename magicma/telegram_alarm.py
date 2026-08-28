@@ -169,18 +169,41 @@ def _md_kacir(metin):
 
 
 def satir_bicimle(kayit):
-    yon = "SHORT adayi" if kayit["mesafe"] < 0 else "LONG adayi"
-    return (f"{kayit['sembol']}  {_tr(kayit['fiyat'])} -> {kayit['cizgi_adi']} "
-            f"{_tr(kayit['cizgi'])}  %{_tr(kayit['mesafe'], 2)}  {yon}")
+    """Bir aday icin 3 satirlik blok.
+
+    Cizgi ADLARI ("Alt/Üst Çizgi") gosterilmez — olculdu, sembollerin yalnizca
+    %39'unda "Alt" gercekten alttaki deger; yaniltici. Bunun yerine bandin
+    sayisal araligi ve fiyatin banda gore konumu yazilir.
+    """
+    yon = kayit.get("yon")
+    if yon not in ("long", "short"):                      # eski durum dosyasi yedegi
+        yon = "short" if kayit.get("mesafe", 0) < 0 else "long"
+    etiket = "LONG adayı" if yon == "long" else "SHORT adayı"
+
+    alt, ust = kayit.get("bant_alt"), kayit.get("bant_ust")
+    bant_adi = kayit.get("bant_adi", kayit.get("cizgi_adi", "?"))
+    if alt is not None and ust is not None and alt != ust:
+        bant_metni = f"{bant_adi} band  {_tr(alt)} – {_tr(ust)}"
+    else:
+        bant_metni = f"{bant_adi}  {_tr(kayit.get('cizgi'))}"
+
+    satirlar = [
+        f"{kayit['sembol']}  {_tr(kayit['fiyat'])}  →  {etiket}",
+        f"    {bant_metni}  ·  en yakın sınıra %{_tr(kayit['mesafe'], 2)}",
+    ]
+    gerekce = kayit.get("gerekce")
+    if gerekce:
+        satirlar.append(f"    {gerekce}")
+    return "\n".join(satirlar)
 
 
 def mesaj_olustur(yeniler, cikanlar):
     zaman = datetime.now().strftime("%d.%m.%Y %H:%M")
-    parcalar = [f"YENI MagicMA TEMAS ({zaman})", ""]
+    parcalar = [f"YENİ MagicMA TEMAS ({zaman})"]
     parcalar += [satir_bicimle(k) for k in yeniler]
     if cikanlar:
-        parcalar += ["", "Listeden cikti: " + ", ".join(cikanlar)]
-    return "\U0001F514 " + _md_kacir("\n".join(parcalar))
+        parcalar.append("\U0001F4E4 Listeden çıktı: " + ", ".join(cikanlar))
+    return "\U0001F514 " + _md_kacir("\n\n".join(parcalar))
 
 
 def parcala(metin, sinir=TELEGRAM_MAX):
@@ -232,11 +255,26 @@ def telegram_gonder(token, chat_id, metin):
 # --------------------------------------------------------------------------
 
 def sonuclari_kayda_cevir(sonuclar):
-    """adaylari_hesapla() tuple'larini {anahtar: kayit} sozlugune cevirir."""
+    """adaylari_hesapla() tuple'larini {anahtar: kayit} sozlugune cevirir.
+
+    Anahtar SEMBOL|BANT_ADI'dir, SEMBOL|CIZGI_ADI degil: bir bandin iki sinirina
+    da ayni anda yaklasilabiliyor ve bu tek bir olay — iki ayri bildirim degil.
+    Ayni banttan birden fazla aday gelirse EN YAKIN olani tutulur (sonuclar
+    zaten mesafeye gore sirali geldigi icin ilk gelen en yakindir).
+    """
     kayitlar = {}
-    for _, sembol, canli, ad, deger, mesafe, _yon, kaynak in sonuclar:
-        kayitlar[f"{sembol}|{ad}"] = {
+    for _, sembol, canli, ad, deger, mesafe, _yon, kaynak, bant in sonuclar:
+        anahtar = f"{sembol}|{bant['ad']}"
+        if anahtar in kayitlar:
+            continue
+        kayitlar[anahtar] = {
             "sembol": sembol,
+            "bant_adi": bant["ad"],
+            "bant_alt": bant["alt"],
+            "bant_ust": bant["ust"],
+            "konum": bant["konum"],
+            "yon": bant["yon"],
+            "gerekce": bant["gerekce"],
             "cizgi_adi": ad,
             "cizgi": deger,
             "fiyat": canli,

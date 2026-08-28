@@ -2368,3 +2368,57 @@ pushla, sonra twitter taraması, analiz edilmemişleri ve görselleri analiz et"
   mesaj gonderildi — yani penceresiz yol da calisiyor.
 - `git check-ignore` ile `.env`in ignore edildigi teyit edildi; `git status`ta
   gorunmuyor.
+
+## 2026-08-28 (2) — Darphane Altini + MagicMA BAND yon duzeltmesi
+
+**Istek 1: "magicma taramasina darphane altinini ekle"**
+- Sembol tespit edildi: TradingView sembol arama ucundan **`BIST:ALTIN` =
+  DARPHANE ALTIN SERTİFİKASI**. (Verilen grafik linki taramanin kendi kayitli
+  duzeni, o an FLOKIUSDT'deydi — sembolu oradan bulmak mumkun degildi.)
+- **Zaten ekliymis:** `magicma/sembol_listesi/bist.txt` satir 131. Ham veride 17
+  kayit var, duzenli taraniyor. Eksik olan TARAMA degil, **canli fiyat**:
+  `fiyat_kontrol.py` BIST'i Yahoo `.IS` ile cekiyor, `ALTIN.IS` ise bos donuyor.
+- **Cozum:** `fiyat_kontrol.py`'ye son care yedek olarak **TradingView scanner
+  ucu** (anahtarsiz, tek POST) eklendi. Sembolun kendi TV ticker'i
+  (`magicma_ham.jsonl`'deki `kaynak`) kullanildigi icin kod cevirisi gerekmiyor.
+- Kapsama **744/747 -> 747/747**. Doldurulan 3 sembol: ALTIN, CRYPTOCAP:TOTAL,
+  CRYPTOCAP:BTC.D (son ikisi hicbir borsa ucunda yoktu).
+
+**Istek 2: "bot DOGE'ye short dedi ama long adayi"**
+- Kullanici tanimi: MagicMA cizgileri **band**; fiyat banda **yukaridan
+  indiyse LONG** (band destek), **asagidan ciktiysa SHORT** (band direnc).
+- Dogrulandi, gercek bir kusur: DOGE fiyati bandin ICINDEYDI; eski kural bir
+  cizgiye gore SHORT, digerine gore LONG uretiyordu — **kendi icinde celiskili**.
+- **Olcum:** 744 sembolun yalnizca 289'unda (%39) "Alt Çizgi" gercekten "Üst
+  Çizgi"den kucuk. Cizgi adlari guvenilmez; band sinirlari min/max ile kuruldu.
+- Yeni modul **`magicma/bant_yon.py`**: band kurma, konum, gelis yonu, etiket.
+- Band ici gelis yonu **gercek saatlik seriyle** bulunuyor (kullanicinin sectigi
+  yontem): seri sondan basa taranip bandin en son hangi taraftan terk edildigi
+  belirleniyor. Sadece band icindeki ~15 aday icin cekiliyor, paralel, birkac sn.
+- Yedek zincir: saatlik seri -> TV toplu high/low (bugun/hafta/ay) -> band ici
+  konum tahmini (gerekcede "TAHMİN" yazar).
+
+**Kararlar / nedenleri:**
+- **MEXC kline aralik adi `60m`**, `1h` DEGIL — `1h` 400 Bad Request donduruyor.
+  Bu yuzden LMTSUSDT/STARUSDT once seri alamayip TAHMİN'e dusuyordu. Duzeltince
+  band ici 13 sembolun 12'si gercek seriye kavustu.
+- **Seri, fiyati veren borsadan cekilir** (baska borsaya dusulmez): ayni ticker
+  farkli borsada FARKLI token olabiliyor (orn. STARUSDT). Yanlis varlikla yon
+  hesaplamaktansa TAHMİN'e dusmek dogru.
+- **Telegram alarm anahtari `SEMBOL|BANT_ADI`** oldu (eskiden `SEMBOL|CIZGI`):
+  bir bandin iki sinirina ayni anda yaklasmak tek olay, iki bildirim degil.
+  Anahtar semasi degistigi icin durum dosyasi silindi, ilk calistirma sessiz.
+- **Mesajda cizgi adi gosterilmiyor** (yaniltici), bandin sayisal araligi +
+  gerekce gosteriliyor.
+- `99_BOT_ARSIV/kod/magicma_islem_adaylari.py` ayni eski kurali kullaniyor ama
+  tarama anindaki fiyatla calistigi icin **bilerek degistirilmedi** — CLAUDE.md'ye
+  "ACIK KALAN" olarak yazildi.
+
+**Dogrulanan:**
+- `BIST:ALTIN` canli fiyat: 78,13-78,15 (TradingView), kapsama 747/747.
+- DOGEUSDT band [0,085545 - 0,086597], fiyat icerideyken -> **LONG, "banda
+  YUKARIDAN indi (bugun)"** — kullanicinin tarifiyle birebir.
+- Band ici 13-14 adayin 12-13'u gercek saatlik seriyle etiketlendi; TAHMİN'e
+  dusen tek sembol ALTIN (BIST:ALTIN'in saatlik seri kaynagi yok).
+- `--kuru` ile mesaj formati gozden gecirildi; durum sifirlanip sessiz ilk
+  calistirma yapildi.
