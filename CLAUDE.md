@@ -208,6 +208,34 @@ turlarda gercekten tutup tutmadigi olculur.
   `--sadece-rapor`, `--haftalik` (ozet metnini gonderMEDEN yazar).
 - Karne kodu alarm akisini ASLA bozmaz: tum kanca cagrilari try/except icinde.
 
+## ONEMLI SEVIYELER + MEGA-CONFLUENCE (2026-08-28)
+
+Alarm motorunun **ikinci seviye kaynagi**: Koc'un ve dis analistlerin verdigi
+SOMUT sayisal seviyeler. Ayrintili kullanim: `magicma/README.md`.
+
+- Kutuphane: `magicma/onemli_seviyeler.json` (67 kayit, 16 enstruman, 16 kaynak).
+- Modul: `magicma/onemli_seviye.py` — `ONEMLI_SEVIYE_ESIK_YUZDE = 0.5`
+  (MagicMA'nin %0,25'inden GENIS: bunlar hassas teknik cizgi degil, kabaca
+  hedef/pivot seviyeler), `MEGA_CONFLUENCE_ESIK_YUZDE = 0.3`.
+- **MEGA-CONFLUENCE:** ayni sembolde MagicMA teknik cizgisi VE onemli seviye
+  ayni fiyat bolgesinde (fark <= %0,3). Teknik + temel birlesiyor; en yuksek
+  oncelikli bildirim (🌟). MagicMA cizgilerinin kendi arasindaki cakismasiyla
+  (🔥 confluence) **AYRI kategoridir**, ikisi ayni anda olabilir.
+- Mesaj oncelik sirasi: 🌟 mega → 🔥 bantlar arasi → 🔥 dar band →
+  📌 onemli seviye → tekil.
+- Karne: kayitta `kaynak_turu` = `teknik` | `onemli_seviye` | `mega_confluence`;
+  `KARNE_RAPOR.md`'de ucu AYRI olculur. Confluence kirilimi ise yalnizca
+  **teknik** sinyalleri kapsar (onemli-seviyede cizgi cakismasi kavrami yok).
+- **MEGA YUKSELTMESI:** ayni sembol+cizgi icin acik "teknik" kayit varken mega
+  tespit edilirse YENI kayit acilmaz, mevcut kayit mega'ya YUKSELTILIR. Aksi
+  halde sembol zaten listede oldugu icin mega hic kaydedilmez ve karne
+  karsilastirmasi olcusuz kalirdi. Ters yon (mega -> teknik) YAPILMAZ.
+- **`onemli_seviyeler.json` OTOMATIK DOLMAZ.** `11_DIS_KAYNAKLAR.md` veya
+  `06_ANALIZ.md`'ye yeni giris eklenince icindeki somut seviyeler buraya ELLE
+  eklenmeli. `enstruman` alani `sembol_listesi/*.txt`'deki kisa sembol adiyla
+  birebir ayni olmali; karsiligi olmayan kayit atlanir ve log'a duser.
+- Kapatmak icin: `telegram_alarm.py --onemli-seviye-yok`.
+
 ## CAKISAN SEVIYE — CONFLUENCE (2026-08-28)
 
 Ayni sembolde TEMAS eden (giris esigi icindeki) iki+ MagicMA cizgisinin

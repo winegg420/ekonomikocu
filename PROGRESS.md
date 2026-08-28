@@ -2682,3 +2682,49 @@ mesajda hem "🆕" hem "📤 Listeden çıktı" görünüyordu. `hala_listede` k
 kayma ve eşik dışı senaryoları, mesaj formatı, kanca→karne zinciri (3/3 doğru tip),
 eski format kayıtlarla geriye dönük uyumluluk, karne raporu üçlü kırılımı.
 Gerçek taramada 4 çakışma bulundu (hepsi dar band; bugün bantlar-arası çakışma yok).
+
+## 2026-08-28 (3) — Önemli Seviyeler Kütüphanesi + Mega-Confluence
+
+**Yapılan:** Alarm motoruna İKİNCİ bir seviye kaynağı eklendi. Koç'un ve dış
+analistlerin somut sayısal seviyeleri artık bota tanıtıldı, aynı proximity
+motorundan geçiyor.
+- Yeni: `magicma/onemli_seviyeler.json` — **67 kayıt, 16 enstrüman, 16 kaynak**
+  (06_ANALIZ.md ve 11_DIS_KAYNAKLAR.md elle okunarak çıkarıldı).
+- Yeni: `magicma/onemli_seviye.py` — kütüphane doğrulama, mesafe/yön hesabı,
+  aday bulma, mega-confluence tespiti. `ONEMLI_SEVIYE_ESIK_YUZDE = 0.5`,
+  `MEGA_CONFLUENCE_ESIK_YUZDE = 0.3`.
+- Yeni: `magicma/README.md` — klasörün tamamı + **kütüphanenin elle güncellenme
+  kuralı** (prompt Adım 5).
+- `telegram_alarm.py`: dört kategorili mesaj (🌟 mega → 🔥 çakışan → 📌 önemli
+  seviye → tekil), `--onemli-seviye-yok` / `--onemli-esik` bayrakları.
+- `magicma_karne.py`: `kaynak_turu` alanı (teknik/onemli_seviye/mega_confluence)
+  + rapora "Kaynak turu bazinda" kırılımı.
+
+**Kararlar ve nedenleri:**
+- Önemli seviye katmanı MagicMA akışına `genis`/`temas` sözlüklerine katılarak
+  giriyor — histerezis, "yeni temas" işareti, karne kancası ve mesaj üretimi
+  hepsi tek yoldan geçiyor, paralel bir akış yazılmadı.
+- Histerezis burada da aynı desende: giriş %0,5, çıkış %1,0.
+- **MEGA YÜKSELTMESİ:** aynı sembol+çizgi için açık "teknik" kayıt varken mega
+  tespit edilirse yeni kayıt açılmıyor, mevcut kayıt mega'ya yükseltiliyor.
+  Ölçüldü: bu olmadan DXY mega'sı karneye HİÇ düşmüyordu (sembol zaten listede
+  olduğu için dedupe engelliyordu) ve mega/teknik karşılaştırması ölçüsüz kalıyordu.
+  Ayrıca kanca artık yalnız "yeni temas"ları değil, o turdaki TÜM mega
+  tespitlerini alıyor — yoksa yükseltme hiç tetiklenmiyordu.
+- Confluence kırılımı yalnızca `kaynak_turu == "teknik"` sinyalleri kapsıyor:
+  önemli-seviye kayıtlarında "çizgi çakışması" diye bir kavram yok, onları
+  "tekil" saymak kırılımı kirletirdi.
+- Mega'da yön çelişirse **teknik yön** esas alınıyor (bant mantığı daha olgun),
+  ayrışma log'a düşüyor. DXY'de bu gerçekten oldu (teknik long / seviye short).
+- GBPTRY kaydı bilerek girilmedi — taranan sembol evreninde karşılığı yok
+  (kontrol edildi); kütüphane böyle kayıtları atlar ve log'a düşer.
+
+**Test edildi:** Kütüphane doğrulaması 67/67 geçerli, 0 atlandı. Canlı fiyatlarla
+%0,5 içinde 5 aday (XAUUSD 4.400-4.500 duvarı, XPTUSD 1.830 hedefi, SPX 7.700,
+NDX 29.360 robot, DXY 99,50-100,40) ve **1 gerçek mega-confluence: DXY** —
+MagicMA Günlük Üst 99,691 + Kemal Hiçyılmaz'ın 99,50-100,40 anahtar bandı,
+ayrım %0,19. Kurgu senaryosu (BTCUSDT MagicMA 83.900 + Koç 84K pivotu, ayrım
+%0,12) doğru tespit edildi; negatif kontrol (çizgi 82.000, uzak) mega üretmedi.
+Karne kaynak-türü kırılımı 3/3 doğru, eski format kayıtlar "teknik" sayıldı.
+Mega yükseltmesi ve ters yönde düşmeme davranışı ayrıca doğrulandı.
+Önceki iki işin (karne, confluence) tüm testleri regresyonsuz geçiyor.

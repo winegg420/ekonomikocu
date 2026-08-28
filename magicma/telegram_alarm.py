@@ -57,6 +57,7 @@ except ImportError:
 
 import fiyat_kontrol
 import magicma_karne
+import onemli_seviye
 
 REPO_KOK = fiyat_kontrol.REPO_KOK
 ENV_YOL = os.path.join(REPO_KOK, ".env")
@@ -243,9 +244,53 @@ def satir_bicimle(kayit):
     orada cizgiler bilerek gosterilir, cunku sinyalin gucu tam olarak
     "birden fazla cizginin ayni yerde olmasi"ndan geliyor.
     """
+    if kayit.get("kaynak_turu") == "mega_confluence":
+        return mega_bicimle(kayit)
+    if kayit.get("kaynak_turu") == "onemli_seviye":
+        return onemli_bicimle(kayit)
     if kayit.get("confluence"):
         return confluence_bicimle(kayit)
     return f"{kayit['sembol']}  {_yon_metni(kayit)}  {_tr(kayit['fiyat'])}"
+
+
+def mega_bicimle(kayit):
+    """MEGA-CONFLUENCE: teknik MagicMA cizgisi VE Koc/dis kaynak seviyesi ayni
+    fiyat bolgesinde. En yuksek oncelikli sinyal — teknik ve temel birlesiyor.
+
+        🌟 MEGA-CONFLUENCE — BTCUSDT
+        Fiyat: 83.450
+        Teknik: Günlük Üst Çizgi 83.600 (MagicMA)
+        Temel: Koç'un 84.000 pivotu (yılın pivotu — kırılmadan rally yok)
+        LONG adayı
+    """
+    kaynak = kayit.get("kaynak", "?")
+    tur = (kayit.get("tur") or "seviye").replace("_", " ")
+    aciklama = (kayit.get("aciklama") or "").strip()
+    satirlar = [
+        "\U0001F31F MEGA-CONFLUENCE — " + kayit["sembol"],
+        f"Fiyat: {_tr(kayit['fiyat'])}",
+        f"Teknik: {_cizgi_gosterim(kayit.get('teknik_cizgi_adi'))} "
+        f"{_tr(kayit.get('teknik_cizgi'))} (MagicMA)",
+        f"Temel: {kaynak} · {kayit.get('seviye_metni', '?')} ({tur})",
+    ]
+    if aciklama:
+        satirlar.append(aciklama if len(aciklama) <= 120 else aciklama[:117] + "…")
+    satirlar.append(f"{_yon_metni(kayit)} adayı")
+    return "\n".join(satirlar)
+
+
+def onemli_bicimle(kayit):
+    """Onemli seviye (Koc / dis kaynak) yakinligi — teknik cizgi eslesmesi YOK.
+
+        📌 ÖNEMLİ SEVİYE — XAUUSD  SHORT
+        4.460 → Cuneyt Paksoy · 4.400-4.500 (duvar) · %+0,000
+    """
+    kaynak = kayit.get("kaynak", "?")
+    tur = (kayit.get("tur") or "seviye").replace("_", " ")
+    mesafe = f"%{kayit.get('mesafe', 0):+.3f}".replace(".", ",")
+    return ("\U0001F4CC ÖNEMLİ SEVİYE — " + kayit["sembol"] + "  " + _yon_metni(kayit) + "\n"
+            + f"{_tr(kayit['fiyat'])} → {kaynak} · "
+              f"{kayit.get('seviye_metni', '?')} ({tur}) · {mesafe}")
 
 
 def confluence_bicimle(kayit):
@@ -298,8 +343,14 @@ def mesaj_olustur(bekleyen, cikanlar, simdi=None):
     # cizgi ayni bolgeyi isaretliyor, tekil temastan daha guclu bir sinyal
     # olmasi bekleniyor. `bekleyen` main()'de zaten confluence-once sirali
     # geliyor; burada blok tipine gore ayrilip aralarina bosluk konur.
+    # DORT AYRI KATEGORI, oncelik sirasiyla (karistirilmamali):
+    #   mega_confluence -> teknik MagicMA cizgisi VE Koc/dis kaynak seviyesi
+    #                      ayni bolgede (teknik + temel birlesiyor)
+    #   confluence      -> birden fazla MagicMA cizgisi cakisiyor
+    #   onemli_seviye   -> yalnizca Koc/dis kaynak seviyesine yakinlik
+    #   tekil           -> tek MagicMA cizgisine temas (eski, sade format)
     gorulen = set()
-    conf_bloklar, tekil_bloklar = [], []
+    kutular = {"mega_confluence": [], "confluence": [], "onemli_seviye": [], "tekil": []}
     for kayit in bekleyen:
         imza = (kayit.get("sembol"), kayit.get("yon"))
         if imza in gorulen:
@@ -308,17 +359,30 @@ def mesaj_olustur(bekleyen, cikanlar, simdi=None):
         blok = satir_bicimle(kayit)
         if kayit.get("yeni"):
             blok = "\U0001F195 " + blok
-        (conf_bloklar if kayit.get("confluence") else tekil_bloklar).append(_md_kacir(blok))
+        tur = kayit.get("kaynak_turu")
+        if tur not in ("mega_confluence", "onemli_seviye"):
+            tur = "confluence" if kayit.get("confluence") else "tekil"
+        kutular[tur].append(_md_kacir(blok))
 
-    toplam = len(conf_bloklar) + len(tekil_bloklar)
+    toplam = sum(len(v) for v in kutular.values())
+    ek = []
+    if kutular["mega_confluence"]:
+        ek.append(f"{len(kutular['mega_confluence'])} mega")
+    if kutular["confluence"]:
+        ek.append(f"{len(kutular['confluence'])} çakışan seviye")
+    if kutular["onemli_seviye"]:
+        ek.append(f"{len(kutular['onemli_seviye'])} önemli seviye")
     bas = "\U0001F4CA " + _md_kacir(
         f"MagicMA İŞLEM FIRSATLARI ({simdi:%d.%m.%Y %H:%M}) · {toplam} aday"
-        + (f" · {len(conf_bloklar)} çakışan seviye" if conf_bloklar else ""))
+        + (" · " + " · ".join(ek) if ek else ""))
 
-    # Confluence bloklari cok satirli oldugu icin aralarina bos satir konur;
-    # tekil adaylar eskisi gibi alt alta tek satir.
-    parcalar = ([(b, "\n\n") for b in conf_bloklar]
-                + [(b, "\n") for b in tekil_bloklar])
+    # Cok satirli bloklarin arasina bos satir; tekiller alt alta tek satir.
+    parcalar = []
+    for tur in ("mega_confluence", "confluence", "onemli_seviye"):
+        parcalar += [(b, "\n\n") for b in kutular[tur]]
+    # Tekil listenin ILK ogesi de onceki bolumden bos satirla ayrilir.
+    for sira, blok in enumerate(kutular["tekil"]):
+        parcalar.append((blok, "\n\n" if sira == 0 and parcalar else "\n"))
 
     govde, atlanan = "", 0
     for sira, (blok, ayirac) in enumerate(parcalar):
@@ -327,10 +391,6 @@ def mesaj_olustur(bekleyen, cikanlar, simdi=None):
             atlanan = len(parcalar) - sira
             break
         govde += eklenecek
-    # Confluence bolumu ile tekil liste arasina ayirici bos satir.
-    if conf_bloklar and tekil_bloklar and not atlanan:
-        ilk_tekil = tekil_bloklar[0]
-        govde = govde.replace("\n" + ilk_tekil, "\n\n" + ilk_tekil, 1)
 
     metin = bas + ("\n\n" + govde if govde else "")
     if atlanan:
@@ -450,6 +510,13 @@ def main():
                     help="(artik etkisiz — liste her mesajda tam gonderiliyor)")
     ap.add_argument("--piyasa-saatini-yoksay", action="store_true",
                     help="BIST/ABD piyasa saati filtresini kapat (kapali piyasayi da tara)")
+    ap.add_argument("--onemli-seviye-yok", action="store_true",
+                    help="Koc/dis kaynak seviye katmanini kapat (mega-confluence de uretilmez)")
+    ap.add_argument("--onemli-esik", type=float,
+                    default=onemli_seviye.ONEMLI_SEVIYE_ESIK_YUZDE,
+                    help=f"onemli seviye GIRIS esigi yuzde (varsayilan "
+                         f"{onemli_seviye.ONEMLI_SEVIYE_ESIK_YUZDE} — MagicMA'dan genis, "
+                         f"cunku bunlar hassas teknik cizgi degil kabaca hedef/pivot)")
     ap.add_argument("--karne-yok", action="store_true",
                     help="sinyal karnesi kancasini kapat (kayit acma/degerlendirme yapilmaz)")
     ap.add_argument("--mesaj-araligi", type=float, default=10.0,
@@ -479,6 +546,64 @@ def main():
 
     genis = sonuclari_kayda_cevir(v["sonuclar"])                       # |mesafe| <= cikis_esik
     temas = {a: k for a, k in genis.items() if abs(k["mesafe"]) <= args.esik}
+
+    # --- IKINCI SEVIYE KAYNAGI: Koc / dis analist seviyeleri ----------------
+    # MagicMA cizgileri teknik; bunlar temel/soylem kaynakli hedef-pivot
+    # seviyeler. Ayri esikle (%0,5) taranir ve teknik cizgiyle ayni bolgeye
+    # denk gelirse MEGA-CONFLUENCE olur. Hata olursa alarm akisi kesilmez.
+    genis_onemli, onemli_adaylar, mega_adaylar = [], [], []
+    if not args.onemli_seviye_yok:
+        try:
+            fiyatlar = v.get("tum_fiyatlar") or {}
+            kutuphane, _ = onemli_seviye.seviyeleri_oku(log=log)
+            kutuphane, _eksik = onemli_seviye.kapsam_denetle(
+                kutuphane, set(fiyatlar), log=log)
+            # MagicMA ile ayni histerezis deseni: genis bant (cikis esigi)
+            # hesaplanir, giris esigi onun icinden suzulur.
+            onemli_cikis = args.onemli_esik * 2
+            genis_onemli = onemli_seviye.adaylari_bul(
+                fiyatlar, kutuphane, esik=onemli_cikis, log=log)
+            onemli_adaylar = [a for a in genis_onemli
+                              if abs(a["mesafe"]) <= args.onemli_esik]
+            log(f"[ONEMLI] Giris %{args.onemli_esik}: {len(onemli_adaylar)} aday · "
+                f"cikis %{onemli_cikis}: {len(genis_onemli)} "
+                f"({len(kutuphane)} kayitlik kutuphaneden).")
+            # Mega icin YALNIZCA giris esigine girmis teknik kayitlar verilir.
+            mega_adaylar = onemli_seviye.mega_confluence_bul(
+                list(temas.values()), onemli_adaylar, log=log)
+        except Exception as e:
+            log(f"[ONEMLI][UYARI] onemli seviye katmani atlandi: {type(e).__name__}: {e}")
+            genis_onemli, onemli_adaylar, mega_adaylar = [], [], []
+
+    def _onemli_kayda_cevir(adaylar, mega_listesi):
+        """Onemli seviye/mega adaylarini alarm kayit sozlugune cevirir.
+
+        Mega olan sembol, ayrica "onemli seviye" olarak TEKRAR listelenmez —
+        ayni olay, iki bildirim degil.
+        """
+        mega_semboller = {m["sembol"] for m in mega_listesi}
+        kayitlar = {}
+        for m in mega_listesi:
+            kayit = dict(m)
+            kayit["kaynak_turu"] = "mega_confluence"
+            kayit["mesafe"] = m.get("teknik_mesafe") or 0.0
+            kayit["cizgi_adi"] = m.get("teknik_cizgi_adi")
+            kayit["cizgi"] = m.get("teknik_cizgi")
+            kayitlar[f"{m['sembol']}|MEGA|{m['seviye_id']}"] = kayit
+        for a in adaylar:
+            if a["sembol"] in mega_semboller:
+                continue
+            kayit = dict(a)
+            kayit["kaynak_turu"] = "onemli_seviye"
+            kayit["cizgi_adi"] = f"{a['kaynak']} · {a['seviye_metni']}"
+            kayit["cizgi"] = a["seviye_orta"]
+            kayitlar[f"{a['sembol']}|ONEMLI|{a['seviye_id']}"] = kayit
+        return kayitlar
+
+    # Onemli seviye katmani MagicMA akisina katilir: histerezis, "yeni temas"
+    # isareti, karne kancasi ve mesaj olusturma hepsi ayni yoldan gecer.
+    genis.update(_onemli_kayda_cevir(genis_onemli, mega_adaylar))
+    temas.update(_onemli_kayda_cevir(onemli_adaylar, mega_adaylar))
 
     onceki, _eski_kuyruk, bekleyen_cikanlar, son_mesaj, _ilk = durum_oku()
     log(f"Giris esigi %{args.esik}: {len(temas)} kayit · "
@@ -512,8 +637,17 @@ def main():
     # Alarm mantigini etkilemez: hata olsa bile bildirim akisi surer.
     if not args.karne_yok:
         try:
-            eklenen = magicma_karne.yeni_sinyalleri_kaydet(
-                [temas[a] for a in yeni_anahtarlar])
+            kanca_listesi = [temas[a] for a in yeni_anahtarlar]
+            # Mega tespitleri, temas bu turda "yeni" OLMASA DA kancaya girer:
+            # yeni kayit acilmaz (dedupe) ama acik teknik kayit mega'ya
+            # YUKSELTILIR. Aksi halde sembol zaten listede oldugu icin mega
+            # hic kaydedilmez ve karne karsilastirmasi olcusuz kalirdi.
+            imzalar = {(t.get("sembol"), t.get("cizgi_adi")) for t in kanca_listesi}
+            for kayit in temas.values():
+                if (kayit.get("kaynak_turu") == "mega_confluence"
+                        and (kayit.get("sembol"), kayit.get("cizgi_adi")) not in imzalar):
+                    kanca_listesi.append(kayit)
+            eklenen = magicma_karne.yeni_sinyalleri_kaydet(kanca_listesi)
             if eklenen:
                 log(f"[KARNE] {eklenen} yeni sinyal karneye 'acik' olarak eklendi.")
         except Exception as e:
@@ -590,11 +724,22 @@ def main():
         log("Yakin aday yok — mesaj gonderilmedi (sessiz).")
         return 0
 
-    # Siralama: once BANTLAR ARASI cakisma (bagimsiz teyit — en guclu), sonra
-    # dar band cakismasi, sonra tekiller; her grup kendi icinde en yakin ustte.
-    _oncelik = {"bantlar_arasi": 0, "dar_band": 1}
-    bekleyen.sort(key=lambda k: (_oncelik.get(k.get("confluence_tip"), 2),
-                                 abs(k.get("mesafe", 0))))
+    # Siralama onceligi (en guclu sinyal en ustte):
+    #   0 MEGA-CONFLUENCE (teknik + temel ayni noktada)
+    #   1 bantlar arasi cakisma (bagimsiz teknik teyit)
+    #   2 dar band cakismasi
+    #   3 onemli seviye (yalniz temel)
+    #   4 tekil MagicMA temasi
+    # Her grup kendi icinde en yakin mesafe ustte.
+    def _oncelik(kayit):
+        tur = kayit.get("kaynak_turu")
+        if tur == "mega_confluence":
+            return 0
+        if tur == "onemli_seviye":
+            return 3
+        return {"bantlar_arasi": 1, "dar_band": 2}.get(kayit.get("confluence_tip"), 4)
+
+    bekleyen.sort(key=lambda k: (_oncelik(k), abs(k.get("mesafe", 0))))
     metin = mesaj_olustur(bekleyen, cikanlar, simdi)
 
     if args.kuru:

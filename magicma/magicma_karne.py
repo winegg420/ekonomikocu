@@ -140,11 +140,16 @@ def _cizgi_kisa(ad):
 
 def sinyal_kaydi_olustur(sembol, cizgi_adi, cizgi_degeri, yon, giris_fiyati, an=None,
                          confluence=False, confluence_cizgiler=None, confluence_sayisi=1,
-                         confluence_tip=None):
+                         confluence_tip=None, kaynak_turu="teknik", kaynak=None):
     """Tek sinyal kaydi. confluence* alanlari cakisan seviye grubu icin doldurulur.
 
     Cakisan grupta cizgi_adi/cizgi_degeri, gruba EN YAKIN cizgiden gelir —
     degerlendirme (gecersiz esigi) boylece degismeden calisir.
+
+    kaynak_turu : "teknik" (MagicMA cizgisi) | "onemli_seviye" (Koc/dis kaynak) |
+        "mega_confluence" (ikisi ayni bolgede). Karnede AYRI olculur — hangi
+        sinyal turunun gercekten daha guvenilir oldugunu zamanla gormek icin.
+    kaynak : onemli_seviye/mega icin seviyeyi veren kisi/kurum.
     """
     an = an or simdi()
     zaman = an.isoformat(timespec="seconds")
@@ -156,6 +161,8 @@ def sinyal_kaydi_olustur(sembol, cizgi_adi, cizgi_degeri, yon, giris_fiyati, an=
         "cizgi_adi": cizgi_adi,
         "cizgi_degeri": cizgi_degeri,
         "yon": yon,
+        "kaynak_turu": kaynak_turu or "teknik",
+        "kaynak": kaynak,
         "confluence": bool(confluence),
         "confluence_tip": confluence_tip or ("bantlar_arasi" if confluence else "tekil"),
         "confluence_sayisi": int(confluence_sayisi or 1),
@@ -175,15 +182,24 @@ def yeni_sinyalleri_kaydet(temaslar, an=None, yol=KAYIT_YOL):
     temaslar: [{sembol, cizgi_adi, cizgi, fiyat, yon}, ...]
     Ayni sembol+cizgi icin zaten ACIK bir kayit varsa yenisi ACILMAZ
     (histerezis salinimi karneyi sisirmesin).
+
+    TEK ISTISNA — MEGA YUKSELTMESI: acik kayit "teknik" iken ayni sembol+cizgi
+    icin bu turda mega-confluence tespit edilirse, YENI kayit acilmaz ama
+    mevcut kayit mega'ya YUKSELTILIR. Aksi halde "bu sinyal aslinda mega'ydi"
+    bilgisi kaybolur (sembol zaten teknik olarak listedeyse mega hic kaydedilmez)
+    ve karnedeki mega/teknik karsilastirmasi olcusuz kalirdi. Ters yonde
+    (mega -> teknik) dusurme YAPILMAZ.
+
     Doner: eklenen kayit sayisi.
     """
     if not temaslar:
         return 0
     try:
         kayitlar = kayitlari_oku(yol)
-        acik_imzalar = {(k.get("sembol"), k.get("cizgi_adi"))
-                        for k in kayitlar if k.get("durum") == "acik"}
-        eklenen = 0
+        acik_kayitlar = {(k.get("sembol"), k.get("cizgi_adi")): k
+                         for k in kayitlar if k.get("durum") == "acik"}
+        acik_imzalar = set(acik_kayitlar)
+        eklenen, yukseltilen = 0, 0
         for t in temaslar:
             sembol = t.get("sembol")
             cizgi_adi = t.get("cizgi_adi")
@@ -193,17 +209,29 @@ def yeni_sinyalleri_kaydet(temaslar, an=None, yol=KAYIT_YOL):
             if not sembol or not fiyat or not cizgi or yon not in ("long", "short"):
                 continue
             if (sembol, cizgi_adi) in acik_imzalar:
+                mevcut = acik_kayitlar[(sembol, cizgi_adi)]
+                if (t.get("kaynak_turu") == "mega_confluence"
+                        and (mevcut.get("kaynak_turu") or "teknik") != "mega_confluence"):
+                    mevcut["kaynak_turu"] = "mega_confluence"
+                    mevcut["kaynak"] = t.get("kaynak")
+                    mevcut["mega_yukseltme"] = True
+                    yukseltilen += 1
                 continue
             kayitlar.append(sinyal_kaydi_olustur(
                 sembol, cizgi_adi, cizgi, yon, fiyat, an,
                 confluence=t.get("confluence", False),
                 confluence_cizgiler=t.get("confluence_cizgiler"),
                 confluence_sayisi=t.get("confluence_sayisi", 1),
-                confluence_tip=t.get("confluence_tip")))
+                confluence_tip=t.get("confluence_tip"),
+                kaynak_turu=t.get("kaynak_turu", "teknik"),
+                kaynak=t.get("kaynak")))
             acik_imzalar.add((sembol, cizgi_adi))
+            acik_kayitlar[(sembol, cizgi_adi)] = kayitlar[-1]
             eklenen += 1
-        if eklenen:
+        if eklenen or yukseltilen:
             kayitlari_yaz(kayitlar, yol)
+        if yukseltilen:
+            print(f"[KARNE] {yukseltilen} acik kayit mega-confluence'a yukseltildi.")
         return eklenen
     except Exception as e:
         print(f"[UYARI] karne kaydi eklenemedi: {type(e).__name__}: {e}")
@@ -350,15 +378,31 @@ def istatistik_hesapla(kayitlar=None, yol=KAYIT_YOL):
     #   bantlar_arasi = Gunluk + Haftalik ayni bolgede (BAGIMSIZ teyit)
     #   dar_band      = tek bandin alt+ust kenari yakin (tek olcum, teyit degil)
     # Ikisini tek potada toplamak hipotezi olcemez hale getirirdi.
-    cakisan = [k for k in kapanan if k.get("confluence")]
-    tekil = [k for k in kapanan if not k.get("confluence")]
+    # Confluence YALNIZCA teknik (MagicMA cizgisi) sinyaller icin anlamlidir —
+    # onemli-seviye/mega kayitlarinda cizgi cakismasi diye bir kavram yok.
+    # Onlari "tekil" saymak bu kirilimi kirletirdi, bu yuzden disarida birakilir.
+    teknik_kapanan = [k for k in kapanan if (k.get("kaynak_turu") or "teknik") == "teknik"]
+    cakisan = [k for k in teknik_kapanan if k.get("confluence")]
+    tekil = [k for k in teknik_kapanan if not k.get("confluence")]
     bantlar_arasi = [k for k in cakisan if k.get("confluence_tip") == "bantlar_arasi"]
     dar_band = [k for k in cakisan if k.get("confluence_tip") == "dar_band"]
+
+    # Kaynak turu kirilimi: teknik (MagicMA cizgisi) / onemli_seviye
+    # (Koc + dis analist) / mega_confluence (ikisi ayni bolgede).
+    # Eski kayitlarda alan YOK -> "teknik" sayilir (geriye donuk uyumluluk).
+    kaynak_gruplari = {}
+    for k in kapanan:
+        kaynak_gruplari.setdefault(k.get("kaynak_turu") or "teknik", []).append(k)
 
     return {
         "acik": sum(1 for k in kayitlar if k.get("durum") == "acik"),
         "acik_confluence": sum(1 for k in kayitlar
                                if k.get("durum") == "acik" and k.get("confluence")),
+        "acik_kaynak": {t: sum(1 for k in kayitlar if k.get("durum") == "acik"
+                               and (k.get("kaynak_turu") or "teknik") == t)
+                        for t in ("teknik", "onemli_seviye", "mega_confluence")},
+        "kaynak_turu": {t: _say(kaynak_gruplari.get(t, []))
+                        for t in ("mega_confluence", "onemli_seviye", "teknik")},
         "genel": _say(kapanan),
         "kategori": {ad: _say(liste) for ad, liste in sorted(kategoriler.items())},
         "yon": {ad: _say(liste) for ad, liste in sorted(yonler.items())},
@@ -405,11 +449,33 @@ def karne_raporu_uret(yol=KAYIT_YOL, rapor_yol=RAPOR_YOL, log=print):
         s.append("_Henuz kapanan sinyal yok._")
     s.append("")
 
-    # --- Hipotez testi: cakisan seviye (confluence) daha mi guclu? ----------
+    # --- Hipotez testi 1: hangi SINYAL KAYNAGI daha guvenilir? --------------
+    kt = ist["kaynak_turu"]
+    ETIKET = {"mega_confluence": "🌟 Mega-confluence (teknik + temel)",
+              "onemli_seviye": "📌 Önemli seviye (Koç / dış kaynak)",
+              "teknik": "MagicMA teknik çizgisi"}
+    s.append("## Kaynak turu bazinda\n")
+    s.append("_Uc ayri sinyal kaynagi: MagicMA teknik cizgisi · Koc/dis analist "
+             "seviyesi · ikisinin ayni bolgede birlestigi mega-confluence._\n")
+    s.append(f"- Acik: teknik {ist['acik_kaynak']['teknik']} · "
+             f"onemli seviye {ist['acik_kaynak']['onemli_seviye']} · "
+             f"mega {ist['acik_kaynak']['mega_confluence']}\n")
+    if any(d["toplam"] for d in kt.values()):
+        s.append("| Sinyal kaynagi | Kapanan | Basarili | Basarisiz | Zaman asimi | Basari orani |")
+        s.append("|---|---:|---:|---:|---:|---:|")
+        for ad, d in kt.items():
+            s.append(f"| {ETIKET[ad]} | {d['toplam']} | {d['basarili']} | {d['basarisiz']} | "
+                     f"{d['zaman_asimi']} | {_tr_yuzde(_oran(d['basarili'], d['toplam']))} |")
+    else:
+        s.append("_Henuz kapanan sinyal yok._")
+    s.append("")
+
+    # --- Hipotez testi 2: cakisan seviye (confluence) daha mi guclu? --------
     c = ist["confluence"]
     s.append("## Cakisan seviye (confluence) vs tekil\n")
-    s.append(f"_Cakisma tanimi: ayni sembolde temas eden iki+ cizginin degerleri "
-             f"birbirine {_tr_yuzde(fiyat_kontrol.CONFLUENCE_ESIK_YUZDE, 2)} yakin._\n")
+    s.append(f"_Yalnizca **teknik** (MagicMA) sinyaller. Cakisma tanimi: ayni sembolde "
+             f"temas eden iki+ cizginin degerleri birbirine "
+             f"{_tr_yuzde(fiyat_kontrol.CONFLUENCE_ESIK_YUZDE, 2)} yakin._\n")
     s.append(f"- Acik cakisan sinyal: **{ist['acik_confluence']}** / {ist['acik']}\n")
     s.append("_Iki tip ayri olculur: **bantlar arasi** = Gunluk + Haftalik gibi "
              "FARKLI bantlar ayni bolgeyi isaretliyor (bagimsiz teyit); "
@@ -458,7 +524,12 @@ def karne_raporu_uret(yol=KAYIT_YOL, rapor_yol=RAPOR_YOL, log=print):
         for k in ist["son_kapananlar"]:
             zam = (k.get("sonuc_zamani") or "")[:16].replace("T", " ")
             yuz = k.get("sonuc_yuzde")
-            if k.get("confluence"):
+            ktur = k.get("kaynak_turu") or "teknik"
+            if ktur == "mega_confluence":
+                tip = "🌟 mega"
+            elif ktur == "onemli_seviye":
+                tip = "📌 seviye"
+            elif k.get("confluence"):
                 kisa = {"bantlar_arasi": "bant-arasi", "dar_band": "dar-band"}.get(
                     k.get("confluence_tip"), "cakisan")
                 tip = f"🔥 {kisa} x{k.get('confluence_sayisi', 2)}"
