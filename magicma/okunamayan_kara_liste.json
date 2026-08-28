@@ -1,0 +1,107 @@
+{
+ "BINANCE:NFPUSDT": {
+  "ilk_basarisiz": "2026-08-26",
+  "son_basarisiz": "2026-08-26",
+  "deneme_sayisi": 3
+ },
+ "BINANCE:QQQBUSDT": {
+  "ilk_basarisiz": "2026-08-26",
+  "son_basarisiz": "2026-08-26",
+  "deneme_sayisi": 3
+ },
+ "BINANCE:REUSDT": {
+  "ilk_basarisiz": "2026-08-26",
+  "son_basarisiz": "2026-08-26",
+  "deneme_sayisi": 3
+ },
+ "BYBIT:GRVTUSDT": {
+  "ilk_basarisiz": "2026-08-26",
+  "son_basarisiz": "2026-08-26",
+  "deneme_sayisi": 3
+ },
+ "BYBIT:KIIUSDT": {
+  "ilk_basarisiz": "2026-08-26",
+  "son_basarisiz": "2026-08-26",
+  "deneme_sayisi": 3
+ },
+ "BYBIT:SLXUSDT": {
+  "ilk_basarisiz": "2026-08-26",
+  "son_basarisiz": "2026-08-26",
+  "deneme_sayisi": 3
+ },
+ "MEXC:AIDOGEUSDT": {
+  "ilk_basarisiz": "2026-08-26",
+  "son_basarisiz": "2026-08-26",
+  "deneme_sayisi": 3
+ },
+ "MEXC:ALIGNUSDT": {
+  "ilk_basarisiz": "2026-08-26",
+  "son_basarisiz": "2026-08-26",
+  "deneme_sayisi": 3
+ },
+ "MEXC:ANSEMUSDT": {
+  "ilk_basarisiz": "2026-08-26",
+  "son_basarisiz": "2026-08-26",
+  "deneme_sayisi": 3
+ },
+ "MEXC:BASECATUSDT": {
+  "ilk_basarisiz": "2026-08-26",
+  "son_basarisiz": "2026-08-26",
+  "deneme_sayisi": 3
+ },
+ "MEXC:DGAIUSDT": {
+  "ilk_basarisiz": "2026-08-26",
+  "son_basarisiz": "2026-08-26",
+  "deneme_sayisi": 3
+ },
+ "MEXC:DRVUSDT": {
+  "ilk_basarisiz": "2026-08-26",
+  "son_basarisiz": "2026-08-26",
+  "deneme_sayisi": 3
+ },
+ "MEXC:HMMUSDT": {
+  "ilk_basarisiz": "2026-08-26",
+  "son_basarisiz": "2026-08-26",
+  "deneme_sayisi": 3
+ },
+ "MEXC:JIMOTHYUSDT": {
+  "ilk_basarisiz": "2026-08-26",
+  "son_basarisiz": "2026-08-26",
+  "deneme_sayisi": 3
+ },
+ "MEXC:JUGGERNAUTUSDT": {
+  "ilk_basarisiz": "2026-08-26",
+  "son_basarisiz": "2026-08-26",
+  "deneme_sayisi": 3
+ },
+ "MEXC:PODUSDT": {
+  "ilk_basarisiz": "2026-08-26",
+  "son_basarisiz": "2026-08-26",
+  "deneme_sayisi": 3
+ },
+ "MEXC:PONSUSDT": {
+  "ilk_basarisiz": "2026-08-26",
+  "son_basarisiz": "2026-08-26",
+  "deneme_sayisi": 3
+ },
+ "MEXC:QUIDUSDT": {
+  "ilk_basarisiz": "2026-08-26",
+  "son_basarisiz": "2026-08-26",
+  "deneme_sayisi": 3
+ },
+ "MEXC:STONKUSDT": {
+  "ilk_basarisiz": "2026-08-26",
+  "son_basarisiz": "2026-08-26",
+  "deneme_sayisi": 3
+ },
+ "MEXC:TENDIESUSDT": {
+  "ilk_basarisiz": "2026-08-26",
+  "son_basarisiz": "2026-08-26",
+  "deneme_sayisi": 3
+ },
+ "NASDAQ:SPCX": {
+  "ilk_basarisiz": "2026-08-26",
+  "son_basarisiz": "2026-08-26",
+  "deneme_sayisi": 3
+ }
+}

@@ -2516,3 +2516,60 @@ araligin kisaltilmasi ayni sorunu tekrar uretirdi.
   calistirildi -> "1 aday kuyrukta BEKLETILIYOR — son mesajdan bu yana 0.5 dk
   gecti, 10.0 dk dolmadi." Mesaj GITMEDI.
 - `schtasks /query`: "Repeat: Every 0 Hour(s), 10 Minute(s)", Duration 24 saat.
+
+## 2026-08-28 (5) — Okunamayan sembollere otomatik kara liste
+
+**Sorun:** `gunun_hareketlileri.txt` her calistirmada cryptobubbles'tan yeniden
+uretiliyor; uretici yalnizca borsanin REST API'sinde USDT paritesinin VAR
+oldugunu dogruluyor, TradingView'de MagicMA gostergesinin cizilip cizilmedigini
+bilmiyor. Sonuc: her taramada ayni ~17 olu sembole ~20 sn/sembol harcaniyordu,
+elle "yorum satirina alma" duzeltmesi de dosya yeniden uretildigi icin ucup
+gidiyordu.
+
+**Yapilan:**
+- Yeni modul `99_BOT_ARSIV/kod/magicma_kara_liste.py` (yukle/kaydet/basarisiz/
+  basarili/atlanmali_mi/ozet/tohumla). Esikler tek yerde: `KARA_LISTE_ESIK = 3`,
+  `YENIDEN_DENE_GUN = 7`.
+- Veri dosyasi `magicma/okunamayan_kara_liste.json` (atomik yazim).
+- `magicma_tara_dayanikli.py`: kara listedekiler denenmeden atlanir (log:
+  "kara listeden atlandi"), okunanlar kara listeden CIKARILIR, okunamayanlarin
+  sayaci artar; 7 gun dolan sembol yeniden denenir.
+- `gunun_hareketlileri_guncelle.py`: kara listedeki sembol dosyaya HIC YAZILMAZ.
+- `magicma/taranamayan_semboller.md`: `KARA-LISTE-OTOMATIK` isaretcileri
+  arasinda otomatik blok ("Kara listede: N sembol (M'si bu hafta yeniden
+  denenecek)" + durum tablosu). Isaretci disindaki elle notlar korunur.
+
+**Kararlar / nedenleri:**
+- **Sayim birimi = tarama KOSUMU.** Sembol her kosumda zaten kendi icinde
+  MAX_DENEME kez deneniyor; esik 3 "art arda 3 ayri kosumda basarisiz" demek.
+  Tek seferlik ag arizasi kara listeye dusurmez.
+- **Basarili okuma kaydi ANINDA siler** — kalici engelleme yok, sistem kendini
+  duzeltir.
+- **Rapor blogu baglantidan ONCE de yazilir**, boylece Chrome/TV yokken kosum
+  erken bitse bile dosya guncel kalir.
+- **Tohumlama iki sart arar** (raporda "okunamayan" VE ham'da hic kayit yok) ki
+  yeni eklenmis ama henuz denenmemis semboller yanlislikla kara listeye girmesin.
+  MEXC:CTRUSDT bu sayede haric kaldi (bir kez okunmustu).
+- **Elle notlar korunuyor:** taranamayan_semboller.md tamamen otomatik
+  uretilseydi "gecici ariza" ve "tarama hizi dersi" notlari silinirdi.
+
+**Dogrulanan:**
+- Birim testi: 7 baslikta tum senaryolar GECTI — esige kadar atlamama/esikte
+  atlama, basarili okumada listeden cikma, 6 gun ATLA / tam 7 gun DENE / 8 gun
+  DENE penceresi, yeniden denemede sayacin sifirlanmasi, atomik yaz/oku, bozuk
+  JSON'da cokmeme, ozet sayilari.
+- Tohumlama: `--tohumla` 2026-08-26 raporundan **21 sembol** ekledi;
+  MEXC:CTRUSDT dogru sekilde HARIC birakildi.
+- Tarayici: "Toplam 591 sembol ... Kalan: 573 · kara listeden atlanan: 18" —
+  18 olu sembol TradingView'e HIC gitmedi.
+- 7 gun testi: BYBIT:GRVTUSDT'nin `son_basarisiz` tarihi 8 gun oncesine cekildi
+  -> "kara listede ama 7 gun doldu -> yeniden deneniyor: BYBIT:GRVTUSDT",
+  atlanan 18 -> 17. Test artigi geri alindi.
+- Uretici: bugunun hareketlilerinden **12 kara listeli sembol dosyaya
+  yazilmadi** ("KARA LISTE nedeniyle yazilmadi (12): MEXC:DRVUSDT, ...").
+- Kara liste kontrolunun maliyeti: tum evren (569 sembol) icin **0,06 ms**.
+
+**ACIK KALAN:** Gercek (Chrome'lu) tarama YAPILAMADI — CDP 9222 Chrome acik
+degildi, TradingView oturumu gerekiyor. Sure kazanci bu yuzden OLCULMEDI,
+yalnizca hesaplandi: eski evrende 18 olu sembol x ~20 sn (raporun kendi
+belgeledigi rakam) ~= 6 dk/kosum. Ilk gercek taramada dogrulanmali.

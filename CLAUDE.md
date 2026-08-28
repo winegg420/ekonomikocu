@@ -222,3 +222,36 @@ sonucu veriyor (22/22 senaryoda dogrulandi).
 Filtreyi kapatmak icin: `telegram_alarm.py --piyasa-saatini-yoksay`.
 `fiyat_kontrol.py`'de filtre **varsayilan KAPALI** (mentor icin kapali
 piyasanin son kapanis fiyati hala ise yariyor); acmak icin `--piyasa-saati`.
+
+## MAGICMA OKUNAMAYAN KARA LISTESI (2026-08-28)
+
+`99_BOT_ARSIV/kod/magicma_kara_liste.py` + `magicma/okunamayan_kara_liste.json`
+
+TradingView'de MagicMA gostergesi cizilmeyen "olu" semboller sembol basina
+~20 sn (MAX_DENEME x timeout) harciyordu. Artik kendi kendini guncelleyen bir
+kara liste var:
+
+- Sembol okunamazsa -> kara listeye eklenir, `deneme_sayisi` artar.
+- **Sembol okunursa -> kara listeden CIKARILIR** (gecici arizalar kalici
+  engellenmez; MEXC:CTRUSDT ornegi).
+- `deneme_sayisi >= KARA_LISTE_ESIK` (3) -> sonraki taramalarda TradingView'e
+  **hic gidilmez**, dogrudan "okunamayanlar"a yazilir.
+- Atlanan sembol `YENIDEN_DENE_GUN` (7) gun sonra **bir kez daha denenir**
+  (yeni coin sonradan MagicMA verisi kazanabilir). Yine basarisizsa sayac
+  sifirdan baslar.
+- Esikler tek yerde: `magicma_kara_liste.py` basi.
+
+**Iki katmanli koruma:**
+1. `magicma_tara_dayanikli.py` — tarama sirasinda atlar.
+2. `gunun_hareketlileri_guncelle.py` — kara listedeki sembolu
+   `gunun_hareketlileri.txt`'e **hic yazmaz**. Bu sart, cunku o dosya her
+   calistirmada bastan uretiliyor; elle "yorum satirina alma" kalici degil.
+
+**Tohumlama:** `py -3 99_BOT_ARSIV/kod/magicma_kara_liste.py --tohumla`
+En son `magicma_rapor_*.md`'nin "Okunamayanlar" bolumu ILE `magicma_ham.jsonl`de
+hic kaydi olmayanlarin KESISIMINI kara listeye ekler. Iki sart birden arandigi
+icin "bugun eklenmis, henuz denenmemis" sembol yanlislikla girmez.
+
+**Durum gormek icin:** `py -3 99_BOT_ARSIV/kod/magicma_kara_liste.py`
+`magicma/taranamayan_semboller.md` icindeki `KARA-LISTE-OTOMATIK` isaretcileri
+arasindaki blok her taramada yeniden yazilir; disindaki elle notlara DOKUNULMAZ.

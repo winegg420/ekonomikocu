@@ -10,6 +10,12 @@
 - Dosya HER CALISTIRMADA komple uzerine yazilir (biriktirme yok; dun firlayan coin
   bugun sakinlesmis olabilir).
 - Ag/parse hatasinda mevcut gunun_hareketlileri.txt'e DOKUNULMAZ (bozma pattern'i).
+- KARA LISTE: TradingView'de kalici olarak okunamayan semboller
+  (magicma/okunamayan_kara_liste.json) listeye HIC YAZILMAZ. Bu script yalnizca
+  borsanin REST API'sinde USDT paritesinin var oldugunu dogrular; TV'de MagicMA
+  gostergesinin cizilip cizilmedigini bilemez. Kara liste o boslugu kapatir:
+  tarama neyin olu oldugunu ogrenir, uretim de onu bir daha yazmaz. Yeniden
+  deneme penceresi (7 gun) acilan semboller listeye YENIDEN eklenir.
 
 KULLANIM NOTU: Bu script MagicMA taramasindan (magicma_tara_dayanikli.py) ONCE
 calistirilmalidir; boylece o gunun hareketli coinleri ayni taramaya dahil olur.
@@ -20,11 +26,15 @@ Otomatik zincirleme yok — elle calistirilir:
 from __future__ import annotations
 
 import json
+import sys
 import urllib.request
 from datetime import datetime
 from pathlib import Path
 
 KOD = Path(__file__).resolve().parent
+if str(KOD) not in sys.path:
+    sys.path.insert(0, str(KOD))
+import magicma_kara_liste as kl
 REPO = KOD.parent.parent
 LISTE_DIR = REPO / "magicma" / "sembol_listesi"
 CIKTI_TXT = LISTE_DIR / "gunun_hareketlileri.txt"
@@ -118,7 +128,8 @@ def main() -> int:
         print(f"{CIKTI_TXT.name} KORUNDU (degistirilmedi).")
         return 1
 
-    aday, secilen, atlanan_parite = 0, [], []
+    kara_liste = kl.yukle()
+    aday, secilen, atlanan_parite, atlanan_kara = 0, [], [], []
     gorulen = set()
     for coin in data:
         if not isinstance(coin, dict):
@@ -141,6 +152,10 @@ def main() -> int:
             continue
         sembol, borsa = sonuc
         if sembol in gorulen:
+            continue
+        atla, sebep = kl.atlanmali_mi(kara_liste, sembol)
+        if atla:
+            atlanan_kara.append(f"{sembol} ({sebep})")
             continue
         gorulen.add(sembol)
         secilen.append((sembol, borsa, gun))
@@ -167,6 +182,11 @@ def main() -> int:
     print(f"{CIKTI_TXT.name} yazildi: {len(secilen)} sembol -> {CIKTI_TXT}")
     print(f"Taranan coin: {len(data)} | esigi gecen: {aday} | eklenen: {len(secilen)}")
     print(f"Borsa dagilimi: {dagilim}")
+    if atlanan_kara:
+        print(f"KARA LISTE nedeniyle yazilmadi ({len(atlanan_kara)}): "
+              + ", ".join(atlanan_kara[:20])
+              + (" ..." if len(atlanan_kara) > 20 else ""))
+    print(f"Kara liste durumu: {kl.ozet_satiri(kara_liste)}")
     if atlanan_parite:
         print(f"USDT paritesi bulunamadi, atlandi ({len(atlanan_parite)}): "
               + ", ".join(atlanan_parite[:30])

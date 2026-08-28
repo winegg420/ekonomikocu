@@ -25,6 +25,7 @@ if _KOD_DIR not in sys.path:
     sys.path.insert(0, _KOD_DIR)
 
 import magicma_yakinlik as m  # __main__ guard sayesinde tarama tetiklenmez
+import magicma_kara_liste as kl
 
 try:
     from playwright.sync_api import sync_playwright
@@ -38,6 +39,11 @@ CDP_URL = f"http://127.0.0.1:{m.PORT}"
 BASTAN = "--bastan" in sys.argv
 MAX_DENEME = 3           # sembol basina okuma denemesi
 MAX_RECONNECT = 12       # Chrome kapaliysa yeniden baglanma denemesi
+# Kara liste esikleri tek yerde: magicma_kara_liste.py
+#   KARA_LISTE_ESIK  = kac basarisiz taramadan sonra sembol denenmeden atlanir
+#   YENIDEN_DENE_GUN = atlanan sembol kac gunde bir yeniden denenir
+KARA_LISTE_ESIK = kl.KARA_LISTE_ESIK
+YENIDEN_DENE_GUN = kl.YENIDEN_DENE_GUN
 
 
 def bugun():
@@ -131,15 +137,113 @@ def rapor_yaz(okunamadi):
     return yol, len(kayitlar), giren
 
 
+TARANAMAYAN_MD = os.path.join(m.RAPOR_DIR, "taranamayan_semboller.md")
+_OTO_BAS = "<!-- KARA-LISTE-OTOMATIK: BASLANGIC -->"
+_OTO_BIT = "<!-- KARA-LISTE-OTOMATIK: BITIS -->"
+
+
+def _kara_liste_bolumu(kara_liste):
+    o = kl.ozet(kara_liste)
+    L = [_OTO_BAS,
+         "",
+         "## Kara liste (otomatik)",
+         "",
+         f"_Bu bolum `magicma_tara_dayanikli.py` tarafindan her taramada yeniden_",
+         f"_yazilir — elle duzenleme burada KALICI DEGILDIR. Son guncelleme: {bugun()}._",
+         "",
+         f"**{kl.ozet_satiri(kara_liste)}**",
+         "",
+         f"- Denenmeden atlanan (esik {kl.KARA_LISTE_ESIK} basarisiz): "
+         f"**{len(o['aktif'])}**",
+         f"- Siradaki taramada yeniden denenecek ({kl.YENIDEN_DENE_GUN} gun doldu): "
+         f"**{len(o['hemen_denenecek'])}**",
+         f"- Izlemede (henuz esigin altinda, hala her taramada deneniyor): "
+         f"**{len(o['izleniyor'])}**",
+         ""]
+    if kara_liste:
+        L += ["| Sembol | Durum | Deneme | Ilk basarisiz | Son basarisiz |",
+              "|---|---|---:|---|---|"]
+        for sembol in sorted(kara_liste):
+            kayit = kara_liste[sembol]
+            atla, _ = kl.atlanmali_mi(kara_liste, sembol)
+            if atla:
+                durum = "atlaniyor"
+            elif int(kayit.get("deneme_sayisi", 0)) >= kl.KARA_LISTE_ESIK:
+                durum = "yeniden denenecek"
+            else:
+                durum = "izlemede"
+            L.append(f"| {sembol} | {durum} | {kayit.get('deneme_sayisi', '?')} | "
+                     f"{kayit.get('ilk_basarisiz', '?')} | {kayit.get('son_basarisiz', '?')} |")
+        L.append("")
+    else:
+        L += ["_Kara liste bos._", ""]
+    L.append(_OTO_BIT)
+    return "\n".join(L)
+
+
+def taranamayan_raporu_guncelle(kara_liste):
+    """taranamayan_semboller.md icindeki OTOMATIK blogu yeniler.
+
+    Elle yazilmis bolumlere (gecici ariza notlari, tarama hizi dersi vb.)
+    DOKUNMAZ — yalnizca isaretcilerle sinirlanmis blok degisir. Isaretciler
+    yoksa blok dosyanin sonuna eklenir.
+    """
+    blok = _kara_liste_bolumu(kara_liste)
+    try:
+        os.makedirs(m.RAPOR_DIR, exist_ok=True)
+        eski = ""
+        if os.path.exists(TARANAMAYAN_MD):
+            with open(TARANAMAYAN_MD, encoding="utf-8") as f:
+                eski = f.read()
+        if _OTO_BAS in eski and _OTO_BIT in eski:
+            bas = eski.index(_OTO_BAS)
+            bit = eski.index(_OTO_BIT) + len(_OTO_BIT)
+            yeni = eski[:bas] + blok + eski[bit:]
+        else:
+            yeni = (eski.rstrip() + "\n\n" if eski.strip() else "") + blok + "\n"
+        with open(TARANAMAYAN_MD, "w", encoding="utf-8") as f:
+            f.write(yeni)
+    except OSError as e:
+        print(f"   [RAPOR] taranamayan_semboller.md yazilamadi: "
+              f"{type(e).__name__}: {e}", flush=True)
+
+
 def main():
     zaten = set() if BASTAN else taranmis_bugun()
-    todo = [s for s in m.SEMBOLLER if s not in zaten]
+    kara_liste = kl.yukle()
+    aday = [s for s in m.SEMBOLLER if s not in zaten]
     toplam = len(m.SEMBOLLER)
+
+    # --- Kara liste: kalici olarak veri vermeyen sembolleri HIC DENEME --------
+    # Bunlar TradingView'e gonderilmez; sembol basina ~20 sn (MAX_DENEME x
+    # timeout) tasarruf. Yine de "okunamayanlar" listesine yazilirlar ki rapor
+    # sayilari eksilmesin.
+    todo, atlanan = [], []
+    for s in aday:
+        atla, sebep = kl.atlanmali_mi(kara_liste, s)
+        (atlanan if atla else todo).append((s, sebep) if atla else s)
+
     print(f"Toplam {toplam} sembol. Bugun taranmis: {len(zaten)}. "
-          f"Kalan: {len(todo)}.", flush=True)
+          f"Kalan: {len(todo)}"
+          + (f" · kara listeden atlanan: {len(atlanan)}" if atlanan else "")
+          + ".", flush=True)
+    for s, sebep in atlanan:
+        print(f"   kara listeden atlandi: {s} — {sebep}", flush=True)
+    yeniden = [s for s in todo if kl.yeniden_denenecek_mi(kara_liste, s)]
+    for s in yeniden:
+        print(f"   kara listede ama {YENIDEN_DENE_GUN} gun doldu -> yeniden deneniyor: {s}",
+              flush=True)
+
+    atlanan_semboller = [s for s, _ in atlanan]
+    # Rapor blogunu bagLANMADAN once de tazele: Chrome/TV yoksa kosum erken
+    # bitse bile kara liste durumu dosyada guncel kalsin.
+    taranamayan_raporu_guncelle(kara_liste)
+
     if not todo:
-        yol, n, giren = rapor_yaz([])
-        print(f"Hepsi bugun taranmis. Rapor: {yol} ({n} sembol, {giren} rapora girdi)")
+        yol, n, giren = rapor_yaz(atlanan_semboller)
+        taranamayan_raporu_guncelle(kara_liste)
+        print(f"Hepsi bugun taranmis/atlanmis. Rapor: {yol} ({n} sembol, {giren} rapora girdi)")
+        print(f"   {kl.ozet_satiri(kara_liste)}")
         return
 
     p, b, tv = baglan_saglam()
@@ -149,7 +253,7 @@ def main():
     base = (tv.url or "").split("?")[0]
     taze = True  # yeni baglanti sonrasi ilk sembolu URL ile ac
 
-    okunamadi, okunan = [], 0
+    okunamadi, okunan = list(atlanan_semboller), 0
     for i, sym in enumerate(todo, 1):
         ticker = sym.split(":")[-1].strip()
         print(f"[{i}/{len(todo)}] {sym} ...", flush=True)
@@ -177,6 +281,9 @@ def main():
                 en = min((abs(r["mesafe_yuzde"]) for r in kayit["seviyeler"]), default=None)
                 dur = f"en yakin {m.tr_goster(en,1)}%" if en is not None else "seviye yok"
                 print(f"   OK {kayit['sembol']} {m.tr_goster(kayit['fiyat'])} ({dur})", flush=True)
+                if kl.basarili(kara_liste, sym):
+                    print("   kara listeden CIKARILDI (artik okunuyor)", flush=True)
+                    kl.kaydet(kara_liste)
                 basari = True
                 break
             except Exception as e:
@@ -195,10 +302,23 @@ def main():
                 taze = True
         if not basari:
             okunamadi.append(sym)
+            kayit = kl.basarisiz(kara_liste, sym)
+            kl.kaydet(kara_liste)
+            adet = kayit["deneme_sayisi"]
+            if adet >= KARA_LISTE_ESIK:
+                print(f"   kara listeye alindi ({adet}. basarisizlik) — bundan sonra "
+                      f"denenmeden atlanacak, {YENIDEN_DENE_GUN} gunde bir yeniden denenecek",
+                      flush=True)
+            else:
+                print(f"   kara liste sayaci: {adet}/{KARA_LISTE_ESIK}", flush=True)
 
     yol, n, giren = rapor_yaz(okunamadi)
-    print(f"\nBitti. Bu kosumda {okunan} okundu, {len(okunamadi)} okunamadi.")
+    taranamayan_raporu_guncelle(kara_liste)
+    print(f"\nBitti. Bu kosumda {okunan} okundu, {len(okunamadi)} okunamadi"
+          + (f" ({len(atlanan_semboller)}'i kara listeden denenmeden atlandi)"
+             if atlanan_semboller else "") + ".")
     print(f"Rapor: {yol}  (bugun toplam {n} sembol, {giren} rapora girdi)")
+    print(kl.ozet_satiri(kara_liste))
 
 
 if __name__ == "__main__":
