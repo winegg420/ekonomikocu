@@ -306,6 +306,37 @@ ise Koç'un 1.936/2.060 bandına yakın (yöntem farklı, bölge benzer).
 | Ağu 2026 | ETH 1.950 teyit seviyesi | İZLENİYOR |
 | Ağu 2026 | XRP tepki hedefi 1,05-1,13 | İZLENİYOR |
 
+### Nvidia bilançosu sonrası / Jackson Hole öncesi (tarih net değil, video: Kanal Finans)
+- Nvidia bilançosu %+7 tepki verdi (8 çeyrektir beklentiyi geçmesine rağmen satılıyordu, bu
+  kez farklı) → SMH, Nasdaq, S&P'ye pozitif yansıdı.
+- Nasdaq günlükte hareketli ortalama üstüne çıktı, teyit gerekiyor — pozitif kapanırsa
+  **~30.800-31.000** yeni zirve; S&P benzer şekilde **~7.900** hedefliyor.
+- ⭐ **Eylül'de 5-6 haftalık ciddi düşüş bekliyor** — yeni zirveler tamamlandıktan sonra.
+- **Uyarı: Bu yükseliş tekil (Nvidia-bağımlı), geniş tabanlı değil** — Dow Jones yatay, üç
+  endeks (Nasdaq/S&P/Dow) birbirini henüz teyit etmiyor. Kâr satışı riski var.
+- SMH 570 üstü kapanış şart (şu an sınırda, "tuzak olabilir"); IGV 108-109 hedefine ulaştı,
+  yeni alım önermiyor (haftalık aşırı alım + gösterge sinyali).
+- Uzay/teknoloji hisseleri (Rocket Lab, Astra, Firefly, Intuitive Machines, AST SpaceMobile,
+  NASA): hepsi geçen hafta "sata döndü", yeni alım önermiyor. SpaceX ayrık — olumlu, stop
+  13.186 sabit. Dream ETF 5.888 direnç, geçilmeden alım yok.
+- Jeopolitik risk: İran ekonomisi çöküyor (benzin kuyrukları), savaş retoriği sürüyor.
+- BIST: "Yükselişler satış fırsatı" teması sürüyor, sata dönüş seviyesi **14.410**.
+- Kripto: BTC "devam", stop **76.470**; ETH "devam", stop yukarı çekilmiş **2.390**; XRP kısa
+  süreli sata dönüp tekrar ala döndü, sata dönüş seviyesi **1,410**.
+
+**[Claude çapraz kontrol]:** "Eylül'de 5-6 haftalık düşüş" çağrısı, Koç'un Eylül'ü "vadelerin
+sıfırlandığı, gerçek yönün belli olduğu" kritik pencere olarak görmesiyle **zaman olarak
+örtüşüyor** ama **yön olarak ayrışıyor** — Koç Eylül'ü potansiyel yukarı kırılım penceresi
+sayıyor, Şatıroğlu aynı ayı düşüş bekliyor. İki bağımsız kaynak aynı ay için zıt senaryo
+veriyor, izlenmeli.
+
+### KARNE EK — Tunç Şatıroğlu (Nvidia sonrası)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| ? | Nasdaq ~30.800-31.000, S&P ~7.900 yeni zirve | İZLENİYOR |
+| ? | Eylül'de 5-6 haftalık ciddi düşüş | İZLENİYOR |
+| ? | BIST 14.410 altına dönene kadar yükseliş satış fırsatı | İZLENİYOR |
+
 ## EMRAH LAFÇI & ALİ PERŞEMBE
 
 ### Önceki oturum
@@ -410,6 +441,33 @@ doğrudan çelişiyor** (Koç aşağı, Lafçı yukarı).
 |---|---|---|
 | Ağu 2026 | Çin ICBC kısıtlaması yuan-altın peg hazırlığı DEĞİL | İZLENİYOR |
 | Ağu 2026 | Kısıtlamanın ons altına etkisi sınırlı kalır | İZLENİYOR |
+
+### 19 Ağustos operasyonu — stablecoin/hazine bonosu tezi
+- **Ana tez:** 19 Ağustos'ta aynı gün üst üste 3 olay: Trump'ın kripto borsası patronlarını
+  çağırdığı Beyaz Saray toplantısı, Hazine'nin tahvil geri alımını ikiye katlaması, BTC'de
+  sert yükseliş. Bunları birbirine bağlıyor.
+- **Asıl mekanizma — geri alım büyümesi değil, stablecoin:** ABD'nin kısa vadeli borç çevirme
+  sorunu var (tahvil faizleri 20 yılın zirvesinde, talep zayıf). Genius yasası stablecoin
+  ihraççılarını 1/1 oranında kısa vadeli (91 günden kısa) hazine bonosu tutmaya zorluyor. Şu an
+  piyasada **$300 milyar stablecoin** var (7 trilyonluk bono stoğunun küçük parçası) — bu
+  büyürse (örn. $1 trilyona çıkarsa borcun ~%15'i) ABD'ye devasa borç-çevirme alanı açar.
+- **Toplantının gerçek amacının Clarity yasası olmadığını düşünüyor** — bir gün önce SEC'in
+  token çıkarma/fon toplamayı kolaylaştıran düzenlemesiyle bağlantılı olduğunu iddia ediyor.
+- Hazine geri alım artışını ($2M→$4M) küçük ve kripto rallisiyle ilgisiz görüyor.
+- **Öngörü:** ABD'nin tek seçeneği kripto piyasasına talep yaratmak (tokenize hisseler henüz
+  yok) → "bugüne kadar görülmemiş büyüklükte likidite" kripto'ya girebilir.
+- Kendi pozisyonu: 8 aydır kademeli kripto biriktiriyor (son alım geçen ay), 4 piyasada
+  (ABD/BIST/emtia/kripto) dengeli portföy yürütüyor.
+
+**[Claude çapraz kontrol]:** 19 Ağustos tarihi, Kobeissi Letter'ın "19 Ağustos 08:30 kripto
+kırılma" tarihiyle birebir örtüşüyor — **4. bağımsız kaynak** aynı pencereye işaret ediyor
+(Koç + Kobeissi + Soydan'ın kripto zirvesi anlatımı + şimdi Altınocağı).
+
+### KARNE EK — Emrah Altınocağı (19 Ağustos)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 19 Ağu | Stablecoin arzı büyürse ABD'ye borç çevirme alanı açar, kripto talebi kasıtlı teşvik ediliyor | İZLENİYOR |
+| 19 Ağu | Kripto piyasasına görülmemiş büyüklükte likidite girebilir | İZLENİYOR |
 
 ## EROL POLAT (Money Talks — Üç Harfler)
 
@@ -648,6 +706,44 @@ bandının **üstünde** — ya gümüş Ağustos'ta toparlandı ya da iki kayna
 | 22 Ağu | Fed Jackson Hole'da şahin sürpriz ihtimali düşük | İZLENİYOR |
 | 22 Ağu | Michael Hartnett: 30Y tahvil faizi %5 üstü tekno için kırmızı çizgi | İZLENİYOR |
 
+### 27 Ağustos 2026 ("Altın ve gümüşte yarına dikkat | Sıcak para akını | Halka arz tavanları")
+- TR banka altın mevduatı: geçen hafta **$4 milyar arttı**, sadece $200M yeni alım — kalan
+  $3,8 milyar tamamen fiyat artışından servet etkisi.
+- Son 10 yılda TR $140 milyar altın ithal etti, bugünkü değeri $340 milyar (Emre Akçakmak
+  hesabı) → **$200 milyar servet artışı**.
+- Ons altın 3 haftada $4.000→$4.700, Perşembe $4.600 üstü, gün içi yatay. Ons gümüş $68
+  civarında, Jackson Hole öncesi temkinli.
+- ABD borç $40 trilyona ulaştı → tahvil satışı → faiz yükseldi → dolar düştü (aynı debasement
+  trade teması, 22 Ağustos içeriğiyle tutarlı).
+- ⭐ **Goldman Sachs:** ABD finansal varlıklarının sadece %0,17'si altında — bu oran %0,01
+  artarsa altın dünya çapında **%1,4** yükselir.
+- ⭐ **JP Morgan:** yabancı yatırımcı ABD varlık payının %0,5'i ($70 milyar) altına kayarsa
+  altın **%18** yükselir.
+- TR'de tasarrufların hâlâ %60'ı TL'de (yüksek faiz nedeniyle). **Carry trade rekoru: $65,3
+  milyar** (tüm zamanların zirvesi), son 3 haftada $7 milyar artış. TCMB brüt rezerv $190
+  milyar eşiğinde, swap hariç net $56 milyar.
+- Yüksek faizin reel sektöre etkisi — **Yiğit Akü örneği:** ciro arttı ama finansman gideri
+  ($186M) yüzünden zarar açıkladı.
+- Tera Portföy fonlarında büyük hareket: TDY (serbest fon) $15-16 milyar çıkış → THF (hisse
+  fonu) $30 milyar giriş, THF Ağustos'ta **%23+ kazandırdı**.
+- Nvidia %+7,5, $225 (opsiyon fiyatlaması $220 hedefliyordu, tuttu). Jensen Huang: gelecek
+  mali yılda %70 büyüme, çip şirketleri 2028'e kadar yok satacak.
+- BIST %0,24 eksi kapandı (14.575) — Destek Faktoring taban yaptığı için endeksi 65 puan
+  aşağı çekti (o olmasa +%0,20 olacaktı). Destek 14.350 / direnç 14.730.
+- **Hedef Holding son 1 ayda %56 çöktü** (Pusula Portföyü fon çıkışı nedeniyle).
+
+**[Claude çapraz kontrol]:** Goldman/JP Morgan'ın altın-akış senaryoları, Integral FX TV'deki
+Erhan Aslanoğlu'nun "büyük kriz olmazsa altın ana yönü yukarı" görüşüyle **aynı yönde** ama
+Aslanoğlu'nun stagflasyon-riski uyarısı burada yok — iyimser taraf ile temkinli tarafın aynı
+hafta içinde geldiğini not et.
+
+### KARNE EK 2 — Barış Soydan (27 Ağustos)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 27 Ağu | Goldman: %0,01 portföy altın artışı → %1,4 fiyat artışı | İZLENİYOR |
+| 27 Ağu | JP Morgan: $70 milyar altın girişi → %18 fiyat artışı | İZLENİYOR |
+| 27 Ağu | Carry trade TL'de tüm zamanların zirvesinde ($65,3 milyar) | DOĞRULANDI (veri anlık) |
+
 ## INTEGRAL FX TV (Karagöz / Sağman / Perşembe paneli)
 
 ### Ağustos 2026 — panel değerlendirmesi (19 Ağu oturumunda eklendi)
@@ -670,6 +766,48 @@ okumasının tersi yönde. Japonya konusunda Koç'un 30 Temmuz BOJ notuyla dolay
 | Ağu 2026 | UBS $5.000 / Citibank $6.000 hedefleri (aktarım) | İZLENİYOR |
 
 ---
+
+### 25 Ağustos 2026 — Erhan Aslanoğlu röportajı (Strateji Masası)
+- ⭐ **TCMB haftalık repo ihaleleri yeniden başladı** (1 Mart'tan beri aradaydı) — pazar akşamı
+  sürpriz duyuru. Örtülü faiz indirimi sinyali olarak okunuyor. **Bu, panelin kendi 19 Ağustos
+  tahminini (10 Eylül'de açılır) DOĞRULADI ama 16 gün ERKEN gerçekleşti** — beklenenden hızlı.
+- Politika faizi %40'tan %37'ye indirildi. Eylül'de yarım puan daha indirim ihtimali Aslanoğlu'na
+  göre **%50'den az** ama süreç başladı — Ekim/Aralık'a sarkabilir.
+- Sebep: reel sektör zorlanması (sanayi/ihracat/turizm), iç talep yavaşlaması, ayrıca carry
+  trade dozunu azaltma niyeti (stopaj vergisiyle birlikte okunmalı).
+- TL hanehalkı enflasyon beklentisi hâlâ **%45** (12 ay sonrası) — yüksek.
+- **BIST tahmini:** hisse başı ~$300 referans korunur; dolar/TL yıl sonu **50-55 bandı**
+  (muhtemel 53-54), buna göre BIST TL bazında **16.000-17.000 bandı** yıl sonuna doğru.
+- ⭐ **US10Y tahvil faizi %4,70'lerden %5'e doğru gidebilir** — %5'i geçmesi "çok tehlikeli",
+  müdahale bekleniyor. **Bu, Berk Dinçtürk'ün Bessent %4,75 tavan söylemiyle VE Koç'un merdiven
+  okumasındaki 68 basamağıyla (%4,68) ÜÇLÜ KESIŞIM oluşturuyor** — üç bağımsız kaynak aynı
+  dar bandı (4,68-5,00) kritik eşik olarak işaretliyor.
+- Fed'in seçim sonrası (Kasım 2026 ara seçimi) **faiz artıracağını** tahmin ediyor — bu,
+  Koç'un ve diğer kaynakların "faiz indirimi geliyor" beklentisiyle **doğrudan zıt yönde**,
+  önemli bir ayrışma noktası.
+- ABD kamu borcu 2026 hedefi $39 trilyon idi, şu an $40-42 trilyona gidiyor (hedef üstü).
+  ABD teknoloji şirketleri son 12 ayda $2-2,5 trilyon borçlandı — "devlet gibi borçlanıyorlar".
+- Yapay zeka/borsa: "balon var mı" tartışması demode ama sürüyor, ana yön yukarı görüyor;
+  Muhteşem 7 dışındaki S&P 493, Russell ve Dow Jones'un öne çıkacağını düşünüyor.
+- ⭐ **Altın uyarısı — Koç'un boğa-şartı-gerçekleşmezse tezine paralel bir uyarı:** ana yön
+  yukarı (merkez bankası alımları, dolar zayıflığı, %57'ye inen rezerv payı) ANCAK büyük
+  kriz/stagflasyon senaryosunda **"altın acımasız düşebilir"** — bu yıl $5.500'den $3.900'e
+  düştüğü örneği veriliyor, teorik olarak $2.700'e kadar düşebilirdi diyor.
+- Yatırım önerisi: likit kalmak + güvenli limanlar (devlet tahvili, altın/gümüş/platin),
+  portföyün %50-60'ı güvenli, %30-40'ı riskli varlık.
+
+**[Claude çapraz kontrol]:** Fed'in faiz artıracağı görüşü, Koç/Soydan/Dinçtürk'ün "dolar
+kasıtlı zayıflatılıyor, faiz indirimi geliyor" çerçevesiyle **tam zıt** — bu ayrışma özellikle
+izlenmeli, çünkü doğrulanırsa Koç'un 3 boğa şartından biri (faiz indirimi) çöker.
+
+### KARNE EK — Integral FX TV (Erhan Aslanoğlu, 25 Ağustos)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 19 Ağu (panel) | TCMB 10 Eylül'de haftalık repoya geçer | **DOĞRULANDI (16 gün erken)** |
+| 25 Ağu | US10Y %5'e yaklaşır, geçmesi tehlikeli | İZLENİYOR |
+| 25 Ağu | Fed seçim sonrası faiz artırır | İZLENİYOR |
+| 25 Ağu | Büyük kriz olmazsa altın ana yönü yukarı, kriz olursa acımasız düşer | İZLENİYOR |
+| 25 Ağu | Yıl sonu USDTRY 50-55 bandı, BIST 16-17.000 | İZLENİYOR |
 
 ## ŞANT MANUKYAN (İş Yatırım)
 
@@ -1383,3 +1521,41 @@ sadece zaman ufku farklı.
 **Çapraz not:** Video 2 (Lafçı) ile Video 5 (Acemoğlu) bağlantılı — Lafçı, Acemoğlu'nun
 kitabını okuduğunu belirtiyor. Video 6 ve 7 aynı yazarın (Doruk İşmen) fiyat ve
 yapısal/tarihsel ayakları.
+
+---
+
+## KRİPTO TEKNİK (Oytun & Altun, canlı yayın formatı)
+
+### 27 Ağustos 2026 gece — "Bitcoin Durmuyor"
+- BTC yayın sırasında ~$80.000 civarında, gün içi $80.000 üstünde kaldı.
+- ⭐ **BTC Golden Cross tarihi: 1 Eylül 2026** (200 günlük ortalama $69.000'da, fiyat üstünde
+  ~$11-15K mesafe var).
+- Yakın hedef **$82.500-83.000** (Mayıs zirvesi), oradan $73-75K'da güç toplama ihtimali,
+  ardından çanak formasyonu tamamlanırsa **$100.000-108.000**.
+- **ETH $2.500 kırdı**, Golden Cross 1-2 gün içinde bekleniyor (~29-30 Ağustos). $3.000
+  kırılırsa altcoin'lere ciddi sirayet bekleniyor — "ETH olmadan altcoin boğası olmaz" tezi.
+- **BTC dominansı %60,18** — altcoin rallisi için hâlâ yüksek sayılıyor.
+- Altcoin piyasası (BTC/ETH/stabil hariç) **$480 milyar'da sıkışmış** (Ocak'tan beri
+  değişmemiş), $500 milyar kırılırsa "yeni hikaye" başlar diyorlar.
+- **Bernstein (kurumsal) BTC hedefleri:** 2026 sonu $125K, 2027 ortası $150K, 2029 $300K
+  (kötümser senaryo) / $500K (iyimser senaryo). Sunuculardan biri şüpheci — "yeni zirveye gidip
+  bir yıl boyunca üstüne sadece %10 koyduğu bir dönem hiç olmadı" itirazı var.
+- Trump'ın Kasım 2026 ara seçimlerini büyük farkla kaybedeceği öngörülüyor — bunun piyasalar
+  için belirsizlik azaltıcı, olumlu olacağı savunuluyor.
+- Genel ton temkinli-iyimser: "2027'nin ön toparlanması", henüz tam boğa değil, altcoinlerde
+  hafif kalkışma bekleniyor ama coşku yok.
+
+**[Claude çapraz kontrol]:** 1 Eylül Golden Cross tarihi, Koç'un "Eylül = vadelerin
+sıfırlandığı, gerçek yön belli olacağı ay" tezine **zaman olarak tam örtüşüyor** — üçüncü
+bağımsız kaynak (Koç + Kripto Teknik + dolaylı olarak Bernstein'ın yıl sonu hedefi) aynı
+takvime işaret ediyor. Trump'ın seçim kaybı senaryosu, Erhan Aslanoğlu'nun Integral FX TV
+röportajındaki "Trump kaybedecek gibi görünüyor" görüşüyle **aynı yönde bağımsız teyit**.
+
+### KARNE — Kripto Teknik
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 27 Ağu | BTC Golden Cross 1 Eylül 2026 | İZLENİYOR |
+| 27 Ağu | BTC yakın hedef $82.500-83.000 | İZLENİYOR |
+| 27 Ağu | ETH Golden Cross ~29-30 Ağustos | İZLENİYOR |
+| 27 Ağu | ETH $3.000 kırılırsa altcoin sirayeti başlar | İZLENİYOR |
+| 27 Ağu | Bernstein: BTC 2026 sonu $125K | İZLENİYOR |
