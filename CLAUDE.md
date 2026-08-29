@@ -364,11 +364,20 @@ taranir. Filtre **script icinde**, Task Scheduler seviyesinde DEGIL; gorev artik
 - `abd_hisse.txt` -> hafta ici **09:30-16:00 New York saati**. TSI karsiligi DST
   ile kayar (yaz 16:30-23:00, kis 17:30-00:00). **Tarih hardcode EDILMEZ**,
   `zoneinfo` ile New York yerel saatine cevrilip karsilastirilir.
-- `kripto.txt`, `forex_emtia.txt`, `endeks_faiz.txt`, `gunun_hareketlileri.txt`
-  -> **filtre yok, 7/24**. (Forex gercekte hafta sonu kapali ama bu surumde
-  bilerek filtrelenmiyor. Resmi tatil takvimi de yok — bilinen sinirlamalar.)
-- Bir sembol hem filtreli hem serbest listede varsa **serbest kazanir**
-  (orn. XU100 `endeks_faiz.txt`'te -> filtrelenmez).
+- `forex_emtia.txt` + `endeks_faiz.txt` -> **FX 24/5 seansi** (2026-08-29'da
+  eklendi, eski "7/24" davranisini gecersiz kilar): Pazar **17:00 New York**'ta
+  acilir, Cuma **17:00 New York**'ta kapanir. **Hafta sonu tamamen kapali.**
+  TSI karsiligi DST ile kayar (yaz Pzt 00:00 - Cmt 00:00, kis Pzt 01:00 -
+  Cmt 01:00); tarih hardcode EDILMEZ, saat New York yereline cevrilir.
+- `kripto.txt`, `gunun_hareketlileri.txt` -> **filtre yok, 7/24**. Hafta sonu
+  bildirim gelen tek varlik sinifi kriptodur.
+- Bir sembol hem filtreli hem serbest listede varsa **serbest kazanir**.
+  Filtreli listeler arasi istisna `piyasa_saati.SEMBOL_PIYASA` ile verilir:
+  `XU100`/`XU030` `endeks_faiz.txt`'te durur ama **BIST saatine** tabidir.
+- Resmi tatil takvimi hala yok — bilinen sinirlama.
+- **Yan etki:** DXY `forex_emtia.txt`'te oldugu icin hafta sonu fiyati
+  cekilmez; `koc_tetigi.py` "DXY fiyati alinamadi" der ve kosul 1'i pasif
+  sayar (fail-safe). Sayi degismedigi icin hafta sonu sessiz kalir.
 
 Kapali sembollerin fiyati **hic cekilmez** (gereksiz API cagrisi yok).
 Piyasa kapandigi icin listeden dusen sembol "LISTEDEN CIKTI" diye

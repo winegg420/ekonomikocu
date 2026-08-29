@@ -8,10 +8,10 @@
   "yon": "short",
   "giris_fiyati": 2.543e-05,
   "giris_zamani": "2026-08-28T23:17:50+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarili",
+  "sonuc_fiyati": 2.518e-05,
+  "sonuc_zamani": "2026-08-29T12:00:13+03:00",
+  "sonuc_yuzde": 0.983
  },
  {
   "id": "DXY_2026-08-28T23:17:50+03:00_G-Ust",
@@ -263,10 +263,10 @@
   "yon": "short",
   "giris_fiyati": 7.52,
   "giris_zamani": "2026-08-28T23:30:13+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarili",
+  "sonuc_fiyati": 7.48,
+  "sonuc_zamani": "2026-08-29T12:00:13+03:00",
+  "sonuc_yuzde": 0.532
  },
  {
   "id": "CARDSUSDT_2026-08-28T23:39:01+03:00_G-Ust",
@@ -321,10 +321,10 @@
   ],
   "giris_fiyati": 0.04526,
   "giris_zamani": "2026-08-28T23:43:00+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarisiz",
+  "sonuc_fiyati": 0.04553,
+  "sonuc_zamani": "2026-08-29T10:20:17+03:00",
+  "sonuc_yuzde": -0.597
  },
  {
   "id": "NEARUSDT_2026-08-28T23:43:00+03:00_G-Alt",
@@ -363,10 +363,10 @@
   ],
   "giris_fiyati": 0.12742,
   "giris_zamani": "2026-08-28T23:53:55+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarisiz",
+  "sonuc_fiyati": 0.12583,
+  "sonuc_zamani": "2026-08-29T10:20:17+03:00",
+  "sonuc_yuzde": -1.248
  },
  {
   "id": "XAUUSD_2026-08-28T23:53:55+03:00_X-4500",
@@ -495,10 +495,10 @@
   ],
   "giris_fiyati": 0.01513,
   "giris_zamani": "2026-08-29T00:20:13+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarisiz",
+  "sonuc_fiyati": 0.01534,
+  "sonuc_zamani": "2026-08-29T10:20:17+03:00",
+  "sonuc_yuzde": -1.388
  },
  {
   "id": "APRUSDT_2026-08-29T00:20:13+03:00_G-Ust",
@@ -517,10 +517,10 @@
   ],
   "giris_fiyati": 0.20108,
   "giris_zamani": "2026-08-29T00:20:13+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarisiz",
+  "sonuc_fiyati": 0.19765,
+  "sonuc_zamani": "2026-08-29T10:20:17+03:00",
+  "sonuc_yuzde": -1.706
  },
  {
   "id": "LAVAUSDT_2026-08-29T00:30:12+03:00_G-Alt",
@@ -539,10 +539,10 @@
   ],
   "giris_fiyati": 0.01985,
   "giris_zamani": "2026-08-29T00:30:12+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarili",
+  "sonuc_fiyati": 0.0204,
+  "sonuc_zamani": "2026-08-29T10:20:17+03:00",
+  "sonuc_yuzde": 2.771
  },
  {
   "id": "AVLUSDT_2026-08-29T00:30:12+03:00_G-Alt",
@@ -583,10 +583,10 @@
   ],
   "giris_fiyati": 0.006085,
   "giris_zamani": "2026-08-29T00:30:12+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarili",
+  "sonuc_fiyati": 0.006227,
+  "sonuc_zamani": "2026-08-29T10:20:17+03:00",
+  "sonuc_yuzde": 2.334
  },
  {
   "id": "YBUSDT_2026-08-29T00:40:14+03:00_G-Alt",
@@ -605,10 +605,10 @@
   ],
   "giris_fiyati": 0.0928,
   "giris_zamani": "2026-08-29T00:40:14+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarili",
+  "sonuc_fiyati": 0.0951,
+  "sonuc_zamani": "2026-08-29T10:20:17+03:00",
+  "sonuc_yuzde": 2.478
  },
  {
   "id": "REDUSDT_2026-08-29T00:40:14+03:00_G-Ust",
@@ -627,6 +627,270 @@
   ],
   "giris_fiyati": 0.1086,
   "giris_zamani": "2026-08-29T00:40:14+03:00",
+  "durum": "basarisiz",
+  "sonuc_fiyati": 0.1098,
+  "sonuc_zamani": "2026-08-29T10:20:17+03:00",
+  "sonuc_yuzde": -1.105
+ },
+ {
+  "id": "FLUIDUSDT_2026-08-29T10:20:17+03:00_G-Alt",
+  "sembol": "FLUIDUSDT",
+  "kategori": "kripto",
+  "cizgi_adi": "Magicma Günlük Alt Çizgi",
+  "cizgi_degeri": 1.294930597,
+  "yon": "long",
+  "kaynak_turu": "teknik",
+  "kaynak": "BYBIT",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Alt Çizgi"
+  ],
+  "giris_fiyati": 1.2949,
+  "giris_zamani": "2026-08-29T10:20:17+03:00",
+  "durum": "basarisiz",
+  "sonuc_fiyati": 1.2884,
+  "sonuc_zamani": "2026-08-29T12:00:13+03:00",
+  "sonuc_yuzde": -0.502
+ },
+ {
+  "id": "ZENUSDT_2026-08-29T10:20:17+03:00_G-Ust",
+  "sembol": "ZENUSDT",
+  "kategori": "kripto",
+  "cizgi_adi": "Magicma Günlük Üst Çizgi",
+  "cizgi_degeri": 4.9116859504,
+  "yon": "short",
+  "kaynak_turu": "teknik",
+  "kaynak": "BINANCE",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Üst Çizgi"
+  ],
+  "giris_fiyati": 4.911,
+  "giris_zamani": "2026-08-29T10:20:17+03:00",
+  "durum": "acik",
+  "sonuc_fiyati": null,
+  "sonuc_zamani": null,
+  "sonuc_yuzde": null
+ },
+ {
+  "id": "ZANOUSDT_2026-08-29T10:20:17+03:00_H-1",
+  "sembol": "ZANOUSDT",
+  "kategori": "kripto",
+  "cizgi_adi": "Magicma Haftalık -1",
+  "cizgi_degeri": 8.1163382353,
+  "yon": "long",
+  "kaynak_turu": "teknik",
+  "kaynak": "MEXC",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Haftalık -1"
+  ],
+  "giris_fiyati": 8.126,
+  "giris_zamani": "2026-08-29T10:20:17+03:00",
+  "durum": "basarili",
+  "sonuc_fiyati": 8.176,
+  "sonuc_zamani": "2026-08-29T12:10:15+03:00",
+  "sonuc_yuzde": 0.615
+ },
+ {
+  "id": "EURJPY_2026-08-29T10:20:17+03:00_G-Ust",
+  "sembol": "EURJPY",
+  "kategori": "forex_emtia",
+  "cizgi_adi": "Magicma Günlük Üst Çizgi",
+  "cizgi_degeri": 184.873677686,
+  "yon": "long",
+  "kaynak_turu": "teknik",
+  "kaynak": "YAHOO",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Üst Çizgi"
+  ],
+  "giris_fiyati": 185.244,
+  "giris_zamani": "2026-08-29T10:20:17+03:00",
+  "durum": "acik",
+  "sonuc_fiyati": null,
+  "sonuc_zamani": null,
+  "sonuc_yuzde": null
+ },
+ {
+  "id": "WLDUSDT_2026-08-29T10:20:17+03:00_G-Ust",
+  "sembol": "WLDUSDT",
+  "kategori": "kripto",
+  "cizgi_adi": "Magicma Günlük Üst Çizgi",
+  "cizgi_degeri": 0.3752859504,
+  "yon": "long",
+  "kaynak_turu": "teknik",
+  "kaynak": "BINANCE",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Üst Çizgi"
+  ],
+  "giris_fiyati": 0.3762,
+  "giris_zamani": "2026-08-29T10:20:17+03:00",
+  "durum": "basarisiz",
+  "sonuc_fiyati": 0.3734,
+  "sonuc_zamani": "2026-08-29T12:00:13+03:00",
+  "sonuc_yuzde": -0.744
+ },
+ {
+  "id": "BADGERUSDT_2026-08-29T10:20:17+03:00_G-Ust",
+  "sembol": "BADGERUSDT",
+  "kategori": "kripto",
+  "cizgi_adi": "Magicma Günlük Üst Çizgi",
+  "cizgi_degeri": 0.3822595041,
+  "yon": "short",
+  "kaynak_turu": "teknik",
+  "kaynak": "GATEIO",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Üst Çizgi"
+  ],
+  "giris_fiyati": 0.3832,
+  "giris_zamani": "2026-08-29T10:20:17+03:00",
+  "durum": "acik",
+  "sonuc_fiyati": null,
+  "sonuc_zamani": null,
+  "sonuc_yuzde": null
+ },
+ {
+  "id": "TAOUSDT_2026-08-29T12:00:13+03:00_G-Alt",
+  "sembol": "TAOUSDT",
+  "kategori": "kripto",
+  "cizgi_adi": "Magicma Günlük Alt Çizgi",
+  "cizgi_degeri": 231.9111940299,
+  "yon": "long",
+  "kaynak_turu": "teknik",
+  "kaynak": "BINANCE",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Alt Çizgi"
+  ],
+  "giris_fiyati": 232.1,
+  "giris_zamani": "2026-08-29T12:00:13+03:00",
+  "durum": "acik",
+  "sonuc_fiyati": null,
+  "sonuc_zamani": null,
+  "sonuc_yuzde": null
+ },
+ {
+  "id": "FORMUSDT_2026-08-29T12:00:13+03:00_G-Alt",
+  "sembol": "FORMUSDT",
+  "kategori": "kripto",
+  "cizgi_adi": "Magicma Günlük Alt Çizgi",
+  "cizgi_degeri": 0.2338604478,
+  "yon": "long",
+  "kaynak_turu": "teknik",
+  "kaynak": "BINANCE",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Alt Çizgi"
+  ],
+  "giris_fiyati": 0.2343,
+  "giris_zamani": "2026-08-29T12:00:13+03:00",
+  "durum": "acik",
+  "sonuc_fiyati": null,
+  "sonuc_zamani": null,
+  "sonuc_yuzde": null
+ },
+ {
+  "id": "ORCAUSDT_2026-08-29T12:10:15+03:00_G-Ust",
+  "sembol": "ORCAUSDT",
+  "kategori": "kripto",
+  "cizgi_adi": "Magicma Günlük Üst Çizgi",
+  "cizgi_degeri": 1.267322314,
+  "yon": "long",
+  "kaynak_turu": "teknik",
+  "kaynak": "BINANCE",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Üst Çizgi"
+  ],
+  "giris_fiyati": 1.267,
+  "giris_zamani": "2026-08-29T12:10:15+03:00",
+  "durum": "acik",
+  "sonuc_fiyati": null,
+  "sonuc_zamani": null,
+  "sonuc_yuzde": null
+ },
+ {
+  "id": "WLDUSDT_2026-08-29T12:20:14+03:00_G-Ust",
+  "sembol": "WLDUSDT",
+  "kategori": "kripto",
+  "cizgi_adi": "Magicma Günlük Üst Çizgi",
+  "cizgi_degeri": 0.3752859504,
+  "yon": "long",
+  "kaynak_turu": "teknik",
+  "kaynak": "BINANCE",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Üst Çizgi"
+  ],
+  "giris_fiyati": 0.375,
+  "giris_zamani": "2026-08-29T12:20:14+03:00",
+  "durum": "acik",
+  "sonuc_fiyati": null,
+  "sonuc_zamani": null,
+  "sonuc_yuzde": null
+ },
+ {
+  "id": "HONEYUSDT_2026-08-29T12:20:14+03:00_G-Alt",
+  "sembol": "HONEYUSDT",
+  "kategori": "gunun_hareketlileri",
+  "cizgi_adi": "Magicma Günlük Alt Çizgi",
+  "cizgi_degeri": 0.0014831925,
+  "yon": "long",
+  "kaynak_turu": "teknik",
+  "kaynak": "GATEIO",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Alt Çizgi"
+  ],
+  "giris_fiyati": 0.001486,
+  "giris_zamani": "2026-08-29T12:20:14+03:00",
+  "durum": "basarisiz",
+  "sonuc_fiyati": 0.0014604,
+  "sonuc_zamani": "2026-08-29T12:24:38+03:00",
+  "sonuc_yuzde": -1.723
+ },
+ {
+  "id": "FLUIDUSDT_2026-08-29T12:20:14+03:00_G-Alt",
+  "sembol": "FLUIDUSDT",
+  "kategori": "kripto",
+  "cizgi_adi": "Magicma Günlük Alt Çizgi",
+  "cizgi_degeri": 1.294930597,
+  "yon": "long",
+  "kaynak_turu": "teknik",
+  "kaynak": "BYBIT",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Alt Çizgi"
+  ],
+  "giris_fiyati": 1.2917,
+  "giris_zamani": "2026-08-29T12:20:14+03:00",
   "durum": "acik",
   "sonuc_fiyati": null,
   "sonuc_zamani": null,

@@ -274,10 +274,14 @@ def _borsa(kaynak, sembol, listeler):
 
 # Piyasa saati filtresine tabi listeler ile "her zaman acik" listeler.
 # Serbest listeler SONRA islenir ki bir sembol iki listede birden varsa
-# filtresiz olan kazansin (orn. XU100 endeks_faiz.txt'te -> filtrelenmez).
-FILTRELI_LISTELER = ("bist.txt", "abd_hisse.txt")
-SERBEST_LISTELER = ("kripto.txt", "forex_emtia.txt", "endeks_faiz.txt",
-                    "gunun_hareketlileri.txt")
+# filtresiz olan (7/24 kripto) kazansin.
+# forex_emtia.txt ve endeks_faiz.txt 2026-08-29'da FILTRELI'ye alindi: FX ve
+# emtia hafta sonu kapali, hafta sonu gelen temas bildirimleri anlamsizdi.
+# BIST endeksleri (XU100/XU030) endeks_faiz.txt'te durur ama piyasa_saati
+# icindeki SEMBOL_PIYASA istisnasiyla BIST saatine baglanir.
+FILTRELI_LISTELER = ("bist.txt", "abd_hisse.txt", "forex_emtia.txt",
+                     "endeks_faiz.txt")
+SERBEST_LISTELER = ("kripto.txt", "gunun_hareketlileri.txt")
 
 
 def sembol_dosya_haritasi():
@@ -304,11 +308,11 @@ def piyasa_filtresi_uygula(seviyeler, simdi=None, log=print):
 
     for sembol, veri in seviyeler.items():
         dosya = harita.get(sembol, "")
-        if piyasa_saati.piyasa_acik_mi(dosya, simdi):
+        if piyasa_saati.piyasa_acik_mi(dosya, simdi, sembol=sembol):
             acik[sembol] = veri
         else:
             kapali.add(sembol)
-            ad = piyasa_saati.piyasa_adi(dosya) or "?"
+            ad = piyasa_saati.piyasa_adi(dosya, sembol) or "?"
             kapali_sayac[ad] = kapali_sayac.get(ad, 0) + 1
 
     an = simdi or piyasa_saati.simdi_tsi()
