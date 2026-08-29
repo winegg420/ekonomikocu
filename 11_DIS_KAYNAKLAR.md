@@ -450,6 +450,67 @@ ayrışma sinyali artık 2 kaynağa çıktı (Aslanoğlu + bu program), izlenmel
 | Jackson Hole günü | Eylül'de Fed faiz artırım ihtimali ~%35 | İZLENİYOR |
 | Jackson Hole günü | Platin alım seviyeleri 1.770 / 1.710 | İZLENİYOR |
 
+### Emrah Lafçı (solo) — "Bana Fonları Anlat" Bölüm 39
+**Not:** Bu bölüm **Ali Perşembe'siz**, Emrah Lafçı'nın SOLO sunduğu farklı bir program
+("Bana Fonları Anlat", TEFAS fon odaklı). Video: "Yeni yatırım temaları bankacılık ve
+tahviller mi? | Bana Fonları Anlat Bölüm 39" — kayıt Perşembe, saat 13:52 (TCMB'nin
+haftalık repo faizi indirimi sonrası hafta). Aşağıdaki görüşler Ali Perşembe'ye ait DEĞİL.
+
+**Jeopolitik:**
+- CIA Başkanı John Ratcliffe'in 2021'den beri ilk kez Moskova'ya gitmesi — The Atlantic
+  bunu Ukrayna savaşı öncesi istihbarat paylaşım hareketine benzetiyor ("Why did John
+  Ratcliffe go to Moscow"). Benzer bir hazırlık/uyarı senaryosu spekülasyonu var.
+- Bu jeopolitik gerilim, rafineri marjlarını (dizel) yukarı çekiyor — Tüpraş'a olumlu
+  ama benzin fiyatlarının düşmesine engel, dolayısıyla enflasyon sakinleşme senaryosuna
+  ters bir baskı unsuru.
+
+**TR faiz/enflasyon görüşü:**
+- ⭐ **%30 altı enflasyon beklentisi gerçekçi değil** (tekrarlanan tema — Erhan
+  Aslanoğlu'nun temkinli görüşüyle aynı yönde). Hızlı faiz indirimi beklemiyor.
+- TCMB'nin sürpriz haftalık repo indirimi sonrası 2 yıllık tahvil faizi %40 altına
+  indi (%39,90) — ama tarihsel bağlamda Şubat ortasında zaten %35-36'daydı, savaş
+  fiyatlamasıyla %45'lere çıkmıştı. Hızlı şekilde %36'lara geri gelmesini beklemiyor.
+- ⭐ **Türkiye CDS 219 baz puana kadar düştü** — Cüneyt Paksoy'un (Integral FX TV)
+  bağımsız verdiği **217 baz puan** rakamıyla neredeyse birebir örtüşüyor, farklı
+  tarihte iki kaynaktan teyit. Şubat ortası seviyesine geri dönüş olarak nitelendiriliyor,
+  risk priminde belirgin iyileşme.
+
+**Fon önerileri (TEFAS — bilgi amaçlı, Ida'nın portföyünde TEFAS fonu yok):**
+- Uzun vadeli borçlanma araçları fonları (TEB TBT %5,97 aylık, Fiba Fİ %5,88, Yapı
+  Kredi YVB %5,86, Garanti GUV %5,69-70 aylık) — faiz düşerse değer kazanır.
+- Para piyasası fonu getirileri düşüyor (~%3,5 aylık), zaman içinde gecelikten %37'ye
+  inecek.
+- Yabancı borçlanma araçları fonları (Eurobond) aylık %3,5-4 — CDS düşüşünden olumlu
+  etkileniyor, döviz nakit tutmaya alternatif olarak öneriliyor.
+- Bankacılık sektör fonları (Garanti/Yapı Kredi/Akbank/İşçi ağırlıklı) — son 1 ay %5-6
+  getiri ama 6 aylık bazda hâlâ %15-20 değer kaybında (faiz yükseliş döneminden kalma).
+- Teknoloji temalı fonlar (bazıları aylık %16-17) — altına benzer mantıkla portföyün
+  bir kısmının teknolojiye ayrılmasını öneriyor.
+
+**Nvidia/borç teması:**
+- Nvidia bilançosu beklenti üstü — "balon değil" görüşü, fiyatlamaların finansal
+  verilerle birlikte hareket ettiğini vurguluyor.
+- ⭐ **Bulut sağlayıcıları (Amazon/Google gibi) Nvidia gelirinin yarısını oluşturuyor**,
+  bu şirketler veri merkezi/çip alımı için ağır borçlanıyor — bu borçlanma, ABD tahvil
+  faizlerini yukarı çeken faktörlerden biri olarak gösteriliyor (bütçe açığı +
+  teknoloji şirketi borçlanması ikisi birden talep yaratıp faizi yukarı itiyor). Bu,
+  Berk Dinçtürk'ün Bessent %4,75 tavan tezi ve genel "debasement trade" temasıyla
+  aynı mekanizmaya başka bir açıdan işaret ediyor.
+
+**[Claude çapraz kontrol]:** CDS rakamı (219bp) Cüneyt Paksoy'un 217bp'siyle bağımsız
+örtüşüyor — iki kaynak aynı haftada birbirine çok yakın risk primi ölçümü veriyor,
+güçlü teyit. "%30 altı enflasyon gerçekçi değil" görüşü artık 2. kaynaktan geliyor
+(Aslanoğlu + Lafçı) — Koç'un hızlı faiz indirimi beklentisine karşı biriken temkinli
+kesim büyüyor.
+
+### KARNE EK — Emrah Lafçı (Bana Fonları Anlat #39)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| Perşembe | %30 altı enflasyon beklentisi gerçekçi değil | İZLENİYOR |
+| Perşembe | Tahvil faizi hızlı şekilde %36'lara gelmez | İZLENİYOR |
+| Perşembe | CDS 219bp — risk priminde iyileşme (Paksoy'un 217bp'siyle örtüşüyor) | DOĞRULANDI (çapraz kaynak) |
+| Perşembe | Nvidia bilançosu balon değil, borç teması tahvil faizini besliyor | İZLENİYOR |
+
 ## BAKI ATILAL (A1 Kapital)
 
 ### Önceki oturum
