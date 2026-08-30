@@ -2777,3 +2777,20 @@ Toplam 23/23 doğru, sonrasında regresyon yok.
 (1/3) mesajları Telegram'a gerçekten gönderildi, API 200 OK döndü. Ida'nın
 telefonunda göründüğünü teyit etmesi bekleniyor. Ardından ikinci çalıştırmalarda
 ikisinin de doğru şekilde SESSİZ kaldığı doğrulandı.
+
+---
+
+## 2026-08-30 — ekonomikocu güncel tarama
+
+- **Chrome CDP kapalıydı** (`ECONNREFUSED 127.0.0.1:9222`), tarama çıkış kodu 4
+  verdi. `CHROME_X.bat`'ı `cmd /c start` ile çağırmak port açmadı; Chrome
+  PowerShell'den doğrudan `--remote-debugging-port=9222 --user-data-dir=
+  %LOCALAPPDATA%\ekonomikocu_x_session` ile başlatıldı, port açıldı.
+  **Çıkarım:** bat'ı bash'ten `start` ile tetiklemek yerine PowerShell
+  `Start-Process` daha güvenilir.
+- Hesap doğrulama: OK — aktif hesap @420cryptofarmer, taranan @ekonomikocu.
+- Sonuç: **+3 yeni tweet** (toplam 7365), yeni alıntı 0, yeni flood 0.
+  En yeni kayıt: 2026-08-29T23:07:42.
+- Bilinen eksik (yeni değil): 13 alıntı metni kesik — `ALINTI_TAMAMLA.bat`
+  ile tamamlanabilir.
+- Paket (00–10) üretildi, commit `4bc6095`, GitHub'a push edildi.
