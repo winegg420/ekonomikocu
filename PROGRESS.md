@@ -2939,3 +2939,47 @@ ikisinin de doğru şekilde SESSİZ kaldığı doğrulandı.
   (G-Alt %-0,01), DXY 99,677 (G-Üst %-0,01), AVPGY 55,15 (G-Üst %+0,03),
   USDCAD 1,3901 (G-Üst %+0,03), CADJPY 115,08 (G-Alt %+0,05).
 - Rapor: `magicma/magicma_islem_adaylari_2026-08-30.md`.
+
+## 2026-08-30 (2) — Dış kaynak analiz katmanı: 5 yeni dosya (İş 1-2-3-4-5-6)
+
+Hepsi `11_DIS_KAYNAKLAR.md` + `06_ANALIZ.md` + tweet arşivinin SENTEZİ; yeni veri
+toplanmadı, hiçbir iddia yeniden derecelendirilmedi.
+
+- **`12_KAYNAK_PERFORMANS.md`** (İş 1) — 23 kaynağın KARNE tabloları tek yerde:
+  179 iddia · 13 TUTTU · **0 TUTMADI** · 165 İZLENİYOR · 1 SONUÇSUZ.
+  **En önemli bulgu: iddiaların %92'si açık.** Eşiği (3 kapanmış iddia) geçen tek
+  kaynak Şant Manukyan (%100) ve onun 3 kaydı da "olgu aktarımı, tahmin değil".
+  Yani sıralama bugün istatistiksel olarak yapılamıyor — dosya bunu gizlemek yerine
+  açıkça yazıyor ve kapatılmayı bekleyen 8 somut iddialık iş listesi bırakıyor.
+- **`13_KONSENSUS.md` + `magicma/kaynak_konsensus.json`** (İş 3 + İş 6) — 18 konsensüs
+  kaydı, ±%2 orantılı tolerans. Sıralama **ağırlıklı skora** göre
+  (`kaynak_sayısı × ortalama_isabet/100`, değerlendirilemez kaynak nötr %50).
+  En güçlü: altın 4.000-4.500 bandı (7 kaynak, 3,50). En dar sayısal örtüşme:
+  BTC 67.000-67.300 (%0,45 fark, 3 kaynak).
+- **`14_CELISKI_PANELI.md`** (İş 2) — 7 analist↔analist + 6 Koç↔dış kaynak çelişkisi.
+  3'ünün sonucu kısmen belli; 3'ünün ölçülecek somut testi tanımlı.
+- **`15_KOC_TUTARLILIK.md`** (İş 4) — Koç'un kendi arşiviyle karşılaştırması.
+  8 seviye tarandı, **3 gerçek tutarsızlık** bulundu (altın 4.000 geriye dönük hatası,
+  "Ağustos 3. hafta" tonunun 48 saatte üç kez değişmesi, gümüş 68 tezinin geri
+  dönüşte yeniden kurulmaması), **0 açık geri adım**. 5 seviye tutarlı çıktı
+  (60 K tezi 2,5 yıldır kelimesi kelimesine aynı).
+- **`16_ZAMANLAMA_KARNESI.md`** (İş 5) — fiyat karnesinden AYRI zaman penceresi karnesi:
+  46 pencere · 9 kapandı (7 TUTTU, 0 TUTMADI, 2 SONUÇSUZ) · 37 açık.
+
+**Kararlar ve gerekçeleri:**
+- **Sıralama uydurulmadı.** Kapanmış iddia sayısı yetersiz olduğu için tek satırlık
+  bir tablo yazıldı ve nedeni açıkça belgelendi. Sahte bir güvenilirlik sıralaması
+  üretmek, bu katmanın tüm değerini yok ederdi.
+- **Prompt'taki örnek satırlar kullanılmadı, repo verisi kullanıldı.** Örnekte
+  "Ağustos 3. hafta = SONUÇSUZ" yazıyordu; `06_ANALIZ.md` bu pencereyi **TUTTU**
+  olarak kapatmış (17→25 Ağu: BTC +%27,1 · ETH +%32,1). Repo kazandı.
+- **US10Y "üçlü kesişim" bölündü.** Kaynak dosyası 4,75 / 5,00 / 5,00'i tek kesişim
+  sayıyor ama 4,75↔5,00 farkı %5,3 — ±%2 toleransının dışında. Sadece birebir eşleşen
+  %5,00 çifti konsensüs sayıldı, gerekçesi JSON'a yazıldı.
+- **Ağırlıklandırma bugün neredeyse hiç ayrım üretmiyor** (18 kaydın 17'sinde skor =
+  kaynak_sayısı × 0,50). Formül doğru, girdi yetersiz. Tek görünür etkisi: 4 kaynaklı
+  gümüş bandının 5 kaynaklı TCMB kaydıyla eşitlenmesi — dosyada açık hesapla gösterildi.
+
+**Çıkarım:** **Eylül 2026 bu katmanın sınav ayı.** 46 zaman penceresinin 10'u Eylül
+içinde kapanıyor; Eylül sonunda `12_KAYNAK_PERFORMANS.md` sıralaması ilk kez
+gerçekten anlamlı hale gelecek.

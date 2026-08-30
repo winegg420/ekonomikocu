@@ -1849,3 +1849,24 @@ BTC 69K civarı seviyeleri varsa not düşülmeli.
 | 30 Ağustos | Seçim sonrası İran'a sert müdahale riski var | İZLENİYOR |
 | 30 Ağustos | BTC 200 günlük ortalamaya (~69.350) sarkabilir | İZLENİYOR |
 | 30 Ağustos | Gümüş 200 günlük ortalama (72-73) üstü kırılırsa olumlu | İZLENİYOR |
+
+
+---
+
+## 🔗 TÜRETİLMİŞ ANALİZ DOSYALARI (2026-08-30'da eklendi)
+
+Bu dosyadaki KARNE tabloları ve sayısal iddialar dört ayrı dosyaya sentezlenir.
+**Bu dosyaya yeni bir kaynak/giriş eklendiğinde aşağıdakiler de güncellenmelidir:**
+
+| Dosya | Ne tutar | Ne zaman güncellenir |
+|---|---|---|
+| `12_KAYNAK_PERFORMANS.md` | Kaynak başına TUTTU/TUTMADI sayımı ve isabet sıralaması | Yeni KARNE satırı eklenince veya bir satırın sonucu değişince |
+| `13_KONSENSUS.md` + `magicma/kaynak_konsensus.json` | 2+ kaynağın ±%2 içinde buluştuğu sayısal değerler, **ağırlıklı skorla sıralı** | Yeni sayısal iddia eklenince VE 12'deki isabet oranları değişince (skorlar yeniden hesaplanır) |
+| `14_CELISKI_PANELI.md` | Analist↔analist ve Koç↔dış kaynak çelişkileri | Yeni bir çelişki işaretlenince; taraflardan biri haklı çıkınca |
+| `16_ZAMANLAMA_KARNESI.md` | Tarih penceresi veren her iddia (fiyat karnesinden AYRI) | Yeni tarihli iddia eklenince; bir pencerenin kapanış tarihi geçince |
+
+Ayrıca `15_KOC_TUTARLILIK.md` Koç'un kendi arşiv içi tutarlılığını tutar — bu dosyaya
+değil, `06_ANALIZ.md` + tweet arşivine dayanır.
+
+**Somut sayısal seviye içeren yeni bir giriş eklendiğinde** ayrıca
+`magicma/onemli_seviyeler.json`'a ELLE eklenmelidir — alarm motoru yalnızca orayı okur.
