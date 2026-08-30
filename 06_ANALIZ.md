@@ -3437,3 +3437,158 @@ akış profil "Gönderiler" sekmesinde görünmüyordu, `EKO_AKIS=yanit` ile çe
 | XAUUSD | 4640 → 4570 = 70 dolar düşüş | "5,7 öğretisi" |
 | NASDAQ | Günlük ortalama 3 yıldır yatay (5+7+5 ay) | Düşüş teyidi ortalama kırılmasına bağlı |
 | DAX | 13 aylık sıkışma bandı, aylık | Yukarı çıkış 13 ay sonra geldi |
+
+---
+
+## 2026-08-30 — GÖRSEL DEFTERİ TUR 8 (45 görsel: 16 Haz → 18 Haz 2026)
+
+> Kaynak: `gorsel_kalan.jsonl` içinde analiz edilmemiş en yeni 45 kayıt
+> (2026-06-16T18:46 → 2026-06-18T23:27). Tur 6 (19–23 Haz) ve Tur 7 (27 Haz –
+> 27 Ağu) pencerelerinin hemen ALTINDAKİ boşluk. Bu turdan sonra defterde
+> analiz edilmemiş **925 görsel** kalıyor (en yenisi 16 Haz 2026, yığının
+> ağırlığı Şubat–Haziran 2026'da).
+
+### 1) Turun en değerli kaydı: "MAJÖR KALIPLAR" listesi (17 Haz 2026, abone)
+
+Tek bir abone tweetinde **altı enstrümanın pivotu** yan yana verilmiş
+(`2067395467965555036`). Koç'un ifadesi: "Takip ettiğin varlıkta asla majör
+kalıpları unutmayacaksın."
+
+| Enstrüman | Seviye | Kural |
+|---|---|---|
+| XAUUSD | **4376** | üstü kalsın dikleşir, altı anca satış baskısı |
+| NASDAQ | **29700** | altı anca sendeler, üstü dikleşir |
+| ETHUSD | **1746** | üstü dikleşir, altı sendeler |
+| bitcoin | **67800** | altı sendeler, üstü anca dikleşir |
+| gümüş | **68 dolar** | üstü dikleşir, altı anca sendeler |
+| eurusd | **1.1640** | altı sendeler, üstü anca dikleşir |
+
+Altısı da `magicma/onemli_seviyeler.json`'a işlendi (EURUSD bu kütüphaneye ilk
+kez giriyor). Aynı gün ayrı görsellerle XAUUSD 4376 ve ETHUSD 1746 grafik
+üzerinde de teyit edilmiş — yani liste "laf" değil, çizili.
+
+### 2) İKİNCİ ZAMAN ÖLÇÜSÜ: "3 ay kuralı" (31 May 2026, abone)
+
+60 günlük blok takviminin yanında, daha önce deftere girmemiş **ayrı** bir
+zaman öğretisi (`2066933069483753579`, `2066911690088657361`):
+
+> "Bir devlet başka bir devlete kafa tutan bir hamle yapıyorsa, **ortalama en az
+> 3 ay sürüyor**. Örnek; 2025 kripto haftası 3 ay popülizmi sürdü. Çin gümüş
+> hamlesi 3 ay sürdü. ABD PETROL hamlesi 3 ay kısmen sürdü."
+
+Ve aynı floodda **"120 → 60 → 70/75" dengelenme kalıbı** üç varlıkta birden:
+
+- bitcoin: kripto haftasıyla 120 K'ya gidiyor → 60 K'ya düşüyor → **70-75 K'da dengeleniyor**
+- gümüş: Çin 120 dolara götürüyor → 60 dolara düşüyor → **70-75 dolarda dengeleniyor**
+- petrol: ABD 120 dolara götürüyor → **70-75 dolarda dengeleniyor**
+- "Aslında hep aynı döngüler."
+
+**Kural önceden kurulmuş ve tutmuş:** 29 Nis 2026'da (`2066913963137204256`)
+"Mart ayından beri petrol. 3 ay izlettirseler Haziran ayına kadar gelirler…
+Mart Nisan Mayıs.. Üç ay bununla oyalasalar, otomatik Haziran ayı zaten gelir"
+demiş; Haziran'da petrol gerçekten 76-78 bandına çekildi.
+
+### 3) "Ağustos 3. hafta" çıpasının KÖK BELGESİ bulundu
+
+`2066982617417679143` — XAUUSD haftalık grafikte 3352,71 yatayının üstünde
+"ALTIN nasıl gazlanıyor!" oku, alt eksende kırmızı kutuyla **"Ağustos 2025
+3.hafta"** işaretli. Yani daha önce metinden bilinen "Ağustos 3. hafta"
+çıpasının **görsel/fiyat karşılığı**: altının 3352'den yukarı gazlandığı hafta.
+60 günlük blok takviminin başlangıç referansı bu görselde belgeleniyor.
+
+Tamamlayıcı kayıt (`2066981951068664183`, 24 Tem 2025): "bunlar birilerine bir
+ay süre tanıdılar = Ağustos ayı" + "Temmuz ayı altın sakattı" + piyasanın
+istediği üç şık: *ya DXY baskısı yapıp emtianın gardını düşürün, ya uzlaşın, ya
+da milleti serbest bırakın.*
+
+### 4) Üç parçalı "kripto = DXY tamponu" tez zinciri
+
+Koç kendi üç eski tweetini **1-2-3 numaralandırarak** arka arkaya paylaşmış
+(`2067657815288656307`, `2067657889687220286`, `2067657964475854933`):
+
+1. **18 Ağu 2025 (abone):** "Temmuz ayındaki BTC yükselişi piyasaların
+   sendelemesini engelledi. ETH de bu ay engelledi. Yoksa DXY çıkıyordu
+   piyasalar geri geliyordu. Çok tatlı faiz indirimi kapıdaydı."
+2. **15 Kas 2025:** "Bana kalsa Temmuz da piyasalar düşmeliydi. Ama Trump buna
+   engel oldu. Çünkü fatura herkese çıkacaktı."
+3. **28 Kas 2025:** "Temmuz sonrası Trump'ın dünyayı USD'den soğutma çabaları:
+   kripto haftası / FED üyesini görevden aldık / Barış görüşmeleri / emtiayı
+   azdır / kapandık / vriler açıklanmıyor. Bunlar hep **USD'ye talep oluşmasın**
+   hamlesidir. Yoksa piyasalar elli kere çökerdi. Çünkü dünya DXY alıyor."
+
+Bu zincirin **beş yıl önceki kökü** de bu turda çıktı (`2067179917532393755`,
+12 Mar 2021): *"Gelecek yıllarda ABD kendisini dünyadan bağımsız bir Krize
+sürükleyen zeminleri atıyor. Dünyayı **son bir kez DXY'de çarpacaklar** ve sonra
+geçmiş olsun."* — `koc_tetigi.py`'nin 1. koşulunun (DXY 110 → 95) belgesel
+dayanağı budur.
+
+### 5) Bu turun net İSABET'i: NASDAQ 30 K
+
+- **28 Mar 2026 (abone, `2067403095521243393`):** "Gerekirse NASDAQ kanadına
+  **30 K'ya gidecek zemini hazırlayacak**… Misal DOW düşüreceksin ve ileride
+  çakacaksın **54 K** vs."
+- **16 Haz 2026 (`2066910191707140437`):** "Taze vade başlar başlamaz millet
+  satışa girdi. **NASDAQ 30600'den kırmızıya döndü.**"
+
+Yaklaşık 2,5 ay önceden verilen seviye, vade başında birebir çalıştı. DOW 54 K
+hedefi hâlâ açık.
+
+### 6) Altcoin sezonunun ön şartı GÜMÜŞ bazında tanımlanmış
+
+`2067548423729901722` — OTHERS.D/XAGUSD oranı. Oran **0,12**; grafikte yeşille
+**0,28–0,35** bölgesi işaretli ve üstünde: **"COİNLERİN PARA YAPMASI İÇİN
+BURALARIN AŞILMASI LAZIM"**. Altcoin sezonunu doğrudan gümüş bazında bir
+kırılıma bağlayan en net ifade. Destekleyen üç dominans grafiği aynı gün:
+BTC.D %58,80 ("57 çevresinde kıvranıyor", uzun trend + alçalan kanal
+kesişiminde), ETH.D %9,64 (%7–%10 arası, alçalan kama), OTHERS.D %8,30 (üçgen
+kapanma noktasında).
+
+### 7) Yeni/pekişen seviyeler (bu turda geçen)
+
+| Enstrüman | Seviye | Not |
+|---|---|---|
+| BTCUSDT | **64600** | "robot koydular"; altında kalınırsa teknik risk (18 Haz) |
+| BTCUSDT | 84000 | "84 K aşılmadan bu iş olmaz" (haftalık üst yatay) |
+| BTCUSDT | 58426 / 79355 | günlük yatay kutunun alt/üst sınırı |
+| ETHUSDT | **3300** | 20 Oca 2025'ten beri değişmeyen baz: "üstü prim, altı zaman kaybı" |
+| UKOIL | **76** | aylık yükselen trend + yatayın kesiştiği yer |
+| UKOIL | 75 / 77,84 | 1998'den gelen 28 yıllık aylık trend çizgisi |
+| UKOIL | **53** | "53 dolara kadar düşecektir, sadece zaman alacak" (15 Mart) |
+| GOLDGR | **140** | "düşürüp tekrar 140'a getirip TEMMUZ NATO görüşmesine gelmeye çalışıyorlar" |
+| USDCAD | 1,3570 / 1,4060 / 1,45 | aylık: 2012'den gelen trend + 1,45 yatay direnç |
+| NDX | 29700 / 30600 | majör kalıp + vade başı dönüş seviyesi |
+| DAX | 24660 | "burası bir sene" — bir yıldır aynı bandın etrafında |
+| A50 | 15731 / 20400 | 2020 zirvesinden gelen alçalan trend; fiyat 2020'nin çok altında |
+| NASDAQ/XAUUSD | 7,2 | 2013'ten gelen oran trendi; "altın bazında OBO'ya gidiyor" |
+
+### 8) Avrupa cephesi: "ABD ben para vermem diyor"
+
+`2067552472881566025` (DAX günlük, 24.660 yatayı): "Adamların borsası
+ilerlemiyor. Petrolü yukarı veriyorlar enflasyon oluşuyor… Pozitif haber
+basıyorlar ilerlemiyor. Şimdi kanımca kurlarını zayıflatıp enflasyonu
+hissettiriyorlar. **Sonuç; ABD ben para vermem diyor.**" Aynı mantığın Çin
+ayağı: A50 2020 değerinin çok altında ve ilerlemiyor — "belki de bu sorunları
+bildikleri için emtiada azgınlık yaratılıyor, ekonomi tahrik edilmeye
+çalışılıyor" (`2067267960574505308`).
+
+Tarihsel analoji olarak 2015-2016 Brexit dönemi metni paylaşılmış
+(`2067243298356404437`): ABD'nin hızlı faiz artırması dolar güçlendirir, Avrupa'dan
+sermaye çıkarır, euro baskılanır; bu yüzden yavaş faiz artışı hem Çin'e hem
+Avrupa'ya nefes aldırmıştı. Koç bunu bugünkü Fed–Çin–Avrupa denklemine
+uyguluyor.
+
+### 9) Nadir pozisyon itirafı
+
+`2066967342962098187` — NAS100U anlık ekranı (30448,25 / −%1,24): "Örnek vadeli
+değer, satsam zarar etmiştim, 50 puan sekti." Koç'un kendi işlem yönetimine dair
+doğrudan itiraflarından biri (arşivde nadir).
+
+### 10) Defter sağlığı
+
+- Bu tur 45 kayıt `gorsel_analiz.jsonl`'e yazıldı (336 → 381).
+- `magicma/onemli_seviyeler.json`: **11 yeni kayıt** (67 → 78). EURUSD ilk kez
+  girdi. `DAX 24660` **eklenmedi** — `magicma/sembol_listesi/*.txt`'de DAX/GER40
+  karşılığı yok, kural gereği karşılığı olmayan kayıt atlanır.
+- `2066935586754085152` ve `2066910191707140437` iki görselli tweetler;
+  her ikisinde `graf_02` ile `graf_01` **aynı** görsel çıktı (X'in aynı medyayı
+  iki kez sunması). İkisi de kayda geçti, ayrı bulgu sayılmadı.

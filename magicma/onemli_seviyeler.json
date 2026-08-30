@@ -546,5 +546,93 @@
   "tur": "hedef",
   "aciklama": "'Cad duser dedim, 1.43 civariydi, 1.37 geldi' - cagri TUTTU, seviye referans olarak tutuluyor",
   "tarih_eklendi": "2026-08-20"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "XAUUSD",
+  "seviye": 4376,
+  "tur": "majör kalıp",
+  "aciklama": "Majör kalıp: 4376 üstü kalsın dikleşir, altı anca satış baskısı (17 Haz 2026 abone floodu)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "NDX",
+  "seviye": 29700,
+  "tur": "majör kalıp",
+  "aciklama": "Majör kalıp: 29700 altı anca sendeler, üstü dikleşir (17 Haz 2026 abone floodu)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "ETHUSDT",
+  "seviye": 1746,
+  "tur": "pivot",
+  "aciklama": "Majör kalıp: 1746 üstü dikleşir altı sendeler; günlük trend çizgisine yaslandı (17-18 Haz 2026)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "BTCUSDT",
+  "seviye": 67800,
+  "tur": "majör kalıp",
+  "aciklama": "Majör kalıp: 67800 altı sendeler, üstü anca dikleşir (17 Haz 2026 abone floodu)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "BTCUSDT",
+  "seviye": 64600,
+  "tur": "robot",
+  "aciklama": "64600 a robot koydular; yükselişin devamı için altında kalınmamalı, altı teknik risk (18 Haz 2026)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "XAGUSD",
+  "seviye": 68,
+  "tur": "majör kalıp",
+  "aciklama": "Majör kalıp: gümüş 68 dolar üstü dikleşir, altı anca sendeler (17 Haz 2026 abone floodu)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "EURUSD",
+  "seviye": 1.164,
+  "tur": "majör kalıp",
+  "aciklama": "Majör kalıp: 1.1640 altı sendeler, üstü anca dikleşir (17 Haz 2026 abone floodu)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "USDCAD",
+  "seviye": 1.357,
+  "tur": "pivot",
+  "aciklama": "1.3570 den yükselmiş; dönüşünün alınmaya çalışılacağı taban (18 Haz 2026)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "UKOIL",
+  "seviye": 76,
+  "tur": "destek",
+  "aciklama": "Petrol 76 - aylık yükselen trend ile yatayın kesiştiği yer (17 Haz 2026)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "UKOIL",
+  "seviye": 53,
+  "tur": "hedef",
+  "aciklama": "Petrol 53 dolara kadar düşecektir, sadece zaman alacak (15 Mart; 16 Haz 2026 da tekrar paylasildi)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "ETHUSDT",
+  "seviye": 3300,
+  "tur": "baz",
+  "aciklama": "Kriptoya girerken ETH de 3300 u baz alacaksiniz; ustu prim, alti zaman kaybi veya kayip (20 Oca 2025; 17 Haz 2026 da tekrar)",
+  "tarih_eklendi": "2026-08-30"
  }
 ]

@@ -2794,3 +2794,25 @@ ikisinin de doğru şekilde SESSİZ kaldığı doğrulandı.
 - Bilinen eksik (yeni değil): 13 alıntı metni kesik — `ALINTI_TAMAMLA.bat`
   ile tamamlanabilir.
 - Paket (00–10) üretildi, commit `4bc6095`, GitHub'a push edildi.
+
+## 2026-08-30 — Görsel defteri TUR 8 (45 görsel)
+
+- Analiz edilmemiş görsel yığını tespit edildi: `gorsel_analiz.jsonl` (336) ile
+  `gorsel_kalan.jsonl` (1094) farkı = **970 görsel**. En yenisi 18 Haz 2026;
+  ağırlık Şubat–Haziran 2026'da (Haziran tek başına 417).
+- En yeni 45'i (16–18 Haz 2026) tek tek açıldı ve `gorsel_analiz.jsonl`'e
+  yazıldı (336 → 381). Kalan: 925.
+- **Üç yeni yapısal bulgu** (hiçbiri tweet metninde yoktu, sadece görselde):
+  1. **"Majör kalıplar" listesi** (17 Haz abone) — tek görselde 6 enstrümanın
+     pivotu: XAUUSD 4376 / NASDAQ 29700 / ETHUSD 1746 / BTC 67800 / gümüş 68 /
+     EURUSD 1.1640.
+  2. **"3 ay kuralı"** — devletlerarası hamleler ortalama en az 3 ay sürüyor;
+     yanında "120 → 60 → 70/75" dengelenme kalıbı (BTC, gümüş, petrol aynı).
+     60 günlük blok takviminin YANINDA ikinci bir zaman ölçüsü.
+  3. **"Ağustos 3. hafta" çıpasının kök belgesi** — XAUUSD haftalıkta 3352'den
+     gazlandığı hafta, grafikte "Ağustos 2025 3.hafta" diye işaretli.
+- `magicma/onemli_seviyeler.json`: 11 yeni kayıt (67 → 78), EURUSD ilk kez.
+  DAX 24660 eklenmedi — sembol listesinde DAX/GER40 karşılığı yok.
+- Defter bölümü `06_ANALIZ.md` sonuna "TUR 8" olarak eklendi.
+- **Çıkarım:** aynı tweet iki görselli olduğunda `graf_02` bazen `graf_01`'in
+  birebir kopyası çıkıyor (X aynı medyayı iki kez sunuyor). Ayrı bulgu sayma.

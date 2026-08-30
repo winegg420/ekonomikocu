@@ -3380,10 +3380,10 @@
   ],
   "giris_fiyati": 0.3751,
   "giris_zamani": "2026-08-30T10:50:09+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarisiz",
+  "sonuc_fiyati": 0.3739,
+  "sonuc_zamani": "2026-08-30T11:40:14+03:00",
+  "sonuc_yuzde": -0.32
  },
  {
   "id": "UFDUSDT_2026-08-30T10:50:09+03:00_G-Ust",
@@ -3402,10 +3402,10 @@
   ],
   "giris_fiyati": 0.011718,
   "giris_zamani": "2026-08-30T10:50:09+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarili",
+  "sonuc_fiyati": 0.011803,
+  "sonuc_zamani": "2026-08-30T11:50:11+03:00",
+  "sonuc_yuzde": 0.725
  },
  {
   "id": "NCTUSDT_2026-08-30T11:10:08+03:00_H-2",
@@ -3424,10 +3424,10 @@
   ],
   "giris_fiyati": 0.014636,
   "giris_zamani": "2026-08-30T11:10:08+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarili",
+  "sonuc_fiyati": 0.014445,
+  "sonuc_zamani": "2026-08-30T11:40:14+03:00",
+  "sonuc_yuzde": 1.305
  },
  {
   "id": "LSKUSDT_2026-08-30T11:20:09+03:00_G-Alt",
@@ -3468,10 +3468,10 @@
   ],
   "giris_fiyati": 0.001485,
   "giris_zamani": "2026-08-30T11:20:09+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarili",
+  "sonuc_fiyati": 0.0015054,
+  "sonuc_zamani": "2026-08-30T11:50:11+03:00",
+  "sonuc_yuzde": 1.374
  },
  {
   "id": "REDUSDT_2026-08-30T11:20:09+03:00_G-Ust",
@@ -3512,6 +3512,28 @@
   ],
   "giris_fiyati": 0.0134,
   "giris_zamani": "2026-08-30T11:30:08+03:00",
+  "durum": "basarisiz",
+  "sonuc_fiyati": 0.012869,
+  "sonuc_zamani": "2026-08-30T11:50:11+03:00",
+  "sonuc_yuzde": -3.963
+ },
+ {
+  "id": "BONEUSDT_2026-08-30T11:40:14+03:00_G-Ust",
+  "sembol": "BONEUSDT",
+  "kategori": "kripto",
+  "cizgi_adi": "Magicma Günlük Üst Çizgi",
+  "cizgi_degeri": 0.0487991736,
+  "yon": "short",
+  "kaynak_turu": "teknik",
+  "kaynak": "MEXC",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Üst Çizgi"
+  ],
+  "giris_fiyati": 0.04888,
+  "giris_zamani": "2026-08-30T11:40:14+03:00",
   "durum": "acik",
   "sonuc_fiyati": null,
   "sonuc_zamani": null,
