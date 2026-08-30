@@ -2922,3 +2922,20 @@ ikisinin de doğru şekilde SESSİZ kaldığı doğrulandı.
 - **Not (araç):** görselleri okurken eski tool sonuçları bağlamdan düşünce
   "[media removed: request limit]" olarak görünüyor. 100'lük turda ilk 48 bu
   yüzden ikinci kez okundu. Büyük turlarda 6'şarlı oku + hemen yaz.
+
+## 2026-08-30 — MagicMA taraması (bubbles kısmi, kullanıcı isteğiyle kesildi)
+
+- Bubbles listesi tazelendi: cryptobubbles'tan 1200 coin tarandı, eşiği geçen 152,
+  yazılan 120 sembol (11'i kara listede olduğu için hariç).
+- `magicma_gozetmen.py` ile tarama: CDP 9222 kapalıydı, gözetmen Chrome'u kendisi
+  açtı ve TradingView layout'unu yükledi. Bir tur sınırı (25 dk) doldu, resume ile
+  sürdü — kesinti olmadan devam etti.
+- **Sabit listelerin tamamı tarandı:** kripto 114/114, forex_emtia 30/30,
+  endeks_faiz 7/7, BIST 183/183, ABD 91/92 (yalnızca NASDAQ:SPCX eksik — bilinen
+  "kod doğru, gösterge henüz çizmiyor" vakası, dokunulmadı).
+- Kullanıcı isteğiyle **günün hareketlileri (bubbles) taraması yarıda kesildi**
+  (44/120). Karar nedeni: sabit listeler bitmişti, bubbles kuyruğu düşük öncelikli.
+- Toplam 457 sembol, **28 işlem adayı (≤ %0,25)**. En yapışıklar: EURUSD 1,1578
+  (G-Alt %-0,01), DXY 99,677 (G-Üst %-0,01), AVPGY 55,15 (G-Üst %+0,03),
+  USDCAD 1,3901 (G-Üst %+0,03), CADJPY 115,08 (G-Alt %+0,05).
+- Rapor: `magicma/magicma_islem_adaylari_2026-08-30.md`.

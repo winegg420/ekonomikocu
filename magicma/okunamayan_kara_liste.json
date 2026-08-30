@@ -59,10 +59,25 @@
   "son_basarisiz": "2026-08-26",
   "deneme_sayisi": 3
  },
+ "MEXC:FONEUSDT": {
+  "ilk_basarisiz": "2026-08-30",
+  "son_basarisiz": "2026-08-30",
+  "deneme_sayisi": 1
+ },
+ "MEXC:FRONGUSDT": {
+  "ilk_basarisiz": "2026-08-30",
+  "son_basarisiz": "2026-08-30",
+  "deneme_sayisi": 1
+ },
  "MEXC:HMMUSDT": {
   "ilk_basarisiz": "2026-08-26",
   "son_basarisiz": "2026-08-26",
   "deneme_sayisi": 3
+ },
+ "MEXC:HOOKRUSDT": {
+  "ilk_basarisiz": "2026-08-30",
+  "son_basarisiz": "2026-08-30",
+  "deneme_sayisi": 1
  },
  "MEXC:JIMOTHYUSDT": {
   "ilk_basarisiz": "2026-08-26",
@@ -73,6 +88,16 @@
   "ilk_basarisiz": "2026-08-26",
   "son_basarisiz": "2026-08-26",
   "deneme_sayisi": 3
+ },
+ "MEXC:MARSCOINUSDT": {
+  "ilk_basarisiz": "2026-08-30",
+  "son_basarisiz": "2026-08-30",
+  "deneme_sayisi": 1
+ },
+ "MEXC:PIPEDOGUSDT": {
+  "ilk_basarisiz": "2026-08-30",
+  "son_basarisiz": "2026-08-30",
+  "deneme_sayisi": 1
  },
  "MEXC:PODUSDT": {
   "ilk_basarisiz": "2026-08-26",
@@ -88,6 +113,11 @@
   "ilk_basarisiz": "2026-08-26",
   "son_basarisiz": "2026-08-26",
   "deneme_sayisi": 3
+ },
+ "MEXC:STONKBROKERUSDT": {
+  "ilk_basarisiz": "2026-08-30",
+  "son_basarisiz": "2026-08-30",
+  "deneme_sayisi": 1
  },
  "MEXC:STONKUSDT": {
   "ilk_basarisiz": "2026-08-26",
