@@ -796,5 +796,117 @@
   "tur": "direnc",
   "aciklama": "2019-2021 zirvelerinden inen kanalin ust siniri (4 Haz 2026)",
   "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "NDX",
+  "seviye": 26000,
+  "tur": "ogreti_basamagi",
+  "aciklama": "'26 K = 6 ogretisi' - 2 kez RED (Eki-2025, Oca-2026), Nis-2026'da ABD-Iran baris haberiyle asildi; 2025'teki 22.200 kalibinin kopyasi",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "NDX",
+  "seviye": 22200,
+  "tur": "tarihsel direnc",
+  "aciklama": "2025 kalibi: 2 kez RED (Ara-2024, Sub-2025), Tem-2025'te 'ABD-Iran barisi' haberiyle asirtildi - normalde borsa orada dusmeliydi",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "NDX",
+  "seviye": 29600,
+  "tur": "direnc",
+  "aciklama": "H4 ust yatay; Trump kanali icinde tutulan fiyatin ust siniri (31 May 2026)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "NDX",
+  "seviye": 28570,
+  "tur": "savunma",
+  "aciklama": "28.570 asagi kirilmadikca yukari yapi korunur (8 Haz 2026 floodu)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "NDX",
+  "seviye": 30260,
+  "tur": "esik",
+  "aciklama": "'30260 alti kalmadan tutarlar' - trendi asirtmadan yanlatma seviyesi (2 Haz 2026)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "XAUUSD",
+  "seviye": 4660,
+  "tur": "trend_kesisimi",
+  "aciklama": "Ana yukselen trend ile Oca-2026 zirvesinden inen alcalan direncin kesisimi (15 Haz 2026)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "XAUUSD",
+  "seviye": 3880,
+  "tur": "destek",
+  "aciklama": "Altin gunlukte alt yatay taban (15 Haz 2026)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "XAUUSD",
+  "seviye": 3300,
+  "tur": "baz",
+  "aciklama": "'Sifir trendler genelde 33'te baslar' - ALTIN 3300'den ROKET (Agu-2025 konsolidasyonu); ETH 3300 bazinin altin karsiligi",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "XAGUSD",
+  "seviye": 33,
+  "tur": "tarihsel direnc",
+  "aciklama": "2025 boyunca surekli 'tokat yenen' seviye; baris gelmeyince buradan yol verildi",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "XAGUSD",
+  "seviye": 26.2,
+  "tur": "baz",
+  "aciklama": "2023-2024 birikim tabani - 'ABD kriptoyla oynarken CIN burada rahat duruyordu'",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "BTCUSDT",
+  "seviye": 107800,
+  "tur": "tarihsel direnc",
+  "aciklama": "'107.8 hatirlayanlar olur' - Tem-2025 coklu tepe bolgesi, 'baris dedikleri donem'",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "BTCUSDT",
+  "seviye": 98500,
+  "tur": "direnc",
+  "aciklama": "107.8 ile 80.600 arasindaki ara basamak (Nis-2026)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "DJI",
+  "seviye": 58000,
+  "tur": "hedef",
+  "aciklama": "Mart-2025 dibinden cikan yukselen kanalin ust cizgisi (2026 projeksiyonu) - 'kanalin cok asagisinda, gitmemistir'",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "UKOIL",
+  "seviye": 89,
+  "tur": "tetik",
+  "aciklama": "'Yeni bir stres icin 89 dolar asilmali, asilmadikca geri gelir' (15 Haz 2026); 3 aylik vade Sub->Haz 2026 tuttu",
+  "tarih_eklendi": "2026-08-30"
  }
 ]

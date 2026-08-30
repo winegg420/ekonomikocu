@@ -3996,10 +3996,10 @@
   ],
   "giris_fiyati": 18.53,
   "giris_zamani": "2026-08-30T15:10:10+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarili",
+  "sonuc_fiyati": 18.42,
+  "sonuc_zamani": "2026-08-30T16:10:14+03:00",
+  "sonuc_yuzde": 0.594
  },
  {
   "id": "ADAUSDT_2026-08-30T15:10:10+03:00_G-Alt",
@@ -4172,10 +4172,10 @@
   ],
   "giris_fiyati": 0.000429,
   "giris_zamani": "2026-08-30T15:20:09+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarisiz",
+  "sonuc_fiyati": 0.0004297,
+  "sonuc_zamani": "2026-08-30T16:00:17+03:00",
+  "sonuc_yuzde": -0.163
  },
  {
   "id": "ZKPUSDT_2026-08-30T15:30:09+03:00_G-Ust",
@@ -4282,9 +4282,75 @@
   ],
   "giris_fiyati": 0.0592,
   "giris_zamani": "2026-08-30T15:50:10+03:00",
+  "durum": "basarisiz",
+  "sonuc_fiyati": 0.0587,
+  "sonuc_zamani": "2026-08-30T16:00:17+03:00",
+  "sonuc_yuzde": -0.845
+ },
+ {
+  "id": "XRPUSDT_2026-08-30T16:00:17+03:00_X-4100",
+  "sembol": "XRPUSDT",
+  "kategori": "kripto",
+  "cizgi_adi": "Tunc Satiroglu · 1,4100",
+  "cizgi_degeri": 1.41,
+  "yon": "short",
+  "kaynak_turu": "onemli_seviye",
+  "kaynak": "Tunc Satiroglu",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Tunc Satiroglu · 1,4100"
+  ],
+  "giris_fiyati": 1.4033,
+  "giris_zamani": "2026-08-30T16:00:17+03:00",
   "durum": "acik",
   "sonuc_fiyati": null,
   "sonuc_zamani": null,
   "sonuc_yuzde": null
+ },
+ {
+  "id": "METALUSDT_2026-08-30T16:10:14+03:00_G-Ust",
+  "sembol": "METALUSDT",
+  "kategori": "kripto",
+  "cizgi_adi": "Magicma Günlük Üst Çizgi",
+  "cizgi_degeri": 0.126625124,
+  "yon": "short",
+  "kaynak_turu": "teknik",
+  "kaynak": "MEXC",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Üst Çizgi"
+  ],
+  "giris_fiyati": 0.12656,
+  "giris_zamani": "2026-08-30T16:10:14+03:00",
+  "durum": "acik",
+  "sonuc_fiyati": null,
+  "sonuc_zamani": null,
+  "sonuc_yuzde": null
+ },
+ {
+  "id": "HONEYUSDT_2026-08-30T16:10:14+03:00_G-Alt",
+  "sembol": "HONEYUSDT",
+  "kategori": "gunun_hareketlileri",
+  "cizgi_adi": "Magicma Günlük Alt Çizgi",
+  "cizgi_degeri": 0.0014831925,
+  "yon": "long",
+  "kaynak_turu": "teknik",
+  "kaynak": "GATEIO",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Alt Çizgi"
+  ],
+  "giris_fiyati": 0.0014812,
+  "giris_zamani": "2026-08-30T16:10:14+03:00",
+  "durum": "basarisiz",
+  "sonuc_fiyati": 0.0014639,
+  "sonuc_zamani": "2026-08-30T16:20:11+03:00",
+  "sonuc_yuzde": -1.168
  }
 ]

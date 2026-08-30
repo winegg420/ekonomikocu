@@ -2874,3 +2874,26 @@ ikisinin de doğru şekilde SESSİZ kaldığı doğrulandı.
   değil, **haberdeki sürenin doğrudan takvime çevrilmesinden** çıkıyor
   (Hürmüz 60 gün → 15 Ağustos). Yeni bir "N gün / N hafta" içeren haber SS'i
   görüldüğünde bunun bir vade ilanı olduğu varsayılmalı.
+
+## 2026-08-30 — Görsel defteri TUR 11 (50 görsel)
+
+- Aynı puanlama, kalan 1.081 görsele uygulandı. Tamamı 25 May – 15 Haz 2026.
+- `gorsel_analiz.jsonl` 524 → **574**. Kalan: **1.031**.
+- `06_ANALIZ.md` sonuna "TUR 11" bölümü eklendi.
+- **En değerli bulgu — NASDAQ kalıbının numaralanmış ispatı:** 2025'te 22.200,
+  2026'da 26.000; her ikisinde de **2 kez RED → üçüncüde "ABD-İran barışı"
+  haberiyle kırılım**. Tepe ile düşüş arası ölçülmüş: Eki-2025 → Mar-2026 =
+  6 ay. Koç "zaman geçirme" derken bunu kastediyor.
+- **Endeksleme artık sayıyla kanıtlı:** `gümüş 80.60` = `btc 80.600` aynı
+  karede; "0.0010'a sabitlemişler"; "gümüş 68 / BTC 67.800 savaş değeri".
+  → **Alarm açısından önemli:** XAGUSD ve BTCUSDT'de aynı anda temas gelirse
+  bu iki bağımsız sinyal değil, tek sinyaldir.
+- **Sayı öğretisinin kaynakları bulundu:** 5.7 = SPX/XAUUSD'nin 2000 dot-com
+  zirvesi; 9.2 / 4.4 = NASDAQ/XAUUSD tavan-taban; 6 = NDX 30.600 ve 26.000;
+  33 = ETH 3300 + ALTIN 3300 + GÜMÜŞ 33 (üç enstrümanda aynı sayı).
+- **Sözlüğün ikinci anahtarı:** "**enflasyon = savaşın örtülü adı**"
+  (18 Mar 2025). TUR 10'daki "altın = gerginlik" ile birlikte okunmalı.
+- `magicma/onemli_seviyeler.json`: 14 yeni (98 → 112), 0 atlandı.
+- **Çıkarım (yöntem):** aynı görselin farklı tweetlerde yeniden paylaşılması
+  kopya medya DEĞİL — Koç o grafiği şablon sayıyor. Defterde ayrı kayıt olarak
+  tutuluyor ama "tekrar" notu düşülüyor.

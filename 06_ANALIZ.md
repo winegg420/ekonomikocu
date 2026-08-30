@@ -3915,3 +3915,132 @@ kütüphaneye girebilir (kural: karşılığı olmayan kayıt atlanır).
 - Kopya medya olgusu 6 kez daha görüldü (`graf_02` = `graf_01`).
 - Bu turda ilk kez **grafik olmayan iki portre** (Putin / Zelenski) analiz
   edildi; `tur: foto` olarak işaretlendi.
+
+## 2026-08-30 — GÖRSEL DEFTERİ TUR 11 (50 görsel: NASDAQ kalıbı + endeksleme + sayı öğretisi)
+
+**Seçim:** TUR 10 ile aynı puanlama, kalan 1.081 görsele yeniden uygulandı.
+Bu turun tamamı **25 Mayıs – 15 Haziran 2026** penceresine düştü; ağırlık
+NASDAQ ve oran (ratio) grafiklerinde.
+
+### 1) Bu turun en değerli bulgusu: NASDAQ KALIBININ NUMARALANMIŞ İSPATI
+
+`2062141056519454863` tek karede 2025 ve 2026'yı yan yana koyuyor ve altı
+teması numaralandırıyor:
+
+| Yıl | Seviye | Temas 1 | Temas 2 | Kırılım |
+|---|---|---|---|---|
+| 2025 | **22.200** | ① Ara-2024 RED | ② Şub-2025 RED | ⑤ Haz-2025 — *"ABD İRAN barışı"* |
+| 2026 | **26.000** | ③ Eki-2025 RED | ④ Oca-2026 RED | ⑥ Nis-2026 — *"yine barış haberi"* |
+
+> *"NASDAQ 2025 ve 2026 yılı aynı grafikte. **Teknik kalıplar bile aynıdır.**"*
+
+Kalıp: **iki kez RED → üçüncüde haberle kırılım.** Üstelik gecikme de ölçülmüş
+(`2062145915498946622`): 26 K'ya ilk temas Eki-2025, düşüş Mart-2026 —
+*"arada devasa bir 6 ay var, işte bu bir zaman geçirmedir."*
+Ayrıca `2062139164250784153`: *"Normal bir yönetimde bu piyasa burada
+düşmeliydi"* — haber, seviye aşırtma aracı olarak konumlanıyor.
+
+### 2) İkinci bulgu: "ENDEKSLEME" ARTIK SAYIYLA KANITLI
+
+TUR 9'da tez olarak geçen gümüş–BTC endekslemesi bu turda üç ayrı belgeyle
+sayısallaştı:
+
+- `2061132316311757041` (8 May 2026, abone) — tek karede alt alta:
+  **`#gümüş 80.60`** ve **`#btc 80.600`**. Aynı sayı, iki varlık.
+- `2061132718268633242` (19 May 2026) — *"0.0010 civarına entegre etmişler.
+  **Gümüş 77-78 dolarsa, BTC de 77-78 K dolanıyor.**"*
+- `2062903397364171118` (31 May 2026, abone) — *"ABD'nin gümüşü **68 dolar**
+  altına almadan eli rahatlayamıyor. BİTCOİN'de malum **67.800 / 68 K savaş
+  değeridir**... ABD gümüşün hakkından gelmek istiyorsa BTC'ye de kıymak
+  zorunda."*
+
+Yani 80,60 / 68 gibi sayılar tek enstrümanın seviyesi değil, **iki varlığın
+ortak sabiti**. Alarm motoru açısından: bu iki sembolde aynı anda temas
+görülüyorsa sinyal tek başına okunmamalı.
+
+### 3) Üçüncü bulgu: SAYI ÖĞRETİSİNİN KAYNAK GRAFİKLERİ
+
+- **5.7** — `2062610640984826181`: SPX/XAUUSD oranının **2000 dot-com zirvesi
+  tam 5,7**. Öğretinin nereden geldiği ilk kez görünür oldu.
+- **9.2 ve 4.4** — `2061070330379096506`: NASDAQ/XAUUSD tavanı 9,2, tabanı 4,4.
+  *"2016-2020'de altın bazlı bu değerlerdeyken alır mıydınız? Alırdım
+  diyorsanız buyurun, **aynı değer** diyorlar."*
+- **6** — `2062638771422495024` ve `2062140453604995280`: NDX **30.600** ve
+  **26.000** ikisi de *"6 öğretisi"*.
+- **33** — üç enstrümanda aynı sayı: ETH **3300** baz (`2062155713086890129`,
+  20 Oca 2025, **35,7 B görüntüleme**), ALTIN **3300** *"roket başlangıcı"*
+  (`2062153141055816127`), GÜMÜŞ **33** *"sürekli tokat yenen seviye"*
+  (`2062156392039960844`).
+
+### 4) Sözlüğün ikinci anahtarı: ENFLASYON = SAVAŞ
+
+`2062633036097699948` (18 Mar 2025):
+> *"Hep söyledim **enflasyon savaşın örtülü adıdır**. Sana enflasyon düşmüyor
+> derken aslında savaş bitmiyor demek istiyor. Enflasyon 3'ün altına geldi,
+> bu daha fazla düşmez, **en fazla göreceği yer 2.6 olur**."*
+
+TUR 10'daki *"altın = gerginlik"* ile birlikte okunmalı. İkisi de metinleri
+yeniden yorumlamayı gerektiriyor.
+
+### 5) 2026 takviminin çerçevesi
+
+`2064441999512506617` (1 Şub 2026, abone):
+> *"Kafalarında bence **2026 Temmuz'a kadar bir yılı boş geçmek** var."* /
+> *"ABD için 2026 Temmuz sonrası **seçim süreci** başlar... Bu ilk 6 ay Çin ve
+> diğer ülkelerin olsun gözü ile ilerlerler."*
+
+`2064492230111285459` (5 Mar 2026) bunun jeopolitik gerekçesini veriyor:
+> *"Trump'ın derdi bence İran değil. **Çin geri adım atmıyor.** Direkt Çin
+> kanadına sallayamayacağına göre İran kanadına olay yapıyorlar. Çin İran'dan
+> ucuz petrol alıyor, önünü tıkamaya çalışıyor."*
+
+### 6) "Zorla kanal içinde tutuluyor" — yükselişin organik olmadığı iddiası
+
+- `2061229095598313582` → kanalın ilk gösterimi (*"NASDAQ şu kanala girmiş
+  değil mi?"*).
+- `2061112888761196984` → *"Trump trendi... Mumlar kanalın içine alındı ve
+  **altında kalınmasına izin verilmiyor**. Altını çiziyorum, **ZORLA** kanal
+  içinde tutuluyor. Bana göre bir alım yoktur."*
+- `2061114602008559772` + `2061115839101702488` + `2064023475178598410` →
+  aynı taktiğin **27.600** örneği: trend bozuluyor, aşağıdaki kanala
+  düşürülmüyor, *"mumları trende yanlatıp döndürdüler."* Bu görsel iki hafta
+  arayla İKİ KEZ paylaşılmış — Koç bunu şablon sayıyor.
+- `2059030428657348646` → yöntem dersi: *"Fiyatı takip etmek stres yaratır.
+  **Yöneteni ancak doğru trend ile anlarsın.**"*
+
+### 7) Oran grafikleriyle "balon" tezinin iki sınırı
+
+`2064287878377550103`: NASDAQ/XAUUSD'de üst bant **9,0 = BALON** (2021 ve 2024
+zirveleri), alt bant **4,5 = "balon patladı"** (2026). *"Biden yönetimi NASDAQ
+kanadını, seçim sürecinde BTC ve ETH ETF'leri ile balona götürdü."*
+Buna karşılık `2061913833761903050` dengeliyor: *"Altın bazında marjları bile
+hâlâ var"* — tez katı değil, yukarı alan tanıyor.
+
+`2062613791708160347` (SPX/XAUUSD 1980-2026): nominal SPX zirvedeyken oran
+**46 yıllık trendin dibinde** — *"altın bazlı sağlam dayak yemişler."*
+
+### 8) Bu turda çıkan yeni seviyeler
+
+| Enstrüman | Seviye | Not |
+|---|---|---|
+| NDX | **26.000** · 22.200 | "6 öğretisi" · 2025 kalıbı |
+| NDX | 29.600 · 28.570 · 30.260 | H4 üst/alt · "altı kalmadan tutarlar" |
+| XAUUSD | **4660** · 3880 · **3300** | kesişim · taban · "roket başlangıcı" |
+| XAGUSD | **33** · 26,2 | 2025 RED seviyesi · Çin birikim tabanı |
+| BTCUSDT | 107.800 · 98.500 | Tem-2025 çoklu tepe · ara basamak |
+| UKOIL | **89** | "yeni stres için aşılmalı" (3 aylık vade tuttu) |
+| DJI | 58.000 | kanal üst çizgisi projeksiyonu |
+
+Kütüphaneye giremeyenler (sembol karşılığı yok veya oran): NASDAQ/XAUUSD
+9,0 / 4,5 / 6,8, SPX/XAUUSD 5,7, XAUUSD/BTCUSD 0,026, XAGUSD/BTCUSD 0,0010,
+ETHUSD/XAGUSD 206, OTHERS.D 8,23, OTHERSBTC 0,1398.
+
+### 9) Defter sağlığı
+
+- Bu tur **50 kayıt** (`gorsel_analiz.jsonl` 524 → **574**). Bekleyen: **1.031**.
+- `magicma/onemli_seviyeler.json`: **14 yeni kayıt** (98 → **112**), doğrulandı:
+  *"112 geçerli kayıt, 0 atlandı."*
+- Kopya medya (`graf_02` = `graf_01`) bu turda 2 kez; ayrıca **aynı görselin
+  farklı tweetlerde yeniden paylaşılması** 2 kez (27.600 NASDAQ H4 ve
+  24 May BTC kesişimi) — bunlar kopya değil, **kasıtlı tekrar**: Koç o görseli
+  şablon olarak kullanıyor.
