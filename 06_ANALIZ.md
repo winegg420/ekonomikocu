@@ -3592,3 +3592,186 @@ doğrudan itiraflarından biri (arşivde nadir).
 - `2066935586754085152` ve `2066910191707140437` iki görselli tweetler;
   her ikisinde `graf_02` ile `graf_01` **aynı** görsel çıktı (X'in aynı medyayı
   iki kez sunması). İkisi de kayda geçti, ayrı bulgu sayılmadı.
+
+---
+
+## 2026-08-30 — GÖRSEL DEFTERİ TUR 9 (93 görsel: ÖNCELİK SIRALI — büyük floodlar + alıntılananlar)
+
+> **Seçim yöntemi değişti.** Bu tur kronolojik değil, **önem sıralı** ilerledi
+> (kullanıcı isteği: "en ucu açık önemli floodlardaki görsellerden ilerle,
+> alıntılanmış / en çok beğeni almış olanlardan"). Arşivde beğeni/RT alanı
+> **tutulmuyor** — tweet kayıtlarında böyle bir alan yok. Onun yerine gerçek
+> ilgi göstergeleri kullanıldı: **flood büyüklüğü** (thread_root'a bağlı kayıt
+> sayısı), **alıntılanmış olma** (`quoted_by`) ve **abone özel** olma.
+> Kapsanan floodlar: 201'lik #STOP floodu, 95'lik NASDAQ H4, 88'lik #ALTIN,
+> 84'lük "Kripto niçin değer kaybediyor", 83'lük #GÜMÜŞ, 76'lık, 62'lik,
+> 54'lük, 51'lik, 48'lik, 38'lik, 35'lik ve 27'lik floodlar + 34 alıntılanmış
+> kayıt. Tarih aralığı 21 Mar 2024 → 16 Haz 2026.
+>
+> Bu turdan sonra defterde **832 görsel** analiz edilmemiş kalıyor.
+
+### 1) Tezin tek sayfalık şeması bulundu: ABD (dijital) vs ÇİN (fiziksel)
+
+`2063598726862496072` — Koç'un kendi hazırlattığı infografik. Soldaki sütun
+**ABD'nin ilerletmek istediği varlıklar**: BTC, ETH, BNB, XRP, SOL, ADA, DOGE,
+AVAX, LTC, LINK. Sağdaki sütun **Çin'in ilerletmek istediği varlıklar**: altın,
+gümüş, bakır, platin, paladyum, doğalgaz, çinko, nikel, alüminyum, çelik.
+Altta: *"ABD'nin stratejik odağı: dijital finansal sistemde liderlik, dolar
+hegemonyasının dijital uzantısı. Çin'in stratejik odağı: gerçek ekonominin
+temeli olan emtiaları kontrol ederek enerji, sanayi ve üretim gücünü güvence
+altına almak."* Arşivdeki bütün "kripto ↔ emtia dengesi" yorumlarının kaynak
+şeması budur.
+
+### 2) En eski ve en geniş tez: üç senaryo (13 Tem 2021)
+
+`2062189150590152820` — beş yıl önce yazılmış, hâlâ geçerli çerçeve:
+
+> "Bu kripto işi dünyada tutmazsa hayırlı olan bana göre birliğin dağılmasıdır.
+> **3 seçenek kaldı:** 1. Kriptoyu dünyaya monte edeceksin. 2. Avrupa birliğini
+> dağıt bitsin bu çile. 3. ABD kendisini bağımsız krize sürükler.
+> Bunun dışında kimseye huzur yoktur."
+
+Bugünkü Avrupa cephesi yorumları da, DXY tezi de bu üç maddenin içinden çıkıyor.
+
+### 3) GÜMÜŞ–BTC "endeksleme" tezi — kısır döngünün mantık ispatı
+
+24 Mayıs abone floodunun iki parçası (`2064859108453330989`,
+`2064859189629894962`) — arşivin en net mantık yürütmesi:
+
+> "Gümüşe **endeksleme yapılmış gibi** bir yapı var. Gümüş 73-74 USD bandında
+> gidip geliyor ve tepki üretiyor, BTC de bunu yapıyor. Gerçekten gümüşe güçlü
+> baskı gelse düşerdi, ama bunu yapmıyorlar… genel baskı oluşturulmadığında
+> kripto toparlarken gümüş de toparlıyor. **Bu da kısır bir döngü yaratıyor.**"
+>
+> "Ben gümüş satış deniyorum. **Ben burada kazanacaksam BTC nasıl ayrışıp yukarı
+> gidecek?** Ya BTC yukarı gidecekse ben gümüşte dayak yiyeceğim, ya da gümüşte
+> ben kazanacaksam BTC de ona paralel inmek zorundadır."
+
+İki varlığın aynı anda kazandırmayacağının ispatı. Pekiştiren kayıtlar: BTC 60 K'dan
+sekince gümüş de sekti (`2066499520024678503`); "BTC 120 K'dan 60 K'ya düşüyor
+yatırımcı acı çekiyorsa, gümüş yatırımcısı da aynı acıyı çekiyor"
+(`2064041955449835904`); 31 Mayıs floodundaki "0.0010'a sabitlemişler" ifadesi.
+
+### 4) DXY tezinin tarihsel dayanağı (koc_tetigi.py koşul-1'in belgesi)
+
+`2063762968672624727` — DXY 1989-2026 grafiği. **108,094** yatay direnç
+işaretli; 2001'de 120'den düşürülüş oku, ve **2000-2015 arası DXY 70-90 bandı
+kırmızı kutuyla** çerçevelenip altına yazılmış: *"dxy düşürülmüş, 2000 ile 2015
+dünyanın refahı artmıştır."* Sağ üstte: *"Adamlar yine düşürmek istiyor. Bariz
+bellidir ama kabul görmüyor."*
+
+Yani `koc_tetigi.py`'nin "DXY 110 → 95" koşulu keyfi bir sayı değil: düşük DXY
+= küresel refah dönemi denklemine dayanıyor. Mantık zinciri 24 Oca 2025
+tweetlerinde açık (`2063635298160980176`): *"Ben DXY ucuzlatayım, sen emtiayı
+azdır mı diyorsun?… Tersi olsa DXY çıkartsa emtia düşüyor, para dolardan
+emtiaya kaçar."*
+
+### 5) Bu turun en somut İSABET zinciri: NASDAQ 30 K → 30.600
+
+- **28 Mar 2026 (abone):** "NASDAQ kanadına 30 K'ya gidecek zemini hazırlayacak"
+- **10 Haz 2026** (`2064497111698129279`): "NASDAQ kanadını 30 K'ya götürüyor"
+- **31 May 2026** (`2062964226872803477`): "PETROL kozunu kullandılar, pili az az
+  bitiyor. **Şimdi ise BORSA koz olacaktır.** Onu düşürdüğü an genel anlamda tüm
+  varlıklara etki edebilecekler."
+- **16 Haz 2026:** NASDAQ 30.600'den kırmızıya döndü.
+
+Aynı gün içinde rotasyonun anlık kanıtı da kayda geçmiş: NAS100M −%0,72 iken
+US30M +%1,55 — *"Geçen senenin kopyası işte. Birinin pili bitiyor diğerine
+geçiyorlar"* (`2062534506607763951` + `2062534688267276615`).
+
+### 6) NASDAQ tam kural seti (15 Haz 2026, H4)
+
+`2066471560345522333` — tek görselde eksiksiz karar ağacı:
+
+| Seviye | Kural |
+|---|---|
+| **29.700** | kritik çizgi; altı kalınca düştü ama oranın üstüne aldılar |
+| **28.200** | **ilk savunma hattı** |
+| **27.600** | kırılmadan bant içi dalgalanma yaparlar, günleri boşa geçirirler |
+| — | **gerçek satış için 27.600 altında KAPANIŞ gerekir** |
+| Ana kural | *"yeni AYLIK mum son tepenin üstünde kapatamazsa geri çekilmeler gelir"* |
+
+### 7) Vade takvimi — Ağustos 3. hafta bu pencerenin içinde
+
+`2066909437864910991` — "Taze vade başladı. Tarihler aşağıda, isterseniz not
+alın." **İlk işlem 16.06.2026 00:00 · Son işlem 17.09.2026 22:00.** Koç'un
+"Ağustos 3. hafta" çıpası bu vade penceresinin ortasına düşüyor; 60 günlük
+blok hesabı da (`2066493211435057438`) "Haziran'ın 15'i + 60 gün = Ağustos'un
+15'i" diye aynı yere çıkıyor.
+
+### 8) "Barışsalar" senaryosu ve barışın borsa için neden risk olduğu
+
+- `2063017474459648445` — ETH/XAG oranına **yeşil dikey okla "BARIŞSALAR"**
+  senaryosu çizilmiş: barış gelseydi oran 23,8'den 300'lere fırlayacaktı.
+  "Barış gelmeyince kesişimden aşağı alıyorlar."
+- `2065531958814290179` — NASDAQ/XAUUSD oranında kırmızıyla **OBO** çizili:
+  *"Gerçek bir barış yaşansa ve emtia çakılsa, emtia bazlı NASDAQ'ta OBO!
+  İleride borsalar düşmek zorunda kalır."* Barışın borsa için neden iyi haber
+  olmadığını anlatan tek görsel.
+
+### 9) Altın bazlı borsa: 142 yıllık grafik
+
+`2064407451768631337` — SPX/XAUUSD oranı **1884-2026**, bugün 1,72. Tez:
+*"ABD içinde ALTIN bazlı geçerlidir. Adamlar altın bazlı tarihinde bir kez sert
+yükselmiştir, sonrası hep dayak."* Okuma kuralı da veriliyor: *"bu grafikte
+mumlar yukarı gidiyorsa BORSA, aşağı geliyorsa ALTIN güçlüdür."* Kardeş kayıt:
+SP500/XAUUSD = 1,76, "altın bazında bire bir denge var, ama Biden döneminde
+balon var, 2,6'ları görmüş" (`2065545488439353631`).
+
+### 10) SIFIR ÖĞRETİSİ kanıtlandı
+
+`2062833390970175812` (BTC 2019-2020 günlük) — **7600** yatayı grafikte dört
+kez işaretli. Yorum (`2063681753823273155`): *"2020'den önce 7600 dolar
+civarında milleti deli ederken aşağı yukarı yorarken! Bugün bunu **76 K**'da
+yaşatıyorlar. Sadece bir sıfır almış halini yaşatıyorlar."* Aynı kalıp bir
+basamak büyüyerek tekrarlanıyor.
+
+### 11) Tarih tahmininin yöntemi: çizgi kesişimi = takvim
+
+- `2038986156075872628` (31 Mar): Brent 4H'de alçalan direnç + yükselen destek
+  **6 Nisan'da** kesişiyor → "6 Nisan kesişim… O gün ne var?" 17 Nisan'da
+  kapatıyor: *"Neden Hürmüz açıldı diye 16-17 Nisan'da ortalığı ayağa
+  kaldırdın? 6 Nisan."*
+- `2064849818246070562`: abone "10-11 Haziran'ı gösteren bir şey var mı?" diye
+  soruyor, Koç "gümüş vardı, **11 Haziran**" diyor — 11 Haziran'da gümüş 61
+  doları gördü.
+- `2064732499528306736`: *"Önemli olan rakamlar değil **ZAMAN**. Adamlar
+  sistemli gidiyorlar. Sağda olan kesişimi ve denk gelen değeri gördün mü?
+  4376."*
+
+### 12) Yeni/pekişen seviyeler (bu turda geçen)
+
+| Enstrüman | Seviye | Not |
+|---|---|---|
+| NDX | 29.700 / **28.200** / **27.600** | kritik / ilk savunma / gerçek satış eşiği |
+| NDX | 25.235 · 29.651 | 2025 ve 2026 ABD-ÇİN görüşmelerinin seviyeleri |
+| BTCUSDT | **80.600** | altındaysa risk iştahı yok |
+| BTCUSDT | **73.600** | aşılmadan yürümez |
+| BTCUSDT | **65.700** | "savaş değerimiz"; 28 Şubat düşüşü + 2 Mart alımı |
+| BTCUSDT | 76.000 | 2019'daki 7.600'ün bir sıfır almış hali |
+| BTCUSDT | 60.558 – 80.442 | altı aylık yatay kanalın sınırları |
+| ETHUSDT | **2570** | aşılmadan piyasa canlanmaz |
+| UKOIL | **108** | üstü kalamasın → short |
+| UKOIL | 105,7 / 106 | 6 Nisan kesişiminin fiyatı |
+| XAGUSD | **80,60** | zaman-seviye kesişim değeri (defalarca tekrar) |
+| XAGUSD | 68 / **64** / 63 / 57 | ABD stresi / kırılırsa nefes kesilir / gazlama seviyesi / üçgen kapanışı |
+| XAGUSD | 73-74 | BTC ile endekslendiği bant |
+| DXY | **108,094** | 2001 zirvesinden gelen tarihsel yatay |
+| SPX | **7460 / 7461** | short hedefi ve stop (nadir net tavsiye) |
+| SPX/XAUUSD | 1,72 – 1,76 (balon 2,6) | altın bazlı borsa dengesi |
+| DJI | 50.600 · 51.535 | destek ve rotasyon günü fiyatı |
+| XAUTRY | 6400 | "sonrası zaten Çin gazıydı" |
+| XAUUSD | 4376 · 4067 | kesişim değeri ve sert düşüşün kapanışı |
+| A50 | 15.700 | gap ile korunan seviye |
+| XU100 / XU030 | 13.800 / 15.700 | "15700 = 5.7" sayı öğretisi |
+
+### 13) Defter sağlığı
+
+- Bu tur **93 kayıt** yazıldı (`gorsel_analiz.jsonl` 381 → 474).
+- `magicma/onemli_seviyeler.json`: **14 yeni kayıt** (78 → 92).
+- **Eklenemeyen seviyeler** (sembol listesinde karşılığı yok, kural gereği
+  atlandı): DAX 24.660, A50 15.700, EURTRY 57-60 bandı, XAGTRY 92/106,
+  GOLDGR 140,6 (bunun yerine XAUTRY kullanıldı). Bu enstrümanlar
+  `magicma/sembol_listesi/*.txt`'e eklenirse seviyeleri de girilebilir.
+- Bu turda da doğrulandı: iki görselli tweetlerin `graf_02`'si sıklıkla
+  `graf_01`'in birebir kopyası çıkıyor (X aynı medyayı iki kez sunuyor).

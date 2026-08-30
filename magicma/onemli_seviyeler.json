@@ -634,5 +634,117 @@
   "tur": "baz",
   "aciklama": "Kriptoya girerken ETH de 3300 u baz alacaksiniz; ustu prim, alti zaman kaybi veya kayip (20 Oca 2025; 17 Haz 2026 da tekrar)",
   "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "NDX",
+  "seviye": 28200,
+  "tur": "savunma",
+  "aciklama": "Ilk savunma hatti; 27600 kirilmadan bant ici dalgalanma (15 Haz 2026 abone)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "NDX",
+  "seviye": 27600,
+  "tur": "kritik",
+  "aciklama": "Gercek satis icin 27600 ALTINDA kapanis gerekir; ustunde bant ici oyalama (15 Haz 2026)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "UKOIL",
+  "seviye": 108,
+  "tur": "short esigi",
+  "aciklama": "108 dolar ustu kalamasin - short (31 May 2026 abone)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "BTCUSDT",
+  "seviye": 80600,
+  "tur": "risk esigi",
+  "aciklama": "80600 altindaysa risk istahi yok demektir (19 May 2026 abone)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "BTCUSDT",
+  "seviye": 65700,
+  "tur": "savas degeri",
+  "aciklama": "65700 - 28 Subat dususunun ve 2 Mart alimININ seviyesi; 'savas degerimiz' (26 Sub / 4 Haz 2026)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "XAGUSD",
+  "seviye": 80.6,
+  "tur": "kesisim",
+  "aciklama": "Alcalan direnc ile yukselen destegin kesistigi deger (4-8 Haz 2026, defalarca tekrar)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "XAGUSD",
+  "seviye": 64,
+  "tur": "kritik",
+  "aciklama": "64 dolar kirilmadan durulur; alti kalirsa nefesi kesilir (8 Haz 2026 abone)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "XAGUSD",
+  "seviye": 63,
+  "tur": "gazlama seviyesi",
+  "aciklama": "Gumusu 63 dolardan gazlamislardi; ayni seviyeye donuldu (10 Haz 2026)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "XAGUSD",
+  "seviye": 57,
+  "tur": "ucgen kesisimi",
+  "aciklama": "Alcalan ucgenin kapanma noktasi (15 Haz 2026)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "DXY",
+  "seviye": 108.094,
+  "tur": "tarihsel direnc",
+  "aciklama": "2001 zirvesinden gelen yatay; 2000-2015 arasi DXY 70-90 bandi = dunyanin refahi artti (8 Haz 2026)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "SPX",
+  "seviye": 7460,
+  "tur": "short hedefi",
+  "aciklama": "7460'a kadar short, 7461 stop (7 Haz 2026 abone, nadir stop'lu tavsiye)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "XAUTRY",
+  "seviye": 6400,
+  "tur": "cin gazi",
+  "aciklama": "6400 lira sonrasi zaten Cin gaziydi (10 Haz 2026)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "DJI",
+  "seviye": 50600,
+  "tur": "destek",
+  "aciklama": "Dow 50600 (8 Haz 2026)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "XAUUSD",
+  "seviye": 4067,
+  "tur": "dip",
+  "aciklama": "Sert dususun kapattigi tanidik seviye (11 Haz 2026)",
+  "tarih_eklendi": "2026-08-30"
  }
 ]

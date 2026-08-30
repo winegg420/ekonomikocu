@@ -2816,3 +2816,32 @@ ikisinin de doğru şekilde SESSİZ kaldığı doğrulandı.
 - Defter bölümü `06_ANALIZ.md` sonuna "TUR 8" olarak eklendi.
 - **Çıkarım:** aynı tweet iki görselli olduğunda `graf_02` bazen `graf_01`'in
   birebir kopyası çıkıyor (X aynı medyayı iki kez sunuyor). Ayrı bulgu sayma.
+
+## 2026-08-30 — Görsel defteri TUR 9 (93 görsel, ÖNCELİK SIRALI)
+
+- **Seçim yöntemi değişti** (kullanıcı isteği): kronolojik değil, önem sıralı.
+  **Arşivde beğeni/RT alanı YOK** — tweet kayıtlarında böyle bir alan
+  tutulmuyor. Proxy olarak flood büyüklüğü (thread_root'a bağlı kayıt sayısı),
+  `quoted_by` (alıntılanmışlık) ve `abone_ozel` kullanıldı.
+- Kapsanan: 201'lik #STOP floodu, 95'lik NASDAQ H4, 88'lik #ALTIN, 84'lük
+  "Kripto niçin değer kaybediyor", 83'lük #GÜMÜŞ + 34 alıntılanmış kayıt.
+- `gorsel_analiz.jsonl` 381 → 474. **Kalan: 832.**
+- **Bu turun en değerli dört bulgusu:**
+  1. **Tezin tek sayfalık şeması** — ABD (dijital: BTC/ETH/…) vs ÇİN (fiziksel:
+     altın/gümüş/bakır/…) infografiği. Tüm kripto-emtia dengesi yorumlarının
+     kaynağı.
+  2. **Gümüş-BTC "endeksleme" tezi** (24 May abone) — "ben gümüşte kazanacaksam
+     BTC nasıl ayrışıp yukarı gidecek?" İki varlığın aynı anda kazandırmayacağının
+     mantık ispatı.
+  3. **DXY tezinin tarihsel dayanağı** — DXY grafiğinde 2000-2015 arası 70-90
+     bandı "dünyanın refahı arttı" diye kutulu. `koc_tetigi.py` koşul-1'in
+     (DXY 110→95) belgesi.
+  4. **Vade takvimi** — 16.06.2026 → 17.09.2026. "Ağustos 3. hafta" tam bu
+     pencerenin ortasında.
+- `magicma/onemli_seviyeler.json`: 14 yeni kayıt (78 → 92).
+- **Eklenemeyen seviyeler** (sembol listesinde karşılık yok): DAX 24660,
+  A50 15700, EURTRY 57-60, XAGTRY 92/106, GOLDGR 140,6. Bu enstrümanlar
+  `magicma/sembol_listesi/*.txt`'e eklenirse seviyeleri de girilebilir.
+- **Çıkarım (yöntem):** Koç'un tarih tahminleri çizgi kesişiminden türüyor —
+  "6 Nisan kesişim, o gün ne var?" → 6 Nisan Hürmüz. Seviye + takvim birlikte
+  veriliyor; seviyeyi takvimsiz okumak sinyali yarım bırakıyor.
