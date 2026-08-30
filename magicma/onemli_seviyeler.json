@@ -908,5 +908,117 @@
   "tur": "tetik",
   "aciklama": "'Yeni bir stres icin 89 dolar asilmali, asilmadikca geri gelir' (15 Haz 2026); 3 aylik vade Sub->Haz 2026 tuttu",
   "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "NDX",
+  "seviye": 23700,
+  "tur": "tarihsel direnc",
+  "aciklama": "'Baris tepesi' - Trump'in Putin+Avrupa zirvesiyle kirdirdigi rakam; savas cikinca altinda kalindi. Toparlanma icin asilmali (31 Mar 2026)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "NDX",
+  "seviye": 22600,
+  "tur": "tarihsel direnc",
+  "aciklama": "Biden doneminin NASDAQ tepesi - 23.700 ile birlikte siyasi olarak etiketlenen ikili",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "NDX",
+  "seviye": 24600,
+  "tur": "kritik",
+  "aciklama": "'Alti net gardi dusuyordu' - 2026 Mart dususunun ilk esigi, haftalik kanal temasi",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "NDX",
+  "seviye": 29710,
+  "tur": "savunma",
+  "aciklama": "29.700 uzerinde 10 GUN tutuldu, 5 Haz 2026'da kirildi - gun sayisiyla olculen savunma",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "XAUUSD",
+  "seviye": 4700,
+  "tur": "esik",
+  "aciklama": "'4.700 uzerinde kalmadikca adamlara gore ciddi bir sorun gorunmuyor' - ana trend ile alcalan direncin kesisimi (3 Haz 2026)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "XAGUSD",
+  "seviye": 89.3,
+  "tur": "tavan",
+  "aciklama": "'90 dolar' - 80,60'tan cikilan hareketin tepesi (13 May 2026); ayrica 2020 yukselen trendinin direnc olarak calistigi yer",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "XAGUSD",
+  "seviye": 120,
+  "tur": "savas degeri",
+  "aciklama": "'Gumusun 120 dolar gormesi ne demek? Savas cikar' (5 Sub 2026 abone)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "BTCUSDT",
+  "seviye": 33000,
+  "tur": "ogreti_basamagi",
+  "aciklama": "Yelpazenin orta cizgisi + haftalikta 2022'de direnc / 2023'te destek; '33' ogretisinin BTC karsiligi",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "BTCUSDT",
+  "seviye": 17000,
+  "tur": "ogreti_basamagi",
+  "aciklama": "2012 'sifir noktasi' yelpazesinin alt cizgisi",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "USDTRY",
+  "seviye": 33.08,
+  "tur": "ogreti_basamagi",
+  "aciklama": "'33 lira asilinca yurudu gitti' (Tem-2024 kirilimi) - '33' ogretisinin TL karsiligi",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "XAUTRY",
+  "seviye": 6445,
+  "tur": "destek",
+  "aciklama": "Gram altin 6400 tabani - Oca/Nis/Haz 2026'da UC kez korundu; '6400 ustu Cin gazi, aslinda 6400 sinirdi' (19 Mar 2026)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "XU100",
+  "seviye": 12600,
+  "tur": "kritik",
+  "aciklama": "'12600 kirilirsa anca sendeler' - 13.800 robotunun altindaki savunma (27 Agu 2026)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "ETHUSDT",
+  "seviye": 4900,
+  "tur": "tarihsel direnc",
+  "aciklama": "Eki-2025 zirvesi; haftalik alcalan kanalin baslangici",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "SPX",
+  "seviye": 4900,
+  "tur": "on_kosul",
+  "aciklama": "'Burada dusursen ve faiz indirim surecini baslatsan ne kaybederdin?' - Koc'un onerdigi saglikli duzeltme dibi (1 Haz 2026)",
+  "tarih_eklendi": "2026-08-30"
  }
 ]

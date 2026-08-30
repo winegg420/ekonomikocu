@@ -2897,3 +2897,28 @@ ikisinin de doğru şekilde SESSİZ kaldığı doğrulandı.
 - **Çıkarım (yöntem):** aynı görselin farklı tweetlerde yeniden paylaşılması
   kopya medya DEĞİL — Koç o grafiği şablon sayıyor. Defterde ayrı kayıt olarak
   tutuluyor ama "tekrar" notu düşülüyor.
+
+## 2026-08-30 — Görsel defteri TUR 12 (100 görsel)
+
+- Aynı puanlama, kalan 1.031 görsele; tweet başına en fazla 2 görsel.
+- `gorsel_analiz.jsonl` 574 → **674**. Kalan: **931** (ekonomikocu 784).
+- `06_ANALIZ.md` sonuna "TUR 12" bölümü eklendi.
+- **En değerli bulgu — altın/gümüş oran formülü bulundu:**
+  `XAGUSD_teorik = (XAUUSD / 31,1) / 2`. Koç'un "gümüş 72.4 olmalıdır" gibi
+  cümlelerinin kaynağı (25 May 2026 abone tweeti). Aynı karede rol dağılımı:
+  ABD = BTC diri / ETH baskı, Çin = gümüş diri / altın baskı.
+- **BTC 60 K pivotunun kaynak grafiği:** 2012 "0 noktası" yelpazesi — üç çizgi
+  17 K / 33 K / 60 K. 60 K yuvarlak sayı değil, yelpazenin üst çizgisi.
+- **"33" öğretisi beş enstrümanda** (ETH 3300, ALTIN 3300, GÜMÜŞ 33,
+  BTC 33.098, USDTRY 33,08); "6 öğretisi" TOTAL2 1,06 T ile genişledi.
+- **ETH 1746'nın gerçek gerekçesi:** "1746 altına almazlarsa mal OBO'ya gider ve
+  yükselirdi" — destek değil, formasyonu engelleyen seviye.
+- Takvim tahminlerinin tuttuğunu gösteren iki belge (16 May dört tarih;
+  29 Nis "3 ay petrol → Haziran").
+- `magicma/onemli_seviyeler.json`: 14 yeni (112 → 126), 0 atlandı.
+- **Yöntem çıkarımı:** aynı görselin farklı tweetlerde tekrar paylaşılması kopya
+  değil, ŞABLON kullanımı (bu turda 6 kez). Bir görselin kaç kez döndüğü, o
+  tezin ağırlığının ölçüsü sayılabilir.
+- **Not (araç):** görselleri okurken eski tool sonuçları bağlamdan düşünce
+  "[media removed: request limit]" olarak görünüyor. 100'lük turda ilk 48 bu
+  yüzden ikinci kez okundu. Büyük turlarda 6'şarlı oku + hemen yaz.

@@ -4044,3 +4044,132 @@ ETHUSD/XAGUSD 206, OTHERS.D 8,23, OTHERSBTC 0,1398.
   farklı tweetlerde yeniden paylaşılması** 2 kez (27.600 NASDAQ H4 ve
   24 May BTC kesişimi) — bunlar kopya değil, **kasıtlı tekrar**: Koç o görseli
   şablon olarak kullanıyor.
+
+## 2026-08-30 — GÖRSEL DEFTERİ TUR 12 (100 görsel — sayı öğretisinin kaynakları)
+
+**Kapsam:** kalan 1.031 görsele aynı puanlama uygulandı, tweet başına en fazla 2 görsel
+kuralıyla ilk **100** alındı. Ağırlık 20 Mayıs – 15 Haziran 2026; ayrıca arşivin en eski
+(31 Mart 2026) ve en yeni (27 Ağustos 2026) kayıtlarından birer görsel de listeye girdi.
+
+### 1) EN DEĞERLİ BULGU: ALTIN–GÜMÜŞ ORAN FORMÜLÜ
+
+`2061139745724367119` (25 May 2026, abone) — Koç'un "gümüş şu fiyatta **olmalıdır**"
+derken kullandığı hesabın ta kendisi, ilk kez açık halde:
+
+> *"Ya #altın ucuz, ya da #gümüş pahalıdır.*
+> *#altın 4506 ise!*
+> ***4506 / 31.1 = 144.9***
+> ***144.9 / 2 = 72.4 dolar.***"
+
+Yani **XAGUSD_teorik = (XAUUSD / 31,1) / 2** — altın onsu gram'a çevriliyor, ikiye
+bölünüyor. Bugüne kadar "25 Mayıs gümüş 72.4 olmalıdır" gibi cümleler defterde
+gerekçesiz duruyordu; kaynağı bu.
+
+Aynı görselin ikinci tweeti **rol dağılımını** veriyor:
+> *"ABD #BTC yi ön planda tutuyor, #ETH yi baskılıyor. Çin için ise #GÜMÜŞ ü diri tutup,
+> #ALTIN kanadını baskılıyorlar. **Dengeli yönetim var.**"*
+
+Dört varlığın iki ülkeye paylaştırılması — TUR 9'daki ABD/ÇİN infografiğinin sayısal hali.
+
+### 2) İKİNCİ BULGU: BTC 60 K PİVOTUNUN KAYNAK GRAFİĞİ
+
+`2063685788475314284` — 2012'deki **"0 noktası"**ndan çıkan üç çizgili yelpaze.
+Her çizginin 2024 hizasındaki değeri yazılı: **17 K / 33 K / 60 K**.
+
+> *"#BTCUSD **60 K twitim**. O dönem abonelik yoktu ve **6 öğretisi** bilinmiyordu."*
+
+Kütüphanedeki `BTCUSDT 60.000 – "en büyük resmin pivotu"` kaydı buradan geliyor:
+60 K keyfi bir yuvarlak sayı değil, yelpazenin **üst çizgisi**. 33 K orta, 17 K alt çizgi.
+`2063687224412008897`'de aynı grafik "gazlanan bölge silinmiş" haliyle yeniden çiziliyor
+ve doğru seyrin 2026'da ~45.000'e inmek olduğu gösteriliyor.
+
+### 3) "33" ÖĞRETİSİ ARTIK BEŞ ENSTRÜMANDA
+
+TUR 11'de üç enstrümanda tespit edilmişti; bu turda ikisi daha eklendi:
+
+| Enstrüman | Değer | Kaynak |
+|---|---|---|
+| ETHUSD | 3300 | 20 Oca 2025, "baz" (35,7 B görüntüleme) |
+| XAUUSD | 3300 | "Sıfır trendler genelde 33'te başlar — ALTIN 3300'den ROKET" |
+| XAGUSD | 33 | 2025 boyunca sürekli "tokat yenen" seviye |
+| **BTCUSD** | **33.098** | haftalıkta 2022 direnç → 2023 destek; yelpazenin orta çizgisi |
+| **USDTRY** | **33,08** | *"33 lira aşılınca yürüdü gitti"* (Tem-2024) |
+
+Aynı şekilde "**6 öğretisi**" de genişledi: NDX 30.600 · NDX 26.000 · BTC 60 K ·
+**TOTAL2 1,06 trilyon** (*"freni de 1.06'da yedi"*, `2061889696146366575`).
+
+### 4) NASDAQ'ın SİYASİ SEVİYE HARİTASI
+
+`2061232182979334573` (31 Mar 2026, abone) — seviyeleri teknik değil **siyasi** olarak
+etiketliyor:
+
+> *"Tekniğe bile gerek yok! Biden döneminde NASDAQ tepesi kaçtı? **22.600**.
+> Trump, Putin ve Avrupalı liderleri toplayıp hangi rakamı 'barış' deyip kırdırdı?
+> **23700**. Barış yerine ne çıktı? Savaş. Savaş çıkınca nasdaq **23700'ün altında kaldı**."*
+> *"Toparlanması için ne lazım? **23700 barış tepesini aşması.**"*
+
+Buna `2038939393747042666`'daki **24.600** (*"altı net gardı düşüyordu"*) ve
+`2061231746436231178`'deki aylık **23.700** tabanı ekleniyor. Üç seviye tek hikâye:
+22.600 (Biden) → 23.700 (barış) → 24.600 (gard).
+
+### 5) TAKVİM TAHMİNLERİNİN TUTTUĞU İKİ BELGE
+
+- `2061940888528445690` (**16 May 2026**, abone): *"Temmuz ayı çok önemlidir. Bir de
+  **Ağustos 3. hafta**... Şu arada stresleri var; **18 Mayıs ile 7-8 Haziran**."*
+  → Dört tarih, olaylar olmadan **önce**, tek karede.
+- `2066495899480514703` (**29 Nis 2026**, abone): *"Mart ayından beri petrol.
+  **3 ay izlettirseler Haziran ayına kadar gelirler.**"* → 15 Haziran'da kendisi
+  *"Analiz başarılı mı? 3 ay petrol ile zaman geçirdiler"* diye kapatıyor.
+
+Ayrıca `2064441999512506617` (1 Şub 2026): *"2026 Temmuz'a kadar bir yılı boş geçmek
+var"*, `2065350651496767892` (31 May): *"3 ay altın/gümüş, 3 ay petrol → ite kaka
+Temmuz'a gelirler."* Blok takvimi dört ayrı kayıtla belgelendi.
+
+### 6) "10X KALIBI" — zaman geçirmenin matematiği
+
+`2062836260759019975` (23 Kas 2025, abone) + iki grafik (`2062835531017277946`,
+`2062835847653691751`):
+
+> *"Adamlar zaman geçiriyorlar. Dünyaya birçok yerde **10 X yaptırdılar**. Yeni bir trende
+> dünyayı almıyorlar, **aynı kalıplarda oyalıyorlar**. Örnek: ETH 2020 öncesi aşağıda
+> **80** dolar yukarıda **480-500**. Son dört yıldır da aşağıda **800**, yukarıda **4800**."*
+
+Grafiklerde 842 ve 4.861 yatayları çizili — tam 10 kat. Aynı bandın bir sıfır eklenerek
+tekrar ettiği iddiası.
+
+### 7) ETH 1746'nın GERÇEK GEREKÇESİ
+
+`2066488962806342021` — mavi kalemle çizilmiş senaryo ve kutu:
+> ***"Ekstra 1746 altına almazlarsa mal OBO'ya gider ve yükselirdi."***
+
+1746 yalnızca bir destek değil: **omuz-baş-omuz formasyonunun oluşmasını engelleyen**
+seviye. "Neden bu kadar tekrarlıyor" sorusunun cevabı.
+
+### 8) Bu turda çıkan diğer somut seviyeler
+
+| Enstrüman | Seviye | Not |
+|---|---|---|
+| XAUUSD | **4700** | *"üzerinde kalmadıkça adamlara göre sorun yok"* — ABD'nin rahatsızlık eşiği |
+| XAGUSD | **89,3 / 120** | "90 dolar" tepesi · *"120 görmesi = savaş çıkar"* (5 Şub) |
+| XAUTRY | **6445 / 6400** | Oca-Nis-Haz 2026'da ÜÇ kez korunan taban |
+| XU100 | **12.600** | *"kırılırsa anca sendeler"* (27 Ağu 2026, en güncel görsel) |
+| BTCUSD | 84.000 / 83.999 | haftalık kanalın üst çizgisi — *"tam çizgiden döndü"* |
+| SPX | **4900** | Koç'un önerdiği "sağlıklı düzeltme dibi" (faiz indirimi senaryosu) |
+| NDX | 29.710 | **10 gün** savunuldu, 5 Haz'da kırıldı |
+
+### 9) Yöntem gözlemi — aynı görselin tekrar kullanımı
+
+Bu turda **aynı görselin farklı tweetlerde yeniden paylaşılması 6 kez** görüldü
+(24 May BTC kesişimi 3 kez; "Avrupa varsa kripto var" 2 kez; "Altın = gerginlik" 2 kez;
+GOLDgr fitil 2 kez; 19 May "80600" 2 kez; 7 Ara 2021 kripto tezi 2 kez).
+Bunlar kopya medya **değil**: Koç bu kareleri şablon olarak kullanıyor. Bir görselin kaç
+kez döndüğü, o tezin ağırlığının ölçüsü sayılabilir.
+
+### 10) Defter sağlığı
+
+- Bu tur **100 kayıt** (`gorsel_analiz.jsonl` 574 → **674**). Bekleyen: **931**
+  (ekonomikocu 784, iriscibre 115, efloud 32).
+- `magicma/onemli_seviyeler.json`: **14 yeni kayıt** (112 → **126**), doğrulandı:
+  *"126 geçerli kayıt, 0 atlandı."*
+- İlk kez `baskasinin_grafigi` türü kullanıldı (dogankonya TradingView çizimleri ve
+  abone grafiği) — Koç'un kendi çizimiyle karışmaması için ayrı etiketlendi.
