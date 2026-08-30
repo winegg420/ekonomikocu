@@ -1774,3 +1774,78 @@ röportajındaki "Trump kaybedecek gibi görünüyor" görüşüyle **aynı yön
 | 27 Ağu | ETH Golden Cross ~29-30 Ağustos | İZLENİYOR |
 | 27 Ağu | ETH $3.000 kırılırsa altcoin sirayeti başlar | İZLENİYOR |
 | 27 Ağu | Bernstein: BTC 2026 sonu $125K | İZLENİYOR |
+
+## ERKAN ÖZ (YouTube — teknik + jeopolitik sentez)
+
+Kaynak notu: Bu analistin görüşleri sadece kendisine aittir, Koç'un görüşleriyle
+karıştırılmamalı. YouTube kanalı, çoğunlukla teknik + jeopolitik sentez içerikli.
+
+### "ABD Ara Seçimleri Piyasaları Nasıl Etkiler?" — 30 Ağustos 2026
+
+**ABD ara seçimi çerçevesi (3 Kasım 2026 Salı):**
+- Temsilciler Meclisi tamamen yenileniyor, Senato'da 100 sandalyenin 35'i, ayrıca 39
+  eyalet valiliği seçimi var. Trump'ın kongre çoğunluğunu kaybetme ("topal ördek")
+  riski var — seçim öncesi performansı zayıf değerlendiriliyor (İran'la gerilim dahil).
+- ⭐ **Tarihsel S&P 500 paterni (1974'ten bu yana, 14 ara seçim dönemi):** Seçime kadar
+  olan dönem ~%50-50 karışık (pozitif/negatif). Ama **seçim SONRASI yılbaşına kadar
+  14 dönemden sadece 2'si negatif** (1978, 2018). **Seçim sonrası tam 1 yıl içinde HİÇ
+  negatif dönem yok** — 2018'de (Trump döneminde) bile +%14,3 ile kapanmış. Bu, güçlü
+  bir tarihsel temel senaryo.
+
+**Fed faiz teması:**
+- ⭐ Piyasa **Eylül'de faiz ARTIRIMI** bekliyor (indirim değil) — bu, Erhan Aslanoğlu,
+  Emrah Lafçı & Ali Perşembe ve Cüneyt Paksoy'un verdiği aynı yöndeki sinyalle **4.
+  bağımsız kaynak** oluyor. Koç'un "faiz indirimi geliyor" boğa koşuluna karşı artık
+  4 kaynaktan ayrışma sinyali birikmiş durumda.
+- Trump'ın Jim Rickards'ın $10.000 altın hedefini kendi sosyal medyasında 2 kez
+  paylaşması + Bitcoin alımını "hâlâ ciddi düşünüyoruz" demesi — sınırlı varlıkları
+  (altın/BTC) destekleyen siyasi sinyaller.
+
+**Hürmüz/İran riski — seçim sonrası eskalasyon ihtimali:**
+- Trump seçim öncesi krizi "dondurmaya" çalışıyor (zafer ilanı + görüşme istemiyoruz
+  söylemi) ama aynı anda yeni uçak gemisi + yeni ambargo gönderiyor — çelişkili sinyal.
+- ⭐ **Tez: seçim SONRASI İran'a karşı daha sert askeri müdahale riski var** — gerekçe:
+  Hürmüz Boğazı kontrolü kaybedilirse ABD'nin petro-dolar sistemi (Körfez ülkelerinin
+  petrolü dolarla satıp ABD varlıklarına yatırım yapması şartı, 1971 anlaşması) tehlikeye
+  girer, bu da dolar rezerv para statüsü için varoluşsal risk. Çin'in bu senaryodan
+  faydalanacağı belirtiliyor (İran'ın arkasında Çin var).
+
+**Teknik görünüm (30 Ağustos itibarıyla):**
+- **Altın:** 200 günlük ortalamanın altına sert düşüş — olumsuz sinyal, ama onay
+  indikatörü henüz kırmızıya dönmedi (net değil, "ortada" tabir ediliyor).
+- **Gümüş:** 200 günlük ortalamayı hiç aşamamıştı, şimdi 66,35'e geriledi. 200 günlük
+  ortalama 72-73 civarında — bu seviyenin üstüne çıkması olumlu olur.
+- **Bitcoin:** Sert yükseliş sonrası "merdiven" konsolidasyon formasyonu aşağı kırıldı
+  — bu, 200 günlük ortalamaya (~69.350) doğru sarkma ihtimalini artırıyor.
+- **Nasdaq/S&P 500:** Hâlâ 200 günlük ortalamanın üzerinde, boğa bayrağı formasyonu
+  yukarı kırılmış, hedef daha yukarıda — dışarıdan şok olmadıkça yönü yukarı.
+
+**Venezuela — pozitif sürpriz:**
+- Trump, Venezuela ile büyük bir petrol anlaşması duyurdu (ABD yatırımı karşılığında
+  petrol çıkarımı) — seçim öncesi benzin fiyatlarını düşürme hamlesi olarak okunuyor,
+  piyasalara potansiyel pozitif katkı.
+
+**[Claude çapraz kontrol]:** Fed faiz artırım beklentisi teması artık **4 bağımsız
+kaynaktan** geliyor (Aslanoğlu + Lafçı&Perşembe + Paksoy + Erkan Öz) — Koç'un temel
+boğa koşuluyla (faiz indirimi) doğrudan çelişen, giderek güçlenen bir karşıt sinyal.
+BTC'nin 200 günlük ortalamaya (~69.350) sarkma riski, Koç'un 60K "tehlikesiz" bölgesinin
+üzerinde ama MagicMA'nın izlediği teknik bölgelerle çakışabilir — MagicMA taramasında
+BTC 69K civarı seviyeleri varsa not düşülmeli.
+
+> **Doğrulandı (MagicMA ham verisi, son tarama 26 Ağu 2026):** BTCUSDT'de
+> **Magicma Günlük bandı 68.450 – 69.244**. Erkan Öz'ün verdiği 200 günlük ortalama
+> (~69.350) bu bandın üst sınırının **%0,15 üstünde** — yani teknik olarak AYNI bölge.
+> Ayrıca `magicma/onemli_seviyeler.json`'da BTCUSDT **69.000 (200 günlük ortalama,
+> Golden Cross 1 Eylül 2026)** ve **69.170 (alım seviyesi)** kayıtları zaten var.
+> Sonuç: 68,4-69,4 K, üç bağımsız yöntemin (MagicMA günlük bandı + 200 GO +
+> Koç'un alım seviyesi) işaret ettiği **mega-confluence adayı** bir bölge.
+> Fiyat oraya sarkarsa alarm motoru bunu 🌟 olarak bildirmeli.
+
+### KARNE — Erkan Öz
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 30 Ağustos | Ara seçim sonrası 1 yıl tarihsel olarak hep pozitif (S&P 500) | İZLENİYOR |
+| 30 Ağustos | Eylül'de Fed faiz artırımı bekleniyor | İZLENİYOR (4 kaynak ortak) |
+| 30 Ağustos | Seçim sonrası İran'a sert müdahale riski var | İZLENİYOR |
+| 30 Ağustos | BTC 200 günlük ortalamaya (~69.350) sarkabilir | İZLENİYOR |
+| 30 Ağustos | Gümüş 200 günlük ortalama (72-73) üstü kırılırsa olumlu | İZLENİYOR |
