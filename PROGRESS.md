@@ -2,6 +2,13 @@
 
 Proje hafizasi. Her oturumda ekleme yapilir, uzerine yazilmaz.
 
+## KALICI KURAL — 01_BURADAN_BASLA.md'yi güncel tut
+
+Yeni dış kaynak eklendiğinde, yeni bir magicma/ script'i/sistemi eklendiğinde, önemli
+bir dosya sayısı/durum değiştiğinde: commit atmadan ÖNCE 01_BURADAN_BASLA.md'nin
+ilgili bölümünü de güncelle — ayrı bir hatırlatma beklenmeden, o işin doğal parçası
+olarak. Bu dosya projenin haritası; bayatlarsa yeni oturumlar eksik resimle başlar.
+
 ## 2026-07-06 — Guncel tarama + push (rate-limit ile kesildi)
 
 **Yapilan:**
@@ -2983,3 +2990,54 @@ toplanmadı, hiçbir iddia yeniden derecelendirilmedi.
 **Çıkarım:** **Eylül 2026 bu katmanın sınav ayı.** 46 zaman penceresinin 10'u Eylül
 içinde kapanıyor; Eylül sonunda `12_KAYNAK_PERFORMANS.md` sıralaması ilk kez
 gerçekten anlamlı hale gelecek.
+
+
+## 2026-08-30 (3) — Kuyruktaki 5 iş (7-8-9-10-11)
+
+- **`17_SECICI_HAFIZA.md`** (İş 7) — Koç'un kendi eski çağrılarına atıfları:
+  **140 kendi-atıf**, bunlarda **0 hata itirafı**. İtiraf kalıbı taraması 13 eşleşme
+  buldu ama **hepsi yanlış pozitif** — Biden/Fed/Trump/Çin'in hatası hakkında,
+  kendi çağrısı hakkında değil. `06_ANALIZ.md`'deki **9 TUTMADI/KISMEN kaydına
+  sonradan sıfır geri dönüş** var. Dış kaynaklarda n=3 → istatistik üretilmedi.
+- **`18_ONCU_TAKIPCI.md`** (İş 8) — 18 konsensüs konusunun tamamı için ilk söyleyen.
+  15 öncülük · 41 takipçilik · 3 kayıtta öncü belirlenemedi (eş zamanlı).
+  En çok öncülük: Integral FX TV (3) ve Cüneyt Paksoy (3). En çok takipçilik:
+  Emrah Lafçı & Ali Perşembe (8 takipçilik, 0 öncülük). En büyük zaman farkı:
+  Sellcoin'in BTC 67.300 tetiği — ikinci kaynaktan **24 gün** önce.
+- **`12_KAYNAK_PERFORMANS.md` EK A** (İş 9) — cesaret ağırlıklı karne.
+  `HEDEF_BUYUKLUGU_ESIK = 5`. **Hesaplanamıyor:** 13 kapanmış iddianın sadece 2'sinde
+  hem hedef hem iddia anındaki fiyat var; ikisi de cesur ve ikisi de TUTTU → ağırlıklı
+  oran da ham oran da %100, ayrım yok.
+- **`12_KAYNAK_PERFORMANS.md` EK B** (İş 10) — rejim karnesi.
+  `REJIM_ESIK_YUZDE = 10`, `REJIM_PENCERE_GUN = 30`, referans BTCUSDT
+  (`magicma_ham.jsonl`, 17 Haz – 30 Ağu, 22 gün). 13 kapanmış iddianın 12'si
+  etiketlendi: **7 YATAY · 5 TREND**. Her iki rejimde de isabet %100 — çünkü veri
+  setinde hiç TUTMADI yok.
+- **`01_BURADAN_BASLA.md`** (İş 11) — baştan yazıldı. 23 dış kaynak listesi
+  `grep "^## "` çıktısıyla eşleştirildi; yeni **MagicMA Bot Sistemi** bölümü
+  (akış şeması + 9 script haritası + komutlar) eklendi; 12-18 analiz katmanı
+  tablosu eklendi. Tüm sayılar fresh pull'daki gerçek dosyalardan sayıldı.
+- **Kalıcı kural** `PROGRESS.md`'nin **en üstüne** (başlık + açıklamadan hemen sonra,
+  5. satır) ve ayrıca `01_BURADAN_BASLA.md`'nin başına eklendi. PROGRESS.md seçildi
+  çünkü global CLAUDE.md kuralı gereği oturumlar **önce onu** okuyor.
+
+**Kararlar ve gerekçeleri:**
+- **İş 9 ve İş 10 için sayı uydurulmadı.** İkisi de tekniği kuruyor, sabitini
+  tanımlıyor, gerçek veriyle çalıştırıyor ve **neden ayrım üretmediğini** yazıyor.
+  Ortak kök sebep aynı: karnede hiç TUTMADI yok (bkz. 12'nin başındaki uyarı).
+- **İş 9 için somut düzeltme önerildi:** `fiyat` alanı 7.314 tweet kaydının
+  6.678'inde `—`, 636'sında `DOĞRULANACAK (web)`, yalnızca 4'ünde gerçek değer var.
+  Dış kaynak girişlerine "iddia anındaki fiyat" yazılmadıkça cesaret metriği
+  hesaplanamaz — bu bir analiz eksiği değil, **veri toplama eksiği**.
+- **İş 8'de sahte öncülük atanmadı.** Aynı gün/oturumda giren kayıtlar "eş zamanlı"
+  sayıldı. Ayrıca dosyada kalıcı bir uyarı var: öncülük ölçümü kaynağın gerçekte ne
+  zaman söylediğine değil, **bu depoya ne zaman girdiğine** duyarlı.
+- **İş 7'de dairesel ölçüm işaretlendi.** Alıntı-TUTTU oranını (%100) Koç'un genel
+  karne oranıyla (%90,6) kıyaslamak dairesel: karne de büyük ölçüde Koç'un öne
+  çıkardığı çağrılardan üretiliyor. Sağlam olan tek ölçüm 9 TUTMADI'ya sıfır
+  geri dönüş olması.
+
+**Yan bulgu (bağımsız doğrulama):** BTC'nin 30 günlük net hareketi 19 Ağustos'ta
+%−1,5 iken **20 Ağustos'ta %+12,2**'ye sıçrıyor — rejim değişiminin tarihi,
+Koç'un aylar önceden verdiği "Ağustos 3. hafta" penceresinin tam ortasına düşüyor.
+`16_ZAMANLAMA_KARNESI.md`'deki TUTTU kararını fiyat serisi bağımsız olarak destekliyor.

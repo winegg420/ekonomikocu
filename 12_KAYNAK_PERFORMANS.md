@@ -109,3 +109,163 @@ oturumda `11_DIS_KAYNAKLAR.md` üzerinde tek tek karara bağlanmalı:
 - **Emrah Lafçı (21 Ağu):** "Politika faizi 37'nin ALTINA inmez" — 37'ye indi,
   altına inmedi; hâlâ açık ama izlenmeli.
 
+
+---
+
+# EK A — HEDEF BÜYÜKLÜĞÜ AĞIRLIKLI KARNE (İş 9)
+
+_Eklendi: 2026-08-30_
+
+## Ayarlanabilir sabit
+
+```
+HEDEF_BUYUKLUGU_ESIK = 5     # yüzde. Bu değerden UZAK hedefler "cesur",
+                             # altındakiler "trivial" sayılır.
+```
+
+Bu sabiti değiştirmek istersen sadece bu satırı değiştir; aşağıdaki tüm
+sınıflandırma ona göre yeniden yapılmalı.
+
+## Yöntem
+
+```
+cesaret_skoru        = |hedef - iddia_anındaki_fiyat| / iddia_anındaki_fiyat × 100
+ağırlıklı_isabet     = Σ(TUTTU olanların cesaret skoru) / Σ(tüm kapanmışların cesaret skoru)
+```
+
+Ham isabet oranının **yerine geçmez**, yanına yazılır.
+
+## ⚠️ SONUÇ: BU METRİK BUGÜN HESAPLANAMIYOR — nedeni ve çözümü
+
+13 kapanmış iddianın **yalnızca 2'sinde** hem hedef hem de iddia anındaki fiyat
+repoda mevcut. Kalan 11'i **sayısal hedef içermeyen** iddialar (olgu aktarımı,
+gerçekleşmiş getiri verisi, tez doğrulaması).
+
+| # | Kaynak | Kapanmış iddia | Hedef var mı? | O anki fiyat var mı? | Cesaret skoru |
+|---|---|---|---|---|---|
+| 1 | Sellcoin | Altın 4.000 dibi tamamlandı, **hedef 4.300** | ✅ 4.300 | ✅ ~4.000 (kendi ifadesi) | **%7,5 → CESUR** |
+| 2 | Integral FX TV | TCMB haftalık repoya geçer (**politika faizi 40 → 37**) | ✅ 37 | ✅ 40 | **%7,5 → CESUR** *(fiyat değil faiz oranı — ayrı kategori, dikkat)* |
+| 3 | Sellcoin | Gümüş **55 $** potansiyel dip, zayıf | ✅ 55 | ❌ 27 Tem gümüş fiyatı repoda yok | ölçülemez |
+| 4 | Ferhat Yükseltürk & Uraz Çay | Tüpraş kâr büyümesi güçlü kalır | ❌ sayısal hedef yok | — | ölçülemez |
+| 5 | Barış Soydan | Tüpraş kâr büyümesi güçlü | ❌ | — | ölçülemez |
+| 6 | Cihat E. Çiçek | 1 yıllık gerçekleşmiş getiri (gümüş %90, altın %77) | ❌ tahmin değil, olmuş veri | — | ölçülemez |
+| 7 | Erol Polat | AK3/TP2/HVS/GHS 3 yılda BIST100'ü yendi | ❌ olmuş veri | — | ölçülemez |
+| 8 | Erol Polat | TP2 önerisi | ❌ | — | ölçülemez |
+| 9 | Emrah Lafçı (solo) | CDS 219 bp | ❌ ölçüm aktarımı | — | ölçülemez |
+| 10 | Barış Soydan | Carry trade zirvesi ($65,3 mia) | ❌ olgu | — | ölçülemez |
+| 11 | Şant Manukyan | Transshipping raporu Türkiye'yi hedef aldı | ❌ olgu | — | ölçülemez |
+| 12 | Şant Manukyan | Çin-Batı gümüş farkı kapanmıyor | ❌ olgu | — | ölçülemez |
+| 13 | Şant Manukyan | Basel yumuşaması ↔ Warsh bağlantısı | ❌ olgu | — | ölçülemez |
+
+**Ölçülebilen 2 iddianın ikisi de TUTTU ve ikisi de CESUR:**
+
+```
+ağırlıklı_isabet = (7,5 + 7,5) / (7,5 + 7,5) = %100
+ham_isabet       = 2 / 2                     = %100
+```
+
+| Kaynak | Ham İsabet | Ağırlıklı İsabet (cesaret) |
+|---|---|---|
+| Sellcoin | %100 (2/2 kapanmış) | %100 — ölçülebilen tek hedefi **cesur** (%7,5) |
+| Integral FX TV | %100 (1/1) | %100 — ölçülebilen tek hedefi **cesur** (%7,5) |
+| Diğer 21 kaynak | — | **yetersiz veri** (hiçbirinin ölçülebilir hedefi yok) |
+
+**İki oran da %100 çıktığı için metrik bugün hiçbir ayrım üretmiyor.** Bu bir
+hesaplama hatası değil, **veri eksikliğidir** ve düzeltmesi somut:
+
+### Bunu ölçülebilir hale getirmenin tek yolu
+
+`04_TWEETLER.jsonl` / `07_ABONE_TWEETLER.jsonl` kayıtlarındaki **`fiyat` alanı
+pratikte boş**: 7.314 kaydın 6.678'i `—`, 636'sı `DOĞRULANACAK (web)`, yalnızca
+**4 kayıtta** gerçek bir değer var. Aynı boşluk `11_DIS_KAYNAKLAR.md` için de
+geçerli — kaynak girişlerine "iddia anındaki fiyat" yazılmıyor.
+
+➜ **Kural önerisi:** `11_DIS_KAYNAKLAR.md`'ye bir hedef içeren giriş eklerken
+hedefin yanına **o anki fiyatı da** yaz (çoğu videoda zaten söyleniyor —
+Berk Dinçtürk'ün "program anı fiyatları" bloğu bunun iyi örneği). Bu tek alışkanlık,
+cesaret ağırlıklı karneyi birkaç hafta içinde hesaplanabilir hale getirir.
+
+---
+
+# EK B — PİYASA REJİMİNE GÖRE PERFORMANS (İş 10)
+
+_Eklendi: 2026-08-30_
+
+## Ayarlanabilir sabitler
+
+```
+REJIM_ESIK_YUZDE  = 10     # BTC 30 günde bu yüzdeden fazla net hareket ettiyse "trend"
+REJIM_PENCERE_GUN = 30     # bakılan geriye dönük pencere
+```
+
+Referans enstrüman **BTCUSDT**. Fiyat kaynağı `99_BOT_ARSIV/kod/magicma_ham.jsonl`
+(kayıtlı seri: **17 Haziran – 30 Ağustos 2026, 22 gün**). Her kapanmış iddia,
+**verildiği tarihteki** rejime göre etiketlendi.
+
+> Not: seri günlük değil, tarama günlerinden oluşuyor. Bu yüzden "30 gün önce"
+> için **en yakın önceki tarama günü** kullanıldı; her satırda hangi iki gün
+> karşılaştırıldığı açıkça yazıyor.
+
+## Rejim etiketleri (gerçek hesap)
+
+| Kaynak | Tarih | Kapanmış iddia | Sonuç | Rejim | BTC 30g hareketi |
+|---|---|---|---|---|---|
+| Sellcoin | 27 Tem | Altın 4.000 dibi → hedef 4.300 | TUTTU | **YATAY** | %+4,8 (23 Haz 62.273 → 27 Tem 65.252) |
+| Sellcoin | 27 Tem | Gümüş 55 $ dip, zayıf | TUTTU | **YATAY** | %+4,8 |
+| Ferhat Yükseltürk & Uraz Çay | 13 Ağu | Tüpraş kâr büyümesi güçlü | TUTTU | **YATAY** | %+4,8 (13 Tem 62.239 → 10 Ağu 65.247) |
+| Cihat E. Çiçek | 14 Ağu | 1 yıllık gerçekleşmiş getiri | TUTTU | **YATAY** | %+4,8 |
+| Barış Soydan | 15 Ağu | Tüpraş kâr büyümesi güçlü | TUTTU | **YATAY** | %+4,8 |
+| Erol Polat | 16 Ağu | Fonlar 3 yılda BIST100'ü yendi | TUTTU | **YATAY** | %+4,8 |
+| Integral FX TV | 19 Ağu | TCMB 10 Eylül'de haftalık repoya geçer | TUTTU | **YATAY** | %−1,5 (20 Tem 64.361 → 17 Ağu 63.379) |
+| Şant Manukyan | 20 Ağu | Transshipping raporu | TUTTU | **TREND** | %+12,2 (20 Tem 64.361 → 20 Ağu 72.204) |
+| Şant Manukyan | 20 Ağu | Çin-Batı gümüş farkı | TUTTU | **TREND** | %+12,2 |
+| Şant Manukyan | 20 Ağu | Basel ↔ Warsh bağlantısı | TUTTU | **TREND** | %+12,2 |
+| Emrah Lafçı (solo) | ~27 Ağu | CDS 219 bp | TUTTU | **TREND** | %+19,6 (27 Tem 65.252 → 26 Ağu 78.042) |
+| Barış Soydan | 27 Ağu | Carry trade zirvesi | TUTTU | **TREND** | %+19,6 |
+| Erol Polat | tarihsiz | TP2 önerisi | TUTTU | **TARİHSİZ** | ölçülemez |
+
+**Dağılım: 7 YATAY · 5 TREND · 1 tarihsiz.**
+
+## Kaynak bazında iki ayrı isabet oranı
+
+| Kaynak | Trend Dönemi İsabet | Yatay Dönem İsabet |
+|---|---|---|
+| Sellcoin | yetersiz veri (0 kapanmış) | %100 (2/2) |
+| Şant Manukyan | %100 (3/3) | yetersiz veri (0 kapanmış) |
+| Barış Soydan | %100 (1/1) | %100 (1/1) |
+| Erol Polat / Money Talks | yetersiz veri | %100 (1/1) · +1 tarihsiz |
+| Emrah Lafçı (solo) | %100 (1/1) | yetersiz veri |
+| Integral FX TV | yetersiz veri | %100 (1/1) |
+| Ferhat Yükseltürk & Uraz Çay | yetersiz veri | %100 (1/1) |
+| Cihat E. Çiçek | yetersiz veri | %100 (1/1) |
+| Diğer 15 kaynak | yetersiz veri | yetersiz veri |
+
+**Genel: TREND %100 (5/5) · YATAY %100 (7/7).**
+
+## ⚠️ Bu tablo neden hiçbir şey söylemiyor
+
+Rejim sınıflandırması **çalışıyor** — BTC serisi mevcut, eşik uygulanıyor,
+20 Ağustos'ta rejimin YATAY'dan TREND'e geçtiği net görülüyor (%+9,6'dan
+%+12,2'ye). Sorun sınıflandırmada değil, **ölçülen şeyde**:
+
+Veri setinde **hiç TUTMADI yok** (bkz. bu dosyanın başındaki uyarı). Payda ne
+olursa olsun pay ona eşit; her rejimde isabet %100 çıkıyor. **Rejim ayrımı ancak
+ilk TUTMADI kayıtları girdiğinde anlam kazanacak.**
+
+Ayrıca iki yapısal sınırlama:
+
+1. **Fiyat serisi 17 Haziran'da başlıyor.** Daha eski iddialar (Sellcoin'in
+   "önceki oturum" kayıtları, Baki Atılal, Tunç Şatıroğlu'nun tarihsiz girişleri)
+   rejim etiketi alamıyor.
+2. **BTC tek referans.** BIST hissesi (Tüpraş) ya da TCMB faizi hakkındaki bir
+   iddiayı BTC'nin rejimiyle etiketlemek kabaca doğru olabilir (küresel risk
+   iştahı vekili olarak) ama **doğrudan ilgili değil**. Daha doğrusu, varlık
+   sınıfına göre ayrı referans kullanmaktır (BIST için XU100, altın için XAUUSD) —
+   `magicma_ham.jsonl` bu serileri zaten tutuyor, ileride yapılabilir.
+
+### Yan bulgu — tarihlenebilir bir gerçek
+
+Rejim hesabı, `16_ZAMANLAMA_KARNESI.md`'deki "Ağustos 3. hafta" bulgusunu
+**bağımsız olarak doğruluyor:** BTC'nin 30 günlük net hareketi 19 Ağustos'ta
+%−1,5 iken **20 Ağustos'ta %+12,2'ye** sıçrıyor. Yani rejim değişiminin tarihi,
+Koç'un aylar önceden verdiği pencerenin tam ortasına düşüyor.
