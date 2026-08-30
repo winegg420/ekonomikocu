@@ -2845,3 +2845,32 @@ ikisinin de doğru şekilde SESSİZ kaldığı doğrulandı.
 - **Çıkarım (yöntem):** Koç'un tarih tahminleri çizgi kesişiminden türüyor —
   "6 Nisan kesişim, o gün ne var?" → 6 Nisan Hürmüz. Seviye + takvim birlikte
   veriliyor; seviyeyi takvimsiz okumak sinyali yarım bırakıyor.
+
+## 2026-08-30 — Görsel defteri TUR 10 (50 görsel, "en önemli olabilecek")
+
+- Seçim yöntemi TUR 9 ile aynı (flood büyüklüğü + `quoted_by` + `abone_ozel` +
+  anahtar kelime + tazelik puanı), kalan 1.131 görsele yeniden uygulandı.
+  Tweet başına en fazla 2 görsel kuralı eklendi (aynı floodun kopyalarıyla
+  listenin dolmaması için).
+- `gorsel_analiz.jsonl` 474 → **524**. Kalan: **1.081**
+  (ekonomikocu 934, iriscibre 115, efloud 32).
+- Defter bölümü `06_ANALIZ.md` sonuna "TUR 10" olarak eklendi.
+- **Bu turun en değerli bulgusu — 60 günlük takvimin kaynağı bulundu:**
+  `gunluk_ozet.py`'deki 60 günlük Koç bloğu teknik bir periyot değil,
+  **15 Haz 2026 tarihli "İran Hürmüz Boğazı'ndan 60 gün serbest geçişe izin
+  verecek" haberinin** süresi. Koç aynı gün üzerine 60 gün koyup "Ağustos'un
+  3. haftası" çağrısını çıkarmış. İkinci dayanak: BTC haftalıkta 2022 dip
+  kutusu "8 hafta = 56 gün" diye ölçülmüş.
+- Diğer üç bulgu: (1) **ETH 4090** eşiği 22 Nis 2022'de verilmiş ve dört yıldır
+  aynı — kripto tezinin tek eşiği; (2) DXY 110→95 tetiğinin paritedeki sayısal
+  ön koşulu **EURUSD 1,27-1,30**; (3) sözlük düzeltmesi — Koç'ta
+  **"altın" = gerginlik/savaş/kaos**, kendi ifadesiyle (19 Haz 2025).
+- `magicma/onemli_seviyeler.json`: 6 yeni kayıt (92 → 98). BTC.D'nin taramada
+  karşılığı olduğu doğrulandı (`magicma_ham.jsonl`'de var).
+- **Eklenemeyen seviyeler** (sembol listesinde karşılık yok): A50 15.700,
+  GOLDGR 140,6/146/126,3, ETHTRY 110.600/105.735/92.000, XAGTRYG 92/110,
+  BTCJPY 19,2 M/15,7 M, XAGUSD/BTCUSD oranları.
+- **Çıkarım (yöntem):** Koç'un tarih tahminlerinin bir kısmı çizgi kesişiminden
+  değil, **haberdeki sürenin doğrudan takvime çevrilmesinden** çıkıyor
+  (Hürmüz 60 gün → 15 Ağustos). Yeni bir "N gün / N hafta" içeren haber SS'i
+  görüldüğünde bunun bir vade ilanı olduğu varsayılmalı.

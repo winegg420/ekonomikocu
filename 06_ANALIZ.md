@@ -3775,3 +3775,143 @@ basamak büyüyerek tekrarlanıyor.
   `magicma/sembol_listesi/*.txt`'e eklenirse seviyeleri de girilebilir.
 - Bu turda da doğrulandı: iki görselli tweetlerin `graf_02`'si sıklıkla
   `graf_01`'in birebir kopyası çıkıyor (X aynı medyayı iki kez sunuyor).
+
+
+## 2026-08-30 — GÖRSEL DEFTERİ TUR 10 (50 görsel: en yüksek öncelikli kalan floodlar)
+
+**Seçim:** TUR 9'daki puanlama (flood büyüklüğü + alıntılanmışlık + abone_özel +
+anahtar kelime + tazelik) kalan 1.131 görsele yeniden uygulandı; tweet başına en
+fazla 2 görsel alınarak ilk 50 seçildi. Sonuç neredeyse tamamen **2-15 Haziran
+2026** penceresine düştü — tezin "vade" anlatısının kurulduğu haftalar.
+
+### 1) Bu turun en değerli bulgusu: 60 GÜNLÜK TAKVİMİN KAYNAK BELGESİ
+
+`magicma/gunluk_ozet.py` içindeki **60 günlük iç blok** takvimi (referans
+20 Ağustos 2026, sonraki durak 19 Ekim 2026) bugüne kadar "Koç'un kullandığı
+periyot" olarak belgesiz duruyordu. Kaynağı bulundu:
+
+> **"İRAN, ANLAŞMA KAPSAMINDA HÜRMÜZ BOĞAZI'NDAN 60 GÜN BOYUNCA SERBEST GEÇİŞE
+> İZİN VERECEK — FARS HABER AJANSI"** (15 Haz 2026 son dakika SS'i,
+> `medya/2066493211435057438/graf_01.jpg`)
+
+Koç aynı gün bunun üzerine 60 gün koyup **15 Ağustos**'u, oradan da "Ağustos'un
+3. haftası" çağrısını çıkarıyor: *"Haziran'ın 15. gününün üzerine 60 gün
+koyarsan, tarih Ağustos'un 15. gününe denk geliyor."* Yani 60 gün teknik bir
+periyot değil, **bir diplomatik pencerenin süresi**.
+
+İkinci dayanak: BTC haftalık grafikte 2022 dip kutusu ölçülüp
+**"Toplam 8 hafta = 56 gün"** yazılmış (`2066246514574348604`). 56 ile 60
+birbirine yakın; Koç iki ölçüyü aynı anlamda kullanıyor.
+
+### 2) İkinci bulgu: ETH 4090 — dört yıllık tek eşik
+
+`2066269299002445831` = **22 Nisan 2022** tarihli kendi tweetinin SS'i
+(1 B beğeni): *"Kriptoların coşması için #ETHUSD nin 4090 aşması lazım.
+Aşmayı başarırsa şenlik olur."* Aynı görselde 2200 ve 1245 de işaretli.
+
+Haftalık grafikte (`2066266998900695243`) 4090'ın hikâyesi tamamlanıyor:
+Şub-2024 **RED**, Kas-2024 **RED**, Haz-2025'te bir kez aşılıyor —
+*"o da TRUMP barış dediği an"* — kabul görmeyince fiyat 4090 altına geri
+alınıyor, *"4090 altı şelale"*. Tüm kripto tezi tek bir yatayla özetleniyor.
+
+### 3) Üçüncü bulgu: DXY tezinin paritedeki sayısal ön koşulu
+
+- `2061873109087477964` — **DXY 1978-2026 tam tarih**: 1985 zirvesinden inen
+  alçalan direnç + 1992-2004 diplerinden yükselen destek. Üç mavi ok (2015,
+  2018, 2024) doların "şaha kalktığı" anlar. *"Şu oklarla gösterdiğim yerlerde
+  dolar şaha kalksa ÜLKELER BATAR."*
+- `2064351793866326290` — *"EURUSD DXY'nin içinde %57 orana sahip ve direkt ABD
+  psikolojisini yansıtır."* (DXY'yi neden EUR üzerinden okuduğunun gerekçesi)
+- `2064353056527974470` — **"DXY'nin düşmesi için EUR'un 1.27 – 1.30 bandına
+  gitmesi gerekir. İşte öyle bir dönemde ABD'nin eli rahatlar."**
+  → `koc_tetigi.py` koşul-1'in (DXY 110→95) paritedeki karşılığı; kütüphaneye
+  `EURUSD 1,27-1,30 on_kosul` olarak girildi.
+- `2064103883463369213` — USDEUR (tersi) grafiğinde aynı tez: *"şu kesişimin
+  üstüne mumlar çıkamazsa DXY değer kaybedecek."*
+- `2066513193724207607` (12 Haz, abone) — pozisyona dönüşmüş hali:
+  *"Bir haftadır sadece #EUR alıyorum... Emtia kanadının gardı düştüyse hâlâ
+  DXY diri tutmanın anlamı var mı?"*
+
+### 4) Gümüş–BTC endekslemesinin sayısal çerçevesi
+
+Dört ayrı XAGUSD/BTCUSD oran grafiği çıktı; TUR 9'daki "endeksleme tezi" artık
+rakamlı:
+
+| Seviye | Anlamı |
+|---|---|
+| **0,00271** | 2018-2020 üst direnç (dört temas) |
+| **0,00106** | *"Oran 0.00106 üstünde kalıyor"* — güncel eşik |
+| ~0,00100 | 2018'den gelen yeşil yatay destek |
+| **0,00027** | 2021 ve 2024-25 dip bandı |
+
+Koç'un gerekçesi: *"ETF'ler yüzünden BTC fazla şişirildi. Çin burada oyunu
+lehine çeviriyor. Biden kazığı."*
+
+### 5) "Balon" iddiasının iki oran grafiği
+
+- **NASDAQ/XAGUSD** (`2061924758585798868`): 2000 zirvesi *"Balon ve
+  patlamıştır"*, 2024-25 zirvesi *"Balon patlamıştır"* — dot-com ile bugün
+  birebir eşitleniyor. *"Balon nasıl oluştu? #BİTCOİN ETF leri ile."*
+- **NASDAQ/XAUUSD** (`2061847319650181399`): altın bazlı NASDAQ *"geçen sene
+  düştükleri yere yeni geldi"*; yükseliş altın bazında yerinde sayıyor.
+- **XAUUSD/DOWUSD** (`2063026797659234544`): *"Barış gelmeyince gazladılar,
+  fazla gazladılar. Barış gelseydi alçalan şeklinde indireceklerdi."*
+  → Emtia gazlaması, barışın **gelmemesinin** sonucu olarak konumlanıyor.
+
+### 6) Sözlük düzeltmesi — "altın" ne demek?
+
+`2063027142682722424` (19 Haz 2025, 13 B görüntüleme):
+> *"Tabi ben Altın diyorum ama **Altın = gerginlik, savaş, kaos** demektir.
+> ...aslında SAVAŞI çözdüler çözdüler demem lazımdı."*
+
+Koç'un metinlerinde "altın kanadı" çoğu yerde **jeopolitik gerginlik** anlamına
+geliyor. Eski analizleri okurken bu ikame yapılmalı.
+
+### 7) NASDAQ: tek çizgiye bağlı yükseliş + aylık mum itirazı
+
+- `2064116550395666928` / `2061904365812654309`: Mart-2025 dibinden gelen tek
+  trend çizgisi; 2025 ve 2026 ABD-Çin görüşmeleri tam bu çizgi üzerinde.
+  *"O kısa mumlar o çizginin altında kalsa sen bugün ne konuşuyor olurdun?"*
+- `2061911797771260203` (AYLIK): *"Aynı dolulukta geçmişte böyle mum yok.
+  Tamam 30600 hatta üstünü bile getirebilirler, asla itiraz etmem, ama **TEK
+  SEFERDE ve birilerine KIZMIŞ gibi**."* → Yükselişin sağlıksızlığı iddiası.
+
+### 8) Vade + seviye çiftleri (bu turda çıkan)
+
+| Tarih (verildiği gün) | Enstrüman | Seviye | Vade |
+|---|---|---|---|
+| 16 Şub 2026 (abone) | ETHUSD | **1746** | 7 Nisan'a kadar |
+| 24 May 2026 | BTCUSD | **70.600 / 71.800** (trend kesişimi) | 6-7 Haziran |
+| 8 Haz 2026 | BTCUSD | **73.600** | 22 Haziran |
+| 8 Haz 2026 | BTCUSD | **60 K** | **Ağustos 3. hafta** |
+| 8 Haz 2026 | ETHUSD | 1379 / 1746 / 2570 | 2026 içinde |
+| 15 Haz 2026 | — | Hürmüz 60 gün | 14-15 Ağustos |
+| — | GBPJPY | 7 yıllık döngü | 2000→2007, **2020→2027** |
+
+*"Parayı değil zamanı yönet."* (8 Haz 2026)
+
+### 9) Kayda geçen ama sembol listesinde karşılığı olmayanlar
+
+| Enstrüman | Seviye | Not |
+|---|---|---|
+| A50 | 15.700 | *"15700'den nasıl gap koymuşlar"* — Çin'in seviye koruması |
+| GOLDGR | 140,6 · 146 · 126,3 | gram altın çerçevesi |
+| ETHTRY | 110.600 · 105.735 · 92.000 | basamaklar sırayla kırıldı |
+| XAGTRYG | ~92 / ~110 | *"gümüş gram bayıltıyorlar"* |
+| BTCJPY | 19.216.998 · 15.712.652 | trend Kas-2025'te bozuldu, *"temmuza kadar zamanı var"* |
+| XAGUSD/BTCUSD | 0,00271 · 0,00106 · 0,00027 | oran grafiği, sembol değil |
+
+Bu enstrümanlar `magicma/sembol_listesi/*.txt`'e eklenirse seviyeleri de
+kütüphaneye girebilir (kural: karşılığı olmayan kayıt atlanır).
+
+### 10) Defter sağlığı
+
+- Bu tur **50 kayıt** yazıldı (`gorsel_analiz.jsonl` 474 → **524**).
+  Bekleyen: 1.131 → **1.081**.
+- `magicma/onemli_seviyeler.json`: **6 yeni kayıt** (92 → **98**) —
+  ETHUSDT 4090 · ETHUSDT 1379 · BTCUSDT 70.600-71.800 · EURUSD 1,27-1,30 ·
+  BTC.D 57 · BTC.D 64. (73.600, 60.000, 2570, 30600, 1746 zaten kütüphanedeydi;
+  bu tur onların **görsel dayanağını** belgeledi.)
+- Kopya medya olgusu 6 kez daha görüldü (`graf_02` = `graf_01`).
+- Bu turda ilk kez **grafik olmayan iki portre** (Putin / Zelenski) analiz
+  edildi; `tur: foto` olarak işaretlendi.

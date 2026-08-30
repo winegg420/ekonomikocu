@@ -746,5 +746,55 @@
   "tur": "dip",
   "aciklama": "Sert dususun kapattigi tanidik seviye (11 Haz 2026)",
   "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "ETHUSDT",
+  "seviye": 4090,
+  "tur": "tarihsel direnc",
+  "aciklama": "Kriptolarin cosmasi icin ETH 4090 asmali - 22 Nis 2022'de verildi, haftalikta 3-4 yilda iki kez RED yedi; 4090 alti selale (15 Haz 2026 floodu)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "ETHUSDT",
+  "seviye": 1379,
+  "tur": "kritik_destek",
+  "aciklama": "1379 kirilmadan hala sorun yok - 1746 pivotunun altindaki son savunma (8 Haz 2026)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "BTCUSDT",
+  "seviye_alt": 70600,
+  "seviye_ust": 71800,
+  "tur": "trend_kesisimi",
+  "aciklama": "Alcalan (Tem-2025) ve yukselen (Oca-2026) trendlerin kesisim bandi; 24 May 2026'da vade 6-7 Haziran olarak verildi",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "EURUSD",
+  "seviye_alt": 1.27,
+  "seviye_ust": 1.3,
+  "tur": "on_kosul",
+  "aciklama": "DXY'nin gercekten deger kaybetmesi icin EUR'un gitmesi gereken band; boga tetigi kosul-1'in paritedeki karsiligi (9 Haz 2026)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "BTC.D",
+  "seviye": 57,
+  "tur": "destek_bandi",
+  "aciklama": "Bitcoin dominansi 57 bandi - normal bir dunyada pozitif okunur; ust direnc 64 (4 Haz 2026)",
+  "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "BTC.D",
+  "seviye": 64,
+  "tur": "direnc",
+  "aciklama": "2019-2021 zirvelerinden inen kanalin ust siniri (4 Haz 2026)",
+  "tarih_eklendi": "2026-08-30"
  }
 ]
