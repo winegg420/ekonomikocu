@@ -1,0 +1,258 @@
+[11:25:36] OK — aktif hesap @420cryptofarmer. Tarama serbest.
+[tara_guvenli] hesap=@ekonomikocu | calistiriliyor: tara_guncel_yeni.py 
+Hesap: @ekonomikocu | veri koku: C:\Users\ida\Desktop\ekonomikocu
+En yeni kayit: 2026-08-28T15:57:03
+Stop-before (buraya gelince dur): 25 Aðu
+Baslangic: 7362 tweet | 147 alinti | 1873 flood-parca
+
+Mevcut jsonl: 7362 tweet | alinTi tam: 134 | bekleyen alinti: 13
+Senin Chrome'una baglandi (port 9222).
+Profil acik — devam (ustte abone tweetleri normal).
+  >> Medya: graf_01.jpg (2093792729322951147)
+Scroll 1/120: toplam 7366 tweet (+4 yeni) | ekranda: 6 | alinti: 147 | en eski: 2019-11-28 20:04:04
+Scroll 2/120: toplam 7366 tweet (+0 yeni) | ekranda: 14 | alinti: 147 | en eski: 2019-11-28 20:04:04
+Scroll 3/120: toplam 7366 tweet (+0 yeni) | ekranda: 13 | alinti: 147 | en eski: 2019-11-28 20:04:04
+  >> DISKE YAZILDI: 7366 tweet -> cekilen_tweetler.jsonl
+Scroll 4/120: toplam 7366 tweet (+0 yeni) | ekranda: 10 | alinti: 147 | en eski: 2019-11-28 20:04:04
+Durduruldu (bu oturumda gorulen en eski 2026-07-13, hedef 2026-08-25, 3 scroll'dur yeni tweet yok)
+Asama: #FLOOD thread parcalari...
+  >> #FLOOD zaten JSON'dan toplanmis — atlandi: 2082792922164965564
+Asama 2: alintilar (tek sekme, ekonomikocu/status)...
+Asama 2 tur 1: 13 alinti bekliyor... (navigasyon 0/20)
+  >> Alinti 2078976574091649435 — sadece ekonomikocu/status/2090929967219482743
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2077481208552849453 — sadece ekonomikocu/status/2090901704841515062
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2076065170099417470 — sadece ekonomikocu/status/2076084781654188345
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2071744148168684011 — sadece ekonomikocu/status/2071895381311369285
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2070540087239250088 — sadece ekonomikocu/status/2070626864171819077
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2046329630873747618 — sadece ekonomikocu/status/2045587086695391351
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2045587086695391351 — sadece ekonomikocu/status/2046329630873747618
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2038986156075872628 — sadece ekonomikocu/status/2039050447420326027
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 1875571495164113292 — sadece ekonomikocu/status/1875548019430658062
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 1875548019430658062 — sadece ekonomikocu/status/1875571495164113292
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Bu turda ziyaret: 13 | kalan: 13
+  >> Ilerleme yok — kalanlar isaretleniyor.
+Asama: eksik grafikler (medya/)...
+Medya geri indirme: 1 tweet...
+  >> DISKE YAZILDI: 7367 tweet -> cekilen_tweetler.jsonl
+
+=== ASIL DOSYA: C:\Users\ida\Desktop\ekonomikocu\cekilen_tweetler.jsonl ===
+Toplam: 7365 | Ingilizce(kirli): 0
+Hafiza atlandi (--skip-hafiza). JSONL kaydedildi.
+
+=== Alinti turu 1/1 ===
+Bekleyen alinti: 13
+Chrome CDP (port 9222)
+Asama 2 tur 1: 13 alinti bekliyor... (navigasyon 0/20)
+  >> Alinti 2078976574091649435 — sadece ekonomikocu/status/2090929967219482743
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2077481208552849453 — sadece ekonomikocu/status/2090901704841515062
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2076065170099417470 — sadece ekonomikocu/status/2076084781654188345
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2071744148168684011 — sadece ekonomikocu/status/2071895381311369285
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2070540087239250088 — sadece ekonomikocu/status/2070626864171819077
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2046329630873747618 — sadece ekonomikocu/status/2045587086695391351
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2045587086695391351 — sadece ekonomikocu/status/2046329630873747618
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 2038986156075872628 — sadece ekonomikocu/status/2039050447420326027
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 1875571495164113292 — sadece ekonomikocu/status/1875548019430658062
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Alinti 1875548019430658062 — sadece ekonomikocu/status/1875571495164113292
+  >> Baska hesap sayfasi acilmadi (Koç sayfasindaki metin kullanildi)
+  >> Bu turda ziyaret: 13 | kalan: 13
+  >> Ilerleme yok — kalanlar isaretleniyor.
+JSONL guncellendi: 7365 tweet
+Hafiza: 7365 tweet | Ingilizce(kirli): 0 | Analiz bekliyor: 3
+OK: C:\Users\ida\Desktop\ekonomikocu\ekonomikocu_hafiza_v1.md
+Koç dili guncellendi: 7327 public tweet
+Dosya: C:\Users\ida\Desktop\ekonomikocu\cekilen_tweetler.jsonl
+Toplam satir: 7365 | alinti (is_quote): 147
+EKSIK: 13 alinti — tekrar: ALINTI_TAMAMLA.bat
+  2078976574091649435 <- ana 2090929967219482743 | metin kesik | metin=199 char
+  2077481208552849453 <- ana 2090901704841515062 | metin kesik | metin=174 char
+  2076065170099417470 <- ana 2076084781654188345 | metin kesik | metin=87 char
+  2071744148168684011 <- ana 2071895381311369285 | metin kesik | metin=766 char
+  2070540087239250088 <- ana 2070626864171819077 | metin kesik | metin=123 char
+  2065017533371936987 <- ana None | metin kesik | metin=163 char
+  2064023815873585325 <- ana None | metin kesik | metin=37 char
+  2064023475178598410 <- ana None | metin kesik | metin=46 char
+  2046329630873747618 <- ana 2045587086695391351 | metin kesik | metin=454 char
+  2045587086695391351 <- ana 2046329630873747618 | metin kesik | metin=461 char
+  2038986156075872628 <- ana 2039050447420326027 | metin kesik | metin=50 char
+  1875571495164113292 <- ana 1875548019430658062 | metin kesik | metin=802 char
+  1875548019430658062 <- ana 1875571495164113292 | metin kesik | metin=802 char
+Eksik kaldi — bir tur daha...
+UYARI: max tur doldu; ALINTI_DOGRULA.bat ile kontrol et.
+Dosya: C:\Users\ida\Desktop\ekonomikocu\cekilen_tweetler.jsonl
+Toplam satir: 7365 | alinti (is_quote): 147
+EKSIK: 13 alinti — tekrar: ALINTI_TAMAMLA.bat
+  2078976574091649435 <- ana 2090929967219482743 | metin kesik | metin=199 char
+  2077481208552849453 <- ana 2090901704841515062 | metin kesik | metin=174 char
+  2076065170099417470 <- ana 2076084781654188345 | metin kesik | metin=87 char
+  2071744148168684011 <- ana 2071895381311369285 | metin kesik | metin=766 char
+  2070540087239250088 <- ana 2070626864171819077 | metin kesik | metin=123 char
+  2065017533371936987 <- ana None | metin kesik | metin=163 char
+  2064023815873585325 <- ana None | metin kesik | metin=37 char
+  2064023475178598410 <- ana None | metin kesik | metin=46 char
+  2046329630873747618 <- ana 2045587086695391351 | metin kesik | metin=454 char
+  2045587086695391351 <- ana 2046329630873747618 | metin kesik | metin=461 char
+  2038986156075872628 <- ana 2039050447420326027 | metin kesik | metin=50 char
+  1875571495164113292 <- ana 1875548019430658062 | metin kesik | metin=802 char
+  1875548019430658062 <- ana 1875571495164113292 | metin kesik | metin=802 char
+Dosya: C:\Users\ida\Desktop\ekonomikocu\cekilen_tweetler.jsonl
+Toplam satir: 7365 | alinti (is_quote): 147
+EKSIK: 13 alinti — tekrar: ALINTI_TAMAMLA.bat
+  2078976574091649435 <- ana 2090929967219482743 | metin kesik | metin=199 char
+  2077481208552849453 <- ana 2090901704841515062 | metin kesik | metin=174 char
+  2076065170099417470 <- ana 2076084781654188345 | metin kesik | metin=87 char
+  2071744148168684011 <- ana 2071895381311369285 | metin kesik | metin=766 char
+  2070540087239250088 <- ana 2070626864171819077 | metin kesik | metin=123 char
+  2065017533371936987 <- ana None | metin kesik | metin=163 char
+  2064023815873585325 <- ana None | metin kesik | metin=37 char
+  2064023475178598410 <- ana None | metin kesik | metin=46 char
+  2046329630873747618 <- ana 2045587086695391351 | metin kesik | metin=454 char
+  2045587086695391351 <- ana 2046329630873747618 | metin kesik | metin=461 char
+  2038986156075872628 <- ana 2039050447420326027 | metin kesik | metin=50 char
+  1875571495164113292 <- ana 1875548019430658062 | metin kesik | metin=802 char
+  1875548019430658062 <- ana 1875571495164113292 | metin kesik | metin=802 char
+
+==================================================
+GUNCEL TARAMA BITTI
+  Yeni tweet : +3  (toplam 7365)
+  Yeni alinti: +0  (toplam 147)
+  Yeni flood : +0  (toplam 1873)
+  En yeni kayit: 2026-08-29T23:07:42
+==================================================
+Koç dili guncellendi: 7327 public tweet
+Analiz: 7365 | izleniyor: 969 | alinti-onceden: 66 | alinti-sonradan: 1
+Guncellendi: ekonomikocu_hafiza_v1.md, cekilen_tweetler.jsonl
+Indirilecek eksik gorsel yok.
+  Reklam/kirli atlandi: 13 satir (pakette yok)
+
+Claude'a AT — kok klasor, sirayla:
+  1. 01_BURADAN_BASLA.md
+  2. 02_MENTOR_REHBERI.md
+  3. 03_HAFIZA.md
+  4. 04_TWEETLER.jsonl
+  5. 05_GRAFIKLER.zip  (118.4 MB, 768 grafik)
+  6. 06_ANALIZ.md  (analiz — dokunulmadi)
+  --- Gemini (kok klasor) ---
+  7. 07_ABONE_TWEETLER.jsonl  (opsiyonel)
+  8. 08_TWEETLER_GEMINI.md
+  9. 09_GRAFIKLER_GEMINI/  (768 jpg)
+  10. 10_ABONE_TWEETLER_GEMINI.md
+  11. 11_DIS_KAYNAKLAR.md  (Koc disi analistler — dokunulmadi)
+  Yukleme kilavuzu: 00_OKU_YUKLEME_SIRASI.txt
+  Kok klasorde 00-11 alt alta (Explorer en ust)
+# TARAMA 2026 (@ekonomikocu)
+
+**Guncelleme:** 2026-08-30T11:30:58
+
+## Ozet
+
+> **Genel tamamlanma: 100.0%**
+>
+> Hedef: **2026 yilindaki TUM tweetler** + **abone metinleri** + **alintilanan gecmis tweetler** + **#FLOOD parcalari** ? **%100**
+>
+> **Tamam mi?** HAYIR ? tarama devam
+
+| Alan | Tam | Eksik | % |
+|------|-----|-------|---|
+| Ana tweet (2026) | 7069 | 0 (+18 erisilemedi) | **100.0%** |
+| Alinti (2026 kapsami) | 143 | 0 | **100.0%** |
+| #FLOOD kok (2026) | 8 | 0 | **100.0%** |
+
+**En yeni kayit:** 2026-08-29
+
+## Aylik (2026)
+
+| Ay | Metinli | Bos | % |
+|----|---------|-----|---|
+| 2026-01 | 70 | 0 | 100.0% |
+| 2026-02 | 420 | 0 | 100.0% |
+| 2026-03 | 505 | 0 | 100.0% |
+| 2026-04 | 330 | 0 | 100.0% |
+| 2026-05 | 1391 | 0 | 100.0% |
+| 2026-06 | 3564 | 0 | 100.0% |
+| 2026-07 | 283 | 0 | 100.0% |
+| 2026-08 | 506 | 0 | 100.0% |
+
+## Kural
+
+Yeni tweet atildiginda **TARA_2026_GUNCEL.bat** calistir (veya gunluk otomasyon).
+Eksik kalmamali: ana metin, abone, alinti, flood.
+
+---
+*Otomatik: kapsam_2026.py*
+
+# TARAMA DURUMU (@ekonomikocu)
+
+**Guncelleme:** 2026-08-30T11:30:58
+
+## Ozet (Ida'ya)
+
+> **2026-08-29 - 2025-01 sonuna kadar kesintisiz kayit VAR (alt aylarda bosluk/sorun olabilir)**
+>
+> Hedef: **2025-01-01**'e kadar tum tweet + alinti + #FLOOD
+>
+> **Tamam mi?** HAYIR — tarama devam etmeli
+
+| Metrik | Deger |
+|--------|-------|
+| En yeni kayit | **2026-08-29** |
+| En eski kayit (metinli) | **2019-11-28** |
+| Surekli tamam kadar | **2025-01-sonu** |
+| Ana tweet (metinli) | **7184** |
+| Abone (metinli) | **3434** |
+| Bos / kilitli (eksik) | **0** |
+| Alinti eksik | **4** (+ bekleyen dosya: 13) |
+| #FLOOD kok / eksik tahmin | **8** / **1** |
+
+## Eksik aylar / sorunlu donemler
+
+- (yok)
+
+## Son 12 ay (metinli ana tweet)
+
+| Ay | Adet |
+|----|------|
+| 2026-08 | 506 |
+| 2026-07 | 283 |
+| 2026-06 | 3564 |
+| 2026-05 | 1391 |
+| 2026-04 | 330 |
+| 2026-03 | 505 |
+| 2026-02 | 420 |
+| 2026-01 | 70 |
+| 2025-11 | 1 |
+| 2025-09 | 12 |
+| 2025-08 | 8 |
+| 2025-07 | 8 |
+
+## Bot is akisi (hedef)
+
+1. **Profil** — gunumuzden geriye kaydir (hedef: 2025-01-01)
+2. **Alinti** — alintilanan gecmis tweetlerin metni
+3. **#FLOOD** — thread parcalari
+4. **Abone** — kilitli/bos metinleri doldur
+5. Bu dosyayi guncelle: `python 99_BOT_ARSIV/kod/kapsam_durum.py`
+
+Tek komut: `python 99_BOT_ARSIV/kod/tara_tam.py`
+
+---
+*Otomatik: kapsam_durum.py*
+

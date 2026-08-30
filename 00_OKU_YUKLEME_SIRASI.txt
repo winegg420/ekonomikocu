@@ -14,12 +14,12 @@ Claude Project: GitHub repo bagla veya clone. Yerel yukleme yedek.
 
 === GEMINI — 06'dan sonra ===
 8. 08_TWEETLER_GEMINI.md
-9. 09_GRAFIKLER_GEMINI/  (767 jpg)
+9. 09_GRAFIKLER_GEMINI/  (768 jpg)
 10. 10_ABONE_TWEETLER_GEMINI.md
 11. 11_DIS_KAYNAKLAR.md (Koç dışı analistler — Sellcoin, Berk Dinçtürk, Yeşilada, Şatıroğlu, Lafçı, Atılal, Altınocağı, Foneria vb.)
 
-Guncelleme: 28.08.2026 19:19
-Public: 7328 | Abone metinli: 3434
+Guncelleme: 30.08.2026 11:30
+Public: 7331 | Abone metinli: 3434
 Abone bos kilitli: 0
 Paket yenile: python 99_BOT_ARSIV/kod/claude_paket_olustur.py
 GitHub gonder: python 99_BOT_ARSIV/kod/github_guncelle.py
