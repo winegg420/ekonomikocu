@@ -1104,5 +1104,13 @@
   "tur": "yatay_band",
   "aciklama": "'Burasi bile 5 ay' - May-2026'dan beri suren yatay park bandi; onceki bantlar 21.000-22.500 (5 ay) ve 25.000-26.100 (7 ay)",
   "tarih_eklendi": "2026-08-31"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "XAUUSD",
+  "seviye": 5300,
+  "tur": "hedef",
+  "aciklama": "'Isler duzelmezse ABD isterse ALTIN'da 5300 dolari gosterebilir' (10 Oca 2026); denge kurali XAUUSD/100=USDTRY ile USDTRY 53'e karsilik gelir",
+  "tarih_eklendi": "2026-08-31"
  }
 ]

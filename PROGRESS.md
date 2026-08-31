@@ -3083,3 +3083,52 @@ Koç'un aylar önceden verdiği "Ağustos 3. hafta" penceresinin tam ortasına d
   arşivde metin-görsel tarih uyuşmazlığının ilk belgelenen örneği.
 - **Araç notu (Tur 12'den devralınan yöntem işe yaradı):** 6'şarlı oku + hemen
   deftere yaz döngüsü uygulandı, bu turda hiçbir görsel ikinci kez okunmadı.
+
+## 2026-08-31 (2) — Görsel defteri TUR 14 (50 görsel)
+
+- Pencere 13 Haz → 4 Haz 2026 — sadece **10 gün**. Sebep: Koç bu aralıkta yoğun
+  flood atmış, 50 görsel bu kadar dar aralığa sığdı.
+  `gorsel_analiz.jsonl` 724 → **774**. Kalan: **831** (ekonomikoçu 684).
+- `06_ANALIZ.md` sonuna "TUR 14" bölümü eklendi (9 alt başlık).
+- **"Ağustos 3. hafta"nın kaynak dizisi bulundu:** 11 Haz 2026 tweeti üç tarih
+  birden veriyor — *"22 Haziran, 3 Temmuz, Ağustos 3. hafta"*. Karnede TUTTU sayılan
+  çağrı tek tahmin değil, üç kontrol noktalı dizinin son halkasıymış. TUR 13'teki
+  60 günlük Hürmüz aritmetiğiyle birebir tamamlanıyor.
+- **Sözlüğün üçüncü anahtarı kaynağıyla belgelendi:** *"ALTIN = gerginlik, savaş,
+  kaos demektir… aslında 'savaşı çözdüler' demem lazımdı"* (19 Haz 2025).
+  TUR 10'daki gözlemin birincil belgesi. Sözlük artık üç anahtarlı (altın,
+  enflasyon, kripto).
+- **Kripto tezi beş halkaya tamamlandı:** 2017 ECB sıkılaşması ("BTC orada doğdu") →
+  2021 "ortak coşku" → 2023 "neşelendirme" → 2024 ETF "kademeli beklenti at" →
+  2024 "Avrupa varsa kripto var". Temmuz 2025 Kripto Haftası'nın birincil kaynağı
+  da (@uzmancoin, 15 Tem 2025) bu turda çıktı.
+- **Temmuz sınırının siyasi gerekçesi:** ABD ara seçim takvimi. *"2026 Temmuz sonrası
+  seçim süreci başlar; bu ilk 6 ay Çin'in olsun gözüyle ilerlerler"* (1 Şub 2026).
+- **9.2 öğretisi kur değiştirince de korunuyor:** BTCGBP'de 92.100 GBP aynı rolü
+  oynuyor ("92 K'dan dönüyor"). Sayı öğretisinin para biriminden bağımsız olduğunun
+  ilk belgesi.
+- **TL–altın denge kuralı (yeni, sayısal):** XAUUSD / 100 ≈ USDTRY (4300 ↔ 43).
+  5300 dolar altın hedefi ⇒ USDTRY ~53; "USDTRY yılda +10 lira" kuralı da 2026 sonu
+  için ~53 veriyor. İki bağımsız kural aynı sayıda buluşuyor.
+- **Savaş değeri eşleşmesi birincil kaynağa oturdu:** *"gümüş 68 dolar altına
+  alınmadan ABD'nin eli rahatlamıyor; BTC'de 67.800/68 K savaş değeridir"*
+  (31 May 2026). Alarm kuralı (XAGUSD 68 + BTCUSDT 67.800 = tek sinyal) artık
+  belgeli.
+- `magicma/onemli_seviyeler.json`: **1 yeni** (136 → **137**), XAUUSD 5300.
+  BTCUSDT 33.000/17.000 zaten kayıtlıydı; **BTCGBP 92.100 ve BTCJPY kesişimi
+  eklenemedi** (semboller `sembol_listesi`'nde yok — DAX/TOTAL2 ile aynı sınırlama).
+
+**Kararlar ve gerekçeleri:**
+- **Yeni tür etiketi `gorsel_dekor` açıldı.** Beyaz Saray fotoğrafı ve Bitcoin logosu
+  gibi piyasa içeriği taşımayan kareler `grafik`/`haber` sayılırsa seviye ve karne
+  çıkarımlarında gürültü yapıyor. Ayrı etiket, defteri filtrelenebilir tutuyor.
+- **Üçüncü taraf portföyü Koç'a atfedilmedi.** 4 Haz savunma sanayi flood'undaki
+  Telegram ("Hasan | DM'den yazmam") ve Algola ekran görüntüleri başka birinin işlem
+  günlüğü. `baskasinin_grafigi` etiketlendi ve analiz metnine açık uyarı yazıldı —
+  aksi halde KTOS 64 dolar alımı Koç'un çağrısı sanılırdı.
+- **Bir etiket hatası kayda geçirildi:** NASDAQ/XAGUSD grafiğinde soldaki tepe
+  "2021 balon patladı" diye etiketli ama grafikte tepe 2000 yılında. Görselin
+  tarih ekseni esas alındı, çelişki analiz metnine yazıldı.
+- **Sembol listesi eksiği artık üç kaleme çıktı:** TOTAL2, DAX ve şimdi BTCGBP/BTCJPY.
+  İkinci seviye kütüphanesi bu semboller için seviye tutamıyor. Çözüm gerekiyorsa
+  `sembol_listesi/*.txt`'e eklenmeleri gerekir (tarama maliyeti artar).

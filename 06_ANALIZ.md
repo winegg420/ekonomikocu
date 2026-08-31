@@ -4307,3 +4307,132 @@ seviye (65.700) **aynı tweette birlikte** verilmiş ve ikisi de doğrulanmış.
 - `magicma/onemli_seviyeler.json`: **10 yeni kayıt** (126 → **136**). 3 aday
   atlandı: BTCUSDT 65700 ve ETHUSDT 4090 zaten kayıtlıydı, TOTAL2 1,06 T ise
   sembol listesinde karşılığı olmadığı için eklenemedi.
+
+---
+
+## GÖRSEL DEFTERİ — TUR 14 (50 görsel · 31 Ağustos 2026)
+
+**Kapsam:** 13 Haz → 4 Haz 2026 (yalnızca **10 günlük** bir pencere — bu dönemde Koç
+yoğun flood attığı için 50 görsel bu kadar dar aralığa sığdı). `gorsel_analiz.jsonl`
+724 → **774**. Kalan: **831** (ekonomikoçu 684, iriscibre 115, efloud 32).
+Tür dağılımı: 32 metin SS · 7 grafik · 7 başkasının grafiği · 2 haber · 2 görsel dekor.
+
+### 1. "Ağustos 3. hafta" çağrısının kaynak dizisi bulundu
+
+11 Haziran 2026 tarihli tweet (170 beğeni), Trump'a hitaben:
+
+> *"Ses bir iki üç, kontrol — **22 Haziran, 3 Temmuz, Ağustos 3. hafta**.."*
+
+`16_ZAMANLAMA_KARNESI.md`'de TUTTU sayılan "Ağustos 3. hafta" çağrısı **tek bir tahmin
+değil, üç kontrol noktalı bir dizinin son halkasıymış**. Bu, TUR 13'te bulunan
+60 günlük Hürmüz aritmetiğini tamamlıyor: 15 Haz + 60 = 15 Ağu.
+Diğer iki ayak (22 Haz, 3 Tem) ayrıca ölçülebilir — karneye eklenmeye aday.
+
+### 2. Sözlüğün üçüncü anahtarı, Koç'un kendi ağzından
+
+19 Haziran 2025 (13 B görüntüleme) — **bu turda üç kez** paylaşıldı:
+
+> *"Tabi ben ALTIN diyorum ama **ALTIN = GERGİNLİK, SAVAŞ, KAOS demektir.** Ocak ayı
+> attığım flood içinde 'Temmuz'a kadar altın kanadını çözdüler' derken aslında
+> **'savaşı çözdüler'** demem lazımdı. Ben biraz hızlı yazdığım için altın dedim."*
+
+TUR 10'daki "altın = gerginlik" gözleminin **kaynak belgesi**. Sözlük artık üç anahtarlı:
+- **altın** = gerginlik / savaş / kaos (19 Haz 2025)
+- **enflasyon** = savaşın örtülü adı (18 Mar 2025)
+- **kripto** = tahliye valfi / oyalama aracı (aşağıda)
+
+### 3. Kripto tezinin beş halkalı zinciri tamamlandı
+
+| Tarih | Belge | İddia |
+|---|---|---|
+| 9 Şub 2022 | EURJPY haftalık yorumu | *"ECB parasal sıkılaşmaya gidiyorum dedi. **BTC orada doğdu işte.**"* (2017) |
+| 7 Ara 2021 | 583 beğenili flood | *"Ortak sorun, ortak korku, ortak coşku: **KRİPTO!**"* |
+| 11 Ara 2023 | BOE/FED alaycı tweet | *"Ciz cıriptolarla ortalığı **neşelendirip** altın mı alıp çatıyorsunuz?"* |
+| 21 Şub 2024 | ETF yorumu | *"**Kademeli ileriye beklenti at, zaman boşa geçsin.**"* |
+| 12 Mar 2024 | Tek cümle | *"**Avrupa varsa kripto var.**"* |
+
+Zincirin bugünkü ucu: Temmuz 2025 "Kripto Haftası" — Koç'a göre bir kripto zaferi değil,
+**çöküşün önüne konan tahliye hamlesi**. Birincil kaynağı da bu turda çıktı
+(@uzmancoin, 15 Tem 2025: Trump'ın "Kripto Haftası kutlu olsun" açıklaması).
+
+### 4. Temmuz sınırının siyasi gerekçesi
+
+1 Şubat 2026 tarihli iki tweet, takvimin **neden** Temmuz olduğunu açıklıyor:
+
+> *"Sorunları çözemedik ve 2025 Temmuz itibariyle resmi olmasa da **fiilen kapandık**…
+> Borsaları kilitlediler. Kafalarında bence **2026 Temmuz'a kadar bir yılı boş geçmek** var."*
+>
+> *"ABD için **2026 Temmuz sonrası seçim süreci başlar**… Bu **ilk 6 ay Çin** ve diğer
+> ülkelerin olsun gözü ile ilerlerler."*
+
+Yani takvim keyfî değil, **ABD ara seçim takvimine** bağlı: Oca–Haz 2026 Çin'in alanı,
+Temmuz sonrası ABD'nin. `11_DIS_KAYNAKLAR.md`'deki "ABD ara seçimleri" kaydıyla
+aynı pencere.
+
+### 5. "9.2 öğretisi" para birimi değiştirince de korunuyor
+
+**BTCGBP aylık** (10 Haz 2026): siyah yatay çizgi **92.100 GBP** = Eylül 2025 zirvesi,
+*"92 K'dan dönüyor"*. BTCUSDT'de 92 K neyse BTCGBP'de 92,1 K aynı rolü oynuyor —
+sayı öğretisinin **kur değişse bile korunduğunun** ilk belgesi.
+Aynı grafikte alçalan direnç ile yükselen destek 2026 ortasında ~41 K'da kesişiyor.
+
+### 6. Yen cephesi: iki bağımsız grafik yine 2027'yi veriyor
+
+- **BTCJPY aylık:** 2017'den gelen yükselen destek ile 2025 zirvesinden inen alçalan
+  direnç **2027 başında ~8,5 M yen'de kesişiyor**. Koç'un abone tweeti bunu
+  *"kesişim ne zaman = Temmuz'a kadar vaktin var"* diye özetlemiş.
+- **JPYUSD aylık:** yen 2011'den beri genişleyen alçalan kanalda, 2023'ten beri
+  **kanalın alt sınırında sürünüyor**. Koç'un yorumu: *"Ha coin ha JPY!"* —
+  BTCJPY'deki yükselişin büyük kısmı BTC değil, **yen erimesi**.
+
+TUR 13'teki GBPJPY 7 yıllık döngüsü de 2027'yi vermişti. Üç ayrı yen/sterlin grafiği
+aynı yılı işaret ediyor.
+
+### 7. TL–altın denge kuralı (yeni, sayısal)
+
+10 Ocak 2026: *"**XAUUSD 4300 / USDTRY 43 lira** dengesini koca yıl gördük. Demek ki
+işler düzelmezse ABD isterse altında **5300 doları** gösterebilir."*
+27 Ekim 2025: *"Senin için USDTRY'nin 10'dan 42-43'e gelmesi nasıl enflasyonsa,
+bir ABD'li için **XAUUSD'nin 1000'den 4200-4300'e** gelmesi enflasyon oluyor."*
+22 Aralık 2025: *"USDTRY her yıla, ortam rahatlamadıkça **10 lira ortalama** koyuyor."*
+
+Üçü birlikte tutarlı bir formül veriyor: **XAUUSD / 100 ≈ USDTRY**.
+5300 dolar altın ⇒ USDTRY ~53; "yılda +10 lira" kuralı da 2026 sonu için ~53 diyor.
+**İki bağımsız kural aynı sayıyı veriyor.**
+
+### 8. Diğer bulgular
+
+- **Savaş değeri eşleşmesinin kaynak belgesi:** 31 May 2026 —
+  *"ABD'nin gümüşü **68 dolar** altına almadan eli rahatlamıyor… BITCOIN'de malum
+  **67.800 / 68 K savaş değeridir**… ABD gümüşün hakkından gelmek istiyorsa BTC'ye de
+  kıymak zorunda."* TUR 11'deki alarm kuralı (XAGUSD 68 + BTCUSDT 67.800 = **tek**
+  sinyal) artık birincil kaynağa dayanıyor.
+- **BTC 60 K yelpazesinin tam karesi** (6 Haz 2026): 2012 "0 noktası"ndan çıkan üç
+  çizgi — **17 K / 33 K / 60 K**, üst çizgi 2032'de ~150 K. TUR 12'de özetlenen
+  bulgunun kaynak grafiği. *(33 K ve 17 K seviye kütüphanesinde zaten kayıtlıydı.)*
+- **"2024 yılının özeti" kronolojisi** (26 Ara 2024): Ekim 2023 → Ocak 2025 arası
+  15 ayın çeyrek çeyrek "haber silahı" dökümü — faiz indirimi söylemi, BTC ETF,
+  ETH ETF, ateşkes haberi. Zaman geçirme tezinin en ayrıntılı belgesi.
+- **NASDAQ ve BTC aynı etiketlerle:** iki grafik de "boğa 2020/2021 → savaş →
+  savaş düzeltmesi" şablonuyla işaretlenmiş. Koç'a göre BTC bağımsız bir varlık değil.
+- **`onemli_seviyeler.json`: 1 yeni** (136 → **137**), XAUUSD 5300. BTCUSDT 33.000 ve
+  17.000 zaten kayıtlıydı; **BTCGBP 92.100 ve BTCJPY kesişimi eklenemedi** — bu iki
+  sembol `sembol_listesi/*.txt` içinde yok (DAX ve TOTAL2 ile aynı bilinen sınırlama).
+
+### 9. Yöntem notları
+
+- **Kopya medya yine yüksek: 7 vaka.** Ayrıca aynı belgenin farklı tweetlerde
+  dönmesi (şablon) 5 kez. En çok dolaşan üç belge: 19 Haz 2025 "altın = gerginlik"
+  (3 kez), 5 Şub 2025 "Temmuz'a kadar altın" (TUR 13 ile birlikte 4 kez),
+  22 Şub 2020 "güçlü borsa güçlü emtia" (2 kez).
+- **Yeni tür etiketi: `gorsel_dekor`.** Beyaz Saray fotoğrafı ve Bitcoin logosu gibi
+  piyasa içeriği taşımayan kareler ayrı etiketlendi ki seviye/karne çıkarımlarında
+  gürültü yapmasınlar.
+- **Üçüncü taraf portföyü ayrıldı:** 4 Haz 2026 savunma sanayi flood'undaki Telegram
+  ve Algola ekran görüntüleri **Koç'un çağrısı değil**; `baskasinin_grafigi` olarak
+  işaretlendi ve analiz metnine "Koç'a atfedilmemeli" notu düşüldü.
+  *(Yan gözlem: o karedeki bağımsız trader'ın BTC long girişi **73.653** — TUR 13'te
+  bulunan 73.600 kırılım seviyesiyle aynı bölge.)*
+- **Bir etiket hatası tespit edildi:** NASDAQ/XAGUSD rasyo grafiğinde soldaki tepe
+  "2021 balon patladı" diye etiketlenmiş ama grafikte tepe **2000** yılında.
+  Görseldeki tarih ekseni esas alındı.
