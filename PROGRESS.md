@@ -3132,3 +3132,51 @@ Koç'un aylar önceden verdiği "Ağustos 3. hafta" penceresinin tam ortasına d
 - **Sembol listesi eksiği artık üç kaleme çıktı:** TOTAL2, DAX ve şimdi BTCGBP/BTCJPY.
   İkinci seviye kütüphanesi bu semboller için seviye tutamıyor. Çözüm gerekiyorsa
   `sembol_listesi/*.txt`'e eklenmeleri gerekir (tarama maliyeti artar).
+
+## 2026-08-31 (3) — Görsel defteri TUR 15 (50 görsel)
+
+- Pencere 13 Haz → 1 Haz 2026 (13 gün). `gorsel_analiz.jsonl` 774 → **824**.
+  Kalan: **781** (ekonomikoçu 634).
+- `06_ANALIZ.md` sonuna "TUR 15" bölümü eklendi (9 alt başlık).
+- **En değerli bulgu — takvim üretme mekanizmasının kendisi belgelendi.** DAX H4
+  abone tweeti: *"KESİŞİM = 25060 = 6 öğretisi. Ayın 23. gününe kadar zamanı var…
+  ona sen 25. gün de… gelecek pazartesi."* Yöntem üç adımlı: (1) alçalan direnç +
+  yükselen destek kesişimi bir SEVİYE verir, (2) aynı kesişim bir TARİH verir,
+  (3) seviye bir öğreti sayısına bağlanır. 25 Mayıs Pazartesi DAX 25.060'ı kırdı.
+  Aynı yöntem BTCUSD'de: kesişim hem 70.600/71.800 hem 6-7 Haziran veriyor;
+  4 Haziran'da destek kırıldı, 63.849'a inildi.
+- **7 Nisan çağrısı üç enstrümanda:** 16 Şub 2026 (47 B görüntüleme) *"tek tek en
+  önemli günleri yazacağım, Nisan 7. güne kadar gel bakalım"*. NASDAQ 23.700 aşıldı
+  → %29 yükseliş; ETH 1746 üstünde kaldı; BTC 68.800 eşiği korundu.
+- **NASDAQ 23.700 = "dünya barışı rakamı"** (31 Mar 2026). 22.600 = Biden zirvesi,
+  22.600-23.700 arası "can çekişir". Sayı öğretisinin siyasi versiyonu.
+- **Kripto tezinin ekonomik gerekçesi:** *"Sanal varlığa giden para doğrudan
+  enflasyonu azdırmaz; altın/gümüş yükselince zam doğrudan gelir."* Kripto tercih
+  ediliyor çünkü enflasyona geçişkenliği yok. Ayrıca 13 Tem 2021 "3 seçenek"
+  çerçevesi ve ABD Senatosu H.R. 3633 belgesi (CBDC yasağı) zincire eklendi.
+- **Çin–ABD hamle zinciri:** gümüş (Çin) → petrol (ABD) → enflasyon + güçlü dolar.
+  *"Ya faizler ya emtia birisi yol alacaktı; ABD çaresiz kaldı"* (29 Oca 2026) —
+  Koç'a göre faiz indirimi siyaseten kilitli.
+- **Mevsimsellik öğretisi:** NASDAQ haftalıkta dört Şubat işaretli (2020, 2022,
+  2024, 2026), her birinde düzeltme. Takvim üç ölçekte: gün / ay / yıl.
+- **Bağımsız kaynak aynı sayıyı kullanıyor:** "Oktay Teknik Analiz" *"btc tepe 67800
+  dip 62300"* — 67.800 Koç'un savaş değeri. TUR 14'teki 73.653 girişli trader ile
+  birlikte ikinci bağımsız kanıt.
+- **OTHERS.D 2027'yi veren üçüncü grafik** (GBPJPY ve BTCJPY'den sonra): alçalan
+  direnç ile yükselen destek 2026 sonu / 2027'de kesişiyor.
+- `magicma/onemli_seviyeler.json`: **5 yeni** (137 → **142**). BTCUSDT 68.800 /
+  78.947 / 62.300, XAUUSD 4.001 ve 6.700-7.000 (Elliott, üçüncü taraf).
+
+**Kararlar ve gerekçeleri:**
+- **İki yeni tür etiketi açıldı:** `reklam` (AlgoBotApp tanıtımı — ürün duyurusu,
+  `baskasinin_grafigi` demek yanıltıcı olurdu) ve `belge` (ABD Senatosu H.R. 3633
+  metni — ne grafik ne haber, resmi doküman).
+- **Tanımlanamayan grafik uydurulmadı.** 2062483179122897275'teki oran grafiğinde
+  (0,00271 → 0,00027 → 0,00117) sembol adı ne görselde ne tweet metninde geçiyor;
+  analize "hangi varlık olduğu belirlenemedi" yazıldı.
+- **Sembol listesi eksiği büyüyor:** TOTAL2, DAX, BTCGBP/BTCJPY'ye şimdi **DAX 25.060
+  ve OTHERS.D** eklendi. İkinci seviye kütüphanesi bu enstrümanlarda seviye tutamıyor.
+  DAX üç turda üst üste çıktı — listeye eklenmesi en öncelikli aday.
+- **Araç notu:** `cat >> dosya <<'MD'` ile uzun Türkçe markdown yazarken bash
+  "unexpected EOF" verdi (heredoc parse hatası). Çözüm: içeriği Write ile scratchpad
+  dosyasına yazıp python ile append etmek. Sonraki turlarda doğrudan bu yol kullanılsın.

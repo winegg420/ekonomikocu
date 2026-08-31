@@ -4436,3 +4436,152 @@ bir ABD'li için **XAUUSD'nin 1000'den 4200-4300'e** gelmesi enflasyon oluyor."*
 - **Bir etiket hatası tespit edildi:** NASDAQ/XAGUSD rasyo grafiğinde soldaki tepe
   "2021 balon patladı" diye etiketlenmiş ama grafikte tepe **2000** yılında.
   Görseldeki tarih ekseni esas alındı.
+
+---
+
+## GÖRSEL DEFTERİ — TUR 15 (50 görsel · 31 Ağustos 2026)
+
+**Kapsam:** 13 Haz → 1 Haz 2026, yine **13 günlük** dar bir pencere.
+`gorsel_analiz.jsonl` 774 → **824**. Kalan: **781** (ekonomikoçu 634, iriscibre 115,
+efloud 32). Tür dağılımı: 22 metin SS · 14 grafik · 5 başkasının grafiği ·
+5 görsel dekor · 2 reklam · 1 resmi belge · 1 veri SS.
+
+### 1. Turun en değerli bulgusu: takvim üretme mekanizmasının kendisi
+
+Koç'un tarihleri nereden bulduğu bu turda **açıkça belgelendi**. Yöntem üç adımlı:
+
+> **DAX H4** (abone tweeti): *"25060 üstüne atarsa rahatlar, atamazsa short.
+> **KESİŞİM = 25060 = 6 öğretisi.** Ayın 23. gününe kadar zamanı var. Sanırım hafta
+> sonuna denk geliyor. Ona sen **25. gün** de… Gelecek pazartesi.."*
+
+1. Alçalan direnç + yükselen destek **kesişimi bir SEVİYE** verir (25.060),
+2. Aynı kesişim grafik üzerinde **bir TARİH** verir (ayın 23'ü → hafta sonuna
+   denk gelince 25'i Pazartesi),
+3. Seviye bir **"öğreti sayısı"na** bağlanır (6).
+
+25 Mayıs Pazartesi DAX tam 25.060'ı kırdı — Koç'un kendi ifadesiyle *"günü gününe
+tutmuş"*. Aynı yöntem **BTCUSD**'de de kullanılmış: alçalan (Tem-2025) ve yükselen
+(Şub-2026) trendlerin kesişimi hem seviye (**70.600 / 71.800**) hem tarih
+(**6-7 Haziran**) veriyor; 4 Haziran'da fiyat o desteği kırıp 63.849'a indi.
+
+Bu, TUR 13'teki 60 günlük Hürmüz aritmetiğini ve TUR 14'teki üç tarihli diziyi
+tamamlıyor: Koç'un takvimi **haber (60 gün) + geometri (kesişim) + öğreti sayısı**
+üçlüsünden çıkıyor.
+
+### 2. "En önemli günleri tek tek yazacağım" — 7 Nisan çağrısı ve üç enstrüman
+
+16 Şubat 2026 (**47 B görüntüleme** — bu turun en yüksek erişimli belgesi):
+
+> *"Ben sana **tek tek en önemli günleri** yazacağım. **Nisan 7. güne kadar** gel
+> bakalım… Aradaki önemli günleri de yazmıyorum. Mart ilk hafta vs…"*
+
+50 gün önceden verilen bu tarih, üç ayrı enstrümanda eşik olarak tekrarlanıyor:
+
+| Enstrüman | Çağrı | Tarih | Sonuç |
+|---|---|---|---|
+| NASDAQ | 23.700 "barış tepesi" aşılırsa toparlar | 7 Nis | 7 Nisan'da alçalan direnç kırıldı → 30.537 (**+%29**) |
+| ETH | 1746 üstünde "riskten uzağız" | 7 Nis'e kadar | 5 Şubat'ta 1746 test edildi, hep üstünde kaldı |
+| BTC | 68.800 üstü kalış lazım | 7 Nis'e kadar | eşik korundu, 2 ay sonra test edilecek |
+
+`16_ZAMANLAMA_KARNESI.md` için bu turun en güçlü kaydı: tarih 50 gün önce, seviye
+ayrı ayrı, sonuç doğrulanabilir.
+
+### 3. NASDAQ 23.700 = "dünya barışı rakamı"
+
+31 Mart 2026, abone tweeti (*"Burayı iyi oku!!"*):
+
+> *"Tekniğe bile gerek yok! Sana **mantıkla** geliyorum. Biden döneminde NASDAQ tepesi
+> kaçtı? **22.600**. Trump, PUTİN ve Avrupalı liderleri toplayıp hangi rakamı yukarıya
+> **barış** deyip kırdırdı? **23700**. Son dönemde barış yerine ne çıktı? Savaş..
+> Savaş çıkınca nasdaq barış rakamı olan 23700'ün altında kaldı."*
+>
+> *"Toparlaması için 23700 barış tepesini aşması lazım. Altında kalırsa dayak yer.
+> **22600 ile 23700 arası can çekişir.**"*
+
+Sayı öğretisinin **siyasi versiyonu**: seviye teknik değil, olaya bağlanmış.
+7 Nisan'da 23.700 aşıldı ve %29'luk yükseliş geldi — şartlı çağrı tuttu.
+
+### 4. Kripto tezinin ekonomik gerekçesi bulundu
+
+TUR 14'te kripto tezinin beş halkalı zinciri çıkmıştı; bu turda **neden çalıştığının**
+açıklaması geldi (29 Oca 2026, abone):
+
+> *"**Sanal varlığa giden para doğrudan enflasyonu azdırmaz.** Yani BTC yükseldi diye
+> X bir ürüne zam gelmez. Ama **ALTIN ve GÜMÜŞ yükseldiğinde o zam doğrudan gelir.**
+> Bu enflasyon demektir ve arkası faiz artışıdır. Adamlar dünyada faizler düşsün diye
+> uğraşıyor, sana pabuç bırakırlar mı?"*
+
+Kripto tercih ediliyor çünkü **enflasyona geçişkenliği yok**. Bu, "tahliye valfi"
+metaforunun mekanizmasıdır. Zincire iki halka daha eklendi:
+- **13 Tem 2021 (460 beğeni):** *"3 seçenek kaldı: 1. Kriptoyu dünyaya monte
+  edeceksin. 2. Avrupa birliğini dağıt bitsin bu çile. 3. ABD kendisini bağımsız
+  krize sürükler."* — kripto bir yatırım değil, **sistemik çözüm seçeneği**.
+- **H.R. 3633 (ABD Senatosu belgesi):** dijital emtiaların SEC/CFTC düzenlemesi +
+  **CBDC yasağı**. Koç'un okuması: kripto zaferi değil, süreci ileri atan bir adım.
+
+### 5. Çin–ABD hamle zinciri üç aşamaya çıktı
+
+- **29 Oca 2026:** *"Çin gümüş dediği gün yazdım, **petrol** ile karşılık verirler.
+  Ben yazdıktan üç gün geçmedi, petrol azdırıldı. Şu an petrol 70 dolar."*
+- **7 Mar 2026:** *"Çin kanadının gümüş demesi vs dünyayı kurtarmaz. Petrol masaya
+  geldiği an peşine bir de **enflasyon** var deyip **doları** takarlarsa ne olur?
+  Tüm ülkeler golü yedi.."*
+
+Zincir: **gümüş (Çin) → petrol (ABD) → enflasyon + güçlü dolar (ABD'nin son kozu)**.
+Ayrıca 29 Oca'da ikili seçim çerçevesi: *"Ya faizler ya emtia birisi yol alacaktı;
+ABD de bence çaresiz kaldı"* — Koç'a göre **faiz indirimi siyaseten kilitli**,
+bu yüzden emtia yolu seçildi. (`koc_tetigi.py`'deki "faiz indirimi" koşulu için bağlam.)
+
+### 6. Mevsimsellik öğretisi: "düzeltmeler Şubat aylarındadır"
+
+NASDAQ haftalık grafiğinde **dört Şubat** kırmızı balonla işaretli: 2020 (~9.700),
+2022 (~16.500), 2024 (~21.700), 2026 (~25.700) — her birinde kısa süre sonra
+düzeltme. Koç'un takvim sistemi böylece üç ölçekte çalışıyor: **gün** (7 Nisan,
+25 Mayıs), **ay** (Şubat), **yıl** (2027).
+
+### 7. "Sürekli yeni zirve tazelemek zorundalar" — ölçülebilir bir davranış iddiası
+
+4 May 2026: *"ABD borsalarının düşmesini istemiyorsa, **sürekli yeni zirve tazelemek
+zorundadır**. Diken üstündeler. Yatıramıyorlar."*
+Bunun mikro kanıtı olarak NASDAQ 4H grafiği: üç ardışık tepede (29.960 → 30.130 →
+30.548) fiyat tam düşecekken bir önceki kapanışın üstüne taşınmış.
+**Test edilebilir:** ardışık kapanışların önceki tepeyi aşma sıklığı ölçülebilir.
+
+### 8. Diğer bulgular
+
+- **18 Mayıs çağrısı grafikle doğrulandı.** 18 May 2026 tweeti (*"18 Mayıs! Yani
+  bugün… 6 Haziran haftası… bu bölge haber akışlarına gebedir"*) ile aynı gün BTC
+  **78.947**'den dönüp beş haftada 63,5 K'ya indi (-%20). Üçüncü taraf Gann haritası
+  da aynı dönüşü 80.507 direncinden gösteriyor.
+- **Bağımsız kaynak aynı sayıyı kullanıyor:** "Oktay Teknik Analiz" adlı analist
+  *"btc tepe **67800** dip 62300"* diyor — 67.800, Koç'un "savaş değeri". TUR 14'teki
+  73.653 girişli trader ile birlikte, seviyelerin piyasada gerçekten izlendiğinin
+  ikinci bağımsız kanıtı.
+- **OTHERS.D (altcoin payı):** 2022 zirvesinden (%19,5) inen alçalan direnç ile
+  2014'ten gelen yükselen destek **2026 sonu / 2027**'de kesişiyor. Koç: *"Kriptonun
+  para yapması için şu yeşil yerin aşılması lazım."* GBPJPY ve BTCJPY'den sonra
+  **2027'yi veren üçüncü bağımsız grafik**.
+- **Üçüncü taraf altın sayımı:** EkonomiFinansTeknik1'in Elliott analizi (iki tarihli
+  kare, 23 Nis ve 4 Haz) (iv) düzeltme hedefini **4.001** dolarda, (v) dalga hedefini
+  **6.700-7.000**'de tutuyor — Koç'un 5.300 hedefinden agresif.
+- **Hesap büyüklüğü tarihli olarak kayda geçti** (4 Haz 2026): 74,7 K takipçi,
+  9,8 K doğrulanmış takipçi, 13,5 Mn aylık gösterim, %2,6 etkileşim oranı.
+  `18_ONCU_TAKIPCI.md`'de etki ağırlığı için kullanılabilir.
+- `magicma/onemli_seviyeler.json`: **5 yeni** (137 → **142**) — BTCUSDT 68.800 /
+  78.947 / 62.300, XAUUSD 4.001 ve 6.700-7.000 bandı. **DAX 25.060 ve OTHERS.D
+  seviyeleri eklenemedi** (semboller listede yok).
+
+### 9. Yöntem notları
+
+- **Yeni tür etiketi: `reklam`.** AlgoBotApp tanıtımı (aynı görsel iki ayrı tweette)
+  bir ürün duyurusu; `baskasinin_grafigi` demek yanıltıcı olurdu.
+  Yeni etiket `belge` de eklendi (ABD Senatosu H.R. 3633 metni).
+- **Görsel dekor oranı bu turda yüksek: 5 kare** (Bodrum sokak fotoğrafı, viral
+  WhatsApp hikayesi, Ardahan silüeti, Arda Güler forması). 3 Haziran akşamı Koç'un
+  akışı piyasadan tamamen uzaklaşmış — arşivde bu tür "gündem araları" var.
+- **Tekrar/kopya: 8 vaka.** En çok dönen belge yine 19 Haz 2025 "altın = gerginlik"
+  (bu turla birlikte **dört ayrı tweette**).
+- **Tanımlanamayan bir grafik var:** 2062483179122897275 numaralı tweetteki oran
+  grafiğinde (0,00271 → 0,00027 → 0,00117) sembol adı ne görselde ne tweet metninde
+  geçiyor. Analiz "hangi varlık olduğu belirlenemedi" notuyla kaydedildi —
+  uydurma yapılmadı.

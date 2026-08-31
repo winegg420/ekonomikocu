@@ -1112,5 +1112,46 @@
   "tur": "hedef",
   "aciklama": "'Isler duzelmezse ABD isterse ALTIN'da 5300 dolari gosterebilir' (10 Oca 2026); denge kurali XAUUSD/100=USDTRY ile USDTRY 53'e karsilik gelir",
   "tarih_eklendi": "2026-08-31"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "BTCUSDT",
+  "seviye": 68800,
+  "tur": "esik",
+  "aciklama": "'7 Nisan gunune kadar 68.800 onemli, yukselis icin ustu kalis lazim' (4 Nis 2026)",
+  "tarih_eklendi": "2026-08-31"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "BTCUSDT",
+  "seviye": 78947,
+  "tur": "donus_seviyesi",
+  "aciklama": "May-2026 destegi; 16-17 May'da direnc olarak reddedildi ve 18 Mayis'ta dusus buradan basladi (79 K -> 63,5 K)",
+  "tarih_eklendi": "2026-08-31"
+ },
+ {
+  "kaynak": "Oktay Teknik Analiz",
+  "enstruman": "BTCUSDT",
+  "seviye": 62300,
+  "tur": "hedef",
+  "aciklama": "'btc tepe 67800 dip 62300; tepe gecilmedikce hedef 62300' (4 Haz 2026) - Koc'un 67.800 savas degeriyle ayni sayiyi kullanan bagimsiz kaynak",
+  "tarih_eklendi": "2026-08-31"
+ },
+ {
+  "kaynak": "EkonomiFinansTeknik1",
+  "enstruman": "XAUUSD",
+  "seviye": 4001,
+  "tur": "elliott_hedefi",
+  "aciklama": "Elliott (iv) duzeltme hedefi (W-X-Y); 23 Nis ve 4 Haz 2026 karelerinde degismedi",
+  "tarih_eklendi": "2026-08-31"
+ },
+ {
+  "kaynak": "EkonomiFinansTeknik1",
+  "enstruman": "XAUUSD",
+  "seviye_alt": 6700,
+  "seviye_ust": 7000,
+  "tur": "elliott_hedefi",
+  "aciklama": "Elliott (v) dalga hedefi, 2027 basi projeksiyonu - Koc'un 5300 hedefinden agresif",
+  "tarih_eklendi": "2026-08-31"
  }
 ]
