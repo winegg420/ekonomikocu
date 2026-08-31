@@ -64,6 +64,75 @@ yani **Sellcoin dibi sonradan onayladı, Koç düşüşü önceden söyledi.** K
 | 27 Tem | Gümüş $55 potansiyel dip, zayıf | **TUTTU** (17 Tem 54$ dibi; sonrasında toparladı) |
 | 27 Tem | BTC 63.000 destek, tetik 67.300 üstü | İZLENİYOR |
 
+### Jackson Hole Sonrası Pazartesi Özeti — Kevin Warsh Şahin Sinyali
+**Fed/faiz teması — kritik güncelleme:**
+- ⭐ **Kevin Warsh'ın Jackson Hole konuşması şahin olarak okundu:** "Yaz aylarındaki
+  enflasyon iyileşmesi beni ikna etmedi, fiyat istikrarı Fed'in önceliği" dedi.
+  "Enflasyon hedefe dönmezse Fed'in yapacak işi var" cümlesi piyasa tarafından faiz
+  artırımı sinyali olarak okundu.
+- ⭐⭐ **Eylül faiz artırım ihtimali konuşma ÖNCESİ %35'ten, konuşma SONRASI %60'a,
+  şu an %62'ye çıktı.** Bu, Fed faiz artırımı temasını doğrulayan **5. bağımsız
+  kaynak** (Aslanoğlu + Lafçı&Perşembe + Paksoy + Erkan Öz + Sellcoin) — ve en somut/
+  güncel yüzde rakamını veren kaynak bu (%35→%60→%62 net ilerleme).
+- Henüz kesinlik yok ("netlik kazanılmış değil") ama ivme net şekilde artırım yönünde.
+
+**ABD hisse/Nvidia:**
+- Nvidia bilançosu güçlü — piyasanın asıl sorusu "AI yatırımları gelir üretiyor mu"
+  idi, Nvidia (+CrowdStrike +Okta) net "evet" cevabı verdi.
+- Ama piyasa artık daha seçici: sadece "AI şirketiyim" demek yetmiyor, gelir/marj/nakit
+  akışı soruluyor. Sellcoin radarını çip şirketlerinden veri merkezi, elektrik altyapısı,
+  optik ağlar, siber güvenlik gibi "ikinci halka" katmanlara kaydırıyor.
+- ABD hisse fonlarından ~$22 milyar çıkış oldu ama bu **risk-off değil, sermaye
+  rotasyonu** olarak okunuyor — para Avrupa'ya, Asya'ya, teknoloji fonlarına ve
+  değerli metallere kaydı.
+- Sellcoin geçen hafta kısmi kâr realizasyonu yaptı (bazı ABD hisselerinde).
+
+**Altın — ikinci bacak teorisi:**
+- ⭐ Sellcoin'in önceki $3.900-4.000 dip-akümülasyon çağrısı **doğrulandı** (fiyat
+  oradan $4.700'e kadar yükseldi) — kendi karnesine göre TUTTU.
+- Şimdi gelen düzeltmeyi (bulut/ichimoku bölgesine geri çekilme) **"ikinci bacağın
+  başlangıcı"** olarak okuyor, yeni hedef **$4.800**. Gram altın karşılığı: 66.800-
+  68.800 TL bulut bölgesi.
+- Gümüş için de aynı düzeltme-sonrası-değerlendirme paterni işaretleniyor.
+- Sellcoin kendi pozisyonlarını (kripto altın/Tether Gold dahil) taşımaya devam
+  ediyor, yeni satış yapmadı.
+
+**BIST:**
+- Teknik olarak hem TL hem USD paritesinde pozitif görünüyor ama temelde ayrışma var:
+  güçlü dolar + petrolün $90 üzerine çıkması cari açık ve enflasyon üzerinde baskı
+  yaratıyor, TCMB'nin faiz indirim alanını daraltıyor. Sellcoin'in şu an BIST
+  pozisyonu yok.
+
+**Kripto — Otoline indikatörü (Sellcoin'in kendi proprietary göstergesi) seviyeleri:**
+- **BTC:** $78.990-992 güncel direnç (dünkü kapanışla revize oldu). $79.000 üstünde
+  1-2 gün tutunursa $82.000+ hareketi açılır.
+- **ETH:** $2.480-2.515 direnç hattı; kırılırsa %20-30 boşluk alanı açılıyor. En yakın
+  destek $2.315.
+- **XRP:** $1,34 destek test edildi ve korundu (kanıtlanmış destek). $1,42 kazanılırsa
+  $1,52 hedefi açılır.
+- **SOL:** $98 destek işaretli ama **henüz test edilmemiş** (XRP'ninkinden daha az
+  güvenilir).
+- **Total3** (BTC/ETH hariç altcoin piyasa değeri) kritik direnç testinde — hafta
+  sonu İran saldırı haberleri olmasaydı bu kırılım muhtemelen gerçekleşmiş olacaktı.
+  Sellcoin kripto pozisyonlarını taşımaya devam ediyor.
+
+**[Claude çapraz kontrol]:** Fed faiz artırım teması artık **5 bağımsız kaynaktan**
+geliyor, Sellcoin en güncel/somut yüzdeyi (%62) veriyor — Koç'un faiz indirimi
+temelli boğa tetiğine karşı git gide güçlenen, artık göz ardı edilemeyecek bir karşıt
+sinyal birikti. Sellcoin'in $3.900-4.000 altın çağrısının TUTTU olması, kendi karnesine
+olumlu bir giriş.
+
+### KARNE EK — Sellcoin (Jackson Hole sonrası)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| Önceki (referans) | Altın $3.900-4.000 dip-akümülasyon, sonra yükseliş | TUTTU ($4.700'e ulaştı) |
+| Pazartesi | Altın ikinci bacak başlıyor, hedef $4.800 | İZLENİYOR |
+| Pazartesi | BTC $79.000 üstü tutunursa $82.000+ | İZLENİYOR |
+| Pazartesi | ETH $2.480-2.515 kırılırsa %20-30 boşluk | İZLENİYOR |
+| Pazartesi | XRP $1,42 kazanılırsa $1,52 hedefi | İZLENİYOR |
+| Pazartesi | Eylül Fed faiz artırım ihtimali %62 | İZLENİYOR (5 kaynak ortak) |
+
+
 ## ATILLA YEŞİLADA (FX TV, Perihan Tantuğ ile söyleşi)
 
 ### 2026-08-13 civarı
