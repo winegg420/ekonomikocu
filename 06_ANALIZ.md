@@ -4173,3 +4173,137 @@ kez döndüğü, o tezin ağırlığının ölçüsü sayılabilir.
   *"126 geçerli kayıt, 0 atlandı."*
 - İlk kez `baskasinin_grafigi` türü kullanıldı (dogankonya TradingView çizimleri ve
   abone grafiği) — Koç'un kendi çizimiyle karışmaması için ayrı etiketlendi.
+
+---
+
+## GÖRSEL DEFTERİ — TUR 13 (50 görsel · 31 Ağustos 2026)
+
+**Kapsam:** ekonomikoçu arşivinin 29 Ağu 2026 → 13 Haz 2026 penceresi, tweet başına
+en fazla 2 görsel. `gorsel_analiz.jsonl` 674 → **724**. Kalan: **881**
+(ekonomikoçu 734, iriscibre 115, efloud 32).
+
+### 1. Turun en değerli bulgusu: 60 GÜNLÜK BLOĞUN KAYNAĞI BULUNDU
+
+`magicma/gunluk_ozet.py` içindeki "Koç takvimi" 60 günlük bir iç blok kullanıyor
+(referans 20 Ağustos 2026, sonraki durak 19 Ekim 2026) ve bugüne kadar bu sayının
+**nereden geldiği belgelenmemişti**. Bu turda iki bağımsız haber karesi çıktı, ikisi
+de 15 Haziran 2026'da paylaşılmış:
+
+1. **Fars Haber Ajansı / SON DAKİKA:** "İran, anlaşma kapsamında Hürmüz
+   Boğazı'ndan **60 gün boyunca** serbest geçişe izin verecek."
+   Koç'un tweeti: *"Haziran 15 + 60 → Ağustos 15; önemli tarih = Ağustos 3. hafta."*
+2. **@ConflictTR:** "İran Dışişleri Bakan Yardımcısı Garibabadi: **60 günlük
+   müzakereler**, ABD'nin taahhütlerini yerine getirdiğinin doğrulanmasının
+   ardından başlayacak."
+
+Yani 60 gün keyfî bir döngü sayısı değil, **somut bir diplomatik süre**. Koç'un
+aylar önceden verdiği ve `16_ZAMANLAMA_KARNESI.md`'de TUTTU sayılan "Ağustos 3.
+hafta" çağrısının aritmetiği bu iki habere dayanıyor.
+
+### 2. "Aynı sayı öğretisi"ne yeni üye: 73.600
+
+29 Haziran 2026'da iki dakika arayla paylaşılan iki grafik:
+- **BTCUSD 4 saatlik:** 28-30 Mayıs'ta 73.600'de üç günlük yatay sıkışma, oradan
+  57.500'e çakılma.
+- **XAGUSD saatlik:** 4 Haziran'da 73,605'ten kırılım, 55,6'ya çakılma.
+
+Koç'un yorumu: *"Tesadüfe bak, bitcoin de gümüş gibi 73.600'den çakılmış."*
+Bu, 5.7 / 6 / 9.2 / 33 / 8.4 ailesine katılan yeni bir sayı.
+**Alarm açısından:** XAGUSD ve BTCUSDT'de aynı anda 73,6 / 73.600 teması gelirse
+bunlar iki bağımsız sinyal değil, tek sinyaldir (Tur 11'deki "gümüş 68 / BTC 67.800
+savaş değeri" notuyla aynı aile).
+
+### 3. Döngü öğretisinin en açık itirafı: 120 / 60 / 70-75
+
+31 Mayıs 2026 abone flood'u (bu turda **üç ayrı tweette** karşımıza çıktı):
+
+| Varlık | Zirve | Dip | Denge |
+|---|---|---|---|
+| BTC | 120 K | 60 K | 70-75 K |
+| Gümüş | 120 $ | 60 $ | 70-75 $ |
+| Petrol (Brent) | 120 $ | — | 70-75 $ |
+
+Koç'un kendi cümlesi: *"Aslında hep aynı döngüler."* Yani **seviye varlığa değil
+döngüye ait** — sayı öğretisinin arkasındaki mantığın kendi ağzından açıklaması.
+Aynı flood'da "3 ay öğretisi" de var: *"Bir devlet başka devlete kafa tutan hamle
+yapıyorsa ortalama en az 3 ay sürer"* (2025 kripto haftası 3 ay, Çin gümüş hamlesi
+3 ay, ABD petrol hamlesi 3 ay kısmen).
+
+### 4. 7 yıllık döngü — iki bağımsız kare aynı yılı veriyor
+
+- **Metin (3 Ocak):** *"Dünya 2020'de bir rejim değişimine girdi. Yedi yıl bolluk,
+  yedi yıl kıtlık döngüsünün içindeyiz. Bir iki yıl içinde dünya normalleşir."*
+- **Grafik (GBPJPY aylık):** 2000 dip → 2007 zirve → 2020 dip → **2027** etiketi,
+  altında *"7 yıllık döngü!"*. Fiyat bugün 215, 2007 zirvesi 251.
+
+İkisi de **2027**'yi işaret ediyor; biri makro anlatı, diğeri fiyat geometrisi.
+`onemli_seviyeler.json`'a GBPJPY 251 "döngü hedefi" olarak eklendi.
+
+### 5. Zaman çizelgesi: Koç'un takvimi her yıl aynı ayı gösteriyor
+
+| Tarih | Çağrı | Durum |
+|---|---|---|
+| 9 Eki 2023 | "2024 2025 2026'ya bile sarkıtır" | Gerçekleşti |
+| 13 Haz 2021 | "1-5 yıllık periyotta iyiye giden bir şey görmüyorum" | Pencere 13 Haz 2026'da doldu |
+| 18 Haz 2025 | "**Temmuz**'a kadar dünyanın vakti var" | Tem 2025'te Brent'te "tok kırmızı mum" ile savaş engellendi |
+| 20 Oca 2026 | "**Temmuz**'a kadar sert atar gider lazım" | Haz 2026'da "tuttu" diye paylaşıldı |
+| 29 Nis 2026 | "3 ay petrol → Haziran'a kadar gelirler" | 47 gün sonra "geldi Haziran, toplam 180 gün" |
+| 5 Şub 2025 | "2025 Temmuz'a kadar altın tarafını çözmeniz lazım; 2026 Mart'a kadar izleyin" | İki pencere de kapandı |
+| 26 Şub 2026 | "**28 Şubat** dikkat, BTC 65700 üstü tuttun tuttun" | Savaş 28 Şubat'ta çıktı, BTC o gün 65.700 |
+| 8 Haz 2026 | "**Ağustos 3. hafta** ise 60 K üstü kalışlar lazım" | 06_ANALIZ'daki TUTTU kaydıyla aynı pencere |
+
+**Yöntem notu:** 26 Şub 2026 kaydı karne için güçlü bir aday — tarih (28 Şubat) ve
+seviye (65.700) **aynı tweette birlikte** verilmiş ve ikisi de doğrulanmış.
+`12_KAYNAK_PERFORMANS.md` EK A'nın "cesaret metriği hesaplanamıyor" sorununa
+(iddia anındaki fiyatın kayıtlı olmaması) doğrudan çözüm örneği.
+
+### 6. Yapısal/makro çerçeve — üç kurucu belge
+
+- **7 Ara 2021 (583 beğeni):** *"Avrupa'da kriz patladığı an ABD'ye sıçrayacaktı,
+  emtia uçacaktı... O zaman bize bir çözüm lazım: ortak sorun, ortak korku, ortak
+  coşku, **KRİPTO**!"* → Koç'un kripto tezinin kökeni: kripto bir yatırım aracı
+  değil, emtia kaçışını emen **tahliye valfi**.
+- **2 Haz 2025 (EUR eleştirisi):** *"Her ülkenin kendi para birimi vardı, enflasyon
+  açığı olan para basıyordu... EUR geçişi Avrupa'ya yaramadı, çalışanla çalışmayan
+  ayırt edilemedi, tüm ülkeler borç batağına saplandı."* → "Perde arkasında savaşan
+  ABD değil Avrupa" tezinin dayanağı.
+- **10 Nis 2025 (Trump'ın ağzından):** *"Ateşkes dedim sağı solu çökmekten
+  kurtardım. **BTC dedim çöken kriptoları kurtardım.** Faizleri aşağı almaya
+  çalışıyorum."* → 2021'deki kripto tezinin doğrulaması olarak sunuluyor.
+
+### 7. Grafik tarafında yeni seviyeler
+
+- **XAUUSD:** 4570 pivot (13 Tem 2026 çağrısı, 27-28 Ağu'da üç kez test edildi ve
+  tuttu) · 4640 "robot koydular" (25 Ağu çağrısı, 27 Ağu'da temas → 70 dolar düşüş)
+  · 4840 aylık trend çizgisi ("8.4 öğretisi"). Üçü de ayrı zaman ölçeği.
+- **DXY/XAU oranı:** tarihî yatay destek 0,60-0,65 **kırılmış** durumda (bugün
+  0,231). Koç'un okuması: *"Şu çizginin altına FED'e kalsa düşürmez — TRUMP
+  zayıflatıyor."* Alçalan destek uzantısı 2028-2030'da sıfıra iniyor:
+  *"ABD'nin izin vereceği bölge oraya değene kadardır, sonra müdahale ederler."*
+- **XU100/USD:** 2003'ten gelen trend çizgisine 2022'den beri **alttan sürtünüyor**,
+  her seferinde geri dönüyor (bugün ~310-320). TL bazlı rekorlar dolar bazında
+  2013 zirvesinin (~500) çok altında.
+- **NASDAQ 100:** üç ardışık yatay park bandı — 21.000-22.500 (5 ay),
+  25.000-26.100 (7 ay), 29.500-30.800 (5 ay, güncel). **DAX aylık:** 13 ay yatay
+  (22.400-26.000), son ayda yukarı kırılım. İkisi de "zaman geçirme" tezinin kanıtı
+  olarak aynı gün paylaşıldı.
+- **TOTAL2:** 840,28 B destek — 1,06 T direnç ("6 öğretisi") arasında 4+ aydır
+  hapis. *(TOTAL2 sembol listesinde yok, seviye kütüphanesine eklenemedi.)*
+- **Brent haftalık:** 2020 dibinden gelen trend bugün ~99-100; 27 Tem 2025 haftasının
+  "tok kırmızı mumu" Koç'a göre savaşın engellendiği yer.
+
+### 8. Yöntem çıkarımları
+
+- **Bu tur ağırlıklı olarak SS-üzerine-SS'ten oluşuyor** (50 görselin 30'u metin
+  ekran görüntüsü, 15'i grafik, 3'ü veri kutucuğu, 2'si haber). Sebep: 15-16 Haziran
+  2026'da Koç kendi eski çağrılarını toplu halde yeniden paylaşmış.
+- **Kopya medya bu turda rekor kırdı: 6 görsel** (aynı tweete iki kez yüklenen
+  birebir aynı kare). Tur 12'deki "şablon" gözleminden **farklı** bir olgu: orada
+  aynı görsel farklı tweetlerde dönüyordu, burada aynı tweetin içinde iki kez.
+  İkisi de Koç'un o belgeye verdiği ağırlığın ölçüsü.
+- **Bir tarih çelişkisi bulundu:** 2066462322487332925 numaralı tweetin metni
+  "5 Şubat 2025" diyor, paylaşılan SS ise "5 Şub 2026". Görseldeki tarih doğru.
+  Arşivde metin-görsel tarih uyuşmazlığının ilk belgelenen örneği.
+- `magicma/onemli_seviyeler.json`: **10 yeni kayıt** (126 → **136**). 3 aday
+  atlandı: BTCUSDT 65700 ve ETHUSDT 4090 zaten kayıtlıydı, TOTAL2 1,06 T ise
+  sembol listesinde karşılığı olmadığı için eklenemedi.

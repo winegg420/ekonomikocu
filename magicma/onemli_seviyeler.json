@@ -1020,5 +1020,89 @@
   "tur": "on_kosul",
   "aciklama": "'Burada dusursen ve faiz indirim surecini baslatsan ne kaybederdin?' - Koc'un onerdigi saglikli duzeltme dibi (1 Haz 2026)",
   "tarih_eklendi": "2026-08-30"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "XAUUSD",
+  "seviye": 4570,
+  "tur": "pivot",
+  "aciklama": "'Olmasi gereken ALTIN degeri net 4570, burasi buyuk pivot' (13 Tem 2026); 27-28 Agu'da uc kez test edildi ve tutuldu",
+  "tarih_eklendi": "2026-08-31"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "XAUUSD",
+  "seviye": 4640,
+  "tur": "robot",
+  "aciklama": "'4640 bolgesine robot koydular' (25 Agu 2026); 27 Agu'da temas edip 70 dolar dustu",
+  "tarih_eklendi": "2026-08-31"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "XAUUSD",
+  "seviye": 4840,
+  "tur": "trend",
+  "aciklama": "Aylik grafikte 2008 dibinden gelen trend cizgisinin bugunku degeri - '8.4 ogretisi' (28 Agu 2026)",
+  "tarih_eklendi": "2026-08-31"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "XAGUSD",
+  "seviye": 73.6,
+  "tur": "kirilim",
+  "aciklama": "73,60'tan 55 dolara cakildi; ayni sayi BTC'de 73.600 olarak calisti - 'tesadufe bak' (29 Haz 2026)",
+  "tarih_eklendi": "2026-08-31"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "XAGUSD",
+  "seviye_alt": 70,
+  "seviye_ust": 75,
+  "tur": "denge_bandi",
+  "aciklama": "Dongu ogretisi: 120 zirve -> 60 dip -> 70-75 denge (31 May 2026); ayni bant petrol ve BTC'de de gecerli",
+  "tarih_eklendi": "2026-08-31"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "BTCUSDT",
+  "seviye_alt": 70000,
+  "seviye_ust": 75000,
+  "tur": "denge_bandi",
+  "aciklama": "Dongu ogretisi: 120 K zirve -> 60 K dip -> 70-75 K denge (31 May 2026)",
+  "tarih_eklendi": "2026-08-31"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "UKOIL",
+  "seviye_alt": 70,
+  "seviye_ust": 75,
+  "tur": "denge_bandi",
+  "aciklama": "'ABD petrol 120 dolara gidiyor, 70-75 dolarla muhtemelen dengelenir' (31 May 2026)",
+  "tarih_eklendi": "2026-08-31"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "UKOIL",
+  "seviye": 60,
+  "tur": "savas_denklemi",
+  "aciklama": "'Gumusun 120 dolar gormesi ne demek? Petrol 60 dolar' - gumus yukari + petrol asagi = savas fiyatlamasi (5 Sub 2026)",
+  "tarih_eklendi": "2026-08-31"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "GBPJPY",
+  "seviye": 251,
+  "tur": "dongu_hedefi",
+  "aciklama": "2007 zirvesi; 7 yillik dongu sayimi (2000 dip - 2007 zirve - 2020 dip - 2027 zirve) bu seviyeyi 2027 hedefi yapiyor",
+  "tarih_eklendi": "2026-08-31"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "NDX",
+  "seviye_alt": 29500,
+  "seviye_ust": 30800,
+  "tur": "yatay_band",
+  "aciklama": "'Burasi bile 5 ay' - May-2026'dan beri suren yatay park bandi; onceki bantlar 21.000-22.500 (5 ay) ve 25.000-26.100 (7 ay)",
+  "tarih_eklendi": "2026-08-31"
  }
 ]

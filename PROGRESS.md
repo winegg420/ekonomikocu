@@ -3041,3 +3041,45 @@ gerçekten anlamlı hale gelecek.
 %−1,5 iken **20 Ağustos'ta %+12,2**'ye sıçrıyor — rejim değişiminin tarihi,
 Koç'un aylar önceden verdiği "Ağustos 3. hafta" penceresinin tam ortasına düşüyor.
 `16_ZAMANLAMA_KARNESI.md`'deki TUTTU kararını fiyat serisi bağımsız olarak destekliyor.
+
+## 2026-08-31 — Görsel defteri TUR 13 (50 görsel)
+
+- Aynı seçim kuralı: en yeni bekleyenden geriye, tweet başına en fazla 2 görsel.
+  Pencere 29 Ağu → 13 Haz 2026. `gorsel_analiz.jsonl` 674 → **724**.
+  Kalan: **881** (ekonomikoçu 734, iriscibre 115, efloud 32).
+- `06_ANALIZ.md` sonuna "TUR 13" bölümü eklendi (8 alt başlık).
+- **En değerli bulgu — 60 günlük bloğun kaynağı bulundu.** `gunluk_ozet.py`'deki
+  Koç takvimi 60 günlük iç blok kullanıyordu ama sayının nereden geldiği
+  belgesizdi. İki bağımsız haber karesi (Fars Haber Ajansı "Hürmüz'den 60 gün
+  serbest geçiş" + @ConflictTR "60 günlük müzakereler"), ikisi de 15 Haz 2026.
+  Koç'un aritmetiği: 15 Haz + 60 = 15 Ağu = "Ağustos 3. hafta". Yani takvimin
+  arkasında somut bir diplomatik süre var, keyfî döngü sayısı değil.
+- **Sayı öğretisine yeni üye: 73.600** — BTC 4H'de 73.600'den çakılma (28-30 May),
+  XAGUSD saatlikte 73,605'ten çakılma (4 Haz); iki grafik 2 dk arayla paylaşıldı.
+  Alarm notu: bu iki sembolde eşzamanlı temas bağımsız sinyal değildir.
+- **Döngü öğretisinin itirafı:** 120 zirve / 60 dip / 70-75 denge — BTC (K),
+  gümüş ($), petrol ($) için AYNI sayılar. Koç'un cümlesi: "Aslında hep aynı
+  döngüler." Seviye varlığa değil döngüye ait.
+- **7 yıllık döngü iki bağımsız kareden 2027'yi veriyor:** makro anlatı ("2020'de
+  rejim değişimi, 7 yıl kıtlık") + GBPJPY aylık geometri (2000/2007/2020/2027).
+- **Karne için güçlü aday:** 26 Şub 2026 tweeti tarih (28 Şubat) ve seviye
+  (BTC 65.700) verip ikisi de doğrulanmış — `12_KAYNAK_PERFORMANS.md` EK A'nın
+  "iddia anındaki fiyat kayıtlı değil" sorununa doğrudan örnek.
+- `magicma/onemli_seviyeler.json`: **10 yeni** (126 → **136**). BTCUSDT 65700 ve
+  ETHUSDT 4090 zaten vardı; TOTAL2 1,06 T sembol listesinde karşılığı olmadığı
+  için eklenemedi (bilinen sınırlama, DAX de aynı durumda).
+
+**Kararlar ve gerekçeleri:**
+- **Seviye kütüphanesine yazılırken JSON girinti stili korundu** (`indent=1`).
+  İlk yazımda `indent=2` kullanılınca diff 1.107 satır göründü; dosya aynı
+  içerikle indent=1'e geri yazıldı, diff 85 satıra indi. Sonraki turlarda da
+  indent=1 kullanılmalı.
+- **Kopya medya "şablon"dan ayrı sayıldı.** Tur 12'de aynı görselin farklı
+  tweetlerde dönmesi ŞABLON olarak yorumlanmıştı; bu turda görülen 6 vaka
+  farklı — aynı tweetin İÇİNDE iki kez yüklenmiş birebir kare. Defterde ayrı
+  kayıt tutuldu, analiz metninde "kopya" olduğu açıkça yazıldı.
+- **Bir tarih çelişkisi işaretlendi:** 2066462322487332925 tweetinin metni
+  "5 Şubat 2025", paylaşılan görsel "5 Şub 2026" diyor. Görsel esas alındı;
+  arşivde metin-görsel tarih uyuşmazlığının ilk belgelenen örneği.
+- **Araç notu (Tur 12'den devralınan yöntem işe yaradı):** 6'şarlı oku + hemen
+  deftere yaz döngüsü uygulandı, bu turda hiçbir görsel ikinci kez okunmadı.
