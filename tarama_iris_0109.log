@@ -1,0 +1,107 @@
+[09:40:42] OK — aktif hesap @420cryptofarmer. Tarama serbest.
+[tara_guvenli] hesap=@iriscibre | calistiriliyor: tara_guncel_yeni.py --days 7
+Hesap: @iriscibre | veri koku: C:\Users\ida\Desktop\ekonomikocu\iriscibre
+[iriscibre] --days -> tarih sinirli arama modu: 2026-08-25 -> 2026-09-02
+En yeni kayit: 2026-08-26T14:31:54
+DONEM MODU: 2026-08-25 -> 2026-09-02 (4 gunluk pencereler, ara soguma 300 sn)
+Baslangic: 277 tweet | 31 alinti | 39 flood-parca
+
+
+--- Pencere 1/2: 2026-08-29 -> 2026-09-02 ---
+Mevcut jsonl: 277 tweet | alinTi tam: 26 | bekleyen alinti: 5
+Senin Chrome'una baglandi (port 9222).
+Ekonomikocu sekmesi yok — profil aciliyor (tek sekme).
+  >> Son sekme kapatilmadi (Chrome olmesin) — about:blank'e cekildi.
+Arama modu (tek sekme): https://x.com/search?q=from%3Airiscibre%20since%3A2026-08-29%20until%3A2026-09-02&src=typed_query&f=live
+  >> Geri alindi (explore): https://x.com/explore
+Scroll 1/100: toplam 285 tweet (+8 yeni) | ekranda: 7 | alinti: 32 | en eski: 2025-06-19 14:34:27
+Scroll 2/100: toplam 300 tweet (+15 yeni) | ekranda: 19 | alinti: 32 | en eski: 2025-06-19 14:34:27
+Scroll 3/100: toplam 302 tweet (+2 yeni) | ekranda: 17 | alinti: 32 | en eski: 2025-06-19 14:34:27
+  >> DISKE YAZILDI: 302 tweet -> cekilen_tweetler.jsonl
+Scroll 4/100: toplam 303 tweet (+1 yeni) | ekranda: 13 | alinti: 32 | en eski: 2025-06-19 14:34:27
+Scroll 5/100: toplam 306 tweet (+3 yeni) | ekranda: 10 | alinti: 32 | en eski: 2025-06-19 14:34:27
+Scroll 6/100: toplam 312 tweet (+6 yeni) | ekranda: 13 | alinti: 32 | en eski: 2025-06-19 14:34:27
+  >> DISKE YAZILDI: 312 tweet -> cekilen_tweetler.jsonl
+Scroll 7/100: toplam 314 tweet (+2 yeni) | ekranda: 11 | alinti: 33 | en eski: 2025-06-19 14:34:27
+Scroll 8/100: toplam 317 tweet (+3 yeni) | ekranda: 12 | alinti: 34 | en eski: 2025-06-19 14:34:27
+Scroll 9/100: toplam 319 tweet (+2 yeni) | ekranda: 10 | alinti: 34 | en eski: 2025-06-19 14:34:27
+  >> DISKE YAZILDI: 319 tweet -> cekilen_tweetler.jsonl
+Scroll 10/100: toplam 319 tweet (+0 yeni) | ekranda: 10 | alinti: 34 | en eski: 2025-06-19 14:34:27
+Scroll 11/100: toplam 319 tweet (+0 yeni) | ekranda: 10 | alinti: 34 | en eski: 2025-06-19 14:34:27
+Scroll 12/100: toplam 319 tweet (+0 yeni) | ekranda: 10 | alinti: 34 | en eski: 2025-06-19 14:34:27
+  >> DISKE YAZILDI: 319 tweet -> cekilen_tweetler.jsonl
+Scroll 13/100: toplam 319 tweet (+0 yeni) | ekranda: 10 | alinti: 34 | en eski: 2025-06-19 14:34:27
+  >> Kurtarma (durak #4)...
+  >> Sayfa basina donulmuyor — sadece asagi kaydiriliyor...
+Scroll 14/100: toplam 325 tweet (+6 yeni) | ekranda: 6 | alinti: 34 | en eski: 2025-06-19 14:34:27
+Scroll 15/100: toplam 325 tweet (+0 yeni) | ekranda: 6 | alinti: 34 | en eski: 2025-06-19 14:34:27
+  >> DISKE YAZILDI: 325 tweet -> cekilen_tweetler.jsonl
+Scroll 16/100: toplam 325 tweet (+0 yeni) | ekranda: 6 | alinti: 34 | en eski: 2025-06-19 14:34:27
+Scroll 17/100: toplam 325 tweet (+0 yeni) | ekranda: 6 | alinti: 34 | en eski: 2025-06-19 14:34:27
+Scroll 18/100: toplam 325 tweet (+0 yeni) | ekranda: 6 | alinti: 34 | en eski: 2025-06-19 14:34:27
+  >> DISKE YAZILDI: 325 tweet -> cekilen_tweetler.jsonl
+  >> Kurtarma (durak #4)...
+  >> Sayfa basina donulmuyor — sadece asagi kaydiriliyor...
+Scroll 19/100: toplam 325 tweet (+0 yeni) | ekranda: 6 | alinti: 34 | en eski: 2025-06-19 14:34:27
+  >> Kurtarma (durak #4)...
+  >> Sayfa basina donulmuyor — sadece asagi kaydiriliyor...
+Scroll 20/100: toplam 325 tweet (+0 yeni) | ekranda: 6 | alinti: 34 | en eski: 2025-06-19 14:34:27
+  >> Takilma (2026-08-29) — donem aramasina donuluyor
+  >> Geri alindi (explore): https://x.com/explore
+  >> Geri alindi (explore): https://x.com/explore
+Scroll 21/100: toplam 325 tweet (+0 yeni) | ekranda: 3 | alinti: 34 | en eski: 2025-06-19 14:34:27
+  >> DISKE YAZILDI: 325 tweet -> cekilen_tweetler.jsonl
+  >> Geri alindi (explore): https://x.com/explore
+  >> Geri alindi (@originalbrokers): https://x.com/OriginalBrokers
+Scroll 22/100: toplam 325 tweet (+0 yeni) | ekranda: 0 | alinti: 34 | en eski: 2025-06-19 14:34:27
+Donem aramasi bos — profil kaydirma (sadece bu ay)...
+Profil donem modu: 2026-08-29 — 2026-09-02 (max 200 scroll)
+  >> Medya: graf_01.jpg (2094673777871196308)
+  >> Medya: graf_02.jpg (2094673777871196308)
+  Donem profil 1/200: +0 toplam | ekranda donem: 5 | en eski: 2026-08-10 20:16:49 | en yeni: 2026-09-01 06:32:18
+  >> 2026-08-29 oncesine ulasildi — donem profil bitti.
+Scroll 23/100: toplam 325 tweet (+0 yeni) | ekranda: 3 | alinti: 34 | en eski: 2025-06-19 14:34:27
+  >> Medya: graf_01.jpg (2094385753753030972)
+  >> Medya: graf_01.jpg (2094335451611975780)
+  >> Medya: graf_02.jpg (2094335451611975780)
+  >> Medya: graf_01.jpg (2094164971055644820)
+  >> Medya: graf_01.jpg (2094060406033498393)
+  >> Medya: graf_01.jpg (2093967751400378480)
+Scroll 24/100: toplam 327 tweet (+2 yeni) | ekranda: 11 | alinti: 34 | en eski: 2025-06-19 14:34:27
+  >> DISKE YAZILDI: 327 tweet -> cekilen_tweetler.jsonl
+  >> Medya: graf_01.jpg (2094332953027350679)
+Scroll 25/100: toplam 328 tweet (+1 yeni) | ekranda: 8 | alinti: 34 | en eski: 2025-06-19 14:34:27
+Scroll 26/100: toplam 328 tweet (+0 yeni) | ekranda: 8 | alinti: 34 | en eski: 2025-06-19 14:34:27
+Scroll 27/100: toplam 328 tweet (+0 yeni) | ekranda: 10 | alinti: 34 | en eski: 2025-06-19 14:34:27
+  >> DISKE YAZILDI: 328 tweet -> cekilen_tweetler.jsonl
+Scroll 28/100: toplam 328 tweet (+0 yeni) | ekranda: 10 | alinti: 34 | en eski: 2025-06-19 14:34:27
+Scroll 29/100: toplam 328 tweet (+0 yeni) | ekranda: 10 | alinti: 34 | en eski: 2025-06-19 14:34:27
+  >> Takilma (2026-08-26) — donem aramasina donuluyor
+  >> Geri alindi (explore): https://x.com/explore
+  >> Geri alindi (explore): https://x.com/explore
+Scroll 30/100: toplam 329 tweet (+1 yeni) | ekranda: 5 | alinti: 34 | en eski: 2025-06-19 14:34:27
+  >> DISKE YAZILDI: 329 tweet -> cekilen_tweetler.jsonl
+Scroll 31/100: toplam 329 tweet (+0 yeni) | ekranda: 11 | alinti: 34 | en eski: 2025-06-19 14:34:27
+Scroll 32/100: toplam 330 tweet (+1 yeni) | ekranda: 10 | alinti: 34 | en eski: 2025-06-19 14:34:27
+Scroll 33/100: toplam 335 tweet (+5 yeni) | ekranda: 16 | alinti: 34 | en eski: 2025-06-19 14:34:27
+  >> DISKE YAZILDI: 335 tweet -> cekilen_tweetler.jsonl
+Scroll 34/100: toplam 335 tweet (+0 yeni) | ekranda: 15 | alinti: 34 | en eski: 2025-06-19 14:34:27
+Scroll 35/100: toplam 335 tweet (+0 yeni) | ekranda: 15 | alinti: 34 | en eski: 2025-06-19 14:34:27
+  >> Takilma (2026-08-29) — donem aramasina donuluyor
+  >> Geri alindi (explore): https://x.com/explore
+Scroll 36/100: toplam 335 tweet (+0 yeni) | ekranda: 9 | alinti: 34 | en eski: 2025-06-19 14:34:27
+  >> DISKE YAZILDI: 335 tweet -> cekilen_tweetler.jsonl
+  >> Geri alindi (@originalbrokers): https://x.com/OriginalBrokers
+Scroll 37/100: toplam 335 tweet (+0 yeni) | ekranda: 0 | alinti: 34 | en eski: 2025-06-19 14:34:27
+Scroll 38/100: toplam 335 tweet (+0 yeni) | ekranda: 17 | alinti: 34 | en eski: 2025-06-19 14:34:27
+Scroll 39/100: toplam 335 tweet (+0 yeni) | ekranda: 18 | alinti: 34 | en eski: 2025-06-19 14:34:27
+  >> DISKE YAZILDI: 335 tweet -> cekilen_tweetler.jsonl
+  >> Kurtarma (durak #4)...
+  >> Sayfa basina donulmuyor — sadece asagi kaydiriliyor...
+Scroll 40/100: toplam 335 tweet (+0 yeni) | ekranda: 6 | alinti: 34 | en eski: 2025-06-19 14:34:27
+  >> Kurtarma (durak #4)...
+  >> Sayfa basina donulmuyor — sadece asagi kaydiriliyor...
+Scroll 41/100: toplam 335 tweet (+0 yeni) | ekranda: 6 | alinti: 34 | en eski: 2025-06-19 14:34:27
+  >> Kurtarma (durak #4)...
+  >> Sayfa basina donulmuyor — sadece asagi kaydiriliyor...
+Scroll 42/100: toplam 335 tweet (+0 yeni) | ekranda: 6 | alinti: 34 | en eski: 2025-06-19 14:34:27

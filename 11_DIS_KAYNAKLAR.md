@@ -1922,6 +1922,127 @@ BTC 69K civarı seviyeleri varsa not düşülmeli.
 
 ---
 
+---
+
+## IRIS CIBRE (@iriscibre) — 29 Ağustos – 1 Eylül 2026
+
+**Kimlik:** Phoenix Consultancy, CMBT lisanslı. Makro/BIST odaklı, kurumsal
+perspektif. Arşivi bu depoda ayrı tutulur: `iriscibre/cekilen_tweetler.jsonl`.
+Bu, kaynağın **11_DIS_KAYNAKLAR'a ilk girişidir.**
+
+Koç'tan farkı: Koç küresel likidite/dolar yönetimi üzerinden konuşur, Iris
+**yerli düzenleyici ve makro veri** tarafından. İkisi bu pencerede aynı olaya
+(BIST zayıflığı) farklı sebep atfediyor — çelişki bölümüne bakınız.
+
+### 1) SPK REGÜLASYONU — BIST DÜŞÜŞÜNÜN ASIL SEBEBİ (ana tez)
+
+31 Ağustos – 1 Eylül'ün baskın konusu. Iris'in çerçevesi:
+
+> *"Bist satılıyor **fonlar yüzünden** mi yazıyor orada… **Msci yüzünden olacağına
+> SPK'nın regülasyonu yüzünden olsun.**"*
+
+- **Serbest fon yapısı fiilen sona erdi:** *"Bu düzenleme tabii ki serbest fon
+  mantığını ortadan kaldırdı. Oldukça sert bir yapı."*
+- **Borsa dışı pay satışına yeni sınır** (1 Eyl): fiili dolaşımı %50 üzerinde olan
+  şirketlerde borsa dışı satışlarda pay sahipliğinin **%2**'sinden, %50 altındakilerde
+  **%4**'ünden fazlası borsa dışında satılamıyor.
+- **Bankalardaki sert düşüşün mekanizması:** *"Bankalara hepimiz şaşırdık.
+  Muhtemelen, fonlardan çıkış oldu ve **likit hisseleri de satmak durumunda
+  kaldılar**."* — yani satış baskısı hisse kalitesinden değil, likidite ihtiyacından.
+- **Kendi konumu:** *"Ben regülasyondan gayet memnunum. Fakat bazı maddeler fazla
+  kaçtı o kadar."* Ve önemli bir ex-ante kayıt: *"Vurmadan önce de **manipülasyona
+  izin verme ki böyle regüle etmek zorunda kalma** da diyordum."* ·
+  *"Çok değil 1 yıl önce, şan olsun diye bir iki ceza kesse, bu noktaya gelinmezdi."*
+
+### 2) MSCI RİSKİ KALKTI
+
+29 Ağustos: *"Fonlarla alakalı düzenleme gelmiş; **MSCI riskinin artık var
+olmadığını düşünüyorum.** Uyum sürecinin kademeli **3 ay** olması ise panik
+satışlarını bir miktar rahatlatıcı bir unsur."* Endeks kriterleri için ayrı adım
+gelebileceğini ama bilmediğini söylüyor.
+
+### 3) TÜRKİYE 2. ÇEYREK BÜYÜMESİ — MANŞET/İÇERİK AYRIMI
+
+31 Ağustos, verinin aynı günü:
+
+> *"Türkiye 2. çeyrekte **%2,3 yıllık ve %1,1 çeyreklik** büyüdü. Tarım hem çok
+> güçlü baz etkisi hem de yağmurlar kaynaklı güçlü büyüme gösterdi. Sanayi, savaş
+> kaynaklı ihracat talebi ile…"*
+
+Kritik uyarı — manşet yanıltıcı:
+> *"Büyümede manşete bakıp talep güçlü diyecekler; çünkü manşette **%3,5 hanehalkı
+> tüketim büyümesi** görecekler. Ama **çeyreklik %1,3 daralmaya** ve istihdam
+> piyasasında gerçekleşen güçlü yavaşlamayı göz [ardı ediyorlar]"*
+
+Enflasyon bağlantısı: *"Hanehalkı tüketimindeki yavaşlama açık; ekonomi yönetiminin
+istediği oldu. Buna rağmen manşet enflasyonda aynı etkiyi göremiyoruz… mal
+enflasyonunda görüyoruz aslında ama hizmet [yapışkan]."* · *"Orada talep gerçekten
+görece güçlü, hizmet enflasyonu da bu yüzden yapışkan."*
+
+### 4) DÖVİZ AÇIK POZİSYONU VE CARRY — YAPISAL RİSK
+
+> *"Şirketler, TL'de pozisyon almak için **yurtdışından döviz borçlandı** + döviz
+> artış hızından emin oldukları için ve TL maliyeti çok yüksek olduğundan ticari
+> kredi aldı. Faizleri yurtdışına ödeniyor…"*
+>
+> *"artan **döviz açık pozisyonu** ve **PPF'ler** ve yurtdışına sürekli sızan
+> dövizimiz…"* · *"Sonsuza kadar alsınlar carry ile dövizimizi bizden."*
+
+Ayrıca merkez bankası rezervi üzerine bir düzeltme (31 Ağu gece): repo ihalelerinin
+açılması sonrası MB'nin rezerv biriktirmekte zorlandığı iddiasının **hatalı veri
+okumasına** dayandığını söylüyor.
+
+**Kamunun rolü konusunda duruşu:** *"Kamunun piyasa yapıcı role bürünmesi isteniyor.
+Sürekli, biri gelsin getirileri yükseltsin, düşse de fazla düşmesin gibi günü
+kurtaralım çözüm önerileri…"* — bu talebe karşı çıkıyor.
+
+### 5) PETROLÜN TAHTI: "ELEKTRİK ÇAĞI" (yapısal, uzun vadeli)
+
+31 Ağustos ve 1 Eylül'de iki kez: *"Petrolün tahtı sallanıyor: Dünyada **Elektrik
+Çağı** başladı. Elektrikli araçlardan **yapay zeka veri merkezlerine**, ısı
+pompalarından sanayi tesislerine kadar elektrik ekonominin merkezine yerleşiyor."*
+
+Bu, Koç'un emtia/enflasyon çerçevesine **dışarıdan gelen bir yapısal karşı-argüman**:
+Koç petrolü ABD'nin enflasyon kolu olarak okuyor; Iris petrol talebinin yapısal
+olarak yerinden edildiğini söylüyor.
+
+### 6) JEOPOLİTİK
+
+- 30 Ağustos: *"**S&P savunma endeksi**, artık savaş sürse de silahlarla
+  sürmeyecek diyor…"* (ertesi gün: *"Benim değil, SP savunma endeksi inadına"*).
+- 30 Ağustos gece: *"İran, Larak adasından Hürmüz'e mayın yüklü roketler
+  fırlatmaya hazırlandığının gözlemlenmesinin ardından **ABD'nin adaya saldırdığı**
+  iddia ediliyor. ABD'nin 1 aydan beri ilk saldırısı oldu."*
+
+### 7) ÇELİŞKİ: BIST ZAYIFLIĞININ SEBEBİ
+
+| | Koç (@ekonomikocu) | Iris (@iriscibre) |
+|---|---|---|
+| Sebep | **Dolar yönetimi** — *"doları salmadıkları için ilerlemedi"*, dolar bazında BIST trendi aşamıyor | **SPK regülasyonu** — serbest fon yapısının bitmesi, fon çıkışı, likit hisse satışı |
+| Seviye | 13800 robot, 12600 kırılırsa sendeler, hedef 16500 idi | Seviye vermiyor; yapısal/düzenleyici çerçeve |
+| MSCI | Konu edilmiyor | Risk **kalktı** |
+
+İkisi birbirini dışlamıyor (biri küresel, biri yerel kanal) ama **test edilebilir
+ayrım şu:** eğer dolar zayıflarken BIST hâlâ satılıyorsa Iris'in regülasyon tezi,
+dolar güçlenirken BIST düşüyorsa Koç'un tezi öne çıkar.
+
+### KARNE — Iris Cibre
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 29 Ağustos | MSCI riski artık yok; 3 aylık kademeli uyum panik satışını yumuşatır | İZLENİYOR |
+| 31 Ağustos | Büyüme manşeti yanıltıcı: hanehalkı tüketimi çeyreklik %1,3 daraldı | İZLENİYOR (3. çeyrek verisiyle test edilir) |
+| 31 Ağustos | Hizmet enflasyonu yapışkan kalmaya devam eder | İZLENİYOR |
+| 31 Ağustos | BIST düşüşünün sebebi MSCI değil SPK regülasyonu | İZLENİYOR |
+| 31 Ağustos | Petrol talebi yapısal olarak elektriğe kayıyor ("Elektrik Çağı") | İZLENİYOR (uzun vadeli) |
+| 1 Eylül | Bankalardaki satış fon çıkışı kaynaklı likidite satışı | İZLENİYOR |
+
+> **Not:** Bu kaynak sayısal fiyat hedefi vermiyor, makro/düzenleyici çerçeve
+> veriyor. Bu yüzden `magicma/onemli_seviyeler.json`'a **eklenecek seviye yok**;
+> katkısı `14_CELISKI_PANELI.md` (BIST sebep çelişkisi) ve `13_KONSENSUS.md`
+> (savunma/enerji yapısal görüşü) tarafında.
+
+---
+
 ## 🔗 TÜRETİLMİŞ ANALİZ DOSYALARI (2026-08-30'da eklendi)
 
 Bu dosyadaki KARNE tabloları ve sayısal iddialar dört ayrı dosyaya sentezlenir.

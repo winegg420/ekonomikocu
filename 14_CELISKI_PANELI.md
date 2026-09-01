@@ -182,12 +182,46 @@ _Güncelleme: 2026-08-30_
 
 ---
 
+### B7. BIST zayıflığının sebebi — Koç ↔ Iris Cibre (2026-09-01'de açıldı)
+- **Koç** (27 Ağu): *"Aslında bunun hedefi 16500 idi ama götüremediler.
+  **Doları salmadıkları için** ilerlemedi."* · Dolar bazında BIST *"bu trendi
+  aşamıyor, sadece sürtüyor geri dönüyor"*. Sebep **küresel dolar yönetimi**.
+- **Iris Cibre** (31 Ağu – 1 Eyl): *"**Msci yüzünden olacağına SPK'nın regülasyonu
+  yüzünden olsun.**"* · *"Bu düzenleme serbest fon mantığını ortadan kaldırdı."* ·
+  Bankalardaki sert satış *"fonlardan çıkış oldu ve likit hisseleri de satmak
+  durumunda kaldılar"*. Sebep **yerel düzenleyici şok**.
+- **Ek ayrım:** Iris MSCI riskinin **kalktığını** söylüyor (29 Ağu); Koç MSCI'yi
+  hiç konu etmiyor.
+- **Ölçülebilir test:** İkisi birbirini dışlamıyor (biri küresel, biri yerel kanal)
+  ama ayrıştırılabilir — **dolar zayıflarken BIST hâlâ satılıyorsa** Iris'in
+  regülasyon tezi, **dolar güçlenirken BIST düşüyorsa** Koç'un tezi öne çıkar.
+  DXY ile XU100'ün önümüzdeki 4-6 haftalık korelasyon işareti kararı verir.
+- **Durum:** AÇIK.
+
+### B8. Petrol/emtia yönü — Koç ↔ Iris Cibre (2026-09-01'de açıldı)
+- **Koç** (29 Ağu): petrol ABD'nin elindeki enflasyon kolu; *"Madem ALTIN GÜMÜŞ
+  dediniz, dolara savaş açtınız! Hayrını göremeyin deyip **petrolü kaldırıyorlar**."*
+  Ayrıca 2017-2018 ile bugünkü 80-85 dolar seviyesini kıyaslayıp petrolün **yapay
+  olarak ucuz tutulduğunu** söylüyor.
+- **Iris Cibre** (31 Ağu, 1 Eyl): *"Petrolün tahtı sallanıyor: Dünyada **Elektrik
+  Çağı** başladı."* — EV, yapay zeka veri merkezleri, ısı pompaları, sanayi
+  elektrifikasyonu petrol talebini **yapısal olarak** yerinden ediyor.
+- **Fark:** Koç petrol fiyatını **yönetilen bir siyasi değişken**, Iris **yapısal
+  talep kaybına giren bir emtia** olarak görüyor. Koç'un tezi petrolün istendiğinde
+  yukarı kaldırılabileceğini varsayar; Iris'inki tavanın yapısal olarak alçaldığını.
+- **Ölçülebilir test:** Yeni bir jeopolitik şokta petrolün **tepki büyüklüğü**.
+  Koç haklıysa şok başına sert sıçrama sürer; Iris haklıysa aynı şoka tepki
+  tarihsel ortalamanın altında kalır.
+- **Durum:** AÇIK (uzun vadeli).
+
+---
+
 ## ÖZET — kaç çelişki, kaçı kapandı
 
 | | Sayı |
 |---|---|
 | Analist ↔ analist çelişkisi | 7 |
-| Koç ↔ dış kaynak çelişkisi | 6 |
+| Koç ↔ dış kaynak çelişkisi | **8** (2026-09-01: B7 BIST sebebi, B8 petrol yönü — Iris Cibre) |
 | **Sonucu (kısmen) belli olan** | **3** (B1 gümüş — zaman farkı çıktı · A6 BIST — şimdilik Paksoy · B5 altın — şimdilik Integral) |
 | Ölçülecek somut testi tanımlanmış olan | 3 (A2 "işlem yapılamaz hale gelme" · B2 15 Eylül sonrası DXY · B4 4,75 müdahalesi) |
 | Kapanmaya en yakın | A5 (Eylül FOMC) ve B3 (1 Eylül – 9 Ekim penceresi) |

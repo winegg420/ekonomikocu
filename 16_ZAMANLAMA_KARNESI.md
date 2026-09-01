@@ -34,6 +34,7 @@ _Güncelleme: 2026-08-30_
 | Koç | Temmuz 9-11 karar penceresi (22 May / 3 Haz'da verildi) | 11 Tem 2026 | **SONUÇSUZ** — ötelendi; 10 Tem: *"Neyse Ağustos 3. haftaya kadar gelsinler bakalım..."* |
 | Koç | **Ağustos 3. hafta** karar penceresi (Haziran'dan beri, 60 gün hesabı) | ~21-23 Ağu 2026 | **TUTTU** — 17→25 Ağu: BTC +%27,1 · ETH +%32,1 · ALTIN +%5,5 · NASDAQ −%3,4. Kendi teyidi (19 Ağu 23:49): *"Bu sene kripto iki kere tepki verdi. Birisi NİSAN 7'dir. Birisi Ağustos 3. haftadır."* Sadece yön değil **kompozisyon** da tuttu |
 | Koç | *"Ağustos 3. haftaya kadar BTC 60 K üstü kalış pozitif"* (7-8 Haz, 2,5 ay önceden) | ~23 Ağu 2026 | **TUTTU** — BTC 80.526 |
+| Koç | ALTIN **"27. gün"** penceresi + **4640 robot** (25 Ağu abone tweetinde önceden verildi) | 27 Ağu 2026 | **TUTTU** — 27. gün 4640'tan 70 dolar düştü, dip **4570** (5.7 öğretisi). Ertesi gece 4570 tekrar test edilip sektirildi. Hem tarih hem seviye tuttu |
 | Integral FX TV (panel) | TCMB **10 Eylül'de** haftalık repoya geçer | 10 Eyl 2026 | **TUTTU** — ama **16 gün ERKEN** gerçekleşti (25 Ağu). Tarih ıskalandı, yön ve olay tuttu |
 | Ferhat Yükseltürk | TCMB "Eylül'e doğru" haftalık repoya geçiş | Eyl 2026 | **TUTTU** — 25 Ağu (erken) |
 | Barış Soydan | 23-28 Ağu penceresi: Nvidia bilançosu + Jackson Hole belirleyici olacak | 28 Ağu 2026 | **TUTTU** — Nvidia +%7,5 ($225), Jackson Hole konuşması yapıldı |
@@ -49,7 +50,6 @@ _Güncelleme: 2026-08-30_
 | Onur Duygu | Ağustos = "pivot ay" | 31 Ağu 2026 | İZLENİYOR — **yarın kapanıyor** |
 | Kripto Teknik | ETH Golden Cross ~29-30 Ağustos | 30 Ağu 2026 | İZLENİYOR — **bugün kapanıyor** |
 | Kripto Teknik | BTC Golden Cross **1 Eylül 2026** (200 GO $69.000) | 1 Eyl 2026 | İZLENİYOR |
-| Koç | ALTIN "27. gün / **2 Eylül** penceresi" + 4640 robot | 2 Eyl 2026 | İZLENİYOR |
 | Tunç Şatıroğlu | Nasdaq 1 Eylül'e kadar yükselir, **1 Eylül – 9 Ekim düşer**, sonra ara seçime kadar ralli | 9 Eki 2026 | İZLENİYOR |
 | Tunç Şatıroğlu | Eylül'de **5-6 haftalık** ciddi düşüş (yeni zirveler sonrası) | ~15 Eki 2026 | İZLENİYOR |
 | Berk Dinçtürk | Jackson Hole sonrası **1-2 hafta oynaklık**, çöküş yok | ~11 Eyl 2026 | İZLENİYOR |
@@ -57,6 +57,7 @@ _Güncelleme: 2026-08-30_
 | Şahin kamp (Aslanoğlu, Erkan Öz, Lafçı&Perşembe) | Eylül'de/seçim sonrası faiz **artırımı** | Eylül FOMC → Kasım 2026 | İZLENİYOR |
 | Kemal Hiçyılmaz | **CLARITY Act 15 Eylül** oylaması (Senatör Lummis) | 15 Eyl 2026 | İZLENİYOR |
 | Koç | **15 Haziran – 15 Eylül** 90 günlük vade ("dünyadan zaman çalınıyor") | 15 Eyl 2026 | İZLENİYOR |
+| Koç | **Ekim 13-14** — *"ABD'de net TREND haftasıdır. Dünya orada ABD'den artık bir beklenti içine girer"* (28 Ağu 2026) | 13-14 Eki 2026 | İZLENİYOR |
 | Berk Dinçtürk | CLARITY Act **Eylül'de** çıkar | 30 Eyl 2026 | İZLENİYOR |
 | Berk Dinçtürk | **Trump-Şi zirvesi 24 Eylül**, kademeli mutabakat | 24 Eyl 2026 | İZLENİYOR |
 | Koç | **Eylül** = vadeler sıfırlanır, gerçek yön belli olur | 30 Eyl 2026 | İZLENİYOR |

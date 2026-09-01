@@ -1,1157 +1,1181 @@
 [
- {
-  "kaynak": "Koc",
-  "enstruman": "BTCUSDT",
-  "seviye": 60000,
-  "tur": "pivot",
-  "aciklama": "En buyuk resmin pivotu - altinda fakirlesirsin, ustunde zenginlesirsin (2024'ten beri degismedi)",
-  "tarih_eklendi": "2026-08-20"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "BTCUSDT",
-  "seviye": 57000,
-  "tur": "ogreti_basamagi",
-  "aciklama": "5.7 ogretisinin BTC karsiligi - Haziran dibi buradan dondu",
-  "tarih_eklendi": "2026-08-20"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "BTCUSDT",
-  "seviye": 68000,
-  "tur": "merdiven_basamagi",
-  "aciklama": "Ogreti merdiveni ara basamagi (57-60-68-76-84-92-106-125)",
-  "tarih_eklendi": "2026-06-19"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "BTCUSDT",
-  "seviye": 76000,
-  "tur": "merdiven_basamagi",
-  "aciklama": "Ogreti merdiveni - 84 kirilinca 76'dan sekiyor, 76 kirilirsa 68 ve 60 geliyor",
-  "tarih_eklendi": "2026-06-19"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "BTCUSDT",
-  "seviye": 84000,
-  "tur": "direnc",
-  "aciklama": "Yilin pivotu / ABD-Cin dengesi - 84K ustunde robot var, 1 Temmuz'da asilamadi",
-  "tarih_eklendi": "2026-07-01"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "BTCUSDT",
-  "seviye": 92000,
-  "tur": "merdiven_basamagi",
-  "aciklama": "9.2 ogretisinin BTC karsiligi (22 Agustos karti)",
-  "tarih_eklendi": "2026-08-22"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "BTCUSDT",
-  "seviye": 106000,
-  "tur": "merdiven_basamagi",
-  "aciklama": "106 ogretisi - 106 ustunde kalamayan duser, once 92 sonra 84 gelir",
-  "tarih_eklendi": "2026-08-22"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "BTCUSDT",
-  "seviye": 73600,
-  "tur": "robot",
-  "aciklama": "73600'de robot var (satis programi)",
-  "tarih_eklendi": "2026-08-20"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "ETHUSDT",
-  "seviye": 2570,
-  "tur": "tetik",
-  "aciklama": "5.7 ogretisi - 2570 gecmeden kazanc elde edilmez, ustunde kalicilik sart",
-  "tarih_eklendi": "2026-08-22"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "ETHUSDT",
-  "seviye": 3060,
-  "tur": "hedef",
-  "aciklama": "6 ogretisi - 2570 gecerse tetiklenir, alti sandicidir (haftalikta 3060 alti negatif)",
-  "tarih_eklendi": "2026-08-22"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "US10Y",
-  "seviye": 4.57,
-  "tur": "ogreti_basamagi",
-  "aciklama": "4570 = 5.7 ogretisi - faiz dengesi burada, 22 Agustos'ta yukari kirildi",
-  "tarih_eklendi": "2026-08-22"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "US10Y",
-  "seviye": 4.6,
-  "tur": "merdiven_basamagi",
-  "aciklama": "6 basamagi - 57 kirildiktan sonraki durak, Koc'un aktif tezi (faiz yukari)",
-  "tarih_eklendi": "2026-08-22"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "US10Y",
-  "seviye": 4.68,
-  "tur": "merdiven_basamagi",
-  "aciklama": "68 basamagi - merdivende 60'tan sonraki durak",
-  "tarih_eklendi": "2026-08-22"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "US10Y",
-  "seviye": 4.76,
-  "tur": "merdiven_basamagi",
-  "aciklama": "76 basamagi - merdivende 68'den sonraki durak",
-  "tarih_eklendi": "2026-08-22"
- },
- {
-  "kaynak": "Berk Dincturk",
-  "enstruman": "US10Y",
-  "seviye": 4.75,
-  "tur": "tavan",
-  "aciklama": "Bessent tolerans tavani - 10 yillik %4,75'e dayandiginda ABD Hazinesi devreye girer",
-  "tarih_eklendi": "2026-08-20"
- },
- {
-  "kaynak": "Cuneyt Paksoy + Erhan Aslanoglu (2 bagimsiz kaynak)",
-  "enstruman": "US10Y",
-  "seviye": 5.0,
-  "tur": "alarm",
-  "aciklama": "Alarm seviyesi - 2008 oncesi seviyelerle kiyaslaniyor, gecmesi cok tehlikeli, mudahale bekleniyor",
-  "tarih_eklendi": "2026-08-25"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "NDX",
-  "seviye": 29200,
-  "tur": "ogreti_basamagi",
-  "aciklama": "9.2 ogretisi - vade sonu geliyor, satiscilar bastiriyor",
-  "tarih_eklendi": "2026-08-19"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "NDX",
-  "seviye": 29716,
-  "tur": "boyun_cizgisi",
-  "aciklama": "Hareketli ortalama uzerinde omuz-bas-omuz boyun cizgisi (29700) - ay kapanisi kritik",
-  "tarih_eklendi": "2026-07-16"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "NDX",
-  "seviye": 29360,
-  "tur": "robot",
-  "aciklama": "Bu bolgeye robot koydular, vadeli degeridir",
-  "tarih_eklendi": "2026-08-20"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "NDX",
-  "seviye": 30600,
-  "tur": "direnc",
-  "aciklama": "30600 kac kez red yedi - zirve bolgesi (30685/30969)",
-  "tarih_eklendi": "2026-08-19"
- },
- {
-  "kaynak": "Tunc Satiroglu",
-  "enstruman": "NDX",
-  "seviye_alt": 30800,
-  "seviye_ust": 31000,
-  "tur": "hedef_bandi",
-  "aciklama": "Nvidia sonrasi pozitif kapanisla yeni zirve hedefi",
-  "tarih_eklendi": "2026-08-27"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "DXY",
-  "seviye": 95.7,
-  "tur": "ogreti_basamagi",
-  "aciklama": "5.7 ogretisinin DXY karsiligi - Koc'un 3 boga sartindan biri: DXY 110'dan 95'e gercek zayiflama",
-  "tarih_eklendi": "2026-06-18"
- },
- {
-  "kaynak": "Kemal Hicyilmaz",
-  "enstruman": "DXY",
-  "seviye_alt": 99.5,
-  "seviye_ust": 100.4,
-  "tur": "anahtar_bant",
-  "aciklama": "Bu bandin altinda kapanis = altin/gumus icin anahtar bolge",
-  "tarih_eklendi": "2026-08-20"
- },
- {
-  "kaynak": "Cuneyt Paksoy",
-  "enstruman": "DXY",
-  "seviye": 102,
-  "tur": "direnc",
-  "aciklama": "102 test riski masada - aylik grafikte yukselen trende donus",
-  "tarih_eklendi": "2026-08-14"
- },
- {
-  "kaynak": "Emrah Lafci & Ali Persembe",
-  "enstruman": "XAUUSD",
-  "seviye": 4775,
-  "tur": "hedef",
-  "aciklama": "Yukari hedefti, tam oraya gelmeden dondu - Jackson Hole haftasi",
-  "tarih_eklendi": "2026-08-28"
- },
- {
-  "kaynak": "Cuneyt Paksoy",
-  "enstruman": "XAUUSD",
-  "seviye": 4855,
-  "tur": "hedef",
-  "aciklama": "4400-4500 duvarinin ustunde kapanis teyidi gelirse hedef",
-  "tarih_eklendi": "2026-08-14"
- },
- {
-  "kaynak": "Cuneyt Paksoy",
-  "enstruman": "XAUUSD",
-  "seviye": 4650,
-  "tur": "tetik",
-  "aciklama": "4650 uzerinde 4800'e gecilirse hemen 5.000 hedefi acilir",
-  "tarih_eklendi": "2026-08-28"
- },
- {
-  "kaynak": "UBS + Cuneyt Paksoy (kurum hedefi + teknik hedef)",
-  "enstruman": "XAUUSD",
-  "seviye": 5000,
-  "tur": "hedef",
-  "aciklama": "UBS 2027 ilk yari hedefi; Paksoy'un teknik hedefiyle ortusuyor (Citibank 6.000 diyor)",
-  "tarih_eklendi": "2026-08-25"
- },
- {
-  "kaynak": "Emrah Lafci & Ali Persembe + Baki Atilal (2 bagimsiz kaynak)",
-  "enstruman": "XAUUSD",
-  "seviye": 4000,
-  "tur": "destek",
-  "aciklama": "Altin tabani - Lafci 'taban', Atilal 'destek' diyor; Koc'un 4026/4079 robot bolgesine yakin",
-  "tarih_eklendi": "2026-08-19"
- },
- {
-  "kaynak": "Tunc Satiroglu",
-  "enstruman": "XAUUSD",
-  "seviye": 4200,
-  "tur": "kritik_seviye",
-  "aciklama": "Kritik seviye - 4.200 kirilimiyla dusus trendinin bittigi teyit edildi",
-  "tarih_eklendi": "2026-08-19"
- },
- {
-  "kaynak": "Emrah Lafci & Ali Persembe",
-  "enstruman": "XAUUSD",
-  "seviye": 4125,
-  "tur": "stop",
-  "aciklama": "Teknik Analiz 28 - altin long stop seviyesi",
-  "tarih_eklendi": "2026-08-19"
- },
- {
-  "kaynak": "Cuneyt Paksoy",
-  "enstruman": "XAUUSD",
-  "seviye_alt": 4400,
-  "seviye_ust": 4500,
-  "tur": "duvar",
-  "aciklama": "Duvar - ustunde kapanis teyidi gelirse 4.855, duserse 4.350 kirilir ve 3.800-4.100 riski",
-  "tarih_eklendi": "2026-08-14"
- },
- {
-  "kaynak": "Emrah Lafci & Ali Persembe",
-  "enstruman": "XAGUSD",
-  "seviye_alt": 73,
-  "seviye_ust": 74,
-  "tur": "hedef_bandi",
-  "aciklama": "63'ten 73-74 hedef (stop 58,87) - Koc'un 54-62 bandiyla dogrudan celisiyor",
-  "tarih_eklendi": "2026-08-19"
- },
- {
-  "kaynak": "Emrah Lafci & Ali Persembe",
-  "enstruman": "XAGUSD",
-  "seviye": 58.87,
-  "tur": "stop",
-  "aciklama": "Gumus long stop seviyesi",
-  "tarih_eklendi": "2026-08-19"
- },
- {
-  "kaynak": "Tunc Satiroglu",
-  "enstruman": "XAGUSD",
-  "seviye": 62.5,
-  "tur": "stop",
-  "aciklama": "Gumus stop seviyesi",
-  "tarih_eklendi": "2026-08-19"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XAGUSD",
-  "seviye_alt": 76.5,
-  "seviye_ust": 80,
-  "tur": "hedef_bandi",
-  "aciklama": "ETH 2460/2570'in gumus karsiligi (gumus-ETH endeksleme kurali)",
-  "tarih_eklendi": "2026-08-22"
- },
- {
-  "kaynak": "Emrah Lafci & Ali Persembe",
-  "enstruman": "XPTUSD",
-  "seviye": 1830,
-  "tur": "hedef",
-  "aciklama": "1.629,5'ten long, hedef 1.830 - bu kaynagin tek platin islem fikri",
-  "tarih_eklendi": "2026-08-19"
- },
- {
-  "kaynak": "Emrah Lafci & Ali Persembe",
-  "enstruman": "XPTUSD",
-  "seviye": 1770,
-  "tur": "alim_seviyesi",
-  "aciklama": "Platin alim seviyesi (ikincisi 1.710) - oncu gosterge olarak takip ediliyor",
-  "tarih_eklendi": "2026-08-28"
- },
- {
-  "kaynak": "Emrah Lafci & Ali Persembe",
-  "enstruman": "XPTUSD",
-  "seviye": 1710,
-  "tur": "alim_seviyesi",
-  "aciklama": "Platin ikinci alim seviyesi",
-  "tarih_eklendi": "2026-08-28"
- },
- {
-  "kaynak": "3 bagimsiz kaynak (Lafci&Persembe + Aslanoglu + Paksoy)",
-  "enstruman": "XU100",
-  "seviye_alt": 16500,
-  "seviye_ust": 17000,
-  "tur": "direnc_bandi",
-  "aciklama": "Bankacilik endeksi kirarsa 18.500-22.000 yolu acilir - uc kaynak farkli yontemle ayni bandi isaretledi",
-  "tarih_eklendi": "2026-08-28"
- },
- {
-  "kaynak": "Cuneyt Paksoy",
-  "enstruman": "XU100",
-  "seviye_alt": 14000,
-  "seviye_ust": 14500,
-  "tur": "kritik_destek",
-  "aciklama": "Asla kirilmamali - kirilirsa acil uyari gerektiren durum",
-  "tarih_eklendi": "2026-08-28"
- },
- {
-  "kaynak": "Cuneyt Paksoy",
-  "enstruman": "XU100",
-  "seviye": 15000,
-  "tur": "teknik_onay",
-  "aciklama": "15.000 uzeri = yeni zirveler icin teknik onay var (ortalamalar, indikatorler yukari)",
-  "tarih_eklendi": "2026-08-28"
- },
- {
-  "kaynak": "Tunc Satiroglu",
-  "enstruman": "XU100",
-  "seviye": 14410,
-  "tur": "sata_donus",
-  "aciklama": "Sata donus seviyesi - altina inene kadar yukselisler satis firsati",
-  "tarih_eklendi": "2026-08-27"
- },
- {
-  "kaynak": "Baris Soydan",
-  "enstruman": "XU100",
-  "seviye": 14730,
-  "tur": "direnc",
-  "aciklama": "27 Agustos kapanisina gore direnc (destek 14.350)",
-  "tarih_eklendi": "2026-08-27"
- },
- {
-  "kaynak": "Atilla Yesilada",
-  "enstruman": "XU100",
-  "seviye": 14000,
-  "tur": "direnc",
-  "aciklama": "Guclu direnc - 12.000'e duserse sasirmaz (dosyadaki en karamsar BIST gorusu)",
-  "tarih_eklendi": "2026-08-20"
- },
- {
-  "kaynak": "Cuneyt Paksoy",
-  "enstruman": "SPX",
-  "seviye_alt": 7000,
-  "seviye_ust": 7500,
-  "tur": "pivot_bandi",
-  "aciklama": "Sert duzeltme senaryosunda pivot bandi (utopya tablosu: bu seviyede %100 hisseye gecilir)",
-  "tarih_eklendi": "2026-08-28"
- },
- {
-  "kaynak": "Tunc Satiroglu",
-  "enstruman": "SPX",
-  "seviye": 7900,
-  "tur": "hedef",
-  "aciklama": "Nvidia sonrasi yeni zirve hedefi",
-  "tarih_eklendi": "2026-08-27"
- },
- {
-  "kaynak": "Berk Dincturk",
-  "enstruman": "SPX",
-  "seviye": 7700,
-  "tur": "opsiyon_yigilmasi",
-  "aciklama": "Opsiyon yigilmasi bolgesi - Jackson Hole cevresi 1-2 hafta oynaklik beklentisi",
-  "tarih_eklendi": "2026-08-20"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "UKOIL",
-  "seviye_alt": 92,
-  "seviye_ust": 94,
-  "tur": "direnc_bandi",
-  "aciklama": "Aralik 2025 dibinden gelen yukselen trend - 3 Agustos'a kadar asilamadi (cagri TUTTU)",
-  "tarih_eklendi": "2026-07-21"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "UKOIL",
-  "seviye": 106,
-  "tur": "trend_kesisimi",
-  "aciklama": "Siyah yukselen trendin kirmizi dusen trendle Eylul 2026'daki kesisimi",
-  "tarih_eklendi": "2026-07-21"
- },
- {
-  "kaynak": "Atilla Yesilada",
-  "enstruman": "UKOIL",
-  "seviye": 100,
-  "tur": "esik",
-  "aciklama": "Secim sonrasi 100-110$, ucta 150$ - kotu senaryo esigi",
-  "tarih_eklendi": "2026-08-20"
- },
- {
-  "kaynak": "Emrah Lafci & Ali Persembe + Fiba Bank (2 bagimsiz kaynak)",
-  "enstruman": "UKOIL",
-  "seviye": 80,
-  "tur": "on_kosul",
-  "aciklama": "Brent kalici 80$ altina inmeden TCMB politika faizi 37'nin altina inmez",
-  "tarih_eklendi": "2026-08-24"
- },
- {
-  "kaynak": "Cuneyt Paksoy",
-  "enstruman": "BTCUSDT",
-  "seviye": 75000,
-  "tur": "stop",
-  "aciklama": "75.000 altina inilmedikce yukari potansiyel korunuyor - orta vadeli stop onerisi",
-  "tarih_eklendi": "2026-08-28"
- },
- {
-  "kaynak": "Emrah Lafci & Ali Persembe",
-  "enstruman": "BTCUSDT",
-  "seviye": 69170,
-  "tur": "alim_seviyesi",
-  "aciklama": "Portfoye yeniden kripto yuklemek icin hedef seviye (kendi ifadesiyle 'utopik')",
-  "tarih_eklendi": "2026-08-28"
- },
- {
-  "kaynak": "Kripto Teknik (Oytun & Altun)",
-  "enstruman": "BTCUSDT",
-  "seviye": 69000,
-  "tur": "hareketli_ortalama",
-  "aciklama": "200 gunluk ortalama - Golden Cross tarihi 1 Eylul 2026",
-  "tarih_eklendi": "2026-08-27"
- },
- {
-  "kaynak": "Kripto Teknik (Oytun & Altun)",
-  "enstruman": "BTCUSDT",
-  "seviye_alt": 82500,
-  "seviye_ust": 83000,
-  "tur": "hedef_bandi",
-  "aciklama": "Yakin hedef (Mayis zirvesi) - sonra canak formasyonu tamamlanirsa 100-108K",
-  "tarih_eklendi": "2026-08-27"
- },
- {
-  "kaynak": "Tunc Satiroglu",
-  "enstruman": "BTCUSDT",
-  "seviye": 76470,
-  "tur": "stop",
-  "aciklama": "BTC 'devam' pozisyonu stop seviyesi",
-  "tarih_eklendi": "2026-08-27"
- },
- {
-  "kaynak": "Tunc Satiroglu",
-  "enstruman": "ETHUSDT",
-  "seviye": 2390,
-  "tur": "stop",
-  "aciklama": "ETH 'devam' pozisyonu stopu (yukari cekilmis)",
-  "tarih_eklendi": "2026-08-27"
- },
- {
-  "kaynak": "Kripto Teknik (Oytun & Altun)",
-  "enstruman": "ETHUSDT",
-  "seviye": 3000,
-  "tur": "tetik",
-  "aciklama": "3.000 kirilirsa altcoinlere ciddi sirayet - 'ETH olmadan altcoin bogasi olmaz'",
-  "tarih_eklendi": "2026-08-27"
- },
- {
-  "kaynak": "Kemal Hicyilmaz",
-  "enstruman": "ETHUSDT",
-  "seviye": 2000,
-  "tur": "alim_seviyesi",
-  "aciklama": "Alis bolgesi",
-  "tarih_eklendi": "2026-08-20"
- },
- {
-  "kaynak": "Kemal Hicyilmaz",
-  "enstruman": "SOLUSDT",
-  "seviye": 115,
-  "tur": "hedef",
-  "aciklama": "Solana hedefi",
-  "tarih_eklendi": "2026-08-20"
- },
- {
-  "kaynak": "Kemal Hicyilmaz",
-  "enstruman": "XRPUSDT",
-  "seviye_alt": 1.08,
-  "seviye_ust": 1.09,
-  "tur": "destek_bandi",
-  "aciklama": "Ripple destek bolgesi",
-  "tarih_eklendi": "2026-08-20"
- },
- {
-  "kaynak": "Tunc Satiroglu",
-  "enstruman": "XRPUSDT",
-  "seviye": 1.41,
-  "tur": "sata_donus",
-  "aciklama": "Sata donus seviyesi",
-  "tarih_eklendi": "2026-08-27"
- },
- {
-  "kaynak": "Sellcoin",
-  "enstruman": "XRPUSDT",
-  "seviye": 1.54,
-  "tur": "direnc",
-  "aciklama": "Ikinci direnc (ilki 1.27)",
-  "tarih_eklendi": "2026-08-10"
- },
- {
-  "kaynak": "Erhan Aslanoglu + Cuneyt Paksoy (2 bagimsiz kaynak)",
-  "enstruman": "USDTRY",
-  "seviye_alt": 52,
-  "seviye_ust": 55,
-  "tur": "hedef_bandi",
-  "aciklama": "Yil sonu bandi (Aslanoglu 50-55, muhtemel 53-54; Paksoy 52-55 'bebek adimlariyla')",
-  "tarih_eklendi": "2026-08-28"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "GBPUSD",
-  "seviye": 1.384,
-  "tur": "tetik",
-  "aciklama": "Tam guclenme icin GBP'de 1.3840 asilmali, ancak o zaman tetiklenir",
-  "tarih_eklendi": "2026-08-20"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "USDCAD",
-  "seviye": 1.37,
-  "tur": "hedef",
-  "aciklama": "'Cad duser dedim, 1.43 civariydi, 1.37 geldi' - cagri TUTTU, seviye referans olarak tutuluyor",
-  "tarih_eklendi": "2026-08-20"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XAUUSD",
-  "seviye": 4376,
-  "tur": "majör kalıp",
-  "aciklama": "Majör kalıp: 4376 üstü kalsın dikleşir, altı anca satış baskısı (17 Haz 2026 abone floodu)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "NDX",
-  "seviye": 29700,
-  "tur": "majör kalıp",
-  "aciklama": "Majör kalıp: 29700 altı anca sendeler, üstü dikleşir (17 Haz 2026 abone floodu)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "ETHUSDT",
-  "seviye": 1746,
-  "tur": "pivot",
-  "aciklama": "Majör kalıp: 1746 üstü dikleşir altı sendeler; günlük trend çizgisine yaslandı (17-18 Haz 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "BTCUSDT",
-  "seviye": 67800,
-  "tur": "majör kalıp",
-  "aciklama": "Majör kalıp: 67800 altı sendeler, üstü anca dikleşir (17 Haz 2026 abone floodu)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "BTCUSDT",
-  "seviye": 64600,
-  "tur": "robot",
-  "aciklama": "64600 a robot koydular; yükselişin devamı için altında kalınmamalı, altı teknik risk (18 Haz 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XAGUSD",
-  "seviye": 68,
-  "tur": "majör kalıp",
-  "aciklama": "Majör kalıp: gümüş 68 dolar üstü dikleşir, altı anca sendeler (17 Haz 2026 abone floodu)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "EURUSD",
-  "seviye": 1.164,
-  "tur": "majör kalıp",
-  "aciklama": "Majör kalıp: 1.1640 altı sendeler, üstü anca dikleşir (17 Haz 2026 abone floodu)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "USDCAD",
-  "seviye": 1.357,
-  "tur": "pivot",
-  "aciklama": "1.3570 den yükselmiş; dönüşünün alınmaya çalışılacağı taban (18 Haz 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "UKOIL",
-  "seviye": 76,
-  "tur": "destek",
-  "aciklama": "Petrol 76 - aylık yükselen trend ile yatayın kesiştiği yer (17 Haz 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "UKOIL",
-  "seviye": 53,
-  "tur": "hedef",
-  "aciklama": "Petrol 53 dolara kadar düşecektir, sadece zaman alacak (15 Mart; 16 Haz 2026 da tekrar paylasildi)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "ETHUSDT",
-  "seviye": 3300,
-  "tur": "baz",
-  "aciklama": "Kriptoya girerken ETH de 3300 u baz alacaksiniz; ustu prim, alti zaman kaybi veya kayip (20 Oca 2025; 17 Haz 2026 da tekrar)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "NDX",
-  "seviye": 28200,
-  "tur": "savunma",
-  "aciklama": "Ilk savunma hatti; 27600 kirilmadan bant ici dalgalanma (15 Haz 2026 abone)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "NDX",
-  "seviye": 27600,
-  "tur": "kritik",
-  "aciklama": "Gercek satis icin 27600 ALTINDA kapanis gerekir; ustunde bant ici oyalama (15 Haz 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "UKOIL",
-  "seviye": 108,
-  "tur": "short esigi",
-  "aciklama": "108 dolar ustu kalamasin - short (31 May 2026 abone)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "BTCUSDT",
-  "seviye": 80600,
-  "tur": "risk esigi",
-  "aciklama": "80600 altindaysa risk istahi yok demektir (19 May 2026 abone)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "BTCUSDT",
-  "seviye": 65700,
-  "tur": "savas degeri",
-  "aciklama": "65700 - 28 Subat dususunun ve 2 Mart alimININ seviyesi; 'savas degerimiz' (26 Sub / 4 Haz 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XAGUSD",
-  "seviye": 80.6,
-  "tur": "kesisim",
-  "aciklama": "Alcalan direnc ile yukselen destegin kesistigi deger (4-8 Haz 2026, defalarca tekrar)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XAGUSD",
-  "seviye": 64,
-  "tur": "kritik",
-  "aciklama": "64 dolar kirilmadan durulur; alti kalirsa nefesi kesilir (8 Haz 2026 abone)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XAGUSD",
-  "seviye": 63,
-  "tur": "gazlama seviyesi",
-  "aciklama": "Gumusu 63 dolardan gazlamislardi; ayni seviyeye donuldu (10 Haz 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XAGUSD",
-  "seviye": 57,
-  "tur": "ucgen kesisimi",
-  "aciklama": "Alcalan ucgenin kapanma noktasi (15 Haz 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "DXY",
-  "seviye": 108.094,
-  "tur": "tarihsel direnc",
-  "aciklama": "2001 zirvesinden gelen yatay; 2000-2015 arasi DXY 70-90 bandi = dunyanin refahi artti (8 Haz 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "SPX",
-  "seviye": 7460,
-  "tur": "short hedefi",
-  "aciklama": "7460'a kadar short, 7461 stop (7 Haz 2026 abone, nadir stop'lu tavsiye)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XAUTRY",
-  "seviye": 6400,
-  "tur": "cin gazi",
-  "aciklama": "6400 lira sonrasi zaten Cin gaziydi (10 Haz 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "DJI",
-  "seviye": 50600,
-  "tur": "destek",
-  "aciklama": "Dow 50600 (8 Haz 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XAUUSD",
-  "seviye": 4067,
-  "tur": "dip",
-  "aciklama": "Sert dususun kapattigi tanidik seviye (11 Haz 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "ETHUSDT",
-  "seviye": 4090,
-  "tur": "tarihsel direnc",
-  "aciklama": "Kriptolarin cosmasi icin ETH 4090 asmali - 22 Nis 2022'de verildi, haftalikta 3-4 yilda iki kez RED yedi; 4090 alti selale (15 Haz 2026 floodu)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "ETHUSDT",
-  "seviye": 1379,
-  "tur": "kritik_destek",
-  "aciklama": "1379 kirilmadan hala sorun yok - 1746 pivotunun altindaki son savunma (8 Haz 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "BTCUSDT",
-  "seviye_alt": 70600,
-  "seviye_ust": 71800,
-  "tur": "trend_kesisimi",
-  "aciklama": "Alcalan (Tem-2025) ve yukselen (Oca-2026) trendlerin kesisim bandi; 24 May 2026'da vade 6-7 Haziran olarak verildi",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "EURUSD",
-  "seviye_alt": 1.27,
-  "seviye_ust": 1.3,
-  "tur": "on_kosul",
-  "aciklama": "DXY'nin gercekten deger kaybetmesi icin EUR'un gitmesi gereken band; boga tetigi kosul-1'in paritedeki karsiligi (9 Haz 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "BTC.D",
-  "seviye": 57,
-  "tur": "destek_bandi",
-  "aciklama": "Bitcoin dominansi 57 bandi - normal bir dunyada pozitif okunur; ust direnc 64 (4 Haz 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "BTC.D",
-  "seviye": 64,
-  "tur": "direnc",
-  "aciklama": "2019-2021 zirvelerinden inen kanalin ust siniri (4 Haz 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "NDX",
-  "seviye": 26000,
-  "tur": "ogreti_basamagi",
-  "aciklama": "'26 K = 6 ogretisi' - 2 kez RED (Eki-2025, Oca-2026), Nis-2026'da ABD-Iran baris haberiyle asildi; 2025'teki 22.200 kalibinin kopyasi",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "NDX",
-  "seviye": 22200,
-  "tur": "tarihsel direnc",
-  "aciklama": "2025 kalibi: 2 kez RED (Ara-2024, Sub-2025), Tem-2025'te 'ABD-Iran barisi' haberiyle asirtildi - normalde borsa orada dusmeliydi",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "NDX",
-  "seviye": 29600,
-  "tur": "direnc",
-  "aciklama": "H4 ust yatay; Trump kanali icinde tutulan fiyatin ust siniri (31 May 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "NDX",
-  "seviye": 28570,
-  "tur": "savunma",
-  "aciklama": "28.570 asagi kirilmadikca yukari yapi korunur (8 Haz 2026 floodu)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "NDX",
-  "seviye": 30260,
-  "tur": "esik",
-  "aciklama": "'30260 alti kalmadan tutarlar' - trendi asirtmadan yanlatma seviyesi (2 Haz 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XAUUSD",
-  "seviye": 4660,
-  "tur": "trend_kesisimi",
-  "aciklama": "Ana yukselen trend ile Oca-2026 zirvesinden inen alcalan direncin kesisimi (15 Haz 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XAUUSD",
-  "seviye": 3880,
-  "tur": "destek",
-  "aciklama": "Altin gunlukte alt yatay taban (15 Haz 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XAUUSD",
-  "seviye": 3300,
-  "tur": "baz",
-  "aciklama": "'Sifir trendler genelde 33'te baslar' - ALTIN 3300'den ROKET (Agu-2025 konsolidasyonu); ETH 3300 bazinin altin karsiligi",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XAGUSD",
-  "seviye": 33,
-  "tur": "tarihsel direnc",
-  "aciklama": "2025 boyunca surekli 'tokat yenen' seviye; baris gelmeyince buradan yol verildi",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XAGUSD",
-  "seviye": 26.2,
-  "tur": "baz",
-  "aciklama": "2023-2024 birikim tabani - 'ABD kriptoyla oynarken CIN burada rahat duruyordu'",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "BTCUSDT",
-  "seviye": 107800,
-  "tur": "tarihsel direnc",
-  "aciklama": "'107.8 hatirlayanlar olur' - Tem-2025 coklu tepe bolgesi, 'baris dedikleri donem'",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "BTCUSDT",
-  "seviye": 98500,
-  "tur": "direnc",
-  "aciklama": "107.8 ile 80.600 arasindaki ara basamak (Nis-2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "DJI",
-  "seviye": 58000,
-  "tur": "hedef",
-  "aciklama": "Mart-2025 dibinden cikan yukselen kanalin ust cizgisi (2026 projeksiyonu) - 'kanalin cok asagisinda, gitmemistir'",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "UKOIL",
-  "seviye": 89,
-  "tur": "tetik",
-  "aciklama": "'Yeni bir stres icin 89 dolar asilmali, asilmadikca geri gelir' (15 Haz 2026); 3 aylik vade Sub->Haz 2026 tuttu",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "NDX",
-  "seviye": 23700,
-  "tur": "tarihsel direnc",
-  "aciklama": "'Baris tepesi' - Trump'in Putin+Avrupa zirvesiyle kirdirdigi rakam; savas cikinca altinda kalindi. Toparlanma icin asilmali (31 Mar 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "NDX",
-  "seviye": 22600,
-  "tur": "tarihsel direnc",
-  "aciklama": "Biden doneminin NASDAQ tepesi - 23.700 ile birlikte siyasi olarak etiketlenen ikili",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "NDX",
-  "seviye": 24600,
-  "tur": "kritik",
-  "aciklama": "'Alti net gardi dusuyordu' - 2026 Mart dususunun ilk esigi, haftalik kanal temasi",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "NDX",
-  "seviye": 29710,
-  "tur": "savunma",
-  "aciklama": "29.700 uzerinde 10 GUN tutuldu, 5 Haz 2026'da kirildi - gun sayisiyla olculen savunma",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XAUUSD",
-  "seviye": 4700,
-  "tur": "esik",
-  "aciklama": "'4.700 uzerinde kalmadikca adamlara gore ciddi bir sorun gorunmuyor' - ana trend ile alcalan direncin kesisimi (3 Haz 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XAGUSD",
-  "seviye": 89.3,
-  "tur": "tavan",
-  "aciklama": "'90 dolar' - 80,60'tan cikilan hareketin tepesi (13 May 2026); ayrica 2020 yukselen trendinin direnc olarak calistigi yer",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XAGUSD",
-  "seviye": 120,
-  "tur": "savas degeri",
-  "aciklama": "'Gumusun 120 dolar gormesi ne demek? Savas cikar' (5 Sub 2026 abone)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "BTCUSDT",
-  "seviye": 33000,
-  "tur": "ogreti_basamagi",
-  "aciklama": "Yelpazenin orta cizgisi + haftalikta 2022'de direnc / 2023'te destek; '33' ogretisinin BTC karsiligi",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "BTCUSDT",
-  "seviye": 17000,
-  "tur": "ogreti_basamagi",
-  "aciklama": "2012 'sifir noktasi' yelpazesinin alt cizgisi",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "USDTRY",
-  "seviye": 33.08,
-  "tur": "ogreti_basamagi",
-  "aciklama": "'33 lira asilinca yurudu gitti' (Tem-2024 kirilimi) - '33' ogretisinin TL karsiligi",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XAUTRY",
-  "seviye": 6445,
-  "tur": "destek",
-  "aciklama": "Gram altin 6400 tabani - Oca/Nis/Haz 2026'da UC kez korundu; '6400 ustu Cin gazi, aslinda 6400 sinirdi' (19 Mar 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XU100",
-  "seviye": 12600,
-  "tur": "kritik",
-  "aciklama": "'12600 kirilirsa anca sendeler' - 13.800 robotunun altindaki savunma (27 Agu 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "ETHUSDT",
-  "seviye": 4900,
-  "tur": "tarihsel direnc",
-  "aciklama": "Eki-2025 zirvesi; haftalik alcalan kanalin baslangici",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "SPX",
-  "seviye": 4900,
-  "tur": "on_kosul",
-  "aciklama": "'Burada dusursen ve faiz indirim surecini baslatsan ne kaybederdin?' - Koc'un onerdigi saglikli duzeltme dibi (1 Haz 2026)",
-  "tarih_eklendi": "2026-08-30"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XAUUSD",
-  "seviye": 4570,
-  "tur": "pivot",
-  "aciklama": "'Olmasi gereken ALTIN degeri net 4570, burasi buyuk pivot' (13 Tem 2026); 27-28 Agu'da uc kez test edildi ve tutuldu",
-  "tarih_eklendi": "2026-08-31"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XAUUSD",
-  "seviye": 4640,
-  "tur": "robot",
-  "aciklama": "'4640 bolgesine robot koydular' (25 Agu 2026); 27 Agu'da temas edip 70 dolar dustu",
-  "tarih_eklendi": "2026-08-31"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XAUUSD",
-  "seviye": 4840,
-  "tur": "trend",
-  "aciklama": "Aylik grafikte 2008 dibinden gelen trend cizgisinin bugunku degeri - '8.4 ogretisi' (28 Agu 2026)",
-  "tarih_eklendi": "2026-08-31"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XAGUSD",
-  "seviye": 73.6,
-  "tur": "kirilim",
-  "aciklama": "73,60'tan 55 dolara cakildi; ayni sayi BTC'de 73.600 olarak calisti - 'tesadufe bak' (29 Haz 2026)",
-  "tarih_eklendi": "2026-08-31"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XAGUSD",
-  "seviye_alt": 70,
-  "seviye_ust": 75,
-  "tur": "denge_bandi",
-  "aciklama": "Dongu ogretisi: 120 zirve -> 60 dip -> 70-75 denge (31 May 2026); ayni bant petrol ve BTC'de de gecerli",
-  "tarih_eklendi": "2026-08-31"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "BTCUSDT",
-  "seviye_alt": 70000,
-  "seviye_ust": 75000,
-  "tur": "denge_bandi",
-  "aciklama": "Dongu ogretisi: 120 K zirve -> 60 K dip -> 70-75 K denge (31 May 2026)",
-  "tarih_eklendi": "2026-08-31"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "UKOIL",
-  "seviye_alt": 70,
-  "seviye_ust": 75,
-  "tur": "denge_bandi",
-  "aciklama": "'ABD petrol 120 dolara gidiyor, 70-75 dolarla muhtemelen dengelenir' (31 May 2026)",
-  "tarih_eklendi": "2026-08-31"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "UKOIL",
-  "seviye": 60,
-  "tur": "savas_denklemi",
-  "aciklama": "'Gumusun 120 dolar gormesi ne demek? Petrol 60 dolar' - gumus yukari + petrol asagi = savas fiyatlamasi (5 Sub 2026)",
-  "tarih_eklendi": "2026-08-31"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "GBPJPY",
-  "seviye": 251,
-  "tur": "dongu_hedefi",
-  "aciklama": "2007 zirvesi; 7 yillik dongu sayimi (2000 dip - 2007 zirve - 2020 dip - 2027 zirve) bu seviyeyi 2027 hedefi yapiyor",
-  "tarih_eklendi": "2026-08-31"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "NDX",
-  "seviye_alt": 29500,
-  "seviye_ust": 30800,
-  "tur": "yatay_band",
-  "aciklama": "'Burasi bile 5 ay' - May-2026'dan beri suren yatay park bandi; onceki bantlar 21.000-22.500 (5 ay) ve 25.000-26.100 (7 ay)",
-  "tarih_eklendi": "2026-08-31"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "XAUUSD",
-  "seviye": 5300,
-  "tur": "hedef",
-  "aciklama": "'Isler duzelmezse ABD isterse ALTIN'da 5300 dolari gosterebilir' (10 Oca 2026); denge kurali XAUUSD/100=USDTRY ile USDTRY 53'e karsilik gelir",
-  "tarih_eklendi": "2026-08-31"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "BTCUSDT",
-  "seviye": 68800,
-  "tur": "esik",
-  "aciklama": "'7 Nisan gunune kadar 68.800 onemli, yukselis icin ustu kalis lazim' (4 Nis 2026)",
-  "tarih_eklendi": "2026-08-31"
- },
- {
-  "kaynak": "Koc",
-  "enstruman": "BTCUSDT",
-  "seviye": 78947,
-  "tur": "donus_seviyesi",
-  "aciklama": "May-2026 destegi; 16-17 May'da direnc olarak reddedildi ve 18 Mayis'ta dusus buradan basladi (79 K -> 63,5 K)",
-  "tarih_eklendi": "2026-08-31"
- },
- {
-  "kaynak": "Oktay Teknik Analiz",
-  "enstruman": "BTCUSDT",
-  "seviye": 62300,
-  "tur": "hedef",
-  "aciklama": "'btc tepe 67800 dip 62300; tepe gecilmedikce hedef 62300' (4 Haz 2026) - Koc'un 67.800 savas degeriyle ayni sayiyi kullanan bagimsiz kaynak",
-  "tarih_eklendi": "2026-08-31"
- },
- {
-  "kaynak": "EkonomiFinansTeknik1",
-  "enstruman": "XAUUSD",
-  "seviye": 4001,
-  "tur": "elliott_hedefi",
-  "aciklama": "Elliott (iv) duzeltme hedefi (W-X-Y); 23 Nis ve 4 Haz 2026 karelerinde degismedi",
-  "tarih_eklendi": "2026-08-31"
- },
- {
-  "kaynak": "EkonomiFinansTeknik1",
-  "enstruman": "XAUUSD",
-  "seviye_alt": 6700,
-  "seviye_ust": 7000,
-  "tur": "elliott_hedefi",
-  "aciklama": "Elliott (v) dalga hedefi, 2027 basi projeksiyonu - Koc'un 5300 hedefinden agresif",
-  "tarih_eklendi": "2026-08-31"
- }
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 60000,
+    "tur": "pivot",
+    "aciklama": "En buyuk resmin pivotu - altinda fakirlesirsin, ustunde zenginlesirsin (2024'ten beri degismedi)",
+    "tarih_eklendi": "2026-08-20"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 57000,
+    "tur": "ogreti_basamagi",
+    "aciklama": "5.7 ogretisinin BTC karsiligi - Haziran dibi buradan dondu",
+    "tarih_eklendi": "2026-08-20"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 68000,
+    "tur": "merdiven_basamagi",
+    "aciklama": "Ogreti merdiveni ara basamagi (57-60-68-76-84-92-106-125)",
+    "tarih_eklendi": "2026-06-19"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 76000,
+    "tur": "merdiven_basamagi",
+    "aciklama": "Ogreti merdiveni - 84 kirilinca 76'dan sekiyor, 76 kirilirsa 68 ve 60 geliyor",
+    "tarih_eklendi": "2026-06-19"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 84000,
+    "tur": "direnc",
+    "aciklama": "Yilin pivotu / ABD-Cin dengesi - 84K ustunde robot var, 1 Temmuz'da asilamadi",
+    "tarih_eklendi": "2026-07-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 92000,
+    "tur": "merdiven_basamagi",
+    "aciklama": "9.2 ogretisinin BTC karsiligi (22 Agustos karti)",
+    "tarih_eklendi": "2026-08-22"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 106000,
+    "tur": "merdiven_basamagi",
+    "aciklama": "106 ogretisi - 106 ustunde kalamayan duser, once 92 sonra 84 gelir",
+    "tarih_eklendi": "2026-08-22"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 73600,
+    "tur": "robot",
+    "aciklama": "73600'de robot var (satis programi)",
+    "tarih_eklendi": "2026-08-20"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 2570,
+    "tur": "tetik",
+    "aciklama": "5.7 ogretisi - 2570 gecmeden kazanc elde edilmez, ustunde kalicilik sart",
+    "tarih_eklendi": "2026-08-22"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 3060,
+    "tur": "hedef",
+    "aciklama": "6 ogretisi - 2570 gecerse tetiklenir, alti sandicidir (haftalikta 3060 alti negatif)",
+    "tarih_eklendi": "2026-08-22"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "US10Y",
+    "seviye": 4.57,
+    "tur": "ogreti_basamagi",
+    "aciklama": "4570 = 5.7 ogretisi - faiz dengesi burada, 22 Agustos'ta yukari kirildi",
+    "tarih_eklendi": "2026-08-22"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "US10Y",
+    "seviye": 4.6,
+    "tur": "merdiven_basamagi",
+    "aciklama": "6 basamagi - 57 kirildiktan sonraki durak, Koc'un aktif tezi (faiz yukari)",
+    "tarih_eklendi": "2026-08-22"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "US10Y",
+    "seviye": 4.68,
+    "tur": "merdiven_basamagi",
+    "aciklama": "68 basamagi - merdivende 60'tan sonraki durak",
+    "tarih_eklendi": "2026-08-22"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "US10Y",
+    "seviye": 4.76,
+    "tur": "merdiven_basamagi",
+    "aciklama": "76 basamagi - merdivende 68'den sonraki durak",
+    "tarih_eklendi": "2026-08-22"
+  },
+  {
+    "kaynak": "Berk Dincturk",
+    "enstruman": "US10Y",
+    "seviye": 4.75,
+    "tur": "tavan",
+    "aciklama": "Bessent tolerans tavani - 10 yillik %4,75'e dayandiginda ABD Hazinesi devreye girer",
+    "tarih_eklendi": "2026-08-20"
+  },
+  {
+    "kaynak": "Cuneyt Paksoy + Erhan Aslanoglu (2 bagimsiz kaynak)",
+    "enstruman": "US10Y",
+    "seviye": 5.0,
+    "tur": "alarm",
+    "aciklama": "Alarm seviyesi - 2008 oncesi seviyelerle kiyaslaniyor, gecmesi cok tehlikeli, mudahale bekleniyor",
+    "tarih_eklendi": "2026-08-25"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 29200,
+    "tur": "ogreti_basamagi",
+    "aciklama": "9.2 ogretisi - vade sonu geliyor, satiscilar bastiriyor",
+    "tarih_eklendi": "2026-08-19"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 29716,
+    "tur": "boyun_cizgisi",
+    "aciklama": "Hareketli ortalama uzerinde omuz-bas-omuz boyun cizgisi (29700) - ay kapanisi kritik",
+    "tarih_eklendi": "2026-07-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 29360,
+    "tur": "robot",
+    "aciklama": "Bu bolgeye robot koydular, vadeli degeridir",
+    "tarih_eklendi": "2026-08-20"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 30600,
+    "tur": "direnc",
+    "aciklama": "30600 kac kez red yedi - zirve bolgesi (30685/30969)",
+    "tarih_eklendi": "2026-08-19"
+  },
+  {
+    "kaynak": "Tunc Satiroglu",
+    "enstruman": "NDX",
+    "seviye_alt": 30800,
+    "seviye_ust": 31000,
+    "tur": "hedef_bandi",
+    "aciklama": "Nvidia sonrasi pozitif kapanisla yeni zirve hedefi",
+    "tarih_eklendi": "2026-08-27"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "DXY",
+    "seviye": 95.7,
+    "tur": "ogreti_basamagi",
+    "aciklama": "5.7 ogretisinin DXY karsiligi - Koc'un 3 boga sartindan biri: DXY 110'dan 95'e gercek zayiflama",
+    "tarih_eklendi": "2026-06-18"
+  },
+  {
+    "kaynak": "Kemal Hicyilmaz",
+    "enstruman": "DXY",
+    "seviye_alt": 99.5,
+    "seviye_ust": 100.4,
+    "tur": "anahtar_bant",
+    "aciklama": "Bu bandin altinda kapanis = altin/gumus icin anahtar bolge",
+    "tarih_eklendi": "2026-08-20"
+  },
+  {
+    "kaynak": "Cuneyt Paksoy",
+    "enstruman": "DXY",
+    "seviye": 102,
+    "tur": "direnc",
+    "aciklama": "102 test riski masada - aylik grafikte yukselen trende donus",
+    "tarih_eklendi": "2026-08-14"
+  },
+  {
+    "kaynak": "Emrah Lafci & Ali Persembe",
+    "enstruman": "XAUUSD",
+    "seviye": 4775,
+    "tur": "hedef",
+    "aciklama": "Yukari hedefti, tam oraya gelmeden dondu - Jackson Hole haftasi",
+    "tarih_eklendi": "2026-08-28"
+  },
+  {
+    "kaynak": "Cuneyt Paksoy",
+    "enstruman": "XAUUSD",
+    "seviye": 4855,
+    "tur": "hedef",
+    "aciklama": "4400-4500 duvarinin ustunde kapanis teyidi gelirse hedef",
+    "tarih_eklendi": "2026-08-14"
+  },
+  {
+    "kaynak": "Cuneyt Paksoy",
+    "enstruman": "XAUUSD",
+    "seviye": 4650,
+    "tur": "tetik",
+    "aciklama": "4650 uzerinde 4800'e gecilirse hemen 5.000 hedefi acilir",
+    "tarih_eklendi": "2026-08-28"
+  },
+  {
+    "kaynak": "UBS + Cuneyt Paksoy (kurum hedefi + teknik hedef)",
+    "enstruman": "XAUUSD",
+    "seviye": 5000,
+    "tur": "hedef",
+    "aciklama": "UBS 2027 ilk yari hedefi; Paksoy'un teknik hedefiyle ortusuyor (Citibank 6.000 diyor)",
+    "tarih_eklendi": "2026-08-25"
+  },
+  {
+    "kaynak": "Emrah Lafci & Ali Persembe + Baki Atilal (2 bagimsiz kaynak)",
+    "enstruman": "XAUUSD",
+    "seviye": 4000,
+    "tur": "destek",
+    "aciklama": "Altin tabani - Lafci 'taban', Atilal 'destek' diyor; Koc'un 4026/4079 robot bolgesine yakin",
+    "tarih_eklendi": "2026-08-19"
+  },
+  {
+    "kaynak": "Tunc Satiroglu",
+    "enstruman": "XAUUSD",
+    "seviye": 4200,
+    "tur": "kritik_seviye",
+    "aciklama": "Kritik seviye - 4.200 kirilimiyla dusus trendinin bittigi teyit edildi",
+    "tarih_eklendi": "2026-08-19"
+  },
+  {
+    "kaynak": "Emrah Lafci & Ali Persembe",
+    "enstruman": "XAUUSD",
+    "seviye": 4125,
+    "tur": "stop",
+    "aciklama": "Teknik Analiz 28 - altin long stop seviyesi",
+    "tarih_eklendi": "2026-08-19"
+  },
+  {
+    "kaynak": "Cuneyt Paksoy",
+    "enstruman": "XAUUSD",
+    "seviye_alt": 4400,
+    "seviye_ust": 4500,
+    "tur": "duvar",
+    "aciklama": "Duvar - ustunde kapanis teyidi gelirse 4.855, duserse 4.350 kirilir ve 3.800-4.100 riski",
+    "tarih_eklendi": "2026-08-14"
+  },
+  {
+    "kaynak": "Emrah Lafci & Ali Persembe",
+    "enstruman": "XAGUSD",
+    "seviye_alt": 73,
+    "seviye_ust": 74,
+    "tur": "hedef_bandi",
+    "aciklama": "63'ten 73-74 hedef (stop 58,87) - Koc'un 54-62 bandiyla dogrudan celisiyor",
+    "tarih_eklendi": "2026-08-19"
+  },
+  {
+    "kaynak": "Emrah Lafci & Ali Persembe",
+    "enstruman": "XAGUSD",
+    "seviye": 58.87,
+    "tur": "stop",
+    "aciklama": "Gumus long stop seviyesi",
+    "tarih_eklendi": "2026-08-19"
+  },
+  {
+    "kaynak": "Tunc Satiroglu",
+    "enstruman": "XAGUSD",
+    "seviye": 62.5,
+    "tur": "stop",
+    "aciklama": "Gumus stop seviyesi",
+    "tarih_eklendi": "2026-08-19"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye_alt": 76.5,
+    "seviye_ust": 80,
+    "tur": "hedef_bandi",
+    "aciklama": "ETH 2460/2570'in gumus karsiligi (gumus-ETH endeksleme kurali)",
+    "tarih_eklendi": "2026-08-22"
+  },
+  {
+    "kaynak": "Emrah Lafci & Ali Persembe",
+    "enstruman": "XPTUSD",
+    "seviye": 1830,
+    "tur": "hedef",
+    "aciklama": "1.629,5'ten long, hedef 1.830 - bu kaynagin tek platin islem fikri",
+    "tarih_eklendi": "2026-08-19"
+  },
+  {
+    "kaynak": "Emrah Lafci & Ali Persembe",
+    "enstruman": "XPTUSD",
+    "seviye": 1770,
+    "tur": "alim_seviyesi",
+    "aciklama": "Platin alim seviyesi (ikincisi 1.710) - oncu gosterge olarak takip ediliyor",
+    "tarih_eklendi": "2026-08-28"
+  },
+  {
+    "kaynak": "Emrah Lafci & Ali Persembe",
+    "enstruman": "XPTUSD",
+    "seviye": 1710,
+    "tur": "alim_seviyesi",
+    "aciklama": "Platin ikinci alim seviyesi",
+    "tarih_eklendi": "2026-08-28"
+  },
+  {
+    "kaynak": "3 bagimsiz kaynak (Lafci&Persembe + Aslanoglu + Paksoy)",
+    "enstruman": "XU100",
+    "seviye_alt": 16500,
+    "seviye_ust": 17000,
+    "tur": "direnc_bandi",
+    "aciklama": "Bankacilik endeksi kirarsa 18.500-22.000 yolu acilir - uc kaynak farkli yontemle ayni bandi isaretledi",
+    "tarih_eklendi": "2026-08-28"
+  },
+  {
+    "kaynak": "Cuneyt Paksoy",
+    "enstruman": "XU100",
+    "seviye_alt": 14000,
+    "seviye_ust": 14500,
+    "tur": "kritik_destek",
+    "aciklama": "Asla kirilmamali - kirilirsa acil uyari gerektiren durum",
+    "tarih_eklendi": "2026-08-28"
+  },
+  {
+    "kaynak": "Cuneyt Paksoy",
+    "enstruman": "XU100",
+    "seviye": 15000,
+    "tur": "teknik_onay",
+    "aciklama": "15.000 uzeri = yeni zirveler icin teknik onay var (ortalamalar, indikatorler yukari)",
+    "tarih_eklendi": "2026-08-28"
+  },
+  {
+    "kaynak": "Tunc Satiroglu",
+    "enstruman": "XU100",
+    "seviye": 14410,
+    "tur": "sata_donus",
+    "aciklama": "Sata donus seviyesi - altina inene kadar yukselisler satis firsati",
+    "tarih_eklendi": "2026-08-27"
+  },
+  {
+    "kaynak": "Baris Soydan",
+    "enstruman": "XU100",
+    "seviye": 14730,
+    "tur": "direnc",
+    "aciklama": "27 Agustos kapanisina gore direnc (destek 14.350)",
+    "tarih_eklendi": "2026-08-27"
+  },
+  {
+    "kaynak": "Atilla Yesilada",
+    "enstruman": "XU100",
+    "seviye": 14000,
+    "tur": "direnc",
+    "aciklama": "Guclu direnc - 12.000'e duserse sasirmaz (dosyadaki en karamsar BIST gorusu)",
+    "tarih_eklendi": "2026-08-20"
+  },
+  {
+    "kaynak": "Cuneyt Paksoy",
+    "enstruman": "SPX",
+    "seviye_alt": 7000,
+    "seviye_ust": 7500,
+    "tur": "pivot_bandi",
+    "aciklama": "Sert duzeltme senaryosunda pivot bandi (utopya tablosu: bu seviyede %100 hisseye gecilir)",
+    "tarih_eklendi": "2026-08-28"
+  },
+  {
+    "kaynak": "Tunc Satiroglu",
+    "enstruman": "SPX",
+    "seviye": 7900,
+    "tur": "hedef",
+    "aciklama": "Nvidia sonrasi yeni zirve hedefi",
+    "tarih_eklendi": "2026-08-27"
+  },
+  {
+    "kaynak": "Berk Dincturk",
+    "enstruman": "SPX",
+    "seviye": 7700,
+    "tur": "opsiyon_yigilmasi",
+    "aciklama": "Opsiyon yigilmasi bolgesi - Jackson Hole cevresi 1-2 hafta oynaklik beklentisi",
+    "tarih_eklendi": "2026-08-20"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "UKOIL",
+    "seviye_alt": 92,
+    "seviye_ust": 94,
+    "tur": "direnc_bandi",
+    "aciklama": "Aralik 2025 dibinden gelen yukselen trend - 3 Agustos'a kadar asilamadi (cagri TUTTU)",
+    "tarih_eklendi": "2026-07-21"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "UKOIL",
+    "seviye": 106,
+    "tur": "trend_kesisimi",
+    "aciklama": "Siyah yukselen trendin kirmizi dusen trendle Eylul 2026'daki kesisimi",
+    "tarih_eklendi": "2026-07-21"
+  },
+  {
+    "kaynak": "Atilla Yesilada",
+    "enstruman": "UKOIL",
+    "seviye": 100,
+    "tur": "esik",
+    "aciklama": "Secim sonrasi 100-110$, ucta 150$ - kotu senaryo esigi",
+    "tarih_eklendi": "2026-08-20"
+  },
+  {
+    "kaynak": "Emrah Lafci & Ali Persembe + Fiba Bank (2 bagimsiz kaynak)",
+    "enstruman": "UKOIL",
+    "seviye": 80,
+    "tur": "on_kosul",
+    "aciklama": "Brent kalici 80$ altina inmeden TCMB politika faizi 37'nin altina inmez",
+    "tarih_eklendi": "2026-08-24"
+  },
+  {
+    "kaynak": "Cuneyt Paksoy",
+    "enstruman": "BTCUSDT",
+    "seviye": 75000,
+    "tur": "stop",
+    "aciklama": "75.000 altina inilmedikce yukari potansiyel korunuyor - orta vadeli stop onerisi",
+    "tarih_eklendi": "2026-08-28"
+  },
+  {
+    "kaynak": "Emrah Lafci & Ali Persembe",
+    "enstruman": "BTCUSDT",
+    "seviye": 69170,
+    "tur": "alim_seviyesi",
+    "aciklama": "Portfoye yeniden kripto yuklemek icin hedef seviye (kendi ifadesiyle 'utopik')",
+    "tarih_eklendi": "2026-08-28"
+  },
+  {
+    "kaynak": "Kripto Teknik (Oytun & Altun)",
+    "enstruman": "BTCUSDT",
+    "seviye": 69000,
+    "tur": "hareketli_ortalama",
+    "aciklama": "200 gunluk ortalama - Golden Cross tarihi 1 Eylul 2026",
+    "tarih_eklendi": "2026-08-27"
+  },
+  {
+    "kaynak": "Kripto Teknik (Oytun & Altun)",
+    "enstruman": "BTCUSDT",
+    "seviye_alt": 82500,
+    "seviye_ust": 83000,
+    "tur": "hedef_bandi",
+    "aciklama": "Yakin hedef (Mayis zirvesi) - sonra canak formasyonu tamamlanirsa 100-108K",
+    "tarih_eklendi": "2026-08-27"
+  },
+  {
+    "kaynak": "Tunc Satiroglu",
+    "enstruman": "BTCUSDT",
+    "seviye": 76470,
+    "tur": "stop",
+    "aciklama": "BTC 'devam' pozisyonu stop seviyesi",
+    "tarih_eklendi": "2026-08-27"
+  },
+  {
+    "kaynak": "Tunc Satiroglu",
+    "enstruman": "ETHUSDT",
+    "seviye": 2390,
+    "tur": "stop",
+    "aciklama": "ETH 'devam' pozisyonu stopu (yukari cekilmis)",
+    "tarih_eklendi": "2026-08-27"
+  },
+  {
+    "kaynak": "Kripto Teknik (Oytun & Altun)",
+    "enstruman": "ETHUSDT",
+    "seviye": 3000,
+    "tur": "tetik",
+    "aciklama": "3.000 kirilirsa altcoinlere ciddi sirayet - 'ETH olmadan altcoin bogasi olmaz'",
+    "tarih_eklendi": "2026-08-27"
+  },
+  {
+    "kaynak": "Kemal Hicyilmaz",
+    "enstruman": "ETHUSDT",
+    "seviye": 2000,
+    "tur": "alim_seviyesi",
+    "aciklama": "Alis bolgesi",
+    "tarih_eklendi": "2026-08-20"
+  },
+  {
+    "kaynak": "Kemal Hicyilmaz",
+    "enstruman": "SOLUSDT",
+    "seviye": 115,
+    "tur": "hedef",
+    "aciklama": "Solana hedefi",
+    "tarih_eklendi": "2026-08-20"
+  },
+  {
+    "kaynak": "Kemal Hicyilmaz",
+    "enstruman": "XRPUSDT",
+    "seviye_alt": 1.08,
+    "seviye_ust": 1.09,
+    "tur": "destek_bandi",
+    "aciklama": "Ripple destek bolgesi",
+    "tarih_eklendi": "2026-08-20"
+  },
+  {
+    "kaynak": "Tunc Satiroglu",
+    "enstruman": "XRPUSDT",
+    "seviye": 1.41,
+    "tur": "sata_donus",
+    "aciklama": "Sata donus seviyesi",
+    "tarih_eklendi": "2026-08-27"
+  },
+  {
+    "kaynak": "Sellcoin",
+    "enstruman": "XRPUSDT",
+    "seviye": 1.54,
+    "tur": "direnc",
+    "aciklama": "Ikinci direnc (ilki 1.27)",
+    "tarih_eklendi": "2026-08-10"
+  },
+  {
+    "kaynak": "Erhan Aslanoglu + Cuneyt Paksoy (2 bagimsiz kaynak)",
+    "enstruman": "USDTRY",
+    "seviye_alt": 52,
+    "seviye_ust": 55,
+    "tur": "hedef_bandi",
+    "aciklama": "Yil sonu bandi (Aslanoglu 50-55, muhtemel 53-54; Paksoy 52-55 'bebek adimlariyla')",
+    "tarih_eklendi": "2026-08-28"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "GBPUSD",
+    "seviye": 1.384,
+    "tur": "tetik",
+    "aciklama": "Tam guclenme icin GBP'de 1.3840 asilmali, ancak o zaman tetiklenir",
+    "tarih_eklendi": "2026-08-20"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "USDCAD",
+    "seviye": 1.37,
+    "tur": "hedef",
+    "aciklama": "'Cad duser dedim, 1.43 civariydi, 1.37 geldi' - cagri TUTTU, seviye referans olarak tutuluyor",
+    "tarih_eklendi": "2026-08-20"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 4376,
+    "tur": "majör kalıp",
+    "aciklama": "Majör kalıp: 4376 üstü kalsın dikleşir, altı anca satış baskısı (17 Haz 2026 abone floodu)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 29700,
+    "tur": "majör kalıp",
+    "aciklama": "Majör kalıp: 29700 altı anca sendeler, üstü dikleşir (17 Haz 2026 abone floodu)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 1746,
+    "tur": "pivot",
+    "aciklama": "Majör kalıp: 1746 üstü dikleşir altı sendeler; günlük trend çizgisine yaslandı (17-18 Haz 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 67800,
+    "tur": "majör kalıp",
+    "aciklama": "Majör kalıp: 67800 altı sendeler, üstü anca dikleşir (17 Haz 2026 abone floodu)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 64600,
+    "tur": "robot",
+    "aciklama": "64600 a robot koydular; yükselişin devamı için altında kalınmamalı, altı teknik risk (18 Haz 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 68,
+    "tur": "majör kalıp",
+    "aciklama": "Majör kalıp: gümüş 68 dolar üstü dikleşir, altı anca sendeler (17 Haz 2026 abone floodu)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "EURUSD",
+    "seviye": 1.164,
+    "tur": "majör kalıp",
+    "aciklama": "Majör kalıp: 1.1640 altı sendeler, üstü anca dikleşir (17 Haz 2026 abone floodu)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "USDCAD",
+    "seviye": 1.357,
+    "tur": "pivot",
+    "aciklama": "1.3570 den yükselmiş; dönüşünün alınmaya çalışılacağı taban (18 Haz 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "UKOIL",
+    "seviye": 76,
+    "tur": "destek",
+    "aciklama": "Petrol 76 - aylık yükselen trend ile yatayın kesiştiği yer (17 Haz 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "UKOIL",
+    "seviye": 53,
+    "tur": "hedef",
+    "aciklama": "Petrol 53 dolara kadar düşecektir, sadece zaman alacak (15 Mart; 16 Haz 2026 da tekrar paylasildi)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 3300,
+    "tur": "baz",
+    "aciklama": "Kriptoya girerken ETH de 3300 u baz alacaksiniz; ustu prim, alti zaman kaybi veya kayip (20 Oca 2025; 17 Haz 2026 da tekrar)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 28200,
+    "tur": "savunma",
+    "aciklama": "Ilk savunma hatti; 27600 kirilmadan bant ici dalgalanma (15 Haz 2026 abone)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 27600,
+    "tur": "kritik",
+    "aciklama": "Gercek satis icin 27600 ALTINDA kapanis gerekir; ustunde bant ici oyalama (15 Haz 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "UKOIL",
+    "seviye": 108,
+    "tur": "short esigi",
+    "aciklama": "108 dolar ustu kalamasin - short (31 May 2026 abone)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 80600,
+    "tur": "risk esigi",
+    "aciklama": "80600 altindaysa risk istahi yok demektir (19 May 2026 abone)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 65700,
+    "tur": "savas degeri",
+    "aciklama": "65700 - 28 Subat dususunun ve 2 Mart alimININ seviyesi; 'savas degerimiz' (26 Sub / 4 Haz 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 80.6,
+    "tur": "kesisim",
+    "aciklama": "Alcalan direnc ile yukselen destegin kesistigi deger (4-8 Haz 2026, defalarca tekrar)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 64,
+    "tur": "kritik",
+    "aciklama": "64 dolar kirilmadan durulur; alti kalirsa nefesi kesilir (8 Haz 2026 abone)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 63,
+    "tur": "gazlama seviyesi",
+    "aciklama": "Gumusu 63 dolardan gazlamislardi; ayni seviyeye donuldu (10 Haz 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 57,
+    "tur": "ucgen kesisimi",
+    "aciklama": "Alcalan ucgenin kapanma noktasi (15 Haz 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "DXY",
+    "seviye": 108.094,
+    "tur": "tarihsel direnc",
+    "aciklama": "2001 zirvesinden gelen yatay; 2000-2015 arasi DXY 70-90 bandi = dunyanin refahi artti (8 Haz 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "SPX",
+    "seviye": 7460,
+    "tur": "short hedefi",
+    "aciklama": "7460'a kadar short, 7461 stop (7 Haz 2026 abone, nadir stop'lu tavsiye)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUTRY",
+    "seviye": 6400,
+    "tur": "cin gazi",
+    "aciklama": "6400 lira sonrasi zaten Cin gaziydi (10 Haz 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "DJI",
+    "seviye": 50600,
+    "tur": "destek",
+    "aciklama": "Dow 50600 (8 Haz 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 4067,
+    "tur": "dip",
+    "aciklama": "Sert dususun kapattigi tanidik seviye (11 Haz 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 4090,
+    "tur": "tarihsel direnc",
+    "aciklama": "Kriptolarin cosmasi icin ETH 4090 asmali - 22 Nis 2022'de verildi, haftalikta 3-4 yilda iki kez RED yedi; 4090 alti selale (15 Haz 2026 floodu)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 1379,
+    "tur": "kritik_destek",
+    "aciklama": "1379 kirilmadan hala sorun yok - 1746 pivotunun altindaki son savunma (8 Haz 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye_alt": 70600,
+    "seviye_ust": 71800,
+    "tur": "trend_kesisimi",
+    "aciklama": "Alcalan (Tem-2025) ve yukselen (Oca-2026) trendlerin kesisim bandi; 24 May 2026'da vade 6-7 Haziran olarak verildi",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "EURUSD",
+    "seviye_alt": 1.27,
+    "seviye_ust": 1.3,
+    "tur": "on_kosul",
+    "aciklama": "DXY'nin gercekten deger kaybetmesi icin EUR'un gitmesi gereken band; boga tetigi kosul-1'in paritedeki karsiligi (9 Haz 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTC.D",
+    "seviye": 57,
+    "tur": "destek_bandi",
+    "aciklama": "Bitcoin dominansi 57 bandi - normal bir dunyada pozitif okunur; ust direnc 64 (4 Haz 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTC.D",
+    "seviye": 64,
+    "tur": "direnc",
+    "aciklama": "2019-2021 zirvelerinden inen kanalin ust siniri (4 Haz 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 26000,
+    "tur": "ogreti_basamagi",
+    "aciklama": "'26 K = 6 ogretisi' - 2 kez RED (Eki-2025, Oca-2026), Nis-2026'da ABD-Iran baris haberiyle asildi; 2025'teki 22.200 kalibinin kopyasi",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 22200,
+    "tur": "tarihsel direnc",
+    "aciklama": "2025 kalibi: 2 kez RED (Ara-2024, Sub-2025), Tem-2025'te 'ABD-Iran barisi' haberiyle asirtildi - normalde borsa orada dusmeliydi",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 29600,
+    "tur": "direnc",
+    "aciklama": "H4 ust yatay; Trump kanali icinde tutulan fiyatin ust siniri (31 May 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 28570,
+    "tur": "savunma",
+    "aciklama": "28.570 asagi kirilmadikca yukari yapi korunur (8 Haz 2026 floodu)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 30260,
+    "tur": "esik",
+    "aciklama": "'30260 alti kalmadan tutarlar' - trendi asirtmadan yanlatma seviyesi (2 Haz 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 4660,
+    "tur": "trend_kesisimi",
+    "aciklama": "Ana yukselen trend ile Oca-2026 zirvesinden inen alcalan direncin kesisimi (15 Haz 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 3880,
+    "tur": "destek",
+    "aciklama": "Altin gunlukte alt yatay taban (15 Haz 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 3300,
+    "tur": "baz",
+    "aciklama": "'Sifir trendler genelde 33'te baslar' - ALTIN 3300'den ROKET (Agu-2025 konsolidasyonu); ETH 3300 bazinin altin karsiligi",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 33,
+    "tur": "tarihsel direnc",
+    "aciklama": "2025 boyunca surekli 'tokat yenen' seviye; baris gelmeyince buradan yol verildi",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 26.2,
+    "tur": "baz",
+    "aciklama": "2023-2024 birikim tabani - 'ABD kriptoyla oynarken CIN burada rahat duruyordu'",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 107800,
+    "tur": "tarihsel direnc",
+    "aciklama": "'107.8 hatirlayanlar olur' - Tem-2025 coklu tepe bolgesi, 'baris dedikleri donem'",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 98500,
+    "tur": "direnc",
+    "aciklama": "107.8 ile 80.600 arasindaki ara basamak (Nis-2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "DJI",
+    "seviye": 58000,
+    "tur": "hedef",
+    "aciklama": "Mart-2025 dibinden cikan yukselen kanalin ust cizgisi (2026 projeksiyonu) - 'kanalin cok asagisinda, gitmemistir'",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "UKOIL",
+    "seviye": 89,
+    "tur": "tetik",
+    "aciklama": "'Yeni bir stres icin 89 dolar asilmali, asilmadikca geri gelir' (15 Haz 2026); 3 aylik vade Sub->Haz 2026 tuttu",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 23700,
+    "tur": "tarihsel direnc",
+    "aciklama": "'Baris tepesi' - Trump'in Putin+Avrupa zirvesiyle kirdirdigi rakam; savas cikinca altinda kalindi. Toparlanma icin asilmali (31 Mar 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 22600,
+    "tur": "tarihsel direnc",
+    "aciklama": "Biden doneminin NASDAQ tepesi - 23.700 ile birlikte siyasi olarak etiketlenen ikili",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 24600,
+    "tur": "kritik",
+    "aciklama": "'Alti net gardi dusuyordu' - 2026 Mart dususunun ilk esigi, haftalik kanal temasi",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 29710,
+    "tur": "savunma",
+    "aciklama": "29.700 uzerinde 10 GUN tutuldu, 5 Haz 2026'da kirildi - gun sayisiyla olculen savunma",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 4700,
+    "tur": "esik",
+    "aciklama": "'4.700 uzerinde kalmadikca adamlara gore ciddi bir sorun gorunmuyor' - ana trend ile alcalan direncin kesisimi (3 Haz 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 89.3,
+    "tur": "tavan",
+    "aciklama": "'90 dolar' - 80,60'tan cikilan hareketin tepesi (13 May 2026); ayrica 2020 yukselen trendinin direnc olarak calistigi yer",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 120,
+    "tur": "savas degeri",
+    "aciklama": "'Gumusun 120 dolar gormesi ne demek? Savas cikar' (5 Sub 2026 abone)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 33000,
+    "tur": "ogreti_basamagi",
+    "aciklama": "Yelpazenin orta cizgisi + haftalikta 2022'de direnc / 2023'te destek; '33' ogretisinin BTC karsiligi",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 17000,
+    "tur": "ogreti_basamagi",
+    "aciklama": "2012 'sifir noktasi' yelpazesinin alt cizgisi",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "USDTRY",
+    "seviye": 33.08,
+    "tur": "ogreti_basamagi",
+    "aciklama": "'33 lira asilinca yurudu gitti' (Tem-2024 kirilimi) - '33' ogretisinin TL karsiligi",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUTRY",
+    "seviye": 6445,
+    "tur": "destek",
+    "aciklama": "Gram altin 6400 tabani - Oca/Nis/Haz 2026'da UC kez korundu; '6400 ustu Cin gazi, aslinda 6400 sinirdi' (19 Mar 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XU100",
+    "seviye": 12600,
+    "tur": "kritik",
+    "aciklama": "'12600 kirilirsa anca sendeler' - 13.800 robotunun altindaki savunma (27 Agu 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 4900,
+    "tur": "tarihsel direnc",
+    "aciklama": "Eki-2025 zirvesi; haftalik alcalan kanalin baslangici",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "SPX",
+    "seviye": 4900,
+    "tur": "on_kosul",
+    "aciklama": "'Burada dusursen ve faiz indirim surecini baslatsan ne kaybederdin?' - Koc'un onerdigi saglikli duzeltme dibi (1 Haz 2026)",
+    "tarih_eklendi": "2026-08-30"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 4570,
+    "tur": "pivot",
+    "aciklama": "'Olmasi gereken ALTIN degeri net 4570, burasi buyuk pivot' (13 Tem 2026); 27-28 Agu'da uc kez test edildi ve tutuldu",
+    "tarih_eklendi": "2026-08-31"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 4640,
+    "tur": "robot",
+    "aciklama": "'4640 bolgesine robot koydular' (25 Agu 2026); 27 Agu'da temas edip 70 dolar dustu",
+    "tarih_eklendi": "2026-08-31"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 4840,
+    "tur": "trend",
+    "aciklama": "Aylik grafikte 2008 dibinden gelen trend cizgisinin bugunku degeri - '8.4 ogretisi' (28 Agu 2026)",
+    "tarih_eklendi": "2026-08-31"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 73.6,
+    "tur": "kirilim",
+    "aciklama": "73,60'tan 55 dolara cakildi; ayni sayi BTC'de 73.600 olarak calisti - 'tesadufe bak' (29 Haz 2026)",
+    "tarih_eklendi": "2026-08-31"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye_alt": 70,
+    "seviye_ust": 75,
+    "tur": "denge_bandi",
+    "aciklama": "Dongu ogretisi: 120 zirve -> 60 dip -> 70-75 denge (31 May 2026); ayni bant petrol ve BTC'de de gecerli",
+    "tarih_eklendi": "2026-08-31"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye_alt": 70000,
+    "seviye_ust": 75000,
+    "tur": "denge_bandi",
+    "aciklama": "Dongu ogretisi: 120 K zirve -> 60 K dip -> 70-75 K denge (31 May 2026)",
+    "tarih_eklendi": "2026-08-31"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "UKOIL",
+    "seviye_alt": 70,
+    "seviye_ust": 75,
+    "tur": "denge_bandi",
+    "aciklama": "'ABD petrol 120 dolara gidiyor, 70-75 dolarla muhtemelen dengelenir' (31 May 2026)",
+    "tarih_eklendi": "2026-08-31"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "UKOIL",
+    "seviye": 60,
+    "tur": "savas_denklemi",
+    "aciklama": "'Gumusun 120 dolar gormesi ne demek? Petrol 60 dolar' - gumus yukari + petrol asagi = savas fiyatlamasi (5 Sub 2026)",
+    "tarih_eklendi": "2026-08-31"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "GBPJPY",
+    "seviye": 251,
+    "tur": "dongu_hedefi",
+    "aciklama": "2007 zirvesi; 7 yillik dongu sayimi (2000 dip - 2007 zirve - 2020 dip - 2027 zirve) bu seviyeyi 2027 hedefi yapiyor",
+    "tarih_eklendi": "2026-08-31"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye_alt": 29500,
+    "seviye_ust": 30800,
+    "tur": "yatay_band",
+    "aciklama": "'Burasi bile 5 ay' - May-2026'dan beri suren yatay park bandi; onceki bantlar 21.000-22.500 (5 ay) ve 25.000-26.100 (7 ay)",
+    "tarih_eklendi": "2026-08-31"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 5300,
+    "tur": "hedef",
+    "aciklama": "'Isler duzelmezse ABD isterse ALTIN'da 5300 dolari gosterebilir' (10 Oca 2026); denge kurali XAUUSD/100=USDTRY ile USDTRY 53'e karsilik gelir",
+    "tarih_eklendi": "2026-08-31"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 68800,
+    "tur": "esik",
+    "aciklama": "'7 Nisan gunune kadar 68.800 onemli, yukselis icin ustu kalis lazim' (4 Nis 2026)",
+    "tarih_eklendi": "2026-08-31"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 78947,
+    "tur": "donus_seviyesi",
+    "aciklama": "May-2026 destegi; 16-17 May'da direnc olarak reddedildi ve 18 Mayis'ta dusus buradan basladi (79 K -> 63,5 K)",
+    "tarih_eklendi": "2026-08-31"
+  },
+  {
+    "kaynak": "Oktay Teknik Analiz",
+    "enstruman": "BTCUSDT",
+    "seviye": 62300,
+    "tur": "hedef",
+    "aciklama": "'btc tepe 67800 dip 62300; tepe gecilmedikce hedef 62300' (4 Haz 2026) - Koc'un 67.800 savas degeriyle ayni sayiyi kullanan bagimsiz kaynak",
+    "tarih_eklendi": "2026-08-31"
+  },
+  {
+    "kaynak": "EkonomiFinansTeknik1",
+    "enstruman": "XAUUSD",
+    "seviye": 4001,
+    "tur": "elliott_hedefi",
+    "aciklama": "Elliott (iv) duzeltme hedefi (W-X-Y); 23 Nis ve 4 Haz 2026 karelerinde degismedi",
+    "tarih_eklendi": "2026-08-31"
+  },
+  {
+    "kaynak": "EkonomiFinansTeknik1",
+    "enstruman": "XAUUSD",
+    "seviye_alt": 6700,
+    "seviye_ust": 7000,
+    "tur": "elliott_hedefi",
+    "aciklama": "Elliott (v) dalga hedefi, 2027 basi projeksiyonu - Koc'un 5300 hedefinden agresif",
+    "tarih_eklendi": "2026-08-31"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "SPX",
+    "seviye": 7570,
+    "tur": "ogreti",
+    "aciklama": "5.7 ogretisi - formasyonun bozuldugu yer; 10 Tem 2026 7570+300=7800 robot cagrisi tuttu",
+    "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XU100",
+    "seviye": 13800,
+    "tur": "robot",
+    "aciklama": "Yil sonu icin robot seviyesi; alti duser",
+    "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XU100",
+    "seviye": 16500,
+    "tur": "hedef",
+    "aciklama": "Asil hedefti ama goturemediler - dolari salmadiklari icin ilerlemedi",
+    "tarih_eklendi": "2026-09-01"
+  }
 ]

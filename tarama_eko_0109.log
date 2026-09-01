@@ -256,3 +256,16 @@ Tek komut: `python 99_BOT_ARSIV/kod/tara_tam.py`
 ---
 *Otomatik: kapsam_durum.py*
 
++ git remote set-url origin https://github.com/winegg420/ekonomikocu.git
++ git add -A
++ git diff --cached --quiet
++ git commit -m Tarama: guncel + siniflandirma + paket (2026-08-30T12:13:09) [otomatik]
+[main 7a8ca4b] Tarama: guncel + siniflandirma + paket (2026-08-30T12:13:09) [otomatik]
+ 21 files changed, 2634 insertions(+), 1212 deletions(-)
+ create mode 100644 tarama_eko_0109.log
++ git push -u origin main
+To https://github.com/winegg420/ekonomikocu.git
+   8031cff..7a8ca4b  main -> main
+branch 'main' set up to track 'origin/main'.
+GitHub guncellendi: https://github.com/winegg420/ekonomikocu.git
+[LFS] Depo kullanimi: 861 MB / 1024 MB (%84) | 163 MB bos | kullanim SABIT (2026-08-02'den beri tarama LFS'e yeni surum eklemiyor)

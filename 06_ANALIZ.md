@@ -4585,3 +4585,223 @@ Bunun mikro kanıtı olarak NASDAQ 4H grafiği: üç ardışık tepede (29.960 �
   grafiğinde (0,00271 → 0,00027 → 0,00117) sembol adı ne görselde ne tweet metninde
   geçiyor. Analiz "hangi varlık olduğu belirlenemedi" notuyla kaydedildi —
   uydurma yapılmadı.
+
+
+## 2026-09-01 — 27 AĞUSTOS – 1 EYLÜL PENCERESİ (240 kayıt, 44 görsel)
+
+> **Kaynak:** `cekilen_tweetler.jsonl` 2026-08-27 → 2026-08-30. Bu turda arşive
+> **172 kayıt geri dolduruldu** (27 Ağu 42→92, 28 Ağu 22→131, 29 Ağu 3→16):
+> `with_replies` akışı kronolojik gelmediği için normal tarama bunları atlamıştı,
+> canlı akıştan ID diff'i + `gap_ekle.py` ile çekildi. Yani bu bölüm, önceki
+> oturumların hiç görmediği bir yığını kapsıyor.
+
+### 1) ZAMANLAMA ÇAĞRISI TUTTU: "ALTIN'da 27. gün"
+
+`2092917062335074428` (27 Ağu) — Koç kendi **25 Ağustos tarihli abone tweetinin**
+ekran görüntüsünü paylaşıyor:
+
+> *"ALTIN da aslında **27. gün** önemli de Eylül 2. güne kadar da opsiyonu var.
+> **4640 bölgesine robot koydular.**"* (25 Ağu, 747 görüntüleme)
+
+27 Ağustos'ta gerçekleşen: *"27. gün 4640 dan 70 dolar düştü. Düşülen yer
+**4570 = 5.7 öğretisi**. 70 dolar. Kazananlara bol şans"*.
+
+İki ayrı iddia birden tuttu: **tarih** (27. gün) ve **seviye** (4640 robot → 4570
+öğreti tabanı). 16_ZAMANLAMA_KARNESİ'ne girmesi gereken temiz bir kayıt.
+
+Ertesi gün doğrulama: *"Gece bir tur daha 4570 e düştü. Tekrar sektirdiler."*
+(`2093283583632740776`, 28 Ağu).
+
+### 2) ÖĞRETİ MERDİVENİ ÜÇ ENSTRÜMANDA AYNI ANDA: "5.7"
+
+Bu pencerede **5.7 öğretisi** üç ayrı varlıkta aynı hafta kullanıldı:
+
+| Enstrüman | Değer | Koç'un ifadesi |
+|---|---|---|
+| XAUUSD | **4570** | *"4570 zaten bu işin denge rakamıdır. 5.7 öğretisidir."* |
+| SP500 | **7570** | *"formasyonu bozdukları yer de 7570 dir. 7570 = 5.7 öğretisi"* |
+| ETHUSD | **2570** | *"2570 zaten öğretidir. 5.7 öğretisidir."* |
+
+Ayrıca **8.4 öğretisi**: XAUUSD **aylık** grafikte trend 4840'tan geçiyor
+(`2093284491041153472` — 2008'den gelen yükselen destek, fiyat 4602).
+
+Yeni olan şu: öğreti sayısı artık tek bir varlığın iç matematiği değil,
+**farklı varlıklarda aynı anda çalışan ortak bir ızgara** olarak sunuluyor.
+
+### 3) SP500'DE "ROBOT" İDDİASININ GERİYE DÖNÜK DOĞRULAMASI
+
+`2092938210905072074` (27 Ağu): *"10 Temmuz.. 7570 iken 200 300 puan yukarı
+**robot koydular** deyip yazmıştım. 7570 + 300 = 7800 ler görüldü."*
+
+Yani "robot" kavramı bu arşivde artık iki kez ölçülebilir hale geldi: SP500'de
+(10 Tem → 7800) ve ALTIN'da (25 Ağu → 4640). Her ikisi de **önce yazılıp sonra
+tutmuş** çağrılar.
+
+### 4) MERKEZ TEZ: "ZAMAN GEÇİRME" DOKTRİNİ
+
+Bu penceredeki en yoğun tema. Koç'un çerçevesi:
+
+> *"Eskiden bir yıl yönetim olurdu. Aynı yıl içinde sorunlar olur ve çözülürdü,
+> piyasalar iner çıkar olay biterdi. [Şimdi] diyor, **2020 ile 2030 arası** —
+> burası 10 yıl ama sanki biz bir yıl gibi yönetiyoruz."* (`2093297039094186071`)
+
+Sonuç cümlesi: *"Bu döngünün ilacı **zaman**"* (`2093303020788359373`).
+
+Mekanizma dört adımda anlatılıyor:
+1. **ABD kendi borsasına dokunmuyor** — *"son 6 yılda NASDAQ'ı 6 K dan 30 K ya
+   getirdi, aşağı esnetmiyor bile"*.
+2. Borsa düşecek olduğunda **kripto veya emtia diriltiliyor** — *"Borsa tam
+   düşecek hamle şansı gelecek BTC yi kaldırıyorlar. Hop reel borsalar yine
+   düşemediler."*
+3. Böylece **dolar zayıflıyor**, ama *"orijinalde dolar zayıflaması demek faizler
+   düşüyor demektir. Düşüyor mu? O da yok."* — yani zayıflık gerçek değil, yönetilen.
+4. **Enflasyon süreci uzuyor**, merkez bankaları parasal tavize gebe kalmıyor.
+
+Koç bunu ahlaki değil mekanik okuyor: *"Adamlar dünyaya para vermek istemiyor…
+Para vermemek için sağa sola bilerek doları dövdürüyorlar."* (`2093095919860277518`)
+
+### 5) YENİ VE ÖNEMLİ: SAVAŞIN DOLAR İÇİN İŞLEVİ TERSİNE OKUNUYOR
+
+Bu, arşivdeki en keskin yeni formülasyon (`2093382369608708484`, `2093382783838159338`):
+
+> *"Sen şu ortamda **barış** de, sağ sol yukarı gidiyor. Direkt dolar dayak yiyor.
+> Ama **savaş** olunca, sağ sol dizginleniyor, dolar dayak yiyemiyor. Savaş risk
+> iştahını düşürüyor."*
+>
+> *"Savaş **DOLAR'daki yükü alıyor**, diğer tüm ülke paralarına pay ediyor.
+> Hasarı herkese ortak yayıyor."*
+
+Buradan çıkan ve **Koç'un boğa tetiğiyle doğrudan çelişen** sonuç:
+
+> *"Bugün sosyal medyada yazılıyor: FED faiz arttıramaz. **Neyi arttıramıyor?**
+> Avrupa barışı sağlansın ve elleri sıkışsın, **şakır şakır arttırırlar.**"*
+> (`2093422559886705005`)
+>
+> *"Dua edelim de şu barışta olumlu gelişmeler yaşansın. **FED Faiz demeden**
+> aradan sıyrılalım."* (`2093423811399963106`)
+
+Yani Koç'a göre barış → risk iştahı → dolar yükü kalkar → **faiz artırımı mümkün
+hale gelir**. Bu, "faiz indirimi = boğa tetiği" varsayımının tam tersi bir kanal.
+`koc_tetigi.py`'nin 2. koşulunu (faiz indirimi) yorumlarken bu ayrım akılda tutulmalı:
+Koç'un beklediği faiz hareketi yönü, barış senaryosunda **yukarı**.
+
+### 6) BESSENT ↔ FED ÇATIŞMASI — ÖLÇÜLEBİLİR İKİ HAMLE
+
+Koç bu haftayı iki kurumun birbirini bozması olarak okuyor (`2093402454326968593`):
+
+- **20 Ağustos:** Bessent faiz oranlarına müdahale → ALTIN yukarı. Müdahale
+  seviyesi olarak **4376** veriliyor (`2093403976628584663`).
+- **28 Ağustos:** FED şahin → ALTIN/kripto dizginlendi, 4460 görüldü.
+
+> *"Ters hamle... Bir birlerini bozuyorlar veya trade ediyorlar, **zaman
+> geçiriyorlar.**"* · *"Zaman boşa gitti.. 10 gün az mı..."*
+
+Teknik sonucu (`2093435689148858463`, XAGTRY 4 saatlik): Bessent müdahalesi
+olmasaydı **aşağıda OBO** oluşacaktı; müdahale başı bozup omza çevirdi ve
+**yeni başı bir üst katta** kurdurdu. Gümüş/TL 110,60'tan çevrildi.
+
+### 7) SPGSCI — ENFLASYON TEZİNİN GRAFİK DAYANAĞI
+
+`2093453979963310398` (S&P GSCI emtia endeksi, 2002→): 2002'den gelen yükselen
+trend çizgisi. Fiyat **705,63** ile çizginin üstünde. Grafikteki not:
+
+> *"**Enflasyonun düşmesi için bu endeksin şuralara düşmesi lazım….**"*
+> — işaretlenen bölge ~**450-500**, hizası **2030-2032**.
+
+Aynı grafikte iki olay etiketli: **Rusya-Ukrayna savaşı** (2022, trendden yukarı
+kopuş) ve **ABD-İran** (2026, trende geri dönüş). İkinci görselde (`2093462935586640073`)
+2016 sorusu: *"2016 da neden mumlar çakılıyordu? Kimin sayesinde trende döndü?"*
+Cevabı kendi veriyor (`2093464425281782174`): *"2016 da emtia düşüşünü **kripto
+engelledi**. 2016 2017 2018 kripto devreye alınınca emtia yüz buldu."*
+
+Bu, "kripto = emtia/enflasyon valfi" tezinin **2016 tarihli ilk örneği** olarak
+zincire ekleniyor (daha önce 2021 ETH ve 2024 ETF örnekleri vardı).
+
+### 8) SAVAŞ–KRİPTO ZAMAN ÇİZELGESİ (dört tarih, görselli)
+
+| Tarih | Olay | Koç'un okuması |
+|---|---|---|
+| 5 Nisan 2021 | ETH devreye alındı | *"ABD savaşın çıkacağını anladığı anda kriptoları devreye aldı ve bir yıl savaşı örtbas etti"* |
+| 8 Mart 2022 | Savaş patladı, ALTIN yukarı | *"Rusya araya girdi. Ama ALTIN bu sebeple yükselmemeliydi"* |
+| 2023 | Yüksek faiz, güçlü dolar | emtia baskılandı, kripto sert düştü |
+| 6 Mart 2024 | BTC ETF | *"seçim vardı, halka para dağıtılmalıydı ama dünya bu bolluğu yaşamamalıydı → para sadece majörlere gitsin"* |
+
+### 9) TAKVİM: YENİ DURAKLAR
+
+- **Ekim 13-14:** *"Ekim 13 14 ün önemini geçmişte çok anlattım. ABD de **net TREND
+  haftasıdır.** Dünya orada ABD den artık bir beklenti içine girer."*
+  (`2093395660733112366`) — takip edilmesi gereken yeni tarih çağrısı.
+- **Eylül 15:** FED; **Eylül 24:** Çin'in ABD ziyareti (`2093030176086962653`).
+  Vade: *"Haziran 15 / Eylül 15 vadesini bitirmeye çalışıyorlar."*
+- **2027-2028:** *"2027 2028 önemli olur."* (`2093317816896082279`) — OTHERS.D ve
+  GBPJPY grafiklerinden gelen 2027 hattıyla üçüncü kez örtüşüyor.
+- Kapanış değerlendirmesi: *"**Ağustos 3. hafta** trade bakımından güzel kazandırdı."*
+  (`2093048672099438602`) — 20 Ağustos referansının Koç tarafından tekrar teyidi.
+
+### 10) BIST VE DAX
+
+**XU100** (`2093037685141053793`): *"Bist yıl sonu önemlidir. **13800 de robot var.
+12600 kırılırsa anca sendeler.** Aslında bunun hedefi **16500** idi ama
+götüremediler. Doları salmadıkları için ilerlemedi."* Ek not: *"13800 altı düşer"*,
+*"Avrupa barışı sağlansaydı **19 K**'ya kadar gideri vardı"* (`2093038699390828872`).
+Dolar bazında BIST *"bu trendi aşamıyor, sadece sürtüyor geri dönüyor"*.
+
+**DAX** (`2093321613680746741`, aylık): **13 ay** aynı bantta (≈22.400-26.000)
+yatay, ardından yukarı kırılım; fiyat 26.546. Koç'un yorumu mekanizmayı özetliyor:
+*"13 ay aynı yerde fiyat sabit kalıp yukarı %10 gitse ne olur? Faizde millet zaten
+o parayı 13 ayda çoktan kazandı."* — yani nominal yükseliş, zaman maliyetiyle
+silinen bir kazanç.
+
+### 11) ORTALAMA ÖĞRETİSİ (yeni teknik çerçeve)
+
+`2093319599538282779` → `2093321153544675344`: *"Serbest bir piyasada ortalamalar
+mumu takip eder, iner çıkar (NASDAQ 2022-2023). 2024 2025 2026'dan sonraki süreçte
+fiyat düşse de **ortalama kolay kolay eşlik etmiyor**. **Ortalama düşmeden fiyatın
+düşmesi bir anlam ifade etmez.** Bir haberle mumu ortalamaya geri döndürüyorlar."*
+Görsel: *"3 YILDIR NASDAQ — ortalamalar oynamıyor bile."*
+
+Bu, MagicMA bant mantığıyla doğrudan ilişkili: Koç'un "gerçek düşüş" ölçütü fiyat
+değil **ortalamanın kendisi**.
+
+### 12) RASYO TAKİBİ
+
+`2093029715279745404` — **BTCUSD/XAGUSD** 1,162: 2017'den gelen yükselen desteğin
+üstünde ama 2025 zirvesinden (≈3,5) sert geri gelmiş. *"Daha rasyo olarak
+aşamamış… Hemen hemen paralel hareket var."*
+
+`2093031465592271332` — kurgusal rasyo hedefi: *"NASDAQ bir gün 20 K ya düşse,
+o esnada XAUUSD 4700 olsa: **4700 / 20 K = 0,235** → 250 bandına rasyo zaten denk
+gelir."*
+
+### 13) İŞLEM İTİRAFI
+
+`2093428164693229854` (28 Ağu): *"Ben bugün misal gümüş sattım. Ama kapadım.
+**70.60 dan vurdum, 69.20 den vurdum.**"* — XAGUSD short, iki kademe.
+Pozisyon gerekçesi (`2092954761171525773`): *"Ben ALTIN short oynuyorum ama bir
+gözüm borsalardadır… Ben dünyanın ALTIN aldığına inanmıyorum, tamamen ABD doları
+zayıflatıyor gözüyle bakıyorum."*
+
+### 14) SEVİYE KÜTÜPHANESİNE EKLENENLER
+
+Bu turda `magicma/onemli_seviyeler.json`'a eklenen somut seviyeler:
+XAUUSD **4570** (5.7 öğretisi / denge), **4640** (robot), **4840** (aylık trend /
+8.4 öğretisi), **4376** (Bessent müdahale seviyesi); SPX **7570** (5.7 öğretisi /
+formasyon bozma noktası); ETHUSD **2570** (5.7 öğretisi); XU100 **13800** (robot),
+**12600** (kırılırsa düşer), **16500** (kaçırılan hedef).
+
+### 15) AÇIK İŞLER / SONRAKİ TURDA ARANACAK
+
+1. **Ekim 13-14 çağrısı** takvime alınmalı; `gunluk_ozet.py`'deki Koç takvimi şu an
+   yalnızca 60 günlük iç blok (sonraki durak 19 Ekim) üzerinden çalışıyor —
+   13-14 Ekim ayrı bir çağrı, otomatik takvimde karşılığı yok.
+2. **`koc_tetigi.py` faiz koşulu yeniden düşünülmeli.** Koç'un bu penceredeki
+   tezine göre barış → faiz **artışı**; mevcut kod "faiz indirimi = boğa koşulu"
+   varsayıyor. En azından 11_DIS_KAYNAKLAR'dan okunan ifadenin yönü, Koç'un kendi
+   çerçevesiyle çelişebilir.
+3. **SPGSCI ve DAX sembol listesinde yok** — MagicMA taraması bu ikisini izlemiyor.
+   DAX üçüncü turda üst üste çıktı, SPGSCI ilk kez ana tez grafiği oldu.
+4. Bu turda **44 görselin 6'sı** okundu (en yüksek öncelikliler). Kalan 38 görsel
+   sonraki turda taranmalı.
+5. 30-31 Ağustos ve 1 Eylül'de public akışta kayıt yok (30 Ağu'da yalnızca bayram
+   mesajı). Akışın gerçekten sessiz mi olduğu, yoksa abone katmanına mı kaydığı
+   `--abone` doldurmasıyla teyit edilmeli.
