@@ -1,0 +1,63 @@
++ git remote set-url origin https://github.com/winegg420/ekonomikocu.git
++ git add -A
+warning: in the working copy of '06_ANALIZ.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tarama_eko_0109.log', LF will be replaced by CRLF the next time Git touches it
++ git diff --cached --quiet
++ git commit -m guncelleme 2026-09-01 09:55
+[main 88b3d3d] guncelleme 2026-09-01 09:55
+ 73 files changed, 6366 insertions(+), 3897 deletions(-)
+ create mode 100644 09_GRAFIKLER_GEMINI/2092942325810921838_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2093029715279745404_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2093049002673517014_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2093089102253920637_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2093428164693229854_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2093433008057430218_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2093434441943117952_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2093434980999291001_graf_01.jpg
+ create mode 100644 09_GRAFIKLER_GEMINI/2093462935586640073_graf_01.jpg
+ create mode 100644 analiz_devam_0109.log
+ create mode 100644 eksik_idler_0109.txt
+ create mode 100644 gap_ekle_0109.log
+ create mode 100644 id_topla_out.txt
+ create mode 100644 iriscibre/medya/2093967751400378480/graf_01.jpg
+ create mode 100644 iriscibre/medya/2094060406033498393/graf_01.jpg
+ create mode 100644 iriscibre/medya/2094164971055644820/graf_01.jpg
+ create mode 100644 iriscibre/medya/2094332953027350679/graf_01.jpg
+ create mode 100644 iriscibre/medya/2094335451611975780/graf_01.jpg
+ create mode 100644 iriscibre/medya/2094335451611975780/graf_02.jpg
+ create mode 100644 iriscibre/medya/2094385753753030972/graf_01.jpg
+ create mode 100644 iriscibre/medya/2094673777871196308/graf_01.jpg
+ create mode 100644 iriscibre/medya/2094673777871196308/graf_02.jpg
+ create mode 100644 medya/2092918937730093519/graf_01.jpg
+ create mode 100644 medya/2092922663895220525/graf_01.jpg
+ create mode 100644 medya/2092929246079418626/graf_01.jpg
+ create mode 100644 medya/2092929738536853629/graf_01.jpg
+ create mode 100644 medya/2092937404978016307/graf_01.jpg
+ create mode 100644 medya/2092938210905072074/graf_01.jpg
+ create mode 100644 medya/2092942325810921838/graf_01.jpg
+ create mode 100644 medya/2092942623669453150/graf_01.jpg
+ create mode 100644 medya/2092951653628395938/graf_01.jpg
+ create mode 100644 medya/2093029715279745404/graf_01.jpg
+ create mode 100644 medya/2093049002673517014/graf_01.jpg
+ create mode 100644 medya/2093089102253920637/graf_01.jpg
+ create mode 100644 medya/2093293988715311254/graf_01.jpg
+ create mode 100644 medya/2093300694727967210/graf_01.jpg
+ create mode 100644 medya/2093302576586391558/graf_01.jpg
+ create mode 100644 medya/2093403247960596493/graf_01.jpg
+ create mode 100644 medya/2093428164693229854/graf_01.jpg
+ create mode 100644 medya/2093433008057430218/graf_01.jpg
+ create mode 100644 medya/2093434441943117952/graf_01.jpg
+ create mode 100644 medya/2093434980999291001/graf_01.jpg
+ create mode 100644 medya/2093435689148858463/graf_01.jpg
+ create mode 100644 medya/2093437638443245956/graf_01.jpg
+ create mode 100644 medya/2093453979963310398/graf_01.jpg
+ create mode 100644 medya/2093462935586640073/graf_01.jpg
+ create mode 100644 medya/2093465478123467001/graf_01.jpg
+ create mode 100644 paket_0109.log
+ create mode 100644 push_0109.log
+ create mode 100644 tarama_iris_0109.log
++ git push -u origin main
+To https://github.com/winegg420/ekonomikocu.git
+   7a8ca4b..88b3d3d  main -> main
+branch 'main' set up to track 'origin/main'.
+GitHub guncellendi: https://github.com/winegg420/ekonomikocu.git

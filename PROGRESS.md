@@ -3180,3 +3180,80 @@ Koç'un aylar önceden verdiği "Ağustos 3. hafta" penceresinin tam ortasına d
 - **Araç notu:** `cat >> dosya <<'MD'` ile uzun Türkçe markdown yazarken bash
   "unexpected EOF" verdi (heredoc parse hatası). Çözüm: içeriği Write ile scratchpad
   dosyasına yazıp python ile append etmek. Sonraki turlarda doğrudan bu yol kullanılsın.
+
+
+---
+
+## 2026-09-01 — ekonomikocu + iriscibre taraması, 27 Ağu – 1 Eyl analizi
+
+**Yapılanlar:**
+- Chrome CDP 9222 kapalıydı; oturum profiliyle (`ekonomikocu_x_session`) yeniden
+  açıldı, hesap doğrulaması geçti (@420cryptofarmer).
+- **ekonomikocu taraması** (`EKO_AKIS=yanit`): profil kaydırması yalnızca **+2**
+  yeni kayıt verdi, paket üretilip push edildi (`7a8ca4b`).
+- **Sessiz eksik yakalandı:** tarama "+2" deyip bitmesine rağmen canlı
+  `with_replies` akışından ID toplanıp arşivle diff alındı → Koç'un **27-28
+  Ağustos'a ait 178 tweeti arşivde yoktu.** `gap_ekle.py` ile **172'si** çekildi
+  (6'sı silinmiş/erişilemez). Arşiv 7.367 → **7.539**.
+  Gün bazında: 27 Ağu 42→**92**, 28 Ağu 22→**131**, 29 Ağu 3→**16**.
+- `analiz_devam.py` ile kategorize edildi, paket yeniden üretildi.
+- **iriscibre taraması** (`--hesap iriscibre --days 7`): 277 → **335** kayıt;
+  29 Ağu – 1 Eyl arası **48 yeni** kayıt geldi (önceki tarama 26 Ağustos'ta
+  kalmıştı).
+- **06_ANALIZ.md**'ye 15 başlıklı yeni bölüm eklendi (240 kayıt, 6 görsel okundu).
+- **11_DIS_KAYNAKLAR.md**'ye **Iris Cibre ilk kez** kaynak olarak girdi (6 satırlık
+  karne ile).
+- **14_CELISKI_PANELI.md**'ye iki yeni çelişki: B7 (BIST zayıflığının sebebi) ve
+  B8 (petrol yönü).
+- **16_ZAMANLAMA_KARNESI.md**: "27. gün / 4640 robot" penceresi **TUTTU** olarak
+  kapatıldı; **Ekim 13-14** yeni açık pencere olarak eklendi.
+- `magicma/onemli_seviyeler.json`: 142 → **145** (XAUUSD 4640/4840/4376 eklendi;
+  4570, SPX 7570, ETHUSDT 2570, XU100 13800/12600/16500 zaten kayıtlıymış).
+- Push: `7a8ca4b` (tarama) ve `88b3d3d` (analiz + paket).
+
+**En değerli bulgular:**
+- **Zamanlama çağrısı tuttu:** 25 Ağustos abone tweetinde *"ALTIN'da 27. gün
+  önemli… 4640 bölgesine robot koydular"* → 27 Ağustos'ta 4640'tan 70 dolar
+  düşüş, dip **4570 = 5.7 öğretisi**. Hem tarih hem seviye önceden verilmişti.
+- **5.7 öğretisi aynı hafta üç enstrümanda:** XAUUSD 4570, SPX 7570, ETHUSD 2570.
+  Öğreti sayısı artık tek varlığın iç matematiği değil, varlıklar arası ortak ızgara.
+- **Savaşın dolar için işlevi tersine okundu:** *"Savaş DOLAR'daki yükü alıyor,
+  diğer tüm ülke paralarına pay ediyor."* Buradan çıkan sonuç boğa tetiğiyle
+  çelişiyor: *"Avrupa barışı sağlansın ve elleri sıkışsın, şakır şakır
+  [faiz] arttırırlar."* — yani Koç'a göre barış → faiz **artışı**.
+- **SPGSCI grafiği** enflasyon tezinin dayanağı oldu: endeksin 450-500'e (2030-32
+  hizası) inmesi gerekiyor. Ayrıca *"2016'da emtia düşüşünü kripto engelledi"* —
+  kripto-valf tezinin bilinen en eski örneği.
+- **Bessent ↔ FED çatışması ölçüldü:** 20 Ağu Bessent müdahalesi (seviye 4376) →
+  ALTIN yukarı; 28 Ağu FED şahin → geri. Koç'un yorumu: *"Zaman boşa gitti, 10 gün."*
+- **Iris Cibre**, BIST düşüşünü MSCI'ye değil **SPK regülasyonuna** bağlıyor;
+  Koç ise dolar yönetimine. Test edilebilir ayrım tanımlandı (DXY-XU100 korelasyonu).
+
+**Kararlar ve gerekçeleri:**
+- **Tarama "+2 yeni" dese bile canlı akış diff'i yapılmalı.** `with_replies`
+  kronolojik gelmediği için profil kaydırması 172 kaydı sessizce atladı. Bu,
+  `project_sessiz_bos_tarama` notunun ikinci ve daha ciddi örneği: exit 0 + commit
+  atılmıştı, kayıp fark edilmeyecekti.
+- **`gap_ekle.py` çalışırken süreç öldürülmedi.** Script çektiği kayıtları
+  yalnızca sonda jsonl'e yazıyor; ortada öldürmek 114 tweeti çöpe atardı.
+- **iris taraması 335'te kesildi sayıldı** (scroll 42/100, yeni kayıt gelmiyordu).
+  Hedeflenen 29 Ağu – 1 Eyl penceresi tamamdı; kalan scroll'lar eski günleri
+  tarıyordu.
+- **Iris için 00-10 paketi üretilmedi** (mentor paketine özgü kural korundu);
+  bulguları 11_DIS_KAYNAKLAR + 14_CELISKI üzerinden mentor akışına bağlandı.
+
+**Süreç notu (kullanıcı uyarısı):** Bot çalışırken 3 saniye aralıklı yüzlerce
+elle kontrol yapıldı — ciddi token israfı. Üstelik log **tamponlu** yazdığı için
+sayaç sabit görünüp "bot takıldı" sanıldı; kullanıcı ekrana bakıp botun çalıştığını
+söyledi. Kural hafızaya alındı (`feedback_bot_beklerken_poll_etme`): uzun bot
+işlerinde bitiş bildirimi beklenir, ara kontrol gerekiyorsa **tek** bir uzun
+aralıklı (60 sn+) bekleme görevi kurulur.
+
+**Açık işler:**
+1. Bu turda 44 görselin **6'sı** okundu; kalan 38'i sonraki turda.
+2. `koc_tetigi.py` faiz koşulunun yönü Koç'un yeni tezine göre gözden geçirilmeli.
+3. **SPGSCI ve DAX** sembol listesinde yok — ikisi de ana tez grafiği oldu.
+4. 30-31 Ağu ve 1 Eyl'de public akış neredeyse boş; abone katmanına kayıp
+   kaymadığı `--abone` doldurmasıyla teyit edilmeli.
+5. `gunluk_ozet.py` Koç takvimi yalnızca 60 günlük iç bloğu biliyor; **Ekim 13-14**
+   ayrı bir çağrı, otomatik takvimde karşılığı yok.
