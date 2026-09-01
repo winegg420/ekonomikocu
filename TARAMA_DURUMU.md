@@ -1,10 +1,10 @@
 # TARAMA DURUMU (@ekonomikocu)
 
-**Guncelleme:** 2026-08-30T11:30:58
+**Guncelleme:** 2026-09-01T08:58:17
 
 ## Ozet (Ida'ya)
 
-> **2026-08-29 - 2025-01 sonuna kadar kesintisiz kayit VAR (alt aylarda bosluk/sorun olabilir)**
+> **Henuz kesintisiz blok yok**
 >
 > Hedef: **2025-01-01**'e kadar tum tweet + alinti + #FLOOD
 >
@@ -12,10 +12,10 @@
 
 | Metrik | Deger |
 |--------|-------|
-| En yeni kayit | **2026-08-29** |
+| En yeni kayit | **2026-08-30** |
 | En eski kayit (metinli) | **2019-11-28** |
-| Surekli tamam kadar | **2025-01-sonu** |
-| Ana tweet (metinli) | **7184** |
+| Surekli tamam kadar | **2019-11-28** |
+| Ana tweet (metinli) | **7186** |
 | Abone (metinli) | **3434** |
 | Bos / kilitli (eksik) | **0** |
 | Alinti eksik | **4** (+ bekleyen dosya: 13) |
@@ -23,13 +23,13 @@
 
 ## Eksik aylar / sorunlu donemler
 
-- (yok)
+- **2026-09**: 0 metinli, 0 bos — 0 tweet
 
 ## Son 12 ay (metinli ana tweet)
 
 | Ay | Adet |
 |----|------|
-| 2026-08 | 506 |
+| 2026-08 | 508 |
 | 2026-07 | 283 |
 | 2026-06 | 3564 |
 | 2026-05 | 1391 |
