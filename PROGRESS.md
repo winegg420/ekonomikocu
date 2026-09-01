@@ -3347,3 +3347,78 @@ BTC 2026'da 106 K'nın altına düştüğünde gerçekten yön değiştirdi.
 4. Okunmamış görsel: **1.074 → 1.024**. Kalanın %69'u Şubat-Haziran 2026'da.
 5. `dogankonya` ve `ozdmr_trading` üçüncü taraf grafikleri — dış kaynak olarak
    eklenmeleri değerlendirilebilir.
+
+---
+
+## 2026-09-01 (2) — Görsel defteri TUR 16 (100 görsel)
+
+**Yapılanlar:**
+- ekonomikoçu bekleyen görselleri (659) puanlanıp **100 görsel** seçildi ve
+  tamamı okundu. Seçim kuralı: anahtar kelime + tazelik + somut sayı puanı,
+  tweet başına en fazla 2 görsel. Pencere 21 Mar 2024 – 29 Ağu 2026.
+- `gorsel_analiz.jsonl` **824 → 924**. Bekleyen: **732** (ekonomikoçu 559,
+  iriscibre 141, efloud 32).
+- `06_ANALIZ.md` sonuna **"TUR 16"** bölümü eklendi (12 alt başlık).
+- `magicma/onemli_seviyeler.json`: **161 → 170** (9 yeni: XPTUSD 2920/1570/1060,
+  NDX 29060/24920/25284, UKOIL 95,7/96,94, SPX 7060).
+
+**En değerli bulgular:**
+1. **Öğreti sisteminin ölçekten bağımsızlığı kanıtlandı.** BTCJPY'de milyonluk
+   (19.216.998 = "9.2"), AXL'de ondalıklı (0,0606), platinde, üç ayrı TL bazlı
+   enstrümanda aynı sayı ailesi. ETHUSD'de tek trend çizgisi üzerindeki üç ardışık
+   temasın üçü de öğreti (2060 / 2570 / 3260).
+2. **YENİ ÖLÇEK: 90 günlük vade.** *"29 Aralık 2025 = 90 günlük vadenin
+   başlangıcı. Aralık 15 / Mart 15."* Takvim ölçekleri artık: gün (15) → çeyrek
+   (90) → 60 günlük Koç bloğu → yıl.
+3. **"Robot" nicelendi:** mevcut seviyenin **200-300 puan** uzağına konan çekim
+   hedefi (SPX 7570 + 300 = 7800, tuttu).
+4. **Kök tweetler bulundu:** "33" öğretisi ve "algoritma" kavramı **28 Haz 2021**;
+   makro anlatının tamamı ("dünyanın elinde hikâye kalmadı, önce rakibi zayıflat")
+   **4 Mar 2022**; 67.800 "savaş değeri" **11 Kas 2024 ABD seçim günü**.
+   67.800 seviyesi 31 Mar 2026'da hâlâ aktifti — **17 ay ömür**, arşiv rekoru.
+5. **Karşı-olgusal çizim sistematik bir yöntem** (4 örnek): gerçekleşen fiyatın
+   yanına "olması gereken" yol elle çiziliyor.
+6. **Üçüncü taraf yakınsaması:** Gann fan çalışması 80.507 / 69.776 veriyor,
+   Koç'un 80.600 / 70.600'üyle ~%0,1 fark. BTC/XAU döngüsü zirveden dibe **~14 ay**
+   (4 döngüde) → 2025 zirvesi + 14 ay = 2026 sonu/2027 başı, Koç'un 2027'siyle
+   örtüşüyor.
+7. **Çin gümüş kısıtlamasının birincil belgesi:** BPT Finans, 28 Ara 2025 —
+   *"Çin 1 Ocak 2026'dan itibaren gümüş ihracatına lisans şartı"*.
+
+**Kararlar ve gerekçeleri:**
+- **`gorsel_dekor` etiketi genişletildi:** Binance favicon PNG'si ve drone stok
+  fotoğrafı bu etikete alındı; grafik/haber olmayan ama medya klasöründe duran
+  dosyalar için tek kategori.
+- **Yöntemin sınırları AYRI bir başlıkta toplandı (TUR 16 §9).** Bunlar Koç'un
+  kendi ifadeleri: çizgi seçiminin keyfiliği itirafı (*"sadece kırmızı çizgiyi
+  değiştirdim"*), geriye dönük öğreti uydurma (gümüş 80 dedi, 86 geldi, *"86
+  zaten = 6"*), zamanlama belirsizliği (*"isterse 4 ay sonra da yapar"*), metin ile
+  grafik arasında %1,4 sapma. Arşivin sadece doğrulayıcı değil **ölçen** bir kayıt
+  olması için bu başlık her turda tutulmalı.
+- **Kırpılmış grafik doğrulanamaz sayıldı.** `2092942325810921838`'de sembol adı,
+  eksen ve tarih kırpılmış; analize "kendi başına teyit edilebilir değil" yazıldı,
+  seviye uydurulmadı.
+- **BRENT değil UKOIL kullanıldı** yeni seviye kayıtlarında; `sembol_listesi`de
+  geçen ad UKOIL, mevcut "BRENT" kayıtları eşleşmiyor olabilir (eski kayıtlara
+  dokunulmadı).
+
+**Çıkarımlar (sonraki turlar için):**
+1. **Tweet tarihi ≠ görsel tarihi.** İki doğrulanmış vaka: `2056701190927188230`
+   (19 May tweeti / 4 Haz görseli) ve `2047343957630189944` (23 Nis tweeti /
+   4 Haz görseli). İkisi de **aynı gün** güncellenmiş — Koç 4 Haziran'daki sert
+   hareketten sonra eski floodlarını yeni görsellerle paylaşmış. Bir görselin
+   tarihini tweetten çıkarmak hatalı; TradingView SS'lerinde üst satırdaki
+   "… tarihinde oluşturuldu" damgası okunmalı.
+2. **Aynı görsel iki dosya adıyla durabiliyor** (`graf_03` = `graf_04`). Görsel
+   sayısı ≠ benzersiz görsel sayısı; kalan sayısı bu yüzden bir üst sınır.
+3. **Katmanlı anlatım kalıbı:** aynı grafik önce çizgisiz sonra çizgili
+   paylaşılıyor (4-11 dakika arayla). İkisini ayrı ayrı okumak gerekiyor, ikincisi
+   birincinin tekrarı değil.
+4. **Test edilebilir açık çağrı kaydedildi:** NASDAQ haftalık üç tepe kalıbı
+   (16.445 / 22.235 / 26.299); üçüncü düzeltme henüz gelmedi, hedef **26.299**.
+   Fiyat 29.889'daydı. Karne için ölçülebilir.
+5. **Sembol listesi eksiği sürüyor:** BTCJPY, XAGTRYG, XAUTRYG, GOLDGR, A50, ADAUSD,
+   AXLUSDT, NEARUSDT bu turda seviye verdi ama `sembol_listesi`nde karşılıkları yok
+   — bu enstrümanlarda ikinci seviye kütüphanesi çalışamıyor. TL bazlı üç sembol
+   (XAUTRYG / XAGTRYG / GOLDGR) en öncelikli adaylar; Koç TL bazında da düzenli
+   öğreti veriyor.

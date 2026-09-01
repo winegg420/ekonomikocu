@@ -1305,5 +1305,77 @@
     "tur": "ogreti",
     "aciklama": "5.7 ogretisi - 1957/1960 cift cizgi (13 Nis 2026)",
     "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XPTUSD",
+    "seviye": 2920,
+    "tur": "zirve",
+    "aciklama": "Platin buyuk resim zirvesi - 9.2 ogretisi (2025 tepesi 2.921,74)",
+    "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XPTUSD",
+    "seviye": 1570,
+    "tur": "pivot",
+    "aciklama": "Platin uzun trend cizgisi / pivot - 5.7 ogretisi",
+    "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XPTUSD",
+    "seviye": 1060,
+    "tur": "cikis",
+    "aciklama": "Platin 2020-2024 ucgeninden cikis - 6 ogretisi ('1060 dan koklemisler')",
+    "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 29060,
+    "tur": "ogreti_basamagi",
+    "aciklama": "Gunluk trend cizgisi temasi - 'fiyat tam tamina 29060 = 6 ogretisi'",
+    "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 24920,
+    "tur": "trend_kesisimi",
+    "aciklama": "Gunluk kesisim - 9.2 ogretisi; 11 Sub 2026'da tam bu cizgiden dondu",
+    "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 25284,
+    "tur": "esik",
+    "aciklama": "Saatlik satis baskisi esigi (gunluk 25.060 savunmasindan ayri)",
+    "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "UKOIL",
+    "seviye": 95.7,
+    "tur": "ogreti",
+    "aciklama": "Mavi yukselen trend ile kirmizi alcalanin kesisimi - 5.7 ogretisi (19 Mar 2026)",
+    "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "UKOIL",
+    "seviye": 96.94,
+    "tur": "trend_kesisimi",
+    "aciklama": "Yeni band ust siniri; kesisim 6-7 Haziran 2026 tarihini veriyor",
+    "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "SPX",
+    "seviye": 7060,
+    "tur": "ogreti",
+    "aciklama": "Hurmuz Bogazi 17 Nis 2026'da bu seviyede acildi; gecen yilin 6060'inin tam 1000 puan ustu - 6 ogretisi",
+    "tarih_eklendi": "2026-09-01"
   }
 ]

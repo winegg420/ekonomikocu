@@ -5289,3 +5289,178 @@ deftere yazıldı.
 5. `2062583173666553879` ve `1960756838129131731` **üçüncü taraf** grafikleri —
    `11_DIS_KAYNAKLAR.md`'ye kaynak olarak eklenmeleri değerlendirilmeli
    (dogankonya ve ozdmr_trading).
+
+---
+
+## 2026-09-01 — Görsel defteri TUR 16 (100 görsel)
+
+**Kapsam:** ekonomikoçu arşivinden puanlanarak seçilen **100 görsel** okundu
+(tweet başına en fazla 2). Pencere 21 Mar 2024 – 29 Ağu 2026, ağırlık Şubat–Mayıs
+2026'da. `gorsel_analiz.jsonl` **824 → 924**. Kalan: **732** (ekonomikoçu 559).
+
+### 1. Öğreti sisteminin ölçekten bağımsızlığı KANITLANDI
+
+Bu tur, "5.7 / 6 / 9.2 öğretisi" iddiasının tek bir varlığa veya para birimine
+bağlı olmadığını gösteren en geniş kanıt setini verdi:
+
+- **BTCJPY H4** (`2026303024516194405`): üç yatay, üçü de milyonluk ölçekte ama
+  aynı sayı ailesinden — 19.216.998 = "19.200 = 9.2", 15.712.652 = "15.700 = 5.7",
+  10.687.397 = "10.600". Öğreti sayısı, seviyenin **basamak değerinden bağımsız**,
+  ilk anlamlı iki-üç hanesinden okunuyor.
+- **PLATINUM aylık** (`2029620783350268358`): 1060 (çıkış), 1570 (pivot), 2920
+  (zirve) — üçü de gerçek dönüm noktası, üçü de öğreti. Az takip edilen bir
+  metalde bile aynı aile.
+- **AXLUSDT 1H** (`2027156948966125716`): 0,0606 ve 0,084 — ondalıklı/mikro
+  fiyatlı altcoinde de aynı sayılar.
+- **TL bazlı üç ayrı örnek:** GOLDGR 160,60 / 155,70 (`2024541133423206712`),
+  XAUTRYG 6.570 (`2054140622915662070`), XAGTRYG 106,47 / 86,81
+  (`2044007270430785591`).
+- **ETHUSD H4** (`1952346432427417860`): tek trend çizgisi üzerindeki **üç
+  ardışık temasın üçü de** öğreti — 2060, 2570, 3260. Sistemin en düzenli
+  gösterimi.
+- **BTCUSD 2020 penceresi** (`2056684603960676830`): "10.600 bugün 106 K'dır"
+  — Koç'un ölçek kaydırmayı **kendi ağzından** ifade ettiği yer.
+
+### 2. Kesişim = seviye + tarih: dört yeni bağımsız doğrulama
+
+TUR 15'te belgelenen mekanizmanın bu turda dört yeni örneği çıktı, ikisi
+**farklı varlıkta aynı güne** işaret ediyor:
+
+| Varlık | Kesişim seviyesi | Kesişimin verdiği tarih | Kaynak |
+|---|---|---|---|
+| XAGUSD H4 | 75,7 / 76 (5.7) | **8-9 Mayıs 2026** | `2051240138345164807` |
+| BRENT H4 | 96,94 | **6-7 Haziran 2026** | `2061127622713630988` |
+| BTCJPY günlük | 10.687.397 | **Temmuz 2026** | `2026304885839327287` |
+| NASDAQ günlük | 24.920 (9.2) | **Mart'ın ilk haftası** | `2023407613887861195` |
+
+BRENT'in verdiği 6-7 Haziran, TUR 15'te BTCUSD kesişiminden çıkan tarihle
+**birebir aynı** — takvimin varlıktan bağımsız kurulduğunun ikinci kanıtı.
+
+### 3. YENİ ÖLÇEK: 90 günlük vade (çeyrek)
+
+`2032963026962223239` — 29 Aralık 2025 tarihli EURUSD tweeti (1.1570 / 1.2060)
+15 Mart 2026'da yeniden paylaşılırken Koç ekliyor: *"29 Aralık 2025 = **90 günlük
+vadenin başlangıcı**. Aralık 15 / Mart 15."* Arşivdeki takvim ölçekleri artık
+dört katmanlı: **gün** (15 gün → `2026417296059650373`), **hafta**, **çeyrek**
+(90 gün), **60 günlük Koç bloğu** (`gunluk_ozet.py`), **yıl** (mevsimsellik).
+
+Aynı EURUSD bandı (1,1570 / 1,2060) Mayıs 2026'da hâlâ geçerliydi
+(`2056503197141713087`) — üç buçuk ay boyunca değişmemiş.
+
+### 4. "ROBOT" kavramının nicel tanımı
+
+`2092938210905072074` (10 Tem 2026 abone tweeti): *"#SP500 7570 = 5.7 öğretisi.
+Yukarıya bir **ROBOT** koydular ama bir aydan fazla oldu... Yalan olmasın **200
+300 puan** yukarı da.."* — 27 Ağustos'ta doğrulanıyor: 7570 + 300 = 7800'ler
+görüldü. **Robot = mevcut seviyenin 200-300 puan uzağına konan çekim hedefi.**
+Arşivde bu terime verilmiş en somut ölçü.
+
+İkinci örnek `2026417296059650373`: gümüşte "81.80'de robot koydular" — robot
+seviyesi de bir öğreti sayısı.
+
+### 5. Karşı-olgusal çizim: sistematik bir yöntem olduğu doğrulandı
+
+Koç, gerçekleşen fiyatın yanına **"olması gereken" yolu elle çiziyor**. Bu turda
+dört ayrı örnek:
+
+1. `2018784528178073723` NASDAQ — *"kripto haftası dememiş olsalar bu şekil
+   düşeceklerdi ve faiz indirimleri başlayacaktı"* (22.029'dan 20.400'e).
+2. `2050321753352933619` SPX — 6060'tan 5.580'e inen OBO senaryosu.
+3. `2056329099392528569` ADA — *"orijinalde bu olması lazımdır"* (0,35'ten 0,20'ye);
+   fiyat bugün zaten 0,2481'e inmiş, yani **ertelenen düşüş gerçekleşmiş**.
+4. `2037629460577394696` XAU/BTC — *"Trump DXY yukarı alsaydı ALTIN çakılacaktı"*.
+
+### 6. Aynı olguya dört farklı oran grafiği — "borsa pahalı değil, para ucuz"
+
+Koç bu tezi tek bir orana değil, bir **oran ailesine** dayandırıyor:
+
+- **SPX/USM2** (`2053151069731963355`, üçüncü taraf @TedPillows): oran dot-com
+  zirvesiyle aynı seviyede. **DİKKAT — kaynak grafik "borsa dot-com kadar pahalı"
+  derken Koç aynı veriyi "dolar aşırı ucuz" diye okuyor.** Aynı veri, ters sonuç;
+  deflatör seçimi (M2 vs altın) sonucu belirliyor.
+- **XAU/SPX yıllık** (`2044152734190809111`, `2044150099043819526`): altın/borsa
+  2021'de 0,37 dibinden dönmüş, kanalı yukarı kırmış.
+- **NASDAQ/XAU** (`2054891231927287939`): 4,4 tabanı üç kez test edilmiş
+  (2016-18, 2019-20, 2025-26).
+- **XAU/NASDAQ** (`2092951653628395938`): 25 yıllık alçalan trendin dibinde.
+
+### 7. Üçüncü taraf teyitleri — Koç'un sayılarına bağımsız yakınsama
+
+- **Gann fan çalışması** (`2056701190927188230`, Ozyy1010): 80.507 ve 69.776
+  yatayları, Koç'un **80.600 ve 70.600** rakamlarıyla ~%0,1 farkla örtüşüyor.
+- **BTC/XAU dönmü** (`2025408106243485834`): zirveden dibe **~14 ay**, dört
+  döngüde de. 2025 zirvesi + 14 ay = **2026 sonu / 2027 başı** — Koç'un OTHERS.D
+  ve GBPJPY grafiklerinden çıkardığı 2027 tarihiyle örtüşüyor.
+- **Elliott XAUUSD** (`2047343957630189944`, EkonomiFinansTeknik1): (iv) = 4.001,
+  (v) = 6.800-7.000. TUR 15'te `onemli_seviyeler.json`'a eklenen kaydın kaynak
+  görseli bulundu.
+- **Dört yıllık döngü** (`1960756838129131731`, ozdmr_trading): "$124-128K tepe,
+  7 hafta kaldı" (27 Ağu 2025) — **TUTTU**.
+- **Çin gümüş kısıtlaması** (`2059240630245568774`, BPT Finans): *"Çin 1 Ocak
+  2026'dan itibaren gümüş ihracatına lisans şartı"* — Koç'un "Çin 2026'ya girerken
+  gümüş dedi" tezinin **birincil belgesi**, tarih birebir tutuyor.
+
+### 8. 2022-2024 kök tweetleri: makro anlatının kaynağı bulundu
+
+Bu turda dört eski tweet SS'i, bugünkü tezlerin **ilk formülasyonu** olarak
+belgelendi:
+
+- **4 Mar 2022** (`2093049002673517014`, 662 beğeni): *"Dünyanın elinde hikâye
+  kalmadı! Bu hikâyenin Avrupa'da doğması lazım... Önce rakibi zayıflat! Daha
+  sonra dip gören rakip üzerine pozitif hikâye yaz."* — tüm makro anlatının kökü.
+- **8 Mar 2022** (`2056833857761001724`): *"GRAM 500 liradayken 1080 demiştim"*
+  (tuttu) + *"ONS için majör bir ülkenin problemi için saklıyorlar"* + *"bu ülke
+  RUSYA olmamalıydı, araya girdiler"*.
+- **28 Haz 2021** (`1770900761511129163`, 4 tweetlik flood, 838-1.120 beğeni):
+  **"33" öğretisinin kaynağı** — *"33 çok önemli bir rakamdır, büyük resmin pivotu
+  yani ORTA NOKTASIDIR. ALGORİTMA VAR ORADA."* "Robot/algoritma" kavramının beş
+  yıl önceki ilk hâli.
+- **11 Kas 2024** (`2024813662423122102`, ABD seçim günü): *"67.700'ün önemli...
+  **Eski hükümet o üst kanala çıkmasına izin vermiyordu**. Trump geldi varlığı o
+  kanala çıkarttı."* — 67.800 "savaş değeri"nin doğduğu yer. Bu seviye
+  `2038994910968164441`'de (31 Mar 2026) hâlâ aktif: **17 ay ömürlü**, arşivdeki
+  en uzun ömürlü seviye.
+
+### 9. Yöntemin sınırları — Koç'un kendi ifadeleriyle
+
+Bu tur, sisteme yönelik eleştirel kayıtları da içeriyor:
+
+- **Çizgi seçiminin keyfiliği, itiraf edilmiş:** `2028195435106456015` —
+  *"Yukarıdaki grafikte **sadece kırmızı çizgiyi değiştirdim**. Orada direnç
+  yapıyorlar. Farklı bir bölgeden alırsan, bu kez aşağıda destek yapıyorlar."*
+- **Geriye dönük öğreti uydurma:** `2044007270430785591` — gümüş gram için 80 TL
+  hedefi verilmiş, dip 86 gelmiş; Koç farkı *"kur farkı"* + *"86 zaten = 6"*
+  diyerek kapatıyor.
+- **Zamanlama belirsizliği, açık beyan:** `2058669223707033920` — *"Bu adamlar
+  bunu aşağıdaki ALAN'a düşürmek istese bugün de yapar. **İsterse 4 ay sonra da
+  yapar.**"* Seviye kesin, zamanlama değil.
+- **Metin ile grafik sapması:** `1875562977786777943` — metinde 3460, grafikteki
+  gerçek çizgi 3.509,85 (%1,4 fark). Öğreti sayısı, gerçek teknik seviyeye
+  yuvarlanarak uygulanıyor.
+- **Kendi hatasını düzeltme:** `2061107921291723048` — *"29700 altında kalamazsa"*
+  → yanıtta *"Pardon üstünde olacaktı."* Bir çağrıyı değerlendirirken düzeltmenin
+  de okunması gerekiyor.
+
+### 10. Test edilebilir açık çağrı
+
+`2059026992708591713` NASDAQ haftalık: üç tepe (16.445 / 22.235 / 26.299) ve her
+birinde "gazlıyor ama tepeye düzeltiyor" kalıbı. **Üçüncüsü henüz gerçekleşmedi:**
+fiyat 29.889'da, işaretlenen düzeltme hedefi **26.299**. Üç kez tekrarlanmış bir
+kalıp ve net bir sayı — karne açısından ölçülebilir.
+
+### 11. Arşiv/yöntem bulguları
+
+- **Tweet tarihi ≠ görsel tarihi (iki doğrulanmış vaka).** `2056701190927188230`
+  (19 May tweeti, görsel **4 Haz 2026 16:52**) ve `2047343957630189944` (23 Nis
+  tweeti, görsel **4 Haz 2026 17:22**). Her ikisinde de ikinci görsel **aynı gün**
+  — Koç 4 Haziran'daki sert hareketten sonra eski floodlarını güncel görsellerle
+  yeniden paylaşmış. **Görsel tarihini tweet tarihinden çıkarmak hatalı.**
+- **Aynı görsel iki dosya adıyla:** `2060679477185626333/graf_03` ve `graf_04`
+  birebir aynı drone fotoğrafı. Görsel sayısı ≠ benzersiz görsel sayısı.
+- **Şablon kullanımı** bu turda üç kez: BTCUSD 80.600 grafiği (iki gün arayla),
+  ETHUSD 2329.2 grafiği (92 dakika arayla, ikincisi İngilizce), DOW 46.700 bandı
+  (iki gün arayla, ikincisine 40.600 eklenmiş).
+- **Katmanlı anlatım:** aynı grafik önce çizgisiz, sonra çizgili paylaşılıyor —
+  SPX OBO (4 dk arayla), XAU/SPX (11 dk arayla).
+
+### 12. `magicma/onemli_seviyeler.json`: 161 → **170** (9 yeni)
