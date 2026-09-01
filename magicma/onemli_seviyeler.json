@@ -1241,5 +1241,69 @@
     "tur": "destek",
     "aciklama": "Alt yatay destek",
     "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 26299,
+    "tur": "hedef",
+    "aciklama": "2025 tepesi - NASDAQ kurali: her gazlamadan sonra bir onceki dongu tepesine duzeltiyor (2021 tepesi 16445 ve 2024 tepesi 22235 ile iki kez tuttu)",
+    "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "EURUSD",
+    "seviye": 1.157,
+    "tur": "ogreti",
+    "aciklama": "5.7 ogretisi - 29 Ara 2025 abone tweeti: asagida 1.1570",
+    "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "EURUSD",
+    "seviye": 1.206,
+    "tur": "ogreti",
+    "aciklama": "6 ogretisi - yukarida 1.2060",
+    "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUTRY",
+    "seviye": 155.7,
+    "tur": "ogreti",
+    "aciklama": "5.7 ogretisi - gram altinda dususu frenledikleri yer (19 Sub 2026)",
+    "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BRENT",
+    "seviye": 106,
+    "tur": "direnc",
+    "aciklama": "Daralan ucgenin ust siniri; ayni zamanda 6 ogretisi",
+    "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BRENT",
+    "seviye": 84,
+    "tur": "destek",
+    "aciklama": "Daralan ucgenin alt siniri",
+    "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 70600,
+    "tur": "pivot",
+    "aciklama": "Iki trendin kesisimi (30 Nis 2026)",
+    "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 1957,
+    "tur": "ogreti",
+    "aciklama": "5.7 ogretisi - 1957/1960 cift cizgi (13 Nis 2026)",
+    "tarih_eklendi": "2026-09-01"
   }
 ]

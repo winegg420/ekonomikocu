@@ -46,6 +46,10 @@ _Güncelleme: 2026-08-30_
 | Cihat E. Çiçek | *"Altın 4.400 **Ağustos sonuna kadar** kırılmazsa Ekim'de 4.660"* | 31 Ağu 2026 | **SONUÇSUZ — koşul düştü.** Altın 4.400'ü Ağustos içinde yukarı aştı (27 Ağu 4.600-4.700), yani öngörünün ön koşulu ortadan kalktı; Ekim hedefi ölçülemez |
 
 ---
+| Koç | *"2022 ilk çeyrek ile 2022 haziran dönemi çok stratejik geçecektir"* (**22 Eki 2021**, 5 ay önceden) | 2022 Q1 + Haz 2026 | **TUTTU (ikisi de)** — savaş 2022 ilk çeyrekte çıktı, DXY tam Haziran 2022'de 114,7 ile tepe yaptı |
+| Üçüncü taraf (ozdmr_trading) | *"BTC 4 senelik döngünün sonuna yaklaştık, kabaca **7 haftamız kaldı**"* (27 Ağu 2025) | ~15 Eki 2025 | **TUTTU** — BTC zirvesi 8 Ekim 2025'te 126 K |
+| Koç | *"Bir sonraki ETH rallisi **4700**'den önce dönmez"* (**19 Mar 2024**, 25,7 B görüntüleme) | 2025 | **TUTTU** — ETH rallisi 4.700 üstünü gördükten sonra döndü |
+| Koç | Gümüş gram *"tam baskıda **80 liraya** kadar altı boş"* (12 Mar 2026, fiyat 120,60) | Mar-Ağu 2026 | **KISMEN** — dip 86,81'de durdu; Koç kendisi *"Ben 80 yazdım ama…"* diyor |
 
 ## AÇIK PENCERELER (yakından uzağa)
 
@@ -61,6 +65,7 @@ _Güncelleme: 2026-08-30_
 | Şahin kamp (Aslanoğlu, Erkan Öz, Lafçı&Perşembe) | Eylül'de/seçim sonrası faiz **artırımı** | Eylül FOMC → Kasım 2026 | İZLENİYOR |
 | Kemal Hiçyılmaz | **CLARITY Act 15 Eylül** oylaması (Senatör Lummis) | 15 Eyl 2026 | İZLENİYOR |
 | Koç | **15 Haziran – 15 Eylül** 90 günlük vade ("dünyadan zaman çalınıyor") | 15 Eyl 2026 | İZLENİYOR |
+| Koç | Gümüş gram **Eylül kesişimi = 86 lira** (13 Tem 2026); üst kesişim 106 lira | Eyl 2026 | İZLENİYOR |
 | Koç | **Ekim 13-14** — *"ABD'de net TREND haftasıdır. Dünya orada ABD'den artık bir beklenti içine girer"* (28 Ağu 2026) | 13-14 Eki 2026 | İZLENİYOR |
 | Berk Dinçtürk | CLARITY Act **Eylül'de** çıkar | 30 Eyl 2026 | İZLENİYOR |
 | Berk Dinçtürk | **Trump-Şi zirvesi 24 Eylül**, kademeli mutabakat | 24 Eyl 2026 | İZLENİYOR |

@@ -3282,3 +3282,68 @@ backtick içeren markdown doğrudan bash komut satırındaki python string'ine
 gömüldüğü için bozuldu — bash backtick'leri komut olarak çalıştırıp tweet ID'lerini
 sildi. İkisi de Write + python append yoluyla yeniden yazıldı. Kural: **markdown
 metni asla bash string'i içinde taşıma**, önce dosyaya yaz.
+
+---
+
+## 2026-09-01 (üçüncü tur) — GÖRSEL DEFTERİ TUR 13: öğreti sayılarının kuralı çözüldü
+
+**Yapılanlar:** Arşivdeki **1.033 okunmamış görselli kayıt** tespit edildi
+(06_ANALIZ.md'de geçen 312 tweet_id çıkarılarak). Puanlama uygulanıp **50 görsel**
+seçildi ve tamamı okundu; ağırlık önceki turların az dokunduğu Şubat-Nisan ve
+Temmuz-Ağustos 2026 ile 2025 öncesine verildi.
+
+**En değerli bulgu — ÖĞRETİ SAYILARI BİR ONDALIK KURALI:**
+İki yıldır arşivde gerekçesiz duran "5.7 öğretisi / 6 öğretisi" ifadelerinin
+kuralı çözüldü. Kanıt Koç'un kendi el yazısı: SP500 grafiğinde
+***"GAP 6060 = 6 ÖĞRETİSİ Mİ ?"*** (`2050321753352933619`).
+
+**Kural: seviyenin son iki hanesi öğretiyi verir** — `…57`/`…70` → 5.7 öğretisi,
+`…60` → 6 öğretisi. Ölçek (birim/bin/on bin) fark etmiyor. **17 bağımsız örnek**
+doğruluyor: EURUSD 1.1570/1.2060 (aynı tweette band), GOLDGR 155.7/160.60,
+SPX 6060/7570, NASDAQ 23700/24600, ETH 2570 ve 1957/1960, ETHTRY 75.7 bin,
+XAUUSD 4570, XAGTRY 110.60/120.60, BTCJPY 10.600, BTC 10.600→106 K,
+BRENT/XAGUSD 1.570/1.060/0.570, NEAR 20.60, BRENT 106.
+
+**Ölçek bağımsızlığı belgelendi** (26 Mar 2025): *"BTCUSD 2020 öncesi 10600'den
+red yemeler. Bu değer bugün 106 K'dır… Bugün de 106 K üstünde kalman gerekiyor."*
+BTC 2026'da 106 K'nın altına düştüğünde gerçekten yön değiştirdi.
+
+**Diğer bulgular:**
+- **22 Ekim 2021** tweeti: *"2022 ilk çeyrek ile 2022 haziran dönemi çok stratejik
+  geçecektir"* — savaş Q1'de çıktı, DXY tam Haziran 2022'de tepe yaptı. **İki tarih
+  de tuttu, 5 ay önceden.**
+- **NASDAQ "eski tepe = yeni dip" kuralı sayısallaştı:** 2021 tepesi 16.445 →
+  Şubat 2025'te oraya düzeltildi; 2024 tepesi 22.235 → Ocak 2026'da oraya
+  düzeltildi; **2025 tepesi 26.299 → sıradaki hedef, henüz gerçekleşmedi.**
+- **2020-2025 döngü infografiği** (`2067718726602871098`): beş aşama numaralı —
+  bol para → risk iştahı → savaş/dezenflasyon şoku → emtia boğası → borsa-kripto
+  yukarı/emtia aşağı. "Zaman geçirme" doktrininin tek resimde şeması.
+- **"Zaman geçirme" ifadesinin en eski kullanımı 21 Şub 2024:** *"Kademeli ileriye
+  bekleti at, zaman boşa geçsin."*
+- **Gümüş gram beş aylık tutarlı zincir:** 12 Mar "80 liraya kadar altı boş"
+  (fiyat 120,60) → 14 Nis dip 86,81 → 13 Tem "84'e bastılar, **Eylül'de kesişim
+  86 lira**" → 28 Ağu bandı 84,21-110,60.
+- **BRENT/XAGUSD oranı** ABD-Çin pazarlığının termometresi olarak sunuluyor
+  (öğreti seviyeleri 1,570 / 1,060 / 0,570).
+- Üç oran grafiği aynı sonuca çıkıyor: **altın borsa ve BTC karşısında tarihsel
+  dip bölgesinde** ve bu, ETF takvimiyle ilişkilendiriliyor.
+
+**Dosya güncellemeleri:** `06_ANALIZ.md` → TUR 13 bölümü (14 başlık);
+`16_ZAMANLAMA_KARNESI.md` → 3 TUTTU + 1 KISMEN kapanmış, 1 yeni açık pencere
+(Eylül gümüş 86 lira); `magicma/onemli_seviyeler.json` 153 → **161**.
+
+**Kararlar ve gerekçeleri:**
+- **Öğreti kuralı henüz koda dökülmedi.** 17 örnek doğruluyor ama yanlış pozitif
+  oranı ölçülmedi — bir sembolün etrafında `…57`/`…60` biten çok sayıda değer
+  var ve hepsi anlamlı değil. Otomatik türetme önce geriye dönük test edilmeli.
+- **Üçüncü taraf grafikleri karneye alındı** (ozdmr_trading'in BTC 7 hafta
+  çağrısı) ama `11_DIS_KAYNAKLAR.md`'ye kaynak olarak eklenmedi — tek gözlem,
+  sürekli takip edilen bir analist değil.
+
+**Açık işler:**
+1. Öğreti kuralının otomatik seviye türetmesi için geriye dönük test.
+2. **NASDAQ 26.299** izlenmeli — kural üç kez tuttu, dördüncüsü açık.
+3. Eylül 2026 gümüş gram 86 lira kesişimi ay içinde kapanacak.
+4. Okunmamış görsel: **1.074 → 1.024**. Kalanın %69'u Şubat-Haziran 2026'da.
+5. `dogankonya` ve `ozdmr_trading` üçüncü taraf grafikleri — dış kaynak olarak
+   eklenmeleri değerlendirilebilir.

@@ -5008,3 +5008,284 @@ karşılıkları yok.
    `XAUTRY` var, gümüş TL karşılığı yok.
 4. **ETH 2570 çift dayanaklı** (öğreti + 9 yıllık haftalık trend): kırılırsa
    Koç'un çerçevesinde bu sadece bir seviye değil **trend geri alımı** olur.
+
+
+## 2026-09-01 — GÖRSEL DEFTERİ TUR 13 (50 görsel: ÖĞRETİ SAYILARININ ŞİFRESİ ÇÖZÜLDÜ)
+
+**Seçim:** okunmamış 1.033 kayda (1.074 görsel) puanlama uygulandı — sembol
+çeşitliliği, sayısal yoğunluk, öğreti/formasyon terimleri, tarih atıfları, abone
+etiketi, uzun metin; ayrıca önceki turların az dokunduğu **Şubat-Nisan ve
+Temmuz-Ağustos 2026** ile **2025 öncesi** kayıtlara ağırlık verildi.
+Dağılım: Şub 4 · Mar 13 · Nis 8 · May 9 · Haz 10 · Tem 3 · Ağu 1 · 2025 2.
+
+---
+
+### 1) BU TURUN EN DEĞERLİ BULGUSU: ÖĞRETİ SAYILARI BİR ONDALIK KURALI
+
+Arşivde iki yıldır "5.7 öğretisi", "6 öğretisi", "8.4 öğretisi" diye geçen ve
+gerekçesi hiç yazılmamış ifadelerin **kuralı bu turda çözüldü**. Kanıt, Koç'un
+kendi el yazısıyla bir grafiğin üstünde duruyor:
+
+> `2050321753352933619` (SP500 4 saatlik, 2 May 2026) — grafiğin ortasındaki not:
+> ***"GAP 6060 = 6 ÖĞRETİSİ Mİ ?"***
+
+Kural: **seviyenin son iki hanesi öğretiyi verir.**
+`…57` → *5.7 öğretisi* · `…60` → *6 öğretisi*. Ölçek (birim, bin, on bin) fark etmez.
+
+Bu turda ve önceki turlarda toplanan **17 bağımsız örnek** kuralı doğruluyor:
+
+| Enstrüman | Seviye | Öğreti | Kaynak |
+|---|---|---|---|
+| EURUSD | **1.1570** / **1.2060** | 5.7 / 6 — *aynı tweette band olarak* | `2032963026962223239` (29 Ara 2025) |
+| GOLDGR | **155.7** / **160.60** | 5.7 / 6 — *"160.60 = 6 ÖĞRETİSİ"* yazılı | `2024541133423206712` (19 Şub 2026) |
+| SPX | **6060** (GAP) | 6 — *Koç'un kendi sorusu* | `2050321753352933619` |
+| SPX | **7570** | 5.7 | 10 Tem 2026 |
+| NASDAQ | **23700** / **24600** | 5.7 / 6 — *"23700 altı kalmadan düşmez, 24600 üstü kalsın çıkar"* | `2038941433663512654` (23 Eyl 2025) |
+| ETHUSD | **2570** | 5.7 | 11 Şub 2026 |
+| ETHUSD | **1957** / **1960** | 5.7 / 6 — *iki çizgi yan yana* | `2043663477894513135` |
+| ETHTRY | **75.7** bin | 5.7 | `2049800347133116614` (1 Şub 2026) |
+| XAUUSD | **4570** | 5.7 | 13 Tem 2026 |
+| XAGTRY | **110.60** / **120.60** | 6 | 12 Mar ve 28 Ağu 2026 |
+| BTCJPY | **10.600** | 6 | `2026304885839327287` |
+| BTCUSD | **10.600** → **106 K** | 6 (*ölçek atlayarak*) | `1904822421317726626` (26 Mar 2025) |
+| BTC "Boğa 1" | **1063** | 6 | `2077118214119588053` |
+| BRENT/XAGUSD | **1.570** / **1.060** / **0.570** | 5.7 / 6 / 5.7 | `2054133153325822197` |
+| NEAR | **20.60** | 6 — *"tam öğretiden düşürmüşler"* | `2027153303482532129` |
+| BRENT | **106** | 6 | `2043655332400975927` |
+| XAUUSD | **4840** | 8.4 | 28 Ağu 2026 (aylık trend) |
+
+**Neden önemli:** Bugüne kadar bu sayılar "Koç'un kişisel numerolojisi" gibi
+duruyordu. Kural anlaşılınca üç şey değişiyor:
+1. Koç'un **önceden verdiği seviyeler tahmin edilebilir hale geliyor** — bir
+   enstrümanda hangi seviyeyi işaretleyeceği, mevcut fiyatın yakınındaki `…57`
+   ve `…60` biten değerlerdir.
+2. `magicma/onemli_seviyeler.json`'a **kural bazlı** seviye türetilebilir.
+3. `2028194201922376181`'de BTC için **65.700** işaretlenmiş — yani kural
+   *tutmayan* seviyelerde de kullanılıyor (`…70`), demek ki 5.7 öğretisi
+   `…57` VE `…70` sonlarını kapsıyor (4570, 23700, 7570, 65700, 2570).
+
+**Ölçek bağımsızlığı (`1904822421317726626`, 26 Mar 2025):** *"BTCUSD 2020 öncesi
+**10600**'den red yemeler. Bu değer bugün **106 K**dır. BTC ne zaman atağa
+kalkmış? 10600 kırınca değil mi? **Bugün de 106 K üstünde kalman gerekiyor.**"*
+Aynı öğreti sayısı 10× ölçekte tekrar kullanılıyor — ve BTC 2026'da 106 K'nın
+altına düştüğünde gerçekten yön değiştirdi.
+
+---
+
+### 2) ZAMANLAMA: 2021'DEN VERİLEN İKİ TARİH DE TUTTU
+
+`2030637759010914732` — **22 Ekim 2021** tarihli tweet:
+
+> *"Burayı bir süreç kabul edeceğiz… **2022 ilk çeyrek ile 2022 haziran dönemi**
+> şu an bana göre **çok stratejik** geçecektir."*
+
+Gerçekleşen (`2030639020342997216`, DXY günlük): **2022 ilk çeyrek** → Rusya-Ukrayna
+savaşı çıktı. **2022 Haziran** → DXY tam o ayda 114,7 ile tepe yaptı. Grafikte iki
+tarih de işaretli. **5 ay önceden verilmiş, ikisi de tuttu.**
+
+Buna 5 Nisan 2021 tarihli Rusya-Ukrayna işareti (TUR 12'de bulundu) eklenince,
+Koç'un savaş öncesi üç ayrı kaydı belgelenmiş oluyor.
+
+---
+
+### 3) NASDAQ'IN "ESKİ TEPE = YENİ DİP" KURALI (sayısal)
+
+`2059026992708591713` (NASDAQ haftalık, 26 May 2026) üç yatay çizgi ve üç etiket:
+
+| Tepe | Seviye | Sonradan ne oldu |
+|---|---|---|
+| **2021 tepesi** | 16.445 | Şubat 2025'te tam oraya düzeltildi (yeşil işaret) |
+| **2024 tepesi** | 22.235 | Ocak 2026'da tam oraya düzeltildi |
+| **2025 tepesi** | **26.299** | *"buraya düzeltir"* — **henüz gerçekleşmedi** |
+
+Koç'un notu: *"Gazlıyor ama tepeye düzeltiyor."* Yani NASDAQ'ın düzeltme hedefi
+rastgele değil, **bir önceki döngü tepesi**. Fiyat o tarihte 29.889; kuralın
+işaret ettiği sıradaki durak **26.299**.
+
+Bunu tamamlayan iki grafik: `2037615940624326737` (aylık) *"Bu borsanın hakkı
+teknik görüntüsü buydu"* — seçim gazlaması olmasaydı 2023-2025'te 9.600'e kadar
+inen bir yol çizilmiş; ve `2018784528178073723` *"kripto haftası dememiş olsalar
+bu şekil düşeceklerdi ve **faiz indirimleri başlayacaktı**"* (22.029 çizgisi).
+
+---
+
+### 4) "ZAMAN GEÇİRME" DOKTRİNİNİN GÖRSEL ŞEMASI
+
+`2067718726602871098` — beş sütunlu infografik, **2020-2025 piyasa döngüsü**,
+aşamalar numaralandırılmış:
+
+| # | Yıl | Ne oldu |
+|---|---|---|
+| 1 | 2020 | Virüs → parasal genişleme, faizler düştü, bol para |
+| 2 | 2021 | Borsalar ve kriptolar coştu, risk iştahı zirvede |
+| 3 | 2022 | **Savaş çıktı** → şişen varlıklar sert aşağı, dezenflasyon şoku |
+| 4 | 2023-24 | **Emtia boğası** — borsa/kripto baskı altında tutuldu |
+| 5 | 2025 | Borsa/kripto yukarı, **emtia aşağı** — "yeni döngü" |
+
+4 ve 5 arasında çift yönlü ok: sıranın dönüşümlü olduğu vurgulanıyor. Bu, dağınık
+tweetlerdeki "dönem dönem kripto, dönem dönem emtia" ifadesinin **tek resimde
+şeması**.
+
+Tamamlayıcı belge `2064285506217644261` (**21 Şub 2024**): *"Adamların eli şu an
+aşırı sıkışıktır. Sıkışık olmasa kriptolara ara ara yol verirler mi? BTC ETF
+onayı! Bir süre sonra ETH onayı.. **2023'te yol veriyor muydu?** Şunu anlatıyorum
+süreçler işlerine geliyor. **Kademeli ileriye bekleti at, zaman boşa geçsin.**"*
+— "zaman geçirme" ifadesinin bilinen en eski kullanımı (2,5 yıl).
+
+---
+
+### 5) ALTIN/BORSA ORANLARI: "ALTIN HÂLÂ TARİHSEL DİPTE"
+
+Üç oran grafiği aynı sonuca çıkıyor:
+
+- `2044152734190809111` + `2044150099043819526` (**XAUUSD/SPX**, 1989→): oran
+  0,695. 2021-2023'te **1999-2001 dip bölgesine** geri gelmiş. Koç'un notu:
+  ***"BTC veya ETH ETF verene kadar ALTIN burada yukarı gitseydi"*** — yani
+  altının 2021-2023'teki baskılanması ETF takvimiyle ilişkilendiriliyor.
+- `2057165284952432994` (**XAUUSD/BTCUSD**, 2016→): 0,059. *"ALTIN BTC'ye karşı
+  dip gördüğü yer"* 2018 ve 2021'de aynı yatay çizgi.
+- `2062133407639859523` (aynı oran, "ikili dip" etiketli): 1 → 2021, 2 → 2024-25,
+  ikisi de **0,026** çizgisinde. 2026'da oradan yukarı dönmüş.
+- `2062281732112425244` (**XAGUSD/BTCUSD**): 0,00111 — 2018'den beri süren yatay
+  desteğin üstünde, alçalan direnci 2026'da kırmış. Koç: *"Gümüş BTC'den bir tık
+  güçlü kalıyor. ETF'ler yüzünden BTC fazla şişirildi."*
+- `2037629460577394696` (XAUUSD/BTCUSD): ***"Trump geçen sene DXY kaldırsa veya
+  faizlerin yukarı gitmesine izin verse! XAUUSD/BTCUSD çaprazı bu olurdu"*** —
+  çizili senaryoda oran 0,014'e iniyordu. Yani Koç'a göre altının BTC karşısındaki
+  gücü **doğrudan Trump'ın dolar tercihinin sonucu**.
+
+---
+
+### 6) GÜMÜŞ/TL: BEŞ AYLIK TUTARLI SEVİYE ZİNCİRİ
+
+Bu turda gümüş gramın **tek bir tez etrafında beş ay boyunca** izlendiği görüldü:
+
+| Tarih | Fiyat | Koç'un dediği | Sonuç |
+|---|---|---|---|
+| **12 Mar 2026** | 120,60 | *"Tam baskıda **80 liraya kadar** altı boş"* | `2044006766740922501` |
+| **14 Nis 2026** | 111,83 | *"120'den **86 liraya** kadar düşüyor. Ben 80 yazdım ama…"* | 86,81 dip oldu |
+| **13 Tem 2026** | 88,82 | *"**84 liraya** kadar bastılar. **Eylül'de kesişim var, 86 lira.** Yukarıdaki kesişim **106 lira**"* | `2076631643293405496` |
+| **28 Ağu 2026** | 102,75 | Band **84,21 – 110,60** | TUR 12'de |
+
+Yani Mart'ta verilen 80 hedefi 86'da durdu (Koç kendisi kabul ediyor), ve
+**Eylül 2026 için 86 lira kesişimi** hâlâ açık bir çağrı olarak duruyor.
+
+---
+
+### 7) BRENT: ÇİN-ABD PAZARLIĞININ TERMOMETRESİ
+
+- `2043655332400975927` (BRENT 4 saatlik, 13 Nis 2026): daralan üçgen, üst **106**
+  alt **84**. *"Gümüşte yaptıklarına benzer bir durum."*
+- `2038957888954147168` (31 Mar 2026): **106 usd** ve **97 usd** çizgileri, yükselen
+  destek. *"Petrol ile gerginlik."*
+- `2029643649672212487` (5 Mar 2026): Temmuz 2025 mumu işaretli — *"Burada dünya
+  patlıyordu. Trump engel oldu."*
+- `2054133153325822197` (**BRENT/XAGUSD**, 12 May 2026): oran 1,253; üç öğreti
+  seviyesi **1,570 / 1,060 / 0,570**. *"ABD ile ÇİN arasındaki pazarlıkları
+  düşünürsek BRENT/GÜMÜŞ çaprazına bakmak lazım."*
+
+Bu son grafik, 27 Ağustos'taki *"Çin emtia dedi, ABD petrolü kaldırdı"* anlatısının
+**ölçüm aracı**: pazarlığın kim lehine gittiği bu oranla izleniyor.
+
+---
+
+### 8) DXY: "2015-2017 KOPUŞU" VE BUGÜN
+
+`2031465788528377942` (DXY, 1999→): 2009'dan gelen yükselen trend; **2015-2017**
+bölgesinde fiyat çizgiyi üç kez test edip yukarı kopmuş. Bugün 98,9 ile çizginin
+altında, çizgi 2027'de ~128'e gidiyor.
+`2038604364986679425` (EURUSD aylık, 1995→): 2000-2002 dip bölgesi işaretli —
+*"Bölgeye dikkat edin. EUR nasıl şaha kalkıyor?"* Yani Koç, DXY'nin 2015-2017'de
+yaptığını EUR'nun 2000-2002'de yaptığıyla eşliyor: **dipte uzun süre yatan para
+birimi sonra sert dönüyor.**
+
+---
+
+### 9) BTC: ÜÇ AYRI ÇERÇEVE, AYNI SONUÇ
+
+- `2064285497736733059` (BTC haftalık): *"savaş"* (Kasım 2021 tepesi) ve *"savaş
+  düzeltmesi"* (2022) etiketli — BTC boğasının savaşla kesildiği tezi.
+- `2077118214119588053` (BTC 2011-2015, "Boğa 1"): ilk boğanın zirvesi **1063**.
+  Koç: *"ilk boğa 2010 ile 2017 arasındadır"* — yani piyasanın saydığı 4 yıllık
+  döngüden farklı bir sayım öneriyor.
+- `1960756838129131731` (**başkasının grafiği**, 27 Ağu 2025): *"4 senelik çok
+  başarılı bir döngünün sonuna yaklaşıyoruz, kabaca **7 haftamız kaldı**"* —
+  27 Ağu + 7 hafta ≈ 15 Ekim 2025; BTC zirvesi **8 Ekim 2025**'te 126 K oldu.
+  Üçüncü taraf çağrısı **tuttu**.
+- `2062583173666553879` (**başkasının**, dogankonya, 4 Haz 2026): Fibonacci
+  hedefleri **57 K / 45 K / 35 K**. İlki yine bir "5.7" sayısı.
+- `2028194201922376181` (1 Mar 2026): BTC **65.700** çizgisi + daralan üçgen.
+- `2038994910968164441` (31 Mar 2026): **67.800** çizgisi — *"68.800 üstü kalırsa
+  anca toparlıyor"* (arşivdeki "savaş değeri").
+- `2049791160818815061` (30 Nis 2026): **70.600** ve **61.951** çizgileri, iki
+  trendin kesişimi.
+
+---
+
+### 10) TARİH ÇAĞRILARI (yeni açık pencereler)
+
+- `2066285074060808305` (**20 Oca 2026**): *"**Temmuz ayına kadar** sert atar
+  gider lazım. Sonrasını sonra düşünürler."*
+- `2026304885839327287` (24 Şub 2026, BTCJPY): *"10.600 = 6 öğretisi altında kaldı…
+  Kesişim ne zaman = **Temmuz'a kadar** vaktin var."* — iki bağımsız enstrümanda
+  aynı Temmuz sınırı.
+- `2032963026962223239` (29 Ara 2025, EURUSD): *"**90 günlük vadenin başlangıcı..
+  Aralık 15 / Mart 15.** Kesişime dikkat"* — 90 günlük vade takviminin en eski
+  belgesi (arşivdeki 15 Haz/15 Eyl ve 15 Eyl/15 Ara halkalarının öncesi).
+- `2076631643293405496` (13 Tem 2026): **Eylül'de gümüş gram 86 lira kesişimi.**
+
+---
+
+### 11) "TRUMP ÖZÜR DİLEDİ" ÇERÇEVESİ
+
+`2061146617302954072` + `2063611828702236776` (**14 May 2025**, iki kopya):
+
+> *"Sonuç; Trump, Biden ve Fed'in dünyaya yanlış yaptığını kabul etti. Onlar adına
+> özür diledi ve **#Altın'ın hakkını veriyorum** dedi. Ama şart koştu, onların
+> hatalarını bana fatura etmeyin demek istedi. **Oyunu yeniden başlatıyorum
+> 2023'ten** dedi."*
+
+Bu, "ABD oyunu 2023'te kaybetti ama 2024 seçimi için ertelendi" anlatısının
+kaynak metni. `2063611828702236776`'nın Koç tarafından 7 Haz 2026'da yeniden
+paylaşılması, tezin bir yıl boyunca korunduğunu gösteriyor.
+
+---
+
+### 12) ABD'Yİ "STRESE SOKAN" GRAFİK
+
+`2086088516832842152` (8 Ağu 2026): 2001-2003 ile bugünü kıyaslayan ALTIN/NASDAQ
+kurgusu — *"20 yıl önce 2001 ve 2003 yılları arasında ALTIN, Nasdaq tarafını…"*
+Bu, TUR 11'deki "NASDAQ kalıbı" bulgusunun makro eşleniği: Koç 2000'lerin
+başındaki altın-borsa makasının bugün tekrarlandığını savunuyor.
+
+---
+
+### 13) BU TURDA KÜTÜPHANEYE EKLENENLER
+
+`magicma/onemli_seviyeler.json`'a eklenen yeni seviyeler: NASDAQ **26.299**
+(bir sonraki düzeltme hedefi), **23.700** / **24.600** (öğreti bandı);
+EURUSD **1,1570** / **1,2060**; GOLDGR **155,7**; XAGTRY **120,60** ve **86**
+(Eylül kesişimi); BRENT **106** / **97** / **84**; BTCUSD **106.000**
+(ölçek öğretisi), **70.600**, **65.700**; ETHUSD **1.957**.
+
+Sembol karşılığı olmayanlar (BRENT/XAGUSD 1,570-1,060-0,570; XAUUSD/SPX;
+XAUUSD/BTCUSD 0,026; XAGUSD/BTCUSD; NEAR 20,60; BTCJPY 10.600) yalnızca bu
+deftere yazıldı.
+
+---
+
+### 14) AÇIK İŞLER
+
+1. **Öğreti kuralı koda dökülebilir:** bir sembolün güncel fiyatına en yakın
+   `…57`, `…70` ve `…60` biten değerler otomatik türetilip `onemli_seviyeler.json`'a
+   "kural bazlı" kayıt olarak eklenebilir. Bu, kütüphaneyi elle beslemeye olan
+   bağımlılığı azaltır — **ama önce geriye dönük test edilmeli** (17 örnek
+   doğruluyor, yanlış pozitif oranı ölçülmedi).
+2. **NASDAQ 26.299 izlenmeli** — kural üç kez tuttu, dördüncüsü açık.
+3. **Eylül 2026 gümüş gram 86 lira kesişimi** `16_ZAMANLAMA_KARNESI.md`'ye
+   eklendi, ay içinde kapanacak.
+4. Okunmamış görsel sayısı **1.074 → 1.024**. Kalan yığının %69'u Şubat-Haziran
+   2026'da; bir sonraki tur için aynı puanlama uygulanabilir.
+5. `2062583173666553879` ve `1960756838129131731` **üçüncü taraf** grafikleri —
+   `11_DIS_KAYNAKLAR.md`'ye kaynak olarak eklenmeleri değerlendirilmeli
+   (dogankonya ve ozdmr_trading).
