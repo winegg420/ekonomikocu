@@ -1,0 +1,31 @@
++ git remote set-url origin https://github.com/winegg420/ekonomikocu.git
++ git add -A
+warning: in the working copy of '06_ANALIZ.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'push2_0109.log', LF will be replaced by CRLF the next time Git touches it
++ git diff --cached --quiet
++ git commit -m guncelleme 2026-09-01 10:52
+[main 0142d22] guncelleme 2026-09-01 10:52
+ 31 files changed, 1182 insertions(+), 115 deletions(-)
+ create mode 100644 iriscibre/medya/2091133111366979662/graf_01.jpg
+ create mode 100644 iriscibre/medya/2091133111366979662/graf_02.jpg
+ create mode 100644 iriscibre/medya/2091133111366979662/graf_03.jpg
+ create mode 100644 iriscibre/medya/2091133111366979662/graf_04.jpg
+ create mode 100644 iriscibre/medya/2091157590088495582/graf_01.jpg
+ create mode 100644 iriscibre/medya/2092724142529241295/graf_01.jpg
+ create mode 100644 iriscibre/medya/2092895221558178209/graf_01.jpg
+ create mode 100644 iriscibre/medya/2092949111934800349/graf_01.jpg
+ create mode 100644 iriscibre/medya/2094062472470630549/graf_01.jpg
+ create mode 100644 iriscibre/medya/2094341746595373222/graf_01.jpg
+ create mode 100644 iriscibre/medya/2094447649998999734/graf_01.jpg
+ create mode 100644 iriscibre/medya/2094450651203838062/graf_01.jpg
+ create mode 100644 iriscibre/medya/2094450651203838062/graf_02.jpg
+ create mode 100644 iriscibre/medya/2094451857527624108/graf_01.jpg
+ create mode 100644 iriscibre/medya/2094452785404092677/graf_01.jpg
+ create mode 100644 iriscibre/medya/2094470368136245711/graf_01.jpg
+ create mode 100644 iriscibre/medya/2094535172846678277/graf_01.jpg
+ create mode 100644 push3_0109.log
++ git push -u origin main
+To https://github.com/winegg420/ekonomikocu.git
+   ae0aed2..0142d22  main -> main
+branch 'main' set up to track 'origin/main'.
+GitHub guncellendi: https://github.com/winegg420/ekonomikocu.git

@@ -3257,3 +3257,28 @@ aralıklı (60 sn+) bekleme görevi kurulur.
    kaymadığı `--abone` doldurmasıyla teyit edilmeli.
 5. `gunluk_ozet.py` Koç takvimi yalnızca 60 günlük iç bloğu biliyor; **Ekim 13-14**
    ayrı bir çağrı, otomatik takvimde karşılığı yok.
+
+**EK (aynı gün, görsel deferi tamamlandı):** kalan **38 görselin tamamı** okundu ve
+06_ANALIZ.md'ye ikinci bölüm olarak yazıldı. En değerli katman: Koç'un paylaştığı
+**tarih damgalı eski abone tweetleri** — 13 Tem 2026 (XAUUSD 4570 "büyük pivot"),
+11 Şub 2026 (ETH 2570), 10 Tem 2026 (SP500 7570+300 robot), **2 Haz 2025** (BTC
+126 K görse bile boğa olmaz — 15 ay önceden), 5 Nis 2021 (Rusya-Ukrayna işareti),
+5 May 2025 (zaman doktrini), 6 Mar 2024 (kripto = faiz geciktirme), 4 Mar 2022
+(Avrupa hikayesi — Koç'un kendi kabul ettiği TUTMADI).
+
+Teknik bulgular: ETH 2570 hem "5.7 öğretisi" hem **2017'den gelen haftalık trend
+çizgisi** (öğreti sayıları keyfi değil, çizgi karşılığı); gram altın 140,60 =
+XAUUSD 4376 (Bessent seviyesi iki para biriminde işaretli); XAGTRY bandı
+84,21-110,60; DXY/XAU 0,60 çizgisi ("FED'e kalsa altına düşürmez") ve 2028-2030
+kesişimi — 2027-2028 kümesine dördüncü bağımsız grafik; NASDAQ ortalaması üç yılda
+17 ay yatay.
+
+Dosya güncellemeleri:  +4 kayıt (3 TUTTU, 1 TUTMADI),
+ +3 tutarlı kayıt ve **ilk açık öz-düzeltme bölümü**,
+ 145 → **153**. Push: .
+
+**Not:**  ilk denemede bash içinde backtick'li markdown
+yazılırken bozuldu (tweet ID'leri komut olarak çalıştırılıp silindi);
+M	push3_0109.log
+Your branch is up to date with 'origin/main'. ile geri alınıp Write+python yoluyla yeniden yazıldı. Hafızadaki
+kural bir kez daha doğrulandı: **uzun markdown'ı asla bash string'i içinde yazma.**
