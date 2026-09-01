@@ -3258,8 +3258,8 @@ aralıklı (60 sn+) bekleme görevi kurulur.
 5. `gunluk_ozet.py` Koç takvimi yalnızca 60 günlük iç bloğu biliyor; **Ekim 13-14**
    ayrı bir çağrı, otomatik takvimde karşılığı yok.
 
-**EK (aynı gün, görsel deferi tamamlandı):** kalan **38 görselin tamamı** okundu ve
-06_ANALIZ.md'ye ikinci bölüm olarak yazıldı. En değerli katman: Koç'un paylaştığı
+**EK (aynı gün, görsel defteri tamamlandı):** kalan **38 görselin tamamı** okundu ve
+`06_ANALIZ.md`'ye ikinci bölüm olarak yazıldı. En değerli katman: Koç'un paylaştığı
 **tarih damgalı eski abone tweetleri** — 13 Tem 2026 (XAUUSD 4570 "büyük pivot"),
 11 Şub 2026 (ETH 2570), 10 Tem 2026 (SP500 7570+300 robot), **2 Haz 2025** (BTC
 126 K görse bile boğa olmaz — 15 ay önceden), 5 Nis 2021 (Rusya-Ukrayna işareti),
@@ -3270,15 +3270,15 @@ Teknik bulgular: ETH 2570 hem "5.7 öğretisi" hem **2017'den gelen haftalık tr
 çizgisi** (öğreti sayıları keyfi değil, çizgi karşılığı); gram altın 140,60 =
 XAUUSD 4376 (Bessent seviyesi iki para biriminde işaretli); XAGTRY bandı
 84,21-110,60; DXY/XAU 0,60 çizgisi ("FED'e kalsa altına düşürmez") ve 2028-2030
-kesişimi — 2027-2028 kümesine dördüncü bağımsız grafik; NASDAQ ortalaması üç yılda
-17 ay yatay.
+kesişimi — 2027-2028 kümesine **dördüncü bağımsız grafik**; NASDAQ ortalaması üç
+yılda 17 ay yatay ("ortalama düşmeden fiyatın düşmesi anlam ifade etmez").
 
-Dosya güncellemeleri:  +4 kayıt (3 TUTTU, 1 TUTMADI),
- +3 tutarlı kayıt ve **ilk açık öz-düzeltme bölümü**,
- 145 → **153**. Push: .
+Dosya güncellemeleri: `16_ZAMANLAMA_KARNESI.md` +4 kayıt (3 TUTTU, 1 TUTMADI),
+`15_KOC_TUTARLILIK.md` +3 tutarlı kayıt ve **ilk açık öz-düzeltme bölümü** (Avrupa
+hikayesi), `magicma/onemli_seviyeler.json` 145 → **153**. Push: `0142d22`.
 
-**Not:**  ilk denemede bash içinde backtick'li markdown
-yazılırken bozuldu (tweet ID'leri komut olarak çalıştırılıp silindi);
-M	push3_0109.log
-Your branch is up to date with 'origin/main'. ile geri alınıp Write+python yoluyla yeniden yazıldı. Hafızadaki
-kural bir kez daha doğrulandı: **uzun markdown'ı asla bash string'i içinde yazma.**
+**Süreç notu — aynı hata iki kez:** `15_KOC_TUTARLILIK.md` ve sonra `PROGRESS.md`,
+backtick içeren markdown doğrudan bash komut satırındaki python string'ine
+gömüldüğü için bozuldu — bash backtick'leri komut olarak çalıştırıp tweet ID'lerini
+sildi. İkisi de Write + python append yoluyla yeniden yazıldı. Kural: **markdown
+metni asla bash string'i içinde taşıma**, önce dosyaya yaz.
