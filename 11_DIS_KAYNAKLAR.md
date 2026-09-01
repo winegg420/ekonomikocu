@@ -406,6 +406,38 @@ veriyor, izlenmeli.
 | ? | Eylül'de 5-6 haftalık ciddi düşüş | İZLENİYOR |
 | ? | BIST 14.410 altına dönene kadar yükseliş satış fırsatı | İZLENİYOR |
 
+### "Kriptolarda Karar Aşaması Yaklaşıyor" — taktiksel seviyeler
+
+> Kayıt: ABD borsa açılışı öncesi (04:30 TSİ), taktiksel kripto seviye videosu.
+
+**Yöntem:** ABD seansı açılışını (04:30 TSİ, +1 saat teyit için 05:30) referans alan
+kısa vadeli kırılım stratejisi — dirençler kırılırsa alım, verilen stop seviyelerinin
+altına düşerse zararı kesme.
+
+**Somut seviyeler:**
+- **Solana (SOL):** Direnç $104,17-104,29 — kırılırsa alım. Stop: sıkı takip
+  edebiliyorsan 4H SuperTrend $101,53-101,58; edemiyorsan $100.
+- **Bitcoin (BTC):** Direnç $78.964-79.000 (kırılmalı ABD seansında). Stop: sıkı takip
+  $77.194; gevşek takip $77.800.
+- **Ethereum (ETH):** Direnç $2.489-2.490. Stop: sıkı takip $2.404; gevşek takip
+  $2.387.
+- **XRP:** Direnç $1,41. Stop: sıkı takip $1,37; gevşek takip $1,3450. Şu an **tut**
+  pozisyonunda, yeni alım önerilmiyor.
+
+**[Claude çapraz kontrol]:** BTC direnci ($78.964-79.000), Sellcoin'in "Otoline"
+göstergesindeki $78.990-992 direnciyle **neredeyse birebir örtüşüyor** — iki farklı
+gösterge/kaynak bağımsız olarak aynı bölgeyi işaretliyor, güçlü teknik teyit.
+
+**Genel görünüm:** ABD borsasında future'larda satış var ama Tunç Şatıroğlu buradan
+tekrar yükseliş bekliyor; yükseliş kalıcı olursa kriptoya pozitif yansır diyor, ama
+net değil ("olmayabilir de"). Sonraki değerlendirme: Perşembe.
+
+### KARNE EK — Tunç Şatıroğlu (Karar Aşaması)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| ABD açılışı öncesi | BTC $79.000 kırarsa alım sinyali | İZLENİYOR (Sellcoin ile örtüşüyor) |
+| ABD açılışı öncesi | SOL $104,17-104,29 kırarsa alım sinyali | İZLENİYOR |
+
 ## EMRAH LAFÇI & ALİ PERŞEMBE
 
 ### Önceki oturum
@@ -579,6 +611,40 @@ kesim büyüyor.
 | Perşembe | Tahvil faizi hızlı şekilde %36'lara gelmez | İZLENİYOR |
 | Perşembe | CDS 219bp — risk priminde iyileşme (Paksoy'un 217bp'siyle örtüşüyor) | DOĞRULANDI (çapraz kaynak) |
 | Perşembe | Nvidia bilançosu balon değil, borç teması tahvil faizini besliyor | İZLENİYOR |
+
+### "Rüzgarlar Altının Karşısından Esmeye Başladı" — Parayı Ne Yapalım #72
+
+> Not: "Parayı Ne Yapalım" muhtemelen "Bana Fonları Anlat"ın başka bir bölümü/yeni adı
+> (aynı kanal) — **emin olunmadığı için ayrı video olarak işlendi**, birleştirilmedi.
+> Kayıt: Salı, Jackson Hole / Kevin Warsh satışından hemen sonra (öğlen 13:00 civarı).
+
+**Jackson Hole sonrası hasar (haftalık):**
+- ⭐ Altın: %-6,25 ($4.659 → $4.368). Gümüş: %-6'ya yakın ($68,74 → $64,70).
+- Bitcoin: %-0,83 (sınırlı). Petrol: $89,22 → $94,25 (YÜKSELDİ, Hürmüz nedeniyle).
+
+**Fed faiz artırım ihtimali — en net rakam:**
+- ⭐⭐ Konuşma ÖNCESİ: artırım %30. SONRASI: artırım %66,4. Sellcoin'in %62'siyle
+  neredeyse birebir — Fed faiz artırım teması artık **6. bağımsız kaynaktan** geliyor
+  (Aslanoğlu + Lafçı&Perşembe + Paksoy + Erkan Öz + Sellcoin + bu bölüm).
+- US10Y tekrar %4,80'e geldi (Dinçtürk'ün %4,75 tavanı temasıyla örtüşüyor).
+- ⭐ Japonya 10 yıllık tahvil faizi ilk kez 30 yılda %3'ü geçti — BOJ'dan faiz artırımı
+  bekleniyor (Paksoy'un "Japonya bombası" temasıyla aynı yönde).
+
+**Emtia enflasyonu:** Avrupa doğalgazı +%120, kükürt +%115, jet yakıtı +%53, dizel
++%49, pirinç +%45, pamuk +%43, buğday +%26. Euro bölgesi enflasyonu %2,9→%3,3.
+
+**BIST:** Haftalık BIST100 %-1,15, BIST30 %-1,78. En sert düşen sektör: iletişim
+%-7,12 — Turkcell/Telekom'da TOGG ortaklık değişikliği tartışması ("kamulaştırma"
+algısı).
+
+**USDTRY:** Yıl sonu tahmini (Emre Akçakmak grafiği) ~50,5 TL — Paksoy'un 52-55
+tahminine yakın, biraz muhafazakar.
+
+### KARNE EK — Emrah Lafçı (Parayı Ne Yapalım #72)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| Salı (JH sonrası) | Fed Eylül'de faiz artırımı ihtimali %66,4 | İZLENİYOR (6 kaynak ortak) |
+| Salı (JH sonrası) | USDTRY yıl sonu ~50,5 TL | İZLENİYOR |
 
 ## BAKI ATILAL (A1 Kapital)
 
@@ -1027,6 +1093,74 @@ hafta içinde geldiğini not et.
 | 27 Ağu | Goldman: %0,01 portföy altın artışı → %1,4 fiyat artışı | İZLENİYOR |
 | 27 Ağu | JP Morgan: $70 milyar altın girişi → %18 fiyat artışı | İZLENİYOR |
 | 27 Ağu | Carry trade TL'de tüm zamanların zirvesinde ($65,3 milyar) | DOĞRULANDI (veri anlık) |
+
+### "Fonlara Sert Fren! | Altın ve Gümüşte Cumaya Dikkat | Borsada Fon Depremi"
+
+> Kayıt: Pazartesi — Jackson Hole sonrası ilk haftalık açılış, SPK'nın cuma gecesi
+> açıkladığı serbest fon düzenlemesi sonrası.
+
+**Altın/gümüş — bu Cuma kritik:**
+- Ons altın %-0,40 daha düşüşle $4.435; gümüş toparlanmaya başladı $66,30.
+- ⭐ **Bu Cuma ABD tarım dışı istihdam (NFP) verisi kritik** — beklenti 45.000. Geçen
+  ay (Temmuz) NFP çok düşük/eksi gelmişti, o zaman altın-gümüş yükselişi başlamıştı —
+  sürpriz ihtimaline hazır olunmalı.
+- 11 Eylül ABD TÜFE, 16 Eylül Fed kararı — takvim net.
+- ⭐⭐ **Goldman Sachs bu yıl Fed'den faiz ARTIRIMI beklemiyor** — bu, çoğunluğa
+  (6 kaynaktan artırım bekleyen) karşı **önemli bir kurumsal muhalif ses**. Goldman'ın
+  yıl sonu altın hedefi: **$4.900**.
+- Fed'in siyasi baskı nedeniyle (Trump düşük faiz istiyor, Fed başkanını Trump atadı)
+  artırım yapmayabileceği ihtimali de var — tarihsel olarak Fed'in siyaseti tamamen
+  görmezden gelmediği belirtiliyor.
+
+**Petrol/jeopolitik:**
+- Geçen hafta $88 kapanış, bu hafta $91 açılış — ABD İran'da hedefleri vurdu, İran
+  BAE ve Ürdün'de hedeflere saldırdı. $100'e giderse hem ABD hem TR enflasyonu
+  yeniden alevlenir, Fed artırımı "ciddiye biner", TCMB'nin planladığı ek indirimler
+  de tehlikeye girer.
+
+**Türkiye — TCMB ve kredi faizleri:**
+- TCMB %40'tan %37'ye indirdi, devamı bekleniyor (petrol takoz olmazsa). Mevduat
+  faizleri hemen %39'a indi, kredi faizleri henüz hareket etmedi ama 3 kamu bankası
+  genel müdürü yakında indirim sinyali verdi; VakıfBank 2-3 puan konut kredisi
+  indirimi açıkladı.
+- TR 2Ç2026 büyüme %2,3 — ama inşaat sektörü %-1,9 daraldı (konut kredisi faizi
+  tekrar %3 üzerine çıkmıştı). Tarım %+13,3 (mevsimsel).
+- Ağustos'ta küresel tarım emtiası son 14 yılın en sert aylık yükselişini yaşadı —
+  TR'de yumurta, kuru soğan, kıvırcık, çay, bulgur en çok zamlanan kalemler.
+
+**⭐⭐ SPK'nın serbest fon düzenlemesi (cuma gecesi açıklandı) — büyük yapısal
+değişiklik:**
+- Kural 1: tek hissede %5'i aşan pozisyonların toplamı artık fonun %20'sini geçemez
+  (önceden tek hisse %30-50 olabiliyordu).
+- Kural 2: serbest fonlar bir hissenin halka açık payının %2-8'inden fazlasını
+  alamayacak (BIST30 mega-cap'ler bu kuraldan muaf, ama konsantrasyon kuralına tabi).
+- Kademeli geçiş: 31 Ekim'e kadar 1/3, 30 Kasım'a kadar 2/3, 31 Aralık'a kadar tam
+  uyum.
+- Portföy yönetim şirketi sermaye şartı 150M TL'den 500M TL'ye çıktı — küçük şirketler
+  arasında birleşme/kapanma bekleniyor.
+- Haftalık portföy açıklama zorunluluğu geldi (şeffaflık artışı).
+- Piyasa tepkisi: serbest fonların gözde küçük/orta ölçekli hisseleri (Peker GYO,
+  Hedef Holding, Pasifik Eurasia) taban gördü; bazıları (Odine, Destek Factoring, TR
+  Holding) hâlâ yukarıdaydı — "toz duman" henüz oturmadı.
+
+**BIST bugün:** Açılış %-0,50 (14.567), gün içi zirve 14.662, kapanış 14.334 (%-2,1).
+Bankalar %-2,38, sanayi %-1,89. Hacim 375 milyar TL (patlama). Halkbank %-8,5 (kâr
+realizasyonu), **Turkcell %-8,16** (TOGG ortaklık haberi — **Emrah Lafçı'nın aynı
+olayı bağımsız teyit ediyor**, iki kaynak aynı günü/olayı doğruluyor).
+Direnç: 14.380 ve 14.465. Destek: 14.230 ve ~14.050.
+
+**[Claude çapraz kontrol]:** Goldman Sachs'ın "Fed artırmaz, altın $4.900" görüşü,
+6 kaynaktan gelen "Fed artırır" konsensüsüne karşı **önemli bir kurumsal muhalif
+ses** — 06_ANALIZ.md'deki "kaynaklar-arası konsensüs" ve "çelişki paneli" dosyalarına
+bu çelişki mutlaka eklenmeli (Goldman vs 6-kaynak-artırım-konsensüsü).
+
+### KARNE EK — Barış Soydan (Fonlara Sert Fren)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| Pazartesi | Bu cuma NFP altın/gümüş için kritik, sürpriz olabilir | İZLENİYOR |
+| Pazartesi | Goldman: Fed artırmaz, altın yıl sonu $4.900 | İZLENİYOR (6-kaynak konsensüsüne muhalif) |
+| Pazartesi | Petrol $100'e giderse Fed+TCMB planları bozulur | İZLENİYOR |
+| Pazartesi | SPK düzenlemesi serbest fon getirilerini Aralık'a kadar aşındıracak | İZLENİYOR |
 
 ## INTEGRAL FX TV (Karagöz / Sağman / Perşembe paneli)
 
@@ -1918,6 +2052,56 @@ BTC 69K civarı seviyeleri varsa not düşülmeli.
 | 30 Ağustos | Seçim sonrası İran'a sert müdahale riski var | İZLENİYOR |
 | 30 Ağustos | BTC 200 günlük ortalamaya (~69.350) sarkabilir | İZLENİYOR |
 | 30 Ağustos | Gümüş 200 günlük ortalama (72-73) üstü kırılırsa olumlu | İZLENİYOR |
+
+### "Bambaşka Bir Ekonomi Bizi Bekliyor" — Strateji Masası (Integral ForexTV), 28 Ağustos 2026
+
+> Not: Melis Hazal Karagöz'ün sunduğu "Strateji Masası"na **konuk** olarak katıldığı
+> röportaj — görüşler Erkan Öz'e ait, kanal farklı.
+
+**Uzun vadeli çerçeve (2013/2015 kitaplarından beri savunduğu tez):**
+- 2013 ("2020 Büyük Kriz Müthiş Fırsat") ve 2015 ("Büyük Finansal Tufan") kitaplarında,
+  2019'daki "Gerçek Ekonomi" programında gelişmiş ekonomilerin bono piyasalarının zora
+  gireceğini, bunun merkez bankalarını sürekli para basmaya iteceğini, bunun da altın/
+  gümüş/Bitcoin gibi "sınırlı parasal varlıkları" değerlendireceğini öngörmüştü —
+  kendi karnesine göre tez şu ana kadar doğrulandı.
+- ⭐ Çerçeve: "bilgi ekonomisi" 3. büyük devrim (tarım → sanayi → bilgi ekonomisi).
+  Yapay zeka bu devrimin "hardcore" girişi.
+
+**Hürmüz/İran — savaş riski derinleşiyor:**
+- İlk ateşkesin çökmesi kötü sinyal; savaşın şiddetlenme ihtimali arttı.
+- ⭐ Seçim sonrası (3 Kasım) İran'a karşı daha sert müdahale riski — Erkan Öz'ün solo
+  videosuyla (ABD Ara Seçimleri) birebir tutarlı.
+- ⭐ Jeopolitik teori: Çin+Rusya, ABD'yi Hürmüz/İran'da uzun çatışmaya çekip gücünü
+  eritmek istiyor (Rusya'nın Ukrayna'da erimesi gibi); İsrail de bu senaryodan fayda
+  görüyor. Petro-dolar sistemi Hürmüz kontrolü kaybedilirse çöker.
+
+**Piyasa/portföy stratejisi:**
+- Warren Buffett'ın nakit oranı ~%70'ten son çeyrekte düşürüldü (CEO değişimiyle).
+  Shiller F/K 2 standart sapma üzerinde = piyasa pahalı.
+- Kendi stratejisi: savaş riskine karşı ciddi nakit + kalan AI/teknoloji + altın/
+  gümüş/Bitcoin arasında bölünmüş.
+
+**Altın ETF — mit kırma:**
+- ⭐ Merkez bankası alımları altının YENİ yükselişinin sebebi DEĞİL (2010'dan beri
+  zaten alıyorlar). Asıl yeni faktör: Batılı ETF alımları, Trump'ın seçilme ihtimali
+  netleştiği çeyrekten itibaren başladı.
+- Jim Rickards'ın 2026 sonu $10.000-$20.000 altın hedefini Trump Truth Social'da 2 kez
+  paylaştı (önceki solo videoyla teyit).
+- Bitcoin Act henüz onaylanmadı, seçim öncesi gündeme gelebilir/onaylanabilir.
+
+**Türkiye:** TCMB haftalık repo hamlesi "örtülü faiz indirimi", seçime (~1 yıl) doğru
+kademeli gevşeme bekleniyor.
+
+**Büyük resim — Toffler çerçevesi:** Alvin Toffler'ın tahmini: "gelecek ekonomisi 1929
+deflasyonu + Weimar enflasyonu karışımı." Erkan Öz üçüncü katman ekliyor: aynı anda
+teknoloji/AI borsa yükselişi — üçünün birlikte yaşanacağı 5-10 yıl öngörüyor.
+
+### KARNE EK — Erkan Öz (Strateji Masası)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 28 Ağustos | Merkez bankası değil, Batılı ETF alımı asıl yeni sürücü | İZLENİYOR |
+| 28 Ağustos | Seçim sonrası İran'a sert müdahale riski (tekrar) | İZLENİYOR |
+| 28 Ağustos | Bitcoin Act seçim öncesi gündeme gelebilir | İZLENİYOR |
 
 
 ---
