@@ -1177,5 +1177,69 @@
     "tur": "hedef",
     "aciklama": "Asil hedefti ama goturemediler - dolari salmadiklari icin ilerlemedi",
     "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "SPX",
+    "seviye": 7000,
+    "tur": "destek",
+    "aciklama": "Genisleyen kanal icindeki ust yatay destek (2020den gelen yapi)",
+    "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "SPX",
+    "seviye": 6300,
+    "tur": "destek",
+    "aciklama": "Alt yatay destek - yukari gittikce bu kanala duzeltme beklenebilir",
+    "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUTRY",
+    "seviye": 140.6,
+    "tur": "pivot",
+    "aciklama": "Gram altin karsiligi; XAUUSD 4376 ile ayni nokta (Bessent mudahalesi)",
+    "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUTRY",
+    "seviye": 160.6,
+    "tur": "hedef",
+    "aciklama": "Gram altin yukselen kanalinin ust hedefi",
+    "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 76,
+    "tur": "direnc",
+    "aciklama": "Ocak 2026 zirvesi 122 sonrasi alcalan kanalin ust siniri",
+    "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 53,
+    "tur": "destek",
+    "aciklama": "Alcalan kanalin alt siniri",
+    "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XU100",
+    "seviye": 11200,
+    "tur": "destek",
+    "aciklama": "Yatay destek (2024-2025 tabani)",
+    "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XU100",
+    "seviye": 9000,
+    "tur": "destek",
+    "aciklama": "Alt yatay destek",
+    "tarih_eklendi": "2026-09-01"
   }
 ]

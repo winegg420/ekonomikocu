@@ -122,6 +122,44 @@ Bunlar burada, ileride yanlışlıkla yeniden "çelişki" diye açılmasınlar d
   (*"#DOW 43760 dan #XAUUSD yi ise 4376 dan gazladılar"*) aynı ifade.
   **Değerlendirme: TUTARLI.**
 
+### ZAMAN DOKTRİNİ — 16 ay değişmedi (2026-09-01'de eklendi)
+- **5 May 2025** (`2093300694727967210`, 161,9 B görüntüleme): *"Enflasyon düşecek
+  diye bekleyenler sıkılacaklar. **Enflasyon düşmeyecek, ZAMAN ile yorulacak.**
+  Dünya zaman geçiriyor. Enflasyon düşerse M.B'ları para dağıtmak zorunda kalırlar."*
+- **27-28 Ağu 2026**: *"2020 ile 2030 arası… burası 10 yıl ama sanki biz bir yıl
+  gibi yönetiyoruz"* · *"Bu döngünün ilacı **zaman**"*.
+- **Değerlendirme: TUTARLI**, 16 ay boyunca aynı mekanizma.
+
+### KRİPTO = FAİZ İNDİRİMİNİ GECİKTİRME ARACI — 2,5 yıl değişmedi
+- **6 Mar 2024** (`2092965211812577705`): *"2024'e geliyoruz ABD kriptoların önünü
+  açıyor. Neden? Çünkü dünya faiz indirimini fiyatlamaya başladı… ABD kriptolara
+  onay veriyor, **dünya dik dursun faiz indirimleri geciktirilsin.**"*
+- **27-28 Ağu 2026**: *"Borsa tam düşecek hamle şansı gelecek BTC yi kaldırıyorlar"* ·
+  *"dönem dönem kripto, dönem dönem emtia üzerinden zayıflık yaratıyoruz"*.
+- **Değerlendirme: TUTARLI**, 2,5 yıl boyunca aynı.
+
+### ETH 2.570'in İKİNCİ DAYANAĞI ORTAYA ÇIKTI
+- `2093302576586391558` (ETHUSD **haftalık**, 28 Ağu 2026): 2017'den gelen yükselen
+  trend çizgisi bugün tam 2570 hizasından geçiyor (grafikteki not: *"2570 önemi"*).
+- Yani "5.7 öğretisi" ile **9 yıllık trend çizgisi aynı nokta** — seviyenin 13 aydır
+  değişmemesinin teknik gerekçesi de belgelenmiş oldu.
+
+---
+
+## 4. AVRUPA HİKAYESİ — kurulan senaryo gerçekleşmedi, Koç bunu kendisi söyledi
+
+- **4 Mar 2022** (`2093049002673517014` ile paylaşılan eski tweet): *"Dünyanın
+  elinde hikaye kalmadı! **Bu hikayenin Avrupa'da doğması lazım.** ABD çıkıp sana
+  iki yıldır genişliyor, daha nereye kadar genişlesin? Balon oluşuyor. O halde?
+  Önce rakibi zayıflat! Daha sonra dip gören rakip üzerine pozitif hikaye yaz.
+  Şu an bana göre aşama bu.."*
+- **27 Ağu 2026** (aynı görseli paylaşırken yazdığı metin): *"**Avrupa bölgesine
+  hikaye yazamadılar.** Bu sefer dolar riske girdi. Çünkü ÇİN devleti EMTİA dedi,
+  ek savaş çıktı."*
+- **Değerlendirme: SENARYO TUTMADI — ama bu bir tutarsızlık DEĞİL.** Koç eski
+  çağrısını saklamıyor; kendisi gündeme getirip gerçekleşmediğini söylüyor ve yeni
+  sebebi (Çin'in emtia hamlesi) veriyor. Bu dosyadaki ilk **açık öz-düzeltme** kaydı.
+
 ---
 
 ## ÖZET

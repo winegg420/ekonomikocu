@@ -35,6 +35,10 @@ _Güncelleme: 2026-08-30_
 | Koç | **Ağustos 3. hafta** karar penceresi (Haziran'dan beri, 60 gün hesabı) | ~21-23 Ağu 2026 | **TUTTU** — 17→25 Ağu: BTC +%27,1 · ETH +%32,1 · ALTIN +%5,5 · NASDAQ −%3,4. Kendi teyidi (19 Ağu 23:49): *"Bu sene kripto iki kere tepki verdi. Birisi NİSAN 7'dir. Birisi Ağustos 3. haftadır."* Sadece yön değil **kompozisyon** da tuttu |
 | Koç | *"Ağustos 3. haftaya kadar BTC 60 K üstü kalış pozitif"* (7-8 Haz, 2,5 ay önceden) | ~23 Ağu 2026 | **TUTTU** — BTC 80.526 |
 | Koç | ALTIN **"27. gün"** penceresi + **4640 robot** (25 Ağu abone tweetinde önceden verildi) | 27 Ağu 2026 | **TUTTU** — 27. gün 4640'tan 70 dolar düştü, dip **4570** (5.7 öğretisi). Ertesi gece 4570 tekrar test edilip sektirildi. Hem tarih hem seviye tuttu |
+| Koç | **XAUUSD 4570 "büyük pivot"** (13 Tem 2026 abone tweeti, 1,5 ay önceden) | 27-28 Ağu 2026 | **TUTTU** — üç dokunuş (21, 27, 28 Ağu), her seferinde sektirildi |
+| Koç | **SP500 7570 + 200-300 puan robot** (10 Tem 2026 abone tweeti) | Ağu 2026 | **TUTTU** — 7.800'ler görüldü |
+| Koç | *"BTC 126 K görse bile bu boğa olmaz, enflasyon farkı olur"* (**2 Haz 2025**, 15 ay önceden) | 29 Ağu 2026 | **TUTTU** — BTC 126 K gördü, Koç: *"boğa geldi mi? Gelmedi…"* |
+| Koç | *"Hikayenin **Avrupa'da doğması lazım**, dip gören rakip üzerine pozitif hikaye yazılır"* (4 Mar 2022) | 2026 | **TUTMADI** — Koç'un kendi kabulü (27 Ağu 2026): *"Avrupa bölgesine hikaye yazamadılar"* |
 | Integral FX TV (panel) | TCMB **10 Eylül'de** haftalık repoya geçer | 10 Eyl 2026 | **TUTTU** — ama **16 gün ERKEN** gerçekleşti (25 Ağu). Tarih ıskalandı, yön ve olay tuttu |
 | Ferhat Yükseltürk | TCMB "Eylül'e doğru" haftalık repoya geçiş | Eyl 2026 | **TUTTU** — 25 Ağu (erken) |
 | Barış Soydan | 23-28 Ağu penceresi: Nvidia bilançosu + Jackson Hole belirleyici olacak | 28 Ağu 2026 | **TUTTU** — Nvidia +%7,5 ($225), Jackson Hole konuşması yapıldı |

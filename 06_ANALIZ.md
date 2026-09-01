@@ -4805,3 +4805,206 @@ formasyon bozma noktası); ETHUSD **2570** (5.7 öğretisi); XU100 **13800** (ro
 5. 30-31 Ağustos ve 1 Eylül'de public akışta kayıt yok (30 Ağu'da yalnızca bayram
    mesajı). Akışın gerçekten sessiz mi olduğu, yoksa abone katmanına mı kaydığı
    `--abone` doldurmasıyla teyit edilmeli.
+
+
+## 2026-09-01 EK — GÖRSEL DEFTERİ: kalan 38 görsel (27 Ağu – 29 Ağu penceresi tamamlandı)
+
+> Aynı pencerenin 44 görselinin ilk 6'sı yukarıdaki bölümde okunmuştu. Bu ek,
+> **kalan 38'inin tamamını** kapsar. En değerli bulgu beklendiği gibi görsellerin
+> içindeydi: bu turda **beş ayrı önceden-verilmiş çağrının belgesi** çıktı.
+
+### A. ÖNCEDEN VERİLMİŞ ÇAĞRILARIN BELGELERİ (en değerli katman)
+
+Koç bu pencerede kendi eski tweetlerinin ekran görüntülerini paylaştı. Beşi de
+**tarih damgalı** ve hepsi abone içeriği:
+
+| Belge | Tarih | İçerik | Bugünkü durum |
+|---|---|---|---|
+| `2093285624618852432` | **13 Tem 2026** | *"Olması gereken ALTIN değeri nedir? **Net 4570 dir. Burası bence büyük pivot…**"* | 27-28 Ağu'da iki kez test edildi, sektirildi — **1,5 ay önceden** |
+| `2093293988715311254` | **11 Şub 2026** | *"Aşağıdan mal toplarken **ben 2570 geçmeden kazanç elde edemem.** Ama uygun alır orayı yukarı kırdığımda kazanç elde edeceğim"* (ETH) | ETH hâlâ 2570'in altında — **6,5 ay önceden** |
+| `2093792729322951147` | **2 Haz 2025** | *"Diyelim ki **BTC 126 K gördü**.. Bu yine bir boğa olmuyor, **enflasyon farkı oluyor.**"* | BTC 126 K gördü; Koç 29 Ağu'da: *"boğa geldi mi? Gelmedi…"* — **15 ay önceden** |
+| `2092938210905072074` | **10 Tem 2026** | *"#SP500 7570 = 5.7 öğretisi.. Yukarıya bir **ROBOT** koydular… **200 300 puan yukarı** da.."* | 7800'ler görüldü — **1,5 ay önceden** |
+| `2092960707654414464` | **5 Nis 2021** | *"İMF uyarmış dünya 2013 gibi olabilir… **Rusya Ukrayna'sından tut**, haber akışları bile kopya"* | Savaş 11 ay sonra çıktı — **en uzun vadeli kayıt** |
+
+Bunlara 25 Ağu tarihli "27. gün / 4640 robot" belgesi (yukarıdaki bölüm) eklenince
+bu tek pencerede **altı belgelenmiş önceden-çağrı** var.
+
+### B. "5.7 ÖĞRETİSİ" KEYFİ DEĞİL — TREND ÇİZGİSİYLE ÇAKIŞIYOR
+
+`2093302576586391558` (ETHUSD **haftalık**): 2017'den gelen yükselen trend çizgisi
+bugün tam **2570** hizasından geçiyor. Grafikte ok: *"2570 önemi"*, çizgiye
+*"Bu trendin devamı.."*. Fiyat 2166 — trendin **altında**.
+
+Yani 2570 hem "5.7 öğretisi" hem **9 yıllık trend çizgisi**. Aynı doğrulama
+XAUUSD'de de var: 4840 hem "8.4 öğretisi" hem 2008'den gelen aylık trend.
+Öğreti sayıları rastgele yuvarlak rakamlar değil, **çizgilerin fiyat karşılığı**.
+
+### C. ALTIN: 4640 ↔ 4570 BANDININ MİKRO YAPISI
+
+`2092917065313103921` (XAUUSD 15 dakikalık): tavan **4640,44**, taban **4570,18**.
+21-27 Ağustos boyunca fiyat bu iki çizgi arasında; 27 Ağu 04:00'te 4640'a değip
+reddedildi, 12:00'de 4570'e çakıldı. Robot ve öğreti seviyeleri **aynı grafikte**.
+
+`2093285007422792148` (saatlik): 4570 çizgisi 21 Ağu'da destek olmuş, 27-28 Ağu'da
+iki kez daha test edilmiş — üç dokunuş.
+
+### D. GRAM ALTIN — SEVİYELER ARASI ÇAPRAZ DOĞRULAMA
+
+`2092918937730093519` (GOLDGR 4 saatlik): yatay çizgi **140,60** ve üzerinde açık
+etiket: ***"140.60 / xauusd karsiligi 4376"***. Yani Bessent müdahale seviyesi
+(4376) gram altında 140,60'a denk geliyor — Koç iki para biriminde aynı noktayı
+işaretliyor. Yükselen kanalın üst hedefi **160,60**.
+
+### E. BESSENT ↔ FED ÇATIŞMASININ GÖRSEL KANITI
+
+`2093434441943117952` (XAGTRY 4 saatlik) bu haftanın en açıklayıcı grafiği:
+- **19 Ağustos**: fiyat trendi bozup düşecekken → ok: *"Normalde mal burada trend
+  bozup düşüyor…"*
+- Aynı gün → ***"Bessent gazlıyor"*** — trend kurtarılıyor, fiyat 88'den 110'a.
+- **28 Ağustos** tepede → ***"FED indiriyor"*** — sert düşüş, 110,60'tan 102,75'e.
+
+`2093403247960596493` (XAUUSD 4 saatlik) aynı iki müdahaleyi altında gösteriyor:
+"Bessent" oku 18 Ağu'daki yatay direncin kırıldığı yerde, "FED" oku 28 Ağu'daki
+dikey düşüşte.
+
+**Gümüş/TL bandı:** tavan **110,60** (çevrildiği yer), taban **84,21**
+(`2093433008057430218`). `2093437638443245956` bu bandı OBO kurgusuyla açıyor:
+gerçekleşen iki OBO (Tem-Ağu) ve **beklenen üçüncüsü** — 96-90 aralığında omuz,
+**84,21 boyun çizgisi**.
+
+**İşlem kanıtı** (`2093428164693229854`): platform ekranı — `XAGUSD sell 70.5890`
+ve `XAGUSD sell 69.2060`. Metindeki "70.60'dan vurdum, 69.20'den vurdum" birebir
+doğrulandı.
+
+### F. DXY/XAU — "FED'İN ASLA GEÇMEYECEĞİ ÇİZGİ"
+
+Bu pencerenin en iddialı grafiği, üç versiyonu var:
+
+- `2093073181472850386` (1986→): yatay çizgi ≈ **0,60**. 1996, 2006, 2013, 2024'te
+  dip yapmış. Etiketler: ***"Şu çizginin altına FED'e kalsa düşürmez"*** ·
+  ***"TRUMP zayıflatıyor"*** · ***"Yükseliş burada gelir"*** (2026-2028 hizası).
+  Bugün **0,231** — tarihte ilk kez bu çizginin çok altında.
+- `2093068345641680965`: aynı seri, 1988'den gelen **alçalan** destek ve 2016'dan
+  gelen alçalan direnç **2028-2030'da kesişiyor**. Etiket: *"ABD'nin izin vereceği
+  bölge şu aşağı maviye değene kadardır. Ondan sonra müdahale ederler."*
+- `2093066753639067774` (DXY/XAUUSD, 2016→): oran **0,022**, kesintisiz düşüş.
+
+Bu, arşivdeki **2027-2028 kümesine dördüncü bağımsız grafik** (önceki üçü GBPJPY,
+BTCJPY, OTHERS.D).
+
+### G. ENDEKSLER: BANTLAR VE "5 AY" ÖĞRETİSİ
+
+**NASDAQ** (`2092922663895220525`, günlük): iki kesik çizgi ≈ **27.900-30.400**,
+fiyat 29.527 — *"beş aydır bu bantta"*.
+
+**NASDAQ ortalama** (`2093320771447754975`): üç yatay dönem etiketli —
+*"Yatay 5 ay"* (Kas 24-Mar 25), *"yatay 7 ay"* (Eki 25-Nis 26),
+*"Burası bile 5 ay"* (May 26→). Üç yılda **17 ay** ortalama neredeyse hiç kıpırdamamış.
+Karşılaştırma grafiği `2093320049624743983` (NASDAQ 2021-2023) ortalamanın
+**normalde** fiyatla birlikte inip çıktığını gösteriyor. Koç'un ölçütü:
+*"Ortalama düşmeden fiyatın düşmesi bir anlam ifade etmez."*
+
+**SP500** (`2092929246079418626`, 2020→): genişleyen kanal, üst sınır 2028'de
+≈9.600. İki yatay destek: **7.000** ve **6.300**. *"Yukarı gittikçe aşağıdaki
+kanala düzeltme beklenebilir"* — hedef bölge 6.300-6.400.
+`2092929738536853629` aynı yapıyı OBO olarak açıyor: omuz Kas 25-Mar 26 (6.600-6.900),
+baş Ağu 26 (7.800). `2092937404978016307` ve `2092942623669453150`: **7.570**
+formasyonun bozulduğu nokta, 7.800'e fırlayan mum oradan çıkmış.
+
+**XU100** (`2093037685141053793`): 2023'ten gelen yükselen trend bugün **≈17.000**;
+fiyat **14.575** — Mayıs 2026'da trendi kaybetmiş (kırmızı işaretli bölge trendin
+üstünde, fiyat altında kaldı). Metindeki 16.500 hedefi bu çizginin o zamanki
+karşılığı. Yatay destekler: **11.200** ve **9.000**.
+Dolar bazında (`2093039308395401622`, XU100/USD): 2004'ten gelen trend **≈390**,
+fiyat **302,84** — *"sürtüyor geri dönüyor"* ifadesinin sayısal karşılığı.
+
+### H. GÜMÜŞ (USD) — ALÇALAN KANAL
+
+`2093040738166616344` (günlük): Ocak 2026 zirvesi **122** sonrası alçalan kanal;
+üst sınır ≈76, alt sınır ≈53. Fiyat 69,2. Koç'un 70,60/69,20 shortları kanalın
+üst yarısında açılmış — **kanal mantığıyla tutarlı** işlem.
+
+### I. SPGSCI — EMTİA/KRİPTO VALFİNİN TAM ZAMAN ÇİZELGESİ
+
+`2093465478123467001` bu tezin en açık grafiği (1999→), dört etiket:
+1. *"EMTİA fiyatları çakılırken **kripto devreye alınıyor**, enflasyon ılık şekilde
+   ısındırılıyor"* (2015-2017)
+2. *"**Kriptodan yüz bulan emtia** azıyor, ekonomiler bir süre nefes alıyor"* (2017-2019)
+3. *"Çözüm olmuyor, **virüs ile çökertip para saçıyorlar**"* (2020)
+4. Ardından 2021-2022 emtia patlaması.
+
+`2093462935586640073` aynı seride 2016 ve 2020'yi soru olarak işaretliyor:
+*"Burada neden mumlar düşüyordu? Mumlar trende nasıl döndü?"*
+
+### J. SAVAŞ–KRİPTO ZİNCİRİ: BELGELERLE
+
+- `2092961726874468760` (ETHUSD günlük): **5 Nisan 2021** üçgen kırılımı
+  işaretli — ETH'nin devreye alındığı an.
+- `2092962378820252159` (**8 Mart 2022** tweeti): *"#GRAM 500 liradayken **1080
+  demiştim**… 1080 o dönem geldi. Ons içinse **majör bir ülkenin problemi için
+  saklıyorlar** dedim. Ama bana göre bu iş için hâlâ erken ve bu ülke **RUSYA
+  olmamalıydı**."* — İki katman: gram altın çağrısı tuttu; ve altının asıl
+  tetikleyicisinin **henüz gelmediği** iddiası.
+- `2092965211812577705` (**6 Mart 2024** tweeti): *"2024'e geliyoruz ABD kriptoların
+  önünü açıyor. Neden? Çünkü dünya faiz indirimini fiyatlamaya başladı… ABD
+  kriptolara onay veriyor, **dünya dik dursun faiz indirimleri geciktirilsin**."*
+  Bugünkü tezle **birebir aynı** — 2,5 yıllık tutarlılık.
+- `2093089102253920637` (ALTIN günlük 2016-2017): Trump seçilince altın **1337 →
+  1122** (215 dolar). Metindeki *"250 dolar düştü"* yaklaşık; grafik 215 diyor.
+
+### K. "ZAMAN GEÇİRME" DOKTRİNİNİN 16 AY ÖNCEKİ HALİ
+
+`2093300694727967210` (**5 May 2025**, 161,9 B görüntüleme — arşivdeki en yaygın
+görsellerden): *"Enflasyon düşecek diye bekleyenler sıkılacaklar. **Enflasyon
+düşmeyecek, ZAMAN ile yorulacak.** Dünya zaman geçiriyor. **Enflasyon düşerse
+M.B'ları para dağıtmak zorunda kalırlar.**"*
+
+Bu pencerenin ana tezi 16 ay önce bu cümleyle kurulmuş. `15_KOC_TUTARLILIK.md`
+için birinci sınıf kayıt.
+
+### L. KOÇ'UN KENDİ "TUTMADI" KAYDI
+
+`2093049002673517014` (**4 Mar 2022** tweeti): *"Dünyanın elinde hikaye kalmadı!
+**Bu hikayenin Avrupa'da doğması lazım.** Önce rakibi zayıflat! Daha sonra dip
+gören rakip üzerine pozitif hikaye yaz. Şu an bana göre aşama bu.."*
+
+27 Ağustos 2026'daki kendi değerlendirmesi: *"**Avrupa bölgesine hikaye
+yazamadılar.** Bu sefer dolar riske girdi. Çünkü ÇİN devleti EMTİA dedi, ek savaş
+çıktı."* — Yani 2022'deki senaryo gerçekleşmedi ve Koç bunu açıkça kabul ediyor.
+Karneye **TUTMADI** olarak işlenmesi gereken nadir bir öz-değerlendirme.
+
+### M. RASYO VE PARALEL YÖNETİM
+
+`2092951653628395938` (**XAUUSD/NASDAQ**, 1995→): oran **0,156**. 1995'ten gelen
+alçalan direnç 2026'da kırılmış; iki yatay bant (0,30 ve 0,10-0,12) çizili.
+"ALTIN dip" işaretleri: 1999-2001 ve **2021-2023**. Etiket: *"Trump döneminde
+EMTİA niçin yukarı gitti denmesin…"* — yani altının yükselişi Nasdaq'a **oranla**
+hâlâ tarihsel dibe yakın.
+
+`2093434980999291001` (**21 Ağu 2026** tweeti): *"Halbuki **faizlere müdahale
+etmeseler nasdaq altın el ele düşüyordu.** Dolar bazlı iki tarafta düşüyordu.
+Doları zayıflattılar ve ALTIN yukarı gitti, nasdaq düşüşü kripto ile frenlendi."*
+Altındaki kendi yanıtı: *"Dolar bazlı iki tarafta düşse FED zora düşerdi. **Şimdi
+düşmez…**"* — paralel yönetim tezinin en yalın ifadesi.
+
+### N. BU EKTE KÜTÜPHANEYE EKLENEN SEVİYELER
+
+SPX **7000** ve **6300** (yatay destekler / düzeltme hedefi);
+XAUTRY karşılığı olarak GOLDGR **140,60** ve **160,60** (kanal hedefi);
+XAGUSD kanal sınırları **76** / **53**; XU100 **11.200** ve **9.000**;
+XU100/USD trend **390**. Sembol karşılığı olmayanlar (DXY/XAU 0,60, XAUUSD/NASDAQ
+0,30-0,10, SPGSCI 450-500) yalnızca bu deftere yazıldı — alarm motorunda
+karşılıkları yok.
+
+### O. BU EKTEN ÇIKAN AÇIK İŞLER
+
+1. **`15_KOC_TUTARLILIK.md` güncellenmeli:** 5 May 2025 (zaman doktrini) ve
+   6 Mar 2024 (kripto = faiz geciktirme) kayıtları tutarlılık lehine; 4 Mar 2022
+   Avrupa hikayesi ise Koç'un kendi kabul ettiği **TUTMADI**.
+2. **`16_ZAMANLAMA_KARNESİ.md`'ye üç yeni kapanmış kayıt:** 13 Tem 4570 pivotu,
+   10 Tem SP500 7570+300 robotu, 2 Haz 2025 BTC 126 K yorumu.
+3. **XAGTRY / GOLDGR sembol listesinde yok** — Koç TL bazlı seviyeleri düzenli
+   veriyor (110,60 · 84,21 · 140,60 · 160,60) ama alarm motoru bunları izleyemiyor.
+   `XAUTRY` var, gümüş TL karşılığı yok.
+4. **ETH 2570 çift dayanaklı** (öğreti + 9 yıllık haftalık trend): kırılırsa
+   Koç'un çerçevesinde bu sadece bir seviye değil **trend geri alımı** olur.
