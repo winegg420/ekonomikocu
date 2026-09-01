@@ -34,19 +34,20 @@ turu kisa tutuldugunda (5 dk) tur suresinin cogu bu olu sembollere gidiyordu:
 ## Kara liste (otomatik)
 
 _Bu bolum `magicma_tara_dayanikli.py` tarafindan her taramada yeniden_
-_yazilir — elle duzenleme burada KALICI DEGILDIR. Son guncelleme: 2026-08-30._
+_yazilir — elle duzenleme burada KALICI DEGILDIR. Son guncelleme: 2026-09-01._
 
-**Kara listede: 21 sembol (21'si bu hafta yeniden denenecek)**
+**Kara listede: 28 sembol (22'si bu hafta yeniden denenecek)**
 
-- Denenmeden atlanan (esik 3 basarisiz): **21**
+- Denenmeden atlanan (esik 3 basarisiz): **22**
 - Siradaki taramada yeniden denenecek (7 gun doldu): **0**
-- Izlemede (henuz esigin altinda, hala her taramada deneniyor): **0**
+- Izlemede (henuz esigin altinda, hala her taramada deneniyor): **6**
 
 | Sembol | Durum | Deneme | Ilk basarisiz | Son basarisiz |
 |---|---|---:|---|---|
 | BINANCE:NFPUSDT | atlaniyor | 3 | 2026-08-26 | 2026-08-26 |
 | BINANCE:QQQBUSDT | atlaniyor | 3 | 2026-08-26 | 2026-08-26 |
 | BINANCE:REUSDT | atlaniyor | 3 | 2026-08-26 | 2026-08-26 |
+| BINANCE:SPYBUSDT | atlaniyor | 3 | 2026-09-01 | 2026-09-01 |
 | BYBIT:GRVTUSDT | atlaniyor | 3 | 2026-08-26 | 2026-08-26 |
 | BYBIT:KIIUSDT | atlaniyor | 3 | 2026-08-26 | 2026-08-26 |
 | BYBIT:SLXUSDT | atlaniyor | 3 | 2026-08-26 | 2026-08-26 |
@@ -56,12 +57,18 @@ _yazilir — elle duzenleme burada KALICI DEGILDIR. Son guncelleme: 2026-08-30._
 | MEXC:BASECATUSDT | atlaniyor | 3 | 2026-08-26 | 2026-08-26 |
 | MEXC:DGAIUSDT | atlaniyor | 3 | 2026-08-26 | 2026-08-26 |
 | MEXC:DRVUSDT | atlaniyor | 3 | 2026-08-26 | 2026-08-26 |
+| MEXC:FONEUSDT | izlemede | 1 | 2026-08-30 | 2026-08-30 |
+| MEXC:FRONGUSDT | izlemede | 1 | 2026-08-30 | 2026-08-30 |
 | MEXC:HMMUSDT | atlaniyor | 3 | 2026-08-26 | 2026-08-26 |
+| MEXC:HOOKRUSDT | izlemede | 1 | 2026-08-30 | 2026-08-30 |
 | MEXC:JIMOTHYUSDT | atlaniyor | 3 | 2026-08-26 | 2026-08-26 |
 | MEXC:JUGGERNAUTUSDT | atlaniyor | 3 | 2026-08-26 | 2026-08-26 |
+| MEXC:MARSCOINUSDT | izlemede | 1 | 2026-08-30 | 2026-08-30 |
+| MEXC:PIPEDOGUSDT | izlemede | 1 | 2026-08-30 | 2026-08-30 |
 | MEXC:PODUSDT | atlaniyor | 3 | 2026-08-26 | 2026-08-26 |
 | MEXC:PONSUSDT | atlaniyor | 3 | 2026-08-26 | 2026-08-26 |
 | MEXC:QUIDUSDT | atlaniyor | 3 | 2026-08-26 | 2026-08-26 |
+| MEXC:STONKBROKERUSDT | izlemede | 1 | 2026-08-30 | 2026-08-30 |
 | MEXC:STONKUSDT | atlaniyor | 3 | 2026-08-26 | 2026-08-26 |
 | MEXC:TENDIESUSDT | atlaniyor | 3 | 2026-08-26 | 2026-08-26 |
 | NASDAQ:SPCX | atlaniyor | 3 | 2026-08-26 | 2026-08-26 |

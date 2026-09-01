@@ -1,0 +1,14 @@
++ git remote set-url origin https://github.com/winegg420/ekonomikocu.git
++ git add -A
+warning: in the working copy of '06_ANALIZ.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'push5_0109.log', LF will be replaced by CRLF the next time Git touches it
++ git diff --cached --quiet
++ git commit -m guncelleme 2026-09-01 12:13
+[main b0ccbef] guncelleme 2026-09-01 12:13
+ 8 files changed, 1323 insertions(+), 102 deletions(-)
+ create mode 100644 push6_0109.log
++ git push -u origin main
+To https://github.com/winegg420/ekonomikocu.git
+   b57ba6e..b0ccbef  main -> main
+branch 'main' set up to track 'origin/main'.
+GitHub guncellendi: https://github.com/winegg420/ekonomikocu.git
