@@ -1593,5 +1593,173 @@
     "tur": "karsi_olgusal",
     "aciklama": "Aylik karsi-olgusal cizim: ucgenin alt kenari, 'olmasi gereken' dip (gerceklesenle ~2,4 kat fark)",
     "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 29400,
+    "tur": "esik",
+    "aciklama": "22 May 2026 abone: '29400 ustundeyse dokunma'; pazartesiden itibaren esik 29700'e yukseliyor (takvime bagli kayan esik)",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 25726.71,
+    "tur": "ogreti_basamagi",
+    "aciklama": "Koc grafige acikca '25700 = 5.7 ogretisi' yazmis; dort ayda sekiz temas (gorsel: 2018413610419024340)",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 24575,
+    "tur": "ogreti_kutusu",
+    "aciklama": "'24600 / 24570' kutusunun gercek cizgi degeri - ogreti cifti tek bandin iki kenari (gorsel: 2034229228669911312)",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 23637,
+    "tur": "ogreti_kutusu",
+    "aciklama": "'23700 / 23570' kutusunun gercek cizgi degeri; ayni grafikte 24575 kutusuyla birlikte",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 24800,
+    "tur": "seviye",
+    "aciklama": "Ust bacak; 24600 kesisimiyle birlikte verildi (gorsel: 2025734057649143849)",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 27324.7,
+    "tur": "seviye",
+    "aciklama": "H4 yatayi (gorsel: 2052521489459454180)",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 26936.95,
+    "tur": "seviye",
+    "aciklama": "H4 yatayi",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 26743,
+    "tur": "seviye",
+    "aciklama": "H4 yatayi (gorsel: 2047289260789604730)",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 26438.7,
+    "tur": "seviye",
+    "aciklama": "H4 yatayi",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 67700,
+    "tur": "esik",
+    "aciklama": "1 Tem 2024: 'yeni ralli icin 67.700 ustu kapanisa ihtiyac duyarsin'; 67.800 savas degerinin ikiz kaydi",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 26000,
+    "tur": "trend",
+    "aciklama": "'26 K trendi' - 2023 dibinden cekilen ana trend, 1 Tem 2024'te hala korunuyordu",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 10610,
+    "tur": "tarihsel_kok",
+    "aciklama": "2019-2020 direnci; Koc'a gore 'bu deger bugun 106 K dir' - 106.000'in olcek-bagimsiz kaynagi (gorsel: 1904822421317726626)",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 53.7,
+    "tur": "trend",
+    "aciklama": "'Ana trend 53 dolar' - Agu 2024 dibinden gelen ana trendin Mart 2026 degeri; 5.7 ogretisi",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 81.7,
+    "tur": "robot_bolge",
+    "aciklama": "3 Mar 2026 abone: 'gumus kisminda 81.7 de robot var, alti satis ustu acele etme'",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 92.23,
+    "tur": "seviye",
+    "aciklama": "Once destek sonra direnc; tek grafikte iki ayri vurguyla belgelendi (gorsel: 2024537899815907729)",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 84.232,
+    "tur": "seviye",
+    "aciklama": "H4 yatayi; BTC/altin 84 ile ayni sayi ailesi",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 120.675,
+    "tur": "seviye",
+    "aciklama": "27 Oca 2026 zirvesi",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 78,
+    "tur": "seviye",
+    "aciklama": "25 May 2026: petrol asagi cekilince 'gumus 78 dolar dedi' (ters oranti hedge notu)",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 5500,
+    "tur": "hedef",
+    "aciklama": "21 Oca 2026: GOLDGR 180 usd hedefinin ons karsiligi (180 x 31,1)",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "DJI",
+    "seviye": 43570,
+    "tur": "ogreti_kutusu",
+    "aciklama": "43760 ile cift olusturan alt kesisim degeri (gorsel: 2038397787243499858)",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "DXY",
+    "seviye": 100,
+    "tur": "esik",
+    "aciklama": "Alti kez test edilen psikolojik esik; 110->95 senaryosunun tam ortasi (gorsel: 2032969065820496180)",
+    "tarih_eklendi": "2026-09-02"
   }
 ]

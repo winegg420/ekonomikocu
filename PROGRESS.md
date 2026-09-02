@@ -3480,3 +3480,60 @@ BTC 2026'da 106 K'nın altına düştüğünde gerçekten yön değiştirdi.
    trendin bugünkü, 105,7 ileri projeksiyondaki değeri.
 5. Açık ve ölçülebilir iddialar karneye girmeli: **ETH 4700** (19 Mar 2024'ten
    beri açık), **NASDAQ 22.246**, **NASDAQ/XAUUSD 4,4**, **BRENT/XAGUSD 0,570**.
+
+
+## 2026-09-02 (2) — Görsel defteri TUR 18 (50 görsel)
+
+**Yapılanlar:**
+- Bekleyen 509 ekonomikoçu görselinden **50 görsel** seçilip tamamı okundu.
+  Pencere 26 Mar 2025 – 28 Ağu 2026 (ağırlık Şub–May 2026).
+- `gorsel_analiz.jsonl` **974 → 1.024**. Bekleyen: **632** (ekonomikoçu 459,
+  iriscibre 141, efloud 32).
+- `06_ANALIZ.md` sonuna **"TUR 18"** bölümü eklendi (13 alt başlık + açık işler).
+- `magicma/onemli_seviyeler.json`: **197 → 218** (21 yeni).
+
+**En değerli bulgular:**
+1. **ÖĞRETİ SAYILARININ TÜREME MEKANİZMASI: SAYI TRANSFERİ.** Koç seviyeleri
+   teknik analizle değil, bir varlıktan diğerine sayı taşıyarak üretiyor.
+   22 Kas 2024: *"Altında 84 Usd pivot olduğuna göre muhtemelen BTC de 84 K'yı
+   önemser. Not olarak bu da köşede dursun."* → BTC 84 K, **gram altının 84 USD
+   pivotunun kopyası.** Aynı yöntem 22 Mar 2024'te de var (goldgr 68 → btc 68-69K).
+2. **Ölçek ve para birimi bağımsızlığı belgelendi.** BTC 10.610 (2019) → *"bu değer
+   bugün 106 K'dır"* (10 kat). BTCEUR'da da 84 K / 106 K çifti aynı sayılarla.
+3. **Öğreti çifti kutusu doğrulandı** (TUR 17 hipotezi): Koç *"kutu içlerine
+   bakınız"* diyerek 24600/24570 ve 23700/23570 kutularını kendisi çiziyor; gerçek
+   çizgiler tam ortada (24.575 ve 23.637). DOW'da 43760/43570.
+4. **Koç "öğreti" kelimesini grafiğe yazdı:** *"25700 = 5.7 öğretisi"* — kavramın
+   adının grafikte geçtiği ilk belge.
+5. **Gerçek işlem kayıtları:** terminal geçmişi (XAGUSD sell 70.5890 / 69.2060),
+   lot bazlı petrol shortu (10 lot 108'den, 9'u 100'de kapandı), ters-oranlı hedge
+   anlatımı, 6 aylık tarihli short beyanı.
+6. **"50 gün önceden" iddiası ölçüldü ve doğrulandı:** 13 Şub → 7 Nis = 53 gün.
+7. **Yeni yöntem: mum rengi okuma** — *"Mumdaki farklı rengi gördün mü? Kaçta
+   oluşmuş = 106"*.
+
+**Kararlar ve gerekçeleri:**
+- **Yeni tür etiketi `islem_kaydi` açıldı** (terminal emir geçmişi). `grafik` de
+  `kendi_tweet_ss` de değil; işlem beyanlarını ayrı ölçebilmek için gerekli.
+- **`ogreti_kutusu` seviye türü eklendi** — 24575/23637/43570 kayıtlarında. Tek
+  seviye değil bandın kenarı oldukları için `seviye`den ayrıldı.
+- **DXY 100 eklendi** ama grafiği Koç üretmemiş ("tinkir" damgalı), analiz metninde
+  bu açıkça yazıldı; seviye yine de Koç'un tweetiyle geldiği için `Koc` kaynağı.
+- **GOLDGR seviyeleri (68/84/153/157/170/180) YİNE eklenemedi** — `sembol_listesi`de
+  karşılığı yok. Kural bozulmadı ama artık en pahalı eksik: BTC seviyelerinin
+  türetildiği kaynak enstrüman burası.
+
+**Çıkarımlar (sonraki turlar için):**
+1. **Öğreti sayıları "bulunmuyor", taşınıyor.** Bir seviyenin kökünü ararken aynı
+   sayının başka bir varlıkta daha önce geçip geçmediğine bakılmalı — büyük
+   ihtimalle geçiyordur.
+2. **SS zaman damgası yöntemi düzeltildi:** beğeni sayısı azalabiliyor (139→137
+   ölçüldü) ve "35,4 B" gibi yuvarlanmış görüntüleme ayırt etmiyor. Yalnızca **ham
+   görüntüleme** kullanılabilir.
+3. **Oran grafikleri artık bir kategori** — bu turda üç yeni (XAGUSD/BTCUSD,
+   XAUUSD/BTCUSD, USDT.D). Toplam beş oran enstrümanı var ve hiçbiri sembol
+   listesinde değil.
+4. **9,2 sayısı üç ayrı birimde çıktı:** NASDAQ/XAUUSD oranı, gümüş emri 69.20,
+   USDT dominansı %9,2. Sayı transferi tezinin yan kanıtı.
+5. Ay evresi hipotezi için iki veri noktası: 16-17 Nisan çağrısı 17 Nisan yeniayına
+   0-1 gün (güçlü), 7 Nisan çağrısı 2 Nisan dolunayına 5 gün (zayıf).

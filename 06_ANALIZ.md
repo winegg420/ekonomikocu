@@ -5644,3 +5644,176 @@ TUR 16'daki eksik listesi büyüyor.)
 3. **NASDAQ 22.246** ve **NASDAQ/XAUUSD 4,4** de açık, ölçülebilir hedefler.
 4. Sembol listesi eksikleri: ETHTRY, XAGTRYG, GOLDEUR, XAUGBP, NASDAQ/XAUUSD,
    BRENT/XAGUSD — bu enstrümanlarda ikinci seviye kütüphanesi çalışamıyor.
+
+
+## 2026-09-02 (2) — Görsel defteri TUR 18 (50 görsel)
+
+> Kaynak: `gorsel_analiz.jsonl` 974 → **1.024**. Pencere **26 Mar 2025 – 28 Ağu 2026**
+> (tweet tarihi; ağırlık Şubat–Mayıs 2026). Aynı seçim kuralı, tweet başına en fazla
+> 2 görsel. Kalan: **632** (ekonomikoçu 459, iriscibre 141, efloud 32).
+
+### 1. ÖĞRETİ SAYILARININ TÜREME MEKANİZMASI BULUNDU — SAYI TRANSFERİ
+
+Bu turun en önemli bulgusu, öğreti sayılarının **nereden geldiğini** açıklıyor.
+Koç seviyeleri teknik analizle değil, **bir varlıktan diğerine sayı taşıyarak**
+üretiyor:
+
+| Tarih | Kaynak | Hedef | Koç'un kendi cümlesi |
+|---|---|---|---|
+| 22 Mar 2024 | GOLDGR **68 usd** | BTC **68-69 K** | *"virüsle goldgr 68 usd görmüştür; virüsle btc 68 69 K görmüştür"* |
+| 22 Kas 2024 | GOLDGR **84 usd** pivot | BTC **84 K** | *"Altında 84 Usd pivot olduğuna göre muhtemelen BTC de 84 K'yı olası geri çekilmede önemser. Not olarak bu da köşede dursun."* |
+
+İkinci belge (`2057084407098253321`, 46,8 B görüntüleme) **arşivin en önemli yöntem
+belgelerinden**: BTC'nin 84 K'sı teknik bir çizgi değil, gram altının 84 USD
+pivotunun kopyası. 84 K'nın BTC'deki kök tanımı ise dört ay sonra geliyor
+(18 Mar 2025, **224,1 B görüntüleme** — arşivde okunan en yüksek erişimli kayıt).
+
+Aynı transferin para birimi versiyonu da var: `2026308182729969682`'de **BTCEUR**
+grafiğinde yataylar **106.779** ve **84.065** — yani 84 K / 106 K çifti euro
+bazında da aynı sayılarla çalışıyor.
+
+Ve ölçek versiyonu: `1904822421317726626`'da BTC'nin 2019-2020 direnci **10.610**
+için Koç açıkça yazıyor: *"**Bu değer bugün 106 K'dır.** BTC ne zaman atağa
+kalkmış? 10600 kırınca değil mi? Bugün de 106 K üstünde kalman gerekiyor."*
+**10 kat fark, aynı seviye sayılıyor.** 106 K vurgusunun kaynağı budur.
+
+### 2. ÖĞRETİ ÇİFTİ KUTUSU — TUR 17 HİPOTEZİ DOĞRULANDI
+
+TUR 17 §4'te ETHUSD'de "…60" ve "…57" etiketlerinin yan yana durması *"tek bandın
+iki kenarı olabilir"* diye hipotez olarak yazılmıştı. `2034229228669911312`'de Koç
+bunu **kendisi kutu olarak çiziyor** ve *"Kutu içlerine bakınız"* diyor:
+
+- Üst kutu: gerçek çizgi **24.575** → etiketler **24600** (yeşil) / **24570** (kırmızı)
+- Alt kutu: gerçek çizgi **23.637** → etiketler **23700** (yeşil) / **23570** (kırmızı)
+
+Gerçek çizgi tam iki etiketin ortasında. Aynı yapı DOW'da da var: **43760 / 43570**
+(`2038397787243499858`). Hipotez artık doğrulanmış sayılabilir: **"…7 / …60" bir
+seviye değil, bir bandın iki kenarıdır.**
+
+### 3. KOÇ "ÖĞRETİ" KELİMESİNİ GRAFİĞE YAZDI
+
+`2018413610419024340` — NASDAQ H4, çizgi 25.726,71, başlıkta büyük kırmızı harflerle
+**"25700 = 5.7 öğretisi"**. Şimdiye kadar öğreti sayıları tweet metinlerinden
+çıkarılmıştı; bu, kavramın adının doğrudan grafiğe konduğu ilk belge. Dört ayda
+sekiz temas işaretli. Etiket sapması %0,10.
+
+### 4. GERÇEK İŞLEM KAYITLARI (arşivde ilk kez bu netlikte)
+
+- `2093428164693229854` — **terminal işlem geçmişi kırpması**: `XAGUSD sell 70.5890`
+  ve `XAGUSD sell 69.2060`. İki giriş fiyatı da öğreti sayısı (70.60 → "60",
+  69.20 → "9.2"). **Öğreti sadece anlatım değil, işlem aracı.**
+- `2061122590815428941` — *"Dün 10 lot 108'den petrol sattım. 100 gelince 9 lot
+  kapattım bir lot bıraktım."* Yön, büyüklük, giriş, kısmi kapanış, artık pozisyon.
+- `2061090552695726496` — **hedge yönteminin açık anlatımı**: *"Ben gümüşte
+  satıyorum ama petrolde satıyorum. Ters orantılı yönetiyorlar dedik… Satış bile
+  kalsam gümüşte zarar edemedim çünkü petrol short kâr yazdı."* Bu, TUR 17'de
+  okunan BRENT/XAGUSD oran grafiğinin **pozisyona dönüşmüş hali**.
+- `2023415671359787222` — *"2026 Şubat ayına kadar short oynarım"* (8 Ağu 2025,
+  35,4 B görüntüleme): arşivdeki en uzun vadeli, tarihli açık yön beyanı.
+
+### 5. TARİH ÇAĞRILARI ÖLÇÜLDÜ — "50 GÜN ÖNCEDEN" DOĞRULANDI
+
+`2040841484153291108`: 13 Şubat'ta *"Misal 7 Nisan gününe kadar bence daha çok
+zaman geçirecekler"* → 5 Nisan'da *"biz o tarihi 50 gün önceden yazıyoruz"*.
+**13 Şub → 7 Nis = 53 gün.** İddia 3 gün sapmayla doğrulanıyor.
+
+İkinci ölçüm `2045137616064876775`: 6 Nisan'da *"PETROL Nisan 16 17 önemli diyor,
+dün ETH de o döneme işaret ediyordu"* → 17 Nisan'da Hürmüz olayı. **11 gün önceden**,
+ve iki enstrüman aynı tarihe işaret ediyor — **fiyat değil TARİH üzerinden confluence**.
+
+> **Ay evresi hipotezi (TUR 17 §1) için ilk veri:** 7 Nisan 2026, 2 Nisan dolunayına
+> 5 gün; 16-17 Nisan, 17 Nisan yeniayına 0-1 gün. İkincisi çarpıcı, birincisi zayıf.
+> Test devam etmeli.
+
+### 6. KESİŞİM = TARİH kuralının açık ifadesi
+
+`2039287044141105535` (GOLDGR): *"**Her zaman majör hatlar önemli kesişimlere denk
+gelir.** Düşerken 153 kırıldı aktı. Çıkarken o kesişim önemli olur."* — TUR 17 §8'de
+gözlem olarak yazılan kural, Koç'un kendi cümlesiyle. Bu turda kesişim→tarih
+örnekleri: NASDAQ günlük "mayıs" (`2039709557874737352`), GOLD "5060"
+(`2056374472702083483`), XAGUSD "80.60", DOW 43570.
+
+### 7. YENİ YÖNTEM: MUM RENGİ OKUMA
+
+`2047272375352263072` (XAGTRY): *"**Mumdaki farklı rengi gördün mü? Kaçta oluşmuş
+= 106**"* — kırmızı ok, 106 seviyesinde oluşan içi boş/beyaz mumu gösteriyor. Bir
+mumun rengi belirli bir seviyede değiştiyse, bu seviyenin "gerçek" olduğu delili
+sayılıyor. Arşivde ilk net belge. Akrabası: **mum sayma** (`2053761485910720597`,
+*"5 mum var, mumları PARK ediyorlar"*).
+
+### 8. ORAN GRAFİKLERİ ARTIK BİR KATEGORİ (bu turda üç yeni)
+
+- **XAGUSD/BTCUSD** 0,0010 — *"0.0010 endekslemişler"*; yatay destek 0,00090.
+- **XAUUSD/BTCUSD** 0,025 — 2021 ve 2025'te **İKİLİ DİP**, arada ~4 yıl.
+- **USDT.D** %9,248 — *"9.2'ye takılıyor, 10.60 aşılmadan hatta 15.7 üstüne
+  çıkmadan hâlâ zayıf"*.
+
+**9,2 sayısı artık üç ayrı birimde:** NASDAQ/XAUUSD oranı (TUR 17), Koç'un gümüş
+emri 69.20, USDT dominansı %9,2.
+
+### 9. NASDAQ'IN ALTIN BAZLI DÜŞÜŞÜ — MEKANİZMA AÇIKLAMASI
+
+`2093434980999291001` (21 Ağu 2026), TUR 17'de okunan altın bazlı NASDAQ grafiğinin
+**nedenini** veriyor: *"Faizlere müdahale etmeseler nasdaq altın el ele düşüyordu.
+Dolar bazlı iki tarafta düşüyordu. Doları zayıflattılar ve ALTIN yukarı gitti,
+nasdaq düşüşü kripto ile frenlendi. ALTIN yukarı alındığı için nasdaq ALTIN bazlı
+düşmüş oldu."* + *"Dolar bazlı iki tarafta düşse FED zora düşerdi."*
+
+### 10. GOLDGR ↔ XAUUSD DÖNÜŞÜMÜ TERS YÖNDE
+
+`2038959221635534895`: *"GOLDGR 157 dolar dedi… 170 180 mi olsun? **5300 5500 dolar
+eder.**"* — TUR 17'de belgelenen ons/31,1 formülünün tersi (170×31,1 = 5.287,
+180×31,1 = 5.598; Koç 5300/5500 diyor, %0,2-1,7 sapma).
+
+### 11. YÖNTEMİN SINIRLARI (her turda tutulan başlık)
+
+- **Çizim düzenleme itirafı** (`2048714239502696559`): *"O grafikten sadece alçalanı
+  kaldırdım ve aşağıya yatay kanal çizdim."*
+- **Çelişki açık yazılmış** (`2052521489459454180`): *"Şu trendi hiç aşamadılar ama
+  1000 puan üstüne koydular."* Fiyat "aşamadığı" çizginin 1000 puan üstünde; Koç
+  buna "yanlama" diyor.
+- **Falsifiye edilemez çerçeve** (`2039420964979572769`, 22 Haz 2025): barış olursa
+  *"gidecek çok yol var"*, olmazsa enflasyonda *"yine gidecek çok yol var"* — her iki
+  senaryoda da aynı sonuç.
+- **Zaman belirsizliğinin kökü** (`2051400260237377744`, 9 Eki 2023): *"Adam isterse
+  bunu değil **2024 2025 2026**'ya bile sarkıtır."*
+- **Metin-görsel uyuşmazlığı iki yeni tür:** renk (`2052111377657958611`, metin
+  "mavi çizgi" diyor, grafikte çizgi siyah) ve sembol (`2026306565091836317`, metin
+  "#USDTRY" diyor, grafik BTCTRY).
+- **Etiket sapması üçüncü ölçüm:** "23700" etiketi → gerçek 23.766 (%0,28);
+  "25700" → 25.726,71 (%0,10); "70.600" → 70.683 (%0,12).
+
+### 12. SS ZAMAN DAMGASI YÖNTEMİ DÜZELTİLDİ
+
+TUR 17 §11'de "aynı SS'in etkileşim sayıları zaman damgasıdır" denmişti. Bu turda
+iki karşı örnek çıktı:
+- `2029285239806185659`: görüntüleme arttı (1.132 → 1.150) ama **beğeni azaldı**
+  (139 → 137). Beğeni geri çekilebiliyor.
+- `2019572902094598558` vs `2023415671359787222`: görüntüleme her ikisinde "35,4 B"
+  — **yuvarlanmış sayı ayırt etmiyor**; beğeni farkı (402 vs 401) tarih sırasıyla ters.
+
+**Düzeltilmiş kural:** yöntem yalnızca görüntüleme sayısı **ham (yuvarlanmamış)**
+olduğunda çalışır. Beğeni asla kullanılmamalı.
+
+### 13. `magicma/onemli_seviyeler.json`: 197 → **218** (21 yeni)
+
+NDX 29400 / 25726,71 / 24575 / 23637 / 24800 / 27324,7 / 26936,95 / 26743 / 26438,7 ·
+BTCUSDT 67700 / 26000 / 10610 · XAGUSD 53,7 / 81,7 / 92,23 / 84,232 / 120,675 / 78 ·
+XAUUSD 5500 · DJI 43570 · DXY 100.
+
+(9 kayıt zaten vardı ve atlandı: BTCUSDT 65700/73600/70600, XAGUSD 80,6,
+XAUUSD 4840/5300, UKOIL 108/100/53. GOLDGR — 68 / 84 / 153 / 157 / 170 / 180 —
+`sembol_listesi`nde karşılığı olmadığı için **yine eklenemedi**; bu turda GOLDGR
+altı ayrı seviye verdi, artık en öncelikli eksik.)
+
+### Açık işler (sonraki tur)
+
+1. **GOLDGR sembol listesine eklenmeli.** TUR 16'dan beri biriken eksik; bu turda
+   tek başına 6 seviye verdi ve BTC seviyelerinin türetildiği kaynak enstrüman o.
+2. **Ay evresi hipotezi:** iki yeni veri noktası çıktı (7 Nisan / 16-17 Nisan).
+   Sistematik test hâlâ yapılmadı.
+3. **Açık iddialar:** BTC 106 K üstü net kapanış (26 Mar 2025'ten beri), NASDAQ
+   22.246 (TUR 17'den, bu turda tekrar teyit edildi), petrol 53, gümüş ana trend 53,7.
+4. Oran grafikleri için ayrı bir seviye kategorisi düşünülebilir — BRENT/XAGUSD,
+   XAGUSD/BTCUSD, XAUUSD/BTCUSD, NASDAQ/XAUUSD, USDT.D artık beş enstrüman ve
+   hiçbiri `sembol_listesi`nde yok.
