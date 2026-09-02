@@ -3422,3 +3422,61 @@ BTC 2026'da 106 K'nın altına düştüğünde gerçekten yön değiştirdi.
    — bu enstrümanlarda ikinci seviye kütüphanesi çalışamıyor. TL bazlı üç sembol
    (XAUTRYG / XAGTRYG / GOLDGR) en öncelikli adaylar; Koç TL bazında da düzenli
    öğreti veriyor.
+
+
+## 2026-09-02 — Görsel defteri TUR 17 (50 görsel)
+
+**Yapılanlar:**
+- Bekleyen 559 ekonomikoçu görseli puanlanıp **50 görsel** seçildi ve tamamı okundu.
+  Aynı seçim kuralı: anahtar kelime + tazelik + somut sayı puanı, tweet başına en
+  fazla 2 görsel. Pencere **2 Şubat – 31 Mayıs 2026**.
+- `gorsel_analiz.jsonl` **924 → 974**. Bekleyen: **682** (ekonomikoçu 509,
+  iriscibre 141, efloud 32).
+- `06_ANALIZ.md` sonuna **"TUR 17"** bölümü eklendi (13 alt başlık + açık işler).
+- `magicma/onemli_seviyeler.json`: **170 → 197** (27 yeni).
+
+**En değerli bulgular:**
+1. **YENİ TAKVİM ÖLÇEĞİ: AY EVRELERİ.** `2037544068637405615/graf_02.jpg` bir
+   Nisan 2026 ay evreleri takvimi; **10 Nisan (son dördün) elle daire içine
+   alınmış**, tweet "10 Nisan mikro açıdan son dip döngüsü" diyor. Aynı tweette
+   GESAN Gann fanı var ve kesişimi 8 Nisan'a düşüyor. Bilinen ölçeklerin
+   (15 gün / 90 gün / 60 günlük Koç bloğu / yıl) hiçbiri ~29,5 güne denk gelmiyor.
+   **Hipotez olarak kaydedildi, doğrulanmadı.**
+2. **Altın→gümüş formülü açık yazılı** (20 Mar 2026): gram altın = ons/31,1;
+   gümüş tavanı = gram altın/2. Gümüş hedefleri teknik çizgiden değil orandan
+   türetiliyor.
+3. **67.800 "savaş değeri" düzeltildi.** 11 Kas 2024 seçim günü değil, **29 Şub
+   2024**; savaşın başladığı noktadan çekilen trendin o günkü değeri. Ömür ~25 ay
+   — önceki arşiv rekoru 17 aydı.
+4. **Etiket sapması ölçüldü:** XAUUSD'de "5060" etiketi gerçekte 5.086,95 (%0,53);
+   NASDAQ'ta "26060"/"25060" ise %0,03/%0,01. Öğreti sayıları **yuvarlanmış
+   etiket**, hassas çizgi değeri değil.
+5. **Sistem takipçilere geçmiş:** abone @KafkasNc öğreti dizisini (157/160) kendi
+   başına kuruyor; Koç yanıtında gümüş için 113 → 130,6 → 180 basamağını veriyor.
+6. **En büyük ölçekli karşı-olgusal çizim:** NASDAQ aylıkta elle çizilmiş
+   "olması gereken" yol — 9.650 dip + 21.000 tepe; gerçekleşenle ~2,4 kat fark.
+
+**Kararlar ve gerekçeleri:**
+- **Yeni tür etiketi `takvim` açıldı.** Ay evresi takvimi ne grafik ne kendi-tweet
+  SS'i; `gorsel_dekor`a atılsaydı yöntem bulgusu kaybolurdu.
+- **`dis_kaynak_ss` etiketi kullanıldı** (Telegram/Algola SS'leri). Koç'un kendi
+  grafiğiyle karışmaması için ayrı tutuldu; bu görsellerdeki seviyeler Koç'a
+  atfedilmedi.
+- **67.800 için eski kayıt silinmedi, üzerine düzeltme yazıldı.** `onemli_seviyeler`
+  zaten 67800'ü içeriyordu; yeni bilgi TUR 17 §3'te belgelendi.
+- **Sembol listesi karşılığı olmayanlar eklenmedi** (ETHTRY, XAGTRYG, GOLDEUR,
+  XAUGBP, NASDAQ/XAUUSD, BRENT/XAGUSD) — kural aynen korundu.
+
+**Çıkarımlar (sonraki turlar için):**
+1. **Ay evresi hipotezi test edilmeli:** arşivdeki tarihli çağrılar (15 Mayıs,
+   8/10 Nisan, 6 Nisan, 29 Aralık, 20 Ağustos…) ay evresi takvimiyle karşılaştırılıp
+   rastlantıdan ayrılabilir mi bakılmalı.
+2. **Aynı SS'in etkileşim sayıları zaman damgasıdır.** 23 Eyl 2025 NASDAQ tweeti
+   iki kez paylaşılmış; beğeni 27 vs 30 farkı SS'lerin 13 gün arayla alındığını
+   gösteriyor. Şablon tekrarlarını tarihlendirmenin yeni yolu.
+3. **Öğreti sayıları tek bandın iki kenarı olabiliyor:** ETHUSD'de 2106/2105,7 ve
+   1960/1957 yan yana, aralarında 0,15 puan. "…60" ve "…57" ayrı seviye değil.
+4. **Öğreti sayısı statik yatay olmak zorunda değil:** BRENT'te 95,7 aynı yükselen
+   trendin bugünkü, 105,7 ileri projeksiyondaki değeri.
+5. Açık ve ölçülebilir iddialar karneye girmeli: **ETH 4700** (19 Mar 2024'ten
+   beri açık), **NASDAQ 22.246**, **NASDAQ/XAUUSD 4,4**, **BRENT/XAGUSD 0,570**.

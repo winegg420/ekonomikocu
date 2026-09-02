@@ -5464,3 +5464,183 @@ kalıp ve net bir sayı — karne açısından ölçülebilir.
   SPX OBO (4 dk arayla), XAU/SPX (11 dk arayla).
 
 ### 12. `magicma/onemli_seviyeler.json`: 161 → **170** (9 yeni)
+
+
+## 2026-09-02 — Görsel defteri TUR 17 (50 görsel)
+
+> Kaynak: `gorsel_analiz.jsonl` 924 → **974**. Pencere **2 Şubat – 31 Mayıs 2026**
+> (tweet tarihi). Seçim: bekleyen 559 ekonomikoçu görseli anahtar kelime + tazelik +
+> somut sayı puanıyla sıralandı, tweet başına en fazla 2 görsel. Kalan: **682**
+> (ekonomikoçu 509, iriscibre 141, efloud 32).
+
+### 1. YENİ TAKVİM ÖLÇEĞİ: AY EVRELERİ
+
+Bu turun en önemli bulgusu bir grafik değil, bir **takvim sayfası**:
+`2037544068637405615/graf_02.jpg` — Nisan 2026 ay evreleri takvimi, **10 Nisan
+(son dördün) elle kırmızı daire içine alınmış**. Tweet: *"10 Nisan mikro açıdan
+son dip döngüsü."*
+
+Aynı tweette GESAN'ın Gann fan çalışması var ve fan kesişimi **8 Nisan**'a düşüyor.
+Yani fiyat-zaman geometrisi ile ay evresi **aynı tweette** birleştiriliyor.
+
+Arşivde şimdiye kadar belgelenen takvim ölçekleri: gün (15) → çeyrek (90 gün) →
+60 günlük Koç bloğu → yıl. **Ay evresi (~29,5 gün) bunların hiçbirine denk gelmiyor.**
+Bu, ayın 15'i ve 30'u vurgularının neden bu kadar sık tekrarladığını (dolunay/yeniay
+yakınlığı) açıklayabilir — **ama bu bir hipotezdir**; doğrulanması için geçmiş tarih
+çağrılarının ay evresi takvimiyle karşılaştırılması gerekir. Sonraki turların iş
+maddesi.
+
+### 2. ALTIN → GÜMÜŞ FORMÜLÜ AÇIK YAZILDI
+
+`2039061704202506659` (20 Mar 2026, 17,6 B görüntüleme) arşivdeki **en açık formül
+belgesi**:
+
+```
+Altın şu an 149 dolar.
+4660 / 31.1 = 149.8
+149 / 2 = 74,5
+Gümüşü 74.5 / 74.8 üstüne almaya kalkarsanız gerginliğe kanımca yol açarsınız.
+```
+
+İki adım açıkça yazılmış: (1) **gram altın = ons / 31,1**; (2) **gümüş tavanı =
+gram altın / 2**. Yani Koç'un gümüş hedefleri teknik çizgiden değil **altın-gümüş
+oranından** türetiliyor. Arşivdeki çok sayıda gümüş çağrısının arkasındaki hesap
+budur. Ayrıca fiyat siyasi bir eşik gibi konumlanıyor ("gerginliğe yol açarsınız").
+
+### 3. 67.800 "SAVAŞ DEĞERİ"NİN GERÇEK KÖKÜ — ÖNCEKİ KAYIT DÜZELTİLDİ
+
+`2026693387638723056` = Koç'un **29 Şubat 2024** tarihli tweetinin SS'i (77,3 B
+görüntüleme, 499 beğeni). Grafikte üç not: *"Savaşın ilk çıktığı bölge"* (Şub-Mar
+2022), *"Rusya Ukrayna"* (24 Şub – 16 Mar 2022 kutusu) ve *"Biraz yukarıdan alırsan
+67.800 / 68 K civarına denk gelir direnç"*. **Kesikli mavi trend savaşın başladığı
+noktadan çekilmiş** ve 2024 Şubat'ında 67.800'e denk geliyor.
+
+- TUR 16'da 67.800 **11 Kas 2024 ABD seçim gününe** bağlanmıştı. Bu belge seviyenin
+  **8,5 ay daha eski** olduğunu ve **nasıl türetildiğini** gösteriyor.
+- Ömür: 29 Şub 2024 → 31 Mar 2026 = **~25 ay**. Önceki arşiv rekoru 17 aydı.
+
+### 4. ÖĞRETİ SAYILARI: ÜÇ YENİ SINIR TESTİ
+
+- **Oran grafiğinde:** BRENT/XAGUSD çaprazında yataylar **0,570 / 1,060 / 1,570** —
+  tam 0,5 aralıklarla, "5.7" ve "6" aileleri. Ölçek bağımsızlığı artık orana da geçti.
+- **Aynı bandın iki kenarı:** ETHUSD H4'te **2106 / 2105,7** ve **1960 / 1957**
+  yan yana etiketlenmiş, aralarında 0,15 puan var. Yani "…60" ve "…57" ayrı seviye
+  değil, **tek bandın iki kenarı**.
+- **Yükselen trendin iki zamanı:** BRENT'te **95,7** (bugünkü trend değeri) ve
+  **105,7** (aynı trendin ileri projeksiyonu). Öğreti sayısı statik yatay olmak
+  zorunda değil.
+- BIST'te de var: GESAN Gann yatayları **57,40** ve **41,56**.
+- ETHTRY'de tek grafikte iki kez: **105.747** ve **95.742**.
+
+### 5. ETİKET SAPMASI ÖLÇÜLDÜ (yöntemin sınırı)
+
+- `2025889278207676566` (XAUUSD): çizgi Koç tarafından **"5060"** diye üç kez
+  etiketlenmiş, gerçek değeri **5.086,95** — **%0,53 sapma**.
+- `2018414562609955008` (NASDAQ M15): **"26060"** → gerçek 26.068,76 (%0,03),
+  **"25060"** → gerçek 25.062,71 (%0,01).
+
+Sonuç: öğreti sayıları **yuvarlanmış etiketlerdir**, hassas çizgi değerleri değil.
+Sapma grafikten grafiğe %0,01 ile %0,53 arasında değişiyor. TUR 16'daki %1,4'lük
+sapmayla birlikte artık üç ölçüm var; alarm eşiklerinde (%0,25) bu tolerans
+unutulmamalı.
+
+### 6. ROBOT BÖLGE KALICI YAPI OLARAK
+
+`2038940731117556214` (21 Kas 2025): *"#Dow'da iki robot bölge var. Birisi 46700'de.
+Bunun altı negatiftir. Ama asıl film yaptıkları bir bölge var 43760. Orta uzun vade
+bu iki fiyat unutulmamalıdır."*
+
+Önceki turlarda "robot" mevcut seviyenin 200-300 puan uzağına konan **geçici çekim
+hedefi** olarak nicelenmişti. Burada robot bölge **kalıcı yapı** olarak sunuluyor.
+İki tanım çelişmiyor ama aynı da değil — ikisi ayrı ayrı ölçülmeli.
+
+### 7. KARŞI-OLGUSAL ÇİZİMİN EN BÜYÜK ÖLÇEKLİSİ
+
+`2037615940624326737` — NASDAQ **aylık** (2010-2026). Kırmızı daralan mega-üçgen
+içinde **elle çizilmiş** iki yol: kırmızı yol 2021 tepesinden 2026'da **~9.650**'ye
+(üçgenin alt kenarı) iniyor, oradan mavi yol 2027'de **~21.000**'e çıkıyor. Not:
+*"Bu borsanın hakkı teknik görüntüsü buydu…"* ve *"Seçim geliyor deyip gereksiz
+gazladılar."*
+
+Gerçekleşen 23.159 ile "hakkı olan" 9.650 arasında **~2,4 kat** fark var. Koç'un
+"köpük" iddiasının büyüklüğü ilk kez bu netlikte sayısallaşmış.
+
+### 8. GEOMETRİ + TAKVİM: KESİŞİM BİR FİYAT DEĞİL, BİR GÜN
+
+`2039069138866352433` (NASDAQ günlük): "ANA TREND ÇİZGİSİ" (mavi) ile "Çin köpüğü
+altından" alınan kırmızı alçalan çizginin **kesişimi** işaretlenmiş ve kesişime
+fiyat değil **tarih** yazılmış: **"Mayıs 15…"**. Aynı grafikte Ekim 2025 temasları
+*"Putin gazları"* diye etiketli.
+
+Aynı mantık `2037544068637405615`'te GESAN Gann fanında (kesişim = 8 Nisan) ve
+`2031064454150930758`'de GOLDEUR'de (trend başlangıçları *"Trump burada başkan
+seçildi. 2570"* ve *"Barış sağlanamadı, yeni trend oluşturuldu. 2025 Ağustos"*)
+tekrarlanıyor: **trend başlangıcı ve kesişimi teknik değil olay/takvim tabanlı
+seçiliyor.**
+
+### 9. KÖK TWEETLER (bu turda dördü bulundu)
+
+| Tarih | İçerik | Etkileşim |
+|---|---|---|
+| 22 Eki 2021 | *"2022 ilk çeyrek ile 2022 haziran dönemi çok stratejik geçecektir"* + **"beni anlamak istiyorsanız metni grafikle birleştirin"** yöntem talimatı | — |
+| 29 Şub 2024 | 67.800 savaş değeri türetmesi (bkz. §3) | 77,3 B |
+| 19 Mar 2024 | *"Bir sonraki #ETH rallisi 4700'den önce dönmez"* — **halen açık iddia** | 25,7 B / 431 ❤ |
+| 22 Mar 2024 | *"63 ile 68 K savaş kanalıdır"* — savaş kanalı kavramının kökeni | **102,5 B / 486 ❤** |
+| 27 Haz 2024 | *"Enflasyonun ana nedeni SAVAŞ… savaş dese panik olursun"* | 1.132 |
+
+22 Eki 2021 tweeti iki açıdan önemli: **90 günlük çeyrek vade ölçeğinin kökü**
+oraya dayanıyor ve arşivin görsel katmanının neden metinden ayrılamayacağının
+gerekçesi Koç'un kendi ağzından yazılı.
+
+### 10. SİSTEM TAKİPÇİLERE GEÇMİŞ (ölçülen ilk kanıt)
+
+`2038956908992700530` (27 Ara 2025): abone **@KafkasNc** kendi başına soruyor:
+*"106 üstü olursa **157 160** diye mi takip etmek lazım Koç, yoksa arada rakamlar
+var mı?"* — yani öğreti dizisini **abone kuruyor**, Koç değil. Koç yanıtında üçüncü
+bir basamak dizisi veriyor: **113 → 130,6 → 180** ve *"bunlar teknik penceredir"*
+diye açıkça koşullandırıyor.
+
+### 11. YÖNTEMİN SINIRLARI (her turda tutulan başlık)
+
+- **Simetri itirafı:** ETHUSD H4'te *"Çizgiyi aşağıdakine simetrik yap…"* — üst
+  çizgi bağımsız çizilmemiş, alt çizginin simetriği olarak türetilmiş.
+- **Etiket sapması** %0,01–%0,53 (§5).
+- **Aynı tweette iki uyumsuz yapı:** `2031063175412462041`'de grafikteki geniş DOW
+  kanalı (~49.250 / ~44.500) ile metindeki robot bölgeler (46.700 / 43.760) üst üste
+  binmiyor.
+- **Şablon/tekrar bu turda 4 kez:** GESAN grafiği + ay takvimi 62 dakika arayla iki
+  tweette; 12 Mar gümüş konuşmasının iki ayrı kırpımı; 23 Eyl NASDAQ SS'i iki kez
+  (beğeni 27 vs 30 → SS'ler 13 gün arayla alınmış). **Yöntem notu:** aynı SS'in
+  etkileşim sayıları, SS'in ne zaman alındığını tespit etmek için zaman damgası
+  olarak kullanılabilir.
+
+### 12. DIŞ KAYNAK YAKINSAMASI
+
+`2060679477185626333` iki görselinde Koç'un değil, **Telegram "Portföy" kanalı
+(Hasan | DM'den yazmam)** ve **Algola** platformunun SS'leri var. Kayda değer:
+o kişinin altın girişi **4372**, Koç'un `onemli_seviyeler.json`'daki **4376**'sıyla
+**%0,1 farkla** örtüşüyor — bağımsız üçüncü-şahıs yakınsaması. Aynı SS'te başka
+birinin BTC/USDT LONG pozisyonu tüm parametreleriyle görünüyor (giriş 73.653,
+TP 74.800, SL 72.200, 5x izole) — arşivde nadir.
+
+### 13. `magicma/onemli_seviyeler.json`: 170 → **197** (27 yeni)
+
+SPX 6378,52 / 6281,76 / 6060,52 · DJI 46700 / 43760 · BTCUSDT 63800 / 62400 / 78000 ·
+XAUUSD 5086,95 / 5170 · UKOIL 105,7 / 84 / 88 · XAGUSD 113 / 130,6 / 180 / 74,5 ·
+ETHUSDT 4700 / 2106 · GESAN 57,40 / 54,25 / 52,15 / 49,48 / 41,56 ·
+NDX 22246 / 21000 / 9650.
+
+(BTCUSDT 67800 ve 68800 zaten kayıtlıydı, atlandı. ETHTRY / XAGTRYG / GOLDEUR /
+XAUGBP karşılıkları `sembol_listesi`nde olmadığı için bu turda da eklenemedi —
+TUR 16'daki eksik listesi büyüyor.)
+
+### Açık işler (sonraki tur)
+
+1. **Ay evresi hipotezini test et:** arşivdeki tarihli çağrıları (15 Mayıs, 8/10
+   Nisan, 6 Nisan, 29 Aralık, 20 Ağustos…) ay evresi takvimiyle karşılaştır.
+   Tutarsa takvim ölçeği listesine dördüncü ölçek eklenir.
+2. **ETH 4700 çağrısı** (19 Mar 2024) hâlâ açık — karneye ölçülebilir iddia olarak
+   girmeli.
+3. **NASDAQ 22.246** ve **NASDAQ/XAUUSD 4,4** de açık, ölçülebilir hedefler.
+4. Sembol listesi eksikleri: ETHTRY, XAGTRYG, GOLDEUR, XAUGBP, NASDAQ/XAUUSD,
+   BRENT/XAGUSD — bu enstrümanlarda ikinci seviye kütüphanesi çalışamıyor.

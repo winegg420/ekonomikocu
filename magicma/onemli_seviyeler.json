@@ -1377,5 +1377,221 @@
     "tur": "ogreti",
     "aciklama": "Hurmuz Bogazi 17 Nis 2026'da bu seviyede acildi; gecen yilin 6060'inin tam 1000 puan ustu - 6 ogretisi",
     "tarih_eklendi": "2026-09-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "SPX",
+    "seviye": 6378.52,
+    "tur": "seviye",
+    "aciklama": "GAP'lerin hizalandigi seviye; 31 Mar 2026'da alcalan trend tam buradan yukari kirildi (gorsel: 2039045661342003675)",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "SPX",
+    "seviye": 6281.76,
+    "tur": "seviye",
+    "aciklama": "Once direnc sonra destek; 1 saatlik grafikte bes temas (gorsel: 2050324532389401088)",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "SPX",
+    "seviye": 6060.52,
+    "tur": "ogreti_basamagi",
+    "aciklama": "'6060' - kirilim sonrasi uzerine yerlesilen bolge (gorsel: 2050324532389401088)",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "DJI",
+    "seviye": 46700,
+    "tur": "robot_bolge",
+    "aciklama": "Koc 21 Kas 2025: 'Dow'da iki robot bolge var, birisi 46700'de, bunun alti negatiftir'",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "DJI",
+    "seviye": 43760,
+    "tur": "robot_bolge",
+    "aciklama": "Koc 21 Kas 2025: 'asil film yaptiklari bolge 43760'; orta-uzun vade unutulmamali",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 63800,
+    "tur": "kirilim",
+    "aciklama": "24 Sub 2026: 'Ortalama 63.800' kirilim esigi (gorsel: 2026292643760582870)",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 62400,
+    "tur": "seviye",
+    "aciklama": "24 Sub 2026: 'ALT deger 62.400' (gorsel: 2026292643760582870)",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 78000,
+    "tur": "tepki_tavani",
+    "aciklama": "9 Sub 2026 abone: '78 K lara kadar tepkisi muhtemelen gelir ama daha fazlasi ek pozitif habere gebe'",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 5086.95,
+    "tur": "seviye",
+    "aciklama": "Koc'un '5060' diye etiketledigi cizginin GERCEK degeri (%0,53 sapma olculdu; gorsel: 2025889278207676566)",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 5170,
+    "tur": "direnc",
+    "aciklama": "23 Sub 2026: '5170 kritik direncti duruldu'",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "UKOIL",
+    "seviye": 105.7,
+    "tur": "ogreti_basamagi",
+    "aciklama": "Yukselen ana trendin ileri projeksiyonu; '105.7 / 106' (gorsel: 2034233658215665705)",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "UKOIL",
+    "seviye": 84,
+    "tur": "hedef",
+    "aciklama": "Daralan ucgenin alt senaryosu; ust senaryo 106 (gorsel: 2043655332400975927)",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "UKOIL",
+    "seviye": 88,
+    "tur": "seviye",
+    "aciklama": "2024 Haziran tepesi, alcalan trendin baslangici (gorsel: 2029643649672212487)",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 113,
+    "tur": "hedef",
+    "aciklama": "27 Ara 2025 abone yaniti: gumus basamak dizisi 113 -> 130.6 -> 180, 'bunlar teknik penceredir'",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 130.6,
+    "tur": "hedef",
+    "aciklama": "27 Ara 2025 abone yaniti: ikinci basamak",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 180,
+    "tur": "hedef",
+    "aciklama": "27 Ara 2025 abone yaniti: 'cok buyuk olayda 180 dolarlar bile var'",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 74.5,
+    "tur": "tavan",
+    "aciklama": "20 Mar 2026 formulu: gram altin (4660/31,1 = 149,8) / 2 = 74,5; 'ustune almaya kalkarsaniz gerginlige yol acarsiniz'",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 4700,
+    "tur": "hedef",
+    "aciklama": "19 Mar 2024 kok tweet: 'Bir sonraki ETH rallisi 4700 den once donmez'; 2026 Mart'ta hala acik iddia",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 2106,
+    "tur": "ogreti_basamagi",
+    "aciklama": "H4 grafiginde 2106/2105,7 ikilisi - '60' ve '57' ogretileri tek bandin iki kenari (gorsel: 2040912894984872135)",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "GESAN",
+    "seviye": 57.4,
+    "tur": "ogreti_basamagi",
+    "aciklama": "Gann fan yatayi; '5.7' ogretisinin BIST hissesindeki karsiligi (gorsel: 2037544068637405615)",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "GESAN",
+    "seviye": 54.25,
+    "tur": "seviye",
+    "aciklama": "Gann fan yatayi",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "GESAN",
+    "seviye": 52.15,
+    "tur": "seviye",
+    "aciklama": "Gann fan yatayi",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "GESAN",
+    "seviye": 49.48,
+    "tur": "seviye",
+    "aciklama": "Gann fan yatayi",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "GESAN",
+    "seviye": 41.56,
+    "tur": "seviye",
+    "aciklama": "Gann fan kesisimi 8 Nisan 2026'da bu yataya denk geliyor; ay evresi takvimiyle (10 Nisan son dordun) birlikte verilmis",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 22246,
+    "tur": "hedef",
+    "aciklama": "'2024 11. ay degeri 22 k'; fiyat 23.089 iken acik geri donus hedefi (gorsel: 2038322363566105079)",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 21000,
+    "tur": "karsi_olgusal",
+    "aciklama": "Aylik karsi-olgusal cizim: 'bu borsanin hakki' 9.650 dip sonrasi 2027 toparlanma tepesi",
+    "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 9650,
+    "tur": "karsi_olgusal",
+    "aciklama": "Aylik karsi-olgusal cizim: ucgenin alt kenari, 'olmasi gereken' dip (gerceklesenle ~2,4 kat fark)",
+    "tarih_eklendi": "2026-09-02"
   }
 ]
