@@ -3537,3 +3537,55 @@ BTC 2026'da 106 K'nın altına düştüğünde gerçekten yön değiştirdi.
    USDT dominansı %9,2. Sayı transferi tezinin yan kanıtı.
 5. Ay evresi hipotezi için iki veri noktası: 16-17 Nisan çağrısı 17 Nisan yeniayına
    0-1 gün (güçlü), 7 Nisan çağrısı 2 Nisan dolunayına 5 gün (zayıf).
+
+---
+
+## 2026-09-03 — 11_DIS_KAYNAKLAR.md: 3 yeni giriş
+
+**Yapılan işler:**
+- `11_DIS_KAYNAKLAR.md`'ye üç giriş eklendi (175 satır, sadece ekleme, mevcut içerik
+  değişmedi). Commit: `b3160e0`, push edildi.
+  1. **Tunç Şatıroğlu — "Nasdaq Düzeltme veya Devam Yol Ayrımına Geldi"** (1 Eylül):
+     S&P 7.589-7.590 kritik destek (Fib %38), Nasdaq 29.000, SMH/IGV/DRAM ETF ve uzay
+     hisseleri seviyeleri. Yeni alım önerilmiyor. + KARNE EK tablosu.
+  2. **Tunç Şatıroğlu — "Kriptolarda Tuzak Tepkilere Dikkat!"** (1 Eylül): Total3'te
+     tehlikeli patern; BTC $79.000 / $76.840, ETH $2.490 / $2.385, SOL eşiği $105'e
+     yükseltildi, XRP $1,42. "Garantici olmak" metodolojisi. + KARNE EK tablosu.
+  3. **Şant Manukyan — Bloomberg HT Sabah Raporu** (2 Eylül) + aynı yayındaki ayrı
+     **Goldman Sachs röportajı** alt başlık olarak. + KARNE EK tablosu (4 iddia).
+
+**Alınan kararlar ve nedeni:**
+- İki Tunç Şatıroğlu videosu ayrı `###` girişler olarak, mevcut "Karar Aşaması"
+  girişinin hemen altına eklendi — bölümün kronolojik akışı korunsun diye.
+- İş Yatırım kanalı + BloombergHT aynı röportaj olduğu için **tek giriş**; Goldman
+  röportajı aynı videonun ayrı segmenti olduğu için `####` alt başlık, ayrı giriş
+  değil (kaynak sayımı şişmesin).
+- Ekleme, bash string yerine dosyaya yazılıp Python ile ankraj-tabanlı `replace`
+  ile yapıldı; script duplicate imzası ve ankraj tekilliği kontrol ediyor
+  (`exit 2` / `exit 3`), böylece tekrar çalıştırılırsa dosyayı bozmaz.
+
+**Çıkarımlar ve gözlemler:**
+- ⭐ **Goldman Sachs kendi içinde çelişiyor:** Videodaki Goldman temsilcisi Eylül'de
+  faiz artırımına yakın dururken, Barış Soydan'ın aktardığı Goldman görüşü "bu yıl
+  artırım yok, altın $4.900". Bu, tekil kaynak çelişkisi değil **kurumsal düzeyde
+  ayrışma** — `14_CELISKI_PANELI.md`'ye ayrı bir kalem olarak eklenmesi gerekiyor
+  (bu oturumda YAPILMADI, açık iş).
+- Fed artırım teması artık **7 bağımsız kaynakta** (Aslanoğlu, Lafçı&Perşembe,
+  Paksoy, Erkan Öz, Sellcoin, Lafçı#72, Manukyan). Manukyan'ın swap fiyatlaması
+  %66,6, Lafçı'nın %66,4 — neredeyse birebir. Ama Goldman iç çelişkisi konsensüsün
+  göründüğü kadar sağlam olmadığını gösteriyor.
+- ⭐ **AI şirketlerinin borçlanması** tahvil faizi yükselişinin açıklaması olarak
+  Manukyan ve Lafçı#39'da **bağımsız olarak** çıktı — iki kaynak aynı mekanizmayı
+  işaret ediyor, dikkate değer.
+- **MOVE > VIX** (tahvil oynaklığı hisse oynaklığını geçti) alışılmadık bir sinyal;
+  güvenli liman varsayımının bozulduğunun ölçülebilir göstergesi.
+- Tunç Şatıroğlu'nun BTC $79.000 seviyesi bir önceki videoda "kırılırsa alım"
+  tetiğiyken bu videoda "tutunamazsa satış" eşiğine dönüşmüş — kaynak, kırılım
+  gerçekleşmediği için yönünü savunmacıya çevirmiş. Karne takibinde bu revizyon
+  ayrı bir iddia olarak izleniyor.
+
+**Açık iş:**
+- `14_CELISKI_PANELI.md` → "Goldman Sachs'ın kendi içinde görüş ayrılığı" kalemi.
+- `magicma/onemli_seviyeler.json` → bu girişteki somut seviyeler (S&P 7.589-7.590,
+  Nasdaq 29.000, BTC 76.840/79.000, ETH 2.385/2.490, SOL 105, XRP 1,42) elle
+  eklenmedi; CLAUDE.md kuralı gereği yeni dış kaynak girişinden sonra elle eklenmeli.
