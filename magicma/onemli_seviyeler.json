@@ -2097,5 +2097,141 @@
     "tur": "destek",
     "aciklama": "GOLDGR gunluk alt kesikli yatay (31 May 2026)",
     "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 30000,
+    "tur": "hedef",
+    "aciklama": "'Gerekirse #NASDAQ kanadina 30 K ya gidecek zemini hazirlayacak' (28 Mar 2026) - 31 May'da 30.345 ile tuttu",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 27615,
+    "tur": "seviye",
+    "aciklama": "H1 yatayi - fiyat 4-6 May 2026 boyunca hattin hemen ustunde tutuldu, hic dokunmadi",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 28850,
+    "tur": "seviye",
+    "aciklama": "'FAKE' zirve (7 May 2026) - bir gun sonra dunku degere donuldu",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 23500,
+    "tur": "destek",
+    "aciklama": "30 Mar 2026 dibi - parabolik yukselisin baslangici",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "SPX",
+    "seviye": 7500,
+    "tur": "seviye",
+    "aciklama": "Iki gunluk yukselen trendin (2019 ve 2024 dipleri) kesisim noktasi - 'tam nereye getirdi?' (14 May 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 2200,
+    "tur": "seviye",
+    "aciklama": "Gunluk mavi yatay (7 May 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 2350,
+    "tur": "direnc",
+    "aciklama": "Haftalik kirmizi kanalin orta cizgisi - bir ay boyunca carpip donuldu (7 May 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 98501,
+    "tur": "seviye",
+    "aciklama": "Gunluk mavi yatay (4 May 2026 grafigi)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 74338,
+    "tur": "seviye",
+    "aciklama": "Gunluk kirmizi yatay (7 May 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 63419,
+    "tur": "seviye",
+    "aciklama": "Gunluk alt kirmizi yatay (7 May 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "EURUSD",
+    "seviye": 1.1776,
+    "tur": "seviye",
+    "aciklama": "'Siradan bir rakam degildir. SIYASI bir rakamdir' (16 Ara 2025) - 6 May 2026'da gun ici zirve 1,17764 ile dogrulandi",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "EURUSD",
+    "seviye": 1.1441,
+    "tur": "destek",
+    "aciklama": "12 Mar 2026 dibi - kirmizi yukselen trendin baslangici",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "EURUSD",
+    "seviye": 1.2096,
+    "tur": "direnc",
+    "aciklama": "Oca 2026 zirvesi - kirmizi dusen trendin baslangici",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "UKOIL",
+    "seviye": 110.17,
+    "tur": "direnc",
+    "aciklama": "5 May 2026 gun ici zirvesi - 108 direncinden geri donus",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NVDA",
+    "seviye": 180,
+    "tur": "seviye",
+    "aciklama": "10 aylik yatay bandin merkezi - 'yaklasik 10 ay zaman gecirtiyorlar yataya aliyorlar' (14 May 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NVDA",
+    "seviye": 163.58,
+    "tur": "seviye",
+    "aciklama": "Alt referans seviyesi (14 May 2026 grafiginde kirmizi kutu)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 79.9,
+    "tur": "seviye",
+    "aciklama": "7 May 2026 terminal kaydi - 380 lot pozisyon karda",
+    "tarih_eklendi": "2026-09-03"
   }
 ]

@@ -6032,3 +6032,202 @@ Ayrıca aynı grafiğin **1 dakika arayla** iki kaydı (GOLDGR 31 May) — kotas
    pozisyon" kaydı olarak girmeli — tek seviye değil, altı kademeli bir iddia.
 5. 2021 tweetleri arşivde **tam metin olarak yok**, yalnızca SS'lerde var.
    `11_DIS_KAYNAKLAR`/`03_HAFIZA`ya elle geçirilmesi düşünülmeli.
+
+
+---
+
+## 2026-09-03 (2) — GÖRSEL DEFTERİ TUR 20 (50 görsel)
+
+Pencere: **2 May 2026 – 14 May 2026** (13 gün, yoğun paylaşım dönemi). Defter
+**1.124 → 1.174**. `magicma/onemli_seviyeler.json` **260 → 277** (17 yeni).
+
+### 1. "7 NİSAN" TARİHİNİN KÖKENİ BULUNDU — VE RESMİ KAYITTA DOĞRULANDI
+
+Arşivde onlarca kez geçen "7 Nisan barış değeri" ifadesinin nereden geldiği bu
+turda üç görselle tam olarak kapandı:
+
+1. **26 Mar 2026, 23:18** — Koç, @DeItaone'ın (Walter Bloomberg) haberini
+   alıntılıyor: *"TRUMP: ENERJİ SANTRALLERİNİN YIKIMINA 10 GÜN ARA VERİYORUM VE
+   **6 NİSAN 2026** PAZARTESİ GÜNÜ… DURDURUYORUM."* Koç'un yorumu üç satır:
+   **"Bu mu haber? 6 Nisan! **7 olmasın o?**"**
+2. **2 May 2026** — Yunus Paksoy'un tweetinde ABD yönetiminin Kongre'ye verdiği
+   resmî yazı aktarılıyor: *"**7 Nisan 2026 tarihinde** 2 haftalık bir ateşkes
+   emrettim. Ateşkes o tarihten bu yana uzatılmaktadır."*
+3. Koç'un yorumu: *"Adamların uyguladığı takvimler."*
+
+**Yani Koç, kamuya açıklanan 6 Nisan tarihine itiraz edip 7 Nisan dedi ve
+resmî Kongre yazışması onu doğruladı.** Arşivdeki en net doğrulanmış tarih
+çağrısı — ve "7 Nisan" sonradan ETH 1746, BTC 68.800, NASDAQ 27600 gibi
+seviyelerin son tarihi olarak kullanılıyor.
+
+**Yan bulgu:** aynı yazıda geçen *"Kongre onayı olmadan **60 gün** devam
+edebiliyor"* kuralı, Koç'un takvim bloklarındaki 60 gün ile aynı sayı
+(`magicma/gunluk_ozet.py` içindeki 60 günlük iç blok).
+
+### 2. "2025'İN KOPYASIDIR" — AYNI TREND, AYNI AY, AYNI KURTARMA
+
+5 May 2026, NASDAQ günlük. Aralık 2024'ten inen **tek** mavi düşen trend
+çizgisi üzerinde aynı senaryo iki kez işaretlenmiş:
+
+| Dönem | Trende temas | Koç'un çizdiği alternatif | Kurtaran haber |
+|---|---|---|---|
+| May–Haz 2025 | yeşil vurgu | kırmızı düşüş patikası | **2025 Temmuz İran barışı** |
+| Mar–Nis 2026 | yeşil vurgu | aynı kırmızı patika | **"Hürmüz açıldı" (17 Nis)** |
+
+Her ikisinde de aynı not: *"Olumlu haber olmasa bu olurdu."*
+Tweet: *"#NASDAQ 2025 in kopyasıdır. Bunları anladığın gün dünyayı anlarsın."*
+
+**İddia bu turda belgelendi:** 17 Nis Trump açıklamasının tam metni de arşive
+girdi (Hürmüz "tamamen açık" ama donanma ablukası sürüyor — Koç buna *"Hürmüz
+açıldı yalanı"* diyor). Ayrıca **6 Nis'ta** *"#PETROL Nisan 16 17 önemli diyor"*
+demiş — haber 17 Nisan 09:27 ET'de geldi. **On bir gün önceden, iki günlük
+pencereyle, tutan bir tarih tahmini.**
+
+### 3. ZAMAN DOKTRİNİNİN ŞEMASI (arşivin en açık yöntem belgesi)
+
+4 May 2026'da paylaşılan görsel bir grafik değil, **elle çizilmiş öğretici
+diyagram**. Yeni tür etiketi gerektirdi: `ogretici_sema`.
+
+```
+yeşil bant  = "Burası denge değer"
+kırmızı ↓   = bandı aşağı kırıyor
+mavi ~~~    = "Aşağı düşürüp zaman geçiriyorsun.."
+mavi ↑      = "Dengeye getiriyorsun" / "Denge rakama mal dönüyor."
+mavi ↑↑     = "Yukarı alıp aşağı çektiğin an yine zaman geçirmiş oluyorsun"
+```
+
+**Kritik nokta:** bekletme tek yönlü değil. Aşağı düşürmek de, yukarı fırlatıp
+geri çekmek de aynı sonucu veriyor — fiyat denge değerine döner, arada geçen
+süre kaybedilmiştir. Bu, TUR 19'daki asimetri kuralının (borsa yukarı hızlı /
+kripto aşağı hızlı) neden çelişki olmadığını açıklıyor: **yön önemsiz, dönüş
+önemli.**
+
+### 4. ZAMAN MUHASEBESİ — SÜRELER TEK TEK YAZILDI
+
+14 May 2026, DOW haftalık. Aralık 2019'dan çıkan tek trend çizgisine tarih
+tarih süre yazılmış:
+
+- *"Şurası AŞI gazı + kripto gazı ve **toplam bir sene**"* (2021)
+- *"Aşı ve kripto ile **2 sene** zaman geçirdiler. Mumlar hep yan yanadır."*
+- *"**Bir sene** de burası.. SEÇİM + BTC ETH etf gazı."* (2022–2023, kutulu)
+- *"Trump düşüşü"* (Mar 2025)
+- *"Şurası bile **20 hafta**"* (Eki 2025 – Şub 2026)
+
+11 dakika sonra **aynı grafiği yalnızca olay etiketleriyle** paylaşıyor:
+virüs → aşı → savaş → trump düşüşü → savaş. Biri süreleri, diğeri olayları
+veriyor; ikisi birlikte tezi tamamlıyor: **trendin her kırılma denemesi bir
+"olay" ile karşılanıyor.**
+
+### 5. BEKLETME SÜRESİ KATALOĞU (yeni ölçümler)
+
+| Varlık | Süre | Kaynak |
+|---|---|---|
+| **NVDA** | **10 ay yatay** (~180) | 14 May 2026 |
+| **DAX (Germany40)** | **17 ay yatay** (22.114–25.325) | 13 May 2026 |
+| BTCUSD | 5 ay yatay (104–125 K) | TUR 19 |
+| DOW | 2 sene + 1 sene + 20 hafta | 14 May 2026 |
+
+NVDA kaydı özellikle değerli: **arşivde tek hisse üzerine yapılan nadir
+analizlerden biri** ve dünyanın en büyük şirketinin 10 ay yatay tutulduğu
+iddiası. DAX ise tezin Avrupa'ya uzandığı ilk somut ölçüm.
+
+### 6. EURUSD 1,1776 — "SİYASİ RAKAM" TAHMİNİ DÖRT HANE TUTTU
+
+- **16 Ara 2025:** *"#EURUSD 1.1776 — Sıradan bir rakam değildir. **Siyasi bir
+  rakamdır.** Buradan ne flood çıkar, anlatamam."*
+- **6 May 2026 terminal ekranı:** gün içi zirve **H: 1.17764**
+
+Beş ay önceden verilen bir seviyeye dört hane birebir temas. Arşivdeki en kesin
+nokta tahmini doğrulaması. Koç bir seviyeyi "siyasi" diye nitelediği ikinci yer
+(diğeri ETH 2296, Trump etiketlenerek paylaşılmış).
+
+### 7. ÖĞRETİ SAYILARINA EKRAN KANITI SERİSİ
+
+Bu tur, seviyelerin "tutmasını" ekran görüntüsüyle belgeleme davranışını çok
+net gösteriyor. **80.600 için dört ayrı ekran, 13 gün içinde:**
+
+| Tarih | Ekran | Değer |
+|---|---|---|
+| 4 May | Binance 24s zirve | 80.635,51 |
+| 9 May | Terminal 10x | 80.641,22 |
+| 13 May | Binance | 80.689,62 |
+| 15 May (TUR 19) | Binance | 80.695,64 |
+
+Aynı davranış diğer sayılarda da: **ETH 2296** → ekran 2.296,15 (dört hane
+birebir) · **ETH 2329** → terminal 2.329,81 (öğreti çifti 2330,6/2329,2'nin
+gerçekleşmesi) · **EURUSD 1,1776** → 1,17764.
+
+**Yeni öğreti sayısı:** ADATRY **10,60** (9 May). Böylece "…60" serisi altı
+farklı varlığa yayıldı: gümüş 80,60 · BTC 80.600 · ETH 2060 · gram altın
+140,60/160,60 · altın 1060 (2018 dibi) · ADA TRY 10,60.
+
+### 8. YÖNTEM: FİTİL FARKI
+
+12 May, NASDAQ H4: *"Fitil farklarını almazsan böyle olur."* — trend çizgisi
+mum **gövdesinden** değil **fitil ucundan** çizilmeli; aksi halde çizgi yanlış
+yere oturur ve temaslar kaçar. Aynı uyarı 7 May'da BTC için: *"btc de fitile
+gidişe izin var ama #ETH yi tutuyorlar."*
+
+Buna ek iki yöntem notu:
+- **"Fake zirve / günü çalma"** (7 May, NASDAQ M30): yeni yapılan zirve `FAKE`,
+  gerçek değer `Aslında dünkü değer`. Zaman doktrini 30 dakikalık ölçekte.
+- **"Yanlaya yanlaya yukarı"** (6 May): dikey değil kademeli yükseliş, her
+  kademede yatay bekleme.
+
+### 9. YENİ ENSTRÜMANLAR VE DIŞ KAYNAKLAR
+
+- **NVDA** (10 ay yatay) — `sembol_listesi`nde **var**, seviyeler eklendi.
+- **Germany40 / DAX** (17 ay) — listede **YOK**, seviye eklenemedi.
+- **TOTAL3** (BTC+ETH hariç kripto piyasa değeri, 765 B) — listede **YOK**.
+  Kırmızı düşen trendi yukarı kırmış, yeşil kanal üstünde.
+- **ADATRY** — listede yalnızca `ADAUSDT` var, TRY paritesi yok.
+- **SPX/USM2** (@TedPillows, dış kaynak): S&P 500'ün M2'ye bölünmüş hali
+  **tam 2000 dot-com zirvesinde**. Koç'un "nominal zirve ≠ gerçek zirve"
+  tezinin dış kaynaktan sayısal desteği.
+- **SPX 7.500** — iki günlük yükselen trendin (2019 ve 2024 dipleri) kesişim
+  noktası; fiyat 14 May'da tam orada.
+
+### 10. TEKRAR PAYLAŞIM: SAYILARLA TARİHLENDİRME
+
+50 görselin **7'si** tekrar; bu tur yöntemi kesinleştirdi:
+
+**Aynı tweet, üç kez yeniden çekilmiş SS** (görüntüleme farkı sırayı veriyor):
+4 May "yeni zirve tazelemek zorundadır" → **236** (6 May) < **240** (8 May) <
+**248** (22 May, TUR 19).
+
+**Aynı SS dosyası tekrar kullanılmış** (etkileşim birebir aynı): 16 Şub ETH 1746
+tweeti üç kez (1.718 görüntüleme / 89 beğeni / 15 yer imi — üçünde de aynı),
+27 Nis "27600 geçilmeden short" iki kez (417 görüntüleme), Çin ısı haritası
+aynı gün 2,5 saat arayla.
+
+**Çıkarım:** görüntüleme sayısı değişiyorsa SS yeniden çekilmiş, sabitse aynı
+dosya kopyalanmış. Bu ayrım, tarihi belirsiz SS'leri sıralamanın güvenilir yolu.
+
+### 11. İŞLEM KAYITLARI
+
+- **LCOUSD 690 lot** (5 May) — arşivdeki **en büyük petrol pozisyonu** (diğer
+  kayıtlarda 390). O an -23.940 zararda; petrol 110,17'ye çıkıp 108,80'e dönmüş,
+  yani 108 direnci yine çalışmış.
+- **XAGUSD 380 lot** (7 May), +25.990 kârda. Aynı pozisyon 25 May'da 270,
+  26 May'da 350 lot görünüyor → **kademeli ekleme/azaltma** yapılıyor.
+- **EURUSD 17 lot** — forex tarafında çok küçük pozisyon; kripto/emtia ile
+  kıyaslandığında ağırlık dağılımı görünüyor.
+- **Binance EMA seti** (4 May): EMA 21/50/100/200 açık — Koç'un kripto
+  tarafında hareketli ortalama kullandığının belgesi (MT4'te tek kırmızı MA).
+
+### Açık işler (TUR 21 için)
+
+1. **`sembol_listesi`ne eklenmesi gerekenler birikiyor:** Germany40/DAX,
+   TOTAL3, ADATRY, SPGSCI (TUR 19), gümüş TRY gram, ETHTRY. Altısı da Koç'un
+   düzenli çizdiği enstrümanlar ve hiçbirinin seviyesi alarm motoruna
+   giremiyor.
+2. **"7 Nisan" doğrulaması karneye girmeli** — 11 gün önceden, iki günlük
+   pencereli, resmî kayıtla teyitli bir tarih çağrısı. Karne şu an yalnızca
+   fiyat seviyelerini ölçüyor; **tarih çağrıları için ayrı bir kategori**
+   gerekiyor.
+3. **`ogretici_sema` türü açıldı** (4 May denge şeması). Bu tür görseller seviye
+   içermez ama yöntem tanımlar; ileride arayabilmek için ayrı etiketlendi.
+4. **EURUSD 1,1776 gibi "siyasi rakam" nitelemesi ayrı bir seviye türü olabilir**
+   — Koç bunları teknik seviyeden ayırıyor, karne de ayırmalı.
+5. **Bekletme süresi kataloğu** (NVDA 10 ay, DAX 17 ay, BTC 5 ay, DOW 4 yıl)
+   ayrı bir tabloya taşınabilir; zaman tezinin tek ölçülebilir çıktısı bu.
