@@ -438,6 +438,68 @@ net değil ("olmayabilir de"). Sonraki değerlendirme: Perşembe.
 | ABD açılışı öncesi | BTC $79.000 kırarsa alım sinyali | İZLENİYOR (Sellcoin ile örtüşüyor) |
 | ABD açılışı öncesi | SOL $104,17-104,29 kırarsa alım sinyali | İZLENİYOR |
 
+### "Nasdaq Düzeltme veya Devam Yol Ayrımına Geldi" — taktiksel seviyeler
+
+> Kayıt: 1 Eylül 2026, ABD seansı öncesi (NFP verisi haftası).
+
+**Kritik seviyeler:**
+- **S&P 500:** Kritik destek **7.589-7.590** (11 Haziran'dan başlayan yükselişin
+  Fibonacci %38 geri çekilmesi). Burası tutmalı, yoksa Eylül düzeltmesine girildiği
+  teyit edilir.
+- **Nasdaq:** **29.000** kritik seviye, altına 28.860'a kadar sarkma olabilir.
+- **SMH (yarı iletken ETF):** 572 üstü alım, 545 altı sat.
+- **IGV (yazılım ETF):** 106 altı sat.
+- **DRAM ETF:** 55'te kapandı, sınırda — altına inerse sat sinyali.
+- **Uzay hisseleri (Rocket Lab, AST SpaceMobile, Intuitive Machines, Firefly):** Hepsi
+  "sata dönmüş" durumda, belirtilen kırılım seviyeleri (sırasıyla $67, $60,50, $16,11,
+  $22,40) geçilmeden yeni alım önerilmiyor.
+
+**Genel çerçeve:** Piyasa şu an "düzeltmeye mi giriyor yoksa son bir düşüşten sonra
+tekrar mı yükseliyor" kararını veriyor. Şu anki ortamda **yeni alım önerilmiyor**,
+ama mevcut pozisyonlar için zararkes seviyeleri sıkı takip edilmeli.
+
+**Bu haftanın gündemi:** NFP verisi kritik (48.000 bekleniyor, önceki ay 44.000 gelmiş,
+68.000 bekleniyordu — sürpriz ihtimaline dikkat).
+
+### KARNE EK — Tunç Şatıroğlu (Nasdaq Yol Ayrımı)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 1 Eylül | S&P 500 7.589-7.590 tutmalı, yoksa düzeltme teyit olur | İZLENİYOR |
+| 1 Eylül | Nasdaq 29.000 kritik, altına 28.860'a sarkabilir | İZLENİYOR |
+
+### "Kriptolarda Tuzak Tepkilere Dikkat!" — negatif/temkinli görünüm
+
+> Kayıt: 1 Eylül 2026, Nasdaq videosuyla aynı gün.
+
+**Total3 (BTC/ETH hariç altcoin piyasa değeri) — tehlikeli patern:**
+- Sert yükseliş sonrası kararsız/aşağı yönlü yatay hareket — Tunç Şatıroğlu bunu
+  "kâr almak için kullanılan bir tepki" olarak okuyor, olumsuz.
+
+**Somut seviyeler (bir önceki videoya göre güncellenmiş, bazıları yükseltilmiş):**
+- **BTC:** $79.000 kırılmalı, kritik. Tutunamazsa **$76.840** izlenmeli — buranın da
+  altına kırılırsa satış sinyali.
+- **ETH:** $2.490 kırılmadan yeni alım yok, hâlâ "sat" bölgesinde. $2.385 kırılırsa
+  daha fazla beklenmeden satılmalı.
+- **SOL:** Sat sinyali aktif. Yeni alım eşiği **$105'e yükseltildi** (önceki videoda
+  $104,29'du). Düşen trend henüz kırılmadı, teyit yok.
+- **XRP:** Sat sinyali aktif, $1,42 kırılmadan yeni alım yok.
+
+**Metodoloji notu (değerli):** Tunç Şatıroğlu, dip yakalamaya çalışmak yerine
+**"garantici olmak"** felsefesini savunuyor — erken girip ters kalmaktansa, teyit
+bekleyip biraz geç girmeyi tercih ediyor. Clarity Act'in henüz netleşmediğini,
+şu anki hareketin bir kısmının bu beklentiyle şişmiş olabileceğini vurguluyor.
+
+**[Claude çapraz kontrol]:** Bir önceki taktiksel videoda BTC $79.000 "kırılırsa alım"
+tetiğiydi; burada aynı seviye "tutunamazsa satış" eşiğine dönüşmüş — kırılım
+gerçekleşmediği için kaynak yönünü savunmacıya çevirmiş, tutarlı bir revizyon.
+SOL eşiğinin $104,29'dan $105'e yükseltilmesi de aynı temkinli kaymanın parçası.
+
+### KARNE EK — Tunç Şatıroğlu (Tuzak Tepkiler)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 1 Eylül | BTC $79.000 tutunamazsa $76.840 izlenmeli, altı satış sinyali | İZLENİYOR |
+| 1 Eylül | SOL $105 kırılmadan yeni alım yok (eşik yükseltildi) | İZLENİYOR |
+
 ## EMRAH LAFÇI & ALİ PERŞEMBE
 
 ### Önceki oturum
@@ -1356,6 +1418,119 @@ göstergesi** — aynı olguyu farklı okuyorlar, çelişki değil, katman fark�
 | 20 Ağu 2026 | Altın nötr varlık olarak bloklaşmadan kazanç sağlar | İZLENİYOR |
 | 20 Ağu 2026 | Çin-Batı gümüş farkı (7-8$) arbitrajla kapanmıyor | **TUTTU** (gözlenen fiyat farkı — olgu aktarımı, tahmin değil) |
 | 20 Ağu 2026 | BOJ hükümet baskısıyla hızlanır | İZLENİYOR (Japonya carry-trade notuyla birlikte oku) |
+
+---
+
+### Bloomberg HT Sabah Raporu — 2 Eylül 2026
+
+> Kayıt: aynı röportaj iki kanaldan yayınlandı (İş Yatırım kendi kanalı + BloombergHT),
+> tek giriş olarak işlendi. Aynı yayının sonundaki ayrı Goldman Sachs röportajı
+> aşağıda alt başlık olarak duruyor.
+
+**Tahvil faizi yükselişi — tek nedene bağlanamıyor:**
+- Enflasyona duyarlı göstergeler (breakeven'lar, enflasyon swap'ları) ciddi
+  zıplamıyor — yani yükseliş sadece enflasyon beklentisiyle açıklanamıyor.
+- ⭐ **Alternatif teori: AI şirketlerinin borçlanması** — bazıları artık serbest nakit
+  akışı negatife geçtiği için borçlanmaya başladı, bazıları ABD hazinesinden bile
+  daha uzun vadeli borçlanıyor — bu, tahvil faizlerini yukarı iten bir baskı unsuru
+  (Emrah Lafçı'nın "Bana Fonları Anlat #39"daki aynı temasıyla örtüşüyor — iki
+  bağımsız kaynak aynı mekanizmayı işaret ediyor).
+- Japonya'nın müdahale amaçlı ABD tahvili satışı da bir diğer teori.
+- ⭐ **MOVE endeksi (tahvil oynaklığı) yılbaşından beri VIX'i (hisse oynaklığı) geride
+  bıraktı** — normalde güvenli liman sayılan tahvil yatırımcısı, hisse yatırımcısından
+  daha korkmuş durumda. Alışılmadık bir sinyal.
+
+**Jeopolitik/stratejik boyut:**
+- AI yatırımı ABD-Çin rekabetinde stratejik sayıldığı için faiz seviyesinden bağımsız
+  olarak devam edecek — hem demokrat hem cumhuriyetçi bu konuda hemfikir.
+- Fed'in kendi çerçevesi: gümrük vergileri, petrol VE yatırım harcaması üçü de
+  "arz yönlü" enflasyonist faktörler sayılıyor — faiz artırımının bunlara ne kadar
+  çare olacağı tartışmalı.
+
+**60/40 portföy teorisi çöküyor:**
+- Hisse+tahvil hedge stratejisi bu yıl çalışmıyor, ikisi birlikte hareket ediyor —
+  bu, alternatif varlıklara (Bitcoin, altın) olan ilgiyi artırıyor.
+
+**Ara seçim (tarihsel, 100 yıllık veri):**
+- Seçime kadar S&P zayıflama eğiliminde, seçim SONRASI yeni ralli mevsimsel olarak
+  bekleniyor — **Erkan Öz ve Bloomberg HT'nin bu tarihsel paterni bağımsız teyit
+  etmesi** önemli bir çapraz doğrulama.
+- Ama Manukyan, seçimin ABD-Çin rekabetinin yönünü çok fazla değiştirmeyeceğini
+  düşünüyor — parti farkı büyük resmi değiştirmez.
+- Eylül tarihsel olarak S&P için en kötü ay (son 5 yıl ort. %2+ kayıp).
+
+**Şirket kârları — henüz sorun yok ama tartışma var:**
+- 2007 öncesi paterniyle (kârların önceden gerilemesi) kıyaslandığında şu an böyle
+  bir zayıflama yok. Ama iki tartışma noktası var: amortisman varsayımları (5 yıllık
+  ömrün 3 yıla indirilmiş olması ihtimali) ve "circular financing" (AI şirketlerinin
+  birbirinden yarattığı ciro ne kadar gerçek).
+
+**Büyüme güçlü:**
+- İç talep+yatırım büyümesi %4,2; Atlanta Fed GDPNow %4,8 — "gelişen ülke hızında."
+
+**Merkez bankası faiz artırım olasılıkları (swap piyasası fiyatlaması):**
+- ⭐⭐ **Fed %66,6** (sabah erken saatte %70'ten hafif geriledi), **ECB %58**,
+  **BOJ %100'ün üstü** (neredeyse kesin). Fed rakamı, Emrah Lafçı'nın %66,4'üyle
+  neredeyse birebir — **7. bağımsız kaynak** Fed artırım temasında.
+
+**Güvenli liman arayışı — İran savaşı bağlamında:**
+- İran savaşının ilk aşaması bir likidite sorunu yarattı; risk almak istemeyen
+  yatırımcı için pratik çözüm **nakitte durmak**.
+- ABD tahvillerinin güvenli liman rolüne geri dönme potansiyeli diğer alternatiflere
+  göre daha yüksek görülüyor. İsviçre-Almanya tahvil ilişkisi bile bozulmuş durumda.
+
+**Petrol:**
+- Kepler tanker takip verisi, piyasada konuşulandan çok daha fazla akışın (2/3'ü)
+  zaten alternatif rotalardan devam ettiğini gösteriyor.
+- Çin'in stratejik rezerv kullanıp kullanmayacağı ve Rusya'nın rafineri hasarı
+  (%80-90 vurulmuş) fiyatları belirleyecek — büyük yukarı hareket beklenmiyor,
+  savaşın fiziksel olarak büyümesi (kara harekatı vb.) hariç.
+
+**Diğer temalar:** İnsansı robotik (Çin'de Unitary IPO büyük primle kapandı) AI'dan
+sonraki büyük tema olarak öne çıkıyor; demografi/yaşlanma teması (sağlık, huzurevi,
+tüketim) yeterince fiyatlanmamış; büyük halka arzların (OpenAI, Anthropic) piyasaya
+baskı yapmayacağı düşünülüyor (SpaceX örneği gibi sınırlı etki).
+
+#### Ek — Aynı Videoda: Goldman Sachs Röportajı (isim net değil, muhtemelen ekonomist/yönetici)
+
+⭐⭐⭐ **ÖNEMLİ İÇ ÇELİŞKİ:** Bu Goldman temsilcisi, **"NFP+TÜFE'de yumuşak sürpriz
+olmazsa Eylül toplantısına faiz artırma fikrine yakın girerim"** diyor — yani
+artırıma **yakın/olumlu** duruyor. Bu, **Barış Soydan'ın aktardığı "Goldman Sachs bu
+yıl faiz artırımı beklemiyor, altın yıl sonu $4.900" görüşüyle DOĞRUDAN ÇELİŞİYOR.**
+Aynı kurumdan (Goldman Sachs) iki farklı isim, birbirine zıt sinyaller veriyor — bu,
+14_CELISKI_PANELI.md'ye **"Goldman Sachs'ın kendi içinde görüş ayrılığı"** olarak
+özellikle eklenmeli, tekil bir kaynak çelişkisi değil, kurumsal düzeyde bir ayrışma.
+
+- Nötr faiz oranı çerçevesi: reel nötr %0,75-1, enflasyon ~%3 ile nominal nötr
+  %3,75-4 civarı — Fed şu an nötrden ~50 baz puan aşağıda, yani "nötr ya da hafif
+  destekleyici" — bu çerçeve bir artırıma yer olduğunu ima ediyor.
+- Ekim'de hamle beklemiyor (seçime çok yakın), Aralık'ta yeniden değerlendirme
+  bekliyor.
+- Uzun vadeli tahvil faizinin ana sürücüsü Fed değil, **mali açık şüpheciliği**
+  (CBO'nun daha yüksek açık beklentisi, savaş maliyetleri) — yapısal bir sorun,
+  hızlı çözülmez.
+- Bu, sadece ABD'nin sorunu değil — Japonya, Avrupa, Çin'de de benzer kaldıraç
+  sorunları var (küresel bir mesele).
+- AI adaptasyonu uzun vadede dezenflasyonist ama kısa vadede altyapı yatırımı
+  yoluyla enflasyonist; asıl soru işten çıkarılan işçilerin başka üretken işlere
+  ne kadar yeniden yerleştirilebileceği.
+- Çin, AI adaptasyonunda ABD'nin önünde (ABD çip/altyapı/bellek teknolojisinde önde,
+  ama adaptasyonda geride) — nüanslı bir tespit, Berk Dinçtürk'ün "Çin fiziksel
+  AI'da önde" temasıyla örtüşüyor.
+
+**[Claude çapraz kontrol]:** Fed artırım teması artık **7 bağımsız kaynaktan**
+geliyor (Aslanoğlu + Lafçı&Perşembe + Paksoy + Erkan Öz + Sellcoin + Lafçı#72 +
+Manukyan/Bloomberg). Ama Goldman Sachs'ın kendi içinde çelişmesi, konsensüsün
+göründüğü kadar kesin olmadığını hatırlatıyor — büyük kurumların bile içinde görüş
+ayrılığı var.
+
+### KARNE EK — Şant Manukyan (Bloomberg HT, 2 Eylül)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 2 Eylül | S&P ara seçim sonrası tarihsel olarak güçlü ralli (100 yıllık veri) | İZLENİYOR (Erkan Öz ile örtüşüyor) |
+| 2 Eylül | Fed artırım ihtimali %66,6 (swap fiyatlaması) | İZLENİYOR (7 kaynak ortak) |
+| 2 Eylül | Petrol büyük yukarı hareket beklenmiyor (savaşın fiziksel büyümesi hariç) | İZLENİYOR |
+| 2 Eylül | [Goldman temsilcisi] Eylül'de artırıma yakın duruyor | İZLENİYOR (Goldman'ın kendi içinde çelişki) |
 
 ---
 
