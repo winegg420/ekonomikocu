@@ -6231,3 +6231,225 @@ dosya kopyalanmış. Bu ayrım, tarihi belirsiz SS'leri sıralamanın güvenilir
    — Koç bunları teknik seviyeden ayırıyor, karne de ayırmalı.
 5. **Bekletme süresi kataloğu** (NVDA 10 ay, DAX 17 ay, BTC 5 ay, DOW 4 yıl)
    ayrı bir tabloya taşınabilir; zaman tezinin tek ölçülebilir çıktısı bu.
+
+---
+
+## 2026-09-03 (3) — GÖRSEL DEFTERİ TUR 21 (50 görsel)
+
+**Kapsam:** 31 Mart 2026 – 2 Mayıs 2026 (33 gün). Defter 1.174 → **1.224**.
+Bekleyen: 432 (ekonomikoçu 259, iriscibre 141, efloud 32).
+
+### 1. "7 NİSAN" ÇAĞRISININ ASIL KAYNAĞI BULUNDU — 20 ŞUBAT 2026, 46 GÜN ÖNCEDEN
+
+TUR 20'de bu tarihin en eski izi 26 Mart 2026 sanılıyordu ("Bu mu haber?
+6 Nisan! **7 olmasın o?**"). Asıl kayıt 34 gün daha eski:
+
+> **20 Şubat 2026, 12:44 — 21,1 B görüntüleme**
+> *"Çok ekstra olmazsa **Mart 6.. Nisan 7**. Bu günlerin çevresine dikkat
+> edin.. Bunlar faiz indirmeden Temmuz'a kadar kısmen karışıklık yaratarak
+> gelmek istiyorlar. Yani bir süreyi yemek istiyorlar. Sonuç; zaman kazanma
+> hamlesi."*
+
+Üç şey birden yapıyor: (a) **iki tarih** veriyor (6 Mart + 7 Nisan),
+(b) gerekçeyi yazıyor (faiz indirmeden Temmuz'a kadar süre yeme),
+(c) sonucu tek cümleye bağlıyor (zaman kazanma). TUR 20'de ABD yönetiminin
+Kongre'ye yazısıyla doğrulanan "7 Nisan 2026'da 2 haftalık ateşkes emrettim"
+kaydı düşünülünce: **46 gün önceden, gerekçeli, resmî kayıtla teyitli bir
+tarih çağrısı.** Arşivdeki en güçlü tek belge.
+
+Zinciri tamamlayan iki kayıt daha bu turda çıktı:
+- **4 Nis 2026:** *"7 Nisan gününe kadar **68.800** önemli. Yükseliş için üstü
+  kalış lazım. 68.800 altı ileri geri bekletirler."* → tarih + seviye aynı
+  cümlede; "altı = bekletme" ile zaman doktrini seviyeye bağlanmış.
+- **22 Nis 2026:** *"7 Nisan... **Gelsin gelmesin o hesap önceden yapılır.**"*
+  → metodolojik itiraf: tarih tutmasa da hesabın kendisi geçerli sayılıyor.
+
+### 2. YENİ ÖĞRETİ KURALI: "177 KURALI" — kuralın kendisi Koç'un ağzından
+
+Öğreti sayıları şimdiye kadar tek tek toplanıyordu (…57/…60/…70). Bu turda
+**kuralın tanımı** bulundu:
+
+> **31 Eki 2025, 14:18 — 7.677 görüntüleme**
+> *"#Nasdaq 26177 üstündeyse ve haber basıyorlarsa düşemiyor. O bölge habere
+> gebedir. Altı kaldığı an sendeliyor. **Her 1000 puan da bu geçerlidir.
+> 23177 / 24177 / 25177 / 26177.** Gün için onların seansı açılmadan kısa
+> trade ediyorsunuz **177 nin üstünde düşemiyorlar**. Altı anca gardı düşüyor."*
+
+Yani öğreti sayısı tek bir seviye değil, **her 1.000 puanda tekrar eden bir son
+üç hane**. Ve bu turda **ekran kanıtı da geldi** — serinin 27.000 basamağı:
+
+| Tarih | Saat | #NAS100M | Lot | P/L |
+|---|---|---|---:|---:|
+| 28 Nis 2026 | 21:44:43 | **27177,25** | 150 | −25.075 (−%0,91) |
+| 29 Nis 2026 | 21:09:38 | **27177,50** | 175 | −25.050 (−%0,91) |
+
+İki gün üst üste aynı üç hane, aynı saat diliminde, lot 150 → 175'e
+**artırılmış**. Kural yazılı, seviye ekranda, pozisyon büyütülmüş.
+
+### 3. ETH 2296: TEK SEVİYE, YEDİ EKRAN, 13 GÜN
+
+TUR 20'de tek ekran (2 May, 2.296,15) bulunmuştu. Seviyenin doğuşu ve
+tamamı bu turda çıktı:
+
+| # | Tarih/saat | Kaynak | Değer |
+|---|---|---|---|
+| 0 | 19 Nis 16:40 | MT4 H1 — çizginin çizildiği an | **2296,00** (çizgi) |
+| 1 | 20 Nis 11:01 | Binance | 2.296,66 |
+| 2 | 20 Nis 17:52 | Binance | 2.296,46 |
+| 3 | 20 Nis 18:20 | Binance | 2.296,63 |
+| 4 | 21 Nis 22:49 | Binance | 2.296,55 |
+| 5 | 23 Nis 20:51 | Binance | 2.296,00 |
+| 6 | 2 May 01:12 | Binance (TUR 20) | 2.296,15 |
+
+Çizgi 19 Nisan'da çizilmiş, **@realDonaldTrump etiketiyle** paylaşılmış
+("2296 Açıkla neden?") — TUR 20'deki "siyasi rakam" kategorisine ikinci üye.
+20 Nis 17:52 ekranı ayrıca **nedenini** gösteriyor: EMA(21) 2.306,73 ·
+EMA(50) 2.301,35 · EMA(200) 2.317,17 — dört EMA 2.300-2.317'de sıkışmış,
+yani 2296 bir EMA yumağının hemen altındaki eşik.
+
+### 4. "AYNI FİLM KOPYA" — iddianın numaralandırılmış hali
+
+NASDAQ günlüğünde altı numaralı şema iki kez paylaşılmış (1-2 May):
+- **22.063-22.211** bandı: tepe 1 (Ara 2024), tepe 2 (Şub 2025) → **5** yeşil
+  kırılım (Haz 2025) = **"İran ile anlaştık"**
+- **26.239-26.240** bandı: tepe 3 (Eki 2025), tepe 4 (Oca 2026) → **6** yeşil
+  kırılım (Nis 2026) = **"hürmüz açıldı"**
+
+Aynı yapı, aynı sıra, iki farklı barış haberi. TUR 20'de metin olarak bulunan
+iddianın tek görüntüdeki kanıtı.
+
+### 5. BEKLETME SÜRESİ KATALOĞU — dört yeni ölçüm (artık on kalem)
+
+| Enstrüman | Süre | Bölge | Tarih |
+|---|---|---|---|
+| NASDAQ | **5 ay** | ~21.400-22.100 | Kas 2024 – Şub 2025 |
+| NASDAQ | **7 ay** | ~24.300-26.100 | Eyl 2025 – Nis 2026 |
+| BTC | **7-8 ay** | ~59.700-71.000 | Ara 2023 – Tem 2024 |
+| ETH | **12 hafta** | ~2.021-2.185 | Oca – Nis 2026 |
+
+NASDAQ'ta kalıp açıkça yazılmış: *"5 ay bir bölgede yatırıyor, sonra
+düşürüyor ve yeniden gazlıyor. Sonra 7 ay aynı yerde yatırıyor, düşürüyor,
+bir daha gazlıyor."* — **yatır → düşür → gazla**, iki kez tekrar etmiş.
+
+Ayrıca **üçüncü bir süre tipi** çıktı (4 Haz 2025): yatay değil, **kesintisiz
+yükseliş** — *"2024'te ABD borsaları 52 hafta boyunca çıktı. Hatta 2023
+Ekimde başladılar. Tarihte böyle bir şey yok."* Koç'un "anormal" saydığı şey
+seviye değil, **süre**.
+
+### 6. ZAMAN DOKTRİNİNE BİRİNCİ AĞIZDAN DIŞ TEYİT
+
+21 Nisan 2026, Walter Bloomberg (30,6 B görüntüleme):
+**"TRUMP: 'DÜNYADAKİ TÜM ZAMANA SAHİBİM' ANLAŞMA İÇİN"**
+Koç: *"'Zamana sahibiz' derken… Yani aslında sadece zaman geçiriyoruz diyor."*
+
+Aynı gün 11 Şub 2026 tarihli kendi tweetini de yeniden paylaşmış:
+*"Adamların öncelikleri çok farklıdır. **Vade problemleri bir kere yok. Zaman
+kavramları sıfır.** Düzelene kadar."* — iki belgeyi yan yana koyuyor.
+
+### 7. ON BİR AY ÖNCEDEN OKUNAN SÖYLEM DOĞRULANDI
+
+Koç 2025'te iki kez aynı şeyi yazmış:
+- **21 Nis 2025:** *"Eskiler bir hata yapmışlar dünyayı kasmışlar **faturayı
+  bana kesmeyin** diyor."*
+- **14 May 2025:** *"Trump… onlar adına özür diledi… **onların hatalarını bana
+  fatura etmeyin** demek istedi. **Oyunu yeniden başlatıyorum 2023'den** dedi."*
+
+**27 Mar 2026, Stock Talk (637,2 B görüntüleme): "BAŞKAN TRUMP: BU BIDEN'IN
+PAZARI."** Koç: *"Sorumlu BIDEN diyor ve haklıdır."*
+
+Koç'un en güçlü tarafı burada görünüyor: seviye değil, **karşı tarafın
+söylemini önceden kurması**. Ayrıca "2023'den yeniden başlatma" cümlesi,
+bütün geri dönük grafiklerinde referans yılının neden 2023 olduğunu açıklıyor.
+
+### 8. NASDAQ/XAUUSD ORANI — en güçlü değerleme argümanı
+
+20 yıllık oran grafiği (9 Nis): tavan **9,2** (2022), taban **4,4**.
+2016-2020 arası ve 2025-2026 **aynı 4,4 bölgesinde** yeşille işaretli.
+
+> *"NASDAQ 2016 ile 2020 arasında ALTIN bazlı bu değerlerdeyken alır mıydınız?
+> Alırdım diyorsanız buyurun, aynı değer diyorlar."*
+
+Nominal olarak NASDAQ tarihi zirvede, **altın cinsinden 2016-2020 seviyesinde.**
+30 Nis'ta aynı oranın günlüğü: 4,6 dibinden 6,0'a — *"6 bandına getirdiler."*
+
+**Sayı çakışması:** oranın tavanı **9,2**; 4 Eyl 2025 tweetinde SP500 5920'ye
+**"9.2 öğretisi"** diyor. Aynı iki hane, iki farklı enstrüman — öğreti
+sayılarının ölçekten bağımsız olduğu kuralının yeni kanıtı.
+
+### 9. İKİNCİ ÖĞRETİCİ ŞEMA: "DİKİNE DÜŞÜŞ"
+
+1 Nis 2026: elle kâğıda çizilmiş, sadece **"Dikine Düşüş"** yazısı ve uzun,
+dümdüz aşağı ok. Seviye yok, bir **hareket tipi** tanımlıyor. TUR 20'deki
+4 May denge şemasından sonra ikinci `ogretici_sema`.
+
+Böylece Koç'un iki hareket tipi netleşti: **yatay bekletme** (zaman geçirme)
+ve **dikine düşüş** (tek parçada dikey). Kanal analizinde de aynı ayrım:
+*"Hâlâ düşen kanaldasın. **Ama haberle 500 / 1000 puan.**"* — teknik yönü,
+haber sıçramayı verir.
+
+### 10. STRES ZİNCİRİ TEK CÜMLEDE (DOW 48400)
+
+14 Nis 2026: *"#DOW Haziran ayına kadar **48400** üstüne yerleşemezse her an
+stres yaratma riskleri var. Çünkü burası aşağı gelirse **#altın** da geri
+geliyordu. Bunları nasıl aşağı getiriyorlardı? **#DXY** kullanmıyorlardı değil
+mi? **#petrol ile stres yaratıyorlardı.**"*
+
+Makro mekanizmanın en açık yazılı hali: **petrol → (DXY değil) → DOW aşağı →
+altın aşağı.** Grafikte 48570/48400, 43760/43570, 40800.
+
+Petrol tarafında ise **iki yollu koşullu tahmin** (16 Haz 2025):
+*"Petrol nasıl yükselir? 1- Dünya ekonomisi düzelmiştir… = ticaret anlaşmaları.
+2- Bu olmuyor mu? Zaten trend üstüdür ve bir yol bulup yükselecektir = savaş…
+= Ek enflasyon."* — her hâlükârda yukarı; yalnızca gerekçe değişiyor.
+
+### 11. ÇİN/ABD TAKVİMİ — iki haber, bir tepe
+
+- **18 Eki 2025:** Trump-Xi, 31 Ekim-1 Kasım APEC Gyeongju. Koç: *"**Çin yalanı
+  ile borsaya tepe gösterdi. EKİM ayı…**"* → altı numaralı şemadaki **3.
+  tepe** bu habere bağlanıyor.
+- **25 Mar 2026:** Trump-Xi, **14-15 Mayıs'ta Pekin**. Koç: *"Mayıs.. İlk etap
+  önce kafada şablon oluşturulur. Zaman kavramı ve teknik birleştirilir.
+  Sonra işlem.."* → **yöntem itirafı (üç adım).**
+
+> **koc_tetigi.py notu:** 25 Mart haberi bir **görüşme** duyurusudur,
+> **anlaşma değildir**. Üçüncü koşulun elle bayrağı (`cin_abd_anlasma`)
+> **açılmadı.** 18 Eki 2025 örneği zaten "görüşme duyurusu = tepe, sonuç yok"
+> kalıbını gösteriyor.
+
+### 12. İŞLEM KAYITLARI
+
+- **15 Nis 23:33:** #NAS100M **125 lot** +35.800 (%1,38) · #US30M **4 lot**
+  −101. Ağırlık **31 kat farkla NASDAQ'ta** — *"Parayı komple Nasdaq kanadına
+  soktular"* derken kendi kitabını da öyle kurmuş.
+- **31 Mar 2026:** *"Ben 22600 kırılmadan alıyorum yalan yok **ama çıkınca pozu
+  kapatıyorum**… kaldıraçta poz taşınmaz."* → "aylardır long" demiyor, tekrar
+  tekrar alıyor. İşlem disiplini itirafı.
+- **28-29 Nis:** NAS100M lot 150 → 175, ikisinde de −%0,91.
+
+### 13. SEVİYELER
+
+`magicma/onemli_seviyeler.json`: **277 → 297** (20 yeni; 15'i zaten kayıtlıydı,
+çakışma kontrolüyle atlandı).
+
+Yeni girenler: NDX 23177/24177/25177/26177/27177 (177 serisi), NDX 26240,
+ETHUSDT 1920 · 2021, BTCUSDT 87.000 · 59.730, XU100 14060 · 11800 · 10600,
+XAUUSD 4609 · 4093, UKOIL 92, DJI 48400 · 40800, EURUSD 1,10, SPX 5920.
+
+**BIST yön kuralı ilk kez açık yazılmış** (21 Nis): *"13800 pivot.. **Altı
+short üstü diri kalır.** 10600 ve özellikle 11800'de alıcısı gelir."*
+
+### Açık işler (TUR 22 için)
+
+1. **`sembol_listesi` eksikleri büyüyor:** Germany40/DAX, TOTAL3, ADATRY,
+   SPGSCI, gümüş TRY gram, ETHTRY — ve bu turdan **NASDAQ/XAUUSD oranı**.
+   Oran grafiği Koç'un ana değerleme aracı ama alarm motorunda karşılığı yok.
+2. **"177 kuralı" alarm motoruna girebilir.** Tek seviye değil, **kurallı bir
+   seri**: her 1.000 puanda x177. Bugünkü `onemli_seviyeler.json` beş üyeyi
+   tek tek tutuyor; üretici bir kayıt tipi (`seri`) daha temiz olur.
+3. **Tarih çağrısı kategorisi hâlâ yok** (TUR 20'den devir). Bu turda ikinci
+   büyük örnek çıktı: 20 Şub → 6 Mart / 7 Nisan, 46 gün önceden, gerekçeli.
+4. **Bekletme süresi kataloğu artık on kalem** — ayrı tabloya taşınmayı hak
+   ediyor (bkz. bölüm 5). Zaman tezinin tek ölçülebilir çıktısı.
+5. **XU100 alarm motorunda karşılıksız** (`[ONEMLI] karsiligi olmayan
+   enstruman atlandi: BRENT, GESAN, UKOIL, XU100`). Bu turda XU100'e üç,
+   UKOIL'e bir seviye daha eklendi — ikisi de hâlâ ölçülemiyor.

@@ -3747,3 +3747,93 @@ BTC 2026'da 106 K'nın altına düştüğünde gerçekten yön değiştirdi.
 5. **Koç kripto tarafında EMA 21/50/100/200 kullanıyor** (Binance ekranı,
    4 May); MT4'te tek kırmızı hareketli ortalama görünüyor. İki platformda
    farklı gösterge seti — seviye okumalarında bu ayrım akılda tutulmalı.
+
+## 2026-09-03 (3) — Görsel defteri TUR 21 (50 görsel)
+
+**Tetik:** "yarım bıraktığın işe devam et" → PROGRESS/06_ANALIZ okundu, sıradaki
+iş görsel defteri turu olarak belirlendi (TUR 20 sonrası 482 bekleyen görsel).
+
+**Yapılanlar:**
+- Bekleyen 309 ekonomikoçu görselinden **50 görsel** açıldı.
+  Pencere **31 Mart 2026 – 2 Mayıs 2026** (33 gün).
+- `gorsel_analiz.jsonl` **1.174 → 1.224**. Bekleyen: **432** (ekonomikoçu 259,
+  iriscibre 141, efloud 32).
+- `06_ANALIZ.md` sonuna **"TUR 21"** bölümü eklendi (13 alt başlık + 5 açık iş).
+- `magicma/onemli_seviyeler.json`: **277 → 297** (20 yeni; 15 kayıt zaten
+  vardı, çakışma kontrolüyle atlandı).
+
+**En değerli bulgular:**
+1. **"7 NİSAN" ÇAĞRISININ ASIL KAYNAĞI: 20 ŞUBAT 2026, 46 GÜN ÖNCEDEN.**
+   TUR 20'de en eski iz 26 Mart sanılıyordu. Asıl kayıt (21,1 B görüntüleme):
+   *"Çok ekstra olmazsa **Mart 6.. Nisan 7**. Bu günlerin çevresine dikkat
+   edin.. faiz indirmeden Temmuz'a kadar… bir süreyi yemek istiyorlar."*
+   İki tarih + gerekçe + sonuç. Resmî ABD kaydıyla doğrulanan çağrının
+   kökeni; arşivdeki en güçlü tek belge.
+2. **YENİ ÖĞRETİ KURALI: "177 kuralı" — kuralın kendisi Koç'un ağzından**
+   (31 Eki 2025): *"Her 1000 puan da bu geçerlidir. 23177/24177/25177/26177…
+   177'nin üstünde düşemiyorlar."* Öğreti sayısı tek seviye değil, **her 1.000
+   puanda tekrar eden son üç hane**. Ekran kanıtı da geldi: 28 Nis 27177,25 ve
+   29 Nis 27177,50 — iki gün üst üste, lot 150 → 175'e artırılmış.
+3. **ETH 2296: tek seviye, YEDİ ekran, 13 gün.** Çizgi 19 Nis'ta MT4'te
+   çizilmiş (@realDonaldTrump etiketli), 20 Nis'ta üç, 21/23 Nis'ta birer,
+   2 May'da bir ekran. 20 Nis 17:52 ekranı nedenini de gösteriyor: EMA
+   21/50/100/200 hepsi 2.300-2.317'de sıkışmış.
+4. **"Aynı film kopya" numaralandırıldı:** 22.063-22.211 bandı → tepe 1-2 →
+   Haz 2025 kırılımı "İran ile anlaştık"; 26.239 bandı → tepe 3-4 → Nis 2026
+   kırılımı "hürmüz açıldı". Tek görüntüde iki senaryo.
+5. **Bekletme kataloğuna dört ölçüm:** NASDAQ 5 ay + 7 ay, BTC 7-8 ay,
+   ETH 12 hafta. Kalıp yazılı: **yatır → düşür → gazla**, iki kez tekrar.
+   Ayrıca üçüncü süre tipi: **kesintisiz yükseliş** (2024'te 52 hafta).
+6. **Zaman doktrinine birinci ağızdan dış teyit:** Trump (21 Nis 2026,
+   Walter Bloomberg, 30,6 B): *"DÜNYADAKİ TÜM ZAMANA SAHİBİM."* Koç aynı gün
+   11 Şub tarihli *"vade problemleri yok, zaman kavramları sıfır"* tweetini
+   yan yana koymuş.
+7. **On bir ay önceden okunan söylem doğrulandı:** Koç 21 Nis + 14 May 2025'te
+   *"faturayı bana kesmeyin diyor"*; Trump 27 Mar 2026'da *"BU BIDEN'IN
+   PAZARI"* (637,2 B). Koç'un gücü seviyede değil, **karşı tarafın söylemini
+   önceden kurmasında.** Ayrıca *"oyunu 2023'den yeniden başlatıyorum"* cümlesi
+   bütün geri dönük grafiklerdeki 2023 referansını açıklıyor.
+8. **NASDAQ/XAUUSD oranı — en güçlü değerleme argümanı.** 20 yıllık grafikte
+   tavan 9,2 / taban 4,4; 2016-2020 ile 2025-2026 aynı bölgede. Nominal olarak
+   zirvede, **altın cinsinden 2016-2020 seviyesinde.** Tavan 9,2, SP500 5920'ye
+   dediği **"9.2 öğretisi"** ile aynı sayı.
+9. **İkinci `ogretici_sema`: "Dikine Düşüş"** (elle çizilmiş ok). Koç'un iki
+   hareket tipi netleşti: yatay bekletme ↔ dikine düşüş. Kanalda da aynı ayrım:
+   *"Hâlâ düşen kanaldasın. Ama haberle 500/1000 puan."*
+10. **Stres zinciri tek cümlede** (DOW 48400, 14 Nis): petrol → (DXY değil) →
+    DOW aşağı → altın aşağı. Petrolde iki yollu koşullu tahmin: ticaret
+    anlaşması ya da savaş, her hâlükârda yukarı.
+
+**Kararlar ve gerekçeleri:**
+- **`koc_tetigi_durum.json`'daki `cin_abd_anlasma` bayrağı AÇILMADI.** Bu turda
+  iki Çin/ABD haberi çıktı (18 Eki 2025 APEC, 25 Mar 2026 Pekin 14-15 Mayıs)
+  ama ikisi de **görüşme duyurusu, anlaşma değil**. Koç'un kendi okuması da
+  bunu destekliyor: *"Çin yalanı ile borsaya tepe gösterdi."* Görüşme duyurusu
+  = tepe, sonuç yok.
+- **XU100 ve UKOIL'e seviye eklendi, alarm motorunda hâlâ karşılıkları yok**
+  (`[ONEMLI] karsiligi olmayan enstruman atlandi: BRENT, GESAN, UKOIL, XU100`).
+  Kütüphane bir bilgi tabanı olduğu için yine de kaydedildi.
+- **NASDAQ/XAUUSD oranı `sembol_listesi`ne eklenemedi** — oran sembolü;
+  eksik liste yediye çıktı (DAX, TOTAL3, ADATRY, SPGSCI, gümüş TRY gram,
+  ETHTRY + oran).
+- **27177 "177 serisi"nin üyesi olarak kaydedildi**, tekil seviye olarak değil;
+  açıklamasına ekran kanıtı tarihleri yazıldı.
+
+**Çıkarımlar (sonraki turlar için):**
+1. **"177 kuralı" üretici bir kayıt tipi istiyor.** Şu an beş üye tek tek
+   tutuluyor (23177…27177). `onemli_seviyeler.json`'a `tur: "seri"` +
+   `adim: 1000` gibi bir alan eklenirse NASDAQ 28177/29177 otomatik doğar.
+2. **Tarih çağrısı kategorisi hâlâ açık** (TUR 20'den devir) ve artık iki
+   büyük örnek var: 20 Şub → 6 Mart/7 Nisan (46 gün) ve 6 Nis → 16-17 Nisan
+   (11 gün). İkisi de doğrulandı, ikisi de karneye giremiyor.
+3. **Seviyenin "neden" tuttuğu ilk kez ölçüldü:** ETH 2296'nın hemen üstünde
+   EMA 21/50/100/200 yumağı var (2.300-2.317). Öğreti sayılarının bir kısmı
+   tesadüf değil, **EMA sıkışması** olabilir — sonraki turlarda ekran
+   görüntülerindeki EMA satırları kayda geçirilmeli.
+4. **Enstrümana göre hassasiyet farkı doğrulandı:** BTC'de bin ile yuvarlak
+   (78/87/106 K), ETH'de dört hane (2296), NASDAQ'ta üç hane (…177). Seviye
+   eşiği enstrüman sınıfına göre değişmeli.
+5. **Koç'un anlatım kalıbı:** önce grafikte soru ("Şurada ne oldu?"), sonra
+   haber SS'i ile cevap. Aynı dosyayı farklı soruyla tekrar paylaşıyor
+   (2 Nis "kesişimi nasıl kırıyorlar" → 6 Nis "simetrik değil"). Tekrar
+   paylaşım = iddiayı doğrulanmış sayması.

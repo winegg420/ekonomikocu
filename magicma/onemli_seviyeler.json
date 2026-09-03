@@ -2233,5 +2233,165 @@
     "tur": "seviye",
     "aciklama": "7 May 2026 terminal kaydi - 380 lot pozisyon karda",
     "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 26240,
+    "tur": "seviye",
+    "aciklama": "Eki 2025 / Oca 2026 tepesi; Nis 2026'da Hurmuz haberiyle kirildi",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 23177,
+    "tur": "seviye",
+    "aciklama": "'177 kurali' serisi (31 Eki 2025)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 24177,
+    "tur": "seviye",
+    "aciklama": "'177 kurali' serisi (31 Eki 2025)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 25177,
+    "tur": "seviye",
+    "aciklama": "'177 kurali' serisi (31 Eki 2025)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 26177,
+    "tur": "seviye",
+    "aciklama": "'177 kurali' serisi - 'o bolge habere gebedir' (31 Eki 2025)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 27177,
+    "tur": "seviye",
+    "aciklama": "'177 kurali' serisi - 28-29 Nis 2026'da iki gun ust uste ekran kaniti",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 1920,
+    "tur": "seviye",
+    "aciklama": "Alt kanal siniri (6 Nis 2026); 1921 ile ikili",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 2021,
+    "tur": "seviye",
+    "aciklama": "12 haftalik yatay tabanin alt siniri (13 Nis 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 87000,
+    "tur": "seviye",
+    "aciklama": "Haftalik ikinci durak (14 Nis 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 59730,
+    "tur": "seviye",
+    "aciklama": "7-8 aylik bekletme bandinin tabani (13 Nis 2026 haftalik)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XU100",
+    "seviye": 14060,
+    "tur": "seviye",
+    "aciklama": "15dk grafikte yatay direnc (21 Nis 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XU100",
+    "seviye": 11800,
+    "tur": "seviye",
+    "aciklama": "'ozellikle 11800 de alicisi gelir' (21 Nis 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XU100",
+    "seviye": 10600,
+    "tur": "seviye",
+    "aciklama": "'10600 ve ozellikle 11800 de alicisi gelir' (21 Nis 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 4609,
+    "tur": "seviye",
+    "aciklama": "H4 ana destek, cok sayida temas (2 Nis 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 4093,
+    "tur": "seviye",
+    "aciklama": "19 Mar 2026 dibi (2 Nis 2026 grafigi)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "UKOIL",
+    "seviye": 92,
+    "tur": "seviye",
+    "aciklama": "Yukselen trend cizgisi uzeri - '92 dolar' (15 Nis 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "DJI",
+    "seviye": 48400,
+    "tur": "seviye",
+    "aciklama": "'Haziran ayina kadar 48400 ustune yerlesemezse stres riski' (14 Nis 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "DJI",
+    "seviye": 40800,
+    "tur": "seviye",
+    "aciklama": "En alt referans (14 Nis 2026 haftalik)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "EURUSD",
+    "seviye": 1.1,
+    "tur": "seviye",
+    "aciklama": "'Dolari zayiflatmazsan pariteler yikilir' - kosullu hedef (14 Nis 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "SPX",
+    "seviye": 5920,
+    "tur": "seviye",
+    "aciklama": "Tem 2025 referansi - Koc'un '9.2 ogretisi' dedigi sayi (4 Eyl 2025)",
+    "tarih_eklendi": "2026-09-03"
   }
 ]
