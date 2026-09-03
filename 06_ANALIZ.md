@@ -5817,3 +5817,218 @@ altı ayrı seviye verdi, artık en öncelikli eksik.)
 4. Oran grafikleri için ayrı bir seviye kategorisi düşünülebilir — BRENT/XAGUSD,
    XAGUSD/BTCUSD, XAUUSD/BTCUSD, NASDAQ/XAUUSD, USDT.D artık beş enstrüman ve
    hiçbiri `sembol_listesi`nde yok.
+
+
+---
+
+## 2026-09-03 — GÖRSEL DEFTERİ TUR 19 (100 görsel)
+
+Pencere: **15 May 2026 – 29 Ağu 2026** (ağırlık 18–31 May 2026). Defter
+**1.024 → 1.124**. `magicma/onemli_seviyeler.json` **218 → 260** (42 yeni).
+
+### 1. SAYI TRANSFERİNİN KANIT DOSYASI TAMAMLANDI
+
+TUR 18'de hipotez olarak konan "Koç seviyeleri teknik analizle değil, bir
+varlıktan diğerine **sayı taşıyarak** üretiyor" tezi bu turda **beş bağımsız
+belgeyle** kapandı — üstelik üçünde Koç sayıları *alt alta, kasıtlı* yazıyor:
+
+| Tarih | Belge | Aynı sayı, farklı varlık |
+|---|---|---|
+| 8 May 2026 | Kendi tweeti | **#gümüş 80.60 / #btc 80.600** (alt alta, elle çizilmiş) |
+| 25 May 2026 | Abone tweeti | **BTCUSD 74 75 76 k / GÜMÜŞ 74 75 76 USD** "her neyse" |
+| 4 May + 4 Nis 2026 | İki tweet | **GÜMÜŞ 68 USD** ve **BTCUSD 68.800** |
+| 10 Oca 2026 | Kendi tweeti | **XAUUSD 4300 / USDTRY 43 LİRA** "dengesini koca yıl gördük" |
+| 28 Ağu 2026 | Grafik | **GÜMÜŞ TRY 84 lira** (BTC 84 K + gram altın 84 USD'ye eklendi) |
+
+**"Her neyse" ifadesi teze imza atıyor:** Koç sayının hangi varlıkta ve hangi
+basamakta olduğunu açıkça önemsiz sayıyor. Ölçek (1.000×), para birimi (USD/TRY)
+ve varlık sınıfı (kripto/metal/kur) bağımsız.
+
+Ayrıca **dönüşüm tablosunu kendisi yazıyor:** 27 Ağu 2026 GOLDgr grafiğinde
+seviyenin yanında *"140.60 / xauusd karsiligi 4376"* etiketi var. Yani gram
+altın seviyesi ile ons karşılığı aynı karede veriliyor.
+
+### 2. "ÖĞRETİ" KELİMESİ ÜÇ AYRI BELGEDE, KOÇ'UN KENDİ ELİYLE
+
+Kavramın Koç'a ait olduğu artık tartışmasız:
+- **"2157 ise pivot oldu = 5.7"** (8 Nis 2026, ETHUSD)
+- **"Yatay kanalla keşişim 80.600 = 6 öğretisi"** (27 Nis 2026, BTCUSD)
+- **"2060 = 6 öğretisi"** (19 May 2026, ETHUSD)
+
+**Yeni ve tuhaf bulgu:** 15 May'da aynı 80.600 tweetinin SS'ini paylaşırken
+*"= 6 öğretisi"* ifadesini **kırmızı kalemle karalayıp gizlemiş**; 31 May'daki
+paylaşımda ise açık bırakmış. Koç kavramı seçici olarak gösteriyor.
+
+### 3. ÖĞRETİ ÇİFTİ = TEK BANDIN İKİ KENARI (kesin doğrulama)
+
+TUR 17-18'de hipotez olan "öğreti çifti kutusu" bu turda **altı yeni örnekle**
+doğrulandı ve mekanizması netleşti:
+
+| Enstrüman | Çift | Fark |
+|---|---|---|
+| ETHUSD H4 | 2330,6 / 2329,2 | 1,4 |
+| ETHUSD H4 | 1960 / 1957 | 3 |
+| ETHUSD Daily | 2060 / 2059 | 1 |
+| ETHUSD Daily | 2570 / 2600 | 30 |
+| XAUUSD H4 | 4684 / 4683 | 1 |
+| XAUUSD H4 | 4600 / 4570 | 30 |
+| BTCUSD Weekly | 84 K / 83.999 | 1 |
+
+**84.000/83.999 örneği belirleyici:** bunlar iki ayrı teknik seviye olamaz.
+Koç bir çizgiyi hem yuvarlak hem "bir eksik" haliyle yazıyor — yani seviye bir
+nokta değil, **bir bandın iki sınırı**. Bu, depodaki MagicMA band mantığıyla
+(çizgi değil band, `magicma/bant_yon.py`) birebir örtüşüyor.
+
+### 4. ZAMAN DOKTRİNİNİN KÖKENİ 2021'E İNDİ (arşivin en eski kaydı)
+
+Bu turda doktrinin tarih zinciri geriye doğru üç halka uzadı:
+
+- **15 Haz 2021:** *"Dünya pivotta.. Dengeliyorlar."* — kavramın ilk hali.
+- **10 Haz 2021 (üç tweet):** *"Z kuşağına kripto diye bir piyasa doğuruyorlar…
+  İlgi kriptoya kayınca, ana yatırım araçları istenilen performansı
+  gösteremiyorlar. Kriptonun bir haberlik performansı var."*
+- **25 Oca 2022:** *"ZAMAN çaldığın ve durgunluk yaptığın zaman, mumlar ileri
+  geri oynayarak yeni bantlar oluşturur… bant bant, zaman geçire geçire de
+  dövecekler."* — **Rusya-Ukrayna savaşından 30 gün önce.**
+- **9 Eki 2023:** *"Adam isterse bunu değil 2024 2025 2026'ya bile sarkıtır."*
+- **21 Şub 2024:** *"Kademeli ileriye bekleti at zaman boşa geçsin."* — en özlü formül.
+- **22 Mar 2024 (üç tweet):** *"Enflasyon sırf zaman kaybıdır… Düşmekten beter."*
+- **5 May 2025:** *"Enflasyon düşmeyecek ZAMAN ile yorulacak. Enflasyon düşerse
+  M.B ları para dağıtmak zorunda kalırlar."* (161,9 B görüntüleme — mekanizma cümlesi)
+
+**Kritik bağlantı:** 10 Haz 2021'deki "kripto ilgiyi çekiyor, ana yatırım
+araçları performans gösteremiyor" tezi, **29 Ağu 2026'da paylaşılan SPGSCI
+grafiğinin birebir aynısı**. Beş yıl arayla aynı tez, ilki metin ikincisi
+grafik. Arşivdeki en uzun süreli tutarlılık kaydı.
+
+### 5. ENFLASYON TEZİ İLK KEZ SAYISALLAŞTI (SPGSCI)
+
+29 Ağu 2026, S&P GSCI emtia endeksi (705,63). Koç kırmızı bulutu **2031–2032
+hizasında ~450–500 seviyesine** koyup yazıyor: *"Enflasyonun düşmesi için bu
+endeksin şuralara düşmesi lazım…"*
+
+Yani "enflasyon düşmeyecek" tezi artık ölçülebilir: **emtia endeksinde ~%35
+düşüş + 5–6 yıl.** Bu, arşivde tezin ilk kez tarih ve yüzdeyle ifade edildiği
+yer. Aynı grafiğin ikinci versiyonunda 2017 kutulanmış ve *"EMTİA fiyatları
+çakılırken kripto devreye alınıyor"* notu var — kripto = **tahliye valfi**.
+
+### 6. GERÇEK İŞLEM KAYITLARI — AÇIK ZARAR İLAN EDİLİYOR
+
+Bu turun en somut belgesi 26 May 2026'daki terminal geçmişi: **altı açık US100
+SHORT**, hepsi zararda, toplam ≈ **-6.556**:
+
+```
+sell 0.10 @27789.15  → -4.047,40
+sell 0.01 @27940.53  →   -374,46
+sell 0.01 @28106.78  →   -341,21
+sell 0.03 @29042.53  →   -462,19
+sell 0.15 @29371.73  → -1.323,36
+sell 0.02 @29793.23  →     -7,85
+```
+
+Koç yorumu: *"Normalde bu işlemlerin hiç birisi kötü yerden açılmamıştır.
+Zamanı gelsin hepsi patır patır…"* — **kademeli short biriktirme** yöntemi
+(27.789'dan 29.793'e altı kademe, 0,01–0,15 lot).
+
+Diğer işlem kayıtları: BTC/USDT **10x kaldıraç** ekranı · XAGUSD 350 ve 270 lot
+(bir gün -18.410, ertesi gün +24.450) · LCOUSD 390 lot (sabit) · USDTRY 6.217 ·
+NAS100M 150/300 lot. Ayrıca *"Yorum kendi platformuma göredir"* uyarısı — Koç'un
+verdiği sayılar kendi brokerinin kotasyonuna göre (LCOUSD 100× ölçekli).
+
+### 7. FED TUTARSIZLIĞI TEK GRAFİKTE ÖLÇÜLDÜ
+
+19 May 2026, DOW haftalık. **Aynı 36.459 seviyesinde iki zıt not:**
+- Kas 2023: *"Burada faizindiren BTC ETH etf verenler / Çünkü seçim vardı."*
+- Şub 2025: *"Aynı bölgede faiz indiremeyiz kaprisi yaptılar = FED"*
+
+Koç'un *"FED net suçludur"* iddiasının en temiz görsel kanıtı: aynı endeks
+seviyesinde iki farklı karar. Karar verinin değil takvimin/seçimin fonksiyonu.
+
+### 8. MÜDAHALE FORMASYONU YOK ETMEZ — BİR KAT YUKARI TAŞIR
+
+Yeni ve net bir yöntem kuralı (28 Ağu 2026, gümüş TRY):
+*"Bessent müdahale etmemiş olsa! Aşağıda OBO oluşacaktı.. **Bir üst katta
+oluşturdular.**"*
+
+Aynı hafta üç varlıkta aynı cümle: DOW (*"mumları sağa doğru vermesi gerekirken
+zorla tepeyi aşırtıp"*), BIST (*"TOBO oluşması gerekirken!"*), NASDAQ. Ortak
+tez: **formasyonun normal seyri ZAMAN ister; müdahale zamanı satın alıp
+formasyonu zorla bitirir.** Tarihsel emsal de verilmiş: 2018 altın düşüşü
+(*"Bu düşüş fake… ALTIN'da son dip aslında 1060 dolar"*).
+
+### 9. ASİMETRİ KURALI (borsa ↔ kripto, aynı gece iki grafik)
+
+18 May 2026, ard arda iki paylaşım:
+- **NASDAQ:** *"Hızlı yukarı al ama aşağı gelirken aylarca beklet."*
+- **BTCUSD:** *"Bir kerede hızlı düşürüyor. Yukarı alırkense 3 4 ay.."*
+
+Yani **tam ters rejim**: borsa hızlı kaldırılır yavaş indirilir, kripto hızlı
+indirilir yavaş kaldırılır. Varlık sınıflarına farklı müdahale uygulandığı tezi.
+
+### 10. TUTAN VE TUTMAYAN İDDİALAR (karne malzemesi)
+
+**Tuttu:**
+- NASDAQ **29.700** (22 May) → 31 May'da 30.345, seviye hiç kırılmadı ✔
+- NASDAQ **29.400** / 23 May son tarihi (18 May) → tuttu ✔
+- BTCUSD **80.600** risk eşiği (19 May) → 15 May'da 80.695'e temas ✔
+- XAUUSD **5300** (10 Oca 2026) → Mart-Nisan'da görüldü (Koç beyanı) ✔
+- BRENT **10770 "robot"** (19 Mar) → 19 May'da 10.776,30 ✔
+
+**Tutmadı / açık:**
+- ETHUSD **2442** / 10-12 May 2026 → *"#ETH 2442 aşamadı"* (Koç kendisi kesti) ✘
+- ETHUSD **2570** → 11 Şub 2026'dan beri **açık**, 28 Ağu'da fiyat 2166 ⏳
+- BTC **84 K / 106 K, 8 ay** (26 Mar 2025) → 8 ay dolmuş, 84 K altında ✘
+- NASDAQ short serisi (27.789'dan) → hâlâ açık zararda ⏳
+
+### 11. YENİ ORAN GRAFİKLERİ
+
+- **DXY/XAUUSD = 0,022** (27 Ağu) — 2016'da 0,090'dı, tarihi dip.
+- **BTCUSD/XAGUSD = 1,162** (27 Ağu) — 2025'te 3,50'ydi; alt trend (0,80) altı
+  kez çalıştı, kesikli üst trend 1,25 direnç.
+- **BRENT/XAGUSD = 1,374** (15 May) — arşivdeki 0,570 hedefi grafikte **0,580
+  tabanı** olarak doğrulandı; dipten +%137. Sonraki durak 1,600.
+
+Oran enstrümanları artık **sekiz** ve hiçbiri `sembol_listesi`nde yok (TUR 18'de
+de not düşülmüştü — hâlâ çözülmedi).
+
+### 12. YÖNTEM NOTLARI
+
+- **Fitil → ters kama:** GOLDgr'de iki kez ard arda ölçüldü (27 Oca ve 12 Mar
+  2026). Uzun fitilden sonra fiyat ters yöne genişleyen kamayla açılıyor, sonra
+  çöküyor.
+- **Baskı ≠ fren:** *"Adamlar baskı kurmuyorlar, frene basıyorlar"* (21 May,
+  gümüş) — satış baskısı ile yükselişe izin vermeme ayrı iki müdahale türü.
+- **14 yıllık trend çizgisi çalıştı:** GOLDgr aylıkta 2008-2012 arası çizilen
+  doğru, 2026 Ocak zirvesini (180) tam işaretlemiş.
+- **Nisan-Mayıs = emtia ayı** mevsimselliği + *"Powell'ı yollamadan adım
+  atmazlar"* şartı (28 Mar 2026).
+- **Kendi hatasını düzeltiyor:** *"Pardon üstünde olacaktı"* (22 May) — iddia
+  okunurken düzeltmenin de sayılması gerekiyor.
+
+### 13. TEKRAR PAYLAŞIM VE SS TARİHLENDİRME
+
+100 görselin **7'si** tekrar. İki tür ayrıldı:
+- **Aynı SS dosyası iki kez** (etkileşim sayıları birebir aynı): 22 May NASDAQ
+  düzeltmesi 25 ve 26 May'da; Çin ısı haritası aynı gün 2,5 saat arayla.
+- **Aynı tweet, farklı anlarda çekilmiş SS** (etkileşim farklı): 19 May BTC
+  tweetinin koyu tema kopyası 322 görüntüleme, beyaz tema kopyası 343 → koyu
+  olan daha erken çekilmiş. 30 Oca tweetinde 4.296 vs 4.300.
+
+Ayrıca aynı grafiğin **1 dakika arayla** iki kaydı (GOLDGR 31 May) — kotasyon
+145,96 vs 145,09, yani SS'ler ayrı anlarda alınmış.
+
+### Açık işler (TUR 20 için)
+
+1. **GOLDGR/XAGTRY/ETHTRY hâlâ `sembol_listesi`nde yok.** Bu tur GOLDGR
+   seviyeleri **XAUTRY**'ye yazılabildi (140,6 / 160,6 zaten vardı, 180 ve
+   124,19 eklendi) ama gümüş TRY gram (84,21 / 110,60) ve ETHTRY (106) yazılamadı.
+   Gümüş TRY, Koç'un en sık kullandığı band — en pahalı eksik artık bu.
+2. **SPGSCI (S&P GSCI) yeni bir enstrüman** ve makro tezin taşıyıcısı; listeye
+   eklenmesi düşünülmeli.
+3. **Öğreti çifti = band** bulgusu `magicma/bant_yon.py` ile örtüşüyor;
+   `onemli_seviye.py`'ye "çift kenar" tipi eklenip mega-confluence'ta band gibi
+   değerlendirilebilir mi, bakılmalı.
+4. **Kademeli short serisi** (NASDAQ 27.789→29.793) karneye ayrı bir "açık
+   pozisyon" kaydı olarak girmeli — tek seviye değil, altı kademeli bir iddia.
+5. 2021 tweetleri arşivde **tam metin olarak yok**, yalnızca SS'lerde var.
+   `11_DIS_KAYNAKLAR`/`03_HAFIZA`ya elle geçirilmesi düşünülmeli.

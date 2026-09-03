@@ -1761,5 +1761,341 @@
     "tur": "esik",
     "aciklama": "Alti kez test edilen psikolojik esik; 110->95 senaryosunun tam ortasi (gorsel: 2032969065820496180)",
     "tarih_eklendi": "2026-09-02"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 2600,
+    "tur": "ogreti_kutusu",
+    "aciklama": "2570/2600 ogreti cifti - kesik cizgi hedef bolgesi (18 May 2026 grafigi)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 2442,
+    "tur": "esik",
+    "aciklama": "10-12 May 2026 tarihli esik; asilamadi, Koc kendisi 'asamadi' dedi (27 Nis 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 2330,
+    "tur": "esik",
+    "aciklama": "'2330 asilirsa anca artik yazar' (8 Nis 2026); H4 ogreti cifti 2330,6/2329,2",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 2296,
+    "tur": "esik",
+    "aciklama": "'2296 ustu pozitifsin alti zaman kaybidir' (27 Nis 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 2157,
+    "tur": "ogreti_basamagi",
+    "aciklama": "'2157 ise pivot oldu = 5.7' - Koc'un 5.7 ogretisini adiyla yazdigi belge (8 Nis 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 2060,
+    "tur": "ogreti_basamagi",
+    "aciklama": "'2060 = 6 ogretisi' - Koc'un kendi ifadesi (19 May 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 2059,
+    "tur": "ogreti_kutusu",
+    "aciklama": "2060/2059 ogreti cifti - dusen kanal ile yukselen trendin kesisimi",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 90118,
+    "tur": "direnc",
+    "aciklama": "'90 K - su mesafeyi doldurtmuyor' - 82-90 K arasi kapanmayan bosluk (31 May 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 83999,
+    "tur": "ogreti_kutusu",
+    "aciklama": "84 K / 83.999 ogreti cifti - haftalik kanal ustu (20 May 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 74000,
+    "tur": "seviye",
+    "aciklama": "'BTCUSD 74 75 76 k her neyse / GUMUS 74 75 76 USD her neyse' - sayi transferi beyani (25 May 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 125000,
+    "tur": "seviye",
+    "aciklama": "5 aylik yatay bandin tepesi (Haz-Kas 2025) - 'buradan satan para kazandi'",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 104000,
+    "tur": "seviye",
+    "aciklama": "5 aylik yatay bandin tabani/kirilim noktasi (3 Kas 2025)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 72324,
+    "tur": "seviye",
+    "aciklama": "Gunluk kirmizi yatay (18 May 2026 grafigi)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 59479,
+    "tur": "seviye",
+    "aciklama": "Gunluk alt kirmizi yatay - Oca 2026 dibi (18 May 2026 grafigi)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 4684,
+    "tur": "ogreti_kutusu",
+    "aciklama": "4684/4683 ogreti cifti - H4 kesisim (21 May 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 4683,
+    "tur": "ogreti_kutusu",
+    "aciklama": "4684/4683 ogreti cifti - H4 kesisim (21 May 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 4597,
+    "tur": "seviye",
+    "aciklama": "H4 kirmizi yatay (21 May 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 4300,
+    "tur": "seviye",
+    "aciklama": "'XAUUSD 4300 = USDTRY 43 LIRA dengesini koca yil gorduk' - sayi transferi (10 Oca 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 96,
+    "tur": "direnc",
+    "aciklama": "2 Mar 2026 zirvesi - kesikli dusen trendin baslangici",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 61,
+    "tur": "destek",
+    "aciklama": "19 Mar 2026 dibi - yukselen kanalin tabani",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 55,
+    "tur": "destek",
+    "aciklama": "Gunluk ana yukselen trend (Kas 2024'ten) - kesikli cizgi kirilirsa ilk durak",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "UKOIL",
+    "seviye": 115,
+    "tur": "islem",
+    "aciklama": "'Petrol 106 dolar. 115 den vurdum' - acik short giris beyani (19 Mar 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "UKOIL",
+    "seviye": 114,
+    "tur": "direnc",
+    "aciklama": "6 Mar 2026 zirvesi - dusen kanalin ust kenari",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "UKOIL",
+    "seviye": 107.7,
+    "tur": "seviye",
+    "aciklama": "'10770 de robot var. Ustu kasarlar alti satis' (19 Mar 2026); 19 May'da fiyat tam oraya oturdu",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "UKOIL",
+    "seviye": 94,
+    "tur": "hedef",
+    "aciklama": "'O asagidaki kirmizi kanala kadar dusururler ama iste zaman...' (22 May 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 30044,
+    "tur": "seviye",
+    "aciklama": "'30044 dedi.. 30060 dan short girdiysem kazandim' - islem beyani (26 May 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 29743,
+    "tur": "destek",
+    "aciklama": "26 May 2026 gun ici dibi",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 29177,
+    "tur": "seviye",
+    "aciklama": "'Adamlar sistemi kurmuslar fiyati nereye yapistiriyor? 29177' (21 May 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 29064,
+    "tur": "seviye",
+    "aciklama": "'Oradan dondugu yer' - donus noktasi (19 May 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 27789,
+    "tur": "islem",
+    "aciklama": "Kademeli short biriktirmenin ilk girisi (0.10 lot, terminal gecmisi 26 May 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 26401,
+    "tur": "seviye",
+    "aciklama": "Gunluk ust bandin tavani (Eki 2025 - Nis 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 23814,
+    "tur": "seviye",
+    "aciklama": "Gunluk ust bandin tabani (Eki 2025 - Nis 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "DJI",
+    "seviye": 50608,
+    "tur": "direnc",
+    "aciklama": "Gunluk ust yatay - 'zorla short u patlatiyorlar' bolgesi (22 May 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "DJI",
+    "seviye": 48332,
+    "tur": "seviye",
+    "aciklama": "Gunluk OBO boyun cizgisi (omuz Oca - bas Sub - omuz May 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "DJI",
+    "seviye": 36459,
+    "tur": "seviye",
+    "aciklama": "FED tutarsizliginin olculdugu haftalik seviye: Kas 2023'te faiz indirildi, Sub 2025'te ayni bolgede 'indiremeyiz' dendi",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "DJI",
+    "seviye": 29543,
+    "tur": "seviye",
+    "aciklama": "'2019 da bu mal 30 K idi' - haftalik alt yatay",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XU100",
+    "seviye": 15060,
+    "tur": "direnc",
+    "aciklama": "May 2026 zirvesi (22 May 2026 grafigi)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XU100",
+    "seviye": 14452,
+    "tur": "direnc",
+    "aciklama": "'Zorla tepenin ustune cikartip dusuruyorlar' - 4H yatay (22 May 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XU100",
+    "seviye": 12928,
+    "tur": "destek",
+    "aciklama": "'12920' - 4H taban, iki kez calisti (Nis ve May 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "USDTRY",
+    "seviye": 43,
+    "tur": "seviye",
+    "aciklama": "'XAUUSD 4300 #USDTRY 43 LIRA dengesini koca yil gorduk' - sayi transferi (10 Oca 2026)",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUTRY",
+    "seviye": 180,
+    "tur": "direnc",
+    "aciklama": "22 Oca 2026 zirvesi - 2008-2012 aylik ana trend cizgisine degip dondu",
+    "tarih_eklendi": "2026-09-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUTRY",
+    "seviye": 124.19,
+    "tur": "destek",
+    "aciklama": "GOLDGR gunluk alt kesikli yatay (31 May 2026)",
+    "tarih_eklendi": "2026-09-03"
   }
 ]

@@ -3589,3 +3589,84 @@ BTC 2026'da 106 K'nın altına düştüğünde gerçekten yön değiştirdi.
 - `magicma/onemli_seviyeler.json` → bu girişteki somut seviyeler (S&P 7.589-7.590,
   Nasdaq 29.000, BTC 76.840/79.000, ETH 2.385/2.490, SOL 105, XRP 1,42) elle
   eklenmedi; CLAUDE.md kuralı gereği yeni dış kaynak girişinden sonra elle eklenmeli.
+
+
+## 2026-09-03 — Görsel defteri TUR 19 (100 görsel)
+
+**Yapılanlar:**
+- Bekleyen 459 ekonomikoçu görselinden **100 görsel** seçilip tamamı tek tek açıldı.
+  Pencere 15 May 2026 – 29 Ağu 2026 (ağırlık 18–31 May 2026).
+- `gorsel_analiz.jsonl` **1.024 → 1.124**. Bekleyen: **532** (ekonomikoçu 359,
+  iriscibre 141, efloud 32).
+- `06_ANALIZ.md` sonuna **"TUR 19"** bölümü eklendi (13 alt başlık + 5 açık iş).
+- `magicma/onemli_seviyeler.json`: **218 → 260** (42 yeni).
+
+**En değerli bulgular:**
+1. **SAYI TRANSFERİ TEZİ KAPANDI.** TUR 18'in hipotezi bu turda beş bağımsız
+   belgeyle doğrulandı, üçünde Koç sayıları alt alta *kasıtlı* yazıyor:
+   "#gümüş 80.60 / #btc 80.600" (8 May 2026, elle çizilmiş) · "BTCUSD 74 75 76 k
+   / GÜMÜŞ 74 75 76 USD **her neyse**" (25 May) · gümüş 68 USD + BTC 68.800 (aynı
+   hafta) · "XAUUSD 4300 / USDTRY 43 LİRA dengesini koca yıl gördük" ·
+   gümüş TRY 84 lira (BTC 84 K + gram altın 84 USD'ye eklendi).
+   **"Her neyse" ifadesi teze imza atıyor.** Dönüşüm tablosunu da kendisi
+   yazıyor: "140.60 / xauusd karsiligi 4376".
+2. **"Öğreti" kelimesi üç ayrı belgede Koç'un kendi elinden:** "2157 = 5.7",
+   "80.600 = 6 öğretisi", "2060 = 6 öğretisi". **Ve bir kez KARALANMIŞ** —
+   15 May'da aynı tweetin SS'inde "= 6 öğretisi" kırmızıyla gizlenmiş, 31 May'da
+   açık bırakılmış. Koç kavramı seçici gösteriyor.
+3. **Öğreti çifti = tek bandın iki kenarı (kesin).** 84.000/83.999, 4684/4683,
+   2060/2059, 2330,6/2329,2 — 1 puanlık farklar iki ayrı teknik seviye olamaz.
+   Depodaki MagicMA band mantığıyla (`bant_yon.py`) birebir örtüşüyor.
+4. **Zaman doktrininin kökeni 2021'e indi.** 15 Haz 2021 "Dünya pivotta,
+   dengeliyorlar" · 10 Haz 2021 "Z kuşağına kripto diye bir piyasa doğuruyorlar,
+   ana yatırım araçları performans gösteremiyor" · 25 Oca 2022 "bant bant, zaman
+   geçire geçire dövecekler" (**Rusya-Ukrayna savaşından 30 gün önce**).
+   10 Haz 2021 tezi, 29 Ağu 2026 SPGSCI grafiğinin birebir aynısı — beş yıllık
+   tutarlılık kaydı.
+5. **Enflasyon tezi ilk kez sayısallaştı:** SPGSCI grafiğinde 2031-2032'de
+   ~450-500 hedefi + "enflasyonun düşmesi için bu endeksin şuralara düşmesi
+   lazım" = %35 düşüş + 5-6 yıl.
+6. **Altı açık US100 SHORT, toplam ≈ -6.556** (terminal geçmişi, 26 May 2026).
+   27.789'dan 29.793'e kademeli biriktirme. Ayrıca BTC/USDT **10x kaldıraç**
+   ekranı ve "Yorum kendi platformuma göredir" uyarısı (LCOUSD 100× ölçekli).
+7. **FED tutarsızlığı tek grafikte:** DOW haftalık 36.459'da iki zıt not —
+   Kas 2023 "burada faiz indiren, ETF verenler, çünkü seçim vardı" / Şub 2025
+   "aynı bölgede faiz indiremeyiz kaprisi = FED".
+8. **Müdahale formasyonu yok etmez, bir kat yukarı taşır** (28 Ağu, gümüş TRY).
+   Aynı hafta DOW/BIST/NASDAQ'ta aynı cümle. Emsal: 2018 altın "fake düşüş".
+9. **Asimetri kuralı:** borsa hızlı kaldırılır yavaş indirilir; kripto tam tersi
+   (18 May, ard arda iki grafik).
+
+**Karne malzemesi (tuttu / tutmadı):**
+- Tuttu: NASDAQ 29.700 ve 29.400 · BTC 80.600 · XAUUSD 5300 · BRENT 10770 "robot".
+- Tutmadı: ETH 2442 (Koç kendisi "aşamadı" dedi) · BTC 84 K / 8 ay uyarısı.
+- Açık: ETH 2570 (11 Şub 2026'dan beri) · NASDAQ short serisi (zararda).
+
+**Kararlar ve gerekçeleri:**
+- **GOLDGR seviyeleri artık `XAUTRY`'ye yazılıyor** — mevcut kayıtlarda 140,6 ve
+  160,6 zaten XAUTRY altındaydı; 180 ve 124,19 aynı yere eklendi. TUR 18'de
+  "eklenemedi" denen sorun bu enstrüman için çözülmüş oldu.
+- **Gümüş TRY gram (84,21 / 110,60) ve ETHTRY (106) YİNE eklenemedi** —
+  `sembol_listesi`nde karşılıkları yok. Gümüş TRY, Koç'un en sık çizdiği band
+  olduğu için artık en pahalı eksik bu.
+- **Yeni tür etiketi yok**; mevcut `grafik` / `kendi_tweet_ss` / `islem_kaydi` /
+  `dis_kaynak_ss` / `gorsel_dekor` seti yetti. Trump ve @uzmancoin SS'leri
+  `dis_kaynak_ss`e, Cenaze Nakil Aracı fotoğrafı `gorsel_dekor`a gitti.
+- **`seviye` alanı olmayan kayıtlara dokunulmadı** — `onemli_seviyeler.json`'da
+  `seviye_alt`/`seviye_ust` ile tanımlı bant kayıtları var; ekleme scripti
+  `.get("seviye")` ile çakışma kontrolü yaptı, o kayıtlar bozulmadı.
+
+**Çıkarımlar (sonraki turlar için):**
+1. **Öğreti çifti bir BAND'dır, iki seviye değil.** `onemli_seviye.py`'ye "çift
+   kenar" tipi eklenip mega-confluence'ta band gibi değerlendirilmesi
+   düşünülmeli — şu an iki ayrı kayıt gibi sayılıyor, bu sinyali şişiriyor.
+2. **Kademeli short serisi tek bir "açık pozisyon" iddiasıdır**, altı ayrı
+   seviye değil. Karneye böyle girmeli.
+3. **SPGSCI (S&P GSCI) makro tezin taşıyıcısı** ve listede yok; eklenmesi
+   düşünülmeli.
+4. Oran enstrümanları artık sekiz (DXY/XAUUSD, BTC/XAG, BRENT/XAG, NASDAQ/XAU,
+   XAG/BTC, XAU/BTC, USDT.D, BTC.D) ve hiçbiri `sembol_listesi`nde yok — TUR
+   18'de de not düşülmüştü, hâlâ çözülmedi.
+5. **2021 tweetleri arşivde tam metin olarak yok**, yalnızca SS'lerde. En eski
+   doktrin kayıtları oldukları için `03_HAFIZA`/`11_DIS_KAYNAKLAR`a elle
+   geçirilmesi değerli olur.
