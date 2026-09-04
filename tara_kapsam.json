@@ -1,12 +1,12 @@
 {
-  "guncelleme": "2026-09-01T08:58:17",
+  "guncelleme": "2026-09-04T14:27:42",
   "hedef_tarih": "2025-01-01",
-  "en_yeni": "2026-08-30",
+  "en_yeni": "2026-09-04",
   "en_eski_kayit": "2019-11-28",
-  "tamam_kadar": "2019-11-28",
-  "surekli_ozet": "Henuz kesintisiz blok yok",
-  "toplam_satir": 7367,
-  "ana_metinli": 7186,
+  "tamam_kadar": "2025-01-sonu",
+  "surekli_ozet": "2026-09-04 - 2025-01 sonuna kadar kesintisiz kayit VAR (alt aylarda bosluk/sorun olabilir)",
+  "toplam_satir": 7622,
+  "ana_metinli": 7440,
   "abone_metinli": 3434,
   "bos_kilitli": 0,
   "alinti_toplam": 147,
@@ -14,18 +14,10 @@
   "alinti_bekleyen": 13,
   "flood_kok": 8,
   "flood_eksik_tahmin": 1,
-  "eksik_aylar": [
-    {
-      "ay": "2026-09",
-      "metinli": 0,
-      "bos": 0,
-      "sorun": [
-        "0 tweet"
-      ]
-    }
-  ],
+  "eksik_aylar": [],
   "aylik_metinli": {
-    "2026-08": 508,
+    "2026-09": 82,
+    "2026-08": 680,
     "2026-07": 283,
     "2026-06": 3564,
     "2026-05": 1391,
@@ -41,8 +33,7 @@
     "2025-05": 1,
     "2025-04": 8,
     "2025-03": 5,
-    "2025-01": 38,
-    "2024-12": 1
+    "2025-01": 38
   },
   "is_tamam": false
 }
