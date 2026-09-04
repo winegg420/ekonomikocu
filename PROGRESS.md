@@ -3854,3 +3854,54 @@ iş görsel defteri turu olarak belirlendi (TUR 20 sonrası 482 bekleyen görsel
   ~29 sn'de çekildi, %0,3 eşiğinde **26 aday** çıktı. 2 çakışan grup (AUDJPY, UUSDT)
   — ikisi de **dar band**, bantlar arası çakışma yok.
 - Tümü push edildi (commit 1fb7aa3).
+
+
+## 2026-09-04 (2) — ekonomikocu taraması + analiz
+
+**Yapılan iş:**
+- Chrome CDP ile açıldı, sekme `x.com/ekonomikocu/with_replies`e alınıp ≥5 article
+  doğrulandı (24 article), sonra `EKO_AKIS=yanit py -3 tara_guvenli.py`.
+  Log'da doğru dal göründü: *"Profil acik — devam"*.
+- Tarama: 7.539 → 7.622 (+83), exit 0, otomatik commit `fb74ff4`.
+- **Zorunlu diff kontrolü yapıldı ve yine sessiz kayıp buldu:** canlı akıştan 35
+  scroll ile 292 ID toplandı, arşivle diff'lendi → **196 eksik**.
+  `gap_ekle.py` ile 193'ü çekildi (3'ü "metin bulunamadı" — silinmiş/erişilemez).
+  Arşiv **7.815**. Ardından `analiz_devam.py` ile zenginleştirildi.
+- Analiz penceresi 30 Ağu 12:14 → 4 Eyl 14:17 = **276 kayıt**, **50 görselin
+  tamamı okundu**. `06_ANALIZ.md` sonuna tarihli bölüm eklendi.
+- `magicma/onemli_seviyeler.json`'a **15 yeni seviye** eklendi (9'u zaten vardı).
+  Alarm motoru kuru çalıştırmayla doğrulandı: kütüphane 308 kayıt okuyor,
+  karşılıksız kalan yalnızca BRENT ve NVDA (BRENT bilinen eksik, UKOIL olarak
+  girildi).
+
+**Kararlar ve nedenleri:**
+- **`claude_paket_olustur.py` TEKRAR ÇALIŞTIRILMADI.** `tara_guvenli.py` bitişte
+  kendi paketini üretip `[otomatik]` commit'i attı; ikinci kez çalıştırmak
+  ~104 MB'lık ikinci bir LFS objesi doğuracaktı.
+- Seviyeler `onemli_seviyeler.json`'a **UKOIL** adıyla girildi, "BRENT" değil —
+  taramada karşılığı olan sembol adı bu (`TVC:UKOIL`).
+- EURJPY ve USDJPY kütüphanede hiç yoktu, ilk kez bu turda girdi.
+
+**Çıkarımlar:**
+1. **"+83 yeni" bile sessiz kaybı gizleyebiliyor.** Bu, `project_sessiz_bos_tarama`
+   hafızasındaki 2026-09-01 gözleminin ikinci kez doğrulanması. Diff kontrolü
+   artık isteğe bağlı bir doğrulama değil, akışın zorunlu adımı sayılmalı —
+   tarama +83 derken gerçek eksik 196'ydı, yani **kaybın oranı %70'ti**.
+2. **Koç'un anlatımı rasyolara kaydı.** Bu turdaki en yoğun analizler
+   NASDAQ/ALTIN, BRENT/XAGUSD, BTC/ETH, XAUUSD/BTCUSD, OTHERS.D, JPYUSD
+   üzerineydi — **hiçbiri `sembol_listesi`'nde yok**, alarm motoru izleyemiyor.
+   Eksik enstrüman listesi bu turda yediden on üçe çıktı.
+3. **Üç yeni öğreti kayda geçti** (YÜZ oluşumu, KIVRIM, PARK telaşı) ve
+   **zaman hesabının formülü ilk kez sayısal olarak görüldü**: formasyonun mum
+   sayısı × zaman dilimi (haftalıkta 7 mum = 7×7 = 49 gün). Bu, arşivdeki tüm
+   tarih çağrılarının arkasındaki yöntem olabilir — geriye dönük test edilmeli.
+4. **"YÜZ oluşumu" karne motoruna doğrudan girmiyor:** iddia yön değil *süre*
+   içeriyor ("aylarca yorma"). Mevcut karne %0,5 hedef / %0,3 stop ile yön
+   ölçüyor. Süre iddiaları için ayrı bir değerlendirici gerekir.
+5. **4376 (ALTIN) ile 43760 (DOW) aynı sayı** ve Koç ikisini bir cümlede yan yana
+   kullandı. Ölçek-bağımsız öğreti sayısı kuralının en net örneği; tesadüf olup
+   olmadığı ölçülmeli.
+6. Görsel okuma yine karşılığını verdi: 4570 "FAKE", 4280 kıvrım, 100.60 kesişim,
+   150.60 USDJPY, 130.60 EURJPY, 2441/2439 ETH çakışması, "trend aşılmadan short"
+   — **hiçbiri tweet metninde yoktu**, yalnız jpg'lerin içindeydi.
+

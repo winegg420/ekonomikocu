@@ -6453,3 +6453,207 @@ short üstü diri kalır.** 10600 ve özellikle 11800'de alıcısı gelir."*
 5. **XU100 alarm motorunda karşılıksız** (`[ONEMLI] karsiligi olmayan
    enstruman atlandi: BRENT, GESAN, UKOIL, XU100`). Bu turda XU100'e üç,
    UKOIL'e bir seviye daha eklendi — ikisi de hâlâ ölçülemiyor.
+
+
+## 2026-09-04 — METİN + GÖRSEL ANALİZİ (30 Ağu → 4 Eyl)
+
+> **Kaynak:** `cekilen_tweetler.jsonl` 2026-08-30T12:14 → 2026-09-04T14:17.
+> Bu turda arşive **276 yeni kayıt** girdi (7.539 → 7.815); bunların **193'ü**
+> tarama sonrası canlı akış diff'iyle yakalanıp `gap_ekle.py` ile kurtarıldı
+> (profil kaydırması yığını atlamıştı — bkz. "Sessiz kayıp" notu).
+> **50 görselin tamamı açıldı ve okundu.** Aşağıdaki öğretilerin ve
+> seviyelerin büyük kısmı **yalnızca görsellerde** var, tweet metninde yok.
+
+### A. ÜÇ YENİ ÖĞRETİ (görsellerden çıktı, arşivde ilk kez kayda geçiyor)
+
+**1. "YÜZ oluşumu" — bitmiş varlığın işareti**
+Koç grafiğin üstüne yeşil kalemle iki göz (iki tepe) ve bir ağız (aradaki dip)
+çizip **gülen yüz** oluşturuyor. Kuralı kendi cümlesiyle:
+
+> *"Bir varlıkta YÜZ oluştuysa o varlıkla çok uğraşmayın."*
+> *"Birileri tepeyi buluyor. Birileri dibi buluyor. Daha sonra orta bir noktada
+> isterlerse aylarca süründürüyorlar. Ne satışçılar ne de alışcılar emeline
+> ulaşabiliyor."*
+
+Üç örnekle gösterdi, üçü de **aynı sonucu** vermiş — yüzden sonra "yorma":
+- `BRENT günlük` (2095552578419311025) — yüz Şub-May 2026 arası, sonrası yatay.
+- `EURUSD AYLIK` (2095552991776416023) — yüz 2004-2008, "gerisi yormaya giriyor";
+  18 yıldır aynı bantta (bugün 1,1635).
+- `ETHUSD günlük` (2095553426650169615) — yüz Tem-Eki 2025, sonrası "yorma".
+
+Bu, **fiyat değil zaman** öğretisi: formasyon yönü değil, *hareketsizlik süresini*
+öngörüyor. Karneye alınabilir bir iddia tipi (bkz. Açık işler).
+
+**2. "KIVRIM" — hareketli ortalamanın dönüş noktası destek/dirençtir**
+`ALTIN günlük` (2095054329241645448) üzerinde 20'lik ortalamanın büküldüğü
+noktalar işaretli:
+
+> *"Ortalamalardaki kıvrımların önemi de budur. Destek direnç görevi görürler."*
+
+Ölçülen örnek: **4059,99** eski kıvrım → sonradan yatay destek olmuş
+("KIVRIM DESTEK OLMUŞTUR"). **4280**'de bir kıvrım daha var; Koç'a göre
+*"müdahale etmemiş olsalar oraya düşmek zorundaydı"* — ve 2 Eylül'de
+**altın 4280 gördü** (kendi teyidi: "Altın 4280 gördü"). Şu an fiyatın
+üstünde kıvrım yok → grafik notu: **"destek yok..."**
+
+**3. "PARK telaşı" — düştüğü yere geri dönüp orada duran fiyat**
+`BTC HAFTALIK` (2095223177634836687): 125.646 tepesinden inen alçalan trend
+yukarı kırıldı, ama fiyat yükselmek yerine **düştüğü bölgeye geri park ediyor**
+(77.335). Aynı ifadeyi `GOLDGR 140,60` için de kullandı (2095224693980619254).
+Kırılım sonrası devam gelmemesinin adı bu.
+
+### B. ZAMAN HESABI FORMÜLÜ (ilk kez sayısal olarak açıklandı)
+
+15 Temmuz 2026 tarihli abone tweetinin ekran görüntüsünde
+(2095265041284997307) Koç zaman hesabını **formüle döktü**:
+
+> *"#ETHUSD HAFTALIK... OBO bozuldu, bilinçli bozdular #zaman geçiriyorlar.*
+> *Obo sağ kanada bakın 7 mum var. Grafik haftalık olduğuna göre 7x7 = 49 gün..."*
+
+**Kural: formasyonun mum sayısı × zaman diliminin gün karşılığı = süre.**
+Haftalık grafikte 7 mum → 7×7 = 49 gün. Bu, arşivdeki "60 günlük blok" ve
+"Ağustos 3. hafta" gibi tarih çağrılarının **arkasındaki yöntem** olabilir:
+tarihler sezgi değil, mum sayımı.
+
+### C. DOĞRULANMIŞ İKİ TARİH ÇAĞRISI (kendi ekran kanıtlarıyla)
+
+| Çağrı tarihi | Söylenen | Gerçekleşen | Önden süre |
+|---|---|---|---|
+| **5 Şubat 2025** (abone) | *"Yılın ikinci yarısı ve **2026 Mart**'a kadar durumları izlemek lazım"* | Savaş 2026 Mart'ta çıktı | **13 ay** |
+| **5 Şubat 2026** (abone) | *"Yoksa belki şaka geliyor ama #savaş çıkar. Gümüşün 120 dolar görmesi ne demek? Petrol 60 dolar."* | Savaş çıktı | **23 gün** |
+
+Koç ikinci çağrıyı kendi ölçtü: *"23 gün sonra çıktı."* Birincisi için:
+*"2025 Şubat... daha o günden 2026 Mart önemli diyorum. 1 sene üstüne yatıyorlar."*
+İkisi de **savaşın kendisi için** yapılmış çağrılar; ikisi de tuttu. Karnede
+"tarih çağrısı" kategorisi hâlâ ölçülemiyor (TUR 20'den devreden açık iş) —
+artık dört büyük örnek var.
+
+Üçüncü bir kayıt daha: **28 Ağustos 2025** — *"Trump şu an tamamen savaş
+ekonomisine döndü. Rusya Ukrayna geriliminden istediğini alamadı."*
+Koç'un kendi ölçümü: *"Ben ABD'nin savaş ekonomisine döndüğünü 2025 Ağustos
+ayında anladım. Savaş ne zaman çıktı? 2026 Mart. Arada geçen süreye bak: 8 ay."*
+
+### D. ANA TEZ — "faiz indirmemek için varlık şişirme"
+
+Bu turun omurgası tek bir mekanizma. Koç'un kendi zincirlemesi:
+
+1. Piyasalar gitmiyor, normalde **faiz indirmek zorundalar**.
+2. Faiz indirmek istemiyorlar (savaş = enflasyon; indirirlerse JPY gibi paralar
+   çakılır, "dünyada deprem etkisi").
+3. Çözüm: faiz yerine **varlık fiyatlarını şişir** — böylece piyasa düşmez,
+   parasal taviz vermeden yıl atlatılır.
+   > *"ABD #BİTCOİN dedi. Çin #gümüş dedi. ABD #PETROL dedi. El birliği ile
+   > varlık fiyatlarını şişirdiler, bedelini de günahsızlar ödedi."*
+4. Bedeli **enflasyon**: *"Dünya geneli tüm piyasalarda maksimum 500 milyon ile
+   1 milyar yatırımcı vardır. Dünya nüfusu 8,5 milyar. **7,5 milyar kişi
+   enflasyona maruz kaldı.**"*
+
+Koç'un "normal düzen" referansı (varlıkların olması gereken yeri):
+**gümüş 40 doları aşmamalı · ALTIN 4060 üstü kalmamalı · BTC 40 K olmalı.**
+Bunlar aşıldığı için *"eller mahkum faiz indirirlerdi, neden gazladılar? Faiz
+indirmemek için."*
+
+Petrol için ayrı bir tanım: **"Petrol gizli vergidir. Kırpar geçer. Bunu
+kullanmasalar faiz demek zorundalar."**
+
+**Kendi konumu (ilk kez bu kadar net):** *"Ben majör varlıkların aşırı
+şişirilmesine çok sevinmem. İstikrar her zaman birinci önceliğimdir."*
+Ve: *"Benim derdim bir tarafın kazanması değil, dünyanın normalleşmesi."*
+4 Ekim 2025 abone SS'inde aynı ayrım: *"Sağ sol ne kadar yüksek o kadar iyidir
+[benim işim için]. Ama insanlık adına bu iyi değildir."*
+
+**Ne çözer:** *"Bu işi büyük resimde 3 şey temizler: 1- Barış 2- Taze bir kriz
+3- Zaman geçirmek."* Emtianın düşmesi içinse iki yol: **barış veya faiz artışı.**
+
+### E. SOMUT SEVİYELER (görsellerden okundu)
+
+**Altın ve gram altın**
+| Seviye | Anlam |
+|---|---|
+| **4376** | Ana pivot. Günlük grafikte 5 kez test edilmiş (Eki 2025 · Ara 2025 · May 2026 · Ağu 2026 · şimdi). 2 Eylül'de fiyat tam 4376,76'ya geldi. |
+| **4570** | 4H grafikte **"FAKE 4570"** etiketli — kırılımı sahte saydığı direnç. |
+| 4280 | Kıvrım. 2 Eylül'de görüldü. |
+| 4059,99 | Eski kıvrım → yatay destek. |
+| 3600 / belirsiz | *"Bunun alt bacağı 3600, üst bacağı belirsiz."* |
+| **10600** | Uzun vade hedef — *"= 6 öğretisi. Ama zaman veremem."* |
+| GOLDGR 140,60 · 153 · 135,70 · 127,79 | Park seviyesi · üst hedef · bant içi |
+
+**Endeksler**
+| Sembol | Seviye | Not |
+|---|---|---|
+| DOW | **43760**, band 43760–45700 | *"DOW bu düştüğü gün anca film biter."* Haftalıkta 3 kez çalışmış çizgi. |
+| NASDAQ | **30600** tavan · **26K–30K** kademeli short bandı · 29060/29200 · 27600 · 22400 | 4 Eki 2025 abone beyanı: *"30.600 geçmeden gidemez. 26 ile 30 K arası kademeli short girsem ileri de ihya olurum."* Metinde 29200 için "9.2 öğretisi". |
+| NASDAQ/ALTIN | **6,6** (bugün) · 16,6 (2000 tepesi) | 26 yılda aynı yerde. Yıllık grafikte yükselen trendin **altına** sarkmış; yukarıdaki gap kapanmamış. |
+| XU100 | 280 dolar | 2000'lerde de 280 dolardı. |
+
+**Parite ve emtia**
+| Sembol | Seviye | Not |
+|---|---|---|
+| USDJPY | **150,60** | *"Ana kritik rakam."* Haftalık yükselen trend oradan geçiyor. Ayrıca 152,15 yatay. |
+| EURJPY | **130,60** (aylık ana destek, 6 öğretisi) · 180,60–180,92 · 184 (8.4 öğretisi) · 185–188 | Aylık 30 yıllık trende **3. temas**: 1998 ve 2007'de sert düşüş gelmişti, bu kez *"çizgi üstüne alıp bir sene bekletiyorlar."* |
+| GBPJPY | 215,7 | 5.7 öğretisi. |
+| JPYUSD | 0,0072–0,0078 bandı | *"Şura aşılacak ki JPY değerlenecek."* (USDJPY ~128–139 karşılığı) |
+| BRENT | **100,60** (iki trendin kesişimi, 6 öğretisi) · 74–76 · 57,08 | **İşlem kuralı: *"Bu trend aşılmadan short."*** |
+| BRENT/XAGUSD | 1,529 · 1,813 · 1,068 · 0,570 | Rasyo alçalan kanalı yukarı kırdı — *"rasyoda petrol öne geçti."* |
+| EURTRY | 56,30 → **57 eşiği** | *"57 aşılırsa ya EUR güçleniyor ya dolar zayıflıyor demektir."* |
+| EURUSD | 1,1635 · 1,2285 fitili | Binance'te görülen spike: *"Eur sokmuşlar piyasaya."* |
+
+**Kripto**
+| Sembol | Seviye | Not |
+|---|---|---|
+| ETH | **2441 / 2439** | Yatay direnç ve alçalan trend **aynı noktada** — çakışan seviye. Ayrıca *"2570 aşıldığında iş yapar"*, haftalıkta 3000, destek 1886/1773. |
+| BTC | 77.335 (park) · 126K tepe · 40K "olması gereken" | Haftalık alçalan kırıldı ama devam yok. |
+| BTC/ETH | 32,35 · **20** destek | *"Aşağıda BTC'den bağımsız bir sürü pay var."* |
+| XAUUSD/BTCUSD | 0,057 → **0,023–0,025 hedef** | Koç 3. döngüyü **çizerek** öngördü: önce dibe (BTC güçlenir), sonra yukarı. Zaman ekseninde dip ~2027 ortası. |
+| OTHERS.D | 7,51% → **10,60%** | *"Şu çizgi aşılacak ki kripto para yapsın. Ortalama değer 10.60 = 6 öğretisi."* |
+
+### F. TAKVİM (bu turda geçen tarihler)
+
+- **8 Eylül 2026** — *"Tam bakmadım ama 8. güne kadar zamanı var. Altı short,
+  üstü acele etme."* (ALTIN 4376 bağlamında) · *"8 Eylül gününe kadar zamanı
+  var. Bir de yarın önemli. 4376 rakamını ortaya alın izleyin."*
+- **15 Eylül 2026** — vade sonu (*"Haziran 15 ile Eylül 15 vadesi atlattılar"*).
+- **16 Eylül 2026** — FED. *"Kısım kısım FED kadar geliyorlar."*
+- **13–14 Ekim 2026** — *"ABD'de trend haftasıdır."*
+- **2027 Mart** — gaz verilirse sürecin uzayabileceği son nokta.
+- 2027'de *"faiz demek zorunda kalırlar"*.
+
+### G. ÖRÜNTÜ TESPİTİ — aynı hikâye iki yıl üst üste
+
+`NASDAQ günlük 2025 vs 2026` (2095123519772217490): Koç iki yılı yan yana
+koydu. **Her iki yılda da aynı teknik noktada (yatay direncin kırılımında)
+"ABD–İRAN barışı" haberi** geldi. Kendi sonucu: *"Aynı taktikle 2 yıldır ZAMAN
+geçiriyorsunuz. Kafanıza göre savaş barış diyorsunuz."*
+
+Fiyatlama asimetrisi ölçümü: *"Nisan'da İRAN ile barıştık dediler, Mayıs'ta ÇİN
+ile anlaştık dediler — NASDAQ 8 K yükseldi. Onun üstüne elli kere savaş dediler,
+1 K düşmedi. **Barışa 8 K, savaşa 1 K. Mantık almıyor.**"*
+
+Aynı asimetriyi Ağustos 3. hafta çağrısında da kendine karşı kullandı:
+*"Ağustos 3. hafta ALTIN 800 dolar çıkıyor, ETH 800 dolar çıkıyor. Bunlardan
+birisi risk iştahı açık demekken diğeri değil demektir. Siz millete neyi
+fiyatlatıyorsunuz?"*
+
+### H. AÇIK İŞLER / SONRAKİ TURDA ARANACAK
+
+1. **"YÜZ oluşumu" karneye alınabilir mi?** İddia "yön" değil "süre" içeriyor
+   (*"aylarca yorma"*). Mevcut karne motoru %0,5 hedef/%0,3 stop ile yön ölçüyor;
+   süre iddiası için ayrı bir değerlendirici gerekir. Üç örneği (BRENT, EURUSD
+   aylık, ETH günlük) geriye dönük ölçmek mümkün.
+2. **7×7=49 gün formülü geriye dönük test edilmeli.** Arşivdeki eski formasyon
+   paylaşımlarında mum sayısı × periyot hesabı tutuyor mu?
+3. **"KIVRIM" seviyeleri otomatikleştirilebilir** — 20'lik MA'nın ikinci türev
+   dönüm noktaları MagicMA seviyelerinin yanında ikinci bir kaynak olabilir.
+4. **4376 ve 43760 aynı sayı.** ALTIN pivotu 4376, DOW pivotu 43760. Koç bunu
+   bir kez yan yana yazdı: *"ALTIN kanadını 4376'dan 5500'e gazladılar mı?
+   DOW kanadını 43760'dan 55K'ya gazladılar mı?"* Ölçek-bağımsız sayı
+   öğretisinin (bkz. öğreti sayıları kuralı) en net örneği; tesadüf olup
+   olmadığı test edilmeli.
+5. **Karşılığı olmayan enstrümanlar sürüyor:** NASDAQ/ALTIN oranı, BRENT/XAGUSD
+   rasyosu, OTHERS.D, BTC/ETH, XAUUSD/BTCUSD, JPYUSD — hiçbiri
+   `sembol_listesi`'nde yok, alarm motoru bunları izleyemiyor. Koç'un
+   analizlerinin ağırlık merkezi giderek **rasyolara** kayıyor; bu bir eksiklik.
+6. **Sessiz kayıp yine yaşandı:** tarama exit 0 + "+83 yeni" dedi, canlı akış
+   diff'i **196 eksik** buldu (193'ü kurtarıldı, 3'ü silinmiş/erişilemez).
+   Diff kontrolü her taramada zorunlu tutulmalı.
+
