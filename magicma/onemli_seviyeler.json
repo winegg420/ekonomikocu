@@ -2513,5 +2513,69 @@
   "tur": "pivot",
   "aciklama": "'Normal bir duzende BTC de 40 K da olmalidir' - saglikli duzen referansi",
   "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "BTCUSDT",
+  "seviye": 88400,
+  "tur": "pivot",
+  "aciklama": "11 Oca 2026: '88.399 alti kaldigi an gardi duser' - TUTTU, Subat'ta 78 K'ya indi",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "BTCUSDT",
+  "seviye": 62800,
+  "tur": "pivot",
+  "aciklama": "'Ara robot' - 2 Tem 2024 ve 24 Sub 2026'da tekrar",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "BTCUSDT",
+  "seviye": 117500,
+  "tur": "pivot",
+  "aciklama": "'Trump trendi 117500 dur' - alti satis (27 Eyl 2025)",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "ETHUSDT",
+  "seviye": 1060,
+  "tur": "destek",
+  "aciklama": "Alt kanal kesisimi, Nisan-Mayis 2026 (6 ogretisi)",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "ETHUSDT",
+  "seviye": 2776,
+  "tur": "pivot",
+  "aciklama": "Oca 2026'da kirilan ikinci destek",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "NDX",
+  "seviye": 24060,
+  "tur": "pivot",
+  "aciklama": "'Orta cizgi 24060 dir = 6 OGRETISI' - kuralin Koc'un kendi agzindan teyidi (18 Eyl 2025)",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "NDX",
+  "seviye": 22241,
+  "tur": "direnc",
+  "aciklama": "Coklu tepe yatayi - 2024-2025'te uc tepe, her biri bir haberle bozuldu",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Koc",
+  "enstruman": "DJI",
+  "seviye": 49200,
+  "tur": "pivot",
+  "aciklama": "Dirençten destege donen 4H yatayi (Oca-Sub 2026)",
+  "tarih_eklendi": "2026-09-04"
  }
 ]

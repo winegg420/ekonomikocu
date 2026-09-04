@@ -3905,3 +3905,47 @@ iş görsel defteri turu olarak belirlendi (TUR 20 sonrası 482 bekleyen görsel
    150.60 USDJPY, 130.60 EURJPY, 2441/2439 ETH çakışması, "trend aşılmadan short"
    — **hiçbiri tweet metninde yoktu**, yalnız jpg'lerin içindeydi.
 
+
+## 2026-09-04 (3) — Görsel defteri TUR 22 (Şubat–Mart 2026, savaş dönemi)
+
+- Kullanıcı "50 görsel daha analiz et" dedi. Önce bu oturumda okunmuş ama deftere
+  işlenmemiş **49 Eylül görseli** `gorsel_analiz.jsonl`'e yazıldı (1.224 → 1.273),
+  sonra yeni tur çalıştırıldı (1.273 → **1.343**).
+- **Pencere seçimi bilinçli:** okunmamış 310 görselin ay dağılımına bakıldı;
+  en büyük yığın 2026-02 (64) ve 2026-03 (74) çıktı — yani **savaşın çıktığı iki ay**
+  (28 Şubat 2026). Bu pencere seçildi.
+- `06_ANALIZ.md` sonuna TUR 22 bölümü eklendi. `onemli_seviyeler.json` 312 → 320
+  (çoğu seviye zaten kayıtlıydı; kütüphane artık 318 okunabilir kayıt, karşılıksız
+  kalan tek enstrüman BRENT).
+
+**Bulgular (özet):**
+1. **Savaş çağrısının tam zinciri çıktı:** üç ayrı çağrı — 5 Şub 2025 (13 ay
+   önceden), 1 Şub 2026 (27 gün), 5 Şub 2026 (23 gün). Üçü de tuttu. Son ikisinin
+   dayanağı **teknik değil, varlık ilişkisi**: "gümüş düşmüyorsa petrol onu takip
+   eder → savaş".
+2. **"Robot" kavramı** — algoritmanın savunduğu sabit seviye. Kanıtı çarpıcı:
+   2 Tem 2024'te yazdığı 63.800/62.800/62.400 üçlüsü ve üçgen, **1,5 yıl sonra**
+   24 Şub 2026'da birebir tekrar etti.
+3. **67.800 = "savaş rakamı"** — Koç'un en yüksek güvenle savunduğu seviye
+   ("değilse bu işi bırakırım"). 88.400 çağrısı ölçülebilir şekilde tuttu.
+4. **Dört yeni öğreti:** aylık kapanış kuralı · enflasyon düzeltmeli boğa ·
+   ay-içi gün takvimi (8/12-13/17) · mevsimsellik (Nisan-Mayıs emtia, Ekim savaş).
+5. **"Karşı-olgusal çizim" metodu:** müdahalenin geldiği yeri silip teknik ne
+   diyorsa onu elle çiziyor. Dört grafikte arka arkaya yaptı.
+6. **Tez sürekliliği 2021'e kadar geri gidiyor** — 13 Tem 2021'deki "3 seçenek"
+   ile 2026'daki "3 şey temizler" aynı çerçeve.
+
+**Çıkarımlar:**
+- **Deftere işleme adımı atlanabiliyor.** Bu oturumun ilk turunda 50 görsel okundu
+  ama `gorsel_analiz.jsonl`'e yazılmadı; sadece `06_ANALIZ.md`'ye özet girdi.
+  Sonuç: "okunmamış" sayısı yanlış (310 görünüyordu, gerçekte 260'tı) ve aynı
+  görseller tekrar okunma riski taşıyordu. **Görsel okuma turu deftere yazmadan
+  bitmiş sayılmamalı.**
+- **"Robot" hipotezi ölçülebilir bir iddia** ve karne motorunun mevcut yapısıyla
+  test edilemiyor: iddia "fiyat şu yöne gider" değil, "fiyat bu seviyeye yapışır".
+  Bir seviyede geçirilen süre ölçülmeli.
+- **Öğreti sayısı kuralı Koç'un kendi ağzından teyit edildi:** "Orta çizgi 24060
+  dır = 6 ÖĞRETİSİ" (18 Eyl 2025). Aynı turda PLATİN'de 1060 (6) ve 2920 (9.2)
+  tek grafikte yan yana çıktı — kuralın en temiz örneği.
+- **Kalan okunmamış: 210 görsel** (Şubat-Mart yığınından 88, ayrıca **91 tarihsiz**).
+  Tarihsizler tweet eşleşmesi olmayan kayıtlar; ayrı bir çözüm işi.

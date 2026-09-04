@@ -6657,3 +6657,210 @@ fiyatlatıyorsunuz?"*
    diff'i **196 eksik** buldu (193'ü kurtarıldı, 3'ü silinmiş/erişilemez).
    Diff kontrolü her taramada zorunlu tutulmalı.
 
+
+
+## 2026-09-04 (2) — GÖRSEL DEFTERİ TUR 22 (50 görsel · Şubat–Mart 2026, savaş dönemi)
+
+> Kaynak: `gorsel_analiz.jsonl` 1.273 → **1.343**. Pencere **13 Tem 2021 – 8 Mar 2026**
+> (paylaşım tarihleri 1 Şub – 8 Mar 2026; içerikte 2021'e kadar geriye giden ekran
+> görüntüleri var). Bu tur bilinçli olarak **savaşın çıktığı iki ayı** hedefledi:
+> 28 Şubat 2026'da savaş çıktı, Koç bu iki ayda çağrılarının zincirini kendi elleriyle
+> kurdu. Okunmamış yığında bu pencereden 138 görsel vardı, 50'si işlendi.
+
+### A. SAVAŞ ÇAĞRISININ TAM ZİNCİRİ — üç ayrı çağrı, hepsi tuttu
+
+Bu turun en somut çıktısı. Koç savaşı **üç kez ayrı ayrı** haber verdi ve üçünün de
+ekran kanıtını bu dönemde paylaştı:
+
+| # | Çağrı tarihi | Söylediği | Önden süre |
+|---|---|---|---|
+| 1 | **5 Şub 2025** (abone) | *"Yılın ikinci yarısı ve **2026 Mart**'a kadar durumları izlemek lazım"* | **13 ay** |
+| 2 | **1 Şub 2026** (abone) | *"Gümüşü düşürmezsen petrol kafa kaldırır ve ona yanaşır. Buradan ne anlam çıkar? **Yeni bir savaş..** Al çekirdeğini kenara çekil izle"* | **27 gün** |
+| 3 | **5 Şub 2026** (abone) | *"Belki şaka geliyor ama **savaş çıkar**. Gümüşün 120 dolar görmesi ne demek? Petrol 60 dolar"* | **23 gün** |
+
+Savaş **28 Şubat 2026**'da çıktı. Dikkat çekici olan: 2. ve 3. çağrının **dayanağı
+teknikten değil, varlık ilişkisinden** geliyor — *gümüş düşmüyorsa petrol onu takip
+eder, bu da savaş demektir.* Yani seviye değil, **varlıklar arası zorunluluk** okuyor.
+
+Buna eşlik eden dördüncü kayıt: **28 Ağu 2025** — *"Trump şu an tamamen savaş
+ekonomisine döndü"* (8 ay önce, TUR 21'de görülmüştü).
+
+### B. "ROBOT" — bu turun en önemli kavramı
+
+Koç'un fiyat teorisinin merkezinde **robot** var: algoritmanın ısrarla savunduğu,
+aylarca hatta yıllarca değişmeyen sabit seviye.
+
+**Kanıt olarak sunduğu şey olağanüstü:** 2 Temmuz 2024'te yazdığı
+> *"63.800 zaten bizim majör robotumuz. 62.800 ara robot yapıyorlar. **Üçgen yapıyor
+> orada** ve çaktırmadan 62.400 düşürüyorlar."*
+
+24 Şubat 2026'da — **bir buçuk yıl sonra** — BTC yine tam olarak 63.813 / 62.805 /
+62.412'de ve üstünde **yine daralan üçgen**. Koç iki grafiği yan yana koyup soruyor:
+*"Üçgen yazımı bile aynı... Sen buna vatandaş hareketi diyebilir misin?"*
+
+**Bilinen robot listesi (BTC):** 62.400 · 62.800 · 63.800 · **67.800** · 70.600 ·
+73.600 · 78.000 · 84.000 · 88.400 · 117.500.
+
+**67.800'ün ayrı yeri var.** Koç bu seviye için ölçülebilir en güçlü iddiasını kurdu:
+> *"Trump'ın ve Wall Street'in gözü şu an 67.800 seviyesinde değilse **bu işi
+> bırakırım**."* (12 Şub 2026, 4.076 görüntülenme)
+
+Sekiz gün sonra adını koydu: *"Bu rakam **savaş rakamıdır**"* (20 Şub). Savaştan
+sonra 7–8 Mart'ta fiyat hâlâ 67.872 ve 67.807 — iki gün üst üste aynı yerde:
+*"Kımıldamaz bekler. Zamanı boşa akıtır."*
+
+Ayrıca **88.400 çağrısı ölçülebilir şekilde tuttu:** 11 Oca 2026'da *"88.399 altı
+kaldığı an gardı düşer"* dedi; Şubat'ta fiyat 78.428'e indi.
+
+### C. DÖRT YENİ ÖĞRETİ
+
+**1. Aylık kapanış kuralı** (27 Eyl 2025)
+> *"Bir varlık düşmek istemiyorsa, **bir ay önceki tepenin üstünde kapatmak
+> zorundadır**."*
+
+Uygulaması: BTC tepesi 125 K, 117.500 altı = satış ("Trump trendi").
+
+**2. Enflasyon düzeltmeli boğa** (2 Haz 2025) — bu turun en ince fikri
+> *"Zaman boşa geçtikçe **seviyeler değişiyor**. Geçen sene Temmuz'da 100 K
+> geçilseydi bu boğa olarak okunurdu. Ama olay yeni yıla sarkınca 100 K kurtarmıyor.
+> O enflasyon farkı oluyor. Diyelim ki BTC 126 K gördü — bu yine bir boğa olmuyor,
+> enflasyon farkı oluyor."*
+
+Yani **aynı fiyat, farklı zamanda farklı anlam taşır**. Bu, arşivdeki "zaman
+analizi" vurgusunun matematiksel karşılığı: nominal seviyeler enflasyonla
+kaydığı için sabit hedefler zamanla anlamını yitiriyor.
+
+**3. Ay-içi gün takvimi**
+- *"Ayın **12 ve 13.** günleri kritik, bir çok yerde ekstra temkinli olun"* (12 Şub 2026)
+- *"Ayın **17.** gününe kadar pozitif haber şart"* (11 Şub 2026, 6 gün önceden)
+- *"**8.** güne kadar zamanı var"* (2 Eyl 2026, TUR 21'den)
+
+Üç ayrı ayda üç ayrı gün numarası. Ay-içi bir ritim iddiası var ama **kuralı henüz
+açıklanmadı** — hangi günün neden seçildiği belirsiz.
+
+**4. Mevsimsellik** (15 Nis 2025)
+> *"Her yıl **Nisan–Mayıs** ayları emtianın huysuzlandığı aylardır."*
+
+Buna **Ekim örüntüsü** eşlik ediyor (6 Şub 2025):
+> *"Biden her **Ekim** ayına bir savaş sığdırdığı için [faiz indirimi] gelemedi.
+> 2022 Ekim = İsrail Filistin. 2023 Ekim = İsrail İran."*
+
+Bu, TUR 21'deki *"13–14 Ekim ABD'de trend haftasıdır"* ile birleşiyor:
+**Ekim, Koç'un takviminde savaş/kriz ayı.**
+
+### D. "KARŞI-OLGUSAL ÇİZİM" — metodolojik keşif
+
+Koç 2–4 Mart'ta arka arkaya dört grafik paylaştı ve her birinde aynı şeyi yaptı:
+**müdahalenin geldiği yeri silip, teknik ne diyorsa onu elle çizdi.**
+
+> *"Trump'ın gazladığı yeri sildim.. 2025 Temmuz kripto haftası demeseydi bu
+> yaşanacaktı..."*
+
+Dört örnek: **BTC** (OBO boynu kırılıp 92 K'ya, sonra 125 K, sonra 85 K),
+**NASDAQ** (20.634'e sağ omuz, sonra 25.500), **ETHTRY** (77 K sağ omuz, sonra
+240.000), **ETHUSD**. Hepsinde ortak yapı: **omuz–baş–omuz tamamlanmalıydı,
+haber gelince tamamlanamadı.**
+
+Bu, arşivde ilk kez bu netlikte görülen bir yöntem: Koç sadece "ne olacak" demiyor,
+**"müdahale olmasaydı ne olurdu"yu da çiziyor** ve müdahaleyi böyle ölçüyor.
+
+### E. "ÇOKLU TEPE" VE HABER-TEPE EŞLEŞMESİ
+
+10 Temmuz 2025 tarihli tweetin ekran görüntüsü (7.560 görüntülenme), NASDAQ
+22.241 yatayında üç tepe:
+> *"2024'te ikili tepeyi barış diye diye bozuyor, dünyayı çökmekten kurtarıyor.
+> **7 ay oyalıyor.** ... + İran İsrail barışını dünyaya sattı. + İsrail Filistin
+> ateşkesini. Tek amacı var nedir? Piyasalar düşüyordu, bu da = **faiz indirimi**
+> demektir."*
+
+Kural: **her tepe bir haberle bozuluyor**; haberin işlevi yön değiştirmek değil,
+**zaman kazanmak**. TUR 21'deki "2025 vs 2026 aynı taktik" grafiğinin kaynağı bu.
+
+### F. YENİ SEVİYELER
+
+**Kripto**
+| Sembol | Seviye | Not |
+|---|---|---|
+| BTC | **67.800** | "Savaş rakamı / Trump rakamı". En yüksek güvenle savunulan seviye. |
+| BTC | 88.400 | *"88.399 altı kaldığı an gardı düşer"* — **tuttu** (78 K'ya indi). |
+| BTC | 62.400 · 62.800 · 63.800 | 2 Tem 2024 ve 24 Şub 2026'da **aynı üçlü + aynı üçgen**. |
+| BTC | 70.600 · 73.600 | Aylık kapanış eşiği · robot (ikisi de 6 öğretisi). |
+| BTC | 78.000 · 84.000 | İlk ciddi direnç · atak eşiği. |
+| BTC | 65.700 | *"Altı global sorunlarla alakalıdır."* |
+| BTC | 117.500 · 125.000 | "Trump trendi" · tepe. |
+| BTC evre | 80–95 K → **60.600–78 K** | "Evre" = yatay zaman geçirici bant. |
+| ETH | **2060 / 1060** | Kanal kesişimleri, **Nisan–Mayıs 2026**'ya denk geliyor. İkisi de 6 öğretisi. |
+| ETH | 3060 · 2776 | Oca 2026'da kırılan destekler. |
+| ETH | 1650–1700 | Mart 2026 alt bant hedefi. |
+| ETHBTC | 0,029 · 0,14 (2017) | Uzun trend 2023/24'te kırıldı — *"trendi Biden bozdu"*. |
+| ETHTRY | **75.700** | Ana yükselen trend (5.7 öğretisi). |
+
+**Endeks ve emtia**
+| Sembol | Seviye | Not |
+|---|---|---|
+| NASDAQ | **24.060** | *"Orta çizgi 24060 = **6 ÖĞRETİSİ**"* — kuralın Koç'un kendi ağzından teyidi. |
+| NASDAQ | 22.241 · 22.029 | Çoklu tepe yatayı · kripto ile kırılan direnç. |
+| NASDAQ | 23.700 · 24.600 · 24.920 | Düşüş eşiği · yeni kanal · haftalık düşüş başlangıcı. |
+| DOW | **50.600** | *"Buna 50600 gösteremediler."* |
+| DOW | 49.200 | Dirençten desteğe dönen yatay. |
+| DOW aylık | 17 yıllık trend | *"8-9 ay oldu **zorla** çizgi üstünde tutuyorlar."* |
+| **PLATİN** | **1060 → 2920** | *"1060'dan fiyat patlamış"* (6 öğretisi), *"2920'den RED = **9.2 öğretisi**"*. Tek grafikte iki öğreti sayısı — kuralın en temiz örneği. |
+| GÜMÜŞ | ~120 (Oca 2026 tepe) · 84,7 | Savaş öncesi tepe. |
+| ALTIN | ~3400 (Tem 2025) → 5183 | Kırılım 21 Ağu 2025; *"Ağustos ortası altın yürüdü gitti"*. |
+| **EURUSD** | **1,1776** | *"Teknik vs bakmıyorum. Direkt bu rakam **siyasi bir rakamdır**."* 16 Ara 2025'ten 25 Şub 2026'ya — **iki ay boyunca aynı yerde**. |
+| BIST | **14.060** | 6 öğretisi — NASDAQ 24.060 ile aynı sayı ailesi (ölçek bağımsızlık kanıtı). |
+| BIST/USD | 306 | Ana destek. |
+| DAX | 22.880–25.390 | **13 aylık** yatay bant. |
+
+### G. "HERKES KİLİTLEDİ" TESPİTİ
+
+Koç 4 Mart'ta üç endeksi arka arkaya koyup tek sonuca vardı:
+- **NASDAQ**: *"6-7 ay oldu, mumlar yana yana gidiyor. Fiilen olmasa da mantıken kapalıdır."*
+- **DAX aylık**: *"Mumlara bakın **13. aya** girdi. Sürekli yatay kapatıp gitmişlerdir."*
+- **BIST** (logaritmik): *"2023 2024 2025 2026 — yatay da... Üç dört senedir yatay."*
+
+> *"Sadece ABD mi borsayı kilitledi gitti? **Hayır, hepsi kilitledi gitti.**"*
+
+Bu, "zaman geçirme" tezinin tek bir ülkeye değil **küresel bir eşgüdüme** işaret
+ettiği iddiasının görsel kanıtı.
+
+### H. TEZ SÜREKLİLİĞİ — 2021'den 2026'ya değişmeyen çerçeve
+
+Bu tur, Koç'un tezinin **beş yıldır aynı** olduğunu gösteren ekran görüntüleriyle dolu:
+
+| Tarih | Söylediği |
+|---|---|
+| 15 Haz 2021 | *"Dünyada güç gösterisi sahne olursa ABD bu pası başka bir ülkeye atabilir. Dünya pivotta.. Dengeliyorlar."* |
+| 13 Tem 2021 | *"3 seçenek kaldı: 1. Kriptoyu dünyaya monte edeceksin 2. Avrupa birliğini dağıt 3. ABD kendisini bağımsız krize sürükler."* |
+| 12 Mar 2024 | *"Avrupa varsa kripto var."* (= Rusya-Ukrayna barışı olmadan kripto olmaz) |
+| 27 Haz 2024 | *"Enflasyonun ana nedeni SAVAŞ. Adam sana 'ne faiz indirimi, savaş var' diyemiyor."* |
+| 5 Tem 2024 | *"Ben reel anlamda boğa beklemiyorum. Aboneliğin ilk günü yazdım."* |
+| 15 Nis 2025 | *"ABD karşılıksız para bastı, enflasyonla mücadele etmedi. BTC üstünden ağaları fonladılar. Yoksa bu oyunu ABD **2023'te kaybetti**."* |
+| 22 Haz 2025 | *"Barış olmuyorsa bu dünyanın enflasyon anlamında gidecek çok yolu var. Yani = **kaos**."* |
+
+2021'deki "3 seçenek" ile 2026'daki *"3 şey temizler: barış / taze kriz / zaman
+geçirmek"* aynı çerçevenin iki ucu. **Tez beş yılda değişmedi, sadece kanıtları
+birikti.**
+
+### I. AÇIK İŞLER
+
+1. **"Robot" hipotezi ölçülebilir.** Belirtilen seviyeler (62.400/62.800/63.800/
+   67.800/70.600/73.600/88.400) için arşivdeki tarihlerden bugüne **fiyatın o
+   seviyelerde geçirdiği süre** ölçülürse, "robot" iddiası istatistiksel olarak
+   test edilebilir. Rastgele bir seviyeye göre anlamlı fazlalık var mı?
+2. **1,5 yıl arayla aynı üçgen** iddiası doğrulanabilir: 2 Tem 2024 ve 24 Şub 2026
+   BTC verisi elde var mı? Formasyon benzerliği sayısal olarak ölçülmeli.
+3. **Ay-içi gün kuralı bilinmiyor.** 8, 12-13, 17 — üç ayrı ay, üç ayrı gün. Vade
+   günleri mi, ay döngüsü mü, yoksa her ay ayrıca mı hesaplanıyor? Sonraki turlarda
+   bu sayının nasıl bulunduğu aranmalı.
+4. **"Enflasyon düzeltmeli boğa" karneye uygulanabilir:** karne şu an nominal
+   yüzde ölçüyor. Koç'un kendi ölçütüne göre bir seviyenin "tutması" zamanla
+   değişiyor. Uzun vadeli iddialar için enflasyon düzeltmeli bir ikinci sonuç
+   sütunu düşünülebilir.
+5. **PLATİN kütüphanede zayıf** (6 kayıt) ama Koç'un öğreti sayısı kuralının en net
+   örneği burada çıktı (1060 → 2920, 6 ve 9.2 öğretileri). XPTUSD seviyeleri
+   genişletilmeli.
+6. **Kalan okunmamış görsel: 260 → 210.** Şubat-Mart yığınından 88'i hâlâ
+   okunmadı; ayrıca **91 tarihsiz** görsel var (tweet eşleşmesi yok) — bunların
+   tweet_id'den tarih çözümü ayrı bir iş.
+
