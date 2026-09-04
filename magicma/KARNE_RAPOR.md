@@ -1,53 +1,53 @@
 # MagicMA Sinyal Karnesi
 
-_Guncelleme: 03.09.2026 19:00 TSI_
+_Guncelleme: 04.09.2026 12:20 TSI_
 
 Esikler: basari %0,5 · gecersiz %0,3 · zaman asimi 48 saat
 
 ## Genel
 
-- Acik (devam eden) sinyal: **30**
-- Toplam kapanan sinyal: **1414**
-- ✅ Basarili: 593 (%41,9)
-- ❌ Basarisiz: 791 (%55,9)
-- ⏱ Zaman asimi: 30 (%2,1)
+- Acik (devam eden) sinyal: **35**
+- Toplam kapanan sinyal: **1497**
+- ✅ Basarili: 627 (%41,9)
+- ❌ Basarisiz: 839 (%56,0)
+- ⏱ Zaman asimi: 31 (%2,1)
 
 ## Kategori bazinda
 
 | Kategori | Kapanan | Basarili | Basarisiz | Zaman asimi | Basari orani |
 |---|---:|---:|---:|---:|---:|
-| abd_hisse | 74 | 35 | 39 | 0 | %47,3 |
-| bist | 226 | 89 | 137 | 0 | %39,4 |
-| endeks_faiz | 27 | 9 | 16 | 2 | %33,3 |
-| forex_emtia | 104 | 30 | 48 | 26 | %28,8 |
-| gunun_hareketlileri | 191 | 92 | 99 | 0 | %48,2 |
-| kripto | 792 | 338 | 452 | 2 | %42,7 |
+| abd_hisse | 80 | 36 | 44 | 0 | %45,0 |
+| bist | 233 | 93 | 140 | 0 | %39,9 |
+| endeks_faiz | 29 | 9 | 18 | 2 | %31,0 |
+| forex_emtia | 112 | 31 | 54 | 27 | %27,7 |
+| gunun_hareketlileri | 198 | 95 | 103 | 0 | %48,0 |
+| kripto | 845 | 363 | 480 | 2 | %43,0 |
 
 ## Kaynak turu bazinda
 
 _Uc ayri sinyal kaynagi: MagicMA teknik cizgisi · Koc/dis analist seviyesi · ikisinin ayni bolgede birlestigi mega-confluence._
 
-- Acik: teknik 20 · onemli seviye 8 · mega 2
+- Acik: teknik 23 · onemli seviye 10 · mega 2
 
 | Sinyal kaynagi | Kapanan | Basarili | Basarisiz | Zaman asimi | Basari orani |
 |---|---:|---:|---:|---:|---:|
-| 🌟 Mega-confluence (teknik + temel) | 26 | 4 | 18 | 4 | %15,4 |
-| 📌 Önemli seviye (Koç / dış kaynak) | 67 | 26 | 35 | 6 | %38,8 |
-| MagicMA teknik çizgisi | 1321 | 563 | 738 | 20 | %42,6 |
+| 🌟 Mega-confluence (teknik + temel) | 32 | 5 | 22 | 5 | %15,6 |
+| 📌 Önemli seviye (Koç / dış kaynak) | 70 | 26 | 38 | 6 | %37,1 |
+| MagicMA teknik çizgisi | 1395 | 596 | 779 | 20 | %42,7 |
 
 ## Cakisan seviye (confluence) vs tekil
 
 _Yalnizca **teknik** (MagicMA) sinyaller. Cakisma tanimi: ayni sembolde temas eden iki+ cizginin degerleri birbirine %0,15 yakin._
 
-- Acik cakisan sinyal: **2** / 30
+- Acik cakisan sinyal: **2** / 35
 
 _Iki tip ayri olculur: **bantlar arasi** = Gunluk + Haftalik gibi FARKLI bantlar ayni bolgeyi isaretliyor (bagimsiz teyit); **dar band** = tek bandin alt+ust kenari birbirine yakin (cizgiler cakisiyor ama bagimsiz teyit degil)._
 
 | Sinyal tipi | Kapanan | Basarili | Basarisiz | Zaman asimi | Basari orani |
 |---|---:|---:|---:|---:|---:|
 | 🔥 Cakisan — bantlar arasi | 0 | 0 | 0 | 0 | %0,0 |
-| 🔥 Cakisan — dar band | 22 | 10 | 10 | 2 | %45,5 |
-| Tekil | 1299 | 553 | 728 | 18 | %42,6 |
+| 🔥 Cakisan — dar band | 23 | 11 | 10 | 2 | %47,8 |
+| Tekil | 1372 | 585 | 769 | 18 | %42,6 |
 
 _Karsilastirma icin hem bantlar-arasi hem tekil kapanan sinyal gerekiyor._
 
@@ -55,30 +55,30 @@ _Karsilastirma icin hem bantlar-arasi hem tekil kapanan sinyal gerekiyor._
 
 | Yon | Kapanan | Basarili | Basarisiz | Zaman asimi | Basari orani |
 |---|---:|---:|---:|---:|---:|
-| LONG | 699 | 274 | 403 | 22 | %39,2 |
-| SHORT | 715 | 319 | 388 | 8 | %44,6 |
+| LONG | 742 | 292 | 427 | 23 | %39,4 |
+| SHORT | 755 | 335 | 412 | 8 | %44,4 |
 
 ## Son 20 kapanan sinyal
 
 | Kapanis | Sembol | Kategori | Tip | Yon | Sonuc | Giris | Cikis | Yonlu % |
 |---|---|---|---|---|---|---:|---:|---:|
-| 2026-09-03 19:00 | HBARUSDT | kripto | tekil | LONG | ✅ basarili | 0.07871 | 0.07925 | 0,69 |
-| 2026-09-03 19:00 | BTCUSDT | kripto | 📌 seviye | SHORT | ❌ basarisiz | 80463.32 | 81347.99 | -1,10 |
-| 2026-09-03 19:00 | EIGENUSDT | kripto | tekil | LONG | ✅ basarili | 0.2073 | 0.209 | 0,82 |
-| 2026-09-03 19:00 | BLUAIUSDT | kripto | tekil | SHORT | ✅ basarili | 0.013033 | 0.012928 | 0,81 |
-| 2026-09-03 19:00 | LAVAUSDT | kripto | tekil | SHORT | ❌ basarisiz | 0.01884 | 0.01891 | -0,37 |
-| 2026-09-03 19:00 | ARM | abd_hisse | tekil | SHORT | ❌ basarisiz | 237.8063 | 240.02 | -0,93 |
-| 2026-09-03 19:00 | MEWUSDT | kripto | tekil | SHORT | ❌ basarisiz | 0.0004289 | 0.0004346 | -1,33 |
-| 2026-09-03 18:50 | NDX | endeks_faiz | 📌 seviye | SHORT | ❌ basarisiz | 29226.021 | 29470.002 | -0,83 |
-| 2026-09-03 18:50 | INTU | abd_hisse | tekil | SHORT | ✅ basarili | 349.75 | 347.28 | 0,71 |
-| 2026-09-03 18:50 | SPKUSDT | kripto | tekil | SHORT | ✅ basarili | 0.021522 | 0.021333 | 0,88 |
-| 2026-09-03 18:34 | HMSTRUSDT | kripto | tekil | SHORT | ❌ basarisiz | 0.0001781 | 0.0001786 | -0,28 |
-| 2026-09-03 18:34 | ETCUSDT | kripto | tekil | LONG | ✅ basarili | 7.57 | 7.62 | 0,66 |
-| 2026-09-03 18:34 | NOSUSDT | kripto | tekil | SHORT | ✅ basarili | 0.29065 | 0.28792 | 0,94 |
-| 2026-09-03 18:23 | XAUUSD | forex_emtia | 🌟 mega | SHORT | ❌ basarisiz | 4479.299805 | 4510.299805 | -0,69 |
-| 2026-09-03 18:23 | XYMUSDT | gunun_hareketlileri | tekil | LONG | ✅ basarili | 0.003376 | 0.0034 | 0,71 |
-| 2026-09-03 18:23 | XPTUSD | forex_emtia | 🌟 mega | SHORT | ❌ basarisiz | 1824.0 | 1838.0 | -0,77 |
-| 2026-09-03 18:23 | XVGUSDT | kripto | tekil | SHORT | ❌ basarisiz | 0.00261 | 0.00262 | -0,38 |
-| 2026-09-03 18:23 | APEXUSDT | kripto | tekil | SHORT | ✅ basarili | 0.2729 | 0.2702 | 0,99 |
-| 2026-09-03 18:23 | MEWUSDT | kripto | tekil | SHORT | ✅ basarili | 0.0004292 | 0.0004255 | 0,86 |
-| 2026-09-03 18:12 | SPX | endeks_faiz | 📌 seviye | SHORT | ❌ basarisiz | 7665.86 | 7728.37 | -0,81 |
+| 2026-09-04 12:20 | TNSRUSDT | gunun_hareketlileri | tekil | LONG | ✅ basarili | 0.0349 | 0.0351 | 0,57 |
+| 2026-09-04 12:20 | EDATA | bist | tekil | SHORT | ❌ basarisiz | 17.74 | 17.82 | -0,45 |
+| 2026-09-04 12:10 | XU100 | endeks_faiz | tekil | SHORT | ❌ basarisiz | 13916.63 | 13996.63 | -0,57 |
+| 2026-09-04 12:10 | DOHOL | bist | tekil | SHORT | ❌ basarisiz | 21.48 | 21.58 | -0,47 |
+| 2026-09-04 12:10 | ODAS | bist | tekil | LONG | ✅ basarili | 7.25 | 7.29 | 0,55 |
+| 2026-09-04 12:10 | XAUUSD | forex_emtia | 🌟 mega | LONG | ❌ basarisiz | 4479.0 | 4475.600098 | -0,08 |
+| 2026-09-04 12:10 | AEFES | bist | tekil | LONG | ✅ basarili | 18.28 | 18.39 | 0,60 |
+| 2026-09-04 12:10 | HBARUSDT | kripto | tekil | LONG | ✅ basarili | 0.0782 | 0.07955 | 1,73 |
+| 2026-09-04 12:10 | KCAER | bist | tekil | LONG | ✅ basarili | 13.99 | 14.11 | 0,86 |
+| 2026-09-04 12:00 | TURBOUSDT | kripto | tekil | LONG | ✅ basarili | 0.00097 | 0.000979 | 0,93 |
+| 2026-09-04 12:00 | ETCUSDT | kripto | tekil | LONG | ✅ basarili | 7.59 | 7.68 | 1,19 |
+| 2026-09-04 12:00 | GOATUSDT | kripto | tekil | SHORT | ❌ basarisiz | 0.01496 | 0.01508 | -0,80 |
+| 2026-09-04 12:00 | BCHUSDT | kripto | tekil | SHORT | ❌ basarisiz | 258.0 | 259.5 | -0,58 |
+| 2026-09-04 11:50 | XPTUSD | forex_emtia | 🌟 mega | SHORT | ✅ basarili | 1831.0 | 1820.0 | 0,60 |
+| 2026-09-04 11:50 | BICOUSDT | kripto | tekil | SHORT | ❌ basarisiz | 0.02212 | 0.02233 | -0,95 |
+| 2026-09-04 11:40 | EURUSD | forex_emtia | 🌟 mega | LONG | ⏱ zaman asimi | 1.1593 | 1.1625 | 0,28 |
+| 2026-09-04 11:40 | AEFES | bist | tekil | LONG | ❌ basarisiz | 18.28 | 18.24 | -0,22 |
+| 2026-09-04 11:40 | BIOEN | bist | tekil | SHORT | ✅ basarili | 18.69 | 18.57 | 0,64 |
+| 2026-09-04 11:40 | AVAXUSDT | kripto | tekil | SHORT | ✅ basarili | 7.543 | 7.505 | 0,50 |
+| 2026-09-04 11:40 | TIAUSDT | kripto | tekil | LONG | ❌ basarisiz | 0.3699 | 0.3593 | -2,87 |
