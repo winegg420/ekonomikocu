@@ -3837,3 +3837,20 @@ iş görsel defteri turu olarak belirlendi (TUR 20 sonrası 482 bekleyen görsel
    haber SS'i ile cevap. Aynı dosyayı farklı soruyla tekrar paylaşıyor
    (2 Nis "kesişimi nasıl kırıyorlar" → 6 Nis "simetrik değil"). Tekrar
    paylaşım = iddiayı doğrulanmış sayması.
+
+## 2026-09-04 — MagicMA taraması (bubbles hariç)
+
+- Kullanıcı isteği: "bubbles hariç magicma tara" → `gunun_hareketlileri_guncelle.py`
+  çalıştırılmadı, doğrudan `magicma_gozetmen.py` ile tarama yapıldı.
+- Başlangıçta CDP 9222 kapalıydı; gözetmen Chrome'u kendisi açıp TV layout'unu yükledi.
+- Sonuç: **534 sembolün 519'u okundu**, 356'sı rapora girdi
+  (`magicma/magicma_rapor_2026-09-04.md`). Okunamayan 15'in 8'i zaten kara listedeydi,
+  7'si (MEXC:BALUSDT, MEXC:DOSUSDT, BINANCE:ICXUSDT, MEXC:CASHCATUSDT,
+  BITGET:DEBITUSDT, MEXC:FAIUSDT, MEXC:ANTFUNUSDT) 3. başarısızlıkla kara listeye
+  girdi. Kara liste toplam 35 sembol.
+- Gözetmen exit 1 ile bitti — bu bir hata değil: "2 tur üst üste ilerleme yok"
+  durdurma sinyali, kalan semboller ölü/kara listelik olduğu için beklenen davranış.
+- Ardından `fiyat_kontrol.py` çalıştırıldı: 607 sembolün 606'sının canlı fiyatı
+  ~29 sn'de çekildi, %0,3 eşiğinde **26 aday** çıktı. 2 çakışan grup (AUDJPY, UUSDT)
+  — ikisi de **dar band**, bantlar arası çakışma yok.
+- Tümü push edildi (commit 1fb7aa3).
