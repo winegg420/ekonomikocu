@@ -1,6 +1,6 @@
 # 16 — ZAMANLAMA KARNESİ
 
-_Güncelleme: 2026-08-30_
+_Güncelleme: 2026-09-04_ (4 Eylül NFP günü girişlerinden 7 yeni pencere eklendi)
 
 > **Bu karne fiyat karnesi DEĞİLDİR.** Ölçtüğü şey seviyenin tutup tutmadığı değil,
 > **verilen zaman penceresinin** kendisinin isabeti: pencere kapandığında gerçekten
@@ -55,6 +55,14 @@ _Güncelleme: 2026-08-30_
 
 | Kaynak | Verilen pencere | Pencere kapanış tarihi | Sonuç |
 |---|---|---|---|
+| **Selçuk Geçer** | **ECB 10 Eylül'de faiz artırır** ("neredeyse kesin"); Euro Bölgesi ÜFE aylık +%1,6 dayanağı | **10 Eyl 2026** | İZLENİYOR — **dosyadaki en yakın pencere** |
+| **Barış Soydan** | **TCMB 10 Eylül ya da Ekim'de faiz indirir** → mevduat cazibesi azalır | 10 Eyl 2026 → 31 Eki 2026 | İZLENİYOR — 10 Eylül'de kısmen ölçülür; indirmezse Ekim'e sarkar, kapanmaz |
+| **Tunç Şatıroğlu + Selçuk Geçer** | **Fed 16 Eylül'de artırmaz** (Geçer: "sabit — ne artırım ne indirim"; Tunç: "CME %59,4 fiyatlıyor, ben beklemiyorum") | **16 Eyl 2026** | İZLENİYOR — piyasa fiyatlamasına **karşı** pozisyon |
+| **Barış Soydan** | **Önümüzdeki hafta ABD CPI son noktayı koyar** — beklenti altı gelirse Fed artırım ihtimali düşer, altın için olumlu | ~11 Eyl 2026 | İZLENİYOR |
+| **Tunç Şatıroğlu** | **XRP: "önümüzdeki hafta karar haftası"** (günlük AL, haftalıkta 4 pozitif uyumsuzluk) | ~11 Eyl 2026 | İZLENİYOR |
+| **Cüneyt Paksoy** | **Eylül'ün ilk 1-2 haftası S&P'nin yönünü belirler** (7.670-7.600 altına inilmedikçe stres yok) | ~14 Eyl 2026 | İZLENİYOR |
+| **Tunç Şatıroğlu** | Alternatif senaryo: **Eylül boyu yükseliş, Ekim'de düşüş** (ana senaryo: son bir yukarı → yeni zirve → düşüş) | 31 Eki 2026 | İZLENİYOR — 1 Eyl – 9 Eki penceresiyle **kısmen çelişiyor**, kaynak iki senaryo veriyor |
+| **Cüneyt Paksoy** | **TCMB indirimi Kasım/Aralık'ta, 1-2 puan** (Eylül toplantısı bekle-gör) | 31 Ara 2026 | İZLENİYOR — Soydan'ın 10 Eyl/Ekim penceresiyle **çelişiyor**, bkz. `14_CELISKI_PANELI.md` A10 |
 | Onur Duygu | Ağustos = "pivot ay" | 31 Ağu 2026 | İZLENİYOR — **yarın kapanıyor** |
 | Kripto Teknik | ETH Golden Cross ~29-30 Ağustos | 30 Ağu 2026 | İZLENİYOR — **bugün kapanıyor** |
 | Kripto Teknik | BTC Golden Cross **1 Eylül 2026** (200 GO $69.000) | 1 Eyl 2026 | İZLENİYOR |
@@ -85,6 +93,7 @@ _Güncelleme: 2026-08-30_
 | Berk Dinçtürk | Freeport-McMoRan **6 ay vadede** $85-90 | ~13 Şub 2027 | İZLENİYOR |
 | Emrah Lafçı & Ali Perşembe | Altın **6 ay içinde** $6.500 potansiyeli | ~19 Şub 2027 | İZLENİYOR |
 | Cüneyt Paksoy | BIST **yıl sonu + Q1** hedefi 17.000-17.500 | 31 Mar 2027 | İZLENİYOR |
+| **Cüneyt Paksoy** | **BIST 17.000 yıl sonu / 2027 1. çeyrek** — 4 Eyl'de yinelendi: *"teknik olarak hâlâ var"* | 31 Mar 2027 | İZLENİYOR — yukarıdaki satırın **4 Eylül'de teyit edilmiş hâli**; kaynak hedefini düşürmedi |
 | Barış Soydan (aktarım) | UBS: altın $5.000, **2027 ilk yarısı** | 30 Haz 2027 | İZLENİYOR |
 | Atilla Yeşilada | **2027'de iyileşme yok** | 31 Ara 2027 | İZLENİYOR |
 | Bora Özkent | ABD tahvil programı **seçimden hemen sonra** bitiyor | Kasım-Aralık 2026 | İZLENİYOR |
@@ -120,13 +129,17 @@ tekrar aranmasın.
 
 | | Sayı |
 |---|---|
-| Toplam tarih penceresi | 46 |
+| Toplam tarih penceresi | **55** |
 | Kapanmış | **9** |
 | — TUTTU | **7** |
 | — TUTMADI | **0** |
 | — SONUÇSUZ | **2** (Koç Temmuz 9-11 ötelendi · Cihat E. Çiçek koşul düştü) |
-| Açık (İZLENİYOR) | 37 |
+| Açık (İZLENİYOR) | **46** |
 | Penceresiz, ölçülemez | 5 |
+
+> _Önceki sayım (2026-08-30): 46 pencere · 9 kapanmış · 37 açık._
+> 4 Eylül'de eklenen 9 pencere: Selçuk Geçer 1 (+1 ortak) · Barış Soydan 2 ·
+> Tunç Şatıroğlu 3 (+1 ortak) · Cüneyt Paksoy 3.
 
 ### Ne öğreniyoruz
 
@@ -148,7 +161,13 @@ tekrar aranmasın.
    Sellcoin (Fed-Eylül kampı dışında), Emrah Altınocağı (19 Ağustos dışında),
    Şant Manukyan — hiç ölçülebilir tarih vermemişler.
 
-4. **Eylül 2026 bir tıkanma noktası:** 46 pencerenin **10'u** Eylül içinde kapanıyor
+4. **Eylül 2026 bir tıkanma noktası — 4 Eylül'den sonra daha da yoğunlaştı.**
+   Yeni eklenen 9 pencerenin **6'sı Eylül içinde** kapanıyor, üstelik ikisi tek
+   güne yığılıyor: **10 Eylül'de ECB (Geçer) + TCMB (Soydan/Paksoy çelişkisi)**
+   aynı anda ölçülecek, **16 Eylül FOMC** ise hem A5 çelişkisini hem üç kaynağın
+   karnesini birden kapatacak. Aşağıdaki eski sayım hâlâ geçerli, üstüne bunlar
+   ekleniyor:
+   46 pencerenin **10'u** Eylül içinde kapanıyor
    (1 Eyl BTC golden cross · 2 Eyl Koç altın penceresi · 11 Eyl Jackson Hole+2 hafta ·
    Eylül FOMC × 2 kamp · 15 Eyl Clarity Act · 15 Eyl Koç 90 günlük vade ·
    24 Eyl Trump-Şi · 30 Eyl Clarity son tarih · 30 Eyl Koç "gerçek yön").

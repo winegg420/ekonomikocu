@@ -2577,5 +2577,341 @@
   "tur": "pivot",
   "aciklama": "Dirençten destege donen 4H yatayi (Oca-Sub 2026)",
   "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy",
+  "enstruman": "XAUUSD",
+  "seviye": 4350,
+  "tur": "stop",
+  "aciklama": "Long stop: 4.350 ALTINDA kapanis. Kirilirsa 55 haftalik = 4.200 savunmasi",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy",
+  "enstruman": "XAUUSD",
+  "seviye": 4450,
+  "tur": "pivot",
+  "aciklama": "134 haftalik ortalama + 4.450 pivot ustunde kalinirsa tepki hedefleri acilir",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy",
+  "enstruman": "XAUUSD",
+  "seviye": 4200,
+  "tur": "destek",
+  "aciklama": "55 haftalik ortalama - 4.350 kirilirsa ikinci savunma hatti",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy",
+  "enstruman": "XAUUSD",
+  "seviye": 4700,
+  "tur": "hedef",
+  "aciklama": "4.450 pivot ustu korunursa minimum tepki hedefi zincirinin ilki",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy",
+  "enstruman": "BTCUSDT",
+  "seviye": 78500,
+  "tur": "stop",
+  "aciklama": "78-79 K altinda haftalik yapi sorgulanir; 75 K alti yeni denge arayisi",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy",
+  "enstruman": "BTCUSDT",
+  "seviye": 84000,
+  "tur": "hedef",
+  "aciklama": "34/55/89 haftalik ortalamalar ustunde kalinirsa ilk hedef",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy",
+  "enstruman": "BTCUSDT",
+  "seviye": 90000,
+  "tur": "hedef",
+  "aciklama": "84 K sonrasi ikinci hedef",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy",
+  "enstruman": "BTCUSDT",
+  "seviye": 100000,
+  "tur": "hedef",
+  "aciklama": "Haftalik ortalamalar ustu senaryosunun ucuncu hedefi",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy",
+  "enstruman": "XU100",
+  "seviye": 14150,
+  "tur": "pivot",
+  "aciklama": "21/55 gunluk ortalamalar (14.100-14.200) - ustu yukari yolu acar",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy",
+  "enstruman": "XU100",
+  "seviye": 14600,
+  "tur": "hedef",
+  "aciklama": "14.100-14.200 asilirsa ilk hedef",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy",
+  "enstruman": "XU100",
+  "seviye": 15500,
+  "tur": "hedef",
+  "aciklama": "Fibo %261,8 projeksiyonu",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy",
+  "enstruman": "XU100",
+  "seviye": 13650,
+  "tur": "destek",
+  "aciklama": "144 gunluk ortalama (13.600-13.700)",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy",
+  "enstruman": "XU100",
+  "seviye": 13300,
+  "tur": "destek",
+  "aciklama": "200 gunluk ortalama - trend burada degisir",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy",
+  "enstruman": "XU100",
+  "seviye": 13000,
+  "tur": "destek",
+  "aciklama": "'13.000 altina inilmemeli' - yapisal alt sinir",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy",
+  "enstruman": "XBANK",
+  "seviye": 16000,
+  "tur": "bariyer",
+  "aciklama": "15.800-16.000-16.500 bariyer bolgesi altina inilmemeli. NOT: sembol eslesmesi yok (sembol_listesi'nde XBANK yok) - alarm motoru bu kaydi atlar",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy",
+  "enstruman": "XBANK",
+  "seviye": 16500,
+  "tur": "bariyer",
+  "aciklama": "Bariyer bolgesinin ust kenari; ustunde kalinirsa 17.200-18.000. NOT: sembol eslesmesi yok",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy",
+  "enstruman": "XBANK",
+  "seviye": 17200,
+  "tur": "hedef",
+  "aciklama": "Bariyer ustu ilk hedef. NOT: sembol eslesmesi yok",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy",
+  "enstruman": "XBANK",
+  "seviye": 18000,
+  "tur": "hedef",
+  "aciklama": "Bariyer ustu ikinci hedef. NOT: sembol eslesmesi yok",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy",
+  "enstruman": "US30Y",
+  "seviye": 5.225,
+  "tur": "kriz esigi",
+  "aciklama": "ABD 30 yillik tahvil faizi 5,20-5,25 ustunde kalicilik = potansiyel mini finansal kriz; Hazine mudahalesi buradan. NOT: sembol eslesmesi yok (listede US10Y var, US30Y yok)",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy",
+  "enstruman": "USDJPY",
+  "seviye": 160,
+  "tur": "ust",
+  "aciklama": "160 ustu yen carry-trade 'bombasi' riski",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy",
+  "enstruman": "USDJPY",
+  "seviye": 154.5,
+  "tur": "alt",
+  "aciklama": "154-155 alti rahat bolge (carry riski yok)",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy",
+  "enstruman": "BRENT",
+  "seviye": 85,
+  "tur": "normal bant ustu",
+  "aciklama": "Normal bant 75-85 $; 90 $ ustu kalicilik TCMB algoritmasini bozuyor (petrol varsayimi 60 -> 87). NOT: sembol eslesmesi yok (sembol_listesi Brent icin TVC:UKOIL kullaniyor)",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Selcuk Gecer",
+  "enstruman": "XAUUSD",
+  "seviye": 4500,
+  "tur": "kritik",
+  "aciklama": "Izleme listesi 1. madde: 4.500 kirilir mi / tutulur mu",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Selcuk Gecer",
+  "enstruman": "XAUUSD",
+  "seviye": 5600,
+  "tur": "hedef",
+  "aciklama": "Rekor seviyesi; sonrasinda 4.000'e donulmez",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Selcuk Gecer",
+  "enstruman": "XAUUSD",
+  "seviye": 7000,
+  "tur": "uzun vade",
+  "aciklama": "Rekor sonrasi konusulacak uzun vade band alt kenari",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Selcuk Gecer",
+  "enstruman": "XAUUSD",
+  "seviye": 10000,
+  "tur": "uzun vade",
+  "aciklama": "Rekor sonrasi konusulacak uzun vade band ust kenari",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Tunc Satiroglu",
+  "enstruman": "BTCUSDT",
+  "seviye": 80000,
+  "tur": "teyit",
+  "aciklama": "Yeni alim icin 80 K gecisi gorulmeli (4s Kaufman + Bollinger)",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Tunc Satiroglu",
+  "enstruman": "BTCUSDT",
+  "seviye": 79000,
+  "tur": "destek",
+  "aciklama": "79 K ustunde tutuldu, supertrend AL",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Tunc Satiroglu",
+  "enstruman": "ETHUSDT",
+  "seviye": 2490,
+  "tur": "al",
+  "aciklama": "2.490 gecilince al",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Tunc Satiroglu",
+  "enstruman": "ETHUSDT",
+  "seviye": 2380,
+  "tur": "stop",
+  "aciklama": "ETH long stop",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Tunc Satiroglu",
+  "enstruman": "SOLUSDT",
+  "seviye": 105.6,
+  "tur": "al",
+  "aciklama": "105,60 gecilirse al",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Tunc Satiroglu",
+  "enstruman": "SOLUSDT",
+  "seviye": 98.5,
+  "tur": "stop",
+  "aciklama": "98,5 kirilirsa sat",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Tunc Satiroglu",
+  "enstruman": "XRPUSDT",
+  "seviye": 1.42,
+  "tur": "al",
+  "aciklama": "1,42 al; gunluk AL, haftalikta 4 pozitif uyumsuzluk",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Tunc Satiroglu",
+  "enstruman": "XRPUSDT",
+  "seviye": 1.36,
+  "tur": "stop",
+  "aciklama": "XRP stop",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Tunc Satiroglu",
+  "enstruman": "NDX",
+  "seviye": 28980,
+  "tur": "destek",
+  "aciklama": "4 Eylul donus noktasi",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Tunc Satiroglu",
+  "enstruman": "NDX",
+  "seviye": 29574,
+  "tur": "direnc",
+  "aciklama": "Gun ici direnc; artiya kapatildi",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Tunc Satiroglu",
+  "enstruman": "SMH",
+  "seviye": 572,
+  "tur": "al",
+  "aciklama": "562 gecildi (yarim alim); 572 gecilirse ikinci yari. NOT: sembol eslesmesi yok (sembol_listesi'nde SMH yok)",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Tunc Satiroglu",
+  "enstruman": "SMH",
+  "seviye": 545,
+  "tur": "stop",
+  "aciklama": "SMH pozisyon stopu. NOT: sembol eslesmesi yok",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy + Selcuk Gecer (2 bagimsiz kaynak)",
+  "enstruman": "XAUUSD",
+  "seviye": 4800,
+  "tur": "hedef",
+  "aciklama": "Paksoy: 4.450 pivot ustu tepki hedefi. Gecer: 4.500 ustu ilk hedef (Citi vb. banka hedefi aktarimi)",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy + Selcuk Gecer (2 bagimsiz kaynak)",
+  "enstruman": "XAUUSD",
+  "seviye": 5000,
+  "tur": "hedef",
+  "aciklama": "Paksoy: minimum tepki zincirinin sonu. Gecer: 4.800 sonrasi ikinci durak",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Cuneyt Paksoy + Tunc Satiroglu (2 bagimsiz kaynak)",
+  "enstruman": "SPX",
+  "seviye": 7600,
+  "tur": "destek",
+  "aciklama": "Paksoy: 7.670-7.600 (21/55 gunluk) alti stres. Tunc: 7.600 supertrend saglam, gosterge AL. Farkli yontem, ayni esik",
+  "tarih_eklendi": "2026-09-04"
+ },
+ {
+  "kaynak": "Selcuk Gecer + Tunc Satiroglu (2 bagimsiz kaynak)",
+  "enstruman": "BRENT",
+  "seviye": 100,
+  "tur": "esik",
+  "aciklama": "Gecer: petrol 100 $ ustu altin icin DUSUS sebebi (kalici enflasyon/faiz). Tunc: Brent 100 $ ustune yerlesemez (teknik). NOT: sembol eslesmesi yok (sembol_listesi Brent icin TVC:UKOIL kullaniyor)",
+  "tarih_eklendi": "2026-09-04"
  }
 ]

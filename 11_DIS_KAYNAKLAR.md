@@ -497,8 +497,69 @@ SOL eşiğinin $104,29'dan $105'e yükseltilmesi de aynı temkinli kaymanın par
 ### KARNE EK — Tunç Şatıroğlu (Tuzak Tepkiler)
 | Tarih | İddia | Sonuç |
 |---|---|---|
-| 1 Eylül | BTC $79.000 tutunamazsa $76.840 izlenmeli, altı satış sinyali | İZLENİYOR |
+| 1 Eylül | BTC $79.000 tutunamazsa $76.840 izlenmeli, altı satış sinyali | **TUTTU** (4 Eyl NFP satışında 79 K tuttu, 79,6 K kapanış) |
 | 1 Eylül | SOL $105 kırılmadan yeni alım yok (eşik yükseltildi) | İZLENİYOR |
+
+### 4 Eylül 2026 — Nasdaq (NFP'ye rağmen yükseldi) + Kripto (görünüm değişti mi?)
+
+> İki ayrı video, aynı gün. Birincisi ABD borsası/makro, ikincisi kripto taktiksel.
+
+**NFP ve Fed:**
+- NFP **"su kaldıran"** bir veri, **revize edilebilir**.
+- **CME %59,4** artırım fiyatlıyor; **Tunç artırım beklemiyor**.
+- **CPI beklentinin altında gelirse ihtimal biter.**
+
+**Jeopolitik / petrol:**
+- **WSJ manşeti:** Hürmüz Boğazı dışında **gemiden gemiye transfer**, ABD **mayın
+  temizliği** yapıyor. **Hark adasında İran tankeri vuruldu** — caydırıcı mesaj.
+- **Brent 100 $ üstüne yerleşemez** — **102** test edildi ve geri dönüldü.
+- **Labor Day** nedeniyle pazartesi ABD kapalı.
+
+**S&P / Nasdaq:**
+- **S&P:** Temmuz dibinden 13 Ağustos zirvesine olan hareketin **fibo %38'ine** geri
+  çekilip döndü. **7.600 supertrend sağlam**, gösterge **AL**.
+- **NDX:** **28.980**'den dönüş, **29.574 direnç**, günü **artı** kapattı.
+- **Ana senaryo:** son bir yukarı bacak → **yeni zirve** → sonra düşüş.
+  **Alternatif:** Eylül boyu yükseliş, **Ekim'de düşüş**.
+- **Zarar-kes disiplinine uy** (kaynağın tekrar ettiği uyarı).
+
+**Hisse/ETF taktikleri:**
+- **SMH 562 geçildi** → yarım alım. **572 geçilirse** ikinci yarı. **Stop 545.**
+- **IGV: SAT.**
+- **NASA 2.350 geçti** → tut.
+- **SpaceX ilişkili hisse: 151 geçilirse alınır, stop 141.**
+- **Rocket Lab: 66 geçince.**
+- **AST SpaceMobile: AL, stop 60,52.**
+- **Intuitive Machines: 15,35 / 15,92 kademeli.**
+- **Firefly: 21,50 / 22,21 kademeli.**
+
+**Kripto (4 saatlik Kaufman + Bollinger):**
+- **BTC** hareketli ortalamanın üstünde tuttu, **79 K üstü**, supertrend **AL**.
+  Yeni alım için **80 K geçişi** görülmeli.
+- **ETH 2.490 geçilince al, stop 2.380.**
+- **SOL 105,60 geçilirse al; 98,5 kırılırsa sat.**
+- **XRP 1,42 al / 1,36 stop.** Günlük **AL**, haftalıkta **4 pozitif uyumsuzluk**;
+  *"önümüzdeki hafta karar haftası"*. Daha önceki **1,057 uzun vade alım çağrısı
+  TUTTU** (fiyat 1,40).
+- **Altın–kripto–Nasdaq korelasyonu bozuk** bir dönemdeyiz.
+
+**[Claude çapraz kontrol]:** **Brent 100 $ üst sınırı** aynı gün Selçuk Geçer tarafından
+da bağımsız olarak verildi (Geçer'de "altın için negatif eşik", Şatıroğlu'nda "teknik
+olarak yerleşemez") — farklı gerekçe, aynı sayı. **S&P 7.600** ise Paksoy'un
+**7.670–7.600** bandının alt kenarıyla örtüşüyor; iki kaynak, iki farklı yöntem
+(supertrend vs 21/55 günlük ortalama), aynı eşik. İkisi de `13_KONSENSUS.md`'ye işlendi.
+
+### KARNE EK — Tunç Şatıroğlu (NFP günü)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 4 Eylül | BTC'de yeni alım için 80 K geçişi teyit edilmeli | İZLENİYOR |
+| 4 Eylül | ETH 2.490 üstü al, 2.380 stop | İZLENİYOR |
+| 4 Eylül | SOL 105,60 üstü al, 98,5 altı sat | İZLENİYOR |
+| 4 Eylül | XRP 1,42 al / 1,36 stop; haftalık AL'a döner | İZLENİYOR |
+| 4 Eylül | Brent 100 $ üstüne yerleşemez | İZLENİYOR |
+| 4 Eylül | S&P 7.600 üstü korunur; yeni zirve sonra düşüş | İZLENİYOR |
+| 4 Eylül | SMH 572 geçilirse ikinci alım kademesi | İZLENİYOR |
+| Önceki | XRP 1,057 uzun vade alım çağrısı | **TUTTU** (4 Eyl fiyat 1,40) |
 
 ## EMRAH LAFÇI & ALİ PERŞEMBE
 
@@ -944,9 +1005,95 @@ tahvil-piyasası-güvensizliği).
 |---|---|---|
 | JH haftası | Altın 4.650 üstü 4.800'e geçerse hemen 5.000 hedefi açılır | İZLENİYOR |
 | JH haftası | BTC 75K altına inmedikçe 84-90K potansiyeli korunur | İZLENİYOR |
-| JH haftası | BIST 14.000-14.500 asla kırılmamalı | İZLENİYOR |
+| JH haftası | BIST 14.000-14.500 asla kırılmamalı | İZLENİYOR (ZEDELENDİ: 4 Eyl gün içi 13.895, kapanış 14.057 — gün içi kırıldı, kapanış tuttu) |
 | JH haftası | Bankacılık endeksi 16.500-17.000 kırarsa 18.500-22.000 yolu açılır | İZLENİYOR (3 kaynak ortak) |
 | JH haftası | ABD Hazine operasyonu amacı faiz düşürmek değil yükselmeyi engellemek | İZLENİYOR |
+
+### 4 Eylül 2026 — "Bu Bedeli Ödeyeceğiz" (NFP öncesi çekim, Integral FX TV)
+
+**Küresel faiz / tahvil — asıl izlenecek yer 30 yıllık:**
+- **ABD 30 yıllık tahvil faizi 5,20–5,25** üstünde kalıcı olursa yukarı potansiyel açılır;
+  bu, potansiyel bir **"mini finansal kriz"** demektir. ABD Hazinesi'nin müdahalesi de
+  tam buradan gelir — amaç faizi düşürmek değil, yukarı gitmesini engellemek.
+- **2Y–10Y makası** (2 yıllık ~4,30 · 10 yıllık 4,70–4,80) **kapanmaya başlarsa alarm**:
+  makasın kapanması resesyon/stres fiyatlamasının işaretidir.
+
+**Dolar ve carry:**
+- **DXY kriz senaryosunda YÜKSELİR** — nakde ve rezerv paraya kaçış olur. (Bu, "kriz =
+  dolar zayıflar" varsayımının tersi; kaynağın altını özellikle çizdiği nokta.)
+- **USDJPY 160 üstü** yen carry-trade'i için "bomba" riski; **154–155 altı** rahat bölge.
+
+**Petrol:**
+- Normal bant **75–85 $**. **90 $ üstü kalıcılık** TCMB'nin algoritmasını bozuyor —
+  TCMB'nin petrol varsayımı **60 $'dan 87 $'a** çekildi.
+- **"Çin–ABD gerginliği en uç noktaya ulaşacak"** — kaynak **anlaşma yönünde DEĞİL**,
+  tırmanma yönünde bekliyor.
+
+**ABD borsası:**
+- **S&P 7.670–7.600** (21 ve 55 günlük ortalamalar) altına inilmedikçe stres yok.
+- **Eylül'ün ilk 1-2 haftası yönü belirler.**
+
+**Altın:**
+- **Long stop = 4.350 altında KAPANIŞ.** 134 haftalık ortalama + **4.450 pivot** üstünde
+  kalınırsa **4.700–4.800 → 5.000** minimum tepki hedefi.
+- 4.350 kırılırsa **55 haftalık = 4.200** savunma hattı.
+- **"Umarım rekor görmeyiz"** — **5.600 üstü = kriz fiyatlaması**, paradigma değişimi.
+  Yani rekor kaynağa göre iyi haber değil.
+- Merkez bankaları ABD tahvili satıp altın alıyor (**TCMB dahil**) — yapısal alıcı tabanı.
+
+**Bitcoin (haftalık grafik):**
+- 34/55/89 haftalık ortalamaların **üstünde kalınırsa 84 → 90 → 100 K** potansiyeli.
+- **Stop 78–79 K altı** sorgulanır; **75 K altı** yeni denge arayışı.
+- Kaynağın kendi ifadesi: *"Hayırdır abi çalıştı, stoplu gidelim."*
+
+**TCMB / Türkiye:**
+- **Bu toplantı bekle-gör**; **Kasım/Aralık'ta 1-2 puan** indirim ihtimali.
+- **Gösterge faiz 40 altı kıymetli**; **38'e inerse bankacılık hacimli yukarı** gider.
+- Yabancı **hisse alıyor, tahvil almıyor** — seçici giriş.
+
+**BIST düşüşünün sebebi (görüş değişimi):**
+- Sebep **SPK'nın fon düzenlemesi** — *"bu bedel ödenecek, sonra fabrika ayarlarına döner"*.
+  (Bu, Paksoy'un daha önceki küresel/dolar odaklı BIST okumasından **ayrışan** bir teşhis;
+  Iris Cibre'nin 31 Ağustos tezine katılıyor — bkz. `14_CELISKI_PANELI.md` B7 ve
+  `18_ONCU_TAKIPCI.md`.)
+
+**BIST seviyeleri:**
+- **14.100–14.200** (21/55 günlük) üstü → **14.600 → 15.000 → 15.500** (fibo %261,8).
+- **17.000** yıl sonu / 2027 1. çeyrek hedefi **"teknik olarak hâlâ var"**.
+- **144 günlük 13.600–13.700**, **200 günlük 13.300** — trend burada değişir.
+  **13.000 altına inilmemeli.**
+- **89 günlükte patinaj** (14.000 civarı).
+- Strateji: **BIST30/BIST50 ağırlıklı hisselere konsantre olmak**.
+
+**XBANK (bankacılık endeksi):**
+- **377/610 günlük ortalama bölgesinden alım gelmeli.**
+- **15.800 – 16.000 – 16.500 bariyer** altına inilmemeli; üstünde kalınırsa
+  **17.200 → 18.000**.
+
+**[Claude çapraz kontrol]:** Paksoy'un "DXY kriz senaryosunda yükselir" tezi, Selçuk
+Geçer'in aynı gün verdiği "DXY zayıflamak zorunda" görüşüyle **doğrudan çelişiyor**
+(bkz. `14_CELISKI_PANELI.md` A9). Altın rekoru konusunda da Geçer'le tam ters okuma var:
+Paksoy rekoru **kriz alameti** sayıyor, Geçer **hedef zincirinin devamı**. Buna karşılık
+S&P **7.600** eşiği aynı gün Tunç Şatıroğlu tarafından da bağımsız olarak verildi —
+iki kaynaklı sayısal kesişim (bkz. `13_KONSENSUS.md`).
+
+**koc_tetigi notu:** Çin–ABD anlaşma teyidi **YOK**; Paksoy tersini söylüyor (gerginlik
+uç noktaya). Fed indirimi koşulu için de tüm kaynaklar Eylül'de **sabit veya artırım**
+diyor → Koç'un 3 boğa koşulundan **2'si uzak**. `magicma/koc_tetigi_durum.json`
+DEĞİŞTİRİLMEDİ (`cin_abd_anlasma` hâlâ false).
+
+### KARNE EK — Cüneyt Paksoy (Bu Bedeli Ödeyeceğiz)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 4 Eylül | ABD 30Y 5,20-5,25 üstünde kalıcılık = mini finansal kriz riski | İZLENİYOR |
+| 4 Eylül | USDJPY 160 üstü carry-trade bomba riski; 154-155 altı rahat | İZLENİYOR |
+| 4 Eylül | Altın 4.350 üstü tutarsa 4.700-4.800 → 5.000 | İZLENİYOR |
+| 4 Eylül | BTC stop 78-79 K; üstünde 84-90-100 K potansiyeli | İZLENİYOR |
+| 4 Eylül | BIST 14.100-14.200 üstü → 15.000-15.500 | İZLENİYOR |
+| 4 Eylül | BIST 13.300 (200 günlük) altında trend değişir | İZLENİYOR |
+| 4 Eylül | XBANK 16.000-16.500 altına inilmemeli, üstünde 17.200-18.000 | İZLENİYOR |
+| 4 Eylül | TCMB Eylül toplantısı bekle-gör, indirim Kasım/Aralık | İZLENİYOR |
+| 4 Eylül | Çin-ABD gerginliği en uç noktaya ulaşacak (anlaşma DEĞİL) | İZLENİYOR |
 
 ---
 
@@ -1219,10 +1366,107 @@ bu çelişki mutlaka eklenmeli (Goldman vs 6-kaynak-artırım-konsensüsü).
 ### KARNE EK — Barış Soydan (Fonlara Sert Fren)
 | Tarih | İddia | Sonuç |
 |---|---|---|
-| Pazartesi | Bu cuma NFP altın/gümüş için kritik, sürpriz olabilir | İZLENİYOR |
+| Pazartesi | Bu cuma NFP altın/gümüş için kritik, sürpriz olabilir | **TUTTU** (NFP beklentinin ~4 katı, altın 4.500→4.370) |
 | Pazartesi | Goldman: Fed artırmaz, altın yıl sonu $4.900 | İZLENİYOR (6-kaynak konsensüsüne muhalif) |
 | Pazartesi | Petrol $100'e giderse Fed+TCMB planları bozulur | İZLENİYOR |
 | Pazartesi | SPK düzenlemesi serbest fon getirilerini Aralık'a kadar aşındıracak | İZLENİYOR |
+
+### 4 Eylül 2026 — "Altında Dikkat / Bankalar Faizi İndirdi / Halkbank"
+
+**NFP ve Fed:**
+- **NFP beklentinin ~4 katı** geldi → Fed'in **16 Eylül'de artırım** ihtimali
+  **%50'den %60+**'ya çıktı (CME FedWatch **%59,4**).
+- **Önümüzdeki hafta ABD CPI son noktayı koyar**: beklentinin altında gelirse altın için
+  olumlu, ihtimal geri çekilir.
+
+**Altın:**
+- Gün içinde **4.500 → 4.370 → 4.445**. Toparlanmanın sebebi **Trump'ın Warsh'a
+  "akıllı ol, faizi indir"** çıkışı ve ticaret yasağı tehdidi.
+- Geriye dönük değerlendirme: **bahardaki 4.000 "çok iyi alım bölgesiymiş"**.
+
+**Mevduat / TCMB:**
+- Bankalar faizi indirdi: **%38–39 bandı** — İş %38 · Garanti 37–38,75 · YKB 39,75 ·
+  Ziraat 38 · TEB 38–39.
+- **TCMB 10 Eylül ya da Ekim'de indirir** → mevduatın cazibesi azalır.
+
+**Fonlar:**
+- SPK rehberi sonrası **serbest fonlarda kan banyosu** (Pusula, Bosphorus portföy).
+  **Panik satışı durana kadar sürer.**
+
+**Halkbank:**
+- Tavan yaptı, **ortada haber yok**; alıcı **Ziraat Yatırım**. Kaynağın sorusu:
+  **ikincil halka arz öncesi fiyat yükseltme** operasyonu mu?
+
+**Diğer gözlemler:**
+- **Kişi başı gelir 20.000 $** — TL'nin reel değerlenmesinden doğan bir **yanılsama**.
+- **BYD Türkiye Ağustos satışı 46 adet** (Ocak'ta ~4.000) — çarpıcı çöküş.
+- **Tanker ETF 1 yılda ~%4.000** getiri.
+- **MU (Micron) %4+** yükseldi; **Seeking Alpha quant sıralamasında #1**.
+
+**[Claude çapraz kontrol]:** Soydan'ın aktardığı CME %59,4, aynı gün Tunç Şatıroğlu'nun
+da verdiği rakam — iki kaynak aynı veriyi bağımsız aktarıyor. Ancak **yorum ayrışıyor**:
+Soydan piyasanın fiyatlamasını nötr aktarırken Şatıroğlu **artırım beklemediğini** açıkça
+söylüyor. TCMB konusunda Soydan (10 Eylül/Ekim indirim) ile Paksoy (bu toplantı bekle-gör,
+indirim Kasım/Aralık) ve Selçuk Geçer (sabit) **üç ayrı yönde** — bkz.
+`14_CELISKI_PANELI.md` A10.
+
+### KARNE EK — Barış Soydan (NFP günü)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 4 Eylül | NFP sonrası Fed artırım ihtimali %60+ seviyesinde kalır | İZLENİYOR |
+| 4 Eylül | TCMB 10 Eylül ya da Ekim'de faiz indirir | İZLENİYOR |
+| 4 Eylül | Serbest fonlardan çıkış panik satışı durana kadar sürer | İZLENİYOR |
+| 4 Eylül | Halkbank hareketi ikincil halka arz öncesi fiyatlama olabilir | İZLENİYOR |
+
+---
+
+## SELÇUK GEÇER (YouTube — makro/altın, sponsor OKX TR) — **YENİ KAYNAK**
+
+> 4 Eylül 2026 oturumunda dosyaya girdi. Odak: savaş → petrol → enflasyon → faiz
+> zinciri ve bunun altına yansıması. Kaynak ayrımı kuralı gereği hiçbir görüşü
+> Koç'a atfedilmez.
+
+### 4 Eylül 2026 — "Altın Kâr Topluyor"
+
+**Nedensellik zinciri (kaynağın çerçevesi):**
+`savaş → petrol → enflasyon → faiz`
+- **Brent 96 $, WTI 92 $.**
+- **Avrupa gaz depoları %65** doluluk — kış öncesi düşük.
+- **Euro Bölgesi ÜFE aylık +%1,6** → **ECB 10 Eylül'de artırım "neredeyse kesin"**.
+- **BoE de artırım sinyali** veriyor.
+
+**Fed okuması:**
+- **Warsh şahin** konuştuğunda altın **−%3**; **Waller "sabit tutabiliriz"** deyince
+  altın **+%2**, **4.470–4.480**'e döndü.
+- Sonuç: **Fed artırmaz, indirmez — sabit.** *"Fed sıkılaşması intihar gibi."*
+- **TCMB de sabit** kalır.
+
+**Altın için izleme listesi (5 madde):**
+1. **4.500 kırılır mı / tutulur mu**
+2. **2Y–10Y makası**
+3. **DXY "zayıflamak zorunda"** — dış açık nedeniyle
+4. **Petrol** — **100 $ üstü altın için DÜŞÜŞ sebebi** (kalıcı enflasyon → kalıcı faiz)
+5. **CPI / istihdam** verileri
+
+**Hedef zinciri:**
+- **4.500 üstü → 4.800** (Citi vb. banka hedefi) **→ 5.000 → 5.600 rekor**.
+- Rekordan sonra **4.000'e geri dönülmez**; uzun vadede **7.000–10.000** konuşulur.
+
+**Koç'la ilişki (atıf değil, karşılaştırma):**
+- **DXY zayıflama beklentisi**, Koç'un **110 → 95** tezine **paralel**.
+- Ancak **altın hedefi**, Koç'un **"emtia baskılanıyor"** çerçevesinin **tersi** yönde.
+- **Paksoy'la doğrudan çelişki:** Paksoy *"rekor = kriz, umarım görmeyiz"*;
+  Geçer *"rekor sonrası 7–10 K"*. Aynı gün, aynı seviye, zıt anlam.
+
+### KARNE — Selçuk Geçer
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 4 Eylül | Fed Eylül'de sabit (ne artırım ne indirim) | İZLENİYOR |
+| 4 Eylül | ECB 10 Eylül'de faiz artırır | İZLENİYOR |
+| 4 Eylül | Altın 4.500'ü tutar → 4.800 | İZLENİYOR |
+| 4 Eylül | Brent 100 $ üstü kalıcı olmaz | İZLENİYOR |
+| 4 Eylül | DXY zayıflar (dış açık zorunluluğu) | İZLENİYOR |
+| 4 Eylül | Altın uzun vadede 7.000-10.000 | İZLENİYOR (uzun vadeli) |
 
 ## INTEGRAL FX TV (Karagöz / Sağman / Perşembe paneli)
 
@@ -2404,7 +2648,7 @@ dolar güçlenirken BIST düşüyorsa Koç'un tezi öne çıkar.
 
 ## 🔗 TÜRETİLMİŞ ANALİZ DOSYALARI (2026-08-30'da eklendi)
 
-Bu dosyadaki KARNE tabloları ve sayısal iddialar dört ayrı dosyaya sentezlenir.
+Bu dosyadaki KARNE tabloları ve sayısal iddialar beş ayrı dosyaya sentezlenir.
 **Bu dosyaya yeni bir kaynak/giriş eklendiğinde aşağıdakiler de güncellenmelidir:**
 
 | Dosya | Ne tutar | Ne zaman güncellenir |
@@ -2413,6 +2657,7 @@ Bu dosyadaki KARNE tabloları ve sayısal iddialar dört ayrı dosyaya sentezlen
 | `13_KONSENSUS.md` + `magicma/kaynak_konsensus.json` | 2+ kaynağın ±%2 içinde buluştuğu sayısal değerler, **ağırlıklı skorla sıralı** | Yeni sayısal iddia eklenince VE 12'deki isabet oranları değişince (skorlar yeniden hesaplanır) |
 | `14_CELISKI_PANELI.md` | Analist↔analist ve Koç↔dış kaynak çelişkileri | Yeni bir çelişki işaretlenince; taraflardan biri haklı çıkınca |
 | `16_ZAMANLAMA_KARNESI.md` | Tarih penceresi veren her iddia (fiyat karnesinden AYRI) | Yeni tarihli iddia eklenince; bir pencerenin kapanış tarihi geçince |
+| `18_ONCU_TAKIPCI.md` | Bir tezi/seviyeyi ilk kim söyledi — öncü/takipçi/eş zamanlı | 13'e yeni konsensüs kaydı girince veya mevcut bir konuya yeni kaynak katılınca |
 
 Ayrıca `15_KOC_TUTARLILIK.md` Koç'un kendi arşiv içi tutarlılığını tutar — bu dosyaya
 değil, `06_ANALIZ.md` + tweet arşivine dayanır.

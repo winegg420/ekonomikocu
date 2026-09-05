@@ -3949,3 +3949,57 @@ iş görsel defteri turu olarak belirlendi (TUR 20 sonrası 482 bekleyen görsel
   tek grafikte yan yana çıktı — kuralın en temiz örneği.
 - **Kalan okunmamış: 210 görsel** (Şubat-Mart yığınından 88, ayrıca **91 tarihsiz**).
   Tarihsizler tweet eşleşmesi olmayan kayıtlar; ayrı bir çözüm işi.
+
+
+---
+
+## 2026-09-05 — 4 Eylül (NFP günü) 5 videosu 11_DIS_KAYNAKLAR'a işlendi
+
+**Yapılan iş:**
+- `11_DIS_KAYNAKLAR.md`: Cüneyt Paksoy ("Bu Bedeli Ödeyeceğiz"), Barış Soydan
+  ("Altında Dikkat / Bankalar Faizi İndirdi / Halkbank"), **Selçuk Geçer — YENİ
+  KAYNAK** ("Altın Kâr Topluyor") ve Tunç Şatıroğlu ×2 (Nasdaq + Kripto) eklendi.
+  27 yeni KARNE satırı; 3 eski satır kapatıldı, üçü de **TUTTU**.
+- `magicma/onemli_seviyeler.json`: 42 yeni seviye (Paksoy 22 · Tunç 12 · Geçer 4 ·
+  konsensüs 4). Dosya 320 → 362 kayıt.
+- Türetilmiş dosyaların hepsi yeniden sayıldı: `12` (24 kaynak / 206 iddia /
+  16 TUTTU), `13` (+3 kayıt, Fed kaydı 7 kaynağa çıktı), `14` (A8/A9/A10 açıldı,
+  B7 güncellendi), `16` (+9 pencere), `18` (Iris Cibre ilk öncülüğünü aldı),
+  `01` (kaynak listesine Geçer).
+
+**Alınan kararlar ve nedeni:**
+- **Barış Soydan 3. kapanmış iddiasına ulaştı → isabet oranı %50 nötr'den %100'e
+  geçti.** Bu, `13_KONSENSUS.md`'deki **beş kaydın ağırlıklı skorunu** değiştirdi
+  ve sıralamanın tepesi ilk kez yer değiştirdi (Fed kaydı 2. → 1.). Ağırlıklandırma
+  formülü yazıldığından beri **ilk kez gerçekten iş yaptı**; notu 13'e işlendi.
+- **Altın 5.000 iki ayrı kayıtta duruyor ve birleştirilmedi** — biri kısa-orta vadeli
+  tepki hedefi (Paksoy+Geçer, 4 Eyl), diğeri çok yıllık yapısal band (kayıt 7).
+  Birleştirilseydi sahte bir 6 kaynaklı grup üretirdi.
+- **Brent 100: Yeşilada gruba katılmadı.** Aynı sayıyı veriyor ama **zıt yönde**
+  (aşılmasını bekliyor). BIST 14.000 dersinin (aynı sayı ≠ konsensüs) tekrarı.
+- **`koc_tetigi_durum.json` DEĞİŞTİRİLMEDİ.** Paksoy açıkça "Çin-ABD gerginliği
+  en uç noktaya ulaşacak" diyor — anlaşmayı doğrulayan kaynak yok, `cin_abd_anlasma`
+  false kaldı. Not olarak 11'e yazıldı.
+- **XBANK / US30Y / SMH / BRENT sembol listesinde yok.** Kayıtlar silinmedi;
+  `aciklama` alanına **"sembol eşleşmesi yok"** notu düşüldü. Alarm motoru bunları
+  sessizce atlıyor (dry-run ile doğrulandı: `[ONEMLI] Taramada karsiligi olmayan
+  4 enstruman atlandi: BRENT, SMH, US30Y, XBANK` — çökme yok).
+
+**Çıkarımlar ve gözlemler:**
+- **Paksoy görüş değiştirdi ve bu ölçülebilir:** BIST düşüşünü artık küresel/dolar
+  değil **SPK fon düzenlemesi** ile açıklıyor. Aynı teşhis Iris Cibre'de 4 gün
+  önce (31 Ağu) vardı. `18_ONCU_TAKIPCI.md`'deki **en temiz öncülük kanıtı** bu:
+  her iki tarih de gün hassasiyetinde, "önceki oturum" belirsizliği yok.
+- **Paksoy kendi eşiğini yukarı kaydırdı:** BIST 14.000-14.500 gün içi kırıldı
+  (13.895), kapanışta tutuldu (14.057); aynı gün eşiği 14.100-14.200'e revize etti.
+  Karne satırı TUTMADI değil **"İZLENİYOR (ZEDELENDİ)"** yapıldı — eşik kaydırma
+  ayrıca izlenmesi gereken bir davranış.
+- **Aynı gün, aynı seviye, zıt anlam:** Paksoy altın rekorunu (5.600) *kriz alameti*,
+  Geçer *hedef zincirinin devamı* sayıyor. Dosyadaki ilk "aynı sayı / zıt ANLAM"
+  çelişkisi (öncekiler sayı/yön çelişkisiydi).
+- **Eylül ortası bir toplu kapanış noktası:** 10 Eylül'de ECB (Geçer) + TCMB
+  (Soydan/Paksoy/Geçer üç yönlü çelişkisi), 16 Eylül'de Fed. Üç kaynağın karnesi
+  ve iki çelişki iki günde ölçülecek.
+- **"Eş zamanlı" etiketinin bir kısmı kaynakların hızından değil arşivleme
+  ritminden doğuyor** — beş video tek oturumda işlendiği için 4 Eylül'ün üç
+  konsensüs kaydı da otomatik "eş zamanlı" oldu. 18'e not düşüldü.

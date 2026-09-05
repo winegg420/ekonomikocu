@@ -1,6 +1,6 @@
 # 14 — ÇELİŞKİ PANELİ
 
-_Güncelleme: 2026-08-30_
+_Güncelleme: 2026-09-04_ (4 Eylül NFP günü: A8/A9/A10 açıldı, B7 güncellendi)
 
 > **Kaynak:** `11_DIS_KAYNAKLAR.md` (özellikle `[Claude çapraz kontrol]` notları) +
 > `06_ANALIZ.md`'deki Koç karşılaştırmaları. Yeni veri toplanmadı.
@@ -102,6 +102,57 @@ _Güncelleme: 2026-08-30_
   cevap vermiyorlar.
 - **Kim haklı çıktı:** Ölçülemez (farklı vade).
 
+### A8. Altın rekorunun ANLAMI — aynı seviye, zıt yorum (2026-09-04'te açıldı)
+- **Cüneyt Paksoy** (4 Eyl): *"**Umarım rekor görmeyiz.**"* — **5.600 $ üstü = kriz
+  fiyatlaması**, paradigma değişimi. Altının rekor kırması ona göre **kötü haberdir**;
+  sistemin bozulduğunun işaretidir. (Aynı gün 4.700-4.800 → 5.000 "minimum tepki"
+  hedefi de veriyor — yani yükselişi bekliyor ama **rekoru istemiyor**.)
+- **Selçuk Geçer** (4 Eyl): 4.500 → 4.800 → 5.000 → **5.600 rekor**; oradan
+  **4.000'e geri dönülmez**, uzun vadede **7.000-10.000** konuşulur. Rekor, hedef
+  zincirinin **doğal devamı** — nötr/pozitif bir olay.
+- **Durum:** Çelişkili — ve **türü nadir**: fiyat tahmininde değil, **aynı fiyatın
+  ne anlama geldiğinde** ayrışıyorlar. İkisi de 5.600'ü görebilir; biri bunu
+  "sistem çöküyor", diğeri "hedef gerçekleşti" diye okur.
+- **Ölçülebilir test:** 5.600 görüldüğü **gün** DXY, ABD 30Y ve kredi spreadleri.
+  Paksoy haklıysa altın rekoru **stres göstergeleriyle birlikte** gelir (30Y 5,25
+  üstü, DXY yukarı); Geçer haklıysa altın rekoru **DXY zayıflığıyla ve sakin
+  tahvil piyasasıyla** gelir.
+- **Kim haklı çıktı:** Henüz yok. Bu, `14`teki **ilk "aynı sayı / zıt anlam"**
+  çelişkisi (A6 ve B1 sayı/yön, bu ise sayı/anlam).
+
+### A9. DXY kriz senaryosunda ne yapar? (2026-09-04'te açıldı)
+- **Cüneyt Paksoy** (4 Eyl): Kriz senaryosunda **DXY YÜKSELİR** — nakde ve rezerv
+  paraya kaçış olur. Mekanizma: likidite talebi.
+- **Selçuk Geçer** (4 Eyl): **DXY "zayıflamak zorunda"** — ABD dış açığı buna
+  mecbur bırakıyor. Mekanizma: dış denge.
+- **Durum:** Çelişkili, **ikisi aynı anda doğru olamaz**. Aynı gün, iki ayrı video.
+- **Koç bağlantısı:** Geçer'in yönü Koç'un **DXY 110 → 95** tezine **paralel**
+  (bkz. `magicma/koc_tetigi.py` koşul 1, bugün %68,8 tamamlanma). Paksoy'un yönü
+  ise o koşulu **kriz durumunda tersine çevirir**. Yani bu çelişki, Koç'un boğa
+  tetiğinin 1. koşulunu doğrudan ilgilendiriyor.
+- **Ölçülebilir test:** Bir sonraki **risk-off gününde** (S&P −%2'den fazla düştüğü
+  gün) DXY'nin yönü. Yükseliyorsa Paksoy, düşüyorsa Geçer.
+- **Kim haklı çıktı:** Henüz yok.
+
+### A10. TCMB Eylül toplantısı — ÜÇ ayrı yön (2026-09-04'te açıldı)
+- **Barış Soydan** (4 Eyl): **10 Eylül ya da Ekim'de indirir.** Dayanak: bankalar
+  mevduat faizini zaten %38-39'a indirdi, piyasa fiyatlıyor.
+- **Cüneyt Paksoy** (4 Eyl): **Bu toplantı bekle-gör**; indirim **Kasım/Aralık'ta,
+  1-2 puan**. Dayanak: petrol 90 $ üstü kalıcılığı TCMB algoritmasını bozdu
+  (petrol varsayımı 60 → 87).
+- **Selçuk Geçer** (4 Eyl): **TCMB de sabit** kalır. Dayanak: küresel faiz yönü
+  yukarı (ECB artırıyor, BoE sinyal veriyor), TCMB tek başına ayrışamaz.
+- **Durum:** Çelişkili — **dosyadaki ilk ÜÇ YÖNLÜ çelişki** (indirim / erteleme /
+  sabit). Üçü de aynı gün, üçü de farklı gerekçe.
+- **Not:** `13_KONSENSUS.md` kayıt 3'teki 5 kaynaklı "TCMB gevşeme yönü"
+  konsensüsü **yönü** doğru saptamıştı (40 → 37 oldu). Bu yeni çelişki yön
+  üzerine değil **zamanlama** üzerine — o yüzden konsensüs kaydı bozulmuyor,
+  yanına bir zamanlama ayrışması ekleniyor.
+- **Ölçülebilir test:** **10 Eylül TCMB toplantısı** — tek günde üçü birden
+  ölçülür. İndirirse Soydan, sabit kalırsa Paksoy ve Geçer (ayrışmaları Kasım'a
+  kalır).
+- **Kim haklı çıktı:** Henüz yok — **dosyadaki en hızlı kapanacak çelişki.**
+
 ---
 
 ## B. KOÇ ↔ DIŞ KAYNAK ÇELİŞKİLERİ
@@ -196,7 +247,19 @@ _Güncelleme: 2026-08-30_
   ama ayrıştırılabilir — **dolar zayıflarken BIST hâlâ satılıyorsa** Iris'in
   regülasyon tezi, **dolar güçlenirken BIST düşüyorsa** Koç'un tezi öne çıkar.
   DXY ile XU100'ün önümüzdeki 4-6 haftalık korelasyon işareti kararı verir.
-- **Durum:** AÇIK.
+- **2026-09-04 GÜNCELLEMESİ — Paksoy da regülasyon tezine katıldı.**
+  Cüneyt Paksoy 4 Eylül videosunda BIST düşüşünün sebebini artık **SPK'nın fon
+  düzenlemesi** olarak veriyor: *"bu bedel ödenecek, sonra fabrika ayarlarına
+  döner"*. Aynı gün Barış Soydan da serbest fonlardaki "kan banyosu"nu SPK
+  rehberine bağlıyor (Pusula, Bosphorus portföy).
+  ➜ Iris Cibre'nin **31 Ağustos**'ta verdiği yerel-düzenleyici teşhis artık
+  **üç kaynaklı**; Koç'un küresel-dolar teşhisi ise tek başına kaldı.
+  ➜ Öncelik sırası `18_ONCU_TAKIPCI.md`'ye işlendi: **öncü Iris Cibre**, takipçiler
+  Paksoy ve Soydan (4 gün sonra).
+  ➜ **Bu çelişkiyi kapatmaz** — Koç'un tezi hâlâ ayrı bir kanalı (dolar yönetimi)
+  işaret ediyor ve ikisi birbirini dışlamıyor. Ama **kaynak dengesi 1'e 3'e
+  döndü** ve aşağıdaki ölçülebilir test artık daha anlamlı.
+- **Durum:** AÇIK — **kaynak dengesi Iris lehine 3'e 1.**
 
 ### B8. Petrol/emtia yönü — Koç ↔ Iris Cibre (2026-09-01'de açıldı)
 - **Koç** (29 Ağu): petrol ABD'nin elindeki enflasyon kolu; *"Madem ALTIN GÜMÜŞ
@@ -220,8 +283,17 @@ _Güncelleme: 2026-08-30_
 
 | | Sayı |
 |---|---|
-| Analist ↔ analist çelişkisi | 7 |
+| Analist ↔ analist çelişkisi | **10** (2026-09-04: A8 altın rekorunun anlamı, A9 DXY kriz yönü, A10 TCMB zamanlaması) |
 | Koç ↔ dış kaynak çelişkisi | **8** (2026-09-01: B7 BIST sebebi, B8 petrol yönü — Iris Cibre) |
-| **Sonucu (kısmen) belli olan** | **3** (B1 gümüş — zaman farkı çıktı · A6 BIST — şimdilik Paksoy · B5 altın — şimdilik Integral) |
-| Ölçülecek somut testi tanımlanmış olan | 3 (A2 "işlem yapılamaz hale gelme" · B2 15 Eylül sonrası DXY · B4 4,75 müdahalesi) |
-| Kapanmaya en yakın | A5 (Eylül FOMC) ve B3 (1 Eylül – 9 Ekim penceresi) |
+| **Sonucu (kısmen) belli olan** | **4** (B1 gümüş — zaman farkı çıktı · A6 BIST — 4 Eyl'de gün içi kırıldı, kapanışta tutuldu, **Paksoy eşiği yukarı revize etti** · B5 altın — şimdilik Integral · B7 BIST sebebi — kaynak dengesi 3'e 1 Iris lehine) |
+| Ölçülecek somut testi tanımlanmış olan | **6** (A2 "işlem yapılamaz hale gelme" · A8 rekor günü stres göstergeleri · A9 risk-off gününde DXY yönü · A10 10 Eylül TCMB · B2 15 Eylül sonrası DXY · B4 4,75 müdahalesi) |
+| Kapanmaya en yakın | **A10 (10 Eylül TCMB)** → sonra A5 (16 Eylül FOMC) ve B3 (1 Eylül – 9 Ekim penceresi) |
+
+### 2026-09-04 notu — çelişkilerin karakteri değişiyor
+
+4 Eylül'de açılan üç çelişkinin hiçbiri "kim daha yüksek hedef verdi" türünden
+değil. **A8** aynı fiyatın *anlamı* üzerine, **A9** bir mekanizmanın *yönü* üzerine,
+**A10** ise bir olayın *zamanlaması* üzerine. Bu, dosyanın ilk günlerindeki
+hedef-yarışı çelişkilerinden (A1 altın $10.000) daha ölçülebilir bir tür:
+üçünün de somut ve yakın bir sınama tarihi var (10 Eylül, 16 Eylül, ilk risk-off
+günü). **Eylül ortasında bu panelin üçte biri kapanabilir.**

@@ -1,11 +1,11 @@
 # 18 — ÖNCÜ / TAKİPÇİ TESPİTİ
 
-_Güncelleme: 2026-08-30_
+_Güncelleme: 2026-09-04_ (BIST düşüşünün sebebi + 4 Eylül konsensüs kayıtları eklendi)
 
 > **Soru:** Bir seviye/tez birden fazla kaynakta geçtiğinde onu ilk kim söyledi?
 >
-> **Girdi:** `13_KONSENSUS.md` / `magicma/kaynak_konsensus.json`'daki **18 konsensus
-> kaydinin tamami**. Her kayittaki kaynak listesi JSON ile birebir dogrulandi.
+> **Girdi:** `13_KONSENSUS.md` / `magicma/kaynak_konsensus.json`'daki **21 konsensus
+> kaydinin tamami** (2026-09-04 itibariyla). Her kayittaki kaynak listesi JSON ile birebir dogrulandi.
 > Tarihler `11_DIS_KAYNAKLAR.md`'deki bolum basliklarindan alindi.
 >
 > **UYARI — COZUNURLUK SINIRI (bu dosyanin en onemli notu):** Kaynak dosyasindaki
@@ -127,23 +127,64 @@ _Güncelleme: 2026-08-30_
 - **Eş zamanlı:** Berk Dinçtürk — 20 Ağustos 2026 (Program 4)
 - **Eş zamanlı:** Kemal Hiçyılmaz — 20 Ağustos 2026
 
+## BIST düşüşünün sebebi = SPK fon düzenlemesi (2026-09-04'te eklendi)
+- **Öncü:** **Iris Cibre — 31 Ağustos 2026.** *"Msci yüzünden olacağına SPK'nın
+  regülasyonu yüzünden olsun."* · *"Bu düzenleme serbest fon mantığını ortadan
+  kaldırdı."* · Bankalardaki sert satışı fonlardan çıkışa bağlıyor.
+- **Takipçi:** **Cüneyt Paksoy — 4 Eylül 2026** (4 gün sonra). *"Bu bedel ödenecek,
+  sonra fabrika ayarlarına döner."*
+- **Takipçi:** **Barış Soydan — 4 Eylül 2026** (aynı gün, ayrı yayın). Serbest
+  fonlarda "kan banyosu", Pusula/Bosphorus portföy örnekleri.
+
+**Bu kayıt neden önemli:** dosyadaki **ilk görüş değişimi belgesi**. Paksoy daha
+önce BIST zayıflığını küresel/dolar çerçevesinde okuyordu; 4 Eylül'de **yerel
+düzenleyici teşhise geçti** ve bu teşhis Iris Cibre'de 4 gün önce vardı. Iris'in
+öncülüğü burada **ölçülebilir ve tartışmasız** (iki tarih de gün hassasiyetinde,
+"önceki oturum" belirsizliği yok).
+
+**Koç bağlantısı:** Koç aynı düşüşü *"doları salmadıkları için ilerlemedi"* diye
+okuyor (27 Ağu). Yani Koç bu kayıtta **öncü de takipçi de değil, ayrı bir tez**
+veriyor — bkz. `14_CELISKI_PANELI.md` B7. Kaynak dengesi 4 Eylül itibarıyla
+**Iris tarafında 3, Koç tarafında 1.**
+
+## Altın 4.800 – 5.000 tepki hedefi (2026-09-04)
+**Öncü belirlenemedi — eş zamanlı.** İki kaynak da aynı gün (4 Eylül), iki ayrı yayında.
+- **Eş zamanlı:** Cüneyt Paksoy — 4 Eylül 2026
+- **Eş zamanlı:** Selçuk Geçer — 4 Eylül 2026
+
+## S&P 500 kritik destek eşiği (7.600)
+**Öncü belirlenemedi — eş zamanlı.** İki kaynak da 4 Eylül, iki ayrı yayın, iki ayrı yöntem.
+- **Eş zamanlı:** Cüneyt Paksoy — 4 Eylül 2026 (21/55 günlük ortalama)
+- **Eş zamanlı:** Tunç Şatıroğlu — 4 Eylül 2026 (supertrend)
+
+## Brent 100 $ üst sınır
+**Öncü belirlenemedi — eş zamanlı.** İki kaynak da 4 Eylül, farklı gerekçe.
+- **Eş zamanlı:** Selçuk Geçer — 4 Eylül 2026 (temel: enflasyon/faiz kanalı)
+- **Eş zamanlı:** Tunç Şatıroğlu — 4 Eylül 2026 (teknik/jeopolitik)
+
+## Fed Eylül'de artırmaz — mevcut kayda katılım
+- Kayıttaki öncü değişmedi (**Berk Dinçtürk, ~5 Ağustos 2026**).
+- **Yeni takipçi:** **Selçuk Geçer — 4 Eylül 2026** ("Fed artırmaz, indirmez; sabit").
+- **Tunç Şatıroğlu** zaten takipçiydi; 4 Eylül'de iddiasını **yineledi**, yeni
+  takipçilik sayılmadı (aynı kaynağın tekrarı öncülük tablosunu şişirmemeli).
+
 ---
 
 ## ÖZET — kaynak başına öncülük
 
 | Kaynak | Öncü | Takipçi | Eş zamanlı | Öncülük oranı |
 |---|---|---|---|---|
-| Cüneyt Paksoy | 3 | 5 | 0 | %38 |
+| Cüneyt Paksoy | 3 | 6 | 2 | %27 |
 | Integral FX TV | 3 | 5 | 0 | %38 |
 | Berk Dinçtürk | 2 | 0 | 1 | %100 |
 | Turhan Bozkurt | 2 | 1 | 0 | %67 |
-| Tunç Şatıroğlu | 1 | 3 | 0 | %25 |
+| Tunç Şatıroğlu | 1 | 3 | 2 | %17 |
 | Sellcoin | 1 | 2 | 0 | %33 |
 | Bora Özkent | 1 | 0 | 0 | %100 |
 | Cihat E. Çiçek | 1 | 0 | 0 | %100 |
 | Kripto Teknik | 1 | 0 | 0 | %100 |
 | Emrah Lafçı & Ali Perşembe | 0 | 8 | 0 | %0 |
-| Barış Soydan | 0 | 5 | 0 | %0 |
+| Barış Soydan | 0 | 6 | 0 | %0 |
 | Atilla Yeşilada | 0 | 1 | 2 | %0 |
 | Erkan Öz | 0 | 3 | 0 | %0 |
 | Erol Polat / Money Talks | 0 | 1 | 1 | %0 |
@@ -155,8 +196,12 @@ _Güncelleme: 2026-08-30_
 | Fiba Bank | 0 | 0 | 1 | — (sadece eş zamanlı) |
 | Onur Duygu | 0 | 1 | 0 | %0 |
 | Şant Manukyan | 0 | 1 | 0 | %0 |
+| **Iris Cibre** | **1** | 0 | 0 | **%100** |
+| **Selçuk Geçer** | 0 | 1 | 2 | %0 |
 
-**Toplam:** 15 öncülük · 41 takipçilik · 3 kayıtta öncü belirlenemedi.
+**Toplam:** 16 öncülük · 44 takipçilik · **6 kayıtta öncü belirlenemedi** (eski 3 + 4 Eylül'de eklenen 3 eş zamanlı kayıt).
+
+> _Önceki sayım (2026-08-30): 15 öncülük · 41 takipçilik · 3 belirsiz._
 
 ### Ne öğreniyoruz
 
@@ -181,9 +226,19 @@ _Güncelleme: 2026-08-30_
    **27 Temmuz'da** verdi; ikinci kaynak (Kemal Hiçyılmaz) 24 gün sonra geldi.
    Dosyadaki en büyük zaman farkı bu.
 
-5. **Üç kayıtta öncü belirlenemedi** (MSCI riski, gıda enflasyonu, CLARITY Act) —
-   üçü de aynı oturumda/aynı gün dosyaya girdi. Bunlar "eş zamanlı" sayıldı;
-   sahte bir öncülük atanmadı.
+4b. **En temiz öncülük kanıtı ise Iris Cibre'de (2026-09-04'te eklendi).**
+   Zaman farkı küçük (4 gün) ama **her iki tarih de gün hassasiyetinde** ve
+   takipçilerden biri (Paksoy) o konuda **kendi eski görüşünü değiştirerek**
+   geldi. Aşağıdaki "bilinen sınırlama" bu kayıt için geçerli değil — bu yüzden
+   dosyadaki en yüksek kanıt değerli öncülük kaydı bu.
+
+5. **Altı kayıtta öncü belirlenemedi** (MSCI riski, gıda enflasyonu, CLARITY Act +
+   4 Eylül'ün üç kaydı: altın 4.800-5.000, S&P 7.600, Brent 100) — hepsi aynı
+   gün/oturumda dosyaya girdi. Bunlar "eş zamanlı" sayıldı; sahte bir öncülük
+   atanmadı.
+   ➜ **4 Eylül'ün üçü aynı güne düşmesi tesadüf değil:** beş video tek oturumda
+   işlendi. Bu, "eş zamanlı" etiketinin bir kısmının **kaynakların hızından değil,
+   arşivleme ritminden** doğduğunu gösteriyor — aşağıdaki sınırlamanın somut örneği.
 
 ### Bilinen sınırlama
 

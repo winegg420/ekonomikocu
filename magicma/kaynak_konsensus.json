@@ -1,200 +1,380 @@
 [
-  {
-    "konu": "Altın kısa vade taban/biriktirme bandı (ons $)",
-    "deger_araligi": [4000, 4500],
-    "kaynaklar": ["Sellcoin", "Berk Dinçtürk", "Emrah Lafçı & Ali Perşembe", "Baki Atılal", "Cüneyt Paksoy", "Tunç Şatıroğlu", "Integral FX TV"],
-    "kaynak_sayisi": 7,
-    "ilk_tespit_tarihi": "2026-08-06",
-    "tip": "band",
-    "not": "Dosyadaki en geniş yakınsama. Band %12,5 geniş olduğu için nokta konsensüsü değil; her kaynak bandın farklı bir kenarını vurguluyor (Atılal 4.000 destek, Paksoy 4.400-4.500 duvar).",
-    "agirlikli_skor": 3.5,
-    "hesaplama_notu": "7 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 7 * 0.50"
-  },
-  {
-    "konu": "Fed Eylül 2026 toplantısında faiz ARTIRMAZ",
-    "deger_araligi": [35, 36.4],
-    "kaynaklar": ["Sellcoin", "Emrah Lafçı & Ali Perşembe", "Barış Soydan", "Onur Duygu", "Tunç Şatıroğlu", "Berk Dinçtürk"],
-    "kaynak_sayisi": 6,
-    "ilk_tespit_tarihi": "2026-08-10",
-    "tip": "olasilik",
-    "not": "Değer aralığı, artırım ihtimalinin fiyatlanan yüzdesidir (%36,4 CPI sonrası, %35 Jackson Hole günü). Aynı dosyada bunun TERSİ yönde 3 kaynaklı bir grup da var — bkz. 14_CELISKI_PANELI.md.",
-    "agirlikli_skor": 3.0,
-    "hesaplama_notu": "6 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 6 * 0.50"
-  },
-  {
-    "konu": "TCMB gevşeme yönü — politika faizi 40 -> 37, haftalık repoya dönüş",
-    "deger_araligi": [37, 40],
-    "kaynaklar": ["Cüneyt Paksoy", "Ferhat Yükseltürk & Uraz Çay", "Emrah Lafçı & Ali Perşembe", "Barış Soydan", "Integral FX TV"],
-    "kaynak_sayisi": 5,
-    "ilk_tespit_tarihi": "2026-08-13",
-    "tip": "yon",
-    "not": "Dosyadaki tek GERÇEKLEŞMİŞ konsensüs: Integral FX TV 10 Eylül dedi, 25 Ağustos'ta oldu (16 gün erken).",
-    "agirlikli_skor": 2.5,
-    "hesaplama_notu": "5 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 5 * 0.50"
-  },
-  {
-    "konu": "Gümüş Ağustos toparlanma bandı (ons $)",
-    "deger_araligi": [66.0, 67.0],
-    "kaynaklar": ["Şant Manukyan", "Barış Soydan", "Turhan Bozkurt", "Erkan Öz"],
-    "kaynak_sayisi": 4,
-    "ilk_tespit_tarihi": "2026-08-17",
-    "tip": "fiyat_bandi",
-    "not": "Manukyan 66,0 · Soydan 66,5 · Bozkurt 67,0 · Erkan Öz 66,35 — aralarındaki fark %1,5, tolerans içinde. Koç'un Temmuz'daki 54-62 bandının ÜSTÜNDE (bkz. 14_CELISKI_PANELI.md).",
-    "agirlikli_skor": 2.5,
-    "hesaplama_notu": "4 kaynak, ortalama isabet orani %62,5 (Sant Manukyan %100, digerleri notr %50) -> agirlikli skor = 4 * 0.625"
-  },
-  {
-    "konu": "Altın uzun vade hedef bandı (ons $)",
-    "deger_araligi": [5000, 6500],
-    "kaynaklar": ["Cüneyt Paksoy", "Tunç Şatıroğlu", "Turhan Bozkurt", "Emrah Lafçı & Ali Perşembe"],
-    "kaynak_sayisi": 4,
-    "ilk_tespit_tarihi": "2026-08-13",
-    "tip": "hedef_bandi",
-    "not": "Yalnızca kaynakların KENDİ hedefleri sayıldı. UBS $5.000 ve Citibank $6.000 aktarım olduğu için kaynak sayısına dahil edilmedi (Soydan ve Integral FX TV aktarıyor). Berk Dinçtürk'ün $10.000'i bandın dışında — bkz. çelişki paneli.",
-    "agirlikli_skor": 2.0,
-    "hesaplama_notu": "4 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 4 * 0.50"
-  },
-  {
-    "konu": "ABD kamu borcu 40 trilyon $ eşiğini geçti",
-    "deger_araligi": [40, 42],
-    "kaynaklar": ["Barış Soydan", "Bora Özkent", "Emrah Altınocağı", "Integral FX TV"],
-    "kaynak_sayisi": 4,
-    "ilk_tespit_tarihi": "2026-08-20",
-    "tip": "olgu",
-    "not": "Trilyon $. Dört kaynak aynı olguyu bağımsız aktarıyor; üçü bundan aynı sonucu (para arzı artışı mecburiyeti) çıkarıyor.",
-    "agirlikli_skor": 2.0,
-    "hesaplama_notu": "4 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 4 * 0.50"
-  },
-  {
-    "konu": "BIST100 kritik eşik bölgesi",
-    "deger_araligi": [14000, 14500],
-    "kaynaklar": ["Cüneyt Paksoy", "Atilla Yeşilada", "Tunç Şatıroğlu", "Barış Soydan"],
-    "kaynak_sayisi": 4,
-    "ilk_tespit_tarihi": "2026-08-13",
-    "tip": "esik",
-    "not": "DİKKAT — aynı sayı, ZIT yön: Paksoy 14.000-14.500'ü 'asla kırılmamalı' destek sayarken Yeşilada 14.000'i güçlü DİRENÇ sayıyor. Sayısal örtüşme gerçek, yorum örtüşmesi yok. Bkz. 14_CELISKI_PANELI.md.",
-    "agirlikli_skor": 2.0,
-    "hesaplama_notu": "4 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 4 * 0.50"
-  },
-  {
-    "konu": "BIST yukarı kırılım hedef bandı",
-    "deger_araligi": [16000, 17000],
-    "kaynaklar": ["Emrah Lafçı & Ali Perşembe", "Integral FX TV", "Cüneyt Paksoy"],
-    "kaynak_sayisi": 3,
-    "ilk_tespit_tarihi": "2026-08-25",
-    "tip": "hedef_bandi",
-    "not": "Üç kaynak üç FARKLI yöntemle aynı sayıya geliyor: haftalık sıkışma formasyonu (Lafçı/Perşembe), USDTRY çarpanı x hisse başı ~$300 (Aslanoğlu), bankacılık endeksi direnci (Paksoy). Dosyadaki en güçlü yöntem-bağımsız kesişim.",
-    "agirlikli_skor": 1.5,
-    "hesaplama_notu": "3 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 3 * 0.50"
-  },
-  {
-    "konu": "Fed'in yönü ŞAHİN — Eylül'de/seçim sonrası faiz ARTIRIMI",
-    "deger_araligi": [35, 40],
-    "kaynaklar": ["Integral FX TV", "Erkan Öz", "Emrah Lafçı & Ali Perşembe"],
-    "kaynak_sayisi": 3,
-    "ilk_tespit_tarihi": "2026-08-25",
-    "tip": "olasilik",
-    "not": "Bu, yukarıdaki 'Fed artırmaz' konsensüsünün TERSİ. İkisi aynı dosyada yan yana duruyor; Lafçı & Perşembe her iki listede de var çünkü aynı program hem 'artırmaz' hem '~%35 artırım ihtimali' diyor. Ayrışma Koç'un boğa şartını doğrudan tehdit ediyor.",
-    "agirlikli_skor": 1.5,
-    "hesaplama_notu": "3 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 3 * 0.50"
-  },
-  {
-    "konu": "Japon yen carry-trade çözülmesi = piyasanın en büyük riski",
-    "deger_araligi": [4.05, 4.05],
-    "kaynaklar": ["Erol Polat / Money Talks", "Cihat E. Çiçek", "Integral FX TV"],
-    "kaynak_sayisi": 3,
-    "ilk_tespit_tarihi": "2026-08-18",
-    "tip": "tema",
-    "not": "Değer, Cihat E. Çiçek'in dayanak yaptığı Japon 30 yıllık tahvil faizi (%4,05). Diğer iki kaynak sayı vermeden aynı riski işaretliyor. 18 Ağustos Japon borsası çöküşüyle kısmen teyitli.",
-    "agirlikli_skor": 1.5,
-    "hesaplama_notu": "3 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 3 * 0.50"
-  },
-  {
-    "konu": "USDTRY yıl sonu bandı",
-    "deger_araligi": [50, 55],
-    "kaynaklar": ["Integral FX TV", "Cüneyt Paksoy", "Turhan Bozkurt"],
-    "kaynak_sayisi": 3,
-    "ilk_tespit_tarihi": "2026-08-17",
-    "tip": "hedef_bandi",
-    "not": "Aslanoğlu 50-55 (muhtemel 53-54) · Paksoy 52-55 · Bozkurt 52-55 iyimser (60+ kötümser). Üç bandın kesişimi 52-55.",
-    "agirlikli_skor": 1.5,
-    "hesaplama_notu": "3 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 3 * 0.50"
-  },
-  {
-    "konu": "BTC direnç/tetik seviyesi",
-    "deger_araligi": [67000, 67300],
-    "kaynaklar": ["Sellcoin", "Kemal Hiçyılmaz", "Emrah Lafçı & Ali Perşembe"],
-    "kaynak_sayisi": 3,
-    "ilk_tespit_tarihi": "2026-08-10",
-    "tip": "seviye",
-    "not": "Sellcoin 67.300 · Kemal Hiçyılmaz 67.000 · Lafçı/Perşembe 67.265. Aralarındaki fark %0,45 — dosyadaki EN DAR sayısal örtüşme. Seviye Ağustos sonunda yukarı kırıldı.",
-    "agirlikli_skor": 1.5,
-    "hesaplama_notu": "3 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 3 * 0.50"
-  },
-  {
-    "konu": "BTC 200 günlük ortalama / alım bölgesi",
-    "deger_araligi": [69000, 69350],
-    "kaynaklar": ["Emrah Lafçı & Ali Perşembe", "Erkan Öz", "Kripto Teknik"],
-    "kaynak_sayisi": 3,
-    "ilk_tespit_tarihi": "2026-08-27",
-    "tip": "seviye",
-    "not": "Lafçı/Perşembe 69.170 (alım) · Erkan Öz ~69.350 (200 GO) · Kripto Teknik 69.000 (200 GO). Fark %0,5. MagicMA'nın BTCUSDT Günlük bandı (68.450-69.244) ile ÇAKIŞIYOR — mega-confluence adayı, alarm motoru bunu yıldızlı bildirmeli.",
-    "agirlikli_skor": 1.5,
-    "hesaplama_notu": "3 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 3 * 0.50"
-  },
-  {
-    "konu": "US10Y alarm seviyesi",
-    "deger_araligi": [5.0, 5.0],
-    "kaynaklar": ["Cüneyt Paksoy", "Integral FX TV"],
-    "kaynak_sayisi": 2,
-    "ilk_tespit_tarihi": "2026-08-25",
-    "tip": "esik",
-    "not": "Berk Dinçtürk'ün %4,75 'Hazine tolerans tavanı' bu gruba DAHİL EDİLMEDİ: 4,75 ile 5,00 arasındaki fark %5,3, artı/eksi %2 toleransının dışında. Kaynak dosyası bunu 'üçlü kesişim' diye anıyor ama sayısal olarak üç ayrı eşik. Barış Soydan'ın aktardığı Hartnett %5'i 30 YILLIK için veriyor — farklı vade, o da sayılmadı.",
-    "agirlikli_skor": 1.0,
-    "hesaplama_notu": "2 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 2 * 0.50"
-  },
-  {
-    "konu": "Türkiye CDS risk primi (baz puan)",
-    "deger_araligi": [217, 219],
-    "kaynaklar": ["Cüneyt Paksoy", "Emrah Lafçı (solo)"],
-    "kaynak_sayisi": 2,
-    "ilk_tespit_tarihi": "2026-08-27",
-    "tip": "olgu",
-    "not": "Fark %0,9. Farklı tarihte iki bağımsız ölçüm; dosyada 'DOĞRULANDI (çapraz kaynak)' olarak karneye geçmiş.",
-    "agirlikli_skor": 1.0,
-    "hesaplama_notu": "2 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 2 * 0.50"
-  },
-  {
-    "konu": "MSCI / endeks çıkarma riski (BIST)",
-    "deger_araligi": [50, 50],
-    "kaynaklar": ["Atilla Yeşilada", "Erol Polat / Money Talks"],
-    "kaynak_sayisi": 2,
-    "ilk_tespit_tarihi": "2026-08-19",
-    "tip": "tema",
-    "not": "Değer, Yeşilada'nın verdiği ~50 milyar $ pasif fon çıkışı riski. Erol Polat aynı riski (gelişmekte olan -> sınır piyasa) sayı vermeden işaretliyor.",
-    "agirlikli_skor": 1.0,
-    "hesaplama_notu": "2 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 2 * 0.50"
-  },
-  {
-    "konu": "Gıda enflasyonu yapısal risk",
-    "deger_araligi": null,
-    "kaynaklar": ["Atilla Yeşilada", "Fiba Bank"],
-    "kaynak_sayisi": 2,
-    "ilk_tespit_tarihi": "2026-08-19",
-    "tip": "tema",
-    "not": "Sayısal değer yok. İki kaynak birbirinden habersiz, gerekçeleri farklı (arz/lojistik vs fiyat yapışkanlığı), sonuç aynı. Koç bu temayı hiç takip etmiyor — çerçevesindeki bir boşluk.",
-    "agirlikli_skor": 1.0,
-    "hesaplama_notu": "2 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 2 * 0.50"
-  },
-  {
-    "konu": "CLARITY Act Eylül 2026'da gündeme gelir",
-    "deger_araligi": null,
-    "kaynaklar": ["Berk Dinçtürk", "Kemal Hiçyılmaz"],
-    "kaynak_sayisi": 2,
-    "ilk_tespit_tarihi": "2026-08-20",
-    "tip": "takvim",
-    "not": "Kemal Hiçyılmaz somut tarih veriyor (15 Eylül oylama, Senatör Lummis), Berk Dinçtürk sadece 'Eylül' diyor. Emrah Altınocağı aynı olaya dolaylı değiniyor ama Clarity'nin asıl gündem olmadığını savunduğu için kaynak sayısına katılmadı.",
-    "agirlikli_skor": 1.0,
-    "hesaplama_notu": "2 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 2 * 0.50"
-  }
+ {
+  "konu": "Fed Eylül 2026 toplantısında faiz ARTIRMAZ",
+  "deger_araligi": [
+   35,
+   59.4
+  ],
+  "kaynaklar": [
+   "Sellcoin",
+   "Emrah Lafçı & Ali Perşembe",
+   "Barış Soydan",
+   "Onur Duygu",
+   "Tunç Şatıroğlu",
+   "Berk Dinçtürk",
+   "Selçuk Geçer"
+  ],
+  "kaynak_sayisi": 7,
+  "ilk_tespit_tarihi": "2026-08-10",
+  "tip": "olasilik",
+  "not": "Deger araligi, artirim ihtimalinin fiyatlanan yuzdesidir (%35 Jackson Hole gunu -> %59,4 CME FedWatch, 4 Eylul NFP sonrasi). 4 Eylul'de Selcuk Gecer eklendi ('Fed artirmaz, indirmez; sabit') ve Tunc Satiroglu iddiasini yineledi ('CME %59,4 fiyatliyor ama ben artirim beklemiyorum'). DIKKAT: fiyatlanan ihtimal %35'ten %59,4'e cikarken kaynaklarin gorusu DEGISMEDI - grup piyasaya karsi pozisyon almis durumda, 16 Eylul FOMC bunu tek seferde olcecek. Ayni dosyada TERSI yonde 3 kaynakli bir grup da var - bkz. 14_CELISKI_PANELI.md.",
+  "agirlikli_skor": 4.0,
+  "hesaplama_notu": "7 kaynak, ortalama isabet orani %57.1 -> agirlikli skor = 7 * 0.5714"
+ },
+ {
+  "konu": "Altın kısa vade taban/biriktirme bandı (ons $)",
+  "deger_araligi": [
+   4000,
+   4500
+  ],
+  "kaynaklar": [
+   "Sellcoin",
+   "Berk Dinçtürk",
+   "Emrah Lafçı & Ali Perşembe",
+   "Baki Atılal",
+   "Cüneyt Paksoy",
+   "Tunç Şatıroğlu",
+   "Integral FX TV"
+  ],
+  "kaynak_sayisi": 7,
+  "ilk_tespit_tarihi": "2026-08-06",
+  "tip": "band",
+  "not": "Dosyadaki en geniş yakınsama. Band %12,5 geniş olduğu için nokta konsensüsü değil; her kaynak bandın farklı bir kenarını vurguluyor (Atılal 4.000 destek, Paksoy 4.400-4.500 duvar).",
+  "agirlikli_skor": 3.5,
+  "hesaplama_notu": "7 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 7 * 0.50"
+ },
+ {
+  "konu": "TCMB gevşeme yönü — politika faizi 40 -> 37, haftalık repoya dönüş",
+  "deger_araligi": [
+   37,
+   40
+  ],
+  "kaynaklar": [
+   "Cüneyt Paksoy",
+   "Ferhat Yükseltürk & Uraz Çay",
+   "Emrah Lafçı & Ali Perşembe",
+   "Barış Soydan",
+   "Integral FX TV"
+  ],
+  "kaynak_sayisi": 5,
+  "ilk_tespit_tarihi": "2026-08-13",
+  "tip": "yon",
+  "not": "Dosyadaki tek GERÇEKLEŞMİŞ konsensüs: Integral FX TV 10 Eylül dedi, 25 Ağustos'ta oldu (16 gün erken).",
+  "agirlikli_skor": 3.0,
+  "hesaplama_notu": "5 kaynak, ortalama isabet orani %60.0 (Sant Manukyan ve/veya Baris Soydan %100, digerleri notr %50) -> agirlikli skor = 5 * 0.6000 [2026-09-04: Soydan 3. kapanmis iddiasiyla %100'e gecti, skor yeniden hesaplandi]"
+ },
+ {
+  "konu": "Gümüş Ağustos toparlanma bandı (ons $)",
+  "deger_araligi": [
+   66.0,
+   67.0
+  ],
+  "kaynaklar": [
+   "Şant Manukyan",
+   "Barış Soydan",
+   "Turhan Bozkurt",
+   "Erkan Öz"
+  ],
+  "kaynak_sayisi": 4,
+  "ilk_tespit_tarihi": "2026-08-17",
+  "tip": "fiyat_bandi",
+  "not": "Manukyan 66,0 · Soydan 66,5 · Bozkurt 67,0 · Erkan Öz 66,35 — aralarındaki fark %1,5, tolerans içinde. Koç'un Temmuz'daki 54-62 bandının ÜSTÜNDE (bkz. 14_CELISKI_PANELI.md).",
+  "agirlikli_skor": 3.0,
+  "hesaplama_notu": "4 kaynak, ortalama isabet orani %75.0 (Sant Manukyan ve/veya Baris Soydan %100, digerleri notr %50) -> agirlikli skor = 4 * 0.7500 [2026-09-04: Soydan 3. kapanmis iddiasiyla %100'e gecti, skor yeniden hesaplandi]"
+ },
+ {
+  "konu": "ABD kamu borcu 40 trilyon $ eşiğini geçti",
+  "deger_araligi": [
+   40,
+   42
+  ],
+  "kaynaklar": [
+   "Barış Soydan",
+   "Bora Özkent",
+   "Emrah Altınocağı",
+   "Integral FX TV"
+  ],
+  "kaynak_sayisi": 4,
+  "ilk_tespit_tarihi": "2026-08-20",
+  "tip": "olgu",
+  "not": "Trilyon $. Dört kaynak aynı olguyu bağımsız aktarıyor; üçü bundan aynı sonucu (para arzı artışı mecburiyeti) çıkarıyor.",
+  "agirlikli_skor": 2.5,
+  "hesaplama_notu": "4 kaynak, ortalama isabet orani %62.5 (Sant Manukyan ve/veya Baris Soydan %100, digerleri notr %50) -> agirlikli skor = 4 * 0.6250 [2026-09-04: Soydan 3. kapanmis iddiasiyla %100'e gecti, skor yeniden hesaplandi]"
+ },
+ {
+  "konu": "BIST100 kritik eşik bölgesi",
+  "deger_araligi": [
+   14000,
+   14500
+  ],
+  "kaynaklar": [
+   "Cüneyt Paksoy",
+   "Atilla Yeşilada",
+   "Tunç Şatıroğlu",
+   "Barış Soydan"
+  ],
+  "kaynak_sayisi": 4,
+  "ilk_tespit_tarihi": "2026-08-13",
+  "tip": "esik",
+  "not": "DİKKAT — aynı sayı, ZIT yön: Paksoy 14.000-14.500'ü 'asla kırılmamalı' destek sayarken Yeşilada 14.000'i güçlü DİRENÇ sayıyor. Sayısal örtüşme gerçek, yorum örtüşmesi yok. Bkz. 14_CELISKI_PANELI.md.",
+  "agirlikli_skor": 2.5,
+  "hesaplama_notu": "4 kaynak, ortalama isabet orani %62.5 (Sant Manukyan ve/veya Baris Soydan %100, digerleri notr %50) -> agirlikli skor = 4 * 0.6250 [2026-09-04: Soydan 3. kapanmis iddiasiyla %100'e gecti, skor yeniden hesaplandi]"
+ },
+ {
+  "konu": "Altın uzun vade hedef bandı (ons $)",
+  "deger_araligi": [
+   5000,
+   6500
+  ],
+  "kaynaklar": [
+   "Cüneyt Paksoy",
+   "Tunç Şatıroğlu",
+   "Turhan Bozkurt",
+   "Emrah Lafçı & Ali Perşembe"
+  ],
+  "kaynak_sayisi": 4,
+  "ilk_tespit_tarihi": "2026-08-13",
+  "tip": "hedef_bandi",
+  "not": "Yalnızca kaynakların KENDİ hedefleri sayıldı. UBS $5.000 ve Citibank $6.000 aktarım olduğu için kaynak sayısına dahil edilmedi (Soydan ve Integral FX TV aktarıyor). Berk Dinçtürk'ün $10.000'i bandın dışında — bkz. çelişki paneli.",
+  "agirlikli_skor": 2.0,
+  "hesaplama_notu": "4 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 4 * 0.50"
+ },
+ {
+  "konu": "BIST yukarı kırılım hedef bandı",
+  "deger_araligi": [
+   16000,
+   17000
+  ],
+  "kaynaklar": [
+   "Emrah Lafçı & Ali Perşembe",
+   "Integral FX TV",
+   "Cüneyt Paksoy"
+  ],
+  "kaynak_sayisi": 3,
+  "ilk_tespit_tarihi": "2026-08-25",
+  "tip": "hedef_bandi",
+  "not": "Üç kaynak üç FARKLI yöntemle aynı sayıya geliyor: haftalık sıkışma formasyonu (Lafçı/Perşembe), USDTRY çarpanı x hisse başı ~$300 (Aslanoğlu), bankacılık endeksi direnci (Paksoy). Dosyadaki en güçlü yöntem-bağımsız kesişim.",
+  "agirlikli_skor": 1.5,
+  "hesaplama_notu": "3 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 3 * 0.50"
+ },
+ {
+  "konu": "Fed'in yönü ŞAHİN — Eylül'de/seçim sonrası faiz ARTIRIMI",
+  "deger_araligi": [
+   35,
+   40
+  ],
+  "kaynaklar": [
+   "Integral FX TV",
+   "Erkan Öz",
+   "Emrah Lafçı & Ali Perşembe"
+  ],
+  "kaynak_sayisi": 3,
+  "ilk_tespit_tarihi": "2026-08-25",
+  "tip": "olasilik",
+  "not": "Bu, yukarıdaki 'Fed artırmaz' konsensüsünün TERSİ. İkisi aynı dosyada yan yana duruyor; Lafçı & Perşembe her iki listede de var çünkü aynı program hem 'artırmaz' hem '~%35 artırım ihtimali' diyor. Ayrışma Koç'un boğa şartını doğrudan tehdit ediyor.",
+  "agirlikli_skor": 1.5,
+  "hesaplama_notu": "3 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 3 * 0.50"
+ },
+ {
+  "konu": "Japon yen carry-trade çözülmesi = piyasanın en büyük riski",
+  "deger_araligi": [
+   4.05,
+   4.05
+  ],
+  "kaynaklar": [
+   "Erol Polat / Money Talks",
+   "Cihat E. Çiçek",
+   "Integral FX TV"
+  ],
+  "kaynak_sayisi": 3,
+  "ilk_tespit_tarihi": "2026-08-18",
+  "tip": "tema",
+  "not": "Değer, Cihat E. Çiçek'in dayanak yaptığı Japon 30 yıllık tahvil faizi (%4,05). Diğer iki kaynak sayı vermeden aynı riski işaretliyor. 18 Ağustos Japon borsası çöküşüyle kısmen teyitli.",
+  "agirlikli_skor": 1.5,
+  "hesaplama_notu": "3 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 3 * 0.50"
+ },
+ {
+  "konu": "USDTRY yıl sonu bandı",
+  "deger_araligi": [
+   50,
+   55
+  ],
+  "kaynaklar": [
+   "Integral FX TV",
+   "Cüneyt Paksoy",
+   "Turhan Bozkurt"
+  ],
+  "kaynak_sayisi": 3,
+  "ilk_tespit_tarihi": "2026-08-17",
+  "tip": "hedef_bandi",
+  "not": "Aslanoğlu 50-55 (muhtemel 53-54) · Paksoy 52-55 · Bozkurt 52-55 iyimser (60+ kötümser). Üç bandın kesişimi 52-55.",
+  "agirlikli_skor": 1.5,
+  "hesaplama_notu": "3 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 3 * 0.50"
+ },
+ {
+  "konu": "BTC direnç/tetik seviyesi",
+  "deger_araligi": [
+   67000,
+   67300
+  ],
+  "kaynaklar": [
+   "Sellcoin",
+   "Kemal Hiçyılmaz",
+   "Emrah Lafçı & Ali Perşembe"
+  ],
+  "kaynak_sayisi": 3,
+  "ilk_tespit_tarihi": "2026-08-10",
+  "tip": "seviye",
+  "not": "Sellcoin 67.300 · Kemal Hiçyılmaz 67.000 · Lafçı/Perşembe 67.265. Aralarındaki fark %0,45 — dosyadaki EN DAR sayısal örtüşme. Seviye Ağustos sonunda yukarı kırıldı.",
+  "agirlikli_skor": 1.5,
+  "hesaplama_notu": "3 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 3 * 0.50"
+ },
+ {
+  "konu": "BTC 200 günlük ortalama / alım bölgesi",
+  "deger_araligi": [
+   69000,
+   69350
+  ],
+  "kaynaklar": [
+   "Emrah Lafçı & Ali Perşembe",
+   "Erkan Öz",
+   "Kripto Teknik"
+  ],
+  "kaynak_sayisi": 3,
+  "ilk_tespit_tarihi": "2026-08-27",
+  "tip": "seviye",
+  "not": "Lafçı/Perşembe 69.170 (alım) · Erkan Öz ~69.350 (200 GO) · Kripto Teknik 69.000 (200 GO). Fark %0,5. MagicMA'nın BTCUSDT Günlük bandı (68.450-69.244) ile ÇAKIŞIYOR — mega-confluence adayı, alarm motoru bunu yıldızlı bildirmeli.",
+  "agirlikli_skor": 1.5,
+  "hesaplama_notu": "3 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 3 * 0.50"
+ },
+ {
+  "konu": "US10Y alarm seviyesi",
+  "deger_araligi": [
+   5.0,
+   5.0
+  ],
+  "kaynaklar": [
+   "Cüneyt Paksoy",
+   "Integral FX TV"
+  ],
+  "kaynak_sayisi": 2,
+  "ilk_tespit_tarihi": "2026-08-25",
+  "tip": "esik",
+  "not": "Berk Dinçtürk'ün %4,75 'Hazine tolerans tavanı' bu gruba DAHİL EDİLMEDİ: 4,75 ile 5,00 arasındaki fark %5,3, artı/eksi %2 toleransının dışında. Kaynak dosyası bunu 'üçlü kesişim' diye anıyor ama sayısal olarak üç ayrı eşik. Barış Soydan'ın aktardığı Hartnett %5'i 30 YILLIK için veriyor — farklı vade, o da sayılmadı.",
+  "agirlikli_skor": 1.0,
+  "hesaplama_notu": "2 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 2 * 0.50"
+ },
+ {
+  "konu": "Türkiye CDS risk primi (baz puan)",
+  "deger_araligi": [
+   217,
+   219
+  ],
+  "kaynaklar": [
+   "Cüneyt Paksoy",
+   "Emrah Lafçı (solo)"
+  ],
+  "kaynak_sayisi": 2,
+  "ilk_tespit_tarihi": "2026-08-27",
+  "tip": "olgu",
+  "not": "Fark %0,9. Farklı tarihte iki bağımsız ölçüm; dosyada 'DOĞRULANDI (çapraz kaynak)' olarak karneye geçmiş.",
+  "agirlikli_skor": 1.0,
+  "hesaplama_notu": "2 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 2 * 0.50"
+ },
+ {
+  "konu": "MSCI / endeks çıkarma riski (BIST)",
+  "deger_araligi": [
+   50,
+   50
+  ],
+  "kaynaklar": [
+   "Atilla Yeşilada",
+   "Erol Polat / Money Talks"
+  ],
+  "kaynak_sayisi": 2,
+  "ilk_tespit_tarihi": "2026-08-19",
+  "tip": "tema",
+  "not": "Değer, Yeşilada'nın verdiği ~50 milyar $ pasif fon çıkışı riski. Erol Polat aynı riski (gelişmekte olan -> sınır piyasa) sayı vermeden işaretliyor.",
+  "agirlikli_skor": 1.0,
+  "hesaplama_notu": "2 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 2 * 0.50"
+ },
+ {
+  "konu": "Gıda enflasyonu yapısal risk",
+  "deger_araligi": null,
+  "kaynaklar": [
+   "Atilla Yeşilada",
+   "Fiba Bank"
+  ],
+  "kaynak_sayisi": 2,
+  "ilk_tespit_tarihi": "2026-08-19",
+  "tip": "tema",
+  "not": "Sayısal değer yok. İki kaynak birbirinden habersiz, gerekçeleri farklı (arz/lojistik vs fiyat yapışkanlığı), sonuç aynı. Koç bu temayı hiç takip etmiyor — çerçevesindeki bir boşluk.",
+  "agirlikli_skor": 1.0,
+  "hesaplama_notu": "2 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 2 * 0.50"
+ },
+ {
+  "konu": "CLARITY Act Eylül 2026'da gündeme gelir",
+  "deger_araligi": null,
+  "kaynaklar": [
+   "Berk Dinçtürk",
+   "Kemal Hiçyılmaz"
+  ],
+  "kaynak_sayisi": 2,
+  "ilk_tespit_tarihi": "2026-08-20",
+  "tip": "takvim",
+  "not": "Kemal Hiçyılmaz somut tarih veriyor (15 Eylül oylama, Senatör Lummis), Berk Dinçtürk sadece 'Eylül' diyor. Emrah Altınocağı aynı olaya dolaylı değiniyor ama Clarity'nin asıl gündem olmadığını savunduğu için kaynak sayısına katılmadı.",
+  "agirlikli_skor": 1.0,
+  "hesaplama_notu": "2 kaynak, hicbiri henuz degerlendirilemez (notr %50) -> agirlikli skor = 2 * 0.50"
+ },
+ {
+  "konu": "Altin 4.800 - 5.000 tepki hedefi (4 Eylul)",
+  "deger_araligi": [
+   4800,
+   5000
+  ],
+  "kaynaklar": [
+   "Cüneyt Paksoy",
+   "Selçuk Geçer"
+  ],
+  "kaynak_sayisi": 2,
+  "ilk_tespit_tarihi": "2026-09-04",
+  "tip": "hedef_bandi",
+  "not": "Ayni gun, iki bagimsiz video, ayni iki rakam. Paksoy: 4.450 pivot ustunde kalinirsa 4.700-4.800 -> 5.000 'minimum tepki'. Gecer: 4.500 tutulursa 4.800 (Citi vb. banka hedefi aktarimi) -> 5.000. Citi hedefi AKTARIM oldugu icin ucuncu kaynak sayilmadi. 13_KONSENSUS kayit 5'teki 5.000-6.500 uzun vade bandindan AYRI tutuldu: bu kisa-orta vadeli tepki hedefi, o yapisal hedef.",
+  "agirlikli_skor": 1.0,
+  "hesaplama_notu": "2 kaynak, ikisi de henuz degerlendirilemez (notr %50) -> 2 * 0.50"
+ },
+ {
+  "konu": "S&P 500 kritik destek esigi",
+  "deger_araligi": [
+   7600,
+   7670
+  ],
+  "kaynaklar": [
+   "Cüneyt Paksoy",
+   "Tunç Şatıroğlu"
+  ],
+  "kaynak_sayisi": 2,
+  "ilk_tespit_tarihi": "2026-09-04",
+  "tip": "destek",
+  "not": "Iki FARKLI yontem ayni esigi veriyor: Paksoy 21/55 gunluk ortalama (7.670-7.600, 'altina inilmedikce stres yok'), Satiroglu supertrend (7.600 saglam, gosterge AL). Yontem bagimsizligi bu kaydin degerini artiriyor. Dikkat: Paksoy'un SPX 7.000-7.500 'sert duzeltme pivot bandi' kaydi bundan AYRI bir senaryo, karistirilmamali.",
+  "agirlikli_skor": 1.0,
+  "hesaplama_notu": "2 kaynak, ikisi de henuz degerlendirilemez (notr %50) -> 2 * 0.50"
+ },
+ {
+  "konu": "Brent 100 $ ust sinir / esik",
+  "deger_araligi": [
+   100,
+   100
+  ],
+  "kaynaklar": [
+   "Selçuk Geçer",
+   "Tunç Şatıroğlu"
+  ],
+  "kaynak_sayisi": 2,
+  "ilk_tespit_tarihi": "2026-09-04",
+  "tip": "esik",
+  "not": "Ayni sayi, FARKLI gerekce - bu yuzden gercek bir kesisim. Gecer temel: petrol 100 $ ustu kalici olursa enflasyon ve faiz kalici olur, bu ALTIN icin DUSUS sebebidir. Satiroglu teknik/jeopolitik: 102 test edildi ve donuldu, ABD'nin Hurmuz cevresindeki mayin temizligi ve Hark adasi vurusu arz endisesini sinirliyor, 'yerlesemez'. Atilla Yesilada'nin 100-110 $ kotu senaryo esigi ayni sayiyi veriyor ama ZIT yonde (yukari kirilim bekliyor) - o yuzden bu gruba KATILMADI, bkz. 14_CELISKI_PANELI.md.",
+  "agirlikli_skor": 1.0,
+  "hesaplama_notu": "2 kaynak, ikisi de henuz degerlendirilemez (notr %50) -> 2 * 0.50"
+ }
 ]
