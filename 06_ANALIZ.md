@@ -6864,3 +6864,179 @@ birikti.**
    okunmadı; ayrıca **91 tarihsiz** görsel var (tweet eşleşmesi yok) — bunların
    tweet_id'den tarih çözümü ayrı bir iş.
 
+
+## 2026-09-07 — METİN + GÖRSEL ANALİZİ (10 Ağu geriye dolan + 4–5 Eyl)
+
+> **Kaynak:** `cekilen_tweetler.jsonl` — son analiz commit'i `ce5e951` (7.815 kayıt) ile
+> bugünkü arşivin (7.983) farkı: **168 yeni kayıt**. Ay dağılımı: **2026-08 → 79**
+> (10–12 Ağustos, alıntı çözümüyle geriye dolan), **2026-09 → 89** (4–5 Eylül).
+> **26 görsel** okundu ve `gorsel_analiz.jsonl`'e tur `2026-09-07-T23` olarak işlendi
+> (defter 1.343 → 1.369). Bu turda okunmamış görsel kalmadı.
+
+### A. ÖLÇÜLEN İDDİA: 4376 — 24 gün önce söylendi, gününde tuttu
+
+Bu turun en sert bulgusu tek bir sayı. **11 Ağustos 19:39**'da ALTIN H4 grafiğini
+(30 periyot ortalama ile) koyup şunu yazdı:
+
+> *"Dün gece #H4 mum düştüğü gibi, bir de #saatler geçtiği için ortalama yükseldi.
+> İkisi de nerede buluşmaya çalıştılar? **4376...** Denge değer."*
+
+**4 Eylül 16:05**'te telefon fiyat ekranının fotoğrafını attı: **XAUUSD 4376.394**.
+Aynı günün 23:33 ekranında gün düşüğü **L: 4375,764** — yani fiyat gün içinde
+seviyeye değip döndü, kapanışa doğru 4428'e park etti.
+
+| | |
+|---|---|
+| İddia tarihi | 11 Ağu 2026 19:39 |
+| Seviye | 4376 (H4 mum–ortalama buluşma noktası) |
+| Gerçekleşme | 4 Eyl 2026 16:05 · 4376,394 · gün dibi 4375,764 |
+| Gecikme | **24 gün** |
+| İddianın tipi | Mekanik (hareketli ortalama yakınsaması), yön değil **buluşma noktası** |
+
+Bu, karne mantığına doğrudan girecek türde bir kayıt: seviye, tarih ve mekanizma
+önceden yazılı. **Yön iddiası değil, denge iddiası** olduğu için mevcut karne
+şeması (long/short + %0,5 hedef) bunu ölçemiyor — açık işlere yazıldı.
+
+### B. "AĞUSTOS 3. HAFTA" ÇAĞRISININ KAYNAK BELGESİ ÇIKTI
+
+`koc_tetigi.py`'nin 60 günlük iç blok referansı (**20 Ağustos 2026**) bugüne kadar
+06_ANALIZ'daki ikinci el anlatıma dayanıyordu. Bu turda **birincil belge** geldi:
+11 Ağustos'ta paylaştığı **25 Haziran tarihli abone tweeti** ekran görüntüsü:
+
+> *"**#GOLDGR** — Dünyada bir #gramaltının dolar bazlı ederi. Yatay kanalı var bekliyor.
+> **Ağustos 3. hafta...** **140.60 dolar üstündeyse tetiklenir.** Ama şimdilik bekliyor."*
+
+Yani çağrı **koşullu** ve **iki bileşenli**: tarih (Ağustos 3. hafta) + eşik (140.60).
+11 Ağustos'ta GOLDGR M30 grafiğinde fiyat 140.90, çizgi 140.611; 7 Ağustos'ta bir kez
+reddedilmiş, 10–11 Ağustos'ta iki kez "sert aşırt" ile üstte tutunmuş.
+
+> *"Haziran ayında bunu söylüyorum. Ağustos 3. hafta geliyor mal oraya dönüyor…
+> Ama 2 ay millet soruyor duruyor."*
+
+**140.60**, öğreti sayıları kuralının (son iki hane) temiz bir örneği: **…60**.
+
+### C. YENİ ANA ÇERÇEVE: NASDAQ / ALTIN = 4,5
+
+4–5 Eylül floodunun tamamı tek bir rasyonun etrafında dönüyor ve bu, arşivde ilk kez
+bu netlikte bir **taban seviyesi** olarak veriliyor.
+
+| Rasyo | Değer | Anlamı |
+|---|---|---|
+| NASDAQ/ALTIN — **4,5** | 1997–2026 ana taban | 2015-16, 2019, 2021 ve **2026**'da dört temas |
+| NASDAQ/ALTIN — 6,6–6,7 | bugün | *"ALTIN bazında 2015–2018 değerindeyiz"* |
+| NASDAQ/ALTIN — 8,2 | senaryo | FED faiz derse ALTIN 3600 → *"otomatik balon yakınısın"* |
+| NASDAQ/ALTIN — 9,2 | 2021 tepe | rasyonun modern zirvesi |
+| NASDAQ/ALTIN — 17,0 | 2000 tepe | dot-com |
+
+Hesabı kendi yazıyor: *"Bugün #nasdaq 29600, bugün #XAUUSD 4430 → 29600/4430 = 6.6.
+FED #faiz derse #ALTIN 3600'e düşerse 29600/3600 = **8.2**."*
+
+Buradan çıkan tez tek cümle: **"Sen istediğin kadar dolar bazlı kazandım de dur;
+ALTIN bazlı dayaktasın."** Aynı ölçüyü Türkiye'ye de uyguluyor: *"Borsa #try bazlı
+çıkmış ama #dolar bazlı 2000 değerindedir."*
+
+### D. RASYO AİLESİ — dört ayrı grafik, tek yöntem
+
+Koç bu turda varlıkları tek tek değil, **birbirine bölerek** okuyor. Yöntem aynı:
+uzun vadeli rasyoya yatay/trend çizgisi koy, bugünün yerini söyle.
+
+| Rasyo | Seviyeler | Bugün | Okuma |
+|---|---|---|---|
+| NASDAQ/XAUUSD | 4,5 taban · 9,2 tepe | 6,6–6,7 | trend çizgisinin hemen üstü |
+| XAUUSD/NASDAQ (ters) | 0,110 · **0,061** (2000 dibi) | 0,149 | *"dip yakını"* |
+| XAGUSD/BTCUSD | **0,00028** (2025 dibi) | 0,00102 | *"Çin'in gümüşü bu hale geldi, bir coin olsa delirirsiniz"* |
+| NASDAQ/ETHUSD | 19,2 tepe · 16,0 kırıldı · 12,4 | 12,0 | *"Mumlar yukarı giderse ETH dayak yer, aşağı gelirse güçlenir"* |
+
+Kripto için de aynı reçeteyi veriyor ama uygulamıyor: *"Elinizdeki #coinlere şöyle
+bakın: **NASDAQ / COİN = ENTER**. Ben birkaçına baktım, manipülasyon olmasın deyip
+paylaşmıyorum."*
+
+### E. TEZ SÜREKLİLİĞİ — beş ayrı yıl, aynı cümle
+
+10–11 Ağustos floodu neredeyse tamamen **kendi eski tweetlerinin ekran görüntüleri**
+üzerine kurulu. Bu, "tez beş yıldır değişmedi" iddiasının bu turdaki kanıt yığını:
+
+| Tarih | Belge | Söylediği |
+|---|---|---|
+| 5 Nis 2021 | görsel | *"IMF uyarmış dünya 2013 gibi olabilir… **Rusya Ukrayna'sından tut, haber akışları bile kopya.**"* (savaştan 11 ay önce) |
+| 19 Haz 2023 | görsel | *"Kripto ile uğraşacaklarına EUR ne olur onun çözümünü bulsunlar. 2017'de Macron seçimi kazandığında **kriptolar sayesinde 4 yılı nasıl kurtardılar**."* |
+| **9 Eki 2023** | görsel | *"Nereye kadar diye bir şey yoktur… Adam isterse bunu değil **2024 2025 2026'ya bile sarkıtır**."* |
+| 4 Haz 2025 | görsel | *"2024'te ABD borsaları **52 hafta** boyunca çıktı… Tarihte böyle bir şey yok. Seçim ayağına şişirdiler, **BTC'yi kullandılar**."* |
+| 1 Eyl 2025 | görsel (abone) | *"Şu görüntü hoşuma gitmedi, umarım gerçekleşmez"* + *"Hiç olmadığı kadar **kriptonun kullanmaya ihtiyacı olan** dönemlere giriyoruz."* |
+
+9 Ekim 2023'teki *"2026'ya bile sarkıtır"* cümlesi, bugünkü **"zaman geçirme"**
+tezinin üç yıl önceden tarih verilmiş hali. 5 Eylül 2026'da o görseli koyup tek
+cümle yazıyor: *"Ben davamda haklıyım. **Koca yıl bitti.** Zaman boşa geçiyor."*
+
+### F. 4 EYLÜL: TRUMP'IN TEHDİDİ VE 17 AY ÖNCEKİ TWEET
+
+4 Eylül'de gelen haber — *"Trump, faiz oranları düşürülmezse ticaret açığı verdiği
+ülkelerle ticareti durdurmakla tehdit ediyor"* — Koç'un **9 Nisan 2025** tarihli
+tweetiyle birebir örtüşüyor (o tweeti de bu turda kendisi paylaştı):
+
+> *"Aldırır size Trump çok beklersiniz. **Piyasaları ucuzlatıp bir de Fed'i faiz
+> indirimine zorlarsa orta uzun vade tüm sermayeyi ABD'ye çeker.**"*
+
+Koç'un 4 Eylül okuması ise tehdide değil **mekanizmaya** bakıyor:
+
+- *"Çakal biliyor! Faizler inmezse sağ sol düşecek. Bu düşüş zaten faiz indirimlerini getirir. Maksat sağ sol diri kalsın."*
+- *"#NASDAQ 30 k yakını faiz indirimi talep ediyor. **16 K iken indirmeyen FED burada indirirse ortalık karışır.**"*
+- *"FED faiz indirmezse diğer ülkelere sataşır, **ALTIN kanadını azdırırım** demek istiyor."*
+
+Ve kendi pozisyonuyla tezini ayırdığı nadir cümle:
+
+> *"Ben yıllardır **short oynayan** birisiyim. FED hamlesi tamamen beni ihya eder,
+> #EMTİA çakılır kazanırım. Ama iş bağımsız düşününce **FED haksızdır**. Bunu deme
+> erdemliğini de gösteririm."*
+
+### G. BU TURDA GEÇEN SOMUT SEVİYELER
+
+| Enstrüman | Seviye | Bağlam |
+|---|---|---|
+| **XAUUSD** | **4376** | H4 mum–ortalama denge; 11 Ağu → 4 Eyl **tuttu** |
+| XAUUSD | 4428 | 4 Eylül park seviyesi |
+| XAUUSD | 3600 | FED faiz senaryosunda düşüş hedefi |
+| XAUUSD | 2500–3000 | *"FED tarafına kalsa bugün şu olurdu"* |
+| **GOLDGR** | **140.60** | 25 Haz koşullu tetik · Ağustos 3. hafta |
+| US10Y | **5.06** | 2023 tepesi; *"2024'te 5.06'dan faizler inmeli diye Trump çevirdi"* |
+| US10Y | 4.70 | *"bugün bu faiz 4.70'e geldi diye dünya kıvranıyor"* |
+| USDJPY | **106** | yıllık azalan trend; *"şurada bir gap var ama cesaret edemezler"* |
+| XAGUSD | 40 | *"gümüşün hakkı 40 dolar"* · 120 = savaş tepesi |
+| BTCUSDT | 67K → 126K | Trump göreve başlarken → 2026 tepe |
+| BTCUSDT | **24K** | *"Trump olmasa"* senaryosu; haftalık omuz-baş alt kanalı |
+| ETHUSDT | 2460 · 5000 | bekleme bölgesi · *"ALTIN 5000'e yeni giderken ETH kaç yılda gördü"* |
+| SOLUSDT | 60.60 → 110.6 | %85 prim örneği |
+| NDX | 22K → 30600 · 29600 | *"NASDAQ primi 2 yılda %35"* |
+| SPX | 4000 · 5000 | FED senaryosu |
+| DXY | 110 | FED senaryosu (Koç tetiği kondisyonu ile aynı sayı) |
+
+### H. KÜTÜPHANE VE KARNE ETKİSİ
+
+- `magicma/onemli_seviyeler.json`'a bu turdan **8 yeni kayıt** eklendi
+  (XAUUSD 4428, US10Y 5.06, USDJPY 106, XAGUSD 40, BTCUSDT 24000/67000/126000,
+  ETHUSDT 2460) — kütüphane 362 → **370**. XAUUSD 4376, XAUUSD 3600 ve NDX 30600
+  zaten kayıtlıydı, atlandı. Karşılığı olmayan **GOLDGR** ve rasyolar
+  (NASDAQ/ALTIN, NASDAQ/ETH, XAG/BTC) eklenmedi — sembol listesinde yoklar.
+- **Rasyo seviyeleri kütüphaneye giremiyor.** Koç'un bu turdaki asıl çerçevesi
+  rasyo (NASDAQ/ALTIN 4,5) ama alarm motoru yalnızca fiyat sembolleriyle çalışıyor.
+  Bu, ölçülemeyen en değerli katman — açık işlere yazıldı.
+
+### I. AÇIK İŞLER
+
+1. **"Denge değer" tipi iddia karnede ölçülemiyor.** 4376 bir yön iddiası değil,
+   iki eğrinin buluşma noktası. Karne şeması long/short + %0,5 hedef üzerine kurulu;
+   bu tip için "seviyeye N gün içinde değdi mi" biçiminde ikinci bir ölçüt gerek.
+2. **Rasyo takibi yok.** NASDAQ/ALTIN 4,5 · NASDAQ/ETH 12,4 · XAG/BTC 0,00028 ·
+   XAU/NASDAQ 0,110 — dördü de bugün ölçülebilir (iki fiyatın bölümü), ama ne
+   `onemli_seviyeler.json` ne `fiyat_kontrol.py` türetilmiş sembol tanımıyor.
+   Basit bir "türetilmiş sembol" tanımı (`A/B`) bunu çözer.
+3. **GOLDGR sembol listesinde yok.** Koç'un en sık kullandığı TL dışı gram altın
+   göstergesi; `XAUTRY` bunun karşılığı değil (dolar bazlı gram = XAUUSD/31,1035).
+   Türetilmiş sembol işiyle birlikte çözülebilir.
+4. **Ağustos 3. hafta çağrısı artık belgeli** — `koc_tetigi.py`'deki 20 Ağustos
+   referansının dayanağı bu turda birincil kaynağa bağlandı (25 Haz abone tweeti).
+   Bir sonraki durak 19 Ekim 2026; o tarihe yakın çıkacak yeni koşullu ifade aranmalı.
+5. **6-7 Eylül arşivde boş.** En yeni kayıt 5 Eyl 18:48. Hafta sonu olduğu için
+   beklenebilir ama sonraki taramada canlıdan teyit edilmeli.
+6. **Kalan okunmamış görsel: 210** (önceki turdan devreden). Bu turun 26 görseli
+   dışında Şubat–Mart yığınından 88'i ve 91 tarihsiz görsel hâlâ bekliyor.

@@ -4024,3 +4024,24 @@ iş görsel defteri turu olarak belirlendi (TUR 20 sonrası 482 bekleyen görsel
   kayıt yok. Hafta sonu olduğu için beklenen olabilir, ama bir sonraki taramada
   bu tarihlerin gerçekten boş olup olmadığı canlıdan teyit edilmeli.
 - LFS durumu: 861 MB / 1024 MB (%84), 2026-08-02'den beri sabit.
+
+## 2026-09-07 (2) — Mentor analizi: 168 yeni kayıt + 26 görsel
+
+- Son analiz commit'i `ce5e951` ile diff: **168 yeni tweet** (79'u 10-12 Ağustos
+  geriye dolan, 89'u 4-5 Eylül). 26 görselin tamamı okundu, `gorsel_analiz.jsonl`e
+  tur `2026-09-07-T23` olarak işlendi (1.343 → 1.369).
+- **En sert bulgu: 4376.** 11 Ağustos'ta ALTIN H4'te "mum ile ortalama burada
+  buluşuyor, denge değer" denilen seviyeye fiyat **24 gün sonra**, 4 Eylül 16:05'te
+  geldi (4376,394; gün dibi 4375,764). Zaman damgalı telefon ekranı kanıt olarak var.
+- **"Ağustos 3. hafta" çağrısının birincil belgesi bulundu:** 25 Haziran abone
+  tweeti — "#GOLDGR ... Ağustos 3. hafta... 140.60 dolar üstündeyse tetiklenir."
+  `koc_tetigi.py`'nin 20 Ağustos referansı artık ikinci el anlatıya değil bu
+  belgeye dayanıyor.
+- **Yeni ana çerçeve: NASDAQ/ALTIN = 4,5.** 1997-2026 arası dört temaslı taban;
+  bugün 6,6-6,7. Koç 4-5 Eylül floodunun tamamını bu rasyo üzerine kurdu
+  ("dolar bazlı kazandım deme, altın bazlı dayaktasın").
+- `magicma/onemli_seviyeler.json`: 362 → **370** (8 yeni; 3'ü zaten kayıtlıydı).
+- **Açık kalan iki yapısal eksik:** (a) "denge değer" tipi iddiayı karne ölçemiyor
+  (yön değil buluşma noktası), (b) rasyo seviyeleri (NASDAQ/ALTIN, NASDAQ/ETH,
+  XAG/BTC, XAU/NASDAQ) hiçbir yerde takip edilmiyor — türetilmiş sembol tanımı gerek.
+  GOLDGR de aynı sebeple listede yok (XAUTRY onun karşılığı DEĞİL).
