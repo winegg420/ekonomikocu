@@ -1,6 +1,7 @@
 # 16 — ZAMANLAMA KARNESİ
 
-_Güncelleme: 2026-09-04_ (4 Eylül NFP günü girişlerinden 7 yeni pencere eklendi)
+_Güncelleme: 2026-09-06_ (Berk Tavsan **yeni kaynak** + Cihat E. Çiçek 6 Eylül: 3 yeni pencere)
+_Önceki: 2026-09-04 (4 Eylül NFP günü girişlerinden 7 yeni pencere eklendi)_
 
 > **Bu karne fiyat karnesi DEĞİLDİR.** Ölçtüğü şey seviyenin tutup tutmadığı değil,
 > **verilen zaman penceresinin** kendisinin isabeti: pencere kapandığında gerçekten
@@ -59,6 +60,9 @@ _Güncelleme: 2026-09-04_ (4 Eylül NFP günü girişlerinden 7 yeni pencere ekl
 | **Barış Soydan** | **TCMB 10 Eylül ya da Ekim'de faiz indirir** → mevduat cazibesi azalır | 10 Eyl 2026 → 31 Eki 2026 | İZLENİYOR — 10 Eylül'de kısmen ölçülür; indirmezse Ekim'e sarkar, kapanmaz |
 | **Tunç Şatıroğlu + Selçuk Geçer** | **Fed 16 Eylül'de artırmaz** (Geçer: "sabit — ne artırım ne indirim"; Tunç: "CME %59,4 fiyatlıyor, ben beklemiyorum") | **16 Eyl 2026** | İZLENİYOR — piyasa fiyatlamasına **karşı** pozisyon |
 | **Barış Soydan** | **Önümüzdeki hafta ABD CPI son noktayı koyar** — beklenti altı gelirse Fed artırım ihtimali düşer, altın için olumlu | ~11 Eyl 2026 | İZLENİYOR |
+| **Berk Tavsan** | **CPI haftası "son kayıp parça"** — beklenti altı gelirse desteklerden toparlanma (altın 4.310-4.360, BTC 76.200 range altı, gümüş 60-65) | ~11 Eyl 2026 | İZLENİYOR — **Soydan/Geçer/Şatıroğlu ile aynı pencere; dosyadaki en kalabalık tek tarih** (`13_KONSENSUS.md` CPI kaydı, 4 kaynak) |
+| **Cihat E. Çiçek** | **Perşembe TCMB faiz kararı + Cuma ABD CPI** — haftanın iki belirleyici olayı | 10-11 Eyl 2026 | İZLENİYOR — olay takvimi aktarımı, yön iddiası içermiyor |
+| **Cihat E. Çiçek** | *"Kur patlayacak, kaçınılmaz"* · *"Petrol daha muazzam artacak, iş sonbahara sarkıyor"* | **tarih verilmedi** ("sonbahar") | İZLENİYOR — ⚠️ **ölçülemez pencere.** Bu karnenin ölçtüğü şey tam olarak budur: tarihsiz iddia kapanamaz, öteleme de sayılamaz |
 | **Tunç Şatıroğlu** | **XRP: "önümüzdeki hafta karar haftası"** (günlük AL, haftalıkta 4 pozitif uyumsuzluk) | ~11 Eyl 2026 | İZLENİYOR |
 | **Cüneyt Paksoy** | **Eylül'ün ilk 1-2 haftası S&P'nin yönünü belirler** (7.670-7.600 altına inilmedikçe stres yok) | ~14 Eyl 2026 | İZLENİYOR |
 | **Tunç Şatıroğlu** | Alternatif senaryo: **Eylül boyu yükseliş, Ekim'de düşüş** (ana senaryo: son bir yukarı → yeni zirve → düşüş) | 31 Eki 2026 | İZLENİYOR — 1 Eyl – 9 Eki penceresiyle **kısmen çelişiyor**, kaynak iki senaryo veriyor |

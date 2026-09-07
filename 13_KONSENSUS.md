@@ -1,6 +1,7 @@
 # 13 — KAYNAKLAR ARASI KONSENSÜS
 
-_Güncelleme: 2026-09-04_ (4 Eylül NFP günü: 3 yeni kayıt, 1 kayıt genişletildi, Barış Soydan'ın isabet oranı %100'e geçtiği için **tüm ağırlıklı skorlar yeniden hesaplandı**)
+_Güncelleme: 2026-09-06_ (Berk Tavsan **yeni kaynak** + Cihat E. Çiçek 6 Eylül girişi işlendi: **4 yeni kayıt**, altın 4.800 kaydı 3 kaynağa çıktı, sıralama yeniden hesaplandı)
+_Önceki: 2026-09-04 (4 Eylül NFP günü: 3 yeni kayıt, 1 kayıt genişletildi, Barış Soydan'ın isabet oranı %100'e geçtiği için tüm ağırlıklı skorlar yeniden hesaplandı)_
 
 > **Kaynak:** `11_DIS_KAYNAKLAR.md`'deki sayısal iddialar. Makine + elle doğrulama
 > karışımı; şüpheli eşleşmeler yanlış pozitif üretmemek için **bilerek atlandı**
@@ -31,28 +32,38 @@ _Güncelleme: 2026-09-04_ (4 Eylül NFP günü: 3 yeni kayıt, 1 kayıt genişle
 | 1 | Fed Eylül 2026 toplantısında faiz ARTIRMAZ | 35 – 59,4 | **4,0** | (7) | Sellcoin, Emrah Lafçı & Ali Perşembe, Barış Soydan, Onur Duygu, Tunç Şatıroğlu, Berk Dinçtürk, Selçuk Geçer | 2026-08-10 |
 | 2 | Altın kısa vade taban/biriktirme bandı (ons $) | 4000 – 4500 | **3,5** | (7) | Sellcoin, Berk Dinçtürk, Emrah Lafçı & Ali Perşembe, Baki Atılal, Cüneyt Paksoy, Tunç Şatıroğlu, Integral FX TV | 2026-08-06 |
 | 3 | TCMB gevşeme yönü — politika faizi 40 -> 37, haftalık repoya dönüş | 37 – 40 | **3,0** | (5) | Cüneyt Paksoy, Ferhat Yükseltürk & Uraz Çay, Emrah Lafçı & Ali Perşembe, Barış Soydan, Integral FX TV | 2026-08-13 |
-| 4 | Gümüş Ağustos toparlanma bandı (ons $) | 66,0 – 67,0 | **3,0** | (4) | Şant Manukyan, Barış Soydan, Turhan Bozkurt, Erkan Öz | 2026-08-17 |
+| 4 | Gümüş Ağustos toparlanma bandı (ons $) | 66 – 67 | **3,0** | (4) | Şant Manukyan, Barış Soydan, Turhan Bozkurt, Erkan Öz | 2026-08-17 |
 | 5 | ABD kamu borcu 40 trilyon $ eşiğini geçti | 40 – 42 | **2,5** | (4) | Barış Soydan, Bora Özkent, Emrah Altınocağı, Integral FX TV | 2026-08-20 |
 | 6 | BIST100 kritik eşik bölgesi | 14000 – 14500 | **2,5** | (4) | Cüneyt Paksoy, Atilla Yeşilada, Tunç Şatıroğlu, Barış Soydan | 2026-08-13 |
-| 7 | Altın uzun vade hedef bandı (ons $) | 5000 – 6500 | **2,0** | (4) | Cüneyt Paksoy, Tunç Şatıroğlu, Turhan Bozkurt, Emrah Lafçı & Ali Perşembe | 2026-08-13 |
-| 8 | BIST yukarı kırılım hedef bandı | 16000 – 17000 | **1,5** | (3) | Emrah Lafçı & Ali Perşembe, Integral FX TV, Cüneyt Paksoy | 2026-08-25 |
-| 9 | Fed'in yönü ŞAHİN — Eylül'de/seçim sonrası faiz ARTIRIMI | 35 – 40 | **1,5** | (3) | Integral FX TV, Erkan Öz, Emrah Lafçı & Ali Perşembe | 2026-08-25 |
-| 10 | Japon yen carry-trade çözülmesi = piyasanın en büyük riski | 4,05 | **1,5** | (3) | Erol Polat / Money Talks, Cihat E. Çiçek, Integral FX TV | 2026-08-18 |
-| 11 | USDTRY yıl sonu bandı | 50 – 55 | **1,5** | (3) | Integral FX TV, Cüneyt Paksoy, Turhan Bozkurt | 2026-08-17 |
-| 12 | BTC direnç/tetik seviyesi | 67000 – 67300 | **1,5** | (3) | Sellcoin, Kemal Hiçyılmaz, Emrah Lafçı & Ali Perşembe | 2026-08-10 |
-| 13 | BTC 200 günlük ortalama / alım bölgesi | 69000 – 69350 | **1,5** | (3) | Emrah Lafçı & Ali Perşembe, Erkan Öz, Kripto Teknik | 2026-08-27 |
-| 14 | US10Y alarm seviyesi | 5,0 | **1,0** | (2) | Cüneyt Paksoy, Integral FX TV | 2026-08-25 |
-| 15 | Türkiye CDS risk primi (baz puan) | 217 – 219 | **1,0** | (2) | Cüneyt Paksoy, Emrah Lafçı (solo) | 2026-08-27 |
-| 16 | MSCI / endeks çıkarma riski (BIST) | 50 | **1,0** | (2) | Atilla Yeşilada, Erol Polat / Money Talks | 2026-08-19 |
-| 17 | Gıda enflasyonu yapısal risk | — | **1,0** | (2) | Atilla Yeşilada, Fiba Bank | 2026-08-19 |
-| 18 | CLARITY Act Eylül 2026'da gündeme gelir | — | **1,0** | (2) | Berk Dinçtürk, Kemal Hiçyılmaz | 2026-08-20 |
-| 19 | Altin 4.800 - 5.000 tepki hedefi (4 Eylul) **YENİ** | 4800 – 5000 | **1,0** | (2) | Cüneyt Paksoy, Selçuk Geçer | 2026-09-04 |
-| 20 | S&P 500 kritik destek esigi **YENİ** | 7600 – 7670 | **1,0** | (2) | Cüneyt Paksoy, Tunç Şatıroğlu | 2026-09-04 |
-| 21 | Brent 100 $ ust sinir / esik **YENİ** | 100 | **1,0** | (2) | Selçuk Geçer, Tunç Şatıroğlu | 2026-09-04 |
+| 7 | ABD CPI (11 Eylül haftası) yönü belirleyecek — "son kayıp parça" **YENİ** | — | **2,5** | (4) | Berk Tavsan, Selçuk Geçer, Barış Soydan, Tunç Şatıroğlu | 2026-09-04 |
+| 8 | Gümüş yapısal YUKARI yön (Koç'un negatif okumasının karşısındaki kamp) **YENİ** | — | **2,5** | (5) | Sellcoin, Tunç Şatıroğlu, Emrah Lafçı & Ali Perşembe, Berk Dinçtürk, Berk Tavsan | 2026-08-10 |
+| 9 | Altın uzun vade hedef bandı (ons $) | 5000 – 6500 | **2,0** | (4) | Cüneyt Paksoy, Tunç Şatıroğlu, Turhan Bozkurt, Emrah Lafçı & Ali Perşembe | 2026-08-13 |
+| 10 | BIST yukarı kırılım hedef bandı | 16000 – 17000 | **1,5** | (3) | Emrah Lafçı & Ali Perşembe, Integral FX TV, Cüneyt Paksoy | 2026-08-25 |
+| 11 | Fed'in yönü ŞAHİN — Eylül'de/seçim sonrası faiz ARTIRIMI | 35 – 40 | **1,5** | (3) | Integral FX TV, Erkan Öz, Emrah Lafçı & Ali Perşembe | 2026-08-25 |
+| 12 | Japon yen carry-trade çözülmesi = piyasanın en büyük riski | 4,05 | **1,5** | (3) | Erol Polat / Money Talks, Cihat E. Çiçek, Integral FX TV | 2026-08-18 |
+| 13 | USDTRY yıl sonu bandı | 50 – 55 | **1,5** | (3) | Integral FX TV, Cüneyt Paksoy, Turhan Bozkurt | 2026-08-17 |
+| 14 | BTC direnç/tetik seviyesi | 67000 – 67300 | **1,5** | (3) | Sellcoin, Kemal Hiçyılmaz, Emrah Lafçı & Ali Perşembe | 2026-08-10 |
+| 15 | BTC 200 günlük ortalama / alım bölgesi | 69000 – 69350 | **1,5** | (3) | Emrah Lafçı & Ali Perşembe, Erkan Öz, Kripto Teknik | 2026-08-27 |
+| 16 | Altın 4.800 - 5.000 tepki hedefi (4 Eylül) **(3. kaynak eklendi)** | 4800 – 5000 | **1,5** | (3) | Cüneyt Paksoy, Selçuk Geçer, Berk Tavsan | 2026-09-04 |
+| 17 | US10Y alarm seviyesi | 5 | **1,0** | (2) | Cüneyt Paksoy, Integral FX TV | 2026-08-25 |
+| 18 | Türkiye CDS risk primi (baz puan) | 217 – 219 | **1,0** | (2) | Cüneyt Paksoy, Emrah Lafçı (solo) | 2026-08-27 |
+| 19 | MSCI / endeks çıkarma riski (BIST) | 50 | **1,0** | (2) | Atilla Yeşilada, Erol Polat / Money Talks | 2026-08-19 |
+| 20 | Gıda enflasyonu yapısal risk | — | **1,0** | (2) | Atilla Yeşilada, Fiba Bank | 2026-08-19 |
+| 21 | CLARITY Act Eylül 2026'da gündeme gelir | — | **1,0** | (2) | Berk Dinçtürk, Kemal Hiçyılmaz | 2026-08-20 |
+| 22 | S&P 500 kritik destek eşiği | 7600 – 7670 | **1,0** | (2) | Cüneyt Paksoy, Tunç Şatıroğlu | 2026-09-04 |
+| 23 | Brent 100 $ üst sınır / eşik | 100 | **1,0** | (2) | Selçuk Geçer, Tunç Şatıroğlu | 2026-09-04 |
+| 24 | Altın 4.200 stop/savunma bölgesi (ons $) **YENİ** | 4200 | **1,0** | (2) | Cüneyt Paksoy, Berk Tavsan | 2026-09-04 |
+| 25 | BTC 100.000 $ hedefi **YENİ** | 100000 | **1,0** | (2) | Cüneyt Paksoy, Berk Tavsan | 2026-09-04 |
 
 ---
 
 ## KAYIT NOTLARI
+
+> **NUMARA UYARISI (2026-09-06):** Aşağıdaki not başlıklarındaki numaralar
+> **4 Eylül'deki sıralamaya** aittir. 6 Eylül'de 4 yeni kayıt eklenip sıralama
+> yeniden hesaplandığı için 7. sıradan sonrası kaydı. **Notları numaraya göre
+> değil KONU BAŞLIĞINA göre eşleştir.** 6 Eylül'de eklenen kayıtların notları
+> dosyanın sonundaki ayrı bölümdedir.
 
 **1. Fed Eylül 2026 toplantısında faiz ARTIRMAZ** — 35 – 59,4 · ağırlıklı skor 4,0 (7 kaynak)   
 Değer aralığı, artırım ihtimalinin **fiyatlanan yüzdesidir**: %35 (Jackson Hole günü) → %36,4 (CPI sonrası) → **%59,4 (CME FedWatch, 4 Eylül NFP sonrası)**.
@@ -207,3 +218,41 @@ Aşağıdaki eşleşmeler ilk bakışta konsensüs gibi duruyor ama sayılmadı:
 - **Eylül'ün "kırılma ayı" olması.** Beş kaynak Eylül'ü işaretliyor ama
   **yönleri zıt** (Şatıroğlu düşüş, Koç yukarı kırılım, Kripto Teknik golden cross).
   Ortak olan tarih, iddia değil — bu yüzden `16_ZAMANLAMA_KARNESI.md`'ye taşındı.
+
+
+---
+
+## 2026-09-06 OTURUMUNDA EKLENEN KAYITLAR
+
+**Altın 4.800 - 5.000 tepki hedefi — artık 3 kaynak (ağırlıklı skor 1,0 → 1,5)**  
+Berk Tavsan (5-6 Eyl) eklendi: **4.800-4.900 hedefi, stop 4.200, R/R ≈ 3**. Diğer
+ikisinden farkı, hedefi tek başına değil **tam bir işlem planı** olarak vermesi —
+yani yanlışlanabilirliği daha yüksek (stop seviyesi belli).
+
+**Altın 4.200 stop/savunma bölgesi — 4.200 · ağırlıklı skor 1,0 (2 kaynak)** **YENİ**  
+Paksoy (55 haftalık ortalama, ikinci savunma hattı) ve Tavsan (işlem planı stopu)
+**aynı sayıyı aynı işlevle** kullanıyor: aşağı risk eşiği. Sayı örtüşmesinin yanında
+**yön örtüşmesi de var** — 13_KONSENSUS'taki kayıtların çoğunda olmayan bir şey
+(krş. kayıt "BIST100 kritik eşik bölgesi", orada aynı sayı zıt rolde).
+Not: Tunç Şatıroğlu'nun 19 Ağustos'taki 4.200'ü **yukarı kırılım teyidi** olarak
+kullandığı için (zıt işlev) bu kayda **dahil edilmedi** — bilerek atlandı.
+
+**BTC 100.000 $ hedefi — ağırlıklı skor 1,0 (2 kaynak)** **YENİ**  
+Paksoy haftalık ortalama senaryosundan, Tavsan 82.500 kırılımından aynı hedefe
+varıyor. **Dikkat çeken ayrıntı:** Tavsan'ın tetiği **82.500**, Koç'un **84.000
+"yılın pivotu"** eşiğine %1,8 uzaklıkta. İki bağımsız yöntem neredeyse aynı eşiği
+işaretliyor; bu bir konsensüs kaydı değil ama **izlenmesi gereken bir kesişim**.
+
+**ABD CPI (11 Eylül haftası) yönü belirleyecek — ağırlıklı skor 2,5 (4 kaynak)** **YENİ**  
+Dosyadaki **ilk "olay penceresi" konsensüsü** — sayısal hedef değil, bir verinin
+belirleyiciliği üzerine. Tavsan *"son kayıp parça"*, Geçer altın izleme listesinin
+5. maddesi, Soydan *"beklentinin altında gelirse altın için olumlu"*, Şatıroğlu
+CPI sonrası Fed fiyatlaması. Skoru yüksek çünkü **Barış Soydan'ın %100 isabet
+oranı** ortalamayı yukarı çekiyor (4 × 0,625). Ölçümü `16_ZAMANLAMA_KARNESI.md`'de.
+
+**Gümüş yapısal YUKARI yön — ağırlıklı skor 2,5 (5 kaynak)** **YENİ**  
+Sayısal band **bilerek verilmedi**: hedefler birbirinden uzak (Lafçı & Perşembe
+73-74, Tavsan 80-90, Dinçtürk 3 hane) ve ±%2 toleransı fazlasıyla aşıyor. Ortak
+olan tek şey **yön**. Kaydın anlamı sayısal değil yapısal: Berk Tavsan'ın
+eklenmesiyle Koç'un **54-62 negatif okumasına karşı kaynak sayısı 4'ten 5'e çıktı**.
+Bkz. `14_CELISKI_PANELI.md` B1.

@@ -2579,11 +2579,11 @@
     "tarih_eklendi": "2026-09-04"
   },
   {
-    "kaynak": "Cuneyt Paksoy",
+    "kaynak": "Cuneyt Paksoy + Berk Tavsan (2 bagimsiz kaynak)",
     "enstruman": "XAUUSD",
     "seviye": 4350,
     "tur": "stop",
-    "aciklama": "Long stop: 4.350 ALTINDA kapanis. Kirilirsa 55 haftalik = 4.200 savunmasi",
+    "aciklama": "Paksoy: long stop, 4.350 ALTINDA kapanis; kirilirsa 55 haftalik = 4.200 savunmasi. Tavsan (5-6 Eyl): 4.310-4.360 destek bandinin ust ucu, buradan guclu tepki geldi.",
     "tarih_eklendi": "2026-09-04"
   },
   {
@@ -2595,11 +2595,11 @@
     "tarih_eklendi": "2026-09-04"
   },
   {
-    "kaynak": "Cuneyt Paksoy",
+    "kaynak": "Cuneyt Paksoy + Berk Tavsan (2 bagimsiz kaynak)",
     "enstruman": "XAUUSD",
     "seviye": 4200,
     "tur": "destek",
-    "aciklama": "55 haftalik ortalama - 4.350 kirilirsa ikinci savunma hatti",
+    "aciklama": "Paksoy: 55 haftalik ortalama - 4.350 kirilirsa ikinci savunma hatti. Tavsan (5-6 Eyl): islem planinin stop seviyesi - altinda plan bozulur.",
     "tarih_eklendi": "2026-09-04"
   },
   {
@@ -2635,11 +2635,11 @@
     "tarih_eklendi": "2026-09-04"
   },
   {
-    "kaynak": "Cuneyt Paksoy",
+    "kaynak": "Cuneyt Paksoy + Berk Tavsan (2 bagimsiz kaynak)",
     "enstruman": "BTCUSDT",
     "seviye": 100000,
     "tur": "hedef",
-    "aciklama": "Haftalik ortalamalar ustu senaryosunun ucuncu hedefi",
+    "aciklama": "Paksoy: haftalik ortalamalar ustu senaryosunun ucuncu hedefi. Tavsan (5-6 Eyl): gunluk 82.500 asilirsa 97.000-100.000 hedefi.",
     "tarih_eklendi": "2026-09-04"
   },
   {
@@ -2883,11 +2883,11 @@
     "tarih_eklendi": "2026-09-04"
   },
   {
-    "kaynak": "Cuneyt Paksoy + Selcuk Gecer (2 bagimsiz kaynak)",
+    "kaynak": "Cuneyt Paksoy + Selcuk Gecer + Berk Tavsan (3 bagimsiz kaynak)",
     "enstruman": "XAUUSD",
     "seviye": 4800,
     "tur": "hedef",
-    "aciklama": "Paksoy: 4.450 pivot ustu tepki hedefi. Gecer: 4.500 ustu ilk hedef (Citi vb. banka hedefi aktarimi)",
+    "aciklama": "Paksoy: 4.450 pivot ustu tepki hedefi. Gecer: 4.500 ustu ilk hedef (Citi vb. banka hedefi aktarimi). Tavsan (5-6 Eyl): 4.800-4.900 islem plani hedefi (stop 4.200, R/R ~3).",
     "tarih_eklendi": "2026-09-04"
   },
   {
@@ -2977,5 +2977,77 @@
     "tur": "destek",
     "aciklama": "'ETH 2460'da bekliyor, orada zaman gecirmesini yadirgamiyorum' (5 Eyl 2026)",
     "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Berk Tavsan",
+    "enstruman": "BTCUSDT",
+    "seviye": 76200,
+    "tur": "destek",
+    "aciklama": "4 saatlik range ALT siniri - dipler yukseliyor, range ici yapi bozulmamis",
+    "tarih_eklendi": "2026-09-06"
+  },
+  {
+    "kaynak": "Berk Tavsan",
+    "enstruman": "BTCUSDT",
+    "seviye": 81000,
+    "tur": "direnc",
+    "aciklama": "4 saatlik range UST siniri - 3 kez gelip satis yedi; kirilim icin ETF akisi kilit",
+    "tarih_eklendi": "2026-09-06"
+  },
+  {
+    "kaynak": "Berk Tavsan",
+    "enstruman": "BTCUSDT",
+    "seviye": 82500,
+    "tur": "direnc",
+    "aciklama": "Gunluk direnc - onceki dusus dalgasinin baslangic noktasi; asilirsa 97.000-100.000",
+    "tarih_eklendi": "2026-09-06"
+  },
+  {
+    "kaynak": "Berk Tavsan",
+    "enstruman": "XAUUSD",
+    "seviye": 4335,
+    "tur": "destek",
+    "aciklama": "4.310-4.360 destek bandinin ortasi - guclu tepki geldi, ucgen yukari kirilim okumasi",
+    "tarih_eklendi": "2026-09-06"
+  },
+  {
+    "kaynak": "Berk Tavsan",
+    "enstruman": "XAUUSD",
+    "seviye": 4850,
+    "tur": "hedef",
+    "aciklama": "Islem plani hedefi (4.800-4.900 bandi), stop 4.200, R/R ~3",
+    "tarih_eklendi": "2026-09-06"
+  },
+  {
+    "kaynak": "Berk Tavsan",
+    "enstruman": "XAGUSD",
+    "seviye": 62.5,
+    "tur": "destek",
+    "aciklama": "60-65 destek bandinin ortasi - destegin altina inip geri dondu (olumlu); ustunde kaldikca yon yukari",
+    "tarih_eklendi": "2026-09-06"
+  },
+  {
+    "kaynak": "Berk Tavsan",
+    "enstruman": "XAGUSD",
+    "seviye": 80,
+    "tur": "hedef",
+    "aciklama": "80-90 hedef bandinin ALT ucu - Koc'un 54-62 bandiyla dogrudan celisiyor",
+    "tarih_eklendi": "2026-09-06"
+  },
+  {
+    "kaynak": "Berk Tavsan",
+    "enstruman": "XAGUSD",
+    "seviye": 90,
+    "tur": "hedef",
+    "aciklama": "80-90 hedef bandinin UST ucu",
+    "tarih_eklendi": "2026-09-06"
+  },
+  {
+    "kaynak": "Berk Tavsan",
+    "enstruman": "US02Y",
+    "seviye": 4.38,
+    "tur": "referans",
+    "aciklama": "ABD 2 yillik tahvil faizi (5-6 Eyl referans degeri). NOT: sembol eslesmesi yok - sembol_listesi'nde US02Y bulunmuyor (yalnizca TVC:US10Y), alarm motoru bu kaydi atlar; referans olarak saklanir.",
+    "tarih_eklendi": "2026-09-06"
   }
 ]

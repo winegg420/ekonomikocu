@@ -1,6 +1,7 @@
 # 14 — ÇELİŞKİ PANELİ
 
-_Güncelleme: 2026-09-04_ (4 Eylül NFP günü: A8/A9/A10 açıldı, B7 güncellendi)
+_Güncelleme: 2026-09-06_ (Berk Tavsan yeni kaynak: **B1 gümüş** karşı-kaynak sayısı 5'e çıktı, **A11** veri aktarım farkı açıldı)
+_Önceki: 2026-09-04 (4 Eylül NFP günü: A8/A9/A10 açıldı, B7 güncellendi)_
 
 > **Kaynak:** `11_DIS_KAYNAKLAR.md` (özellikle `[Claude çapraz kontrol]` notları) +
 > `06_ANALIZ.md`'deki Koç karşılaştırmaları. Yeni veri toplanmadı.
@@ -153,6 +154,21 @@ _Güncelleme: 2026-09-04_ (4 Eylül NFP günü: A8/A9/A10 açıldı, B7 güncell
   kalır).
 - **Kim haklı çıktı:** Henüz yok — **dosyadaki en hızlı kapanacak çelişki.**
 
+### A11. NFP sürprizinin BÜYÜKLÜĞÜ — veri aktarım farkı (2026-09-06'da açıldı)
+- **Barış Soydan** (4 Eyl): NFP **"beklentinin ~4 katı"**.
+- **Berk Tavsan** (5-6 Eyl): **162 K gerçekleşme / 56 K beklenti** → **≈ 2,9 kat**.
+- **Durum:** Bu bir **tez çelişkisi DEĞİL**, bir **veri aktarım farkı**. İki kaynak
+  aynı yönü söylüyor (sürpriz güçlü, Fed'e alan açıyor); ayrıldıkları tek yer
+  çarpanın büyüklüğü. Tavsan somut iki sayı verdiği için **doğrulanabilir**,
+  Soydan'ınki yuvarlama.
+- **Neden yine de kaydedildi:** Bu panelin işi sadece zıt tezleri değil,
+  **aynı olgunun kaynaklar arasında nasıl bozulduğunu** da izlemek. "~4 kat" ile
+  "~3 kat" arasındaki fark, aynı verinin ikinci elden aktarılırken **sürprizin
+  abartılması** eğilimine örnek. `12_KAYNAK_PERFORMANS.md`'de not olarak durur;
+  karne satırı açılmadı çünkü ikisi de tahmin değil **aktarım**.
+- **Kim haklı çıktı:** **Tavsan** — 162/56 = 2,89. Soydan'ın oranı yaklaşık %38
+  yüksek. *(Kapanmış, ama karne puanı üretmez: olgu aktarımı.)*
+
 ---
 
 ## B. KOÇ ↔ DIŞ KAYNAK ÇELİŞKİLERİ
@@ -169,7 +185,9 @@ _Güncelleme: 2026-09-04_ (4 Eylül NFP günü: A8/A9/A10 açıldı, B7 güncell
 - **Tunç Şatıroğlu** (Ağu 2026): "**Gümüş 66 kırıldı**, yukarı yönlü." **POZİTİF.**
 - **Emrah Lafçı & Ali Perşembe:** "63 → 73-74 hedef, stop 58,87." **POZİTİF.**
 - **Berk Dinçtürk:** "3 haneli hedef." **POZİTİF.**
-- **Durum:** Çelişkili, Koç **azınlıkta** (1'e 4).
+- **Berk Tavsan** (5-6 Eyl 2026): "Destek altına indi ve **geri döndü** — olumlu.
+  **60-65 üstü kaldıkça yön yukarı, hedef 80-90.**" **POZİTİF.**
+- **Durum:** Çelişkili, Koç **azınlıkta** (1'e **5** — 6 Eylül'de Berk Tavsan eklendi).
 - **Kim haklı çıktı — kısmi cevap var:**
   **(a) Temmuz dip çağrısında Koç haklı çıktı.** 17 Temmuz'da gümüş 54 $'a düştü;
   Sellcoin dibi **sonradan** onayladı, Koç düşüşü **önceden** söyledi.
@@ -177,6 +195,13 @@ _Güncelleme: 2026-09-04_ (4 Eylül NFP günü: A8/A9/A10 açıldı, B7 güncell
   döndü (`13_KONSENSUS.md` kayıt 4, dört bağımsız kaynak).
   ➜ **Çelişki değil, ZAMAN FARKI** olduğu ortaya çıktı. Koç'un 9 Ağustos sonrası
   gümüş için yeni rakamı yok, bu yüzden karşılaştırma dolaylı kalıyor.
+- **2026-09-06 eki:** Berk Tavsan'ın **80-90** hedefi bandı yukarı doğru genişletiyor
+  ve karşı kampı **5 kaynağa** çıkarıyor (bkz. `13_KONSENSUS.md`, "Gümüş yapısal
+  YUKARI yön" kaydı, ağırlıklı skor 2,5). Ancak dikkat: **karşı kampın kendi içinde
+  de fikir birliği yok** — hedefler 73-74 ile "3 hane" arasında dağılıyor, yani
+  bu 5 kaynak aynı sayıda değil aynı YÖNDE birleşiyor. Koç'un 54-62'si hâlâ tek
+  başına ama karşısındaki grup **sayısal olarak dağınık**; kaynak sayısı bu kayıtta
+  göründüğü kadar belirleyici değil.
 
 ### B2. DXY zayıflamasının SEBEBİ — kasıt mı, çöküş mü?
 - **Koç** (22 Ağu): "Eylül 15 vade sonuna kadar doları **BİLEREK** zayıflatıyorlar,
@@ -283,9 +308,9 @@ _Güncelleme: 2026-09-04_ (4 Eylül NFP günü: A8/A9/A10 açıldı, B7 güncell
 
 | | Sayı |
 |---|---|
-| Analist ↔ analist çelişkisi | **10** (2026-09-04: A8 altın rekorunun anlamı, A9 DXY kriz yönü, A10 TCMB zamanlaması) |
+| Analist ↔ analist çelişkisi | **11** (2026-09-06: A11 NFP sürprizinin büyüklüğü — veri aktarım farkı · 2026-09-04: A8 altın rekorunun anlamı, A9 DXY kriz yönü, A10 TCMB zamanlaması) |
 | Koç ↔ dış kaynak çelişkisi | **8** (2026-09-01: B7 BIST sebebi, B8 petrol yönü — Iris Cibre) |
-| **Sonucu (kısmen) belli olan** | **4** (B1 gümüş — zaman farkı çıktı · A6 BIST — 4 Eyl'de gün içi kırıldı, kapanışta tutuldu, **Paksoy eşiği yukarı revize etti** · B5 altın — şimdilik Integral · B7 BIST sebebi — kaynak dengesi 3'e 1 Iris lehine) |
+| **Sonucu (kısmen) belli olan** | **5** (A11 NFP çarpanı — Tavsan'ın somut sayısı doğru, ama karne puanı üretmez · B1 gümüş — zaman farkı çıktı · A6 BIST — 4 Eyl'de gün içi kırıldı, kapanışta tutuldu, **Paksoy eşiği yukarı revize etti** · B5 altın — şimdilik Integral · B7 BIST sebebi — kaynak dengesi 3'e 1 Iris lehine) |
 | Ölçülecek somut testi tanımlanmış olan | **6** (A2 "işlem yapılamaz hale gelme" · A8 rekor günü stres göstergeleri · A9 risk-off gününde DXY yönü · A10 10 Eylül TCMB · B2 15 Eylül sonrası DXY · B4 4,75 müdahalesi) |
 | Kapanmaya en yakın | **A10 (10 Eylül TCMB)** → sonra A5 (16 Eylül FOMC) ve B3 (1 Eylül – 9 Ekim penceresi) |
 

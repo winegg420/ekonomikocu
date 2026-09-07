@@ -1181,6 +1181,72 @@ DEĞİŞTİRİLMEDİ (`cin_abd_anlasma` hâlâ false).
 | 18 Ağu | Japon carry-trade çözülmesi en büyük risk | İZLENİYOR (18 Ağu Japon borsası çöküşü ile kısmen teyit) |
 | 18 Ağu | Japon 30Y tahvil %4,05 seviyesi kritik | İZLENİYOR |
 
+### 6 Eylül 2026 (Pazar) — "Kral Petrol Altın Emtia, Hürmüz'de Gemi Avı Sertleşti"
+
+**Merkez bankası rezerv kompozisyonu (kaynağın aktarımı):**
+- **Altın %27** · **ABD tahvili %22** · **euro %13** →
+  ***"altın, dolar tahvilini geçti."***
+- **MB anketi:** merkez bankaları **gelecek yıl rekor altın alımı** niyeti bildiriyor.
+- **Basel düzenlemesi:** altın **tier-1 teminat**, **UST 2. sıraya düştü.**
+
+**Güven kaybı örnekleri (aktarım):**
+- **Hollanda** altınını **Londra'dan çekiyor.**
+- **Norveç ~80 milyar $** ABD tahvilinden **çıkıyor.**
+
+**Emtia performansı (Charlie Bilello verisi, 1 Mart – 15 Ağustos):**
+| Emtia | Değişim |
+|---|---|
+| Buğday | +%14 |
+| Palm yağı | +%16 |
+| Ham petrol | +%22-23 |
+| Gübre | +%27 |
+| Pamuk | +%29 |
+| Pirinç | +%34 |
+| Benzin | +%37 |
+| Dizel | +%45 |
+| Jet yakıtı | +%50 |
+| Fuel oil | +%65 |
+| AB doğalgaz | +%92 |
+| Sülfür | +%145 |
+
+**Kaynağın çıkarımı:** **dizel ve jet yakıtı ham petrolün 2 katı arttı** →
+**rafineri marjı** teması (ham girdi değil, rafine ürün darboğazı).
+
+**Altın üretim maliyeti:**
+- **Dizel galonu 6 $** → madencilik maliyeti katlandı.
+- Kendi iddiası: ***"çıkarılmamış altının ~%20'si kaldı."***
+
+**Türkiye:**
+- **Kur enflasyonun altında tutuluyor** → ***"tazyik birikiyor, kur patlayacak,
+  kaçınılmaz."***
+- Kur tutulmasaydı **gram altın 10.000 TL'yi geçmişti.**
+- Takvim: **Perşembe TCMB faiz kararı**, **Cuma ABD CPI**.
+
+**Jeopolitik — DOĞRULANMAMIŞ, kaynağın aktarımıdır:**
+- **ABD, Kharg ve Lark adalarını vurdu**; limandaki **İran tankerleri batırıldı.**
+- **İran, 2 ABD uçak gemisini füzeyle vurduğunu iddia etti.**
+
+> **[Claude çapraz kontrol]:** Kharg kısmı **Tunç Şatıroğlu'nun 4 Eylül**
+> girişindeki *"Kharg'da İran tankeri vuruldu"* aktarımıyla **kısmen örtüşüyor**
+> (iki bağımsız kaynak). **Uçak gemisi iddiası tek kaynaklı ve doğrulanmamıştır** —
+> karneye çağrı olarak alınmadı, yalnızca aktarım olarak kaydedildi.
+
+- **Petrol:** ***"daha muazzam artacak"***; iş **sonbahara sarkıyor.**
+
+> **İşlenmeyen kısım:** Videonun önemli bir bölümü kişisel/nostaljik anlatı
+> (özgeçmiş, sandviç dükkânı, sponsorluk teklifini reddetmesi). **Analiz değeri
+> yok, bilerek işlenmedi.**
+
+### KARNE EK — Cihat E. Çiçek (6 Eylül)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 6 Eyl | TR'de kur baskısı birikiyor, kur "patlayacak" | İZLENİYOR (tarih verilmedi — ölçülebilir pencere yok) |
+| 6 Eyl | Petrol buradan daha da yükselir ("muazzam artacak") | İZLENİYOR |
+| 6 Eyl | Merkez bankaları gelecek yıl rekor altın alımı yapar | İZLENİYOR |
+| 6 Eyl | Norveç ~80 milyar $ ABD tahvilinden çıkıyor | İZLENİYOR (aktarım, bağımsız teyit yok) |
+
+---
+
 ## BARIŞ SOYDAN
 
 ### 15 Ağustos 2026
@@ -1374,7 +1440,7 @@ bu çelişki mutlaka eklenmeli (Goldman vs 6-kaynak-artırım-konsensüsü).
 ### 4 Eylül 2026 — "Altında Dikkat / Bankalar Faizi İndirdi / Halkbank"
 
 **NFP ve Fed:**
-- **NFP beklentinin ~4 katı** geldi → Fed'in **16 Eylül'de artırım** ihtimali
+- **NFP beklentinin ~4 katı** geldi **[Claude çapraz kontrol: Tavsan 162K/56K ≈ 2,9x]** → Fed'in **16 Eylül'de artırım** ihtimali
   **%50'den %60+**'ya çıktı (CME FedWatch **%59,4**).
 - **Önümüzdeki hafta ABD CPI son noktayı koyar**: beklentinin altında gelirse altın için
   olumlu, ihtimal geri çekilir.
@@ -1467,6 +1533,84 @@ indirim Kasım/Aralık) ve Selçuk Geçer (sabit) **üç ayrı yönde** — bkz.
 | 4 Eylül | Brent 100 $ üstü kalıcı olmaz | İZLENİYOR |
 | 4 Eylül | DXY zayıflar (dış açık zorunluluğu) | İZLENİYOR |
 | 4 Eylül | Altın uzun vadede 7.000-10.000 | İZLENİYOR (uzun vadeli) |
+
+## BERK TAVSAN (YouTube — makro + teknik, Darvas platformu) — **YENİ KAYNAK**
+
+> 7 Eylül 2026 oturumunda dosyaya girdi. Odak: ABD makro verisi → Fed → petrol
+> zinciri ve bunun BTC/altın/gümüşe teknik yansıması. **Kendi ürünü olan Darvas
+> charting platformunu** kullanıyor ve videoda tanıtıyor — ticari çıkar beyanı
+> olarak kaydedilir, iddialar bu bilgiyle okunmalı. Kaynak ayrımı kuralı gereği
+> hiçbir görüşü Koç'a atfedilmez.
+
+### 5-6 Eylül 2026 — "Güçlü İstihdam Piyasaları Neden Düşürüyor?"
+
+**NFP verisi (kaynağın aktardığı somut sayılar):**
+- **Ağustos NFP 162 K** — beklenti **56 K**. Yaklaşık **3 katı** sürpriz.
+- **Haziran + Temmuz toplamı +55 K yukarı revize**; özellikle
+  **Temmuz −23 K → +21 K** (eksiden artıya döndü).
+- **İşsizlik %4,1** · **ücret artışı aylık %0,3 / yıllık %3,1** ·
+  **127 K özel sektör** istihdamı.
+- Sonucu: ***"Resesyon ihtimali masadan kalktı."***
+
+> **[Claude çapraz kontrol]:** Barış Soydan aynı veriyi 4 Eylül girişinde
+> **"beklentinin ~4 katı"** diye aktarmıştı. Tavsan somut sayı veriyor
+> (**162 K / 56 K ≈ 2,9x**); Soydan'ın oranı yuvarlama. Bu bir tez çelişkisi
+> değil, **kaynaklar arası veri aktarım farkı** — ikisi de aynı yönü söylüyor.
+> Bkz. `14_CELISKI_PANELI.md`.
+
+**Ana tez — piyasayı düşüren güçlü istihdam DEĞİL:**
+İki gerçek sebep var:
+1. **Güçlü veri Fed'e artırım ALANI açıyor** — Eylül'de **25 bp artırım ihtimali
+   %49 → %58**'e çıktı.
+2. **Petrol.** **Brent haftalık +%7,6 → 96 $ üstü**, **WTI +%10 → 91 $ üstü** —
+   **Temmuz ortasından beri en güçlü hafta**. Enflasyon tarafını yeniden açıyor.
+
+**Tahvil:** **2 yıllık %4,38** · **10 yıllık %4,80**.
+**Önümüzdeki hafta ABD CPI**, kaynağın ifadesiyle ***"son kayıp parça"***.
+
+**Cuma kapanışları (kaynağın aktarımı):**
+- **Dow −%0,5** · **S&P 500 −%0,4** · **Nasdaq −%0,3**.
+- **Altın gün içi −%2'den fazla.**
+- **BTC 81 K'yı tutamadı**, 80 K altına indi.
+
+**BTC — teknik (4 saatlik):**
+- **Range: 76.200 – 81.000.** Üst sınıra **3 kez** gelip her seferinde satış yedi.
+- Ama **dipler yükseliyor** — range içinde yapı bozulmuş değil.
+- **81–82 K kırılımı için ETF akışı kilit** (Darvas platformunda bunu bir
+  indikatör olarak izlediğini söylüyor).
+- **Günlük grafikte 82.500 direnç** — önceki düşüş dalgasının başlangıç noktası.
+  **Aşılırsa hedef 97.000 – 100.000.**
+
+**Altın:**
+- **4.310 – 4.360 destek bandından güçlü tepki** geldi.
+- **Düşüş trendi zayıflıyor**, üçgen formasyonunda **yukarı kırılım** okuması.
+- **İşlem planı (kaynağın kendi verdiği):** **stop 4.200**, **hedef 4.850**
+  (4.800 – 4.900 bandı), **risk/ödül ≈ 3**.
+
+**Gümüş:**
+- Desteğin altına indi ve **geri döndü** — bunu **olumlu** sayıyor (fake breakdown).
+- **Kısa vadede yükseliş trendi.**
+- **60 – 65 üstü kaldıkça yön yukarı**, **hedef 80 – 90**.
+
+**Koç'la ilişki (atıf değil, karşılaştırma):**
+- **BTC:** Tavsan'ın **82,5 K kırılımı → 100 K** okuması, Koç'un **84 K "yılın
+  pivotu"** eşiğine **çok yakın** (82,5 vs 84). İki farklı yöntem neredeyse aynı
+  eşiği işaretliyor — dosyadaki güçlü yöntem-bağımsız kesişimlerden biri.
+- **Gümüş:** Tavsan'ın **80 – 90** hedefi, Koç'un **"taban kırıldı / 54-62 bandı"**
+  tezinin **tam tersi**. Gümüş ayrışmasına **yeni bir karşı kaynak** ekleniyor —
+  bkz. `14_CELISKI_PANELI.md` B1 (Koç artık 1'e 5 azınlıkta).
+
+### KARNE — Berk Tavsan
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 5-6 Eylül | BTC 82.500 aşılırsa hedef 97.000-100.000 | İZLENİYOR |
+| 5-6 Eylül | BTC 76.200-81.000 range korunur, dipler yükselmeye devam eder | İZLENİYOR |
+| 5-6 Eylül | Altın 4.310-4.360 desteği tutar → hedef 4.850 | İZLENİYOR |
+| 5-6 Eylül | Altın 4.200 altı = işlem planı bozulur (stop) | İZLENİYOR |
+| 5-6 Eylül | Gümüş 60-65 üstü kaldıkça hedef 80-90 | İZLENİYOR |
+| 5-6 Eylül | CPI beklenti altı gelirse desteklerden toparlanma | İZLENİYOR |
+
+---
 
 ## INTEGRAL FX TV (Karagöz / Sağman / Perşembe paneli)
 

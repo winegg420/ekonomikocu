@@ -1,6 +1,7 @@
 # 12 — KAYNAK PERFORMANS SIRALAMASI
 
-_Güncelleme: 2026-09-04_ (4 Eylül NFP günü girişleri işlendi: Paksoy, Soydan, Selçuk Geçer **yeni kaynak**, Tunç Şatıroğlu ×2)
+_Güncelleme: 2026-09-06_ (Berk Tavsan **yeni kaynak** + Cihat E. Çiçek 6 Eylül girişi işlendi)
+_Önceki: 2026-09-04 (4 Eylül NFP günü: Paksoy, Soydan, Selçuk Geçer yeni kaynak, Tunç Şatıroğlu ×2)_
 
 > **Kaynak:** Bu dosya tamamen `11_DIS_KAYNAKLAR.md` içindeki **KARNE** tablolarından
 > türetilmiştir. Yeni veri toplanmaz, hiçbir iddia yeniden derecelendirilmez —
@@ -75,7 +76,7 @@ bu uyarı unutulmamalı.
 | Erol Polat / Money Talks | 2 | 2 | 0 | 5 | 0 | 7 | TP2 önerisi + AK3/TP2/HVS/GHS'nin BIST100'ü yenmesi |
 | Emrah Lafçı (solo) | 1 | 1 | 0 | 7 | 0 | 8 | CDS 219bp — Paksoy'un 217bp'siyle çapraz doğrulandı |
 | Ferhat Yükseltürk & Uraz Çay | 1 | 1 | 0 | 4 | 0 | 5 | Tüpraş kâr büyümesi (Soydan verisiyle doğrulandı) |
-| Cihat E. Çiçek | 1 | 1 | 0 | 3 | 0 | 4 | Gerçekleşmiş TEFAS getirileri (tahmin değil) |
+| Cihat E. Çiçek | 1 | 1 | 0 | 7 | 0 | 8 | Gerçekleşmiş TEFAS getirileri (tahmin değil). **6 Eyl'de 4 yeni iddia** — üçü tarihsiz/ölçülemez tipte ("kur patlayacak", "petrol muazzam artacak"), biri aktarım (Norveç 80 mlr $) |
 | Integral FX TV / Erhan Aslanoğlu | 1 | 1 | 0 | 7 | 0 | 8 | TCMB 10 Eylül tahmini — 16 gün ERKEN gerçekleşti |
 | Turhan Bozkurt | 0 | 0 | 0 | 4 | 1 | 5 | TCMB 80 ton altın iddiası **DOĞRULANMADI** (yanlışlanmadı da) |
 | Tunç Şatıroğlu | 2 | 2 | 0 | 21 | 0 | 23 | 4 Eyl'de ilk iki kaydı kapandı (BTC 79 K + XRP 1,057), ikisi de TUTTU. **Dosyadaki en çok iddialı kaynak** — 1 kapanmış daha gelince sıralamaya girer |
@@ -94,12 +95,19 @@ bu uyarı unutulmamalı.
 | Doruk İşmen | 0 | 0 | 0 | 4 | 0 | 4 | Vadesi 5-10 yıl, ölçülemez |
 | Kemal Hiçyılmaz | 0 | 0 | 0 | 3 | 0 | 3 | — |
 | **Selçuk Geçer** | 0 | 0 | 0 | 6 | 0 | 6 | **YENİ KAYNAK (4 Eyl 2026).** 6 iddianın 5'i Eylül içinde ölçülebilir (ECB 10 Eyl, Fed 16 Eyl, altın 4.500, Brent 100, DXY) — dosyaya en hızlı kapanacak karneyle girdi |
+| **Berk Tavsan** | 0 | 0 | 0 | 6 | 0 | 6 | **YENİ KAYNAK (6 Eyl 2026).** Dosyadaki **en yanlışlanabilir** karnelerden biri: 6 iddianın 4'ünde hem tetik hem hedef hem stop var (BTC 82.500→100 K, altın 4.310-4.360→4.850 stop 4.200, gümüş 60-65→80-90). ⚠️ **Ticari çıkar beyanı:** kendi ürünü olan Darvas platformunu tanıtıyor |
 | Prof. Daron Acemoğlu | — | — | — | — | — | 0 | Fiyat/seviye vermediği için karneye hiç alınmadı |
 
-**Toplam: 24 kaynak · 206 iddia · 16 TUTTU · 0 TUTMADI · 189 İZLENİYOR · 1 SONUÇSUZ.**
+**Toplam: 25 kaynak · 216 iddia · 16 TUTTU · 0 TUTMADI · 199 İZLENİYOR · 1 SONUÇSUZ.**
 
-> _Önceki sayım (2026-08-30): 23 kaynak · 179 iddia · 13 TUTTU · 165 İZLENİYOR._
+> _Önceki sayım (2026-09-04): 24 kaynak · 206 iddia · 16 TUTTU · 189 İZLENİYOR._
+> _Ondan önceki (2026-08-30): 23 kaynak · 179 iddia · 13 TUTTU · 165 İZLENİYOR._
+> 6 Eylül'de eklenen 10 yeni iddia: **Berk Tavsan 6 (yeni kaynak)** · Cihat E. Çiçek 4.
 > 4 Eylül'de eklenen 27 yeni iddia: Paksoy 9 · Tunç Şatıroğlu 8 · Selçuk Geçer 6 · Barış Soydan 4.
+>
+> **İZLENİYOR oranı %92'den %92,1'e çıktı** — yani bu oturum da kapanma üretmedi,
+> sadece iddia ekledi. Dosyanın ana bulgusu (karne kaydediyor ama kapatmıyor)
+> değişmedi; kapanma dalgası **10 ve 16 Eylül'de** bekleniyor.
 
 ---
 
@@ -134,6 +142,22 @@ oturumda `11_DIS_KAYNAKLAR.md` üzerinde tek tek karara bağlanmalı:
 - **Fed 16 Eylül:** Selçuk Geçer "sabit", Tunç Şatıroğlu "artırmaz", Paksoy dolaylı.
   Bu tarihte **hem A5 çelişkisi hem üç kaynağın karnesi aynı anda kapanıyor** —
   dosyanın ilk toplu kapanış günü olacak.
+
+### 6 Eylül sonrası eklenen iş listesi
+
+- **Berk Tavsan (5-6 Eyl):** "CPI beklenti altı gelirse desteklerden toparlanma" —
+  **CPI 11 Eylül haftasında**, dosyadaki dört kaynaklı CPI konsensüsüyle birlikte
+  ölçülür (`13_KONSENSUS.md`).
+- **Berk Tavsan (5-6 Eyl):** Altın planı **stop 4.200 / hedef 4.850** — dosyadaki
+  **ilk tam işlem planı** (giriş bölgesi + stop + hedef). İki yönde de kesin
+  kapanır: 4.200 altı = TUTMADI, 4.850 = TUTTU. Bu, dosyadaki **ilk TUTMADI
+  adaylarından biri** olabilir.
+- **Berk Tavsan (5-6 Eyl):** BTC **76.200-81.000 range** — range kırılırsa (iki
+  yönde de) kayıt kapanır; BTC 4 Eylül'de zaten 80 K altına indi, **alt sınıra
+  yakın.**
+- **Cihat E. Çiçek (6 Eyl):** "Kur patlayacak" ve "petrol muazzam artacak" —
+  **tarih verilmediği için kapatılamaz.** Bu iki satır, karnenin ölçülemez iddia
+  havuzuna eklendi; kaynak tarih verene kadar açık kalacak.
 
 
 ---

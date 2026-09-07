@@ -6,7 +6,7 @@
 
 **Gemini:** ayni `01-06`, sonra `08` → `09` klasor → `10`
 
-**Koç dışı analistler:** `11_DIS_KAYNAKLAR.md` — Sellcoin, Berk Dinçtürk, Yeşilada, Şatıroğlu, Lafçı, Atılal, Altınocağı, Foneria. **Bu dosyadaki hiçbir görüş Koç'a atfedilmez**; Koç'un kendi çerçevesi `06_ANALIZ.md`'dedir.
+**Koç dışı analistler:** `11_DIS_KAYNAKLAR.md` — Sellcoin, Berk Dinçtürk, Yeşilada, Şatıroğlu, Lafçı, Atılal, Altınocağı, Foneria, Paksoy, Soydan, Selçuk Geçer, **Berk Tavsan**, Cihat E. Çiçek, Iris Cibre (25 kaynak). **Bu dosyadaki hiçbir görüş Koç'a atfedilmez**; Koç'un kendi çerçevesi `06_ANALIZ.md`'dedir.
 
 **Tarama:** `TARAMA_DURUMU.md` — su tarihe kadar kayit tamam (`python 99_BOT_ARSIV/kod/kapsam_durum.py`)
 
