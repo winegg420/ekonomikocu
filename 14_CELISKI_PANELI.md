@@ -1,7 +1,8 @@
 # 14 — ÇELİŞKİ PANELİ
 
-_Güncelleme: 2026-09-06_ (Berk Tavsan yeni kaynak: **B1 gümüş** karşı-kaynak sayısı 5'e çıktı, **A11** veri aktarım farkı açıldı)
-_Önceki: 2026-09-04 (4 Eylül NFP günü: A8/A9/A10 açıldı, B7 güncellendi)_
+_Güncelleme: 2026-09-07_ (**A10 dört yönlü oldu** · **A12** petrol uzun vade · **A13** gümüş VERİ çelişkisi · **A14** BIST 14.000 vs 13.440 · **A15** altında zamanlama — analist↔analist çelişki sayısı 11 → 15)
+_Önceki: 2026-09-06 (Berk Tavsan yeni kaynak: B1 gümüş karşı-kaynak sayısı 5'e çıktı, A11 veri aktarım farkı açıldı)_
+_Ondan önceki: 2026-09-04 (4 Eylül NFP günü: A8/A9/A10 açıldı, B7 güncellendi)_
 
 > **Kaynak:** `11_DIS_KAYNAKLAR.md` (özellikle `[Claude çapraz kontrol]` notları) +
 > `06_ANALIZ.md`'deki Koç karşılaştırmaları. Yeni veri toplanmadı.
@@ -135,7 +136,7 @@ _Önceki: 2026-09-04 (4 Eylül NFP günü: A8/A9/A10 açıldı, B7 güncellendi)
   gün) DXY'nin yönü. Yükseliyorsa Paksoy, düşüyorsa Geçer.
 - **Kim haklı çıktı:** Henüz yok.
 
-### A10. TCMB Eylül toplantısı — ÜÇ ayrı yön (2026-09-04'te açıldı)
+### A10. TCMB 10 Eylül toplantısı — DÖRT ayrı yön (2026-09-04'te açıldı, 2026-09-07'de genişledi)
 - **Barış Soydan** (4 Eyl): **10 Eylül ya da Ekim'de indirir.** Dayanak: bankalar
   mevduat faizini zaten %38-39'a indirdi, piyasa fiyatlıyor.
 - **Cüneyt Paksoy** (4 Eyl): **Bu toplantı bekle-gör**; indirim **Kasım/Aralık'ta,
@@ -152,6 +153,20 @@ _Önceki: 2026-09-04 (4 Eylül NFP günü: A8/A9/A10 açıldı, B7 güncellendi)
 - **Ölçülebilir test:** **10 Eylül TCMB toplantısı** — tek günde üçü birden
   ölçülür. İndirirse Soydan, sabit kalırsa Paksoy ve Geçer (ayrışmaları Kasım'a
   kalır).
+- **Murat Sağman** (7 Eyl, Integral FX TV): **10 Eylül'de İNDİRİR.**
+  Dayanak: yıl sonu %35 hedefi, 3 toplantıdan 2'sinde indirim beklentisi.
+  ⚠️ **Matriks anketinde bu görüşte olan TEK kişi** — yani piyasa fiyatlamasına
+  karşı en uç pozisyon bu.
+- **Güncellenmiş durum (7 Eylül):** artık **dört kaynak, üç yön**:
+  **indirim** (Soydan + Sağman) · **erteleme** (Paksoy) · **sabit** (Geçer).
+  Sağman'ın katılımı çelişkiyi çözmüyor, **indirim kanadını 2'ye çıkarıyor** —
+  ama Soydan'ın penceresi *"10 Eylül ya da Ekim"* olduğu için 10 Eylül'de indirim
+  gelmezse **Soydan kapanmaz, Sağman kapanır**. Yani ölçüm tarihinde
+  **yanlışlanabilirliği en yüksek kaynak Sağman.**
+- **Neden önemli:** bu, panelin ilk **"aynı yön, farklı bağlayıcılık"** örneği.
+  İki kaynak aynı şeyi söylüyor ama biri kendine kaçış yolu bırakmış. Karne bunu
+  ayırt edebilmeli — `12_KAYNAK_PERFORMANS.md`'de Sağman'ın satırı 10 Eylül'de
+  kapanacak, Soydan'ınki kapanmayabilir.
 - **Kim haklı çıktı:** Henüz yok — **dosyadaki en hızlı kapanacak çelişki.**
 
 ### A11. NFP sürprizinin BÜYÜKLÜĞÜ — veri aktarım farkı (2026-09-06'da açıldı)
@@ -168,6 +183,107 @@ _Önceki: 2026-09-04 (4 Eylül NFP günü: A8/A9/A10 açıldı, B7 güncellendi)
   karne satırı açılmadı çünkü ikisi de tahmin değil **aktarım**.
 - **Kim haklı çıktı:** **Tavsan** — 162/56 = 2,89. Soydan'ın oranı yaklaşık %38
   yüksek. *(Kapanmış, ama karne puanı üretmez: olgu aktarımı.)*
+
+
+### A12. Petrolün UZUN VADE yönü — analist tezi vs kurum aktarımları (2026-09-07'de açıldı)
+- **Ali Perşembe** (7 Eyl, Integral FX TV): **AŞAĞI.** Vade **birkaç ay – 2 yıl**.
+  Dayanak: Körfez'in **alternatif rotaları** devreye giriyor, **Venezuela
+  kapitülasyonu** arzı açıyor, ve **Bessent'in 40 $** hedefi. Bu bir aktarım değil,
+  kendi tezi — Bessent'i **dayanak** olarak kullanıyor.
+- **Cihat E. Çiçek** (6 Eyl) ve **Turhan Bozkurt** (7 Eyl): **YUKARI.** Çiçek
+  *"petrol daha muazzam artacak, iş sonbahara sarkıyor"*; Bozkurt endüstriyel metal
+  ve tarım emtia talebiyle birlikte genel emtia yukarı çerçevesi kuruyor.
+- **Goldman Sachs (Selçuk Geçer aktarımı, 7 Eyl): 120 $** — Hürmüz saldırıları
+  artarsa. **Bessent (yine Geçer aktarımı): 50 → 40 $** — arz normale dönerse.
+- **Durum:** Çelişkili, ve **panelin en asimetrik kaydı**: bir tarafta **koşullu
+  kurum senaryoları** (Goldman "eğer saldırı artarsa", Bessent "eğer arz normale
+  dönerse"), diğer tarafta **koşulsuz analist tezleri**. Koşullu tahminler
+  kapanmaz — koşul gerçekleşmezse ne tutar ne tutmaz.
+- **Ayırt edici test:** **Hürmüz'den geçen tanker sayısı.** Geçer'in verdiği olgu:
+  son 10 günde **günde ~10 tanker**, ve İran-Umman geçici koridor haberiyle Brent
+  **97 → 96**. Bu sayı yükselirse Perşembe/Bessent, düşerse Goldman/Çiçek/Bozkurt
+  tarafı güçlenir. **Fiyatı değil, akışı izle** — fiyat gecikmeli.
+- **Koç bağlantısı (ayrı tutulur):** Koç'un çerçevesinde petrol **ABD'nin enflasyon
+  kolu**, yani yönetilen bir değişken. Perşembe'nin *"arz normalleşiyor, aşağı"*
+  tezi bu çerçeveye **karşı**. Bu bir B-tipi (Koç ↔ dış kaynak) çelişki adayıdır
+  ama **Koç 7 Eylül'de bu konuda yeni bir şey söylemediği için** B bölümüne
+  taşınmadı; A12'de not olarak duruyor.
+- **Kim haklı çıktı:** Henüz yok. ⚠️ Vade **2 yıla kadar** uzadığı için bu, panelin
+  **en geç kapanacak** kayıtlarından biri.
+
+### A13. Gümüş fiyatı — TEZ DEĞİL, VERİ çelişkisi (2026-09-07'de açıldı)
+- **Turhan Bozkurt** (7 Eyl): gümüş **71 $ üstü**.
+- **Barış Soydan** (7 Eyl, **aynı gün**): gümüş **66 $**.
+- **Durum:** Bu bir görüş ayrılığı **değil**. İkisi aynı anın **aynı fiyatını**
+  farklı veriyor; biri **yanlış veya eski**. Fark **%7,6** — `13_KONSENSUS.md`'nin
+  ±%2 toleransının çok dışında.
+- **Hangisi doğru:** **Soydan'ınki**, ve iki bağımsız dayanağı var: (1) 6 Eylül'deki
+  Cihat E. Çiçek girişi ve **13_KONSENSUS kayıt 4'ün 66-67 bandı** aynı bölgeyi
+  gösteriyor; (2) Bozkurt'un **71**'i, kendi **17 Ağustos** girişindeki *"67 $ üstü
+  kritik"* eşiğinden türemiş görünüyor — yani muhtemelen **eski bir rakamın
+  taşınması**.
+- **Neden kaydedildi:** A11 (NFP çarpanı) ile aynı aile. Bu panel yalnızca zıt
+  tezleri değil, **aynı olgunun kaynaklar arasında nasıl bozulduğunu** da izliyor.
+  A11'de bir oran abartılmıştı; burada bir **fiyat** yanlış. İkisi de aynı kaynağı
+  değil, aynı **davranışı** işaret ediyor: rakamın kaynağa dönülmeden aktarılması.
+- **Sonucu:** `13_KONSENSUS.md` kayıt 4'ün bandı **genişletilmedi** — genişletilseydi
+  sahte bir uzlaşma üretirdi. Kayda not düşüldü.
+- **Kim haklı çıktı:** **Soydan.** *(Kapanmış, ama karne puanı üretmez: bu bir
+  tahmin değil veri aktarımı. `12_KAYNAK_PERFORMANS.md`'de Bozkurt'un satırına
+  not olarak yazılmalı — isabet oranını etkilemez, **güvenilirlik** notudur.)*
+
+### A14. BIST 14.000 — destek mi, "endeks mühendisliği" mi? (2026-09-07'de açıldı)
+- **Murat Sağman** (7 Eyl): **14.000 artık DESTEK**, *"yukarı gitmek isteyen borsa"*.
+- **Barış Soydan** (7 Eyl): gün içi dip tam **14.000**, kapanış **14.151**;
+  destek **14.000 / 13.870**, direnç **14.250 → 14.450**. Yön yukarı eğilimli.
+- **Turhan Bozkurt** (7 Eyl, **aynı gün, aynı endeks**): **14.100 "endeks
+  mühendisliği"** — gerçek seviye değil. Destekler **13.750 / 13.610 / 13.440**.
+  **BIST İstanbul'u tavsiye etmiyor.**
+- **Durum:** Çelişkili ve **bu panelin en temiz örneklerinden biri**: aynı gün, aynı
+  kapanış verisi, **zıt sonuç**. Ayrıldıkları yer fiyat değil **fiyatın geçerliliği** —
+  Bozkurt endeksin kendisinin manipüle edildiğini söylüyor, diğer ikisi endeksi
+  geçerli bir teknik nesne olarak okuyor.
+- **Bağlantı:** `14_CELISKI_PANELI.md` **A6**'nın devamı (orada 14.000 Paksoy için
+  destek, Yeşilada için dirençti). Şimdi üçüncü bir okuma eklendi: *"seviye zaten
+  gerçek değil"*. Aynı sayı artık **üç ayrı rolde**.
+- **Ölçülebilir test:** **13.870 kırılırsa** Soydan'ın ikinci desteği düşer ve
+  Bozkurt'un **13.750** bölgesi devreye girer — ilk ayrışma noktası burası, 130
+  puanlık dar bir aralık. **14.250 kırılırsa** Sağman/Soydan tarafı teyit alır.
+  ⚠️ Bozkurt'un tezi tam olarak yanlışlanamaz: "endeks mühendisliği" iddiası
+  endeks yükselirse de *"zaten yapay"* diye savunulabilir. **Yanlışlanabilirliği
+  düşük olan taraf o.**
+- **Yakın vadeli risk:** üç kaynak da **10 Eylül TCMB kararı öncesi/günü
+  realizasyon riskine** işaret ediyor — yani ilk test bu hafta.
+- **Kim haklı çıktı:** Henüz yok.
+
+### A15. Altında ZAMANLAMA — şimdi mi, biraz sonra mı? (2026-09-07'de açıldı)
+- **Ali Perşembe** (7 Eyl): **kısa vadede biraz daha düzeltme** olur ve bu
+  **alım fırsatıdır**. Gerekçe: altının *"riskli varlık gibi davranma anomalisi"*
+  normale dönüyor. **ETF akışı pozitife döndü** ama merkez bankası tarafı iki yönlü:
+  **TCMB yılbaşından beri 80 ton NET SATICI**, Rusya 50 ton, Azerbaycan satıcı;
+  buna karşılık Çin, Polonya, Özbekistan alıcı.
+- **Selçuk Geçer** (7 Eyl): **4.400 tutunursa hemen yukarı** — 4.500 → 4.800 →
+  5.000 → rekor. Gerekçe: CPI beklenti altı gelirse tahvil faizi geri çekilir,
+  dolar zayıflar.
+- **Durum:** ⚠️ **Sınırda bir kayıt** ve bilerek böyle işaretlendi. **İkisi de uzun
+  vadede BOĞA** — bu panelin kuralına göre *"farklı vade söylemek çelişki değildir"*.
+  Ayrıldıkları tek şey **kısa vadeli sıra**: önce düzeltme mi, doğrudan yukarı mı.
+- **Neden yine de açıldı:** çünkü **işlem kararını değiştiriyor**. Perşembe'nin
+  tezi *"bekle, daha ucuza al"*, Geçer'inki *"4.400 tutunmasını al"*. Aynı yöne
+  inanan iki kaynak, **zıt giriş talimatı** veriyor. Bu, dosyanın ölçmesi gereken
+  bir fark — hedef çelişkisi değil **uygulama çelişkisi**.
+- **Ölçülebilir test:** **11 Eylül CPI.** Beklenti (aylık %0,4 / çekirdek %0,2 /
+  yıllık %2,5) **altında** gelirse Geçer'in zinciri çalışır; **üstünde** gelirse
+  Perşembe'nin düzeltme beklentisi. Tek veri, iki kaynağı birden ölçüyor.
+- **Not:** Perşembe'nin **TCMB 80 ton net satıcı** verisi, Turhan Bozkurt'un
+  17 Ağustos'taki *"80 ton altın satıldı"* iddiasıyla **aynı sayı**. Bozkurt'un
+  kaydı o gün **DOĞRULANMADI** olarak işaretlenmişti; Perşembe bunu bir panelde
+  olgu olarak veriyor. ⚠️ Bu **teyit sayılmaz** — aynı iddianın ikinci kez
+  görülmesi doğrulama değildir, ikisi de aynı kaynaktan beslenmiş olabilir.
+  Ama `11_DIS_KAYNAKLAR.md`'deki DOĞRULANMADI etiketi artık **tek kaynaklı
+  değil**; bu, o satırın yeniden incelenmesi için bir gerekçedir.
+- **Kim haklı çıktı:** Henüz yok — **11 Eylül'de kapanır.**
+
 
 ---
 
@@ -308,11 +424,11 @@ _Önceki: 2026-09-04 (4 Eylül NFP günü: A8/A9/A10 açıldı, B7 güncellendi)
 
 | | Sayı |
 |---|---|
-| Analist ↔ analist çelişkisi | **11** (2026-09-06: A11 NFP sürprizinin büyüklüğü — veri aktarım farkı · 2026-09-04: A8 altın rekorunun anlamı, A9 DXY kriz yönü, A10 TCMB zamanlaması) |
+| Analist ↔ analist çelişkisi | **15** (2026-09-07: A12 petrol uzun vade yönü, A13 gümüş VERİ çelişkisi, A14 BIST 14.000 vs 13.440, A15 altında zamanlama · A10 üç yönlüden **dört kaynaklıya** genişledi · 2026-09-06: A11 NFP sürprizinin büyüklüğü · 2026-09-04: A8 altın rekorunun anlamı, A9 DXY kriz yönü, A10 TCMB zamanlaması) |
 | Koç ↔ dış kaynak çelişkisi | **8** (2026-09-01: B7 BIST sebebi, B8 petrol yönü — Iris Cibre) |
-| **Sonucu (kısmen) belli olan** | **5** (A11 NFP çarpanı — Tavsan'ın somut sayısı doğru, ama karne puanı üretmez · B1 gümüş — zaman farkı çıktı · A6 BIST — 4 Eyl'de gün içi kırıldı, kapanışta tutuldu, **Paksoy eşiği yukarı revize etti** · B5 altın — şimdilik Integral · B7 BIST sebebi — kaynak dengesi 3'e 1 Iris lehine) |
-| Ölçülecek somut testi tanımlanmış olan | **6** (A2 "işlem yapılamaz hale gelme" · A8 rekor günü stres göstergeleri · A9 risk-off gününde DXY yönü · A10 10 Eylül TCMB · B2 15 Eylül sonrası DXY · B4 4,75 müdahalesi) |
-| Kapanmaya en yakın | **A10 (10 Eylül TCMB)** → sonra A5 (16 Eylül FOMC) ve B3 (1 Eylül – 9 Ekim penceresi) |
+| **Sonucu (kısmen) belli olan** | **6** (A13 gümüş fiyatı — **Soydan doğru, Bozkurt'unki eski/yanlış rakam**, karne puanı üretmez · A11 NFP çarpanı — Tavsan'ın somut sayısı doğru, ama karne puanı üretmez · B1 gümüş — zaman farkı çıktı · A6 BIST — 4 Eyl'de gün içi kırıldı, kapanışta tutuldu, **Paksoy eşiği yukarı revize etti** · B5 altın — şimdilik Integral · B7 BIST sebebi — kaynak dengesi 3'e 1 Iris lehine) |
+| Ölçülecek somut testi tanımlanmış olan | **9** (A2 "işlem yapılamaz hale gelme" · A8 rekor günü stres göstergeleri · A9 risk-off gününde DXY yönü · A10 10 Eylül TCMB · **A12 Hürmüz tanker akışı** · **A14 13.870 / 14.250 kırılımı** · **A15 11 Eylül CPI** · B2 15 Eylül sonrası DXY · B4 4,75 müdahalesi) |
+| Kapanmaya en yakın | **A10 (10 Eylül TCMB, artık 4 kaynak)** → **A15 (11 Eylül CPI)** → A5 (16 Eylül FOMC) → B3 (1 Eylül – 9 Ekim penceresi). **A14** ilk sinyalini de bu hafta verebilir (TCMB günü realizasyon riski). |
 
 ### 2026-09-04 notu — çelişkilerin karakteri değişiyor
 
@@ -322,3 +438,26 @@ değil. **A8** aynı fiyatın *anlamı* üzerine, **A9** bir mekanizmanın *yön
 hedef-yarışı çelişkilerinden (A1 altın $10.000) daha ölçülebilir bir tür:
 üçünün de somut ve yakın bir sınama tarihi var (10 Eylül, 16 Eylül, ilk risk-off
 günü). **Eylül ortasında bu panelin üçte biri kapanabilir.**
+
+
+### 2026-09-07 notu — panelin ölçtüğü şey ikiye ayrıldı
+
+7 Eylül'de açılan dört kayıt, panelin artık **iki farklı türü** izlediğini net
+gösteriyor:
+
+1. **Gerçek tez çelişkileri** (A12 petrol, A14 BIST, A15 altında zamanlama) —
+   kaynaklar aynı veriye bakıp **zıt sonuca** varıyor. Bunlar karne puanı üretir.
+2. **Veri bozulmaları** (A11 NFP çarpanı, A13 gümüş fiyatı) — kimse bir şey iddia
+   etmiyor, biri sadece **yanlış rakam söylüyor**. Bunlar karne puanı üretmez ama
+   **güvenilirlik sinyalidir** ve iki oturumda iki tane çıktı.
+
+➜ İkinci grubun düzenli olarak çıkması, `11_DIS_KAYNAKLAR.md`'ye giriş yapılırken
+**her sayısal veriyi en az bir başka kaynakla karşılaştırma** ihtiyacını gösteriyor.
+Bu oturumda gümüş çelişkisi ancak iki kaynak **aynı gün** işlendiği için yakalandı —
+ayrı oturumlarda işlenselerdi **fark edilmezdi.**
+
+⚠️ **A14 ve A15'te ortak bir yapı var:** iki kayıtta da taraflardan biri
+**yanlışlanması zor** bir pozisyonda (Bozkurt'un "endeks mühendisliği"si, Perşembe'nin
+"biraz daha düzeltme"si). Karne kapatılırken buna dikkat edilmeli — **yanlışlanamayan
+iddia tutmuş sayılmaz**, `12_KAYNAK_PERFORMANS.md`'deki ölçülemez-iddia sorununun
+aynısıdır.

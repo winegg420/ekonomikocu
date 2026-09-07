@@ -1484,6 +1484,68 @@ indirim Kasım/Aralık) ve Selçuk Geçer (sabit) **üç ayrı yönde** — bkz.
 | 4 Eylül | Serbest fonlardan çıkış panik satışı durana kadar sürer | İZLENİYOR |
 | 4 Eylül | Halkbank hareketi ikincil halka arz öncesi fiyatlama olabilir | İZLENİYOR |
 
+### 7 Eylül 2026 — Yakan Fonlar / Altında Kritik Cuma / BIST30
+
+**OVP'nin kur patikası (dolaylı mesaj):**
+- **2027 ortalama dolar 56 TL (+%19,6)** · **2028 +%13,6** · **2029 +%8,1**.
+- Soydan'ın okuması: azalan artış oranları = **kur kontrolünün süreceği mesajı**.
+
+**Fon depremi sürüyor:**
+- **Pusula PBR bir ayda −%50'den fazla**; **Buz** ve **Pardus** fonları da yaralı.
+- **Tera**, para piyasası fonu + 2 hisse fonuna **giriş** aldı (tersine akım örneği).
+- ⚠️ **Vergi değişikliği:** kurumsal/yabancı yatırımcının para piyasası fonuna
+  **%10 stopaj** geldi (küçük yatırımcı **%17,5**).
+
+**Piyasa verisi (7 Eylül):**
+- **Altın 4.412** (ABD tatili nedeniyle **sığ işlem**), **gümüş 66**.
+- **Cuma ABD CPI beklentisi:** aylık **%0,4**, **çekirdek %0,2**, **yıllık %2,5**.
+- **Fed artırım ihtimali %60'ta** — ama Soydan'ın kaydı: *"piyasa çok ihtimal
+  vermiyor; **Kasım seçimi + Trump baskısı** var."*
+
+**UBS baş stratejistinin FT yazısı (aktarım — dosyadaki en yapısal altın argümanı):**
+- **Tarihsel bağ:** 100 baz puan Fed artışı = **altın −%14**.
+- **2022 Rus rezerv dondurması sonrası bu bağ zayıfladı** — altın artık sadece
+  reel faize değil **rezerv güvenliğine** de fiyatlanıyor.
+- **Gelişmekte olan ülke rezervlerinde altın payı %5 → %11**; **gelişmiş ülkelerde %26**.
+  ➜ GOÜ bu makası kapatmaya devam ederse **yapısal alım sürer** (Fed ne yaparsa yapsın).
+
+**ECB / parite:**
+- **ECB Perşembe artırımı neredeyse kesin**, **yıl sonuna 2 artırım**.
+- **EURUSD son ayda +%0,5**, **EURTRY +%2,5**.
+
+**Bilanço/olay takvimi:**
+- **Oracle bilançosu Perşembe gecesi** — **167 milyar $ borç**, **CDS'i yükselmiş**.
+  Hayal kırıklığı gelirse **AI-borçlu teknoloji hisselerine satış** getirebilir.
+- **Apple katlanabilir iPhone etkinliği.**
+
+**BIST:**
+- **Kapanış 14.151** (gün içi dip **14.000**, tepe **14.169**), **BIST30 +%1,73**.
+  ➜ Soydan'ın yorumu: **SPK muafiyeti nedeniyle BIST30'a kayış başlamış olabilir**
+  (**Şişecam tavan, Sasa tavan, Petkim**; **Tera + BofA alıcı** tarafta).
+- **Fon kâğıtları düşüşte:** Hedef, Odin, Pasifik, Bigen, Gündoğdu, Katılımevim,
+  Dünya Holding — **−%5 / −%10** sürüyor.
+- **Destek 14.000 / 13.870 · Direnç 14.250 → 14.450.**
+- ⚠️ **TCMB kararı öncesi/günü realizasyon riski.**
+
+**Özelleştirme:** köprü/otoyolların **30 yıllık işletme hakkı** özelleştirmesi —
+yıllık **~600 milyon $ gelir**, **300 milyon $ bakım** gideri.
+
+**[Claude çapraz kontrol]:** Soydan'ın **BIST30'a kayış** gözlemi, **Cüneyt
+Paksoy'un 4 Eylül'deki "BIST30/50 ağırlıklı hisselere konsantre olun" tavsiyesinin
+veriyle teyididir** — Paksoy öncü, Soydan 3 gün sonra ölçtü. Bkz.
+`18_ONCU_TAKIPCI.md`. Ayrıca **gümüş 66** verisi, aynı gün Turhan Bozkurt'un
+verdiği **71** ile çelişiyor — bkz. `14_CELISKI_PANELI.md` A13 (veri çelişkisi).
+
+### KARNE EK — Barış Soydan (7 Eyl)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 7 Eylül | BIST30'a kayış sürer (SPK muafiyeti etkisi) | İZLENİYOR |
+| 7 Eylül | BIST 14.250 kırılırsa 14.450 gelir | İZLENİYOR |
+| 7 Eylül | Oracle bilançosu AI-borç riskini tetikler | İZLENİYOR (10 Eylül) |
+| 7 Eylül | CPI beklenti altı gelirse altın/gümüş/BTC ateşlenir | İZLENİYOR (11 Eylül) |
+| 7 Eylül | ECB yıl sonuna kadar 2 artırım yapar | İZLENİYOR |
+
+
 ---
 
 ## SELÇUK GEÇER (YouTube — makro/altın, sponsor OKX TR) — **YENİ KAYNAK**
@@ -1533,6 +1595,60 @@ indirim Kasım/Aralık) ve Selçuk Geçer (sabit) **üç ayrı yönde** — bkz.
 | 4 Eylül | Brent 100 $ üstü kalıcı olmaz | İZLENİYOR |
 | 4 Eylül | DXY zayıflar (dış açık zorunluluğu) | İZLENİYOR |
 | 4 Eylül | Altın uzun vadede 7.000-10.000 | İZLENİYOR (uzun vadeli) |
+
+### 7 Eylül 2026 — "Bu Saatten Sonra Altın İflah Olmaz" (başlık ironik; tez BOĞA)
+
+> ⚠️ **Başlık okuma notu:** video başlığı **clickbait/ironik**. İçerik altın için
+> **yukarı yönlü**. Karne satırları başlığa göre değil **içeriğe göre** açıldı.
+
+**Petrol — iki zıt kurum tahmini aynı anda:**
+- **Goldman Sachs: 120 $** (Hürmüz saldırıları artarsa).
+- **Bessent (ABD Hazine): 50 → 40 $** (arz normale dönerse).
+- **Olgu:** son 10 günde Hürmüz'den **günde ~10 tanker** geçiyor.
+  **İran-Umman geçici güvenli koridor** haberiyle Brent **97 → 96**.
+
+**Euro Bölgesi — stagflasyon riski:**
+- **Almanya sanayi üretimi Temmuz −%1,1** (beklenti **+%0,2**).
+- **Otomotiv −%9,2**, **gaz +%4,5**.
+- Sonuç: **stagflasyon riski**, **ECB sıkışmış** durumda (enflasyon artırım
+  gerektiriyor, büyüme indirim).
+
+**OVP değerlendirmesi (rakamlar OVP'nin kendi revizyonu):**
+- Enflasyon **%16 → %28,4** · büyüme **3,8 → 3,3** · enerji ithalatı **63 → 71 mlr $** ·
+  dış açık **96 → 105 mlr $** · turizm **68 → 65 mlr $**.
+- **Karahan'ın "savaş 7 puan" savunmasına itiraz:** savaş etkisi çıkarılsa bile
+  **%21** kalıyor, yani **hedef savaşsız da tutmuyor** → **sorun yapısal**.
+- **Morgan Stanley aktarımı:** yıl sonu **politika faizi %35**.
+- Genel teşhis: **kur baskısı + carry** = *"zaman satın alma"*, **program değil**.
+
+**Japonya — geçici olduğu vurgulanan müdahale:**
+- **Bir ayda 15,4 trilyon yen** müdahale (**~100 milyar $**), **87,8 milyar $** menkul
+  satışı; **UST'nin de dahil olduğu söyleniyor** — ⚠️ **hükümet teyit etmedi**.
+- Bu, **ABD tahvil faizini zıplattı** ama kaynağa göre **GEÇİCİ**; müdahale bitince
+  faiz geri çekilir.
+
+**Fed ve altın zinciri:**
+- **Fed Eylül'de sabit** — piyasa **%58** artırım fiyatlamasına rağmen.
+- **CPI beklenti altı/yakın gelirse** → tahvil faizi geri çekilir → **dolar zayıflar**
+  → **altın yukarı**.
+- **Petrol koşulu iki kademeli:**
+  - **100 $ üstü kalıcı** = Fed şahin kalır = **altın için NEGATİF**.
+  - **110 $ üstü** = artık enflasyon değil **büyüme korkusu** = **altın için POZİTİF**.
+  *(Bu, kaynağın 4 Eylül'deki tek yönlü "100 $ üstü altın için düşüş sebebi"
+  ifadesinin **inceltilmiş hali** — aynı kaynak kendi eşiğine bir üst kademe ekledi.)*
+
+**Altın hedef zinciri:**
+- **4.400 tutunma kritik** → **4.500** → **4.800** → **5.000** → **yeni rekor**.
+- **Gram altın:** *"çok yakında 10.000 TL üstü"* (kur + ons birleşik etkisi).
+
+### KARNE EK — Selçuk Geçer (7 Eyl)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 7 Eylül | Altın 4.400 tutunmasını korur | İZLENİYOR |
+| 7 Eylül | Gram altın yakında 10.000 TL üstü | İZLENİYOR — **3. kaynak** (Bozkurt 17 Ağu, Çiçek 6 Eyl ile aynı hedef) |
+| 7 Eylül | Japonya UST satışı geçici, ABD faizi geri çekilir | İZLENİYOR |
+| 7 Eylül | ECB Perşembe (10 Eylül) faiz artırır | İZLENİYOR (4 Eylül iddiasının tekrarı) |
+
 
 ## BERK TAVSAN (YouTube — makro + teknik, Darvas platformu) — **YENİ KAYNAK**
 
@@ -1676,6 +1792,65 @@ izlenmeli, çünkü doğrulanırsa Koç'un 3 boğa şartından biri (faiz indiri
 | 25 Ağu | Fed seçim sonrası faiz artırır | İZLENİYOR |
 | 25 Ağu | Büyük kriz olmazsa altın ana yönü yukarı, kriz olursa acımasız düşer | İZLENİYOR |
 | 25 Ağu | Yıl sonu USDTRY 50-55 bandı, BIST 16-17.000 | İZLENİYOR |
+
+### 7 Eylül 2026 — Ali Perşembe & Murat Sağman ("Tüylerim Diken Diken Oldu")
+
+> Moderatör: **Melis Hazal Karagöz**. İki konuk aynı programda **farklı konularda
+> ayrışıyor**; bu yüzden iddialar aşağıda **kişi bazında** ayrı tutuldu.
+
+#### MURAT SAĞMAN
+
+- **TCMB Perşembe (10 Eylül) İNDİRİR** — **Matriks anketinde bu görüşte tek kişi**.
+  Yıl sonu **politika faizi %35**; **3 toplantıdan 2'sinde indirim** bekliyor.
+- **BIST: 14.000 artık destek**, *"yukarı gitmek isteyen borsa"*.
+- **Fed:** piyasada **1 artırım fiyatlandı**; **2 artırım yaparsa dengeler bozulur**.
+- **ECB + BoE 2'şer artırım** yapacağı için **Fed artışının DXY'ye net etkisi sınırlı**
+  kalır (göreli faiz farkı değişmiyor).
+
+#### ALİ PERŞEMBE
+
+- **OVP'nin %90'ı gerçekçi.** Tek itirazı **enflasyon**: 2026 **%28,4**, 2027 **%21**.
+  **2027 %21 hedefinden seçim ihtimali okuyor** — *seçim olursa 21 tutmaz.*
+- **Kendi model rakamları vs OVP:** cari açık **47,5** (kendi **49,5**) gerçekçi ·
+  dış açık **105** (kendi modeli **96**) · turizm **65,5** · ihracat **287**.
+- **Kur:** 3 yılda toplam **%45-50** → **kur politikası seçime kadar sürer**.
+- **Fed:** **Warsh Jackson Hole'da "şaşırttı"**; **CPI 3,4 sabit gelirse artırır mı
+  belirsiz**. *"Artır-bekle"* ile stresten kurtulabilir.
+- **Petrol uzun vadede (birkaç ay – 2 yıl) AŞAĞI:** Körfez'in alternatif rotaları,
+  **Venezuela kapitülasyonu**, **Bessent'in 40 $** hedefi.
+- **Yen:** **166 → 156**; **~100 milyar $'lık short çözülüyor**; Japon emeklilik
+  fonları yabancı tahvilden **domestik'e dönüyor** → **145'e kadar güçlenme**.
+  Kendi pozisyonu: *"yen alırım."*
+- **Norveç fonu** (dünya hisselerinin **%1,5'i**) **UST boşaltıyor** — bu, ABD
+  hazinesinin *"uzun vadeliyi al, kısayı sat"* dengelemesinin **tersi** yönde çalışıyor.
+- **Altın:** *"riskli varlık gibi davranma anomalisi"* normale dönüyor; **kısa vadede
+  biraz daha düzeltme** olabilir ve bu **alım fırsatı**; **uzun vadede değerli metal
+  boğası**. **ETF akışı pozitife döndü.**
+  ⚠️ **Merkez bankası tarafı iki yönlü:** **TCMB yılbaşından beri 80 ton NET SATICI**,
+  **Rusya 50 ton**, **Azerbaycan satıcı**; buna karşılık **Çin, Polonya, Özbekistan alıcı**.
+
+**Model portföy (orta risk, TR yatırımcısı için):**
+**%20 altın · %10-15 yen · %40-60 mevduat/PPF · kalanı yurtiçi + yurtdışı hisse**
+(ABD savunma, AI, tarım).
+
+**Koç'la ilişki (atıf değil, karşılaştırma):**
+- **Perşembe'nin "petrol uzun vadede aşağı" tezi**, Koç'un **"petrol ABD'nin enflasyon
+  kolu"** çerçevesine **karşı** — Koç petrolü bir baskı aracı olarak yukarıda tutulan
+  bir değişken sayıyor. Bkz. `14_CELISKI_PANELI.md` A12.
+- **Yen güçlenmesi**, Koç'un **BOJ / carry-trade** notuyla **örtüşüyor**.
+- **Sağman'ın TCMB indirim tezi, Paksoy'un "bu toplantı bekle-gör" tezi ile
+  ÇELİŞİYOR** → `14_CELISKI_PANELI.md` A10 (artık **4 yönlü**).
+
+### KARNE EK — Integral FX TV (Perşembe & Sağman, 7 Eyl)
+| Tarih | Kaynak | İddia | Sonuç |
+|---|---|---|---|
+| 7 Eylül | Sağman | TCMB 10 Eylül'de faiz indirir | İZLENİYOR — **Paksoy'la çelişik** |
+| 7 Eylül | Sağman | Yıl sonu politika faizi %35 | İZLENİYOR — Morgan Stanley aktarımıyla aynı |
+| 7 Eylül | Sağman | BIST 14.000 desteği tutar, yön yukarı | İZLENİYOR |
+| 7 Eylül | Perşembe | USDJPY 145'e kadar güçlenir | İZLENİYOR |
+| 7 Eylül | Perşembe | Petrol uzun vadede aşağı (Bessent 40 $) | İZLENİYOR |
+| 7 Eylül | Perşembe | Altın kısa vadede düzeltir, uzun vadede boğa | İZLENİYOR |
+
 
 ## ŞANT MANUKYAN (İş Yatırım)
 
@@ -1972,6 +2147,64 @@ bir gündem maddesi** — dosyadaki başka kaynakta da yok, tek kaynaklı.
 | 17 Ağu 2026 | Gümüş 67$ üstü kalırsa 57$ altı riski biter | İZLENİYOR |
 | 17 Ağu 2026 | Ons altın yıl sonu 5.300-5.750$, gram 10.000 TL | İZLENİYOR |
 | 17 Ağu 2026 | TCMB 80 ton altın sattı + 60 ton rehin verdi | **DOĞRULANMADI** (kaynağın kendi iddiası) |
+
+### 7 Eylül 2026 — OVP / Fonlar / Piyasa (yalnız doğrulanabilir kısım)
+
+> ⚠️ **KAPSAM KARARI:** Videonun başlığı ve büyük bölümü **Sabancı / Zorlu / kayyum**
+> ve siyasi iddialara ayrılmış. Bunlar **İŞLENMEDİ** — doğrulanamaz, piyasa seviyesi
+> içermiyor ve bu dosyanın ölçtüğü türden bir iddia değil. Aşağıda yalnızca
+> **sayısal / doğrulanabilir** kısım var. (Bu, 17 Ağustos girişindeki "ayrı katman"
+> kuralının aynen sürdürülmesidir.)
+
+**Çekirdek tez:**
+- **Seçime kadar faiz iner + kur tutulur**, **seçim sonrası devalüasyon**.
+  ⚠️ Dayanağı *"MB koridoru"* olarak veriliyor — **DOĞRULANAMAZ, TEK KAYNAK**.
+- **Politika faizi 2027 ilk yarısında %25'e**, banka faizi **%23-27** aralığına.
+- **Konut / oto / dolar / arsa için:** *"henüz alım vakti değil; faiz inerken dipten al."*
+- **Dolar:** **55-62 bandında tutmaya çalışırlar**; *"100'ü göreceksiniz"*
+  — ⚠️ **tarih verilmedi**, ölçülemez iddia (bkz. `16_ZAMANLAMA_KARNESI.md`).
+
+**OVP'nin iç tutarsızlığı (doğrulanabilir aritmetik):**
+- **2027 cari transferler +%45,3**, **mal-hizmet harcamaları +%44,4** —
+  **%21 enflasyon hedefiyle çelişik**. Yorum: **seçim harcaması**.
+- **Para piyasası fonu %10 stopaj** (kurumsal); **%20'ye çıkabilir** iddiası.
+- **Golden Global Yatırım Bankası ABD OFAC listesine alındı** (İran bağlantısı) →
+  İran ile ticaret yapan kurumlar için risk.
+
+**BIST:**
+- **14.100 "endeks mühendisliği"** — kaynağın kendi ifadesi, 17 Ağustos'taki
+  *"gerçek seviye değil"* tezinin devamı.
+- **Destekler: 13.750 / 13.610 / 13.440.**
+- **BIST İstanbul'u tavsiye etmiyor.**
+- **Kamu borç stoku 550 milyar $.**
+
+**Altın / emtia / parite:**
+- **Altın 4.400 üstü tutunma**; **kurum hedefleri 5.000+ korunuyor**;
+  **3.900'e çekilme alım fırsatı**; **yıl sonu 4.700-5.000**.
+- **Gümüş 71 $ üstü** — ⚠️ **VERİ ÇELİŞKİSİ:** aynı gün **Barış Soydan gümüşü 66**
+  veriyor. Bozkurt'un rakamı **yanlış veya eski**. Bkz. `14_CELISKI_PANELI.md` A13.
+- **Endüstriyel metal + tarım emtia** talebi artar.
+- **DXY 98,8** → *"altını yukarı bırakırlar."*
+- **EURUSD 1,14-1,16 bandı geçerli**; **1,16 üstü kırılgan**;
+  **AfD'nin Saksonya zaferi euroyu baskılar**.
+- **Motorin 100 TL → yıl sonu 150 TL.**
+- **Dolar 48,5-49.**
+
+**Koç'la ilişki:** **Koç'un sözü değil, ayrı kaynaktır.** 17 Ağustos girişindeki
+uyarı aynen geçerli: yön aynı (altında yukarı), **şiddet ve gerekçe uyumsuz**.
+Bozkurt'un **"seçim sonrası devalüasyon"** çerçevesi Koç'un arşivinde **karşılığı
+olmayan** bir tezdir; atıf yapılmaz.
+
+### KARNE EK — Turhan Bozkurt (7 Eyl)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 7 Eylül | Dolar seçime kadar 55-62 bandı, sonra devalüasyon | İZLENİYOR (⚠️ **tarihsiz**, ölçülemeyebilir) |
+| 7 Eylül | Politika faizi 2027 ilk yarısında %25 | İZLENİYOR |
+| 7 Eylül | BIST 13.750 / 13.610 / 13.440 destekleri test edilir | İZLENİYOR |
+| 7 Eylül | Altın yıl sonu 4.700-5.000 | İZLENİYOR |
+| 7 Eylül | EURUSD 1,14-1,16 bandında kalır | İZLENİYOR |
+| 7 Eylül | Motorin yıl sonu 150 TL | İZLENİYOR |
+
 
 ---
 
@@ -2540,6 +2773,67 @@ röportajındaki "Trump kaybedecek gibi görünüyor" görüşüyle **aynı yön
 | 27 Ağu | ETH Golden Cross ~29-30 Ağustos | İZLENİYOR |
 | 27 Ağu | ETH $3.000 kırılırsa altcoin sirayeti başlar | İZLENİYOR |
 | 27 Ağu | Bernstein: BTC 2026 sonu $125K | İZLENİYOR |
+
+### 7 Eylül 2026 — "Golden Cross Geliyor!"
+
+**Ana olay — BTC günlük Golden Cross bugün gerçekleşti:**
+- **50 günlük ortalama ≈ 69.700 $**, **200 günlük ortalama ≈ 69.800 $** — iki ortalama
+  bugün kesişti. Fiyat kesişimin **çok üstünde** (BTC 79.160), yani kesişim gecikmeli
+  bir teyit; tetik değil.
+- **Önceki Golden Cross'ların karnesi (kaynağın kendi aktarımı):**
+  - **2023 Eylül-Ekim** — BTC 34 K'da kesişti, sonrasında ~**2 katına** çıktı.
+  - **2024 Ekim** — 66 K'da kesişti, ralli geldi.
+  - **2025 Mayıs** — kesişti ama **etkisiz** kaldı. (Kaynak bunu kendisi söylüyor;
+    yani sinyalin %100 çalışmadığını kabul ediyor.)
+- **Tarihsel patern iddiası:** kesişimden **3-4 ay sonra** hareket sertleşiyor →
+  **2027 başı 100 K+** senaryosu.
+
+**Altun'un teknik okuması:**
+- **RSI uyumsuzluğu** var → **kısa vadede 73 K'ya düzeltme** beklentisi.
+  ⚠️ **Kendi hatasını kabul etti:** önce **83 K** demişti, hareket **82.300**'de bitti.
+- Düzeltme sonrası **83-84 kırılır → 100 K** yolu açılır.
+- **ETH:** **2.500 çizgisini bırakmadı**; kısa vadede **2.200-2.250**'ye salabilirler,
+  sonra **BTC paritesinde ayrışıp 3.000**.
+
+**Oytun'un teknik okuması:**
+- **200 günlük ortalama kırıldı ve bayrak direği dikildi** — formasyon olarak sağlıklı.
+- **65 K → 80 K hızlı geldiği için 83 K geçilemiyor**; bu yüzden burada **akümülasyon
+  (yatay güç toplama) kıymetli**, zaman kaybı değil.
+- **Teknik bozulma eşiği: 70 K altı.** Altına inilirse formasyon iptal.
+
+**Makro çerçeve (kaynağın aktardığı):**
+- **Fed 16 Eylül:** %60 artırım / %40 sabit fiyatlaması. **Perşembe ÜFE**, **Cuma TÜFE**
+  yönü netleştirecek.
+- **Kurum raporları:** ilk Fed **indirimi 2027 yazı** (İran-ABD sonrası dönem).
+- **Clarity Act 15 Eylül:** *"tren kaçtı"* yorumu. Bir senatörün ifadesi aktarılıyor:
+  **bu 2 ayda çıkmazsa 2030'a kadar zor.**
+- **Vitalik Buterin:** AI ve kuantum, PoW için **yakın vadeli tehdit değil**;
+  **EIP-8141** (ETH dışı token ile gaz ödemesi) tartışılıyor.
+- **Hunter Biden memecoin (9 Eylül)** — kaynağın değerlendirmesi: *"kumar"*, uzak durun.
+
+**Koç'la ilişki (atıf değil, karşılaştırma):**
+- **84 K = Koç'un "yılın pivotu"**. Kripto Teknik **83-84 kırılımını** bağımsız olarak
+  **aynı eşik** olarak veriyor — iki farklı yöntem aynı sayıyı işaretliyor.
+- **Fed ilk indiriminin 2027 yazına ötelenmesi** (kurum konsensüsü aktarımı), Koç'un
+  **3 boğa şartından 2.'sini (faiz indirimi)** H2-2026 penceresinden **çıkarıyor**.
+  ➜ `16_ZAMANLAMA_KARNESI.md`'ye not düşüldü.
+
+**koc_tetigi notu:** `magicma/koc_tetigi_durum.json` **değiştirilmedi** —
+**Çin-ABD anlaşma teyidi yok**, bayrak `false` kalıyor. Fed ilk indirimi için kurum
+konsensüsü **2027 yazı** olduğundan, Koç'un 3 koşulundan **2.'sinin (indirim)
+H2-2026'da gerçekleşme ihtimali düşük**; bu, Koç'un kendi *"Temmuz boşa gittiyse
+Ağustos/Eylül, o da olmazsa 2027"* sıralamasıyla **uyumlu** — çelişki değil, teyit.
+
+### KARNE EK — Kripto Teknik (Golden Cross)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 7 Eylül | BTC kısa vadede 73 K'ya düzeltir (RSI uyumsuzluğu) | İZLENİYOR |
+| 7 Eylül | BTC 70 K altı kırılmaz (teknik bozulma eşiği) | İZLENİYOR |
+| 7 Eylül | Golden Cross sonrası 3-4 ayda sertleşme → 2027 başı 100 K+ | İZLENİYOR (uzun vadeli) |
+| 7 Eylül | ETH 2.200-2.250'ye salınır, sonra 3.000 | İZLENİYOR |
+| 7 Eylül | Clarity Act 15 Eylül'de çıkmaz ("tren kaçtı") | İZLENİYOR (tarihli) |
+| 7 Eylül | Fed ilk indirimi 2027 yazı (kurum konsensüsü aktarımı) | İZLENİYOR |
+
 
 ## ERKAN ÖZ (YouTube — teknik + jeopolitik sentez)
 

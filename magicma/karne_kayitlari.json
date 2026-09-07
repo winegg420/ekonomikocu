@@ -41753,10 +41753,10 @@
   ],
   "giris_fiyati": 0.9403,
   "giris_zamani": "2026-09-07T12:30:42+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarisiz",
+  "sonuc_fiyati": 0.941,
+  "sonuc_zamani": "2026-09-07T22:20:36+03:00",
+  "sonuc_yuzde": -0.074
  },
  {
   "id": "NZDUSD_2026-09-07T12:30:42+03:00_H-1",
@@ -43273,10 +43273,10 @@
   ],
   "giris_fiyati": 78800.13,
   "giris_zamani": "2026-09-07T18:40:36+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarili",
+  "sonuc_fiyati": 79199.52,
+  "sonuc_zamani": "2026-09-07T21:50:35+03:00",
+  "sonuc_yuzde": 0.507
  },
  {
   "id": "ETHUSDT_2026-09-07T18:40:36+03:00_X-2460",
@@ -43493,10 +43493,10 @@
   ],
   "giris_fiyati": 0.0492,
   "giris_zamani": "2026-09-07T21:37:38+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarili",
+  "sonuc_fiyati": 0.0488,
+  "sonuc_zamani": "2026-09-07T22:00:36+03:00",
+  "sonuc_yuzde": 0.813
  },
  {
   "id": "FETUSDT_2026-09-07T21:40:43+03:00_G-Alt",
@@ -43515,6 +43515,116 @@
   ],
   "giris_fiyati": 0.1802,
   "giris_zamani": "2026-09-07T21:40:43+03:00",
+  "durum": "basarili",
+  "sonuc_fiyati": 0.1823,
+  "sonuc_zamani": "2026-09-07T22:00:36+03:00",
+  "sonuc_yuzde": 1.165
+ },
+ {
+  "id": "HONEYUSDT_2026-09-07T22:10:37+03:00_G-Ust",
+  "sembol": "HONEYUSDT",
+  "kategori": "gunun_hareketlileri",
+  "cizgi_adi": "Magicma Günlük Üst Çizgi",
+  "cizgi_degeri": 0.0013556744,
+  "yon": "long",
+  "kaynak_turu": "teknik",
+  "kaynak": "GATEIO",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Üst Çizgi"
+  ],
+  "giris_fiyati": 0.0013561,
+  "giris_zamani": "2026-09-07T22:10:37+03:00",
+  "durum": "basarili",
+  "sonuc_fiyati": 0.0013718,
+  "sonuc_zamani": "2026-09-07T22:20:36+03:00",
+  "sonuc_yuzde": 1.158
+ },
+ {
+  "id": "HONEYUSDT_2026-09-07T22:40:36+03:00_G-Ust",
+  "sembol": "HONEYUSDT",
+  "kategori": "gunun_hareketlileri",
+  "cizgi_adi": "Magicma Günlük Üst Çizgi",
+  "cizgi_degeri": 0.0013556744,
+  "yon": "long",
+  "kaynak_turu": "teknik",
+  "kaynak": "GATEIO",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Üst Çizgi"
+  ],
+  "giris_fiyati": 0.0013558,
+  "giris_zamani": "2026-09-07T22:40:36+03:00",
+  "durum": "acik",
+  "sonuc_fiyati": null,
+  "sonuc_zamani": null,
+  "sonuc_yuzde": null
+ },
+ {
+  "id": "ZKCUSDT_2026-09-07T22:40:36+03:00_G-Ust",
+  "sembol": "ZKCUSDT",
+  "kategori": "gunun_hareketlileri",
+  "cizgi_adi": "Magicma Günlük Üst Çizgi",
+  "cizgi_degeri": 0.0492933884,
+  "yon": "short",
+  "kaynak_turu": "teknik",
+  "kaynak": "BINANCE",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Üst Çizgi"
+  ],
+  "giris_fiyati": 0.0493,
+  "giris_zamani": "2026-09-07T22:40:36+03:00",
+  "durum": "acik",
+  "sonuc_fiyati": null,
+  "sonuc_zamani": null,
+  "sonuc_yuzde": null
+ },
+ {
+  "id": "DXY_2026-09-07T22:40:36+03:00_X-9880",
+  "sembol": "DXY",
+  "kategori": "forex_emtia",
+  "cizgi_adi": "Turhan Bozkurt · 98,80",
+  "cizgi_degeri": 98.8,
+  "yon": "long",
+  "kaynak_turu": "onemli_seviye",
+  "kaynak": "Turhan Bozkurt",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Turhan Bozkurt · 98,80"
+  ],
+  "giris_fiyati": 98.923,
+  "giris_zamani": "2026-09-07T22:40:36+03:00",
+  "durum": "acik",
+  "sonuc_fiyati": null,
+  "sonuc_zamani": null,
+  "sonuc_yuzde": null
+ },
+ {
+  "id": "EURUSD_2026-09-07T22:40:36+03:00_X-1600",
+  "sembol": "EURUSD",
+  "kategori": "forex_emtia",
+  "cizgi_adi": "Turhan Bozkurt · 1,1600",
+  "cizgi_degeri": 1.16,
+  "yon": "long",
+  "kaynak_turu": "onemli_seviye",
+  "kaynak": "Turhan Bozkurt",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Turhan Bozkurt · 1,1600"
+  ],
+  "giris_fiyati": 1.1625,
+  "giris_zamani": "2026-09-07T22:40:36+03:00",
   "durum": "acik",
   "sonuc_fiyati": null,
   "sonuc_zamani": null,

@@ -218,11 +218,11 @@
     "tarih_eklendi": "2026-08-28"
   },
   {
-    "kaynak": "UBS + Cuneyt Paksoy (kurum hedefi + teknik hedef)",
+    "kaynak": "Cuneyt Paksoy + Selcuk Gecer + Turhan Bozkurt (3 bagimsiz kaynak)",
     "enstruman": "XAUUSD",
     "seviye": 5000,
     "tur": "hedef",
-    "aciklama": "UBS 2027 ilk yari hedefi; Paksoy'un teknik hedefiyle ortusuyor (Citibank 6.000 diyor)",
+    "aciklama": "UBS 2027 ilk yari hedefi; Paksoy'un teknik hedefiyle ortusuyor (Citibank 6.000 diyor) | 7 Eyl: Bozkurt eklendi ('kurum hedefleri 5.000+ korunuyor, yil sonu 4.700-5.000') -> 3 bagimsiz kaynak.",
     "tarih_eklendi": "2026-08-25"
   },
   {
@@ -478,7 +478,7 @@
     "enstruman": "ETHUSDT",
     "seviye": 3000,
     "tur": "tetik",
-    "aciklama": "3.000 kirilirsa altcoinlere ciddi sirayet - 'ETH olmadan altcoin bogasi olmaz'",
+    "aciklama": "3.000 kirilirsa altcoinlere ciddi sirayet - 'ETH olmadan altcoin bogasi olmaz' | 7 Eyl teyit: ayni kaynak hedefi yineledi - 2.200-2.250 duzeltmesi sonrasi BTC paritesinde ayrisma ile 3.000.",
     "tarih_eklendi": "2026-08-27"
   },
   {
@@ -2603,11 +2603,11 @@
     "tarih_eklendi": "2026-09-04"
   },
   {
-    "kaynak": "Cuneyt Paksoy",
+    "kaynak": "Cuneyt Paksoy + Turhan Bozkurt (2 bagimsiz kaynak)",
     "enstruman": "XAUUSD",
     "seviye": 4700,
     "tur": "hedef",
-    "aciklama": "4.450 pivot ustu korunursa minimum tepki hedefi zincirinin ilki",
+    "aciklama": "4.450 pivot ustu korunursa minimum tepki hedefi zincirinin ilki | 7 Eyl: Bozkurt 'yil sonu 4.700-5.000' diyerek ayni sayiyi ayni islevle (yukari hedef) verdi.",
     "tarih_eklendi": "2026-09-04"
   },
   {
@@ -3049,5 +3049,213 @@
     "tur": "referans",
     "aciklama": "ABD 2 yillik tahvil faizi (5-6 Eyl referans degeri). NOT: sembol eslesmesi yok - sembol_listesi'nde US02Y bulunmuyor (yalnizca TVC:US10Y), alarm motoru bu kaydi atlar; referans olarak saklanir.",
     "tarih_eklendi": "2026-09-06"
+  },
+  {
+    "kaynak": "Kripto Teknik (Oytun & Altun)",
+    "enstruman": "BTCUSDT",
+    "seviye": 73000,
+    "tur": "duzeltme_hedefi",
+    "aciklama": "Altun: RSI uyumsuzlugu nedeniyle kisa vade duzeltme hedefi (7 Eyl). Ayni kaynak onceki turda 83 K demis, hareket 82.300'de bitmisti - kendi hatasini kabul etti.",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Kripto Teknik (Oytun & Altun)",
+    "enstruman": "BTCUSDT",
+    "seviye": 70000,
+    "tur": "teknik_bozulma",
+    "aciklama": "Oytun: 70 K alti = bayrak formasyonu iptal, teknik bozulma esigi (7 Eyl).",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Kripto Teknik (Oytun & Altun)",
+    "enstruman": "BTCUSDT",
+    "seviye": 69750,
+    "tur": "golden_cross_kesisim",
+    "aciklama": "7 Eyl 2026 gunluk Golden Cross kesisim bolgesi: 50g ~69.700, 200g ~69.800. 1 Eylul tahmininden 6 gun gec gerceklesti.",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Kripto Teknik (Oytun & Altun)",
+    "enstruman": "ETHUSDT",
+    "seviye": 2225,
+    "tur": "duzeltme_bandi",
+    "aciklama": "Altun: 2.200-2.250 duzeltme bandinin ortasi; 2.500 cizgisi birakilmadi, sonrasinda BTC paritesinde ayrisip 3.000 hedefi (7 Eyl).",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Selcuk Gecer + Turhan Bozkurt (2 bagimsiz kaynak)",
+    "enstruman": "XAUUSD",
+    "seviye": 4400,
+    "tur": "tutunma",
+    "aciklama": "Gecer: 4.400 tutunma kritik -> 4.500 -> 4.800 -> 5.000 -> rekor. Bozkurt ayni gun '4.400 ustu tutunma' diyor. Iki kaynak ayni sayiyi AYNI islevle (asagi savunma) kullaniyor (7 Eyl).",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Selcuk Gecer + Turhan Bozkurt + Cihat E. Cicek (3 bagimsiz kaynak)",
+    "enstruman": "XAUTRY",
+    "seviye": 10000,
+    "tur": "hedef",
+    "aciklama": "GRAM ALTIN TL hedefi (ons degil). Bozkurt 17 Agu 'yil sonu 10.000 TL/gram' (oncu), Cicek 6 Eyl, Gecer 7 Eyl 'cok yakinda 10.000 TL ustu'. NOT: XAUTRY sembolu gram degil ONS/TRY olabilir - alarm eslesmesi yaparken birim kontrolu gerekir.",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Selcuk Gecer",
+    "enstruman": "BRENT",
+    "seviye": 110,
+    "tur": "buyume_korkusu_esigi",
+    "aciklama": "110 $ ustu = artik enflasyon degil BUYUME KORKUSU = altin icin POZITIF. 100 $ esiginin (negatif) bir ust kademesi; kaynak 4 Eyl'deki tek yonlu ifadesini 7 Eyl'de inceltti. NOT: sembol eslesmesi yok - listede UKOIL var, BRENT yok; alarm motoru atlar.",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Selcuk Gecer",
+    "enstruman": "BRENT",
+    "seviye": 120,
+    "tur": "aktarim_hedef",
+    "aciklama": "Goldman Sachs aktarimi: Hurmuz saldirilari artarsa 120 $. NOT: sembol eslesmesi yok (UKOIL), alarm motoru atlar.",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Selcuk Gecer + Ali Persembe (2 bagimsiz kaynak)",
+    "enstruman": "BRENT",
+    "seviye": 40,
+    "tur": "aktarim_hedef",
+    "aciklama": "Bessent (ABD Hazine) 50->40 $ hedefi. Gecer aktariyor; Ali Persembe (7 Eyl, Integral) uzun vade asagi tezinin dayanagi olarak KENDI gorusune temel yapiyor. NOT: sembol eslesmesi yok (UKOIL), alarm motoru atlar.",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Baris Soydan",
+    "enstruman": "XU100",
+    "seviye": 13870,
+    "tur": "destek",
+    "aciklama": "14.000 kirilirsa ikinci destek (7 Eyl).",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Baris Soydan",
+    "enstruman": "XU100",
+    "seviye": 14250,
+    "tur": "direnc",
+    "aciklama": "Kirilirsa 14.450 hedefi acilir (7 Eyl).",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Baris Soydan",
+    "enstruman": "XU100",
+    "seviye": 14450,
+    "tur": "hedef",
+    "aciklama": "14.250 kirilimi sonrasi hedef (7 Eyl).",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Baris Soydan",
+    "enstruman": "USDTRY",
+    "seviye": 56,
+    "tur": "aktarim_referans",
+    "aciklama": "OVP 2027 ortalama dolar varsayimi (+%19,6). Soydan'in kendi tahmini DEGIL, resmi belge aktarimi; kur kontrolunun surecegi mesaji olarak okuyor (7 Eyl).",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Ali Persembe",
+    "enstruman": "USDJPY",
+    "seviye": 145,
+    "tur": "hedef",
+    "aciklama": "Yen 166->156 geldi, ~100 mlr $ short cozuluyor, Japon emeklilik fonlari domestik tahvile donuyor -> 145'e kadar guclenme. Kendi pozisyonu: 'yen alirim' (7 Eyl).",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Ali Persembe",
+    "enstruman": "USDJPY",
+    "seviye": 156,
+    "tur": "referans",
+    "aciklama": "7 Eyl mevcut seviye referansi (166'dan geldi).",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Turhan Bozkurt",
+    "enstruman": "XU100",
+    "seviye": 13750,
+    "tur": "destek",
+    "aciklama": "14.100'u 'endeks muhendisligi' sayiyor; ilk destek (7 Eyl). Soydan/Sagman'in 14.000 destek gorusuyle CELISIYOR - bkz. 14_CELISKI_PANELI A14.",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Turhan Bozkurt",
+    "enstruman": "XU100",
+    "seviye": 13610,
+    "tur": "destek",
+    "aciklama": "Ikinci destek (7 Eyl).",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Turhan Bozkurt",
+    "enstruman": "XU100",
+    "seviye": 13440,
+    "tur": "destek",
+    "aciklama": "Ucuncu/son destek (7 Eyl).",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Turhan Bozkurt",
+    "enstruman": "XAUUSD",
+    "seviye": 3900,
+    "tur": "alim_firsati",
+    "aciklama": "3.900'e cekilme alim firsati - asagi bandin alt siniri (7 Eyl).",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Turhan Bozkurt",
+    "enstruman": "EURUSD",
+    "seviye": 1.14,
+    "tur": "bant_alt",
+    "aciklama": "1,14-1,16 bandinin ALT siniri; 1,16 ustu kirilgan, AfD Saksonya zaferi euroyu baskiliyor (7 Eyl).",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Turhan Bozkurt",
+    "enstruman": "EURUSD",
+    "seviye": 1.16,
+    "tur": "bant_ust",
+    "aciklama": "1,14-1,16 bandinin UST siniri - ustu kirilgan (7 Eyl).",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Turhan Bozkurt",
+    "enstruman": "USDTRY",
+    "seviye": 48.75,
+    "tur": "referans",
+    "aciklama": "7 Eyl mevcut seviye referansi (48,5-49 araligi).",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Turhan Bozkurt",
+    "enstruman": "USDTRY",
+    "seviye": 55,
+    "tur": "bant_alt",
+    "aciklama": "'55-62 bandinda tutmaya calisirlar' - secim oncesi tutulan bandin ALT ucu; secim sonrasi devalusyon tezi (tarihsiz, DOGRULANAMAZ) (7 Eyl).",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Turhan Bozkurt",
+    "enstruman": "USDTRY",
+    "seviye": 62,
+    "tur": "bant_ust",
+    "aciklama": "55-62 bandinin UST ucu (7 Eyl).",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Turhan Bozkurt",
+    "enstruman": "DXY",
+    "seviye": 98.8,
+    "tur": "referans",
+    "aciklama": "7 Eyl referans degeri; 'DXY 98,8 -> altini yukari birakirlar' okumasi. NOT: koc_tetigi.py DXY kosulunu (110->95) bu bolgede %68,8 olarak hesapliyor, esik %80 - kosul hala PASIF.",
+    "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Baris Soydan + Murat Sagman (2 bagimsiz kaynak)",
+    "enstruman": "XU100",
+    "seviye": 14000,
+    "tur": "destek",
+    "aciklama": "Soydan: 7 Eyl gun ici dip tam 14.000, ilk destek. Sagman ayni gun '14.000 artik destek, yukari gitmek isteyen borsa'. DIKKAT - AYNI SAYI ZIT ROL: dosyada Atilla Yesilada'nin 14.000'i DIRENC olarak kayitli; ayni seviye iki kaynakta ters islevde (bkz. 14_CELISKI_PANELI A6). Bu yuzden ayri kayit acildi, birlestirilmedi. Paksoy'un 14.100-14.200 pivotu %1 yakin ama farkli sayi oldugu icin bu kayda katilmadi.",
+    "tarih_eklendi": "2026-09-07"
   }
 ]

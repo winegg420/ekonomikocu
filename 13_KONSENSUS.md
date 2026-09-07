@@ -1,7 +1,8 @@
 # 13 — KAYNAKLAR ARASI KONSENSÜS
 
-_Güncelleme: 2026-09-06_ (Berk Tavsan **yeni kaynak** + Cihat E. Çiçek 6 Eylül girişi işlendi: **4 yeni kayıt**, altın 4.800 kaydı 3 kaynağa çıktı, sıralama yeniden hesaplandı)
-_Önceki: 2026-09-04 (4 Eylül NFP günü: 3 yeni kayıt, 1 kayıt genişletildi, Barış Soydan'ın isabet oranı %100'e geçtiği için tüm ağırlıklı skorlar yeniden hesaplandı)_
+_Güncelleme: 2026-09-07_ (5 video: **4 yeni kayıt** — ECB 10 Eylül, gram altın 10.000 TL, TCMB yıl sonu %35, BIST 14.000 destek; altın 4.800-5.000 kaydı **4 kaynağa** çıktı; Fed ve gümüş kayıtlarına not düşüldü; **sıralama tablosu JSON'dan yeniden üretildi**)
+_Önceki: 2026-09-06 (Berk Tavsan **yeni kaynak** + Cihat E. Çiçek 6 Eylül girişi işlendi: 4 yeni kayıt, altın 4.800 kaydı 3 kaynağa çıktı)_
+_Ondan önceki: 2026-09-04 (4 Eylül NFP günü: 3 yeni kayıt, 1 kayıt genişletildi)_
 
 > **Kaynak:** `11_DIS_KAYNAKLAR.md`'deki sayısal iddialar. Makine + elle doğrulama
 > karışımı; şüpheli eşleşmeler yanlış pozitif üretmemek için **bilerek atlandı**
@@ -33,34 +34,42 @@ _Önceki: 2026-09-04 (4 Eylül NFP günü: 3 yeni kayıt, 1 kayıt genişletildi
 | 2 | Altın kısa vade taban/biriktirme bandı (ons $) | 4000 – 4500 | **3,5** | (7) | Sellcoin, Berk Dinçtürk, Emrah Lafçı & Ali Perşembe, Baki Atılal, Cüneyt Paksoy, Tunç Şatıroğlu, Integral FX TV | 2026-08-06 |
 | 3 | TCMB gevşeme yönü — politika faizi 40 -> 37, haftalık repoya dönüş | 37 – 40 | **3,0** | (5) | Cüneyt Paksoy, Ferhat Yükseltürk & Uraz Çay, Emrah Lafçı & Ali Perşembe, Barış Soydan, Integral FX TV | 2026-08-13 |
 | 4 | Gümüş Ağustos toparlanma bandı (ons $) | 66 – 67 | **3,0** | (4) | Şant Manukyan, Barış Soydan, Turhan Bozkurt, Erkan Öz | 2026-08-17 |
-| 5 | ABD kamu borcu 40 trilyon $ eşiğini geçti | 40 – 42 | **2,5** | (4) | Barış Soydan, Bora Özkent, Emrah Altınocağı, Integral FX TV | 2026-08-20 |
+| 5 | Gumus yapisal YUKARI yon (Koc'un negatif okumasinin karsisindaki kamp) | — | **2,5** | (5) | Sellcoin, Tunc Satiroglu, Emrah Lafci & Ali Persembe, Berk Dincturk, Berk Tavsan | 2026-08-10 |
 | 6 | BIST100 kritik eşik bölgesi | 14000 – 14500 | **2,5** | (4) | Cüneyt Paksoy, Atilla Yeşilada, Tunç Şatıroğlu, Barış Soydan | 2026-08-13 |
-| 7 | ABD CPI (11 Eylül haftası) yönü belirleyecek — "son kayıp parça" **YENİ** | — | **2,5** | (4) | Berk Tavsan, Selçuk Geçer, Barış Soydan, Tunç Şatıroğlu | 2026-09-04 |
-| 8 | Gümüş yapısal YUKARI yön (Koç'un negatif okumasının karşısındaki kamp) **YENİ** | — | **2,5** | (5) | Sellcoin, Tunç Şatıroğlu, Emrah Lafçı & Ali Perşembe, Berk Dinçtürk, Berk Tavsan | 2026-08-10 |
+| 7 | ABD kamu borcu 40 trilyon $ eşiğini geçti | 40 – 42 | **2,5** | (4) | Barış Soydan, Bora Özkent, Emrah Altınocağı, Integral FX TV | 2026-08-20 |
+| 8 | ABD CPI (11 Eylul haftasi) yonu belirleyecek - 'son kayip parca' | — | **2,5** | (4) | Berk Tavsan, Selcuk Gecer, Baris Soydan, Tunc Satiroglu | 2026-09-04 |
 | 9 | Altın uzun vade hedef bandı (ons $) | 5000 – 6500 | **2,0** | (4) | Cüneyt Paksoy, Tunç Şatıroğlu, Turhan Bozkurt, Emrah Lafçı & Ali Perşembe | 2026-08-13 |
-| 10 | BIST yukarı kırılım hedef bandı | 16000 – 17000 | **1,5** | (3) | Emrah Lafçı & Ali Perşembe, Integral FX TV, Cüneyt Paksoy | 2026-08-25 |
-| 11 | Fed'in yönü ŞAHİN — Eylül'de/seçim sonrası faiz ARTIRIMI | 35 – 40 | **1,5** | (3) | Integral FX TV, Erkan Öz, Emrah Lafçı & Ali Perşembe | 2026-08-25 |
-| 12 | Japon yen carry-trade çözülmesi = piyasanın en büyük riski | 4,05 | **1,5** | (3) | Erol Polat / Money Talks, Cihat E. Çiçek, Integral FX TV | 2026-08-18 |
+| 10 | Altin 4.800 - 5.000 tepki hedefi (4 Eylul) | 4800 – 5000 | **2,0** | (4) | Cüneyt Paksoy, Selçuk Geçer, Berk Tavsan, Turhan Bozkurt | 2026-09-04 |
+| 11 | ECB 10 Eylul'de faiz ARTIRIR **YENİ** | — | **2,0** | (3) | Selçuk Geçer, Barış Soydan, Integral FX TV | 2026-09-07 |
+| 12 | BTC direnç/tetik seviyesi | 67000 – 67300 | **1,5** | (3) | Sellcoin, Kemal Hiçyılmaz, Emrah Lafçı & Ali Perşembe | 2026-08-10 |
 | 13 | USDTRY yıl sonu bandı | 50 – 55 | **1,5** | (3) | Integral FX TV, Cüneyt Paksoy, Turhan Bozkurt | 2026-08-17 |
-| 14 | BTC direnç/tetik seviyesi | 67000 – 67300 | **1,5** | (3) | Sellcoin, Kemal Hiçyılmaz, Emrah Lafçı & Ali Perşembe | 2026-08-10 |
-| 15 | BTC 200 günlük ortalama / alım bölgesi | 69000 – 69350 | **1,5** | (3) | Emrah Lafçı & Ali Perşembe, Erkan Öz, Kripto Teknik | 2026-08-27 |
-| 16 | Altın 4.800 - 5.000 tepki hedefi (4 Eylül) **(3. kaynak eklendi)** | 4800 – 5000 | **1,5** | (3) | Cüneyt Paksoy, Selçuk Geçer, Berk Tavsan | 2026-09-04 |
-| 17 | US10Y alarm seviyesi | 5 | **1,0** | (2) | Cüneyt Paksoy, Integral FX TV | 2026-08-25 |
-| 18 | Türkiye CDS risk primi (baz puan) | 217 – 219 | **1,0** | (2) | Cüneyt Paksoy, Emrah Lafçı (solo) | 2026-08-27 |
-| 19 | MSCI / endeks çıkarma riski (BIST) | 50 | **1,0** | (2) | Atilla Yeşilada, Erol Polat / Money Talks | 2026-08-19 |
-| 20 | Gıda enflasyonu yapısal risk | — | **1,0** | (2) | Atilla Yeşilada, Fiba Bank | 2026-08-19 |
-| 21 | CLARITY Act Eylül 2026'da gündeme gelir | — | **1,0** | (2) | Berk Dinçtürk, Kemal Hiçyılmaz | 2026-08-20 |
-| 22 | S&P 500 kritik destek eşiği | 7600 – 7670 | **1,0** | (2) | Cüneyt Paksoy, Tunç Şatıroğlu | 2026-09-04 |
-| 23 | Brent 100 $ üst sınır / eşik | 100 | **1,0** | (2) | Selçuk Geçer, Tunç Şatıroğlu | 2026-09-04 |
-| 24 | Altın 4.200 stop/savunma bölgesi (ons $) **YENİ** | 4200 | **1,0** | (2) | Cüneyt Paksoy, Berk Tavsan | 2026-09-04 |
-| 25 | BTC 100.000 $ hedefi **YENİ** | 100000 | **1,0** | (2) | Cüneyt Paksoy, Berk Tavsan | 2026-09-04 |
+| 14 | Gram altin 10.000 TL hedefi | 10000 | **1,5** | (3) | Turhan Bozkurt, Cihat E. Çiçek, Selçuk Geçer | 2026-08-17 |
+| 15 | Japon yen carry-trade çözülmesi = piyasanın en büyük riski | 4,05 | **1,5** | (3) | Erol Polat / Money Talks, Cihat E. Çiçek, Integral FX TV | 2026-08-18 |
+| 16 | BIST yukarı kırılım hedef bandı | 16000 – 17000 | **1,5** | (3) | Emrah Lafçı & Ali Perşembe, Integral FX TV, Cüneyt Paksoy | 2026-08-25 |
+| 17 | Fed'in yönü ŞAHİN — Eylül'de/seçim sonrası faiz ARTIRIMI | 35 – 40 | **1,5** | (3) | Integral FX TV, Erkan Öz, Emrah Lafçı & Ali Perşembe | 2026-08-25 |
+| 18 | BTC 200 günlük ortalama / alım bölgesi | 69000 – 69350 | **1,5** | (3) | Emrah Lafçı & Ali Perşembe, Erkan Öz, Kripto Teknik | 2026-08-27 |
+| 19 | BIST 14.000 = DESTEK (direnc degil) **YENİ** | 14000 | **1,5** | (2) | Integral FX TV, Barış Soydan | 2026-09-07 |
+| 20 | MSCI / endeks çıkarma riski (BIST) | 50 | **1,0** | (2) | Atilla Yeşilada, Erol Polat / Money Talks | 2026-08-19 |
+| 21 | Gıda enflasyonu yapısal risk | — | **1,0** | (2) | Atilla Yeşilada, Fiba Bank | 2026-08-19 |
+| 22 | CLARITY Act Eylül 2026'da gündeme gelir | — | **1,0** | (2) | Berk Dinçtürk, Kemal Hiçyılmaz | 2026-08-20 |
+| 23 | US10Y alarm seviyesi | 5 | **1,0** | (2) | Cüneyt Paksoy, Integral FX TV | 2026-08-25 |
+| 24 | Türkiye CDS risk primi (baz puan) | 217 – 219 | **1,0** | (2) | Cüneyt Paksoy, Emrah Lafçı (solo) | 2026-08-27 |
+| 25 | S&P 500 kritik destek esigi | 7600 – 7670 | **1,0** | (2) | Cüneyt Paksoy, Tunç Şatıroğlu | 2026-09-04 |
+| 26 | Brent 100 $ ust sinir / esik | 100 | **1,0** | (2) | Selçuk Geçer, Tunç Şatıroğlu | 2026-09-04 |
+| 27 | Altin 4.200 stop/savunma bolgesi (ons $) | 4200 | **1,0** | (2) | Cuneyt Paksoy, Berk Tavsan | 2026-09-04 |
+| 28 | BTC 100.000 $ hedefi | 100000 | **1,0** | (2) | Cuneyt Paksoy, Berk Tavsan | 2026-09-04 |
+| 29 | TCMB yil sonu politika faizi %35 **YENİ** | 35 | **1,0** | (2) | Integral FX TV, Selçuk Geçer | 2026-09-07 |
 
 ---
 
 ## KAYIT NOTLARI
 
-> **NUMARA UYARISI (2026-09-06):** Aşağıdaki not başlıklarındaki numaralar
-> **4 Eylül'deki sıralamaya** aittir. 6 Eylül'de 4 yeni kayıt eklenip sıralama
+> **NUMARA UYARISI (2026-09-07'de güncellendi):** Aşağıdaki not başlıklarındaki
+> numaralar **4 Eylül'deki sıralamaya** aittir. Tablo 7 Eylül'de JSON'dan
+> **tamamen yeniden üretildi** (29 kayıt), yani numaralar artık **hiçbir kayıt için**
+> geçerli değil — **notları KONU BAŞLIĞINA göre eşleştir.** Her kaydın gerekçesi
+> ayrıca `magicma/kaynak_konsensus.json`'un `not` alanında tam metin olarak duruyor;
+> aşağıdaki markdown notları yalnızca daha uzun anlatım gerektirenler için. 6 Eylül'de 4 yeni kayıt eklenip sıralama
 > yeniden hesaplandığı için 7. sıradan sonrası kaydı. **Notları numaraya göre
 > değil KONU BAŞLIĞINA göre eşleştir.** 6 Eylül'de eklenen kayıtların notları
 > dosyanın sonundaki ayrı bölümdedir.
@@ -256,3 +265,66 @@ Sayısal band **bilerek verilmedi**: hedefler birbirinden uzak (Lafçı & Perşe
 olan tek şey **yön**. Kaydın anlamı sayısal değil yapısal: Berk Tavsan'ın
 eklenmesiyle Koç'un **54-62 negatif okumasına karşı kaynak sayısı 4'ten 5'e çıktı**.
 Bkz. `14_CELISKI_PANELI.md` B1.
+
+
+---
+
+## 2026-09-07 OTURUMUNDA EKLENEN KAYITLAR
+
+**ECB 10 Eylül'de faiz ARTIRIR — ağırlıklı skor 2,0 (3 kaynak)** **YENİ**
+Selçuk Geçer (4 ve 7 Eylül, *"neredeyse kesin"*, dayanak Euro Bölgesi ÜFE aylık
++%1,6), Barış Soydan (7 Eylül, *"neredeyse kesin, yıl sonuna 2 artırım"*) ve
+Integral FX TV / Murat Sağman (7 Eylül, *"ECB + BoE 2'şer artırım"*).
+**Bu kaydın değeri, sayısında değil vadesinde:** üç kaynak da tek yönlü bağlandı ve
+**10 Eylül'de tek günde ölçülecek**. Dosyadaki en yanlışlanabilir konsensüs kaydı bu.
+Skoru 2,0'da kalıyor çünkü üç kaynağın ikisinin isabet oranı henüz ölçülemez (nötr %50);
+Soydan'ın %100'ü ortalamayı 66,7'ye çekiyor.
+➜ Yan iddia ayrı ölçülmeli: *"yıl sonuna kadar 2 artırım"* (Soydan + Sağman) —
+10 Eylül'de değil **31 Aralık'ta** kapanır.
+
+**Gram altın 10.000 TL hedefi — ağırlıklı skor 1,5 (3 kaynak)** **YENİ**
+Turhan Bozkurt **17 Ağustos** (öncü, 21 gün önce), Cihat E. Çiçek 6 Eylül,
+Selçuk Geçer 7 Eylül. ⚠️ **Vade ayrışması var:** Bozkurt *"yıl sonu"*, Geçer
+*"çok yakında"* diyor — aynı sayı, farklı takvim. Bu bir tolerans sorunu değil,
+**zamanlama ayrışması**; `16_ZAMANLAMA_KARNESI.md`'de ayrı satır açıldı.
+⚠️ **İkinci uyarı — bileşik hedef:** gram altın = ons × kur. Hedef, ons tutmadan
+kur tutarak da gerçekleşebilir. Yani bu kayıt **saf bir altın görüşü değil**;
+tek başına "üç kaynak altında hemfikir" diye okunmamalı.
+
+**TCMB yıl sonu politika faizi %35 — ağırlıklı skor 1,0 (2 kaynak)** **YENİ**
+Murat Sağman **kendi tahmini** olarak veriyor (3 toplantıdan 2'sinde indirim);
+Selçuk Geçer ise **Morgan Stanley'in aynı rakamını aktarıyor**.
+⚠️ **Bilerek zayıf işaretlendi:** iki kaynak sayılsa da biri aktarım, gerçek
+bağımsızlık ~1,5 kaynak düzeyinde. Yine de kaydedildi çünkü mevcut politika faizi
+**%37** iken ikisi de **aşağı** yönü aynı sayıyla işaretliyor.
+
+**BIST 14.000 = DESTEK (direnç değil) — ağırlıklı skor 1,5 (2 kaynak)** **YENİ**
+Sağman (*"14.000 artık destek, yukarı gitmek isteyen borsa"*) ve Soydan (gün içi
+dip tam **14.000**, kapanış 14.151). Kaydın açılma sebebi, ikisinin **hem sayıyı
+hem ROLÜ** aynı vermesi — bu dosyanın aradığı çift örtüşme budur.
+⚠️ Ama bu **bir konsensüs değil, üç yönlü ayrışmanın bir kanadı:** Atilla
+Yeşilada'nın kaydında 14.000 **direnç**, Turhan Bozkurt aynı gün 14.100'ü *"endeks
+mühendisliği"* sayıp **13.750 / 13.610 / 13.440** destekleri veriyor.
+Bkz. `14_CELISKI_PANELI.md` **A6** ve **A14**.
+
+**Altın 4.800 – 5.000 tepki hedefi — artık 4 kaynak (skor 1,5 → 2,0)**
+Turhan Bozkurt eklendi (*"kurum hedefleri 5.000+ korunuyor, yıl sonu 4.700-5.000"*).
+Bandının alt ucu diğerlerinden 100 $ aşağıda ama **±%2 toleransı içinde**, bölünmedi.
+
+### Bu oturumda konsensüse ALINMAYANLAR (gerekçeli)
+
+- **Fed Eylül'de sabit** — yeni kaynak gelmedi; Geçer sadece **kendi 4 Eylül
+  görüşünü yineledi**. Tekrar, kaynak sayısını artırmaz. Buna karşılık **Sağman
+  karşı tarafa yazıldı** (*"1 artırım fiyatlandı"*) — kayıt 1'in notuna düşüldü.
+- **Petrol 40 $ (Bessent)** — Geçer **aktarıyor**, Ali Perşembe ise **kendi tezinin
+  dayanağı** yapıyor. Aktarım + görüş karışımı olduğu için ayrı konsensüs kaydı
+  açılmadı; `magicma/onemli_seviyeler.json`'a **2 kaynaklı** seviye olarak girdi
+  ve `14_CELISKI_PANELI.md` **A12**'de çelişki olarak izleniyor.
+- **Gümüş 71 $ (Bozkurt)** — 66-67 bandının **dışında** ve aynı gün Soydan **66**
+  veriyor. Bu bir tez ayrışması değil **veri hatası**; bandı genişletmek sahte bir
+  uzlaşma üretirdi. Kayıt 4 değişmedi, not düşüldü (A13).
+- **USDTRY 56 (OVP 2027 ortalaması)** — resmi belge varsayımı, analist tahmini
+  değil. Mevcut *"USDTRY yıl sonu bandı"* kaydına **katılmadı** (farklı yıl,
+  farklı tür). Seviye kütüphanesine `aktarim_referans` olarak girdi.
+- **Oracle bilançosu / AI-borç riski (Soydan)** — tek kaynak, konsensüs olmaz.
+  `16_ZAMANLAMA_KARNESI.md`'ye **10 Eylül** penceresi olarak işlendi.

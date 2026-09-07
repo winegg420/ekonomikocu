@@ -1,7 +1,8 @@
 # 12 — KAYNAK PERFORMANS SIRALAMASI
 
-_Güncelleme: 2026-09-06_ (Berk Tavsan **yeni kaynak** + Cihat E. Çiçek 6 Eylül girişi işlendi)
-_Önceki: 2026-09-04 (4 Eylül NFP günü: Paksoy, Soydan, Selçuk Geçer yeni kaynak, Tunç Şatıroğlu ×2)_
+_Güncelleme: 2026-09-07_ (**5 video**: Kripto Teknik, Selçuk Geçer, Barış Soydan, Integral FX TV (Perşembe & Sağman), Turhan Bozkurt — **27 yeni İZLENİYOR satırı**, yeni kaynak yok)
+_Önceki: 2026-09-06 (Berk Tavsan **yeni kaynak** + Cihat E. Çiçek 6 Eylül girişi işlendi)_
+_Ondan önceki: 2026-09-04 (4 Eylül NFP günü: Paksoy, Soydan, Selçuk Geçer yeni kaynak, Tunç Şatıroğlu ×2)_
 
 > **Kaynak:** Bu dosya tamamen `11_DIS_KAYNAKLAR.md` içindeki **KARNE** tablolarından
 > türetilmiştir. Yeni veri toplanmaz, hiçbir iddia yeniden derecelendirilmez —
@@ -19,9 +20,17 @@ _Önceki: 2026-09-04 (4 Eylül NFP günü: Paksoy, Soydan, Selçuk Geçer yeni k
 
 ## ⚠️ ÖNCE OKU — BU TABLONUN EN ÖNEMLİ BULGUSU
 
-Toplam **206 iddia**nın **189'u (%92) hâlâ İZLENİYOR** durumunda. Kapanmış
+Toplam **243 iddia**nın **226'sı (%93,0) hâlâ İZLENİYOR** durumunda. Kapanmış
 (TUTTU + TUTMADI) iddia sayısı yalnızca **16**, ve bunların **tamamı TUTTU** —
 dosyada **kapanmış tek bir TUTMADI kaydı yok**.
+
+**2026-09-07 değişimi — bulgu güçlendi:** 5 video işlendi, **27 yeni iddia**
+eklendi, **hiçbiri kapanmadı**. İZLENİYOR oranı %92,1'den **%93,0'a çıktı**.
+Yani dosya üçüncü oturumdur üst üste **yalnızca iddia biriktiriyor**. Bu, kaynak
+akışının hızından çok **karnenin kapatma adımının hiç çalıştırılmamış olmasından**
+kaynaklanıyor: aşağıdaki iş listesinde 10'dan fazla satır bugünkü veriyle zaten
+ölçülebilir durumda. **10-11 ve 16 Eylül** üç ayrı pencereyi birden kapatacak
+(TCMB + ECB, CPI, FOMC) — o oturumda kapatma işi yapılmazsa bu oran %94'ü geçer.
 
 **2026-09-04 değişimi:** 4 Eylül NFP günü **3 iddia kapandı ve üçü de TUTTU** —
 Barış Soydan'ın "bu cuma NFP altın/gümüş için kritik" uyarısı (NFP beklentinin
@@ -49,7 +58,7 @@ bölümünde bunun için somut bir çalışma listesi var.
 | Sıra | Kaynak | İsabet Oranı | Tuttu | Tutmadı | İzleniyor | Sonuçsuz | Toplam |
 |---|---|---|---|---|---|---|---|
 | 1 | Şant Manukyan | %100 | 3 | 0 | 9 | 0 | 12 |
-| 1 | Barış Soydan | %100 | 3 | 0 | 15 | 0 | 18 |
+| 1 | Barış Soydan | %100 | 3 | 0 | 20 | 0 | 23 |
 
 **İki satırlık bir sıralama da istatistiksel olarak sıralama değildir** — ikisi de
 %100, yani hâlâ hiçbir ayrım üretmiyor. Soydan'ın üç kapanmış kaydının **ikisi
@@ -77,8 +86,8 @@ bu uyarı unutulmamalı.
 | Emrah Lafçı (solo) | 1 | 1 | 0 | 7 | 0 | 8 | CDS 219bp — Paksoy'un 217bp'siyle çapraz doğrulandı |
 | Ferhat Yükseltürk & Uraz Çay | 1 | 1 | 0 | 4 | 0 | 5 | Tüpraş kâr büyümesi (Soydan verisiyle doğrulandı) |
 | Cihat E. Çiçek | 1 | 1 | 0 | 7 | 0 | 8 | Gerçekleşmiş TEFAS getirileri (tahmin değil). **6 Eyl'de 4 yeni iddia** — üçü tarihsiz/ölçülemez tipte ("kur patlayacak", "petrol muazzam artacak"), biri aktarım (Norveç 80 mlr $) |
-| Integral FX TV / Erhan Aslanoğlu | 1 | 1 | 0 | 7 | 0 | 8 | TCMB 10 Eylül tahmini — 16 gün ERKEN gerçekleşti |
-| Turhan Bozkurt | 0 | 0 | 0 | 4 | 1 | 5 | TCMB 80 ton altın iddiası **DOĞRULANMADI** (yanlışlanmadı da) |
+| Integral FX TV (panel / Aslanoğlu / Perşembe & Sağman) | 1 | 1 | 0 | 13 | 0 | 14 | TCMB 10 Eylül tahmini — 16 gün ERKEN gerçekleşti. **7 Eyl'de 6 yeni iddia** (Sağman 3, Perşembe 3) — kaynak içinde **iki kişi ayrı ayrı** izleniyor |
+| Turhan Bozkurt | 0 | 0 | 0 | 10 | 1 | 11 | TCMB 80 ton altın iddiası **DOĞRULANMADI** (yanlışlanmadı da). **7 Eyl'de 6 yeni iddia** — biri ("dolar 100'ü göreceksiniz") **tarihsiz**, ölçülemez. Videonun Sabancı/kayyum kısmı **bilerek işlenmedi** |
 | Tunç Şatıroğlu | 2 | 2 | 0 | 21 | 0 | 23 | 4 Eyl'de ilk iki kaydı kapandı (BTC 79 K + XRP 1,057), ikisi de TUTTU. **Dosyadaki en çok iddialı kaynak** — 1 kapanmış daha gelince sıralamaya girer |
 | Berk Dinçtürk | 0 | 0 | 0 | 14 | 0 | 14 | Hedefleri uzun vadeli (2028'e kadar), doğal olarak açık |
 | Emrah Lafçı & Ali Perşembe | 0 | 0 | 0 | 14 | 0 | 14 | — |
@@ -87,27 +96,34 @@ bu uyarı unutulmamalı.
 | Cüneyt Paksoy | 0 | 0 | 0 | 18 | 0 | 18 | 4 Eyl'de 9 yeni iddia; hâlâ hiç kapanmamış. Sayı bazında ikinci en iddialı kaynak |
 | Bora Özkent | 0 | 0 | 0 | 6 | 0 | 6 | — |
 | Emrah Altınocağı | 0 | 0 | 0 | 6 | 0 | 6 | — |
-| Kripto Teknik | 0 | 0 | 0 | 5 | 0 | 5 | Tamamı 1 Eylül civarı vadeli — yakında kapanacak |
+| Kripto Teknik | 0 | 0 | 0 | 11 | 0 | 11 | **7 Eyl'de 6 yeni iddia.** ⚠️ 27 Ağu'daki 5 kaydın vadesi (1 Eylül civarı) **geçti ama kapatılmadı** — Golden Cross 1 Eylül yerine **7 Eylül'de** gerçekleşti (6 gün geç), bkz. `16_ZAMANLAMA_KARNESI.md`. Bu satır **kapatma iş listesinin başında** |
 | Erkan Öz | 0 | 0 | 0 | 5 | 0 | 5 | Dosyaya en son giren kaynak (30 Ağu) |
 | Baki Atılal | 0 | 0 | 0 | 4 | 0 | 4 | — |
 | Fiba Bank | 0 | 0 | 0 | 4 | 0 | 4 | — |
 | Onur Duygu | 0 | 0 | 0 | 4 | 0 | 4 | — |
 | Doruk İşmen | 0 | 0 | 0 | 4 | 0 | 4 | Vadesi 5-10 yıl, ölçülemez |
 | Kemal Hiçyılmaz | 0 | 0 | 0 | 3 | 0 | 3 | — |
-| **Selçuk Geçer** | 0 | 0 | 0 | 6 | 0 | 6 | **YENİ KAYNAK (4 Eyl 2026).** 6 iddianın 5'i Eylül içinde ölçülebilir (ECB 10 Eyl, Fed 16 Eyl, altın 4.500, Brent 100, DXY) — dosyaya en hızlı kapanacak karneyle girdi |
+| **Selçuk Geçer** | 0 | 0 | 0 | 10 | 0 | 10 | **YENİ KAYNAK (4 Eyl 2026).** 6 iddianın 5'i Eylül içinde ölçülebilir (ECB 10 Eyl, Fed 16 Eyl, altın 4.500, Brent 100, DXY) — dosyaya en hızlı kapanacak karneyle girdi. **7 Eyl'de 4 iddia daha**; biri (ECB 10 Eyl) 4 Eylül kaydının **tekrarı**, ayrı satır açıldı ama **aynı olayla kapanacak** — sayım şişmesi olarak not edilmeli |
 | **Berk Tavsan** | 0 | 0 | 0 | 6 | 0 | 6 | **YENİ KAYNAK (6 Eyl 2026).** Dosyadaki **en yanlışlanabilir** karnelerden biri: 6 iddianın 4'ünde hem tetik hem hedef hem stop var (BTC 82.500→100 K, altın 4.310-4.360→4.850 stop 4.200, gümüş 60-65→80-90). ⚠️ **Ticari çıkar beyanı:** kendi ürünü olan Darvas platformunu tanıtıyor |
 | Prof. Daron Acemoğlu | — | — | — | — | — | 0 | Fiyat/seviye vermediği için karneye hiç alınmadı |
 
-**Toplam: 25 kaynak · 216 iddia · 16 TUTTU · 0 TUTMADI · 199 İZLENİYOR · 1 SONUÇSUZ.**
+**Toplam: 25 kaynak · 243 iddia · 16 TUTTU · 0 TUTMADI · 226 İZLENİYOR · 1 SONUÇSUZ.**
 
-> _Önceki sayım (2026-09-04): 24 kaynak · 206 iddia · 16 TUTTU · 189 İZLENİYOR._
-> _Ondan önceki (2026-08-30): 23 kaynak · 179 iddia · 13 TUTTU · 165 İZLENİYOR._
+> _Önceki sayım (2026-09-06): 25 kaynak · 216 iddia · 16 TUTTU · 199 İZLENİYOR._
+> _Ondan önceki (2026-09-04): 24 kaynak · 206 iddia · 16 TUTTU · 189 İZLENİYOR._
+> _En eski kayıtlı (2026-08-30): 23 kaynak · 179 iddia · 13 TUTTU · 165 İZLENİYOR._
+> **7 Eylül'de eklenen 27 yeni iddia:** Kripto Teknik 6 · Integral FX TV (Perşembe & Sağman) 6 ·
+> Turhan Bozkurt 6 · Barış Soydan 5 · Selçuk Geçer 4. **Yeni kaynak yok** — beş video da
+> dosyada zaten bulunan kaynaklardan.
 > 6 Eylül'de eklenen 10 yeni iddia: **Berk Tavsan 6 (yeni kaynak)** · Cihat E. Çiçek 4.
 > 4 Eylül'de eklenen 27 yeni iddia: Paksoy 9 · Tunç Şatıroğlu 8 · Selçuk Geçer 6 · Barış Soydan 4.
 >
-> **İZLENİYOR oranı %92'den %92,1'e çıktı** — yani bu oturum da kapanma üretmedi,
-> sadece iddia ekledi. Dosyanın ana bulgusu (karne kaydediyor ama kapatmıyor)
-> değişmedi; kapanma dalgası **10 ve 16 Eylül'de** bekleniyor.
+> **İZLENİYOR oranı %92,1'den %93,0'a çıktı.** Üç oturum üst üste kapanma üretmedi.
+> ⚠️ **Sayım şişmesi uyarısı:** 27 satırın en az 2'si daha önce girilmiş iddianın
+> tekrarı (Geçer'in ECB 10 Eylül'ü, Bozkurt'un 4.400 altın tutunması). Ayrı satır
+> açıldı çünkü ayrı tarihte yinelendiler, ama **tek olayla birlikte kapanacaklar** —
+> kapanma günü toplam sayı bu yüzden beklenenden hızlı düşecek.
+> Kapanma dalgası **10, 11 ve 16 Eylül'de** bekleniyor.
 
 ---
 
@@ -159,6 +175,24 @@ oturumda `11_DIS_KAYNAKLAR.md` üzerinde tek tek karara bağlanmalı:
   **tarih verilmediği için kapatılamaz.** Bu iki satır, karnenin ölçülemez iddia
   havuzuna eklendi; kaynak tarih verene kadar açık kalacak.
 
+
+
+### 7 Eylül sonrası eklenen iş listesi
+
+- **Kripto Teknik (27 Ağu):** *"BTC Golden Cross 1 Eylül"* — **6 gün geç, 7 Eylül'de**
+  gerçekleşti. Kaynağın kendisi bunu 7 Eylül videosunda doğruluyor. **Kapatılabilir
+  (KISMEN/TUTTU-geç).** Aynı bloktaki *"ETH Golden Cross ~29-30 Ağustos"* ve
+  *"BTC yakın hedef 82.500-83.000"* satırları da ölçülebilir: hareket **82.300**'de
+  bitti, yani hedef **%0,2 farkla ıskalandı** — kaynağın kendi kabulü var.
+- **Selçuk Geçer (4 Eyl):** *"Altın 4.500'ü tutar → 4.800"* — 7 Eylül'de aynı kaynak
+  eşiği **4.400'e indirdi**. Bu bir **öteleme**; eski satır SONUÇSUZ olarak
+  kapatılmalı, yeni satır zaten açıldı. (`16_ZAMANLAMA_KARNESI.md`'deki öteleme
+  kuralının fiyat karnesindeki karşılığı.)
+- **Barış Soydan (4 Eyl) + Selçuk Geçer (4-7 Eyl) + Sağman (7 Eyl):** TCMB ve ECB
+  satırlarının tamamı **10 Eylül'de tek günde** ölçülecek — dört kaynak, tek gün.
+- **Turhan Bozkurt (7 Eyl):** *"Dolar 100'ü göreceksiniz"* — **tarih verilmediği için
+  kapanamaz.** Bu dosyada bu türden kaç satır olduğu ayrıca sayılmalı; ölçülemez
+  iddialar isabet oranını **suni olarak korur** (ne tutar ne tutmaz).
 
 ---
 

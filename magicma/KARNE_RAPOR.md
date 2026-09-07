@@ -1,15 +1,15 @@
 # MagicMA Sinyal Karnesi
 
-_Guncelleme: 07.09.2026 21:30 TSI_
+_Guncelleme: 07.09.2026 22:20 TSI_
 
 Esikler: basari %0,5 · gecersiz %0,3 · zaman asimi 48 saat
 
 ## Genel
 
-- Acik (devam eden) sinyal: **34**
-- Toplam kapanan sinyal: **1947**
-- ✅ Basarili: 817 (%42,0)
-- ❌ Basarisiz: 1066 (%54,8)
+- Acik (devam eden) sinyal: **32**
+- Toplam kapanan sinyal: **1952**
+- ✅ Basarili: 821 (%42,1)
+- ❌ Basarisiz: 1067 (%54,7)
 - ⏱ Zaman asimi: 64 (%3,3)
 
 ## Kategori bazinda
@@ -19,27 +19,27 @@ Esikler: basari %0,5 · gecersiz %0,3 · zaman asimi 48 saat
 | abd_hisse | 99 | 44 | 51 | 4 | %44,4 |
 | bist | 315 | 128 | 181 | 6 | %40,6 |
 | endeks_faiz | 43 | 12 | 19 | 12 | %27,9 |
-| forex_emtia | 144 | 38 | 67 | 39 | %26,4 |
-| gunun_hareketlileri | 311 | 146 | 165 | 0 | %46,9 |
-| kripto | 1035 | 449 | 583 | 3 | %43,4 |
+| forex_emtia | 145 | 38 | 68 | 39 | %26,2 |
+| gunun_hareketlileri | 314 | 149 | 165 | 0 | %47,5 |
+| kripto | 1036 | 450 | 583 | 3 | %43,4 |
 
 ## Kaynak turu bazinda
 
 _Uc ayri sinyal kaynagi: MagicMA teknik cizgisi · Koc/dis analist seviyesi · ikisinin ayni bolgede birlestigi mega-confluence._
 
-- Acik: teknik 18 · onemli seviye 15 · mega 1
+- Acik: teknik 17 · onemli seviye 14 · mega 1
 
 | Sinyal kaynagi | Kapanan | Basarili | Basarisiz | Zaman asimi | Basari orani |
 |---|---:|---:|---:|---:|---:|
 | 🌟 Mega-confluence (teknik + temel) | 43 | 6 | 30 | 7 | %14,0 |
-| 📌 Önemli seviye (Koç / dış kaynak) | 112 | 40 | 53 | 19 | %35,7 |
-| MagicMA teknik çizgisi | 1792 | 771 | 983 | 38 | %43,0 |
+| 📌 Önemli seviye (Koç / dış kaynak) | 113 | 41 | 53 | 19 | %36,3 |
+| MagicMA teknik çizgisi | 1796 | 774 | 984 | 38 | %43,1 |
 
 ## Cakisan seviye (confluence) vs tekil
 
 _Yalnizca **teknik** (MagicMA) sinyaller. Cakisma tanimi: ayni sembolde temas eden iki+ cizginin degerleri birbirine %0,15 yakin._
 
-- Acik cakisan sinyal: **0** / 34
+- Acik cakisan sinyal: **0** / 32
 
 _Iki tip ayri olculur: **bantlar arasi** = Gunluk + Haftalik gibi FARKLI bantlar ayni bolgeyi isaretliyor (bagimsiz teyit); **dar band** = tek bandin alt+ust kenari birbirine yakin (cizgiler cakisiyor ama bagimsiz teyit degil)._
 
@@ -47,7 +47,7 @@ _Iki tip ayri olculur: **bantlar arasi** = Gunluk + Haftalik gibi FARKLI bantlar
 |---|---:|---:|---:|---:|---:|
 | 🔥 Cakisan — bantlar arasi | 0 | 0 | 0 | 0 | %0,0 |
 | 🔥 Cakisan — dar band | 27 | 14 | 11 | 2 | %51,9 |
-| Tekil | 1765 | 757 | 972 | 36 | %42,9 |
+| Tekil | 1769 | 760 | 973 | 36 | %43,0 |
 
 _Karsilastirma icin hem bantlar-arasi hem tekil kapanan sinyal gerekiyor._
 
@@ -55,13 +55,18 @@ _Karsilastirma icin hem bantlar-arasi hem tekil kapanan sinyal gerekiyor._
 
 | Yon | Kapanan | Basarili | Basarisiz | Zaman asimi | Basari orani |
 |---|---:|---:|---:|---:|---:|
-| LONG | 957 | 390 | 534 | 33 | %40,8 |
-| SHORT | 990 | 427 | 532 | 31 | %43,1 |
+| LONG | 960 | 393 | 534 | 33 | %40,9 |
+| SHORT | 992 | 428 | 533 | 31 | %43,1 |
 
 ## Son 20 kapanan sinyal
 
 | Kapanis | Sembol | Kategori | Tip | Yon | Sonuc | Giris | Cikis | Yonlu % |
 |---|---|---|---|---|---|---:|---:|---:|
+| 2026-09-07 22:20 | EURCHF | forex_emtia | tekil | SHORT | ❌ basarisiz | 0.9403 | 0.941 | -0,07 |
+| 2026-09-07 22:20 | HONEYUSDT | gunun_hareketlileri | tekil | LONG | ✅ basarili | 0.0013561 | 0.0013718 | 1,16 |
+| 2026-09-07 22:00 | ZKCUSDT | gunun_hareketlileri | tekil | SHORT | ✅ basarili | 0.0492 | 0.0488 | 0,81 |
+| 2026-09-07 22:00 | FETUSDT | gunun_hareketlileri | tekil | LONG | ✅ basarili | 0.1802 | 0.1823 | 1,17 |
+| 2026-09-07 21:50 | BTCUSDT | kripto | 📌 seviye | LONG | ✅ basarili | 78800.13 | 79199.52 | 0,51 |
 | 2026-09-07 21:30 | ATOMUSDT | kripto | tekil | SHORT | ✅ basarili | 1.658 | 1.646 | 0,72 |
 | 2026-09-07 20:40 | ZKCUSDT | gunun_hareketlileri | tekil | SHORT | ❌ basarisiz | 0.0493 | 0.0495 | -0,41 |
 | 2026-09-07 20:10 | ETHUSDT | kripto | 📌 seviye | LONG | ✅ basarili | 2471.4 | 2486.92 | 0,63 |
@@ -77,8 +82,3 @@ _Karsilastirma icin hem bantlar-arasi hem tekil kapanan sinyal gerekiyor._
 | 2026-09-07 18:20 | STRKUSDT | gunun_hareketlileri | tekil | SHORT | ✅ basarili | 0.03171 | 0.03152 | 0,60 |
 | 2026-09-07 18:10 | XPTUSD | forex_emtia | 📌 seviye | SHORT | ❌ basarisiz | 1824.0 | 1836.0 | -0,66 |
 | 2026-09-07 18:00 | FETUSDT | gunun_hareketlileri | tekil | LONG | ✅ basarili | 0.1797 | 0.1817 | 1,11 |
-| 2026-09-07 18:00 | IMXUSDT | kripto | tekil | SHORT | ❌ basarisiz | 0.1357 | 0.1364 | -0,52 |
-| 2026-09-07 18:00 | GESAN | bist | tekil | SHORT | ❌ basarisiz | 65.85 | 66.55 | -1,06 |
-| 2026-09-07 17:50 | XAUUSD | forex_emtia | 📌 seviye | LONG | ✅ basarili | 4390.700195 | 4415.100098 | 0,56 |
-| 2026-09-07 17:50 | SISE | bist | tekil | SHORT | ✅ basarili | 42.24 | 41.86 | 0,90 |
-| 2026-09-07 17:40 | ETHUSDT | kripto | 📌 seviye | LONG | ❌ basarisiz | 2501.39 | 2480.46 | -0,84 |

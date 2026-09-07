@@ -1,11 +1,13 @@
 # 18 — ÖNCÜ / TAKİPÇİ TESPİTİ
 
-_Güncelleme: 2026-09-04_ (BIST düşüşünün sebebi + 4 Eylül konsensüs kayıtları eklendi)
+_Güncelleme: 2026-09-07_ (**iki yeni öncülük kaydı doğrulandı:** BIST30'a kayış — Paksoy öncü, Soydan veriyle teyit ediyor · gram altın 10.000 TL — Bozkurt öncü)
+_Önceki: 2026-09-04 (BIST düşüşünün sebebi + 4 Eylül konsensüs kayıtları eklendi)_
 
 > **Soru:** Bir seviye/tez birden fazla kaynakta geçtiğinde onu ilk kim söyledi?
 >
-> **Girdi:** `13_KONSENSUS.md` / `magicma/kaynak_konsensus.json`'daki **21 konsensus
-> kaydinin tamami** (2026-09-04 itibariyla). Her kayittaki kaynak listesi JSON ile birebir dogrulandi.
+> **Girdi:** `13_KONSENSUS.md` / `magicma/kaynak_konsensus.json`'daki **29 konsensus
+> kaydinin tamami** (2026-09-07 itibariyla). Her kayittaki kaynak listesi JSON ile birebir dogrulandi.
+> _(2026-09-04'te 21 kayit vardi; 6 ve 7 Eylul oturumlarinda 8 kayit eklendi.)_
 > Tarihler `11_DIS_KAYNAKLAR.md`'deki bolum basliklarindan alindi.
 >
 > **UYARI — COZUNURLUK SINIRI (bu dosyanin en onemli notu):** Kaynak dosyasindaki
@@ -167,6 +169,41 @@ veriyor — bkz. `14_CELISKI_PANELI.md` B7. Kaynak dengesi 4 Eylül itibarıyla
 - **Yeni takipçi:** **Selçuk Geçer — 4 Eylül 2026** ("Fed artırmaz, indirmez; sabit").
 - **Tunç Şatıroğlu** zaten takipçiydi; 4 Eylül'de iddiasını **yineledi**, yeni
   takipçilik sayılmadı (aynı kaynağın tekrarı öncülük tablosunu şişirmemeli).
+
+---
+
+
+## BIST30'a kayış beklentisi (2026-09-07'de eklendi)
+- **Öncü:** **Cüneyt Paksoy** — **4 Eylül 2026**: *"BIST30/50 ağırlıklı hisselere
+  konsantre olun."* Bir **tavsiye** olarak verildi, gerekçesi SPK düzenlemesi.
+- **Takipçi / doğrulayıcı:** **Barış Soydan** — **7 Eylül 2026**: *"BIST30 +%1,73,
+  SPK muafiyeti nedeniyle BIST30'a kayış başlamış olabilir"* (Şişecam tavan,
+  Sasa tavan, Petkim; Tera + BofA alıcı tarafta).
+- **Zaman farkı: 3 gün.** Her iki tarih de **gün hassasiyetinde**.
+- ⭐ **Bu kaydın özelliği — dosyadaki en temiz öncülük türü:** Paksoy bir **tahmin**
+  yaptı, Soydan üç gün sonra **ölçtü**. Diğer kayıtların çoğunda iki kaynak da
+  tahmin yapıyor ve hangisinin önce olduğu takvim sorusu; burada **ikisi farklı
+  şey yapıyor**, yani öncülük iddiası **rol farkından** geliyor, sıralamadan değil.
+- ⚠️ **Sınırlama:** BIST30'un tek günlük +%1,73'ü bir **kayışın kanıtı değildir**.
+  Soydan da *"başlamış olabilir"* diyerek temkinli. Öncülük kaydı geçerli ama
+  **doğrulama henüz zayıf**; BIST30/BIST100 makasının birkaç hafta sürmesi gerekir.
+- **Bağlantı:** `13_KONSENSUS.md`'de bu bir konsensüs kaydı **değil** (iki kaynak
+  ama biri tahmin biri gözlem). `12_KAYNAK_PERFORMANS.md`'de Soydan'ın 7 Eylül
+  karne satırı olarak izleniyor.
+
+## Gram altın 10.000 TL hedefi (2026-09-07'de eklendi)
+- **Öncü:** **Turhan Bozkurt** — **17 Ağustos 2026** (*"yıl sonu 10.000 TL/gram"*).
+- **Takipçi:** **Cihat E. Çiçek** — 6 Eylül 2026.
+- **Takipçi:** **Selçuk Geçer** — 7 Eylül 2026 (*"çok yakında 10.000 TL üstü"*).
+- **Zaman farkı: 20-21 gün** — dosyadaki en büyük ikinci öncülük aralığı
+  (birincisi Sellcoin'in BTC 67.300'ü, 24 gün).
+- ⚠️ **Ama vade aynı değil:** Bozkurt *"yıl sonu"*, Geçer *"çok yakında"* diyor.
+  Öncülük **sayıda** var, **takvimde yok**. Bu, öncülüğün "aynı şeyi daha erken
+  söylemek" olduğu varsayımına bir istisna: aynı sayıyı farklı vadeyle söylemek
+  aynı iddia değildir.
+- ⚠️ **İkinci uyarı:** hedef **bileşik** (ons × kur). Üç kaynak "altında hemfikir"
+  gibi görünüyor ama biri ons, biri kur beklentisinden gelmiş olabilir; kaynak
+  metinleri bunu ayırt edecek kadar ayrıntılı değil.
 
 ---
 

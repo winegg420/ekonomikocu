@@ -1,7 +1,8 @@
 # 16 — ZAMANLAMA KARNESİ
 
-_Güncelleme: 2026-09-06_ (Berk Tavsan **yeni kaynak** + Cihat E. Çiçek 6 Eylül: 3 yeni pencere)
-_Önceki: 2026-09-04 (4 Eylül NFP günü girişlerinden 7 yeni pencere eklendi)_
+_Güncelleme: 2026-09-07_ (5 video: **8 yeni pencere**; Kripto Teknik'in **1 Eylül Golden Cross** penceresi 6 gün gecikmeyle kapandı; Koç'un boğa şartlarından **faiz indirimi** için 2027 yazı notu düşüldü)
+_Önceki: 2026-09-06 (Berk Tavsan **yeni kaynak** + Cihat E. Çiçek 6 Eylül: 3 yeni pencere)_
+_Ondan önceki: 2026-09-04 (4 Eylül NFP günü girişlerinden 7 yeni pencere eklendi)_
 
 > **Bu karne fiyat karnesi DEĞİLDİR.** Ölçtüğü şey seviyenin tutup tutmadığı değil,
 > **verilen zaman penceresinin** kendisinin isabeti: pencere kapandığında gerçekten
@@ -45,6 +46,7 @@ _Önceki: 2026-09-04 (4 Eylül NFP günü girişlerinden 7 yeni pencere eklendi)
 | Barış Soydan | 23-28 Ağu penceresi: Nvidia bilançosu + Jackson Hole belirleyici olacak | 28 Ağu 2026 | **TUTTU** — Nvidia +%7,5 ($225), Jackson Hole konuşması yapıldı |
 | Emrah Altınocağı | **19 Ağustos** operasyonu (Beyaz Saray kripto zirvesi + Hazine geri alımı + BTC sıçraması aynı gün) | 19 Ağu 2026 | **TUTTU** — üçü de aynı gün oldu (olgu aktarımı, tahmin değil) |
 | Cihat E. Çiçek | *"Altın 4.400 **Ağustos sonuna kadar** kırılmazsa Ekim'de 4.660"* | 31 Ağu 2026 | **SONUÇSUZ — koşul düştü.** Altın 4.400'ü Ağustos içinde yukarı aştı (27 Ağu 4.600-4.700), yani öngörünün ön koşulu ortadan kalktı; Ekim hedefi ölçülemez |
+| Kripto Teknik | BTC Golden Cross **1 Eylül 2026** (200 GO $69.000) | 1 Eyl 2026 | **KISMEN — olay oldu, tarih 6 gün ıskalandı.** Kesişim **7 Eylül 2026**'da gerçekleşti (50g ≈ 69.700, 200g ≈ 69.800). Kaynağın kendisi 7 Eylül videosunda doğruluyor: *"Golden Cross geliyor"*. 200 günlük ortalama tahmini (**69.000 → gerçek 69.800, %1,2 sapma**) tuttu; **tarih tutmadı.** ⚠️ Bu, bu karnenin ölçmek için kurulduğu tam durum: **yön doğru, takvim yanlış** |
 
 ---
 | Koç | *"2022 ilk çeyrek ile 2022 haziran dönemi çok stratejik geçecektir"* (**22 Eki 2021**, 5 ay önceden) | 2022 Q1 + Haz 2026 | **TUTTU (ikisi de)** — savaş 2022 ilk çeyrekte çıktı, DXY tam Haziran 2022'de 114,7 ile tepe yaptı |
@@ -56,6 +58,18 @@ _Önceki: 2026-09-04 (4 Eylül NFP günü girişlerinden 7 yeni pencere eklendi)
 
 | Kaynak | Verilen pencere | Pencere kapanış tarihi | Sonuç |
 |---|---|---|---|
+| **Kripto Teknik** | **Hunter Biden memecoin çıkışı 9 Eylül** — kaynağın değerlendirmesi: *"kumar"*, uzak durun | **9 Eyl 2026** | İZLENİYOR — olay takvimi + tavsiye; olayın gerçekleşmesi ölçülür, tavsiyenin isabeti ölçülmez |
+| **Barış Soydan** | **Oracle bilançosu 10 Eylül gecesi** — 167 mlr $ borç, CDS yükselmiş; hayal kırıklığı **AI-borçlu teknoloji hisselerine satış** getirebilir | **10 Eyl 2026** | İZLENİYOR — **koşullu pencere:** bilanço kesin, tepki koşullu. Koşullu kısım kapanmayabilir |
+| **Murat Sağman (Integral FX TV)** | **TCMB 10 Eylül'de İNDİRİR** — Matriks anketinde bu görüşteki tek kişi | **10 Eyl 2026** | İZLENİYOR — **dosyadaki en bağlayıcı TCMB tahmini**; Soydan'ın *"10 Eylül ya da Ekim"* penceresinden farkı, kaçış yolu bırakmaması (bkz. `14_CELISKI_PANELI.md` A10) |
+| **Selçuk Geçer + Barış Soydan + Murat Sağman** | **ECB 10 Eylül'de artırır** (3 kaynak, aynı gün, tek yön) | **10 Eyl 2026** | İZLENİYOR — `13_KONSENSUS.md`'nin **tek günde ölçülecek tek konsensüs kaydı** |
+| **Ali Perşembe + Selçuk Geçer** | **11 Eylül ABD CPI** (beklenti aylık %0,4 · çekirdek %0,2 · yıllık %2,5) — altında gelirse Geçer'in altın zinciri, üstünde gelirse Perşembe'nin düzeltme beklentisi çalışır | **11 Eyl 2026** | İZLENİYOR — tek veri, **iki kaynağı birden** ölçüyor (bkz. `14_CELISKI_PANELI.md` A15) |
+| **Kripto Teknik** | **Clarity Act 15 Eylül'de ÇIKMAZ** — *"tren kaçtı"*; aktarılan senatör ifadesi: bu 2 ayda çıkmazsa **2030'a kadar zor** | **15 Eyl 2026** | İZLENİYOR — ⚠️ **dosyadaki ilk NEGATİF tarihli iddia** (bir şeyin OLMAYACAĞI). Kemal Hiçyılmaz'ın *"15 Eylül oylaması"* ve Berk Dinçtürk'ün *"Eylül'de çıkar"* pencerelerinin **karşısında** — aynı tarih, zıt beklenti |
+| **Kripto Teknik** | **Fed 16 Eylül:** %60 artırım / %40 sabit fiyatlaması; Perşembe ÜFE + Cuma TÜFE yönü netleştirir | **16 Eyl 2026** | İZLENİYOR — piyasa fiyatlaması aktarımı, kaynağın kendi tahmini değil |
+| **Kripto Teknik (kurum konsensüsü aktarımı)** | **Fed'in İLK İNDİRİMİ 2027 YAZI** (İran-ABD sonrası dönem) | ~Tem 2027 | İZLENİYOR — ⚠️ **Koç'un 3 boğa şartından 2.'si (faiz indirimi) için kritik not:** doğruysa indirim **H2-2026 penceresinin tamamen dışında** kalır. Bkz. aşağıdaki "Koç'un boğa şartları" notu |
+| **Turhan Bozkurt** | **Politika faizi 2027 ilk yarısında %25'e**, banka faizi %23-27 | 30 Haz 2027 | İZLENİYOR |
+| **Turhan Bozkurt** | *"Dolar 100'ü göreceksiniz"* · seçim sonrası devalüasyon | **tarih verilmedi** | İZLENİYOR — ⚠️ **ölçülemez pencere.** Çiçek'in *"kur patlayacak"* kaydıyla aynı tür; bu karnenin tuttuğu **tarihsiz iddia** listesi büyüyor (artık 3 satır) |
+| **Kripto Teknik** | **Golden Cross + 3-4 ay = sertleşme** → **2027 başı 100 K+** | ~Ara 2026 – Oca 2027 | İZLENİYOR — kesişim 7 Eylül'de olduğu için pencere **Aralık 2026 – Ocak 2027**. ⚠️ Kaynağın kendi karnesi karışık: 2023 ve 2024 kesişimleri çalıştı, **2025 Mayıs etkisiz kaldı** (3'te 2) |
+| **Selçuk Geçer** | **Gram altın 10.000 TL** — *"çok yakında"* | **tarih verilmedi** ("çok yakında") | İZLENİYOR — ⚠️ Bozkurt'un aynı hedefi **"yıl sonu"** demesiyle **vade ayrışması**: aynı sayı, iki farklı takvim. Bozkurt'un satırı 31 Aralık'ta kapanır, Geçer'inki **kapanamaz** |
 | **Selçuk Geçer** | **ECB 10 Eylül'de faiz artırır** ("neredeyse kesin"); Euro Bölgesi ÜFE aylık +%1,6 dayanağı | **10 Eyl 2026** | İZLENİYOR — **dosyadaki en yakın pencere** |
 | **Barış Soydan** | **TCMB 10 Eylül ya da Ekim'de faiz indirir** → mevduat cazibesi azalır | 10 Eyl 2026 → 31 Eki 2026 | İZLENİYOR — 10 Eylül'de kısmen ölçülür; indirmezse Ekim'e sarkar, kapanmaz |
 | **Tunç Şatıroğlu + Selçuk Geçer** | **Fed 16 Eylül'de artırmaz** (Geçer: "sabit — ne artırım ne indirim"; Tunç: "CME %59,4 fiyatlıyor, ben beklemiyorum") | **16 Eyl 2026** | İZLENİYOR — piyasa fiyatlamasına **karşı** pozisyon |
@@ -69,7 +83,6 @@ _Önceki: 2026-09-04 (4 Eylül NFP günü girişlerinden 7 yeni pencere eklendi)
 | **Cüneyt Paksoy** | **TCMB indirimi Kasım/Aralık'ta, 1-2 puan** (Eylül toplantısı bekle-gör) | 31 Ara 2026 | İZLENİYOR — Soydan'ın 10 Eyl/Ekim penceresiyle **çelişiyor**, bkz. `14_CELISKI_PANELI.md` A10 |
 | Onur Duygu | Ağustos = "pivot ay" | 31 Ağu 2026 | İZLENİYOR — **yarın kapanıyor** |
 | Kripto Teknik | ETH Golden Cross ~29-30 Ağustos | 30 Ağu 2026 | İZLENİYOR — **bugün kapanıyor** |
-| Kripto Teknik | BTC Golden Cross **1 Eylül 2026** (200 GO $69.000) | 1 Eyl 2026 | İZLENİYOR |
 | Tunç Şatıroğlu | Nasdaq 1 Eylül'e kadar yükselir, **1 Eylül – 9 Ekim düşer**, sonra ara seçime kadar ralli | 9 Eki 2026 | İZLENİYOR |
 | Tunç Şatıroğlu | Eylül'de **5-6 haftalık** ciddi düşüş (yeni zirveler sonrası) | ~15 Eki 2026 | İZLENİYOR |
 | Berk Dinçtürk | Jackson Hole sonrası **1-2 hafta oynaklık**, çöküş yok | ~11 Eyl 2026 | İZLENİYOR |
@@ -177,3 +190,36 @@ tekrar aranmasın.
    24 Eyl Trump-Şi · 30 Eyl Clarity son tarih · 30 Eyl Koç "gerçek yön").
    ➜ **Eylül sonunda bu dosya tek seferde büyük ölçüde kapanacak.** O tarihte
    `12_KAYNAK_PERFORMANS.md` sıralaması ilk kez gerçekten anlamlı hale gelecek.
+
+
+---
+
+## KOÇ'UN BOĞA ŞARTLARI — ZAMANLAMA NOTU (2026-09-07'de eklendi)
+
+`06_ANALIZ.md`'deki **"2. Yükseliş tetiği (3 koşul)"** — DXY 110 → 95 · **faiz
+indirimi** · Çin/emtia anlaşması — bu karneyle doğrudan ilgili, çünkü üç koşulun
+ikisi **tarihli** hale geldi:
+
+| Koşul | Durum (7 Eyl 2026) | Zamanlama sonucu |
+|---|---|---|
+| **1. DXY 110 → 95** | DXY **98,8**; `koc_tetigi.py` hesabı **%68,8** yol alınmış, eşik %80 | **PASİF** — otomatik ölçülüyor |
+| **2. Faiz indirimi** | Kurum konsensüsü (Kripto Teknik aktarımı, 7 Eyl): **ilk Fed indirimi 2027 yazı** | ⚠️ **H2-2026 penceresinin DIŞINA çıktı** |
+| **3. Çin/ABD emtia anlaşması** | Teyit eden kaynak **yok** | **PASİF** — `magicma/koc_tetigi_durum.json` `false`, **değiştirilmedi** |
+
+**Bunun anlamı (Koç'a atıf değil, takvim aritmetiği):** 2. koşul 2027 yazına
+kayarsa, üç koşulun aynı anda sağlandığı bir **H2-2026 rallisi** matematiksel
+olarak zorlaşır. Bu, Koç'un kendi **öteleme sıralamasıyla uyumlu**: *"Temmuz boşa
+gittiyse Ağustos/Eylül, o da olmazsa 2027."* Yani dış kaynak konsensüsü Koç'un
+çerçevesini **çürütmüyor**, üçüncü şıkkı (2027) işaret ediyor.
+
+⚠️ **Ama bu bir tahmin değil bir AKTARIM.** Kurum konsensüsleri en sık değişen
+şeydir; bu satır **canlı veri değil**, 7 Eylül 2026 itibarıyla bir kaynağın
+aktardığı beklentidir. `magicma/koc_tetigi.py`'nin faiz koşulu da zaten canlı
+değil (`11_DIS_KAYNAKLAR.md`'deki en son faiz ifadesini okuyor) — bu not o
+sınırlamanın belgelenmiş halidir.
+
+**Koç'un 60 günlük iç blok takvimi ile kesişim:** referans 20 Ağustos 2026,
+sonraki durak **19 Ekim 2026**. Kripto Teknik'in Golden Cross + 3-4 ay penceresi
+(**Aralık 2026 – Ocak 2027**) bunun **bir blok sonrasına** düşüyor
+(19 Ekim + 60 gün ≈ **18 Aralık 2026**). İki bağımsız yöntem yakın bir bölgeyi
+işaretliyor — **konsensüs değil, izlenmesi gereken bir kesişim.**
