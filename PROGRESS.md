@@ -4045,3 +4045,54 @@ iş görsel defteri turu olarak belirlendi (TUR 20 sonrası 482 bekleyen görsel
   (yön değil buluşma noktası), (b) rasyo seviyeleri (NASDAQ/ALTIN, NASDAQ/ETH,
   XAG/BTC, XAU/NASDAQ) hiçbir yerde takip edilmiyor — türetilmiş sembol tanımı gerek.
   GOLDGR de aynı sebeple listede yok (XAUTRY onun karşılığı DEĞİL).
+
+
+## 2026-09-07 — 7 Eylül derlemesi: 5 video (Kripto Teknik, Geçer, Soydan, Integral, Bozkurt)
+
+**Yapılan iş:** `11_DIS_KAYNAKLAR.md`'ye 5 kaynağın mevcut bölümü sonuna 7 Eylül
+girişi + KARNE EK (**27 yeni İZLENİYOR satırı**, yeni kaynak yok). Türetilmiş
+dosyaların tamamı (12, 13, 14, 16, 18) + `onemli_seviyeler.json` (+26 → **405**)
+ve `kaynak_konsensus.json` (25 → **29 kayıt**) yeniden hesaplandı. Push: `7c092de`.
+
+**Alınan kararlar ve nedeni:**
+- **Bozkurt videosunun Sabancı / Zorlu / kayyum / siyasi kısmı İŞLENMEDİ.**
+  Doğrulanamaz ve piyasa seviyesi içermiyor — 17 Ağustos girişindeki "ayrı katman"
+  kuralının aynen sürdürülmesi.
+- **13_KONSENSUS sıralama tablosu artık JSON'dan üretiliyor.** Elle bakımı sırasında
+  numaralar ve skorlar kayıyordu; tek kaynak JSON oldu, tablo türev.
+- **Gümüş 71 (Bozkurt) konsensüs bandına ALINMADI.** Aynı gün Soydan 66 diyor;
+  bandı genişletmek sahte uzlaşma üretirdi. A13 olarak *veri çelişkisi* kaydedildi.
+- **XU100 14.000 ayrı kayıt açıldı**, Yeşilada'nın 14.000 direncine birleştirilmedi —
+  aynı sayı, zıt rol (A6'nın devamı).
+
+**Çıkarımlar ve gözlemler:**
+- ⭐ **Karne ikinci kez bir "veri bozulması" yakaladı** (A11 NFP çarpanı, A13 gümüş
+  fiyatı). İkisi de ancak iki kaynak **aynı oturumda** işlendiği için görüldü;
+  ayrı oturumlara düşselerdi fark edilmezdi. ➜ Giriş yaparken her sayısal veriyi
+  en az bir başka kaynakla karşılaştırmak artık bir gereklilik.
+- ⭐ **Kripto Teknik'in 1 Eylül Golden Cross penceresi 6 gün gecikmeyle kapandı**
+  (olay 7 Eylül'de oldu; 200g tahmini 69.000 → gerçek 69.800, %1,2 sapma).
+  Bu, 16_ZAMANLAMA_KARNESI'nin ölçmek için kurulduğu tam durum: **yön doğru,
+  takvim yanlış.** Karnedeki ilk "KISMEN" tipi zamanlama kaydı.
+- ⚠️ **İZLENİYOR oranı üçüncü oturumdur artıyor** (%92 → %92,1 → **%93,0**).
+  Sorun kaynak akışının hızı değil, **kapatma adımının hiç çalıştırılmaması**.
+  10-11 ve 16 Eylül üç pencereyi birden kapatacak; o oturumda kapatma yapılmazsa
+  oran %94'ü geçer. `12_KAYNAK_PERFORMANS.md`'de iş listesi hazır.
+- ⚠️ **Yanlışlanamayan iddia sorunu büyüyor.** Bozkurt'un *"dolar 100'ü
+  göreceksiniz"* (tarihsiz) ve *"endeks mühendisliği"* (endeks yükselse de
+  savunulabilir) türü iddialar isabet oranını **suni olarak koruyor** — ne tutar
+  ne tutmaz. Tarihsiz iddia sayısı artık 3.
+- **Fed ilk indirimi 2027 yazı (kurum konsensüsü aktarımı)**, Koç'un 3 boğa
+  şartından 2.'sini H2-2026 penceresinden çıkarıyor. Koç'un kendi *"Temmuz olmazsa
+  Ağustos/Eylül, o da olmazsa 2027"* sıralamasıyla **uyumlu** — çürütme değil.
+  `koc_tetigi_durum.json` **değiştirilmedi** (Çin-ABD teyidi yok).
+
+**Açık kalan:**
+- **XAUTRY ≠ GOLDGR sorunu bu oturumda somutlaştı:** gram altın 10.000 TL hedefi
+  (3 kaynak) kütüphaneye girdi ama XAUTRY ons/TRY olduğu için **alarm üretemez**.
+  Kayıt açıklamasında işaretlendi; türetilmiş GOLDGR sembolü tanımlanana kadar
+  elle izlenecek. (Bu, 4-5 Eylül oturumunda not edilen eksiğin ikinci kez
+  karşımıza çıkması.)
+- **BRENT sembolü hâlâ eşleşmiyor** (sembol listesinde `UKOIL` var). Bu oturumda
+  3 yeni BRENT seviyesi eklendi (110 / 120 / 40) ve üçü de alarm motorunda
+  atlanıyor. Ya kütüphanede `UKOIL`'e geçilmeli ya da bir takma-ad eşlemesi gerek.

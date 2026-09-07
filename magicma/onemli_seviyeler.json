@@ -3095,7 +3095,7 @@
     "enstruman": "XAUTRY",
     "seviye": 10000,
     "tur": "hedef",
-    "aciklama": "GRAM ALTIN TL hedefi (ons degil). Bozkurt 17 Agu 'yil sonu 10.000 TL/gram' (oncu), Cicek 6 Eyl, Gecer 7 Eyl 'cok yakinda 10.000 TL ustu'. NOT: XAUTRY sembolu gram degil ONS/TRY olabilir - alarm eslesmesi yaparken birim kontrolu gerekir.",
+    "aciklama": "GRAM ALTIN TL hedefi (ons degil). Bozkurt 17 Agu 'yil sonu 10.000 TL/gram' (ONCU), Cicek 6 Eyl, Gecer 7 Eyl 'cok yakinda 10.000 TL ustu'. !! SEMBOL UYARISI: XAUTRY = ONS/TRY, GOLDGR (gram) DEGIL - bu PROGRESS.md'de belgelenmis bilinen eksik. Gram karsiligi ~10.000 TL iken XAUTRY ~215.000 civarindadir, yani bu kayit ALARM URETMEZ ve uretmemelidir; kutuphanede yalnizca KAYIT amaciyla duruyor. Turetilmis GOLDGR sembolu tanimlanana kadar bu seviye elle izlenir. VADE AYRISMASI: Bozkurt 'yil sonu', Gecer 'cok yakinda' - ayni sayi, iki takvim (bkz. 16_ZAMANLAMA_KARNESI).",
     "tarih_eklendi": "2026-09-07"
   },
   {
