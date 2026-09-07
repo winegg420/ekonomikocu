@@ -4003,3 +4003,24 @@ iş görsel defteri turu olarak belirlendi (TUR 20 sonrası 482 bekleyen görsel
 - **"Eş zamanlı" etiketinin bir kısmı kaynakların hızından değil arşivleme
   ritminden doğuyor** — beş video tek oturumda işlendiği için 4 Eylül'ün üç
   konsensüs kaydı da otomatik "eş zamanlı" oldu. 18'e not düşüldü.
+
+## 2026-09-07 — MagicMA taraması (bubbles hariç) + @ekonomikocu taraması
+
+- **MagicMA taraması, bubbles tazelemesi ATLANARAK** (kullanıcı isteği) yapıldı:
+  `magicma_gozetmen.py`. Chrome CDP kapalıydı, gözetmen kendisi açtı.
+  534 sembolden **519 tarandı**, 15'i kara listeden atlandı (kalan 0).
+  Gözetmen "2 tur üst üste ilerleme yok" diyerek exit 1 verdi — iş bitmişti,
+  bu normal bitiş biçimi.
+- Üretilenler: `magicma/magicma_rapor_2026-09-07.md` (340 sembol rapora girdi),
+  `magicma/magicma_islem_adaylari_2026-09-07.md` (**17 aday**, ≤%0,25).
+  En yakınlar: EURCAD %+0,03 long · EURGBP %+0,04 long · AXP %-0,04 short ·
+  BTC.D %+0,05 long · CCOLA %-0,10 short. Commit `7c4c690`.
+- **@ekonomikocu taraması** `EKO_AKIS=yanit` ile (with_replies akışı):
+  **+81 yeni tweet** (7904 → 7985), alıntı 148. Akış 23 scroll'da durdu
+  ("bu oturumda görülen en eski 2026-08-10, hedef 2026-09-01").
+  Sınıflandırma + paket otomatik koştu; 13 reklam/kirli satır atlandı.
+  Commit `5192007`, push tamam.
+- **Gözlem:** arşivdeki en yeni kayıt **2026-09-05T18:48:10** — 6-7 Eylül'de
+  kayıt yok. Hafta sonu olduğu için beklenen olabilir, ama bir sonraki taramada
+  bu tarihlerin gerçekten boş olup olmadığı canlıdan teyit edilmeli.
+- LFS durumu: 861 MB / 1024 MB (%84), 2026-08-02'den beri sabit.
