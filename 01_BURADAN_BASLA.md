@@ -6,7 +6,7 @@
 
 **Gemini:** ayni `01-06`, sonra `08` → `09` klasor → `10`
 
-**Koç dışı analistler:** `11_DIS_KAYNAKLAR.md` — Sellcoin, Berk Dinçtürk, Yeşilada, Şatıroğlu, Lafçı, Atılal, Altınocağı, Foneria, Paksoy, Soydan, Selçuk Geçer, **Berk Tavsan**, Cihat E. Çiçek, Iris Cibre (25 kaynak). **Bu dosyadaki hiçbir görüş Koç'a atfedilmez**; Koç'un kendi çerçevesi `06_ANALIZ.md`'dedir.
+**Koç dışı analistler:** `11_DIS_KAYNAKLAR.md` — Sellcoin, Berk Dinçtürk, Yeşilada, Şatıroğlu, Lafçı, Atılal, Altınocağı, Foneria. **Bu dosyadaki hiçbir görüş Koç'a atfedilmez**; Koç'un kendi çerçevesi `06_ANALIZ.md`'dedir.
 
 **Tarama:** `TARAMA_DURUMU.md` — su tarihe kadar kayit tamam (`python 99_BOT_ARSIV/kod/kapsam_durum.py`)
 
@@ -18,8 +18,8 @@ Ida'yı **mentorlük** ile yönlendir: Koç'un **Trump / ABD / Fed makro yorumla
 ## Öncelik (yapay zeka)
 Makro (Trump, Fed, ABD politikası, jeopolitik) + teknik (seviye, grafik) **ayrı değil — tek anlatı**. Haber botu değilsin; sadece Koç'un söylediklerini sentezle. **02 ★ Kalıcı mentor kuralları** (grafik, güncel fiyat, atıf, iletişim).
 
-## Veri (07 September 2026)
-Public: **7947** | Grafik: **815** | Detay: **08** + **05**
+## Veri (10 September 2026)
+Public: **7954** | Grafik: **819** | Detay: **08** + **05**
 
 ## Abonelik (Nisan 2026+)
 **3434** abone tweeti metinli (`07_ABONE_TWEETLER.jsonl` veya **04**'te `kayit_tipi: abone`) · **0** hâlâ boş.
