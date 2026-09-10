@@ -4122,3 +4122,16 @@ ve `kaynak_konsensus.json` (25 → **29 kayıt**) yeniden hesaplandı. Push: `7c
 - **Dogrulama:** ekran disi pencerede BTCUSDT/ETHUSDT 2 sn'de OK okundu; tarama
   461 -> 735 sembol sorunsuz devam etti. Ilk turdaki 12 pes peşe "okunamadi"
   regresyon degildi, liste basindaki olu MEXC/KuCoin coinleriydi.
+
+## 2026-09-10 (2. oturum) — ekonomikocu guncel tarama
+
+- `tara_guvenli.py` tek girisle calistirildi, exit 0.
+- Sonuc: **7990 tweet** (+6 yeni), alinti 150. Durdurma kosulu: bu oturumda
+  gorulen en eski 2026-07-01 (hedef 2026-09-02) ve 1 scroll'dur yeni yok.
+- Yeni medya: 5 grafik (`medya/`), 4 tanesi `09_GRAFIKLER_GEMINI/`ye kopyalandi.
+- Siniflandirma + 00-10 yukleme paketi yeniden uretildi; reklam/kirli 13 satir
+  pakete alinmadi.
+- Push: `ce173ed` (1ddb683..ce173ed). LFS kullanimi 861 MB / 1024 MB (%84), sabit.
+- Tazelik dogrulamasi (sessiz bos tarama kontrolu): en yeni kayit 2026-09-10 (4),
+  09-09 (2), 09-05 (39). 06-08 Eylul'de kayit yok — o gunlerde paylasim
+  yapilmamis, tarama eksigi degil (durdurma hedefi 09-02'yi zaten gecti).
