@@ -4096,3 +4096,29 @@ ve `kaynak_konsensus.json` (25 → **29 kayıt**) yeniden hesaplandı. Push: `7c
 - **BRENT sembolü hâlâ eşleşmiyor** (sembol listesinde `UKOIL` var). Bu oturumda
   3 yeni BRENT seviyesi eklendi (110 / 120 / 40) ve üçü de alarm motorunda
   atlanıyor. Ya kütüphanede `UKOIL`'e geçilmeli ya da bir takma-ad eşlemesi gerek.
+
+## 2026-09-10 — MagicMA taramasi + Chrome pencere odak sorunu
+
+- Bubbles tazelendi (395 hareketli coin), MagicMA taramasi tamamlandi:
+  **735 sembol**, rapora giren 475, okunamayan 30 (kara liste 55).
+- Rapor: `magicma/magicma_rapor_2026-09-10.md`,
+  islem adaylari: `magicma/magicma_islem_adaylari_2026-09-10.md`. Push edildi.
+- **SORUN:** tarama boyunca Chrome penceresi her sembol gecisinde one firliyor,
+  kullanici bilgisayari kullanamiyordu.
+- **Sebep:** `magicma_yakinlik.sembol_gecis()` sembol arama dugmesine Playwright
+  `.click()` ile SENTETIK FARE olayi gonderiyordu; Windows'ta CDP fare olayi
+  render widget'ina odak verdirip pencereyi yukseltiyor.
+- **Cozum (iki katman):**
+  1. `magicma_yakinlik.py` — arama kutusu sayfa ici JS ile aciliyor, metin native
+     value setter + `input` olayiyla yaziliyor; fare/odak olayi yok. JS yolu
+     tutmazsa eski `.click()`/`fill()` yontemine dusuyor.
+     Eski davranis: `set MAGICMA_FARE_ILE_GECIS=1`.
+  2. `magicma_gozetmen.py` — tarama Chrome'u artik EKRAN DISINDA aciliyor
+     (`--window-position=-32000,-32000`) ve her turda `pencere_gizle()` ile CDP
+     `Browser.setWindowBounds` uzerinden yeniden ekran disina itiliyor.
+     Gorunmeyen pencerede render kisilmasin diye
+     `--disable-backgrounding-occluded-windows`, `--disable-renderer-backgrounding`,
+     `--disable-features=CalculateNativeWinOcclusion` eklendi.
+- **Dogrulama:** ekran disi pencerede BTCUSDT/ETHUSDT 2 sn'de OK okundu; tarama
+  461 -> 735 sembol sorunsuz devam etti. Ilk turdaki 12 pes peşe "okunamadi"
+  regresyon degildi, liste basindaki olu MEXC/KuCoin coinleriydi.

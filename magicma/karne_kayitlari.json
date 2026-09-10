@@ -56864,10 +56864,10 @@
   ],
   "giris_fiyati": 5.0,
   "giris_zamani": "2026-09-10T14:10:26+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarisiz",
+  "sonuc_fiyati": 4.98,
+  "sonuc_zamani": "2026-09-10T14:50:26+03:00",
+  "sonuc_yuzde": -0.4
  },
  {
   "id": "ISCTR_2026-09-10T14:10:26+03:00_G-Alt",
@@ -56952,10 +56952,10 @@
   ],
   "giris_fiyati": 0.112,
   "giris_zamani": "2026-09-10T14:20:26+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarisiz",
+  "sonuc_fiyati": 0.1113,
+  "sonuc_zamani": "2026-09-10T14:50:26+03:00",
+  "sonuc_yuzde": -0.625
  },
  {
   "id": "AVPGY_2026-09-10T14:20:26+03:00_G-Ust",
@@ -57018,10 +57018,10 @@
   ],
   "giris_fiyati": 0.01694,
   "giris_zamani": "2026-09-10T14:30:26+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarili",
+  "sonuc_fiyati": 0.01716,
+  "sonuc_zamani": "2026-09-10T14:50:26+03:00",
+  "sonuc_yuzde": 1.299
  },
  {
   "id": "ZEREBROUSDT_2026-09-10T14:30:26+03:00_G-Ust",
@@ -57128,10 +57128,10 @@
   ],
   "giris_fiyati": 0.0346,
   "giris_zamani": "2026-09-10T14:40:26+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarisiz",
+  "sonuc_fiyati": 0.0345,
+  "sonuc_zamani": "2026-09-10T14:50:26+03:00",
+  "sonuc_yuzde": -0.289
  },
  {
   "id": "FLOKIUSDT_2026-09-10T14:40:26+03:00_G-Ust",
@@ -57150,6 +57150,28 @@
   ],
   "giris_fiyati": 2.44e-05,
   "giris_zamani": "2026-09-10T14:40:26+03:00",
+  "durum": "acik",
+  "sonuc_fiyati": null,
+  "sonuc_zamani": null,
+  "sonuc_yuzde": null
+ },
+ {
+  "id": "NILUSDT_2026-09-10T14:50:26+03:00_G-Ust",
+  "sembol": "NILUSDT",
+  "kategori": "gunun_hareketlileri",
+  "cizgi_adi": "Magicma Günlük Üst Çizgi",
+  "cizgi_degeri": 0.0435163636,
+  "yon": "short",
+  "kaynak_turu": "teknik",
+  "kaynak": "BINANCE",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Üst Çizgi"
+  ],
+  "giris_fiyati": 0.04349,
+  "giris_zamani": "2026-09-10T14:50:26+03:00",
   "durum": "acik",
   "sonuc_fiyati": null,
   "sonuc_zamani": null,
