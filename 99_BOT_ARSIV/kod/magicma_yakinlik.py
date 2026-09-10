@@ -309,13 +309,52 @@ _INP_SEL = ('input[placeholder*="Sembol"], input[placeholder*="Symbol"], '
             'input[placeholder*="ISIN"], input[class*="search"]')
 
 
+# CDP ile gonderilen sentetik FARE olayi (Playwright .click) Windows'ta Chrome
+# penceresini one getiriyor: her sembol gecisinde pencere yukseliyordu
+# (2026-09-10). Cozum: arama kutusunu acmayi ve metin girisini fare/odak olayi
+# olmadan, sayfa icinde JS ile yap. Klavye olaylari (Escape/Enter) pencereyi
+# one almiyor, onlar korundu. Eski davranisa donmek icin:
+#   set MAGICMA_FARE_ILE_GECIS=1
+_FARE_ILE = os.environ.get("MAGICMA_FARE_ILE_GECIS") == "1"
+
+_JS_ARAMA_AC = """() => {
+  const b = document.querySelector('#header-toolbar-symbol-search');
+  if (!b) return false;
+  b.click();
+  return true;
+}"""
+
+_JS_YAZ = """([el, deger]) => {
+  const setter = Object.getOwnPropertyDescriptor(
+      window.HTMLInputElement.prototype, 'value').set;
+  setter.call(el, deger);
+  el.dispatchEvent(new Event('input', {bubbles: true}));
+  el.dispatchEvent(new Event('change', {bubbles: true}));
+  return el.value;
+}"""
+
+
 def sembol_gecis(tv, sym):
     """Grafik icinde sembolu degistir (sayfa yenilemeden -> ~4x hizli)."""
     tv.keyboard.press("Escape")  # acik kalmis diyalog varsa kapat
     time.sleep(0.12)
-    tv.click("#header-toolbar-symbol-search", timeout=8000)
+    js_ok = False
+    if not _FARE_ILE:
+        try:
+            js_ok = bool(tv.evaluate(_JS_ARAMA_AC))
+        except Exception:
+            js_ok = False
+    if not js_ok:
+        tv.click("#header-toolbar-symbol-search", timeout=8000)
     inp = tv.wait_for_selector(_INP_SEL, timeout=5000)
-    inp.fill(sym)
+    yazildi = False
+    if js_ok:
+        try:
+            yazildi = tv.evaluate(_JS_YAZ, [inp, sym]) == sym
+        except Exception:
+            yazildi = False
+    if not yazildi:
+        inp.fill(sym)  # JS yolu tutmadiysa eski yontem
     time.sleep(0.45)
     tv.keyboard.press("Enter")
 

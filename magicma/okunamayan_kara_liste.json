@@ -1,7 +1,27 @@
 {
+ "BINANCE:CRCLBUSDT": {
+  "ilk_basarisiz": "2026-09-10",
+  "son_basarisiz": "2026-09-10",
+  "deneme_sayisi": 3
+ },
+ "BINANCE:GENIUSUSDT": {
+  "ilk_basarisiz": "2026-09-10",
+  "son_basarisiz": "2026-09-10",
+  "deneme_sayisi": 3
+ },
+ "BINANCE:GMEBUSDT": {
+  "ilk_basarisiz": "2026-09-10",
+  "son_basarisiz": "2026-09-10",
+  "deneme_sayisi": 3
+ },
  "BINANCE:ICXUSDT": {
   "ilk_basarisiz": "2026-09-04",
   "son_basarisiz": "2026-09-04",
+  "deneme_sayisi": 3
+ },
+ "BINANCE:MARSCOINUSDT": {
+  "ilk_basarisiz": "2026-09-10",
+  "son_basarisiz": "2026-09-10",
   "deneme_sayisi": 3
  },
  "BINANCE:NFPUSDT": {
@@ -21,8 +41,8 @@
  },
  "BINANCE:SPYBUSDT": {
   "ilk_basarisiz": "2026-09-01",
-  "son_basarisiz": "2026-09-01",
-  "deneme_sayisi": 3
+  "son_basarisiz": "2026-09-10",
+  "deneme_sayisi": 4
  },
  "BITGET:DEBITUSDT": {
   "ilk_basarisiz": "2026-09-04",
@@ -36,12 +56,22 @@
  },
  "BYBIT:KIIUSDT": {
   "ilk_basarisiz": "2026-08-26",
-  "son_basarisiz": "2026-08-26",
-  "deneme_sayisi": 3
+  "son_basarisiz": "2026-09-10",
+  "deneme_sayisi": 4
  },
  "BYBIT:SLXUSDT": {
   "ilk_basarisiz": "2026-08-26",
   "son_basarisiz": "2026-08-26",
+  "deneme_sayisi": 3
+ },
+ "KUCOIN:LAPTOPUSDT": {
+  "ilk_basarisiz": "2026-09-10",
+  "son_basarisiz": "2026-09-10",
+  "deneme_sayisi": 3
+ },
+ "MEXC:4STOCKUSDT": {
+  "ilk_basarisiz": "2026-09-10",
+  "son_basarisiz": "2026-09-10",
   "deneme_sayisi": 3
  },
  "MEXC:AIDOGEUSDT": {
@@ -51,13 +81,8 @@
  },
  "MEXC:ALIGNUSDT": {
   "ilk_basarisiz": "2026-08-26",
-  "son_basarisiz": "2026-08-26",
-  "deneme_sayisi": 3
- },
- "MEXC:ANSEMUSDT": {
-  "ilk_basarisiz": "2026-08-26",
-  "son_basarisiz": "2026-08-26",
-  "deneme_sayisi": 3
+  "son_basarisiz": "2026-09-10",
+  "deneme_sayisi": 4
  },
  "MEXC:ANTFUNUSDT": {
   "ilk_basarisiz": "2026-09-04",
@@ -69,14 +94,34 @@
   "son_basarisiz": "2026-09-04",
   "deneme_sayisi": 3
  },
- "MEXC:BASECATUSDT": {
-  "ilk_basarisiz": "2026-08-26",
-  "son_basarisiz": "2026-08-26",
+ "MEXC:BONERUSDT": {
+  "ilk_basarisiz": "2026-09-10",
+  "son_basarisiz": "2026-09-10",
   "deneme_sayisi": 3
  },
  "MEXC:CASHCATUSDT": {
   "ilk_basarisiz": "2026-09-04",
   "son_basarisiz": "2026-09-04",
+  "deneme_sayisi": 3
+ },
+ "MEXC:CATEUSDT": {
+  "ilk_basarisiz": "2026-09-10",
+  "son_basarisiz": "2026-09-10",
+  "deneme_sayisi": 3
+ },
+ "MEXC:CNPYUSDT": {
+  "ilk_basarisiz": "2026-09-10",
+  "son_basarisiz": "2026-09-10",
+  "deneme_sayisi": 3
+ },
+ "MEXC:CPUSDT": {
+  "ilk_basarisiz": "2026-09-10",
+  "son_basarisiz": "2026-09-10",
+  "deneme_sayisi": 3
+ },
+ "MEXC:DELTAUSDT": {
+  "ilk_basarisiz": "2026-09-10",
+  "son_basarisiz": "2026-09-10",
   "deneme_sayisi": 3
  },
  "MEXC:DGAIUSDT": {
@@ -89,6 +134,11 @@
   "son_basarisiz": "2026-09-04",
   "deneme_sayisi": 3
  },
+ "MEXC:DRBUSDT": {
+  "ilk_basarisiz": "2026-09-10",
+  "son_basarisiz": "2026-09-10",
+  "deneme_sayisi": 3
+ },
  "MEXC:DRVUSDT": {
   "ilk_basarisiz": "2026-08-26",
   "son_basarisiz": "2026-08-26",
@@ -97,6 +147,11 @@
  "MEXC:FAIUSDT": {
   "ilk_basarisiz": "2026-09-04",
   "son_basarisiz": "2026-09-04",
+  "deneme_sayisi": 3
+ },
+ "MEXC:FATCOINUSDT": {
+  "ilk_basarisiz": "2026-09-10",
+  "son_basarisiz": "2026-09-10",
   "deneme_sayisi": 3
  },
  "MEXC:FONEUSDT": {
@@ -111,8 +166,8 @@
  },
  "MEXC:HMMUSDT": {
   "ilk_basarisiz": "2026-08-26",
-  "son_basarisiz": "2026-08-26",
-  "deneme_sayisi": 3
+  "son_basarisiz": "2026-09-10",
+  "deneme_sayisi": 4
  },
  "MEXC:HOOKRUSDT": {
   "ilk_basarisiz": "2026-08-30",
@@ -129,9 +184,39 @@
   "son_basarisiz": "2026-08-26",
   "deneme_sayisi": 3
  },
+ "MEXC:KISHUUSDT": {
+  "ilk_basarisiz": "2026-09-10",
+  "son_basarisiz": "2026-09-10",
+  "deneme_sayisi": 3
+ },
+ "MEXC:KNOTSUSDT": {
+  "ilk_basarisiz": "2026-09-10",
+  "son_basarisiz": "2026-09-10",
+  "deneme_sayisi": 3
+ },
  "MEXC:MARSCOINUSDT": {
   "ilk_basarisiz": "2026-08-30",
   "son_basarisiz": "2026-09-04",
+  "deneme_sayisi": 3
+ },
+ "MEXC:MICRODUCKUSDT": {
+  "ilk_basarisiz": "2026-09-10",
+  "son_basarisiz": "2026-09-10",
+  "deneme_sayisi": 3
+ },
+ "MEXC:MOOUSDT": {
+  "ilk_basarisiz": "2026-09-10",
+  "son_basarisiz": "2026-09-10",
+  "deneme_sayisi": 3
+ },
+ "MEXC:NESUSDT": {
+  "ilk_basarisiz": "2026-09-10",
+  "son_basarisiz": "2026-09-10",
+  "deneme_sayisi": 3
+ },
+ "MEXC:ORBIOUSDT": {
+  "ilk_basarisiz": "2026-09-10",
+  "son_basarisiz": "2026-09-10",
   "deneme_sayisi": 3
  },
  "MEXC:PIPEDOGUSDT": {
@@ -141,22 +226,32 @@
  },
  "MEXC:PODUSDT": {
   "ilk_basarisiz": "2026-08-26",
-  "son_basarisiz": "2026-08-26",
-  "deneme_sayisi": 3
+  "son_basarisiz": "2026-09-10",
+  "deneme_sayisi": 4
  },
  "MEXC:PONSUSDT": {
   "ilk_basarisiz": "2026-08-26",
-  "son_basarisiz": "2026-08-26",
-  "deneme_sayisi": 3
+  "son_basarisiz": "2026-09-10",
+  "deneme_sayisi": 4
  },
  "MEXC:QUIDUSDT": {
   "ilk_basarisiz": "2026-08-26",
   "son_basarisiz": "2026-08-26",
   "deneme_sayisi": 3
  },
+ "MEXC:ROBINUSDT": {
+  "ilk_basarisiz": "2026-09-10",
+  "son_basarisiz": "2026-09-10",
+  "deneme_sayisi": 3
+ },
  "MEXC:STONKBROKERUSDT": {
   "ilk_basarisiz": "2026-08-30",
   "son_basarisiz": "2026-09-04",
+  "deneme_sayisi": 3
+ },
+ "MEXC:STONKEXUSDT": {
+  "ilk_basarisiz": "2026-09-10",
+  "son_basarisiz": "2026-09-10",
   "deneme_sayisi": 3
  },
  "MEXC:STONKUSDT": {
@@ -166,7 +261,12 @@
  },
  "MEXC:TENDIESUSDT": {
   "ilk_basarisiz": "2026-08-26",
-  "son_basarisiz": "2026-08-26",
+  "son_basarisiz": "2026-09-10",
+  "deneme_sayisi": 4
+ },
+ "MEXC:UBIKUSDT": {
+  "ilk_basarisiz": "2026-09-10",
+  "son_basarisiz": "2026-09-10",
   "deneme_sayisi": 3
  },
  "NASDAQ:SPCX": {

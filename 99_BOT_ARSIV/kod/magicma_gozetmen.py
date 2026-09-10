@@ -62,7 +62,15 @@ def chrome_yenile() -> None:
     time.sleep(4)
     subprocess.Popen(
         [CHROME, "--remote-debugging-port=9222", f"--user-data-dir={SESS}",
-         "--lang=tr-TR", "--disable-features=Translate,TranslateUI",
+         "--lang=tr-TR",
+         # Pencere EKRAN DISINDA acilir: tarama sirasinda TradingView sekmesi
+         # kullanicinin onune firlayamaz (2026-09-10). Occlusion/backgrounding
+         # kapatilir, yoksa gorunmeyen pencerede Chrome render'i kisip
+         # gosterge degerleri guncellenmiyor.
+         "--window-position=-32000,-32000", "--window-size=1600,1000",
+         "--disable-backgrounding-occluded-windows",
+         "--disable-renderer-backgrounding",
+         "--disable-features=CalculateNativeWinOcclusion,Translate,TranslateUI",
          "--no-first-run", "--no-default-browser-check", "about:blank", TV],
         creationflags=getattr(subprocess, "DETACHED_PROCESS", 0),
     )
@@ -71,7 +79,35 @@ def chrome_yenile() -> None:
         if cdp_var():
             break
     time.sleep(20)  # TradingView layout + gostergeler yuklensin
+    pencere_gizle()
     log("Chrome yenilendi.")
+
+
+def pencere_gizle() -> None:
+    """Tarama Chrome'unun penceresini ekran disina tasi (CDP Browser.setWindowBounds).
+    Chrome zaten --window-position ile acildiysa bile, profil kayitli konumu geri
+    yukleyebiliyor; her turda bir kez zorlanir."""
+    try:
+        from playwright.sync_api import sync_playwright
+    except Exception:
+        return
+    try:
+        with sync_playwright() as p:
+            b = p.chromium.connect_over_cdp("http://127.0.0.1:9222")
+            ctx = b.contexts[0]
+            pg = ctx.pages[0] if ctx.pages else None
+            if pg is None:
+                return
+            cdp = ctx.new_cdp_session(pg)
+            wid = cdp.send("Browser.getWindowForTarget")["windowId"]
+            cdp.send("Browser.setWindowBounds", {
+                "windowId": wid,
+                "bounds": {"left": -32000, "top": -32000,
+                           "width": 1600, "height": 1000,
+                           "windowState": "normal"},
+            })
+    except Exception as e:
+        log(f"Pencere gizlenemedi: {e}")
 
 
 def tv_saglik() -> bool:
@@ -119,6 +155,7 @@ def main() -> int:
             log("CDP yok — Chrome yenileniyor.")
             chrome_yenile()
         tv_saglik()
+        pencere_gizle()
         log(f"Tur {tur}: kosucu baslatiliyor...")
         try:
             subprocess.run([PY, str(KOD / "magicma_tara_dayanikli.py")],
