@@ -4196,3 +4196,41 @@ karsilik **yok** — alarm motoru bu 4 enstrumani atliyor ve loga dusuyor
 `koc_tetigi_durum.json` **degistirilmedi** (Cin/ABD anlasmasini dogrulayan kaynak
 yok; Yesilada tersine ticaret savasinin yeniden baslamasini bekliyor).
 
+## 2026-09-11 (2. is) — "spy copper ekle": alarm kapsam bosluklari
+
+Istek: seviye kutuphanesindeki SPY ve COPPER enstrumanlarinin alarm motorunda
+eslesmesi. **Ikisi ayni sorun degildi.**
+
+### COPPER — eksik sembol DEGIL, BIRIM HATASI (asil bulgu)
+`COMEX:HG1!` **zaten** `sembol_listesi/forex_emtia.txt`'te ve taraniyor; eslesmeme
+sebebi kutuphanedeki kaydin `COPPER` adiyla ve **$/ton** biriminde yazilmis olmasiydi.
+TradingView HG1!'i **$/lb** kote ediyor (14533 vs ~6,6 — 2200 kat fark).
+Kayit `HG1!`e tasindi, **14533 / 2204,6226 = 6,5921 $/lb**'ye cevrildi.
+**Cift dogrulama:** 10 Eyl taramasi HG1! = 6,6185 (= 14.592 $/ton, Gecer'in
+rekoruyla %0,4 fark) · 11 Eyl canli 6,549 (= 14.438 $/ton, rekorun %0,65 alti).
+Log dogrulandi: atlanan enstruman 12 -> **11** (COPPER listeden dustu).
+
+### SPY — gercekten eksikti
+`AMEX:SPY` abd_hisse.txt'e eklendi. **Borsa prefiksi SINANAMADI** — Chrome CDP 9222
+kapaliydi, TradingView'e sorulamadi. Dosyaya "ilk taramada kontrol et, okunamazsa
+NYSE:SPY / BATS:SPY dene" notu birakildi. Kara liste mekanizmasi yanlis kodu 3
+denemeden sonra zaten atlayacagi icin tarama yavaslamaz.
+Ayrica not: SPY ~ SPX/10 ve `SP:SPX` zaten taraniyor — SPY okunamazsa Ozkent'in
+758/760/770 seviyeleri SPX karsiligiyla (7.580/7.600/7.700) izlenebilir.
+
+### Cikarim (kalici, sonraki oturumlar icin)
+`[ONEMLI] Taramada karsiligi olmayan N enstruman atlandi` logu **iki farkli seyi
+birden** gosteriyor:
+1. Gercekten eksik sembol (SPY, DRAM, USDT.D) -> listeye eklenmeli.
+2. **Var olan ama farkli isim/birimle kayitli** (COPPER -> HG1!) -> bu daha
+   tehlikeli, cunku seviye sessizce HIC tetiklenmez ve "eksik sembol" sanilir.
+**Seviye eklerken kaynak birimi ile TradingView kotasyon birimi karsilastirilmali.**
+
+### Acik kalan (kasitli)
+- **BRENT** muhtemelen ayni durumda: `TVC:UKOIL` zaten taraniyor, birim de ayni
+  ($/varil), yani sadece isim eslemesi olabilir. **Dogrulanmadan yapilmadi** —
+  dosyada Koc dahil cok sayida BRENT kaydi var, yanlis esleme hepsini bozar.
+- Kalan eslesmeyen: DRAM, USDT.D, SMH, US02Y, US30Y, XBANK (+ ABD piyasasi
+  kapali oldugu icin gecici gorunen META/NVDA/QCOM).
+- SPY'nin TradingView kodu ilk MagicMA taramasinda **dogrulanmali**.
+

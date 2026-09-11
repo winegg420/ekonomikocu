@@ -400,5 +400,30 @@ kapanacak** konsensüs kayıtlarından biri: tek bir EPDK ilan fiyatı gözlemiy
 - **Fon/TEFAS kayıtları (Atlas-Işıklar Enerji, Tera-Pusula)** — Lafçı ve Bozkurt
   aynı olayları anlatıyor ama **tahmin değil olay aktarımı**; konsensüs kaydı
   açılmadı, karne satırı olarak kaldı.
-- **SPY 758-770 (Özkent)** — tek kaynak. Ayrıca dosyadaki tek SPY kaydı;
-  `onemli_seviyeler.json`'a girdi ama sembol listesinde karşılığı yok (aşağıya bak).
+- **SPY 758-770 (Özkent)** — tek kaynak, konsensüs kaydı açılmadı.
+  `onemli_seviyeler.json`'a girdi; **2026-09-11'de `AMEX:SPY` sembol listesine eklendi**,
+  ilk MagicMA taramasından sonra alarm kapsamına girer.
+
+### 2026-09-11 eki — seviye kütüphanesinin iki kapsam boşluğu kapatıldı
+
+Kullanıcı isteği üzerine (*"spy copper ekle"*) alarm motorunun atladığı
+enstrümanlar incelendi. İkisi **iki farklı sebepten** atlanıyordu:
+
+- **SPY** — gerçekten eksikti. `AMEX:SPY` `sembol_listesi/abd_hisse.txt`'e eklendi.
+  ⚠️ Borsa prefiksi TradingView'e karşı **sınanamadı** (Chrome CDP 9222 kapalıydı);
+  ilk taramada "okunamadı" derse `NYSE:SPY` / `BATS:SPY` denenmeli.
+- **COPPER** — **eksik değildi, BİRİM HATASIYDI.** `COMEX:HG1!` zaten taranıyor
+  ama **$/lb** kote ediliyor; Geçer'in verdiği **14.533 $/ton** ise LME kotasyonu.
+  Kayıt `HG1!` enstrümanına taşındı ve **14533 / 2204,6226 = 6,5921 $/lb**'ye
+  çevrildi. **Çift doğrulama:** 10 Eylül taraması HG1! = 6,6185 (= 14.592 $/ton,
+  Geçer'in rakamıyla %0,4 fark) · 11 Eylül canlı fiyat 6,549 (= 14.438 $/ton,
+  rekorun %0,65 altı). İki bağımsız veri noktası da çevrimi doğruluyor.
+
+➜ **Genel ders — "taramada karşılığı yok" logu iki farklı şeyi birden gösteriyor:**
+gerçekten eksik semboller (SPY, DRAM, USDT.D) ile **var olan ama farklı isim/birimle
+kayıtlı** olanlar (COPPER→HG1!, muhtemelen **BRENT→UKOIL** de aynı durumda).
+İkincisi daha tehlikeli: seviye sessizce hiç tetiklenmez ve eksik sanılır.
+⚠️ **BRENT henüz düzeltilmedi** — dosyada Koç dahil çok sayıda BRENT kaydı var ve
+`TVC:UKOIL` zaten taranıyor; birim aynı ($/varil) olduğu için bu muhtemelen sadece
+bir isim eşlemesi, ama **doğrulanmadan yapılmamalı.**
+

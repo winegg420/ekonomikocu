@@ -100,3 +100,18 @@ NYSE:COP
 # NOT: 2026-08-20 itibariyla MagicMA plotlari bos (∅) — yeni listelenme, haftalik gecmis yetersiz.
 # Gosterge cizmeye baslayana kadar taramada "okunamadi" olarak gorunur.
 NASDAQ:SPCX
+
+# --- Ek 2026-09-11 (kullanici istegi: "spy copper ekle") ---
+# SPY = SPDR S&P 500 ETF. Bora Ozkent'in 10 Eyl seviyeleri (758 max pain / 760 /
+# 770) magicma/onemli_seviyeler.json'da SPY enstrumani olarak duruyor ama
+# taramada karsiligi yoktu; bu satir onu kapatiyor.
+# BORSA PREFIKSI DOGRULANMADI: SPY, NYSE Arca'da islem gorur ve TradingView bunu
+# "AMEX:SPY" diye kote eder. Chrome CDP 9222 kapali oldugu icin bu kod
+# TradingView'e karsi SINANAMADI (bkz. WMT/SPCX emsali: borsa dogrulugu degil,
+# TV'nin veri verdigi kod belirleyicidir).
+# ILK TARAMADA KONTROL ET: "okunamadi" derse kod yanlistir - AMEX:SPY yerine
+# NYSE:SPY ya da BATS:SPY denenmeli. Kara liste mekanizmasi 3 basarisiz denemeden
+# sonra sembolu zaten atlamaya baslar, yani yanlis kod taramayi yavaslatmaz.
+# NOT: SPY ~ SPX/10. SP:SPX zaten endeks_faiz.txt'te ve taraniyor; SPY okunamazsa
+# Ozkent'in seviyeleri SPX karsiligiyla (7.580 / 7.600 / 7.700) izlenebilir.
+AMEX:SPY

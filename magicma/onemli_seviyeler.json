@@ -3388,10 +3388,10 @@
   },
   {
     "kaynak": "Selcuk Gecer",
-    "enstruman": "COPPER",
-    "seviye": 14533,
+    "enstruman": "HG1!",
+    "seviye": 6.5921,
     "tur": "referans",
-    "aciklama": "10 Eyl: bakir rekoru. 'Tarife + arz kaynakli, talep gucu degil; arz enflasyonuna faiz care degil.' YENI ENSTRUMAN - sembol_listesi'nde karsiligi YOK, alarm motoru atlar (log'a duser).",
+    "aciklama": "10 Eyl: bakir rekoru. Gecer'in verdigi rakam 14.533 $/TON (LME kotasyonu); taramadaki COMEX:HG1! ise $/LB kote ediliyor. BIRIM CEVRILDI: 14533 / 2204,6226 = 6,5921 $/lb. Dogrulama: 10 Eyl taramasinda HG1! = 6,6185 $/lb (= 14.592 $/ton), Gecer'in rakamiyla %0,4 fark - ayni metal, ayni gun, tutarli. ENSTRUMAN COPPER -> HG1! olarak degistirildi (COMEX:HG1! zaten sembol_listesi/forex_emtia.txt'te, ayri kod eklemeye gerek yok). UYARI: bu enstrumana ileride seviye eklenirken kaynak $/ton veriyorsa MUTLAKA 2204,6226'ya bolunmeli - ham $/ton deger yazilirsa alarm asla tetiklenmez. Yorum: 'Tarife + arz kaynakli, talep gucu degil; arz enflasyonuna faiz care degil.'",
     "tarih_eklendi": "2026-09-10"
   },
   {
@@ -3495,7 +3495,7 @@
     "enstruman": "SPY",
     "seviye": 758,
     "tur": "destek",
-    "aciklama": "10 Eyl: Max Pain 758 (cuma opsiyon kapanisi) + 758-770 bandinin ALT ucu. YENI ENSTRUMAN - sembol_listesi'nde karsiligi YOK, alarm motoru atlar (log'a duser). SPX kaydiyla karistirmayin: SPY ~ SPX/10.",
+    "aciklama": "10 Eyl: Max Pain 758 (cuma opsiyon kapanisi) + 758-770 bandinin ALT ucu. 2026-09-11: AMEX:SPY sembol_listesi/abd_hisse.txt'e EKLENDI; ilk MagicMA taramasindan sonra kapsama girer (borsa prefiksi TradingView'e karsi sinanmadi, bkz. dosyadaki not). SPX kaydiyla karistirmayin: SPY ~ SPX/10.",
     "tarih_eklendi": "2026-09-10"
   },
   {
