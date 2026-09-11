@@ -12,14 +12,16 @@
       "Onur Duygu",
       "Tunç Şatıroğlu",
       "Berk Dinçtürk",
-      "Selçuk Geçer"
+      "Selçuk Geçer",
+      "Turhan Bozkurt",
+      "Bora Ozkent"
     ],
-    "kaynak_sayisi": 7,
+    "kaynak_sayisi": 9,
     "ilk_tespit_tarihi": "2026-08-10",
     "tip": "olasilik",
-    "not": "Deger araligi, artirim ihtimalinin fiyatlanan yuzdesidir (%35 Jackson Hole gunu -> %59,4 CME FedWatch, 4 Eylul NFP sonrasi). 4 Eylul'de Selcuk Gecer eklendi ('Fed artirmaz, indirmez; sabit') ve Tunc Satiroglu iddiasini yineledi ('CME %59,4 fiyatliyor ama ben artirim beklemiyorum'). DIKKAT: fiyatlanan ihtimal %35'ten %59,4'e cikarken kaynaklarin gorusu DEGISMEDI - grup piyasaya karsi pozisyon almis durumda, 16 Eylul FOMC bunu tek seferde olcecek. Ayni dosyada TERSI yonde 3 kaynakli bir grup da var - bkz. 14_CELISKI_PANELI.md. | 7 EYLUL EKI: Integral FX TV / Murat Sagman bu kaydin KARSISINDA - 'piyasada 1 artirim fiyatlandi, 2 yaparsa dengeler bozulur'. Kaynak sayisi degismedi (Sagman bu gruba girmedi, karsi gruba yazildi) ama karsi kamp guclendi; bkz. 14_CELISKI_PANELI A5. Selcuk Gecer 7 Eyl'de kendi 'sabit' gorusunu yineledi - piyasa fiyatlamasi %58-60'a cikmis olmasina ragmen goru degismedi.",
-    "agirlikli_skor": 4.0,
-    "hesaplama_notu": "7 kaynak, ortalama isabet orani %57.1 -> agirlikli skor = 7 * 0.5714"
+    "not": "Deger araligi, artirim ihtimalinin fiyatlanan yuzdesidir (%35 Jackson Hole gunu -> %59,4 CME FedWatch, 4 Eylul NFP sonrasi). 4 Eylul'de Selcuk Gecer eklendi ('Fed artirmaz, indirmez; sabit') ve Tunc Satiroglu iddiasini yineledi ('CME %59,4 fiyatliyor ama ben artirim beklemiyorum'). DIKKAT: fiyatlanan ihtimal %35'ten %59,4'e cikarken kaynaklarin gorusu DEGISMEDI - grup piyasaya karsi pozisyon almis durumda, 16 Eylul FOMC bunu tek seferde olcecek. Ayni dosyada TERSI yonde 3 kaynakli bir grup da var - bkz. 14_CELISKI_PANELI.md. | 7 EYLUL EKI: Integral FX TV / Murat Sagman bu kaydin KARSISINDA - 'piyasada 1 artirim fiyatlandi, 2 yaparsa dengeler bozulur'. Kaynak sayisi degismedi (Sagman bu gruba girmedi, karsi gruba yazildi) ama karsi kamp guclendi; bkz. 14_CELISKI_PANELI A5. Selcuk Gecer 7 Eyl'de kendi 'sabit' gorusunu yineledi - piyasa fiyatlamasi %58-60'a cikmis olmasina ragmen goru degismedi. | 10 EYLUL EKI: Turhan Bozkurt ('Fed haftaya sabit tutarsa altin 5.000+ / gumus 75+' - kosullu ama yonu net) ve Bora Ozkent ('faiz meselesi abartiliyor, nominal buyume %6'dayken 10Y %5 normal' - dolayli) eklendi; Selcuk Gecer 10 Eyl'de 'ne artirir ne indirir'i UCUNCU kez yineledi (yeni kaynak degil, TEKRAR). ⚠️ KARSI VERI - BANKA KONSENSUSU YOK: Cihat E. Cicek'in 11 Eyl aktarimina gore yil sonuna kadar BofA 3 artirim (75bp), Barclays 2 (50bp), Deutsche 2, BNP 1 (25bp), Citi 0, Goldman 0, HSBC 0. Yani KURUMLAR ikiye bolunmus durumda; bu kaydin 8 kaynagi kurum konsensusunu degil YOUTUBE analist kampini temsil ediyor. Ortam verisi: 10 Eyl ABD UFE yillik %5,4 (beklenti ustu) sonrasi piyasa Fed 16 Eyl artirimini %70 fiyatliyor - yani bu grup piyasanin TERSINDE, 16 Eylul tek seferde olcecek.",
+    "agirlikli_skor": 5.7,
+    "hesaplama_notu": "agirlikli_skor = 9 kaynak x (ortalama isabet 63.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
     "konu": "Altın kısa vade taban/biriktirme bandı (ons $)",
@@ -40,8 +42,25 @@
     "ilk_tespit_tarihi": "2026-08-06",
     "tip": "band",
     "not": "Dosyadaki en geniş yakınsama. Band %12,5 geniş olduğu için nokta konsensüsü değil; her kaynak bandın farklı bir kenarını vurguluyor (Atılal 4.000 destek, Paksoy 4.400-4.500 duvar).",
-    "agirlikli_skor": 3.5,
-    "hesaplama_notu": "7 kaynak, ortalama isabet orani %50.0 -> agirlikli skor = 7 * 0.5000"
+    "agirlikli_skor": 4.2,
+    "hesaplama_notu": "agirlikli_skor = 7 kaynak x (ortalama isabet 59.5% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
+  },
+  {
+    "konu": "Gumus yapisal YUKARI yon (Koc'un negatif okumasinin karsisindaki kamp)",
+    "deger_araligi": null,
+    "kaynaklar": [
+      "Sellcoin",
+      "Tunc Satiroglu",
+      "Emrah Lafci & Ali Persembe",
+      "Berk Dincturk",
+      "Berk Tavsan"
+    ],
+    "kaynak_sayisi": 5,
+    "ilk_tespit_tarihi": "2026-08-10",
+    "tip": "yon",
+    "not": "Hedefler farkli oldugu icin sayisal band verilmedi (Lafci&Persembe 73-74, Tavsan 80-90, Dincturk 3 hane) - ortak olan YON. 6 Eylul'de Berk Tavsan eklendi ('60-65 ustu kaldikca hedef 80-90'), boylece Koc'un 54-62 negatif okumasina karsi kaynak sayisi 4'ten 5'e cikti. Bkz. 14_CELISKI_PANELI.md B1.",
+    "agirlikli_skor": 3.2,
+    "hesaplama_notu": "agirlikli_skor = 5 kaynak x (ortalama isabet 63.3% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
     "konu": "TCMB gevşeme yönü — politika faizi 40 -> 37, haftalık repoya dönüş",
@@ -61,7 +80,7 @@
     "tip": "yon",
     "not": "Dosyadaki tek GERÇEKLEŞMİŞ konsensüs: Integral FX TV 10 Eylül dedi, 25 Ağustos'ta oldu (16 gün erken).",
     "agirlikli_skor": 3.0,
-    "hesaplama_notu": "5 kaynak, ortalama isabet orani %60.0 -> agirlikli skor = 5 * 0.6000"
+    "hesaplama_notu": "agirlikli_skor = 5 kaynak x (ortalama isabet 60.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
     "konu": "Gümüş Ağustos toparlanma bandı (ons $)",
@@ -80,24 +99,7 @@
     "tip": "fiyat_bandi",
     "not": "Manukyan 66,0 · Soydan 66,5 · Bozkurt 67,0 · Erkan Öz 66,35 — aralarındaki fark %1,5, tolerans içinde. Koç'un Temmuz'daki 54-62 bandının ÜSTÜNDE (bkz. 14_CELISKI_PANELI.md). | 7 EYLUL VERI CELISKISI: Turhan Bozkurt gumusu 71 $, Baris Soydan ayni gun 66 $ veriyor. Bandin kendisi degismedi (66 dogrulandi) ama Bozkurt'un rakami bant DISINDA - bkz. 14_CELISKI_PANELI A13. Bu bir tez ayrismasi degil VERI hatasi; kaydin kaynak listesinde Bozkurt'un 67'lik eski degeri duruyor, 71 kayda ALINMADI.",
     "agirlikli_skor": 3.0,
-    "hesaplama_notu": "4 kaynak, ortalama isabet orani %75.0 -> agirlikli skor = 4 * 0.7500"
-  },
-  {
-    "konu": "Gumus yapisal YUKARI yon (Koc'un negatif okumasinin karsisindaki kamp)",
-    "deger_araligi": null,
-    "kaynaklar": [
-      "Sellcoin",
-      "Tunc Satiroglu",
-      "Emrah Lafci & Ali Persembe",
-      "Berk Dincturk",
-      "Berk Tavsan"
-    ],
-    "kaynak_sayisi": 5,
-    "ilk_tespit_tarihi": "2026-08-10",
-    "tip": "yon",
-    "not": "Hedefler farkli oldugu icin sayisal band verilmedi (Lafci&Persembe 73-74, Tavsan 80-90, Dincturk 3 hane) - ortak olan YON. 6 Eylul'de Berk Tavsan eklendi ('60-65 ustu kaldikca hedef 80-90'), boylece Koc'un 54-62 negatif okumasina karsi kaynak sayisi 4'ten 5'e cikti. Bkz. 14_CELISKI_PANELI.md B1.",
-    "agirlikli_skor": 2.5,
-    "hesaplama_notu": "5 kaynak, ortalama isabet orani %50.0 -> agirlikli skor = 5 * 0.5000"
+    "hesaplama_notu": "agirlikli_skor = 4 kaynak x (ortalama isabet 75.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
     "konu": "BIST100 kritik eşik bölgesi",
@@ -115,8 +117,24 @@
     "ilk_tespit_tarihi": "2026-08-13",
     "tip": "esik",
     "not": "DİKKAT — aynı sayı, ZIT yön: Paksoy 14.000-14.500'ü 'asla kırılmamalı' destek sayarken Yeşilada 14.000'i güçlü DİRENÇ sayıyor. Sayısal örtüşme gerçek, yorum örtüşmesi yok. Bkz. 14_CELISKI_PANELI.md.",
-    "agirlikli_skor": 2.5,
-    "hesaplama_notu": "4 kaynak, ortalama isabet orani %62.5 -> agirlikli skor = 4 * 0.6250"
+    "agirlikli_skor": 3.0,
+    "hesaplama_notu": "agirlikli_skor = 4 kaynak x (ortalama isabet 75.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
+  },
+  {
+    "konu": "ABD CPI (11 Eylul haftasi) yonu belirleyecek - 'son kayip parca'",
+    "deger_araligi": null,
+    "kaynaklar": [
+      "Berk Tavsan",
+      "Selcuk Gecer",
+      "Baris Soydan",
+      "Tunc Satiroglu"
+    ],
+    "kaynak_sayisi": 4,
+    "ilk_tespit_tarihi": "2026-09-04",
+    "tip": "olay_penceresi",
+    "not": "Dort kaynak ayni veriyi ayni haftada belirleyici sayiyor. Tavsan: 'son kayip parca'. Gecer: altin izleme listesinin 5. maddesi. Soydan: 'beklentinin altinda gelirse altin icin olumlu'. Satiroglu: CPI sonrasi Fed fiyatlamasi. Sayisal hedef degil OLAY konsensusu - 16_ZAMANLAMA_KARNESI.md'de olculur.",
+    "agirlikli_skor": 3.0,
+    "hesaplama_notu": "agirlikli_skor = 4 kaynak x (ortalama isabet 75.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
     "konu": "ABD kamu borcu 40 trilyon $ eşiğini geçti",
@@ -135,23 +153,7 @@
     "tip": "olgu",
     "not": "Trilyon $. Dört kaynak aynı olguyu bağımsız aktarıyor; üçü bundan aynı sonucu (para arzı artışı mecburiyeti) çıkarıyor.",
     "agirlikli_skor": 2.5,
-    "hesaplama_notu": "4 kaynak, ortalama isabet orani %62.5 -> agirlikli skor = 4 * 0.6250"
-  },
-  {
-    "konu": "ABD CPI (11 Eylul haftasi) yonu belirleyecek - 'son kayip parca'",
-    "deger_araligi": null,
-    "kaynaklar": [
-      "Berk Tavsan",
-      "Selcuk Gecer",
-      "Baris Soydan",
-      "Tunc Satiroglu"
-    ],
-    "kaynak_sayisi": 4,
-    "ilk_tespit_tarihi": "2026-09-04",
-    "tip": "olay_penceresi",
-    "not": "Dort kaynak ayni veriyi ayni haftada belirleyici sayiyor. Tavsan: 'son kayip parca'. Gecer: altin izleme listesinin 5. maddesi. Soydan: 'beklentinin altinda gelirse altin icin olumlu'. Satiroglu: CPI sonrasi Fed fiyatlamasi. Sayisal hedef degil OLAY konsensusu - 16_ZAMANLAMA_KARNESI.md'de olculur.",
-    "agirlikli_skor": 2.5,
-    "hesaplama_notu": "4 kaynak, ortalama isabet orani %62.5 -> agirlikli skor = 4 * 0.6250"
+    "hesaplama_notu": "agirlikli_skor = 4 kaynak x (ortalama isabet 62.5% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
     "konu": "Altın uzun vade hedef bandı (ons $)",
@@ -169,8 +171,26 @@
     "ilk_tespit_tarihi": "2026-08-13",
     "tip": "hedef_bandi",
     "not": "Yalnızca kaynakların KENDİ hedefleri sayıldı. UBS $5.000 ve Citibank $6.000 aktarım olduğu için kaynak sayısına dahil edilmedi (Soydan ve Integral FX TV aktarıyor). Berk Dinçtürk'ün $10.000'i bandın dışında — bkz. çelişki paneli.",
-    "agirlikli_skor": 2.0,
-    "hesaplama_notu": "4 kaynak, ortalama isabet orani %50.0 -> agirlikli skor = 4 * 0.5000"
+    "agirlikli_skor": 2.5,
+    "hesaplama_notu": "agirlikli_skor = 4 kaynak x (ortalama isabet 62.5% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
+  },
+  {
+    "konu": "BTC 82.000 - 82.500 $ kirilim/direnc bolgesi",
+    "deger_araligi": [
+      82000,
+      82500
+    ],
+    "kaynaklar": [
+      "Sellcoin",
+      "Tunc Satiroglu",
+      "Berk Tavsan"
+    ],
+    "kaynak_sayisi": 3,
+    "ilk_tespit_tarihi": "2026-09-06",
+    "tip": "seviye",
+    "not": "Berk Tavsan 6 Eyl'de 82.500'u direnc olarak verdi (ONCU). 10 Eyl'de Tunc Satiroglu ayni bolgeyi yuvarlak islem hedefi yapti (asil direnc 83.220, zayif 81.755-81.853) ve Sellcoin '82K USTU KAPANIS = yukselisin ikinci bacagi' dedi. Uc kaynak ayni bolgeyi ayni islevle (yukari kirilim teyidi) isaretliyor. Tolerans ici (%0,6). Karsi taraf: ayni gun BTC 76,6K dibini gordu - bolge HENUZ test bile edilmedi.",
+    "agirlikli_skor": 2.2,
+    "hesaplama_notu": "agirlikli_skor = 3 kaynak x (ortalama isabet 72.2% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
     "konu": "Altin 4.800 - 5.000 tepki hedefi (4 Eylul)",
@@ -189,7 +209,23 @@
     "tip": "hedef_bandi",
     "not": "Ayni gun, iki bagimsiz video, ayni iki rakam. Paksoy: 4.450 pivot ustunde kalinirsa 4.700-4.800 -> 5.000 'minimum tepki'. Gecer: 4.500 tutulursa 4.800 (Citi vb. banka hedefi aktarimi) -> 5.000. Citi hedefi AKTARIM oldugu icin ucuncu kaynak sayilmadi. 13_KONSENSUS kayit 5'teki 5.000-6.500 uzun vade bandindan AYRI tutuldu: bu kisa-orta vadeli tepki hedefi, o yapisal hedef. 6 Eylul: Berk Tavsan eklendi - 4.800-4.900 hedefi, stop 4.200, R/R ~3 (islem plani olarak verilmis, tek sayi degil). Ucuncu bagimsiz kaynak. | 7 Eyl: Turhan Bozkurt eklendi ('kurum hedefleri 5.000+ korunuyor, yil sonu 4.700-5.000') -> 4 bagimsiz kaynak. Bozkurt'un bandi (4.700-5.000) digerlerinin ust ucuyla ortusuyor, alt ucu 100 $ asagida; %2 toleransi icinde kaldigi icin bolunmedi.",
     "agirlikli_skor": 2.0,
-    "hesaplama_notu": "4 kaynak, ortalama isabet orani %50.0 -> agirlikli skor = 4 * 0.5000"
+    "hesaplama_notu": "agirlikli_skor = 4 kaynak x (ortalama isabet 50.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
+  },
+  {
+    "konu": "Secim sonrasi TL devaluasyonu (kur secime kadar tutulur)",
+    "deger_araligi": null,
+    "kaynaklar": [
+      "Turhan Bozkurt",
+      "Atilla Yesilada",
+      "Cihat E. Cicek",
+      "Erdal Saglam"
+    ],
+    "kaynak_sayisi": 4,
+    "ilk_tespit_tarihi": "2026-08-17",
+    "tip": "tema",
+    "not": "Dosyadaki en kalabalik TURKIYE temasi. Bozkurt ONCU (17 Agu'dan beri, 10 Eyl'de Simsek'in 'dalgali kura donmek arzu edilebilir' sozunu 3 yillik tarih listesiyle - 24 Kas 2023, 24 Ara 2024, 4 Sub 2025 - ITIRAF olarak okuyor). Cicek 11 Eyl'de ayni sozu bagimsiz olarak ayni sekilde okudu. Yesilada FARKLI bir agizdan teyit ediyor: 'yabanci secim sonrasi devaluasyonu BILDIGI icin gelmiyor' + 'secim oncesi kapali kambiyo rejimi geri gelir'. Saglam DOLAYLI: 'TL degerlenmesi surdurulmek zorunda (kisi basi gelir hikayesi), ihracatci/turizmci aglamaya devam'. ⚠️ OLCULEBILIRLIK UYARISI: dordu de TARIH vermiyor (secim 2027 sonu varsayimi disinda). 16_ZAMANLAMA_KARNESI.md'de 'olculemez pencere' olarak isaretli - kalabalik olmasi olculebilir yapmiyor.",
+    "agirlikli_skor": 2.0,
+    "hesaplama_notu": "agirlikli_skor = 4 kaynak x (ortalama isabet 50.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
     "konu": "ECB 10 Eylul'de faiz ARTIRIR",
@@ -204,7 +240,7 @@
     "tip": "olay",
     "not": "Gecer 4 ve 7 Eylul'de yineledi ('neredeyse kesin', dayanak Euro Bolgesi UFE aylik +%1,6). Soydan 7 Eyl: 'artirim neredeyse kesin, yil sonuna 2 artirim'. Integral FX TV / Murat Sagman 7 Eyl: 'ECB + BoE 2'ser artirim'. UC KAYNAK AYNI GUNDE AYNI YONDE. Kaydin degeri yuksek cunku 10 Eylul'de TEK GUNDE olculecek ve uc kaynak da tek yonlu bagladi - yanlislanabilirligi tam. NOT: Sagman ve Soydan ayrica 'yil sonuna 2 artirim' diyerek daha uzun bir taahhut de veriyor, o ayri olculmeli.",
     "agirlikli_skor": 2.0,
-    "hesaplama_notu": "3 kaynak, ortalama isabet orani %66.7 -> agirlikli skor = 3 * 0.6667"
+    "hesaplama_notu": "agirlikli_skor = 3 kaynak x (ortalama isabet 66.7% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
     "konu": "BTC direnç/tetik seviyesi",
@@ -221,8 +257,8 @@
     "ilk_tespit_tarihi": "2026-08-10",
     "tip": "seviye",
     "not": "Sellcoin 67.300 · Kemal Hiçyılmaz 67.000 · Lafçı/Perşembe 67.265. Aralarındaki fark %0,45 — dosyadaki EN DAR sayısal örtüşme. Seviye Ağustos sonunda yukarı kırıldı.",
-    "agirlikli_skor": 1.5,
-    "hesaplama_notu": "3 kaynak, ortalama isabet orani %50.0 -> agirlikli skor = 3 * 0.5000"
+    "agirlikli_skor": 1.7,
+    "hesaplama_notu": "agirlikli_skor = 3 kaynak x (ortalama isabet 55.6% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
     "konu": "USDTRY yıl sonu bandı",
@@ -240,7 +276,7 @@
     "tip": "hedef_bandi",
     "not": "Aslanoğlu 50-55 (muhtemel 53-54) · Paksoy 52-55 · Bozkurt 52-55 iyimser (60+ kötümser). Üç bandın kesişimi 52-55.",
     "agirlikli_skor": 1.5,
-    "hesaplama_notu": "3 kaynak, ortalama isabet orani %50.0 -> agirlikli skor = 3 * 0.5000"
+    "hesaplama_notu": "agirlikli_skor = 3 kaynak x (ortalama isabet 50.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
     "konu": "Gram altin 10.000 TL hedefi",
@@ -258,7 +294,7 @@
     "tip": "hedef",
     "not": "Bozkurt 17 Agu'da 'yil sonu 10.000 TL/gram' dedi (ONCU, 21 gun once), Cicek 6 Eyl, Gecer 7 Eyl 'cok yakinda 10.000 TL ustu'. DIKKAT - VADE AYRISMASI: Bozkurt 'yil sonu', Gecer 'cok yakinda' diyor; ayni sayi ama farkli vade, yani kapanma tarihleri farkli olacak. Bu bir tolerans sorunu degil ZAMANLAMA ayrismasi - bkz. 16_ZAMANLAMA_KARNESI. Hedef ons + kur bilesik oldugu icin ons tutup kur tutmazsa (ya da tersi) yine gerceklesebilir; tek basina altin gorusu olarak okunmamali.",
     "agirlikli_skor": 1.5,
-    "hesaplama_notu": "3 kaynak, ortalama isabet orani %50.0 -> agirlikli skor = 3 * 0.5000"
+    "hesaplama_notu": "agirlikli_skor = 3 kaynak x (ortalama isabet 50.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
     "konu": "Japon yen carry-trade çözülmesi = piyasanın en büyük riski",
@@ -276,7 +312,7 @@
     "tip": "tema",
     "not": "Değer, Cihat E. Çiçek'in dayanak yaptığı Japon 30 yıllık tahvil faizi (%4,05). Diğer iki kaynak sayı vermeden aynı riski işaretliyor. 18 Ağustos Japon borsası çöküşüyle kısmen teyitli.",
     "agirlikli_skor": 1.5,
-    "hesaplama_notu": "3 kaynak, ortalama isabet orani %50.0 -> agirlikli skor = 3 * 0.5000"
+    "hesaplama_notu": "agirlikli_skor = 3 kaynak x (ortalama isabet 50.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
     "konu": "BIST yukarı kırılım hedef bandı",
@@ -294,7 +330,7 @@
     "tip": "hedef_bandi",
     "not": "Üç kaynak üç FARKLI yöntemle aynı sayıya geliyor: haftalık sıkışma formasyonu (Lafçı/Perşembe), USDTRY çarpanı x hisse başı ~$300 (Aslanoğlu), bankacılık endeksi direnci (Paksoy). Dosyadaki en güçlü yöntem-bağımsız kesişim.",
     "agirlikli_skor": 1.5,
-    "hesaplama_notu": "3 kaynak, ortalama isabet orani %50.0 -> agirlikli skor = 3 * 0.5000"
+    "hesaplama_notu": "agirlikli_skor = 3 kaynak x (ortalama isabet 50.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
     "konu": "Fed'in yönü ŞAHİN — Eylül'de/seçim sonrası faiz ARTIRIMI",
@@ -312,7 +348,7 @@
     "tip": "olasilik",
     "not": "Bu, yukarıdaki 'Fed artırmaz' konsensüsünün TERSİ. İkisi aynı dosyada yan yana duruyor; Lafçı & Perşembe her iki listede de var çünkü aynı program hem 'artırmaz' hem '~%35 artırım ihtimali' diyor. Ayrışma Koç'un boğa şartını doğrudan tehdit ediyor.",
     "agirlikli_skor": 1.5,
-    "hesaplama_notu": "3 kaynak, ortalama isabet orani %50.0 -> agirlikli skor = 3 * 0.5000"
+    "hesaplama_notu": "agirlikli_skor = 3 kaynak x (ortalama isabet 50.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
     "konu": "BTC 200 günlük ortalama / alım bölgesi",
@@ -330,7 +366,43 @@
     "tip": "seviye",
     "not": "Lafçı/Perşembe 69.170 (alım) · Erkan Öz ~69.350 (200 GO) · Kripto Teknik 69.000 (200 GO). Fark %0,5. MagicMA'nın BTCUSDT Günlük bandı (68.450-69.244) ile ÇAKIŞIYOR — mega-confluence adayı, alarm motoru bunu yıldızlı bildirmeli.",
     "agirlikli_skor": 1.5,
-    "hesaplama_notu": "3 kaynak, ortalama isabet orani %50.0 -> agirlikli skor = 3 * 0.5000"
+    "hesaplama_notu": "agirlikli_skor = 3 kaynak x (ortalama isabet 50.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
+  },
+  {
+    "konu": "Brent 2027'de 40 $ (arz fazlasi senaryosu)",
+    "deger_araligi": [
+      40,
+      40
+    ],
+    "kaynaklar": [
+      "Selcuk Gecer",
+      "Ali Persembe",
+      "Atilla Yesilada"
+    ],
+    "kaynak_sayisi": 3,
+    "ilk_tespit_tarihi": "2026-09-07",
+    "tip": "hedef",
+    "not": "⚠️ BAGIMSIZLIK SINIRLI - BU KAYDIN EN ONEMLI NOTU: ucu de ayni Goldman Sachs / Bessent aktarimina dayaniyor. Gecer aktariyor, Persembe kendi tezinin dayanagi yapiyor, Yesilada (9 Eyl) 'katiliyorum' diyor ve kendi mekanizmasini ekliyor (ABD ara secimi sonrasi Kongre cekilmeye zorlar, Iran Hurmuz'den gecis ucreti alir, acildiginda akil almaz arz fazlasi). Yani bu UC BAGIMSIZ GOZLEM DEGIL, bir kurum tahmininin uc kez tekrari + bir mekanizma onerisidir. Konsensus sayisi bu yuzden sisirilmis okunmamali. 14_CELISKI_PANELI.md A12'de petrolun uzun vade yonu zaten celiski olarak izleniyor.",
+    "agirlikli_skor": 1.5,
+    "hesaplama_notu": "agirlikli_skor = 3 kaynak x (ortalama isabet 50.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
+  },
+  {
+    "konu": "Motorin TR'de 100 TL esigi (ardindan 150)",
+    "deger_araligi": [
+      100,
+      150
+    ],
+    "kaynaklar": [
+      "Turhan Bozkurt",
+      "Cihat E. Cicek",
+      "Selcuk Gecer"
+    ],
+    "kaynak_sayisi": 3,
+    "ilk_tespit_tarihi": "2026-09-07",
+    "tip": "esik",
+    "not": "Bozkurt ONCU (7 Eyl: 'motorin 100 TL -> yil sonu 150', 10 Eyl'de yineledi). Cicek 11 Eyl: 'Akdeniz motorini TR'de 100 TL eli kulaginda, 150'ye dayanir miyiz'. Gecer DOLAYLI ama MEKANIZMAYI veriyor: Ortadogu+Rusya yakit ihracat kaybi 2 mln varil, rafineriler sinirda, 'motorin artisi Brent'in 2 KATI' - yani ucunun de dayandigi zincir ayni ve DOGRULANABILIR. Bu kayit, dosyadaki 'petrol' kayitlarindan farkli olarak TR pompa fiyatini olcuyor: tek bir gozlemle (EPDK ilan fiyati) kapanabilir - olculebilirligi yuksek.",
+    "agirlikli_skor": 1.5,
+    "hesaplama_notu": "agirlikli_skor = 3 kaynak x (ortalama isabet 50.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
     "konu": "BIST 14.000 = DESTEK (direnc degil)",
@@ -347,7 +419,41 @@
     "tip": "seviye",
     "not": "Sagman 7 Eyl: '14.000 artik destek, yukari gitmek isteyen borsa'. Soydan 7 Eyl: gun ici dip tam 14.000, ilk destek (kapanis 14.151). AYNI SAYI ZIT ROL UYARISI: dosyada Atilla Yesilada'nin 14.000'i DIRENC olarak kayitli (bkz. 14_CELISKI_PANELI A6) ve Turhan Bozkurt ayni gun 14.100'u 'endeks muhendisligi' sayip 13.750/13.610/13.440 destekleri veriyor (A14). Yani bu kayit bir konsensus DEGIL, uc yonlu bir ayrismanin bir kanadi. Ayri kayit acildi cunku Sagman ve Soydan hem sayiyi hem ROLU ayni verdi - 13_KONSENSUS'un aradigi cift ortusme budur.",
     "agirlikli_skor": 1.5,
-    "hesaplama_notu": "2 kaynak, ortalama isabet orani %75.0 -> agirlikli skor = 2 * 0.7500"
+    "hesaplama_notu": "agirlikli_skor = 2 kaynak x (ortalama isabet 75.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
+  },
+  {
+    "konu": "S&P 500 kritik destek esigi",
+    "deger_araligi": [
+      7600,
+      7670
+    ],
+    "kaynaklar": [
+      "Cüneyt Paksoy",
+      "Tunç Şatıroğlu"
+    ],
+    "kaynak_sayisi": 2,
+    "ilk_tespit_tarihi": "2026-09-04",
+    "tip": "destek",
+    "not": "Iki FARKLI yontem ayni esigi veriyor: Paksoy 21/55 gunluk ortalama (7.670-7.600, 'altina inilmedikce stres yok'), Satiroglu supertrend (7.600 saglam, gosterge AL). Yontem bagimsizligi bu kaydin degerini artiriyor. Dikkat: Paksoy'un SPX 7.000-7.500 'sert duzeltme pivot bandi' kaydi bundan AYRI bir senaryo, karistirilmamali.",
+    "agirlikli_skor": 1.5,
+    "hesaplama_notu": "agirlikli_skor = 2 kaynak x (ortalama isabet 75.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
+  },
+  {
+    "konu": "Brent 100 $ ust sinir / esik",
+    "deger_araligi": [
+      100,
+      100
+    ],
+    "kaynaklar": [
+      "Selçuk Geçer",
+      "Tunç Şatıroğlu"
+    ],
+    "kaynak_sayisi": 2,
+    "ilk_tespit_tarihi": "2026-09-04",
+    "tip": "esik",
+    "not": "Ayni sayi, FARKLI gerekce - bu yuzden gercek bir kesisim. Gecer temel: petrol 100 $ ustu kalici olursa enflasyon ve faiz kalici olur, bu ALTIN icin DUSUS sebebidir. Satiroglu teknik/jeopolitik: 102 test edildi ve donuldu, ABD'nin Hurmuz cevresindeki mayin temizligi ve Hark adasi vurusu arz endisesini sinirliyor, 'yerlesemez'. Atilla Yesilada'nin 100-110 $ kotu senaryo esigi ayni sayiyi veriyor ama ZIT yonde (yukari kirilim bekliyor) - o yuzden bu gruba KATILMADI, bkz. 14_CELISKI_PANELI.md.",
+    "agirlikli_skor": 1.5,
+    "hesaplama_notu": "agirlikli_skor = 2 kaynak x (ortalama isabet 75.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
     "konu": "MSCI / endeks çıkarma riski (BIST)",
@@ -364,7 +470,7 @@
     "tip": "tema",
     "not": "Değer, Yeşilada'nın verdiği ~50 milyar $ pasif fon çıkışı riski. Erol Polat aynı riski (gelişmekte olan -> sınır piyasa) sayı vermeden işaretliyor.",
     "agirlikli_skor": 1.0,
-    "hesaplama_notu": "2 kaynak, ortalama isabet orani %50.0 -> agirlikli skor = 2 * 0.5000"
+    "hesaplama_notu": "agirlikli_skor = 2 kaynak x (ortalama isabet 50.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
     "konu": "Gıda enflasyonu yapısal risk",
@@ -378,7 +484,7 @@
     "tip": "tema",
     "not": "Sayısal değer yok. İki kaynak birbirinden habersiz, gerekçeleri farklı (arz/lojistik vs fiyat yapışkanlığı), sonuç aynı. Koç bu temayı hiç takip etmiyor — çerçevesindeki bir boşluk.",
     "agirlikli_skor": 1.0,
-    "hesaplama_notu": "2 kaynak, ortalama isabet orani %50.0 -> agirlikli skor = 2 * 0.5000"
+    "hesaplama_notu": "agirlikli_skor = 2 kaynak x (ortalama isabet 50.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
     "konu": "CLARITY Act Eylül 2026'da gündeme gelir",
@@ -392,7 +498,7 @@
     "tip": "takvim",
     "not": "Kemal Hiçyılmaz somut tarih veriyor (15 Eylül oylama, Senatör Lummis), Berk Dinçtürk sadece 'Eylül' diyor. Emrah Altınocağı aynı olaya dolaylı değiniyor ama Clarity'nin asıl gündem olmadığını savunduğu için kaynak sayısına katılmadı.",
     "agirlikli_skor": 1.0,
-    "hesaplama_notu": "2 kaynak, ortalama isabet orani %50.0 -> agirlikli skor = 2 * 0.5000"
+    "hesaplama_notu": "agirlikli_skor = 2 kaynak x (ortalama isabet 50.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
     "konu": "US10Y alarm seviyesi",
@@ -409,7 +515,7 @@
     "tip": "esik",
     "not": "Berk Dinçtürk'ün %4,75 'Hazine tolerans tavanı' bu gruba DAHİL EDİLMEDİ: 4,75 ile 5,00 arasındaki fark %5,3, artı/eksi %2 toleransının dışında. Kaynak dosyası bunu 'üçlü kesişim' diye anıyor ama sayısal olarak üç ayrı eşik. Barış Soydan'ın aktardığı Hartnett %5'i 30 YILLIK için veriyor — farklı vade, o da sayılmadı.",
     "agirlikli_skor": 1.0,
-    "hesaplama_notu": "2 kaynak, ortalama isabet orani %50.0 -> agirlikli skor = 2 * 0.5000"
+    "hesaplama_notu": "agirlikli_skor = 2 kaynak x (ortalama isabet 50.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
     "konu": "Türkiye CDS risk primi (baz puan)",
@@ -426,41 +532,7 @@
     "tip": "olgu",
     "not": "Fark %0,9. Farklı tarihte iki bağımsız ölçüm; dosyada 'DOĞRULANDI (çapraz kaynak)' olarak karneye geçmiş.",
     "agirlikli_skor": 1.0,
-    "hesaplama_notu": "2 kaynak, ortalama isabet orani %50.0 -> agirlikli skor = 2 * 0.5000"
-  },
-  {
-    "konu": "S&P 500 kritik destek esigi",
-    "deger_araligi": [
-      7600,
-      7670
-    ],
-    "kaynaklar": [
-      "Cüneyt Paksoy",
-      "Tunç Şatıroğlu"
-    ],
-    "kaynak_sayisi": 2,
-    "ilk_tespit_tarihi": "2026-09-04",
-    "tip": "destek",
-    "not": "Iki FARKLI yontem ayni esigi veriyor: Paksoy 21/55 gunluk ortalama (7.670-7.600, 'altina inilmedikce stres yok'), Satiroglu supertrend (7.600 saglam, gosterge AL). Yontem bagimsizligi bu kaydin degerini artiriyor. Dikkat: Paksoy'un SPX 7.000-7.500 'sert duzeltme pivot bandi' kaydi bundan AYRI bir senaryo, karistirilmamali.",
-    "agirlikli_skor": 1.0,
-    "hesaplama_notu": "2 kaynak, ortalama isabet orani %50.0 -> agirlikli skor = 2 * 0.5000"
-  },
-  {
-    "konu": "Brent 100 $ ust sinir / esik",
-    "deger_araligi": [
-      100,
-      100
-    ],
-    "kaynaklar": [
-      "Selçuk Geçer",
-      "Tunç Şatıroğlu"
-    ],
-    "kaynak_sayisi": 2,
-    "ilk_tespit_tarihi": "2026-09-04",
-    "tip": "esik",
-    "not": "Ayni sayi, FARKLI gerekce - bu yuzden gercek bir kesisim. Gecer temel: petrol 100 $ ustu kalici olursa enflasyon ve faiz kalici olur, bu ALTIN icin DUSUS sebebidir. Satiroglu teknik/jeopolitik: 102 test edildi ve donuldu, ABD'nin Hurmuz cevresindeki mayin temizligi ve Hark adasi vurusu arz endisesini sinirliyor, 'yerlesemez'. Atilla Yesilada'nin 100-110 $ kotu senaryo esigi ayni sayiyi veriyor ama ZIT yonde (yukari kirilim bekliyor) - o yuzden bu gruba KATILMADI, bkz. 14_CELISKI_PANELI.md.",
-    "agirlikli_skor": 1.0,
-    "hesaplama_notu": "2 kaynak, ortalama isabet orani %50.0 -> agirlikli skor = 2 * 0.5000"
+    "hesaplama_notu": "agirlikli_skor = 2 kaynak x (ortalama isabet 50.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
     "konu": "Altin 4.200 stop/savunma bolgesi (ons $)",
@@ -477,7 +549,7 @@
     "tip": "seviye",
     "not": "Paksoy: 55 haftalik ortalama, 4.350 kirilirsa ikinci savunma hatti. Tavsan (5-6 Eyl): islem planinin stop seviyesi, altinda plan bozulur. Iki kaynak AYNI sayiyi ayni islevle (asagi risk esigi) kullaniyor - yon ortusmesi de var, sadece sayi degil.",
     "agirlikli_skor": 1.0,
-    "hesaplama_notu": "2 kaynak, ortalama isabet orani %50.0 -> agirlikli skor = 2 * 0.5000"
+    "hesaplama_notu": "agirlikli_skor = 2 kaynak x (ortalama isabet 50.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
     "konu": "BTC 100.000 $ hedefi",
@@ -494,7 +566,7 @@
     "tip": "hedef",
     "not": "Paksoy: haftalik ortalamalar ustu senaryosunun ucuncu hedefi. Tavsan (5-6 Eyl): gunluk 82.500 asilirsa 97.000-100.000. Farkli yontem, ayni hedef. AYRICA: Tavsan'in 82.500 tetigi Koc'un 84 K 'yilin pivotu' esigine cok yakin (82,5 vs 84) - bkz. 11_DIS_KAYNAKLAR.md Berk Tavsan bolumu.",
     "agirlikli_skor": 1.0,
-    "hesaplama_notu": "2 kaynak, ortalama isabet orani %50.0 -> agirlikli skor = 2 * 0.5000"
+    "hesaplama_notu": "agirlikli_skor = 2 kaynak x (ortalama isabet 50.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
     "konu": "TCMB yil sonu politika faizi %35",
@@ -509,8 +581,8 @@
     "kaynak_sayisi": 2,
     "ilk_tespit_tarihi": "2026-09-07",
     "tip": "hedef",
-    "not": "Integral FX TV / Murat Sagman KENDI tahmini olarak veriyor (3 toplantidan 2'sinde indirim). Selcuk Gecer ise Morgan Stanley'in ayni rakamini AKTARIYOR - kendi tahmini degil. ZAYIF KAYIT: iki kaynak sayilsa da biri aktarim; gercek bagimsizlik 1,5 kaynak duzeyinde. Yine de kaydedildi cunku ayni gun, ayni sayi ve mevcut politika faizi 37'yken ikisi de ASAGI yonu isaretliyor. Sagman'in TCMB 10 Eylul indirim tezi Paksoy ile celisiyor - bkz. 14_CELISKI_PANELI A10.",
+    "not": "Integral FX TV / Murat Sagman KENDI tahmini olarak veriyor (3 toplantidan 2'sinde indirim). Selcuk Gecer ise Morgan Stanley'in ayni rakamini AKTARIYOR - kendi tahmini degil. ZAYIF KAYIT: iki kaynak sayilsa da biri aktarim; gercek bagimsizlik 1,5 kaynak duzeyinde. Yine de kaydedildi cunku ayni gun, ayni sayi ve mevcut politika faizi 37'yken ikisi de ASAGI yonu isaretliyor. Sagman'in TCMB 10 Eylul indirim tezi Paksoy ile celisiyor - bkz. 14_CELISKI_PANELI A10. | 9-10 EYLUL KARSI KAMP: Erdal Saglam (YENI KAYNAK) 'Ekim/Aralik'ta da indiremeyebilir, %35'e BILE inemeyebilir' diyor; Atilla Yesilada 'makul olan bu yil HIC indirmemek' diyor. Yani ayni hedefin karsisinda artik 2 kaynak var. Kayit BOLUNMEDI cunku karsi gorus bir hedef degil bir REDDETME; bkz. 14_CELISKI_PANELI.md A18.",
     "agirlikli_skor": 1.0,
-    "hesaplama_notu": "2 kaynak, ortalama isabet orani %50.0 -> agirlikli skor = 2 * 0.5000"
+    "hesaplama_notu": "agirlikli_skor = 2 kaynak x (ortalama isabet 50.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   }
 ]

@@ -2814,9 +2814,9 @@
     "kaynak": "Tunc Satiroglu",
     "enstruman": "ETHUSDT",
     "seviye": 2380,
-    "tur": "stop",
-    "aciklama": "ETH long stop",
-    "tarih_eklendi": "2026-09-04"
+    "tur": "destek",
+    "aciklama": "ETH destek. 4 Eyl'de 'long stop' olarak verilmisti; 10 Eyl'de ayni seviye DESTEK olarak tekrarlandi (asil destek daha altta, sayi verilmedi).",
+    "tarih_eklendi": "2026-09-10"
   },
   {
     "kaynak": "Tunc Satiroglu",
@@ -2845,10 +2845,10 @@
   {
     "kaynak": "Tunc Satiroglu",
     "enstruman": "XRPUSDT",
-    "seviye": 1.36,
-    "tur": "stop",
-    "aciklama": "XRP stop",
-    "tarih_eklendi": "2026-09-04"
+    "seviye": 1.38,
+    "tur": "destek",
+    "aciklama": "XRP stop 10 EYL REVIZE: 1,36 -> 1,38 (stop degil, destek olarak verildi).",
+    "tarih_eklendi": "2026-09-10"
   },
   {
     "kaynak": "Tunc Satiroglu",
@@ -2903,8 +2903,8 @@
     "enstruman": "SPX",
     "seviye": 7600,
     "tur": "destek",
-    "aciklama": "Paksoy: 7.670-7.600 (21/55 gunluk) alti stres. Tunc: 7.600 supertrend saglam, gosterge AL. Farkli yontem, ayni esik",
-    "tarih_eklendi": "2026-09-04"
+    "aciklama": "Paksoy: 7.670-7.600 (21/55 gunluk) alti stres. Tunc: 7.600 supertrend saglam, gosterge AL. Farkli yontem, ayni esik 10 EYL TEYIT: Tunc '7.600-7.610 tutuyor' dedi. 7.605 icin AYRI KAYIT ACILMADI (%0,07 fark = ayni seviye).",
+    "tarih_eklendi": "2026-09-10"
   },
   {
     "kaynak": "Selcuk Gecer + Tunc Satiroglu (2 bagimsiz kaynak)",
@@ -2979,12 +2979,12 @@
     "tarih_eklendi": "2026-09-07"
   },
   {
-    "kaynak": "Berk Tavsan",
+    "kaynak": "Berk Tavsan + Tunc Satiroglu (2 bagimsiz kaynak)",
     "enstruman": "BTCUSDT",
     "seviye": 76200,
     "tur": "destek",
-    "aciklama": "4 saatlik range ALT siniri - dipler yukseliyor, range ici yapi bozulmamis",
-    "tarih_eklendi": "2026-09-06"
+    "aciklama": "4 saatlik range ALT siniri - dipler yukseliyor, range ici yapi bozulmamis 10 EYL: Tunc 76.685 destegini verdi -> 76,2-76,7K destek bolgesi. 10 Eyl dibi 76.650, bolgenin icinde test edildi.",
+    "tarih_eklendi": "2026-09-10"
   },
   {
     "kaynak": "Berk Tavsan",
@@ -2995,12 +2995,12 @@
     "tarih_eklendi": "2026-09-06"
   },
   {
-    "kaynak": "Berk Tavsan",
+    "kaynak": "Tunc Satiroglu + Berk Tavsan + Sellcoin (3 bagimsiz kaynak)",
     "enstruman": "BTCUSDT",
     "seviye": 82500,
     "tur": "direnc",
-    "aciklama": "Gunluk direnc - onceki dusus dalgasinin baslangic noktasi; asilirsa 97.000-100.000",
-    "tarih_eklendi": "2026-09-06"
+    "aciklama": "Gunluk direnc - onceki dusus dalgasinin baslangic noktasi; asilirsa 97.000-100.000 10 EYL: Tunc 82.500'u yuvarlak islem hedefi olarak verdi (asil direnc 83.220); Sellcoin '82K ustu KAPANIS = ikinci bacak' dedi. Uc kaynak ayni bolgede.",
+    "tarih_eklendi": "2026-09-10"
   },
   {
     "kaynak": "Berk Tavsan",
@@ -3087,8 +3087,8 @@
     "enstruman": "XAUUSD",
     "seviye": 4400,
     "tur": "tutunma",
-    "aciklama": "Gecer: 4.400 tutunma kritik -> 4.500 -> 4.800 -> 5.000 -> rekor. Bozkurt ayni gun '4.400 ustu tutunma' diyor. Iki kaynak ayni sayiyi AYNI islevle (asagi savunma) kullaniyor (7 Eyl).",
-    "tarih_eklendi": "2026-09-07"
+    "aciklama": "Gecer: 4.400 tutunma kritik -> 4.500 -> 4.800 -> 5.000 -> rekor. Bozkurt ayni gun '4.400 ustu tutunma' diyor. Iki kaynak ayni sayiyi AYNI islevle (asagi savunma) kullaniyor (7 Eyl). 10 EYL TEYIT: Gecer ayni seviyeyi tekrarladi (4.400 tutunma / 4.500 guclenme / 4.800 ana esik / 5.000 psikolojik); Bozkurt da 'Fed sabitse 5.000+' dedi. Sellcoin'in 4.360 destegi %0,9 yakin, ayni bolge. UYARI: 10-11 Eyl'de altin 4.320'ye sarkti -> bu seviye ZEDELENDI.",
+    "tarih_eklendi": "2026-09-10"
   },
   {
     "kaynak": "Selcuk Gecer + Turhan Bozkurt + Cihat E. Cicek (3 bagimsiz kaynak)",
@@ -3107,20 +3107,20 @@
     "tarih_eklendi": "2026-09-07"
   },
   {
-    "kaynak": "Selcuk Gecer",
+    "kaynak": "Selcuk Gecer + Atilla Yesilada (2 bagimsiz kaynak)",
     "enstruman": "BRENT",
     "seviye": 120,
     "tur": "aktarim_hedef",
-    "aciklama": "Goldman Sachs aktarimi: Hurmuz saldirilari artarsa 120 $. NOT: sembol eslesmesi yok (UKOIL), alarm motoru atlar.",
-    "tarih_eklendi": "2026-09-07"
+    "aciklama": "Goldman Sachs aktarimi: Hurmuz saldirilari artarsa 120 $. NOT: sembol eslesmesi yok (UKOIL), alarm motoru atlar. 9 EYL: Yesilada da Goldman'in 120$ senaryosunu aktardi; ancak Goldman ORTALAMA tahminini 85'e revize etti.",
+    "tarih_eklendi": "2026-09-10"
   },
   {
-    "kaynak": "Selcuk Gecer + Ali Persembe (2 bagimsiz kaynak)",
+    "kaynak": "Selcuk Gecer + Ali Persembe + Atilla Yesilada (3 bagimsiz kaynak)",
     "enstruman": "BRENT",
     "seviye": 40,
     "tur": "aktarim_hedef",
-    "aciklama": "Bessent (ABD Hazine) 50->40 $ hedefi. Gecer aktariyor; Ali Persembe (7 Eyl, Integral) uzun vade asagi tezinin dayanagi olarak KENDI gorusune temel yapiyor. NOT: sembol eslesmesi yok (UKOIL), alarm motoru atlar.",
-    "tarih_eklendi": "2026-09-07"
+    "aciklama": "Bessent (ABD Hazine) 50->40 $ hedefi. Gecer aktariyor; Ali Persembe (7 Eyl, Integral) uzun vade asagi tezinin dayanagi olarak KENDI gorusune temel yapiyor. NOT: sembol eslesmesi yok (UKOIL), alarm motoru atlar. 9 EYL: Yesilada da Goldman'in 2027 40$ tahminine 'katiliyorum' dedi (gerekce: Hurmuz acilinca akil almaz arz fazlasi). Ucu de ayni Goldman aktarimina dayaniyor - BAGIMSIZLIK SINIRLI, ayni kaynagin uc kez tekrari olabilir.",
+    "tarih_eklendi": "2026-09-10"
   },
   {
     "kaynak": "Baris Soydan",
@@ -3257,5 +3257,341 @@
     "tur": "destek",
     "aciklama": "Soydan: 7 Eyl gun ici dip tam 14.000, ilk destek. Sagman ayni gun '14.000 artik destek, yukari gitmek isteyen borsa'. DIKKAT - AYNI SAYI ZIT ROL: dosyada Atilla Yesilada'nin 14.000'i DIRENC olarak kayitli; ayni seviye iki kaynakta ters islevde (bkz. 14_CELISKI_PANELI A6). Bu yuzden ayri kayit acildi, birlestirilmedi. Paksoy'un 14.100-14.200 pivotu %1 yakin ama farkli sayi oldugu icin bu kayda katilmadi.",
     "tarih_eklendi": "2026-09-07"
+  },
+  {
+    "kaynak": "Sellcoin",
+    "enstruman": "XAUUSD",
+    "seviye": 4360,
+    "tur": "destek",
+    "aciklama": "10 Eyl: '4.360 destegi tuttu'. NOT: Gecer+Bozkurt'un 4.400 tutunma seviyesine %0,9 yakin - ayni bolgeyi isaret ediyor ama farkli sayi oldugu icin ayri kayit.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Sellcoin",
+    "enstruman": "XAUUSD",
+    "seviye": 4300,
+    "tur": "alim_seviyesi",
+    "aciklama": "10 Eyl: 4.300-4.400 kademeli AL bandinin ALT ucu (4.000'de yapilanin aynisi). Gram altin ve gumus icin de ayni yaklasim.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Sellcoin",
+    "enstruman": "BTCUSDT",
+    "seviye": 74000,
+    "tur": "destek",
+    "aciklama": "10 Eyl: Ichimoku bulut destegi; 'saglikli trend, 4 saatlik zayifliyor'.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Sellcoin",
+    "enstruman": "BTCUSDT",
+    "seviye": 82000,
+    "tur": "esik",
+    "aciklama": "10 Eyl: 82K USTU KAPANIS = yukselisin ikinci bacagi teyidi. Tunc'un 82.500 ve Tavsan'in 82.500 direnciyle ayni bolge (bkz. 3 kaynak kaydi).",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Sellcoin",
+    "enstruman": "ETHUSDT",
+    "seviye": 2800,
+    "tur": "hedef",
+    "aciklama": "10 Eyl: '2.500 asildi -> 2.800 hedef'.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Sellcoin",
+    "enstruman": "NDX",
+    "seviye": 27200,
+    "tur": "destek",
+    "aciklama": "10 Eyl: '27.200 ustu = ana trend dusen degil'. 4 aydir yatay, rotasyon ihtiyaci.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Sellcoin",
+    "enstruman": "USDT.D",
+    "seviye": 7.5,
+    "tur": "esik",
+    "aciklama": "10 Eyl: 'USDT dominansi %7,5 asmadikca kripto trendi iyi'. YENI ENSTRUMAN - sembol_listesi/*.txt icinde karsiligi YOK, alarm motoru bu kaydi atlar (log'a duser). Kasitli birakildi: TradingView'de CRYPTOCAP:USDT.D olarak izlenebilir, listeye eklenirse otomatik devreye girer.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Turhan Bozkurt",
+    "enstruman": "XU100",
+    "seviye": 13900,
+    "tur": "esik",
+    "aciklama": "10 Eyl: '13.900 ustu satis firsati' gorusu geceli. BIST o gun 14.341 (-%1). Kasim'a dogru nakit cikisi bekliyor.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Turhan Bozkurt",
+    "enstruman": "USDTRY",
+    "seviye": 48.5,
+    "tur": "referans",
+    "aciklama": "10 Eyl gun ici referans (7 Eyl'de 48,75 idi).",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Turhan Bozkurt",
+    "enstruman": "XAGUSD",
+    "seviye": 75,
+    "tur": "hedef",
+    "aciklama": "10 Eyl KOSULLU: 'Fed 16 Eylul'de sabit tutarsa gumus 75+'. Ayni kosulda altin 5.000+.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Atilla Yesilada",
+    "enstruman": "XAUUSD",
+    "seviye": 4000,
+    "tur": "bant_alt",
+    "aciklama": "9 Eyl: 'altin uzun sure 4.000-4.500 bandinda surunur, ustune cikmaz'. DIKKAT - bu dosyadaki 5 kaynagin (Gecer/Bozkurt/Sellcoin/Cicek/Tavsan) TAM TERSI gorus; bkz. 14_CELISKI_PANELI.md A-ALTIN.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Atilla Yesilada",
+    "enstruman": "XAUUSD",
+    "seviye": 4500,
+    "tur": "bant_ust",
+    "aciklama": "9 Eyl: bandin UST ucu; ustune cikis BEKLEMIYOR. Gerekce: BBB kurumsal getiri %6,5 = yuksek firsat maliyeti, 'moda gecti'. Sadece finansal kriz/secim soku yukseltir.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Atilla Yesilada",
+    "enstruman": "US10Y",
+    "seviye": 5.0,
+    "tur": "referans",
+    "aciklama": "9 Eyl: '2027 finansman plani 10Y %5+ varsayimiyla yapiliyor'. Dunya yuksek faiz cagina girdi tezi.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Atilla Yesilada",
+    "enstruman": "US30Y",
+    "seviye": 6.0,
+    "tur": "referans",
+    "aciklama": "9 Eyl: '2027 finansman plani 30Y %6+ varsayimiyla'. NOT: 11 Eyl'de 30Y zaten 5,34 (2007'den beri en yuksek) - yon lehine.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Selcuk Gecer",
+    "enstruman": "USDJPY",
+    "seviye": 153,
+    "tur": "referans",
+    "aciklama": "10 Eyl: 'ABD 30 yil sonra ilk kez yen aldi, USDJPY 160 -> 153'. Altinin toparlamasinin gerekcesi olarak veriliyor.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Selcuk Gecer",
+    "enstruman": "USDJPY",
+    "seviye": 150,
+    "tur": "hedef",
+    "aciklama": "10 Eyl AKTARIM: 'fonlar yil sonu 150 altini bekliyor'.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Selcuk Gecer",
+    "enstruman": "COPPER",
+    "seviye": 14533,
+    "tur": "referans",
+    "aciklama": "10 Eyl: bakir rekoru. 'Tarife + arz kaynakli, talep gucu degil; arz enflasyonuna faiz care degil.' YENI ENSTRUMAN - sembol_listesi'nde karsiligi YOK, alarm motoru atlar (log'a duser).",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Tunc Satiroglu",
+    "enstruman": "BTCUSDT",
+    "seviye": 81800,
+    "tur": "direnc",
+    "aciklama": "10 Eyl: ZAYIF direnc bolgesi 81.755-81.853 (ranked S/R zones gostergesi).",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Tunc Satiroglu",
+    "enstruman": "BTCUSDT",
+    "seviye": 83220,
+    "tur": "direnc",
+    "aciklama": "10 Eyl: ASIL direnc. Yuvarlak islem hedefi 82.500 olarak veriliyor.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Tunc Satiroglu",
+    "enstruman": "BTCUSDT",
+    "seviye": 76685,
+    "tur": "destek",
+    "aciklama": "10 Eyl: ana destek. Berk Tavsan'in 76.200 destegiyle birlikte 76,2-76,7K destek bolgesi (2 bagimsiz kaynak). 10 Eyl dibi 76.650 - tam sinirda test edildi.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Tunc Satiroglu",
+    "enstruman": "BTCUSDT",
+    "seviye": 75275,
+    "tur": "destek",
+    "aciklama": "10 Eyl: 76.685 kirilirsa alt destek. 'Bekleyecek kadar sabir yoksa cikilir.'",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Tunc Satiroglu",
+    "enstruman": "ETHUSDT",
+    "seviye": 2530,
+    "tur": "direnc",
+    "aciklama": "10 Eyl: zayif direnc.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Tunc Satiroglu",
+    "enstruman": "ETHUSDT",
+    "seviye": 2576,
+    "tur": "direnc",
+    "aciklama": "10 Eyl: asil direnc.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Tunc Satiroglu",
+    "enstruman": "SOLUSDT",
+    "seviye": 107.48,
+    "tur": "direnc",
+    "aciklama": "10 Eyl: asil direnc (105,60 'onemsiz' olarak eleniyor).",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Tunc Satiroglu",
+    "enstruman": "SOLUSDT",
+    "seviye": 100,
+    "tur": "destek",
+    "aciklama": "10 Eyl: zayif destek bolgesi 100-101 (tam deger 99,83).",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Tunc Satiroglu",
+    "enstruman": "SOLUSDT",
+    "seviye": 97,
+    "tur": "destek",
+    "aciklama": "10 Eyl: buyuk destek bolgesi 96-98.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Tunc Satiroglu",
+    "enstruman": "NDX",
+    "seviye": 28900,
+    "tur": "destek",
+    "aciklama": "10 Eyl: '28.900-28.980 kirilmadikca hedef 30.720'. 4 Eyl'deki 28.980 kaydinin ALT ucu; band olarak okunmali.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Tunc Satiroglu",
+    "enstruman": "NDX",
+    "seviye": 30720,
+    "tur": "hedef",
+    "aciklama": "10 Eyl: 28.900-28.980 korundugu surece hedef.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Tunc Satiroglu",
+    "enstruman": "DRAM",
+    "seviye": 58,
+    "tur": "esik",
+    "aciklama": "10 Eyl: 'DRAM ETF 58 ustu AL'. YENI ENSTRUMAN - sembol_listesi'nde karsiligi YOK, alarm motoru atlar (log'a duser).",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Bora Ozkent",
+    "enstruman": "SPY",
+    "seviye": 758,
+    "tur": "destek",
+    "aciklama": "10 Eyl: Max Pain 758 (cuma opsiyon kapanisi) + 758-770 bandinin ALT ucu. YENI ENSTRUMAN - sembol_listesi'nde karsiligi YOK, alarm motoru atlar (log'a duser). SPX kaydiyla karistirmayin: SPY ~ SPX/10.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Bora Ozkent",
+    "enstruman": "SPY",
+    "seviye": 760,
+    "tur": "esik",
+    "aciklama": "10 Eyl: '760 alti tehlike'. Opsiyonlarda NEGATIF GAMMA - duserse dusus sertlesir.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Bora Ozkent",
+    "enstruman": "SPY",
+    "seviye": 770,
+    "tur": "direnc",
+    "aciklama": "10 Eyl: '770 ustu rahatlama'.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Bora Ozkent",
+    "enstruman": "US10Y",
+    "seviye": 4.83,
+    "tur": "referans",
+    "aciklama": "10 Eyl kapanis referansi (2Y 4,43). Ozkent: 'faiz meselesi abartiliyor, nominal buyume %6'dayken 10Y %5 normal' - Yesilada/Gecer'in tersi gorus.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Bora Ozkent",
+    "enstruman": "META",
+    "seviye": 750,
+    "tur": "hedef",
+    "aciklama": "10 Eyl: ATH 750, o gun 653. Muse tuketici AI + 18-19 forward PE + 2 mlr MAU gerekcesiyle yukari potansiyel goruyor; hisseyi bu hafta yuklu aldi.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Bora Ozkent",
+    "enstruman": "QCOM",
+    "seviye": 250,
+    "tur": "hedef",
+    "aciklama": "10 Eyl: ATH 250, o gun 176. 'AI cipleri icinde en ucuz' AMA 'sahsen almam' (2 kez kaybetti) - kaynagin kendi celiskisi, kayda gecirildi.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Bora Ozkent",
+    "enstruman": "QCOM",
+    "seviye": 176,
+    "tur": "referans",
+    "aciklama": "10 Eyl referans fiyati.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Cihat E. Cicek",
+    "enstruman": "XAUUSD",
+    "seviye": 4222,
+    "tur": "destek",
+    "aciklama": "11 Eyl KOSULLU: 'TUFE cok yuksek gelirse altin 4.222'. UFE sonrasi hedefini 4.444 -> 4.333'e indirmisti.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Cihat E. Cicek",
+    "enstruman": "XAUUSD",
+    "seviye": 4111,
+    "tur": "destek",
+    "aciklama": "11 Eyl KOSULLU: 4.222 kirilirsa ikinci durak.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Cihat E. Cicek",
+    "enstruman": "BRENT",
+    "seviye": 110,
+    "tur": "hedef",
+    "aciklama": "11 Eyl: 'Brent 110 gorur, %10/gun hareket, 150-200 mumkun'. Gerekce: Husiler Mocha'yi aldi + Suudi dogu-bati boru hatti 8 noktada patlatildi. NOT: Gecer'in ayni seviyedeki 'buyume korkusu esigi' kaydiyla AYNI SAYI, FARKLI ROL - ayri tutuldu.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Tunc Satiroglu",
+    "enstruman": "XRPUSDT",
+    "seviye": 1.45,
+    "tur": "direnc",
+    "aciklama": "10 Eyl: direnc 1,43'ten 1,45'e YUKARI revize edildi. Destek ayni gun 1,36 -> 1,38'e cikarildi. NOT: 4 Eyl tarihli 1,42 'al' kaydi ayri bir iddia turu oldugu icin degistirilmedi.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Selcuk Gecer",
+    "enstruman": "BRENT",
+    "seviye": 85,
+    "tur": "aktarim_hedef",
+    "aciklama": "10 Eyl AKTARIM: 'Goldman yil sonu Brent 85, 100 ustu kalici degil'. Gecer'in kendi karsi argumani: petrol 80-90'a donerse Fed baskisi kalkar, altin hikayesi TERSINE doner. NOT: Paksoy'un 4 Eyl'deki 85 'normal bant ustu' kaydiyla ayni sayi, farkli rol.",
+    "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Turhan Bozkurt + Cihat E. Cicek (2 bagimsiz kaynak)",
+    "enstruman": "USDTRY",
+    "seviye": 49,
+    "tur": "hedef",
+    "aciklama": "Ay sonu dolar hedefi. Bozkurt 10 Eyl (48,50'den), Cicek 11 Eyl (48,62'den) - iki kaynak ayni sayiyi bagimsiz verdi. Cicek: 'vurdururlar'.",
+    "tarih_eklendi": "2026-09-10"
   }
 ]

@@ -1,12 +1,13 @@
 # 18 — ÖNCÜ / TAKİPÇİ TESPİTİ
 
-_Güncelleme: 2026-09-07_ (**iki yeni öncülük kaydı doğrulandı:** BIST30'a kayış — Paksoy öncü, Soydan veriyle teyit ediyor · gram altın 10.000 TL — Bozkurt öncü)
+_Güncelleme: 2026-09-10/11_ (**üç yeni öncülük kaydı** — Şimşek "dalgalı kur" itirafı (Bozkurt öncü, 3 yıllık tarih listesiyle **dosyadaki en kanıtlı öncülük**) · motorin 100 TL (Bozkurt) · gıda emtia süper döngüsü (**Çiçek öncü, üç halkalı zincir**) · girdi 29 → **33 konsensüs kaydı**)
+_Önceki: 2026-09-07 (**iki yeni öncülük kaydı doğrulandı:** BIST30'a kayış — Paksoy öncü, Soydan veriyle teyit ediyor · gram altın 10.000 TL — Bozkurt öncü)
 _Önceki: 2026-09-04 (BIST düşüşünün sebebi + 4 Eylül konsensüs kayıtları eklendi)_
 
 > **Soru:** Bir seviye/tez birden fazla kaynakta geçtiğinde onu ilk kim söyledi?
 >
-> **Girdi:** `13_KONSENSUS.md` / `magicma/kaynak_konsensus.json`'daki **29 konsensus
-> kaydinin tamami** (2026-09-07 itibariyla). Her kayittaki kaynak listesi JSON ile birebir dogrulandi.
+> **Girdi:** `13_KONSENSUS.md` / `magicma/kaynak_konsensus.json`'daki **33 konsensus
+> kaydinin tamami** (2026-09-10 itibariyla). Her kayittaki kaynak listesi JSON ile birebir dogrulandi.
 > _(2026-09-04'te 21 kayit vardi; 6 ve 7 Eylul oturumlarinda 8 kayit eklendi.)_
 > Tarihler `11_DIS_KAYNAKLAR.md`'deki bolum basliklarindan alindi.
 >
@@ -207,6 +208,68 @@ veriyor — bkz. `14_CELISKI_PANELI.md` B7. Kaynak dengesi 4 Eylül itibarıyla
 
 ---
 
+## Şimşek'in "dalgalı kur" itirafı (2026-09-10/11'de eklendi)
+
+- **Öncü: Turhan Bozkurt — 10 Eylül 2026**
+- **Eş zamanlı/takipçi: Cihat E. Çiçek — 11 Eylül 2026** (bir gün sonra)
+
+**⚠️ Bu dosyadaki EN YÜKSEK KANIT DEĞERLİ öncülük kaydıdır — nedeni:**
+
+İkisi de **aynı Şimşek mülakatını** (9 Eylül) okuyor ve **aynı sonuca** varıyor
+(*"dalgalı kura dönmek arzu edilebilir"* = kurun bugüne kadar tutulduğunun itirafı).
+Zaman farkı yalnızca **1 gün** — normalde bu dosyanın kuralına göre "eş zamanlı"
+sayılırdı ve öncü ilan edilmezdi.
+
+**Ama Bozkurt öncülüğünü sayıyla kanıtlıyor:** iddiasını **üç tarihli alıntıyla**
+destekliyor — **24 Kasım 2023**, **24 Aralık 2024**, **4 Şubat 2025** (*"kur
+hedefimiz yok, dalgalı kurdayız"*). Yani Bozkurt yalnızca 9 Eylül sözünü yorumlamıyor;
+**bu çelişkiyi 2023'ten beri izlediğini belgeliyor.** Çiçek aynı sonuca varıyor ama
+tek bir cümleden.
+
+➜ Bu, "bilinen sınırlama" bölümündeki soruna (dosyaya **girme** tarihi ile **söyleme**
+tarihinin karışması) bulunmuş **ilk gerçek çözüm**: kaynağın kendisi geçmiş tarihleri
+gösteriyorsa arşivin ne zaman kaydettiği önemsizleşiyor.
+
+**Kanıt değeri:** Yüksek — her iki tarih **gün hassasiyetinde** ve öncünün geçmişi
+**doğrulanabilir** (üç tarih, üç alıntı).
+
+## Motorin TR'de 100 TL eşiği (2026-09-10/11'de eklendi)
+
+- **Öncü:** Turhan Bozkurt — **7 Eylül 2026** (*"motorin 100 TL → yıl sonu 150"*)
+- **Takipçi:** Turhan Bozkurt — 10 Eylül 2026 (kendi iddiasını yineliyor, **yeni kaynak değil**)
+- **Takipçi:** Cihat E. Çiçek — 11 Eylül 2026 (*"eli kulağında, 150'ye dayanır mıyız"*)
+- **Takipçi (mekanizma):** Selçuk Geçer — 10 Eylül 2026 — sayıyı vermiyor ama
+  **nedenini** veriyor: Ortadoğu+Rusya yakıt ihracat kaybı **2 mln varil**,
+  rafineriler sınırda, ***"motorin artışı Brent'in 2 katı"***
+
+**Not — bu kayıt öncülüğün farklı bir türünü gösteriyor:** Bozkurt **sayıyı**
+önce söyledi, Geçer **mekanizmayı** sonra verdi. Dosya bugüne kadar yalnızca
+"kim önce söyledi"yi ölçüyordu; burada asıl bilgi katkısı **sonra gelenin**
+(nedenselliği kuran Geçer). ➜ Öncülük ≠ katkı. Bu ayrım, aşağıdaki "Ne öğreniyoruz"
+bölümüne yeni bir madde olarak eklendi.
+
+**Kanıt değeri:** Yüksek — üç tarih de gün hassasiyetinde, 4 günlük net fark.
+
+## Gıda emtia süper döngüsü (2026-09-10/11'de eklendi)
+
+- **Öncü:** Cihat E. Çiçek — **6 Eylül 2026** (Bilello tablosu ile gıda fiyat verisi)
+- **Takipçi:** Atilla Yeşilada — **9 Eylül 2026** (*"tarihin en şiddetli El Niño"*,
+  **Ocak'ta güney yarımküre mahsulü** — tek tarihli pencereyi o koydu)
+- **Takipçi:** Sellcoin — **10 Eylül 2026** (zinciri kuruyor: petrol/gaz → emtia
+  (şeker, buğday, soya, bakır 1 ayda +%10-12) → **çekirdek ÜFE** → TÜFE, **5-6 ay
+  gecikmeli**)
+
+**Üç halkalı temiz zincir — dosyadaki en net gelişim örneği:** Çiçek **veriyi**
+getirdi (6 Eyl), Yeşilada **takvimi** koydu (Ocak 2027), Sellcoin **aktarım
+mekanizmasını** ve gecikmeyi verdi (5-6 ay). Üç kaynak birbirinin üstüne koyuyor,
+tekrar etmiyor.
+
+⚠️ Mevcut *"Gıda enflasyonu yapısal risk"* kaydı (2 kaynak) bu temanın erken
+hâliydi ve orada **öncü belirlenememişti**. Bu yeni kayıt onu somutlaştırıyor:
+artık hem öncü hem tarih hem mekanizma var.
+
+**Kanıt değeri:** Yüksek — üç tarih de gün hassasiyetinde, 4 günlük aralıkta.
+
 ## ÖZET — kaynak başına öncülük
 
 | Kaynak | Öncü | Takipçi | Eş zamanlı | Öncülük oranı |
@@ -284,3 +347,31 @@ girdiğine** duyarlı. Ida bir kaynağı geç izlediyse o kaynak haksız yere "t
 görünür. Bunu düzeltmenin tek yolu `11_DIS_KAYNAKLAR.md`'ye giriş eklerken
 **videonun kendi yayın tarihini** yazmaktır — "önceki oturum" / "Ağu 2026" gibi
 kayıtlar bu analizi kalıcı olarak bulanıklaştırıyor.
+
+---
+
+### 2026-09-10/11 notu — öncülük ölçümünde iki yeni ders
+
+**1. Kaynağın kendi geçmiş tarihini göstermesi, arşiv tarihini geçersizleştiriyor.**
+Bu dosyanın en büyük sorunu baştan beri şuydu: ölçtüğümüz şey kaynağın *ne zaman
+söylediği* değil, *bu depoya ne zaman girdiği*. Turhan Bozkurt'un "dalgalı kur"
+kaydı bu sorunu ilk kez aşıyor — çünkü Bozkurt **2023 ve 2025 tarihli üç alıntıyla**
+kendi takibini belgeledi. ➜ **Uygulanabilir kural:** `11_DIS_KAYNAKLAR.md`'ye giriş
+yapılırken, kaynak kendi eski tarihine atıf yapıyorsa **o tarih de kaydedilmeli**;
+öncülük hesabında arşiv tarihinin yerini alır.
+
+**2. Öncülük ≠ katkı.** Motorin kaydında sayıyı önce Bozkurt söyledi ama
+**nedenselliği Geçer kurdu** (*"motorin artışı Brent'in 2 katı"*, 2 mln varil
+ihracat kaybı). Gıda kaydında veriyi Çiçek getirdi, **takvimi Yeşilada koydu**,
+**mekanizmayı Sellcoin verdi**. Bu dosya bugüne kadar yalnızca sıralamayı ölçtü;
+sıralamada sonra gelenin **daha fazla bilgi kattığı** iki örnek aynı oturumda çıktı.
+➜ Öncülük tablosu bir **güvenilirlik** göstergesi olarak okunmamalı — nitekim
+`12_KAYNAK_PERFORMANS.md`'nin uyarısı da aynı yönde: erken olmak doğru olmak değildir,
+**ilk olmak da en çok katkıyı yapmak değildir.**
+
+**3. Yeni kaynak (Erdal Sağlam) hiçbir öncülük kaydına girmedi.** 9 Eylül girişindeki
+iddialar (bütçe, YTAK, SPK/MSCI, Varlık Fonu) dosyadaki hiçbir konsensüs kaydıyla
+örtüşmüyor — yani **tamamen yeni bir eksen** (kamu maliyesi/karar mekanizması)
+getiriyor. Öncülük ancak ikinci bir kaynak aynı konuya girdiğinde ölçülebilir hâle
+gelecek. Bu, bir kaynağın dosyaya kattığı değerin **öncülük tablosunda hiç
+görünmeyebileceğinin** en net örneğidir.

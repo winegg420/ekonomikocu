@@ -4135,3 +4135,64 @@ ve `kaynak_konsensus.json` (25 → **29 kayıt**) yeniden hesaplandı. Push: `7c
 - Tazelik dogrulamasi (sessiz bos tarama kontrolu): en yeni kayit 2026-09-10 (4),
   09-09 (2), 09-05 (39). 06-08 Eylul'de kayit yok — o gunlerde paylasim
   yapilmamis, tarama eksigi degil (durdurma hedefi 09-02'yi zaten gecti).
+
+## 2026-09-11 — 11_DIS_KAYNAKLAR: 9-11 Eylul 10 video islendi
+
+- **Islenen videolar (10):** Sellcoin 10 Eyl · Emrah Lafci "Bana Fonlari Anlat B41"
+  10 Eyl · Turhan Bozkurt 10 Eyl · Atilla Yesilada 9 Eyl (Integral) · Selcuk Gecer
+  10 Eyl · Tunc Satiroglu 10 Eyl (Kripto + Nasdaq, 2 ayri giris) · Bora Ozkent
+  10 Eyl · Cihat E. Cicek 11 Eyl · **Mesele Ekonomi / Erdal Saglam 9 Eyl — YENI KAYNAK**
+  (26. kaynak).
+- **Kapsam karari (surduruldu):** Bozkurt'un Sabanci/Zorlu/kayyum ve Mesele
+  Ekonomi'nin Gokcek/Uskudar bolumleri **islenmedi** — dogrulanamaz, seviye
+  icermiyor. Bu, 17 Agustos'tan beri surdurulen "ayri katman" kuralinin
+  dorduncu uygulamasi.
+- **50 yeni iddia; 6'si ayni oturumda kapandi (5 TUTTU + 1 TUTMADI).**
+
+### Karar: dosyanin ilk TUTMADI kaydi bilerek acildi
+Sellcoin'in *"UFE korkulacak veri degil, sadece volatilite"* cumlesi normalde
+"genel yorum" sayilip karneye girmeyebilirdi. Ayni gun Bora Ozkent'in karsi
+gorusu (*"TUFE'ye kadar olumlu surpriz zor"*) kayda gecince cumle **olculebilir
+bir iddiaya** donustu ve UFE %5,4 gelince kapandi.
+**Neden onemli:** uc oturumdur `12_KAYNAK_PERFORMANS.md`'ye dusulen *"payda bos,
+bu tablo hicbir sey olcmuyor"* uyarisinin **cozum mekanizmasi** bu. Cikarim:
+bir iddiayi olculebilir yapan sey iddianin kendisi degil, **karsi tarafin ayni
+gun kayda gecmesi.** Bundan sonraki oturumlarda bilerek tekrarlanmali.
+
+### Cikarim: kalabalik taraf haklı taraf degil
+`14_CELISKI_PANELI.md` **A16**: altinda Yesilada **tek basina** (4.000-4.500
+surunur) bes kaynagin karsisinda — ve 10-11 Eylul'de altin 4.320'ye sarkti,
+yani egilim **tek kalanin lehine**. `13_KONSENSUS.md`'nin "kac kaynak soyluyor"
+metrigi ile celiski panelinin "kim hakli cikti" metriginin **ilk kez ters yonu
+gosterdigi** kayit. Iki dosya birlikte okunmadan konsensus sayisi guven
+gostergesi sanilabilir.
+
+### Cikarim: karne, isabetten once BAGLAYICILIGI olcuyor (kanitlandi)
+7 Eylul'de Murat Sagman'in TCMB satirina *"yanlislanabilirligi en yuksek kaynak"*
+notu dusulmustu. 10 Eylul'de **tam o satir kapandi ve TUTMADI cikti**; ayni yonu
+soyleyen Baris Soydan (*"10 Eylul **ya da Ekim**"*) kacis yolu biraktigi icin
+kapanmadi. Hipotez uc gun sonra dogrulandi.
+
+### Agirliklandirma ilk kez gercek is yaptı
+Tunc Satiroglu (%100, SMH 572 ile 3. kapanmis kayit) ve Sellcoin (%66,7, ilk
+TUTMADI) notr %50'den cikti -> `magicma/kaynak_konsensus.json`'daki **33 kaydin
+tamami yeniden hesaplandi**, siralama degisti (altin taban bandi 3,5 -> 4,2).
+
+### Dosya degisiklikleri
+- `11_DIS_KAYNAKLAR.md`: +490 satir, 9 blok (Mesele Ekonomi yeni bolum).
+- `magicma/onemli_seviyeler.json`: **405 -> 447** kayit (+42), 30 -> **36 enstruman**.
+  Yeni: USDT.D, SPY, COPPER, DRAM, META, QCOM. XRP direnc/destek **1,36 -> 1,38**
+  ve **1,45** olarak yukari revize edildi (eski 1,36 stop kaydi uzerine yazilmadi,
+  turu destek olarak duzeltildi).
+- `magicma/kaynak_konsensus.json`: 29 -> **33** kayit; Fed kaydi **9 kaynak**.
+- `12` / `13` / `14` (A16-A21) / `16` (4 pencere kapandi, 11 yeni) / `18` (3 yeni
+  onculuk) / `01` (kaynak listesine Mesele Ekonomi) guncellendi.
+
+### Bilinen sinirlama (kasitli birakildi)
+`USDT.D`, `SPY`, `COPPER`, `DRAM` icin `magicma/sembol_listesi/*.txt` icinde
+karsilik **yok** — alarm motoru bu 4 enstrumani atliyor ve loga dusuyor
+(dogrulandi: `[ONEMLI] Taramada karsiligi olmayan 12 enstruman atlandi`).
+**Silinmedi**, cunku sembol listesine eklenirse otomatik devreye girerler.
+`koc_tetigi_durum.json` **degistirilmedi** (Cin/ABD anlasmasini dogrulayan kaynak
+yok; Yesilada tersine ticaret savasinin yeniden baslamasini bekliyor).
+

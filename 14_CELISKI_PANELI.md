@@ -1,6 +1,7 @@
 # 14 — ÇELİŞKİ PANELİ
 
-_Güncelleme: 2026-09-07_ (**A10 dört yönlü oldu** · **A12** petrol uzun vade · **A13** gümüş VERİ çelişkisi · **A14** BIST 14.000 vs 13.440 · **A15** altında zamanlama — analist↔analist çelişki sayısı 11 → 15)
+_Güncelleme: 2026-09-10/11_ (**10 video** · **A16 ALTIN YÖNÜ 1'e 5** — dosyadaki en kalabalık tek çelişki · **A17** Yemen cephe durumu (olgu çelişkisi) · **A18** TCMB yıl sonu üç yönlü · **A19** faiz/borç teşhisi üç kamp · **A20** AI şirketlerinin geleceği · **A21 ÜFE okuması — panelin İLK KAPANAN çelişkisi** — analist↔analist çelişki sayısı 15 → 21)
+_Önceki: 2026-09-07 (**A10 dört yönlü oldu** · **A12** petrol uzun vade · **A13** gümüş VERİ çelişkisi · **A14** BIST 14.000 vs 13.440 · **A15** altında zamanlama — analist↔analist çelişki sayısı 11 → 15)
 _Önceki: 2026-09-06 (Berk Tavsan yeni kaynak: B1 gümüş karşı-kaynak sayısı 5'e çıktı, A11 veri aktarım farkı açıldı)_
 _Ondan önceki: 2026-09-04 (4 Eylül NFP günü: A8/A9/A10 açıldı, B7 güncellendi)_
 
@@ -167,7 +168,20 @@ _Ondan önceki: 2026-09-04 (4 Eylül NFP günü: A8/A9/A10 açıldı, B7 güncel
   İki kaynak aynı şeyi söylüyor ama biri kendine kaçış yolu bırakmış. Karne bunu
   ayırt edebilmeli — `12_KAYNAK_PERFORMANS.md`'de Sağman'ın satırı 10 Eylül'de
   kapanacak, Soydan'ınki kapanmayabilir.
-- **Kim haklı çıktı:** Henüz yok — **dosyadaki en hızlı kapanacak çelişki.**
+- **✅ KAPANDI (10 Eylül 2026) — TCMB politika faizini %37'de SABİT tuttu.**
+  - **Selçuk Geçer haklı çıktı** (*"TCMB de sabit kalır"*) — tek net "sabit" diyen.
+  - **Murat Sağman yanıldı** (*"İNDİRİR"*, Matriks anketindeki tek kişi) — panelin
+    öngördüğü gibi **yanlışlanabilirliği en yüksek kaynak oydu ve kapandı.**
+  - **Barış Soydan kapanmadı** — *"10 Eylül ya da Ekim"* penceresi Ekim'e sarktı.
+    Panelin 7 Eylül'deki *"aynı yön, farklı bağlayıcılık"* tespiti **birebir doğrulandı.**
+  - **Cüneyt Paksoy kapanmadı** — *"bekle-gör, indirim Kasım/Aralık"* dediği için
+    10 Eylül onun tezini bozmadı; ayrışması Kasım'a kaldı.
+  - **Sonradan katılan iki kaynak da doğru tarafta:** **Atilla Yeşilada** (9 Eyl,
+    *"%80 ihtimalle indirmez"*) ve **Erdal Sağlam** (9 Eyl, *"sabit"*) — ikisi de TUTTU.
+  - ⚠️ **Panelin öğrettiği şey:** aynı yönü söyleyen iki kaynaktan yalnızca
+    **kaçış yolu bırakmayanı** kapandı. Karne, iddianın doğruluğunu değil
+    **bağlayıcılığını** da ödüllendirmek zorunda; aksi hâlde en muğlak konuşan
+    kaynak hiç yanılmamış görünür.
 
 ### A11. NFP sürprizinin BÜYÜKLÜĞÜ — veri aktarım farkı (2026-09-06'da açıldı)
 - **Barış Soydan** (4 Eyl): NFP **"beklentinin ~4 katı"**.
@@ -284,6 +298,172 @@ _Ondan önceki: 2026-09-04 (4 Eylül NFP günü: A8/A9/A10 açıldı, B7 güncel
   değil**; bu, o satırın yeniden incelenmesi için bir gerekçedir.
 - **Kim haklı çıktı:** Henüz yok — **11 Eylül'de kapanır.**
 
+
+---
+
+### A16. ALTININ YÖNÜ — dosyadaki en kalabalık tek çelişki, 1'e 5 (2026-09-10'da açıldı)
+
+Aynı varlık, aynı hafta, aynı fiyat (~4.320-4.400) — **bir kaynak aşağı, beş kaynak yukarı.**
+
+- **Atilla Yeşilada** (9 Eyl) — **TEK BAŞINA AŞAĞI/YATAY:** *"Altın uzun süre
+  4.000-4.500 bandında sürünür, üstüne çıkmasını beklemiyorum."*
+  **Gerekçesi tamamen farklı bir eksende:** teknik değil **fırsat maliyeti** —
+  BBB kurumsal tahvil getirisi **%6,5**, *"moda geçti, 5.600'den darbe yiyenler
+  dönmez"*. Yukarı gitmesi için **finansal kriz veya seçim şoku** gerektiğini söylüyor.
+- **Selçuk Geçer** (10 Eyl): 4.400 tutunma → 4.500 güçlenme → **4.800 ana eşik → 5.000**.
+  Gerekçe: DXY zayıf, PBoC 22 aydır alıyor (Ağustos +650 K ons), *"Fed şahin = dolar
+  güçlü = altın düşer denklemi işlemiyor"*.
+- **Turhan Bozkurt** (10 Eyl): *"Fed sabit tutarsa **altın 5.000+, gümüş 75+**;
+  kurum hedefleri 5.000+ korunuyor; bugünkü düşüş kâr satışı."*
+- **Sellcoin** (10 Eyl): 4.360 desteği tuttu, **4.300-4.400 kademeli AL bölgesi**,
+  *"yükselişin ikinci bacağı gelecek"*.
+- **Cihat E. Çiçek** (11 Eyl): düşüşü **fırsat** sayıyor (*"Fırsat, ricat değil"*),
+  10 gr bilezik 63-64 bin görürse **alacak**.
+- **Berk Tavsan** (6 Eyl): 4.310-4.360 destek → **4.850 hedef**, stop 4.200.
+
+**Durum:** Çelişkili — ve panelin **en asimetrik** kaydı. Diğer çelişkilerde taraflar
+2'ye 2 ya da 3'e 2; burada **1'e 5.**
+
+**⚠️ ASIL BULGU — kalabalık taraf haklı taraf değildir:** 10-11 Eylül'de altın
+**4.320'ye sarktı** (ÜFE sonrası 3 günde −%2,6). Yani şu ana kadarki gözlem
+**tek başına kalan Yeşilada'nın lehine.** Bu kayıt tam da bu yüzden değerli:
+`13_KONSENSUS.md`'nin *"kaç kaynak söylüyor"* metriği ile bu panelin *"kim haklı
+çıktı"* metriğinin **ilk kez ters yönü gösterdiği** durum.
+
+**Ayırt edici test:** Yeşilada'nın kendi kriteri sayısal — **4.500 üstünde kalıcı
+kapanış.** Görülürse beş kaynak, yıl sonuna kadar 4.000-4.500'de kalırsa Yeşilada
+haklı çıkar. **Bu, panelin en net ölçütlü kaydıdır.**
+
+**Kim haklı çıktı:** Henüz kapanmadı. **Eğilim şu an Yeşilada lehine** (4.320).
+
+---
+
+### A17. YEMEN CEPHE DURUMU — tez değil, OLGU çelişkisi (2026-09-10/11'de açıldı)
+
+- **Tunç Şatıroğlu** (10 Eyl): *"**Yemen hükümet güçleri Husilere karşı başarılı**
+  → Suudi tesislerine saldırı durur → **petrol gerilesin**, yataylık biter."*
+  Ayrıca: ABD 5 tankeri vurdu, İran Ürdün'deki üsse 20 balistik attı, **ABD karşılık
+  vermedi → gerilim artmıyor.**
+- **Cihat E. Çiçek** (11 Eyl, bir gün sonra): *"**Husiler Mocha'yı aldı**, Aden'e
+  yürüyor, **hükümet güçleri kaçıyor**; Suudi doğu-batı boru hattı 8 noktada
+  patlatıldı, yanıyor; Suudi üretimi 36 yılın dibinde."* → **Brent 110, 150-200 mümkün.**
+- **Selçuk Geçer** (10 Eyl, üçüncü bir okuma): Goldman **yıl sonu 85**, *"100 üstü
+  kalıcı değil"*; İran-Umman geçici transit güzergâhında ilerleme.
+
+**Durum:** Bu **A11 ve A13 ile aynı türden** — tez ayrışması değil **olgu
+bildiriminde çelişki**. İki kaynak aynı cephede **zıt yönde ilerleme** raporluyor.
+İkisi birden doğru olamaz.
+
+**Neden panelde:** Çünkü her ikisi de bu olgudan **doğrudan fiyat sonucu** çıkarıyor
+(Tunç: petrol geriler, yataylık biter → NDX 30.720; Çiçek: Brent 110-150-200).
+Yani yanlış olgu, yanlış pozisyona dönüşüyor.
+
+**Ayırt edici test:** Mocha ve Aden'in kimin kontrolünde olduğu **doğrulanabilir bir
+olgudur**, yorum değil. Bir haftalık takip yeterli.
+
+**Kim haklı çıktı:** ⚠️ **Eğilim Çiçek lehine** — 11 Eylül itibarıyla Brent
+**105-110**'a çıktı, Tunç'un beklediği gerileme gelmedi. `11_DIS_KAYNAKLAR.md`'de
+Tunç'un ilgili karne satırına **ZEDELENDİ** notu düşüldü.
+
+---
+
+### A18. TCMB YIL SONU POLİTİKA FAİZİ — üç ayrı yön (2026-09-09/10'da açıldı)
+
+- **%35'e iner** — **Murat Sağman**, bankacı anketi (2×100bp), `13_KONSENSUS.md`
+  kayıt 29. **Turhan Bozkurt** de yakın: *"yıl sonu 34-35."*
+- **%35'e BİLE inemeyebilir** — **Erdal Sağlam** (9 Eyl, **yeni kaynak**):
+  *"Ekim/Aralık'ta da indiremeyebilir."* Gerekçe: **Brent 100+ ve motorin 2 katı**;
+  hedef revizyonu (%28,4) hareket alanı açsa da enerji şoku kapatıyor.
+  Dayanak: TEPAV *"erken indirim itibar kaybı"*, rezerv erimesi.
+- **Bu yıl HİÇ indirmemeli** — **Atilla Yeşilada** (9 Eyl): kendisi %20 indirim
+  ihtimali veriyor **ama makul olanın hiç indirmemek olduğunu** söylüyor. Gerekçe:
+  *"TL'de kalma primi manşet +7 puan gerektirir; ani indirim dövize kaçış yaratır;
+  24 ayda seçim varken kur çalkantısı göze alınmaz."*
+
+**Durum:** Çelişkili. ⚠️ Dikkat: bu **A10'un (10 Eylül toplantısı) devamı değil,
+ayrı bir kayıt.** A10 tek bir toplantıyı ölçüyordu ve **kapandı** (sabit);
+bu kayıt **yıl sonu seviyesini** ölçüyor ve 31 Aralık'ta kapanır.
+
+**Ayırt edici test:** 31 Aralık 2026 itibarıyla politika faizi. **≤35 →** Sağman/Bozkurt.
+**36-37 →** Sağlam. **37 (hiç değişmemiş) →** Yeşilada'nın "makul olan" tarifi.
+
+**Kim haklı çıktı:** Henüz yok — üç pencere de açık.
+
+---
+
+### A19. ABD FAİZİNİN TEŞHİSİ — üç kamp (2026-09-10'da açıldı, A2'nin genişlemesi)
+
+Aynı veriye (10Y 4,83-4,90, 30Y 5,34) bakan üç farklı teşhis:
+
+1. **"Abartılıyor, normal"** — **Bora Özkent** (10 Eyl): *"Faiz meselesi abartılıyor,
+   enflasyon da. **Nominal büyüme %6'dayken 10Y %5 normal.**"* Bessent alımları
+   fiilen başlayınca faizi biraz baskılar. **Tunç Şatıroğlu** dolaylı aynı kampta
+   (petrol 100 altı nötr, NDX hedefi yukarı).
+2. **"Yapısal yeni rejim"** — **Atilla Yeşilada** (9 Eyl): *"**Dünya yüksek faiz
+   çağına girdi, 21. yüzyıl istisnaydı.** 2027 finansman planı 10Y %5+, 30Y %6+
+   varsayımıyla yapılıyor."* Kriz değil, **kalıcı seviye kayması**.
+3. **"Borç sarmalı / sürdürülemez"** — **Selçuk Geçer** (*"soru artık Fed artırabilir
+   mi değil, **ABD bu faizi ne kadar taşır**"*; kamu borcu/GSYH %100+, açık 2 trilyon $),
+   **Cihat E. Çiçek** (*"ABD %5 borçlanırken Yunanistan %3,9 — ABD tahvili
+   Yunanistan'dan kötü"*), **Sellcoin** (*"Hazine geri alımı 2→4→6 mlr $ büyüdü ama
+   faizler yine yükseldi — asıl soru bu borcu kim alacak"*).
+
+**Durum:** Çelişkili ve **A2'nin (Yeşilada vs Özkent) üç kampa genişlemiş hâli.**
+A2 ikili bir teşhis çelişkisiydi; buraya **üçüncü bir kategori** (borç sarmalı)
+ve dört yeni kaynak eklendi.
+
+**Ayırt edici test — A2'nin kriteri hâlâ geçerli ve en iyisi:** Yeşilada'nın kendi
+ölçütü, faizin **seviyesi değil**, tahvilin **"işlem yapılamaz hâle gelmesi"**.
+Buna Sellcoin'in ölçütü eklenebilir: **Hazine geri alım programı büyüdüğü hâlde
+uzun vade faizi yükselmeye devam ediyor mu?** (10 Eylül'de 6 mlr $ açıklandı,
+30Y **5,34**'e çıktı → şu anki cevap **evet**.)
+
+**Kim haklı çıktı:** Henüz yok. ⚠️ Ancak 10 Eylül gözlemi (geri alım büyüdü, faiz
+yine yükseldi) **3. kampın lehine bir veri noktası**, Özkent'in *"alımlar başlayınca
+baskılar"* beklentisinin aleyhine.
+
+---
+
+### A20. AI ŞİRKETLERİNİN GELECEĞİ — iflas mı, IPO rallisi mi? (2026-09-10'da açıldı)
+
+- **Atilla Yeşilada** (9 Eyl): ***"2027'de OpenAI iflası bekliyorum"*** — *"iş modeli
+  çökük, insanlar ödemiyor"*; **Anthropic dahil**. Aynı zamanda hisse tarafında
+  **pozitif** (S&P/Nasdaq yıl sonu bugünden yüksek) — yani AI hikâyesinin piyasayı
+  taşıdığını kabul ediyor ama **şirketlerin kendisini** batık görüyor.
+- **Bora Özkent** (10 Eyl): **Anthropic ~2 trilyon $ IPO** değerlemesini Meta'nın
+  yukarı potansiyeli için **dayanak** yapıyor; *"Anthropic IPO'suna doğru
+  hareketlenme bekliyorum"*.
+
+**Durum:** Çelişkili. ⚠️ **Bu panelin ölçme sınırına en yakın kaydı:** Yeşilada'nın
+iddiası **spekülatif ve uzun vadeli**, Özkent'inki **tarihsiz**. İkisi de
+`16_ZAMANLAMA_KARNESI.md`'nin "ölçülemez pencere" listesine adaydır.
+
+**Ayırt edici test:** 2027 sonuna kadar OpenAI'ın iflas/kurtarma/satın alma
+durumunun gerçekleşip gerçekleşmediği — ikili, doğrulanabilir bir olay.
+Anthropic IPO'su ise **tarih verilmediği için ölçülemez**.
+
+**Kim haklı çıktı:** Henüz yok, **2027'den önce kapanmayacak.**
+
+---
+
+### A21. ÜFE OKUMASI — ⚠️ PANELİN İLK KAPANAN ÇELİŞKİSİ (2026-09-10'da açıldı, 11 Eyl'de KAPANDI)
+
+- **Sellcoin** (10 Eyl): *"ÜFE beklentiye paralel, **korkulacak veri yok, sadece
+  volatilite**."*
+- **Piyasa tepkisi / karşı taraf (Özkent, 10 Eyl):** *"TÜFE'ye kadar olumlu sürpriz
+  zor"*; S&P 3 gün üst üste düşüş, **negatif gamma** nedeniyle düşüş sertleşir.
+
+**Gerçekleşen:** ABD ÜFE **yıllık %5,4** — beklenti üstü. Ardından **altın 3 günde
+−%2,6** (4.320'ye), **gümüş −%4** (63,4), **30Y 5,34** (2007'den beri en yüksek),
+**BTC 76,6 K dip**, Fed 16 Eylül artırım fiyatlaması **%70**'e çıktı.
+
+**✅ ÇÖZÜLDÜ — Özkent haklı çıktı, Sellcoin yanıldı.**
+
+**Neden bu kayıt panelin en önemlisi:** Bu, `12_KAYNAK_PERFORMANS.md`'ye **dosyanın
+ilk TUTMADI kaydını** yazdıran çelişkidir. Üç oturumdur *"payda boş, bu tablo
+hiçbir şey ölçmüyor"* diye not düşülen sorun, tam da bir çelişki kaydının
+kapanmasıyla çözüldü. ➜ **Panelin işleyiş kanıtı:** çelişkileri kayda geçirmek,
+karnenin kapanmasını hızlandırıyor.
 
 ---
 
@@ -424,11 +604,11 @@ _Ondan önceki: 2026-09-04 (4 Eylül NFP günü: A8/A9/A10 açıldı, B7 güncel
 
 | | Sayı |
 |---|---|
-| Analist ↔ analist çelişkisi | **15** (2026-09-07: A12 petrol uzun vade yönü, A13 gümüş VERİ çelişkisi, A14 BIST 14.000 vs 13.440, A15 altında zamanlama · A10 üç yönlüden **dört kaynaklıya** genişledi · 2026-09-06: A11 NFP sürprizinin büyüklüğü · 2026-09-04: A8 altın rekorunun anlamı, A9 DXY kriz yönü, A10 TCMB zamanlaması) |
+| Analist ↔ analist çelişkisi | **21** (2026-09-10/11: **A16 altının yönü 1'e 5**, A17 Yemen cephe durumu (olgu), A18 TCMB yıl sonu üç yönlü, A19 ABD faiz teşhisi üç kamp (A2'nin genişlemesi), A20 AI şirketleri, **A21 ÜFE okuması — açıldığı oturumda KAPANDI** · 2026-09-07: A12 petrol uzun vade yönü, A13 gümüş VERİ çelişkisi, A14 BIST 14.000 vs 13.440, A15 altında zamanlama · A10 üç yönlüden **dört kaynaklıya** genişledi · 2026-09-06: A11 NFP sürprizinin büyüklüğü · 2026-09-04: A8 altın rekorunun anlamı, A9 DXY kriz yönü, A10 TCMB zamanlaması) |
 | Koç ↔ dış kaynak çelişkisi | **8** (2026-09-01: B7 BIST sebebi, B8 petrol yönü — Iris Cibre) |
-| **Sonucu (kısmen) belli olan** | **6** (A13 gümüş fiyatı — **Soydan doğru, Bozkurt'unki eski/yanlış rakam**, karne puanı üretmez · A11 NFP çarpanı — Tavsan'ın somut sayısı doğru, ama karne puanı üretmez · B1 gümüş — zaman farkı çıktı · A6 BIST — 4 Eyl'de gün içi kırıldı, kapanışta tutuldu, **Paksoy eşiği yukarı revize etti** · B5 altın — şimdilik Integral · B7 BIST sebebi — kaynak dengesi 3'e 1 Iris lehine) |
-| Ölçülecek somut testi tanımlanmış olan | **9** (A2 "işlem yapılamaz hale gelme" · A8 rekor günü stres göstergeleri · A9 risk-off gününde DXY yönü · A10 10 Eylül TCMB · **A12 Hürmüz tanker akışı** · **A14 13.870 / 14.250 kırılımı** · **A15 11 Eylül CPI** · B2 15 Eylül sonrası DXY · B4 4,75 müdahalesi) |
-| Kapanmaya en yakın | **A10 (10 Eylül TCMB, artık 4 kaynak)** → **A15 (11 Eylül CPI)** → A5 (16 Eylül FOMC) → B3 (1 Eylül – 9 Ekim penceresi). **A14** ilk sinyalini de bu hafta verebilir (TCMB günü realizasyon riski). |
+| **Sonucu (kısmen) belli olan** | **9** (**A21 ÜFE — TAM KAPANDI, Özkent haklı, Sellcoin yanıldı, dosyanın ilk TUTMADI'sı** · **A10 TCMB — TAM KAPANDI, Geçer/Yeşilada/Sağlam haklı, Sağman yanıldı** · **A17 Yemen — eğilim Çiçek lehine** (Brent 105-110) · A13 gümüş fiyatı — **Soydan doğru, Bozkurt'unki eski/yanlış rakam**, karne puanı üretmez · A11 NFP çarpanı — Tavsan'ın somut sayısı doğru, ama karne puanı üretmez · B1 gümüş — zaman farkı çıktı · A6 BIST — 4 Eyl'de gün içi kırıldı, kapanışta tutuldu, **Paksoy eşiği yukarı revize etti** · B5 altın — şimdilik Integral · B7 BIST sebebi — kaynak dengesi 3'e 1 Iris lehine) |
+| Ölçülecek somut testi tanımlanmış olan | **13** (**A16 altın 4.500 üstü kalıcı kapanış** · **A17 Mocha/Aden kimin kontrolünde** · **A18 31 Aralık politika faizi** · **A19 geri alım büyürken uzun vade faizi yükselmeye devam ediyor mu** · A2 "işlem yapılamaz hale gelme" · A8 rekor günü stres göstergeleri · A9 risk-off gününde DXY yönü · A10 10 Eylül TCMB · **A12 Hürmüz tanker akışı** · **A14 13.870 / 14.250 kırılımı** · **A15 11 Eylül CPI** · B2 15 Eylül sonrası DXY · B4 4,75 müdahalesi) |
+| Kapanmaya en yakın | **A5 (16 Eylül FOMC — 9 kaynaklı Fed kaydı piyasanın tersinde, dosyanın en büyük tek kapanma günü)** → **A15 (11 Eylül CPI — bugün)** → **A17 (Yemen, bir haftalık takip yeterli)** → B3 (1 Eylül – 9 Ekim) → **A18 (31 Aralık)**. _A10 ve A21 bu oturumda kapandı._ |
 
 ### 2026-09-04 notu — çelişkilerin karakteri değişiyor
 
@@ -461,3 +641,28 @@ ayrı oturumlarda işlenselerdi **fark edilmezdi.**
 "biraz daha düzeltme"si). Karne kapatılırken buna dikkat edilmeli — **yanlışlanamayan
 iddia tutmuş sayılmaz**, `12_KAYNAK_PERFORMANS.md`'deki ölçülemez-iddia sorununun
 aynısıdır.
+
+
+### 2026-09-10/11 notu — panel ilk kez bir çelişkiyi KAPATTI
+
+Altı yeni kayıt açıldı (A16-A21) ve bunlardan biri **aynı oturumda kapandı** (A21).
+Bu, panelin kurulduğundan beri ilk kez gerçekleşti ve üç şeyi gösteriyor:
+
+1. **Çelişki kaydı, karne kapanmasını hızlandırıyor.** A21 kapanmasaydı Sellcoin'in
+   ÜFE cümlesi büyük ihtimalle *"genel yorum"* sayılıp karne satırı bile olmayacaktı.
+   Karşı tarafın (Özkent) aynı gün kayda geçmesi, cümleyi **ölçülebilir bir iddiaya**
+   dönüştürdü. ➜ Bu, `12_KAYNAK_PERFORMANS.md`'deki *"payda boş"* sorununun
+   **çözüm mekanizması**dır ve bilinçli olarak tekrarlanmalıdır.
+
+2. **Kalabalık taraf haklı taraf değil.** A16'da 1 kaynak (Yeşilada) 5 kaynağa karşı
+   ve şu ana kadarki fiyat hareketi **tek kalanın lehine**. `13_KONSENSUS.md`
+   *"kaç kişi söylüyor"* ölçüyor; bu dosya *"kim haklı çıktı"* ölçüyor — ikisinin
+   **ters yönü gösterebileceği ilk somut örnek** A16'dır. İki dosya birlikte
+   okunmadan konsensüs sayısı bir güven göstergesi sanılabilir.
+
+3. **Olgu çelişkileri artıyor — üçüncü oturumda üçüncü örnek.** A11 (NFP çarpanı),
+   A13 (gümüş fiyatı), şimdi **A17 (Yemen cephe durumu).** Üçünde de kimse bir tez
+   savunmuyor, biri **yanlış olgu** aktarıyor. ⚠️ A17 diğer ikisinden daha ciddi:
+   yanlış rakam değil, **yanlış savaş durumu** ve doğrudan bir petrol pozisyonuna
+   dönüşüyor. ➜ Girişlerde her jeopolitik olgunun en az bir başka kaynakla
+   karşılaştırılması artık **veri kadar kritik**.
