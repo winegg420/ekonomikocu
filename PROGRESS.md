@@ -4234,3 +4234,50 @@ birden** gosteriyor:
   kapali oldugu icin gecici gorunen META/NVDA/QCOM).
 - SPY'nin TradingView kodu ilk MagicMA taramasinda **dogrulanmali**.
 
+
+
+## 2026-09-13/14 — "ekonomikocu tara analiz et pushla": sessiz kayip + kismi gap doldurma (ANALIZ YAPILMADI)
+
+### Ne oldu
+- `tara_guvenli.py` exit 0, otomatik commit `14335aa`, **+5 yeni** dedi. Profil kaydirmasi
+  4. scroll'da durdu ("1 scroll'dur yeni tweet yok"). Tarama `EKO_AKIS=yanit` OLMADAN
+  calistirildi -> Gonderiler akisi, Koc'un yanitlari hic gelmedi.
+- Canli `with_replies` diff'i (110 scroll, 877 ID): **672 tweet arsivde yoktu**,
+  4 Eyl 21:52 -> 13 Eyl 23:38 TSI. Gun dagilimi (TSI): 4 Eyl 13 · 5 Eyl 13 · 6 Eyl 0 ·
+  7 Eyl 55 · 8 Eyl 99 · 9 Eyl 96 · 10 Eyl 174 · 11 Eyl 131 · 12 Eyl 59 · 13 Eyl 32.
+  Arsivde bu aralikta yalnizca 6 kayit vardi. 4 Eyl oncesi canli akista KONTROL EDILMEDI.
+- `gap_ekle.py` ile **199 / 672** cekildi (4-8 Eyl tamam, 9 Eyl'den 11). Arsiv 7.994 -> **8.193**.
+- **Kullanici istegiyle yarida birakildi** ("bitir"). Kalan **473 ID** (9-13 Eyl):
+  `99_BOT_ARSIV/gap_bekleyen_ids.txt`.
+- **Analiz YAPILMADI** — kullanici haftalik token limiti az oldugu icin "analizi sonra
+  yapacagiz" dedi. 4-13 Eyl metin + gorselleri okunmadi, `gorsel_analiz.jsonl`'e
+  islenmedi, `06_ANALIZ.md`'ye blok yazilmadi. Son analiz blogu hala 2026-09-07.
+  `analiz_devam.py` + paket (00-11) + `kapsam_durum.py` calistirildi (token harcamayan
+  yerel siniflandirma).
+
+### Kalan isi devam ettirme
+Tek seferde 473 ID verme: X ~100 tweet sonra kisitliyor. 25'lik partiler halinde calistir;
+her parti kendini kaydeder, cikis kodu 3 gelirse 15 dk bekle:
+`py -3 99_BOT_ARSIV/kod/gap_ekle.py <25 ID>` — arsive giren ID'leri listeden dus.
+Bittiginde canli diff'i 4 Eyl oncesine de uzat, sonra analiz.
+
+### Kod degisikligi
+- `gap_ekle.py`: `ARDISIK_BOS_LIMIT = 5` — ust uste 5 tweet bos gelirse (X rate limit)
+  toplananlari kaydedip **cikis kodu 3** ile durur. Onceden sinirda her tweet icin 20 sn
+  bekleyip limiti uzatiyor, 100'luk partinin tamamini sonda kaydetmeye calisiyordu.
+
+### Olculen / cikarimlar
+- **X rate limit esigi:** ~100 status sayfasi (~25/dk) sonra sayfalar bos geliyor
+  (`innerText` bos). 15 dk soguma sonrasi tweet 2-3 sn'de yuklendi. Iki kez tekrarlandi.
+- **CDP sahte saglik:** `/json/version` 200 donerken `connect_over_cdp` "ws connected"da
+  asili kaldi (iki kez). Gercek saglik testi = `connect_over_cdp(timeout=15000)`. Cozum:
+  yalnizca bot Chrome'unu (`ekonomikocu_x_session`) yeniden baslatmak.
+- **gap_ekle takilmasi:** 23:49'da tek sayfada 27 dk asili kaldi, 84 kayit diske
+  yazilmadan kaybedildi (parti sonda kaydediliyor). Parti 25'e indirildi + `timeout`.
+- CHROME_X.bat gizli `cmd /c` ile baslatilinca Chrome acilmadi; chrome.exe dogrudan
+  `Start-Process` ile acildi.
+
+### Kullanici tercihleri (bu oturum)
+- Uzun islerde **belirli araliklarla kontrol + otomatik takilma tespiti** zorunlu;
+  takilmayi kullanici fark etmek zorunda kalmamali (hafizaya: feedback_takilma_bekcisi).
+- Token limiti dar oldugunda: once veri toplama + paket + push, analiz ayri oturumda.

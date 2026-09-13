@@ -1,6 +1,6 @@
 # TARAMA DURUMU (@ekonomikocu)
 
-**Guncelleme:** 2026-09-13T23:37:46
+**Guncelleme:** 2026-09-14T01:21:48
 
 ## Ozet (Ida'ya)
 
@@ -15,7 +15,7 @@
 | En yeni kayit | **2026-09-13** |
 | En eski kayit (metinli) | **2019-11-28** |
 | Surekli tamam kadar | **2025-01-sonu** |
-| Ana tweet (metinli) | **7807** |
+| Ana tweet (metinli) | **8006** |
 | Abone (metinli) | **3434** |
 | Bos / kilitli (eksik) | **0** |
 | Alinti eksik | **4** (+ bekleyen dosya: 13) |
@@ -29,7 +29,7 @@
 
 | Ay | Adet |
 |----|------|
-| 2026-09 | 371 |
+| 2026-09 | 570 |
 | 2026-08 | 758 |
 | 2026-07 | 284 |
 | 2026-06 | 3564 |

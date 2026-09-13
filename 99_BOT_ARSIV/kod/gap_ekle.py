@@ -37,6 +37,10 @@ _arg_ids = [a.strip() for a in _sys.argv[1:] if a.strip().isdigit()]
 if _arg_ids:
     IDS = _arg_ids
 
+# Ust uste bu kadar tweet bos gelirse X icerik vermiyor (rate limit) demektir:
+# devam etmek limiti uzatir. Toplananlar kaydedilir, cikis kodu 3 doner.
+ARDISIK_BOS_LIMIT = 5
+
 JS = r"""
 (wantId) => {
   const arts = Array.from(document.querySelectorAll('article'));
@@ -84,6 +88,8 @@ def download(url: str, dest: Path) -> bool:
 
 def main() -> int:
     raw_rows = []
+    ardisik_bos = 0
+    x_kisitli = False
     with sync_playwright() as p:
         b = p.chromium.connect_over_cdp("http://127.0.0.1:9222")
         ctx = b.contexts[0]
@@ -120,7 +126,13 @@ def main() -> int:
                     continue
             if not data or not (data.get("text") or "").strip():
                 print(f"[{tid}] metin bulunamadi, atlandi")
+                ardisik_bos += 1
+                if ardisik_bos >= ARDISIK_BOS_LIMIT:
+                    print(f"ARDISIK_BOS_LIMIT: {ardisik_bos} tweet ust uste bos — X icerik vermiyor, durduruluyor")
+                    x_kisitli = True
+                    break
                 continue
+            ardisik_bos = 0
             text = data["text"].strip()
             dt = data.get("datetime")
             # medya
@@ -154,7 +166,7 @@ def main() -> int:
 
     if not raw_rows:
         print("Eklenecek tweet yok.")
-        return 1
+        return 3 if x_kisitli else 1
 
     existing = tt.load_jsonl(JSONL)
     by_id = {r.tweet_id: r for r in existing}
@@ -167,7 +179,7 @@ def main() -> int:
     merged = list(by_id.values())
     tt.save_jsonl(merged, JSONL)
     print(f"\nEklendi/guncellendi: {len(new_recs)} (yeni {added}) | toplam {len(merged)}")
-    return 0
+    return 3 if x_kisitli else 0
 
 
 if __name__ == "__main__":
