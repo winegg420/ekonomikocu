@@ -46,6 +46,19 @@ python 99_BOT_ARSIV/kod/github_guncelle.py
 ```
 
 ## TARAMA KURALI
+- **Akış sekmesi VARSAYILAN "Yanıtlar" (with_replies)** (2026-09-14). `EKO_AKIS=yanit`
+  artık gerekmez; eski "Gönderiler" yalnızca `EKO_AKIS=gonderi` ile. Gönderiler
+  sekmesi Koç'un yanıtlarını göstermez — 13 Eylül taraması bu yüzden exit 0 ile
+  4-13 Eylül arası 672 tweeti sessizce kaçırdı.
+- **Tarama sonrası güvenlik ağı:** `tara_guncel_yeni.py` profil taramasından sonra
+  (yalnızca ekonomikocu) `profil_bosluk_doldur.py --alt-sinir <stop-1 gün>` çalıştırır:
+  with_replies akışını o tarihe kadar yeniden kaydırır, arşivde olmayanı article'dan
+  doğrudan kaydeder, "daha fazla göster" kesiklerini `gap_ekle.py`'ye verir.
+- **Eksik tweet doldurmada status sayfalarını tek tek AÇMA** (`gap_ekle.py` toplu
+  kullanımı): X ~100 sayfada kısıtlıyor, 15 dk soğuma gerekiyor. Doğru yol:
+  `py -3 99_BOT_ARSIV/kod/profil_bosluk_doldur.py --alt-sinir YYYY-MM-DD`.
+  Arama akışı (`from: since: until:`) ~185 tweette kısıtlanıyor ve bazı yanıtları
+  hiç listelemiyor — birincil yol değil.
 - Tarama için ASLA tara_*.py / guncelle_*.py dosyalarını doğrudan çağırma.
 - Her zaman tek giriş: python 99_BOT_ARSIV/kod/tara_guvenli.py
   - Güncel/artımlı tarama:  python 99_BOT_ARSIV/kod/tara_guvenli.py

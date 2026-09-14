@@ -78590,10 +78590,10 @@
   ],
   "giris_fiyati": 19.64,
   "giris_zamani": "2026-09-14T11:40:28+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarili",
+  "sonuc_fiyati": 19.77,
+  "sonuc_zamani": "2026-09-14T14:30:28+03:00",
+  "sonuc_yuzde": 0.662
  },
  {
   "id": "DXY_2026-09-14T11:40:28+03:00_G-Alt_CONF2",
@@ -79429,10 +79429,10 @@
   ],
   "giris_fiyati": 0.07635,
   "giris_zamani": "2026-09-14T12:20:27+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarisiz",
+  "sonuc_fiyati": 0.07698,
+  "sonuc_zamani": "2026-09-14T14:30:28+03:00",
+  "sonuc_yuzde": -0.825
  },
  {
   "id": "ETHUSDT_2026-09-14T12:20:27+03:00_H-2",
@@ -80509,10 +80509,10 @@
   ],
   "giris_fiyati": 2513.18,
   "giris_zamani": "2026-09-14T14:00:28+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarisiz",
+  "sonuc_fiyati": 2515.7,
+  "sonuc_zamani": "2026-09-14T14:30:28+03:00",
+  "sonuc_yuzde": -0.1
  },
  {
   "id": "AVPGY_2026-09-14T14:00:28+03:00_G-Ust",
@@ -80575,10 +80575,10 @@
   ],
   "giris_fiyati": 3.48,
   "giris_zamani": "2026-09-14T14:10:26+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarisiz",
+  "sonuc_fiyati": 3.46,
+  "sonuc_zamani": "2026-09-14T14:30:28+03:00",
+  "sonuc_yuzde": -0.575
  },
  {
   "id": "WLDUSDT_2026-09-14T14:10:26+03:00_G-Alt",
@@ -80619,10 +80619,10 @@
   ],
   "giris_fiyati": 0.0179,
   "giris_zamani": "2026-09-14T14:10:26+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarisiz",
+  "sonuc_fiyati": 0.01793,
+  "sonuc_zamani": "2026-09-14T14:30:28+03:00",
+  "sonuc_yuzde": -0.168
  },
  {
   "id": "BORAUSDT_2026-09-14T14:20:26+03:00_G-Alt",
@@ -80641,10 +80641,10 @@
   ],
   "giris_fiyati": 0.02621,
   "giris_zamani": "2026-09-14T14:20:26+03:00",
-  "durum": "acik",
-  "sonuc_fiyati": null,
-  "sonuc_zamani": null,
-  "sonuc_yuzde": null
+  "durum": "basarisiz",
+  "sonuc_fiyati": 0.02576,
+  "sonuc_zamani": "2026-09-14T14:30:28+03:00",
+  "sonuc_yuzde": -1.717
  },
  {
   "id": "AKCNS_2026-09-14T14:20:26+03:00_G-Ust",
@@ -80729,6 +80729,50 @@
   ],
   "giris_fiyati": 0.01052,
   "giris_zamani": "2026-09-14T14:20:26+03:00",
+  "durum": "basarisiz",
+  "sonuc_fiyati": 0.01056,
+  "sonuc_zamani": "2026-09-14T14:30:28+03:00",
+  "sonuc_yuzde": -0.38
+ },
+ {
+  "id": "XRPUSDT_2026-09-14T14:30:27+03:00_X-4100",
+  "sembol": "XRPUSDT",
+  "kategori": "kripto",
+  "cizgi_adi": "Tunc Satiroglu · 1,4100",
+  "cizgi_degeri": 1.41,
+  "yon": "short",
+  "kaynak_turu": "onemli_seviye",
+  "kaynak": "Tunc Satiroglu",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Tunc Satiroglu · 1,4100"
+  ],
+  "giris_fiyati": 1.4046,
+  "giris_zamani": "2026-09-14T14:30:27+03:00",
+  "durum": "acik",
+  "sonuc_fiyati": null,
+  "sonuc_zamani": null,
+  "sonuc_yuzde": null
+ },
+ {
+  "id": "LOGO_2026-09-14T14:40:27+03:00_G-Alt",
+  "sembol": "LOGO",
+  "kategori": "bist",
+  "cizgi_adi": "Magicma Günlük Alt Çizgi",
+  "cizgi_degeri": 140.4388059701,
+  "yon": "short",
+  "kaynak_turu": "teknik",
+  "kaynak": "YAHOO",
+  "confluence": false,
+  "confluence_tip": "tekil",
+  "confluence_sayisi": 1,
+  "confluence_cizgiler": [
+   "Magicma Günlük Alt Çizgi"
+  ],
+  "giris_fiyati": 140.1,
+  "giris_zamani": "2026-09-14T14:40:27+03:00",
   "durum": "acik",
   "sonuc_fiyati": null,
   "sonuc_zamani": null,

@@ -447,9 +447,11 @@ def click_replies_tab(page) -> None:
 # GOSTERMEZ; bunlar yalnizca "Yanitlar" (with_replies) akisinda cikar.
 # Sekme Gonderiler'e sabitlenince o tweetler hic taranmiyordu (26 Agustos
 # 2026: 8 tweet canlida vardi, arsivde yoktu, tarama "+0 yeni" dedi).
-# EKO_AKIS=yanit -> with_replies akisi kullanilir. Bos birakilirsa eski
-# davranis (Gonderiler) aynen korunur.
-AKIS_YANIT = _os.environ.get("EKO_AKIS", "").strip().lower() == "yanit"
+# VARSAYILAN with_replies (2026-09-14): EKO_AKIS'siz calisan 13 Eylul taramasi
+# Gonderiler sekmesinde kaldi, 4-13 Eylul arasi 672 yanit sessizce kacti
+# (exit 0, "+5 yeni"). Yanitlar akisi Gonderiler'i de icerir, kayip olmaz.
+# Eski davranis yalnizca acikca istenirse: EKO_AKIS=gonderi
+AKIS_YANIT = _os.environ.get("EKO_AKIS", "yanit").strip().lower() != "gonderi"
 PROFIL_AKIS_URL = PROFILE_URL if AKIS_YANIT else PROFILE_URL_POSTS
 
 

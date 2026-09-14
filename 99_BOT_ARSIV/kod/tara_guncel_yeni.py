@@ -177,6 +177,20 @@ def main() -> int:
             "--finish-threads", "--skip-hafiza",
         ]
         subprocess.run(cmd, cwd=ROOT)
+        # Guvenlik agi: profil kaydirmasi kronolojik olmayan Yanitlar akisinda
+        # erken durabiliyor (13 Eylul 2026: exit 0, 672 tweet sessizce kacti).
+        # Ayni akis stop tarihine kadar bir kez daha kaydirilir, kacan tweet
+        # article'dan dogrudan kaydedilir (status sayfasi acilmaz, X kisiti yok).
+        if HANDLE == "ekonomikocu":
+            alt = (stop or (datetime.now() - timedelta(days=3))) - timedelta(days=1)
+            try:
+                subprocess.run(
+                    [PY, str(KOD / "profil_bosluk_doldur.py"),
+                     "--alt-sinir", alt.strftime("%Y-%m-%d")],
+                    cwd=ROOT, check=False, timeout=3600,
+                )
+            except Exception as e:
+                print(f"[bosluk] profil_bosluk_doldur.py hatasi: {e}", flush=True)
 
     # Yeni alintilarin gecmis metni (bounded)
     subprocess.run(
