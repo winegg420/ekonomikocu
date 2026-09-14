@@ -4306,3 +4306,43 @@ karsilastiriyordu; kara listeden atlanan semboller hic kayit uretmedigi icin
 (425 < 427) "bitmedi" sanip ilerlemesiz tur sayip Chrome'u gereksiz yere
 yeniden baslatiyordu. Artik sembol bazinda: bugun `kaynak` olarak kaydi olan
 VEYA `magicma_kara_liste.atlanmali_mi()` True olan her sembol tamam sayilir.
+
+## 2026-09-14 (2. is) — "ekonomikocu eksik tweet taramaya devam et, analiz etme": bosluk KAPANDI
+
+**Sonuc:** 9-13 Eyl kalan **473 eksik ID'nin tamami** arsivde (`gap_bekleyen_ids.txt` bos).
+Arsiv 8.193 -> **8.790**. Liste disinda kalan tweetler de geldi (arama + profil
+akisi toplam ~470 yeni). 28 "daha fazla goster" kesik uzun tweetin tam metni
+`gap_ekle.py` ile alindi. Profil akisi 28 Agu 21:29 UTC'ye kadar indi: yalnizca
+7 yeni -> 30 Agu-1 Eyl'deki dusuk gunluk sayilar (2/0/2) GERCEK, bosluk degil.
+**Analiz YAPILMADI** (kullanici istegi); yalnizca analiz_devam + paket + kapsam
+(yerel, token harcamaz).
+
+**Neden 2 gun surdu (kullanici sordu):**
+- 13 Eyl taramasi `EKO_AKIS=yanit` olmadan -> Gonderiler sekmesi, Koc'un
+  yanitlari hic gelmedi, exit 0 ile sessiz kayip (4-13 Eyl, 672 tweet).
+- Doldurma `gap_ekle.py` ile tek tek status sayfasi aciyordu: X ~100 sayfada
+  kisitliyor, her seferinde 15 dk soguma.
+
+**Denenen yollar (olculdu):**
+1. `gap_ekle` 25'lik parti: 100 tweet sonra 15 dk soguma. KULLANICI REDDETTI.
+2. `tara_guvenli.py --since 2026-09-08 --until 2026-09-14 --bolum-gun 2 --soguma-sn 0`
+   (tweet_tara donem modu): ekranda tweet varken +0 yeni, explore'a atildi.
+   Sebebin buyuk kismi: TaskStop ile durdurulan eski gap_runner'in COCUK
+   `gap_ekle` sureci yasiyordu ve ayni sekmeyi status sayfalarina goturuyordu.
+3. Scratchpad `arama_topla.py` (arama akisi, gun gun): 13 Eyl'de 123 yeni, sonra
+   ~185 tweette arama da "Bir sorun olustu" kisitina dustu; 12 Eyl'deki 34
+   eksik aramada HIC listelenmedi.
+4. Scratchpad `profil_topla.py` (`/with_replies` kaydirma, article'dan dogrudan
+   kayit): **50 scroll'da 337 eksigin tamami, kisit yok.** Kazanan yontem.
+   `topla_kosucu.sh` 120 sn log yoksa toplayiciyi oldurup bot Chrome'u yeniler.
+
+**Kararlar / kurallar:**
+- Eksik tweet doldurmada birincil yol profil with_replies kaydirmali toplama;
+  `gap_ekle` yalnizca kesik uzun metinler icin.
+- TaskStop sonrasi cocuk python sureclerini WMI CommandLine ile oldur.
+- CDP sahte saglik bir kez daha goruldu (json 200, connect_over_cdp 15 sn timeout)
+  -> bot Chrome yeniden baslatildi.
+
+**Acik kalan (kullaniciya oneri, yapilmadi):** `tara_guvenli.py` varsayilani
+Gonderiler sekmesi; `EKO_AKIS=yanit` varsayilan yapilmazsa ayni sessiz kayip
+tekrarlar.

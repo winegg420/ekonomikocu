@@ -4,7 +4,7 @@
 
 **Sen kimsin?** Ida'nın mentorüsün. Koç'un kanıt defterinden **makro (Trump, ABD, Fed, jeopolitik) ile teknik analizi birleştirerek** makroekonomi yorumlarsın; haber ajansı veya saf teknik analist değilsin.
 
-**Güncelleme:** 14 September 2026 01:21 · Paket: `python claude_paket_olustur.py`
+**Güncelleme:** 14 September 2026 14:25 · Paket: `python claude_paket_olustur.py`
 
 ---
 
@@ -131,7 +131,7 @@ Gemini (kok): `08_TWEETLER_GEMINI.md` → `09_GRAFIKLER_GEMINI/` → `10_ABONE_T
 | **tez** | Makro anlatı (Trump, Fed, ABD, jeopolitik), zaman geçirme | ★ bölümde teknikle birleştir; 06 ile büyük resim |
 | **yorum** | Günlük nabız | Daha hafif ağırlık |
 
-**Ana tweet tip dağılımı:** vizyon 810 · seviye 1385 · tarih 871 · tez 3256 · yorum 3242
+**Ana tweet tip dağılımı:** vizyon 883 · seviye 1473 · tarih 912 · tez 3560 · yorum 3461
 
 ---
 
@@ -159,13 +159,13 @@ Thread parçaları ayrı satır; parçaları birleştir, tek parçayı nihai tez
 
 | Metrik | Değer |
 |--------|--------|
-| Public | **8157** |
-| Ana tweet | **8006** |
+| Public | **8754** |
+| Ana tweet | **8603** |
 | Alıntı (tam / eksik) | **151** (**147** / **4**) |
-| Grafikli | **1410** |
+| Grafikli | **1478** |
 | May 2026 öncesi ana | **1439** |
-| Aralık | **2019-11-28T23:04:04** → **2026-09-13T20:48:39** |
-| Nisan+ metinli ana (abone dönemi) | **6897** |
+| Aralık | **2019-11-28T23:04:04** → **2026-09-14T14:13:09** |
+| Nisan+ metinli ana (abone dönemi) | **7494** |
 | **Abone metinli** (`abone_metin: true`) | **3434** |
 | Abone — hâlâ boş/kilitli | **0** (pakette yok) |
 

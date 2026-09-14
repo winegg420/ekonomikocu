@@ -1,10 +1,10 @@
 # TARAMA 2026 (@ekonomikocu)
 
-**Guncelleme:** 2026-09-14T01:21:48
+**Guncelleme:** 2026-09-14T14:25:39
 
 ## Ozet
 
-> **Genel tamamlanma: 100.0%**
+> **Genel tamamlanma: 90.0%**
 >
 > Hedef: **2026 yilindaki TUM tweetler** + **abone metinleri** + **alintilanan gecmis tweetler** + **#FLOOD parcalari** → **%100**
 >
@@ -12,11 +12,11 @@
 
 | Alan | Tam | Eksik | % |
 |------|-----|-------|---|
-| Ana tweet (2026) | 7892 | 0 (+18 erisilemedi) | **100.0%** |
+| Ana tweet (2026) | 8489 | 0 (+18 erisilemedi) | **100.0%** |
 | Alinti (2026 kapsami) | 146 | 0 | **100.0%** |
-| #FLOOD kok (2026) | 9 | 0 | **100.0%** |
+| #FLOOD kok (2026) | 9 | 1 | **90.0%** |
 
-**En yeni kayit:** 2026-09-13
+**En yeni kayit:** 2026-09-14
 
 ## Aylik (2026)
 
@@ -30,7 +30,7 @@
 | 2026-06 | 3564 | 0 | 100.0% |
 | 2026-07 | 284 | 0 | 100.0% |
 | 2026-08 | 758 | 0 | 100.0% |
-| 2026-09 | 570 | 0 | 100.0% |
+| 2026-09 | 1167 | 0 | 100.0% |
 
 ## Kural
 
