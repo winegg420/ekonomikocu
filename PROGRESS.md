@@ -4346,3 +4346,32 @@ akisi toplam ~470 yeni). 28 "daha fazla goster" kesik uzun tweetin tam metni
 **Acik kalan (kullaniciya oneri, yapilmadi):** `tara_guvenli.py` varsayilani
 Gonderiler sekmesi; `EKO_AKIS=yanit` varsayilan yapilmazsa ayni sessiz kayip
 tekrarlar.
+
+## 2026-09-14 (3. is) — Tarama kalici duzeltme: Yanitlar varsayilan + tarama sonrasi bosluk agi
+
+**Kullanici:** "bot nasil duzgun calisacaksa gerekli sekilde ayarla" — acik kalan
+Gonderiler/with_replies sorunu icin.
+
+**Degisiklikler (commit 4dc20e4, otomatik tarama commit'ine girdi):**
+- `tweet_tara.py`: `AKIS_YANIT` varsayilani **True** -> profil akisi
+  `x.com/ekonomikocu/with_replies`. Eski Gonderiler yalnizca `EKO_AKIS=gonderi`.
+- Yeni `99_BOT_ARSIV/kod/profil_bosluk_doldur.py --alt-sinir YYYY-MM-DD`:
+  with_replies akisini tarihe kadar kaydirir, arsivde olmayani article'dan
+  dogrudan kaydeder (status sayfasi acmaz -> X kisiti yok), sabitlenmis tweeti
+  ilk 2 scroll'da durma hesabina katmaz, 20'lik partilerle diske yazar,
+  "daha fazla goster" kesiklerini `gap_ekle.py`'ye verir (en fazla 60).
+- `tara_guncel_yeni.py`: profil taramasindan sonra (yalnizca ekonomikocu)
+  `profil_bosluk_doldur.py --alt-sinir <stop - 1 gun>` cagrilir; try/except + 1 sa timeout.
+- `CLAUDE.md` TARAMA KURALI guncellendi.
+
+**Dogrulama (ayarsiz `py -3 tara_guvenli.py`, exit 0):**
+- Profil taramasi yine 4. scroll'da durdu: akista 31 Temmuz tarihli eski tweet
+  gorunce "hedef 2026-09-11, 2 scroll'dur yeni yok" dedi (with_replies kronolojik
+  degil — beklenen zayiflik).
+- Bosluk agi 10 Eylul'e kadar 40 scroll indi, **taramanin kacirdigi 3 tweeti**
+  yakaladi + 1 kesik tweetin tam metnini aldi. Toplam **+9**, arsiv **8.799**.
+- Paket + kapsam + push otomatik calisti.
+
+**Cikarim:** tweet_tara'nin stop mantigi with_replies'te guvenilir degil; ag sart.
+Stop mantigini degistirmek yerine ag eklendi (ag kanitlanmis yontem, stop
+mantigina dokunmak diger hesap/donem modlarini etkileyebilirdi).
