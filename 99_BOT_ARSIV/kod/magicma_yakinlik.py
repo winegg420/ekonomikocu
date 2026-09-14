@@ -60,6 +60,12 @@ def sembolleri_yukle():
     for p in sorted(glob.glob(os.path.join(LISTE_DIR, "*.txt"))):
         if p not in dosyalar:
             dosyalar.append(p)
+    # Kapsam daraltma: MAGICMA_HARIC_LISTE="gunun_hareketlileri.txt,abd_hisse.txt"
+    # (ortam degiskeni gozetmenden kosucu alt surecine de gecer).
+    haric = {h.strip().lower() for h in os.environ.get("MAGICMA_HARIC_LISTE", "").split(",")
+             if h.strip()}
+    if haric:
+        dosyalar = [p for p in dosyalar if os.path.basename(p).lower() not in haric]
     out, gorulen = [], set()
     for p in dosyalar:
         try:

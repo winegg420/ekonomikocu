@@ -4281,3 +4281,28 @@ Bittiginde canli diff'i 4 Eyl oncesine de uzat, sonra analiz.
 - Uzun islerde **belirli araliklarla kontrol + otomatik takilma tespiti** zorunlu;
   takilmayi kullanici fark etmek zorunda kalmamali (hafizaya: feedback_takilma_bekcisi).
 - Token limiti dar oldugunda: once veri toplama + paket + push, analiz ayri oturumda.
+
+## 2026-09-14 — MagicMA taramasi (bubbles HARIC, 425/427)
+
+**Istek:** "bubbles haric magicma tara" — cryptobubbles tazelenmedi,
+`gunun_hareketlileri.txt` tarama kapsamindan cikarildi.
+
+**Yeni ayar:** `magicma_yakinlik.sembolleri_yukle()` artik
+`MAGICMA_HARIC_LISTE` ortam degiskenini okuyor (virgullu dosya adlari, orn.
+`gunun_hareketlileri.txt,abd_hisse.txt`). Ortam degiskeni oldugu icin
+gozetmenden kosucu alt surecine de geciyor. Kullanim:
+`MAGICMA_HARIC_LISTE=gunun_hareketlileri.txt py -3 99_BOT_ARSIV/kod/magicma_gozetmen.py`
+(766 -> 427 sembol).
+
+**Sonuc:** 425 okundu, 2 okunamadi: BINANCE:SPYBUSDT (kara liste, atlandi),
+NASDAQ:SPCX (5. basarisizlik, kara listede kaldi). Rapor
+`magicma/magicma_rapor_2026-09-14.md` (331 giren), islem adaylari
+`magicma/magicma_islem_adaylari_2026-09-14.md` — **28 aday** (en yakin:
+EURIUSDT %-0,01 short, BTC.D %+0,02 long, AXP %-0,03 short).
+
+**Duzeltilen hata — gozetmen bitmis taramada bos tur atiyordu:**
+`magicma_gozetmen._kalan_yok()` bugunku kayit SAYISINI liste uzunluguyla
+karsilastiriyordu; kara listeden atlanan semboller hic kayit uretmedigi icin
+(425 < 427) "bitmedi" sanip ilerlemesiz tur sayip Chrome'u gereksiz yere
+yeniden baslatiyordu. Artik sembol bazinda: bugun `kaynak` olarak kaydi olan
+VEYA `magicma_kara_liste.atlanmali_mi()` True olan her sembol tamam sayilir.

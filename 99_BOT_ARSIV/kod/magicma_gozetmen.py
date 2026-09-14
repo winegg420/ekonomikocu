@@ -199,10 +199,15 @@ def _kalan_yok() -> bool:
                 try:
                     d = json.loads(line)
                     if (d.get("ts") or "").startswith(BUGUN):
-                        bugunku.add(d.get("sembol"))
+                        bugunku.add(d.get("kaynak"))
                 except Exception:
                     pass
-        return len(bugunku) >= len(set(semboller))
+        # Kara listeden denenmeden atlanan semboller hic okunmayacagi icin
+        # "kalan" sayilmaz; sayilirsa gozetmen bitmis taramada bos tur atip
+        # Chrome'u gereksiz yere yeniden baslatiyor (2026-09-14).
+        import magicma_kara_liste as kl  # noqa
+        kara = kl.yukle()
+        return all(s in bugunku or kl.atlanmali_mi(kara, s)[0] for s in semboller)
     except Exception:
         return False
 
