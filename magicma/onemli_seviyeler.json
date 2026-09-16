@@ -3593,5 +3593,213 @@
     "tur": "hedef",
     "aciklama": "Ay sonu dolar hedefi. Bozkurt 10 Eyl (48,50'den), Cicek 11 Eyl (48,62'den) - iki kaynak ayni sayiyi bagimsiz verdi. Cicek: 'vurdururlar'.",
     "tarih_eklendi": "2026-09-10"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 25700,
+    "tur": "pivot",
+    "aciklama": "ABD'nin zora dusme esigi: DOW 50600, NASDAQ 25700, SP500 7060 altinda TOPLUCA kapanis gerekir (15 Eyl). 5.7 ogretisi; grafikte 26060 ile kesisim cifti.",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 31800,
+    "tur": "pivot",
+    "aciklama": "2027 Agustos'a sarkarsa kritik deger; 2027 Haziran'a kadar 30600 kritik (11 Eyl).",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "DJI",
+    "seviye": 54000,
+    "tur": "direnc",
+    "aciklama": "'DOW 54 k gordu ANA marji bitti' - 28 Mart tepe (8 Eyl).",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 75700,
+    "tur": "pivot",
+    "aciklama": "13 Eyl bant: 84K ustu risk istahi, 70.600 kirilmadan dusmez, pivot 75.700 (5.7 ogretisi).",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 90600,
+    "tur": "direnc",
+    "aciklama": "13 Eyl grafigi ust kesisim 90.600/89.600 (6 ogretisi).",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 6000,
+    "tur": "pivot",
+    "aciklama": "'ETH 6 K asilmadan genel piyasa tam tahrik olmaz' (9 Eyl; 2024 tweeti 'ETH 6K gecmeden boga yok').",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 4411,
+    "tur": "pivot",
+    "aciklama": "10 Eyl: '4411 de pivota aliniyor. Alti short ustu acele etme.'",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 6000,
+    "tur": "pivot",
+    "aciklama": "'Asagi geldikce alirsan kazanirsin ama 6000 dolar asilmadan boga diyemeyiz' (9 Eyl).",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 4340,
+    "tur": "destek",
+    "aciklama": "16 Eyl H4 grafigi: kaliptaki iki kesisimden ustteki (ANA robot 4376).",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 4179,
+    "tur": "destek",
+    "aciklama": "16 Eyl H4 grafigi: kaliptaki iki kesisimden alttaki.",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 4141,
+    "tur": "destek",
+    "aciklama": "19 Haz 'altinda 4141'e robot koydular' - 19-22 Haz 15dk grafikte tuttu (gorsel T24).",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 67.8,
+    "tur": "pivot",
+    "aciklama": "'gumus 67.8 ustunde kalsin bence savas isleri uzar' (8 Eyl).",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAGUSD",
+    "seviye": 50,
+    "tur": "hedef",
+    "aciklama": "'gumus 50 dolarin altinda kalmadan bu dava bitmez' (8 Eyl).",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "UKOIL",
+    "seviye": 102,
+    "tur": "destek",
+    "aciklama": "'Petrol 106 dolardan dustu, 102 de orasi da robot' (11 Eyl). 106 referans.",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUTRY",
+    "seviye": 177290,
+    "tur": "destek",
+    "aciklama": "Gram altin TL fiziki bant ALT siniri 5700 (5.7 ogretisi), ons TL'ye cevrildi (x31,1035). 9 Eyl.",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUTRY",
+    "seviye": 261269,
+    "tur": "pivot",
+    "aciklama": "Gram altin TL ara robot 8400 ('8.4 ogretisi'), ons TL'ye cevrildi. 9 Eyl.",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUTRY",
+    "seviye": 286152,
+    "tur": "pivot",
+    "aciklama": "Gram altin TL ara robot 9200 ('9.2 ogretisi'), ons TL'ye cevrildi. 9 Eyl.",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUTRY",
+    "seviye": 329697,
+    "tur": "direnc",
+    "aciklama": "Gram altin TL fiziki bant UST siniri 10600 (6 ogretisi), ons TL'ye cevrildi. 9 Eyl.",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "EURJPY",
+    "seviye": 175,
+    "tur": "hedef",
+    "aciklama": "19 Oca 2026 'en az 175'lere dusmeli'; 13 Eyl '185.7 den 175 bolgesine dusuruyorlar'.",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "EURJPY",
+    "seviye": 185.7,
+    "tur": "direnc",
+    "aciklama": "H4 cift direnc 185,75 (5.7 ogretisi), 13 Eyl.",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "GBPJPY",
+    "seviye": 208,
+    "tur": "hedef",
+    "aciklama": "7 Eyl 'GBPJPY 208 dedi' - JPY caprazlarinda verilen dusus hedefi.",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "USDJPY",
+    "seviye": 164,
+    "tur": "direnc",
+    "aciklama": "13 Eyl ornek: USDJPY 164 x EUR 1.1570 carpimi; JPY dusurulmeden DXY zayiflatilmaz.",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "DXY",
+    "seviye": 90,
+    "tur": "hedef",
+    "aciklama": "'Adil deger 90-100 bandi' (16 Eyl); 'EUR 1.20 ustunde kalirsa DXY 90'a duser' (11 Eyl).",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "DXY",
+    "seviye": 88,
+    "tur": "hedef",
+    "aciklama": "8 Eyl: kirmizi kanal dibine kadar DXY dusurur (~87-88); 'Avrupa barisi + DXY 88 90'.",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "US10Y",
+    "seviye": 5.7,
+    "tur": "direnc",
+    "aciklama": "14 Eyl: iki trend cizgisi ~%5,7'de kesisiyor - '5.7 gecilmeden piyasa ilk etap stresi kaldirir'.",
+    "tarih_eklendi": "2026-09-16"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "US10Y",
+    "seviye": 3.85,
+    "tur": "hedef",
+    "aciklama": "14 Eyl grafigi: 'yillar icinde asagidaki kanala mumlar dustugunde dunya nefes alir' (~%3,85).",
+    "tarih_eklendi": "2026-09-16"
   }
 ]

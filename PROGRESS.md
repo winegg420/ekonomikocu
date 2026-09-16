@@ -4385,3 +4385,18 @@ mantigina dokunmak diger hesap/donem modlarini etkileyebilirdi).
 - MagicMA: `MAGICMA_HARIC_LISTE=gunun_hareketlileri.txt magicma_gozetmen.py`,
   tek turda 425/425 (~15 dk), 2 kara liste atlandi. Rapor
   `magicma_rapor_2026-09-16.md`, islem adayi 27 (`magicma_islem_adaylari_2026-09-16.md`).
+
+## 2026-09-16 (2) — ekonomikocu analiz bekleyen tweet + gorsel analizi (TUR 24)
+
+- Kapsam: son analiz commit'i `dd1b138` (7.983) -> 8.910 = **927 yeni tweet** (7-16 Eyl) +
+  **341 okunmamis gorsel** (onceki turlardan devreden 210 + yeni). 93 "yetim" gorselin
+  tarihi tweet_id snowflake'inden cozuldu.
+- Gorseller 4 paralel ajanla (86/86/86/83) tek tek acildi; sonuc dogrulanip
+  `gorsel_analiz.jsonl`'e tur `2026-09-16-T24` eklendi (1.369 -> 1.710).
+  **ekonomikocu okunmamis gorsel: 0.**
+- `06_ANALIZ.md` sonuna tarihli bolum (285 satir, ustteki icerik korunuyor).
+- `magicma/onemli_seviyeler.json` 447 -> 473 (26 Koc seviyesi).
+- **Bulgu (duzeltilmedi, kullaniciya bildirildi):** kutuphanedeki eski XAUTRY kayitlari
+  yanlis olcekte (gram TL / GOLDGR dolar), ham veride XAUTRY ons TL -> o kayitlar alarmda
+  hic tetiklenemez. Yeni gram bandi ons TL'ye cevrilerek eklendi.
+- Hafiza: ogreti kuralina 8.4 / 9.2 basamaklari eklendi.

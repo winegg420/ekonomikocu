@@ -7040,3 +7040,288 @@ Ve kendi pozisyonuyla tezini ayırdığı nadir cümle:
    beklenebilir ama sonraki taramada canlıdan teyit edilmeli.
 6. **Kalan okunmamış görsel: 210** (önceki turdan devreden). Bu turun 26 görseli
    dışında Şubat–Mart yığınından 88'i ve 91 tarihsiz görsel hâlâ bekliyor.
+
+
+## 2026-09-16 — METİN + GÖRSEL ANALİZİ (7–16 Eylül + tüm görsel birikimi, TUR 24)
+
+> **Kaynak:** `cekilen_tweetler.jsonl` — son analiz commit'i `dd1b138` (7.983 kayıt) ile
+> bugünkü arşivin (8.910) farkı: **927 yeni kayıt**. Ay dağılımı: **2026-09 → 924**
+> (7 Eyl 55 · 8 Eyl 99 · 9 Eyl 102 · **10 Eyl 178** · 11 Eyl 131 · 12 Eyl 61 · 13 Eyl 58 ·
+> 14 Eyl 128 · 15 Eyl 51 · 16 Eyl 33; 4–5 Eyl'den geriye dolan 26), 2026-07 → 3.
+> 9–13 Eylül'ün büyük kısmı 14 Eylül'deki with_replies boşluk doldurmasıyla geldi.
+> **341 görsel** okundu ve `gorsel_analiz.jsonl`'e tur `2026-09-16-T24` olarak işlendi
+> (defter **1.369 → 1.710**). Bu turla **ekonomikocu'da okunmamış görsel kalmadı**
+> (önceki turdan devreden 210'luk Şubat–Mart + tarihsiz yığın dahil; 93 "yetim"
+> görselin tarihi tweet_id snowflake'inden çözüldü).
+
+### A. ANA TEZ: "ZAMAN GEÇİRİYORLAR" — 10 gün boyunca tek bir cümle
+
+Bu dönemin yüzlerce tweeti tek bir çerçevenin varyasyonu. Koç artık fiyat değil
+**zaman** yorumluyor ve bunu açıkça yöntem değişikliği olarak ilan ediyor:
+
+> *"Oturur fiyatla değil #haftaları #ayları sayarız."* (8 Eyl)
+> *"Kısa vade #saatlik grafikleri artık neden paylaşmıyorum?… Geniş resimde fiyat
+> değil, zaman ilerliyor."* (13 Eyl flood)
+> *"Ben asla teknik analize göre konuşmuyorum. Enflasyon düşsün isteniyorsa belli
+> seviyelerin ve koşulların oluşması gerekiyor."* (8 Eyl)
+
+Mekanizma (kendi anlatımıyla, kronolojik):
+
+| Dönem | Doları zayıflatan araç | Sonuç |
+|---|---|---|
+| 2020–21 | Para saçma + kripto | Emtia "barajına kadar kriptoyla getirildi" |
+| 2022 | Savaş → FED faizi | DXY 110–115, EUR 1,01 — Avrupa enflasyonu yedi |
+| 2023 | *"ABD oyunu 2023'te kaybetti"* | ALTIN kesişimi; NASDAQ/XAGUSD ana trende değdi |
+| 2024 | **BTC ETF** (seçim) | Para genel kriptoya gidemedi, *"dolar çifte dayak yemedi"* |
+| 2025 | Trump: BTC + kripto haftası | DXY 110 → 95; emtia tahrik oldu |
+| **Ocak 2026** | **Çin "gümüş" dedi** | *"Film koptu"* — ALTIN 5600, gümüş 118 |
+| 2026 | **Petrol masaya kondu** | *"Faiz diyemedikleri için petrolü masaya koydular"* |
+
+Tek cümlelik özet (15 Eyl): *"Dünyada eskiden kıstas dolardı. Bu artık bence
+**#petrol** oldu. Çünkü sağı solu bastırmak için doları değil petrolü kullanıyorlar.
+Bu nedenle petrol ve takip edilen varlıkların **rasyolarını** incelemek lazım."*
+
+Bu, 7 Eylül bölümündeki "rasyo ailesi"nin ikinci ayağı: paydada artık ALTIN değil
+**BRENT** var — ETHUSD/BRENT **30,60** engeli, NASDAQ/BRENT uzun vade trend desteği
+(~230), GÜMÜŞ/BRENT trendi (*"ABD–Çin rasyosu"*).
+
+### B. VADE TAKVİMİ — 90 günlük döngü artık tarihli
+
+Koç'un "vadeler doluyor" söylemi bu turda kontrat tarihleriyle belgelendi:
+
+- **15 Eylül 2026:** *"2026 yılının 3 vadesi de bugün bitti. Kaldı tek vade."*
+- 4. vade: ilk işlem **15 Eyl 2026**, son işlem **17 Aralık 2026 22:00** — *"90 gün süresi var."*
+- 10 Eyl: *"Haziran 15, Eylül 15 vadesi… Sırf vade sonu geldi deyip petrol ile sağı
+  solu baskılıyorlar."* · 11 Eyl: *"16. gün yeni vadedir."*
+- **15 Eyl gözlemi:** *"ABD borsalarında vade bitiş tarihi 15 Eylül 2026 — kripto yasa
+  oylama günü 15 Eylül 2026. Samimi geliyor muydu?"* 16 Eyl: yasa geçmedi, *"şaşırmadım.
+  Şu an emtia ile uğraşıyorlar, yasa ile kriptoya yüz verip emtiaya yüz vermezler."*
+- **Bessent penceresi:** *"Faizlere Ağustos 20'den itibaren müdahale etti. Ne zamana
+  kadar? FED toplantısına kadar. Yani 25 gün zaman geçirdiler."* — `koc_tetigi.py`
+  referansı olan **20 Ağustos** ile aynı gün.
+- **Sonraki tarihler:** **24 Eylül** (ABD'nin açıkladığı Xi Jinping ziyareti — *"ÇİN hala
+  bunu onaylamadı… bu tarihlerden sonrası önemlidir, EKİM ayı önemlidir"*),
+  **14 Ekim** (BTC için *"zamanı var"*), **17 Aralık** (vade sonu), **Ocak 2027**
+  (NASDAQ 27600 son tarihi).
+
+### C. NASDAQ — "CAN DAMARI 27600" ve 2027 merdiveni
+
+11 Eylül akşamı en somut ileriye dönük çerçeve verildi:
+
+> *"#NASDAQ da 27600 değerini unutmayın. 2026 yılı bunun üstünde kalsın, piyasa 2027'ye
+> yeşil girer. ABD borsalarında düşüş olması için bu değerin üstünde kalınmaması lazım.
+> **2027 Ocak ayına kadar zamanı var.**"*
+> *"2027 haziran ayına kadar kastılar diyelim **30600** kritik oluyor. 2027 Ağustos ayına
+> işler sarksa **31800** kritik oluyor."*
+> *"30600, 29000 veya 28800 bunlar hiç önemli değil, can damarı 27600."*
+
+| Seviye | Rol | Kaynak |
+|---|---|---|
+| **23700** | *"barış fiyatı"* — 7 Nisan İran anlaşması | 11 Eyl + görsel |
+| **27600** | can damarı; Mayıs Çin ziyareti burada yapıldı | 11 Eyl |
+| 29060 | *"üstü kalsın deyip kriptoyu devreye alıyorlar"* (vade günü) | 11 Eyl |
+| **29700** | *"robot"* / kesişim — 26 Mayıs'tan beri her satış kâr yazdı | 8–9 Eyl + görsel (29711) |
+| **30600** | 28 Mart'tan beri 5 aylık tavan; yeni trend için **üstünde kapanış** şart | 8, 13 Eyl |
+| 31800 | 2027 Ağustos kritiği | 11 Eyl |
+
+13 Eyl: *"27600 kırılmadan da düşemiyorlar. **27600 / 30600** değerlerinin arasında
+habere göre fiyat inip çıkıyor."* 15 Eyl haftalık: *"Koruma iç güdüsüyle çizgi üstüne
+alıp 6–7 aydır mumları yatırıyorlar. Mumlar çizginin altında kalsaydı ABD tavize gebe
+kalırdı."* 14 Eyl 18:45: *"Avrupa kapandı, nasdaq kanadını hemen 29200'e aldı."*
+
+**ABD'nin "zora düşme" üçlüsü (15 Eyl, yeni):** *"DOW'un **50600** altında, nasdaq'ın
+**25700** altında ve sp500 **7060** altında topluca kapanış yapması lazım."* Görsellerde
+bunlar kesişim çifti olarak çizili: DOW 50600/50570, NASDAQ 26060/25700 — her çiftte
+biri 6, diğeri 5.7 öğretisi.
+
+### D. ALTIN — Koç SHORT, 4376 pivotu teyit edildi
+
+- **10 Eyl 21:41:** *"Şu an ALTIN'da shortum. ABD baskısı ile düşüyor. Mutlu olamıyorum."*
+  (pozisyon beyanı — arşivde nadir)
+- 10 Eyl 12:10: *"**4411**'de pivota alınıyor. Altı short, üstü acele etme."*
+- **13 Eyl:** *"**4376** malum pivot… altı satış, üstü ekstra prime giriyor. Direkt stop
+  seviyesidir. Kaç haftadır teyidini yaptığımızı düşünüyorum. Çift yönlü. **4570** üstüne
+  park etmeden piyasa satıyor."*
+- 16 Eyl H4 görseli: *"ANA robot 4376"*, kalıpta iki kesişim **4340** ve **4179**; fiyat
+  4297, kanal alt çizgisinin altına sarkmış. MagicMA taramasında 16 Eyl 13:46 XAUUSD
+  **4348,35** — 4376'nın altında, yani Koç'un "altı satış" bölgesinde.
+- Tepe yorumu: *"#altın 5600 gördü, ilk şok atlatıldı. #gümüş 118 gördü, ilk şok
+  atlatıldı. Artık yukarı gitmeler tepki kalır."* · *"6000 dolar aşılmadan boğa diyemeyiz."*
+- Soğuma süresi: *"ALTIN yükselişlerine bakarsan ani atak gelir, sonra soğuyana kadar
+  1 ile 1,5 sene geçer"* (2011 tepe → 2013 düşüş, aylık kutu görseli).
+- **Yöntem beyanı (9 Eyl):** *"1 YILLIK periyotta #emtia satış gireceğim. Emtia
+  yükselebilir ama bu satış fırsatı olur."* · *"Alıştan çok sat yönlü oynayanlar karlı çıkar."*
+
+**Gram altın TL bandı (9 Eyl) — öğreti kuralının genişlemesi:**
+
+> *"Orasının bandı; aşağıda **5700** yukarıda **10600**. 5700 = 5.7 öğretisi. 10.600 = 06
+> öğretisi. Aradaki robotlar nedir? **8.4 öğretisi = 8400 lira, 9.2 öğretisi = 9200 lira.**"*
+> *"6400 lirada ÇİN inadı var"* (19 Mart 2026 görseli; grafikte 6420 pivotu).
+
+Bu, `project_ogreti_sayilari_kurali`'na **iki yeni basamak** ekliyor: **8.4** ve **9.2**.
+Parti-1 görsellerinde de 5 Aralık 2024 tarihli tanım çıktı: dizi **5.7 – 6 – 9.2 – 106**,
+*"5.7 üstünde kalan düşemez, 6'yı yukarı keser; 6 aşağı kırılıp 5.7 altında kapanırsa
+düşer"* (BTC karşılığı 57K–60K–92K–106K). 7 Eylül bölümündeki merdiven
+57-60-68-76-**84-92**-106-125 ile tutarlı.
+
+**GOLDGR "dev çanak" (11 + 15 Eyl):** boyun çizgisi **66,25–66,69 $** (2023 kırılımı),
+*"66 dolardan ÇİN gazladı."* BTC çanağı (boyun 66.177 = 2021 zirvesi) *"ALTIN taklit
+edildi"*. Ek iddia: *"Ortalama #bitcoin 1 kg ALTIN değerine endekslenmiş… ABD BTC'yi
+istese 140K yapar ama yapamıyor, ALTIN 140 üstüne koya koya gitme riski var."*
+
+### E. KRİPTO — ETH merkezli okuma
+
+Koç bu turda BTC'yi açıkça ikinci plana attı:
+
+> *"Gerçekten BTC yatırımcısı değilseniz takip bile etmeyin. Direkt #ETH'yi baz alıp
+> piyasayı takip edin."* (11 Eyl) · *"ETH 2025 Nisan'dan itibaren piyasayı tutuyor.
+> Bir BTC 57 ETH alıyordu, şu an 31 alıyor."* (9 Eyl; görselde BTC/ETH 2025 tepesi
+> **57,05** = 5.7 öğretisi) · 12 Eyl: *"#BTCETH 30.60"*
+
+| Enstrüman | Seviye | Rol |
+|---|---|---|
+| ETHUSD | **2570** | *"sadece para kazandırır"* — değdi duruldu (10 Eyl) |
+| ETHUSD | **2776** | *"alışları tetikler"* — kırılan trend kesişimi; *"25 gündür çizgide yatırıyorlar"* (13 Eyl) |
+| ETHUSD | **3300** | *"orijinal değer"* |
+| ETHUSD | **6000** | *"aşılmadan genel piyasa tam tahrik olmaz"* |
+| BTCUSD | **84.000** | *"üstünde kalmadan risk iştahı açılmıyor"*; 14 Ekim'e kadar zaman |
+| BTCUSD | 80.600 | *"üstünde kalışlar gelirse anca iş yapar"* |
+| BTCUSD | **75.700** | pivot (5.7) |
+| BTCUSD | **70.600** | *"kırılmadan düşmüyor"* (alt kesişim 70.600/69.200) |
+| BTCUSD | 90.600 | görseldeki üst kesişim (89.600 ile) |
+| OTHERS | **306 / 157 / 260** | Ekim operasyonu 306'da (6), 157'de (5.7) bitti; **260 aşılırsa canlanma** |
+
+Haziran 2026 tespiti (11 Eyl): *"ABD/Çin görüşmesi sonrası gümüş ve kripto el ele
+indirildi — btc **57K**, GÜMÜŞ **57** dolarlara. Vade sonu gelirken **Ağustos 3. hafta**
+kesik çizgi trendine geri almışlar."* 13 Eyl: *"Haziran'da BTC ETH'yi zorla baskılayıp
+Ağustos 3. hafta neden yukarı alıyorlar? Çünkü FED faiz indiremesin diye."* —
+parti-3 görselinde BTC'nin 70 günlük 58–67K kutusu **19–22 Ağustos**'ta yukarı kırıldı
+(~78,7K). **Ağustos 3. hafta çağrısı ikinci bir enstrümanda daha gerçekleşti.**
+
+Kripto yasası/ETF tezi: *"ETF demek; gel kriptoyu Wall Street üzerinden al-sat. Yani
+paranın izini sürmek demek."* · *"Kripto ABD'nin malı olmuyor ama kriptonun finansal
+altyapısı ABD sistemine bağlanır."* · İdeal senaryo (10 Eyl): *"BTC = ABD kozu, gümüş =
+ÇİN kozu. İkisi de R yapacak. ETH üzerinden piyasa nefes aldırılacak, Avrupa kurları
+üzerinden dolar zayıflatılacak."*
+
+### F. PARİTELER — "sıkışma bölgesi, habere gebe"
+
+- **EUR = DXY'nin %57'si, GBP %11** (11 + 14 Eyl, tekrar tekrar). *"EUR DXY'nin içinde
+  %57 orana sahip olmasın, ABD AB'yi dakikasında SATAR."*
+- **EURUSD aylık:** *"Tek çizgisi var ve 18 aydır çizgide yatıyor… O mumlar çizgi üstünde
+  kalıp yukarı dahi gitse piyasa için satış fırsatı."* (8 Eyl) · *"Yılın bitmesine 3 ay
+  kaldı, yan yana 3 mum daha gelecek. Bu üç mum haber akışlarına gebedir."* (10 Eyl) ·
+  *"1.1640 1.1570 derken bir haber servis ederler, AYLIK mum hacme girer."* ·
+  **1.2060:** *"üstüne alsalar dünyada süreç biter."*
+- **Üçgenler (13 Eyl):** GBPUSD ve EURUSD aylıkta üçgen — *"Pariteler doları dövme
+  aşamasına geldi. #JPY vb neden müdahale ediyorlar sanıyorsunuz? İş kripto emtiadan
+  çıkmaya başladı."* GBPUSD: *"Bir yıldır ortalamalardaki sıkışmayı görün. Haber gelse
+  bir tarafa patladı patlayacak."*
+- **JPY çaprazları (7 Eyl):** *"#JPY 154 dedi, #EURJPY 179 dedi, #GBPJPY 208 dedi.
+  Yıllarca bu hareketleri kovaladım vermediler. Şimdi usul usul veriyorlar."* 16 Eyl
+  taramada EURJPY 178,96, GBPJPY 208,96 — verilen seviyelerde. EURJPY hedefi
+  (19 Oca 2026 tweeti): **185,7'den en az 175'e**.
+- **Çarpım kuralı (13 Eyl, yeni):** *"USDJPY 164 × EUR 1.1570 = 189 yapar… JPY'yi
+  güçlendirmeden DXY'de zayıflık yaratırsan USDJPY 170 × GBP 1.40 = GBPJPY 238 —
+  krize davetiye."* Yani DXY ancak JPY önce düşürülerek zayıflatılabilir.
+- **Faiz farkı argümanı (12 Eyl):** ABD enflasyon %3,4 / faiz %3,75 — Euro Bölgesi
+  enflasyon %3,3 / ECB %2,65 → *"Avrupa hâlâ negatif faizde."* 10 Eyl 15:22:
+  *"Avrupa faiz arttırdı"* (önceden: *"faize zorlayacaklar belliydi"*); 14 Eyl: *"ECB'yi
+  faize zorladılar, yetersiz kaldı."*
+- **DXY:** *"Adil değer 90–100 bandı. 100 üstü ülke kurlarını tedirgin ediyor."* (16 Eyl) ·
+  kırmızı kanal dibi ~87–88 (8 Eyl görseli) · *"EUR 1.20 üstünde kalırsa DXY 90'a düşer"*.
+
+### G. FAİZ, PETROL, EMTİA ENDEKSİ
+
+- **US10Y (14 Eyl):** iki trend çizgisi **~%5,7**'de kesişiyor — *"5.7 geçilmeden piyasa
+  ilk etap stresi kaldırır."* Uzun vade: *"yıllar içinde aşağıdaki kanala mumlar
+  düştüğünde dünya nefes alır"* (~%3,85 / ~%2,1). Kısa vade faiz: *"2024'te 5.06 idi,
+  şu an hâlâ 4.90."*
+- **FED beklentisi (11 Eyl):** *"Ben beklemiyorum faiz artışı ama yumuşak olmasını da
+  beklemiyorum."* · *"Anlaşma barış gelmezse de yıllar içinde zamanla faiz masaya
+  gelecektir."* · 14 Eyl: *"Faiz artsa bile piyasa onu fiyatladı."*
+- **Petrol:** 8 Eyl 97 $ · 9 Eyl *"petrol 100 dolar"* · 11 Eyl *"106'dan düştü, **102**'de
+  orası da robot. **106 referans.**"* · 10 Eyl *"106 altı short, üstü acele etme"* ·
+  *"Petrol shortlama fikrim vardı ama yarın Cuma diye vazgeçtim, swap maliyetine
+  giremem."* · 14 Eyl: brent *"hâlâ trend üstünde"*; *"**108** üstünde kalamazsa bu ay aşağı
+  gelir"*.
+- **Gümüş:** *"67.8 üstünde kalsın, bence savaş işleri uzar"* · *"50 doların altında
+  kalmadan bu dava bitmez"* · *"hâlâ 60 dolar üstüdür"* · 10 Eyl görseli: *"düşen kanal
+  içinde yatayda tutuyorlar"* · *"OBO yapacaktı bozdular."*
+- **SPGSCI (8 Eyl):** *"6 öğretisini buraya uyarlayın. **600'ün altı REFAH, üstü kaos.**"*
+  Görselde baraj ~590, endeks 741. *"Genel emtia endeksini baraja kadar kripto ile
+  getirdiler. Sınıra gelince savaşı azdırdılar."*
+
+### H. ROTASYON RASYOLARI — somut hesaplar
+
+| Rasyo | Değer | Koç'un okuması |
+|---|---|---|
+| NASDAQ/XAUUSD (2024) | 22500/2500 = **9** | *"Tabi ki 9 seviyesi balon"* — FED o zaman faiz artırmalıydı |
+| NASDAQ/XAUUSD (12 Eyl) | 29400/4350 = **6,75** | *"ALTIN bazında nasdaq 2018 değerinde"* |
+| NASDAQ/emtia | 10 → **6** | *"Adam 4 puan rasyoyu düşürdü, bilerek enflasyon üretti"* |
+| BIST/USD | 5000/17 = 294 → 14500/48,5 = **298 $** | *"3 yıl geçmiş, değişen nedir?"* |
+| XU100.USD | **306** | *"etrafından ayrılamıyor"* (görsel) · *"Aralık ayı BIST için çok önemli"* |
+| ETHUSD/BRENT | **30,60** | engel — *"petrol R yaptığı an açıp bakmak lazım"* |
+| BTC/ETH | 57 → 31 | ETH'nin 2025'ten beri piyasayı tuttuğunun kanıtı |
+
+Getiri karşılaştırması (12 Eyl): BTC 2020 öncesi 3K → 120K = **40×**, ETH 70 $ → 5000 $ =
+**71×**; ALTIN 1300 → 5600 = **4,5×**, gümüş 15 → 120 = **8×**. *"ETH geçen ay 1600, bu
+ay 2600 — devasa bir boğa olmadan para kazandı."*
+
+### I. ÖNCEDEN SÖYLEDİM — belge yığını (görsellerden)
+
+Bu turun görsellerinin ~%40'ı Koç'un kendi eski tweetlerinin ekran görüntüsü:
+
+| Tarih | Söylediği | Sonraki gelişme |
+|---|---|---|
+| 16 Eki 2021 | *"Savaş çıkar"* | 2022 Rusya–Ukrayna |
+| 13 Haz 2024 | Abonelik açılış günü "noktayı koydu" | — |
+| 27 Haz 2024 | *"Enflasyon vs boş işler. Asıl konu savaş var."* (3 kez paylaşıldı) | — |
+| 22 Mar 2024 | *"Sorunlar herkesin düşündüğünden çok farklı"* | — |
+| 2 Haz 2025 | *"BTC'de 126K bile gelse bu boğa değildir"* | 126K tepe → düşüş |
+| 22 Eyl 2025 | *"Emtia kanadını tahrik ediyorlar"* (emtia azmadan önce) | Ocak 2026 Çin gümüş |
+| **9 Eki 2025** | *"Ek savaş çıkar"* | **Şubat 2026 sonu** İran savaşı |
+| 12 Şub 2026 | *"Trump'ın gözü 67.800'de değilse bu işi bırakırım"* | 20–27 Şub fiyat ekranları 67.830 / 67.896 / 67.855 |
+| 28 Mar 2026 | *"NASDAQ kanadına 30K'ya gidecek zemin"* · DOW 54K | 30600 tepe, DOW 54K |
+| 7 Nis 2026 | *"27600 üstü temkinli, robot var"* | Mayıs Çin ziyareti 27600'de |
+
+Parti-1'den ek ölçülen iddialar (Ocak–Mart 2026): **30 Ocak** XAUUSD ~5598 ve XAGUSD
+~121,6 aylıkta 2008 trendine değip döndü; önceden verilen **XAUUSD 4800 / XAGUSD 84**
+hedefleri tuttu. Mart: *"4957 kırılmadıkça satış yok, 5087 robot"* — 12 Mart'ta fiyat
+**5087,32**. Haziran: *"altında 4141'e robot koydular"* — 19–22 Haz 15dk grafikte
+4141,03 üstünde defalarca tutunup ~4220'ye sıçradı.
+
+### J. KÜTÜPHANE VE KARNE ETKİSİ
+
+- `magicma/onemli_seviyeler.json`'a bu turdan **26 yeni kayıt** eklendi (447 → **473**):
+  NDX 25700/31800 · DJI 54000 · BTCUSDT 75700/90600 · ETHUSDT 6000 ·
+  XAUUSD 4411/6000/4340/4179/4141 · XAGUSD 67,8/50 · UKOIL 102 ·
+  XAUTRY gram bandı 5700/8400/9200/10600 (**ons TL'ye çevrilerek**, ×31,1035) ·
+  EURJPY 175/185,7 · GBPJPY 208 · USDJPY 164 · DXY 90/88 · US10Y 5,7/3,85.
+  SPX 7060 zaten kayıtlıydı, atlandı. NDX 27600/29700/30600, BTCUSDT 84000/80600/70600,
+  ETHUSDT 2570/2776/3300, XAUUSD 4376/4570 zaten vardı.
+- **Eklenmeyenler (sembol listesinde yok):** OTHERS 306/157/260 · GOLDGR 66,25 çanak ·
+  SPGSCI 600 · EURTRY 57 · GOLDEUR bandı · XU100.USD 306 · tüm rasyolar.
+
+### K. AÇIK İŞLER
+
+1. **XAUTRY ölçek hatası (kütüphanede, bu turdan önce).** `magicma_ham.jsonl`'de XAUTRY
+   **ons TL** (16 Eyl 211.568). Kütüphanedeki eski XAUTRY kayıtları ise karışık:
+   6400/6445 **gram TL**, 124,19/140,6/155,7/160,6 **GOLDGR dolar**. Bunlar fiyata hiç
+   yaklaşamayacağı için alarm motorunda **sessizce ölü**. Bu turun gram bandı ons TL'ye
+   çevrilerek eklendi; eski kayıtlar düzeltilmedi (gram TL → ×31,1035; GOLDGR dolar
+   için ayrıca USDTRY gerekir — türetilmiş sembol işiyle birlikte ele alınmalı).
+2. **Öğreti basamakları 8.4 ve 9.2** belgeli hale geldi (gram altın). Kuralın "son iki
+   hane" tanımı bu ikisini kapsamıyor (…84, …92 sonu). `project_ogreti_sayilari_kurali`
+   hafızası genişletilmeli; merdiven 57-60-68-76-84-92-106 ile birlikte okunmalı.
+3. **Vade takvimi karneye bağlanabilir.** 15 Eyl / 17 Ara kontrat tarihleri ve Koç'un
+   "vade sonu baskısı" iddiası, karne kayıtlarının vade haftasına göre kırılımıyla
+   test edilebilir.
+4. **24 Eylül (Xi ziyareti) ve Ekim** — Koç tarih verdi; sonraki taramada bu tarihlere
+   ait tweetler öncelikli okunmalı. `koc_tetigi_durum.json`'daki Çin/ABD bayrağı
+   değişmedi (anlaşmayı doğrulayan kaynak yok; Koç tam tersine *"Çin onaylamadı"* diyor).
+5. **Rasyo takibi** (7 Eyl açık iş 2) artık daha acil: paydaya BRENT eklendi
+   (ETH/BRENT 30,60, NASDAQ/BRENT ~230).
+6. **"Denge değer" tipi iddialar** (7 Eyl açık iş 1) — 4376 üçüncü kez pivot olarak
+   teyit edildi; ölçüm şeması hâlâ yok.
+7. Kalan okunmamış görsel **ekonomikocu: 0** · iriscibre 141 · efloud 32.
