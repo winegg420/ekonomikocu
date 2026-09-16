@@ -4375,3 +4375,13 @@ Gonderiler/with_replies sorunu icin.
 **Cikarim:** tweet_tara'nin stop mantigi with_replies'te guvenilir degil; ag sart.
 Stop mantigini degistirmek yerine ag eklendi (ag kanitlanmis yontem, stop
 mantigina dokunmak diger hesap/donem modlarini etkileyebilirdi).
+
+## 2026-09-16 — ekonomikocu taramasi + MagicMA (bubbles haric)
+
+- X taramasi ilk denemede exit 4: bot Chrome kapaliydi (CDP yok). `CHROME_X.bat`
+  Start-Process ile Chrome'u ACMADI; chrome.exe dogrudan (9222 + ekonomikocu_x_session)
+  baslatilinca tarama sorunsuz. +111 tweet (bosluk agi dahil), arsiv 8.910,
+  en yeni 2026-09-16 13:33, otomatik paket + push (6f70a83).
+- MagicMA: `MAGICMA_HARIC_LISTE=gunun_hareketlileri.txt magicma_gozetmen.py`,
+  tek turda 425/425 (~15 dk), 2 kara liste atlandi. Rapor
+  `magicma_rapor_2026-09-16.md`, islem adayi 27 (`magicma_islem_adaylari_2026-09-16.md`).

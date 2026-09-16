@@ -34,7 +34,7 @@ turu kisa tutuldugunda (5 dk) tur suresinin cogu bu olu sembollere gidiyordu:
 ## Kara liste (otomatik)
 
 _Bu bolum `magicma_tara_dayanikli.py` tarafindan her taramada yeniden_
-_yazilir — elle duzenleme burada KALICI DEGILDIR. Son guncelleme: 2026-09-14._
+_yazilir — elle duzenleme burada KALICI DEGILDIR. Son guncelleme: 2026-09-16._
 
 **Kara listede: 55 sembol (55'si bu hafta yeniden denenecek)**
 
