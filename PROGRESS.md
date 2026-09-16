@@ -4400,3 +4400,18 @@ mantigina dokunmak diger hesap/donem modlarini etkileyebilirdi).
   yanlis olcekte (gram TL / GOLDGR dolar), ham veride XAUTRY ons TL -> o kayitlar alarmda
   hic tetiklenemez. Yeni gram bandi ons TL'ye cevrilerek eklendi.
 - Hafiza: ogreti kuralina 8.4 / 9.2 basamaklari eklendi.
+
+## 2026-09-16 (3) — Oturum durduruldu (kullanici istegi), devam edilecek
+
+**Durum:** Calisan arka plan isi yok. Tarama, MagicMA ve TUR 24 analizi tamamlandi ve push edildi (02405e0).
+
+**Kaldigi yer / siradaki isler:**
+1. **Kullanicidan karar bekleniyor:** `magicma/onemli_seviyeler.json` icindeki eski XAUTRY kayitlari yanlis olcekte.
+   - Olcek hatasi: 6400/6445 gram TL; 124,19 / 140,6 / 155,7 / 160,6 GOLDGR dolar. Ham veride XAUTRY ons TL oldugu icin bu kayitlarla alarm hic tetiklenmiyor.
+   - Onerilen duzeltme: gram TL -> x31,1035. GOLDGR dolar kayitlari icin ayrica USDTRY gerekir.
+2. 06_ANALIZ TUR 24 acik isleri (K bolumu):
+   - Rasyo takibi (BRENT paydasi dahil)
+   - "Denge deger" tipi iddialarin karnede olculmesi
+   - Vade haftasina gore karne kirilimi
+3. **Takip tarihleri:** 24 Eyl (Xi ziyareti), Ekim, 14 Eki (BTC), 17 Ara (vade sonu). Sonraki analizde bu tarihlere ait tweetler oncelikli.
+4. **Okunmamis gorsel:** ekonomikocu 0, iriscibre 141, efloud 32.
