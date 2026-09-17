@@ -328,6 +328,38 @@ gerektirir**; ani indirim dövize kaçış yaratır; **24 ayda seçim varken kur
 
 
 
+### 16-17 Eylül 2026 — Integral FX TV, Fed toplantısı öncesi (tam gün net değil)
+
+**Kripto:**
+- **Clarity (kripto piyasa yapısı) yasası Senato'da reddedildi** → Yeşilada **BTC uzun vade
+  görüşünü OLUMSUZA çevirdi.**
+- **"4.300-4.500 dar bant" görüşü** — ⚠️ girdide BTC'ye bağlı aktarıldı ama **ölçek BTC
+  fiyatıyla uyuşmuyor** (BTC ~76-82 K bandında). Muhtemelen **altın ons** (kendi 9 Eyl
+  4.000-4.500 görüşünün daralmış hâli) veya ETH; **videodan teyit edilmeden seviye
+  kütüphanesine ve karneye GİRMEDİ.**
+
+**Altın:** **$5.000 = "yeniden değerlendirme" eşiği** — 9 Eylül'deki *"4.000-4.500'de sürünür"*
+tezinin bozulma koşulu olarak okunmalı.
+
+**Petrol:** **$120 "ikinci dalga" senaryosu** (9 Eyl'deki Goldman 120$ senaryosunun devamı;
+baz senaryo değil).
+
+**BIST:** **Borsanın birkaç gün kapanabileceği** öngörüsü — kullanıcı teyidine göre
+**gerçekleşti** (17 Eyl: BIST **-%5,54**, **120 hisse devre kesti**; bkz. Çiçek ve Soydan 17 Eyl).
+
+**Bağlam:** TEFAS/serbest fon likidite krizi + 17 Eylül Fed kararı; aynı olay Özkent, Çiçek
+ve Soydan'da da işlendi (bkz. `13_KONSENSUS.md` 2026-09-17 kaydı).
+
+**Koç'la ilişki:** Koç'un sözü değildir; atıf yapılmaz.
+
+### KARNE EK — Atilla Yeşilada (16-17 Eyl)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 16-17 Eylül | BIST birkaç gün kapanabilir | ✅ **TUTTU** (kullanıcı teyidi — 17 Eyl -%5,54, 120 hisse devre kesici) |
+| 16-17 Eylül | BTC uzun vade olumsuz (Clarity yasası reddi sonrası) | İZLENİYOR (⚠️ vade tanımsız) |
+| 16-17 Eylül | Altın $5.000 üstü = tezi yeniden değerlendirme eşiği | İZLENİYOR (⚠️ koşullu) |
+| 16-17 Eylül | Petrol $120 ikinci dalga senaryosu | İZLENİYOR (⚠️ senaryo) |
+
 ---
 
 ## BERK DİNÇTÜRK (çeşitli programlar)
@@ -988,6 +1020,13 @@ tahminine yakın, biraz muhafazakar.
 
 
 
+### 17 Eylül 2026 — Fed özel (FOMC basın toplantısı aktarımı) — Emrah Lafçı
+
+- **Fed 25 bp artırdı, hedef aralık %3,75-4,00.** Kaynak: **FOMC basın toplantısı** (video
+  resmî transkript niteliğinde; ayrı analist yorumu yok, karne satırı açılmadı).
+- Not: B41'deki (10 Eyl) *"Atlas DFA / Işıklar Enerji — sonraki Pusula"* uyarısı için
+  bkz. Çiçek ve Soydan 17 Eyl girişleri; ilgili karne satırı ayrı oturumda değerlendirilecek.
+
 ## BAKI ATILAL (A1 Kapital)
 
 ### Önceki oturum
@@ -1514,6 +1553,28 @@ DEĞİŞTİRİLMEDİ (`cin_abd_anlasma` hâlâ false).
 
 
 
+### 17 Eylül 2026 — TEFAS fon krizi + "kara çarşamba"
+
+**Fon krizi:**
+- **Pusula / Tera Portföy temerrüdü.**
+- **Atlas Portföy aylık fiyatlamaya geçti** (günlük çıkış kapandı).
+- **FİK (fon ihraççıları) acil toplantı.**
+
+**Piyasa:**
+- **BIST -%5,54 — "kara çarşamba"**, **120 hisse devre kesti.**
+- **TL tahvil faizleri fırladı:** **2Y %41-42**, **10Y %32-33.**
+- **Altın $4.296-4.300**, **gümüş $64.**
+- **ABD'de dizel krizi.**
+
+**Koç'la ilişki:** Koç'un sözü değildir; olay aktarımıdır, atıf yapılmaz.
+
+### KARNE EK — Cihat E. Çiçek (17 Eylül)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 17 Eylül | Pusula/Tera Portföy temerrüdü (olay aktarımı) | İZLENİYOR — resmî KAP/SPK teyidi bekleniyor |
+| 17 Eylül | Atlas Portföy aylık fiyatlamaya geçti (olay aktarımı) | İZLENİYOR — resmî teyit bekleniyor |
+| 17 Eylül | ABD'de dizel krizi (olay aktarımı) | İZLENİYOR |
+
 ---
 
 ## BARIŞ SOYDAN
@@ -1814,6 +1875,31 @@ verdiği **71** ile çelişiyor — bkz. `14_CELISKI_PANELI.md` A13 (veri çeli�
 | 7 Eylül | CPI beklenti altı gelirse altın/gümüş/BTC ateşlenir | İZLENİYOR (11 Eylül) |
 | 7 Eylül | ECB yıl sonuna kadar 2 artırım yapar | İZLENİYOR |
 
+
+### 16-17 Eylül 2026 — Fon krizi güncellemesi
+
+**Atlas Portföy / DFA fonu:**
+- **Işıklar Enerji konsantrasyonu %53.**
+- **SPK kuralı: tek ihraççı %5 / grup %20 sınırı**; uyum takvimi **31 Ekim → 30 Kasım →
+  31 Aralık** (kademeli).
+
+**Mekanizma açıklaması:** **Para piyasası fonu ↔ hisse repo** bağlantısı — fonların likidite
+sıkışmasının hisse tarafına nasıl taşındığı anlatıldı.
+
+**Piyasa:**
+- **BIST -%5,54** (Çiçek'le aynı rakam).
+- **Altın $4.350**, **gümüş $64,5.**
+
+**TCMB:** **Fatih Karahan: rezervlerde altın payı %11 → %29** (açıklama aktarımı).
+
+**Koç'la ilişki:** Koç'un sözü değildir; atıf yapılmaz.
+
+### KARNE EK — Barış Soydan (16-17 Eyl)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 16-17 Eylül | SPK %5/%20 uyum takvimi 31 Eki / 30 Kas / 31 Ara uygulanır | İZLENİYOR (31 Ekim ilk durak) |
+| 16-17 Eylül | Atlas DFA'nın Işıklar Enerji %53 konsantrasyonu uyum satışı gerektirir | İZLENİYOR |
+| 16-17 Eylül | TCMB rezervinde altın payı %11 → %29 (Karahan aktarımı) | İZLENİYOR — resmî veriyle teyit |
 
 ---
 
@@ -2681,6 +2767,21 @@ giriyor (tahvil teşhisi Yeşilada'yla çelişiyor).
 | 10 Eylül | Bessent alımları başlayınca faiz biraz baskılanır | İZLENİYOR |
 
 
+
+### 17 Eylül 2026 — Nasdaq bülteni (FOMC sonrası)
+
+**Fed:**
+- **Fed faiz artırdı: 25 bp, hedef aralık %3,75-4,00**; **oy 12-0.**
+- **Piyasa tepkisi şaşırtıcı derecede sakin / pozitif.**
+- **2026 sonu için 1 artırım daha fiyatlanıyor**; **2027-29 projeksiyonlarında artırım yok.**
+
+**Koç'la ilişki:** Koç'un sözü değildir. ⚠️ Bu karar, `13_KONSENSUS.md`'deki *"Fed Eylül'de
+artırmaz"* kaydını (Özkent dahil 9 kaynak) doğrudan ilgilendirir — bkz. o dosyadaki 17 Eylül notu.
+
+### KARNE EK — Bora Özkent (17 Eyl)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 17 Eylül | 2026 sonuna kadar 1 artırım daha (piyasa fiyatlaması aktarımı) | İZLENİYOR (Aralık FOMC) |
 
 ---
 

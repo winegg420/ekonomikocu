@@ -192,7 +192,9 @@ def basla_md(s: dict) -> str:
     g = s.get("graf_zip", 0)
     dis = (
         "\n**Koç dışı analistler:** `11_DIS_KAYNAKLAR.md` — Sellcoin, Berk Dinçtürk, "
-        "Yeşilada, Şatıroğlu, Lafçı, Atılal, Altınocağı, Foneria. **Bu dosyadaki hiçbir "
+        "Yeşilada, Şatıroğlu, Lafçı, Atılal, Altınocağı, Foneria, Erol Polat, Paksoy, Yükseltürk & Çay, "
+        "Çiçek, Soydan, Selçuk Geçer, Berk Tavsan, Integral FX TV, Manukyan, Bozkurt, Özkent, "
+        "Fiba Bank, Hiçyılmaz, Kripto Teknik, Erkan Öz, Erdal Sağlam, Iris Cibre. **Bu dosyadaki hiçbir "
         "görüş Koç'a atfedilmez**; Koç'un kendi çerçevesi `06_ANALIZ.md`'dedir.\n"
         if F11_DIS.is_file()
         else ""
