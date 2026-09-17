@@ -1,12 +1,12 @@
 {
-  "guncelleme": "2026-09-16T13:41:05",
+  "guncelleme": "2026-09-17T14:49:40",
   "hedef_tarih": "2025-01-01",
-  "en_yeni": "2026-09-16",
+  "en_yeni": "2026-09-17",
   "en_eski_kayit": "2019-11-28",
   "tamam_kadar": "2025-01-sonu",
-  "surekli_ozet": "2026-09-16 - 2025-01 sonuna kadar kesintisiz kayit VAR (alt aylarda bosluk/sorun olabilir)",
-  "toplam_satir": 8910,
-  "ana_metinli": 8719,
+  "surekli_ozet": "2026-09-17 - 2025-01 sonuna kadar kesintisiz kayit VAR (alt aylarda bosluk/sorun olabilir)",
+  "toplam_satir": 9042,
+  "ana_metinli": 8851,
   "abone_metinli": 3434,
   "bos_kilitli": 0,
   "alinti_toplam": 155,
@@ -16,7 +16,7 @@
   "flood_eksik_tahmin": 1,
   "eksik_aylar": [],
   "aylik_metinli": {
-    "2026-09": 1285,
+    "2026-09": 1417,
     "2026-08": 756,
     "2026-07": 284,
     "2026-06": 3564,
@@ -31,8 +31,8 @@
     "2025-07": 8,
     "2025-06": 1,
     "2025-05": 1,
-    "2025-04": 8,
-    "2025-03": 5,
+    "2025-04": 6,
+    "2025-03": 7,
     "2025-01": 38
   },
   "is_tamam": false
