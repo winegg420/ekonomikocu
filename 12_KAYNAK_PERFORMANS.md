@@ -1,6 +1,6 @@
 # 12 — KAYNAK PERFORMANS SIRALAMASI
 
-_Güncelleme: 2026-09-17_ (**5 video — TEFAS/serbest fon likidite krizi + 17 Eylül Fed**: Atilla Yeşilada, Bora Özkent, Cihat E. Çiçek, Barış Soydan, Emrah Lafçı (yalnız FOMC aktarımı, karne satırı yok) — **11 yeni satır: 10 İZLENİYOR + 1 TUTTU** (Yeşilada *"BIST birkaç gün kapanabilir"*, kullanıcı teyidi); sıralama ve ağırlıklar DEĞİŞMEDİ — dört kaynağın hiçbiri eşik durumunu değiştirmedi)
+_Güncelleme: 2026-09-17_ (**5 video — TEFAS/serbest fon likidite krizi + Fed 25 bp**: Atilla Yeşilada, Cihat E. Çiçek, Barış Soydan, Bora Özkent, Emrah Lafçı (FOMC ham çevirisi, karne yok) — **23 yeni satır: 3 TUTTU · 1 TUTMADI · 19 İZLENİYOR**; ⚠️ **Bora Özkent ilk TUTMADI'sıyla (Fed artırmaz) 3 kapanmış iddiaya ulaştı ve %66,7 ile sıralamaya girdi** → Özkent'in geçtiği konsensüs skorları yeniden hesaplandı)
 _Önceki: 2026-09-10/11_ (**10 video**: Sellcoin, Emrah Lafçı, Turhan Bozkurt, Atilla Yeşilada, Selçuk Geçer, Tunç Şatıroğlu ×2, Bora Özkent, Cihat E. Çiçek + **Mesele Ekonomi / Erdal Sağlam — YENİ KAYNAK** — **50 yeni iddia**; ⚠️ **dosyanın İLK TUTMADI kaydı girdi** ve **iki kaynak birden sıralama eşiğini geçti**)
 _Önceki: 2026-09-07 (5 video: Kripto Teknik, Selçuk Geçer, Barış Soydan, Integral FX TV (Perşembe & Sağman), Turhan Bozkurt — 27 yeni İZLENİYOR satırı)_
 _Ondan önceki: 2026-09-06 (Berk Tavsan **yeni kaynak** + Cihat E. Çiçek 6 Eylül girişi işlendi)_
@@ -88,9 +88,12 @@ bölümünde bunun için somut bir çalışma listesi var.
 | Sıra | Kaynak | İsabet Oranı | Tuttu | Tutmadı | İzleniyor | Sonuçsuz | Toplam |
 |---|---|---|---|---|---|---|---|
 | 1 | Şant Manukyan | %100 | 3 | 0 | 9 | 0 | 12 |
-| 1 | Barış Soydan | %100 | 3 | 0 | 23 | 0 | 26 |
+| 1 | Barış Soydan | %100 | 3 | 0 | 25 | 0 | 28 |
 | 1 | **Tunç Şatıroğlu** | %100 | 3 | 0 | 28 | 0 | 31 |
 | 4 | **Sellcoin** | **%66,7** | 2 | **1** | 15 | 0 | 18 |
+| 4 | **Bora Özkent** | **%66,7** | 2 | **1** | 14 | 0 | 17 |
+
+**2026-09-17 — Bora Özkent sıralamaya girdi (%66,7).** Üç kapanmış kaydı: *"TÜFE'ye kadar olumlu sürpriz zor"* (TUTTU, 10 Eyl) · *"Fed faiz artırmaz"* (**TUTMADI** — 17 Eyl 25 bp geldi; kaynak bunu videoda **kendisi kabul ediyor**) · *"artış gelse bile sert satış olmaz"* (TUTTU — Nasdaq -%0,1, ertesi gün pozitif). ⚠️ Son iki satır **aynı olayın iki yüzü**: ana tezi tutmadı, yedek senaryosu tuttu — oran bu yüzden kaynağın isabetini olduğundan iyi gösterebilir.
 
 **2026-09-10/11 — tablo ilk kez bir ayrım üretiyor.** Tunç Şatıroğlu üçüncü
 kapanmış kaydına ulaşarak (SMH 572 alım seviyesi geçildi) sıralamaya girdi;
@@ -126,16 +129,16 @@ bu uyarı unutulmamalı.
 | Erol Polat / Money Talks | 2 | 2 | 0 | 5 | 0 | 7 | TP2 önerisi + AK3/TP2/HVS/GHS'nin BIST100'ü yenmesi |
 | Emrah Lafçı (solo) | 2 | 2 | 0 | 11 | 0 | 13 | CDS 219bp + **TCMB 10 Eyl sabit (TUTTU)**. B41'de 4 yeni iddia — üçü fon/kurumsal (Atlas-Işıklar, Tera-Pusula, enerji fonları), **doğrulanabilir ve yakın vadeli**; bu kaynağın karnesi fiyat değil **kurumsal olay** ölçüyor |
 | Ferhat Yükseltürk & Uraz Çay | 1 | 1 | 0 | 4 | 0 | 5 | Tüpraş kâr büyümesi (Soydan verisiyle doğrulandı) |
-| Cihat E. Çiçek | 1 | 1 | 0 | 15 | 0 | 16 | Gerçekleşmiş TEFAS getirileri (tahmin değil). **17 Eyl'de 3 yeni satır** — üçü de **olay aktarımı** (Pusula/Tera temerrüdü, Atlas aylık fiyatlama, ABD dizel krizi); resmî teyitle kapanır, öngörü isabeti ölçmez. **6 Eyl'de 4 yeni iddia** — üçü tarihsiz/ölçülemez tipte ("kur patlayacak", "petrol muazzam artacak"), biri aktarım (Norveç 80 mlr $) |
+| Cihat E. Çiçek | 2 | 2 | 0 | 16 | 0 | 18 | Gerçekleşmiş TEFAS getirileri (tahmin değil). **17 Eyl'de 5 yeni satır**, biri kapandı: *"fiziki altın/gümüş > fon/kağıt"* → **TUTTU** (fon paraları 1-1,5 ay bloke). ⚠️ Bu, fiyat öngörüsü değil **likidite özelliği tespiti**. İki satır Grok (AI) aktarımı — ikincil kaynak. **6 Eyl'de 4 yeni iddia** — üçü tarihsiz/ölçülemez tipte ("kur patlayacak", "petrol muazzam artacak"), biri aktarım (Norveç 80 mlr $) |
 | Integral FX TV (panel / Aslanoğlu / Perşembe & Sağman) | 1 | 1 | 0 | 13 | 0 | 14 | TCMB 10 Eylül tahmini — 16 gün ERKEN gerçekleşti. **7 Eyl'de 6 yeni iddia** (Sağman 3, Perşembe 3) — kaynak içinde **iki kişi ayrı ayrı** izleniyor |
 | Turhan Bozkurt | 0 | 0 | 0 | 15 | 1 | 16 | **10 Eyl'de 5 yeni iddia** (Fed 16 Eyl sabit, koşullu altın 5.000+/gümüş 75+, BIST 13.900 sat, yıl sonu TÜFE 32-33, Katılımevim/BDDK). Videonun Sabancı/Zorlu/kayyum kısmı **yine bilerek işlenmedi** — üst üste üçüncü kez. TCMB 80 ton altın iddiası **DOĞRULANMADI** (yanlışlanmadı da). **7 Eyl'de 6 yeni iddia** — biri ("dolar 100'ü göreceksiniz") **tarihsiz**, ölçülemez. Videonun Sabancı/kayyum kısmı **bilerek işlenmedi** |
 | Tunç Şatıroğlu | — | — | — | — | — | — | *(artık sıralamada — SMH 572 ile üçüncü kapanmış kayda ulaştı)* |
 | Berk Dinçtürk | 0 | 0 | 0 | 14 | 0 | 14 | Hedefleri uzun vadeli (2028'e kadar), doğal olarak açık |
 | Emrah Lafçı & Ali Perşembe | 0 | 0 | 0 | 14 | 0 | 14 | — |
-| Atilla Yeşilada | 2 | 2 | 0 | 21 | 0 | 23 | **17 Eyl'de 4 yeni satır**, biri kapandı: *"BIST birkaç gün kapanabilir"* → **TUTTU** (kullanıcı teyidi; 17 Eyl -%5,54, 120 hisse devre kesici). Hâlâ 3'ün altında → nötr %50. **9 Eyl'de 8 yeni iddia**, biri kapandı: *"TCMB 10 Eylül'de indirmez (%80)"* → **TUTTU**. ⚠️ Altın görüşü (4.000-4.500 sürünür, *"moda geçti"*) dosyadaki **5 kaynağın tam tersi** — bkz. `14_CELISKI_PANELI.md` A16; bu, tablonun ilk gerçek ayrımını üretme adayı. 4.500 altın çağrısı hâlâ kapatılmadı (aşağıya bak) |
+| Atilla Yeşilada | 2 | 2 | 0 | 24 | 0 | 26 | **16 Eyl'de 7 yeni satır**, biri kapandı: *"BIST'te birkaç gün işlem durdurulabilir"* → **TUTTU** (16 Eyl devre kesiciler, 17 Eyl FİK acil toplantısı). ⚠️ *"BTC 4.300-4.500 dar bant"* satırının ölçeği BTC fiyatıyla (~76-82 K) uyuşmuyor — kapatılmadan önce videodan teyit edilmeli. **9 Eyl'de 8 yeni iddia**, biri kapandı: *"TCMB 10 Eylül'de indirmez (%80)"* → **TUTTU**. ⚠️ Altın görüşü (4.000-4.500 sürünür, *"moda geçti"*) dosyadaki **5 kaynağın tam tersi** — bkz. `14_CELISKI_PANELI.md` A16; bu, tablonun ilk gerçek ayrımını üretme adayı. 4.500 altın çağrısı hâlâ kapatılmadı (aşağıya bak) |
 | Şant Manukyan | — | — | — | — | — | — | *(sıralamada)* |
 | Cüneyt Paksoy | 0 | 0 | 0 | 18 | 0 | 18 | 4 Eyl'de 9 yeni iddia; hâlâ hiç kapanmamış. Sayı bazında ikinci en iddialı kaynak |
-| Bora Özkent | 1 | 1 | 0 | 11 | 0 | 12 | **17 Eyl'de 1 yeni satır** (2026 sonuna 1 artırım daha — fiyatlama aktarımı). **10 Eyl'de 5 yeni iddia**, biri kapandı: *"TÜFE'ye kadar olumlu sürpriz zor"* → **TUTTU** (11 Eyl düşüş). ⚠️ **Kaynağın kendi yanlılık beyanı kayda geçirildi:** *"Boğa/teknoloji oyuncusuyum, ayıda test edilmedim, 2022 kötüydü"* — bu tablonun ölçtüğü isabetin bir rejime bağlı olabileceğini kaynağın kendisi söylüyor |
+| Bora Özkent | — | — | — | — | — | — | *(artık sıralamada — 17 Eyl'de 3 kapanmış kayda ulaştı)* · **10 Eyl'de 5 yeni iddia**, biri kapandı: *"TÜFE'ye kadar olumlu sürpriz zor"* → **TUTTU** (11 Eyl düşüş). ⚠️ **Kaynağın kendi yanlılık beyanı kayda geçirildi:** *"Boğa/teknoloji oyuncusuyum, ayıda test edilmedim, 2022 kötüydü"* — bu tablonun ölçtüğü isabetin bir rejime bağlı olabileceğini kaynağın kendisi söylüyor |
 | Emrah Altınocağı | 0 | 0 | 0 | 6 | 0 | 6 | — |
 | Kripto Teknik | 0 | 0 | 0 | 11 | 0 | 11 | **7 Eyl'de 6 yeni iddia.** ⚠️ 27 Ağu'daki 5 kaydın vadesi (1 Eylül civarı) **geçti ama kapatılmadı** — Golden Cross 1 Eylül yerine **7 Eylül'de** gerçekleşti (6 gün geç), bkz. `16_ZAMANLAMA_KARNESI.md`. Bu satır **kapatma iş listesinin başında** |
 | Erkan Öz | 0 | 0 | 0 | 5 | 0 | 5 | Dosyaya en son giren kaynak (30 Ağu) |
@@ -282,26 +285,19 @@ alınmaları değerlendirilmeli.
 
 ### 17 Eylül sonrası eklenen iş listesi
 
-**Yeni İZLENİYOR satırları (sonuç henüz netleşmedi, karne verilmedi):**
-- **Atilla Yeşilada (16-17 Eyl):** BTC uzun vade olumsuz (Clarity reddi) · altın $5.000
-  yeniden değerlendirme eşiği · petrol $120 ikinci dalga. ⚠️ *"4.300-4.500 dar bant"*
-  görüşü girdide BTC'ye bağlı ama ölçek uyuşmuyor — **videodan teyit edilene kadar
-  karneye alınmadı.**
-- **Bora Özkent (17 Eyl):** 2026 sonuna 1 artırım daha (fiyatlama aktarımı) → Aralık FOMC.
-- **Cihat E. Çiçek (17 Eyl):** Pusula/Tera temerrüdü · Atlas aylık fiyatlama · ABD dizel
-  krizi — üçü de olay aktarımı, **KAP/SPK teyidiyle** kapanır.
-- **Barış Soydan (16-17 Eyl):** SPK %5/%20 uyum takvimi (**31 Ekim ilk durak**) · Atlas
-  DFA / Işıklar Enerji %53 uyum satışı · TCMB altın payı %11 → %29 (Karahan aktarımı).
+**Bu oturumda kapandı:** Yeşilada *"BIST'te işlem durdurulabilir"* (**TUTTU**) · Özkent *"Fed
+artırmaz"* (**TUTMADI**) ve *"sert satış olmaz"* (**TUTTU**) · Çiçek *"fiziki > fon"* (**TUTTU**).
 
-**⚠️ ÖNCELİKLİ — 17 Eylül FOMC gerçekleşti, bu oturumda KAPATILMADI:**
-Fed **25 bp ARTIRDI** (%3,75-4,00, oy 12-0; kaynak: FOMC basın toplantısı — Lafçı/Özkent
-aktarımı). Bu, `13_KONSENSUS.md` **1 numaralı kaydı** (*"Fed Eylül'de artırmaz"* — 9 kaynak:
-Sellcoin, Lafçı & Perşembe, Soydan, Onur Duygu, Tunç Şatıroğlu, Dinçtürk, Geçer, Bozkurt,
-Özkent) için **toplu TUTMADI adayıdır**. Satırlar `11_DIS_KAYNAKLAR.md`'de tek tek
-bulunup kapatılmalı; ardından bu dosyadaki sayımlar ve 13'teki **tüm ağırlıklı skorlar**
-yeniden hesaplanmalı. Karşı kamp (13 #19 *"Fed ŞAHİN — artırım"*, 3 kaynak) aynı anda
-TUTTU adayı. Ayrıca Lafçı'nın 10 Eyl *"Atlas DFA — sonraki Pusula"* satırı 17 Eyl
-Çiçek/Soydan aktarımıyla **TUTTU adayı**.
+**⚠️ ÖNCELİKLİ — 17 Eylül FOMC'nin kalan kapanışları YAPILMADI:** Fed **25 bp artırdı**
+(%3,75-4, 12-0; birincil kaynak: Lafçı'nın FOMC ham çevirisi). `13_KONSENSUS.md`'deki *"Fed Eylül'de
+artırmaz"* kaydının **Özkent dışındaki 8 kaynağı** (Sellcoin, Lafçı & Perşembe, Soydan, Onur Duygu,
+Tunç Şatıroğlu, Dinçtürk, Geçer, Bozkurt) için satırlar `11_DIS_KAYNAKLAR.md`'de tek tek bulunup
+kapatılmalı — **toplu TUTMADI adayı**. Karşı kamp (*"Fed ŞAHİN — artırım"*, 3 kaynak) TUTTU adayı.
+Lafçı'nın 10 Eyl *"Atlas DFA — sonraki Pusula"* satırı da 17 Eyl Soydan/Çiçek verisiyle TUTTU adayı.
+
+**Tarih verildiği için ölçülebilir olanlar:** **31 Ekim** — SPK uyumunun ilk 1/3'ü (Soydan) ·
+**Ekim FOMC** — Özkent *"Ekim'de artış gelmez"* · **Aralık FOMC** — *"kalan artış Aralık'a"* ·
+**hafta kapanışı** — Özkent SPY 750-800 · **~40 gün** — Çiçek *"altın/gümüş bu arada geriler"*.
 
 ---
 

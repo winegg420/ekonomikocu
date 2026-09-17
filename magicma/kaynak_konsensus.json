@@ -19,9 +19,9 @@
     "kaynak_sayisi": 9,
     "ilk_tespit_tarihi": "2026-08-10",
     "tip": "olasilik",
-    "not": "Deger araligi, artirim ihtimalinin fiyatlanan yuzdesidir (%35 Jackson Hole gunu -> %59,4 CME FedWatch, 4 Eylul NFP sonrasi). 4 Eylul'de Selcuk Gecer eklendi ('Fed artirmaz, indirmez; sabit') ve Tunc Satiroglu iddiasini yineledi ('CME %59,4 fiyatliyor ama ben artirim beklemiyorum'). DIKKAT: fiyatlanan ihtimal %35'ten %59,4'e cikarken kaynaklarin gorusu DEGISMEDI - grup piyasaya karsi pozisyon almis durumda, 16 Eylul FOMC bunu tek seferde olcecek. Ayni dosyada TERSI yonde 3 kaynakli bir grup da var - bkz. 14_CELISKI_PANELI.md. | 7 EYLUL EKI: Integral FX TV / Murat Sagman bu kaydin KARSISINDA - 'piyasada 1 artirim fiyatlandi, 2 yaparsa dengeler bozulur'. Kaynak sayisi degismedi (Sagman bu gruba girmedi, karsi gruba yazildi) ama karsi kamp guclendi; bkz. 14_CELISKI_PANELI A5. Selcuk Gecer 7 Eyl'de kendi 'sabit' gorusunu yineledi - piyasa fiyatlamasi %58-60'a cikmis olmasina ragmen goru degismedi. | 10 EYLUL EKI: Turhan Bozkurt ('Fed haftaya sabit tutarsa altin 5.000+ / gumus 75+' - kosullu ama yonu net) ve Bora Ozkent ('faiz meselesi abartiliyor, nominal buyume %6'dayken 10Y %5 normal' - dolayli) eklendi; Selcuk Gecer 10 Eyl'de 'ne artirir ne indirir'i UCUNCU kez yineledi (yeni kaynak degil, TEKRAR). ⚠️ KARSI VERI - BANKA KONSENSUSU YOK: Cihat E. Cicek'in 11 Eyl aktarimina gore yil sonuna kadar BofA 3 artirim (75bp), Barclays 2 (50bp), Deutsche 2, BNP 1 (25bp), Citi 0, Goldman 0, HSBC 0. Yani KURUMLAR ikiye bolunmus durumda; bu kaydin 8 kaynagi kurum konsensusunu degil YOUTUBE analist kampini temsil ediyor. Ortam verisi: 10 Eyl ABD UFE yillik %5,4 (beklenti ustu) sonrasi piyasa Fed 16 Eyl artirimini %70 fiyatliyor - yani bu grup piyasanin TERSINDE, 16 Eylul tek seferde olcecek. | 17 EYLUL 2026: Fed 25 bp ARTIRDI (%3,75-4,00, oy 12-0; kaynak FOMC basin toplantisi, Lafci/Ozkent aktarimi). Bu kayit TOPLU TUTMADI ADAYIDIR; karne satirlari henuz kapatilmadi, agirlikli skor bu yuzden DEGISMEDI - bkz. 12_KAYNAK_PERFORMANS.md '17 Eylul sonrasi is listesi'.",
-    "agirlikli_skor": 5.7,
-    "hesaplama_notu": "agirlikli_skor = 9 kaynak x (ortalama isabet 63.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
+    "not": "Deger araligi, artirim ihtimalinin fiyatlanan yuzdesidir (%35 Jackson Hole gunu -> %59,4 CME FedWatch, 4 Eylul NFP sonrasi). 4 Eylul'de Selcuk Gecer eklendi ('Fed artirmaz, indirmez; sabit') ve Tunc Satiroglu iddiasini yineledi ('CME %59,4 fiyatliyor ama ben artirim beklemiyorum'). DIKKAT: fiyatlanan ihtimal %35'ten %59,4'e cikarken kaynaklarin gorusu DEGISMEDI - grup piyasaya karsi pozisyon almis durumda, 16 Eylul FOMC bunu tek seferde olcecek. Ayni dosyada TERSI yonde 3 kaynakli bir grup da var - bkz. 14_CELISKI_PANELI.md. | 7 EYLUL EKI: Integral FX TV / Murat Sagman bu kaydin KARSISINDA - 'piyasada 1 artirim fiyatlandi, 2 yaparsa dengeler bozulur'. Kaynak sayisi degismedi (Sagman bu gruba girmedi, karsi gruba yazildi) ama karsi kamp guclendi; bkz. 14_CELISKI_PANELI A5. Selcuk Gecer 7 Eyl'de kendi 'sabit' gorusunu yineledi - piyasa fiyatlamasi %58-60'a cikmis olmasina ragmen goru degismedi. | 10 EYLUL EKI: Turhan Bozkurt ('Fed haftaya sabit tutarsa altin 5.000+ / gumus 75+' - kosullu ama yonu net) ve Bora Ozkent ('faiz meselesi abartiliyor, nominal buyume %6'dayken 10Y %5 normal' - dolayli) eklendi; Selcuk Gecer 10 Eyl'de 'ne artirir ne indirir'i UCUNCU kez yineledi (yeni kaynak degil, TEKRAR). ⚠️ KARSI VERI - BANKA KONSENSUSU YOK: Cihat E. Cicek'in 11 Eyl aktarimina gore yil sonuna kadar BofA 3 artirim (75bp), Barclays 2 (50bp), Deutsche 2, BNP 1 (25bp), Citi 0, Goldman 0, HSBC 0. Yani KURUMLAR ikiye bolunmus durumda; bu kaydin 8 kaynagi kurum konsensusunu degil YOUTUBE analist kampini temsil ediyor. Ortam verisi: 10 Eyl ABD UFE yillik %5,4 (beklenti ustu) sonrasi piyasa Fed 16 Eyl artirimini %70 fiyatliyor - yani bu grup piyasanin TERSINDE, 16 Eylul tek seferde olcecek. | 17 EYLUL 2026: Fed 25 bp ARTIRDI (%3,75-4, oy 12-0; birincil kaynak Lafci'nin FOMC ham cevirisi). Bora Ozkent'in satiri TUTMADI olarak KAPATILDI (kaynak kendisi kabul ediyor). Diger 8 kaynagin satirlari henuz kapatilmadi - toplu TUTMADI adayi; bkz. 12_KAYNAK_PERFORMANS.md '17 Eylul sonrasi is listesi'.",
+    "agirlikli_skor": 5.8,
+    "hesaplama_notu": "agirlikli_skor = 9 kaynak x (ortalama isabet 63.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti. | 2026-09-17 yeniden hesabi: Bora Ozkent 3 kapanmis iddiaya ulasip %66,7 ile notr %50'den cikti -> 9 kaynak x ortalama 64.8% = 5.8."
   },
   {
     "konu": "Altın kısa vade taban/biriktirme bandı (ons $)",
@@ -152,8 +152,8 @@
     "ilk_tespit_tarihi": "2026-08-20",
     "tip": "olgu",
     "not": "Trilyon $. Dört kaynak aynı olguyu bağımsız aktarıyor; üçü bundan aynı sonucu (para arzı artışı mecburiyeti) çıkarıyor.",
-    "agirlikli_skor": 2.5,
-    "hesaplama_notu": "agirlikli_skor = 4 kaynak x (ortalama isabet 62.5% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
+    "agirlikli_skor": 2.7,
+    "hesaplama_notu": "agirlikli_skor = 4 kaynak x (ortalama isabet 62.5% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti. | 2026-09-17 yeniden hesabi: Bora Ozkent 3 kapanmis iddiaya ulasip %66,7 ile notr %50'den cikti -> 4 kaynak x ortalama 66.7% = 2.7."
   },
   {
     "konu": "Altın uzun vade hedef bandı (ons $)",
@@ -586,22 +586,39 @@
     "hesaplama_notu": "agirlikli_skor = 2 kaynak x (ortalama isabet 50.0% / 100). Isabet oranlari 12_KAYNAK_PERFORMANS.md'den; 3'ten az kapanmis iddiasi olan kaynak notr %50 sayilir. 2026-09-10 yeniden hesabi: Tunc Satiroglu (%100) ve Sellcoin (%66,7) ilk kez 3 kapanmis iddiaya ulasip notr %50'den cikti - bu iki kaynagin gectigi TUM kayitlarin skoru degisti."
   },
   {
-    "konu": "TEFAS/serbest fon likidite krizi gerçekleşti (Pusula/Tera temerrüdü, Atlas aylık fiyatlama, BIST -%5,54)",
+    "konu": "TEFAS/serbest fon likidite krizi (Pusula/Tera temerrudu, Atlas aylik fiyatlama, FIK acil toplanti)",
     "deger_araligi": [
       5.54,
       5.54
     ],
     "kaynaklar": [
-      "Atilla Yeşilada",
-      "Bora Özkent",
       "Cihat E. Çiçek",
-      "Barış Soydan"
+      "Barış Soydan",
+      "Atilla Yeşilada"
     ],
-    "kaynak_sayisi": 4,
-    "ilk_tespit_tarihi": "2026-09-17",
+    "ilk_tespit_tarihi": "2026-09-16",
     "tip": "olay_teyidi",
-    "not": "Dort kaynak AYNI olayi farkli acilardan dogruluyor - tek kayit, 4 ayri madde DEGIL. Cicek: Pusula/Tera temerrudu, Atlas aylik fiyatlama, FIK acil toplanti, BIST -%5,54 / 120 hisse devre kesici, TL 2Y %41-42. Soydan: Atlas DFA'da Isiklar Enerji %53, SPK %5/%20 uyum takvimi (31 Eki/30 Kas/31 Ara), PPF-hisse repo mekanizmasi, BIST -%5,54. Yesilada: onceden 'BIST birkac gun kapanabilir' demisti (kullanici teyidiyle gerceklesti). Ozkent: ayni gunun Fed karari (25 bp artirim) - krizin makro zemini. DEGER ARALIGI BIST gunluk dusus yuzdesidir. DIKKAT: bu bir TAHMIN konsensusu degil OLAY teyidi; 10-11 Eylul oturumunda Lafci/Bozkurt fon olaylari bu yuzden konsensuse alinmamisti. Kullanici istegiyle istisna olarak kaydedildi; ongoru isabeti olcmez. Lafci'nin 10 Eyl 'Atlas DFA sonraki Pusula' uyarisi bu olayin ONCUSU.",
-    "agirlikli_skor": 2.5,
-    "hesaplama_notu": "agirlikli_skor = 4 kaynak x (ortalama isabet 62.5% / 100). Baris Soydan %100 (siralamada); Yesilada, Ozkent, Cicek 3'ten az kapanmis -> notr %50."
+    "not": "Uc bagimsiz kaynakla teyitli; ortak veri BIST 16 Eylul -%5,54 (devre kesici) ve FIK'in 17 Eylul 08:00 acil toplantisi. Cicek: 230 mlr TL serbest fon cikisi, Pusula temerrudu, Tera/Atlas cikis sorunlari (Grok aktarimi), BIST gun ici -%7,7. Soydan: Atlas DFA %53 Isiklar Enerji, SPK %5/%20 uyum takvimi (31 Eki/30 Kas/31 Ara), PPF-hisse repo mekanizmasi (Akin Rota aktarimi). Yesilada: 16 Eyl canli yayinda 120 hissenin devre kestigini bildirdi ve 'birkac gun borsa islemleri durdurulur' dedi (TUTTU). DEGER ARALIGI BIST gunluk dusus yuzdesidir, seviye degil. DIKKAT: tahmin degil OLAY teyidi; ongoru isabeti olcmez. Koc'un cercevesinde bu tema YOK. Tema notu: 11_DIS_KAYNAKLAR.md sonu.",
+    "kaynak_sayisi": 3,
+    "agirlikli_skor": 2.0,
+    "hesaplama_notu": "agirlikli_skor = 3 kaynak x (ortalama isabet 66.7% / 100). Soydan %100, Ozkent %66,7 (siralamada); digerleri 3'ten az kapanmis -> notr %50."
+  },
+  {
+    "konu": "Fed 'one and done' okumasi: 2026 sonu en fazla 1 artis daha, 2027+ artis yok",
+    "deger_araligi": [
+      4.1,
+      4.1
+    ],
+    "kaynaklar": [
+      "Bora Özkent",
+      "Emrah Lafçı (solo)",
+      "Cihat E. Çiçek"
+    ],
+    "ilk_tespit_tarihi": "2026-09-17",
+    "tip": "olasilik",
+    "not": "Deger, FOMC medyan federal fonlama orani projeksiyonu (%4,1). Ozkent: projeksiyonlar 2027-29 neredeyse sabit (2028 %2,2 / 2029 %2,0), Ekim'de artis yok, kalan artis Aralik'a. Lafci: FOMC basin toplantisi ham cevirisi - BAGIMSIZ YORUM DEGIL, birincil kaynak (medyan %4,1). Cicek: 25 bp 12-0 aktarimi; ANCAK kendi yorumu ters ('0,25 deva olmaz, 50-60 bp gerekir'). ZAYIF KAYIT: bagimsiz yorum tasiyan tek kaynak Ozkent; Lafci metin, Cicek olgu aktarimi. Kullanici istegiyle kaydedildi. Olcum: Ekim ve Aralik FOMC.",
+    "kaynak_sayisi": 3,
+    "agirlikli_skor": 1.7,
+    "hesaplama_notu": "agirlikli_skor = 3 kaynak x (ortalama isabet 55.6% / 100). Soydan %100, Ozkent %66,7 (siralamada); digerleri 3'ten az kapanmis -> notr %50."
   }
 ]

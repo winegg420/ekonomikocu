@@ -49,6 +49,18 @@ _Ondan önceki: 2026-09-04 (4 Eylül NFP günü: A8/A9/A10 açıldı, B7 güncel
   Yeşilada, görülmezse Özkent haklı çıkar. **Ölçülecek somut ölçüt budur.**
 - **Kim haklı çıktı:** Henüz yok. Yeşilada'nın kendisi "henüz o noktada değiliz"
   diyor — yani bugüne kadarki gözlem Özkent lehine eğilimli.
+- **17 Eylül güncellemesi (Fed 25 bp sonrası):**
+  - **ABD — Özkent'e puan:** Karar günü 10Y %5 üstüne çıktı, ama **ertesi sabah tahvil faizleri geriledi**
+    ve borsalar pozitife döndü (Özkent 17 Eyl). Piyasa projeksiyonları "artırım silsilesi yok" diye okudu.
+    ABD tahvilinde **"işlem yapılamaz hâle gelme" görülmedi** → Yeşilada'nın kendi kriteri ABD için
+    **gerçekleşmedi.**
+  - **Türkiye — kriterin kendisi FON tarafında gerçekleşti:** Aynı hafta serbest fonlarda katılma payı
+    iadesi durdu / aylığa çekildi (Pusula temerrüdü, Atlas aylık fiyatlama), BIST'te devre kesiciler çalıştı,
+    FİK acil toplandı (Çiçek, Soydan 17 Eyl). **Ayrım önemli:** bu ABD tahvili hakkındaki A2 teşhisini
+    **doğrulamaz** — farklı piyasa, farklı mekanizma (hisse-repo/konsantrasyon). Yalnızca Yeşilada'nın
+    *likidite kilitlenmesi* kategorisinin gerçek bir örneğinin **Türkiye fon piyasasında** görüldüğünü gösterir.
+  - **Durum:** A2 **açık kalıyor**, eğilim **Özkent lehine güçlendi** (ABD ayağı). Tek günlük geri çekilme
+    kalıcı değil — Özkent'in kendi takip ölçütü 10/30Y'de gerilemenin sürüp sürmediği.
 
 ### A3. Çin'in altın hamlesinin okunuşu
 - **Berk Dinçtürk** (~13 Ağu): "Yuan-altın güven köprüsü" — Şangay Altın Borsası
@@ -421,6 +433,11 @@ uzun vade faizi yükselmeye devam ediyor mu?** (10 Eylül'de 6 mlr $ açıkland�
 **Kim haklı çıktı:** Henüz yok. ⚠️ Ancak 10 Eylül gözlemi (geri alım büyüdü, faiz
 yine yükseldi) **3. kampın lehine bir veri noktası**, Özkent'in *"alımlar başlayınca
 baskılar"* beklentisinin aleyhine.
+
+**17 Eylül ek veri:** Fed 25 bp sonrası ABD faizleri **ertesi gün geriledi** → 1. kampa (Özkent) bir veri
+noktası; tek gün, 10 Eylül'deki 3. kamp lehine gözlemi silmez. Lafçı'nın FOMC ham çevirisinde Warsh'ın
+kendi tasnifi (**ekonominin güçlenmesi · hyperscaler sermaye rekabeti · jeopolitik/petrol**) büyük ölçüde
+1. kampın ("normal") diliyle örtüşüyor. Ayrıntı: A2 17 Eylül güncellemesi.
 
 ---
 

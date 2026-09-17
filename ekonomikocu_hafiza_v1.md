@@ -10676,3 +10676,46 @@ Bu 7 videonun hiçbiri Koç kaynağı değildir. Her biri ayrı, bağımsız bir
 **Çelişen (analistler arası görüş ayrılığı — karıştırılmamalı):**
 - 10 Eylül PPK'da gerçek indirim olur mu: Bozkurt "evet, devam eder" / Aslanoğlu "hayır, Ekim'e kadar oturur" / Integral panel "beklemiyoruz ama 100 bp gelirse şaşırtmaz".
 - TL'nin kısa vadeli yönü: Bozkurt "hızlı devalüasyon riski, 60-65 TL yıl sonu" / Bloomberg-Tufan Cömert "Goldman'ın görüşüne katılmıyorum, TCMB duruşu sıkı kalmaya devam ediyor" / Sellcoin "avantajlı konum ama hızlı değer kaybı değil" (üçüncü, ölçülü görüş).
+
+---
+
+<!-- DIS KAYNAK TEMASI — Koc'a ait DEGIL; kaynak: 11_DIS_KAYNAKLAR.md -->
+## [DIŞ KAYNAK] TEFAS / SERBEST FON LİKİDİTE KRİZİ — YENİ TEMA (2026-09-17'de açıldı)
+
+> **Koç'un çerçevesinde BULUNMAYAN** yeni risk teması. Buradaki hiçbir tespit Koç'a atfedilmez.
+> Üç bağımsız dış kaynakla teyitli: **Cihat E. Çiçek (17 Eyl)**, **Barış Soydan (17 Eyl)**,
+> **Atilla Yeşilada (16 Eyl, önceden uyarı)**. Ortak veri: **BIST 16 Eylül -%5,54** (devre kesici)
+> ve **FİK'in 17 Eylül 08:00 acil toplantısı**.
+
+**Olay zinciri (kaynaklara göre):**
+- **Pusula Portföy** — katılma payı iadesinde temerrüt (Çiçek, Grok aktarımı).
+- **Tera Portföy** — THF hisse fonu + **TP2 para piyasası fonu**, toplam ~366 milyar TL (Çiçek, Grok aktarımı).
+- **Atlas Portföy / DFA** — %53 Işıklar Enerji; fiyatlamayı günlükten aylığa çekti, temerrüt değil önlem (Soydan).
+- **SPK %5/%20 kuralı** — 31 Ekim / 30 Kasım / 31 Aralık kademeli uyum → konsantre fonlar **zorunlu satıcı** (Soydan).
+- **Önceki uyarılar:** Emrah Lafçı 10 Eyl *"Atlas DFA — sonraki Pusula"*; Yeşilada 16 Eyl *"birkaç gün borsa işlemleri durdurulur"*.
+
+**Mekanizma riski — para piyasası fonu ↔ hisse repo (Soydan, Akın Rota aktarımı):**
+Para piyasası fonu, işbirliği içindeki şirketin fiyatı şişirilmiş hissesini **teminat alarak ters repo**
+yapar; fonlardan kaçış başlayınca teminat değersizleşir ve PPF ödeme yapamaz. Yani **risk notu 1-2
+görünen bir para piyasası fonu da bu zincirde fiilen riskli olabilir.** Yapısal koruma: fon varlıkları
+Takasbank'ta PYŞ'den ayrı saklanır; ancak mevduat sigortası gibi tutar garantisi yoktur — risk
+**gecikme + iskontolu satış zararıdır** (Çiçek, Grok aktarımı).
+
+**Ida'nın para piyasası fonu pozisyonu açısından — ⚠️ DOĞRULAMA GEREKİYOR:**
+- **Büyük banka PYŞ'leri (ör. İş Portföy) bu kaynaklarda sorunlu grupta sayılmıyor.** Adı geçen
+  kurucular: Pusula, Tera, Atlas (+ Info/Hedef tarafında gözaltı haberi).
+- **ANCAK fon kodu kurucuyu belirler, banka adı değil:** **KAP kaydına göre `TP2` = "TERA PORTFÖY
+  PARA PİYASASI (TL) FONU", kurucusu Tera Portföy Yönetimi A.Ş.** — İş Portföy değil. Çiçek'in
+  aktardığı Tera zincirinde **TP2 adıyla geçiyor.** Pozisyon İş Bankası üzerinden alınmış olsa bile
+  kurucu Tera olabilir (bankalar başka PYŞ'lerin fonlarını da aracılıkla satar).
+- **Yapılacak kontrol:** Hesap ekstresindeki fon kodu ve TEFAS/KAP'ta o kodun **kurucu** alanı.
+  Kod `TP2` ise → sorunlu grup (Tera); İş Portföy'ün kendi para piyasası fonu ise → mekanizma
+  riski genel kalır, kurucu riski bu olayda görülmedi.
+- Portföy dağılımı kontrolü: PPF'te **ters repo payı ve teminat türü** (pay/hisse repo mu, devlet
+  iç borçlanma senedi mi) — Soydan'ın anlattığı risk tam olarak burada.
+
+**İzlenecek tarihler:** 31 Ekim (SPK uyumunun ilk 1/3'ü) · Ekim FOMC · başka PYŞ'lerde
+aylık fiyatlamaya geçiş / temerrüt haberi (Çiçek senaryo 2: *"2-4 PYŞ daha"*).
+
+**Bağlantılar:** `13_KONSENSUS.md` (TEFAS krizi konsensüs kaydı) · `14_CELISKI_PANELI.md` A2
+(Yeşilada'nın "işlem yapılamaz hâle gelme" kriteri Türkiye'de fon tarafında gerçekleşti).

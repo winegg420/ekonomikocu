@@ -1,6 +1,6 @@
 # 13 — KAYNAKLAR ARASI KONSENSÜS
 
-_Güncelleme: 2026-09-17_ (**5 video — TEFAS krizi + Fed**: **1 yeni kayıt** — TEFAS/serbest fon likidite krizi (**4 kaynak, tek madde**, olay teyidi); ⚠️ **1 numaralı kayıt (Fed artırmaz) 17 Eylül'de TUTMADI adayı oldu** — karne kapatılmadığı için skorlar bu oturumda yeniden hesaplanMADI)
+_Güncelleme: 2026-09-17_ (**5 video — TEFAS krizi + Fed 25 bp**: **2 yeni kayıt** — TEFAS/serbest fon likidite krizi (3 kaynak, olay teyidi) ve Fed *"one and done"* okuması (3 kaynak, zayıf); ⚠️ **Bora Özkent %66,7 ile nötrden çıktı → geçtiği kayıtların skoru yeniden hesaplandı**; #1 Fed kaydında Özkent satırı TUTMADI)
 _Önceki: 2026-09-10/11_ (**10 video**: **4 yeni kayıt** — BTC 82-82,5 K kırılım bölgesi, Brent 2027'de 40 $, seçim sonrası TL devalüasyonu (**4 kaynak**), motorin 100 TL; Fed kaydı **9 kaynağa** çıktı ve karşısına **dağınık banka konsensüsü** notu düşüldü; TCMB yıl sonu %35 kaydına **karşı kamp** eklendi. ⚠️ **TÜM AĞIRLIKLI SKORLAR YENİDEN HESAPLANDI** — Tunç Şatıroğlu (%100) ve Sellcoin (%66,7) ilk kez nötr %50'den çıktı)
 _Önceki: 2026-09-07 (5 video: **4 yeni kayıt** — ECB 10 Eylül, gram altın 10.000 TL, TCMB yıl sonu %35, BIST 14.000 destek; altın 4.800-5.000 kaydı **4 kaynağa** çıktı; Fed ve gümüş kayıtlarına not düşüldü; **sıralama tablosu JSON'dan yeniden üretildi**)
 _Önceki: 2026-09-06 (Berk Tavsan **yeni kaynak** + Cihat E. Çiçek 6 Eylül girişi işlendi: 4 yeni kayıt, altın 4.800 kaydı 3 kaynağa çıktı)_
@@ -32,40 +32,41 @@ _Ondan önceki: 2026-09-04 (4 Eylül NFP günü: 3 yeni kayıt, 1 kayıt genişl
 
 | # | Konu | Değer aralığı | Ağırlıklı skor | Ham kaynak | Kaynaklar | İlk tespit |
 |---|---|---|---|---|---|---|
-| 1 | Fed Eylül 2026 toplantısında faiz ARTIRMAZ | 35 – 59.4 | **5,7** | (9) | Sellcoin, Emrah Lafçı & Ali Perşembe, Barış Soydan, Onur Duygu, Tunç Şatıroğlu, Berk Dinçtürk, Selçuk Geçer, Turhan Bozkurt, Bora Ozkent | 2026-08-10 |
+| 1 | Fed Eylül 2026 toplantısında faiz ARTIRMAZ | 35 – 59.4 | **5,8** | (9) | Sellcoin, Emrah Lafçı & Ali Perşembe, Barış Soydan, Onur Duygu, Tunç Şatıroğlu, Berk Dinçtürk, Selçuk Geçer, Turhan Bozkurt, Bora Ozkent | 2026-08-10 |
 | 2 | Altın kısa vade taban/biriktirme bandı (ons $) | 4000 – 4500 | **4,2** | (7) | Sellcoin, Berk Dinçtürk, Emrah Lafçı & Ali Perşembe, Baki Atılal, Cüneyt Paksoy, Tunç Şatıroğlu, Integral FX TV | 2026-08-06 |
 | 3 | Gumus yapisal YUKARI yon (Koc'un negatif okumasinin karsisindaki kamp) | — | **3,2** | (5) | Sellcoin, Tunc Satiroglu, Emrah Lafci & Ali Persembe, Berk Dincturk, Berk Tavsan | 2026-08-10 |
 | 4 | TCMB gevşeme yönü — politika faizi 40 -> 37, haftalık repoya dönüş | 37 – 40 | **3,0** | (5) | Cüneyt Paksoy, Ferhat Yükseltürk & Uraz Çay, Emrah Lafçı & Ali Perşembe, Barış Soydan, Integral FX TV | 2026-08-13 |
 | 5 | Gümüş Ağustos toparlanma bandı (ons $) | 66.0 – 67.0 | **3,0** | (4) | Şant Manukyan, Barış Soydan, Turhan Bozkurt, Erkan Öz | 2026-08-17 |
 | 6 | BIST100 kritik eşik bölgesi | 14000 – 14500 | **3,0** | (4) | Cüneyt Paksoy, Atilla Yeşilada, Tunç Şatıroğlu, Barış Soydan | 2026-08-13 |
 | 7 | ABD CPI (11 Eylul haftasi) yonu belirleyecek - 'son kayip parca' | — | **3,0** | (4) | Berk Tavsan, Selcuk Gecer, Baris Soydan, Tunc Satiroglu | 2026-09-04 |
-| 8 | ABD kamu borcu 40 trilyon $ eşiğini geçti | 40 – 42 | **2,5** | (4) | Barış Soydan, Bora Özkent, Emrah Altınocağı, Integral FX TV | 2026-08-20 |
+| 8 | ABD kamu borcu 40 trilyon $ eşiğini geçti | 40 – 42 | **2,7** | (4) | Barış Soydan, Bora Özkent, Emrah Altınocağı, Integral FX TV | 2026-08-20 |
 | 9 | Altın uzun vade hedef bandı (ons $) | 5000 – 6500 | **2,5** | (4) | Cüneyt Paksoy, Tunç Şatıroğlu, Turhan Bozkurt, Emrah Lafçı & Ali Perşembe | 2026-08-13 |
-| 10 | TEFAS/serbest fon likidite krizi gerçekleşti (Pusula/Tera temerrüdü, Atlas aylık fiyatlama, BIST -%5,54) | 5,54 (BIST günlük düşüş %) | **2,5** | (4) | Atilla Yeşilada, Bora Özkent, Cihat E. Çiçek, Barış Soydan | 2026-09-17 |
-| 11 | BTC 82.000 - 82.500 $ kirilim/direnc bolgesi | 82000 – 82500 | **2,2** | (3) | Sellcoin, Tunc Satiroglu, Berk Tavsan | 2026-09-06 |
-| 12 | Altin 4.800 - 5.000 tepki hedefi (4 Eylul) | 4800 – 5000 | **2,0** | (4) | Cüneyt Paksoy, Selçuk Geçer, Berk Tavsan, Turhan Bozkurt | 2026-09-04 |
-| 13 | Secim sonrasi TL devaluasyonu (kur secime kadar tutulur) | — | **2,0** | (4) | Turhan Bozkurt, Atilla Yesilada, Cihat E. Cicek, Erdal Saglam | 2026-08-17 |
-| 14 | ECB 10 Eylul'de faiz ARTIRIR | — | **2,0** | (3) | Selçuk Geçer, Barış Soydan, Integral FX TV | 2026-09-07 |
+| 10 | BTC 82.000 - 82.500 $ kirilim/direnc bolgesi | 82000 – 82500 | **2,2** | (3) | Sellcoin, Tunc Satiroglu, Berk Tavsan | 2026-09-06 |
+| 11 | Altin 4.800 - 5.000 tepki hedefi (4 Eylul) | 4800 – 5000 | **2,0** | (4) | Cüneyt Paksoy, Selçuk Geçer, Berk Tavsan, Turhan Bozkurt | 2026-09-04 |
+| 12 | Secim sonrasi TL devaluasyonu (kur secime kadar tutulur) | — | **2,0** | (4) | Turhan Bozkurt, Atilla Yesilada, Cihat E. Cicek, Erdal Saglam | 2026-08-17 |
+| 13 | ECB 10 Eylul'de faiz ARTIRIR | — | **2,0** | (3) | Selçuk Geçer, Barış Soydan, Integral FX TV | 2026-09-07 |
+| 14 | TEFAS/serbest fon likidite krizi (Pusula/Tera temerrudu, Atlas aylik fiyatlama, FIK acil toplanti) | 5.54 | **2,0** | (3) | Cihat E. Çiçek, Barış Soydan, Atilla Yeşilada | 2026-09-16 |
 | 15 | BTC direnç/tetik seviyesi | 67000 – 67300 | **1,7** | (3) | Sellcoin, Kemal Hiçyılmaz, Emrah Lafçı & Ali Perşembe | 2026-08-10 |
-| 16 | USDTRY yıl sonu bandı | 50 – 55 | **1,5** | (3) | Integral FX TV, Cüneyt Paksoy, Turhan Bozkurt | 2026-08-17 |
-| 17 | Gram altin 10.000 TL hedefi | 10000 | **1,5** | (3) | Turhan Bozkurt, Cihat E. Çiçek, Selçuk Geçer | 2026-08-17 |
-| 18 | Japon yen carry-trade çözülmesi = piyasanın en büyük riski | 4.05 | **1,5** | (3) | Erol Polat / Money Talks, Cihat E. Çiçek, Integral FX TV | 2026-08-18 |
-| 19 | BIST yukarı kırılım hedef bandı | 16000 – 17000 | **1,5** | (3) | Emrah Lafçı & Ali Perşembe, Integral FX TV, Cüneyt Paksoy | 2026-08-25 |
-| 20 | Fed'in yönü ŞAHİN — Eylül'de/seçim sonrası faiz ARTIRIMI | 35 – 40 | **1,5** | (3) | Integral FX TV, Erkan Öz, Emrah Lafçı & Ali Perşembe | 2026-08-25 |
-| 21 | BTC 200 günlük ortalama / alım bölgesi | 69000 – 69350 | **1,5** | (3) | Emrah Lafçı & Ali Perşembe, Erkan Öz, Kripto Teknik | 2026-08-27 |
-| 22 | Brent 2027'de 40 $ (arz fazlasi senaryosu) | 40 | **1,5** | (3) | Selcuk Gecer, Ali Persembe, Atilla Yesilada | 2026-09-07 |
-| 23 | Motorin TR'de 100 TL esigi (ardindan 150) | 100 – 150 | **1,5** | (3) | Turhan Bozkurt, Cihat E. Cicek, Selcuk Gecer | 2026-09-07 |
-| 24 | BIST 14.000 = DESTEK (direnc degil) | 14000 | **1,5** | (2) | Integral FX TV, Barış Soydan | 2026-09-07 |
-| 25 | S&P 500 kritik destek esigi | 7600 – 7670 | **1,5** | (2) | Cüneyt Paksoy, Tunç Şatıroğlu | 2026-09-04 |
-| 26 | Brent 100 $ ust sinir / esik | 100 | **1,5** | (2) | Selçuk Geçer, Tunç Şatıroğlu | 2026-09-04 |
-| 27 | MSCI / endeks çıkarma riski (BIST) | 50 | **1,0** | (2) | Atilla Yeşilada, Erol Polat / Money Talks | 2026-08-19 |
-| 28 | Gıda enflasyonu yapısal risk | — | **1,0** | (2) | Atilla Yeşilada, Fiba Bank | 2026-08-19 |
-| 29 | CLARITY Act Eylül 2026'da gündeme gelir | — | **1,0** | (2) | Berk Dinçtürk, Kemal Hiçyılmaz | 2026-08-20 |
-| 30 | US10Y alarm seviyesi | 5.0 | **1,0** | (2) | Cüneyt Paksoy, Integral FX TV | 2026-08-25 |
-| 31 | Türkiye CDS risk primi (baz puan) | 217 – 219 | **1,0** | (2) | Cüneyt Paksoy, Emrah Lafçı (solo) | 2026-08-27 |
-| 32 | Altin 4.200 stop/savunma bolgesi (ons $) | 4200 | **1,0** | (2) | Cuneyt Paksoy, Berk Tavsan | 2026-09-04 |
-| 33 | BTC 100.000 $ hedefi | 100000 | **1,0** | (2) | Cuneyt Paksoy, Berk Tavsan | 2026-09-04 |
-| 34 | TCMB yil sonu politika faizi %35 | 35 | **1,0** | (2) | Integral FX TV, Selçuk Geçer | 2026-09-07 |
+| 16 | Fed 'one and done' okumasi: 2026 sonu en fazla 1 artis daha, 2027+ artis yok | 4.1 | **1,7** | (3) | Bora Özkent, Emrah Lafçı (solo), Cihat E. Çiçek | 2026-09-17 |
+| 17 | USDTRY yıl sonu bandı | 50 – 55 | **1,5** | (3) | Integral FX TV, Cüneyt Paksoy, Turhan Bozkurt | 2026-08-17 |
+| 18 | Gram altin 10.000 TL hedefi | 10000 | **1,5** | (3) | Turhan Bozkurt, Cihat E. Çiçek, Selçuk Geçer | 2026-08-17 |
+| 19 | Japon yen carry-trade çözülmesi = piyasanın en büyük riski | 4.05 | **1,5** | (3) | Erol Polat / Money Talks, Cihat E. Çiçek, Integral FX TV | 2026-08-18 |
+| 20 | BIST yukarı kırılım hedef bandı | 16000 – 17000 | **1,5** | (3) | Emrah Lafçı & Ali Perşembe, Integral FX TV, Cüneyt Paksoy | 2026-08-25 |
+| 21 | Fed'in yönü ŞAHİN — Eylül'de/seçim sonrası faiz ARTIRIMI | 35 – 40 | **1,5** | (3) | Integral FX TV, Erkan Öz, Emrah Lafçı & Ali Perşembe | 2026-08-25 |
+| 22 | BTC 200 günlük ortalama / alım bölgesi | 69000 – 69350 | **1,5** | (3) | Emrah Lafçı & Ali Perşembe, Erkan Öz, Kripto Teknik | 2026-08-27 |
+| 23 | Brent 2027'de 40 $ (arz fazlasi senaryosu) | 40 | **1,5** | (3) | Selcuk Gecer, Ali Persembe, Atilla Yesilada | 2026-09-07 |
+| 24 | Motorin TR'de 100 TL esigi (ardindan 150) | 100 – 150 | **1,5** | (3) | Turhan Bozkurt, Cihat E. Cicek, Selcuk Gecer | 2026-09-07 |
+| 25 | BIST 14.000 = DESTEK (direnc degil) | 14000 | **1,5** | (2) | Integral FX TV, Barış Soydan | 2026-09-07 |
+| 26 | S&P 500 kritik destek esigi | 7600 – 7670 | **1,5** | (2) | Cüneyt Paksoy, Tunç Şatıroğlu | 2026-09-04 |
+| 27 | Brent 100 $ ust sinir / esik | 100 | **1,5** | (2) | Selçuk Geçer, Tunç Şatıroğlu | 2026-09-04 |
+| 28 | MSCI / endeks çıkarma riski (BIST) | 50 | **1,0** | (2) | Atilla Yeşilada, Erol Polat / Money Talks | 2026-08-19 |
+| 29 | Gıda enflasyonu yapısal risk | — | **1,0** | (2) | Atilla Yeşilada, Fiba Bank | 2026-08-19 |
+| 30 | CLARITY Act Eylül 2026'da gündeme gelir | — | **1,0** | (2) | Berk Dinçtürk, Kemal Hiçyılmaz | 2026-08-20 |
+| 31 | US10Y alarm seviyesi | 5.0 | **1,0** | (2) | Cüneyt Paksoy, Integral FX TV | 2026-08-25 |
+| 32 | Türkiye CDS risk primi (baz puan) | 217 – 219 | **1,0** | (2) | Cüneyt Paksoy, Emrah Lafçı (solo) | 2026-08-27 |
+| 33 | Altin 4.200 stop/savunma bolgesi (ons $) | 4200 | **1,0** | (2) | Cuneyt Paksoy, Berk Tavsan | 2026-09-04 |
+| 34 | BTC 100.000 $ hedefi | 100000 | **1,0** | (2) | Cuneyt Paksoy, Berk Tavsan | 2026-09-04 |
+| 35 | TCMB yil sonu politika faizi %35 | 35 | **1,0** | (2) | Integral FX TV, Selçuk Geçer | 2026-09-07 |
 
 ## KAYIT NOTLARI
 
@@ -431,37 +432,38 @@ bir isim eşlemesi, ama **doğrulanmadan yapılmamalı.**
 
 ---
 
-## 2026-09-17 OTURUMUNDA EKLENEN KAYITLAR (5 video — TEFAS krizi + 17 Eylül Fed)
+## 2026-09-17 OTURUMUNDA EKLENEN KAYITLAR (5 video — TEFAS krizi + Fed 25 bp)
 
-### Yeni kayıt — TEFAS/serbest fon likidite krizi gerçekleşti (4 kaynak, TEK madde)
-**Kaynaklar:** Atilla Yeşilada · Bora Özkent · Cihat E. Çiçek · Barış Soydan.
-Ağırlıklı skor **2,5** = 4 × (Soydan %100 + üç nötr %50) / 4.
+### ⚠️ ÖNCE: Bora Özkent nötrden çıktı — skorlar yeniden hesaplandı
+Özkent 17 Eylül'de 3. kapanmış iddiasına ulaştı (2 TUTTU · 1 TUTMADI → **%66,7**). Geçtiği kayıtlar:
+- **Fed Eylül 2026 toplantısında faiz ARTIRMAZ** — 5,7 → **5,8**
+- **ABD kamu borcu 40 trilyon $ eşiğini geçti** — 2,5 → **2,7**
 
-Dört kaynak **aynı olayı farklı açılardan** doğruluyor; bu yüzden 4 ayrı madde değil
-**tek kayıt** olarak işlendi:
-- **Çiçek (17 Eyl):** Pusula/Tera Portföy temerrüdü · Atlas Portföy aylık fiyatlamaya geçti ·
-  FİK acil toplantı · **BIST -%5,54**, 120 hisse devre kesti · TL 2Y %41-42, 10Y %32-33.
-- **Soydan (16-17 Eyl):** Atlas DFA'da **Işıklar Enerji %53** · SPK **%5/%20** uyum takvimi
-  (31 Eki / 30 Kas / 31 Ara) · para piyasası fonu ↔ hisse repo mekanizması · **BIST -%5,54**.
-- **Yeşilada (16-17 Eyl):** *"BIST birkaç gün kapanabilir"* öngörüsü — kullanıcı teyidiyle gerçekleşti.
-- **Özkent (17 Eyl):** aynı günün makro zemini — Fed **25 bp artırım** (%3,75-4,00, 12-0).
+### Yeni kayıt 1 — TEFAS/serbest fon likidite krizi (3 kaynak, olay teyidi)
+**Çiçek + Soydan + Yeşilada** — üç bağımsız kaynak. Ortak veri: **BIST 16 Eylül -%5,54** (devre kesici)
+ve **FİK'in 17 Eylül acil toplantısı**. Yeşilada olaydan **önce** *"birkaç gün borsa işlemleri durdurulur"*
+dedi (karnede TUTTU); Çiçek zinciri (Pusula/Tera/Atlas), Soydan mekanizmayı (Atlas DFA %53 Işıklar Enerji,
+SPK %5/%20 takvimi, PPF-hisse repo) veriyor.
+⚠️ **Tahmin değil olay teyidi** — öngörü isabeti ölçmez. Değer (5,54) BIST günlük düşüş yüzdesi, seviye
+değil → `onemli_seviyeler.json`'a aday **değil**. Tema notu: `11_DIS_KAYNAKLAR.md` sonu.
 
-⚠️ **Bu bir tahmin konsensüsü değil, OLAY teyidi.** 10-11 Eylül oturumunda Lafçı/Bozkurt'un
-fon olayları tam bu gerekçeyle konsensüse alınmamıştı; bu kayıt kullanıcı isteğiyle istisna
-olarak açıldı ve **öngörü isabeti ölçmez**. Olayın öncüsü: Lafçı 10 Eyl *"Atlas DFA — sonraki Pusula"*.
-Değer aralığı (5,54) BIST günlük düşüş yüzdesidir, seviye değil → `magicma/onemli_seviyeler.json`'a
-**aday DEĞİL**.
+### Yeni kayıt 2 — Fed "one and done" (3 kaynak, ⚠️ zayıf bağımsızlık)
+**Özkent + Lafçı (FOMC metni) + Çiçek.** 2026 sonu en fazla 1 artış daha, 2027+ artış yok; medyan fonlama
+oranı projeksiyonu **%4,1**. ⚠️ Bağımsız yorum taşıyan **tek kaynak Özkent**: Lafçı'nınki FOMC basın
+toplantısının ham çevirisi (birincil metin), Çiçek ise kararı aktarıp **tersini savunuyor** (*"0,25 deva
+olmaz, 50-60 bp gerekir"*). Ölçüm: **Ekim ve Aralık FOMC.**
 
 ### Mevcut kayıtlara eklenenler
-- **#1 Fed Eylül'de faiz ARTIRMAZ (9 kaynak) — 17 Eylül: Fed 25 bp ARTIRDI.** Kaynak: FOMC basın
-  toplantısı (Lafçı aktarımı), Özkent teyidi. Kayıt **toplu TUTMADI adayı**; karne satırları
-  `11_DIS_KAYNAKLAR.md`'de henüz kapatılmadığı için **skor ve sıra bu oturumda değişmedi.**
-  Kapatıldığında 9 kaynağın isabeti ve **tüm ağırlıklı skorlar** yeniden hesaplanmalı; karşı kamp
-  (#20 *"Fed ŞAHİN"*) aynı anda TUTTU adayı. Bkz. `12_KAYNAK_PERFORMANS.md` "17 Eylül sonrası iş listesi".
-- **CLARITY Act Eylül 2026'da gündeme gelir (Dinçtürk + 1)** — Yeşilada'ya göre yasa **Senato'da
-  reddedildi**: gündeme geldi (iddia bu hâliyle TUTTU adayı) ama sonucu olumsuz. Kaynak sayısı değişmedi.
+- **#Fed Eylül'de faiz ARTIRMAZ** — 17 Eylül: Fed **25 bp artırdı**. **Özkent satırı TUTMADI olarak
+  kapatıldı** (kaynak kendisi kabul ediyor). Kalan 8 kaynağın satırları henüz kapatılmadı → **toplu TUTMADI
+  adayı**; kapatıldıklarında isabet oranları ve tüm skorlar yeniden hesaplanmalı. Karşı kamp (*"Fed ŞAHİN"*)
+  TUTTU adayı.
+- **CLARITY Act Eylül 2026'da gündeme gelir** — Yeşilada 16 Eyl: yasa **Senato'da reddedildi**; gündeme
+  geldi (iddia bu hâliyle TUTTU adayı), sonucu olumsuz. Kaynak sayısı değişmedi.
 
 ### Bu oturumda konsensüse ALINMAYANLAR (gerekçeli)
-- **Altın 4.296-4.350 (Çiçek / Soydan)** — iki kaynak aynı günün **anlık fiyatını** aktarıyor, seviye iddiası değil.
-- **Yeşilada "4.300-4.500 dar bant"** — girdide BTC'ye bağlı, ölçek uyuşmuyor; **teyit bekliyor.**
+- **Altın $4.296-4.350 (Çiçek / Soydan)** — aynı günün anlık fiyat aktarımı, seviye iddiası değil.
+- **Altın $4.800 / $5.000 eşikleri (Yeşilada)** — tek kaynak; 13 #"Altın 4.800-5.000 tepki hedefi" kaydıyla
+  sayısal örtüşüyor ama Yeşilada bunu **hedef değil kırılma şartı** olarak veriyor (zıt yorum) → eklenmedi.
+- **Yeşilada "BTC 4.300-4.500"** — ölçek BTC fiyatıyla uyuşmuyor, teyit bekliyor.
 - **Koç tetiği (Çin-ABD anlaşması)** — bu videolarda doğrulanmadı; `magicma/koc_tetigi_durum.json` değiştirilmedi.
