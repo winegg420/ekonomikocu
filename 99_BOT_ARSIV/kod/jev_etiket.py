@@ -108,6 +108,28 @@ def jsonl_oku(yol):
     return kayitlar
 
 
+def durum_hesapla(k):
+    olas = k.get("urun_olasilik") or {}
+    urun_var = any(v >= 0.5 for v in olas.values())
+    zaman_g = k.get("zaman_g") or 0.0
+    aday = k.get("zaman") == "beklenti" or (zaman_g < ESIK["zaman"] and urun_var)
+    if not aday:
+        k["durum"], k["nedenler"] = "cagri_degil", []
+        return k
+    n = []
+    if (k.get("atif_g") or 0.0) < ESIK["atif"]:
+        n.append("atif")
+    if zaman_g < ESIK["zaman"]:
+        n.append("zaman")
+    if k.get("zaman") == "beklenti" and (k.get("yon_g") or 0.0) < ESIK["yon"]:
+        n.append("yon")
+    if any(0.5 <= v < ESIK["urun"] for v in olas.values()):
+        n.append("urun")
+    k["durum"] = "kontrol" if n else "otomatik"
+    k["nedenler"] = n
+    return k
+
+
 def degerlendir(r, yanit):
     c = yanit.get("answers", {})
     def sec(alan):
@@ -117,41 +139,32 @@ def degerlendir(r, yanit):
     atif, atif_g = sec("atif")
     zaman, zaman_g = sec("zaman")
     yon, yon_g = sec("yon")
+    if zaman != "beklenti":
+        yon, yon_g = None, None
     olas = {}
     for p in URUNLER:
         v = c.get(p, {}).get("noul")
         olas[p] = round(v, 2) if isinstance(v, (int, float)) else 0.0
-    nedenler = []
-    if atif_g < ESIK["atif"]:
-        nedenler.append("atif")
-    if zaman_g < ESIK["zaman"]:
-        nedenler.append("zaman")
-    if zaman == "beklenti":
-        if yon_g < ESIK["yon"]:
-            nedenler.append("yon")
-    else:
-        yon, yon_g = None, None
-    if any(0.5 <= v < ESIK["urun"] for v in olas.values()):
-        nedenler.append("urun")
-    return {
+    kayit = {
         "tweet_id": r.get("tweet_id"), "datetime": r.get("datetime"), "model": yanit.get("model", MODEL),
         "atif": atif, "atif_g": atif_g, "zaman": zaman, "zaman_g": zaman_g, "yon": yon, "yon_g": yon_g,
         "urun": [p for p, v in olas.items() if v >= 0.5], "urun_olasilik": olas,
-        "durum": "kontrol" if nedenler else "otomatik", "nedenler": nedenler,
         "etiket_tarihi": datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
     }
+    return durum_hesapla(kayit)
 
 
 def kuyruk_yaz(metinler):
     try:
         etiketler = jsonl_oku(CIKTI)
         oto = sum(1 for e in etiketler if e.get("durum") == "otomatik")
+        degil = sum(1 for e in etiketler if e.get("durum") == "cagri_degil")
         kontrol = [e for e in etiketler if e.get("durum") == "kontrol"]
         kontrol.sort(key=lambda e: e.get("datetime") or "", reverse=True)
         satirlar = [
             "# JEV KONTROL KUYRUĞU (otomatik üretilir, elle düzenleme)",
             "",
-            f"Model: {MODEL} | Toplam: {len(etiketler)} | Otomatik: {oto} | Kontrol: {len(kontrol)}",
+            f"Model: {MODEL} | Toplam: {len(etiketler)} | Otomatik: {oto} | Çağrı değil: {degil} | Kontrol: {len(kontrol)}",
             f"Eşikler: {ESIK} | Son güncelleme: {datetime.now().strftime('%Y-%m-%d %H:%M')}",
             "",
             "Hakemleme Claude sohbetinde yapılır. Aşağıda en yeni 100 kontrol kaydı:",
@@ -173,6 +186,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--max", type=int, default=200, help="bu calismada en fazla kac tweet etiketlensin")
     ap.add_argument("--uyku", type=float, default=0.2)
+    ap.add_argument("--yeniden", action="store_true", help="API cagirmadan kayitli skorlardan durumu yeniden hesapla")
     args = ap.parse_args()
 
     anahtar = anahtar_oku()
@@ -185,6 +199,19 @@ def main():
         print(f"[jev] cekilen_tweetler.jsonl okunamadi: {ex}", flush=True)
         return 0
     metinler = {r.get("tweet_id"): r.get("text", "") for r in kaynak}
+    if args.yeniden:
+        try:
+            etiketler = [durum_hesapla(e) for e in jsonl_oku(CIKTI)]
+            gecici = CIKTI.with_suffix(".jsonl.tmp")
+            with open(gecici, "w", encoding="utf-8") as f:
+                for e in etiketler:
+                    f.write(json.dumps(e, ensure_ascii=False) + "\n")
+            gecici.replace(CIKTI)
+            print(f"[jev] yeniden degerlendirildi: {len(etiketler)} kayit", flush=True)
+        except Exception as ex:
+            print(f"[jev] yeniden degerlendirme hatasi: {ex}", flush=True)
+        kuyruk_yaz(metinler)
+        return 0
     etiketli = {e.get("tweet_id") for e in jsonl_oku(CIKTI)}
     bekleyen = [r for r in kaynak
                 if r.get("tweet_id") and r.get("tweet_id") not in etiketli
@@ -226,7 +253,7 @@ def main():
             n += 1
             if kayit["durum"] == "otomatik":
                 oto += 1
-            else:
+            elif kayit["durum"] == "kontrol":
                 kontrol += 1
             if n % 100 == 0:
                 print(f"[jev] {n}/{len(bekleyen)} ...", flush=True)
