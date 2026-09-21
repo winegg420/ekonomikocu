@@ -55,3 +55,5 @@ magicma/karne_son_ozet.json
 # Gunluk ozet / Koc tetigi yerel gonderim damgalari
 magicma/gunluk_ozet_son_gonderim.json
 magicma/koc_tetigi_son_durum.json
+/jev_*.py
+/jev_sonuc_*.jsonl

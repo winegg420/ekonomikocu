@@ -215,6 +215,11 @@ def main() -> int:
             subprocess.run([PY, str(KOD / "analiz_devam.py")], cwd=str(ROOT), check=False)
         except Exception as e:
             print(f"[analiz] analiz_devam.py hatasi: {e}", flush=True)
+        try:
+            subprocess.run([PY, str(KOD / "jev_etiket.py"), "--max", "300"],
+                           cwd=str(ROOT), check=False, timeout=1800)
+        except Exception as e:
+            print(f"[jev] jev_etiket.py hatasi: {e}", flush=True)
         for _script in ("claude_paket_olustur.py", "kapsam_durum.py"):
             try:
                 subprocess.run([PY, str(KOD / _script)], cwd=str(ROOT), check=False)
