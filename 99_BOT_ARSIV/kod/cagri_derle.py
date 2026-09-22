@@ -49,11 +49,16 @@ def _yil_eki(k):
 def main():
     ana_metin = {r.get("tweet_id"): (r.get("text") or "") for r in oku("cekilen_tweetler.jsonl")}
     abone_metin = {r.get("tweet_id"): (r.get("text") or "") for r in oku("07_ABONE_TWEETLER.jsonl")}
+    abone_id_kumesi = set(abone_metin.keys())
     cagrilar, hakem = [], []
     ana_etiket = oku("jev_etiketler.jsonl")
     abone_etiket = oku("jev_abone_etiketler.jsonl")
 
     for e in ana_etiket:
+        # Abone arsivinde de olan tweet'in siniflandirmasi abone dongusunden gelir:
+        # ana akis siniflandiricisi Koc/abone ayrimi icin tasarlanmadi.
+        if e.get("tweet_id") in abone_id_kumesi:
+            continue
         metin = ana_metin.get(e.get("tweet_id"), "")
         sev, sev_supheli = seviyeler(metin)
         if e.get("zaman") != "beklenti" or not e.get("urun") or not sev:
@@ -88,34 +93,6 @@ def main():
             kayit["nedenler"] = e.get("nedenler", [])
             hakem.append(kayit)
 
-    # Ana ve abone arsivi ortusuyor: ayni tweet iki akistan geldiyse yalnizca
-    # "ana" kaydi kalir (atif/zaman/yon alanlari daha zengin).
-    ana_idler = {c["tweet_id"] for c in cagrilar if c["akis"] == "ana"}
-    tekil, gorulen = [], set()
-    for c in cagrilar:
-        if c["akis"] == "abone" and c["tweet_id"] in ana_idler:
-            continue
-        if c["tweet_id"] in gorulen:
-            continue
-        gorulen.add(c["tweet_id"])
-        tekil.append(c)
-    cagrilar = tekil
-
-    # Iki arsivde ortak tweet'lerde ana "atif" ile abone "yazar" koc olup olmamada celisiyor mu?
-    ana_e = {e.get("tweet_id"): e for e in ana_etiket}
-    abone_e = {e.get("tweet_id"): e for e in abone_etiket}
-    celiski = []
-    for tid in set(ana_metin) & set(abone_metin):
-        a, b = ana_e.get(tid), abone_e.get(tid)
-        if not a or not b:
-            continue
-        if (a.get("atif") == "koc") != (b.get("yazar") == "koc"):
-            celiski.append({"tweet_id": tid, "datetime": a.get("datetime") or b.get("datetime"),
-                            "atif": a.get("atif"), "atif_g": a.get("atif_g"),
-                            "yazar": b.get("yazar"), "yazar_g": b.get("yazar_g"),
-                            "metin": ana_metin.get(tid) or abone_metin.get(tid) or ""})
-    celiski.sort(key=lambda k: k.get("datetime") or "", reverse=True)
-
     cagrilar.sort(key=lambda k: k.get("datetime") or "", reverse=True)
     with open(ROOT / "cagrilar_v2.jsonl", "w", encoding="utf-8") as f:
         for k in cagrilar:
@@ -146,15 +123,12 @@ def main():
         L.append(f"- `{o['tweet_id']}` {str(o['datetime'])[:10]} | yazar_g={o['yazar_g']} | "
                  f"urun={','.join(o['urun'])} | sev={','.join(o['seviyeler'])}{_yil_eki(o)} | "
                  f"{o['metin'][:160].replace(chr(10), ' ')}")
-    L += ["", "## 4) CAPRAZ AKIS CELISKI (oncelikli hakem)", "",
-          f"Iki arsivde ortak olup ana atif ile abone yazar 'koc' konusunda celisen: {len(celiski)}", ""]
-    for c in celiski:
-        L.append(f"- `{c['tweet_id']}` {str(c['datetime'])[:10]} | ana_atif={c['atif']}({c['atif_g']}) | "
-                 f"abone_yazar={c['yazar']}({c['yazar_g']}) | {c['metin'][:160].replace(chr(10), ' ')}")
+    L += ["", "Not: Ortak tweet'lerde sadece abone siniflandirmasi kullanildi (ana akis siniflandiricisi "
+          "koc/abone ayrimi icin tasarlanmadigi icin guvenilmez bulundu, bkz. PROGRESS.md)."]
     (ROOT / "CAGRI_HAKEM.md").write_text("\n".join(L) + "\n", encoding="utf-8")
 
     print(f"cagrilar_v2: {len(cagrilar)} (ana {len(cagrilar)-len(abone_oto)}, abone {len(abone_oto)})")
-    print(f"hakem: ana {len(ana_h)}, abone {len(abone_h)} | ornek: {len(ornek)} | capraz celiski: {len(celiski)}")
+    print(f"hakem: ana {len(ana_h)}, abone {len(abone_h)} | ornek: {len(ornek)}")
     return 0
 
 if __name__ == "__main__":

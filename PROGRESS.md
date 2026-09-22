@@ -4439,3 +4439,10 @@ bilmiyordu. Toplu degerlendirme islerinin Claude token'i yerine Jev'e gitmesi ic
 - MagicMA (MAGICMA_HARIC_LISTE=gunun_hareketlileri.txt): 435 sembolun 432'si okundu. Yeni semboller EURTRY, GBPTRY, ETHTRY, ETHEUR, AVAXTRY, TOTAL2, OTHERS.D okundu.
 - ETHGBP kapsamdan cikarildi: Binance ETHGBP olu piyasa (bid/ask 0, fiyat bayat 1974 vs Coinbase 2066), fiyat_kontrol'de Coinbase adaptoru yok. README ALARM KAPSAMI DISI'na yazildi; onemli_seviyeler 494.
 - magicma_gozetmen.py: tarama Chrome'u ekran disi yerine SIMGE DURUMUNA kucultulur (kullanici istegi: one firlamasin, istedigi an gorev cubugundan acabilsin). Kucultulmusken okuma dogrulandi.
+
+
+## 2026-09-22 (gece) — Jev'den temiz cagri listesi (cagrilar_v2) + abone akisi kararlari
+- `cagri_derle.py`: Jev etiketlerinden `cagrilar_v2.jsonl` + `CAGRI_HAKEM.md`. Eski regex tabanli `cagrilar.jsonl`'ye dokunulmaz. Yil rakamlari (1990-2035) seviye sayilmaz, `seviye_supheli` alanina gider.
+- `jev_abone_etiket.py`: 3434 abone metni etiketlendi; Koc uslup ipucu + yazar esigi 0.70; "dedi/diyor/yaziyor" aktarim izi varsa yazar=koc olsa da `atif_supheli` ile kontrole duser.
+- **Karar: iki arsivde (cekilen_tweetler + 07_ABONE) ortak tweet'lerde SADECE abone siniflandirmasi kullanilir.** Neden: capraz karsilastirmada 718 celiski cikti; 416'sinda ana akis "koc", abone akisi "abone" diyordu (orn. "Koç peki buradan sonra..." ana akista koc 0,71). Ana akis siniflandiricisi (atif sorusu) Koc'un kendi hesabi varsayimiyla yazildi, aboneyi Koc'a hitap ederken ayirt edemiyor. Abone siniflandiricisi bu ayrim icin ozel talimatli.
+- Sonuc: cagrilar_v2 405 (ana 168, abone 237), hakem ana 39 / abone 104, tekrarli tweet_id 0.
