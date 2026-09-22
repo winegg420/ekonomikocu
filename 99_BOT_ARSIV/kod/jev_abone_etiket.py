@@ -22,10 +22,16 @@ CIKTI = ROOT / "jev_abone_etiketler.jsonl"
 KUYRUK = ROOT / "JEV_ABONE_KUYRUK.md"
 MODEL = "jev-1.13.0"
 URL = "https://api.typesafe.ai/v1/systemone"
-ESIK = {"yazar": 0.85, "urun": 0.80}
+ESIK = {"yazar": 0.70, "urun": 0.80}
 
-BAGLAM = ("Bağlam: Bu metin @ekonomikocu'nun abonelere özel akışından. Bu akışta hem Koç "
-          "(analist) hem de aboneleri yazar.")
+BAGLAM = ("Bağlam: Bu metin @ekonomikocu'nun abonelere özel akışından. Bu akışta hem Koç (analist) hem "
+          "de aboneleri yazar.\n"
+          "Koç'un üslubu: kendine has terimler kullanır — 'robot' (fiyatın kilitlendiği seviye), "
+          "'gap/gaplı', '#pozitif', 'üstü alış altı satış', 'kurdular/koydular/bekletirler' (piyasayı "
+          "yönetenleri kastederek). Ürünleri hashtag ile yazar (#btcusd, #ALTIN, #GBPUSD). Seviye verir, "
+          "soru sormaz, kimseye hitap etmez.\n"
+          "Abonenin üslubu: Koç'a hitap eder ('Koç', 'hocam'), soru sorar, görüş ister, teşekkür eder, "
+          "kendi pozisyonunu anlatır.")
 
 SORULAR = {
     "yazar": {"type": "choice", "instructions": "Bu metni kim yazmış?", "criteria": {
