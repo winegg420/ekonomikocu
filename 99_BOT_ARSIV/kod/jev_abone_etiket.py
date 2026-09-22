@@ -6,7 +6,7 @@
 - Seviye/cagri iceren ama yazari belirsiz kayitlar durum=kontrol olur, JEV_ABONE_KUYRUK.md'ye yazilir.
 - Tarama hattina bagli DEGIL; elle calistirilir. Anahtar yoksa / API hatasinda 0 ile cikar."""
 from __future__ import annotations
-import argparse, json, os, sys, time, urllib.request, urllib.error
+import argparse, json, os, re, sys, time, urllib.request, urllib.error
 from datetime import datetime
 from pathlib import Path
 
@@ -23,6 +23,7 @@ KUYRUK = ROOT / "JEV_ABONE_KUYRUK.md"
 MODEL = "jev-1.13.0"
 URL = "https://api.typesafe.ai/v1/systemone"
 ESIK = {"yazar": 0.70, "urun": 0.80}
+AKTARIM_IZI = re.compile(r"\b(dedi|demiş|demis|diyor|yazıyor|yaziyor|yazmış|yazmis|paylaş|paylas|söylemiş|soylemis|iddia)", re.IGNORECASE)
 
 BAGLAM = ("Bağlam: Bu metin @ekonomikocu'nun abonelere özel akışından. Bu akışta hem Koç (analist) hem "
           "de aboneleri yazar.\n"
@@ -109,13 +110,16 @@ def jsonl_oku(yol):
     return kayitlar
 
 
-def durum_hesapla(k):
+def durum_hesapla(k, metin=""):
     olas = k.get("urun_olasilik") or {}
     k["urun"] = [p for p, v in olas.items() if v >= ESIK["urun"]]
     if k.get("icerik") != "seviye_cagri":
         k["durum"], k["nedenler"] = "onemsiz", []
     elif (k.get("yazar_g") or 0.0) < ESIK["yazar"]:
         k["durum"], k["nedenler"] = "kontrol", ["yazar"]
+    elif k.get("yazar") == "koc" and AKTARIM_IZI.search(metin or ""):
+        # Guven yuksek olsa da "... dedi/diyor" gibi ucuncu sahis alintisi olabilir.
+        k["durum"], k["nedenler"] = "kontrol", ["atif_supheli"]
     else:
         k["durum"], k["nedenler"] = "otomatik", []
     return k
@@ -139,7 +143,7 @@ def degerlendir(r, yanit):
         "urun": [], "urun_olasilik": olas,
         "etiket_tarihi": datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
     }
-    return durum_hesapla(kayit)
+    return durum_hesapla(kayit, r.get("text") or "")
 
 
 def kuyruk_yaz(metinler):
@@ -189,7 +193,7 @@ def main():
     metinler = {r.get("tweet_id"): r.get("text", "") for r in kaynak}
     if args.yeniden:
         try:
-            etiketler = [durum_hesapla(e) for e in jsonl_oku(CIKTI)]
+            etiketler = [durum_hesapla(e, metinler.get(e.get("tweet_id"), "")) for e in jsonl_oku(CIKTI)]
             gecici = CIKTI.with_suffix(".jsonl.tmp")
             with open(gecici, "w", encoding="utf-8") as f:
                 for e in etiketler:

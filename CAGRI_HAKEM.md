@@ -1,7 +1,7 @@
 # CAGRI HAKEM DOSYASI (otomatik uretilir)
 
-Temiz cagri: 528 (ana 261, abone 267)
-Hakem bekleyen: ana 66, abone 74
+Temiz cagri: 432 (ana 261, abone 171)
+Hakem bekleyen: ana 66, abone 104
 
 ## 1) ANA AKIS — hakem bekleyen
 
@@ -77,26 +77,40 @@ Hakem bekleyen: ana 66, abone 74
 - `2078958860904390768` 2026-07-20 | yazar=koc(0.2) | urun=altin | sev=7800 | Misal; adamın birisi sosyal medya şöyle paylaşımlar yapıyor.  #Gramaltın 13 bin lira görecek.  Adamı yerden yere vuruyorlar. Halbuki bu adam #yıllar içinde hakl
 - `2078162077428936970` 2026-07-17 | yazar=koc(0.24) | urun=eth | sev=1936 | #ETHUSD 1936 ya kafa attı. Ben aslında bu seviyeyi görmemiştim.  Birisi #ETH sordu bakarken son anda gördüm.
 - `2076623257386500180` 2026-07-13 | yazar=koc(0.63) | urun=altin | sev=4376 | #XAUUSD bazında ise bu değer 4376 dır.  Önemini unutmadık değil mi ? Trendin altında tutup psikolojik yoruyorlar.
+- `2075333345567813961` 2026-07-10 | yazar=koc(1.0) | urun=btc | sev=64.600 | #BTCUSD 64.600 değerine değip duruldu. Önemini yazmıştım.  Verdiğim rakamlar #kanun gibi davranıyor.
 - `2069348361325457417` 2026-06-23 | yazar=koc(0.64) | urun=nasdaq_abd | sev=1200,30600 | #Nasdaq 1200 puan düşmüş  ABD İran anlaşması demelerine rağmen..  Pozitif haber bile artık sat  oluyor..  Neden ?  Negatif havada bile yukarı sürdükleri için.. 
+- `2068079137667858912` 2026-06-20 | yazar=koc(0.77) | urun=btc,dxy | sev=1.60 | Tablo böyle olunca ne olacaktı ? Tepedekiler satış, herkes ucuz #dolara koşacaktı..  Zaten herkes #DXY ne dönünce, enflasyon durulurdu.  Düşün bende #GBP var ve
+- `2068077226814328971` 2026-06-20 | yazar=koc(0.98) | urun=btc,dxy | sev=1.60,1.30 | yil?=2024 | Bakın net yazıyorum. 2024 başında koltukta TRUMP olsaydı şu an #GBP 1.60 idi.  #EUR 1.30   #btc yukarıda #coinler yukarıda #ALTIN yukarıda...  Bir tek #DXY ucuz
+- `2068060463443689559` 2026-06-19 | yazar=koc(0.78) | urun=altin,diger | sev=5600,2700,4500,1.25,1.30 | yil?=2025 | FED çıkmış bugün hala #faiz diyor. Kafayı yemişler.  2025 de faiz indirse, yine işler buraya gelmezdi.  #ALTIN 5600 gördü.  2025 başında 2700 dolardı. Sen indir
+- `2067687028838306262` 2026-06-18 | yazar=koc(0.83) | urun=eth | sev=4700 | yil?=2024 | Ben zaman vermedim.  İzleyip göreceğiz.  2024 de #ETH 4700 e gider dedim adamlar bir sene sonra yaptılar.
+- `2067641280620834956` 2026-06-18 | yazar=koc(0.92) | urun=dxy | sev=95.7 | @Haincostoc1 @cllatalay @simslatif @enternasyonalzm #DXY geçen sene dip görmüş 95.7, orada desen ki, #dolar ucuz onda kal.  Adamlar #gümüşü gazlıyor birisi çıkı
 - `2067565940833685930` 2026-06-18 | yazar=koc(0.68) | urun=altin | sev=5000,5100,5200,5300,5400,5500,5600 | #ALTIN yükseliyor  5000 5100 5200 5300 5400 5500 5600 oluyor ve  birileri hala doymuyor.  Ve hala #taviz istiyorlar.  FED bunu nasıl verecek ?
 - `2067388088280645969` 2026-06-18 | yazar=koc(0.64) | urun= | sev=1.406 | @ncdtergn10 @eb07777 @HowitzerTR @cllatalay #CAD   1.4060 dedi..  Şunu takip edip dönüşünü almaya çalışayım.
+- `2067342501036298259` 2026-06-17 | yazar=koc(0.94) | urun=nasdaq_abd | sev=30600 | #DOW 54 K ya götürebilir dedik bugün 53 K gördü.  #NASDAQ 30600 dedik gördü. Tüm dünya bu dolar bolluğundan faydalansaydı Yazık değil mi ?  #emtia deyip kapris 
+- `2067202167014866981` 2026-06-17 | yazar=koc(0.99) | urun=altin | sev=4376 | #XAUUSD   4376 dan düşürüyorlar. Önemini çok anlattım...  Tekrar oraya döndürüyorlar ve FED e kadar geliyorlar. Araya da #nato görüşmesi diyorlar.  Demek ki bu 
 - `2067193631115542582` 2026-06-17 | yazar=koc(0.68) | urun= | sev=1060 | Zaman geçirdikleri için, grafik bozulmuş. O değer görünmüyor.  Ama kesişim vardı, tam 1060 denk geliyordu.
 - `2067190654074007889` 2026-06-17 | yazar=abone(0.1) | urun= | sev=3300 | @FerhatTasova @mersalihkoc @Haincostoc1 @ibrahimbasak21 Böyle kaç tane twet bulurum. 3300 ün altı dayak zaman kaybı..
+- `2067182104652161398` 2026-06-17 | yazar=koc(0.87) | urun=btc,eth | sev=2570 | Ben insanlara samimi geliyorum. Arada çürükler çıkıyor can sıkıyorlar. Bu sefer ben geri dururum.  Rakamları paylaşıyorum. #eth 2570 aşılmadan piyasa genel resi
 - `2066967033917436058` 2026-06-16 | yazar=koc(0.16) | urun= | sev=30400 | @simslatif Vadeli de işte şu an fiyat 30400  Orada birisi satarsa ! Mal burada kısada destektedir sektiği an vadeli de millet patlıyor.
+- `2066961742874153403` 2026-06-16 | yazar=koc(0.87) | urun=nasdaq_abd | sev=30600,30350 | Adam vadeliye giriyor #nasdaq 30600 satıyor, yüksek diyor.   Halbuki normal piyasa değeri o an, 30350 fiyat aşağıdadır.  200 300 puan aşağıda tutarlar. Normal p
+- `2066506834454663582` 2026-06-15 | yazar=koc(0.96) | urun= | sev=140.6 | #GOLDGR 140.6   Bir flood içinde yazmıştım #temmuz ayına kadar vakti var demiştim.   Düşürüp oraya döndürdüler.
 - `2066489753432723705` 2026-06-15 | yazar=koc(0.64) | urun= | sev=30600 | Peki neden ekstra baskılıyorlar ?  Eğer ki #Haziran ayında hacim istemiyorlarsa, ve bu ayı zaman olarak boş geçmek istiyorlarsa, ayın ilk 15 günü malları #ekstr
 - `2066472729587396650` 2026-06-15 | yazar=koc(0.36) | urun= | sev=27.600 | Gerekli açıklamayı net şekilde yaptım. Zaten grafiğin içinde de yazıyor.  Satıştan kastın nedir ?  Sert bir satış mı ?  27.600'ün altında kalıcılık olursa böyle
 - `2066282633416392933` 2026-06-15 | yazar=koc(0.21) | urun= | sev=1.162 | #EUR 1.1620 oldu. Aldık mı ?   Ben aldım.
+- `2066266998900695243` 2026-06-15 | yazar=koc(0.76) | urun= | sev=4090 | yil?=2022,2025 | @HowitzerTR @Flytnurse70 2022 de 4090 aşılmadan bu iş olmaz diyorum, ve 3 4 yılda iki kere oradan RED yiyor.  Bir kere orayı aşıyor ! O da TRUMP #barış dediği a
 - `2065543105319707091` 2026-06-13 | yazar=koc(0.58) | urun=altin,nasdaq_abd | sev=5700 | #gram ALTIN   ABD #EMTİA  tarafını baskıladı bu 5700 doğru düştü...   #sp500 niçin düşmüyor ?  Orayı kolluyorlar.
 - `2065539413623332932` 2026-06-12 | yazar=koc(0.64) | urun=altin | sev=5600 | İş zaten bir süre sonra ona gider.  Dedim ya ABD kendi göbeğini kesiyor.  Barışta geç kaldılar.  ALTIN 5600 gördü ve ekonomik baskı ile düşürüldü..  Faturası AB
 - `2065529781488156844` 2026-06-12 | yazar=koc(0.47) | urun= | sev=29200 | @HAKAN5977394672 @ozgurdenizsu @HowitzerTR @cllatalay @Traderkripto12 En düşükte gün içi 29200  Anlamı nedir ?   9.2 öğretisi.
 - `2065529353148989706` 2026-06-12 | yazar=koc(0.64) | urun= | sev=29700 | @HAKAN5977394672 @ozgurdenizsu @HowitzerTR @cllatalay @Traderkripto12 29700 kritik bir rakam.  Hafta sonu dünyada bir olay olsa, mal gapli aşağı açılsa !  İstes
 - `2065523920959058107` 2026-06-12 | yazar=koc(0.5) | urun=altin | sev=5600 | Neden demez ?  #ALTIN 5600 gördü..  Barış gelse #altın düşse borsalar ALTIN bazlı pahalı hale gelecektir.  Yani ABD #EMTİA kanadını ekonomik baskı ile düşürmek 
 - `2065516050741956949` 2026-06-12 | yazar=belirsiz(0.28) | urun= | sev=110.6 | @ozgurdenizsu @BaturBaRLaS @btchasreti2023 @HAKAN5977394672 @HowitzerTR @cllatalay @Traderkripto12 110.6...
+- `2065461443433038315` 2026-06-12 | yazar=koc(0.95) | urun= | sev=0.60 | yil?=2020 | Bu tek çizgi, 2020 boğasının başladığı çizgidir.  Ne zaman üstüne çıksa, mal yükselmiştir.  0.60 altında kalınca, belini bükmüşler.  Ben öğretiler de ne dedim ?
 - `2065367618148606297` 2026-06-12 | yazar=abone(0.41) | urun=altin | sev=2600 | @VahideYorgan @Omrshn191 @economybors35 Altın 2600 dolar çıkacak,  hiç bir ülke kuru büyük bir oynaklığa gebe kalmayacak,  Faizler stabil  Borsalar negatif etki
 - `2065165721076720109` 2026-06-11 | yazar=koc(0.57) | urun=dxy | sev=1.25,1.27,1.30 | Adamlar kanımca diyor ki; şu barışı sağlayalım.  Bu barış sayesinde, #EURUSD 1.25 1.27 1.30  bandına gitsin.  Bu olursa, #DXY direkt 90 bandına düşer.  #dolar s
 - `2065139396546789478` 2026-06-11 | yazar=abone(0.3) | urun=gumus | sev=60.60 | @economybors35 Eyvallah kardeşim.  #gümüş 60.60 vs
 - `2064794259878777197` 2026-06-10 | yazar=koc(0.67) | urun= | sev=3200,3600,5600 | Yoksa adamlar istesin 3200 de yapar,  3600 de yapar.  5600 e tek kalemde götüren, düşürür de... Onu hepimiz biliyoruz.
 - `2064662529536667778` 2026-06-10 | yazar=koc(0.16) | urun=altin | sev=6000 | @samet_cezayirli @M1881_K1938 @cllatalay @Karan4276526545 Bu altın düştü ya..  Bu çoğu ekonomiyi de  vuracak…  Millet borsa vb bence girmez.  Adam diyecek ki #A
+- `2064436243014848892` 2026-06-09 | yazar=koc(0.78) | urun= | sev=13800 | @btchasreti2023 @hacbekta19 @Haincostoc1 13800 ün önemini bilmeyen yoktur. Aylar önce yazdım... Piyasa o fiyatı ortaya alır dedim.
 - `2064434936166130142` 2026-06-09 | yazar=koc(0.39) | urun=bist | sev=15700 | @btchasreti2023 @hacbekta19 @Haincostoc1 #bist30  Nerede dalgalanıyor ?  15700 = 5.7
 - `2064414723496366398` 2026-06-09 | yazar=abone(0.1) | urun= | sev=30600 | @hacbekta19 @Haincostoc1 Borsa düşmüş çıkmış bana ne...  30600 den sattım aldım karımı bıraktım.
 - `2064388010947322141` 2026-06-09 | yazar=koc(0.66) | urun= | sev=27600 | @hacbekta19 @Haincostoc1 Ana film 27600 de döndü.  Gerçek satış buranın altında olur. Altı kalmadan seker.   Grafikte göstereyim mi ?
@@ -109,10 +123,13 @@ Hakem bekleyen: ana 66, abone 74
 - `2064110525215355092` 2026-06-09 | yazar=koc(0.56) | urun=nasdaq_abd | sev=27600,25700,23700 | Siz fiyatın gittiği yere, hemen ayak uyduruyorsunuz. Ulan bu koç bize #NASDAQ da 27600 de robot var demişti...  Adamlar oraya dahi düşse, sorun yaşamazlar. Oran
 - `2064060989314638337` 2026-06-08 | yazar=koc(0.46) | urun=altin | sev=4500,4600,4700,4800 | Xauusd de  4500 4600 4700 4800 dedikle ABD teşvik veremiyor.  Çünkü ülke kuru zorlanıyor.  Emtia kanadını kim azdırıyor?   Çin Çin Çin
 - `2064045523447771309` 2026-06-08 | yazar=koc(0.48) | urun= | sev=1.20 | @Omrshn191 @Haincostoc1 @BugrraOzturk @mhasanhankaya Ben imkan versinler TRUMP ın #EUR yu 1.20 üstüne alacağını düşünüyorum.  Avrupa savaşı engel oluyor.
+- `2064021106776826079` 2026-06-08 | yazar=koc(0.99) | urun=nasdaq_abd | sev=29.700,28.570,29700 | Gelelim #NASDAQ tarafına...  Yukarı giderken ne demiştim?  29.700 aşılırsa mumları yukarı ittirirler demiştim. İttirdiler mi? Evet. 6-7 Haziran'da burası da ger
 - `2063688028929835251` 2026-06-07 | yazar=koc(0.32) | urun=btc,altin | sev=5700,6000,5600 | Evet #BİTCOİN 120 130 K görebilirdi ama  bu geleceğin marjıydı.  Çizelgede gösterdim Sen bunu önden kullandın.  Aynısını #ALTIN da yaptılar.  Evet günün birisin
 - `2063663144220676272` 2026-06-07 | yazar=abone(0.39) | urun=btc | sev=80600 | Örnek;  adam işlem bazlı olaylara bakıyor, ve ben diyorum ki; #BTCUSD 80600 negatiftir.  6 7 hazirana kadar geçerlidir.   İşlem çift yönlü değil midir ?   Burad
 - `2062993650888708456` 2026-06-05 | yazar=koc(0.68) | urun=nasdaq_abd | sev=29200,29400 | Vade olayı nasıl bir şey ?  Yeni bir vade başladığında normalde #nasdaq 29200 ise vadeli de 29400 olur.  Değer kaç olursa olsun 200 puan makas olur 200 puan vad
 - `2062975793542619337` 2026-06-05 | yazar=koc(0.6) | urun= | sev=28570,29400,29700,29060 | Çıkarken nereler önemliydi ?  28570 de bir film yaptılar.  29400 de yaptılar 29700 de yaptılar. Şu an ikisi kırıldı..  Anlık fiyat ise 29060.. Müdahale gelmezse
+- `2062936342976139337` 2026-06-05 | yazar=koc(0.8) | urun=nasdaq_abd | sev=29700 | @ibrahimbasak21 @tyaltunok @simslatif @cllatalay @altin_12 @ozgurdenizsu @hacbekta19 Şu kesişim kırılmadan sorun yaşamaz dedim ama #nasdaq işine dönmesin ?  Kal
+- `2062926135185301568` 2026-06-05 | yazar=koc(0.96) | urun= | sev=29700 | @simslatif @cllatalay @altin_12 @ozgurdenizsu @hacbekta19 Gününü dahi yazdım, 25. gün itibariyle 29700 üstünde düşmezler dedim.  10 gün tuttular.  Bana geçmişi 
 - `2062923272178524649` 2026-06-05 | yazar=abone(0.14) | urun= | sev=29700 | Adam o dönem short giriyor, düşmüyor diyor. Bende ona istinaden 29700 üstü düşmez kasarlar  yorulma diyorum.  Maksat budur.
 - `2062910859844759799` 2026-06-05 | yazar=abone(0.24) | urun=nasdaq_abd | sev=7600 | #NASDAQ 31 K demiş, veya #sp500  7600 !   Sen hala #Faiz inmeli diyorsun.  Sen böyle dersen adamlar da gün gelir isterse #emtia kartını yeniden masaya sürerler.
 - `2062857853065388095` 2026-06-05 | yazar=koc(0.59) | urun= | sev=0.206 | @ozgurdenizsu @hacbekta19 Kripto grafiklerini paylaşmak istemiyorum geneli aynı durumda zaten...  Bunların artık habere ihtiyacı var. 0.206 altı strese girdi.
@@ -122,72 +139,808 @@ Hakem bekleyen: ana 66, abone 74
 - `2062279400863727781` 2026-06-04 | yazar=koc(0.17) | urun=gumus | sev=80.60 | @mertcanyaziciii #gümüş   Aynı döneme denk gelen kesişim.  Değer kaç ?   80.60
 - `2062279042716316124` 2026-06-04 | yazar=koc(0.68) | urun= | sev=80.600 | #GRAFİK nasıl okunur ?  Kesişime bakın, 80.600   Altındaysan negatifsin.  Yeni bir yükseliş için üstünde kalman gerekir. Kesişim ileri tarihlere denk geliyor.
 - `2062265772458594496` 2026-06-03 | yazar=koc(0.65) | urun=btc | sev=80.600 | @mhasanhankaya @manofthecripto @cllatalay @simslatif İşlem başka bir şey.  Arkadaşın sorusu farklı.  Örnek; 6 7 Hazirana kadar #bitcoin 80.600 altındaysa piyasa
+- `2062249755267178730` 2026-06-03 | yazar=koc(0.98) | urun=altin | sev=75.7,71.5 | @cllatalay @simslatif Göz ucuyla #ALTIN kanadına bakıyorum. 75.7 baraj alıyorum...  5.7 öğretisi..  Ekstra yoksa diyorum; 75.7 ile 71.5 arası dalgalanır
 - `2062249170866503920` 2026-06-03 | yazar=abone(0.44) | urun=altin,gumus | sev=71.5 | Ben #gümüş trade ediyorum.  Ama dedim ya sistemli gidiyorum.  Örnek; #ALTIN şu an 143 dolar.  Bunun yarısı kaç ?   Normalde #gümüş 71.5 dolar olmalı ama yukarıd
 - `2062178632986988755` 2026-06-03 | yazar=koc(0.53) | urun=altin,gumus | sev=5600 | Piyasalar ölür deyip yapamadı. Beni dinlerler anlaşırlar, kafasını yaşadı.  Çok dinlediler !  Diğer ülkelerinde doymaması ilginç..  #ALTIN 5600 dedi ! #gümüş 12
 - `2062149663453597816` 2026-06-03 | yazar=abone(0.29) | urun=nasdaq_abd | sev=2500,30600,40600 | @mhasanhankaya @hacbekta19 Yani #sp500 10 K olsa, 2500 puan lazım. Her 100 puanına #nasdaq 400 yapıyorsa !  25 adet 100 puan lazım Bu da = 25 adet 400 puan eder
 - `2061960101511004446` 2026-06-03 | yazar=koc(0.69) | urun=btc | sev=10.600 | @BugrraOzturk #BTCJPY de 10.600 de tam..  Temmuz ayına kadar zamanı vardı.
+- `2061940430921470464` 2026-06-03 | yazar=koc(0.71) | urun= | sev=73600 | Ben böyle izliyorum.  Az önce birisi sordu 73600 altı sorun yaşar dedim, Haziran 22. gün ve Temmuz 3 e kadar vakti var.  Ama misal Ağustos 3. haftaya kadar da 6
 - `2061908022864052248` 2026-06-02 | yazar=koc(0.59) | urun= | sev=29700 | Buraya kadar neden bekledin ? 29700 altı kalmadan düşmezler dedim.  Vade sonu geliyor.  Bir olay olsa geri gelse, ben sana ne anlatacağım ?
 - `2061844895250125258` 2026-06-02 | yazar=koc(0.43) | urun=btc | sev=67.800 | @Farkyok16 Şu an #BTC nereye park etti ? 67.800..  Bu savaş fiyatıdır.  Üç dört yıldır yazarım.
+- `2061369499807326465` 2026-06-01 | yazar=koc(0.93) | urun=btc,eth | sev=2442 | 2-  #BTC sadece piyasaya para çekiyor, başka bir işe yaramıyor.  #ETH yi yürütmeleri lazım.  O da ekstra bir durum olmazsa, Temmuz ayına kadar vakit var diyor. 
 - `2061232524135674221` 2026-06-01 | yazar=koc(0.69) | urun= | sev=23700 | 23700 barış seviyesi değeridir.  Dünyaya #barışı sattılar.  Nisan 7 = barıştık dediler. Nisan 17 = Hürmüz açıldı dediler. 15 Mayıs = ÇİN ile barıştık dediler.  
 - `2061228581204718077` 2026-06-01 | yazar=koc(0.34) | urun=altin | sev=50.600 | #ALTIN ile ne yapabilir ?  En fazla #DOW tutmaya çalışırlar.  O da 50.600 üstünde...
 - `2061191048710300158` 2026-06-01 | yazar=abone(0.16) | urun=altin | sev=6400 | Bizde bu değer #gramaltın da 6400 lere denk geliyor Bu değeri hatırlayan var mı ?
 - `2061173373158502600` 2026-05-31 | yazar=abone(0.25) | urun=eth | sev=6000 | Adam diyor ki; #coin neden paylaşmıyorsun ?  Abicim sözüm meclisten dışarıdır, özür diliyorum.  X bir coini paylaşsan, direkt alıyorlar ve  yüklü bağlıyorlar.  
+- `2061171680618180737` 2026-05-31 | yazar=koc(0.97) | urun=eth | sev=6000 | Ben yıllardır yazıyorum...  #ETHUSD 6000 dolar üstünde kapanışlar gelmedikçe o milletin istediği boğa tarzı yükselişler ASLA gelemez ki...
 - `2061160663247143252` 2026-05-31 | yazar=koc(0.64) | urun=nasdaq_abd | sev=22.600,30.600 | 22.600 üzerinde kaldıkça zaten düşmeyeceklerini biliyordum. #NASDAQ   30.600 seviyesine götüreceklerini de öngörüyordum.  Beni hayal kırıklığına uğratan nokta i
 - `2061139745724367119` 2026-05-31 | yazar=koc(0.52) | urun=btc,gumus | sev=72.4,72.400 | 25 Mayıs   #gümüş 72.4 olmalıdır. Nereye düşürdüler ?   O civarlara..  #BİTCOİN nereye düştü ? O da 72.400 K ya..
 - `2061107921291723048` 2026-05-31 | yazar=koc(0.52) | urun=nasdaq_abd | sev=29700 | #NASDAQ   Cümleyi yanlış kurmuşum ama, düzeltmesini aşağı ekledim.  29700 üstünde kalamazlarsa düşerler. Bunun için zorluyorlar demişim.   25. günden itibaren g
+- `2061105043424563502` 2026-05-31 | yazar=koc(0.92) | urun=nasdaq_abd | sev=29.700,29700 | #nasdaq  Arkadaşlar;  Geçen hafta, "29.700'ün üzerinde kalırlarsa düşmezler" demiştim.  Bayram boyunca piyasayı takip edemedim ama görünen o ki dediğimi yapmışl
 - `2061092293310886022` 2026-05-31 | yazar=koc(0.57) | urun=btc | sev=80.600 | Hakan #BİTCOİN 80.600 altı negatifti. Bir teşekkür de buraya alayım.
 - `2061088203629597022` 2026-05-31 | yazar=koc(0.66) | urun=btc,eth,petrol | sev=1746,80600,80.600,29700 | Mart Nisan 7 arası  #ETHUSD 1746 yükselişine bir teşekkür et bakalım.  #BİTCOİN 70 k dan 80600 e yükselişe  bir teşekkür et bakalım.   80.600 altı short düşünce
+- `2061058664283164681` 2026-05-31 | yazar=koc(0.93) | urun=btc,eth,gumus | sev=2400,2570 | yil?=2026 | #gümüş nasıl 90 doları gördü ! #BTC de 84 K yı aşıp, GÜMÜŞ gibi 90 K ya gitseydi ne olurdu biliyor muyuz ?  #ETHUSD nereden döndü = 2400 dolar  #BTC 90 k ya git
 - `2060444275825910245` 2026-05-29 | yazar=abone(0.63) | urun= | sev=4570 | Özür dileyecek bir şey yok. Sadece 4570 de robot var sanırım demen garibime gitti..
 - `2059376480346308868` 2026-05-26 | yazar=koc(0.14) | urun= | sev=30044,30060 | 30044 dedi..  Hacim azalınca 30060 dan  short girdiysem kazandım
+- `2059375753364476333` 2026-05-26 | yazar=koc(0.93) | urun= | sev=29700,30060 | Örnek; bu hafta için ne dedik ? 29700 üstü kalsın bu adamlar düşmezler.  Malın en düşün gördüğü yer 29700   Durulduğu yer neresi ? 30060
 - `2059370299406065754` 2026-05-26 | yazar=koc(0.67) | urun=nasdaq_abd | sev=30060 | Nasdaq 30060 dedi.  Bir orası bir burası adamlar takılıyor..   Dünya izliyor.
+- `2059331897415585937` 2026-05-26 | yazar=koc(0.98) | urun= | sev=140.6 | Grafik diyor ki;  Temmuz ayına kadar zamanım var.  140.6 üstüysem çıkarım  Altında anca gardım düşüyor.
+- `2059045679964594348` 2026-05-26 | yazar=koc(0.98) | urun= | sev=29700 | Bu haftaya geliyorum diyorum ki;  29700 üstünde açmasınlar düşerler.  25. günden itibaren geçerlidir.
 - `2059041676299993430` 2026-05-26 | yazar=koc(0.53) | urun=nasdaq_abd | sev=29400 | #NASDAQ 29400  Benim yazdığım tüm değerlerde #gapli yukarı açıyorlar.  Amaç nedir ?
+- `2059038704161693862` 2026-05-26 | yazar=koc(0.83) | urun= | sev=29700 | Şu twet..  29700 altında kalırsa düşer demişiz. Kalmazsa düşmez mantığı ortaya çıkıyor.  Bakalım adamlar ne yapmışlar ?
 - `2059025289733160999` 2026-05-26 | yazar=koc(0.36) | urun= | sev=27700,27800 | Öyle yazmış işte.. Yani sallıyorum 27700 den satmış ama, 27800 de STOP olmak yerine, 27800 den alıma terse girdiyse, ve o alımı 29 K üstüne kadar tuttuysa, bu s
 - `2058867730707517622` 2026-05-25 | yazar=koc(0.69) | urun= | sev=130.600 | 130.600
 - `2058677484816650490` 2026-05-25 | yazar=koc(0.52) | urun=nasdaq_abd | sev=50.600 | #DOW da ne bekleyeceğim ?  50.600 üstüne alıyor satış baskısı oluşmasın deyip..  Altında kalırsa düşer üstünde diri kalır.
 - `2058677308781727861` 2026-05-25 | yazar=koc(0.69) | urun=petrol | sev=29700 | Sen hala bu sistemle mücadele edebileceğini mi düşünüyorsun ?  Cuma günü diyorum ki; #nasdaq ayın 25. günü 29700 altında kalırsa düşer.  Adam sana gidip oranın 
+- `2058675471894589603` 2026-05-25 | yazar=koc(0.97) | urun= | sev=29700 | Sonuç;  diyorlar ki #borsalarımız vadeli de açık ama, reel de Pazartesi kapalıdır.  Vadeli de satış kovalayanlar sizleri patlattık, değer 29700 dür.  #petrol ve
 - `2058674737983697343` 2026-05-25 | yazar=koc(0.68) | urun= | sev=29700 | Tam dümenciler.  29700
+- `2058661833574146414` 2026-05-25 | yazar=koc(0.98) | urun=altin,gumus | sev=75.5,144.9,31.1,4506,4969 | Bir şeye dikkat edin #ince ayrıntıdır.  #gümüş 75.5 dolar.  Normalde ne dedik ?  #GOLDGR bunun iki katıdır.  75.5 x 2 = 151 dolar olması gerekir. #GOLDGR şu an 
+- `2057733236810244482` 2026-05-22 | yazar=koc(0.99) | urun=gumus | sev=29570,50600,75.7,4506,45.7,159.20 | Hepsini göstermiyorum  yazıyorum.  Şu an;  Nasdaq vadeli de 29570 =5:7  Dow vadeli de 50600  = 5:7   Gümüş 75.7 = 5:7   Altın 4506 sabah görmüş  = 6   Usdtry 45
 - `2056784422989426838` 2026-05-19 | yazar=belirsiz(0.53) | urun= | sev=28570 | 28570
 - `2056684603960676830` 2026-05-19 | yazar=koc(0.45) | urun=btc | sev=10600 | yil?=2020 | Bu analizleri unutmadık değil mi ?  #BTCOİN  #BTC 2020 öncesi..  10600 etrafında nasıl zaman geçiriyor ? Kitlenin beklediği tarzda bir yükseliş olabilmesi için 
 
 ## 3) ABONE AKIS — dogrulama ornegi (40 kayit, yazar=koc kabul edilmis)
 
-- `2067362599788806171` 2026-06-18 | yazar_g=0.74 | urun= | sev=5600 | Bizde kur 50 lirayı aşma aşamasına gelsin paniği görelim.  Enflasyon azıyor deyip el ayak karışır.  Adamların ülke parası #ALTIN karşısında  5600 e kadar değer 
-- `2078157996073320930` 2026-07-17 | yazar_g=0.99 | urun=altin | sev=3776,3840 | #XAUUSD grafiği de bu...  Burada az çizgi koydum ama, hemen hemen aynıdır. 3776 3840 kırılmadan alıcı gelir.  He boyu uzar uzamaz, o tartışılır ama  daha aşağıs
-- `2064021106776826079` 2026-06-08 | yazar_g=0.99 | urun=nasdaq_abd | sev=29.700,28.570,29700 | Gelelim #NASDAQ tarafına...  Yukarı giderken ne demiştim?  29.700 aşılırsa mumları yukarı ittirirler demiştim. İttirdiler mi? Evet. 6-7 Haziran'da burası da ger
-- `2064379933980344702` 2026-06-09 | yazar_g=0.91 | urun=nasdaq_abd | sev=28570 | @Haincostoc1 Şu an gidin #NASDAQ 28570 e temas etti.
-- `2064456458532499534` 2026-06-10 | yazar_g=0.98 | urun= | sev=4060 | #XAUGBP   4060 NOKTA döndürüyorlar.   6 öğretisi..
-- `2066963026452918367` 2026-06-16 | yazar_g=0.99 | urun=nasdaq_abd | sev=30100 | #NASDAQ Normal değer 30100
-- `2067392390415941945` 2026-06-18 | yazar_g=0.72 | urun= | sev=1.357 | @btchasreti2023 @ncdtergn10 @eb07777 @HowitzerTR @cllatalay 1.3570 den yükselmiş..  5.7
-- `2067573899181580692` 2026-06-18 | yazar_g=0.96 | urun= | sev=60.60 | @Karan4276526545 57 den önce 60.60 var. Oraya gelince sekti.  57 taciz edilir kırılırsa daha fazla akar. Oralar pivot.
-- `2060458884154929262` 2026-05-29 | yazar_g=0.99 | urun=btc,eth,altin,gumus | sev=29700,4376,1960 | Döneyim detaylı bakarız ama #nasdaq 29700 e düşüp hemen sekmiştir.  29700 ün önemini anlatmıştım. Bu hafta üstü kaldıkça düşmüyorlardı.  Sadece emtia trade edip
-- `2076622886337397171` 2026-07-13 | yazar_g=0.96 | urun= | sev=140.60,140.6 | #GOLDGR   Bunlardan bahsetmeye lüzum var mı?  140.60 = 6 öğretisi...  Peki şu an dünyayı yönetenler ne yapıyor?  Aslında herkes almak istediğini aldı.  Şimdi is
-- `2076628854672703637` 2026-07-13 | yazar_g=0.96 | urun=altin,dxy | sev=5600 | Bu şekilde gittikleri sürece, oyunu ABD kazanıyor. Neden deyip kısa bahsedeyim.  Evet bugün ABD #altın tarafını baskılıyor, ama; #zaman boşa geçiyor.  5600 görd
-- `2067544902624276840` 2026-06-18 | yazar_g=0.99 | urun=nasdaq_abd | sev=29700 | #nasdaq   Çizgiyi yalatıyorlar.  29700 değdirip değdirip sektiriyorlar. Bu değerin önemini biliyoruz. Altı kalsa düşerler.
-- `2067368304612614212` 2026-06-18 | yazar_g=0.75 | urun=altin | sev=5000 | Biz de kur 50 lirayı aşarsa, M.B önlem almak zorunda halkı düşünmek zorunda...  Almazsan yürür gider.  Aynısı ABD için geçerlidir.  #ALTIN 5000 aşacak halk der 
-- `2067203878903222585` 2026-06-17 | yazar_g=0.99 | urun=btc,eth,altin | sev=4376,29700,1746,67800 | Takip ettiğin varlıkta asla majör kalıpları unutmayacaksın..  Örnek; #XAUUSD 4376 üstü kalsın dikleşir altı anca satış baskısı.  Örnek; #NASDAQ 29700 altı anca 
-- `2064107862486381029` 2026-06-09 | yazar_g=0.95 | urun= | sev=30600,27600 | @simslatif @btchasreti2023 @cllatalay @Haincostoc1 @uurvli8 30600 aşılmadan artık risk iştahı fazla oluşmaz Aşağıda 26 K kırılmadan moralleri bozulmaz.  Ortada 
-- `2062934574607282449` 2026-06-05 | yazar_g=0.97 | urun=btc | sev=73600 | @ibrahimbasak21 @tyaltunok @simslatif @cllatalay @altin_12 @ozgurdenizsu @hacbekta19 #BİTCOİN   Aşağıda hala risk var.   Yok diyen yalan söyler.   Şu kesişim kı
-- `2084037410376003814` 2026-08-03 | yazar_g=1.0 | urun=altin | sev=4079 | #ALTIN #GAPLİ yukarı açtı.  Fiyat; 4079
-- `2063752071296200939` 2026-06-08 | yazar_g=0.96 | urun=btc,gumus | sev=0.001 | Git şu an bak misal; #xagusd/ #btcusd dengesi 0.00106 dır.   = 6 öğretisi
-- `2067394822390857779` 2026-06-18 | yazar_g=0.75 | urun=eth | sev=1746 | @btchasreti2023 @ncdtergn10 @eb07777 @HowitzerTR @cllatalay #ETHUSD 1746
-- `2061889696146366575` 2026-06-02 | yazar_g=0.86 | urun= | sev=1.06 | @Haincostoc1 @economybors35 @xdiabolicalx Freni de 1.06 da yedi  = 6 öğretisi
-- `2062611731088592992` 2026-06-04 | yazar_g=0.95 | urun= | sev=1.06 | @xdiabolicalx @cllatalay @Serdar57277218 Haziran ayının 19 ve son haftasına kadar 1.06 üstü kalırsa yeniden bakılır.   O araya kadar bir izleyelim.
-- `2062144807900684464` 2026-06-03 | yazar_g=0.95 | urun=nasdaq_abd | sev=29700 | @mhasanhankaya @hacbekta19 #NASDAQ   29700 de ise yukarı yeni kanal açıyorlar. Satışçıları patlatıyorlar.
-- `2064029081797030018` 2026-06-08 | yazar_g=0.89 | urun=nasdaq_abd | sev=50600 | @cetinkorkut #DOW da 50600..  Anlamını bilmeyen yoktur.
+- `2057766483195793864` 2026-05-22 | yazar_g=0.93 | urun= | sev=5700 | Geriye ne kalıyor ? #trend takibi...  5700 = 5.7 öğretisinden gelen trend RED OLARAK önüne çıkıyor.  1 2 3 numaralı dönüşlere dikkat...
+- `2067545513059029020` 2026-06-18 | yazar_g=0.99 | urun=nasdaq_abd | sev=50600 | #DOW  Nasdaq tıkanınca buraya odaklandılar.  50600 üstüne aldılar ve yukarı zorluyorlar.
+- `2079174299940786367` 2026-07-20 | yazar_g=0.99 | urun= | sev=4026 | Robottayız   4026
 - `2064803884988592531` 2026-06-10 | yazar_g=0.94 | urun=gumus | sev=3000,3300,2500 | @BugrraOzturk Geçen sene yapamadılar, çünkü; #ALTIN  3000 ile 3300 dolar civarıydı.  #gümüş 26 ile 33 dolar arasıydı.  Geçen sene şu duruma yapsalar, #ALTIN 250
-- `2067363992419369090` 2026-06-18 | yazar_g=0.79 | urun=altin | sev=5000 | Hadi öyle bir durumda #faiz güçlü tutma de M.B sına, bakalım neler oluyor ?  Aynısı ABD için geçerlidir.  #ALTIN 5000 birimi aştı.
-- `2057737652116324718` 2026-05-22 | yazar_g=0.99 | urun=bist | sev=13800 | Evet.  Sert kırılım geldiği için ilk etap üstüne atmakta  zorlanır.  Olumlu haber ister.  Bir de dış piyasalara göre dengeye geldi.  Normalde Bist 13800 altı ne
-- `2062997879518630346` 2026-06-05 | yazar_g=0.9 | urun=btc | sev=1060 | @cllatalay @hacbekta19 @tyaltunok @simslatif @altin_12 @ozgurdenizsu #gümüş tepeden beri #BTC yi eziyor.  #BTC nin öne geçmesi için bu grafikte mumların yukarı 
-- `2057741521181413665` 2026-05-22 | yazar_g=0.95 | urun= | sev=13800 | Yani 13800 rakamını  dış piyasalara göre denge fiyat olarak alın..  Bundan sonra altı kalırsak negatifiz..  Üstü ise aşırı iyimserlik gibi bakın.
-- `2061118337795469564` 2026-05-31 | yazar_g=1.0 | urun=altin | sev=4376 | 4376 üstünde #ALTIN diri kalır  ekstra düşüş olması için buranın altı şart.
-- `2059331897415585937` 2026-05-26 | yazar_g=0.98 | urun= | sev=140.6 | Grafik diyor ki;  Temmuz ayına kadar zamanım var.  140.6 üstüysem çıkarım  Altında anca gardım düşüyor.
-- `2085394755895062600` 2026-08-06 | yazar_g=0.99 | urun=dxy | sev=1,38 | #GBPUSD   1,38'in üzerinde kalsın...  Üzerine de #pozitif bir haber gelsin;  Yürür gider.  Ama gitmek önemli değil...  Gittiğinde #yukarıda kalabilmek önemlidir
-- `2061226544064794756` 2026-06-01 | yazar_g=0.97 | urun=altin | sev=4570,4600 | Haziran 3 ve 4. güne kadar 4570 altındaysa okey.. Ama bugün geldiğinde 4600 üstünde kapanış gelirse, sakin olup beklemek gerekir.
-- `2061129198316421514` 2026-05-31 | yazar_g=0.99 | urun=btc | sev=80600,80.600 | Gelelim #BİTCOİN ve 80600 rakamına...  Daha oraya gitmemişti #twit aşağıdadır.  10 11 12 mayısa kadar vakti var.    #BTCUSD Geçen seneki çoklu tepeler. ABD İRAN
-- `2067687028838306262` 2026-06-18 | yazar_g=0.83 | urun=eth | sev=4700 | yil?=2024 | Ben zaman vermedim.  İzleyip göreceğiz.  2024 de #ETH 4700 e gider dedim adamlar bir sene sonra yaptılar.
-- `2062147164340412849` 2026-06-03 | yazar_g=0.98 | urun= | sev=30600,29700 | @omeryesilyrt @mhasanhankaya @hacbekta19 Yatırımcı da bu işlere #saatlik günlük bakıyorsa, uyarma gereği duyuyorum.  Zaman kavramı işin içine girerse bıktırırla
+- `2065423769200460251` 2026-06-12 | yazar_g=0.99 | urun= | sev=27600,28200,29700 | @Traderkripto12 27600 aşağı kırılmadan, adamlar sorun yaşamıyor. 28200 civarı bir robot var, oraya yanaşırsa yeniden bakarız.  29700 civarına da kafa attırıyorl
+- `2065493889943732292` 2026-06-12 | yazar_g=0.92 | urun= | sev=30600,1000 | 30600 e fiyat gitti ya ! Tekrar 28 e düzeltince !  ilk 27 28 de satanlar mal aşağı gelince satış pozisyonlarını kapattılar.  Mal da otomatik yukarı dönüyor.  27
+- `2067372365189636237` 2026-06-18 | yazar_g=0.89 | urun= | sev=5000 | #ALTIN 5000 #usd yi aştığı an  doymayan dünya halkına onlarda UYUZ oluyordur.  Bu popülizme sebep olan ÇİN ekonomisine UYUZ oluyorlardır.
+- `2067660830716379437` 2026-06-18 | yazar_g=0.91 | urun= | sev=4217 | @hrglml @HamidYilmaz07 4217 de robot var biliyoruz
+- `2059385773086908600` 2026-05-27 | yazar_g=0.94 | urun= | sev=30060 | Diyelim ki 30060 dan malı  şimdi sattık..  Mal geldi 29 K ya düştü  bu güzel bir kazanç.  29 K da kapansan yazık aslında orası da pahalı.  Kapanmadan bir poziti
+- `2067998950288712136` 2026-06-19 | yazar_g=0.97 | urun= | sev=80.60 | Petrol hareketi.  Aynı gümüş gibi   84 dolar kırıldı 76 dan sekti. 80.60 a kafa atıyor.
+- `2058945768552018106` 2026-05-25 | yazar_g=0.89 | urun=btc,gumus | sev=77.500,77.50,95.7 | Yani tam orta noktadayız ve yılı yarılıyoruz.  Gelelim diğerlerine..  BTC 77.500 de Gümüş 77.50 dolar  ABD ile Çin dengesi eşit.  Petrol ise 95.7 de  Baktığında
+- `2062640487882973501` 2026-06-04 | yazar_g=0.98 | urun=dxy | sev=0.84,1.03 | Şöyle düşünün BİDEN dönemin de, #DXY 110.. faizler güçlüdür.  #EUR 0.84 #gbp 1.03   Ülke kurları #Avrupa da haşattır. Ülke kuru zayıf olan, #enflasyonu yer.  En
+- `2078156556630176228` 2026-07-17 | yazar_g=0.82 | urun=altin | sev=124.6,140.6 | #goldgr   124.6 ya kadar olan her geri çekilme BASKIDIR. 140.6 aşılmadan çıkmaz.  Piyasa buralar da bunu trade eder.  İki ileri bir geri oyalarlar ve #zaman geç
+- `2078158363536363549` 2026-07-17 | yazar_g=0.99 | urun= | sev=4026 | Bu arada kısa bakanlar için;   4026 ya robot koydular altı baskıdır ama üstü kalırsa  yukarı verir.  Geçen seneki roborları da unutmayın çünkü bir şey değişmedi
+- `2067993179144495259` 2026-06-19 | yazar_g=0.99 | urun= | sev=4141 | 4141 rakamına yeni değil dün akşam koydular o  robotu.
+- `2065534033824534540` 2026-06-12 | yazar_g=0.92 | urun=nasdaq_abd | sev=5700,6800,7000 | Ama şu olmalıydı.  #sp500 en azından 5700 bölgesini = 5.7 pivota almalıydı...  Altında al, 6800 7000 sat.. Makul olan buydu.
+- `2065458808030216282` 2026-06-12 | yazar_g=0.98 | urun= | sev=0.125,0.106 | Aralık ayına 0.125 üstü girmeyi başarırsa iş yapar. Bir de Temmuz 3. haftayı önemsiyor. Temmuzdan sonra 0.106 üstündeyse sorun yok..  Altı anca sorun çıkar.
+- `2061137858711224716` 2026-05-31 | yazar_g=0.9 | urun=btc | sev=2420 | O tarihlerde 2420 den döndürüyorlar. Bir 20 dolar daha üstüne koysa yürürdü.  Ama kontrol #BİTCOİN de...  Orayı döndürdüğü an olayı bitiriyorlar.
+- `2057735730579865619` 2026-05-22 | yazar_g=0.97 | urun=nasdaq_abd | sev=29570,29606,0.10 | Şu an vadelide Nasdaq para dağıtıyor.  29570 ile 29606 arası  ileri geri oynuyor.  Buradaki 36 puan  0.10 lotta 70 dolar yapar.  10 kere alsan 700 dolar
+- `2059322225707155900` 2026-05-26 | yazar_g=0.98 | urun=altin,gumus | sev=4570,78.4 | Gece altın 4570 den zorla aşağı döndürüldü  4570 = 5.7  Gümüş ise 78.4 dan zorla  aşağı döndürüldü.  78.4  = 8.4 öğretisi..  Gümüş bu seviyenin üstünde kalsa di
+- `2066479533662818662` 2026-06-15 | yazar_g=0.98 | urun= | sev=73600 | 6 7 Haziran gününe kadar negatiftik. Şimdi ise 22 Hazirana kadar tepkiye oynuyorlar.  73600 aşılırsa anca toparlar. Aşılmadan yine kıymeti olmaz. Haber akışları
+- `2057772566404604164` 2026-05-22 | yazar_g=0.97 | urun=nasdaq_abd | sev=50600 | #DOW  Hemen hemen aynısı var.  Zorla şhortçu patlatıyorlar.  50600 geldi ve üstüne almaya çalışıyorlar.
+- `2062865028525519026` 2026-06-05 | yazar_g=0.87 | urun=altin,dxy | sev=5600 | #DXY 110 dan 95 e kadar zaten düşürüldü. #ALTIN 5600 gördü.  Tamam ülkeler kazandılar.  Daha kaprise lüzum yok ki.
+- `2065505386732384767` 2026-06-12 | yazar_g=0.91 | urun= | sev=1.25 | @btchasreti2023 @HAKAN5977394672 @ozgurdenizsu @HowitzerTR @cllatalay @Traderkripto12 Al buradan #EUR yu, uzunda tut.  Bir senedir, aynı yerdedir.  Uzuncuların 
+- `2062247112419524690` 2026-06-03 | yazar_g=0.71 | urun= | sev=5000 | @simslatif 5000 #usd bırakıyor.  Sabah 75 dolardı akşama 73...
 - `2064780185170264161` 2026-06-10 | yazar_g=0.97 | urun=altin | sev=30600,4100 | Böyle balon göze batıyor.  Örnek; #NASDAQ 30600 #xauusd  oran 6.8 borsa ideal değer.  Ama şu; #nasdaq 28 k #XAUUSD 4100  oran 7 bölgesini yukarı zorluyor.  3060
-- `2065542198905479526` 2026-06-13 | yazar_g=0.98 | urun=altin,nasdaq_abd | sev=5700,6300,7600 | #sp500   Şu dalgayı #gramaltın veya #BTC gibi düşünün.  Gramaltın olsa 5700 liradan 6300 lira akabinde 7600 lira..  Gün gelir bu 5700 düzeltir. Savaş var deyip 
-- `2058844056940155135` 2026-05-25 | yazar_g=0.94 | urun=nasdaq_abd | sev=50600 | Ki bu sefer #nasdaq peşine Dow da taktılar.  O da 50600 üstüne çıktı.  Yani komple bir hareket var.
-- `2067739423182090377` 2026-06-19 | yazar_g=0.98 | urun= | sev=1.144 | @aouzumcu @ibrahimbasak21 @cllatalay @Omrshn191 @economybors35 @HamidYilmaz07 1.1440 bölgesinde robot var.
-- `2057816733621117382` 2026-05-22 | yazar_g=0.99 | urun=nasdaq_abd | sev=27600 | #NASDAQ 27600  Bu değer böyle bir şey oldu.  Bunu da unutmayın.  #nasdaq 27600 robot var.
+- `2084042454056030594` 2026-08-03 | yazar_g=0.97 | urun= | sev=1846 | Sadece burada göze batan şu. Ağustos başına kadar 1846 üstü kalış pozitifti ama buna süre koymuşlar.  Az önce bakarken gördüm.  Ağustos 14. güne kadar 1846 üstü
+- `2066998847180554671` 2026-06-17 | yazar_g=0.91 | urun= | sev=1.169 | @btchasreti2023 @satsujnsen @HamidYilmaz07 Temmuz sonuna kadar 1.1690 üstüne attı attı atamadı strese girer.  Ayın 19. günü önemli.
+- `2057853634134548949` 2026-05-22 | yazar_g=0.99 | urun=nasdaq_abd | sev=29400 | #nasdaq h4   29400 üstünde tutmak için kırk takla atıyorlar.
+- `2064075093840474252` 2026-06-08 | yazar_g=0.8 | urun= | sev=4157,4060,4306 | @Karan4276526545 4157     =5.7 öğretisi...    4060-----4157-----4306    Şu an kaç 4306 bölgesi işte
+- `2059041148987932746` 2026-05-26 | yazar_g=0.99 | urun=nasdaq_abd | sev=29400 | #NASDAQ Geçen haftada 29400 de yukarı yönlü #gap yaptılar.   Oklarla gösterdim..
+- `2067197828061892632` 2026-06-17 | yazar_g=0.91 | urun= | sev=2100 | Aldı fiyatı yukarı ama 2100 de ayları yedi isteyen yine yer.
+- `2058652202168725900` 2026-05-24 | yazar_g=0.83 | urun=btc,gumus | sev=68.800 | #GÜMÜŞ 68 #dolar altı kalmadan  ABD nin eli net rahatlayamıyor.  Kısır döngüden kurtulamıyor.  #BTCUSD 68.800 bilmiyorum unuttunuz mu ? 7 NİSAN ABD İRAN barış s
+- `2064107862486381029` 2026-06-09 | yazar_g=0.95 | urun= | sev=30600,27600 | @simslatif @btchasreti2023 @cllatalay @Haincostoc1 @uurvli8 30600 aşılmadan artık risk iştahı fazla oluşmaz Aşağıda 26 K kırılmadan moralleri bozulmaz.  Ortada 
+- `2056499420837908827` 2026-05-19 | yazar_g=0.99 | urun=nasdaq_abd | sev=29060 | #NASDAQ Günlük.  Mumların trend çizgisine yaslanışı. Fiyat tam tamına 29060 = 6 öğretisi.  Bugün iki üç kere pozitif haber servis ettiler.
+- `2058650520357654621` 2026-05-24 | yazar_g=0.95 | urun= | sev=0.001 | XAGUSD/BTCUSD rasyosunu 0.00100 seviyesine adeta sabitlemiş gibi bir fiyatlama var.  Buralara da dikkat etmek lazım.
+- `2063004216881217814` 2026-06-06 | yazar_g=0.94 | urun= | sev=1060 | #btcusd #XAGUSD   Aslında eziyorlardı ama son anda R oldu.  1060 dan red yedi.
+- `2067927646671937973` 2026-06-19 | yazar_g=0.94 | urun=altin | sev=4141 | @cllatalay @Haincostoc1 @aouzumcu @ibrahimbasak21 @Omrshn191 @economybors35 @HamidYilmaz07 Altında 4141 e robot koydular.
+- `2064040277312934110` 2026-06-08 | yazar_g=0.72 | urun=eth | sev=5000 | @Haincostoc1 @BugrraOzturk @mhasanhankaya Geçen sene anlaşmalarda #ETH kullanıldı. 5000 dolara götürdüler.
+- `2064066149982073022` 2026-06-08 | yazar_g=0.7 | urun=altin | sev=4500,4600,4700,4800 | Şu iki durum arasında zerre fark yok.  TCMB teşvik versene, ekonomi öldü.  Yanıt; veremiyorum #usdtry 45 46 47 48 deyip uçuşa geçer.  FED teşvik versene ekonomi
+
+## 4) CAPRAZ AKIS CELISKI (oncelikli hakem)
+
+Iki arsivde ortak olup ana atif ile abone yazar 'koc' konusunda celisen: 718
+
+- `2090115838149832969` 2026-08-19 | ana_atif=koc(0.71) | abone_yazar=abone(1.0) | Koç peki buradan sonra Eylül 15 i görseler yeterli midir ? Sene sonuna kadar iyimser gitmek yanlış olur doğru mudur? Barış gelmediği senaryo için diyorum. Barış
+- `2085432256345112871` 2026-08-06 | ana_atif=koc(0.42) | abone_yazar=abone(0.55) | Yazarken bile sinirim bozuluyor. Böyle yönetim olur mu ?
+- `2082906808960553382` 2026-07-30 | ana_atif=koc(0.93) | abone_yazar=abone(0.14) | Kaç gün geçmiştir ?   Toplam yaklaşık 45 gün.  ABD #borsalarında vadeler ne zaman başladı ?  Haziran 15...  Vadenin 45 gününü yediler. Al sana #zaman geçirme...
+- `2082886665622769868` 2026-07-30 | ana_atif=koc(0.96) | abone_yazar=belirsiz(0.29) | Kardeşim, #ticaret savaşları başlayınca #kriptoyu oyun dışına ittiler.  Bu da 2025 Temmuz'da oldu.  O tarihten sonra ben de #kriptoya bakmayı bıraktım.
+- `2082792922164965564` 2026-07-30 | ana_atif=koc(0.35) | abone_yazar=belirsiz(0.68) | #flood
+- `2082441248325968223` 2026-07-29 | ana_atif=koc(0.52) | abone_yazar=abone(0.83) | Nasıl kitliyorlar ?
+- `2082228475406983474` 2026-07-29 | ana_atif=koc(0.42) | abone_yazar=abone(0.59) | Buradaki mantığı anladık mı ?
+- `2081764982350328318` 2026-07-27 | ana_atif=koc(0.61) | abone_yazar=abone(0.35) | Hepsi kar yazdı değil mi ?  Dedim sana yazar.
+- `2080684063816388855` 2026-07-24 | ana_atif=yok(0.31) | abone_yazar=koc(0.74) | Adamların zihniyetini anlamanız açısından okuyunuz. #GOLDEUR #altın
+- `2080363283173748821` 2026-07-23 | ana_atif=koc(0.86) | abone_yazar=abone(0.09) | #XAGUSDG   Bu bakışı unutmadık değil mi ?
+- `2079222151769362480` 2026-07-20 | ana_atif=koc(0.79) | abone_yazar=belirsiz(0.83) | 13 Ağustos 2025
+- `2079213663542530450` 2026-07-20 | ana_atif=aktarim(0.56) | abone_yazar=koc(0.33) | Bu sene de ÇİN #EYLÜL de bizi ziyaret edecek diyor. Fark yok...  Geçen sene neyse bu sene de AYNI..
+- `2079209864086049185` 2026-07-20 | ana_atif=koc(0.92) | abone_yazar=abone(0.49) | Geçen sene #NASDAQ  şu grafikle altına atacağım son hali arasında  fark var mı ?
+- `2078961021923016982` 2026-07-20 | ana_atif=koc(0.55) | abone_yazar=abone(0.4) | Kendisini tanımam. Hatta bana yorumları gıcık gelir. Bir analizci var.  Bu kişi sadece #ALTIN analizi yapar.  Gıcık olmama rağmen, ara sıra tweetleri önüme düşe
+- `2078958860904390768` 2026-07-20 | ana_atif=aktarim(0.58) | abone_yazar=koc(0.2) | Misal; adamın birisi sosyal medya şöyle paylaşımlar yapıyor.  #Gramaltın 13 bin lira görecek.  Adamı yerden yere vuruyorlar. Halbuki bu adam #yıllar içinde hakl
+- `2078948584079098088` 2026-07-20 | ana_atif=yok(0.37) | abone_yazar=koc(0.26) | Ben bunları anlattım.  Bir daha anlatsam da, yine hafızalardan silinip gidecektir.  Hatta benzetmelerle anlattım.
+- `2078159052291371410` 2026-07-17 | ana_atif=yok(0.38) | abone_yazar=koc(0.72) | Geçen seneki robot seviyeler.
+- `2078153646873722893` 2026-07-17 | ana_atif=yok(0.46) | abone_yazar=koc(0.32) | #BİTCOİN
+- `2077788970277060813` 2026-07-16 | ana_atif=koc(0.91) | abone_yazar=belirsiz(0.32) | Abonelere özel #ETH analizi...  2024 yılı..
+- `2077788462539817159` 2026-07-16 | ana_atif=yok(0.52) | abone_yazar=koc(0.81) | Bu floodu okuduktan sonra hâlâ anlamadığı bir nokta kalan varsa, buyursun sorsun.  Çünkü bu flood, abonelik tarafında anlatacaklarımın en temel başlangıç noktas
+- `2077787809985761476` 2026-07-16 | ana_atif=koc(0.94) | abone_yazar=abone(0.29) | Abonelere özel #BİTCOİN anlatımıdır. Herkes yer işareti koyarsa, memnun olurum.  Boğa neden gelmiyor veya gelemiyor ?  13 Haziran 2024
+- `2077122529848701107` 2026-07-14 | ana_atif=koc(0.97) | abone_yazar=abone(0.79) | Ben şahsım adına risk yokmuş gibi zaten  davranmıyorum, #gbpjpy vs poz alıyorum...  Ama yedirmiyor.
+- `2076658393796764146` 2026-07-13 | ana_atif=koc(0.99) | abone_yazar=abone(0.35) | Ben bazen içeride işlem yapmadığıma çok yanıyorum.  En azından oynaklık var.  Yabancı piyasalar sıkıcı...
+- `2076656471421423871` 2026-07-13 | ana_atif=koc(0.68) | abone_yazar=abone(0.21) | Ben hisse bakmam ama yapılana baktım.
+- `2071918235386020130` 2026-06-30 | ana_atif=koc(0.63) | abone_yazar=belirsiz(0.32) | Ben gerçekleri masaya koymak zorundayım. Olayın farkında olmadan ne yaparsak yapalım üzülürüz.  Aynı bakış açısında olmak zorundayız.
+- `2071907059918885289` 2026-06-30 | ana_atif=koc(0.63) | abone_yazar=belirsiz(0.51) | Elin mahkum ZAMAN geçirmek zorundasın. Anlaşma yakalamak zorundasın..  Barış yakalamak zorundasın.
+- `2071897173726233045` 2026-06-30 | ana_atif=koc(0.51) | abone_yazar=abone(0.87) | Rakip gördükleri ülkeler ABD sağı solu yıkarsa, nasılsa tavize gebe kalacaklar deyip, ona ekonomik  savaş açar mı ?   Yani Taviz verilirken #dolara savaş açarla
+- `2071680415190974899` 2026-06-29 | ana_atif=koc(0.63) | abone_yazar=belirsiz(0.87) | Mayıs...
+- `2071679739572482539` 2026-06-29 | ana_atif=yok(0.36) | abone_yazar=koc(0.31) | #NASDAQ
+- `2070565182263144454` 2026-06-26 | ana_atif=koc(0.95) | abone_yazar=abone(0.9) | Samimi olarak soruyorum. Şu kesişim tesadüf olabilir mi ?   #XAUUSD 4376
+- `2070540933112738038` 2026-06-26 | ana_atif=koc(0.87) | abone_yazar=belirsiz(0.36) | Bu flood aşırı önemli bir bakış açısıdır. Siyaset kokuyor.  Bence gelişmeler bu yönde izlenmelidir.
+- `2070539211548082317` 2026-06-26 | ana_atif=koc(0.97) | abone_yazar=abone(0.2) | Şu an sen TRUMP olarak, aynısını yapıyorsun. Fark yok...  Adamın ülke kurunu eziyorsun.  Daha düne kadar #DXY zayıflatıp, bu da yetmiyor gibi, #petrolü gazlıyor
+- `2070537327231816153` 2026-06-26 | ana_atif=koc(0.72) | abone_yazar=abone(0.95) | Ben geçen sene ABD borsalarına o kadar #short oynadım.  #DXY çıkması gerekiyordu inadına zayıflattın.  #Shortlar patladı.  #EUR short oynuyorduk, bir sene bekle
+- `2070528809833570486` 2026-06-26 | ana_atif=koc(0.95) | abone_yazar=belirsiz(0.45) | Umarım duygu geçti...  Avrupa tarafı bu konuda haklıdır.  Biden zaten kazık attı. Bir de TRUMP atarsa...
+- `2070524530326446393` 2026-06-26 | ana_atif=koc(0.92) | abone_yazar=abone(0.23) | Kasım da seçim var deyip, taviz istiyorlar. Ama ülke kurlarınıda ezmeyi ihmal etmiyorlar.  Geçen sene neden ezmedin ?  Geçen sene #DXY kaldırıp, #enflasyonu ned
+- `2070522111618117769` 2026-06-26 | ana_atif=koc(1.0) | abone_yazar=abone(0.13) | ABD nin normalde geçen sene #DXY kaldırması gerekiyordu, #enflasyonla mücadele etmesi gerekiyordu.  Şimdi mi #enflasyonu düşürmek #dxy yukarı çekmek aklına geld
+- `2070519904843760012` 2026-06-26 | ana_atif=koc(0.45) | abone_yazar=abone(0.31) | Seçimi atlattıktan sonra kapris yapmayacağının garantisi var mı ?  Bu da işte = Temmuz #NATO görüşmesi..
+- `2070519295864435144` 2026-06-26 | ana_atif=koc(0.51) | abone_yazar=belirsiz(0.69) | Bunlar ne şiş yansın ne kebap diyorlar. Öyle bir dünya kalmadı..
+- `2070519158563803570` 2026-06-26 | ana_atif=koc(0.91) | abone_yazar=abone(0.81) | ABD de adaletsiz. Hem seçim düşünüyorlar ! Hem de siyaset.  Daha geçen aya kadar #petrolü azdırıyordun, parayı sadece ABD #BORSALARINA akıtıyordun.  Ne oldu ne 
+- `2070518627334275167` 2026-06-26 | ana_atif=koc(0.74) | abone_yazar=abone(0.02) | #Kriptocular olayı anladı mı ?  ABD istese de artık dünyada tek başına  söz sahibi değil.  Eski dünya düzeni kalmadı.
+- `2070517901874897076` 2026-06-26 | ana_atif=koc(0.78) | abone_yazar=abone(0.21) | Otomatik Avrupa ne diyor ? Sen bana böyle gelirsen bende #kriptoyu baltalarım...  Masaya oturuyor.
+- `2070515574929588277` 2026-06-26 | ana_atif=aktarim(0.46) | abone_yazar=koc(0.74) | Ülkelerde ikinci kez tongaya düşmemek için, #kripto tarafında önlem alıyorlar.  Yani diyorlar ki;  #doları seçim için zayıflatacaksanız her yere adil yansımalı.
+- `2070498232757572055` 2026-06-26 | ana_atif=koc(0.98) | abone_yazar=abone(0.24) | Piyasa dönüp dolaşıp FED ağlamayacak mı ?  Ona ağlayacaktır.  O halde ?
+- `2069914950210896066` 2026-06-25 | ana_atif=koc(0.89) | abone_yazar=belirsiz(0.14) | Ben diyorum Avrupa kalleş bir oluşum.
+- `2069914310860529796` 2026-06-25 | ana_atif=aktarim(0.39) | abone_yazar=koc(0.58) | #EUR düştükçe halk #kriptoya giriyor deyip engel olmuşlar.
+- `2069912342674948466` 2026-06-25 | ana_atif=koc(0.91) | abone_yazar=abone(0.23) | Bugün Avrupa tarafından #kripto ile ilgili negatif  haberler düştü, değil mi ?  Peki hiç merak edip neden şimdi ?  Hiç dönüp sağa sola baktınız mı ?  Yoksa sade
+- `2069188637556658413` 2026-06-23 | ana_atif=koc(0.36) | abone_yazar=abone(0.48) | Buyurun nereye odaklanmışlar ?
+- `2069013198171262984` 2026-06-22 | ana_atif=koc(0.95) | abone_yazar=abone(0.84) | Yani faiz indiğinde #gümüş yatırımı yapan zaten kazanacaktı...  ÇİN olarak sen neden araya giriyorsun ? Amacın nedir ?  Bence bunu sorguluyorlar.
+- `2069012742585938425` 2026-06-22 | ana_atif=koc(0.95) | abone_yazar=abone(0.78) | Örnek;  bugün #gümüş yatırımı yapan bir kişi, ABD #FAİZ indirseydi bundan pozitif  nemalanamaz mı ?  Nemalanır değil mi ?  ÇİN tarafının #gümüş demesine lüzum v
+- `2069007925985550724` 2026-06-22 | ana_atif=yok(0.34) | abone_yazar=koc(0.1) | Enflasyona ne sebep oluyor ? Rusya Ukrayna savaşı.  Bu tarafı da barıştıracağım, elimden geleni yapacağım.  Enflasyonu da söz durduracağım.  Anlaşılmayan var mı
+- `2069007514230804546` 2026-06-22 | ana_atif=aktarim(0.54) | abone_yazar=koc(0.69) | Yeni birisi geliyor, diyor ki;  geçmişteki hataları unutun size kendimi affettireceğim.  Faiz indirmek istiyorum.  Ben faiz indirdiğimde sizin elinizdeki varlık
+- `2069006772925309299` 2026-06-22 | ana_atif=koc(0.39) | abone_yazar=abone(0.06) | Yani şöyle düşün.  Eski hükümet diğer ülkelerin hakkını yemiştir. Doları güçlü tutmuştur ve diğer ülkeleri ezmiştir.  Buraya kadar okey miyiz ?
+- `2069003692146082074` 2026-06-22 | ana_atif=aktarim(0.6) | abone_yazar=koc(0.28) | Adam sadece bana kafa tutmayın diyor. Ben size #dolarla gelmedim diyor. TRUMP #DOLARLA dünyayı ezdi mi ?  Ezmedi ki.  Faizler inmeli dedi.  Size karşı #dolar gü
+- `2068999739006169458` 2026-06-22 | ana_atif=koc(0.94) | abone_yazar=abone(0.91) | Beni neden beklediniz ?  Adam bol kepçe faiz indirmiştir veya ETF ler havada uçuşmuştur sesini çıkartmamışsın.  Yeni yönetim geldi deyip kapris yapıyorsun.
+- `2068998250112115172` 2026-06-22 | ana_atif=koc(0.61) | abone_yazar=abone(0.84) | Peki TRUMP bu haksızlığı biliyorsa, #doları zayıflatsın dediğinizi duyar gibiyim.  Ama burada sorun şudur;  ABD doları zayıflatırken, diğer ülkelerin tutumu ne 
+- `2068995845966500278` 2026-06-22 | ana_atif=koc(0.72) | abone_yazar=abone(0.32) | Ben şu flood içinde derdi aslında anlattım.
+- `2068993852380246104` 2026-06-22 | ana_atif=aktarim(0.4) | abone_yazar=koc(0.44) | ABD de diyor ki;  savaşlar var ve ben faiz deyip, dünyanın yükünü çekemem.  Paramı da sizlere ezdirmem. Başlıyor bu ülkelerle gerginliğe savaşa..  Dünyadan #dol
+- `2068993275772490224` 2026-06-22 | ana_atif=aktarim(0.45) | abone_yazar=koc(0.3) | Burada önemli olan kim haklı, kim haksız ? Yorumu size bırakıyorum.  Diğer ülkelerde rezerv olarak #ALTIN #GÜMÜŞ veya #kıymetli madenler var.  Adamlar diyor ki;
+- `2068988300753326119` 2026-06-22 | ana_atif=yok(0.41) | abone_yazar=koc(0.34) | İnsanlar bu soruların cevabını aramadığı sürece, zaman kaybetmeye devam ederler.  Çünkü kimse sorunun özüne inmiyor.
+- `2068987815304528383` 2026-06-22 | ana_atif=koc(0.94) | abone_yazar=abone(0.73) | Adamlar #doları zayıflatırken bu zayıflığı niçin dünyaya sunmuyorlar ?  Sende bundan nemalan niçin demiyor ?
+- `2068987539554193855` 2026-06-22 | ana_atif=koc(0.98) | abone_yazar=abone(0.75) | Adamlar #doları zayıflatıyor ama, bu para sadece ABD borsalarına akıyor.  Niçin diğer varlıklara akmıyor ? Önemli olan budur.  Altında yatan neden nedir ?
+- `2068986266884923575` 2026-06-22 | ana_atif=koc(0.94) | abone_yazar=abone(0.83) | Neden böyle yapıyorlar ? Neden savaş çıkartıyorlar ? Çözemedikleri nedir ?  Neden piyasalar da herkes mutsuz ? Neden ABD #DOLARI bir tek ABD borsaları üzerinden
+- `2068091785495072943` 2026-06-20 | ana_atif=koc(1.0) | abone_yazar=abone(0.22) | BTC/OTHERS.D  10.6 İken BTC satıp coinlere bence döndüler. Ama fiyat olarak bakıyorsak BTC düştüğü için kriptolar fiyat olarak negatif etkileniyorlar.
+- `2068089989393494122` 2026-06-20 | ana_atif=koc(1.0) | abone_yazar=abone(0.13) | Abicim;  kar zarar bazen bakış açısına göre değişir. Fiyat her daim önemli değildir.  #others.d grafiğine bakarsan, #BTC ye karşı yükseldiğini görürsün.  Örnek;
+- `2068073792417476708` 2026-06-19 | ana_atif=koc(0.93) | abone_yazar=abone(0.43) | #EURUSD   Mal gidiyor yıl 2024.. Gel de sinirlenme....  Zorla #faiz inemez diyorlar baskılıyorlar. Tamam haklısınız ama #bitcoin ETF nedir ? Doları ona neden ez
+- `2068070190735049136` 2026-06-19 | ana_atif=koc(0.98) | abone_yazar=abone(0.87) | @cllatalay @sesbuzusturecci @Haincostoc1 @aouzumcu @ibrahimbasak21 @Omrshn191 @economybors35 @HamidYilmaz07 Sen faiz diye diye beni baskıla ama bitcoin ETF ver.
+- `2068068686653469041` 2026-06-19 | ana_atif=koc(0.98) | abone_yazar=abone(0.4) | Ben #gbp almışım veya #eur dipten bunlar faiz diyor beni baskılıyor.  Ama öbür taraftan #bitcoine ETF veriyor doları dövdürüyor.  Haksızlık burada döndü işte...
+- `2068066433708315068` 2026-06-19 | ana_atif=koc(0.96) | abone_yazar=abone(0.42) | Aldım işte... BİDEN yüzüne tutamadık ki.. Zorla faiz deyip baskıladı.  Malum #swap var tutulmuyor.  Ondan şikayet ediyorum ya..  Fiziki tutuyorum ama.
+- `2068064428658995637` 2026-06-19 | ana_atif=koc(1.0) | abone_yazar=abone(0.35) | Net iyi olurdu. Faizler inmeliydi.  Bir şokla varlıklar sert yukarı giderdi, tepeden para şakır şakır, ABD dolarına dönerdi.  Denge sağlanırdı.  Niçin yapamadıl
+- `2068060952843452513` 2026-06-19 | ana_atif=koc(0.91) | abone_yazar=abone(0.73) | 2025 başında #enflasyon 2.6  indirsene faizleri ne bekliyorsun ? #NASDAQ 16 K ya düştü.. İndirmen gerekiyordu.  İndirmem deyip bu inat nedir ?
+- `2068054081822736884` 2026-06-19 | ana_atif=koc(0.99) | abone_yazar=abone(0.4) | @sesbuzusturecci @cllatalay @Haincostoc1 @aouzumcu @ibrahimbasak21 @Omrshn191 @economybors35 @HamidYilmaz07 2022 de savaş çıktı ben direkt #EUR aldım. Biden ben
+- `2068051810506404346` 2026-06-19 | ana_atif=koc(0.56) | abone_yazar=abone(0.7) | Senden sonra gelen başkan her kimse dünyayı ikna edemezse EK savaş çıkar sen bunu bilmiyor musun ?
+- `2068051410806059254` 2026-06-19 | ana_atif=koc(1.0) | abone_yazar=abone(0.32) | Bunlar haftalık grafikler. Derdimi anlayın.. Her mum bir haftadır.  Faizle #DXY güçlü tut.. Ülke kurları emtia alayını baskıla... ETF ile coinleri baskıla...  A
+- `2068047667381375414` 2026-06-19 | ana_atif=koc(0.68) | abone_yazar=abone(0.68) | Gerçekten soruyorum ! Bu haksızlık değil de nedir ?
+- `2068046592108532089` 2026-06-19 | ana_atif=koc(0.97) | abone_yazar=abone(0.67) | Sen 2024 de seçim var deyip, #coin #pariteler #emtia baskılamayıp, kendi borsana paralel yukarı verseydin, bir şey kaybetmezdin.  Gerektiğinde yeni başkan gelin
+- `2068045762273939849` 2026-06-19 | ana_atif=koc(0.95) | abone_yazar=belirsiz(0.28) | 2023 2024 de çok ciddi haksızlıklar oldu.  Kolay kolay temizlenmiyor.
+- `2068042083852501440` 2026-06-19 | ana_atif=koc(0.95) | abone_yazar=belirsiz(0.31) | Demek ki şu çizgi bizim hakkımız olan marjdı bizden çalındı..  Bir gün buraya döndüğümüzde sadece hakkımızı almış olacağız..
+- `2068038763003965696` 2026-06-19 | ana_atif=koc(0.78) | abone_yazar=belirsiz(0.5) | @sesbuzusturecci @cllatalay @Haincostoc1 @aouzumcu @ibrahimbasak21 @Omrshn191 @economybors35 @HamidYilmaz07 2024 ETF kazığı...
+- `2068035843999052262` 2026-06-19 | ana_atif=koc(0.99) | abone_yazar=abone(0.11) | Ben hep şunu savundum;  ABD dolarına karşı varlıkları izlemekle bu işten  kimse kurtulamaz.  Sen daha kırılgan ülke paralarına kafa tutamıyorsun, ABD parasına, 
+- `2068009823824678994` 2026-06-19 | ana_atif=koc(0.99) | abone_yazar=abone(0.33) | Abi çıkmıyor ! Kardeşim o robotları yukarı  tetikleyecek haber dinamiği  olmadan nasıl çıksın ?  Petrol kendi başına mı  çıktı ?  Dinamik geliyor sonra çıkıyor.
+- `2067944555580731522` 2026-06-19 | ana_atif=koc(0.84) | abone_yazar=abone(0.67) | @karacantolga67 @ibrahimbasak21 @Haincostoc1 @warriorvilno @cllatalay @SerkanINAR31323 @hrglml @aouzumcu @Omrshn191 @economybors35 @HamidYilmaz07 Bunlar hep esk
+- `2067943992067506453` 2026-06-19 | ana_atif=koc(0.87) | abone_yazar=belirsiz(0.27) | @karacantolga67 @ibrahimbasak21 @Haincostoc1 @warriorvilno @cllatalay @SerkanINAR31323 @hrglml @aouzumcu @Omrshn191 @economybors35 @HamidYilmaz07 Benim pencerem
+- `2067941980030603295` 2026-06-19 | ana_atif=koc(0.51) | abone_yazar=belirsiz(0.84) | 2021
+- `2067935567476650076` 2026-06-19 | ana_atif=koc(0.63) | abone_yazar=belirsiz(0.28) | @Haincostoc1 @karacantolga67 @warriorvilno @cllatalay @SerkanINAR31323 @hrglml @aouzumcu @ibrahimbasak21 @Omrshn191 @economybors35 @HamidYilmaz07 Ben hep yazıyo
+- `2067934649435689219` 2026-06-19 | ana_atif=koc(1.0) | abone_yazar=abone(0.1) | Bu döngüde asıl kazanan kim ?  = Avrupa   Her türlü parası kıymetleniyor.
+- `2067929880025575760` 2026-06-19 | ana_atif=aktarim(0.39) | abone_yazar=koc(0.62) | Bu döngü sürdürülüyor  gittiği yere kadar diyorlar
+- `2067925590909346150` 2026-06-19 | ana_atif=koc(0.99) | abone_yazar=belirsiz(0.07) | @Haincostoc1 @karacantolga67 @warriorvilno @cllatalay @SerkanINAR31323 @hrglml @aouzumcu @ibrahimbasak21 @Omrshn191 @economybors35 @HamidYilmaz07 Bence ilk dert
+- `2067924301630644250` 2026-06-19 | ana_atif=koc(1.0) | abone_yazar=abone(0.09) | @warriorvilno @cllatalay @SerkanINAR31323 @hrglml @Haincostoc1 @aouzumcu @ibrahimbasak21 @Omrshn191 @economybors35 @HamidYilmaz07 Aldık kazandık..  Satıp nereye
+- `2067923865578148147` 2026-06-19 | ana_atif=koc(0.91) | abone_yazar=abone(0.45) | @warriorvilno @cllatalay @SerkanINAR31323 @hrglml @Haincostoc1 @aouzumcu @ibrahimbasak21 @Omrshn191 @economybors35 @HamidYilmaz07 Tamam o halde hepimiz  alalım 
+- `2067921725065400451` 2026-06-19 | ana_atif=koc(0.31) | abone_yazar=abone(0.85) | M.B emtia derse oraya yatırımcı gelir mi ?  Sen direkt yastık altına yatırım yap diyorsun
+- `2067921486887662016` 2026-06-19 | ana_atif=koc(1.0) | abone_yazar=abone(0.77) | Çin borsası çok kez burada  grafiğini gördük..  Hala 2020 değerinde.  Sen orada yatırımcı olsan  sıkılmaz mısın ?  Kripto gibi ölü gibi yatıyor.
+- `2067920072656527851` 2026-06-19 | ana_atif=koc(0.78) | abone_yazar=abone(0.83) | O para piyasaya nasıl dönecek ?  Bankaların kasasına nasıl  geri dönecek ?  Tüm M.B ları faiz mi arttıracak ?  Ekonomiler faiz batağına mı saplanacak ?  Faiz va
+- `2067917796915257430` 2026-06-19 | ana_atif=koc(0.98) | abone_yazar=abone(0.04) | Herkes emtia alırsa piyasaların ihtiyacı olan parayı kim verecek ?  Soru budur;  Hadi cevap arayalım.
+- `2067916529098723360` 2026-06-19 | ana_atif=koc(0.79) | abone_yazar=belirsiz(0.19) | @warriorvilno @cllatalay @SerkanINAR31323 @hrglml @Haincostoc1 @aouzumcu @ibrahimbasak21 @Omrshn191 @economybors35 @HamidYilmaz07 ABD nin ne kadar dolar borcu v
+- `2067913180945285166` 2026-06-19 | ana_atif=koc(0.91) | abone_yazar=abone(0.64) | Her devlet para basar.  Virüste hepsi bastı.  Bu basılan paralar gün sonunda nereye gider ?  Örnek; Çin de para bastı ABD de para bastı.  İkisi de aynı oranda b
+- `2067909772850987487` 2026-06-19 | ana_atif=koc(0.36) | abone_yazar=belirsiz(0.24) | Aynen öyle..  Objektif sohbet edemiyoruz.  Çünkü herkes elindeki poza  göre duygusal oluyor.
+- `2067908934183055817` 2026-06-19 | ana_atif=koc(0.98) | abone_yazar=belirsiz(0.21) | @SerkanINAR31323 @hrglml @cllatalay @Haincostoc1 @aouzumcu @ibrahimbasak21 @Omrshn191 @economybors35 @HamidYilmaz07 Savaşlar hep vardı ama BTC ile gizleniyordu.
+- `2067907126861717633` 2026-06-19 | ana_atif=koc(0.65) | abone_yazar=abone(0.46) | @SerkanINAR31323 @hrglml @cllatalay @Haincostoc1 @aouzumcu @ibrahimbasak21 @Omrshn191 @economybors35 @HamidYilmaz07 Sen uyanıklık hapmışsın  mevduat deyip garan
+- `2067906846707392913` 2026-06-19 | ana_atif=koc(1.0) | abone_yazar=belirsiz(0.3) | @SerkanINAR31323 @hrglml @cllatalay @Haincostoc1 @aouzumcu @ibrahimbasak21 @Omrshn191 @economybors35 @HamidYilmaz07 Savaş durgunluğa neden olur..  İnsanlar önün
+- `2067901412348932452` 2026-06-19 | ana_atif=koc(0.53) | abone_yazar=belirsiz(0.31) | @SerkanINAR31323 @hrglml @cllatalay @Haincostoc1 @aouzumcu @ibrahimbasak21 @Omrshn191 @economybors35 @HamidYilmaz07 Çözüm; uzlaşı, anlaşma   Bu olana kadar da z
+- `2067881843639099607` 2026-06-19 | ana_atif=yok(0.35) | abone_yazar=koc(0.31) | @mahmutsarikayaa @Haincostoc1 @aouzumcu @ibrahimbasak21 @cllatalay @Omrshn191 @economybors35 @HamidYilmaz07 Ya da adam gibi kafa tutun.  Nokta itirazlarınız ols
+- `2067877653328036072` 2026-06-19 | ana_atif=koc(0.82) | abone_yazar=abone(0.18) | Borsayı da nerede kilitliyorlar ?  30600   ABD de bugün kapalı.  #nasdaq
+- `2067876910789525784` 2026-06-19 | ana_atif=yok(0.33) | abone_yazar=koc(0.49) | Hemen birileri Rusya Ukrayna savaşını kaşıdı.  Bu kafayla daha çok yorarlar.
+- `2067876486644683225` 2026-06-19 | ana_atif=haber(0.61) | abone_yazar=koc(0.24) | Petrol 76 dolara gelince  ABD İran görüşmeleri  iptal oldu dediler.
+- `2067739766393626906` 2026-06-19 | ana_atif=koc(0.81) | abone_yazar=abone(0.74) | Bu FED yaklaşımı doğru mu ? 2024 yılında...  Olur mu öyle !
+- `2067738963461202113` 2026-06-19 | ana_atif=aktarim(0.66) | abone_yazar=koc(0.4) | @ibrahimbasak21 @cllatalay @Omrshn191 @economybors35 @HamidYilmaz07 Sen #bitcoin i alıyorsun #doları bir tek bu ezebilir diyorsun, #ETF veriyorsun. Borsana ente
+- `2067738286035022180` 2026-06-19 | ana_atif=koc(0.98) | abone_yazar=abone(0.59) | @ibrahimbasak21 @cllatalay @Omrshn191 @economybors35 @HamidYilmaz07 Bu #EUR grafiği haftalıktır. Kaç hafta zorla baskılamışsın.. Adamın ülke kurunu 2024 de ezmi
+- `2067737303389180083` 2026-06-19 | ana_atif=koc(0.99) | abone_yazar=abone(0.03) | Buralarda işte hak yendi.  Diğer ülkelerin isyanı bence bunadır.  #BTC ETF veriyorsun ama kurları baskılıyorsunuz veya #emtia kanadını...
+- `2067732456539553894` 2026-06-19 | ana_atif=koc(0.88) | abone_yazar=belirsiz(0.4) | Böyle devasa bir zaman geçirme ben görmedim. Bıktırana kadar uğraşıyorlar.
+- `2067713432757973467` 2026-06-18 | ana_atif=aktarim(0.36) | abone_yazar=koc(0.33) | @cllatalay @Omrshn191 @economybors35 @HamidYilmaz07 Birileri çıkıyor diyor ki;  ABD borsaları ne zaman sendeler ?  Birileri çıkıyor diyor ki;  kriptolar ne zama
+- `2067707915826311345` 2026-06-18 | ana_atif=koc(0.99) | abone_yazar=abone(0.24) | Adamlar seçim ayağına 52 hafta prim yaptı #BTC yi kullandı ses çıkartmadın.  Üç kuruş faize tav oldun. ABD faiz indirimlerine ses çıkartmadın. ETF lere ses çıka
+- `2067706885399056750` 2026-06-18 | ana_atif=koc(0.93) | abone_yazar=abone(0.58) | 2023 2024 de kapris yapsaydın  ABD seçime bari sıkıntılı girseydi.  Bizimde borsa satışlar kar yazsaydı.  Bu taraftan da kızıyorum.
+- `2067704553231745302` 2026-06-18 | ana_atif=koc(0.99) | abone_yazar=abone(0.25) | Ama ÇİN de şurada haksız.  2025 den önce fırsatın vardı, neden yapmadın ? ABD yüksek faiz veriyordu...  Faiz tatlıydı. İnecek deyince açık aradın.
+- `2067701458175213756` 2026-06-18 | ana_atif=koc(0.92) | abone_yazar=abone(0.26) | @Omrshn191 @economybors35 @HamidYilmaz07 Soruyorum nasıl olacak ? Elin mahkum anlaşacaksın. Anlaşmazsan birileri ezilecek.
+- `2067700295472189689` 2026-06-18 | ana_atif=aktarim(0.86) | abone_yazar=koc(0.64) | Adam diyor ki;  benim enflasyona ihtiyacım var, bunu emtia üzerinden karşılamak istiyorum.  #gümüş demek istiyorum diyor.  Bu da ABD enflasyonunu azdırıyor ABD 
+- `2067697453348876290` 2026-06-18 | ana_atif=koc(0.92) | abone_yazar=belirsiz(0.3) | Trump da göremezsen hiç bir kişi de göremezsin.  Bu adam dışında doları zayıflatan olmaz ki.
+- `2067694994832445554` 2026-06-18 | ana_atif=koc(1.0) | abone_yazar=abone(0.23) | Mantık basittir.  Son çeyreğe bu 86 lira üstünde girerse, ve ABD seçim geldi deyip sağa sola taviz verirse, bu ne olur ?  Yukarı dönmez mi ?   Döner değil mi ?
+- `2067682688383750638` 2026-06-18 | ana_atif=koc(0.97) | abone_yazar=belirsiz(0.24) | @economybors35 @HamidYilmaz07 Mücadele edemiyorsanız kenara durun, milleti finansal piyasalar da bari ezdirtmeyin.  ÇİN için konuşuyorum. Susup susup yılın ikin
+- `2067681115947573479` 2026-06-18 | ana_atif=koc(0.99) | abone_yazar=abone(0.39) | ABD ile ÇİN görüşüyor #NASDAQ 7000 PUAN çıkıyor ama ÇİN borsası hala aynı..  Böyle anlaşma mı olur ?
+- `2067680015379001781` 2026-06-18 | ana_atif=koc(0.76) | abone_yazar=belirsiz(0.53) | Putin kurtardı. 2025
+- `2067665359990104456` 2026-06-18 | ana_atif=koc(0.3) | abone_yazar=abone(0.38) | @HamidYilmaz07 Peşin peşin ben coşmayacağım diyen kaç kişi var ?
+- `2067665005567160787` 2026-06-18 | ana_atif=koc(0.88) | abone_yazar=belirsiz(0.2) | @HamidYilmaz07 Yarın öbür gün sağı solu gazlasın yine millet coşar.  Coşmayacak diyen yalan söyler. Ben coşmam mesela...
+- `2067664108762095760` 2026-06-18 | ana_atif=koc(0.96) | abone_yazar=abone(0.23) | Bir yılı açtı #DXY 10 puan düşürüldü sistem para çekmiyorsa kim ne yapabilir ?
+- `2067663339484807271` 2026-06-18 | ana_atif=koc(0.97) | abone_yazar=belirsiz(0.37) | Adam resmen milleti zengin etti. Bir coinlere para girmedi.  O da ETF yüzünedir.  BTC desen de piyasa ilerlemiyor. Piyasanın eski dinamiğini birileri ETF ler il
+- `2067662967190044704` 2026-06-18 | ana_atif=koc(0.74) | abone_yazar=abone(0.68) | @hrglml @HamidYilmaz07 Aynı kafadayız..  Neresi olsa short düşünüyorsun :))
+- `2067661730486833334` 2026-06-18 | ana_atif=koc(1.0) | abone_yazar=belirsiz(0.1) | @cllatalay @HamidYilmaz07 Bir yıldır #short oynayanların içinden geçildi. Kim sayesinde ?  TRUMP   Adam susmuş olsa FED sağı solu zaten düşürürdü.
+- `2067660676101714335` 2026-06-18 | ana_atif=koc(0.72) | abone_yazar=abone(0.13) | Aynen öyle...  Bu adamlar orijinalde long oynayana zarar vermedi ki..  Dönem dönem hepsini gazladılar.
+- `2067659782345937220` 2026-06-18 | ana_atif=koc(1.0) | abone_yazar=belirsiz(0.16) | Düzeltmeler gelince herkes ağladı. Bence TRUMP döneminde asıl parayı long oynayanlar götürdü.  Bunu da kimse inkar edemez.
+- `2067657964475854933` 2026-06-18 | ana_atif=koc(0.45) | abone_yazar=belirsiz(0.72) | @HamidYilmaz07 28 Kasım 2025
+- `2067657889687220286` 2026-06-18 | ana_atif=koc(0.52) | abone_yazar=belirsiz(0.75) | @HamidYilmaz07 15 Kasım 2025
+- `2067657815288656307` 2026-06-18 | ana_atif=koc(0.39) | abone_yazar=belirsiz(0.81) | @HamidYilmaz07 18 Ağustos 2025
+- `2067655588167733562` 2026-06-18 | ana_atif=koc(0.38) | abone_yazar=belirsiz(0.59) | Bu da bir dert...
+- `2067655297833857429` 2026-06-18 | ana_atif=koc(0.96) | abone_yazar=abone(0.87) | Siz benim hiç #btc #ALTIN #GÜMÜŞ  alıyorum dediğimi duydunuz mu ?  Koca sene short oynadım ama, ne zaman oynasam yukarı sekti.  Yılım harap oldu.
+- `2067654951933780024` 2026-06-18 | ana_atif=koc(0.94) | abone_yazar=abone(0.6) | Biz yemiyoruz da, ne oluyor ? Gel bir de, bizi dert olarak dinle..  #gümüş diyorlar 3 ayımız bunu izlemekle geçiyor #BTC diyorlar 3 ayımız bunu izlemekle geçiyo
+- `2067652765929607333` 2026-06-18 | ana_atif=koc(0.97) | abone_yazar=abone(0.35) | @HamidYilmaz07 Belki de bir döngü genel anlamda son buldu nereden biliyoruz ?
+- `2067651340726129095` 2026-06-18 | ana_atif=koc(0.99) | abone_yazar=abone(0.19) | @HamidYilmaz07 #gümüş gibi varlıklar bir de düştüğü an 5 10 yıl belini doğrultamıyor.  Ya millet tepeden aldıysa elinde kaldıysa ?
+- `2067645777883836830` 2026-06-18 | ana_atif=koc(0.88) | abone_yazar=abone(0.08) | Para falan vermezler.  "FED bizim Merkez Bankamız" der, işin içinden çıkarlar.  Git #BOE, #BOJ ya da #ECB'den iste derler veya başka M.B larından...  Hem bana #
+- `2067644150715945424` 2026-06-18 | ana_atif=koc(0.81) | abone_yazar=abone(0.62) | Resmen diyorlar ki;  gidin #ALTIN #GÜMÜŞ sevdiğiniz varlıklarla oyalanın.  Biz #borsacıyız diyorlar.  Kripto neden cezalandırılıyor ? Dünya halkında bunlar var.
+- `2067621380544237830` 2026-06-18 | ana_atif=yok(0.51) | abone_yazar=koc(0.28) | @cllatalay @simslatif @enternasyonalzm #ETH.D
+- `2067608148454654420` 2026-06-18 | ana_atif=koc(0.89) | abone_yazar=belirsiz(0.19) | Bu kadar basit olmamalı bu işler. Eldeki pozisyona göre karar vermek, düşünmek..
+- `2067603069479551241` 2026-06-18 | ana_atif=koc(0.97) | abone_yazar=abone(0.62) | Enflasyonum azıyor, demeye hakkın yok.  Sen 2024 de #DXY ni tepede tutup, ülke kurlarını ezerken, diğer ülkelerin #enflasyonu ne olacak deyip bu kadar  hassas m
+- `2067600152831864868` 2026-06-18 | ana_atif=koc(0.32) | abone_yazar=abone(0.37) | He şu ayrı konu...  Senin 2024 deki yarattığın mağduriyeti ben #doları zayıflatarak gidermek istediğimde, bana ülkeler #kapris yaparsa !  Bu da ek savaşa girer.
+- `2067598956951986405` 2026-06-18 | ana_atif=aktarim(0.65) | abone_yazar=koc(0.18) | Adam o dolar zayıflayacak diyorsa zayıflamalıdır.  Milletin hakkını vermek zorundasın.
+- `2067598796406612311` 2026-06-18 | ana_atif=koc(1.0) | abone_yazar=abone(0.38) | 2024 #FED politikaları tüm dünyayı mağdur etmedi mi?  Yüksek faizle #emtia baskılandı, ülkelerin #rezervleri eridi, ülke #kurları sert darbe alıp, faizler yükse
+- `2067597475351765070` 2026-06-18 | ana_atif=koc(0.82) | abone_yazar=abone(0.71) | Sen FED olarak tüm dünyayı 2024 de mağdur et..   Bugün gel #enflasyondan bahset..
+- `2067596812819587467` 2026-06-18 | ana_atif=koc(0.96) | abone_yazar=abone(0.57) | Sen;   2024 yılında #DXY 110 da tutuyorsun, yüksek faizle #emtia kanadını eziyorsun.  Ülkelere #haksızlık yapıyorsun.  #BTC ETF verip, tüm #coinleri ezdiriyorsu
+- `2067595355768738214` 2026-06-18 | ana_atif=koc(0.99) | abone_yazar=abone(0.76) | Madem FED olarak bu kadar dürüsttün 2024 de yüksek faiz ile #ALTIN #GÜMÜŞÜ baskılarken #BTC ETF lerine de onay verdirtmeseydin.  İkisini de baskılasaydın #enfla
+- `2067595099085648346` 2026-06-18 | ana_atif=koc(0.99) | abone_yazar=abone(0.94) | 2024’te #DXY 110 seviyesindeyken ve #faizler yüksekken,  #altın ve #gümüş baskılanırken, adamlara neden gol attın ?  #BTC ve #ETH ETF’leri üzerinden likidite yö
+- `2067594150245961886` 2026-06-18 | ana_atif=koc(0.98) | abone_yazar=abone(0.94) | Neden adamların eline koz verdin ?  Faizi yüksek tutup, #emtia kanadını niçin baskıladın ?   #BTC ETF lerini niçin verdin ?
+- `2067593802378813913` 2026-06-18 | ana_atif=koc(0.99) | abone_yazar=abone(0.92) | FED de haksız..  Madem öyle 2024 seçim sürecinde frene basacaktın...  Niçin basmadın ?   Niçin #BTC #ETH ETF verip #emtia kanadını baskıladın ?
+- `2067589053369774561` 2026-06-18 | ana_atif=koc(0.61) | abone_yazar=abone(0.1) | Kafasında büyük resim fotoyu çekemeyen hala var mı ?
+- `2067587220957974780` 2026-06-18 | ana_atif=koc(0.87) | abone_yazar=abone(0.49) | Trump neden 67800 ü önemser ?  #SAVAŞ değeridir. O siyaseti baz alır.
+- `2067586307165925867` 2026-06-18 | ana_atif=koc(0.43) | abone_yazar=abone(0.24) | Size başka bir twet göstereyim.  Trump nereyi önemsiyor ? FED nereyi önemsiyor ?
+- `2067575514303275187` 2026-06-18 | ana_atif=yok(0.39) | abone_yazar=koc(0.78) | @simslatif @enternasyonalzm Gittiler 2026 Temmuz ayına #nato görüşmesi koydular.
+- `2067573441205535138` 2026-06-18 | ana_atif=koc(0.91) | abone_yazar=belirsiz(0.42) | Bence DİĞER ülkeler yine işin rengini belirleyecek. Onların kararları etkili olacak..  ABD de bence buna göre yol çizecek.
+- `2067567181785698764` 2026-06-18 | ana_atif=koc(0.69) | abone_yazar=abone(0.16) | İşte adamların kafa budur.  Kardeşim şu #emtia ile beni zorlamayı bırakın.  Doydunuz tamam demek istiyorlar.
+- `2067557663349612961` 2026-06-18 | ana_atif=koc(0.84) | abone_yazar=abone(0.72) | Adam senin #borsana bakıyor ve bir yıldır ilerlemediğini görüyor.  Para buraya girmiyorsa vermenin ne anlamı var ? #KRİPTO da ilerlemiyor.  Bir yıldır #ALTIN #G
+- `2067553517863121294` 2026-06-18 | ana_atif=koc(0.65) | abone_yazar=belirsiz(0.36) | Avrupa bölgesine şu an verilen mesaj bence net;  ABD diyor ki, "Para mara yok, herkes kendi başının çaresine baksın."
+- `2067553130498142517` 2026-06-18 | ana_atif=koc(0.99) | abone_yazar=abone(0.51) | @tyaltunok @enternasyonalzm Bu tarz soruların cevabı 1.14 bölgesi mi ? Bir mal yükselirken kaçılır, düşerken toplanır.
+- `2067400135999455662` 2026-06-18 | ana_atif=koc(0.97) | abone_yazar=abone(0.45) | Siz de şu var #nasdaq buraya gider mi ? Eder mi ?  Abicim bu adamların elinde tek borsa o değildir. Birinin pili bitse, diğerine geçebiliyorlar.  Diğerini diril
+- `2067399282966094211` 2026-06-18 | ana_atif=koc(0.58) | abone_yazar=abone(0.45) | Kime #nasdaq mı ?  Abicim bekle..
+- `2067396316959826128` 2026-06-18 | ana_atif=koc(0.96) | abone_yazar=abone(0.43) | @btchasreti2023 @ncdtergn10 @eb07777 @HowitzerTR @cllatalay #XAUUSD  Nasıl indiriyorlar ?  Bunlar asla değişmeyecek değerler.
+- `2067393484386951482` 2026-06-18 | ana_atif=koc(0.78) | abone_yazar=belirsiz(0.24) | Bunları unutmayın
+- `2067391635638399287` 2026-06-18 | ana_atif=koc(0.98) | abone_yazar=abone(0.48) | @btchasreti2023 @ncdtergn10 @eb07777 @HowitzerTR @cllatalay O halde 14060 üstünde risk nerede bilmen gerekmiyor mu ?
+- `2067380660122132622` 2026-06-18 | ana_atif=koc(0.98) | abone_yazar=abone(0.85) | Soru şudur; #emtia savundular da ne oldu ?  Kaç gün kazancın hayrını gördüler ? Boşa geçen zaman cabası..
+- `2067373593864909281` 2026-06-18 | ana_atif=koc(0.75) | abone_yazar=abone(0.51) | @HowitzerTR @cllatalay Çin nasıl #enflasyonu 1.2 de tutuyor, ülke kurunu savunuyorsa...  Bende savunuyorum derlerse, dünya ekonomisi parasızlıktan kurur...
+- `2067363572896747775` 2026-06-18 | ana_atif=koc(1.0) | abone_yazar=belirsiz(0.19) | @satsujnsen @HowitzerTR @cllatalay Piyasalar için faizler inmeli veya anlaşmalar gelmeli..  Ülkeler böyle bir birine sırt çevirirse ekonomi mi kalır ? Piyasa mı
+- `2067363023774244974` 2026-06-18 | ana_atif=koc(0.99) | abone_yazar=belirsiz(0.24) | @satsujnsen @HowitzerTR @cllatalay Sizlerde aynı mı bilmiyorum ama şu an ekranlarda sıfır hacim.  Varlıklar donuk bekliyor. Piyasalarda hacim yok ölü gibi..
+- `2067361170483261693` 2026-06-18 | ana_atif=koc(0.76) | abone_yazar=abone(0.57) | Senin için kendimi nereye kadar ezdireyim ? Söyle paramı nereye kadar dövdüreyim ? #ALTIN 10 k mı olsun ?  Ne istiyorsunuz deseler, ülkeler ne cevap verecekler 
+- `2067360422018125880` 2026-06-18 | ana_atif=koc(0.89) | abone_yazar=abone(0.32) | Zaman geçirmekten başka şans var mı ? Zamanla çözülür demekten başka şans var mı ? ÇİN kanadına taviz vermekten başka şans var mı ?  Tamam verelim ama nereye ka
+- `2067360191633338703` 2026-06-18 | ana_atif=koc(0.87) | abone_yazar=abone(0.64) | Şunu deseler dünya ne cevap verecek ?  Anlaşma diyorum olmuyor Faiz desem olmuyor Petrolü masaya koysam olmuyor.  Söyleyin onu yapalım.
+- `2067358891231305851` 2026-06-18 | ana_atif=koc(0.99) | abone_yazar=abone(0.29) | @HowitzerTR @cllatalay Biz de kur 50 lirayı aşarsa ne olur ? İçeride belki de panik başlar.  Otomatik M.B önlem almaya çalışır.  ABD #DOLARINA karşı #ALTIN 5000
+- `2067352786031845847` 2026-06-18 | ana_atif=koc(0.98) | abone_yazar=abone(0.22) | Ömür boyu oturup emtia savaşına faiz savaşına mı girecekler ?  Bir yerde el sıkışırlar.
+- `2067351442742989286` 2026-06-17 | ana_atif=yok(0.31) | abone_yazar=koc(0.41) | @HowitzerTR @cllatalay ABD ÇİN ile gerekirse yakınlaşır. İki büyük ekonomiyiz, gel bir birimizi baltalamayalım derler.  Bunlarında sohbetini yaptık. Olan Avrupa
+- `2067348236998672440` 2026-06-17 | ana_atif=koc(0.9) | abone_yazar=abone(0.6) | @cllatalay Bu çıkıp FED kafasındayım bende artık derse, faizi savunsa ne olacak ?  Ülke kurları sert darbe aldı. Ben size zamanında demedim mi faizler inmeli ne
+- `2067347418664816727` 2026-06-17 | ana_atif=aktarim(0.35) | abone_yazar=koc(0.32) | @cllatalay Yazık günah değil mi ?  ÇİN #EMTİA diyor FED #FAİZ diyor.
+- `2067344605209616386` 2026-06-17 | ana_atif=koc(0.94) | abone_yazar=abone(0.63) | #EMTİA nın ekonomiye ne faydası var ?  Faizden farkı, yok ki.  Birisi banka kasasında parayı hapsediyor, Diğeri yatak odasında...  Piyasadan para çekiliyor.
+- `2067343771214238030` 2026-06-17 | ana_atif=koc(0.81) | abone_yazar=belirsiz(0.1) | @cllatalay Ben adamın #dolar zayıflamalı politikasını doğru buluyorum..  Çin tarafının da #emtia kaprisini anlamıyorum.
+- `2067343291981385852` 2026-06-17 | ana_atif=koc(1.0) | abone_yazar=abone(0.37) | Çözüm şu mu ?  ÇİN #EMTİA deyip bağırsın. #FED faiz deyip bağırsın.  Böyle dünya veya piyasalar nereye varacak  ?   Birisi paranın yastık altına girmesine = #em
+- `2067342873368916478` 2026-06-17 | ana_atif=koc(0.94) | abone_yazar=belirsiz(0.15) | Adam kendi ekonomisini gazlarken bırak dünyayı gazlasın.  Piyasalar canlansın #faiz indirimi deyip bağırsın..   Kime zararı var ?
+- `2067340338675556773` 2026-06-17 | ana_atif=koc(0.89) | abone_yazar=abone(0.4) | @cllatalay #emtia dersin para yastık altına gömülür. #FAİZ dersin mevduata gömülür.  Bunun kime faydası var ?
+- `2067334049966748092` 2026-06-17 | ana_atif=koc(0.86) | abone_yazar=belirsiz(0.32) | Ben zannetmiyorum, TRUMP ona izin vermez. Dünya sorunlu...
+- `2067332855525503437` 2026-06-17 | ana_atif=aktarim(0.45) | abone_yazar=koc(0.74) | Yılın ortası deyip gaz alınır ama TRUMP  izin vermez...  #dolar zayıflayacak der geçer.
+- `2067331818186056129` 2026-06-17 | ana_atif=koc(0.99) | abone_yazar=belirsiz(0.19) | İki yıldır faizler inmeli denildi millet bunu okey haklısınız deyip, olumlu karşılamalıydı...  Ama bence TRUMP izin vermez.
+- `2067271684168589345` 2026-06-17 | ana_atif=koc(1.0) | abone_yazar=belirsiz(0.11) | @SerkanINAR31323 @cllatalay @simslatif @cesurcitak91 @FerhatTasova @mersalihkoc @Haincostoc1 @ibrahimbasak21 ABD zayıf göründükçe de enflasyonu bahane edebilir.
+- `2067258042295431400` 2026-06-17 | ana_atif=koc(0.81) | abone_yazar=abone(0.74) | @SerkanINAR31323 @cllatalay @simslatif @cesurcitak91 @FerhatTasova @mersalihkoc @Haincostoc1 @ibrahimbasak21 2024 sonu ABD #enflasyonu 3 bölgesindeydi FED katı 
+- `2067253290572652561` 2026-06-17 | ana_atif=koc(0.88) | abone_yazar=belirsiz(0.44) | Bu ekonomi işleri biraz karışıktır. ABD çıkıp şunu dese, kimse bir şey diyemez.  Ben de sadece kendi halkımı düşünüyorum  ve ÇİN gibi enflasyonumu düşürmem lazı
+- `2067244709001499097` 2026-06-17 | ana_atif=koc(0.9) | abone_yazar=belirsiz(0.21) | @SerkanINAR31323 @cllatalay @simslatif @cesurcitak91 @FerhatTasova @mersalihkoc @Haincostoc1 @ibrahimbasak21 Çin ekonomisinin yaşadığı sorunları 2015 de veya 20
+- `2067243933478895826` 2026-06-17 | ana_atif=koc(0.81) | abone_yazar=abone(0.16) | @cllatalay @simslatif @cesurcitak91 @FerhatTasova @mersalihkoc @Haincostoc1 @ibrahimbasak21 Trump bu seçim politikası neydi ?  -Avrupa barışı sağlanmalı -FAİZLE
+- `2067241413587222636` 2026-06-17 | ana_atif=koc(0.51) | abone_yazar=abone(0.62) | @cllatalay @simslatif @cesurcitak91 @FerhatTasova @mersalihkoc @Haincostoc1 @ibrahimbasak21 Bunlar ne yaptılar soruyorum ? Avrupa #savaşı bitirmiyorum dedi. ÇİN
+- `2067241207713907004` 2026-06-17 | ana_atif=aktarim(0.63) | abone_yazar=koc(0.46) | Seni adam o dönem ipten aldı faizler inmeli dedi.  Avrupa tarafını da aldı #brexit vardı.  Bu seçim kampanyası neydi ?  Aynı 2015 2016 gibiydi.  #faizler inmeli
+- `2067240763776270727` 2026-06-17 | ana_atif=yok(0.3) | abone_yazar=koc(0.4) | #yapayzeka   2015–2016 döneminde Çin ekonomisi yavaşlıyor,  #emtia fiyatları düşüyor ve küresel büyüme endişeleri artıyordu.   O dönemde Donald Trump henüz başk
+- `2067238944803045747` 2026-06-17 | ana_atif=koc(0.99) | abone_yazar=belirsiz(0.13) | Arada #kriptoların ölmesine yol açıyorsun. Halbuki kapris yapmasalar adamlar para saçacak ekonomiler nefes alacaktı.
+- `2067238423929205145` 2026-06-17 | ana_atif=aktarim(0.39) | abone_yazar=koc(0.62) | Ama adam diyor ki; savaş var  ekonomiler zorda #faizler inmelidir.  Kapris yapmayın.  ÇİN ne diyor ?  Hayır #faiz indiremezsin, #emtia derim.  Soru şudur; kim i
+- `2067229996360319324` 2026-06-17 | ana_atif=aktarim(0.52) | abone_yazar=koc(0.16) | @cllatalay @simslatif @cesurcitak91 @FerhatTasova @mersalihkoc @Haincostoc1 @ibrahimbasak21 Bu adam zamanında #faizler inmeli deyip ÇİN kanadını da ipten aldı. 
+- `2067229717283881189` 2026-06-17 | ana_atif=haber(0.43) | abone_yazar=koc(0.26) | #yapay zeka   2015'te Çin borsasında büyük bir çöküş yaşandı. Ekonomik büyüme yavaşladı, "Çin sert iniş yapacak" korkusu oluştu.  Yuanın devalüe edilmesi kürese
+- `2067224420414783618` 2026-06-17 | ana_atif=koc(0.68) | abone_yazar=abone(0.07) | Misal;  ABD 2015 yılında dünya ekonomisini hatta ÇİN ekonomisini ipten aldı.  Avrupa ekonomisini aldı.  Sohbetini yapalım mı ?
+- `2067223503649095921` 2026-06-17 | ana_atif=yok(0.6) | abone_yazar=koc(0.29) | Bizim için vatandaş olarak garipsenen  şeyler, devletler için normal bir süreçtir.
+- `2067219591864975502` 2026-06-17 | ana_atif=koc(0.94) | abone_yazar=belirsiz(0.19) | @simslatif @cesurcitak91 @FerhatTasova @mersalihkoc @Haincostoc1 @ibrahimbasak21 Nereden baksan bu yılı da böyle yiyorlar.
+- `2067218388091384206` 2026-06-17 | ana_atif=koc(0.88) | abone_yazar=abone(0.47) | #petrol 76 dolara geldi değil mi ? Hemen açıklama geldi.  İran ile barış kesin değil. Hata yaparlarsa bombalarız.  Hadi gel tekniğe göre haber basmıyorlar de !
+- `2067214579348759004` 2026-06-17 | ana_atif=koc(0.99) | abone_yazar=belirsiz(0.46) | @simslatif @cesurcitak91 @FerhatTasova @mersalihkoc @Haincostoc1 @ibrahimbasak21 Bu tüm varlıkları dönemsel kaldırıp tüm M.B larının faiz indirmemesine sebep ol
+- `2067206796175900939` 2026-06-17 | ana_atif=koc(0.93) | abone_yazar=belirsiz(0.33) | Zaten öyle yapıyorum.  Varlık değerleri önemli değil ki. Siyaset önemlidir.
+- `2067205695129235793` 2026-06-17 | ana_atif=koc(0.58) | abone_yazar=belirsiz(0.32) | @cesurcitak91 @FerhatTasova @mersalihkoc @Haincostoc1 @ibrahimbasak21 İçinden diyorsun ki; milleti oyalaya oyalaya ilerliyorlar.   Zaman geçiriyorlar.
+- `2067200494838108426` 2026-06-17 | ana_atif=koc(0.93) | abone_yazar=belirsiz(0.17) | Bunları görünce adamların zamana oynadığını düşünüyorum...  31 Mayıs
+- `2067198744781631676` 2026-06-17 | ana_atif=koc(0.99) | abone_yazar=abone(0.65) | Düşen altın tarafını aldılar ve nereye taşıdılar ? Okla gösterdim, mumlar nerede bekliyor ?
+- `2067194447658365037` 2026-06-17 | ana_atif=koc(0.77) | abone_yazar=belirsiz(0.3) | @FerhatTasova @mersalihkoc @Haincostoc1 @ibrahimbasak21 Bir şey kalmamış... Allah şimdiden mesut etsin.  Artık kendine değil çocuğuna yatırım yap acele etme.
+- `2067193002431320423` 2026-06-17 | ana_atif=koc(0.57) | abone_yazar=abone(0.72) | Robotlar var ama hangi birisini hatırlayayım ki ?  #H4 de geçen gün ne gördüm ?
+- `2067190654074007889` 2026-06-17 | ana_atif=koc(0.97) | abone_yazar=abone(0.1) | @FerhatTasova @mersalihkoc @Haincostoc1 @ibrahimbasak21 Böyle kaç tane twet bulurum. 3300 ün altı dayak zaman kaybı..
+- `2067190003214545139` 2026-06-17 | ana_atif=koc(0.69) | abone_yazar=abone(0.25) | @FerhatTasova @mersalihkoc @Haincostoc1 @ibrahimbasak21 Neden stoplu deyip yazıyorum ? Çünkü bunu yazmazsan yarın birisi çıkıyor faturayı sana kesmeye kalkıyor.
+- `2067185243765825742` 2026-06-17 | ana_atif=koc(0.98) | abone_yazar=abone(0.84) | İsmi gizlidir.  Bu bir coin ve oynaklık nasıl ?  Şu davranışı ben #altın #gümüşte trade etsem mutlu olurum.  Ama coinde olunmaz. Çünkü onların dinamiği büyük ha
+- `2067184600737079548` 2026-06-17 | ana_atif=koc(0.99) | abone_yazar=abone(0.32) | @FerhatTasova @mersalihkoc @Haincostoc1 @ibrahimbasak21 Yoksa ben coinlere bakıyorum %3 5 gün içi oynuyor.  Ama bunlar milleti kesmez biliyorum. Ama aynı oranda
+- `2067184190995534162` 2026-06-17 | ana_atif=koc(0.89) | abone_yazar=belirsiz(0.3) | @FerhatTasova @mersalihkoc @Haincostoc1 @ibrahimbasak21 Ama misal coin alınsın %10 çıksın mutluluk nedeni olmuyor.  Ama aynı oranda düşsün yandım deniyor.
+- `2067179917532393755` 2026-06-17 | ana_atif=koc(0.98) | abone_yazar=belirsiz(0.24) | @mersalihkoc @Haincostoc1 @ibrahimbasak21 ABD şu an aslında kriz de ama çaktırmıyorlar.  2021
+- `2067177782656762296` 2026-06-17 | ana_atif=aktarim(0.45) | abone_yazar=koc(0.82) | Çin bu açığı biliyor #emtia kartını masaya koyuyor. Faiz artışına zorlarım diyor.
+- `2067169266504241663` 2026-06-17 | ana_atif=koc(1.0) | abone_yazar=abone(0.36) | ABD nin emtia da kontrolü eline alması için ne lazım ?  Avrupa kurlarını yukarı alması lazım.  Dxy kurlar üstünden zayıflatmalı.  Dolar ucuzlamalı.  O zaman emt
+- `2067022014280278091` 2026-06-17 | ana_atif=koc(0.96) | abone_yazar=belirsiz(0.44) | @sesbuzusturecci @satsujnsen @HamidYilmaz07 Biden olsaydı kesin düşmüştü.  Biden biraz ÇİN yanlısı ya...  #kriptoları tarihten sileceklerdi.
+- `2067020880157294686` 2026-06-17 | ana_atif=koc(0.93) | abone_yazar=belirsiz(0.33) | O çok şeye engel oldu. Ben hepsinin analizini yaptım, beynimin köşesinde..
+- `2067013639786098881` 2026-06-17 | ana_atif=koc(0.95) | abone_yazar=belirsiz(0.15) | Ben #Eylül de olayı fark ediyorum TRUMP ise ÇİN ile görüşeceğim deyip yukarı da tutuyor.  Ben buna bir şey yapamam ki.
+- `2067010558646186197` 2026-06-17 | ana_atif=koc(0.82) | abone_yazar=belirsiz(0.25) | Geçen sene EKİM ayında kafamda yılı bitirdim.
+- `2067004255790137446` 2026-06-17 | ana_atif=koc(0.89) | abone_yazar=belirsiz(0.17) | @sesbuzusturecci @satsujnsen @HamidYilmaz07 Allah şahit #kriptocular kazansın ben herkesten çok sevineceğim.  Şu insanların stresi bitsin.  Ondan sonra rahat ra
+- `2066999702898299066` 2026-06-17 | ana_atif=koc(0.99) | abone_yazar=abone(0.89) | Ekim 15 zaten ABD için her yıl önemlidir.  Her yıl genelde #kripto bu tarihte canlanırdı 2025 de bu olmadı. Olmadığı gibi EKİM de düştü.  Sence neden ?
+- `2066998083850797463` 2026-06-17 | ana_atif=yok(0.65) | abone_yazar=koc(0.24) | @sesbuzusturecci @satsujnsen @HamidYilmaz07 Tarih ve takvim yönetimi.
+- `2066977734341828651` 2026-06-16 | ana_atif=koc(0.64) | abone_yazar=abone(0.28) | 2025 yılı;   Putin görüşmesi + Haziran İRAN barışı + kripto haftası  2026 yılı;  Çin görüşmesi + Haziran İRAN barışı + kripto yasası  Kopya değil mi ?
+- `2066977067934052506` 2026-06-16 | ana_atif=koc(0.39) | abone_yazar=belirsiz(0.43) | Bir film iki kere izlenmez.  Geçen senenin kopyasını yaşamanın anlamı yok. Samimiyet ararım.
+- `2066976456924672307` 2026-06-16 | ana_atif=koc(0.8) | abone_yazar=abone(0.76) | Geçen sene Haziran ayında TRUMP çıktı,  "ABD - İran savaşını bitirdim."  dedi.  Ardından Temmuz ayında #kripto haftası ilan edildi.  Bu sene de aynı davranış yo
+- `2066967342962098187` 2026-06-16 | ana_atif=koc(0.64) | abone_yazar=abone(0.16) | @simslatif Örnek vadeli değer  satsam zarar etmiştim  50 puan sekti
+- `2066635804672196653` 2026-06-16 | ana_atif=koc(0.95) | abone_yazar=belirsiz(0.13) | @cetinkorkut @ozgurdenizsu @benvezirr1453 @cllatalay @simslatif Kayış bence bazı ülkelerde koptu. ABD doları kaldırsa ülke kurları pert olur kaldırmasa #enflasy
+- `2066628056853238088` 2026-06-16 | ana_atif=koc(0.95) | abone_yazar=abone(0.69) | Ayrıyeten şunu da göz ardı etmeyin.  #pariteler hızlı yükselirse sonuçları ne olur ?  Örnek; #EURTRY hızlı yukarı gider. Örnek; #GBPTRY hızlı yukarı gider.  Örn
+- `2066595797840330912` 2026-06-15 | ana_atif=koc(0.82) | abone_yazar=belirsiz(0.43) | 2024 yılında yazdığım bir flood içinden sadece bir kesit...
+- `2066590157604569392` 2026-06-15 | ana_atif=koc(0.46) | abone_yazar=belirsiz(0.54) | Dünyaya şöyle güzel bir #barışı satsalar çok iyi olacak...
+- `2066588804329148735` 2026-06-15 | ana_atif=koc(0.99) | abone_yazar=belirsiz(0.07) | #petrol istediğim oranda düşerse ben zaten alacağım.   Sırf #swap için alacağım.
+- `2066584992767991833` 2026-06-15 | ana_atif=koc(0.98) | abone_yazar=belirsiz(0.03) | Bunlar düşmüş #emtia kaprisine... Bunların dertleri borsa değil ki...  #zaman geçirmek. Zaman neden boşa geçirilir ?
+- `2066581228757684246` 2026-06-15 | ana_atif=koc(0.5) | abone_yazar=abone(0.46) | Ben geçen yıllarda yaşadığım kısır döngünün  aynısını bu yıl da yaşayacaksam,  neden kendimi yorayım ?  Aylar geçsin, aynı hikâyeler dönsün.  Biraz umut verilsi
+- `2066579640827650155` 2026-06-15 | ana_atif=koc(0.33) | abone_yazar=belirsiz(0.3) | @cllatalay @cetinkorkut @simslatif Ama bu şekilde yoruluruz.  Sonuca varamazlar.
+- `2066533121571291226` 2026-06-15 | ana_atif=koc(0.97) | abone_yazar=abone(0.49) | #Dolara kafa tutuyorum diyorsun ama dolar karşıtı varlıkları inkar ediyorsun.  Akıllıca hamleler değil.  #ÇİN
+- `2066532388704813164` 2026-06-15 | ana_atif=koc(0.98) | abone_yazar=belirsiz(0.32) | @cllatalay @buraklova Ben olaya şöyle bakıyorum. Bir başkan kasayı boşaltıyor ve yeni gelen başkana tam takır bırakıyor.  İhale yeni başkana kaldı.
+- `2066529796255813899` 2026-06-15 | ana_atif=koc(0.6) | abone_yazar=belirsiz(0.8) | Bir tanesi, yıl; 2024
+- `2066524917084966980` 2026-06-15 | ana_atif=koc(0.86) | abone_yazar=belirsiz(0.21) | 2021 yılında 5 yıl kafadan gözden çıkarttım.
+- `2066522753319014567` 2026-06-15 | ana_atif=koc(0.96) | abone_yazar=abone(0.24) | Benim lay lay lom yapma şansım yok.  Ben bu kadar büyük resmi, olası riskleri ve sonuçlarını düşünürken;  Karşıma biri çıkıp 15 dakikalık, 60 dakikalık grafik g
+- `2066516988378128708` 2026-06-15 | ana_atif=koc(0.72) | abone_yazar=abone(0.37) | @buraklova Ağzımı bozmak istemiyorum ama b.k çıkardılar. Ben ömrümde böyle zaman geçirildiğini hatırlamıyorum.
+- `2066514811844718656` 2026-06-15 | ana_atif=koc(0.58) | abone_yazar=abone(0.12) | @diyalektik211 Diğer yerleri sindirseler zaten tavize gebe kalırlar. Kerizlik yaparlar mı ?
+- `2066513994643341415` 2026-06-15 | ana_atif=koc(0.8) | abone_yazar=abone(0.83) | @buraklova Ben sıkıldığım için neler kapattım ? 110 dan petrol satışlarım vardı...
+- `2066513420736672036` 2026-06-15 | ana_atif=koc(0.86) | abone_yazar=abone(0.23) | @buraklova Bende çok kapatıyorum. Hız yapmıyorlar ki.  İnsan sıkılıyor.
+- `2066495899480514703` 2026-06-15 | ana_atif=koc(0.77) | abone_yazar=abone(0.47) | Analiz başarılı mı ?   3 ay #petrol ile #zaman geçirdiler.
+- `2066289208709222707` 2026-06-15 | ana_atif=yok(0.48) | abone_yazar=koc(0.2) | @aouzumcu @BugrraOzturk @_newottoman1453 @cllatalay @btchasreti2023 Olayı  tam süzmeden sağa sola kısaca atlamam.
+- `2066288856622563787` 2026-06-15 | ana_atif=koc(0.98) | abone_yazar=abone(0.3) | @aouzumcu @BugrraOzturk @_newottoman1453 @cllatalay @btchasreti2023 #PETROL almakla kısmen borsa satmak aynı şey ki..  #petrol en azından pozitif swap veriyor. 
+- `2066285875063869898` 2026-06-15 | ana_atif=koc(0.94) | abone_yazar=abone(0.86) | @aouzumcu @BugrraOzturk @_newottoman1453 @cllatalay @btchasreti2023 Ben sizler gibi değilim. Kurallar var misal unutmam.  En baba kural nedir ? AYLIK mum ne olu
+- `2066284433670365594` 2026-06-15 | ana_atif=koc(0.77) | abone_yazar=abone(0.7) | @aouzumcu @BugrraOzturk @_newottoman1453 @cllatalay @btchasreti2023 Siz gerçekten ABD ile İRAN arasında bir gerilim olduğuna inanıyor musunuz ?   Ben şahsım adı
+- `2066272838248538321` 2026-06-15 | ana_atif=koc(0.23) | abone_yazar=belirsiz(0.23) | @trader_cnr @BugrraOzturk @_newottoman1453 @cllatalay @btchasreti2023 Takip etmiyorum ama doğrudur.
+- `2066262497837842480` 2026-06-14 | ana_atif=koc(0.38) | abone_yazar=belirsiz(0.35) | @Flytnurse70 Bunlar seçime doğru sağı solu iki canlandırsalar süreci kurtarıyorlar.  Ama işte zaman geçirmeleri kötü...
+- `2066256846608830558` 2026-06-14 | ana_atif=koc(0.97) | abone_yazar=abone(0.63) | @Flytnurse70 ABD geçen sene de yazdım.. Madem #emtia kanadına yol vermeyi göze aldınız bırakın önce #emtia yükselseydi.  Hiç #kripto haftası vb demeselerdi krip
+- `2066249128728825976` 2026-06-14 | ana_atif=koc(0.99) | abone_yazar=abone(0.54) | Bir sene bekleyene kadar keşke düşse bence daha iyi olurmuş..  En azından #enflasyon dururdu veya sağ sol düştü deyip tavizler gelirdi.  Zaman geçirmeleri daha 
+- `2066248615689879869` 2026-06-14 | ana_atif=koc(0.38) | abone_yazar=abone(0.44) | O arkadaş analizlerinde ne demiş ? Şuranın altına hiç düşmedi...  Tamam ama düşmekten beter bir durum olmuş = ZAMAN
+- `2066243396667080781` 2026-06-14 | ana_atif=koc(0.89) | abone_yazar=abone(0.8) | Tamam ama bu grafik aylık, ve her mum bir AY. Orada kaybedilen zamanı kişiler hesap ediyor mu ?
+- `2066232932428083205` 2026-06-14 | ana_atif=koc(0.99) | abone_yazar=abone(0.79) | #btcusd   Soruyorum; şuna ne analiz yapacaksın ? Mumlara bakın ölü gibi...  Muhtemelen bu ayı yiyorlar.
+- `2066231169239171446` 2026-06-14 | ana_atif=koc(1.0) | abone_yazar=belirsiz(0.17) | Çok fazla durgunluk yaratıyorlar. Piyasaları çok fazla öldürüyorlar.  Aşırı derece de sıkıcı. Farklı işlere odaklanmayıp, sırf piyasa izlenirse kafayı yiyebilir
+- `2066229957018468832` 2026-06-14 | ana_atif=koc(0.94) | abone_yazar=belirsiz(0.31) | Keşke bende genç olsaydım.  İlk yapacağım iş sakin kalıp, piyasaya saldırmamak olurdu. 😎
+- `2065555312455627211` 2026-06-13 | ana_atif=koc(0.83) | abone_yazar=abone(0.76) | @Traderkripto12 @sleyman72903511 @ykusog1 @satsujnsen @BaturBaRLaS @btchasreti2023 @HAKAN5977394672 @ozgurdenizsu @HowitzerTR @cllatalay Size bir soru;   Sizce 
+- `2065546993812783558` 2026-06-13 | ana_atif=aktarim(0.72) | abone_yazar=koc(0.84) | Sonuç;  Sen ALTIN da para yaptığın sürece, bu adamlarda, biz borsayı diri tutarız diyor.  Veya en azından yataya alırım. Düşürmem diyor.
+- `2065544609137053988` 2026-06-13 | ana_atif=aktarim(0.48) | abone_yazar=koc(0.25) | @Traderkripto12 @sleyman72903511 @ykusog1 @satsujnsen @BaturBaRLaS @btchasreti2023 @HAKAN5977394672 @ozgurdenizsu @HowitzerTR @cllatalay #gramaltın için ne diyo
+- `2065529016262480301` 2026-06-12 | ana_atif=koc(0.99) | abone_yazar=abone(0.45) | @sleyman72903511 @Traderkripto12 @ykusog1 @satsujnsen @BaturBaRLaS @btchasreti2023 @HAKAN5977394672 @ozgurdenizsu @HowitzerTR @cllatalay Bence burada Avrupa ABD
+- `2065528409019597267` 2026-06-12 | ana_atif=koc(0.97) | abone_yazar=abone(0.65) | Malı getirdi haftayı nerede kapatıyorlar ?  Bu rakam tanıdık değil mi ?
+- `2065525267066466577` 2026-06-12 | ana_atif=koc(0.96) | abone_yazar=belirsiz(0.43) | Bu saatten sonra barış dünyaya lazım değil. Barış bence sadece kriptoya yarar.  Global piyasalara çok eti edemez.
+- `2065520542610812985` 2026-06-12 | ana_atif=koc(0.79) | abone_yazar=abone(0.2) | @_newottoman1453 @BaturBaRLaS @btchasreti2023 @HAKAN5977394672 @ozgurdenizsu @HowitzerTR @cllatalay @Traderkripto12 Aynen öyle...  Fırsat bitmez ki..  Bir yıldı
+- `2065518345701474521` 2026-06-12 | ana_atif=yok(0.64) | abone_yazar=koc(0.22) | @satsujnsen @Traderkripto12 @BaturBaRLaS @btchasreti2023 @HAKAN5977394672 @ozgurdenizsu @HowitzerTR @cllatalay Konuşmadık diyen nankörlük eder.
+- `2065517724973883710` 2026-06-12 | ana_atif=koc(0.71) | abone_yazar=abone(0.1) | @satsujnsen @Traderkripto12 @BaturBaRLaS @btchasreti2023 @HAKAN5977394672 @ozgurdenizsu @HowitzerTR @cllatalay Yarın bir gün bir şey olsa ! Ben bunları gösterdi
+- `2065516050741956949` 2026-06-12 | ana_atif=koc(0.81) | abone_yazar=belirsiz(0.28) | @ozgurdenizsu @BaturBaRLaS @btchasreti2023 @HAKAN5977394672 @HowitzerTR @cllatalay @Traderkripto12 110.6...
+- `2065515234408743368` 2026-06-12 | ana_atif=koc(0.99) | abone_yazar=abone(0.16) | @satsujnsen @Traderkripto12 @BaturBaRLaS @btchasreti2023 @HAKAN5977394672 @ozgurdenizsu @HowitzerTR @cllatalay Orada yine swap var.  Ben tutuyorum ki.  Sigorta 
+- `2065514131730440452` 2026-06-12 | ana_atif=koc(0.62) | abone_yazar=abone(0.76) | @BaturBaRLaS @btchasreti2023 @HAKAN5977394672 @ozgurdenizsu @HowitzerTR @cllatalay @Traderkripto12 Sistem adaletsiz.  Ama misal petrolü sen al swap öderim diyor
+- `2065510528189903238` 2026-06-12 | ana_atif=koc(0.87) | abone_yazar=abone(0.36) | Yapan varsa yazsın.  #petrol 110 dolar gördü ve 84 dolara düştü kaç kişi tepeden poz tutabildi ?  1 LOT gecelik swap kaç dolardı ?
+- `2065507698808881553` 2026-06-12 | ana_atif=koc(0.77) | abone_yazar=abone(0.13) | Emirleri içeri de sanal bir ekranda çeviriyorsun.  Nasılsa vatandaş kaybediyor diye  düşünüyorsun.
+- `2065506848954847268` 2026-06-12 | ana_atif=koc(0.96) | abone_yazar=abone(0.12) | Onlarda bu düzende vatandaşın kazanamayacağını zaten biliyor.  Yoksa sistemin kestiği cezayı neden cebinden karşılasın ?
+- `2065504643996590140` 2026-06-12 | ana_atif=koc(0.8) | abone_yazar=abone(0.7) | @btchasreti2023 @HAKAN5977394672 @ozgurdenizsu @HowitzerTR @cllatalay @Traderkripto12 #EUR alırsan, swap ödersin diyor. Halbuki bu eski kural...  EUR negatif fa
+- `2065503340755083501` 2026-06-12 | ana_atif=koc(0.87) | abone_yazar=belirsiz(0.2) | @btchasreti2023 @HAKAN5977394672 @ozgurdenizsu @HowitzerTR @cllatalay @Traderkripto12 Yeni vade başlamadan ben işlem yapmam. Borsayla ilişkimi kestim.
+- `2065502743129653601` 2026-06-12 | ana_atif=koc(0.99) | abone_yazar=abone(0.49) | @btchasreti2023 @HAKAN5977394672 @ozgurdenizsu @HowitzerTR @cllatalay @Traderkripto12 Ben borsada terste kalana kadar #ALTIN da 500 dolar zararı göze alırım.  Ç
+- `2065500909463912522` 2026-06-12 | ana_atif=koc(0.94) | abone_yazar=belirsiz(0.21) | @btchasreti2023 @HAKAN5977394672 @ozgurdenizsu @HowitzerTR @cllatalay @Traderkripto12 İnsanlar sanırım merdiven altı firmalarda işlem yapıyorlar.  Swap yok, bir
+- `2065500153532862597` 2026-06-12 | ana_atif=koc(0.6) | abone_yazar=belirsiz(0.15) | @btchasreti2023 @HAKAN5977394672 @ozgurdenizsu @HowitzerTR @cllatalay @Traderkripto12 Şunu anlatıyorum #sistem adaletsiz.  Tamamen vatandaşı yolma üstüne kurulu
+- `2065495140085518714` 2026-06-12 | ana_atif=koc(0.87) | abone_yazar=abone(0.21) | @HAKAN5977394672 @ozgurdenizsu @HowitzerTR @cllatalay @Traderkripto12 Herkes stop kullanmıyor, pozisyonun önünü  açık bırakıyor.  28 K dan sattım nereye gidecek
+- `2065493097744847333` 2026-06-12 | ana_atif=koc(0.84) | abone_yazar=abone(0.98) | Şimdi ben sana soru yöneltiyorum.  Hakan,   sen eğer ki vadelide işlem yapsaydın, ve 30600 e gitmeden önce, ilk 28 K gördüğünde ! oradan satış yapıp 30600 e fiy
+- `2065490696765682065` 2026-06-12 | ana_atif=yok(0.54) | abone_yazar=koc(0.5) | @HAKAN5977394672 @ozgurdenizsu @HowitzerTR @cllatalay @Traderkripto12 Hakan; vadeler var dedik.  Bunu aldın mı hafızaya ? Aldım dersen sonrasını yine anlatacağı
+- `2065459538392752185` 2026-06-12 | ana_atif=koc(0.74) | abone_yazar=belirsiz(0.24) | @HowitzerTR @cllatalay @Traderkripto12 Bu daha ideal çizim.
+- `2065457502007837026` 2026-06-12 | ana_atif=koc(0.95) | abone_yazar=belirsiz(0.14) | @HowitzerTR @cllatalay @Traderkripto12 Bence bir tek alt çizginin yeri değişmeli sanki.
+- `2065444022622040078` 2026-06-12 | ana_atif=koc(0.87) | abone_yazar=abone(0.64) | @cllatalay @Traderkripto12 #BİTCOİN   Nasıl bekletiyorlar ?  Hep bir zamanı vakti yiyorlar.
+- `2065439914938728798` 2026-06-12 | ana_atif=koc(0.95) | abone_yazar=belirsiz(0.42) | @cllatalay @Traderkripto12 Sabit kur rejimi derler ya.. Sabit borsa rejimi gibi bir durum var.
+- `2065437360188170621` 2026-06-12 | ana_atif=koc(0.76) | abone_yazar=belirsiz(0.4) | Ama ben bunların hep farkındaydım. Bular zaman geçiriyor.  Grafik ütünden çok belgeledim.
+- `2065433404087087189` 2026-06-12 | ana_atif=koc(0.71) | abone_yazar=belirsiz(0.33) | Ben biraz yoruldum, kenara çekildim. Geçen sene yaşananın aynısı olursa, yorulmaya niyetim yok.
+- `2065431124982046815` 2026-06-12 | ana_atif=koc(0.97) | abone_yazar=abone(0.92) | Soru şudur;  #NASDAQ 26 k ya düşerse aslında ne olmuş olacak ?   Geçen senede oradaydı.  1 yıl boşa geçmiş olmuş, olmayacak mı ?  Olacak değil mi ?
+- `2065426939511181331` 2026-06-12 | ana_atif=koc(0.96) | abone_yazar=abone(0.14) | @Traderkripto12 Bundan dolayı geçen gün bir sohbet esnasında yine yazdım, borsalardan el ayak çektim.  #EURUSD de zamana oynuyorum.  3 5 dolar kar alıp, süreci 
+- `2065425181531644333` 2026-06-12 | ana_atif=koc(1.0) | abone_yazar=abone(0.18) | Mantığım şuydu;  #EMTİA kanadının gardı düştü mü ? Düştü değil mi ?  Ana sorun nedir = #emtia   Bu sorun fiyat olarak ilk etap sindirildiyse hala #DXY diri tutm
+- `2065422513367040309` 2026-06-12 | ana_atif=koc(0.99) | abone_yazar=abone(0.18) | Bu adamların ne işine geliyor ?  #dolarla psikolojik #emtia kanadını baskıla... O esnada yapabiliyorsan #pariteler üzerinden #DXY zayıflat.  Bu olursa ne olur ?
+- `2065368896111001824` 2026-06-12 | ana_atif=koc(0.97) | abone_yazar=abone(0.73) | @VahideYorgan @Omrshn191 @economybors35 Örnek;  Ocak 1 itibariyle Çin gümüşü 120 dolara  taşıdı.  60 dolara düştü.  Arkasında neden durmuyor?  Halkı oraya sen y
+- `2065367618148606297` 2026-06-12 | ana_atif=koc(0.9) | abone_yazar=abone(0.41) | @VahideYorgan @Omrshn191 @economybors35 Altın 2600 dolar çıkacak,  hiç bir ülke kuru büyük bir oynaklığa gebe kalmayacak,  Faizler stabil  Borsalar negatif etki
+- `2065364787148501354` 2026-06-12 | ana_atif=koc(0.99) | abone_yazar=abone(0.51) | Neden ABD oldu ?  Örnek;  bugün bu şekil de  ilerlemesin süreç yani zaman geçirmeden bizde  kur bir kerede 50 lirayı aşar.  Buna bir de Dxy baskısı eklense altı
+- `2065363499711185113` 2026-06-12 | ana_atif=koc(0.76) | abone_yazar=belirsiz(0.16) | @Omrshn191 @economybors35 Ortak sorunlar var  insanlar görmüyor.  Dünya ABD den taviz gelsin diyor.  Bu adamın borsası düşmeden nasıl taviz verecek ?  Mağduriye
+- `2065361895368864132` 2026-06-12 | ana_atif=aktarim(0.89) | abone_yazar=koc(0.46) | Demişlerdir ki;   3 ay altın gümüş enflasyon sürsün..  3 ay petrol ile sürdürürüz  böylece hiç bir M.B tavize gebe kalmaz..  Yılı yarılarız.
+- `2065361575079256518` 2026-06-12 | ana_atif=koc(0.63) | abone_yazar=belirsiz(0.22) | Belki de Davos da gizliden anlaştılar milleti yiyorlar.  Bilemeyiz.  Davos sonrası her şey yaşandı.
+- `2065360551320965148` 2026-06-12 | ana_atif=koc(0.98) | abone_yazar=abone(0.78) | Saldırsak ne olacak ? Adamlar sistemli gidiyor.  Elimizden bir şey gelmez ki
+- `2065360242179743878` 2026-06-12 | ana_atif=koc(0.6) | abone_yazar=belirsiz(0.03) | Ben dayanmak zorundayım. Zaman geçirdiklerini kabullenince kafa rahat oluyor.   Olmasa ne olur ? Elin mahkum bekleyeceksin.  Bunları ben sizlerle konuştum
+- `2065176980299846061` 2026-06-11 | ana_atif=koc(0.97) | abone_yazar=belirsiz(0.34) | @cllatalay @BugrraOzturk @btchasreti2023 Resmen devletler geri planda savaşıyorlar. Stres piyasaya yansımasın diye de sağı solu güçlü gösteriyorlar.
+- `2065175369011912939` 2026-06-11 | ana_atif=koc(0.88) | abone_yazar=belirsiz(0.31) | Ben gerçekleri dile getirmeyi severim. Bu adamlar zaman geçiriyorlar.  #fiyatların önemi yok.
+- `2065158602449445323` 2026-06-11 | ana_atif=koc(0.69) | abone_yazar=belirsiz(0.8) | 21 saat önce...
+- `2065154744981602312` 2026-06-11 | ana_atif=koc(0.7) | abone_yazar=belirsiz(0.31) | @BugrraOzturk @btchasreti2023 Ekmek yok, ne yapacaklar ?
+- `2065153195349832046` 2026-06-11 | ana_atif=yok(0.6) | abone_yazar=koc(0.43) | #EURUSD
+- `2065151348279033941` 2026-06-11 | ana_atif=koc(0.98) | abone_yazar=abone(0.46) | Adamlar #nasdaq 22600 den 30600 değerine giderken, zaten milleti 3 ayda patlattılar.  Adam alacağını aldı.  Aşağı gelse, kendisine zarar. Yukarı gitse, satıcıla
+- `2065139396546789478` 2026-06-11 | ana_atif=koc(0.58) | abone_yazar=abone(0.3) | @economybors35 Eyvallah kardeşim.  #gümüş 60.60 vs
+- `2065137934034948265` 2026-06-11 | ana_atif=koc(0.42) | abone_yazar=belirsiz(0.67) | 2-
+- `2065137845971370200` 2026-06-11 | ana_atif=koc(0.39) | abone_yazar=belirsiz(0.69) | 1-
+- `2064857628161741181` 2026-06-11 | ana_atif=koc(1.0) | abone_yazar=abone(0.57) | Oyunu zor kılan nedir ? Ben #gümüş 90 dolardan beri satıyorum o gün kimse sorgulamıyor.  60 dolara geliyor bir panik havası seziyorum daha düşer mi eder mi ?  D
+- `2064845520967774556` 2026-06-11 | ana_atif=koc(0.84) | abone_yazar=abone(0.4) | Sen adama gitmişsin #gümüşte 120 dolar veya #ALTIN da 5600 dolar göstermişsin...  Arkası düşürsen ne olacak ? Bölge bölge aşağıdan millet toplayacak.. Toplaması
+- `2064841156727390394` 2026-06-11 | ana_atif=koc(0.89) | abone_yazar=abone(0.19) | Adam misal yarını düşünüyor.  #GÜMÜŞ geçen ay 90 dolardı. Yalan mı ?   Bu adamlar zaten 30 dolar düşürdüler. Milleti bir 10 dolarla mı korkutacaklar ? Veya #ALT
+- `2064833045522231596` 2026-06-11 | ana_atif=aktarim(0.66) | abone_yazar=koc(0.85) | @Karan4276526545 @karacantolga67 @cllatalay #gümüş 62 dolar dedi.
+- `2064831648114369000` 2026-06-11 | ana_atif=koc(0.7) | abone_yazar=belirsiz(0.18) | @wolfoftdt @MrKonce Millete yazık diyorum kardeşim. Düşüş çıkış konuşmuyorum.
+- `2064824203736498596` 2026-06-11 | ana_atif=koc(0.99) | abone_yazar=belirsiz(0.18) | @btchasreti2023 @BugrraOzturk Burada fiyat değil, bence yine #zaman önemlidir.
+- `2064821084919107684` 2026-06-11 | ana_atif=koc(0.89) | abone_yazar=abone(0.63) | @BugrraOzturk Temmuz da yine hamle yapacaklar mı ? İzleyip görelim.  Yoksa geçen seneki düşüşü, bir sene sonra yaşatacaklar mı ?
+- `2064812732470194333` 2026-06-10 | ana_atif=koc(0.52) | abone_yazar=abone(0.79) | Ben böyle yazıyorum ama sizlerde zincirleri birleştirebiliyor musunuz ?
+- `2064806469678006707` 2026-06-10 | ana_atif=koc(0.59) | abone_yazar=abone(0.3) | #GRAM #ALTIN anla mı ?
+- `2064798480971755776` 2026-06-10 | ana_atif=koc(1.0) | abone_yazar=belirsiz(0.15) | Aynısını #bist yaptı 2021 2022 de..  Ama bak ülke kuru da perişan oldu.  ABD o primi yapıyor ama ülke kuruda dayak yedi..
+- `2064797601128497291` 2026-06-10 | ana_atif=koc(0.99) | abone_yazar=abone(0.85) | @asbam026 @cllatalay @M1881_K1938 @BaturBaRLaS @slck2013 @_newottoman1453 @yakamoz98582799 @Karan4276526545 Bir ülkenin borsasının sürekli çıkması  iyi bir şey 
+- `2064797083639357472` 2026-06-10 | ana_atif=koc(0.77) | abone_yazar=abone(0.92) | Nasıl yemiyor ? Bu ABD nin dayak yememiş halimi  ?  Hangi pencereden dayak yemiyorlar ?  Misal bana anlatır mısın ?
+- `2064789262537515186` 2026-06-10 | ana_atif=koc(1.0) | abone_yazar=abone(0.19) | @cllatalay @M1881_K1938 @BaturBaRLaS @slck2013 @_newottoman1453 @yakamoz98582799 @Karan4276526545 Keşke #gümüş düşüp altın pahalı kalsaydı.
+- `2064788266998489314` 2026-06-10 | ana_atif=koc(0.56) | abone_yazar=abone(0.44) | @cllatalay @M1881_K1938 @BaturBaRLaS @slck2013 @_newottoman1453 @yakamoz98582799 @Karan4276526545 Bende biraz var ama keyif alamadım ki...
+- `2064788158382756091` 2026-06-10 | ana_atif=koc(0.97) | abone_yazar=belirsiz(0.24) | @M1881_K1938 @BaturBaRLaS @slck2013 @_newottoman1453 @yakamoz98582799 @cllatalay @Karan4276526545 Döndük dolaştık, aslında geçen senedeyiz. 1 yıl çöp oldu.
+- `2064785598074757447` 2026-06-10 | ana_atif=koc(0.72) | abone_yazar=belirsiz(0.45) | Savaşın kazananı olmaz.
+- `2064783173859303744` 2026-06-10 | ana_atif=koc(0.98) | abone_yazar=abone(0.71) | Şu ALTIN 5000 dolar ve üstündeyken barışa yanaşsalardı da, finansal piyasalar nemalansaydı ölürler miydi ?
+- `2064779727894696283` 2026-06-10 | ana_atif=koc(1.0) | abone_yazar=abone(0.78) | Bir de dolar bazlı nasdaq düşmesine rağmen..  Ben ne anladım bu işten ?   30600 de #ALTIN bazlı pahalı olmayan #nasdaq şu an 28 k da ama #ALTIN bazlı daha pahal
+- `2064775438371590323` 2026-06-10 | ana_atif=koc(0.49) | abone_yazar=belirsiz(0.2) | Ben sürekli olayları anlatırım. Siyasi sorunlar var.  Adamlar döngü döngü gidiyorlar, zaman geçiriyorlar.
+- `2064769246794514865` 2026-06-10 | ana_atif=koc(0.78) | abone_yazar=belirsiz(0.27) | @HowitzerTR @BaturBaRLaS @slck2013 @_newottoman1453 @yakamoz98582799 @cllatalay @Karan4276526545 Aynen öyle...  İnsanların bu bilgisizliği de, bizlerin daha tem
+- `2064745167014215713` 2026-06-10 | ana_atif=koc(0.94) | abone_yazar=belirsiz(0.2) | @_newottoman1453 @yakamoz98582799 @cllatalay @Karan4276526545 Bu Trump ın 7 /24 söylemleri gerçek olamaz. Haber siteleri basıp basıp geçiyor.  İşlem alıyorlardı
+- `2064743606565359725` 2026-06-10 | ana_atif=koc(0.55) | abone_yazar=belirsiz(0.11) | Herkes ekmeğinde abicim..  Örnek; kripto çıkarken fenomenlerin yaşadığı durum...  #coin ismini zikret uçsun.  O dönemi hatırla fenomenleri millet kral ilan ediy
+- `2064735093277458721` 2026-06-10 | ana_atif=koc(0.41) | abone_yazar=abone(0.74) | @_newottoman1453 @yakamoz98582799 @cllatalay @Karan4276526545 Adam #barış + #faiz indirimi diyor sen #emtia kozunu masaya vuruyorsun.  Zamanında neden vurmadın 
+- `2064733927252587006` 2026-06-10 | ana_atif=koc(0.98) | abone_yazar=belirsiz(0.31) | @_newottoman1453 @yakamoz98582799 @cllatalay @Karan4276526545 Kendi borsası 2020 değerinde sürünüyor resmen ekonomiyi öldürdüler.  Sizin keyfinizi mi dünya bekl
+- `2064732680021828012` 2026-06-10 | ana_atif=aktarim(0.63) | abone_yazar=koc(0.12) | @yakamoz98582799 @cllatalay @Karan4276526545 Adam anlaşma diyor.  Ne inatlaşıyorlar !
+- `2064730229294166518` 2026-06-10 | ana_atif=koc(1.0) | abone_yazar=belirsiz(0.1) | @yakamoz98582799 @cllatalay @Karan4276526545 O zaman yine piyasalar çökerler.  #dolarla dövmüş oluyorlar.  Kıymeti yok ki..  Bu sefer piyasa para deyip ağlayaca
+- `2064725181382164977` 2026-06-10 | ana_atif=koc(0.99) | abone_yazar=abone(0.67) | Seçim için #BTC tarafına BİDEN, ETF vermeseydi ÇİN de buna göz yummasaydı...  Bu rasyo nerede olurdu ?   Bugün bu sıkıntılar yaşanır mıydı ? Soruyorum !
+- `2064720163044237625` 2026-06-10 | ana_atif=koc(0.93) | abone_yazar=abone(0.31) | #XAG #BTC çaprazı...  Hadi açıklasınlar. Niçin göz yumdular ?
+- `2064718650804736227` 2026-06-10 | ana_atif=koc(0.38) | abone_yazar=belirsiz(0.14) | @cllatalay @Karan4276526545 TRUMP koltuğa oturmadı BİDEN kafasında birisi oturdu.  Hadi mantık yürütelim;  Ne yapacaklardı soruyorum ?
+- `2064717670205849677` 2026-06-10 | ana_atif=koc(0.85) | abone_yazar=abone(0.89) | 2022 de Avrupa da savaş çıkıyor, sen #emtia kozunu masaya vurmuyorsun.  2023 de 2024 de vurmuyorsun.  BİDEN #BTC #ETH ETF diyor, vurmuyorsun !  Ben koltuğa otur
+- `2064716542542012675` 2026-06-10 | ana_atif=koc(0.8) | abone_yazar=abone(0.4) | Adam bence bunun hesabını soruyor.  2023 2024 açıkla...
+- `2064690159308665068` 2026-06-10 | ana_atif=koc(1.0) | abone_yazar=abone(0.27) | ABD #borsaları son üç ay da #dolar rallisi yaşadı...  Madem anlaştınız diğer piyasalar neden nemalanamadı ?   Veya anlaşamadıysanız adamları BOZ.. Onlarda düşsü
+- `2064687931080556753` 2026-06-10 | ana_atif=koc(0.9) | abone_yazar=abone(0.09) | O şu anlama gelir. Gizli anlaştılar ama, dünyayı yiyorlar.  O halde küfrü, neden TRUMP yiyor ?
+- `2064685581104185637` 2026-06-10 | ana_atif=koc(0.64) | abone_yazar=belirsiz(0.29) | @slck2013 @samet_cezayirli @SerkanINAR31323 @cllatalay @M1881_K1938 @Karan4276526545 Adamlara kafa tutuyorsan anlaşmadık deyip bozmalısın...  Anlaştıysan da oke
+- `2064685084943196581` 2026-06-10 | ana_atif=koc(0.81) | abone_yazar=belirsiz(0.15) | @slck2013 @samet_cezayirli @SerkanINAR31323 @cllatalay @M1881_K1938 @Karan4276526545 Başka bir pencerede şudur;  ABD ÇİN görüşmesi oldu.  Trump anlaştık ettik d
+- `2064683520153260194` 2026-06-10 | ana_atif=yok(0.37) | abone_yazar=koc(0.23) | @slck2013 @samet_cezayirli @SerkanINAR31323 @cllatalay @M1881_K1938 @Karan4276526545 Bunlar şu kafadalar.  PUTİN tarafını ÇİN finanse ediyor. O da Avrupa kanadı
+- `2064679953153614325` 2026-06-10 | ana_atif=koc(0.77) | abone_yazar=belirsiz(0.06) | Yani sen resmen, ABD ye diyorsun ki; gel beni patlat...  Ama yanımda dünya ekonomisi de yansın.  Hadi ayıkla pirincin taşını...
+- `2064679531240120599` 2026-06-10 | ana_atif=koc(0.94) | abone_yazar=abone(0.78) | Bu pencereden bakınca ÇİN stratejik hata yapmış olmuyor mu ?  Global ekonomiyi riske atmış olmuyor mu ?
+- `2064676564877324541` 2026-06-10 | ana_atif=koc(0.9) | abone_yazar=abone(0.65) | Ben kendimi neden yırtıyorum ? ÇİN dünyayı ateşe attı...
+- `2064674074765259212` 2026-06-10 | ana_atif=koc(0.45) | abone_yazar=belirsiz(0.41) | @satsujnsen @slck2013 @samet_cezayirli @SerkanINAR31323 @cllatalay @M1881_K1938 @Karan4276526545 Hep diyorum; kapris yapmayın anlaşın. Şu iş vatandaş lehine dön
+- `2064667651838738685` 2026-06-10 | ana_atif=koc(0.99) | abone_yazar=belirsiz(0.12) | Fark etmiyor ki.. Düştükçe daha çok talep etmeye halklar kalkar. Sen o parayı oradan çıkartmak için yine ya faiz arttıracaksın..   Bunu yapsan ekonomi ölür. Fai
+- `2064664067059368053` 2026-06-10 | ana_atif=koc(0.91) | abone_yazar=abone(0.18) | @cllatalay @samet_cezayirli @M1881_K1938 @Karan4276526545 Adam buradan altın alır üstüne yatar.  Seneye düşse ne olur ?  Alım gücüm arttı der  ek para ile yine 
+- `2064646783406354433` 2026-06-10 | ana_atif=koc(0.99) | abone_yazar=abone(0.41) | Biraz mantık..  Altın düştü diye sadece  ABD mi bu işten kar etti? Tüm paralar etti.  Ama ana mücadeleyi kim  verdi ?
+- `2064646454665199896` 2026-06-10 | ana_atif=koc(1.0) | abone_yazar=abone(0.6) | ABD doları emtia kanadını  ezdi..  Çin yuanı ezmedi mi ? Türk lirası ezmedi mi ? Eur ezmedi mi ? Kanada doları ezmedi mi ?  Hepsi kar ettiler. Mücadeleyi kim ve
+- `2064632547305206212` 2026-06-10 | ana_atif=koc(0.69) | abone_yazar=abone(0.32) | Bol kazanç kardeşim
+- `2064494218345677301` 2026-06-10 | ana_atif=koc(0.78) | abone_yazar=belirsiz(0.22) | Ben orasını bilmem. Her şey fiyat mum değildir.
+- `2064490356071125483` 2026-06-10 | ana_atif=yok(0.26) | abone_yazar=koc(0.46) | #ÇİN PETROL #STOK
+- `2064482554917327338` 2026-06-10 | ana_atif=koc(0.95) | abone_yazar=abone(0.56) | #BTC 120 k dan 60 K ya düşünce öldü bitti deniyor da....  #gümüş 120 dolardan 60 dolara yanaşınca çok düşmemiş mi oluyor ?
+- `2064454070392217602` 2026-06-10 | ana_atif=yok(0.58) | abone_yazar=koc(0.45) | #FTSE100
+- `2064449840541466650` 2026-06-09 | ana_atif=haber(0.3) | abone_yazar=koc(0.24) | @cllatalay @faithfull06 ÇİN görüşmesi yaptı. Şu Avrupa kanadı ile bir görüşmeleri ileri de olur.
+- `2064448051146551349` 2026-06-09 | ana_atif=koc(0.98) | abone_yazar=belirsiz(0.28) | O kesişim yıl sonuna denk geliyor işte...
+- `2064440903675134404` 2026-06-09 | ana_atif=koc(0.92) | abone_yazar=abone(0.4) | Ben boşuna mı #zaman geçiriyorlar diyorum ? Bir kripto bir emtia zamana oynadılar.
+- `2064439000794829015` 2026-06-09 | ana_atif=koc(0.86) | abone_yazar=abone(0.29) | Bunu işte geçen sene yapmaları lazım deyip ben yazdım.  Şu Avrupa kanadını kollama dediğim twitleri hatırlayın.  Ama neden yapamadılar ?
+- `2064434319389540374` 2026-06-09 | ana_atif=koc(0.86) | abone_yazar=abone(0.59) | @btchasreti2023 @hacbekta19 @Haincostoc1 #bist nerede dolanıyor ?  13800
+- `2064432618142155005` 2026-06-09 | ana_atif=yok(0.52) | abone_yazar=koc(0.41) | #dxy
+- `2064429508849963162` 2026-06-09 | ana_atif=koc(0.81) | abone_yazar=abone(0.32) | @btchasreti2023 @hacbekta19 @Haincostoc1 Misal; geçen hafta #EUR nereden düştü dikkat eden oldu mu ?
+- `2064420118830948513` 2026-06-09 | ana_atif=koc(0.97) | abone_yazar=abone(0.37) | @btchasreti2023 @hacbekta19 @Haincostoc1 Aldım geri mi geldi ?  #sell stopları yerleştirmişim devreye girerler. En fazla 2 dolar ile işi kurtarırım.  Aşağı da b
+- `2064414902463213756` 2026-06-09 | ana_atif=koc(0.39) | abone_yazar=belirsiz(0.19) | O yatırımcı tarzı, psikolojisi.. Ben yapıyorum.
+- `2064414723496366398` 2026-06-09 | ana_atif=koc(0.97) | abone_yazar=abone(0.1) | @hacbekta19 @Haincostoc1 Borsa düşmüş çıkmış bana ne...  30600 den sattım aldım karımı bıraktım.
+- `2064414399540908502` 2026-06-09 | ana_atif=koc(0.97) | abone_yazar=belirsiz(0.04) | @hacbekta19 @Haincostoc1 Ben sakinliği seçtim.  Alacağımı alıp kenara çekilmesini bilirim.   Sadece Eur takılıyorum
+- `2064413249425014924` 2026-06-09 | ana_atif=koc(1.0) | abone_yazar=abone(0.77) | Ben yeni vade başlamadan işleme girmem ki,  Testere piyasa da neden gireceğim ?  Aşağı yukarı verilen piyasada psikolojimi neden yıpratayım ?  Ben zaten 30600 d
+- `2064401598625825037` 2026-06-09 | ana_atif=koc(0.63) | abone_yazar=belirsiz(0.38) | @hacbekta19 @Haincostoc1 2020 de başlayan şu olay işte...  ABD ile bizim ortak kaderimiz.
+- `2064395897828512093` 2026-06-09 | ana_atif=koc(0.98) | abone_yazar=abone(0.48) | Zamanında yazdım #DOLAR rezerv paradır. Düşürsen #enflasyon patlar, dünya #faiz arttır der.  #DXY yukarı versen sağı solu düşürsen millet öldük bittik taviz ver
+- `2064393330562125930` 2026-06-09 | ana_atif=koc(0.98) | abone_yazar=belirsiz(0.47) | @hacbekta19 @Haincostoc1 Bence bu film burada bitmeyecek..  Bu iş daha çok su kaldıracak
+- `2064376193172824547` 2026-06-09 | ana_atif=koc(0.93) | abone_yazar=abone(0.25) | Yönü biliyorsun tutturuyorsun ama, kanımca risk almaktan korktuğun için, #stopları yakına koyuyorsun.  Bu da senin oyun dışına itilmene neden oluyor.
+- `2064372743970132300` 2026-06-09 | ana_atif=koc(0.54) | abone_yazar=abone(0.73) | @BugrraOzturk ABD faizler inmeli deyip bağırmadı mı ? Bırak o halde indirseydiler.  Sen ne diye #emtia kaprisi yaşatıyorsun ki ?
+- `2064370230348980650` 2026-06-09 | ana_atif=koc(0.61) | abone_yazar=belirsiz(0.06) | O zaman adamlar faiz indireceğiz diyordu bıraksaydın..  Bari faizler inseydi, piyasalar ölmeseydi.
+- `2064368191967510976` 2026-06-09 | ana_atif=koc(0.93) | abone_yazar=abone(0.27) | Ama misal şu soru sorulmaz. Sonucu bile bile o halde neden kafa tutuyoruz ?  O zaman niçin boşuna zaman kaybediyoruz ?  Neden gaza geliyoruz ? Neden boşuna enfl
+- `2064359206040301974` 2026-06-09 | ana_atif=koc(0.97) | abone_yazar=abone(0.19) | @BugrraOzturk Yıl başında konuştuk;  İlk üç ay #ALTIN #GÜMÜŞ İkinci üç ay #petrol   Milleti yediler. Tamam kızıyoruz ama, #ALTIN ve #gümüş kısmında da bir mağdu
+- `2064358711263477975` 2026-06-09 | ana_atif=koc(0.97) | abone_yazar=abone(0.11) | @BugrraOzturk Ama şu olduysa gerçekten yazık.  Kendi aralarında gizli #anlaşma yaptılarsa..  Sen #bitcoin deme Biz de #emtia demeyelim. Enflasyon soğusun.  Orta
+- `2064114832639500727` 2026-06-09 | ana_atif=koc(0.91) | abone_yazar=abone(0.23) | @simslatif @btchasreti2023 @cllatalay @Haincostoc1 @uurvli8 Sen şimdi bana 29788 dersen ben de sana yok o öyle değil 29252 mi diyeceğim ? Biz bunları konuşurken
+- `2064110780677554633` 2026-06-09 | ana_atif=koc(0.81) | abone_yazar=abone(0.61) | O zaman bana yılın uzun olduğunu düşünerek geniş rakamlarla gel...
+- `2064107542184116320` 2026-06-09 | ana_atif=koc(0.95) | abone_yazar=abone(0.99) | Abicim;  siz neden sürekli ön yargılısınız ?  Bu adamlar borsasını 26 K ya dahi düşürse bir sorun yaşamazlar ki..  Olaylara neden geniş bakmıyorsunuz ? Niçin sü
+- `2064102687566651806` 2026-06-09 | ana_atif=koc(0.79) | abone_yazar=abone(0.12) | Avrupa şimdi #faiz artışı düşünüyor. Neden ?  Birisi niçin faiz artışı düşünür ? Ülke kurum dayak yemesin, enflasyona karşı ezilmesin diye değil midir ?   Be sa
+- `2064099020297974010` 2026-06-09 | ana_atif=koc(0.98) | abone_yazar=belirsiz(0.31) | Zorla milleti ezdirtecekler. Dünya TRUMP'ın arkasında piyasa anlamında dursaydı bak doları nasıl zayıflatıyordu !
+- `2064093194845872259` 2026-06-09 | ana_atif=koc(0.77) | abone_yazar=abone(0.24) | @simslatif @btchasreti2023 @cllatalay @Haincostoc1 @uurvli8 Bu çok önemli mi ? Sen vade tarihlerini not al...  Yıl dört çeyrektir.
+- `2064087449010131158` 2026-06-08 | ana_atif=koc(0.53) | abone_yazar=belirsiz(0.39) | Bir yıl boş geçilecek..  Bunların sohbetini dahi yaptık.
+- `2064084603745325232` 2026-06-08 | ana_atif=yok(0.71) | abone_yazar=koc(0.34) | Son vade tarihini yanlış yazmışım Eylül 15 ile Aralık 15 olacaktı.
+- `2064078179543683197` 2026-06-08 | ana_atif=aktarim(0.65) | abone_yazar=koc(0.28) | Şunu diyorsun. #sp500
+- `2064074910306066615` 2026-06-08 | ana_atif=koc(0.84) | abone_yazar=belirsiz(0.14) | @Haincostoc1 @uurvli8 Ben olsam son çare Tayvan kanadını kaşırım. 😎
+- `2064071000585601279` 2026-06-08 | ana_atif=koc(0.67) | abone_yazar=belirsiz(0.25) | ABD batı bölgesinin namusunu kurtarmaya çalışıyor :)))  ÇİN kanadına diz çöktürmeye çalışıyor.
+- `2064064105376313565` 2026-06-08 | ana_atif=koc(0.39) | abone_yazar=belirsiz(0.18) | @uurvli8 Bu tarz bakış açılarını yazıyorum ama çöp oluyor....
+- `2064060566587523483` 2026-06-08 | ana_atif=koc(0.94) | abone_yazar=abone(0.1) | Bizde ülke kuru 45 46 47 48  yukarı gittikçe ekonomi  yönetiminden teşvik alabiliyor musun ?  Alamazsın. Çünkü ülke kuru zorlanıyor.
+- `2064058719365632243` 2026-06-08 | ana_atif=koc(1.0) | abone_yazar=abone(0.17) | Yani bizim ülkemizde kur  45 46 47 dedikçe bizler nasıl zorlanıyorsak..  ABD de xauusd 4500 4600 4700 dedikçe zorlanıyor.  Faizleri düşüremiyor. Buna kim sebep 
+- `2064056773477085245` 2026-06-08 | ana_atif=koc(0.96) | abone_yazar=abone(0.68) | Sen şu şekilde olaya bakıyor musun ?  Türkiye de kur yukarı gittikçe, TR ekonomisi zorlanıyor.  #DOLAR 45 46 47 48 49 dedikçe yönetici zorlanır.  ABD de ise ayn
+- `2064055757222428790` 2026-06-08 | ana_atif=koc(0.96) | abone_yazar=abone(0.75) | Sen kriz ortamında #emtia deyip dünyayı ne zorluyorsun ?
+- `2064050111236251723` 2026-06-08 | ana_atif=koc(0.73) | abone_yazar=abone(0.43) | @uurvli8 Finansal piyasalarda 100 kişiden 98 i ABD düşmanıdır.  Neden ?
+- `2064041299368407405` 2026-06-08 | ana_atif=koc(0.88) | abone_yazar=belirsiz(0.36) | Aynı rakamlar, aynı seviyeler, değişmeyen aynı gündemler...  Artık bunlardan acayip sıkıldım.
+- `2064036398131282243` 2026-06-08 | ana_atif=yok(0.71) | abone_yazar=koc(0.19) | @ogulcanndemirci Bakmadım kardeşim.  11. günü sana yazmıştım bir izle...
+- `2064029404422975661` 2026-06-08 | ana_atif=koc(0.97) | abone_yazar=abone(0.19) | @gokche76 Sallıyorum;  Bu sene anlaşıyoruz dediler, seçim hatırına yukarı alındık.  Sorunlar masadan kalkmadıysa, seneye ne yapacağız ?   Belki de tek kırmızı m
+- `2064012551042609428` 2026-06-08 | ana_atif=yok(0.66) | abone_yazar=koc(0.58) | @BugrraOzturk @mhasanhankaya @Haincostoc1 Ben yazarken arada saçma sorularla muhatap olmasam, grafiklerine kadar ben atarım.
+- `2063762968672624727` 2026-06-08 | ana_atif=yok(0.54) | abone_yazar=koc(0.28) | @xdiabolicalx @Haincostoc1 @aouzumcu @mhasanhankaya #DXY
+- `2063761022029009366` 2026-06-08 | ana_atif=koc(0.94) | abone_yazar=abone(0.84) | Soruyorum... Nasıl olacak ?  Her ülkenin gün gelir parasının değerini düşürmesi #ticari açıdan gerekir.   Bence bu konuda haksızlığa yine uğruyorlar.
+- `2063758153276149773` 2026-06-08 | ana_atif=koc(0.94) | abone_yazar=belirsiz(0.09) | Salakça bir sistem...  Diğer ülkeler misal #dolara kafa tutuyor, rezerv para olmasından, rahatsızız diyorlar ya ! Bence yalan söylüyorlar.  Ben ABD nin yerinde 
+- `2063755815937282369` 2026-06-08 | ana_atif=koc(0.76) | abone_yazar=belirsiz(0.34) | ABD ne yaparsa yapsın suç görülür. Genel yatırımcı da böyle bir algı var.
+- `2063753686791209204` 2026-06-08 | ana_atif=koc(0.86) | abone_yazar=belirsiz(0.19) | @xdiabolicalx @Haincostoc1 @aouzumcu @mhasanhankaya ABD istese bunları ezer döver de bakma işi uzatıyor.
+- `2063746699713982674` 2026-06-08 | ana_atif=koc(0.78) | abone_yazar=belirsiz(0.07) | @Haincostoc1 @aouzumcu @mhasanhankaya Hadi borsanı kurtarmada göreyim. Yatırımcı isyan etsin de !
+- `2063745707475910802` 2026-06-08 | ana_atif=haber(0.53) | abone_yazar=koc(0.83) | @Haincostoc1 @aouzumcu @mhasanhankaya #gümüş 66 dolara düştü.
+- `2063742767520501910` 2026-06-08 | ana_atif=koc(0.99) | abone_yazar=abone(0.64) | Bir ülkenin borsası nasıl olur da  2020 değerinde olur ?  Akıl alır gibi değil.
+- `2063742356168290628` 2026-06-08 | ana_atif=koc(0.91) | abone_yazar=belirsiz(0.52) | Kafayı yemişler. Bu pencereden bakınca gerçekten yemişler.
+- `2063741551574986882` 2026-06-08 | ana_atif=koc(0.88) | abone_yazar=abone(0.35) | Sizler piyasa düşmanı mısınız ? Derdiniz nedir ?  Ha kripto  Ha ÇİN borsaları..
+- `2063734027417248195` 2026-06-08 | ana_atif=koc(0.88) | abone_yazar=belirsiz(0.28) | Benim penceremde herkes olsa büyük resmi görecek...
+- `2063733527296749994` 2026-06-08 | ana_atif=koc(0.79) | abone_yazar=belirsiz(0.39) | Millet bunları suçluyor ama asıl suçlu AVRUPA...
+- `2063721745782129067` 2026-06-07 | ana_atif=koc(0.91) | abone_yazar=abone(0.79) | O dönemde Avrupa birliği kurulup, #DXY bilerek zayıflatılmadı mı ?  Bu yıllarda ise, Avrupa barışı istenmiyor mu ? Bu barış gelirse ABD doları zayıflatacağım de
+- `2063718653292335257` 2026-06-07 | ana_atif=koc(0.68) | abone_yazar=abone(0.78) | @Haincostoc1 @aouzumcu @mhasanhankaya Benzerlikleri seviyorum. Bağ kurmak doğru mu ?  Olmayabilir ama benim son 30 senem gibi  bir şey.
+- `2063713365650813199` 2026-06-07 | ana_atif=yok(0.52) | abone_yazar=koc(0.27) | Takip etmedim. Döngü :)
+- `2063712660152049703` 2026-06-07 | ana_atif=koc(0.49) | abone_yazar=abone(0.22) | @aouzumcu @mhasanhankaya @Haincostoc1 Shortlayamaz derken psikolojik eli gitmez. Yoksa neden shortlayamasın.
+- `2063712479717228775` 2026-06-07 | ana_atif=koc(0.89) | abone_yazar=belirsiz(0.13) | @mhasanhankaya @Haincostoc1 Senin sayende biraz #borsaları düzeltirler. Üstüne #petrol azar, dünya biraz daha  #enflasyonu yer.  Ne güzel zaman boşa geçer durur
+- `2063711326602440944` 2026-06-07 | ana_atif=koc(0.99) | abone_yazar=abone(0.34) | Öyle olmuyor mu ? Adamlar göstere göstere son üç ay  borsaları şişirdiler.  Hangi ülke problem çıkarttı ?   Vadelerin dolmasına 3 5 gün kalmıştır sen adamlara s
+- `2063709709526348091` 2026-06-07 | ana_atif=koc(0.99) | abone_yazar=abone(0.32) | Sonrası zaten ÇİN görüşmesidir.  Madem vuracaksın, adamların borsalarının tepe yapmasını neden bekliyorsun ?  7 Nisan da Hürmüz açıldı dediğinde hamle yapsaydın
+- `2063703899186536667` 2026-06-07 | ana_atif=koc(1.0) | abone_yazar=abone(0.27) | O geri kalan 50-60 gün de yıl sonuna denk gelip piyasalar pozitif tarafa çevrilirse,  koca bir yıl daha bitmiş oluyor.  Ardından yeni yılın ilk çeyreğinde bir m
+- `2063701756811301295` 2026-06-07 | ana_atif=koc(0.82) | abone_yazar=abone(0.84) | @Haincostoc1 ABD bu oyunu nasıl kaybedecek ? Soruyorum !  Sen adam görüşme dediğinde, görüşüyorsan ! Zaten adamlara kafadan 3 ay kazandırıyorsun.  Koca yıl, zat
+- `2063695783837171786` 2026-06-07 | ana_atif=koc(0.83) | abone_yazar=belirsiz(0.22) | Şu sonuç çıkar;  aslında anlaşmalar çoktan yapıldı ama vatandaştan gizlendi anlamı çıkar.  Bilerek el birliği ile dünyayı yediler.   #tiyatro
+- `2063694365151637660` 2026-06-07 | ana_atif=koc(0.34) | abone_yazar=belirsiz(0.44) | İşi sorguladıkça çok kızıyorum.
+- `2063687224412008897` 2026-06-07 | ana_atif=koc(0.95) | abone_yazar=abone(0.32) | Gazlanan bölgeyi sildim.  Bu da ABD nin yanlışıdır. Maksimum şunu yapacaktın. #kripto haftası vb deyip sağı solu gazlamayacaktın.
+- `2063682977972797840` 2026-06-07 | ana_atif=koc(1.0) | abone_yazar=abone(0.43) | Fiyatların yükselmesi ile sorunun çözülmesi  aynı şey değildir.  Oldu ya yukarı gidildi.  Bu bir kurtuluş mu ?  Anlaşmalar gelmedikçe, bence yine değildir.  Sad
+- `2063671479674302945` 2026-06-07 | ana_atif=koc(0.71) | abone_yazar=abone(0.2) | Ben bu tarz floodları niçin yazıyorum ? Grafiklere bakarken beynimizin içi bir olsun.
+- `2063668846695747824` 2026-06-07 | ana_atif=yok(0.44) | abone_yazar=koc(0.5) | @samet_cezayirli @Haincostoc1 @diyalektik211 @luffytano Zaman geçirdiklerini kabul eden insanlar psikolojiyi sağlam tutarlar.
+- `2063663144220676272` 2026-06-07 | ana_atif=koc(0.95) | abone_yazar=abone(0.39) | Örnek;  adam işlem bazlı olaylara bakıyor, ve ben diyorum ki; #BTCUSD 80600 negatiftir.  6 7 hazirana kadar geçerlidir.   İşlem çift yönlü değil midir ?   Burad
+- `2063659138433839424` 2026-06-07 | ana_atif=koc(0.74) | abone_yazar=belirsiz(0.3) | @muratbas1979 @Omrshn191 Demek istediğim şudur; Siyasi uzlaşılar olayı kökten çözer.  Ama parasal çözümler zaman alır.
+- `2063657695140352000` 2026-06-07 | ana_atif=koc(0.81) | abone_yazar=belirsiz(0.37) | Böyle böyle illeti delirtirsin. Şu an ABD onu yapıyor.
+- `2063645362846347267` 2026-06-07 | ana_atif=koc(0.55) | abone_yazar=belirsiz(0.24) | Valla ben anlatımı yaptım. Burada bir çok bakış açısı sundum. Bir tanesi mantıksız değildir.
+- `2063644607695511729` 2026-06-07 | ana_atif=koc(0.95) | abone_yazar=abone(0.33) | @asbam026 Sizler sadece ABD dolarının değil, tüm ülke kurlarının.  Yani #kağıt paraların, ne duruma düştüğüne hiç bakmıyor musunuz ?   Bunların itibarını kim ku
+- `2063643247558209731` 2026-06-07 | ana_atif=yok(0.5) | abone_yazar=koc(0.51) | @senay_furkan @erkan0645 Önce herkes anladım desin de... Kafalar bir rahat olsun.  Çünkü yarın birisi sıfırdan sorduğunda  bir daha anlatmayacağım.
+- `2063630121139868083` 2026-06-07 | ana_atif=koc(0.59) | abone_yazar=abone(0.74) | Beni şaşırtan şu oldu.  Avrupa nasıl oldu da, TRUMP kanadını dinlemedi ?  Yoksa ÇİN kanadının taviz vermeyeceğini ben biliyorum.   ÇİN 2020 de yaşanan virüsten 
+- `2063629416698118654` 2026-06-07 | ana_atif=koc(1.0) | abone_yazar=belirsiz(0.25) | @Omrshn191 Bence olay birazda burada kopuyor. Bu sefer TRUMP ÇİN ile savaşa giriyor.  Ondan dolayı kripto dayak yiyor.
+- `2063628919236952112` 2026-06-07 | ana_atif=koc(0.95) | abone_yazar=abone(0.03) | @Omrshn191 Kısmen şu da düşünülebilir;  ÇİN ABD seçimlerine müdahale etmiştir ve BİDEN kanadını desteklemiştir.  Seçim esnasında #emtia kozunu masaya vurmamıştı
+- `2063627336281416072` 2026-06-07 | ana_atif=koc(0.48) | abone_yazar=abone(0.58) | Şu olay işte.. Hatalar benden önce yapıldı ve faturası neden bana kesiliyor ?
+- `2063607682322309366` 2026-06-07 | ana_atif=yok(0.69) | abone_yazar=koc(0.44) | @eybisidi06 Ben yazılı duymak istiyorum. Bugün anladım deyip, bir hafta sonra yine aynı sorular geliyor.
+- `2063605643919986933` 2026-06-07 | ana_atif=koc(0.55) | abone_yazar=abone(0.26) | Ben hala herkesin anladım demesini bekliyorum. Anladım dedikten sonra çözümler nasıl gelir ? Onun sohbetine geçeriz.
+- `2063598744377991466` 2026-06-07 | ana_atif=koc(0.93) | abone_yazar=abone(0.27) | Şimdi asıl soru şu;  #Kripto varlıklar nasıl nefes alır, ya da; neden şu an  bu nefesi almakta zorlanıyor ?  Hâlâ bu sorunun cevabını arayanlar veya mevcut piya
+- `2063036776369815605` 2026-06-06 | ana_atif=koc(0.67) | abone_yazar=belirsiz(0.4) | @Haincostoc1 @_newottoman1453 @diyalektik211 @luffytano Ben savaşın ABD ye çok büyük fatura çıkarttığını düşünüyorum...  Gün gelecek düze çıktıkları an acımayac
+- `2063031131801272359` 2026-06-06 | ana_atif=koc(0.97) | abone_yazar=belirsiz(0.25) | Seneye de milleti bayıltır.
+- `2063030965119648246` 2026-06-06 | ana_atif=koc(0.75) | abone_yazar=belirsiz(0.34) | @cllatalay @hacbekta19 @tyaltunok @simslatif @altin_12 @ozgurdenizsu Zaten saçmalık şuradadır.  Putin Avrupa kanadına saldırıyor, Avrupa ÇİN ile ticaret anlaşma
+- `2063030215937290393` 2026-06-06 | ana_atif=koc(0.99) | abone_yazar=abone(0.18) | @_newottoman1453 @Haincostoc1 @diyalektik211 @luffytano Borsa emtia kripto, bunlar böyle dönemler de zor.  Ben arada dinlenmek için, paritelere geçiyorum. Düzen
+- `2063018826858430871` 2026-06-06 | ana_atif=yok(0.49) | abone_yazar=koc(0.28) | @diyalektik211 @luffytano #ETHUSD
+- `2063015050097369364` 2026-06-06 | ana_atif=koc(0.91) | abone_yazar=abone(0.82) | Biden in ETF kazığı olmasaydı ne olacaktı ? 2025 Temmuz da barış kabul görseydi ne olacaktı ?  #XAGUSD #ETHUSD
+- `2063011356698202479` 2026-06-06 | ana_atif=koc(0.87) | abone_yazar=abone(0.16) | #ETHUSD #xagusd  BTC ETF ile #kriptoya zinciri nerede vurdular ?  Yıl 2024 başları...
+- `2063008260299305317` 2026-06-06 | ana_atif=koc(0.75) | abone_yazar=abone(0.64) | İstese ÇİN 2023 2024 de yine posta koyabilirdi. Vardı imkanları.  Neden koymadın ? Çıkarın nedir ?
+- `2063007994032316735` 2026-06-06 | ana_atif=koc(0.99) | abone_yazar=abone(0.72) | Benden önce film dönmüştür ve siz göz yummuşsunuz.  FED şakır şakır faiz indirirken veya BİDEN ETF verirken neden sustunuz ?  Mesela #FED   Biden döneminde #enf
+- `2063005642139345355` 2026-06-06 | ana_atif=koc(0.51) | abone_yazar=belirsiz(0.25) | Muhtemelen zaman sorunu yaşadılar.
+- `2062999715235430616` 2026-06-05 | ana_atif=koc(0.87) | abone_yazar=abone(0.83) | Sen bu işi yönetsen öyle düşünmez misin ? #EMTİA kanadını bir halledebilsem diğer taraf çocuk oyuncağı demez misin ?   Sonuçta bir söze cümleye bakar.
+- `2062999395054792747` 2026-06-05 | ana_atif=koc(1.0) | abone_yazar=abone(0.19) | Burada bir savaş olduğunu ABD ile ÇİN  arasında görmezden gelmeyin.  ABD ne düşünüyordur ?  Ben şu emtia kanadını bir diskalifiye  edebilsem gerisi kolay.  Bir 
+- `2062991944859472311` 2026-06-05 | ana_atif=koc(0.77) | abone_yazar=abone(0.12) | Ona da ayrı yazdım.  Önlem al ama, ANA stratejinden vazgeçme dedim.
+- `2062990258082378015` 2026-06-05 | ana_atif=koc(0.96) | abone_yazar=abone(0.35) | @HAKAN5977394672 @cllatalay @hacbekta19 @tyaltunok @simslatif @altin_12 @ozgurdenizsu Cumartesi pazarları çık vade doldu zaten. Kaç gün kaldı ?  Sana son güne b
+- `2062988543954231334` 2026-06-05 | ana_atif=koc(0.86) | abone_yazar=belirsiz(0.15) | @cllatalay @hacbekta19 @tyaltunok @simslatif @altin_12 @ozgurdenizsu Hatta bulamadım şöyle bir twet atmıştım ABD için 2025 Temmuz önemliydi ama bu işleri bir yı
+- `2062984732543955430` 2026-06-05 | ana_atif=koc(1.0) | abone_yazar=abone(0.2) | Ben size bir şey söylesem, inanır mısınız ? Bu düşüşler aslında geçen senenin düşüşüdür.  Geçen sene bu dönemlerde aslında düşmelilerdi. Yok Putin dediler Yok k
+- `2062982843727278513` 2026-06-05 | ana_atif=koc(0.82) | abone_yazar=belirsiz(0.55) | Açıklamalı anlatımı 2
+- `2062977158595670417` 2026-06-05 | ana_atif=koc(0.43) | abone_yazar=belirsiz(0.25) | Bu grafikleri hep çizmişiz
+- `2062968309759246700` 2026-06-05 | ana_atif=koc(0.95) | abone_yazar=abone(0.19) | @ogulcanndemirci Ama olmaz ki... Her seviye de sizler alım kovalarsanız bana garip geliyor.
+- `2062967593560949185` 2026-06-05 | ana_atif=yok(0.29) | abone_yazar=koc(0.27) | Bugün ne konuşuyorsun ? #NASDAQ alınır mı deyip soran kardeşim ?  Bazen öyle yerler de, öyle sorular soruyorsunuz ki aklım duruyor.
+- `2062964226872803477` 2026-06-05 | ana_atif=koc(0.54) | abone_yazar=belirsiz(0.27) | @hacbekta19 @tyaltunok @simslatif @cllatalay @altin_12 @ozgurdenizsu #BORSA kozu   31 Mayıs
+- `2062962123303506153` 2026-06-05 | ana_atif=koc(0.95) | abone_yazar=belirsiz(0.44) | Çin gelsin dünyayı kurtarsın.  Doları sağı solu ezdi geçti.
+- `2062959904772460572` 2026-06-05 | ana_atif=koc(0.99) | abone_yazar=abone(0.65) | #gümüş   Tüm dünya baskıda mı ? Oturup akşama altın toparlar mı ? Ben buna bakamam ki..  #XAUUSD 4376 ALTI hala negatif
+- `2062958006438903883` 2026-06-05 | ana_atif=koc(1.0) | abone_yazar=belirsiz(0.24) | @ibrahimbasak21 @tyaltunok @simslatif @cllatalay @altin_12 @ozgurdenizsu @hacbekta19 Çin istediği kadar haklı olsun ama, bizim işimiz piyasadır.  Bize ÇİN polit
+- `2062953926161309758` 2026-06-05 | ana_atif=koc(0.99) | abone_yazar=belirsiz(0.32) | BTC düştükten sonra kıymeti de yok. Tüm dünya negatif..
+- `2062949802099257855` 2026-06-05 | ana_atif=koc(0.59) | abone_yazar=abone(0.4) | @react336520 #kripto para dağıtılan bir sistemdir, enflasyon oluşturmaz.  EMTİA ise oluşturur, direkt halkı vurur.  ÇİN EMTİA diyerek kriz anında para saçılması
+- `2062943993772769348` 2026-06-05 | ana_atif=koc(1.0) | abone_yazar=abone(0.16) | ABD borsalarını hep desteklemek zorunda, neden ?   Misal; ÇİN borsası 2021 değerinin çok altında. Misal; Rusya çok altında...  Peki ABD borsalarına niçin sahip 
+- `2062936945483817333` 2026-06-05 | ana_atif=yok(0.48) | abone_yazar=koc(0.44) | Cümleler keskin. Tarih veriyorum.. Ama insanlar arada soru ile geliyor.
+- `2062931633422958618` 2026-06-05 | ana_atif=koc(0.97) | abone_yazar=abone(0.25) | Bir  kere de işlem yerine #zaman kovalasanız olay bitecektir.   Biz boşuna mı zaman kovalıyoruz ?
+- `2062928042440130903` 2026-06-05 | ana_atif=koc(0.97) | abone_yazar=abone(0.11) | @Haincostoc1 @simslatif @cllatalay @altin_12 @ozgurdenizsu @hacbekta19 Abicim; kimse beklemek istemiyor. Olaylar fiyatlar sindirilsin istemiyor.
+- `2062923851302904074` 2026-06-05 | ana_atif=koc(0.99) | abone_yazar=abone(0.66) | #NASDAQ 29700 üstünde tutmadılar mı ?   Ben mi yanlış görüyorum ?
+- `2062923272178524649` 2026-06-05 | ana_atif=koc(0.54) | abone_yazar=abone(0.14) | Adam o dönem short giriyor, düşmüyor diyor. Bende ona istinaden 29700 üstü düşmez kasarlar  yorulma diyorum.  Maksat budur.
+- `2062912105292927219` 2026-06-05 | ana_atif=aktarim(0.4) | abone_yazar=koc(0.66) | Hala gazlıyor.  Ondan sonra ÇİN #emtia diyor. DER adamlar.
+- `2062910859844759799` 2026-06-05 | ana_atif=koc(0.44) | abone_yazar=abone(0.24) | #NASDAQ 31 K demiş, veya #sp500  7600 !   Sen hala #Faiz inmeli diyorsun.  Sen böyle dersen adamlar da gün gelir isterse #emtia kartını yeniden masaya sürerler.
+- `2062903886059319713` 2026-06-05 | ana_atif=koc(0.79) | abone_yazar=belirsiz(0.32) | @_newottoman1453 @cllatalay @simslatif @altin_12 @ozgurdenizsu @hacbekta19 Geçen senenin aynısı.. Genelde zaman geçiriyorlar.
+- `2062901593045921792` 2026-06-05 | ana_atif=aktarim(0.67) | abone_yazar=koc(0.39) | Aralarında anlaştılarsa böyle işte anlaşmışlardır.  Yılın ilk 6 ayını atlatıyoruz beyler demişlerdir.
+- `2062864131384819815` 2026-06-05 | ana_atif=aktarim(0.43) | abone_yazar=koc(0.8) | İtibarlarını geri isterler.  Sorun sadece bizim değil derler.  ABD dolarını ezen #emtia, diğer ülke kurlarını da perişan ediyor, sesi yükseltin derler.
+- `2062860519401201993` 2026-06-05 | ana_atif=koc(0.86) | abone_yazar=abone(0.3) | @ozgurdenizsu @hacbekta19 Milleti kaprisleri ile ateşe atıyorlar.  Adamlar faiz indirimi diyorlardı #emtia deyip ortaya çıkmanın ne anlamı vardı ?  Çin kanadına
+- `2062857175769223192` 2026-06-05 | ana_atif=koc(0.98) | abone_yazar=abone(0.51) | Ama bu döngüde kim haklı ? Kim haksız ?  Bence direkt, AVRUPA haksız.  Savaş Avrupa ekonomisi yüzüne çıktı.  ABD #dxy ni zayıflatmak için #BTC yi kullanmasa #DX
+- `2062853789212615111` 2026-06-05 | ana_atif=koc(0.9) | abone_yazar=abone(0.09) | Bana kimse gelmezdi demesin, nasıl gelmiyor ?  ETF olmasın veya ABD #BİTCOİN deyip bağırmasın, ve savaş devam etsin.  O stresi nereye kaldırıyordu ?
+- `2062829061454381312` 2026-06-05 | ana_atif=koc(0.83) | abone_yazar=abone(0.73) | @Traderkripto12 @HamidYilmaz07 Ama kısır döngü olmuş olmuyor mu ? Dünya zaman kaybetmiş olmuyor mu ?  Seneye 2027 ilk çeyrek ne yapacağız ?
+- `2062826656486625461` 2026-06-05 | ana_atif=koc(0.98) | abone_yazar=abone(0.18) | @Traderkripto12 @HamidYilmaz07 Sizin yaptığınız piyasalara eziyet.. Adamların #dolar musluğunu dünyaya açmamasına neden oluyorsunuz.  Piyasalar dolar deyip ağlı
+- `2062825267375083831` 2026-06-05 | ana_atif=yok(0.29) | abone_yazar=koc(0.57) | ABD yi ipten iki hamle aldı.  2025 Avrupa Putin görüşmesi 2026 ABD ÇİN görüşmesi.
+- `2062823941471604972` 2026-06-05 | ana_atif=koc(0.98) | abone_yazar=abone(0.44) | Öyle ya ! ABD İRAN savaşını bitirdim dese, ne olacak ?  #petrol düştü diyelim.  Sağ sol prim yaptı ve coştu.  Ama koca yılda bitti.  Soruyorum; seneye ne konuşa
+- `2062820645394592150` 2026-06-05 | ana_atif=koc(0.99) | abone_yazar=abone(0.16) | Ekliyorum;  ABD oyunu zaman geçirerek kazanıyor.  Yılın ortası geçildikten sonra, anlaşmasalar ne olur ?  ABD sağı solu yıl sonu geliyor deyip komple  yukarı ve
+- `2062654062391120079` 2026-06-05 | ana_atif=koc(0.98) | abone_yazar=abone(0.63) | Açsın adamlar sana ne değil mi ? Sen dolar endeksini tanırsın.  Kaldırdığın an hem #kripto hem #emtia düşerdi.  Mal gibi ne diye ETF veriyorsunuz ?
+- `2062653155335188748` 2026-06-05 | ana_atif=koc(0.97) | abone_yazar=abone(0.8) | Hangi akla hizmet edip #etf verdiler ? Bu sektörü ÇİN kanadına kaptırırız korkusu mu ? Bilemiyorum.  Çift taraflı dolara savaş açarlar korkusu mu ?
+- `2062647716958687395` 2026-06-05 | ana_atif=koc(0.73) | abone_yazar=abone(0.54) | Ama buna #Biden sebep oldu.  BTC ye ETF vermemiş olsa, bugün dünya karışmazdı...  Neden ?   Seçim mi var ?  Gazla tüm kriptoyu olsun bitsin. Sen tüm kriptoyu ga
+- `2062637799883342107` 2026-06-04 | ana_atif=koc(0.63) | abone_yazar=abone(0.6) | Milleti faiz batağına mı sürükleyeceksiniz ? Bu ne faiz aşkı ?  Ayıptır.
+- `2062636302365827503` 2026-06-04 | ana_atif=koc(0.97) | abone_yazar=abone(0.19) | Ben sana söyleyeyim, neden vurmadılar ? Biden #savaş bitmeli demiyordu.  Faizler inmeli demiyordu. Avrupa kurlarını eziyordu, #EURUSD 0.84 idi bir ara #dolar EU
+- `2062635015595266430` 2026-06-04 | ana_atif=koc(0.96) | abone_yazar=abone(0.9) | Ben buna kızıyorum.  Biden döneminde #BTC #ETH ETF verilirken, ve şakır şakır #FAİZ inerken !  Neden sessiz kaldınız ?   Neden masaya yumruğu vurmadınız ?  Bura
+- `2062634410600542247` 2026-06-04 | ana_atif=koc(0.38) | abone_yazar=abone(0.65) | Şerefsizler. Bir yıl daha göz yumsalar, ölürler miydi.  Biden dönemin de bari patlatsaydın, ne diye göz yumdun ?
+- `2062631193254744370` 2026-06-04 | ana_atif=koc(0.97) | abone_yazar=belirsiz(0.34) | @Sah_Mat16 @simslatif @sleyman72903511 @xdiabolicalx @cllatalay @Serdar57277218 Ben savaş olduğunun, hep farkındaydım. Bu savaşlar gizleniyordu.  Bitcoin diyorl
+- `2062617567928221855` 2026-06-04 | ana_atif=koc(1.0) | abone_yazar=belirsiz(0.17) | @cllatalay @Serdar57277218 Doları masaya getirmeyip, #ALTIN kanadını biraz yukarı verseler, #borsa altın bazlı aşağı da kalmış gibi oluyor.  O zaman süreç bitmi
+- `2062611328687030323` 2026-06-04 | ana_atif=koc(0.75) | abone_yazar=abone(0.69) | Sanırım böyle bir şey istiyorlar. 2021 yılını mı baz alıyorlar ?
+- `2062599087841477043` 2026-06-04 | ana_atif=koc(0.81) | abone_yazar=abone(0.88) | #sp500 bakar mısın ?  Hemen yanlatıyorlar.
+- `2062597607717802204` 2026-06-04 | ana_atif=koc(0.82) | abone_yazar=belirsiz(0.25) | İnşallah faiz artırmak zorunda kalırlar. İnsanın da böyle diyesi geliyor.  Milletin zamanını çalıyorlar.
+- `2062594774532542786` 2026-06-04 | ana_atif=koc(0.99) | abone_yazar=belirsiz(0.1) | @Serdar57277218 #NASDAQ da 30 gün de bir düşüyor 30 saniye de toparlıyor.
+- `2062586428333199730` 2026-06-04 | ana_atif=koc(0.99) | abone_yazar=abone(0.77) | @oguzhanyanci @cetinkorkut Piyasanın canlanması için daha ne olması lazım ? Adamlar #bitcoini 300 bin dolar mı yapsınlar ?
+- `2062584533069725867` 2026-06-04 | ana_atif=koc(0.99) | abone_yazar=abone(0.48) | @cetinkorkut Mantığı anladık mı ? #DXY 110 dan 95 e kadar düştü.  Faiz artmadı.  Borsaların biraz kımıldaması gerekmezmiydi ?
+- `2062576538176946583` 2026-06-04 | ana_atif=koc(0.93) | abone_yazar=abone(0.53) | Adamların elinde #dolar silahı var, ve tek #faiz demelerine dünya pert olur.  Dememesi normalde dünya için iyi bir şey değil mi ?  Bu kadar kasmanın anlamı nedi
+- `2062575874084327874` 2026-06-04 | ana_atif=koc(0.99) | abone_yazar=abone(0.4) | Zaten öyle, ABD oyunu 2023 de kaybetti.  Bugün kaybetmedi ki.  Ama; ABD aslında biraz haklı.  ABD istese #dolar ile ÇİN kanadını dize getiremez mi ?  Getirir de
+- `2062574063583723821` 2026-06-04 | ana_atif=koc(0.97) | abone_yazar=belirsiz(0.16) | @BugrraOzturk @luffytano Ben de diyorum ki;  genelde #gümüş short oynamama rağmen..  Gazla gitsin...  Çaprazlarda makas açılsın.  Doysun  kansızlar.
+- `2062570469199331668` 2026-06-04 | ana_atif=koc(0.88) | abone_yazar=abone(0.29) | Anlaştık mı ?   Kalıcı barış lazım.  Öbür türlü yıl sonu kaldır ama gelecek sene #stres yaşat olmuyor.
+- `2062564630518509760` 2026-06-04 | ana_atif=koc(0.23) | abone_yazar=abone(0.43) | @xStratejik Aynen öyle...
+- `2062283418860208367` 2026-06-04 | ana_atif=koc(0.75) | abone_yazar=abone(0.52) | Aslında BİDEN, Çin kanadına büyük kazık attı.  Nasıl ?
+- `2062273666423967930` 2026-06-03 | ana_atif=koc(0.97) | abone_yazar=belirsiz(0.31) | @BerkayeKayhan @mhasanhankaya @manofthecripto @cllatalay @simslatif Benimkisi işlemden çok devlet psikolojisi..  Üst pencereden bakıyorum.
+- `2062273276060078229` 2026-06-03 | ana_atif=koc(0.62) | abone_yazar=belirsiz(0.23) | @BerkayeKayhan @mhasanhankaya @manofthecripto @cllatalay @simslatif Ben anlarım...  Çok yönlü bakıyorum.
+- `2062271648179392598` 2026-06-03 | ana_atif=yok(0.22) | abone_yazar=koc(0.32) | Ne güzel anlatmışım ?
+- `2062269702873784606` 2026-06-03 | ana_atif=koc(0.68) | abone_yazar=belirsiz(0.29) | İşlem olayı farklı ve çift yönlü olan bir şey.  Geriye dönüp bakmam lazım. Hangi tarihler önemliydi unuttum.
+- `2062267672167919690` 2026-06-03 | ana_atif=koc(1.0) | abone_yazar=abone(0.25) | Buna short girdiysen kazanmış olman lazım.  Giren var mı ?
+- `2062261245357506812` 2026-06-03 | ana_atif=koc(0.59) | abone_yazar=belirsiz(0.17) | Şerefsizler.  Düzeni sağlayamıyorlar, milleti oyalıyorlar.  Adam gibi çıkarsın #doları kaldırır  herkesi paralel düşürürsün ve yumruğu masaya koyarsın...  Sonra
+- `2062259595083391265` 2026-06-03 | ana_atif=koc(0.99) | abone_yazar=abone(0.2) | Savaş 28 Şubat günü çıktı. O gün hiç unutmuyorum #bitcoin 65.700 idi.  5.7 öğretisi.  Bugün de aynı.  ABD #BORSALARI aynı mı ?
+- `2062257493581955155` 2026-06-03 | ana_atif=koc(0.91) | abone_yazar=belirsiz(0.33) | Ben bunların kavgalarına dahi şu an inanmıyorum.
+- `2062256286482247786` 2026-06-03 | ana_atif=koc(0.97) | abone_yazar=abone(0.89) | Dünyaya Mart 15 / Haziran15 arası, barışı pazarlıyorsunuz, ama; bir tek  ABD #BORSALARI çıkıyor.  Böyle bir şey var mı ? Böyle bir saçmalık olabilir mi ?  Diğer
+- `2062255449122943294` 2026-06-03 | ana_atif=koc(0.73) | abone_yazar=belirsiz(0.13) | Düzeni biran önce ya sağla.. Ya da defol git...
+- `2062251307331690748` 2026-06-03 | ana_atif=koc(0.98) | abone_yazar=abone(0.27) | Çünkü aklım #NASDAQ da...  Diğerleri ile ilgilenmek istemiyorum.  Tek odağım orası olsun istiyorum.
+- `2062250982868750761` 2026-06-03 | ana_atif=koc(0.96) | abone_yazar=abone(0.53) | Gece altında sattım. Ama kapatıyorum.  Sor neden ?
+- `2062250229609414914` 2026-06-03 | ana_atif=koc(0.94) | abone_yazar=abone(0.18) | @cllatalay @simslatif Sabah shortladım aldım  karımı
+- `2062249170866503920` 2026-06-03 | ana_atif=koc(0.99) | abone_yazar=abone(0.44) | Ben #gümüş trade ediyorum.  Ama dedim ya sistemli gidiyorum.  Örnek; #ALTIN şu an 143 dolar.  Bunun yarısı kaç ?   Normalde #gümüş 71.5 dolar olmalı ama yukarıd
+- `2062246620167561292` 2026-06-03 | ana_atif=koc(0.48) | abone_yazar=abone(0.85) | @simslatif #gümüşte bir dolarlık düşüş lot başı  ne kar bırakıyor ?
+- `2062240696480747592` 2026-06-03 | ana_atif=koc(0.61) | abone_yazar=belirsiz(0.19) | Bu kadar abartmanın veya diretmenin ne anlamı var ?   Bazen akıl sır ermiyor.
+- `2062189150590152820` 2026-06-03 | ana_atif=koc(0.62) | abone_yazar=belirsiz(0.29) | @simslatif @mhasanhankaya @hacbekta19 Şu twit sürecin özetidir.  Trump #AVRUPA kanadını kurtaracağım derken ABD'yi dünya ile krize soktu.
+- `2062159719913926839` 2026-06-03 | ana_atif=koc(0.89) | abone_yazar=abone(0.69) | Sen sırtını tamamen ABD ye dayamışsın, #EUR DXY nin içinde %57 orana sahip, bizi ezemezler diye düşünüyorsun.  Senin yüzüne ABD ÇİN savaşı çıkıyor.
+- `2062158522213662779` 2026-06-03 | ana_atif=koc(0.69) | abone_yazar=abone(0.42) | Avrupa kanadı için konuşuyorum.  Senin dünyaya #zaman kaybettirmeye hakkın yok.  Sen neyine güveniyorsun ?  Zamanın da yazdım;  Putin de #enerji var, sen de ne 
+- `2062149663453597816` 2026-06-03 | ana_atif=koc(0.99) | abone_yazar=abone(0.29) | @mhasanhankaya @hacbekta19 Yani #sp500 10 K olsa, 2500 puan lazım. Her 100 puanına #nasdaq 400 yapıyorsa !  25 adet 100 puan lazım Bu da = 25 adet 400 puan eder
+- `2062148545898025027` 2026-06-03 | ana_atif=koc(0.97) | abone_yazar=abone(0.75) | #NASDAQ kanadının 50600 görmesi için #sp500 ün kaç olması lazım ?   HER 100 PUANA 400 Puan hesabı yap
+- `2062144089282199722` 2026-06-03 | ana_atif=koc(0.33) | abone_yazar=belirsiz(0.22) | @mhasanhankaya @hacbekta19 2025 Temmuz ayı;  İran barışı deyip, #Putin görüşmesi ile süreci atlatıyorlar.  2026 yılı ise İRAN barışı deyip, #ÇİN görüşmesi diyor
+- `2062132353565102476` 2026-06-03 | ana_atif=yok(0.34) | abone_yazar=koc(0.14) | @Alpkckbs Doğru kardeşim.
+- `2061958808860041659` 2026-06-03 | ana_atif=koc(0.98) | abone_yazar=abone(0.34) | @BugrraOzturk Şerefsizler ya...  BTC düşüyorsa gümüşü de düşür bari iş dengelensin.
+- `2061957171613507817` 2026-06-03 | ana_atif=koc(0.5) | abone_yazar=abone(0.51) | @BugrraOzturk Büyümü yaptılar ne yaptılar ! Vur tokadı işkence son bulsun...
+- `2061936874399105402` 2026-06-03 | ana_atif=koc(0.83) | abone_yazar=belirsiz(0.38) | @simslatif @btchasreti2023 @M1881_K1938 @ogulcanndemirci Çin in bir şey vaat etmesine gerek yok ki  adamlar bir şey yapmıyor ki..
+- `2061935428425355716` 2026-06-03 | ana_atif=koc(0.72) | abone_yazar=belirsiz(0.23) | @btchasreti2023 @simslatif @M1881_K1938 @ogulcanndemirci Bir kozda bunlara şu an TRUMP veriyor borsaları şişiriyor.  Adamlar içlerinden şişir şişir görüşürüz di
+- `2061929970922934668` 2026-06-03 | ana_atif=koc(1.0) | abone_yazar=abone(0.68) | Böyle salakça yönetim olabilir mi ?  Seçim var deyip, iç piyasayı #bitcoin ETF leri ile sıcak tutuyorsun.  Ama dış dünya biz bunu yaparken #dolara savaş açmasın
+- `2061926719209017498` 2026-06-03 | ana_atif=koc(0.82) | abone_yazar=belirsiz(0.48) | En mantıklısı anlaşma kovalamaktı.  Tek tek konuştu ikna edemedi.
+- `2061926412412494175` 2026-06-03 | ana_atif=koc(0.99) | abone_yazar=abone(0.48) | Ama yine söylüyorum..  Trump geldiğinde, #gümüş 25 dolardı Adam bunu baskıya alsa 10 dolara mı  düşürecekti ?  Veya; #DOW 45 k idi...  30 K ya mı düşürecekti ? 
+- `2061923940876923118` 2026-06-03 | ana_atif=koc(0.82) | abone_yazar=belirsiz(0.32) | Biden in oluşturduğu balon...  Bugün savaşlar bundan çıkıyor..  TRUMP dönemin de ABD fatura ödüyor. Grafikler bunu gösteriyor.
+- `2061923681266192701` 2026-06-03 | ana_atif=yok(0.51) | abone_yazar=koc(0.68) | @bahadirrbektas @ogulcanndemirci Önce öğretileri anlayın.
+- `2061922293123576014` 2026-06-03 | ana_atif=koc(0.75) | abone_yazar=abone(0.35) | Bu işi nasıl temizlerler ? Valla muamma...
+- `2061918455352217825` 2026-06-03 | ana_atif=koc(0.95) | abone_yazar=belirsiz(0.27) | Ama dünyada bunları şhrtluyor düşerlerse sıkıntı yaşarlar.  Kıç derdine düşüyorlar.
+- `2061916008433009106` 2026-06-03 | ana_atif=koc(0.98) | abone_yazar=abone(0.16) | @M1881_K1938 @ogulcanndemirci #gümüş karşısında daha beterler.  Nasıl dayak yemişler ! Grafiğe bakınca insan korkuyor.
+- `2061911797771260203` 2026-06-02 | ana_atif=koc(1.0) | abone_yazar=abone(0.38) | @M1881_K1938 @ogulcanndemirci #NASDAQ AYLIK   Son üç muma bakar mısın ?  Aynı dolulukta geçmişte böyle mum yok. Tamam 30600 hatta daha üstünü bile getirebilirle
+- `2061910588196839906` 2026-06-02 | ana_atif=koc(0.97) | abone_yazar=belirsiz(0.15) | @M1881_K1938 @ogulcanndemirci Sapıkça borsa yönetiyorlar.  Üçüncü aya girdiler.  Tarihte böyle bir şey yok..
+- `2061905941621047315` 2026-06-02 | ana_atif=koc(0.85) | abone_yazar=belirsiz(0.35) | Dün dedim ya...
+- `2061903640126706068` 2026-06-02 | ana_atif=yok(0.49) | abone_yazar=koc(0.47) | @ogulcanndemirci Benim bakışımı yakalamadığınız sürece beni anlayamazsınız.
+- `2061900823110582757` 2026-06-02 | ana_atif=koc(0.68) | abone_yazar=belirsiz(0.31) | @muztafahdjdj @Haincostoc1 @economybors35 @xdiabolicalx Umut dünyası...  Adamın tüm tecrübesi kriptoysa vazgeçemez.
+- `2061895998687891722` 2026-06-02 | ana_atif=koc(0.92) | abone_yazar=abone(0.41) | @Haincostoc1 @economybors35 @xdiabolicalx Yoksa ayaklarına giderler mi ?
+- `2061892633916527048` 2026-06-02 | ana_atif=koc(0.82) | abone_yazar=belirsiz(0.38) | @Haincostoc1 @economybors35 @xdiabolicalx Asıl kahpe Avrupa...  O kozu ÇİN kanadına verdiler.
+- `2061885673926213706` 2026-06-02 | ana_atif=koc(0.85) | abone_yazar=belirsiz(0.15) | @simslatif @sleyman72903511 @ibrahimbasak21 @mhasanhankaya @Farkyok16 Biraz öyle...  Biraz da zaman geçmesini beklemek lazım.
+- `2061881510693581163` 2026-06-02 | ana_atif=koc(0.34) | abone_yazar=belirsiz(0.26) | @sleyman72903511 @ibrahimbasak21 @mhasanhankaya @Farkyok16 Bu işler öyle... Adam ayırt etmesinler.
+- `2061875997486506484` 2026-06-02 | ana_atif=koc(0.87) | abone_yazar=abone(0.11) | Diğer ülkeler #DXY 110 120 130 olsun istiyorlar...  Sor neden ?
+- `2061875215991181495` 2026-06-02 | ana_atif=koc(0.96) | abone_yazar=belirsiz(0.06) | ABD #kripto sistemini geliştirdi. Kime ne zararı var ?  Bırak adamlar dünyaya, bu varlıklar üstünden para saçsın...  Sana ne...
+- `2061873632641491377` 2026-06-02 | ana_atif=koc(0.98) | abone_yazar=abone(0.13) | Adamlar #doları zayıflatıyor, kime ne zararı var ?  Dünyada krizler var, ekonomilerin veya piyasaların bu paraya ihtiyacı var.  Kasmayın adamları ki #para dünya
+- `2061870822625616057` 2026-06-02 | ana_atif=koc(0.55) | abone_yazar=belirsiz(0.54) | Çalışan üreten masaya yumruğu vurabiliyor.
+- `2061866173306679376` 2026-06-02 | ana_atif=koc(0.74) | abone_yazar=belirsiz(0.54) | Tamamen dostta değiller ama, düşman da değiller.  Sadece soğuk savaş..
+- `2061848884805062744` 2026-06-02 | ana_atif=koc(0.99) | abone_yazar=abone(0.28) | Gizli anlaşma nedir ?  Sen beni tehdit etme, ben de seni..  Kripto durulsun emtia durulsun..  Kripto düştü.. EMTİA önemlidir.
+- `2061844048877383781` 2026-06-02 | ana_atif=koc(0.93) | abone_yazar=belirsiz(0.21) | Nasıl bir para varsa ellerinde de patlamıyor.
+- `2061837516261466475` 2026-06-02 | ana_atif=koc(0.89) | abone_yazar=belirsiz(0.26) | Bu zaten en hayırlısı olur.  Bu şekilde sürünceme de kalıyor.  Keşke öyle bir şey yapsalar.
+- `2061828390273909168` 2026-06-02 | ana_atif=koc(0.97) | abone_yazar=abone(0.47) | @ibrahimbasak21 @simslatif @sleyman72903511 @Haincostoc1 @Traderkripto12 Mantık var.  Şu son 2.5 ay da nasıl bir pozitiflik oldu da #NASDAQ 9 k çıktı ?   #SP500
+- `2061826583472574768` 2026-06-02 | ana_atif=koc(0.98) | abone_yazar=abone(0.54) | Petrolü yükseltiyorsun risk oluşturuyorsun, ama #borsa 9 K prim...  Risk var mı ? Yok mu ?  Riskte çıkartıyorsun, sevinçte çıkartıyorsun. Böyle olur mu ?
+- `2061822551907553421` 2026-06-02 | ana_atif=koc(0.95) | abone_yazar=abone(0.3) | ABD düşse, diğer yerlerin akıbeti ne olacak ? Orası meçhul... O da bir koz...
+- `2061817335543992789` 2026-06-02 | ana_atif=koc(0.99) | abone_yazar=belirsiz(0.11) | Çok fazla çamura yatıyorlar.  Sağ sol düşerken kendini de düşürsene...  Paralel hareket et.. Bir şeyler normale dönsün.
+- `2061780031651688534` 2026-06-02 | ana_atif=koc(0.98) | abone_yazar=abone(0.35) | @Haincostoc1 @Traderkripto12 @sleyman72903511 Madem öyle seçim ayağına her yerleri serbest bıraksaydınız.  Ülke kurlarını #DXY ile baskıla, #ALTIN veya genel #e
+- `2061779200445403335` 2026-06-02 | ana_atif=koc(0.95) | abone_yazar=abone(0.86) | Adama demezler mi ? Kardeşim madem #enflasyonla mücadele ediliyor ve #ALTIN baskılanıyor.  Veya; #DXY 110 riski yaşatılıyor !  #BİTCOİN kanadına neden ETF veril
+- `2061777143911113151` 2026-06-02 | ana_atif=koc(1.0) | abone_yazar=abone(0.64) | Sen tüm dünyaya #dolar baskısı yaptın, #DXY yi asla 106 altına düşürmedin, 110 u aşırmakla tehdit ettin.  Tüm ülke kurlarını #dolar baskısına aldın. #EUR 0.090 
+- `2061775048210305354` 2026-06-02 | ana_atif=koc(0.81) | abone_yazar=belirsiz(0.33) | @hrglml @mhasanhankaya Vadelerin dolmasına bir hafta kala..  Son hafta sonu kısmen..
+- `2061764253028151484` 2026-06-02 | ana_atif=koc(0.99) | abone_yazar=abone(0.16) | Ben yumuşamak istiyorum ama, sen beni #emtia ile tehdit ediyorsun.  O zaman yapamıyor.  ABD doları dayak yerse diğer ülke kurları perişan olur.   Buradaki sorun
+- `2061753624284275075` 2026-06-02 | ana_atif=koc(0.84) | abone_yazar=abone(0.07) | Onu da dedim. Çin kanadına bu işten pay verin olay tatlıya bağlansın..
+- `2061751871799173266` 2026-06-02 | ana_atif=koc(1.0) | abone_yazar=abone(0.19) | Ben bir vatandaş olarak olayı şöyle okurum.  Bu adamlar bunu #kripto varlıklar üstünden yapmamış olsalar, #dolar kafa kaldırır.  Adam #doları zayıflatıyor bir z
+- `2061750988436861259` 2026-06-02 | ana_atif=koc(1.0) | abone_yazar=abone(0.6) | Burada soru şudur;  ABD nin kriptolar üzerinden para saçması  iyi mi ?  Yoksa kötü bir şey mi ?   Bence iyi bir şey.  Çünkü bunlar doğrudan enflasyonu azdırmıyo
+- `2061749388003684606` 2026-06-02 | ana_atif=koc(0.48) | abone_yazar=abone(0.19) | Bu savaşlar neden çıkıyor ?  Birileri ABD ye, resmen diyor ki; Sen sürekli #kriptolarla para saçıyorsun..  #ALTIN #GÜMÜŞ bunlar ne olacak deyip artık kafa tutuy
+- `2061746051309048267` 2026-06-02 | ana_atif=koc(1.0) | abone_yazar=belirsiz(0.28) | O ETF olayı piyasaları öldürdü. Tamamen yönetim ABD ye kripto da geçti bağımsızlık gitti...
+- `2061735160727416984` 2026-06-02 | ana_atif=koc(0.88) | abone_yazar=abone(0.2) | Bu adamlar #zamana oynuyorlar.  Gelecek hafta görüşeceğiz demek ne demek ? Haziran 15 vadesine kadar ite kaka gelmeye çalışıyoruz.
+- `2061425412794679720` 2026-06-01 | ana_atif=koc(1.0) | abone_yazar=abone(0.23) | Bir de sabit kripto deyip, yıllarca piyasalardan kopmakta olmuyor.  Yatırımı çeşitlendirmek lazım. Bugün platformlar bile farklı sektörlere kayıyor. Niçin ?  Ge
+- `2061397111208317018` 2026-06-01 | ana_atif=koc(0.87) | abone_yazar=abone(0.79) | Bir anlaşma varsa ! Adamlar neden ilerlemiyor ?  Bu anlaşmalar hep sizlere mi yarıyor ?
+- `2061396780088979792` 2026-06-01 | ana_atif=yok(0.36) | abone_yazar=koc(0.63) | #A50   ÇİN ABD görüşmesi 2025
+- `2061395350003364313` 2026-06-01 | ana_atif=koc(1.0) | abone_yazar=abone(0.78) | Ne yapacaksın ? Arşa mı çıkartacaksın ?   Çıkarken 200 300 400 500 hızlı hızlı yukarı alıyorlar geri gelirken 10 20 30 puan zorla çekiliyorlar.
+- `2061390245174653142` 2026-06-01 | ana_atif=koc(0.84) | abone_yazar=abone(0.75) | Eğer bir anlaşma varsa ! Adamların borsası neden çıkmadı ?   Tek taraflı kazanç olur mu ?
+- `2061383248358392280` 2026-06-01 | ana_atif=koc(0.39) | abone_yazar=belirsiz(0.09) | Geldim vanayı zorluyorum tüm gücümü veriyorum yerinden oynamıyor.  Dedim oğlum sen nasıl patlattın ? Çürümüş diyor.  :))
+- `2061369337676546407` 2026-06-01 | ana_atif=koc(0.36) | abone_yazar=belirsiz(0.63) | 1-
+- `2061233403572224441` 2026-06-01 | ana_atif=koc(0.34) | abone_yazar=belirsiz(0.35) | Aynen öyle...
+- `2061231746436231178` 2026-06-01 | ana_atif=koc(0.98) | abone_yazar=abone(0.3) | #NASDAQ AYLIK   Nisan mumunun kıç yapısı kaçtan yeşildir ?   23700..  Anlamı neydi ?
+- `2061229095598313582` 2026-06-01 | ana_atif=koc(0.97) | abone_yazar=abone(0.57) | #nasdaq şu kanala girmiş değil mi ?
+- `2061227011268309155` 2026-06-01 | ana_atif=yok(0.47) | abone_yazar=koc(0.49) | #XAUUSD
+- `2061220291188060183` 2026-06-01 | ana_atif=koc(0.89) | abone_yazar=abone(0.05) | Çin mayıs ayında müsait değiliz görüşemeyiz demiş olsa, belki de borsalar çakılacaktı...  Geçen sene keza Putin öyle...  Bunlar mı kafa tutuyor ? Valla benim ak
+- `2061217286640263656` 2026-06-01 | ana_atif=koc(0.96) | abone_yazar=belirsiz(0.47) | Diyorum ki hepsi aynı yolun yolcusu...
+- `2061216886159810845` 2026-06-01 | ana_atif=koc(0.97) | abone_yazar=abone(0.94) | Çin bu son görüşmeyi yapmamış olsa, ABD borsaları çakılmıştı..  ÇİN bunu bilmiyor mu ?  Geçen senede sana bunu AVRUPA PUTİN görüşmesinde yazdım !  Bana TRUMP he
+- `2061210477003223202` 2026-06-01 | ana_atif=koc(0.56) | abone_yazar=abone(0.87) | İnşallah kardeşim.  Ama bu bedeli ABD ne ile ödeyecek ? Dolar mı dayak yiyecek ?  Bunu mu kastediyorsun ?
+- `2061206324323516507` 2026-06-01 | ana_atif=koc(0.98) | abone_yazar=abone(0.25) | #sp500   Şunu yapsan ne kaybederdin ?  9 ay çizgi de yatırınca eline ne geçti ?
+- `2061198954092499213` 2026-06-01 | ana_atif=koc(0.98) | abone_yazar=abone(0.24) | #gümüş   Son mum hangi çizgiden döndü ?  Çizgi üstüne çıkmadıkça ! Adamlara zararı var mı ?
+- `2061191999001178205` 2026-06-01 | ana_atif=koc(0.96) | abone_yazar=abone(0.31) | Ben hafızayla ilerliyorum.  6400 den misal sekmiştir.  Seker ne olacak !
+- `2061191743257624770` 2026-06-01 | ana_atif=koc(0.99) | abone_yazar=abone(0.43) | Olmaz...  Yıllar içinde orası taban mı olacak ? Bu dış piyasalara bağlıdır.  Yani şöyle düşün; aşağıda 5700 yukarıda 10.600 arası mı dalgalanacağız ?   Bir tara
+- `2061191048710300158` 2026-06-01 | ana_atif=koc(0.99) | abone_yazar=abone(0.16) | Bizde bu değer #gramaltın da 6400 lere denk geliyor Bu değeri hatırlayan var mı ?
+- `2061187452321284361` 2026-05-31 | ana_atif=koc(0.99) | abone_yazar=abone(0.52) | Yani burada yine, BİDEN suçludur. Madem seçim için, BTC ETH kullanıyorsun, tüm #kriptoları bari coştursaydın.  ETF ile hapsetmeseydin.  Daha önceden sohbetini y
+- `2061184474465935788` 2026-05-31 | ana_atif=yok(0.38) | abone_yazar=koc(0.48) | #gümüş #petrol
+- `2061180925258485816` 2026-05-31 | ana_atif=koc(0.94) | abone_yazar=abone(0.73) | Ben bunları yazarken dönüp #kripto da kolay kolay, EK alıma girer miyim ? Veya birisini, teşvik eder miyim ?   Şerefsiz miyim !
+- `2061176411084263505` 2026-05-31 | ana_atif=koc(0.98) | abone_yazar=abone(0.14) | Geçen gün misal ETH 1746 ya düştü, ve 2400 dolara sekti.  O esnada X bir coine baktım %100 çıktı.  O mal yeğenimde vardı sattırdım  hemen nakiti cebine koy dedi
+- `2061173373158502600` 2026-05-31 | ana_atif=koc(0.87) | abone_yazar=abone(0.25) | Adam diyor ki; #coin neden paylaşmıyorsun ?  Abicim sözüm meclisten dışarıdır, özür diliyorum.  X bir coini paylaşsan, direkt alıyorlar ve  yüklü bağlıyorlar.  
+- `2061172517700501574` 2026-05-31 | ana_atif=koc(0.29) | abone_yazar=belirsiz(0.37) | Aynen öyle...
+- `2061172301710725255` 2026-05-31 | ana_atif=koc(0.99) | abone_yazar=abone(0.26) | Sen en fazla ne yaparsın ? Ucuz malı toplarsın ve döngünün değişmesini  beklersin.  Bende o kafada mallarımı tutuyorum.  50 cent aşağı veya yukarı fark etmez. D
+- `2061170581119078789` 2026-05-31 | ana_atif=aktarim(0.38) | abone_yazar=koc(0.25) | Örnek; #BTC 126 k geçilmeden boğa gelmez dedim Örnek; #ETH 6 k aşılmadan, boğa gelmez dedim.  Bunları diyen adam, bu piyasaya saldırır mı ?   Ben en son #coine 
+- `2061166169571078378` 2026-05-31 | ana_atif=koc(1.0) | abone_yazar=abone(0.33) | Malı almak yetmiyor, önemli olan yükseliş geliyor mu ?  Örnek;  4 sene öncede millet 1500 2000 dolardan ETH aldı, bu sene de aldı..  Mal trende girmedikten sonr
+- `2061158829425840500` 2026-05-31 | ana_atif=koc(0.99) | abone_yazar=abone(0.16) | Benim için sorun yok...  Borsalar çakılsın ben keyiflenirim.. Ama kripto hasar alır.
+- `2061156961723244594` 2026-05-31 | ana_atif=koc(0.99) | abone_yazar=abone(0.46) | Bir olay yapacaksan bile #emtia hasar görmelidir. Ama yazık günah değil mi ?  Sürekli #kriz kriz !  Nereye kadar ?   Anlaşmaları daha mantıklıdır.
+- `2061155912732082419` 2026-05-31 | ana_atif=koc(1.0) | abone_yazar=abone(0.13) | O zaman ABD ne yapacak ? Eli mahkum zaman geçirecek.  İkna yolunu seçecek..  Ya da gün gelecek dünyayı patlatacaklar ve faiz indirimi diyecekler.  Dünyayı nasıl
+- `2061151540543447286` 2026-05-31 | ana_atif=yok(0.58) | abone_yazar=koc(0.37) | Trump bu anlaşma teklifleri karşılık bulmuyor deyip, renk değiştirdi.  Sevimsiz oldu. Sataşan tarafa geçti.
+- `2061146248820748604` 2026-05-31 | ana_atif=koc(0.79) | abone_yazar=abone(0.68) | ABD oyunu ne zaman kaybetmiş ?   Hangi yıl yazıyor ?
+- `2061141723317678305` 2026-05-31 | ana_atif=koc(0.99) | abone_yazar=abone(0.62) | Bana göre hep yazdım #gümüşün ederi 40 dolar. Orijinalde bassalar basarlar.  Peki niçin basmıyorlar ?   #gümüş #BTC kısmi şu an entegre olmuştur.  Eğer ki;  ABD
+- `2061123808992350448` 2026-05-31 | ana_atif=koc(1.0) | abone_yazar=abone(0.64) | Ekliyorum;   Çoğu varlıkta #petrol odaklılar KONUŞTUK.. ABD eğer ki #borsaları düşürmüyorsa,  #petrol kanadını düşürmek zorunda değil mi ?  Pozitif hava vermek 
+- `2061123224381829575` 2026-05-31 | ana_atif=koc(0.77) | abone_yazar=abone(0.67) | #petrol 108 usd den düşmüş mü ?  Sürekli #zaman geçiriyorlar diyoruz ama, hiç rakam verilmiyormuş gibi, neden davranılıyor ?   Şu emek değil midir ?
+- `2061118825827885523` 2026-05-31 | ana_atif=koc(1.0) | abone_yazar=abone(0.35) | Her hafta bir önceki haftanın üstünde niçin kapatıyorlar ?   Örnek;  2 hafta önce 29400 altı kalsalar düşerlerdi, geçen hafta ise 29700...  Sürekli yeni zirve m
+- `2061106108102582600` 2026-05-31 | ana_atif=koc(0.64) | abone_yazar=abone(0.74) | Buraya short giren bir arkadaş sormuştu, 29700 üstündeyse dokunma demiştim.  Buradan aynı zamanda hangi anlam çıkar ?  29700 üstünde kaldıkça alıma zorlarlar, y
+- `2061105047073620150` 2026-05-31 | ana_atif=koc(0.72) | abone_yazar=belirsiz(0.84) | 22 Mayıs 2026
+- `2061099798766268776` 2026-05-31 | ana_atif=koc(0.97) | abone_yazar=abone(0.26) | %5 nedir ?  Adam kendi #borsasını savaşın ortasında % 40  yükseltiyor....  Millet yıllardır içeridedir.   Sen herkesi kaldıraç mı yapıyor sanıyorsun ?
+- `2061099103375769630` 2026-05-31 | ana_atif=koc(0.56) | abone_yazar=abone(0.34) | Yani senin bizi %5 kesiyor dediğin rakam, kimseyi kesmez....  Seni kesiyorsa, zaten trade paylaşıyorum belgeledim...
+- `2061097783956799581` 2026-05-31 | ana_atif=koc(0.88) | abone_yazar=abone(0.22) | Haka, hiç trade paylaşmıyormuşum gibi yazıyorsun.  Bak kardeşim, iyi dinle..  Burada buna bende dahil, bir kripto yatırımcı kitlesi var.   Bu adamlar yıllardır 
+- `2061096559547220337` 2026-05-31 | ana_atif=yok(0.72) | abone_yazar=koc(0.06) | Geçen hafta birisi çamur attı.  Burada bir kardeşim #kripto sordu sitemkar cevap verdim.  Sırf o çamurların yüzünedir.
+- `2061096345230791134` 2026-05-31 | ana_atif=koc(0.99) | abone_yazar=abone(0.31) | En ince ayrıntısına kadar anlatıyorum, ASYA AVRUPA farklı davranıyorlar ama, ABD seansı farklı olabiliyor.  Bizler çoğu zaman ASYA AVRUPA seansı işlem alıyoruz 
+- `2061093053914358235` 2026-05-31 | ana_atif=koc(0.75) | abone_yazar=abone(0.71) | #nasdaq Hakan bir teşekkür de bunun için alayım... 29700 uyarım...
+- `2061091807568515516` 2026-05-31 | ana_atif=koc(0.58) | abone_yazar=abone(0.73) | Hakan bir teşekkürde #XAUUSD için alayım.
+- `2061090552695726496` 2026-05-31 | ana_atif=koc(0.28) | abone_yazar=abone(0.8) | Bir teşekkür de #gümüşe alayım Hakan..  O da 71 dolara düştü.
+- `2061090043960103392` 2026-05-31 | ana_atif=koc(0.79) | abone_yazar=abone(0.92) | 20 Mayıs #petrol kaçtı Hakan ?   106 dolar !  Kaça düştü hakan ?   90 dolar.  Teşekkür nerede hakan ?
+- `2061088943781576842` 2026-05-31 | ana_atif=koc(0.49) | abone_yazar=belirsiz(0.24) | Arkadaşlar sormayın biz trade kovalıyoruz diyeceksin...
+- `2061087133482275238` 2026-05-31 | ana_atif=koc(0.61) | abone_yazar=abone(0.49) | Sana sağa sola işlem açmamı dedim ?  Böyle bir yaklaşımla geliyorsun ?  Abi zaman geçiriyorlar diye, hiç bir yere işlem açmayalım mı diyorsun ?   Ben sana öyle 
+- `2061082132269662482` 2026-05-31 | ana_atif=koc(0.95) | abone_yazar=abone(0.36) | Adamlar #seçim hatırına sağı solu coşturdular diyelim.  Tamam ama,  2027 Mart, Nisan, Mayıs, dönemlerinde biz ne konuşacağız ?  Kimse şimdiden hesabını yapıyor 
+- `2061080609724703064` 2026-05-31 | ana_atif=koc(1.0) | abone_yazar=abone(0.04) | Bu adamlar kendi borsalarını dünyadan bağımsız, neden şişiriyorlar ?   Diğer yerlere neden aynı oranda para akıtmıyor ?   Olası ters bir durumda kendi borsasını
+- `2061080002041413952` 2026-05-31 | ana_atif=koc(1.0) | abone_yazar=abone(0.8) | Şu olsa daha iyi değil miydi ?  Kimse #emtia kaprisi yapmamış olsaydı, ve #NASDAQ 22 K dan 30600 e giderken #kripto da nemalansaydı ?   Aradaki makasa yazık değ
+- `2061079503695131095` 2026-05-31 | ana_atif=koc(0.98) | abone_yazar=abone(0.63) | Bu ABD borsaları bir gün düştüğün de sağ sol yine dayak yemez mi ?  Yer değil mi ?
+- `2061078954941862304` 2026-05-31 | ana_atif=koc(0.91) | abone_yazar=abone(0.47) | Bende yazıyorum, seçim hatırına verirlerse verirler ama, sene bitti !  Bunu ne yapacağız ?   Koza yıl çöp olmuş olmuyor mu ?  #zamangeçirmiş olmuyorlar mı ?   T
+- `2061073019338932365` 2026-05-31 | ana_atif=koc(1.0) | abone_yazar=abone(0.68) | Soru şudur;  ABD borsaları ralli yaparken,  dünya bu dolar bolluğundan niçin faydalanamıyor ?  Flood içinde yazdım, Çin #emtia kaprisi yaratıyor.
+- `2061072452512367048` 2026-05-31 | ana_atif=aktarim(0.81) | abone_yazar=koc(0.37) | #NASDAQ ralli yapıyor deniyor.  Adamların bakış açısı aşağıdadır.
+- `2061062202262425984` 2026-05-31 | ana_atif=koc(0.42) | abone_yazar=abone(0.92) | Peki #ÇİN neden böyle bir tehdit dünyaya yaşatıyor ?  Analiz edebilecek var mı ?
+- `2061061884988535167` 2026-05-31 | ana_atif=koc(1.0) | abone_yazar=abone(0.87) | ABD ne gibi bir endişe yaşıyor olabilir ?  Ben #Bitcoin'i 100 bin doların üzerine taşısam, ÇİN de çıkıp #gümüşü 100 dolara götürebilecek bir emtia dalgası başla
+- `2061059996452896975` 2026-05-31 | ana_atif=koc(0.73) | abone_yazar=abone(0.47) | Son bir iki ay içinde yaşanan ama anlaşılmayan VAR MI ?
+- `2061055732233998775` 2026-05-31 | ana_atif=koc(0.74) | abone_yazar=abone(0.65) | #BİTCOİN   Gümüş davranışından bir farkı var mı ?
+- `2061053430752264420` 2026-05-31 | ana_atif=yok(0.37) | abone_yazar=koc(0.38) | #XAGBTC
+- `2060450704058110006` 2026-05-29 | ana_atif=koc(0.97) | abone_yazar=abone(0.53) | Tabii…  Yılın ikinci yarısına doğru, ya da; başlarında bir düşüş yaşatırlarsa ne olacak ?  Sonrasında fiyatı dipten tekrar yukarı çekerlerse,  ve kimse anlaşmay
+- `2060449711979466867` 2026-05-29 | ana_atif=koc(0.89) | abone_yazar=abone(0.41) | Bunlar kendi #borsalarını önden niçin şişiriyor ? Tavize gebe kalmamak için..  Ben güçlüyüm msj veriyorlar.  Parayı sadece kendi ülkeme akıtıyorum demek istiyor
+- `2060448380732531014` 2026-05-29 | ana_atif=koc(0.54) | abone_yazar=belirsiz(0.48) | Yaşlıydı zaten.. Durumu da bilindiği için etkilemedi. Ama ateş düştüğü yeri yakar.
+- `2060447094310150633` 2026-05-29 | ana_atif=koc(0.62) | abone_yazar=belirsiz(0.22) | Dostlar sağ olsun. Zaten bekleniyordu.  Yoğun bakım 72 saat.  Süre dolunca makinelerden çıkartıyorlar, yaşamıyorsa olayı bitiriyorlar.
+- `2060445535568384478` 2026-05-29 | ana_atif=koc(0.42) | abone_yazar=abone(0.56) | Ben bakamadım ama dün sanırım kaça düşürdüler ?  140.6 a düşürüp sert aldılar.
+- `2060443852813500566` 2026-05-29 | ana_atif=koc(0.57) | abone_yazar=abone(0.35) | Cenazem var...  Yarın akşama nasipse dönüyorum detaylı bakarız.  Ama 4570 de robot olmasını tespit etmen hoşuma gitti.
+- `2059387553401192644` 2026-05-27 | ana_atif=koc(0.72) | abone_yazar=belirsiz(0.31) | Millet genelde bunun hayalinde biliyorum..  Ama yapmıyorlar.
+- `2059384513365475669` 2026-05-27 | ana_atif=koc(0.96) | abone_yazar=abone(0.41) | Düşüş nir kaç ay sürüyor ve  genelde mumlar yanlıyor,  bir haber bassalar sekiyor.  O esnada short girsen sektiği an, karlar erimesin deyip zaten çoğu kişi kapa
+- `2059380756837761523` 2026-05-27 | ana_atif=koc(0.43) | abone_yazar=abone(0.83) | Senin ekran görüntüsü  attığın üç işlem 2 K  dolardan fazla.  Hangi işi yapıp bu paralar kazanılır ki ?
+- `2059378355321892973` 2026-05-26 | ana_atif=koc(0.98) | abone_yazar=abone(0.3) | Bakın ben haftalardır  bunlara satış girmedim  bugün dışardaydım  iki kere girdim.  Baktım güzel kar yazdı hemen kapattım..  Yine sekti..  Yine girdim yine kar 
+- `2059377944376521113` 2026-05-26 | ana_atif=koc(0.95) | abone_yazar=abone(0.81) | Koca Çin baş edemiyor haksız mıyım ?
+- `2059357497501069597` 2026-05-26 | ana_atif=koc(0.83) | abone_yazar=belirsiz(0.15) | Şerefsizler.  Adamların ekmeğine gümüş deyip yap sürdüler.  ABD nin işine zaten enflasyon geliyor gelir.
+- `2059355675600335183` 2026-05-26 | ana_atif=koc(0.99) | abone_yazar=abone(0.73) | Geçen sene Putin Bu sene Çin görüşmesi resmen ABD borsalarını  kurtardı..  Bunlar ABD ye nasıl kafa tutuyorlar ?  Anlam veren gelsin
+- `2059354276787277955` 2026-05-26 | ana_atif=koc(0.71) | abone_yazar=abone(0.85) | Ne zaman posta koymayı  düşünüyorsun ?  Seçime doğru mu ?  Adam zaten borsasını şişirdi koysanız ne olur ?  Yine dünyaya zarar vermiş  olursunuz.
+- `2059353858334155059` 2026-05-26 | ana_atif=koc(0.71) | abone_yazar=belirsiz(0.18) | 2026 ya giriyoruz gümüş  diyorlar, ortadan kayboluyorlar.  Adam borsayı şişiriyor, posta koyacaksan koy.  Adam petrol ile dünyayı  kasıyor, posta koyacaksan  ko
+- `2059352437152993491` 2026-05-26 | ana_atif=koc(0.96) | abone_yazar=belirsiz(0.42) | Adamlar ne güzel kripto Borsa el ele yürütüyordu.
+- `2059352198010532243` 2026-05-26 | ana_atif=koc(0.41) | abone_yazar=abone(0.3) | Madem mücadele edemeyeceksin ne kafa tutuyorsun ?
+- `2059351073408622652` 2026-05-26 | ana_atif=koc(0.99) | abone_yazar=abone(0.26) | Şu nasdaq 30 K ya gelirken  tüm piyasalar coşsaydı  fena mı olurdu ?  Diğer ülkeler emtia dediği  için resmen buyrun siz onları alın demeye işi getirdiler
+- `2059346122267558183` 2026-05-26 | ana_atif=koc(0.79) | abone_yazar=abone(0.75) | 500 dolar dikleşse ne olur ?  Adamlara orijinalde koymaz
+- `2059331452106403853` 2026-05-26 | ana_atif=koc(0.97) | abone_yazar=abone(0.27) | Zaman kavramınız yok.  Grafikte ileri de kesişim var   Kaç oradaki değer ?
+- `2059330128870596726` 2026-05-26 | ana_atif=koc(0.63) | abone_yazar=belirsiz(0.3) | İkisinin arasındaki  korelasyonuda konuştuk.
+- `2059324717123649684` 2026-05-26 | ana_atif=koc(0.67) | abone_yazar=abone(0.94) | Ben sana soruyorum  amaçları nedir ?  Doları zayıflatıyor ama öncelik teknoloji diyor.  Emtia ise bilinçli baskılanıyor.
+- `2059194072481353976` 2026-05-26 | ana_atif=koc(0.99) | abone_yazar=abone(0.33) | Bende H4 de hep trend altı.
+- `2059074461316354238` 2026-05-26 | ana_atif=koc(0.84) | abone_yazar=abone(0.63) | Onu diyorum işte... Ama neden böyle yapıyorlar ? Borsalar düşerse her yerler düşüyor.  Bu da tavizi getirir.  O taviz enflasyonu iyice patlatır.
+- `2059068576389103968` 2026-05-26 | ana_atif=koc(0.75) | abone_yazar=abone(0.74) | Haksız mıyım ?  Tamam piyasa analizi yapma veya rakam analizi yapma !  Ama sürecin de ne boktan olduğunu gör bunun için uzman olmaya lüzum yoktur.
+- `2059063018256810006` 2026-05-26 | ana_atif=koc(1.0) | abone_yazar=abone(0.22) | Yukarıdan satan 5 ay boyunca yataylığa denk geldi, ne zaman satsa, mal yukarı sekti.  Yoruldu da yoruldu. Aşağıdan satansa hiç yorulmadan para kazandı.
+- `2059062614353715420` 2026-05-26 | ana_atif=koc(0.98) | abone_yazar=abone(0.26) | Örnek; #BİTCOİN   Yukarıdan satan para kazandı da biraz geç satan kazanmadı mı ?  Yukarıdan satan daha fazla yoruldu efor sarf etti.
+- `2059053340382658900` 2026-05-26 | ana_atif=koc(1.0) | abone_yazar=abone(0.41) | Aboneliği 1.5 sene önce açtım o dönem #BİTCOİN 70 k idi.  İlk işim insanlara şunu yazmak oldu, #boğa beklemiyorum.  Gerekçelerini de detaylı anlattım. Örneklerl
+- `2059051126637379710` 2026-05-26 | ana_atif=koc(0.63) | abone_yazar=abone(0.17) | Söyleyemiyorsun.  Dedim ya !  Adam alıyor, en ufak olayda seni suçluyor. Ben bu insanlarla uğraşamam.  Kripto riskli bir piyasadır.
+- `2059050271682990482` 2026-05-26 | ana_atif=koc(1.0) | abone_yazar=abone(0.59) | Kriptonun neyine kefil olacağız ? Anında en ufak bir şeyden nem kapan bir piyasa..
+- `2059047652851929281` 2026-05-26 | ana_atif=koc(1.0) | abone_yazar=abone(0.34) | Fiyatı gapli yukarı açıyorlarsa yani kapalıyken bunu yapıyorlarsa o bir piyasa olmuyor ki...  Yatırımcı ona nasıl müdahale edecek ki ?
+- `2059045462431166550` 2026-05-26 | ana_atif=koc(0.99) | abone_yazar=abone(0.7) | Adamlar gidiyorlar 22. gün 29400 üstüne #gapli yukarı açıyorlar.   Ben 23. gün yazmışım ama, hafta sonuna denk geliyormuş.. Takvime baksam 22. gün yazardım.  So
+- `2059042486459195641` 2026-05-26 | ana_atif=koc(0.7) | abone_yazar=abone(0.95) | Gap ne demek ?  Ben malı yukarıdan açtım, yoksa düşüyor bir nevi hile olmuyor mu ?
+- `2059038704161693862` 2026-05-26 | ana_atif=aktarim(0.55) | abone_yazar=koc(0.83) | Şu twet..  29700 altında kalırsa düşer demişiz. Kalmazsa düşmez mantığı ortaya çıkıyor.  Bakalım adamlar ne yapmışlar ?
+- `2059033255437795350` 2026-05-26 | ana_atif=koc(1.0) | abone_yazar=abone(0.33) | #ETHUSD de ise mumları çizgi altında tutuyorlar. Neden ?
+- `2059024504966304211` 2026-05-26 | ana_atif=aktarim(0.45) | abone_yazar=koc(0.67) | Kasası sağlamsa kazanır. Ortalama da yaptım diyor. Yani #buy girmiş yukarı yönlü.  Yani shortu kapatmamış ama terse girmiş.
+- `2059023579916685777` 2026-05-26 | ana_atif=koc(0.99) | abone_yazar=abone(0.12) | Normalde bu işlemlerin hiç birisi kötü yerden açılmamıştır.   Zamanı gelsin hepsi patır patır kar yazar. Yani sen aslında davanda haklıydın.  Ama #NASDAQ tehlik
+- `2059021714697142729` 2026-05-26 | ana_atif=yok(0.71) | abone_yazar=koc(0.26) | Arkadaşlar, selamlar. Ne var, ne yok ?  Bugün psikolojik yapılan hatalardan biraz bahsedelim mi ?  Ne gibi hatalar yapıyorsunuz merak ediyorum.
+- `2058954928471597407` 2026-05-25 | ana_atif=koc(0.93) | abone_yazar=abone(0.16) | O adamlardaki zihniyet nedir ?  Düşersek zaten tavize gebe kalacağız..  Direkt götür süreç uzasın.
+- `2058940080446648614` 2026-05-25 | ana_atif=koc(0.87) | abone_yazar=belirsiz(0.2) | Kapalı olmasa böyle çıkmaz  Kapalı diye zaten çıkıyor.
+- `2058890482051125656` 2026-05-25 | ana_atif=koc(0.99) | abone_yazar=abone(0.39) | Burada piyasa mı önemli  Doların itibarı mı önemli   Asıl sorulması gereken budur.  Tabiki piyasaların itibarı  önemlidir.  ABD borsaları çökerse dünya çöker o 
+- `2058888176421216419` 2026-05-25 | ana_atif=koc(1.0) | abone_yazar=abone(0.41) | Fed neden doların dayak yemesine 2024 de izin verdi ?  Veya Çin neden emtia kozunu masaya koymadı ?  Dolar bırak dayak yesin dedi ?  Çünkü 2024 de ABD de seçim 
+- `2058884542497243568` 2026-05-25 | ana_atif=koc(0.97) | abone_yazar=belirsiz(0.24) | Yani Fed doların itibarını  düşündüğü için haklı.  Çin emtia kozu ile masada beklediği için haklı..  Ama Trump da piyasalar çöküyor diye haklı.  Orijinal de her
+- `2058883043863990763` 2026-05-25 | ana_atif=koc(0.86) | abone_yazar=abone(0.79) | Yani Fed doların itibarını !   Trump ise reel ekonomi  şirketlerin onurunu düşünüyor.  Burada kim haklı ?
+- `2058881076194353169` 2026-05-25 | ana_atif=koc(0.99) | abone_yazar=abone(0.63) | Trump geldikten sonra  örnek #Nasdaq 16 K ya düştü.  Bu adam bunu çökertse  16 K altına alsa otomatik  10 ile 13 K gelirdi.  Bu buraya düşecekse  BTC nereye düş
+- `2058868493861171312` 2026-05-25 | ana_atif=koc(0.98) | abone_yazar=abone(0.21) | Sallıyorum;  sana gitse BTC yi 100 K yapsa sıradan yükseliş ile dikleştirse ve seneye bir olayla düşürse   Olmaz yapamaz mısın diyeceksin ?  İstediği gibi zaman
+- `2058865984149106933` 2026-05-25 | ana_atif=koc(0.58) | abone_yazar=belirsiz(0.55) | Bire bir kopyası işte..
+- `2058860166091600374` 2026-05-25 | ana_atif=koc(0.97) | abone_yazar=belirsiz(0.18) | Ben ABD İran savaşının da dümen olduğunu az çok düşüyorum.  Petrol ile zaman geçiriyorlar.
+- `2058859145181254101` 2026-05-25 | ana_atif=koc(0.4) | abone_yazar=abone(0.74) | Doğru dimi ?
+- `2058856597120516123` 2026-05-25 | ana_atif=koc(0.97) | abone_yazar=belirsiz(0.31) | O dönem brexit kaynaklı  Eur çakılıyordu kriptoları gazladılar diye hatırlıyorum.
+- `2058853768154747136` 2026-05-25 | ana_atif=koc(0.99) | abone_yazar=abone(0.14) | Aynısı nasdaq içinde geçerli.  Petrol shortları bir kapatsam Nasdaq daha iyi seviyeden short imkanı sundular.
+- `2058850240246014406` 2026-05-25 | ana_atif=koc(0.94) | abone_yazar=abone(0.39) | Ben gümüşte satıyorum  ama petrol de satıyorum.  Ters orantılı yönetiyorlar dedik..  Petrolü bir aşağı çektiler Gümüş 78 dolar dedi.  Satış bile kalsam gümüşte 
+- `2058848026416799838` 2026-05-25 | ana_atif=koc(0.97) | abone_yazar=abone(0.34) | Veya şunu yapacaksın  İlla short kovalıyorum  yakalayacağım diyorsan bu varlıklar nasıl diriliyor ?  Petrol düşerse..  Olası ters durum için Petrol de short kal
+- `2058842613206114654` 2026-05-25 | ana_atif=koc(0.83) | abone_yazar=abone(0.17) | Ne oldu sonuç ?  Nasdaq 29900 demiş   Shorttan tüm gece kar yazdınız mı ?  Yazamadınız.  Yazamazsınız.  Adamların kendi seansı kapalı.. Sana vadeli de yedirir m
+- `2058678109763723264` 2026-05-25 | ana_atif=koc(0.92) | abone_yazar=abone(0.45) | Kendinizi hacimsiz saatler de neden işlem açmak zorunda hissediyorsunuz ?  Bu saatte herkes uyumuyor mudur ? Robotlara kurban mı edeceksin paranı ?
+- `2058676028474593313` 2026-05-25 | ana_atif=yok(0.59) | abone_yazar=koc(0.15) | Kendimi strese nasıl sokarım deyip başına iş arıyorsun...
+- `2058666506469183572` 2026-05-25 | ana_atif=koc(0.83) | abone_yazar=abone(0.64) | Öyle olmuyor Muhammed...  Kafa da karışabiliyor.  Örnek; arka planda devletler anlaştıysa, ve aslında el ele halklara gol atıyorsa nasıl olacak ?   Ben #BTC den
+- `2058657824087916558` 2026-05-25 | ana_atif=koc(0.72) | abone_yazar=abone(0.63) | #BİTCOİN nerede ?
+- `2058650793486471439` 2026-05-24 | ana_atif=koc(0.99) | abone_yazar=abone(0.44) | #BTC hala ön planda ama...  Yıl uzun onu da sana yapar mı ?
+- `2058635078159233173` 2026-05-24 | ana_atif=koc(0.94) | abone_yazar=abone(0.19) | Atar giderler böyle yapılmaz. Adamlar sıkışıyorlar ama, sürekli birileri  kurtarıyor.  Bu sefer ister istemez, insan sorguluyor ! Hedef halklar mı ?   Sahnede k
+- `2058623174644809807` 2026-05-24 | ana_atif=koc(1.0) | abone_yazar=abone(0.37) | Çin de ne yaşandı ?  Bizdeki durumun bire bir aynısı...  Sağ omuzu yapmadan direkt #borsayı  yukarı verdiler.   Yine sağ omuz oluşmadı.  Buna ne sebep oldu ?  Y
+- `2058622116975542321` 2026-05-24 | ana_atif=koc(1.0) | abone_yazar=abone(0.45) | Ama biz de ne yaşandı ?  Sağ omuzda #negatiflik yaratmadan direkt pozitiflik oluşturuldu.  Buna ne sebep oldu ?   Nisan 7. gün barış haberi Nisan 17. gün Hürmüz
+- `2058618494711685408` 2026-05-24 | ana_atif=koc(1.0) | abone_yazar=belirsiz(0.4) | ABD kendi #borsalarını ekstra şişirmeseydi iyiydi.  Orası şişince denklemler kısmen şaştı. Resmen dünyaya güç gösterisi yaptılar.
+- `2057918434948546738` 2026-05-22 | ana_atif=koc(0.93) | abone_yazar=belirsiz(0.37) | Adama hesabını sorarlar.  Yazık günah tüm dünya piyasaları para  çekemiyor.
+- `2057918072573296920` 2026-05-22 | ana_atif=koc(0.95) | abone_yazar=belirsiz(0.1) | Sen resmen kaos savaş veya korkuda, paranın gideceği güvenli liman olan bir varlığın adı ile manipülasyon yapıyorsun.
+- `2057917187528999136` 2026-05-22 | ana_atif=koc(0.95) | abone_yazar=abone(0.33) | Bir ülkenin #altın #gümüş deyip bağırması, çok saçmadır.   Benim gerçekten bunu mantığım almıyor.  2026 yılına girerken, ÇİN #GÜMÜŞ deyip bağırıyor.   Gerçekten
+- `2057855752308449460` 2026-05-22 | ana_atif=koc(0.85) | abone_yazar=belirsiz(0.31) | Bunlarınkisi de tamamen yazılım.
+- `2057855071078007239` 2026-05-22 | ana_atif=koc(0.94) | abone_yazar=belirsiz(0.22) | Millete piyasa deyip ne izlettiriyorlar ?   Salakça bir yönetim.  Bunlar için bilgisayar oyunu gibi bir şey.. Kurmaca...  At jetonu gel diyorlar.
+- `2057853101084754268` 2026-05-22 | ana_atif=koc(0.4) | abone_yazar=belirsiz(0.07) | Pardon üstünde olacaktı.
+- `2057831858004447659` 2026-05-22 | ana_atif=koc(0.34) | abone_yazar=belirsiz(0.41) | Dünyaya karşı güzel bir mağduriyet yakışır ama işte...
+- `2057817391891890688` 2026-05-22 | ana_atif=koc(0.98) | abone_yazar=belirsiz(0.16) | Benim için bu saatten sonra #piyasalar kapalıyken gelecek haber akışlarıdır önemlidir.
+- `2057816189145915548` 2026-05-22 | ana_atif=koc(0.78) | abone_yazar=abone(0.41) | Ben bu borsaya 100 gün de bir bakarım. Sosyal medyada çok ekstra yazışma varsa açarım.  Onun dışında bakmam.  O gün bakım 13800 gördüm kapattım.
+- `2057815121443832016` 2026-05-22 | ana_atif=koc(0.86) | abone_yazar=belirsiz(0.31) | Ben özellikle hafta sonları gelecek haber akışlarını önemsiyorum.   Özellikle 6–7 Haziran haftasına kadar.
+- `2057792145843442053` 2026-05-22 | ana_atif=koc(0.92) | abone_yazar=belirsiz(0.36) | Ben 2026 yı da bekliyordum.
+- `2057787067304661100` 2026-05-22 | ana_atif=koc(0.82) | abone_yazar=belirsiz(0.3) | O da savaştan kaynaklandı.  Adamlar kapris yapmasa net yaşanırdı.
+- `2057785666788872627` 2026-05-22 | ana_atif=koc(0.72) | abone_yazar=belirsiz(0.44) | Bunları o dönemde çok konuştuk.  Daha düşmemişti bile..
+- `2057558308974715278` 2026-05-21 | ana_atif=koc(0.48) | abone_yazar=abone(0.79) | Nasıl robot sayıya ayarlamışlar ?  25060...
+- `2057554533442617818` 2026-05-21 | ana_atif=koc(0.97) | abone_yazar=abone(0.81) | Tam tamına 12 aydır aynı yerde duran bir borsada  nasıl terste kalıyorsunuz ?  Sizler kanımca yüksek kaldıraç kullanıyorsunuz.  Bu nedenle en ufak harekette str
+- `2057522176626958349` 2026-05-21 | ana_atif=haber(0.48) | abone_yazar=koc(0.83) | #brent  Petrolü aşağı çektiler. ABD İRAN arasında anlaşma sağlanıyormuş.
+- `2056784645543342485` 2026-05-19 | ana_atif=koc(0.77) | abone_yazar=belirsiz(0.27) | Oradan döndüğü yer
+- `2056784422989426838` 2026-05-19 | ana_atif=koc(0.74) | abone_yazar=belirsiz(0.53) | 28570
+- `2039046139622605064` 2026-03-31 | ana_atif=koc(0.99) | abone_yazar=abone(0.91) | 6378 de nasıl #gap oluşturdular ? Altında kalsa, ne olurdu ?  Pozitif haberleri neden basıyorlar ? Yarın bir gün piyasa aşağı dahi gelse, zaman kazanmış olmuyor
+- `2039045661342003675` 2026-03-31 | ana_atif=koc(0.98) | abone_yazar=abone(0.2) | #SP500   Şu #GAP ler niçin geldi ?   Bu rakamlara yabancı mıyız ?  6378
+- `1875574191614791911` 2025-01-04 | ana_atif=koc(0.98) | abone_yazar=abone(0.17) | Ben hep söylüyorum, bu dünyayı barış kurtarır.  Al kendi borsandaki ve majör borsalardaki gazı biz silkelenmeye razıyız.   Akabinde savaşı yumuşatıcı söylemlerl
