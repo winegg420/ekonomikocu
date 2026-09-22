@@ -1,7 +1,7 @@
 # JEV KONTROL KUYRUĞU (otomatik üretilir, elle düzenleme)
 
-Model: jev-1.13.0 | Toplam: 1320 | Otomatik: 326 | Çağrı değil: 742 | Kontrol: 252
-Eşikler: {'atif': 0.9, 'zaman': 0.5, 'yon': 0.7, 'urun': 0.8} | Son güncelleme: 2026-09-22 10:17
+Model: jev-1.13.0 | Toplam: 9527 | Otomatik: 2182 | Çağrı değil: 5673 | Kontrol: 1672
+Eşikler: {'atif': 0.9, 'zaman': 0.5, 'yon': 0.7, 'urun': 0.8} | Son güncelleme: 2026-09-22 21:07
 
 Hakemleme Claude sohbetinde yapılır. Aşağıda en yeni 100 kontrol kaydı:
 
