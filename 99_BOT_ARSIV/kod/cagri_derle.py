@@ -33,8 +33,18 @@ def oku(yol):
                 continue
     return k
 
+def _yil_mi(s):
+    t = s.replace(".", "").replace(",", "")
+    return t.isdigit() and len(t) == 4 and 1990 <= int(t) <= 2035
+
 def seviyeler(metin):
-    return list(dict.fromkeys(SEVIYE.findall(metin or "")))[:8]
+    ham = list(dict.fromkeys(SEVIYE.findall(metin or "")))
+    kesin = [s for s in ham if not _yil_mi(s)][:8]
+    supheli = [s for s in ham if _yil_mi(s)][:4]
+    return kesin, supheli
+
+def _yil_eki(k):
+    return f" | yil?={','.join(k['seviye_supheli'])}" if k.get("seviye_supheli") else ""
 
 def main():
     ana_metin = {r.get("tweet_id"): (r.get("text") or "") for r in oku("cekilen_tweetler.jsonl")}
@@ -43,14 +53,15 @@ def main():
 
     for e in oku("jev_etiketler.jsonl"):
         metin = ana_metin.get(e.get("tweet_id"), "")
-        sev = seviyeler(metin)
+        sev, sev_supheli = seviyeler(metin)
         if e.get("zaman") != "beklenti" or not e.get("urun") or not sev:
             continue
         kayit = {
             "tweet_id": e.get("tweet_id"), "datetime": e.get("datetime"), "akis": "ana",
             "atif": e.get("atif"), "zaman_g": e.get("zaman_g"),
             "yon": e.get("yon"), "yon_kesin": e.get("yon_kesin", False),
-            "urun": e.get("urun"), "seviyeler": sev, "metin": metin[:600],
+            "urun": e.get("urun"), "seviyeler": sev,
+            "seviye_supheli": sev_supheli, "metin": metin[:600],
         }
         if e.get("durum") == "otomatik":
             cagrilar.append(kayit)
@@ -60,13 +71,14 @@ def main():
 
     for e in oku("jev_abone_etiketler.jsonl"):
         metin = abone_metin.get(e.get("tweet_id"), "")
-        sev = seviyeler(metin)
+        sev, sev_supheli = seviyeler(metin)
         if e.get("icerik") != "seviye_cagri" or not sev:
             continue
         kayit = {
             "tweet_id": e.get("tweet_id"), "datetime": e.get("datetime"), "akis": "abone",
             "yazar": e.get("yazar"), "yazar_g": e.get("yazar_g"),
-            "urun": e.get("urun"), "seviyeler": sev, "metin": metin[:600],
+            "urun": e.get("urun"), "seviyeler": sev,
+            "seviye_supheli": sev_supheli, "metin": metin[:600],
         }
         if e.get("durum") == "otomatik" and e.get("yazar") == "koc":
             cagrilar.append(kayit)
@@ -93,16 +105,16 @@ def main():
     for h in ana_h:
         L.append(f"- `{h['tweet_id']}` {str(h['datetime'])[:10]} | neden: {','.join(h.get('nedenler', []))} | "
                  f"atif={h['atif']} zaman_g={h['zaman_g']} yon={h['yon']} | urun={','.join(h['urun'])} | "
-                 f"sev={','.join(h['seviyeler'])} | {h['metin'][:160].replace(chr(10), ' ')}")
+                 f"sev={','.join(h['seviyeler'])}{_yil_eki(h)} | {h['metin'][:160].replace(chr(10), ' ')}")
     L += ["", "## 2) ABONE AKIS — hakem bekleyen", ""]
     for h in abone_h:
         L.append(f"- `{h['tweet_id']}` {str(h['datetime'])[:10]} | yazar={h['yazar']}({h['yazar_g']}) | "
-                 f"urun={','.join(h['urun'])} | sev={','.join(h['seviyeler'])} | "
+                 f"urun={','.join(h['urun'])} | sev={','.join(h['seviyeler'])}{_yil_eki(h)} | "
                  f"{h['metin'][:160].replace(chr(10), ' ')}")
     L += ["", "## 3) ABONE AKIS — dogrulama ornegi (40 kayit, yazar=koc kabul edilmis)", ""]
     for o in ornek:
         L.append(f"- `{o['tweet_id']}` {str(o['datetime'])[:10]} | yazar_g={o['yazar_g']} | "
-                 f"urun={','.join(o['urun'])} | sev={','.join(o['seviyeler'])} | "
+                 f"urun={','.join(o['urun'])} | sev={','.join(o['seviyeler'])}{_yil_eki(o)} | "
                  f"{o['metin'][:160].replace(chr(10), ' ')}")
     (ROOT / "CAGRI_HAKEM.md").write_text("\n".join(L) + "\n", encoding="utf-8")
 
