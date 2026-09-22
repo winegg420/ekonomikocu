@@ -12,5 +12,8 @@
       "Agent(*)",
       "Workflow(*)"
     ]
+  },
+  "enabledPlugins": {
+    "typesafe@typesafe-ai": true
   }
 }

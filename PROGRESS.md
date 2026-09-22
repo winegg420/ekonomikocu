@@ -4415,3 +4415,8 @@ mantigina dokunmak diger hesap/donem modlarini etkileyebilirdi).
    - Vade haftasina gore karne kirilimi
 3. **Takip tarihleri:** 24 Eyl (Xi ziyareti), Ekim, 14 Eki (BTC), 17 Ara (vade sonu). Sonraki analizde bu tarihlere ait tweetler oncelikli.
 4. **Okunmamis gorsel:** ekonomikocu 0, iriscibre 141, efloud 32.
+
+## 2026-09-22 — TypeSafe (Jev) skill kurulumu + CLAUDE.md kurali
+**Arac:** Claude Code
+**Neden:** Jev kurulumu CLAUDE.md'de yaziliydegildi; yeni oturumlar sistemin varligini
+bilmiyordu. Toplu degerlendirme islerinin Claude token'i yerine Jev'e gitmesi icin kural eklendi.

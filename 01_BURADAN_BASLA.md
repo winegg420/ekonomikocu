@@ -10,6 +10,8 @@
 
 **Tarama:** `TARAMA_DURUMU.md` — su tarihe kadar kayit tamam (`python 99_BOT_ARSIV/kod/kapsam_durum.py`)
 
+**Jev (TypeSafe) etiketleme:** kurulu ve tarama hattina bagli — kurallar CLAUDE.md'de.
+
 `00_OKU_YUKLEME_SIRASI.txt` · Paket: `99_BOT_ARSIV/kod/claude_paket_olustur.py` · GitHub: `99_BOT_ARSIV/kod/github_guncelle.py`
 
 ## Amaç

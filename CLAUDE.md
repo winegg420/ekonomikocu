@@ -438,3 +438,62 @@ icin "bugun eklenmis, henuz denenmemis" sembol yanlislikla girmez.
 **Durum gormek icin:** `py -3 99_BOT_ARSIV/kod/magicma_kara_liste.py`
 `magicma/taranamayan_semboller.md` icindeki `KARA-LISTE-OTOMATIK` isaretcileri
 arasindaki blok her taramada yeniden yazilir; disindaki elle notlara DOKUNULMAZ.
+
+## JEV (TYPESAFE) ETIKETLEME (2026-09-22)
+
+Jev metin URETMEZ; kapali uclu bir soruya guven skoruyla cevap verir. Maliyeti LLM'in
+yuzde biri kadar. Amac: toplu degerlendirme isini Claude Code'un baglamindan cikarmak
+(Ida'nin haftalik Claude token butcesi sinirli).
+
+### Kurulu sistem — DOKUNMA
+- Script: 99_BOT_ARSIV/kod/jev_etiket.py
+- tara_guncel_yeni.py icinde analiz_devam.py'nin hemen altinda cagriliyor (--max 1000).
+  Her taramada OTOMATIK calisir. Bu cagriyi kaldirma, --max degerini degistirme.
+- Anahtar: .env icinde TYPESAFE_API_KEY (gitignore'da, ASLA commit etme).
+- Model: jev-1.13.0 (sabitlenmis, degistirme).
+- Ciktilar: jev_etiketler.jsonl (etiketler) + JEV_KUYRUK.md (kontrol kuyrugu).
+  Eski etiketlere (cekilen_tweetler.jsonl, cagrilar.jsonl) DOKUNMAZ.
+
+### Ne etiketliyor
+Her tweet icin 4 alan: atif (koc / aktarim / haber / yok), zaman (beklenti / simdiki /
+gecmis / yok), yon (yukari / asagi / kosullu / belirsiz), urun (btc, eth, altin, gumus,
+petrol, nasdaq_abd, bist, dxy, diger).
+
+### Esikler ve durum mantigi
+ESIK = {"atif": 0.90, "zaman": 0.50, "yon": 0.70, "urun": 0.80}
+- durum=cagri_degil: ileriye donuk degil ve belirgin urun yok → kuyruga girmez (sohbet,
+  gecmis anlatimi, karsi-olgusal senaryo).
+- durum=kontrol: atif <0.90 VEYA zaman <0.50 → JEV_KUYRUK.md'ye duser, sohbette hakemlenir.
+- durum=otomatik: guvenilir.
+- yon_kesin=false: yon guveni dusuk, yon "belirsiz" sayilmali.
+- Esik degistirilecekse: sadece ESIK satirini degistir, sonra
+  "py -3 99_BOT_ARSIV/kod/jev_etiket.py --yeniden" calistir. Bu API'ye ISTEK ATMAZ,
+  kayitli skorlardan yeniden hesaplar. Yeni etiketleme icin API'yi tekrar cagirma.
+
+### Olculen performans (50 gercek tweet, elle hakemlendi)
+- Atif ~48/50 — alinti/aktarim ayriminda regex etiketlerden acikca iyi (Kural 3 icin kritik).
+- Zaman ~45/50 — guveni 0.70 ustu olanlarin hepsi dogruydu.
+- Urun ~46/50 — urun adi yazilmayan seviyelerde hata yapabiliyor.
+- Yon ZAYIF — kosullu tweetlerde guven dusuk. Yon etiketine tek basina guvenme.
+
+### Toplu degerlendirme kurali
+Yuzlerce kalemi tek tek okuyup degerlendirmen gerekiyorsa, ise baslamadan once
+"bu Jev'e verilebilir mi?" diye sor. Uc sart birden saglaniyorsa Jev'e ver:
+1. Soru kapali uclu (siklardan biri, evet/hayir, sabit liste)
+2. Cevap nesnel olarak dogru/yanlis ayrilabiliyor (zevk meselesi degil)
+3. Kalem sayisi cok (onlarca, yuzlerce)
+
+Jev'e VERME: metin yazimi, ozetleme, grafik okuma (Jev sadece metin alir), MagicMA
+hesabi (saf matematik), "hangisi daha iyi" kararlari, 5-10 kalemlik kucuk isler.
+
+Somut aday isler: abone metinlerinde imza/atif taramasi (07_ABONE, 3434 metin),
+cagrilar.jsonl temizligi, koc_tetigi_durum.json icin "Cin-ABD anlasmasi dogrulaniyor mu"
+evet/hayir taramasi.
+
+Cagirma yolu: typesafe skill'i proje kapsaminda kurulu (/typesafe:typesafe-ai).
+Tek seferlik islerde skill'i kullan; surekli isler icin jev_etiket.py ornek alinsin.
+
+### Backfill
+Arsiv geriye donuk etiketleniyor: "py -3 99_BOT_ARSIV/kod/jev_etiket.py --max 10000".
+Bunu IDA kendi terminalinde calistirir, Claude Code calistirmaz (uzun surer).
+Yarida kesilirse ayni komut kaldigi yerden devam eder.
