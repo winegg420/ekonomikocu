@@ -4420,3 +4420,16 @@ mantigina dokunmak diger hesap/donem modlarini etkileyebilirdi).
 **Arac:** Claude Code
 **Neden:** Jev kurulumu CLAUDE.md'de yaziliydegildi; yeni oturumlar sistemin varligini
 bilmiyordu. Toplu degerlendirme islerinin Claude token'i yerine Jev'e gitmesi icin kural eklendi.
+
+
+## 2026-09-22 — Mentor analizi TUR 25 (657 tweet + 134 gorsel)
+**Arac:** Claude Code
+- Son analiz commit'i `02405e0` ile tweet_id diff'i: 657 yeni kayit (16 Eyl aksami - 22 Eyl sabahi).
+- Jev etiketleri on-eleme icin kullanildi (otomatik 169 / kontrol 118 / cagri_degil 370); yine de
+  tumu okundu cunku Jev gorsel goremiyor, tek kelimelik grafik tweetlerini "yok" isaretliyor.
+- 134 gorsel 4 alt ajana bolunerek okundu -> `gorsel_analiz.jsonl` 1710 -> 1844, okunmamis 0.
+- `06_ANALIZ.md` sonuna "2026-09-22 — TUR 25" bolumu (A-N) eklendi; ust icerik md5 ile dogrulandi.
+- `onemli_seviyeler.json` 473 -> 486 (13 Koc seviyesi). Sembol listesinde olmayan ~15 seviye
+  (EURTRY 57, GBPTRY 65.7, ETHTRY 120.60, OTHERS.D, TOTAL2, rasyolar) eklenemedi -> acik is.
+- Onemli gozlem: Koc 20 Eyl'de "Avrupa krizi = ABD aleyhine" kuralini gecersiz ilan etti.
+- Push: `41a4394`.
