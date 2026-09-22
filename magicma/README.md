@@ -135,9 +135,10 @@ hesaplamıyor → **elle takip gerekir.**
 | NASDAQ/XAUUSD 10,6 hedefi | Rasyo; NDX ve XAUUSD ayrı kaynaklardan (Yahoo / gold-api) geliyor, bölme yapılmıyor. |
 | ETH/BRENT 25,7 ve 36 ("gerçek yükseliş 36'da") | Rasyo; ETHUSDT (Binance) / UKOIL (Yahoo BZ=F). |
 | DXY/XAU aylık trend ~0,258 | Rasyo + aylık trend çizgisi (sabit seviye değil). |
+| ETHGBP 2060 (6 öğretisi, "2060 aşılınca tetiklenme") | Binance ETHGBP ölü piyasa: alış/satış teklifi 0, son fiyat bayat (22 Eyl: Binance 1974 ↔ Coinbase 2066). `BINANCE:ETHGBP` TradingView'de de veri vermiyor. COINBASE/KRAKEN:ETHGBP'de gösterge çiziliyor ama `fiyat_kontrol.py`'de Coinbase/Kraken fiyat adaptörü yok (COINBASE öneki de Binance tablosuna düşer). Listeden çıkarıldı. |
 
 **Eklenen ama henüz alarm VERMEYEN semboller:** EURTRY, GBPTRY, ETHTRY, ETHEUR,
-ETHGBP, AVAXTRY, TOTAL2, OTHERS.D sembol listelerine ve seviyeleri
+AVAXTRY, TOTAL2, OTHERS.D sembol listelerine ve seviyeleri
 `onemli_seviyeler.json`'a eklendi; fiyatları çekilebiliyor. Ancak önemli seviye
 katmanı fiyatı yalnızca `magicma_ham.jsonl`'de (son 10 gün) MagicMA kaydı olan
 semboller için alır (`adaylari_hesapla` → `tum_fiyatlar`). Bu semboller bir

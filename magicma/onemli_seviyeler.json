@@ -3948,14 +3948,6 @@
   },
   {
     "kaynak": "Koc",
-    "enstruman": "ETHGBP",
-    "seviye": 2060,
-    "tur": "tetik",
-    "aciklama": "20 Eyl: '1957'de 5.7 ogretisinde bekliyor, 2060 asilinca tetiklenme'.",
-    "tarih_eklendi": "2026-09-22"
-  },
-  {
-    "kaynak": "Koc",
     "enstruman": "AVAXTRY",
     "seviye": 570,
     "tur": "ogreti",

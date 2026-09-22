@@ -4433,3 +4433,9 @@ bilmiyordu. Toplu degerlendirme islerinin Claude token'i yerine Jev'e gitmesi ic
   (EURTRY 57, GBPTRY 65.7, ETHTRY 120.60, OTHERS.D, TOTAL2, rasyolar) eklenemedi -> acik is.
 - Onemli gozlem: Koc 20 Eyl'de "Avrupa krizi = ABD aleyhine" kuralini gecersiz ilan etti.
 - Push: `41a4394`.
+
+## 2026-09-22 (gece) — Jev atif daraltma + MagicMA taramasi (bubbles haric) + pencere
+- jev_etiket.py: atif kontrolu yalnizca koc-disi secim veya metinde aktarim izi (dedi/diyor/yaziyor...) varsa. --yeniden: 9527 / oto 2408 / cagri degil 5673 / kontrol 1446.
+- MagicMA (MAGICMA_HARIC_LISTE=gunun_hareketlileri.txt): 435 sembolun 432'si okundu. Yeni semboller EURTRY, GBPTRY, ETHTRY, ETHEUR, AVAXTRY, TOTAL2, OTHERS.D okundu.
+- ETHGBP kapsamdan cikarildi: Binance ETHGBP olu piyasa (bid/ask 0, fiyat bayat 1974 vs Coinbase 2066), fiyat_kontrol'de Coinbase adaptoru yok. README ALARM KAPSAMI DISI'na yazildi; onemli_seviyeler 494.
+- magicma_gozetmen.py: tarama Chrome'u ekran disi yerine SIMGE DURUMUNA kucultulur (kullanici istegi: one firlamasin, istedigi an gorev cubugundan acabilsin). Kucultulmusken okuma dogrulandi.

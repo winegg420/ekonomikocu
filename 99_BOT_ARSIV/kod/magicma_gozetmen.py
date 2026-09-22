@@ -66,7 +66,8 @@ def chrome_yenile() -> None:
          # Pencere EKRAN DISINDA acilir: tarama sirasinda TradingView sekmesi
          # kullanicinin onune firlayamaz (2026-09-10). Occlusion/backgrounding
          # kapatilir, yoksa gorunmeyen pencerede Chrome render'i kisip
-         # gosterge degerleri guncellenmiyor.
+         # gosterge degerleri guncellenmiyor. Yuklenince pencere_gizle(zorla=True)
+         # pencereyi simge durumuna kucultur (2026-09-22).
          "--window-position=-32000,-32000", "--window-size=1600,1000",
          "--disable-backgrounding-occluded-windows",
          "--disable-renderer-backgrounding",
@@ -79,14 +80,19 @@ def chrome_yenile() -> None:
         if cdp_var():
             break
     time.sleep(20)  # TradingView layout + gostergeler yuklensin
-    pencere_gizle()
+    pencere_gizle(zorla=True)
     log("Chrome yenilendi.")
 
 
-def pencere_gizle() -> None:
-    """Tarama Chrome'unun penceresini ekran disina tasi (CDP Browser.setWindowBounds).
-    Chrome zaten --window-position ile acildiysa bile, profil kayitli konumu geri
-    yukleyebiliyor; her turda bir kez zorlanir."""
+def pencere_gizle(zorla: bool = False) -> None:
+    """Tarama Chrome'unu SIMGE DURUMUNA kucult (CDP Browser.setWindowBounds).
+    2026-09-22 kullanici istegi: pencere one firlamasin ama istedigi an gorev
+    cubugundan acabilsin. Ekran disi (-32000) konumda gorev cubugundan acilinca
+    pencere gorunmuyordu; bu yuzden once normal konum EKRANA alinir, sonra kucultulur
+    (geri acilinca ekranda belirir).
+    zorla=True: Chrome yeni acildi, her durumda kucult.
+    zorla=False (her tur): yalnizca pencere ekran disindaysa kucult — kullanici
+    kendisi actiysa izlerken tekrar gizlenmez."""
     try:
         from playwright.sync_api import sync_playwright
     except Exception:
@@ -100,12 +106,19 @@ def pencere_gizle() -> None:
                 return
             cdp = ctx.new_cdp_session(pg)
             wid = cdp.send("Browser.getWindowForTarget")["windowId"]
+            mevcut = cdp.send("Browser.getWindowBounds", {"windowId": wid})["bounds"]
+            ekran_disi = (mevcut.get("left") or 0) < -1000
+            if not zorla and not ekran_disi:
+                return
+            if mevcut.get("windowState") != "normal":
+                cdp.send("Browser.setWindowBounds", {
+                    "windowId": wid, "bounds": {"windowState": "normal"}})
             cdp.send("Browser.setWindowBounds", {
                 "windowId": wid,
-                "bounds": {"left": -32000, "top": -32000,
-                           "width": 1600, "height": 1000,
-                           "windowState": "normal"},
+                "bounds": {"left": 40, "top": 40, "width": 1600, "height": 1000},
             })
+            cdp.send("Browser.setWindowBounds", {
+                "windowId": wid, "bounds": {"windowState": "minimized"}})
     except Exception as e:
         log(f"Pencere gizlenemedi: {e}")
 

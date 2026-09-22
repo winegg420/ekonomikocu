@@ -4,6 +4,11 @@
   "son_basarisiz": "2026-09-10",
   "deneme_sayisi": 3
  },
+ "BINANCE:ETHGBP": {
+  "ilk_basarisiz": "2026-09-22",
+  "son_basarisiz": "2026-09-22",
+  "deneme_sayisi": 3
+ },
  "BINANCE:GENIUSUSDT": {
   "ilk_basarisiz": "2026-09-10",
   "son_basarisiz": "2026-09-10",
@@ -41,8 +46,8 @@
  },
  "BINANCE:SPYBUSDT": {
   "ilk_basarisiz": "2026-09-01",
-  "son_basarisiz": "2026-09-10",
-  "deneme_sayisi": 4
+  "son_basarisiz": "2026-09-22",
+  "deneme_sayisi": 5
  },
  "BITGET:DEBITUSDT": {
   "ilk_basarisiz": "2026-09-04",
@@ -271,7 +276,7 @@
  },
  "NASDAQ:SPCX": {
   "ilk_basarisiz": "2026-08-26",
-  "son_basarisiz": "2026-09-14",
-  "deneme_sayisi": 5
+  "son_basarisiz": "2026-09-22",
+  "deneme_sayisi": 6
  }
 }
