@@ -21,7 +21,7 @@ CIKTI = ROOT / "jev_etiketler.jsonl"
 KUYRUK = ROOT / "JEV_KUYRUK.md"
 MODEL = "jev-1.13.0"
 URL = "https://api.typesafe.ai/v1/systemone"
-ESIK = {"atif": 0.90, "zaman": 0.70, "yon": 0.70, "urun": 0.80}
+ESIK = {"atif": 0.90, "zaman": 0.50, "yon": 0.70, "urun": 0.80}
 
 BAGLAM = ("Yazar: @ekonomikocu (Koç). Bağlam notu: Koç ürün adı yazmadan verdiği 22.000-30.000 arası "
           "seviyeleri genellikle NASDAQ için, 60.000-130.000 arası seviyeleri genellikle Bitcoin (BTC) için kullanır.")
@@ -110,21 +110,21 @@ def jsonl_oku(yol):
 
 def durum_hesapla(k):
     olas = k.get("urun_olasilik") or {}
-    urun_var = any(v >= 0.5 for v in olas.values())
+    k["urun"] = [p for p, v in olas.items() if v >= ESIK["urun"]]
     zaman_g = k.get("zaman_g") or 0.0
-    aday = k.get("zaman") == "beklenti" or (zaman_g < ESIK["zaman"] and urun_var)
+    aday = k.get("zaman") == "beklenti" or (zaman_g < 0.70 and bool(k["urun"]))
     if not aday:
         k["durum"], k["nedenler"] = "cagri_degil", []
         return k
+    if k.get("zaman") == "beklenti" and (k.get("yon_g") or 0.0) < ESIK["yon"]:
+        k["yon_kesin"] = False
+    else:
+        k["yon_kesin"] = k.get("zaman") == "beklenti"
     n = []
     if (k.get("atif_g") or 0.0) < ESIK["atif"]:
         n.append("atif")
     if zaman_g < ESIK["zaman"]:
         n.append("zaman")
-    if k.get("zaman") == "beklenti" and (k.get("yon_g") or 0.0) < ESIK["yon"]:
-        n.append("yon")
-    if any(0.5 <= v < ESIK["urun"] for v in olas.values()):
-        n.append("urun")
     k["durum"] = "kontrol" if n else "otomatik"
     k["nedenler"] = n
     return k

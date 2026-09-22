@@ -216,7 +216,7 @@ def main() -> int:
         except Exception as e:
             print(f"[analiz] analiz_devam.py hatasi: {e}", flush=True)
         try:
-            subprocess.run([PY, str(KOD / "jev_etiket.py"), "--max", "300"],
+            subprocess.run([PY, str(KOD / "jev_etiket.py"), "--max", "1000"],
                            cwd=str(ROOT), check=False, timeout=1800)
         except Exception as e:
             print(f"[jev] jev_etiket.py hatasi: {e}", flush=True)
