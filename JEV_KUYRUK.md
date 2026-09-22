@@ -1,7 +1,7 @@
 # JEV KONTROL KUYRUĞU (otomatik üretilir, elle düzenleme)
 
-Model: jev-1.13.0 | Toplam: 320 | Otomatik: 85 | Çağrı değil: 177 | Kontrol: 58
-Eşikler: {'atif': 0.9, 'zaman': 0.5, 'yon': 0.7, 'urun': 0.8} | Son güncelleme: 2026-09-22 09:47
+Model: jev-1.13.0 | Toplam: 1320 | Otomatik: 326 | Çağrı değil: 742 | Kontrol: 252
+Eşikler: {'atif': 0.9, 'zaman': 0.5, 'yon': 0.7, 'urun': 0.8} | Son güncelleme: 2026-09-22 10:17
 
 Hakemleme Claude sohbetinde yapılır. Aşağıda en yeni 100 kontrol kaydı:
 
@@ -26,6 +26,7 @@ Hakemleme Claude sohbetinde yapılır. Aşağıda en yeni 100 kontrol kaydı:
 - `2102052837509194086` 2026-09-21 | neden: atif | atif=koc(0.78) zaman=beklenti(0.72) yon=belirsiz(0.77) | urun=yok | Arşivle bunları, Hakan...  İleride bir varlıkta denk gelir.
 - `2102019160771305723` 2026-09-21 | neden: zaman | atif=koc(0.99) zaman=beklenti(0.34) yon=asagi(0.78) | urun=altin | Halbuki bıraksalar #ALTIN #BORSALAR hep düşer.  Dolar talep görür.
 - `2102018959272792505` 2026-09-21 | neden: zaman | atif=koc(0.99) zaman=beklenti(0.43) yon=belirsiz(0.22) | urun=dxy | Beni anlıyorsunuz değil mi?  Dertleri sadece bu.  Bir kerede ne sağ ne sol yükselsin, millet kazansın...  Ne de #dolar b
+- `2102006879907873034` 2026-09-21 | neden: zaman | atif=koc(0.99) zaman=yok(0.47) yon=- | urun=petrol | + #petrolü kısmen düşürüp sağı solu rahatlatmak zorundasın...
 - `2101988445191078241` 2026-09-21 | neden: atif,zaman | atif=koc(0.75) zaman=yok(0.28) yon=- | urun=btc | #BİTCOİN   Şu kısım ile.....
 - `2101987298820726958` 2026-09-21 | neden: zaman | atif=koc(0.98) zaman=beklenti(0.39) yon=asagi(0.43) | urun=yok | O lotla alakalı bir durum.  Sallıyorum;  5 lot satarım 3 kapatırım, 2 devam diyebilirim.  O sana uymayabilir.  Herkesin 
 - `2101964675604718001` 2026-09-21 | neden: atif | atif=koc(0.87) zaman=beklenti(0.59) yon=belirsiz(0.39) | urun=yok | 8.4 ile 9.2 var. Onları da görürsem öne çıkartırım. Ben biraz dağınık birisiyim neredeler bilmiyorum.
@@ -61,5 +62,46 @@ Hakemleme Claude sohbetinde yapılır. Aşağıda en yeni 100 kontrol kaydı:
 - `2101078432624853230` 2026-09-19 | neden: zaman | atif=koc(1.0) zaman=simdiki(0.45) yon=- | urun=altin | #NASDAQ 22600 #xauusd 2600 dolar.  #NASDAQ ALTIN bazlı zaten balon.  ABD #faizleri 5 bölgesini yukarı kırmış gidiyor....
 - `2101074678446248058` 2026-09-19 | neden: atif,zaman | atif=koc(0.76) zaman=gecmis(0.38) yon=- | urun=altin | ALTIN 5600 görmüş #faiz dememişler 4300 de faiz diyorlar.  Enflasyon yükselmiş..  Ulan #petrolü azdıran sizsiniz.
 - `2101072698612830498` 2026-09-19 | neden: atif | atif=koc(0.85) zaman=yok(0.52) yon=- | urun=dxy | Hatırlıyor musunuz ?  #DXY bir sepettir ve içinde majör ülkeler var demiştim.  ABD hepsini faize zorlar demiştim.  Japon
+- `2101054677987274990` 2026-09-19 | neden: zaman | atif=koc(0.97) zaman=simdiki(0.32) yon=- | urun=petrol | Petrol de satışta dehşet swap var.  Saat 12 yi geçince hemen işlediler nasıl koydu anlatamam..
+- `2101053572532023616` 2026-09-18 | neden: zaman | atif=koc(0.99) zaman=beklenti(0.22) yon=belirsiz(0.97) | urun=yok | Ben bir strateji öğretmiştim swap olmasa dehşet çalışıyor.  Hatırlayanlar olacaktır.  Denge rakamları var.  Mal üstünde 
+- `2101048380549902468` 2026-09-18 | neden: zaman | atif=koc(0.99) zaman=gecmis(0.33) yon=- | urun=diger | Bu hafta inatla #EURGBP'yi yukarı verdiler İngiltere'yi ezdiler.
+- `2101044020050837941` 2026-09-18 | neden: atif,zaman | atif=koc(0.83) zaman=beklenti(0.19) yon=kosullu(0.13) | urun=yok | #EURGBP de mumlar yukarı gidiyorsa İngiltere Avrupa devletlerine karşı eziliyordur.  O twiti hatırlayan var mı ?  İngilt
+- `2101034415862276221` 2026-09-18 | neden: zaman | atif=koc(0.96) zaman=beklenti(0.4) yon=yukari(0.79) | urun=eth | #ETHTRY   120.60 ÜSTÜ pozitif demiştim. Bu grafik haftalıktır.   Toplam 5 mum o bölgede birikmiştir. 5 mum demek !  5 x7
+- `2101033425536725133` 2026-09-18 | neden: zaman | atif=koc(0.97) zaman=simdiki(0.4) yon=- | urun=eth | #ETHUSD   Dolar bazlı bakarsan her tekniği milim milim  aştırıyorlar.  Bekletiyorlar.
+- `2101028222099919206` 2026-09-18 | neden: zaman | atif=koc(0.99) zaman=yok(0.16) yon=- | urun=dxy | Ne yapsınlar ? Sizi pamuğa mı sarsınlar ?  Ben hep yazıyorum, yazdım.  Orijinalde ne ÇİN, ne de ABD bu işte sorumlu.  Te
+- `2101023420586549439` 2026-09-18 | neden: zaman | atif=koc(1.0) zaman=beklenti(0.4) yon=asagi(0.25) | urun=yok | Neden aşağı kırıldığı önemli. Her aşağı geliş risk demek değildir ama para garanti getiriye gidiyor anlamı taşır.
+- `2100985315347300639` 2026-09-18 | neden: zaman | atif=koc(1.0) zaman=simdiki(0.37) yon=- | urun=altin | Seçim bitene kadar tefeciyi yüksek faizle besle sustur.  Seçim sonrası #faizler inmeli de...  Hop #savaş çıktı #ALTIN 56
+- `2100960207476052477` 2026-09-18 | neden: zaman | atif=koc(1.0) zaman=beklenti(0.4) yon=kosullu(0.36) | urun=dxy | Kripto ABD'ye çok büyük avantaj... Sıkıştığın an #doları zayıflat.  Olay zaten bitiyor.  Oyunu direkt kazanıyor.  6 ay k
+- `2100948515245507025` 2026-09-18 | neden: zaman | atif=koc(0.99) zaman=simdiki(0.49) yon=- | urun=altin,gumus | Hepimiz öyle.. Sadece kripto değil ki.. Kripto yüzüne #emtia azdı...  ÇİN tahrik oldu #altın #gümüş patladı.
+- `2100947061906514146` 2026-09-18 | neden: zaman | atif=koc(0.94) zaman=beklenti(0.46) yon=yukari(0.82) | urun=yok | Adamlar sosyal medyada bağırıyor.  2022 2023 2024 2025 2026   Her yıl boğa diyorlar.  2027 2028 2029 2030  Bunlar bir ye
+- `2100946002341400967` 2026-09-18 | neden: zaman | atif=koc(0.97) zaman=gecmis(0.34) yon=- | urun=eth | Geçen gün #ETH paylaştım trend 2776 deyip gösterdim. Grafiğin içine bakın yazıyor.
+- `2100935567714169280` 2026-09-18 | neden: atif | atif=koc(0.7) zaman=beklenti(0.6) yon=belirsiz(0.25) | urun=gumus | Adamlar önden faiz diyor.  İleriki toplantılar için piyasaları tedirgin ediyorlar. #gümüş 67 dolar oldu...  67.8 üstü ne
+- `2100931293152202893` 2026-09-18 | neden: zaman | atif=koc(1.0) zaman=yok(0.36) yon=- | urun=btc,altin | Ya #doları savunursun, ya da savunmazsın. Bunun ortası olmaz..  #BTC ezebilir ama #ALTIN ezemez.  Koskoca devletlerin po
+- `2100930663092269423` 2026-09-18 | neden: atif | atif=aktarim(0.35) zaman=yok(0.62) yon=- | urun=btc | Dedim ya... Eski hükümet çok hatalıdır.  Bugün ABD tepki çekiyorsa sebebi onlardır.  Hem doları ezdireyim seçime gireyim
+- `2100929074356998435` 2026-09-18 | neden: zaman | atif=koc(0.98) zaman=yok(0.43) yon=- | urun=btc | Madem sizin için #doların itibarı bu kadar önemliydi ve #ALTIN #GÜMÜŞ kafa kaldırmasın deyip baskıladınız...  O zaman #b
+- `2100914128139211064` 2026-09-18 | neden: atif | atif=koc(0.79) zaman=beklenti(0.52) yon=yukari(0.74) | urun=btc | Avrupa savaşıyor;  kimse sen ne yapıyorsun ? Enflasyon patlar demiyor.  Çin;  ALTIN GÜMÜŞ diyor;  sen ne yapıyorsun enfl
+- `2100908664697626946` 2026-09-18 | neden: zaman | atif=koc(0.99) zaman=gecmis(0.45) yon=- | urun=btc,gumus | Biden dönemi; #BTC 17 K #altın 1600 dolar #gümüş 20 dolar  #EUR ezersin tabi...  Çin devletini yüksek faizle besle #BTC 
+- `2100904888456577523` 2026-09-18 | neden: zaman | atif=koc(0.96) zaman=gecmis(0.28) yon=- | urun=dxy | İşte TRUMP geldiği gün #doları savunup tüm dünyayı #düşürmeliydi.  Piyasa para deyip ağlayacaktı.  Vermek zorunda değils
+- `2100897488601288771` 2026-09-18 | neden: zaman | atif=koc(0.94) zaman=beklenti(0.49) yon=asagi(0.38) | urun=dxy | Dolar güçlenirse #piyasalar düşer karizma çizilir mi ?  Böyle daha beter çizildi.
+- `2100896566919708702` 2026-09-18 | neden: zaman | atif=koc(0.91) zaman=yok(0.39) yon=- | urun=dxy | Sen hiç İran ile savaşa girmesen, doları savunsan  sağ sol düşse sana kimse kızamaz.  Avrupa veya Putin e kızar.  Sende 
+- `2100670141667148147` 2026-09-17 | neden: atif,zaman | atif=koc(0.86) zaman=beklenti(0.26) yon=belirsiz(0.51) | urun=eth | 4090 #eth   Barış görüşmeleri...   @realDonaldTrump
+- `2100669552853938625` 2026-09-17 | neden: zaman | atif=koc(0.91) zaman=gecmis(0.44) yon=- | urun=eth | Seni bir tek ben anlarım.  #ethusd 4090  2022
+- `2100639705117188279` 2026-09-17 | neden: atif,zaman | atif=koc(0.68) zaman=yok(0.36) yon=- | urun=gumus,dxy | Doları nasıl savunacak ?  #emtia nasıl düşürülecek ?  ÇİN #GÜMÜŞ dedi bu nasıl düşer ?  FED gibi faiz demen lazım..  Ya 
+- `2100636638346879112` 2026-09-17 | neden: atif | atif=koc(0.88) zaman=beklenti(0.96) yon=yukari(0.81) | urun=gumus,petrol | Ama sen adama dersen ki; ben #gümüşü  70 80 90 dolara taşıyorum.  Adamlar #petrolü 100 yapıyor.  Al sana enflasyon patla
+- `2100636367218721205` 2026-09-17 | neden: zaman | atif=koc(0.96) zaman=beklenti(0.33) yon=yukari(0.32) | urun=altin,gumus,petrol | ALTIN GÜMÜŞ diyorlar.  ABD petrol diyor.  Arada biz gittik...  Halbuki #ALTIN #GÜMÜŞ bunları aradan çıkart dünyaya #krip
+- `2100624996599001111` 2026-09-17 | neden: atif | atif=koc(0.4) zaman=beklenti(0.67) yon=belirsiz(0.86) | urun=yok | 2027 pardon..
+- `2100624170472100325` 2026-09-17 | neden: atif | atif=koc(0.84) zaman=beklenti(0.63) yon=yukari(0.68) | urun=yok | Aşağı çekme değil de, #gözdağı...  O faiz bile #zaman geçirme hamlesidir.  Bakın ben orta vade buradayım diyorlar.  Yani
+- `2100620434697773222` 2026-09-17 | neden: atif | atif=koc(0.69) zaman=beklenti(0.88) yon=asagi(0.65) | urun=gumus | Reel ekonomide hep bir gerçek vardır. Onun dışına çıkmazlar.  Gümüşü düşür #sanayi metalleri durulsun ekonomi de yavaşla
+- `2100619278344937541` 2026-09-17 | neden: zaman | atif=koc(0.96) zaman=simdiki(0.44) yon=- | urun=gumus,petrol | BRENT/GÜMÜŞ   Petrole göre gümüşün alım gücü neredeyse 10 kat artmıştır.
+- `2100618309922168927` 2026-09-17 | neden: zaman | atif=koc(0.93) zaman=gecmis(0.42) yon=- | urun=petrol | Biden döneminde tabela böyleydi.  Bir #dolar bir EUR eşit.  Alım gücün bitmiştir.  Üstüne #petrol 100 dolar.  Adam gelmi
+- `2100617548731396405` 2026-09-17 | neden: zaman | atif=koc(0.98) zaman=beklenti(0.23) yon=asagi(0.63) | urun=yok | Matematiğe aykırı anlatabiliyor muyum ?  Savaş olmasa dahi vermezler.  Üreten vermez.
+- `2100612360499040610` 2026-09-17 | neden: zaman | atif=koc(0.98) zaman=gecmis(0.32) yon=- | urun=dxy | Trump #doları zayıflatıp FED'in ezdiği tüm varlıkların hakkını verdi....  ALTIN GÜMÜŞ bunlar diğer ülkelere yarıyor. Avr
+- `2100583877328658591` 2026-09-17 | neden: atif,zaman | atif=koc(0.4) zaman=beklenti(0.36) yon=asagi(0.22) | urun=dxy | İşte siyasetçi bunu diyor.  Zayıflat şu #doları diğerleri yükselsin pahalansın...  Evet bu kısa vade enflasyon demektir 
+- `2100583038396543086` 2026-09-17 | neden: zaman | atif=koc(0.97) zaman=beklenti(0.35) yon=asagi(0.07) | urun=dxy | Size soruyorum...  #EUR bugün 1.25 olsa, kimse dönüp yüzüne bakar mı ?  Bunun 1.25 demesi, #DXY de 88 90 demektir.  Bu p
 - `2100381974112170146` 2026-09-17 | neden: zaman | atif=koc(0.99) zaman=beklenti(0.33) yon=yukari(0.59) | urun=yok | Piyasa düşse faiz indirmek zorundasın..  Bu ne demek ?  Faiz indiriyorum, dolar alma.  Faiz indirmiyorlar da #dolara  ne
 - `2100362103651533294` 2026-09-17 | neden: zaman | atif=koc(0.94) zaman=beklenti(0.31) yon=belirsiz(0.91) | urun=yok | 1 Kasım 2019   2020 den sonra #petrol ve #JPY önemli olacaktır. Tamam ama kaçıncı tura dönüyoruz ?  Sıkıldık..
+- `2100358980270801035` 2026-09-17 | neden: zaman | atif=koc(1.0) zaman=simdiki(0.12) yon=- | urun=dxy | En zoruma gidende şudur.  Avrupa asgari ücretle bizden fazla enerji alıyor.  Aslında bedeli biz ödüyoruz. Çünkü onlar ko
+- `2100328151502995517` 2026-09-16 | neden: zaman | atif=koc(1.0) zaman=beklenti(0.37) yon=asagi(0.45) | urun=yok | Bir piyasa sert çakılır, herkes isyan eder.  Ama belki de o düşüş gereklidir.  Çünkü ya kurun önünü açmak zorundasın,  y
+- `2100326385277456710` 2026-09-16 | neden: atif | atif=koc(0.82) zaman=gecmis(0.56) yon=- | urun=altin,nasdaq_abd | #ALTIN azdı ve #DOW 54 K gördü..
+- `2100324414411706856` 2026-09-16 | neden: zaman | atif=koc(1.0) zaman=gecmis(0.36) yon=- | urun=nasdaq_abd | Ortalama yazdım.  #DOW ve #USDTRY baz aldım.  Barış gelmezse, #dow'u yürütmek için #ALTIN kanadını gazlayabilirdi.  Öyle
+- `2100321779822563477` 2026-09-16 | neden: atif,zaman | atif=koc(0.89) zaman=yok(0.36) yon=- | urun=btc | #BTCUSD Anlatımım..
