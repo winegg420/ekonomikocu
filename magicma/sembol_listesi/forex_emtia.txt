@@ -26,6 +26,9 @@ FX:GBPCAD
 FX:CADJPY
 FX:CHFJPY
 OANDA:USDTRY
+# TRY caprazlari (Koc 5.7 ogretisi, TUR 25): FX_IDC — FX:GBPTRY TradingView'de yok
+FX_IDC:EURTRY
+FX_IDC:GBPTRY
 
 # --- Emtia / metal ---
 OANDA:XAUUSD

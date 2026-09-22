@@ -3905,5 +3905,77 @@
     "tur": "kesisim",
     "aciklama": "20 Eyl: 'AVAX 6 bandindan 10.60'a gelmistir, kesisim var, ikisi de ogreti'.",
     "tarih_eklendi": "2026-09-22"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "EURTRY",
+    "seviye": 57,
+    "tur": "ogreti",
+    "aciklama": "20 Eyl: gorselde 57,05 cizgisi; '57'ye yanasinca Avrupa bolgesinden negatif haber basmaya basladilar, degerlenmeyi geciktiriyorlar'. Asarsa EUR guclenmesi = DXY dususu (5.7 ogretisi).",
+    "tarih_eklendi": "2026-09-22"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "GBPTRY",
+    "seviye": 65.7,
+    "tur": "ogreti",
+    "aciklama": "20 Eyl: gorselde 65,79 cizgisi; 'buna da 65.7'de engel oluyorlar' (5.7 ogretisi).",
+    "tarih_eklendi": "2026-09-22"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHTRY",
+    "seviye": 120600,
+    "tur": "esik",
+    "aciklama": "18 Eyl: haftalikta 5 mum 120,60 bolgesinde ('5x7=35 gun'); 'Ekim ortasina kadar vakti var, 120,60 ustu pozitif'. Koc ETHTRY'yi BIN TL yazar: 120,60 = 120.600 TL.",
+    "tarih_eklendi": "2026-09-22"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHEUR",
+    "seviye": 2060,
+    "tur": "ogreti",
+    "aciklama": "20 Eyl: '1570'te 1 ay, 2060'ta 1 ay — basamak misali her bolgede zaman geciriyorlar' (6 ogretisi).",
+    "tarih_eklendi": "2026-09-22"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHEUR",
+    "seviye": 2306,
+    "tur": "ogreti",
+    "aciklama": "20 Eyl: 6 ogretisi ornegi — ETHEUR 2060 ve 2306.",
+    "tarih_eklendi": "2026-09-22"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHGBP",
+    "seviye": 2060,
+    "tur": "tetik",
+    "aciklama": "20 Eyl: '1957'de 5.7 ogretisinde bekliyor, 2060 asilinca tetiklenme'.",
+    "tarih_eklendi": "2026-09-22"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "AVAXTRY",
+    "seviye": 570,
+    "tur": "ogreti",
+    "aciklama": "20 Eyl: '16 hafta trend altinda, 16x7=112 gun zorla tutmuslar', 570 TL'de yavasliyor (5.7 ogretisi).",
+    "tarih_eklendi": "2026-09-22"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "TOTAL2",
+    "seviye": 840000000000,
+    "tur": "ogreti",
+    "aciklama": "20 Eyl gorsel: TOTAL2 840 milyar $ (8.4 ogretisi).",
+    "tarih_eklendi": "2026-09-22"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "OTHERS.D",
+    "seviye": 10.6,
+    "tur": "esik",
+    "aciklama": "20-21 Eyl: 'Tek tek bakmak yerine su grafik 10,60 ustunde kalirsa bir seyler olur; BTC veya ETH ile desteklenmelidir' (10.6 ogretisi).",
+    "tarih_eklendi": "2026-09-22"
   }
 ]

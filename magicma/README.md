@@ -122,3 +122,25 @@ haftalık karne özeti bu görevin akışına bağlıdır — ayrı görev açı
 
 Kapatma bayrakları: `--karne-yok`, `--onemli-seviye-yok`,
 `--piyasa-saatini-yoksay`, `--mesaj-araligi 0`.
+
+## ALARM KAPSAMI DIŞI (elle takip — 2026-09-22, TUR 25)
+
+Aşağıdaki Koç seviyeleri `onemli_seviyeler.json`'a **eklenemez**: tek bir
+borsa/Yahoo/TradingView sembolü değiller, iki fiyatın oranı. Alarm motoru rasyo
+hesaplamıyor → **elle takip gerekir.**
+
+| Seviye | Neden çekilemiyor |
+|---|---|
+| BTCETH 30,60 (6 öğretisi) | Hiçbir borsada BTCETH paritesi yok (yalnız ters yönlü ETHBTC). Seviye ≈ ETHBTC 0,03268. |
+| NASDAQ/XAUUSD 10,6 hedefi | Rasyo; NDX ve XAUUSD ayrı kaynaklardan (Yahoo / gold-api) geliyor, bölme yapılmıyor. |
+| ETH/BRENT 25,7 ve 36 ("gerçek yükseliş 36'da") | Rasyo; ETHUSDT (Binance) / UKOIL (Yahoo BZ=F). |
+| DXY/XAU aylık trend ~0,258 | Rasyo + aylık trend çizgisi (sabit seviye değil). |
+
+**Eklenen ama henüz alarm VERMEYEN semboller:** EURTRY, GBPTRY, ETHTRY, ETHEUR,
+ETHGBP, AVAXTRY, TOTAL2, OTHERS.D sembol listelerine ve seviyeleri
+`onemli_seviyeler.json`'a eklendi; fiyatları çekilebiliyor. Ancak önemli seviye
+katmanı fiyatı yalnızca `magicma_ham.jsonl`'de (son 10 gün) MagicMA kaydı olan
+semboller için alır (`adaylari_hesapla` → `tum_fiyatlar`). Bu semboller bir
+sonraki MagicMA taramasında TradingView'den okunana kadar `kapsam_denetle`
+tarafından "karşılığı olmayan enstrüman" diye atlanır. TradingView'de MagicMA
+çizilmezse kara listeye düşer ve alarm hiç gelmez — o durumda da elle takip.

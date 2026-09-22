@@ -37,7 +37,11 @@ HARIC_BASE = {"SPCXB", "SNDKB", "CRCLB", "FIGRB", "MSTRB", "COINB", "NVDAB", "OP
 # hacim top-100'e girse de taramada bos dondukleri icin haric tutulur (2026-07-08).
 # Veri olgunlasinca bu setten cikarilabilir.
 MAGICMA_YOK = {"RE", "TON", "UTK", "OPG", "MUB", "CHIP"}
-MAKRO_BASLIK = ["CRYPTOCAP:TOTAL", "CRYPTOCAP:BTC.D"]
+MAKRO_BASLIK = ["CRYPTOCAP:TOTAL", "CRYPTOCAP:BTC.D",
+                # Koc seviyeleri (onemli_seviyeler.json, TUR 25 / 2026-09-22): USDT disi
+                # pariteler + makro; hacim listesinden bagimsiz her zaman kalir.
+                "CRYPTOCAP:TOTAL2", "CRYPTOCAP:OTHERS.D",
+                "BINANCE:ETHTRY", "BINANCE:ETHEUR", "BINANCE:ETHGBP", "BINANCE:AVAXTRY"]
 
 # Ida'nin portfoy tabanlari (CoinGecko, 2026-08-23): hacim top-100'e girmese de
 # listede HER ZAMAN kalir. Binance'te USDT paritesi yoksa Bybit -> MEXC sirasiyla
