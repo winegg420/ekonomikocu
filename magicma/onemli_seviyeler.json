@@ -3969,5 +3969,61 @@
     "tur": "esik",
     "aciklama": "20-21 Eyl: 'Tek tek bakmak yerine su grafik 10,60 ustunde kalirsa bir seyler olur; BTC veya ETH ile desteklenmelidir' (10.6 ogretisi).",
     "tarih_eklendi": "2026-09-22"
+  },
+  {
+    "kaynak": "Baris Soydan",
+    "enstruman": "XU100",
+    "seviye": 13370,
+    "tur": "direnc",
+    "aciklama": "17-19 Eyl (TEFAS krizi sonrasi): BIST100 200 gunluk ortalama direnc 13.370.",
+    "tarih_eklendi": "2026-09-23"
+  },
+  {
+    "kaynak": "Baris Soydan",
+    "enstruman": "XU100",
+    "seviye": 13530,
+    "tur": "direnc",
+    "aciklama": "17-19 Eyl: BIST100 13.370 kirilirsa ikinci direnc 13.530.",
+    "tarih_eklendi": "2026-09-23"
+  },
+  {
+    "kaynak": "Baris Soydan",
+    "enstruman": "XU100",
+    "seviye": 12950,
+    "tur": "destek",
+    "aciklama": "17-19 Eyl: BIST100 destek 12.950.",
+    "tarih_eklendi": "2026-09-23"
+  },
+  {
+    "kaynak": "Baris Soydan",
+    "enstruman": "XAUUSD",
+    "seviye": 4300,
+    "tur": "bant_alt",
+    "aciklama": "17-19 Eyl: Fed sonrasi ons altin 4.300-4.400 bandinda, dusus sinirli kaldi (TD Securities/Standard Chartered alim firsati okumasi).",
+    "tarih_eklendi": "2026-09-23"
+  },
+  {
+    "kaynak": "Baris Soydan",
+    "enstruman": "XAUUSD",
+    "seviye": 4400,
+    "tur": "bant_ust",
+    "aciklama": "17-19 Eyl: ons altin 4.300-4.400 bandinin ust siniri.",
+    "tarih_eklendi": "2026-09-23"
+  },
+  {
+    "kaynak": "Sellcoin",
+    "enstruman": "BTCUSDT",
+    "seviye": 92000,
+    "tur": "hedef",
+    "aciklama": "Servet Transferi videosu (~21-22 Eyl): 82K direnci kirildi, hedef 92-93K bolgesi (sermaye rotasyonu tezi).",
+    "tarih_eklendi": "2026-09-23"
+  },
+  {
+    "kaynak": "Sellcoin",
+    "enstruman": "ETHUSDT",
+    "seviye": 3400,
+    "tur": "hedef",
+    "aciklama": "Servet Transferi videosu (~21-22 Eyl): 2.500$ bayrak/flama kirildi, hedef 3.400 (Koc'un 3.300 esik seviyesine yakin, bagimsiz yakinsama).",
+    "tarih_eklendi": "2026-09-23"
   }
 ]
