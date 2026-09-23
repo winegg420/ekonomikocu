@@ -8,6 +8,33 @@
 
 ## SELLCOIN
 
+### Tarih video içinde net değil (Pazartesi, "yarın akşam Micron bilançosu" ipucuyla muhtemelen 21-22 Eylül 2026) — "Servet Transferi Başlıyor! Vaziyet Alın!"
+
+**Ana tez — sermaye rotasyonu / servet transferi:** Bir piyasadan çıkan para yok olmuyor, yeni yön arıyor (ABD tahvilleri, MTI, kripto). ABD yarı iletken sektöründe (Nvidia, Apple vb.) fiyatlamaların şiştiği, paranın **siber güvenlik** temasına rotasyon yaptığı belirtiliyor. Yarın akşam **Micron bilançosu** bu tez için test olarak izleniyor.
+
+**Kripto:** Pozisyonlar kâra geçmeye başladı; vurgu "coinler yükseldi" değil "yeni bir sermaye akımının başlangıcında mıyız" sorusu. Karda oturma stratejisi — filtreler: hikaye/risk-getiri dengesi/fiyat.
+
+**BTC:** **58-60K'dan 84K üstüne** geldi; kendi direnç bölgesi **82K'ydı, kırıldı**; hedef **92-93K bölgesi**.
+
+**ETH:** **2.500$'ı aşıp** "bayrak/flama" formasyonunu kırdı — hedef **3.400$**; altcoin'leri de yukarı taşıyacağı öngörülüyor.
+
+**Teter dominansı:** Düşüyor — nakitten kriptoya geçiş sinyali.
+
+**Altın:** ~4.000$ "dip alan" olarak konuşuluyordu, mevcut seviyeler de ileride dip olarak anılacak; günlük bulut indikatöründe tutunma başlangıcı. Kaynak OKEX TR üzerinden **Tether Gold** pozisyonu tutuyor (sponsor beyanı).
+
+**BIST:** Fonlar konusu borsayı "fena" etkiledi; Varlık Fonu alımları düşüşü frenliyor. Kaynak uzun süredir BIST'te pozisyon almıyor, önceden uyardığını belirtiyor.
+
+**Nasdaq100:** Henüz kırılım görmüyor; yükselten ana temanın artık **siber güvenlik + fintech** olduğunu, yarı iletken temasının eskidiğini vurguluyor.
+
+**Koç'la ilişki:** BTC'nin **84K üstü + 92-93K hedefi**, Koç'un **84K pivot / 114,25K teorik hedef** teziyle yön olarak paralel — gerekçe farklı (Sellcoin: sermaye rotasyonu; Koç: DXY/faiz/Çin üçlü tetik). ETH **3.400$ hedefi**, Koç'un **3.300$ "sektör büyümesi" eşiğine** çok yakın — bağımsız yakınsama, atıf değil.
+
+### KARNE EK — Sellcoin (Servet Transferi videosu)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| — | BTC 92-93K'ya devam eder (82K direnci kırıldı) | İZLENİYOR |
+| — | ETH 2.500$ kırılımı sonrası 3.400$ hedefi | İZLENİYOR |
+| — | Yarı iletken teması eskidi, siber güvenlik+fintech yeni tema | İZLENİYOR |
+
 ### 2026-08-20
 - **Makro:** Bessent'in tahvil geri alım operasyonunu max $2 milyar'dan min $4 milyar'a çıkardığını somut rakamla veriyor — Kemal Hiçyılmaz ve Bora Özkent'in anlattığı olayın üçüncü bağımsız teyidi.
 - **Ters okuma:** Fed tutanakları şahindi ama piyasa yükseldi — "$40 trilyon borçlu bir ülke gerçekten agresif faiz artırabilir mi" sorusu, dolara değil altına güven.
@@ -355,6 +382,37 @@ gerektirir**; ani indirim dövize kaçış yaratır; **24 ayda seçim varken kur
 | 16 Eyl | Dolar/yen short'ta kâr realizasyon zamanı | İZLENİYOR |
 | 16 Eyl | 2027'de petrol 50$ altına düşebilir (Trump kaybederse) | İZLENİYOR |
 | 16 Eyl | S&P 500 için artık pozitif değil, korkuyor (görüş değişimi) | İZLENİYOR |
+
+### Tarih video içinde belirtilmemiş (Fed/ECB/BOJ eşzamanlı faiz artırımı haftası, ~18-20 Eylül 2026) — "Piyasalarda Neler Oluyor? | Borsa, Fon, Faiz"
+
+**Genel çerçeve:** "Gerçekten yüzümdeki gülümsemeyi silecek kadar kötü bir hafta" — borsa çöküşün eşiğine geldi, kamu müdahalesiyle geri döndü; ileriye dönük potansiyeli **hayır** olarak değerlendiriyor.
+
+**3 merkez bankası eşzamanlı artırım:** Bu hafta **ECB, Fed, BOJ** eş zamanlı faiz artırdı — "yıllarca sürecek yüksek faiz süreci" tezi. İngiltere artırmadı ama sinyal verdi.
+
+**SPK'nın 130 fon açıklaması — bulaşıcılığı önledi:** Açıklama olmasaydı güvensizlik tüm fonlara yayılabilirdi. Ama güven krizi bitmedi: tasfiyeye giren fonlarda **500.000-900.000 civarı yatırımcı** parasını alamıyor; BIST'te 7 milyon yatırımcı var. Fon büyüklüğü **17-20 milyar $**, muhtemelen **yarısı** yatırımcı tarafından kayıp olarak hazmedilecek.
+
+**2001 krizi benzetmesi:** ~20 banka TMSF'ye geçti, halka açık payları hiç geri ödenmedi, borsa **2 yıl yerinden kıpırdamadı** — "bu kez de benzer bir gelecek karşımıza çıkabilir."
+
+**Tahvil faizi riski:** 10-30 yıl vadeli tahvil faizleri dünya genelinde yükselecek — asıl sebep **kamu borcu**. Düşük faizden (%2-4) borçlanmış ülke/şirketler şimdi ~%8 ödeyecek.
+
+**Hürmüz Boğazı:** İran — "Trump ve Netanyahu görevden gidinceye kadar kapalı tutacağız" — "akıl almaz bir tehdit."
+
+**Yapay zeka riski:** Anthropic güvenlik sorumlusunun "yapay zekanın insanlığı imha riski %10 veya daha fazla" diyerek istifası; ChatGPT'nin (GPT-5/6) modelin komutlara aykırı davranışlarını bildireceğini açıklaması. AI şirketlerinin fon toplama ihtiyacı zorlaşabilir, model gelişimi kenara atılabilir.
+
+**2 olası çöküş tetikleyicisi:** (1) AI şirketleri centilmenlik anlaşmasıyla model sevkiyatını durdurur, (2) **ABD ara seçimleri (7 Kasım)** — Trump müdahale riski, ~30 eyalette cumhuriyetçi valilerin sonuçları dava edebileceği, 2-3 aylık belirsizlik senaryosu.
+
+**Sonuç:** Eylül-Kasım arası küresel piyasalarda ciddi düzeltme ihtimalini **%50'nin üstünde** görüyor. Kendi duruşu: borsadan uzak durma, put opsiyonu hisse satmaktan daha mantıklı.
+
+**Koç'la ilişki:** Dosyadaki 16 Eylül Atilla Yeşilada girişinin devamı. Fed/ECB/BOJ eşzamanlı artırım + ABD ara seçim riski Koç'un DXY/faiz/anlaşma üçlü tetik tezine dolaylı bağlanabilir ama doğrudan atıf yapılmaz. 2001 TMSF benzetmesi dosyada yeni bir karşılaştırma noktası.
+
+### KARNE EK — Atilla Yeşilada (yeni)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| — | Eylül-Kasım arası küresel piyasalarda %50+ ihtimalle ciddi düzeltme | İZLENİYOR |
+| — | TEFAS kaybının yarısı yatırımcı tarafından hazmedilecek | İZLENİYOR |
+| — | 2001 TMSF benzetmesi — borsa 2 yıl hareketsiz kalabilir | İZLENİYOR |
+| — | AI güvenlik riski nedeniyle model geliştirme yavaşlayabilir | İZLENİYOR (⚠️ uzun/spekülatif) |
+
 
 ---
 
@@ -967,6 +1025,32 @@ tahminine yakın, biraz muhafazakar.
 |---|---|---|
 | Salı (JH sonrası) | Fed Eylül'de faiz artırımı ihtimali %66,4 | İZLENİYOR (6 kaynak ortak) |
 | Salı (JH sonrası) | USDTRY yıl sonu ~50,5 TL | İZLENİYOR |
+
+### "Yatırım Fonlarında Akıllardaki Sorulara Cevaplar" — Parayı Ne Yapalım #74 (Salı çekimi, video içi tarih net değil — 17 Eylül'ün "geçen hafta Perşembe" olarak anılmasından muhtemelen ~22 Eylül 2026)
+
+**7 portföy yönetim şirketi (PYŞ) — net liste:** Fonları alım-satıma kapatılanlar: **Tera, Atlas, Pusula, Pardus, Hedef, Bulls, A1.** 131 fon tasfiye listesinde. Görevlendirilen 2 kuruluş: **İş Bankası ve Ziraat Bankası**, 10-12 iş günü mutabakat süresi, ardından **6 ay içinde** varlıklar ayrı ayrı nakde çevrilip dağıtılacak. **17 Eylül 13:30 öncesi** verilip gerçekleşmemiş emirler **alacaklı statüsünde**, öncelikli ödenir.
+
+**Repo/teminat mekanizması — en detaylı anlatım:** Bu PYŞ'ler müşteri parasını kendi aracı kurumuna borç veriyor, karşılığında **kendi grubun hissesini** (örn. Destek Factoring) teminat alıyor — döngüsel yapı. Teminat değersizleşince para piyasası fonunda **ana paradan zarar** oluşuyor.
+
+**Kritik ayrım:** Garanti Portföy, Azimut Portföy, AK Portföy, FIBA Portföy gibi büyük kuruluşların fonlarında **hiçbir sıkıntı yok** — devlet tahvili/hazine bonosu teminatlı repo yapıyorlar.
+
+**Tasfiyeye DAHİL OLMAYAN aynı 7 PYŞ fonları — somut örnekler:**
+- **Hedef Portföy Altın Katılım Fonu (HAM):** 7.300 yatırımcı, varlığı fiziki altın, sağlıklı.
+- **Hedef Teknoloji Değişken Fonu (HTJ):** %59 yabancı hisse — %8 Nvidia, %6 Apple, ayrıca Micron, ServiceNow.
+- **NNF fonu (en yüksek yatırımcı sayısı):** %100 yerli hisse — ASELSAN, Akbank, Tüpraş, Astor, Coca-Cola İçecek, Ereğli, BİM.
+- **Info Yatırım** (bir fonun içindeki bir kalem) taban fiyatta — o kısım toplam performansı aşağı çekiyor ama fonun tamamını riskli yapmıyor.
+
+**Sonuç mesajı:** 130 fon tek havuzda değil, her fon kendi varlığına göre ayrı değerlendirilmeli.
+
+**Koç'la ilişki:** Aynı TEFAS krizi teması — repo/teminat mekanizması en teknik derinlikte anlatılıyor, dosyadaki 10 Eylül "Bana Fonları Anlat B41" girişine (Atlas DFA "sonraki Pusula" uyarısı) teknik zemin ekliyor. Koç'un arşivinde yok, atıf yapılmaz.
+
+### KARNE EK — Emrah Lafçı (Parayı Ne Yapalım #74)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| ~22 Eyl | Büyük banka PYŞ'lerinde (Garanti/Azimut/AK/Fiba) yapısal sıkıntı yok | İZLENİYOR |
+| ~22 Eyl | Tasfiye dışı fonlar (HAM/HTJ/NNF) sağlıklı, zamanla satılabilir | İZLENİYOR |
+| ~22 Eyl | 131 fon tek havuzda değil, ayrı ayrı değerlendirilecek | İZLENİYOR |
+
 ### 10 Eylül 2026 — "Bana Fonları Anlat" B41 (TCMB günü, 14:05 çekim) — Emrah Lafçı (solo)
 
 **TCMB:**
@@ -1585,6 +1669,32 @@ DEĞİŞTİRİLMEDİ (`cin_abd_anlasma` hâlâ false).
 | 17 Eyl | Fed'in 25 bp'si yetersiz, enflasyona deva olmaz | İZLENİYOR |
 | 17 Eyl | Altın/gümüş bu 40 günlük arada geriler, alım fırsatı gelir | İZLENİYOR |
 
+### Tarih video içinde belirtilmemiş (Eylül 2026 sonu, Kayseri fabrika kapanışı + TEFAS krizi güncel) — "Dolar Ekim'de 50 TL Olacak mı? Hisse Senedi Manipülasyonu, Fonlar, Mevduat ve Altın"
+
+**Dış borç:** Önümüzdeki 1 yıl içinde vadesi gelen dış borç **248,1 milyar $** — aylık ~20,7 milyar $, günlük ~680 milyon $, saatlik ~28 milyon $. Asıl mesele borcu çevirmek değil, **hangi faizle** çevrileceği.
+
+**Faiz/kur tezi:** Merkez Bankası'nın asıl hedefinin enflasyon değil **kur istikrarı** olduğu iddia ediliyor; faiz %37'de tutulunca yerli şirketler %60'lık kredi faiziyle eziliyor.
+
+**Reel sektör verisi:** Konut satışları Ağustos'ta **-%17,7**, ikinci el satış düşüşü **-%19'u** geçti. Otomotiv üretimi ilk 8 ayda geriliyor.
+
+**Kayseri — somut örnek:** **73 yıllık Orta Anadolu (tekstil) fabrikası kapandı** — 1986'dan beri Lee, Levi's, Diesel, Guess, Mavi'ye üretim yapıyordu. Şirketin gerekçesi: zayıflayan küresel talep, artan operasyonel maliyet, **en önemlisi yüksek finansman giderleri**.
+
+**Bütçe:** 8 aylık faiz faturası **2 trilyon TL**.
+
+**Fon krizi bağlantısı:** **510 milyar TL** yükün devlete/topluma yayılma riski var deniyor — "sorun geçici ve yönetilebilir" açıklamasının kime ne kadar zarar vereceğini söylemediği eleştirisi.
+
+**Genel tez:** Asıl problem rakamlar değil "gerçeklerin ısrarla görülmemesi" — rantçının kollanıp üreticinin boğulması. Sponsor: OKXTR.
+
+**Koç'la ilişki:** Dış borç/kredi maliyeti teması Koç'un arşivinde yok. Fon krizinin devlete yayılma riski (510 milyar TL) teması, dosyadaki mevcut Cihat E. Çiçek 17 Eylül girişiyle aynı yönde devam ediyor — atıf yapılmaz.
+
+### KARNE EK — Cihat E. Çiçek (yeni)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| — | Dış borç maliyeti (faiz), miktardan daha kritik risk | İZLENİYOR |
+| — | Fon krizi yükü (510 milyar TL) devlete/topluma yayılır | İZLENİYOR |
+| — | Yüksek finansman gideri sanayi kapanışlarının asıl sebebi (Kayseri örneği) | İZLENİYOR |
+
+
 ---
 
 ## BARIŞ SOYDAN
@@ -1911,6 +2021,35 @@ verdiği **71** ile çelişiyor — bkz. `14_CELISKI_PANELI.md` A13 (veri çeli�
 | 17 Eyl | Petrol düşüşü altına olumlu yansır | İZLENİYOR |
 | 17 Eyl | Ed Yardeni S&P 500 yıl sonu 7.900 (aktarım) | İZLENİYOR |
 
+### 18-19 Eylül 2026 (video içi tarih net değil — Fed kararı "geçtiğimiz hafta" olarak anılıyor) — "Fondan Kaçış | Altına Fed Freni | Fon Hisselerinde Taban Rekoru"
+
+**Tera Portföy patronu:** Emre Tezven mahkemeye sevk edildi (video hazırlanırken), tutuklanıp tutuklanmayacağı ve mağdur yatırımcı ödemelerinde kendi servetinden yararlanılıp yararlanılmayacağı izlenecek.
+
+**Fon çıkışı — somut rakam:** 28 Ağustos (SPK'nın serbest fon düzenlemesi) ile "dün akşam" arası toplam **538 milyar TL (~11 milyar $)** fonlardan çıktı. Garanti Portföy'ün repo fonundan tek günde **45 milyar TL (~1 milyar $)** çıkış — Goldman Sachs'a göre bu para dövize değil **TL mevduata** yöneldi. Banka mevduatı **1.200.000 TL'ye kadar TMSF güvencesinde**.
+
+**SPK süreç detayı:** Tasfiye 3 aydan 6 aya uzatıldı. **17 Eylül 13:30 sonrası** talimatlar tasfiye sürecine giriyor; **13:30 öncesi** verilip Takas Bank sistem arızası nedeniyle gerçekleşmeyen/iptal olan emirler SPK'nın 2026/T-61 sayılı kararına göre fon hesabına borç kaydedilip **öncelikli ödenecek**.
+
+**Faiz:** Mevduat faizleri %40 üstünden %37-38'e indi. Özel bankalarda ticari kredi gevşemesi: **QNB %42, TEB %44** rotatif kredi. Kamu bankaları 3 puan indirim sözü verdi ama uygulamadı.
+
+**Altın/Gümüş:** Fed'in 25 bp artışı + "bu sene bir artış daha" sinyaline rağmen altın çok düşmedi — TD Securities ve Standard Chartered'a göre **alım fırsatı** okunuyor. **Ons altın $4.330 (akşam), $4.300-4.400 bandı. Gümüş 65,60 cent, $65-67 bandı.**
+
+**Petrol:** 100$ altına indi, sonra üstüne çıktı — İran BM'de koşullu olarak Hürmüz Boğazı'nı 7 gün içinde açmaya hazır olduğunu söyledi.
+
+**Global:** Nasdaq'ta yeni rekor. En beğenilen ülke ETF'i **Polonya** (S&P Dow Jones gelişen ülkeden gelişmişe çıkardı, yılbaşından bugüne **+%35**) — geçen sene bu yeri Güney Kore tutuyordu.
+
+**BIST:** Günü **-%1,04** kapattı, işlem hacmi **184 milyar TL — 26 Nisan'dan bu yana en düşük**. Gün içi 13.169-13.370 bandı (200 günlük ortalama). Endeks değişikliği: **Destek Factoring BIST30'dan çıktı**, Türk Anadolu Metal (eski Koza Metal) girdi. Negatif: **Tüpraş -%3**, Bank of America ~2,5 milyar TL satış. En büyük alıcı **QNB Yatırım (>1 milyar TL)**. Yarın için direnç **13.370/13.530**, destek **12.950**.
+
+**Koç'la ilişki:** TEFAS/BIST krizi teması zaten Cihat E. Çiçek + Barış Soydan'ın 17 Eylül girişleriyle dosyada var; bu, aynı olayın 1-2 gün sonraki güncellemesi. Koç'un arşivinde yok, atıf yapılmaz.
+
+### KARNE EK — Barış Soydan (yeni, ~18-19 Eyl)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| ~18-19 Eyl | Altın Fed sonrası düşüş sınırlı kalır, alım fırsatı | İZLENİYOR |
+| ~18-19 Eyl | Fon çıkışı TL mevduata gidiyor, dövize değil (Goldman) | İZLENİYOR |
+| ~18-19 Eyl | Polonya ETF'i en beğenilen ülke fonu, %35 yükseliş | İZLENİYOR |
+| ~18-19 Eyl | BIST 13.370/13.530 direnç, 12.950 destek | İZLENİYOR |
+
+
 ---
 
 ## SELÇUK GEÇER (YouTube — makro/altın, sponsor OKX TR) — **YENİ KAYNAK**
@@ -2055,6 +2194,39 @@ hikâyesi** budur.
 | 10 Eylül | USDJPY yıl sonu 150 altı | İZLENİYOR (⚠️ aktarım) |
 | 10 Eylül | Brent yıl sonu 85, 100 üstü kalıcı değil (Goldman) | İZLENİYOR |
 | 10 Eylül | Altın 4.400 tutar → 4.500 | İZLENİYOR — ⚠️ **ZEDELENDİ** (10-11 Eyl **4.320**'ye sarktı) |
+
+### 23 Eylül 2026 (Çarşamba sabahı, ~08:00-09:00 çekim) — "Kur Şokuna Hazır Ol"
+
+**Kitap lansmanı (kaynağın kendi projesi — ticari çıkar beyanı):** Çocuk kitabı "Tutumlu Kedi Frida" önceki gün (22 Eylül) piyasaya çıktı, gece ~22:00'de Kitapyurdu'nda ön sipariş açıldı, 2 saatte ~100 talep. Kapak fiyatı 185 TL, indirimli ~132-133 TL. 27 Eylül Pazar 12:00 İzmir Kültür Park'ta (İnkılap standı arkası) imza günü.
+
+**Fon/Ponzi teması (Koç dışı, TEFAS krizine paralel genel anlatım):**
+- Borsadaki manipülasyonu "piramit sistemi" (mektup zinciri benzetmesi) olarak tanımlıyor; **fonun kendisi değil, fon içindeki hisse senetleri sahte/manipüle** tezi — "Türkiye futbol liginin günahı takımlarda, fonlarda değil."
+- Dünkü (22 Eylül) 3,5 dakikalık kısa videosu ~20.000 izlenme aldı.
+- Haydar Acun'un önerisi (kaynağın desteklediği): BIST günlük düşüş limiti %10'dan %20-30-40'a çıkarılsın, devre kesici olmasın — "Çin işkencesi yerine hızlı bitirin."
+
+**Jeopolitik:** BM Genel Kurulu'nda Trump İran'a "yok edeceğim" tehdidi; İngiliz Başbakanı İsrail'e sert çıktı; İran New York'ta ABD ile görüşme sürdürüyor, 300 milyar $ tazminat istiyor, taraflar acele etmiyor.
+
+**Makro veri:** ABD imalat PMI bugün 16:45'te, enerji verileri 17:30'da. ABD'de bakır depoları dolu (Trump vergisi beklentisiyle önden stoklama), bakır fiyatları rekor. Fransa'da benzin istasyonlarının %20'si dizel/benzin satamıyor. McDonald's 2024 Temmuz'dan beri en düşük değerinde — ABD tüketici gücü zayıflığı göstergesi olarak okunuyor.
+
+**Türkiye fon soruşturması:** Daha önce tutuklanan "ekonomist kardeşler" + Tera Portföy + Pusula Portföy sahiplerinin hastane raporu/ifade sürecinden geçtiği, çete kurma suçlamasıyla tutuklanma ihtimali olduğu aktarılıyor (isim verilmeden).
+
+**Bitcoin/Piyasa okuması (kaynağın kendi çerçevesi — spekülatör psikolojisi tasviri):** "Alsatçılar 83.000-86.000-92.000 dolara kadar Bitcoin alır, sonra 50-60'a çakılacağını düşünerek 80-88'e düşünce sert satar" — BTC güncel **86-87.000$** bandında; kaynak bunun kısa vadeli spekülatif alım olduğunu, içeride kalanların düşüşü unutmak istediğini vurguluyor.
+
+**Altın/Gümüş:** Çin 1.000+ ton altın alımını sürdürüyor ("ucuzken alınır"). Ekim-Kasım-Aralık altın/gümüş için "en iyi beklenti ayları" — kaynak kendi alımını tamamlamış, Mart'a kadar bekliyor. **Gram altın TL bazında yılbaşından beri +%36,84, gümüş +%76,93.** 5 yıl önce 3 gram gümüş bir paket sigaraya (2,95 TL) denk geliyordu, bugün gram gümüş **105 TL**.
+
+**Bilezik fiyat dağınıklığı (aynı gün, kuyumcu karşılaştırması):** 3 taksitli 10 gram bilezik teklifleri **67.089 TL ile 80.450 TL arası** (13.000 TL fark) — "üç taksit" ilanı genelde gerçekte tek taksit çıkıyor, CİMER şikayeti sonuçsuz.
+
+**Diğer makro:** Japonya müdahaleleri işlemiyor, USDJPY 156 üstü. İstanbul'da 26 daireli apartmanın demir maliyeti Şubat'ta 6,5 milyon TL, şimdi 8,5 milyon TL (1 yılda +%31). Merkezi yönetim borç stoku Ağustos 2025'te 12 trilyon 47 milyar TL, 2026'da 15 trilyon 894 milyar TL (+3,5 trilyon TL). İzmir ortalama ev fiyatı 6.575.000 TL, kira 33.000 TL — 5 büyük il arasında fiyat artışında 2. sırada. ABD 10 yıllık tahvil %4,98 (23 saat önceki okuma). Yargıtay emsal kararı: kiracı evi hor kullanırsa bilirkişi masrafını (örnekte 175.000 TL) öder.
+
+**Koç'la ilişki:** Piramit/manipülasyon çerçevesi Cihat E. Çiçek ve Barış Soydan'ın TEFAS anlatımıyla aynı yönde ama Koç'un arşivinde bu tema yok, atıf yapılmaz. BTC "83-92K alır, 50-60'a çakılır" tüccar okuması Koç'un 73.5K/84K sıralı pivot tezinden ayrı bir çerçeve (kısa vadeli spekülatör psikolojisi tasviri) — doğrudan atıf yapılmaz.
+
+### KARNE EK — Selçuk Geçer (23 Eyl)
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 23 Eylül | Ekim-Kasım-Aralık altın/gümüş için en iyi beklenti ayları | İZLENİYOR |
+| 23 Eylül | BIST günlük limit %20-40'a çıkarılmalı (Haydar Acun önerisine destek) | İZLENİYOR (⚠️ öneri, gerçekleşme değil) |
+| 23 Eylül | ABD tüketici gücü zayıflıyor (McDonald's göstergesi) | İZLENİYOR |
+
 
 
 
@@ -3570,6 +3742,34 @@ Koç'un **dolar → enflasyon aktarım zincirinin TR versiyonu** olarak paraleld
 | 9 Eylül | Varlık Fonu satışları (Turkcell/THY) seçim öncesi gelir | İZLENİYOR |
 | 9 Eylül | YTAK 750 milyar limite hızlı gitmez | İZLENİYOR |
 
+### 21 Eylül 2026 (Pazartesi, sabah 10:00 çekim) — Ömer Gencal & Murat Aysan — "Piyasalarda Her Şey Sil Baştan! | Borsa, Halka Arz ve Yatırım Fonları"
+
+> **Not:** Dosyadaki "Mesele Ekonomi — Erdal Sağlam (Semih Sakallı ile)" formatından **farklı bir ikili** (Ömer Gencal & Murat Aysan) — aynı kanal, farklı program/sunucu eşleşmesi. Ayrı alt başlık olarak tutuluyor.
+
+**Yatırım fonları tarihi (Murat Aysan aktarımı):** İlk fon 70'lerin sonu, ilk düzenleme **1981**, ilk yatırım fonu **1987 İş Bankası**, serbest fonlar düzenlemesi **2006**.
+
+**Ana tez — organize dolandırıcılık, kaza değil:** Kökeni **2016**'ya (Mehmet Şimşek başbakan yardımcısıyken) dayanıyor — SPK/BDDK bürokratlarının talimatları "kulak arkası etmesiyle" başlayan süreç. **2019**'da kur+faiz baskısı ve **halka arz seferberliği** ile asıl manipülasyon başladı. **11 Kasım 2025**'te bir bakan konuşması (3 Kasım'da yapılmış) sonrası çok sayıda haber çıktı — "müdahale gecikti" değerlendirmesi.
+
+**Fon içeriği — somut rakamlar (11'i itibariyle, emeklilik fonları hariç):**
+- Hazine bonosu + devlet tahvili: **693 milyar TL nominal**.
+- Özel sektör tahvilleri: **273 milyar TL**, %60-61'i banka-dışı finansal kuruluş (factoring/leasing) ihracı.
+- Faiz oranları 14-18 Eylül arası yükseldi: **2 yıllık ~%40→41, 5 yıllık %39, 10 yıllık %35** civarı.
+- Yasal boşluk: para piyasası fonu kuralı max 45 gün vade/184 gün enstrüman süresi diyor, ama **TLREF gibi değişken faizli 4 yıllık tahviller** 182-183 günde kupon ödediği için bu tanıma giriyor.
+
+**Mehmet Şimşek (NTV, Cuma):** Merkez Bankası likidite verdiği için "önemli bir gelişme olmadı."
+
+**Öngörüler:** Halka arzlar en az **6-7 ay** ertelenir. Faiz tarafı "iki ucu keskin kılıç." Yabancı basında (FT, WSJ) en az 3-4 yazı — Türkiye'nin itibar/kredi risk algısı soğudu. Fon piyasası büyüme dinamiğini kaybedip ağırlıkla **para piyasası fonlarına** kayacağı öngörülüyor.
+
+**Koç'la ilişki:** TEFAS krizi teması Cihat E. Çiçek/Barış Soydan/Atilla Yeşilada ile aynı olay ama krizin **2016'dan başlayan tarihsel kökenini** ilk kez bu derinlikte veren kaynak. Koç'un arşivinde yok, atıf yapılmaz.
+
+### KARNE — Ömer Gencal & Murat Aysan
+| Tarih | İddia | Sonuç |
+|---|---|---|
+| 21 Eylül | Halka arzlar en az 6-7 ay ertelenir | İZLENİYOR |
+| 21 Eylül | Fon piyasası büyüme dinamiğini kaybedip para piyasası fonlarına kayar | İZLENİYOR |
+| 21 Eylül | Yabancı basında itibar riski algısı kalıcı soğuma yaratır | İZLENİYOR |
+
+
 ---
 
 
@@ -3719,8 +3919,10 @@ değil, `06_ANALIZ.md` + tweet arşivine dayanır.
 ## TEFAS / SERBEST FON LİKİDİTE KRİZİ — YENİ TEMA (2026-09-17'de açıldı)
 
 > **Koç'un çerçevesinde BULUNMAYAN** yeni risk teması. Buradaki hiçbir tespit Koç'a atfedilmez.
-> Üç bağımsız dış kaynakla teyitli: **Cihat E. Çiçek (17 Eyl)**, **Barış Soydan (17 Eyl)**,
-> **Atilla Yeşilada (16 Eyl, önceden uyarı)**. Ortak veri: **BIST 16 Eylül -%5,54** (devre kesici)
+> Altı bağımsız dış kaynakla teyitli: **Cihat E. Çiçek (17 Eyl, +yeni)**, **Barış Soydan (17 Eyl, +18-19 Eyl)**,
+> **Atilla Yeşilada (16 Eyl, önceden uyarı, +18-20 Eyl güncelleme)**, **Emrah Lafçı (10 Eyl, +Parayı Ne Yapalım #74)**,
+> **Ömer Gencal & Murat Aysan / Mesele Ekonomi (21 Eyl, krizin 2016'dan başlayan tarihçesi)**, **Selçuk Geçer (23 Eyl)**.
+> Ortak veri: **BIST 16 Eylül -%5,54** (devre kesici)
 > ve **FİK'in 17 Eylül 08:00 acil toplantısı**.
 
 **Olay zinciri (kaynaklara göre):**
