@@ -2,7 +2,15 @@
 
 Sadece abone donemi tweetleri (`kayit_tipi: abone`). Makro (Trump/Fed/ABD) + teknik yorumlari burada da birlestir — 02 kurallari gecerli.
 
-Toplam: **3434**
+Toplam: **3435**
+
+## 29 Eyl 15:25 | `2104910493575938179` | GUMUS_PETROL | yorum | abone
+
+Koç şunu farkettim çok iyi teknik bilgine rağmen şu zaman ralli gelir paranın altında kalırsınız demiyorsun.Bunu görsen de soylemezsin bence çünkü siyaset grafiği de bozabilir değil mi? Aslında şuan coin almanın zararı yok kimse konuşmuyor bile ama belirsizlik var 
+@ekonomikocu
+
+- media: —
+- gemini_grafik: —
 
 ## 19 Ağu 19:37 | `2090115838149832969` | GENEL | tarih, tez | abone
 
