@@ -4025,5 +4025,37 @@
     "tur": "hedef",
     "aciklama": "Servet Transferi videosu (~21-22 Eyl): 2.500$ bayrak/flama kirildi, hedef 3.400 (Koc'un 3.300 esik seviyesine yakin, bagimsiz yakinsama).",
     "tarih_eklendi": "2026-09-23"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 79200,
+    "tur": "stop",
+    "aciklama": "30 Eyl: 'BTC 80.600 ustu long, 79200 stop'.",
+    "tarih_eklendi": "2026-10-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BTCUSDT",
+    "seviye": 87600,
+    "tur": "esik",
+    "aciklama": "30 Eyl: '84K alimlari tetikler ama yeni zirve icin 87600 asilmasi lazim'.",
+    "tarih_eklendi": "2026-10-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 2557,
+    "tur": "stop",
+    "aciklama": "30 Eyl: 'ETH 2620 ustu long, asagida 2557 stop'.",
+    "tarih_eklendi": "2026-10-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 2840,
+    "tur": "esik",
+    "aciklama": "30 Eyl: 'asil bakilacak yer 2840, asiliyor mu yoksa yeniden satis mi geliyor' (teyit seviyesi).",
+    "tarih_eklendi": "2026-10-01"
   }
 ]

@@ -4452,3 +4452,10 @@ bilmiyordu. Toplu degerlendirme islerinin Claude token'i yerine Jev'e gitmesi ic
 - Chrome kapaliydi; chrome.exe dogrudan --remote-debugging-port=9222 ile acildi, tara_guvenli.py exit 0, push `f126efc` (402 yeni kayit).
 - Kullanici istegi: son 1-2 gundeki onemli kripto tweetleri. Yeni seviyeler: ETHUSD 2620 ustu long / 2570 kritik / 2776 / 2840 / stop 2557 (30 Eyl); BTCUSD 80.600 ustu long / stop 79.200 / 84K / 87.600 (30 Eyl); ETH 1379 (2017 tepesi, altinda kalmak ETH'yi bitirir); BTC 107.800, 126K tepesi tezi. 
 - Acik is: bu seviyeler onemli_seviyeler.json'a henuz eklenmedi (elle eklenmeli).
+
+## 2026-10-01 — 30 Eylul analizi (TUR 26)
+**Arac:** Claude Code
+- 30 Eyl: 109 tweet metni + 28 gorsel (3 alt ajan) okundu -> `gorsel_analiz.jsonl` 1844 -> 1872; `06_ANALIZ.md` sonuna "30 EYLUL 2026 GUNU ANALIZI" bolumu eklendi (ust icerik dogrulandi).
+- Ana bulgu: "eski tepeye duzeltme" kurali (BTC 19.292, ETH 1.379, NDX 26.269/22.683, gumus 50); Koc Brent'ten ~105-106'dan sattigini soyledi; Koc eski cagrilarini (80.600, Agustos 3. hafta 87K) belgeledi.
+- `onemli_seviyeler.json` +4 (BTC 79.200 stop/87.600, ETH 2.557 stop/2.840) -> 505. DAX 25.700 sembol listesinde yok, eklenmedi.
+- Acik: 29 Eyl aksami + 1 Ekim gorselleri okunmadi; 2 Ekim TDI sonrasi BTC/ETH seviyeleri; Brent karnesi dogrulamasi.
