@@ -4446,3 +4446,9 @@ bilmiyordu. Toplu degerlendirme islerinin Claude token'i yerine Jev'e gitmesi ic
 - `jev_abone_etiket.py`: 3434 abone metni etiketlendi; Koc uslup ipucu + yazar esigi 0.70; "dedi/diyor/yaziyor" aktarim izi varsa yazar=koc olsa da `atif_supheli` ile kontrole duser.
 - **Karar: iki arsivde (cekilen_tweetler + 07_ABONE) ortak tweet'lerde SADECE abone siniflandirmasi kullanilir.** Neden: capraz karsilastirmada 718 celiski cikti; 416'sinda ana akis "koc", abone akisi "abone" diyordu (orn. "Koç peki buradan sonra..." ana akista koc 0,71). Ana akis siniflandiricisi (atif sorusu) Koc'un kendi hesabi varsayimiyla yazildi, aboneyi Koc'a hitap ederken ayirt edemiyor. Abone siniflandiricisi bu ayrim icin ozel talimatli.
 - Sonuc: cagrilar_v2 405 (ana 168, abone 237), hakem ana 39 / abone 104, tekrarli tweet_id 0.
+
+## 2026-10-01 — Guncel tarama (29 Eyl -> 1 Eki) + kripto tweet ozeti
+**Arac:** Claude Code
+- Chrome kapaliydi; chrome.exe dogrudan --remote-debugging-port=9222 ile acildi, tara_guvenli.py exit 0, push `f126efc` (402 yeni kayit).
+- Kullanici istegi: son 1-2 gundeki onemli kripto tweetleri. Yeni seviyeler: ETHUSD 2620 ustu long / 2570 kritik / 2776 / 2840 / stop 2557 (30 Eyl); BTCUSD 80.600 ustu long / stop 79.200 / 84K / 87.600 (30 Eyl); ETH 1379 (2017 tepesi, altinda kalmak ETH'yi bitirir); BTC 107.800, 126K tepesi tezi. 
+- Acik is: bu seviyeler onemli_seviyeler.json'a henuz eklenmedi (elle eklenmeli).
