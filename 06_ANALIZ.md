@@ -7878,4 +7878,4 @@ Zaten kayıtlı olanlar atlandı (BTC 80.600/84.000/87.000/126.000/107.800 · ET
 1. Koç'un 12 günlük omurgası **zaman**: seviyeler kırılmıyor, fiyat kesişim tarihine kadar bantta oyalanıyor. Bu rejimde "seviye geldi/gelmedi" ölçüsü yanlış okunur; ölçüt tarihtir (4 Eki NASDAQ, 8 Eki DOW, 13-14 Eki, Ekim ortası).
 2. **Tutan:** altın 4257/4376 çifti ve gümüş 68 tavanı; **sınanan:** NASDAQ'ın 4 Ekim süresi, ETH 2776 kapanışı, BTC 87K.
 3. Çin-ABD anlaşması teyitsiz; `koc_tetigi_durum.json` false.
-4. Açık: "2840 / 8.4 öğretisi" ürünü; DAX 25.700 sembol listesinde yok (önceki turdan devam).
+4. 2840 = büyük olasılıkla ETHUSD (Koç'un 22 Eyl 15:32 [2102375411128602831] ve 30 Eyl 13:59 [2105251223397888209] tweet'leri 2840'ı ETH ile anıyor; 2 Ekim 22:18 tweet'i [2106101544798326934] ürün yazmıyor, KESİN DEĞİL; 8.4 öğretisi = Koç'un 28.4/2840/28400/8400 rakamları için etiketi, NASDAQ 28400 de aynı etiketle anılıyor). Açık: DAX 25.700 sembol listesinde yok (önceki turdan devam).

@@ -4161,5 +4161,14 @@
     "tur": "esik",
     "aciklama": "22 Eyl [2102415022106538435]: 1,38 ustu stres.",
     "tarih_eklendi": "2026-10-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHUSDT",
+    "seviye": 2840,
+    "tur": "esik",
+    "aciklama": "2840 = buyuk olasilikla ETH (urun cikarimi, KESIN DEGIL). Kaynak: 22 Eyl 15:32 [2102375411128602831] 'ETH 2840 a yanasinca yavaslattilar'; 30 Eyl 13:59 [2105251223397888209] 'asil bakilacak yer 2840'; 2 Eki 22:18 [2106101544798326934] '2840 onemlidir, 8.4 ogretisi' (urun yazmiyor). 8.4 ogretisi = 28.4/2840/28400/8400 etiketi.",
+    "tarih_eklendi": "2026-10-03",
+    "urun_cikarim": true
   }
 ]

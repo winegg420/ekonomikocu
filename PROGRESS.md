@@ -4472,3 +4472,14 @@ bilmiyordu. Toplu degerlendirme islerinin Claude token'i yerine Jev'e gitmesi ic
 ## 2026-10-03 (aksam) — TUR 27'ye 3 Ekim kalani eklendi
 - tara_guvenli.py exit 0 (push `7cee1f7`). 3 Ekim 17:04'e kadar +3 tweet (16:53, 16:57, 17:04) ve 1 gorsel: yeni seviye yok; tez "zaman geciriyorlar / bant bant" tekrari, gorsel Koc'un 13 Tem 2021 eski tweeti. `gorsel_analiz.jsonl` 2014 -> 2015. Karne degismedi, koc_tetigi_durum false.
 - Not: tarama arsive 2019-2022 arasi 6 eski tweet de ekledi (analiz disi). Tarama logu (tara_t27.log) yanlislikla commitlendi, siliyorum.
+
+## 2026-10-03 (gece) — Analiz filtresi (`analiz_filtre.py`)
+- **Calistirma:** `python analiz_filtre.py` (py -3). `analiz_sinir.json`'daki `son_tweet_zamani`ndan sonraki tweet'leri isler; tamamen cevrimdisi. Sinir YALNIZ `--sinir-guncelle [--tur N]` ile ilerler (analiz bitince elle). Test: `--baslangic/--bitis/--haric-gun/--okunmusu-yoksay`.
+- **Ciktilar:** `analiz_kuyrugu.jsonl` (okunacak metinler; `baglam`/`olasi_urun`/`koc_degil` alanli), `gorsel_kuyrugu.jsonl` (her kosuda yeniden yazilir, commitlenmez), `analiz_elenenler.jsonl` (yalniz eklenir, tweet_id ile tekrar kontrollu).
+- **Kuyruklari kim okur:** sohbetteki Claude / Claude Code. Script okuma-analiz YAPMAZ.
+- **Haftalik kacirma kontrolu:** `python analiz_filtre.py --kontrol` (elenenlerden rastgele 10).
+- Karar: muhafazakar filtre; gorselli tweet, 3+ haneli sayi, urun, seviye kelimesi, ay/yil geciyorsa asla elenmez. Elenenler: RT, tek kelime/hashtag (gorselsiz), saf sosyal cevap. Gevsek urun regex'i tut/ele icin, SIKI sozluk (`urunler()`) olasi_urun ve urunsuz-seviye karari icin ("yeni" -> "yen" tuzagi).
+- Geriye donuk test (TUR 27): recall %100 (06_ANALIZ TUR 27'deki 155 tweet_id kuyrukta); elenme orani yalniz ~%1,4 — filtre token tasarrufunun buyuk kismini SAGLAMAZ, asil kazanc gorsel kuyrugunun netlesmesi ve ürünsüz seviye baglami.
+- Atif: 07/Jev etiketinde yazar=abone veya etiketsiz -> `koc_degil: true` (+ `atif_belirsiz`). 07'de imza/hesap alani yok; `jev_abone_etiketler.jsonl` kullanilir.
+- 06_ANALIZ TUR 27 D.4 duzeltildi: 2840 = buyuk olasilikla ETHUSD (KESIN DEGIL); `onemli_seviyeler.json`a ETHUSDT 2840 (`urun_cikarim: true`) eklendi (519 kayit).
+- Acik: olasi_urun sozcuk-eslesmesi kaba (uzun tweetlerde DOLAR/ALTIN gurultusu); `#BTCETH` gibi bitisik etiketler sıki sozlukte parcalanmiyor.
