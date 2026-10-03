@@ -4459,3 +4459,12 @@ bilmiyordu. Toplu degerlendirme islerinin Claude token'i yerine Jev'e gitmesi ic
 - Ana bulgu: "eski tepeye duzeltme" kurali (BTC 19.292, ETH 1.379, NDX 26.269/22.683, gumus 50); Koc Brent'ten ~105-106'dan sattigini soyledi; Koc eski cagrilarini (80.600, Agustos 3. hafta 87K) belgeledi.
 - `onemli_seviyeler.json` +4 (BTC 79.200 stop/87.600, ETH 2.557 stop/2.840) -> 505. DAX 25.700 sembol listesinde yok, eklenmedi.
 - Acik: 29 Eyl aksami + 1 Ekim gorselleri okunmadi; 2 Ekim TDI sonrasi BTC/ETH seviyeleri; Brent karnesi dogrulamasi.
+
+## 2026-10-03 — TUR 27 (22 Eylul sabahi -> 3 Ekim, 30 Eylul haric)
+**Arac:** Claude Code (5 alt ajan)
+- 992 tweet okundu (1001 kayittan 9 elendi -> `analiz_elenenler.jsonl`), 142 gorsel acildi (4 okunamadi) -> `gorsel_analiz.jsonl` 1872 -> 2014 (tur `2026-10-03-T27`). `06_ANALIZ.md` 7753 -> 7878 satir, ust icerik bayt-bayt korundu.
+- Ana tez: "zaman geciriyorlar". Karne: altin 4257/4376 ve gumus 68 TUTTU; NASDAQ "30.300 alti satis baskisi (4 Eki'ye kadar)" TUTMADI (sans: 4 Eki suresi); aylik mum kurali sinanmadi; ETH 2776 igne, kapanis yok.
+- Atif: BTCTRY 80.600/84.000/85.700/86.000/92.000 abone MANUELAGBADOU'nun; Koc'a yazilmadi. ThePenguinBTC, uzmancoin, Fransa/ECB analisti gorselleri Koc'un degil.
+- Cin-ABD anlasmasi dogrulayan icerik yok -> `koc_tetigi_durum.json` false birakildi.
+- `onemli_seviyeler.json` +13 (505 -> 518); 18 seviye zaten vardi.
+- Acik: 3 Ekim'in kalani (tarama 01:31'de bitiyor); "2840 / 8.4 ogretisi" urunu belirsiz; Ekim aylik aciliş mumu dogrulanmadi; DAX 25.700 sembol listesinde yok.

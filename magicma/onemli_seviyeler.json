@@ -4057,5 +4057,109 @@
     "tur": "esik",
     "aciklama": "30 Eyl: 'asil bakilacak yer 2840, asiliyor mu yoksa yeniden satis mi geliyor' (teyit seviyesi).",
     "tarih_eklendi": "2026-10-01"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 4257,
+    "tur": "esik",
+    "aciklama": "25 Eyl [2103529014010708354]: \"gelecek hafta 4257 alti satis, ustu diri\"; 28 Eyl 4257,37 testi tuttu.",
+    "tarih_eklendi": "2026-10-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 4235,
+    "tur": "esik",
+    "aciklama": "2 Eki [2106018280268075350]: \"4235 gecilmeden sorun yok, ustu dikkat\".",
+    "tarih_eklendi": "2026-10-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "XAUUSD",
+    "seviye": 4217,
+    "tur": "direnc",
+    "aciklama": "1 Eki [2105626569230414119]: \"4217'de robot var\".",
+    "tarih_eklendi": "2026-10-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BRENT",
+    "seviye": 96.3,
+    "tur": "esik",
+    "aciklama": "28 Eyl [2104503978599784609]: 96,30 ustu ayin 2'sine kadar diri.",
+    "tarih_eklendi": "2026-10-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "BRENT",
+    "seviye": 90.6,
+    "tur": "destek",
+    "aciklama": "22 Eyl [2102402027456532698]: 90,60 alti kalis satis baskisi.",
+    "tarih_eklendi": "2026-10-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "NDX",
+    "seviye": 30300,
+    "tur": "esik",
+    "aciklama": "25 Eyl [2103526020188180688]: ayin 4'une kadar 30.300 alti satis baskisi.",
+    "tarih_eklendi": "2026-10-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "DJI",
+    "seviye": 50570,
+    "tur": "esik",
+    "aciklama": "23 Eyl [2102845245977231455]: 50570 alti kalma = surec bitiyor.",
+    "tarih_eklendi": "2026-10-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "DJI",
+    "seviye": 51570,
+    "tur": "direnc",
+    "aciklama": "1 Eki [2105637723323166935]: ayin 8'ine kadar zamani var, 51570 ustune aldilar.",
+    "tarih_eklendi": "2026-10-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "ETHTRY",
+    "seviye": 76026,
+    "tur": "destek",
+    "aciklama": "29 Eyl [2104933969691332682]: ETHTRY 76.026 destek.",
+    "tarih_eklendi": "2026-10-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "EURGBP",
+    "seviye": 0.86,
+    "tur": "direnc",
+    "aciklama": "1 Eki [2105672113940222350]: H4 trend 0,8600-0,8610 reddi.",
+    "tarih_eklendi": "2026-10-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "EURJPY",
+    "seviye": 170.6,
+    "tur": "destek",
+    "aciklama": "2 Eki [2105968739002765523]: haftalik 170,60.",
+    "tarih_eklendi": "2026-10-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "EURJPY",
+    "seviye": 150.6,
+    "tur": "destek",
+    "aciklama": "2 Eki [2105968739002765523]: haftalik 150,60.",
+    "tarih_eklendi": "2026-10-03"
+  },
+  {
+    "kaynak": "Koc",
+    "enstruman": "USDCAD",
+    "seviye": 1.38,
+    "tur": "esik",
+    "aciklama": "22 Eyl [2102415022106538435]: 1,38 ustu stres.",
+    "tarih_eklendi": "2026-10-03"
   }
 ]
