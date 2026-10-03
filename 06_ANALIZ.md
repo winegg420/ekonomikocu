@@ -7757,9 +7757,9 @@ Zaten kayıtlı olanlar atlandı (BTC 80.600/84.000/87.000/126.000/107.800 · ET
 
 > **Kaynak:** `cekilen_tweetler.jsonl` — TUR 25'in bittiği 22 Eyl 03:00'dan arşivin en yeni kaydına (3 Ekim 01:31) kadar,
 > @ekonomikocu. **30 Eylül TUR 26'da yapıldığı için bu turdan çıkarıldı.** `analyzed` alanı güvenilmez, sınır bu dosyadaki TUR bölümleridir.
-> **Tarama notu:** arşivin en yeni kaydı 3 Ekim 01:31 (yalnız 3 kayıt); 3 Ekim'in geri kalanı **sonraki turda eklenecek**.
+> **Tarama notu:** ilk yazımda arşiv 3 Ekim 01:31'de bitiyordu; sonradan yapılan taramayla 3 Ekim 17:04'e kadar (+3 tweet, 1 görsel) eklendi.
 > **Sayılar:** 1.001 kayıt süzüldü → 992 tutuldu, 9 elendi (tek kelime/başlık; `analiz_elenenler.jsonl`) → 992 tweet okundu.
-> Günler: 22 Eyl 130 · 23 Eyl 129 · 24 Eyl 99 · 25 Eyl 44 · 26 Eyl 40 · 27 Eyl 47 · 28 Eyl 163 · 29 Eyl 137 · 1 Eki 135 · 2 Eki 65 · 3 Eki 3.
+> Günler: 22 Eyl 130 · 23 Eyl 129 · 24 Eyl 99 · 25 Eyl 44 · 26 Eyl 40 · 27 Eyl 47 · 28 Eyl 163 · 29 Eyl 137 · 1 Eki 135 · 2 Eki 65 · 3 3 Eki 6 (3 Ekim 17:04'e kadar).
 > **Görsel:** 142 açıldı (zaten okunmuş 0), `gorsel_analiz.jsonl`'e tur `2026-10-03-T27` ile işlendi. **Okunamayan: 4**
 > (`2102516320793153803`, `2105816777519210575`, `2105818130396197223` — kırpık, ürün/eksen yok; `2105768962675863888` — BTC haftalık, Koç çizimi yok).
 > Koç'un **kendi eski tweetini kanıt gösteren** görseller (22 Mar 2024, 28 May 2024, 25 Oca 2022, 10 Haz 2021, 4 May 2026, 5 Şub 2026, 3 Şub 2026, 28 Mar 2026, 22 Eki 2025 vb.) eski tarihiyle yazıldı, **yeni seviye sayılmadı**.
@@ -7843,7 +7843,10 @@ Zaten kayıtlı olanlar atlandı (BTC 80.600/84.000/87.000/126.000/107.800 · ET
 - **ÇANAK serisi (aylık):** Nikkei 68,96K (40K yatay); gram altın 66.474 kırılışı (anlık 134.576); gümüş 50,172 kırılışı (anlık 61,05) [2105977296326684941][2105978618299973681][2105978971280064920].
 - Altın: "**4235 geçilmeden sorun yok**, üstü dikkat" [2106018280268075350]; "altın-gümüş sağlam baskıya alındı, bu hafta satışlar kâr yazdı"; gümüş 59 teknik görüntü bozulmadı [2106044476024377400][2106046948868321404]. "2840 önemlidir, 8.4 öğretisi" (ürün yazmıyor — ETH bağlamı olabilir, KESİN DEĞİL) [2106101544798326934].
 
-**3 Eki (01:31'e kadar, 3 kayıt)** — Avrupa/Çin-ABD söylemi, seviye yok [2106149215990599885][2106150144009707701]. **Kalan 3 Ekim sonraki turda.**
+**3 Eki (Cumartesi, 6 kayıt: 01:23–17:04)** — Gece: Avrupa/Çin-ABD söylemi, seviye yok [2106149215990599885][2106150144009707701].
+- **Akşam (16:53–17:04, taramayla eklendi):** "Sistemin zaman geçirdiğini biliyorum, bu sebeple **bant bant gidiyorlar**" [2106382078912938252]; "piyasa ne yapıyor çok önemli değil, **sistem piyasa ne yapsın istiyor** önemli; yıllardır #zamangeçiriyorlar, bir yıl daha neredeyse bitti" [2106383056894353887]. Seviye/tarihli iddia yok, A bölümündeki tezin tekrarı.
+- Görsel [2106384919018553488] ("#2021"): Koç'un **13 Tem 2021** tweeti ekran görüntüsü — "kripto işi dünyada tutmazsa hayırlı olan birliğin dağılmasıdır; 3 seçenek kaldı: 1) kriptoyu dünyaya monte edeceksin 2) Avrupa birliğini dağıt 3) ABD kendini bağımsız krize sürükler; bunun dışında kimseye huzur yok"; üçü de yeşil tikli. **Eski tweet kanıtı, yeni seviye değil.**
+- Bölüm kapsamı bu noktada **3 Ekim 17:04'e** kadar tamamdır. Karne etkisi yok.
 
 ### C. KARNE (güncel fiyat 3 Ekim, Cuma kapanışı civarı: BTC 84.878 · ETH 2.682 · Altın 4.142 · Gümüş 60,5 · DXY 101,9 · Brent 102,3 · NDX 30.808 / NQ 31.062 · DOW 51.177)
 
@@ -7875,4 +7878,4 @@ Zaten kayıtlı olanlar atlandı (BTC 80.600/84.000/87.000/126.000/107.800 · ET
 1. Koç'un 12 günlük omurgası **zaman**: seviyeler kırılmıyor, fiyat kesişim tarihine kadar bantta oyalanıyor. Bu rejimde "seviye geldi/gelmedi" ölçüsü yanlış okunur; ölçüt tarihtir (4 Eki NASDAQ, 8 Eki DOW, 13-14 Eki, Ekim ortası).
 2. **Tutan:** altın 4257/4376 çifti ve gümüş 68 tavanı; **sınanan:** NASDAQ'ın 4 Ekim süresi, ETH 2776 kapanışı, BTC 87K.
 3. Çin-ABD anlaşması teyitsiz; `koc_tetigi_durum.json` false.
-4. Açık: 3 Ekim'in kalanı; "2840 / 8.4 öğretisi" ürünü; DAX 25.700 sembol listesinde yok (önceki turdan devam).
+4. Açık: "2840 / 8.4 öğretisi" ürünü; DAX 25.700 sembol listesinde yok (önceki turdan devam).

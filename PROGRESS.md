@@ -4468,3 +4468,7 @@ bilmiyordu. Toplu degerlendirme islerinin Claude token'i yerine Jev'e gitmesi ic
 - Cin-ABD anlasmasi dogrulayan icerik yok -> `koc_tetigi_durum.json` false birakildi.
 - `onemli_seviyeler.json` +13 (505 -> 518); 18 seviye zaten vardi.
 - Acik: 3 Ekim'in kalani (tarama 01:31'de bitiyor); "2840 / 8.4 ogretisi" urunu belirsiz; Ekim aylik aciliş mumu dogrulanmadi; DAX 25.700 sembol listesinde yok.
+
+## 2026-10-03 (aksam) — TUR 27'ye 3 Ekim kalani eklendi
+- tara_guvenli.py exit 0 (push `7cee1f7`). 3 Ekim 17:04'e kadar +3 tweet (16:53, 16:57, 17:04) ve 1 gorsel: yeni seviye yok; tez "zaman geciriyorlar / bant bant" tekrari, gorsel Koc'un 13 Tem 2021 eski tweeti. `gorsel_analiz.jsonl` 2014 -> 2015. Karne degismedi, koc_tetigi_durum false.
+- Not: tarama arsive 2019-2022 arasi 6 eski tweet de ekledi (analiz disi). Tarama logu (tara_t27.log) yanlislikla commitlendi, siliyorum.
