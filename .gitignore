@@ -57,3 +57,6 @@ magicma/gunluk_ozet_son_gonderim.json
 magicma/koc_tetigi_son_durum.json
 /jev_*.py
 /jev_sonuc_*.jsonl
+
+# MagicMA backtest mum verisi (cache, commit edilmez)
+backtest_veri/
