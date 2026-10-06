@@ -1,0 +1,601 @@
+{
+ "last_updated": "2026-10-07T00:50:17+03:00",
+ "source_commit": "096a399",
+ "son_islenen_tweet": {
+  "son_tur": 27,
+  "son_tweet_zamani": "2026-10-03T17:04:34",
+  "kaynak": "analiz_sinir.json"
+ },
+ "kapsam_notu": "koc_cagrilari son 14 gün (19 Eyl - 3 Eki 2026, son işlenen tweet'e göre). 4-7 Ekim tweet'leri henüz analiz edilmedi. Durum alanı 06_ANALIZ TUR 27 karnesine (3 Ekim) dayanır; canlı piyasa verisini webden çek ve seviyelerle kendin karşılaştır. Bu dosyada fiyat YOKTUR.",
+ "durum_sozlugu": {
+  "gecerli": "seviye/koşul hâlâ izleniyor, bozulmadı",
+  "tetiklendi": "Koç'un söylediği tepki/seviye gerçekleşti",
+  "bozuldu": "iddia tutmadı (şimdilik olanlar notta belirtilir)",
+  "belirsiz": "net okunamadı, ölçülemedi veya sınanmadı"
+ },
+ "koc_cagrilari": [
+  {
+   "urun": "ALTIN",
+   "seviye": "4235 geçilmeden sorun yok, üstü dikkat",
+   "tarih": "2026-10-02",
+   "tweet_id": "2106018280268075350",
+   "durum": "gecerli",
+   "not": "2 Eki",
+   "kaynak_turu": "metin",
+   "gorsel_dogrulandi": false
+  },
+  {
+   "urun": "EURJPY",
+   "seviye": "Haftalık 170,60 ve 150,60",
+   "tarih": "2026-10-02",
+   "tweet_id": "2105968739002765523",
+   "durum": "belirsiz",
+   "not": "Yön/koşul net okunmadı",
+   "kaynak_turu": "metin+gorsel",
+   "gorsel_dogrulandi": true
+  },
+  {
+   "urun": "DXY",
+   "seviye": "İdeal bant 90-95; 100 üstü dünyaya yaramıyor",
+   "tarih": "2026-10-02",
+   "tweet_id": "2105963036242477548",
+   "durum": "gecerli",
+   "not": "DXY 110→95 tetiği ile ilişkili",
+   "kaynak_turu": "metin",
+   "gorsel_dogrulandi": false
+  },
+  {
+   "urun": "EURGBP",
+   "seviye": "H4 0,8600-0,8610 reddi (Haziran'da açtığı short)",
+   "tarih": "2026-10-01",
+   "tweet_id": "2105671816182403524",
+   "durum": "gecerli",
+   "not": "Pozisyon kârı beyanı ölçülemez",
+   "kaynak_turu": "metin+gorsel",
+   "gorsel_dogrulandi": true
+  },
+  {
+   "urun": "NASDAQ",
+   "seviye": "25.700 = 5.7 öğretisi destek",
+   "tarih": "2026-10-01",
+   "tweet_id": "2105644176033345581",
+   "durum": "belirsiz",
+   "not": "Ürün/ölçek metinde NASDAQ; kesinlik düşük",
+   "kaynak_turu": "metin+gorsel",
+   "gorsel_dogrulandi": true
+  },
+  {
+   "urun": "DOW",
+   "seviye": "Ayın 8'ine kadar zamanı var, 51.570 üstüne aldılar",
+   "tarih": "2026-10-01",
+   "tweet_id": "2105637723323166935",
+   "durum": "gecerli",
+   "not": "Süre 8 Ekim",
+   "kaynak_turu": "metin",
+   "gorsel_dogrulandi": false
+  },
+  {
+   "urun": "OTHERS.D",
+   "seviye": "10,60 aşılmadan iştah yok",
+   "tarih": "2026-10-01",
+   "tweet_id": "2105629874681454890",
+   "durum": "gecerli",
+   "not": "",
+   "kaynak_turu": "metin+gorsel",
+   "gorsel_dogrulandi": true
+  },
+  {
+   "urun": "ALTIN",
+   "seviye": "4217'de robot var",
+   "tarih": "2026-10-01",
+   "tweet_id": "2105626569230414119",
+   "durum": "gecerli",
+   "not": "1 Eki",
+   "kaynak_turu": "metin",
+   "gorsel_dogrulandi": false
+  },
+  {
+   "urun": "SEMBOLSUZ (muhtemelen DJI)",
+   "seviye": "52.800 altı short; 50.600 kırılırsa satış derinleşir; 49.200/49.400 önemli",
+   "tarih": "2026-09-30",
+   "tweet_id": "2105328731678294326",
+   "durum": "belirsiz",
+   "not": "Sembol yazılmamış; DJI doğrulanmadı",
+   "kaynak_turu": "metin",
+   "gorsel_dogrulandi": false
+  },
+  {
+   "urun": "DAX",
+   "seviye": "25.700 (5.7 öğretisi) kırılan trendin altında yatay direnç",
+   "tarih": "2026-09-30",
+   "tweet_id": "2105320390008742289",
+   "durum": "gecerli",
+   "not": "DAX sembol listesinde yok",
+   "kaynak_turu": "metin+gorsel",
+   "gorsel_dogrulandi": true
+  },
+  {
+   "urun": "BRENT",
+   "seviye": "95,7 üstü long / altı short; 106 yanaşınca short denenir",
+   "tarih": "2026-09-30",
+   "tweet_id": "2105261131308708306",
+   "durum": "gecerli",
+   "not": "95.7 = 5.7 öğretisi",
+   "kaynak_turu": "metin+gorsel",
+   "gorsel_dogrulandi": true
+  },
+  {
+   "urun": "BTC",
+   "seviye": "80.600 üstü long; 79.200 stop; 84K alım tetiği; 87.600 aşılırsa yeni zirve",
+   "tarih": "2026-09-30",
+   "tweet_id": "2105258824127160667",
+   "durum": "gecerli",
+   "not": "84K pivot, 87K aşılmadı (TUR 27 karnesi)",
+   "kaynak_turu": "metin+gorsel",
+   "gorsel_dogrulandi": true
+  },
+  {
+   "urun": "ETH",
+   "seviye": "2620 üstü long; 2570 kritik; 2776 aşılırsa alım; 2840 asıl bakılacak; 2557 stop",
+   "tarih": "2026-09-30",
+   "tweet_id": "2105251223397888209",
+   "durum": "gecerli",
+   "not": "2840 ürünü: muhtemel_varlik alanına bak",
+   "kaynak_turu": "metin+gorsel",
+   "gorsel_dogrulandi": true
+  },
+  {
+   "urun": "NASDAQ",
+   "seviye": "26K VE 22.600 birlikte taciz edilirse küresel satış işareti",
+   "tarih": "2026-09-30",
+   "tweet_id": "2105062684488015890",
+   "durum": "gecerli",
+   "not": "Eski tepe kuralının fiyat versiyonu",
+   "kaynak_turu": "metin",
+   "gorsel_dogrulandi": false
+  },
+  {
+   "urun": "BTC",
+   "seviye": "107.800 eski destek kırıldı, direnç",
+   "tarih": "2026-09-29",
+   "tweet_id": "2105030629679042681",
+   "durum": "gecerli",
+   "not": "",
+   "kaynak_turu": "metin+gorsel",
+   "gorsel_dogrulandi": true
+  },
+  {
+   "urun": "ETH",
+   "seviye": "Seviye zinciri: 1379 (aylık kapanış altı = biter); 1746-1846; 2060-2157; 2570 (hacim ister); 2776; 3060; 3300 üstü net kapanış",
+   "tarih": "2026-09-29",
+   "tweet_id": "2105012338743239121",
+   "durum": "gecerli",
+   "not": "1379 aylık savunma izleniyor",
+   "kaynak_turu": "metin",
+   "gorsel_dogrulandi": false
+  },
+  {
+   "urun": "BTCTRY",
+   "seviye": "4,2-4,3 milyon trend direnci",
+   "tarih": "2026-09-29",
+   "tweet_id": "2104961619482771848",
+   "durum": "gecerli",
+   "not": "Tek veri noktası; zaman sinyalleri 2027 ilk çeyrek + Ağustos 2027",
+   "kaynak_turu": "metin",
+   "gorsel_dogrulandi": false
+  },
+  {
+   "urun": "BRENT",
+   "seviye": "100 ve üstü 'beni kurtarıyor'; 103-106'da altın-gümüş daha çok düşer",
+   "tarih": "2026-09-28",
+   "tweet_id": "2104615352856625404",
+   "durum": "gecerli",
+   "not": "Koç'un kendi short pozisyonu bağlamı",
+   "kaynak_turu": "metin",
+   "gorsel_dogrulandi": false
+  },
+  {
+   "urun": "US10Y",
+   "seviye": "Trend hedefi %5,5-6,2",
+   "tarih": "2026-09-28",
+   "tweet_id": "2104610222585299309",
+   "durum": "gecerli",
+   "not": "",
+   "kaynak_turu": "metin+gorsel",
+   "gorsel_dogrulandi": true
+  },
+  {
+   "urun": "BRENT",
+   "seviye": "96,30 üstü ayın 2'sine kadar diri",
+   "tarih": "2026-09-28",
+   "tweet_id": "2104503978599784609",
+   "durum": "tetiklendi",
+   "not": "28 Eyl; süre içinde tuttu",
+   "kaynak_turu": "metin",
+   "gorsel_dogrulandi": false
+  },
+  {
+   "urun": "BTC",
+   "seviye": "Log 1H üst trend çizgisi ~130-135K (yaklaşık okuma)",
+   "tarih": "2026-09-27",
+   "tweet_id": "2104307976668667948",
+   "durum": "belirsiz",
+   "not": "Okuma yaklaşık; kesin seviye değil",
+   "kaynak_turu": "metin+gorsel",
+   "gorsel_dogrulandi": true
+  },
+  {
+   "urun": "BTC/GBP",
+   "seviye": "60.600 kesişimi (6 öğretisi)",
+   "tarih": "2026-09-26",
+   "tweet_id": "2103935574260547895",
+   "durum": "belirsiz",
+   "not": "Tek görsel okuma; karnesi yok",
+   "kaynak_turu": "metin+gorsel",
+   "gorsel_dogrulandi": true
+  },
+  {
+   "urun": "BTC",
+   "seviye": "Haftalık 67.000,53: 67K altında bekletip üstüne alıyorlar",
+   "tarih": "2026-09-26",
+   "tweet_id": "2103860230379483624",
+   "durum": "gecerli",
+   "not": "67K üstünde kalış sürüyor",
+   "kaynak_turu": "metin+gorsel",
+   "gorsel_dogrulandi": true
+  },
+  {
+   "urun": "ETH",
+   "seviye": "M30 2620,88 yatay destek",
+   "tarih": "2026-09-26",
+   "tweet_id": "2103621589103509874",
+   "durum": "gecerli",
+   "not": "26 Eyl; 2620/2570 tutuyor",
+   "kaynak_turu": "metin+gorsel",
+   "gorsel_dogrulandi": true
+  },
+  {
+   "urun": "ALTIN",
+   "seviye": "Gelecek hafta 4257 altı satış, üstü diri",
+   "tarih": "2026-09-25",
+   "tweet_id": "2103529014010708354",
+   "durum": "tetiklendi",
+   "not": "28 Eyl 4257'ye değdi, sonra aşağı",
+   "kaynak_turu": "metin",
+   "gorsel_dogrulandi": false
+  },
+  {
+   "urun": "NASDAQ",
+   "seviye": "30.300 altı ayın 4'üne kadar satış baskısı",
+   "tarih": "2026-09-25",
+   "tweet_id": "2103526020188180688",
+   "durum": "bozuldu",
+   "not": "4 Ekim'e kadar 30.300 altına inilmedi; şimdilik tutmadı",
+   "kaynak_turu": "metin+gorsel",
+   "gorsel_dogrulandi": true
+  },
+  {
+   "urun": "NASDAQ",
+   "seviye": "Yeni aylık mum eski zirve üstünde açılmazsa varlıklar düşer",
+   "tarih": "2026-09-25",
+   "tweet_id": "2103523340371497407",
+   "durum": "belirsiz",
+   "not": "Ekim aylık açılış mumu doğrulanmadı; sınanmadı",
+   "kaynak_turu": "metin",
+   "gorsel_dogrulandi": false
+  },
+  {
+   "urun": "NASDAQ",
+   "seviye": "29.700 önemini kimse unutmasın; 30.600 üstünde tutma",
+   "tarih": "2026-09-24",
+   "tweet_id": "2103143907231981773",
+   "durum": "gecerli",
+   "not": "Destek denenmedi",
+   "kaynak_turu": "metin",
+   "gorsel_dogrulandi": false
+  },
+  {
+   "urun": "ETH/BRENT",
+   "seviye": "28,4 direnç; 16,2 destek; 73,6 zirve",
+   "tarih": "2026-09-24",
+   "tweet_id": "2103128399594074541",
+   "durum": "belirsiz",
+   "not": "Metin-görsel eşlemesi kesin değil (06 TUR 27)",
+   "kaynak_turu": "metin+gorsel",
+   "gorsel_dogrulandi": true
+  },
+  {
+   "urun": "FED FAIZI",
+   "seviye": "5,75 aşılmadan ilk etap bir şey olmaz",
+   "tarih": "2026-09-24",
+   "tweet_id": "2103081364723790243",
+   "durum": "gecerli",
+   "not": "",
+   "kaynak_turu": "metin",
+   "gorsel_dogrulandi": false
+  },
+  {
+   "urun": "DOW",
+   "seviye": "50.600 üstü zaman geçirir; 50.570 altı süreç bitiyor",
+   "tarih": "2026-09-23",
+   "tweet_id": "2102845245977231455",
+   "durum": "gecerli",
+   "not": "",
+   "kaynak_turu": "metin",
+   "gorsel_dogrulandi": false
+  },
+  {
+   "urun": "ETH",
+   "seviye": "2776 'güçlü direnç değil, aşılırsa bir çırpıda geçer'",
+   "tarih": "2026-09-23",
+   "tweet_id": "2102744076613308671",
+   "durum": "bozuldu",
+   "not": "2 Ekim'de 2776,67'ye iğne var, kapanış üstü yok; şimdilik tutmadı",
+   "kaynak_turu": "metin",
+   "gorsel_dogrulandi": false
+  },
+  {
+   "urun": "GUMUS",
+   "seviye": "68 üstü ABD stres; 68 altında kalacak, 65-70 bandı; aylık 66'da biterse 75-80-90 senaryosu",
+   "tarih": "2026-09-23",
+   "tweet_id": "2102716298329227753",
+   "durum": "tetiklendi",
+   "not": "68 tavanı tuttu (TUR 27 karnesi); 75-90 senaryosu gerçekleşmedi",
+   "kaynak_turu": "metin",
+   "gorsel_dogrulandi": false
+  },
+  {
+   "urun": "GRAM ALTIN",
+   "seviye": "6800 TL önemli",
+   "tarih": "2026-09-23",
+   "tweet_id": "2102528291043233962",
+   "durum": "belirsiz",
+   "not": "Karnesi yok",
+   "kaynak_turu": "metin+gorsel",
+   "gorsel_dogrulandi": true
+  },
+  {
+   "urun": "ALTIN",
+   "seviye": "4376 pivot: üstüne çok taşarsa sat, altına kayarsa sebebine bak",
+   "tarih": "2026-09-23",
+   "tweet_id": "2102525897572229178",
+   "durum": "tetiklendi",
+   "not": "23 Eyl 4376,91'den döndü (TUR 27 karnesi)",
+   "kaynak_turu": "metin",
+   "gorsel_dogrulandi": false
+  },
+  {
+   "urun": "BRENT",
+   "seviye": "106 üstü dikkat; 90,60 altı kalış satış baskısı; 76 kesişim",
+   "tarih": "2026-09-22",
+   "tweet_id": "2102402027456532698",
+   "durum": "gecerli",
+   "not": "İkisi de tetiklenmedi",
+   "kaynak_turu": "metin+gorsel",
+   "gorsel_dogrulandi": true
+  },
+  {
+   "urun": "BTC",
+   "seviye": "106K aşılmadan yeni atak yok; 84K pivot",
+   "tarih": "2026-09-22",
+   "tweet_id": "2102380677186441596",
+   "durum": "gecerli",
+   "not": "",
+   "kaynak_turu": "metin",
+   "gorsel_dogrulandi": false
+  },
+  {
+   "urun": "DOGE",
+   "seviye": "0,1060 öğretisi (üst 0,10628 / alt 0,07768)",
+   "tarih": "2026-09-22",
+   "tweet_id": "2102361031129329955",
+   "durum": "gecerli",
+   "not": "ETH 2000 üstüne çıkarsa taciz edilir",
+   "kaynak_turu": "metin",
+   "gorsel_dogrulandi": false
+  },
+  {
+   "urun": "ETH",
+   "seviye": "Haftalık 3060 kanal kesişimi hedef; dip 1379",
+   "tarih": "2026-09-22",
+   "tweet_id": "2102313609418436713",
+   "durum": "gecerli",
+   "not": "Zaman tezi: kesişim ileride, mumlar yavaş gider",
+   "kaynak_turu": "metin+gorsel",
+   "gorsel_dogrulandi": true
+  }
+ ],
+ "muhtemel_varlik": [
+  {
+   "seviye": "2840",
+   "ifade": "2840 önemlidir, 8.4 öğretisi",
+   "tweet_id": "2106101544798326934",
+   "tarih": "2026-10-02",
+   "muhtemel_varlik": "ETH (ETHUSD)",
+   "kesinlik": "orta",
+   "gerekce": "22 Eyl 15:32 [2102375411128602831] ve 30 Eyl 13:59 [2105251223397888209] tweet'leri 2840'ı ETH ile anıyor; 2 Ekim tweet'i ürün yazmıyor.",
+   "not": "KESİN DEĞİL. 8.4 öğretisi aynı etiketle NASDAQ 28400 için de kullanılmış. Seviyeyi kesin ETH diye sunma."
+  }
+ ],
+ "koc_ogreti": {
+  "ogreti_sayilari": [
+   {
+    "sayi": "5.7",
+    "kural": "Seviyenin son iki hanesi 57/…70 (ölçekten bağımsız); 'her varlıkta büyük pivot'. Örnekler: 75.700, 65.700, 0,857, 57, 65,7, 25,7",
+    "kesinlik": "orta",
+    "tweet_id": "2105041065086468585",
+    "not": "30 Eyl: Brent 95.7; DAX 25.700 [2105320390008742289]"
+   },
+   {
+    "sayi": "6 / 60.60",
+    "kural": "…60 hanesi: 57 — 60.60 — 84 — 92 — 106 merdiveni (Koç'un 30 Eyl 18:17 tweet'i)",
+    "kesinlik": "orta",
+    "tweet_id": "2105316177572503590",
+    "not": "Brent 106 = 6 öğretisi; BTC 60K ve XAGUSD/BRENT 0,60 aynı ölçek"
+   },
+   {
+    "sayi": "8.4",
+    "kural": "84 / 8.4 / 28.4 / 2840 / 8400 için etiket",
+    "kesinlik": "belirsiz",
+    "tweet_id": "2106101544798326934",
+    "not": "Ürün atfı belirsiz (muhtemel_varlik'a bak); kapsamı kesin tanımlı değil"
+   },
+   {
+    "sayi": "9.2",
+    "kural": "Koç 'görürsem öne çıkartırım' dedi",
+    "kesinlik": "belirsiz",
+    "tweet_id": null,
+    "not": "Kuralın dışında kaldı; tanımı net değil (06_ANALIZ TUR 25 D)"
+   }
+  ],
+  "eski_tepe_kurali": {
+   "ozet": "Boğaya gitse bile varlık zamanla ESKİ TEPEYE düzeltir. Aylık kapanışlar önceki tepeyi aşamıyorsa o malın işi bitmiştir; yeni hikâye ister.",
+   "tweet_id": "2105044389407912055",
+   "tarih": "2026-09-30",
+   "seviyeler": [
+    {
+     "urun": "BTC",
+     "seviye": "19.292,53 (2017 tepesi)",
+     "kesinlik": "orta"
+    },
+    {
+     "urun": "ETH",
+     "seviye": "1.379,43 (2017 tepesi); aylık kapanış altında kalırsa ETH biter",
+     "kesinlik": "orta",
+     "tweet_id": "2105012338743239121"
+    },
+    {
+     "urun": "NASDAQ100",
+     "seviye": "16.365 · 22.683 · 26.269; 26K VE 22.600 birlikte taciz = küresel satış",
+     "kesinlik": "orta",
+     "tweet_id": "2105062684488015890"
+    },
+    {
+     "urun": "GUMUS",
+     "seviye": "50 $ (2011 tepesi)",
+     "kesinlik": "orta"
+    }
+   ],
+   "not": "Koç aynı gün 'BTC 126K'da satan adamı zarar ettiremezsin, 170-200 dese de oraya döner' dedi [2105050425347240220]; ETH için 4800'e düzeltme beklentisi sordu [2105047851764273374]. Test: Eylül aylık NASDAQ kapanışı, Ekim ortası ETH/1.379 davranışı."
+  },
+  "zaman_tezi": "12 gün boyunca tek çatı: 'zaman geçiriyorlar' — ölçüt fiyat değil tarih (Ekim ortası, 13-14 Ekim, vade 15 Eyl-15 Ara). Seviye 'geldi/gelmedi' bu rejimde yanlış okunur."
+ },
+ "takvim": [
+  {
+   "tarih": "2026-10-08",
+   "olay": "DOW 51.570 hedefi için Koç'un verdiği süre ('ayın 8'ine kadar zamanı var')",
+   "tweet_id": "2105637723323166935"
+  },
+  {
+   "tarih": "2026-10-13/14",
+   "olay": "Koç: '13-14 Ekim önemli'",
+   "tweet_id": "2105636945002910171"
+  },
+  {
+   "tarih": "2026-10-15",
+   "olay": "Koç: 'Ekim ortasına kadar izlemek lazım'",
+   "tweet_id": "2103143481979904474"
+  },
+  {
+   "tarih": "2026-12-15",
+   "olay": "Vade: 15 Eyl - 15 Ara 90 günlük döngü bitişi",
+   "tweet_id": "2102349810338873574"
+  },
+  {
+   "tarih": "2027-01",
+   "olay": "Koç: 'Ocak 2027'ye kadar anlaşma tarihi'",
+   "tweet_id": "2104496858538324393"
+  },
+  {
+   "tarih": "2026-10-19",
+   "olay": "Koç 60 günlük blok sonraki durak (bot hesabı, Koç tweet'i değil)",
+   "tweet_id": null
+  }
+ ],
+ "KULLANICI_DURUSU": {
+  "uyari": "Bu bölüm Ida'nın kendi duruşudur; Koç'un veya herhangi bir analistin görüşü DEĞİLDİR. Analist görüşleriyle karıştırma.",
+  "maddeler": [
+   "ETH uzun vade hedef ~10.000$; ETH satmaz, BTC'ye çevirmez.",
+   "Yeni nakit kademeli olarak BTC'ye gider.",
+   "Ana odak: spot (BIST) + PrimeXBT'de kaldıraçlı forex / ABD hissesi.",
+   "Kripto (altcoin dahil, stablecoin hariç) takip kapsamındadır."
+  ]
+ },
+ "magicma_notu": {
+  "ozet": "MagicMA tek başına işlem sistemi değildir; yardımcı seviye/sinyal katmanıdır.",
+  "backtest": "magicma/backtest_rapor.md (3 Ekim 2026): eğitim 28 Ağu-18 Eyl, test 19 Eyl-3 Eki; %0,1 gidiş-dönüş maliyet sonrası test setinde rastgeleyi anlamlı aşan kârlı kombinasyon YOK. En iyi eğitim kombinasyonu (stop %0,2 / TP %3) testte n=1787, ort. net %-0,047, p=0,382.",
+  "kullanim": "Alarm/karne verisi bilgi amaçlıdır; tek başına al-sat gerekçesi yapma."
+ },
+ "dis_kaynaklar": {
+  "uyari": "Bu kaynaklar Koç'a ASLA atfedilmez. Koç'un çerçevesi yalnız koc_cagrilari ve 06_ANALIZ.md'dedir.",
+  "dosya": "11_DIS_KAYNAKLAR.md",
+  "kaynaklar": [
+   "Sellcoin",
+   "Berk Dinçtürk",
+   "Atilla Yeşilada",
+   "Tunç Şatıroğlu",
+   "Emrah Lafçı",
+   "Baki Atılal",
+   "Emrah Altınocağı",
+   "Erol Polat",
+   "Cüneyt Paksoy",
+   "Yükseltürk & Çay",
+   "Cihat Çiçek",
+   "Barış Soydan",
+   "Selçuk Geçer",
+   "Berk Tavsan",
+   "Integral FX TV",
+   "Şant Manukyan",
+   "Turhan Bozkurt",
+   "Bora Özkent",
+   "Fiba Bank",
+   "Kemal Hiçyılmaz",
+   "Kripto Teknik",
+   "Erkan Öz",
+   "Erdal Sağlam",
+   "Iris Cibre"
+  ],
+  "abone_imza_kontrolu": {
+   "kural": "Koç thread'lerindeki abone tweetleri Koç'a yazılmaz. 07'de imza/hesap alanı yok; atıf için jev_abone_etiketler.jsonl (yazar=abone/koc + güven) ve elle kontrol kullanılır.",
+   "bilinen_atiflar": [
+    {
+     "kisi": "MANUELAGBADOU (@Alizber65), abone",
+     "icerik": "BTCTRY 80.600 / 84.000 / 85.700 / 86.000 / 92.000 (21 Eyl)",
+     "tweet_id": "2104961306952368261",
+     "not": "Koç yalnız 'dolar bazlı izleyin' dedi"
+    },
+    {
+     "kisi": "ThePenguinBTC",
+     "icerik": "Japonya/yen haberi görseli",
+     "tweet_id": "2103939368071332290",
+     "not": "Koç yalnız yorumladı"
+    },
+    {
+     "kisi": "uzmancoin",
+     "icerik": "'Kripto Haftası' görseli (15 Tem)",
+     "tweet_id": "2103132971947753862",
+     "not": "Koç'un değil"
+    },
+    {
+     "kisi": "isimsiz Fransa/ECB analisti",
+     "icerik": "Fransa bütçe analizi",
+     "tweet_id": "2104171811017544047",
+     "not": "Koç aktardı; kendi görüşü değil"
+    },
+    {
+     "kisi": "dış söylem",
+     "icerik": "Altın 5600 / Petrol 100 retoriği",
+     "tweet_id": "2105727709821157734",
+     "not": "Koç'un seviyesi değil"
+    }
+   ]
+  },
+  "cin_abd_anlasmasi": "Doğrulayan içerik yok (magicma/koc_tetigi_durum.json: false)."
+ },
+ "okuma_sirasi": [
+  "1) CANLI_DURUM.md",
+  "2) Canlı piyasa verisini webden çek, seviyelerle karşılaştır",
+  "3) Gerekirse 06_ANALIZ.md (Koç çerçevesi) ve 11_DIS_KAYNAKLAR.md (dış kaynaklar, ayrı)",
+  "4) Kanıt için ham 03_HAFIZA.md / 04_TWEETLER.jsonl / 07_ABONE_TWEETLER.jsonl (tweet_id ile ara)"
+ ]
+}

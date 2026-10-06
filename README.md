@@ -43,3 +43,5 @@ python 99_BOT_ARSIV/kod/github_guncelle.py
 | `07`–`10` | Abone + Gemini |
 
 Ham veri: `cekilen_tweetler.jsonl`, `ekonomikocu_hafiza_v1.md`, `medya/`
+
+Canlı durum: `CANLI_DURUM.json` (tek kaynak, elle düzenlenir) → `py -3 canli_durum_uret.py` → `CANLI_DURUM.md`; `analiz_filtre.py --sinir-guncelle` sonrası mutlaka çalıştır.

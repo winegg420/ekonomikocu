@@ -1,3 +1,5 @@
+Önce CANLI_DURUM.md oku. (Her `analiz_filtre.py --sinir-guncelle` sonrası CANLI_DURUM.json güncellenip `py -3 canli_durum_uret.py` çalıştırılır; MD elle düzenlenmez.)
+
 # CLAUDE — BURADAN BAŞLA
 
 **Kaynak (birincil):** [https://github.com/winegg420/ekonomikocu](https://github.com/winegg420/ekonomikocu) — dosyalari yerel yukleme yerine repodan cek. Claude Project: GitHub entegrasyonu veya repo clone.

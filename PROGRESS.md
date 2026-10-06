@@ -4483,3 +4483,10 @@ bilmiyordu. Toplu degerlendirme islerinin Claude token'i yerine Jev'e gitmesi ic
 - Atif: 07/Jev etiketinde yazar=abone veya etiketsiz -> `koc_degil: true` (+ `atif_belirsiz`). 07'de imza/hesap alani yok; `jev_abone_etiketler.jsonl` kullanilir.
 - 06_ANALIZ TUR 27 D.4 duzeltildi: 2840 = buyuk olasilikla ETHUSD (KESIN DEGIL); `onemli_seviyeler.json`a ETHUSDT 2840 (`urun_cikarim: true`) eklendi (519 kayit).
 - Acik: olasi_urun sozcuk-eslesmesi kaba (uzun tweetlerde DOLAR/ALTIN gurultusu); `#BTCETH` gibi bitisik etiketler sıki sozlukte parcalanmiyor.
+
+## 2026-10-07 — CANLI_DURUM (ChatGPT Work/Live için tek-dosya özet)
+- **Eklendi:** `CANLI_DURUM.json` (TEK kaynak, elle düzenlenen), `canli_durum_uret.py` (JSON -> `CANLI_DURUM.md`, deterministik, <=150 satır, tablo yok; `--dogrula` ile tweet_id/fiyat/sızıntı kontrolü). `01_BURADAN_BASLA.md` en üstüne "Önce CANLI_DURUM.md oku." satırı; aynı satır `claude_paket_olustur.py basla_md()` şablonuna da eklendi (yoksa paket üretiminde silinirdi). README'ye tek satır.
+- **İlk dolum:** 39 Koç çağrısı (19 Eyl–3 Eki, TUR 25-27 + 06_ANALIZ karnesi), her biri tweet_id ile `cekilen_tweetler.jsonl`de doğrulandı, `gorsel_dogrulandi` = tweet id'si `gorsel_analiz.jsonl`de var mı. Fiyat YAZILMADI; durum alanı 3 Ekim karnesinden (tuttu→tetiklendi, tutuyor/izleniyor→gecerli, tutmadı→bozuldu, sınanmadı/ölçülemez→belirsiz).
+- **Karar:** 2840 = ETH, kesinlik "orta" (06 TUR 27 D.4: "büyük olasılıkla, KESİN DEĞİL"). 8.4 ve 9.2 öğretisi "belirsiz". Sembolsüz 52.800/50.600 "belirsiz" (DJI doğrulanmadı).
+- **İş akışı:** analiz turu bitince `analiz_filtre.py --sinir-guncelle` -> CANLI_DURUM.json'u güncelle (yeni çağrılar, last_updated, source_commit, son_islenen_tweet) -> `py -3 canli_durum_uret.py`. MD'yi elle düzenleme.
+- **Açık:** 4–7 Ekim tweet'leri analiz edilmediği için CANLI_DURUM bu tarihleri kapsamıyor; DOW 8 Ekim ve NASDAQ 4 Ekim süreleri yeni turda karneye işlenmeli.

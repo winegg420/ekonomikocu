@@ -199,7 +199,9 @@ def basla_md(s: dict) -> str:
         if F11_DIS.is_file()
         else ""
     )
-    return f"""# CLAUDE — BURADAN BAŞLA
+    return f"""Önce CANLI_DURUM.md oku. (Her `analiz_filtre.py --sinir-guncelle` sonrası CANLI_DURUM.json güncellenip `py -3 canli_durum_uret.py` çalıştırılır; MD elle düzenlenmez.)
+
+# CLAUDE — BURADAN BAŞLA
 
 **Kaynak (birincil):** [{GITHUB_REPO}]({GITHUB_REPO}) — dosyalari yerel yukleme yerine repodan cek. Claude Project: GitHub entegrasyonu veya repo clone.
 
