@@ -4499,3 +4499,9 @@ bilmiyordu. Toplu degerlendirme islerinin Claude token'i yerine Jev'e gitmesi ic
 - **CANLI_DURUM.json:** 24 yeni cagri, 14 gun penceresi 23 Eyl'e kaydirildi (22 Eyl cagrilari dustu), takvim guncellendi, son_tur 28. `analiz_filtre.py --sinir-guncelle --tur 28` calisti (sinir 7 Ekim 00:55:31).
 - **Acik:** `onemli_seviyeler.json` guncellenmedi (adaylar 06_ANALIZ TUR 28 E bolumunde); sayisal degeri yazilmayan trend cizgileri "belirsiz".
 - **Tercih/gozlem:** Yahoo chart API'sinde cevap `chart.result` icinde; fiyat_kontrol.py'nin User-Agent'i ile calisiyor.
+
+## 2026-10-07 — CANLI_DURUM bot kancasi
+- `tara_guncel_yeni.py`: push'tan hemen once `canli_durum_uret.py --hafif` (yalniz ekonomikocu, try-except+timeout). Baska push scripti yok (tek push yolu github_guncelle.py, o da yalniz buradan cagriliyor).
+- Hafif mod: son_taranan_tweet, analiz_bekleyen_tweet_sayisi, uyari, damga; koc_cagrilari'na dokunmaz. Tam mod da ayni alanlari yeniler (uyari analiz sonrasi kalkar). Test: sinir 6 Eki 12:00'ye cekilince 84 bekleyen (bagimsiz sayimla ayni), geri alindi.
+- CLAUDE.md'ye "analiz et" rutini eklendi.
+- Not: `github_guncelle.py` `git add -A` kullaniyor; bot dosyalari (karne, kuyruk, log) botun otomatik pushuyla zaten commit'e giriyor (karne bilincli). Degistirilmedi.

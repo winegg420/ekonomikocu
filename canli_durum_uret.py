@@ -3,6 +3,7 @@
 
 Kullanim (py -3):
   python canli_durum_uret.py              # MD uret
+  python canli_durum_uret.py --hafif      # analizsiz: tarama durumu + uyari + damga (bot push kancasi; tam mod da bunlari yeniler)
   python canli_durum_uret.py --dogrula    # JSON/MD kontrolu (tweet_id arsivde var mi, fiyat yok mu, <=150 satir)
 
 Uretim deterministiktir: ayni JSON -> bayt-bayt ayni MD (zaman damgasi JSON'dan gelir, 'simdi' kullanilmaz).
@@ -29,19 +30,48 @@ def yukle():
         sys.exit(f"HATA: {JSON_YOL.name} okunamadi/gecersiz: {e}")
 
 
-def damgala(d):
+def damgala(d, hafif=False):
     """last_updated = simdi (TSI, yerel saat dilimi), source_commit = git HEAD kisa SHA. Git yoksa 'bilinmiyor'."""
     try:
         sha = subprocess.run(["git", "rev-parse", "--short", "HEAD"], cwd=KOK, capture_output=True,
                              text=True, timeout=15, check=True).stdout.strip() or "bilinmiyor"
     except (OSError, subprocess.SubprocessError):
         sha = "bilinmiyor"
+    hafif_guncelle(d)  # tam modda da: analiz sonrasi uyari/bekleyen sayisi sifirlanir
     d["source_commit"] = sha
     d["last_updated"] = datetime.now().astimezone().replace(microsecond=0).isoformat()
     try:
         JSON_YOL.write_text(json.dumps(d, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
     except OSError as e:
         sys.exit(f"HATA: {JSON_YOL.name} yazilamadi: {e}")
+
+
+def tarama_durumu():
+    """cekilen_tweetler.jsonl: en son tweet (tarih, id) ve analiz_sinir.json'dan sonraki tweet sayisi."""
+    try:
+        sinir = json.loads((KOK / "analiz_sinir.json").read_text(encoding="utf-8")).get("son_tweet_zamani") or ""
+    except (OSError, json.JSONDecodeError):
+        sinir = ""
+    son_dt, son_id, bekleyen = "", None, 0
+    with open(KOK / "cekilen_tweetler.jsonl", encoding="utf-8") as f:
+        for satir in f:
+            m = re.search(r'"tweet_id": "(\d+)", "datetime": "([^"]+)"', satir)
+            if not m:
+                continue
+            if m.group(2) > son_dt:
+                son_dt, son_id = m.group(2), m.group(1)
+            if sinir and m.group(2) > sinir:
+                bekleyen += 1
+    return son_dt, son_id, bekleyen
+
+
+def hafif_guncelle(d):
+    """Analiz gerektirmeyen alanlar; koc_cagrilari'na dokunmaz."""
+    son_dt, son_id, bekleyen = tarama_durumu()
+    d["son_taranan_tweet"] = {"tarih": son_dt, "tweet_id": son_id}
+    d["analiz_bekleyen_tweet_sayisi"] = bekleyen
+    d["uyari"] = (f"{bekleyen} yeni tweet taranmış, analiz bekliyor; yeni çağrılar henüz işlenmedi"
+                  if bekleyen else "")
 
 
 def kimlik(tid):
@@ -55,6 +85,13 @@ def uret(d):
     a("# CANLI DURUM (otomatik üretilir — elle düzenleme; kaynak: CANLI_DURUM.json)")
     a(f"- last_updated: {d.get('last_updated')}")
     a(f"- source_commit: {d.get('source_commit')}")
+    st = d.get("son_taranan_tweet") or {}
+    if st.get("tarih"):
+        a(f"- Son taranan tweet: {st['tarih']} {kimlik(st.get('tweet_id'))}")
+    if "analiz_bekleyen_tweet_sayisi" in d:
+        a(f"- Analiz bekleyen tweet sayısı: {d['analiz_bekleyen_tweet_sayisi']}")
+    if d.get("uyari"):
+        a(f"- ⚠ UYARI: {d['uyari']}")
     a(f"- Son işlenen tweet: {s.get('son_tweet_zamani')} (tur {s.get('son_tur')})")
     a(f"- Kapsam: {d.get('kapsam_notu', '')}")
     a("- Okuma sırası: " + " → ".join(x.split(") ", 1)[-1] for x in d.get("okuma_sirasi", [])))
@@ -214,12 +251,13 @@ def dogrula(d):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--hafif", action="store_true", help="analizsiz hafif guncelleme (tarama durumu + uyari)")
     ap.add_argument("--dogrula", action="store_true", help="uretmeden kontrol et")
     a = ap.parse_args()
     d = yukle()
     if a.dogrula:
         sys.exit(dogrula(d))
-    damgala(d)
+    damgala(d, a.hafif)
     metin = uret(d)
     yaz(metin)
     print(f"{MD_YOL.name} yazildi ({len(metin.splitlines())} satir)")

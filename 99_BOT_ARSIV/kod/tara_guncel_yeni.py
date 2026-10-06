@@ -227,6 +227,13 @@ def main() -> int:
                 print(f"[paket] {_script} hatasi: {e}", flush=True)
     else:
         print(f"[paket] @{HANDLE}: siniflandirma/paket adimlari atlandi (ham arsiv modu)", flush=True)
+    # 6b) CANLI_DURUM hafif guncelleme (analizsiz): hata taramayi/push'u ENGELLEMEZ
+    if HANDLE == "ekonomikocu":
+        try:
+            subprocess.run([PY, str(ROOT / "canli_durum_uret.py"), "--hafif"],
+                           cwd=str(ROOT), check=False, timeout=120)
+        except Exception as e:
+            print(f"[canli_durum] canli_durum_uret.py hatasi: {e}", flush=True)
     # 7) GitHub push: her taramada otomatik gonderilir
     try:
         if HANDLE == "ekonomikocu":

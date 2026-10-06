@@ -1,6 +1,6 @@
 {
- "last_updated": "2026-10-07T01:22:10+03:00",
- "source_commit": "80f7f2f",
+ "last_updated": "2026-10-07T01:41:45+03:00",
+ "source_commit": "b879ca3",
  "son_islenen_tweet": {
   "son_tur": 28,
   "son_tweet_zamani": "2026-10-07T00:55:31",
@@ -802,5 +802,11 @@
   "2) Canlı piyasa verisini webden çek, seviyelerle karşılaştır",
   "3) Gerekirse 06_ANALIZ.md (Koç çerçevesi) ve 11_DIS_KAYNAKLAR.md (dış kaynaklar, ayrı)",
   "4) Kanıt için ham 03_HAFIZA.md / 04_TWEETLER.jsonl / 07_ABONE_TWEETLER.jsonl (tweet_id ile ara)"
- ]
+ ],
+ "son_taranan_tweet": {
+  "tarih": "2026-10-07T00:55:31",
+  "tweet_id": "2107590603911606622"
+ },
+ "analiz_bekleyen_tweet_sayisi": 0,
+ "uyari": ""
 }

@@ -497,3 +497,23 @@ Tek seferlik islerde skill'i kullan; surekli isler icin jev_etiket.py ornek alin
 Arsiv geriye donuk etiketleniyor: "py -3 99_BOT_ARSIV/kod/jev_etiket.py --max 10000".
 Bunu IDA kendi terminalinde calistirir, Claude Code calistirmaz (uzun surer).
 Yarida kesilirse ayni komut kaldigi yerden devam eder.
+
+## CANLI_DURUM OTOMASYONU VE ANALIZ TURU RUTINI (2026-10-07)
+
+- **Bot kancasi:** `tara_guncel_yeni.py` push adimindan HEMEN ONCE `canli_durum_uret.py --hafif`
+  calistirir (yalniz @ekonomikocu; try-except + timeout, hata tarama/push'u engellemez).
+  Hafif mod analiz istemez: `son_taranan_tweet`, `analiz_bekleyen_tweet_sayisi`
+  (`analiz_sinir.json` sonrasi), `uyari`, `last_updated`, `source_commit` yazar;
+  `koc_cagrilari`'na DOKUNMAZ. MD'de bu alanlar `source_commit`'in altinda gorunur.
+  Tam mod (`py -3 canli_durum_uret.py`) da ayni alanlari yeniler; sinir ilerleyince uyari kalkar.
+- **"analiz et" / "analiz turu" rutini** (Ida bunlardan birini derse, sirayla):
+  1. `analiz_filtre.py` -> kuyruk uret.
+  2. Gorselli tweetlerin gorsellerini ac, seviyeleri oku, `gorsel_analiz.jsonl`'e ekle (net okunmayan "belirsiz").
+  3. `06_ANALIZ.md`'ye yeni TUR ekle (ust icerik korunur).
+  4. `CANLI_DURUM.json`'u guncelle: `koc_cagrilari`, `takvim`, `son_islenen_tweet`.
+  5. `analiz_filtre.py --sinir-guncelle`.
+  6. `py -3 canli_durum_uret.py`, ardindan `py -3 canli_durum_uret.py --dogrula`.
+  7. Commit ve push.
+  - Koc / dis kaynak / kullanici durusu ayrimini koru; abone tweetlerinde imza kontrol et.
+  - Bot dosyalarini (`magicma/KARNE_RAPOR.md`, `magicma/karne_kayitlari.json`, `analiz_kuyrugu.jsonl`,
+    log dosyalari) elle yaptigin analiz commit'ine KATMA (`git add` ile yalniz ilgili dosyalari sec).

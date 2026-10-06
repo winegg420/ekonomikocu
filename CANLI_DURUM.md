@@ -1,6 +1,8 @@
 # CANLI DURUM (otomatik üretilir — elle düzenleme; kaynak: CANLI_DURUM.json)
-- last_updated: 2026-10-07T01:22:10+03:00
-- source_commit: 80f7f2f
+- last_updated: 2026-10-07T01:41:45+03:00
+- source_commit: b879ca3
+- Son taranan tweet: 2026-10-07T00:55:31 [2107590603911606622]
+- Analiz bekleyen tweet sayısı: 0
 - Son işlenen tweet: 2026-10-07T00:55:31 (tur 28)
 - Kapsam: koc_cagrilari son 14 gün (23 Eyl - 7 Eki 2026, son işlenen tweet'e göre). 7 Ekim 00:55'ten sonraki tweet'ler henüz analiz edilmedi. Durum alanı 06_ANALIZ TUR 28 karnesine (7 Ekim) dayanır; canlı piyasa verisini webden çek ve seviyelerle kendin karşılaştır. Bu dosyada fiyat YOKTUR.
 - Okuma sırası: CANLI_DURUM.md → Canlı piyasa verisini webden çek, seviyelerle karşılaştır → Gerekirse 06_ANALIZ.md (Koç çerçevesi) ve 11_DIS_KAYNAKLAR.md (dış kaynaklar, ayrı) → Kanıt için ham 03_HAFIZA.md / 04_TWEETLER.jsonl / 07_ABONE_TWEETLER.jsonl (tweet_id ile ara)
