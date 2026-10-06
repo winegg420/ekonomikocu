@@ -10,7 +10,9 @@ Uretim deterministiktir: ayni JSON -> bayt-bayt ayni MD (zaman damgasi JSON'dan 
 import argparse
 import json
 import re
+import subprocess
 import sys
+from datetime import datetime
 from pathlib import Path
 
 KOK = Path(__file__).resolve().parent
@@ -25,6 +27,23 @@ def yukle():
         return json.loads(JSON_YOL.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as e:
         sys.exit(f"HATA: {JSON_YOL.name} okunamadi/gecersiz: {e}")
+
+
+def damgala(d):
+    """last_updated = simdi (TSI, yerel saat dilimi), source_commit = git HEAD kisa SHA. Git yoksa 'bilinmiyor'."""
+    try:
+        sha = subprocess.run(["git", "rev-parse", "--short", "HEAD"], cwd=KOK, capture_output=True,
+                             text=True, timeout=15, check=True).stdout.strip() or "bilinmiyor"
+    except (OSError, subprocess.SubprocessError):
+        sha = "bilinmiyor"
+    d["source_commit"] = sha
+    d["last_updated"] = datetime.now().astimezone().replace(microsecond=0).isoformat()
+    try:
+        JSON_YOL.write_text(json.dumps(d, ensure_ascii=False, indent=1) + "
+", encoding="utf-8", newline="
+")
+    except OSError as e:
+        sys.exit(f"HATA: {JSON_YOL.name} yazilamadi: {e}")
 
 
 def kimlik(tid):
@@ -202,6 +221,7 @@ def main():
     d = yukle()
     if a.dogrula:
         sys.exit(dogrula(d))
+    damgala(d)
     metin = uret(d)
     yaz(metin)
     print(f"{MD_YOL.name} yazildi ({len(metin.splitlines())} satir)")
