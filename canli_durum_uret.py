@@ -39,9 +39,7 @@ def damgala(d):
     d["source_commit"] = sha
     d["last_updated"] = datetime.now().astimezone().replace(microsecond=0).isoformat()
     try:
-        JSON_YOL.write_text(json.dumps(d, ensure_ascii=False, indent=1) + "
-", encoding="utf-8", newline="
-")
+        JSON_YOL.write_text(json.dumps(d, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
     except OSError as e:
         sys.exit(f"HATA: {JSON_YOL.name} yazilamadi: {e}")
 

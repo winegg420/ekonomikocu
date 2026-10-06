@@ -4490,3 +4490,12 @@ bilmiyordu. Toplu degerlendirme islerinin Claude token'i yerine Jev'e gitmesi ic
 - **Karar:** 2840 = ETH, kesinlik "orta" (06 TUR 27 D.4: "büyük olasılıkla, KESİN DEĞİL"). 8.4 ve 9.2 öğretisi "belirsiz". Sembolsüz 52.800/50.600 "belirsiz" (DJI doğrulanmadı).
 - **İş akışı:** analiz turu bitince `analiz_filtre.py --sinir-guncelle` -> CANLI_DURUM.json'u güncelle (yeni çağrılar, last_updated, source_commit, son_islenen_tweet) -> `py -3 canli_durum_uret.py`. MD'yi elle düzenleme.
 - **Açık:** 4–7 Ekim tweet'leri analiz edilmediği için CANLI_DURUM bu tarihleri kapsamıyor; DOW 8 Ekim ve NASDAQ 4 Ekim süreleri yeni turda karneye işlenmeli.
+
+## 2026-10-07 — TUR 28 (3 Ekim 17:04 – 7 Ekim 00:55) + CANLI_DURUM otomasyonu
+- **source_commit otomasyonu:** `canli_durum_uret.py` artik uretim sirasinda `git rev-parse --short HEAD` ve simdiki zamani JSON'a yazar (`damgala()`; git yoksa "bilinmiyor"). `--dogrula` JSON'a dokunmaz. Not: damga, commit'ten ONCEKi HEAD'dir (commit sonrasi bir geriden gelir) — bilincli, elle duzenleme gerekmiyor.
+- **Tarama:** ilk deneme exit 4 (Chrome 9222 kapaliydi). `CHROME_X.bat` bash'ten acilmadi; Chrome PowerShell Start-Process ile `--remote-debugging-port=9222 --user-data-dir=%LOCALAPPDATA%\ekonomikocu_x_session` ile acildi, hesap dogrulandi, tarama exit 0 (+224 tweet, push 80f7f2f). tara_guvenli.py log'u (`tara_t28.log`) otomatik pushla commit'e girdi; kaldirildi.
+- **Analiz:** 223 tweet (1 elendi), 49 gorsel 3 alt ajanla okundu -> `gorsel_analiz.jsonl` 2015 -> 2064 (tur `2026-10-07-T28`). Abone tweeti yok. `06_ANALIZ.md`'ye TUR 28 eklendi (ust icerik korundu). Karne fiyatlari Yahoo/Binance/gold-api'den o anki canli veriyle (BTC 85.554, DJI 51.521, NDX 31.224, Altin 4.167, Brent ~101, EURUSD 1,1264, BIST 12.374).
+- **Ana sonuc:** NASDAQ 30.300 cagrisi kesin TUTMADI (Koc hatayi kabul etti); Koc'un kisa vade tek sarti petrol 97 alti haftalik kapanis (gerceklesmedi); EURUSD 1,1280 / BIST 12.800 negatif tarafta; yeni takvim: 8 Eki DOW 51.570, 12 Eki BTC 84.700, 18 Eki BTC 87K+petrol 97, ay sonu FED.
+- **CANLI_DURUM.json:** 24 yeni cagri, 14 gun penceresi 23 Eyl'e kaydirildi (22 Eyl cagrilari dustu), takvim guncellendi, son_tur 28. `analiz_filtre.py --sinir-guncelle --tur 28` calisti (sinir 7 Ekim 00:55:31).
+- **Acik:** `onemli_seviyeler.json` guncellenmedi (adaylar 06_ANALIZ TUR 28 E bolumunde); sayisal degeri yazilmayan trend cizgileri "belirsiz".
+- **Tercih/gozlem:** Yahoo chart API'sinde cevap `chart.result` icinde; fiyat_kontrol.py'nin User-Agent'i ile calisiyor.
