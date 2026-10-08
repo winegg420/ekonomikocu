@@ -7982,3 +7982,87 @@ Zaten kayıtlı olanlar atlandı (BTC 80.600/84.000/87.000/126.000/107.800 · ET
 - Okunamayan: `2107526126524326351` (aylık mum, ürün yok).
 - Sayısal değeri yazılmayan trend çizgileri (gümüş haftalık, XU100/USD, NASDAQ kırmızı trend, Brent iki trend): okunmadı, "belirsiz".
 - 7 Ekim sonrası tweet'ler bir sonraki turda.
+
+
+---
+
+## 2026-10-08 — METİN + GÖRSEL ANALİZİ (7 Ekim 01:30 – 8 Ekim 21:25, TUR 29)
+
+> **Kaynak:** `cekilen_tweetler.jsonl` — TUR 28'in bittiği 7 Ekim 00:55:31'den arşivin en yeni kaydına (8 Ekim 21:25:34) kadar, @ekonomikocu.
+> **Tarama:** `tara_guvenli.py` exit 0 (push `1f35590`); 260 kayıt geldi, `analiz_filtre.py` 1'ini eledi → **259 tweet okundu**. Günler: 7 Eki 134 (01:30-23:33) · 8 Eki 125 (00:11-21:25).
+> **Görsel:** 49 açıldı, `gorsel_analiz.jsonl` 2064 → 2113 (tur `2026-10-08-T29`). **Okunamayan/belirsiz: 1** (`2108252232789418396` işlem kaydı ekran görüntüsü: kâr 178,07 / swap -24,93; ürün görünmüyor, ölçülemez).
+> Koç'un **kendi eski tweetini kanıt gösteren** görseller (20 Oca, 9 Şub, 21 Oca, 15 Mar, 15 Nis, 29 Ara 2025, 13 Tem 2021, 4 Mar 2022, 13 Eki 2021, 30 Eyl, 1 Eki, 6 Eki) eski tarihiyle yazıldı, **yeni seviye sayılmadı**.
+> **Abone tweeti: görselde 1 thread** — `2108200811041882321` / `2108220043997704382`: **Bugra Ozturk (@BugrraOzturk, abone)** "gümüşte dediğin ayrışma bugün geldi, petrolü 5-6$ aşağı aldı ama tepki aldırmadılar" yazdı; bu söz Koç'a ATFEDİLMEZ. Yalnız altındaki Koç yanıtı ("Ben Ekim ortasına kadar izleme taraftarıyım", 30 Eyl 12:51) Koç'undur. Metin kuyruğunda abone kaydı yok.
+> Dış kaynak görüşü (11_DIS_KAYNAKLAR.md) bu turda Koç'a atfedilmedi; Koç bölümünde dış kaynak yok.
+
+### A. ANA TEZ: "ZAMAN GEÇİRİYORLAR" + ETF/Biden suçlaması + Avrupa'da halk olayları
+- **Avrupa:** "Tüm Avrupa karıştı, halk hep sokaklarda, medyaya yansımıyor" [2107768722932801810]; "Bunu hak ettiler, geç kalmış olaylar" [2107770418002042972]; "Barışsaydı EUR güçlenir, sokak olayları olur muydu?" [2108186661792215284]; "Avrupa herkesin elini kolunu bağlıyor" (tek para birimi/birlik eleştirisi) [2107924237570785578][2107926460912816220]. 20 Oca/9 Şub/15 Mar eski tweetleri kanıt gösterildi (isyan, halk ayaklanması). **Sayısal seviye yok.**
+- **Çin-ABD:** "ABD ile Çin asla uzun vadeli anlaşamazlar. Anlaşsalar grafikler anlaşmayı onaylamaz" [2108197546162057377]; "ABD-Çin anlaştı diyelim, grafiklerdeki teknik sorunları ortadan kaldırabilirler mi? Kaldıramazlar. Artık sorun devletler değil piyasalar" [2108198191564824629]. **Çin-ABD anlaşmasını DOĞRULAYAN içerik yok** — `koc_tetigi_durum.json` `cin_abd_anlasma` false kalır. 8 Eki: "ABD tehdit altında; Çin ABD'ye gelişmekte olan ülke muamelesi yapıyor, faiz arttır baskısı" [2108139459027853746].
+- **Biden/ETF tezi (7 Eki akşamı flood):** "ETF tamamen piyasayı baltalamak; kripto merkeziyetsizdi, ETF ile ABD'ye bağladın, Çin kapris yapıyor" [2107891317921780134][2107898557961486373][2107901625771626830][2107924859875434624]; "BTC 1 usd'den 126.000'e geldi, ALTIN tarihi tepe 5600" [2107888758716813746][2107889435291349214]. Tez/yorum; seviye yok.
+- **Çıkış yolları (Koç):** "1) Barış gelmeli 2) BTC bazlı değil ETH bazlı ilerlenmeli 3) Yıkıp yeniden dizayn" [2107892197525766421]; "Bu dünyada petrol düşmeli, emtia kaprisi bitmeli, faizler düşmeli" [2107960386763051505] (**dilek/koşul; FED faiz indirimi beklentisi DEĞİL**).
+- **Faiz:** "Ben faizlerin düşmesi gerektiğini düşünüyorum, 5-6 yıldır faizler düşer yönlü oyun kuruyorum; daha hakkımızı alamadık" [2108245853542735936][2108246785659437118]; "Petrolü düşürüp faizi düşürmezlerse shorta devam" [2108247877600653334]. FED indirimi canlı sinyal yok.
+- **Takvim / süre (önemli):** "ABD için son çeyrek 13-14 Ekim'den sonra; **vade 15 Eylül'de başlar, 15 Aralık'ta biter**; yarısını boşa geçirmek isteyebilirler" [2108199716571816318][2108202957774700856]; "**Ekim ortasına kadar izleme taraftarıyım**" (30 Eyl yanıtı, bugün tekrarlandı) [2108200811041882321]; "**Ayın 18. gününe kadar vakti var, pozitif haber lazım**" [2108229340823691562]; "**Zaman geçir. 2027 Nisan'a kadar zamanın var**" [2108235754392731948]; "Ayın 8. günü ne var bilmiyorum" → 8 Eki "Kıramıyorlar, zorlanıyorlar" [2108196270485434829].
+- **Trump-İran haberi (8 Eki 19:21):** "Trump: İran ile verimli görüşmeler yapıyoruz dedi, piyasa hemen oynadı; kritik yere gelince haber bastılar; petrol hemen 3 dolar düştü" [2108231333797630145][2108231519697616989]. Koç yorumu: haber bastığı yerde DOW alçalan trend üstünde sadece zaman kazanıyor, BTC aynı habere 80.600'de yakalanıyor [2108232630273708069][2108233147695710382]; "pozitif haber bastığı an teknik bozuluyor" [2108234811466711241].
+
+### B. GÜN GÜN
+
+**7 Ekim (01:30–23:33)**
+- **ALTIN:** "XAUUSD 4060 gördü, **06 öğretisi**" [2107819580903080080]; akşam: "**4376 altı zaten satış**, 4060'a düştü, hemen 50 dolar sekti; **4060 = 6 öğretisi**" [2107863579844055142]; "4300-4400-4500'de elini kolunu sallaya sallaya short kovalanmaz, aşağıdan talep gelir; **4060 altı kalma anca ekstra baskıya sokar**" [2107865241711464734]; "4060'a kadar düştü, burası kırılmadan bu seker; ek baskı için illa altı kalma şart" [2107866510345506898]. GOLD günlük görsel: üst yatay 4366, alt yatay ~3956, yeşil ~4060.
+- **GÜMÜŞ:** "60 dolara yaslanıyor ama belini kıramadılar" [2107774039297315216]; "**58 dolara temas etti**" [2107813527675085045]; "Ederi **50 doların altı**, ama bu temel analiz; **50'nin altında kalmadan ABD bırakmaz**" [2107820480040161504][2107822299411837388][2107866510345506898]; "teknik olarak belini kırmadan bu işin yakasını bırakmazlar" [2107873573297664462]. Aylık görsel: 50,021 (2010 tepesi) yatay; fiyat 59,8 [2107907337709400356]. Haftalık: 61,04, yükselen trend çizgisi [2107857455648776289]. "Temmuzda gümüş 57 dolar, BTC 57K; bugün BTC 84K ama gümüş 58" [2107869744066179313].
+- **NASDAQ:** "**NASDAQ 31400'den düştü, shortladım; DOW da shortladım; zamanla petrol de kâr yazarsa güzel**" [2107846639067213990]; "31400 gördü düştü" [2107854406465081780]; "**NASDAQ 31400 kesişimi**" (günlük görsel: yukselen trend kesisimi, 31060 yatay, 28117 alt) [2107854861207236791]. XAUUSD/NASDAQ rasyosu 0,132 [2107839726577193046][2107846370145001813]. "2024 Q4 tepe 22600 + 4K → 26K → 30600 → 2027 +4K, sonra ne olacak?" [2107959478049976342].
+- **BTC:** "**Ayın 12. gününe kadar zamanı var; 84.700 üstü kalırsa anca toparlar**; ayın 18'ine kadar 87K üstü kalış lazım" [2107858462868734012]; "**80600 son kalesidir**" [2107858986611446216]; "kırılımın 84700'den geldiğini göstermek için çizdim" (H1: kesisim 84700, fiyat altinda) [2107860033589616802]; "84700'e ROBOT koyduklarını dün gördüm, hâlâ 12. güne kadar önemli, üstündeyse devam değilse kenara" (6 Eki kanıtı) [2107860392252727354]. "18. güne kadar 85K üstü kalsın, 90K ve üstüne gitmek zorundaydı" [2107867384048398762]; "Aşağıya robot koyup satışları tetikletiyorlar" [2107867384048398762].
+- **ETH:** "**ETHUSD 2776'yı aşamadı**; 2570 + 2620 üstü anca pozitif; seviyelerde değişiklik hâlâ yok" [2107861319038968275].
+- **Eski tweet kanıtları:** 13 Tem 2021, 15 Mar, 9 Şub, 21 Oca, 20 Oca, 29 Ara 2025, 4 Mar 2022 (yukarıda).
+
+**8 Ekim (00:11–21:25)**
+- **BTCTRY:** "**4257 anlamı? 5.7 öğretisi**" (günlük: 4.257.118 yatay + yükselen trend kesişimi; fiyat 4.109.959) [2107950994202259656]; "**Bozmasalar teknik alım geliyor**; ALTIN GÜMÜŞ bunları baskılıyorlar" [2107951664485277989]. **BTCUSD:** "Şu tekniği bire bir çizin; bugün gazlasalar tam çizgiye temas ettirseler nokta kaça denk geliyor?" → **106.309,69** (Koç'un yuvarlak içine aldığı sayı) [2107954214416879729][2107955273293848614]; "Buraya gitse bile ben kılımı kımıldatmam" [2107955589225525724].
+- **Genel:** "Tepeden satmaya dipten almaya çalışma, bandı değerlendir" [2107941868914798761]; "ETH.D 13-14 üstünde kalamıyorsa bu iş sarkar" [2107963414987579602]; "Ayın 18'inden sonrası kısmen önemli" [2107943329929584920].
+- **EURUSD/DXY (12:05-12:09):** "Bu sürekli burada bekliyor, 1.1180" (EURUSD 1,1188) [2108121720267932155]; **"1.1180'de robot var. Buranın altında kalırsa DXY bir tur ciddi yukarı gider. EUR 1.1180 üstündeyse DXY gevşer"** [2108122639449387232]; kanıt: 15 Nis 2026 abone-özel tweeti [2108122060383735815]. Telefon görselleri: XAUUSD 4123,37 (+0,42), XAGUSD 58,84 (-1,47): "Altın tarafını çok önemsemezler, dertleri gümüş ve sanayi metalleri" [2108124528161214974][2108124744088166567][2108125044874293465].
+- **DOW (günlük 51.061,07):** "**52800 aşılmadan geri geliyor, 50600 tutmaya çalışıyor**; pozitif hikaye olmadan yükselemiyorlar" [2108189895235641427]; "**50600 tutuyor, burası kırılmadan düşmez; 52800'ü aşacak dinamiği de bulamıyor**" (H4: 50.607,67) [2108190560141881795]; "Ekim başı DOW 51570" (1 Eki kanıtı) [2108195988431335933]; H1: üst 51.570,76 / alt 50.607,67 [2108196626179539033]. "**Bugün ayın 8'i, DOW üzerinden bu tarihe işaret etmiştim; kıramıyorlar**" [2108195285985808558][2108196270485434829]. **DOW 51.570'e 8 Ekim'de ULAŞILMADI** (en yüksek ~51.250 civarı, M15).
+- **NASDAQ:** "NASDAQ -0,60, gümüş -0,77, altın +0,60, DOW 0,00; altın ile DOW'u tutmaya çalışıyorlar" [2108194036183867695]; "**Yarına kadar vakti var. NASDAQ 31060 altında kalışlar SAT, üstü anca diri kalır**" [2108195060751728699]; "**NASDAQ 31400'den şelale**" (H1 30.607; yatay 31.404,88) [2108247877600653334]. Pozitif haber sonrası NASDAQ "yarın kritik, 31060 üstünde kaldı kaldı" [2108234811466711241].
+- **GÜMÜŞ:** "Tane tane belini büküyorlar. **Şu kesişimi aşmasın kafi derler**" (günlük 59,143: trend çizgisi altında, kırmızı kesişim ~68) [2108197180708438066]; "Kesişim **68** dolar, anlamı nedir?" [2108197751909503234]; "Gümüş haftalık yükselen trend: ABD mumları mavi trendin altına düşürür mü? Düşürüyorsa zamana ihtiyaçları var" (6 Eki kanıtı; haftalık 58,752 çizgiye temas) [2108223216133316905][2108224068327555249]. XAGUSD/BTCUSD oranı 0,00071; üst 0,00148 ("seçim geliyor"), taban 0,00037 ("savaş ?") [2108198888964567132].
+- **ETH:** "ETH de stop ettiler diyor; stop seviyesini yazdım, sorumluluk bitti; **2776 aşılmadan yükseliş gelmez dedim, oradan döndü**" [2108217315481223641]; H1: 2776,25 iki red (23 Eyl, 2 Eki), fiyat 2465 [2108217860573008252].
+- **BTC:** "**Aynı habere BTC nerede yakalanıyor? 80.600**" (H1: yatay 80.666,74; dip tam çizgide; fiyat 81.316) [2108233147695710382].
+- **Petrol/JPY (kanıt):** 30 Eyl "petrol + emtia + JPY çaprazları birlikte yukarı gittiler mi?" tekrarlandı [2108243691869548708]. "Petrol geri geldiğinde kâr edeceğim" [2108143920538652807].
+- **Pozisyon beyanları (doğrulanamaz):** "NASDAQ/DOW short, petrol short" [2107846639067213990]; "Yüz işlem alıyorsam %85'i short; ana sorunumuz varlıklar düşmüyor" [2108255517214650658]; "Bir işlemde kâr 178 dolar, swap -24" (ürün yok) [2108252232789418396]; "Kaldıraç sakat iştir, hırs yapmamaya çalış" [2108257209897685104]. **Giriş fiyatı verilmedi → ÖLÇÜLEMEZ.**
+- **Takvim yönetimi:** "ABD vadesi 15 Eylül-15 Aralık" [2108202957774700856] (yukarıda).
+- **Sohbet notları:** 8 Eki 21:16 "Milletin adına sinirlerim bozuluyor. Konuyu kapattım" [2108260207822561535]; kripto "ihya ediyor da rezil de ediyor, sabır" [2108262239828590782][2108262544712344038] (kişisel görüş).
+
+### C. KARNE (güncel fiyat 8 Ekim ~21:55 TSİ; kaynak: Binance/Yahoo/gold-api — BTC 81.500 (H1 dip 80.667) · ETH 2.448 · Altın 4.128,6 (dip ~4.100) · Gümüş 59,24 (dip ~58,7) · DXY 102,16 · Brent(BZ=F) 104,4 · NDX 30.697 (NQ 30.925) · DJI 51.168 · SPX 7.757 · EURUSD 1,1215 · EURGBP 0,8476 · GBPJPY 208,73 · BIST100 12.214)
+
+| Çağrı (tarih) | Durum | Not |
+|---|---|---|
+| DOW **51.570 "ayın 8'ine kadar"** (1 Eki, 6 Eki tekrar) | **TUTMADI** | Süre doldu; DJI 51.168, 8 Eki en yüksek ~51.250; **51.570'e gelmedi**. Koç: "Yoksa zorlanıyor" |
+| DOW **50.600 destek** (50.607,67 yatay) | **TUTTU** | 8 Eki H4/H1 dibi 50.607'de tepki, 51.1K |
+| DOW 50.600 → 51.570 atak (3 Eki) | **TUTMADI** | 50.600 değdi/tuttu ama 51.570 gelmedi |
+| DOW 52.800 altı short (30 Eyl) | **TUTUYOR** | 52.800'e yaklaşılmadı |
+| NASDAQ **31.400 direnç + şelale** | **TUTTU** | 6 Eki tepe 31.4K, sonra NDX 30.697 |
+| NASDAQ **31.060 altı SAT / üstü diri** (8 Eki) | **TETİKLENDİ** | NDX 30.697 < 31.060; "yarına kadar vakit" (9 Eki) |
+| NASDAQ 30.600 üstü tutuyor | **ÇOK YAKIN** | NDX 30.697 (97 puan üstü); 8 Eki dip 30.600 civarı |
+| BTC **84.700 üstü pozitif, altı kenara** (12 Ekim'e kadar) | **84.700 ALTINA İNİLDİ** | BTC 81.500; "kenara çekilin" tarafı doğru; 12 Eki'ye kadar geri dönüş yok |
+| BTC **80.600 son kale** (H1 80.666) | **TUTUYOR (test edildi)** | 8 Eki dip 80.667 çizgide tepki; kalıcı altı yok |
+| BTC 84K altı trend bozulur (6 Eki) | **TETİKLENDİ** | 80.667'ye değdi |
+| BTC 87K aşma + 18'ine kadar 85K üstü | **GERÇEKLEŞMEDİ** | 5g yüksek ≤87.2K, şimdi 81.5K |
+| BTC 81.998 eski banda alındı (3 Eki) | **BOZULDU** | 81.500 < 81.998; banda dönüş yok |
+| ETH **2776 aşılmadan yükseliş gelmez / red** | **TUTTU** | H1 iki red (23 Eyl, 2 Eki), 2.448'e düştü |
+| ETH 2620/2570 destek | **TUTMADI** | 2.448 < 2.570 |
+| ETH.D 13-14 üstü kalmalı | **İZLENİYOR** | Veri çekilmedi |
+| ALTIN **4060 (6 öğretisi) seker** | **TUTTU** | 4060 gördü, +50$; 4.128,6 |
+| ALTIN 4376 altı satış / 4376 pivot | **TUTUYOR** | 4.128,6 << 4376 |
+| ALTIN 4235 üstü kalış = ekstra prim | **GERÇEKLEŞMEDİ** | 4.128,6; 4192 geçilmedi |
+| ALTIN 4257 şelale (3 Eki) | **TUTTU** | (önceki tur) |
+| GÜMÜŞ "58 gördü, 60'a yaslanıyor, 50 altı kalmadan bırakmaz" | **İZLENİYOR** | 59,24; 50 aşağıda; çizgiye temas |
+| GÜMÜŞ yükselen haftalık trend bozulmadı (6 Eki) | **TEMAS/BELİRSİZ** | Haftalık 58,752 çizgide; kırılım teyidi yok |
+| GÜMÜŞ ~68 kesişim aşmasın | **TUTUYOR** | 59,24 << 68 |
+| EURUSD **1,1180 robot (altında kalırsa DXY yukarı)** | **İZLENİYOR** | 8 Eki 1,1188 → 1,1215; 1,1180 altına kalıcı inilmedi, DXY 102,16 |
+| EURUSD 1,1280 altı negatif (6 Eki) | **TETİKLENDİ** | 1,1215 < 1,1280 |
+| EURGBP "EUR 1,12, EURGBP 0,84'e" (3 Eki) | **İZLENİYOR** | EURUSD 1,12 civarı doldu; EURGBP 0,8476, 0,84'e inmedi |
+| SP500 7.816 altı sendeler (6 Eki) | **TETİKLENDİ** | SPX 7.757 < 7.816 |
+| BIST 12.800 üstü rahatlar / altı stres | **STRES TARAFINDA** | 12.214 |
+| DXY 90-95 ideal / 100 üstü kötü | **İZLENİYOR** | DXY 102,16 |
+| Brent 97 altı haftalık kapanış → toparlar (6 Eki) | **GERÇEKLEŞMEDİ** | Brent 104,4 (8 Eki Trump-İran haberiyle -3$ düşmüş, geri dönmüş) |
+| BTCTRY 4257 (5.7) trend bozuluyor / "bozmasalar alım" | **İZLENİYOR** | 4.109.959 trend çizgisi teması |
+| BTCUSD 106.309,69 çizgi kesişimi | **ÇAĞRI DEĞİL** | Koç "kılımı kımıldatmam" |
+| Pozisyon beyanları (NASDAQ/DOW/petrol short, %85 short, 178$ kâr) | **ÖLÇÜLEMEZ** | Giriş fiyatı verilmedi |
+
+**Dürüstlük notu:** DOW 51.570 "8'ine kadar" çağrısı Koç'un kendi ifadesiyle ("yoksa zorlanıyor") süresi dolduğunda **tutmadı**; Koç bunu 8 Eki'de "kıramıyorlar, zorlanıyorlar" diyerek **zayıflık işareti olarak** sundu. BTC'nin 84.700 altına inmesi Koç'un "altı kenara çekilin" kuralının doğru tarafı, fakat Koç'un esas beklentisi (85K üstü 18'ine kadar) gerçekleşmedi. ETH 2776 ve 2570/2620 çağrıları aynı tweetlerde hem "tuttu" (direnç) hem "tutmadı" (destek) çıktı; ayrı satırlar bu yüzden.
