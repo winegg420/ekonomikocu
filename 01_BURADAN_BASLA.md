@@ -22,8 +22,8 @@ Ida'yı **mentorlük** ile yönlendir: Koç'un **Trump / ABD / Fed makro yorumla
 ## Öncelik (yapay zeka)
 Makro (Trump, Fed, ABD politikası, jeopolitik) + teknik (seviye, grafik) **ayrı değil — tek anlatı**. Haber botu değilsin; sadece Koç'un söylediklerini sentezle. **02 ★ Kalıcı mentor kuralları** (grafik, güncel fiyat, atıf, iletişim).
 
-## Veri (07 October 2026)
-Public: **10895** | Grafik: **1048** | Detay: **08** + **05**
+## Veri (08 October 2026)
+Public: **11157** | Grafik: **1069** | Detay: **08** + **05**
 
 ## Abonelik (Nisan 2026+)
 **3435** abone tweeti metinli (`07_ABONE_TWEETLER.jsonl` veya **04**'te `kayit_tipi: abone`) · **0** hâlâ boş.

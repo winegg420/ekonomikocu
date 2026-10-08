@@ -1,6 +1,6 @@
 {
- "last_updated": "2026-10-07T01:41:45+03:00",
- "source_commit": "b879ca3",
+ "last_updated": "2026-10-08T21:40:43+03:00",
+ "source_commit": "b4a7647",
  "son_islenen_tweet": {
   "son_tur": 28,
   "son_tweet_zamani": "2026-10-07T00:55:31",
@@ -804,9 +804,9 @@
   "4) Kanıt için ham 03_HAFIZA.md / 04_TWEETLER.jsonl / 07_ABONE_TWEETLER.jsonl (tweet_id ile ara)"
  ],
  "son_taranan_tweet": {
-  "tarih": "2026-10-07T00:55:31",
-  "tweet_id": "2107590603911606622"
+  "tarih": "2026-10-08T21:25:34",
+  "tweet_id": "2108262544712344038"
  },
- "analiz_bekleyen_tweet_sayisi": 0,
- "uyari": ""
+ "analiz_bekleyen_tweet_sayisi": 260,
+ "uyari": "260 yeni tweet taranmış, analiz bekliyor; yeni çağrılar henüz işlenmedi"
 }
