@@ -2,7 +2,7 @@
 
 _Uretim: 2026-10-09 15:00 · kod: `magicma/backtest_2x2.py`(backtest.py'yi import eder, ona dokunmaz) · saf simulasyon, gercek hesap yok._
 
-**Varsayimlar (backtest.py ile ayni):** olay = karnedeki temas (giris fiyati/zamani, yon etiketi: fiyat cizgi ustunde=long, altinda=short); giris, giris anini iceren 5 dk mumdan baslar; stop/TP girisin %2'si; ayni mumda ikisi de degerse STOP once; sonuclanmayan olay pencere sonu kapanisinda kapatilir; maliyet %0,1 gidis-donus; 1R = %2. 7 gunluk pencere ve temas-oncesi sert hareket kirilimi bu turda KAPSAM DISI (veri yok). Metaller (XAU/XAG/XPT/XPD) vadeli kontrat getiri vekili ile simule edildi. Karne temaslari ayni sembolde ust uste binebilir (bagimsiz olay sayisi gorunenden dusuktur).
+**Varsayimlar (backtest.py ile ayni):** olay = karnedeki temas (giris fiyati/zamani, yon etiketi: fiyat cizgi ustunde=long, altinda=short); giris, giris anini iceren 5 dk mumdan baslar; stop/TP girisin %2'si; ayni mumda ikisi de degerse STOP once; sonuclanmayan olay pencere sonu kapanisinda kapatilir; maliyet %0,1 gidis-donus; 1R = %2. 7 gunluk pencere ve temas-oncesi sert hareket kirilimi bu turda KAPSAM DISI (veri yok). Metaller (XAU/XAG/XPT/XPD) vadeli kontrat getiri vekili ile simule edildi. Karne temaslari ayni sembolde ust uste binebilir (bagimsiz olay sayisi gorunenden dusuktur). Giris mumunun giristen ONCEKI wick'i simulasyona dahildir (stop/TP'yi hafif fazla tetikler; backtest_rapor.md bir sonraki mumdan baslamanin sonucu cok degistirdigini gosteriyor) — bu raporda duyarlilik testi yok.
 
 ## Ozet
 
@@ -10,7 +10,7 @@ _Uretim: 2026-10-09 15:00 · kod: `magicma/backtest_2x2.py`(backtest.py'yi impor
 
 ## Pencere: 48 saat
 
-Karne temasi 7508; simulasyona giren **6598**. Elenenler: giris mumu yok=429, pencere kesik=289, veri gelmedi=111, giris fiyati mumla uyusmuyor=69, sembol eslenemedi=12.
+Karne temasi 7509; simulasyona giren **6598**. Elenenler: giris mumu yok=429, pencere kesik=290, veri gelmedi=111, giris fiyati mumla uyusmuyor=69, sembol eslenemedi=12.
 
 - Sonuclanan (TP veya stop vurmus): **5655** (85.7%); sonuclanmayan: **943** (14.3%) — pencere sonu kapanisinda cikildi varsayildi.
 - TP 2796 (42.4%) + stop 2859 (43.3%) + sonuc yok 943 (14.3%) = 100.0%.

@@ -216,7 +216,7 @@ def main():
            "altinda=short); giris, giris anini iceren 5 dk mumdan baslar; stop/TP girisin %2'si; ayni mumda ikisi de degerse STOP once; "
            "sonuclanmayan olay pencere sonu kapanisinda kapatilir; maliyet %0,1 gidis-donus; 1R = %2. 7 gunluk pencere ve temas-oncesi sert hareket kirilimi bu turda KAPSAM DISI (veri yok). Metaller (XAU/XAG/XPT/XPD) "
            "vadeli kontrat getiri vekili ile simule edildi. Karne temaslari ayni sembolde ust uste binebilir "
-           "(bagimsiz olay sayisi gorunenden dusuktur).\n",
+           "(bagimsiz olay sayisi gorunenden dusuktur). Giris mumunun giristen ONCEKI wick'i simulasyona dahildir (stop/TP'yi hafif fazla tetikler; backtest_rapor.md bir sonraki mumdan baslamanin sonucu cok degistirdigini gosteriyor) — bu raporda duyarlilik testi yok.\n",
            "## Ozet\n", *ozetler, ""]
     yol = os.path.join(B.KOK, "magicma", "backtest_2x2_rapor.md")
     with open(yol, "w", encoding="utf-8") as f:
