@@ -4512,3 +4512,9 @@ bilmiyordu. Toplu degerlendirme islerinin Claude token'i yerine Jev'e gitmesi ic
 - **Ana sonuc:** DOW 51.570 "8'ine kadar" TUTMADI (Koc: "kiramiyorlar, zorlaniyorlar"); DOW 50.600 destek TUTTU; NASDAQ 31.400 red + 31.060 alti SAT tetiklendi; BTC 84.700 altina inildi, 80.600 test edildi; ETH 2776 red, 2570/2620 destek TUTMADI; Altin 4060 sekti; EURUSD 1,1180 yeni "robot". Cin-ABD anlasmasi dogrulanmadi (koc_tetigi_durum false kaldi). Takvim: 9 Eki NASDAQ 31.060, 12 Eki BTC 84.700, 13-15 Eki, 18 Eki, 15 Ara vade sonu, 2027 Nisan.
 - **CANLI_DURUM.json:** 13 yeni cagri, 29 mevcut cagri durumu guncellendi, pencere 16 gun, son_tur 29; `--dogrula` TAMAM.
 - **Acik:** `onemli_seviyeler.json` guncellenmedi. Gumus ~68 kesisim ve BTCUSD 106.309,69 yaklasik/belirsiz okuma.
+
+## 2026-10-09 — Bubbles rutinden çıkarıldı
+- Karar (kullanıcı): cryptobubbles/"günün hareketlileri" bir daha taranmayacak.
+- `magicma_yakinlik.py` gunun_hareketlileri.txt'i varsayılan hariç tutar; txt boşaltıldı (eski içerik git geçmişinde). Alarm da artık bu coinleri izlemez.
+- Normal MagicMA taraması yapıldı: 432 sembol, 9 işlem adayı (≤%0,25); 56 sembol kara listede.
+- Açık: gunluk_ozet.py'deki "en sert hareket eden: —" satırı hâlâ yazılıyor.

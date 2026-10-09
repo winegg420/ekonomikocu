@@ -34,18 +34,18 @@ turu kisa tutuldugunda (5 dk) tur suresinin cogu bu olu sembollere gidiyordu:
 ## Kara liste (otomatik)
 
 _Bu bolum `magicma_tara_dayanikli.py` tarafindan her taramada yeniden_
-_yazilir — elle duzenleme burada KALICI DEGILDIR. Son guncelleme: 2026-09-22._
+_yazilir — elle duzenleme burada KALICI DEGILDIR. Son guncelleme: 2026-10-09._
 
 **Kara listede: 56 sembol (56'si bu hafta yeniden denenecek)**
 
-- Denenmeden atlanan (esik 3 basarisiz): **3**
-- Siradaki taramada yeniden denenecek (7 gun doldu): **53**
+- Denenmeden atlanan (esik 3 basarisiz): **2**
+- Siradaki taramada yeniden denenecek (7 gun doldu): **54**
 - Izlemede (henuz esigin altinda, hala her taramada deneniyor): **0**
 
 | Sembol | Durum | Deneme | Ilk basarisiz | Son basarisiz |
 |---|---|---:|---|---|
 | BINANCE:CRCLBUSDT | yeniden denenecek | 3 | 2026-09-10 | 2026-09-10 |
-| BINANCE:ETHGBP | atlaniyor | 3 | 2026-09-22 | 2026-09-22 |
+| BINANCE:ETHGBP | yeniden denenecek | 3 | 2026-09-22 | 2026-09-22 |
 | BINANCE:GENIUSUSDT | yeniden denenecek | 3 | 2026-09-10 | 2026-09-10 |
 | BINANCE:GMEBUSDT | yeniden denenecek | 3 | 2026-09-10 | 2026-09-10 |
 | BINANCE:ICXUSDT | yeniden denenecek | 3 | 2026-09-04 | 2026-09-04 |
@@ -53,7 +53,7 @@ _yazilir — elle duzenleme burada KALICI DEGILDIR. Son guncelleme: 2026-09-22._
 | BINANCE:NFPUSDT | yeniden denenecek | 3 | 2026-08-26 | 2026-08-26 |
 | BINANCE:QQQBUSDT | yeniden denenecek | 3 | 2026-08-26 | 2026-08-26 |
 | BINANCE:REUSDT | yeniden denenecek | 3 | 2026-08-26 | 2026-08-26 |
-| BINANCE:SPYBUSDT | atlaniyor | 5 | 2026-09-01 | 2026-09-22 |
+| BINANCE:SPYBUSDT | atlaniyor | 6 | 2026-09-01 | 2026-10-09 |
 | BITGET:DEBITUSDT | yeniden denenecek | 3 | 2026-09-04 | 2026-09-04 |
 | BYBIT:GRVTUSDT | yeniden denenecek | 3 | 2026-08-26 | 2026-08-26 |
 | BYBIT:KIIUSDT | yeniden denenecek | 4 | 2026-08-26 | 2026-09-10 |
@@ -99,6 +99,6 @@ _yazilir — elle duzenleme burada KALICI DEGILDIR. Son guncelleme: 2026-09-22._
 | MEXC:STONKUSDT | yeniden denenecek | 3 | 2026-08-26 | 2026-08-26 |
 | MEXC:TENDIESUSDT | yeniden denenecek | 4 | 2026-08-26 | 2026-09-10 |
 | MEXC:UBIKUSDT | yeniden denenecek | 3 | 2026-09-10 | 2026-09-10 |
-| NASDAQ:SPCX | atlaniyor | 6 | 2026-08-26 | 2026-09-22 |
+| NASDAQ:SPCX | atlaniyor | 7 | 2026-08-26 | 2026-10-09 |
 
 <!-- KARA-LISTE-OTOMATIK: BITIS -->

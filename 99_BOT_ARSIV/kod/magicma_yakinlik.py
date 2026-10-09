@@ -64,6 +64,8 @@ def sembolleri_yukle():
     # (ortam degiskeni gozetmenden kosucu alt surecine de gecer).
     haric = {h.strip().lower() for h in os.environ.get("MAGICMA_HARIC_LISTE", "").split(",")
              if h.strip()}
+    # cryptobubbles "gunun hareketlileri" kalici olarak rutin taramadan cikarildi (2026-10-09)
+    haric.add("gunun_hareketlileri.txt")
     if haric:
         dosyalar = [p for p in dosyalar if os.path.basename(p).lower() not in haric]
     out, gorulen = [], set()
